@@ -4239,23 +4239,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.75392,
-          45.6026
-        ]
-      },
-      "properties": {
-        "id": 1644080991,
-        "name": "Bourg-Saint-Maurice: N90",
-        "lat": 45.6026,
-        "lon": 6.75392,
-        "altitude": 813
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           5.6808,
           45.18518
         ]
@@ -4266,6 +4249,23 @@
         "lat": 45.18518,
         "lon": 5.6808,
         "altitude": 325
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.75392,
+          45.6026
+        ]
+      },
+      "properties": {
+        "id": 1644080991,
+        "name": "Bourg-Saint-Maurice: N90",
+        "lat": 45.6026,
+        "lon": 6.75392,
+        "altitude": 813
       }
     },
     {
@@ -4470,6 +4470,23 @@
         "lat": 45.28136,
         "lon": 6.34109,
         "altitude": 687
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.61906,
+          44.87511
+        ]
+      },
+      "properties": {
+        "id": 1686683311,
+        "name": "Villar-Saint-Pancrace",
+        "lat": 44.87511,
+        "lon": 6.61906,
+        "altitude": 1182
       }
     },
     {
@@ -6568,23 +6585,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.906,
-          45.48202
-        ]
-      },
-      "properties": {
-        "id": 1728661000,
-        "name": "Tignes: Lo Soli - L'Alpage des Chaudannes",
-        "lat": 45.48202,
-        "lon": 6.906,
-        "altitude": 2418
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           6.16839,
           45.00374
         ]
@@ -6595,6 +6595,23 @@
         "lat": 45.00374,
         "lon": 6.16839,
         "altitude": 2622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.906,
+          45.48202
+        ]
+      },
+      "properties": {
+        "id": 1728661000,
+        "name": "Tignes: Lo Soli - L'Alpage des Chaudannes",
+        "lat": 45.48202,
+        "lon": 6.906,
+        "altitude": 2418
       }
     },
     {
@@ -6959,6 +6976,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          6.40125,
+          45.87552
+        ]
+      },
+      "properties": {
+        "id": 1676023360,
+        "name": "Manigod",
+        "lat": 45.87552,
+        "lon": 6.40125,
+        "altitude": 1425
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.39594,
           45.43036
         ]
@@ -7248,23 +7282,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.52248,
-          45.31502
-        ]
-      },
-      "properties": {
-        "id": 1675774393,
-        "name": "Les Belleville",
-        "lat": 45.31502,
-        "lon": 6.52248,
-        "altitude": 2208
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           6.83805,
           45.93297
         ]
@@ -7275,6 +7292,23 @@
         "lat": 45.93297,
         "lon": 6.83805,
         "altitude": 2358
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.52248,
+          45.31502
+        ]
+      },
+      "properties": {
+        "id": 1675774393,
+        "name": "Les Belleville",
+        "lat": 45.31502,
+        "lon": 6.52248,
+        "altitude": 2208
       }
     },
     {
@@ -7792,23 +7826,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.11602,
-          45.01567
-        ]
-      },
-      "properties": {
-        "id": 1746027106,
-        "name": "Les Deux Alpes: Belambra Clubs \"Les Crêtes\"",
-        "lat": 45.01567,
-        "lon": 6.11602,
-        "altitude": 1825
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           6.57467,
           44.90398
         ]
@@ -7819,6 +7836,23 @@
         "lat": 44.90398,
         "lon": 6.57467,
         "altitude": 2401
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.11602,
+          45.01567
+        ]
+      },
+      "properties": {
+        "id": 1746027106,
+        "name": "Les Deux Alpes: Belambra Clubs \"Les Crêtes\"",
+        "lat": 45.01567,
+        "lon": 6.11602,
+        "altitude": 1825
       }
     },
     {
@@ -7911,6 +7945,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          6.52895,
+          44.92154
+        ]
+      },
+      "properties": {
+        "id": 1758212879,
+        "name": "La Salle-les-Alpes: Col de Méa",
+        "lat": 44.92154,
+        "lon": 6.52895,
+        "altitude": 2246
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.64381,
           44.57073
         ]
@@ -7928,16 +7979,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.86772,
-          44.70063
+          6.63851,
+          45.42404
         ]
       },
       "properties": {
-        "id": 1746027049,
-        "name": "Saint-Véran: Les Forannes: Saint-Véran",
-        "lat": 44.70063,
-        "lon": 6.86772,
-        "altitude": 2038
+        "id": 1760809880,
+        "name": "Courchevel",
+        "lat": 45.42404,
+        "lon": 6.63851,
+        "altitude": 1482
       }
     },
     {
@@ -7962,16 +8013,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.63851,
-          45.42404
+          6.86772,
+          44.70063
         ]
       },
       "properties": {
-        "id": 1760809880,
-        "name": "Courchevel",
-        "lat": 45.42404,
-        "lon": 6.63851,
-        "altitude": 1482
+        "id": 1746027049,
+        "name": "Saint-Véran: Les Forannes: Saint-Véran",
+        "lat": 44.70063,
+        "lon": 6.86772,
+        "altitude": 2038
       }
     },
     {
@@ -8829,23 +8880,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.43309,
-          45.42902
-        ]
-      },
-      "properties": {
-        "id": 1759005714,
-        "name": "Les Belleville: Col du Mottet où de Roche Blanche",
-        "lat": 45.42902,
-        "lon": 6.43309,
-        "altitude": 2391
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           6.65789,
           46.149
         ]
@@ -8856,6 +8890,23 @@
         "lat": 46.149,
         "lon": 6.65789,
         "altitude": 1114
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.43309,
+          45.42902
+        ]
+      },
+      "properties": {
+        "id": 1759005714,
+        "name": "Les Belleville: Col du Mottet où de Roche Blanche",
+        "lat": 45.42902,
+        "lon": 6.43309,
+        "altitude": 2391
       }
     },
     {
@@ -9033,23 +9084,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.69359,
-          45.83691
-        ]
-      },
-      "properties": {
-        "id": 1759963847,
-        "name": "Saint-Gervais-les-Bains: Mont Joly",
-        "lat": 45.83691,
-        "lon": 6.69359,
-        "altitude": 2138
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           6.69597,
           45.78709
         ]
@@ -9060,6 +9094,23 @@
         "lat": 45.78709,
         "lon": 6.69597,
         "altitude": 1862
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.69359,
+          45.83691
+        ]
+      },
+      "properties": {
+        "id": 1759963847,
+        "name": "Saint-Gervais-les-Bains: Mont Joly",
+        "lat": 45.83691,
+        "lon": 6.69359,
+        "altitude": 2138
       }
     },
     {
@@ -9356,6 +9407,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          6.93555,
+          45.96051
+        ]
+      },
+      "properties": {
+        "id": 1751832303,
+        "name": "Chamonix-Mont-Blanc › Est: Les Grands Montets",
+        "lat": 45.96051,
+        "lon": 6.93555,
+        "altitude": 2149
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.68266,
           45.77777
         ]
@@ -9509,23 +9577,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.68364,
-          45.77507
-        ]
-      },
-      "properties": {
-        "id": 1761416804,
-        "name": "Les Contamines-Montjoie › Nord-est: Bûche Croisée",
-        "lat": 45.77507,
-        "lon": 6.68364,
-        "altitude": 2097
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           6.67373,
           45.78328
         ]
@@ -9536,6 +9587,23 @@
         "lat": 45.78328,
         "lon": 6.67373,
         "altitude": 1977
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.68364,
+          45.77507
+        ]
+      },
+      "properties": {
+        "id": 1761416804,
+        "name": "Les Contamines-Montjoie › Nord-est: Bûche Croisée",
+        "lat": 45.77507,
+        "lon": 6.68364,
+        "altitude": 2097
       }
     },
     {
@@ -9577,23 +9645,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.6707,
-          45.78965
-        ]
-      },
-      "properties": {
-        "id": 1761419885,
-        "name": "Les Contamines-Montjoie › Nord-ouest: Domaine Skiable des Contamines Montjoie",
-        "lat": 45.78965,
-        "lon": 6.6707,
-        "altitude": 2013
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           6.77842,
           45.24218
         ]
@@ -9604,6 +9655,23 @@
         "lat": 45.24218,
         "lon": 6.77842,
         "altitude": 1514
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6707,
+          45.78965
+        ]
+      },
+      "properties": {
+        "id": 1761419885,
+        "name": "Les Contamines-Montjoie › Nord-ouest: Domaine Skiable des Contamines Montjoie",
+        "lat": 45.78965,
+        "lon": 6.6707,
+        "altitude": 2013
       }
     },
     {
