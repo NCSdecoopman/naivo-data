@@ -61,7 +61,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/autrans_tremplin.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -103,7 +103,7 @@
         "url_image": "http://www.lescontamines.net/camera/tkchoton.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -165,7 +165,7 @@
         "altitude": 1850,
         "url_image": "http://storage.roundshot.com/543be949abd9a9.98790007/{yyyy}-{mm}-{dd}/{hh}-{ii}-00/{yyyy}-{mm}-{dd}-{hh}-{ii}-00_half.jpg",
         "url_page": "https://www.valdisere.com/webcam/front-de-neige/",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V"
       }
     },
@@ -208,7 +208,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_Autrans_tsf-la-quoi.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -250,7 +250,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/meaudre_front.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -313,7 +313,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/karellis_vinouve.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -333,7 +333,7 @@
         "altitude": 1550,
         "url_image": "https://storage.roundshot.com/543bd2287c28d7.17038128/{yyyy}-{mm}-{dd}/{hh}-{ii}-00/{yyyy}-{mm}-{dd}-{hh}-{ii}-00_default.jpg",
         "url_page": "https://tignes.roundshot.com/brevieres/",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V"
       }
     },
@@ -354,7 +354,7 @@
         "altitude": 3032,
         "url_image": "https://storage.roundshot.com/543bcff0838721.46900857/{yyyy}-{mm}-{dd}/{hh}-{ii}-00/{yyyy}-{mm}-{dd}-{hh}-{ii}-00_default.jpg",
         "url_page": "https://tignes.roundshot.com/grande-motte/",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V"
       }
     },
@@ -417,7 +417,7 @@
         "altitude": 2107,
         "url_image": "https://storage.roundshot.com/543bcf8f4a8106.82703695/{yyyy}-{mm}-{dd}/{hh}-{ii}-00/{yyyy}-{mm}-{dd}-{hh}-{ii}-00_default.jpg",
         "url_page": "https://tignes.roundshot.com/val-claret/",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V"
       }
     },
@@ -481,7 +481,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_la-plagne_bergerie.jpg",
         "url_page": "http://m.webcam-hd.com/webcam-station-la-plagne/bergerie",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -606,7 +606,7 @@
         "altitude": 1828,
         "url_image": "https://storage.roundshot.com/581c64c16ab941.38509337/{yyyy}-{mm}-{dd}/{hh}-{ii}-00/{yyyy}-{mm}-{dd}-{hh}-{ii}-00_default.jpg",
         "url_page": "https://www.valdisere.com/webcam/village/",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V"
       }
     },
@@ -670,7 +670,7 @@
         "url_image": "http://webcams.lecollet.com/imageSC.jpg",
         "url_page": "http://www.lecollet.com",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -712,7 +712,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_st_jean_montclar_la-breche.jpg",
         "url_page": "http://m.webcam-hd.com/st-jean-montclar/la-breche",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -733,7 +733,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/reallon_chabrieres.jpg",
         "url_page": "https://www.reallon-ski.com/webcams-meteo-bulletin-neige-reallon/",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -754,7 +754,7 @@
         "url_image": "http://www.lescontamines.net/camera/belleville.jpg",
         "url_page": "http://www.lescontamines.net/webcam.html",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -775,7 +775,7 @@
         "url_image": "http://www.lescontamines.net/camera/cambuche.jpg",
         "url_page": "http://www.lescontamines.net/webcam.html",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -796,7 +796,7 @@
         "url_image": "http://www.lescontamines.net/camera/lay.jpg",
         "url_page": "http://www.lescontamines.net/webcam.html",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -817,7 +817,7 @@
         "url_image": "http://www.lescontamines.net/camera/camaiguille.jpg",
         "url_page": "http://www.lescontamines.net/webcam.html",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -838,7 +838,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_alpe-du-grand-serre_sommet-serriou.jpg",
         "url_page": "http://www.alpedugrandserre.info",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -943,7 +943,7 @@
         "url_image": "http://www.compagniedumontblanc.fr/webcam/bvt1PPZ.jpg",
         "url_page": "http://www.compagniedumontblanc.fr/webcam/",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -1006,7 +1006,7 @@
         "url_image": "http://www.compagniedumontblanc.fr/webcam/tam_arrete.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -1237,7 +1237,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/1280_valmorel_lanchettes.jpg",
         "url_page": "http://m.webcam-hd.com/valmorel/lanchettes",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -1279,7 +1279,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/montalbert_fornelet.jpg",
         "url_page": "http://m.webcam-hd.com/webcam-station-la-plagne/webcam-montalbert-fornelet",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -1426,7 +1426,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/1280_st-pierre-de-chartreuse_le-planolet.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -1467,7 +1467,7 @@
         "altitude": 2247,
         "url_image": "https://storage.roundshot.com/543beaf5b6cb04.66204435/{yyyy}-{mm}-{dd}/{hh}-{ii}-00/{yyyy}-{mm}-{dd}-{hh}-{ii}-00_half.jpg",
         "url_page": "https://valloire.roundshot.com/setaz/",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V"
       }
     },
@@ -1488,7 +1488,7 @@
         "altitude": 2514,
         "url_image": "https://storage.roundshot.com/543bebb87632e7.31748493/{yyyy}-{mm}-{dd}/{hh}-{ii}-{ss}/{yyyy}-{mm}-{dd}-{hh}-{ii}-{ss}_half.jpg",
         "url_page": "https://valloire.roundshot.com/",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V"
       }
     },
@@ -1530,7 +1530,7 @@
         "altitude": 2440,
         "url_image": "https://storage.roundshot.com/54526824ac78b8.19268277/{yyyy}-{mm}-{dd}/{hh}-{ii}-{ss}/{yyyy}-{mm}-{dd}-{hh}-{ii}-{ss}_half.jpg",
         "url_page": "https://valmeinier.roundshot.com/moneul-creyduquart/",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V"
       }
     },
@@ -1573,7 +1573,7 @@
         "url_image": "https://images.webcam-hd.com/mega_les_saisies_bisanne-panoramique-2000.jpg",
         "url_page": "http://www.lesaisies.com",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -1720,7 +1720,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_gdbornand_maroly.jpg",
         "url_page": "http://m.webcam-hd.com/grand-bornand/maroly",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -1741,7 +1741,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_la-clusaz_bergerie.jpg",
         "url_page": "http://m.webcam-hd.com/la-clusaz/la-bergerie",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -1846,7 +1846,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_la-clusaz_cret-du-loup.jpg",
         "url_page": "http://m.webcam-hd.com/la-clusaz/cret-du-loup",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -1888,7 +1888,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_bernex_front-de-neige.jpg",
         "url_page": "http://m.webcam-hd.com/bernex/front-de-neige",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -1929,7 +1929,7 @@
         "altitude": 1798,
         "url_image": "https://storage.roundshot.com/543bd2924fdf25.37737232/{yyyy}-{mm}-{dd}/{hh}-{ii}-00/{yyyy}-{mm}-{dd}-{hh}-{ii}-00_default.jpg",
         "url_page": "https://tignes.roundshot.com/1800/",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V"
       }
     },
@@ -2077,7 +2077,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_montchavin_les-coches.jpg",
         "url_page": "http://m.webcam-hd.com/webcam-station-la-plagne/montchavin-telebuffette",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -2392,7 +2392,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_bessans_la-bessannaise.jpg",
         "url_page": "http://www.haute-maurienne-vanoise.com/fr/info-live/webcam",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -2475,7 +2475,7 @@
         "altitude": 2040,
         "url_image": "https://www.ruitor.com/refuge_v2/images/glacier/{yy}-{mm}-{dd}_{hh}:10:01-GlacierS0.png",
         "url_page": "https://www.ruitor.com/refuge_v2/accueil/webcam.php?cam=glacier",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V"
       }
     },
@@ -2496,7 +2496,7 @@
         "altitude": 2040,
         "url_image": "https://www.ruitor.com/refuge_v2/images/plateau/{yy}-{mm}-{dd}_{hh}:10:01-PlateauS0.png",
         "url_page": "https://www.ruitor.com/refuge_v2/accueil/webcam.php?cam=plateau",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V"
       }
     },
@@ -2518,7 +2518,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_coeur-de-savoie_la-rochette.jpg",
         "url_page": "http://m.webcam-hd.com/coeur-de-savoie/la-rochette",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -2560,7 +2560,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_la-drome_front-de-neige-font-d-urle.jpg",
         "url_page": "http://www.ladromemontagne.fr/fr/hiver/webcams.htm",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -2581,7 +2581,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_la-drome_font-d-urle.jpg",
         "url_page": "http://www.ladromemontagne.fr/fr/hiver/webcams.htm",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -2623,7 +2623,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_la-drome_front-de-neige-rousset.jpg",
         "url_page": "http://www.ladromemontagne.fr/fr/hiver/webcams.htm",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -2644,7 +2644,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_la-drome_lus-la-jarjatte.jpg",
         "url_page": "http://www.ladromemontagne.fr/fr/hiver/webcams.htm",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -2686,7 +2686,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_orcieres-croze.jpg",
         "url_page": "http://orcieres.labellemontagne.com/hiver/webcam/",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -2707,7 +2707,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_orcieres_1850_sommet-estaris.jpg",
         "url_page": "http://orcieres.labellemontagne.com/hiver/webcam/",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -2791,7 +2791,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_valdallos_front-de-neige.jpg",
         "url_page": "https://www.valdallos.com/webcams.html",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -2812,7 +2812,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_valdallos_village.jpg",
         "url_page": "https://www.valdallos.com/webcams.html",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -2875,7 +2875,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_grand-massif_feulatiere.jpg",
         "url_page": "http://m.webcam-hd.com/grand-massif/feulatiere",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -3043,7 +3043,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_praz_lys_sommand_veran.jpg",
         "url_page": "http://www.prazdelys-sommand.com/ete/webcams-1.html",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -3106,7 +3106,7 @@
         "url_image": "https://coulmes-vercors.com/wp-content/uploads/webcam-belvedere/webcam-belvedere.jpg",
         "url_page": "https://coulmes-vercors.com/#WEBCAMS",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -3127,7 +3127,7 @@
         "url_image": "https://api.holfuy.com/cam/s874.jpg",
         "url_page": "https://holfuy.com/en/camera/874",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -3168,7 +3168,7 @@
         "altitude": 3812,
         "url_image": "https://caf.requea.com/cameras/gouter/cam5/cam5-{yyyy}{mm}{dd}{hh}{ii}.jpg",
         "url_page": "https://refugedugouter.ffcam.fr/FR_en-images.html",
-        "statut_enligne": "E",
+        "statut_enligne": "H",
         "statut_variable": "V"
       }
     },
@@ -3210,7 +3210,7 @@
         "altitude": 3812,
         "url_image": "https://caf.requea.com/cameras/gouter/cam2/cam2-{yyyy}{mm}{dd}{hh}{ii}.jpg",
         "url_page": "https://refugedugouter.ffcam.fr/FR_en-images.html",
-        "statut_enligne": "E",
+        "statut_enligne": "H",
         "statut_variable": "V"
       }
     },
@@ -3358,7 +3358,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_les_saisies_bellasta.jpg",
         "url_page": "https://m.webcam-hd.com/les-saisies/bellasta",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -3442,7 +3442,7 @@
         "url_image": "https://www.lescontamines.net/camera/signalhd.jpg",
         "url_page": "https://www.lescontamines.net/panorama/signalhd.html",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -3463,7 +3463,7 @@
         "url_image": "https://www.lescontamines.net/camera/panocol.jpg",
         "url_page": "https://www.lescontamines.net/panorama/col.html",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -3484,7 +3484,7 @@
         "url_image": "https://www.lescontamines.net/camera/ruellehd.jpg",
         "url_page": "https://www.lescontamines.net/panorama/ruellehd.html",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -3505,7 +3505,7 @@
         "url_image": "https://www.lescontamines.net/camera/tcgorge.jpg",
         "url_page": "http://www.lescontamines.net/webcam.html",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -3526,7 +3526,7 @@
         "url_image": "https://www.lescontamines.net/camera/parapente.jpg",
         "url_page": "http://www.lescontamines.net/webcam.html",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -3547,7 +3547,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_la-clusaz_col-de-balme.jpg",
         "url_page": "https://app.webcam-hd.com/la-clusaz/col-de-balme",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -3568,7 +3568,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_chatel_morclan.jpg",
         "url_page": "https://www.chatel.com/webcams.html",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -3589,7 +3589,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_chatel_village.jpg",
         "url_page": "https://www.chatel.com/webcams.html",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -3631,7 +3631,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_st-gervais_epaule.jpg",
         "url_page": "https://www.saintgervais.com/la-station/infos-pratiques/webcams",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -4009,7 +4009,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_snow-park.jpg",
         "url_page": "https://app.webcam-hd.com/la-clusaz/snow-park",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -4030,7 +4030,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_la-clusaz_etale.jpg",
         "url_page": "https://www.laclusaz.com/webcams-laclusaz.html",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -4072,7 +4072,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_sevrier_base-nautique.jpg",
         "url_page": "http://m.webcam-hd.com/sevrier/base-nautique",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -4093,7 +4093,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_hotel-acacias_acacias.jpg",
         "url_page": "http://m.webcam-hd.com/hotel-acacias/webcam-acacias-annecy",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -4240,7 +4240,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_ste-foy-tarentaise_sommet-aiguille.jpg",
         "url_page": "https://m.webcam-hd.com/ste-foy-tarentaise/sommet-aiguille",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -4261,7 +4261,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_ste-foy-tarentaise_ts-de-la-marquise.jpg",
         "url_page": "https://m.webcam-hd.com/ste-foy-tarentaise/ts-de-la-marquise",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -4345,7 +4345,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_station-d-orange_bob-luge.jpg",
         "url_page": "http://m.webcam-hd.com/station-d-orange/base-de-loisirs",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -4366,7 +4366,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/areches-beaufort_planay.jpg",
         "url_page": "https://app.webcam-hd.com/areches-beaufort/planay",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -4416,6 +4416,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          6.93274284,
+          44.09718805
+        ]
+      },
+      "properties": {
+        "id": 2635,
+        "name": "Valberg - Village",
+        "lat": 44.09718805,
+        "lon": 6.93274284,
+        "altitude": 1723,
+        "url_image": "https://www.trinum.com/ibox/ftpcam/valberg_leysin.jpg",
+        "url_page": "https://app.webcam-hd.com/valberg/leysin",
+        "statut_enligne": "E",
+        "statut_variable": "V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           5.76767847,
           44.67219546
         ]
@@ -4429,7 +4450,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/la-drome_piste-du-lievre-blanc.jpg",
         "url_page": "https://app.webcam-hd.com/la-drome/piste-lievre-blanc",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -4450,7 +4471,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/la-drome_herbouilly.jpg",
         "url_page": "https://app.webcam-hd.com/la-drome/la-drome_herbouilly",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -4660,7 +4681,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_correncon_plateau.jpg",
         "url_page": "https://www.villarddelans-correnconenvercors.com/live/webcams/",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -4681,7 +4702,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_correncon-en-vercors_stand-de-tir.jpg",
         "url_page": "https://www.villarddelans-correnconenvercors.com/live/webcams/",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -4765,7 +4786,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_meaudre_fond.jpg",
         "url_page": "https://station.autrans-meaudre.fr/fr/webcams/",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -4786,7 +4807,7 @@
         "url_image": "https://cretdupoulet.epok.network/camera/cret_du_poulet.jpg",
         "url_page": "https://www.barioz.fr/#webcam",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -4891,7 +4912,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_les-rhodos_col-des-aravis.jpg",
         "url_page": "http://m.webcam-hd.com/les-rhodos/col-des-aravis",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -5164,7 +5185,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/la-chapelle_braitaz.jpg",
         "url_page": "https://app.webcam-hd.com/la-chapelle/braitaz",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -5205,7 +5226,7 @@
         "altitude": 2685,
         "url_image": "https://static.st-martin-belleville.com/medias/webcam/1080/roc-des-3-marches-{yyyy}{mm}{dd}{hh}{ii}.jpg",
         "url_page": "https://st-martin-belleville.com/fr/webcam-roc-des-3-marches",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V"
       }
     },
@@ -5248,7 +5269,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/pralognan_newbochor.jpg",
         "url_page": "https://app.webcam-hd.com/pralognan/mont-bochor",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -5311,7 +5332,7 @@
         "url_image": "https://api.skaping.com/clSP-P998-MHFx-kAQx-lT9A/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/serrechevalier/monetier",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -5479,7 +5500,7 @@
         "url_image": "https://api.skaping.com/3MhdR-NcGOW-t70O6-Jqo1M/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/alpedhuez/auris",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -5605,7 +5626,7 @@
         "url_image": "https://api.skaping.com/gRFpK-AN8ws-tCxF3-cJiW1/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/lagrave/2400m",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -6046,7 +6067,7 @@
         "url_image": "https://api.skaping.com/7tWfs-G599K-PJyiE-mTThI/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/rocdenfer",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -6088,7 +6109,7 @@
         "url_image": "https://api.skaping.com/RwG3k-rmnHA-mK6y9-coMkh/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/portes-du-soleil/les-gets",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -6109,7 +6130,7 @@
         "url_image": "https://api.skaping.com/vXcCs-qcLmn-3KBOM-5tWaL/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/la-giettaz/sommet",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -6151,7 +6172,7 @@
         "url_image": "https://api.skaping.com/xoFDb-sVfOs-bWZ2j-ttUa1/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/les7laux/prapoutel/sommetdesbouquetins",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -6193,7 +6214,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/autrans-meaudre_auberge-poya.jpg",
         "url_page": "https://webcams-vercors.com/destination/autrans/",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -6256,7 +6277,7 @@
         "url_image": "https://www.lescontamines.net/camera/uhd-vorachere.jpg",
         "url_page": "https://www.lescontamines.net/webcam-91.html",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -6277,7 +6298,7 @@
         "url_image": "https://www.lescontamines.net/camera/filebuche.jpg",
         "url_page": "https://www.lescontamines.net/webcam-135.html",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -6382,7 +6403,7 @@
         "url_image": "https://api.skaping.com/rDH4i-Aw6DQ-tOpyG-eps0Y/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/saint-francois-longchamp/le-frene",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -6403,7 +6424,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/semnoz_parking-sud-versant-bauges.jpg",
         "url_page": "https://app.webcam-hd.com/semnoz/sud_bauges",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -6550,7 +6571,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/st-dalmas-le-selvage_mairie.jpg",
         "url_page": "https://www.stationsnicecotedazur.com/fr/webcam/st-dalmas/mairie/",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -6571,7 +6592,7 @@
         "url_image": "https://api.skaping.com/nm7zX-hmfER-kDVAy-DO2Vs/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/valdisere/refuge-du-prariond",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -6655,7 +6676,7 @@
         "url_image": "https://www.vision-environnement.com/live/modules/timelapse/capture/pelvouxnordic.jpg",
         "url_page": "https://www.nordicalpesdusud.com/domaines/vallouise-pelvoux-les-vigneaux#section_domaine_tabs",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -6697,7 +6718,7 @@
         "url_image": "https://live.neos360.com/queyras/fixes/veran.jpg",
         "url_page": "https://lequeyras.com/webcams/",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -6739,7 +6760,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/risoul_sommet-razis.jpg",
         "url_page": "https://app.webcam-hd.com/risoul/sommet-razis",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -6865,7 +6886,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/agy_centrenordiqueagy.jpg",
         "url_page": "https://app.webcam-hd.com/agy/centrenordiqueagy",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -7440,27 +7461,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.614596,
-          45.405917
-        ]
-      },
-      "properties": {
-        "id": 3859,
-        "name": "Courchevel - Chenus",
-        "lat": 45.405917,
-        "lon": 6.614596,
-        "altitude": 0,
-        "url_image": "https://api.skaping.com/SUG72-Cfbw4-pUxuG-q6Kce/media/latest/thumb.jpg",
-        "url_page": "https://www.skaping.com/courchevel/chenus",
-        "statut_enligne": "E",
-        "statut_variable": "F"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           6.632688,
           45.415079
         ]
@@ -7894,7 +7894,7 @@
         "url_image": "https://api.skaping.com/NDjZ1-GJ4ZO-DqtuE-KcJvM/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/lac-d-aiguebelette/st-alban",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -8755,7 +8755,7 @@
         "url_image": "https://api.skaping.com/htG8g-HSUy6-ttacQ-tFD1V/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/portes-du-soleil/morzine",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -8797,7 +8797,7 @@
         "url_image": "https://api.skaping.com/4xXw7-7uXmX-LVjiN-1yeQG/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/pra-loup/peguieou",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -9028,7 +9028,7 @@
         "url_image": "https://api.skaping.com/dz2nM-NcxpN-GiqmG-xfuVT/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/monetier-les-bains/refuge-clot-vaches",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -9490,7 +9490,7 @@
         "url_image": "https://api.skaping.com/MaOwW-9Vyl8-aV1pE-p4FP0/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/villar-d-arene/arsine",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -9574,7 +9574,7 @@
         "url_image": "https://api.skaping.com/VlzTW-WE7Gn-ekTyH-uS8Ja/media/latest/thumb.mp4",
         "url_page": "https://www.skaping.com/les-menuires/bruyeres/video",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -9700,7 +9700,7 @@
         "url_image": "https://api.skaping.com/H0W8i-Ou6DP-32cpE-oNcxr/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/megeve/fontaine",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -9721,7 +9721,7 @@
         "url_image": "https://api.skaping.com/xIWKN-fWfOQ-9jI6d-LVpQD/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/megeve/mont-d-arbois",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -9763,7 +9763,7 @@
         "url_image": "https://api.skaping.com/ZHUZ4-rmgEI-Ia45X-i3Jgq/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/megeve/rochebrune",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -9868,7 +9868,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_lescarroz_pointe-de-cupoire.jpg",
         "url_page": "https://app.webcam-hd.com/lescarroz/pointe-de-cupoire",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -10099,7 +10099,7 @@
         "url_image": "https://api.skaping.com/NtQmA-QcZSb-RaeWE-XgJX6/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/aussois/domaine-nordique-du-monolithe",
         "statut_enligne": "E",
-        "statut_variable": "F"
+        "statut_variable": "V"
       }
     },
     {
@@ -10183,7 +10183,7 @@
         "url_image": "https://api.skaping.com/2gUqi-p9lYX-Jbt5V-5LJfy/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/sources-du-lac-annecy/douss-plage",
         "statut_enligne": "E",
-        "statut_variable": "V"
+        "statut_variable": "F"
       }
     },
     {
@@ -10203,6 +10203,111 @@
         "altitude": 1479,
         "url_image": "https://api.skaping.com/7tGEs-g5P8S-4JwiN-wTSoq/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/aussois/le-village",
+        "statut_enligne": "E",
+        "statut_variable": "V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.61523178,
+          44.24130426
+        ]
+      },
+      "properties": {
+        "id": 4471,
+        "name": "Val d'Allos - Seignus bas",
+        "lat": 44.24130426,
+        "lon": 6.61523178,
+        "altitude": 1519,
+        "url_image": "https://www.trinum.com/ibox/ftpcam/mega_valdallos_seignus-bas.jpg",
+        "url_page": "https://app.webcam-hd.com/valdallos/seignus-bas",
+        "statut_enligne": "E",
+        "statut_variable": "V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.61001885,
+          44.2305388
+        ]
+      },
+      "properties": {
+        "id": 4472,
+        "name": "Val d'Allos - Seignus haut",
+        "lat": 44.2305388,
+        "lon": 6.61001885,
+        "altitude": 1904,
+        "url_image": "https://www.trinum.com/ibox/ftpcam/mega_valdallos_seignus-haut.jpg",
+        "url_page": "https://app.webcam-hd.com/valdallos/seignus-haut",
+        "statut_enligne": "E",
+        "statut_variable": "V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.55098305,
+          44.28544368
+        ]
+      },
+      "properties": {
+        "id": 4473,
+        "name": "La Foux d'Allos - Départ TS Observatoire",
+        "lat": 44.28544368,
+        "lon": 6.55098305,
+        "altitude": 2143,
+        "url_image": "https://www.trinum.com/ibox/ftpcam/mega_valdallos_observatoire.jpg",
+        "url_page": "https://app.webcam-hd.com/valdallos/observatoire",
+        "statut_enligne": "E",
+        "statut_variable": "V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.59074218,
+          44.29351898
+        ]
+      },
+      "properties": {
+        "id": 4474,
+        "name": "La Foux d'Allos - Sommet Marin Pascal",
+        "lat": 44.29351898,
+        "lon": 6.59074218,
+        "altitude": 2343,
+        "url_image": "https://www.trinum.com/ibox/ftpcam/mega_valdallos_sommet-marin-pascal.jpg",
+        "url_page": "https://app.webcam-hd.com/valdallos/sommet-marin-pascal",
+        "statut_enligne": "E",
+        "statut_variable": "V"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9412268,
+          44.07480463
+        ]
+      },
+      "properties": {
+        "id": 4477,
+        "name": "Valberg - Eguilles",
+        "lat": 44.07480463,
+        "lon": 6.9412268,
+        "altitude": 1880,
+        "url_image": "https://www.trinum.com/ibox/ftpcam/mega_valberg_sommet-tete-des-eguilles.jpg",
+        "url_page": "https://app.webcam-hd.com/valberg/sommet-tete-des-eguilles",
         "statut_enligne": "E",
         "statut_variable": "V"
       }
