@@ -383,7 +383,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/correncon_rambins.jpg",
         "url_page": "https://m.webcam-hd.com/correncon-en-vercors/rambins",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -775,7 +775,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_semnoz_versant-annecy.jpg",
         "url_page": "https://app1.webcam-hd.com/semnoz",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -3413,8 +3413,8 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 2685,
-        "hauteur": 1467
+        "largeur": 2034,
+        "hauteur": 1464
       }
     },
     {
@@ -4246,7 +4246,7 @@
         "altitude": 3822,
         "url_image": "https://caf.requea.com/cameras/gouter/cam8/cam8-{yyyy}{mm}{dd}{hh}{ii}.jpg",
         "url_page": "https://refugedugouter.ffcam.fr/FR_en-images.html",
-        "statut_enligne": "E",
+        "statut_enligne": "H",
         "statut_variable": "V",
         "periodicite": 1,
         "decalage_periodicite": 0,
@@ -4527,7 +4527,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_st-leger_front-de-neige.jpg",
         "url_page": "https://app.webcam-hd.com/st-leger/front-de-neige",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -4863,7 +4863,7 @@
         "url_image": "http://www.acalbertville.com/webcam/lfka.jpg",
         "url_page": "http://www.acalbertville.com/webcam/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -4891,7 +4891,7 @@
         "url_image": "http://www.acalbertville.com/webcam/coldetamie.jpg",
         "url_page": "http://www.acalbertville.com/webcam/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5317,8 +5317,8 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 2688,
-        "hauteur": 1520
+        "largeur": 2685,
+        "hauteur": 1483
       }
     },
     {
@@ -6095,7 +6095,7 @@
         "url_image": "http://jean-max.fr//webcams/EEECam.jpg",
         "url_page": "https://www.acrv.org/webcams/",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -6795,7 +6795,7 @@
         "url_image": "http://www.acalbertville.com/webcam/finalerwy05.jpg",
         "url_page": "http://www.acalbertville.com/webcam/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -7803,7 +7803,7 @@
         "url_image": "https://api.skaping.com/GJJVR-xsghn-qZxTe-cZpf6/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/montriond/lac",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -7915,7 +7915,7 @@
         "url_image": "https://api.skaping.com/8cN23-FUOZb-ULvYb-2Bmrt/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/valloire/crey-du-quart",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -8251,7 +8251,7 @@
         "url_image": "https://api.skaping.com/q0mcy-NowOW-A1Yyf-RJJiq/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/vars/peynier",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -9203,7 +9203,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/agy_centrenordiqueagy.jpg",
         "url_page": "https://app.webcam-hd.com/agy/centrenordiqueagy",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -9974,6 +9974,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          6.614596,
+          45.405917
+        ]
+      },
+      "properties": {
+        "id": 3859,
+        "name": "Courchevel - Chenus",
+        "lat": 45.405917,
+        "lon": 6.614596,
+        "altitude": 0,
+        "url_image": "https://api.skaping.com/SUG72-Cfbw4-pUxuG-q6Kce/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/courchevel/chenus",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 666,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.632688,
           45.415079
         ]
@@ -10547,7 +10575,7 @@
         "url_image": "https://api.skaping.com/NDjZ1-GJ4ZO-DqtuE-KcJvM/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/lac-d-aiguebelette/st-alban",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -10771,7 +10799,7 @@
         "url_image": "https://api.skaping.com/XW3jS-HUmJL-YLxZB-rwTxB/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/les2alpes/bellecombe",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -10932,7 +10960,7 @@
       },
       "properties": {
         "id": 4001,
-        "name": "Aillons-Margériaz 1000",
+        "name": "Val d'Aillon (Aillons-Margériaz 1000)",
         "lat": 45.608229,
         "lon": 6.101899,
         "altitude": 941,
@@ -10960,7 +10988,7 @@
       },
       "properties": {
         "id": 4002,
-        "name": "Aillons-Margeriaz - 1400",
+        "name": "Front de neige Aillons Margériaz",
         "lat": 45.64242059,
         "lon": 6.0619936,
         "altitude": 1396,
@@ -11247,13 +11275,13 @@
         "url_image": "https://api.skaping.com/ZDiQZ-ikTEo-FoU0J-lsJ1W/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/les-menuires/les-enverses",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 976,
+        "largeur": 966,
         "hauteur": 180
       }
     },
@@ -11275,7 +11303,7 @@
         "url_image": "https://api.skaping.com/QP7lQ-UmXZ7-ZyTFE-RH05p/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/les-orres/pousterle",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11723,7 +11751,7 @@
         "url_image": "https://api.skaping.com/mDABy-dwlHp-l22uH-5f2up/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/pra-loup/molanes",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11751,7 +11779,7 @@
         "url_image": "https://api.skaping.com/4xXw7-7uXmX-LVjiN-1yeQG/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/pra-loup/peguieou",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11934,6 +11962,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          6.69841591,
+          46.03163821
+        ]
+      },
+      "properties": {
+        "id": 4195,
+        "name": "Grand Massif - Samoëns - Tête des Saix - 2120m",
+        "lat": 46.03163821,
+        "lon": 6.69841591,
+        "altitude": 2090,
+        "url_image": "https://api.skaping.com/UZGGC-53hO1-l44tV-oLo4Y/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/tete-des-saix",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 919,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           5.777565,
           45.260089
         ]
@@ -11947,7 +12003,7 @@
         "url_image": "https://api.skaping.com/iYXG8-sNNmk-JSTz7-TLPB6/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/sappey-en-chartreuse",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -12479,7 +12535,7 @@
         "url_image": "https://api.skaping.com/SdG4s-4vkBV-Ti6rE-nOFaz/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/vars/chabrieres",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -12983,7 +13039,7 @@
         "url_image": "https://api.skaping.com/QKjRp-8iiJQ-A8ToG-gJzZL/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/megeve/lac-d-arbois",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13487,7 +13543,7 @@
         "url_image": "https://api.skaping.com/nmFJ3-1cfsC-7JEuG-oVMw6/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/aussois/sommet-grand-jeu",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
