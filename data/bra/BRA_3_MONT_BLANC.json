@@ -1,4 +1,5 @@
 {
+  "schema_version": 2,
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
@@ -7,29 +8,59 @@
     "amended": false
   },
   "evalbra": {
-    "1_risk_scale": {
+    "risk": {
       "max_level": 2,
-      "icon_key": "risk-2"
-    },
-    "2_risk_location": {
-      "altitude_threshold_m": 2300,
-      "bands": [
-        {
-          "label": "<2300",
-          "min_m": null,
-          "max_m": 2300,
-          "level": 1
+      "comment": "Au-dessus de 2300m indice de risque limité, plus bas indice faible.",
+      "localization": {
+        "type": "altitude",
+        "threshold_m": 2300,
+        "split_axis": "horizontal",
+        "split_label": "2300m",
+        "zones": [
+          {
+            "id": "zone1",
+            "loc": "<2300",
+            "risk": 1,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2300",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "top"
+          }
+        ]
+      },
+      "pictogram": {
+        "template": "mf_mountain_risk_v1",
+        "split": {
+          "axis": "horizontal",
+          "label": "2300m"
         },
-        {
-          "label": ">2300",
-          "min_m": 2300,
-          "max_m": null,
-          "level": 2
+        "zones": {
+          "bottom": {
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          }
         }
-      ],
-      "icon_key": "risk-location"
+      },
+      "j2": {
+        "max_level": 2,
+        "date": "2026-01-04",
+        "label": "Indice de risque limité",
+        "comment": "Le vent d'ouest se poursuit et continue de former des plaques.",
+        "trend": "steady"
+      }
     },
-    "3_dangerous_aspects": {
+    "dangerous_aspects": {
       "aspects": {
         "N": true,
         "NE": true,
@@ -42,7 +73,7 @@
       },
       "icon_key": "rose-aspects"
     },
-    "4_sat": {
+    "sat": {
       "primary": 2,
       "secondary": 3,
       "labels": {
@@ -51,7 +82,7 @@
       },
       "icon_key": "sat-2"
     },
-    "5_precip_cumulated": {
+    "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
@@ -91,16 +122,16 @@
       },
       "icon_key": "snowfall"
     },
-    "6_stability": {
+    "stability": {
       "title": "En altitude, plaque à vent formées par le vent d'Ouest.",
       "text": "En altitude, plaque à vent formées par le vent d'Ouest.\n\nDéclenchements provoqués : Au-dessus de 2300 m : plaques à vent se sont formées avec le vent d'ouest de jeudi et continuent de se former vendredi. Elles sont moins nombreuses à ces altitudes mais réactives (elles reposent sur des grains anguleux). Elles sont plus présentes et épaisses en altitude. Taille 1 à 2 (petite à moyenne). Le risque est moindre côté Aiguille Rouge que côté Mont Blanc. À ça se rajoute, dans les versants froids, une couche fragile persistante qui est enfouie sous 70/90 cm. Elle ne semble pas vraiment sollicitable par un skieur. Attention aux fortes sollicitations (chutes de séracs, avalanches en cascade, etc …). Taille 2 (moyenne).\nObservables : vaguelettes, zones d'accumulation, fissures devant les skis…  \n\nDéparts spontanés : Peu probables. Très rares plaques de fond dans les pentes lisses et raides. Taille 1 (petite).\n\nAutre : Risque de glissade ou de dévissage sur la neige dure regelée.",
       "icon_key": "stability"
     },
-    "7_snow_quality": {
+    "snow_quality": {
       "text": "Enneigement :\nDéficitaire pour la saison à toutes altitudes. On peut chausser les skis au-dessus de 1500 m dans les versants N, 1800 m dans les versants S.\n\nQualité de la neige samedi :\n* Sous 2500 m : neige variable, ventée par endroit et croutée ( plus/moins épaisse). Dessous la croûte, la neige est meuble et froide (grains anguleux). Dans les orientations sud raides, la croûte ramollit en surface et donne une neige de printemps sur le créneau ensoleillé. La neige ne décaille pas en sud sur les secteurs moins raides.\n* Au-dessus de 2500 m : la neige est dure et ventée, plus haut, des secteurs plus agréable. \n* Les arêtes et les crêtes sont dégarnies.",
       "icon_key": "snow-quality"
     },
-    "8_snowpack": {
+    "snowpack": {
       "limits_m": {
         "north": 1300,
         "south": 1600
@@ -123,12 +154,6 @@
         }
       ],
       "icon_key": "snowpack"
-    },
-    "9_trend": {
-      "tomorrow_max_level": 2,
-      "direction": "steady",
-      "text": "Le vent d'ouest se poursuit et continue de former des plaques.",
-      "icon_key": "trend-steady"
     }
   }
 }

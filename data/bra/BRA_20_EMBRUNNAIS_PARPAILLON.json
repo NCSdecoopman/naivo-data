@@ -1,4 +1,5 @@
 {
+  "schema_version": 2,
   "massif": "Embrunnais Parpaillon",
   "bulletin": {
     "id": 20,
@@ -7,29 +8,59 @@
     "amended": false
   },
   "evalbra": {
-    "1_risk_scale": {
+    "risk": {
       "max_level": 2,
-      "icon_key": "risk-2"
-    },
-    "2_risk_location": {
-      "altitude_threshold_m": 2200,
-      "bands": [
-        {
-          "label": "<2200",
-          "min_m": null,
-          "max_m": 2200,
-          "level": 1
+      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
+      "localization": {
+        "type": "altitude",
+        "threshold_m": 2200,
+        "split_axis": "horizontal",
+        "split_label": "2200m",
+        "zones": [
+          {
+            "id": "zone1",
+            "loc": "<2200",
+            "risk": 1,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2200",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "top"
+          }
+        ]
+      },
+      "pictogram": {
+        "template": "mf_mountain_risk_v1",
+        "split": {
+          "axis": "horizontal",
+          "label": "2200m"
         },
-        {
-          "label": ">2200",
-          "min_m": 2200,
-          "max_m": null,
-          "level": 2
+        "zones": {
+          "bottom": {
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          }
         }
-      ],
-      "icon_key": "risk-location"
+      },
+      "j2": {
+        "max_level": 2,
+        "date": "2026-01-04",
+        "label": "Indice de risque limité",
+        "comment": "Maintien d'un risque limité avec les petites plaques formées par le vent de nord-ouest qui peuvent être encore faciles à déclencher.",
+        "trend": "steady"
+      }
     },
-    "3_dangerous_aspects": {
+    "dangerous_aspects": {
       "aspects": {
         "N": true,
         "NE": true,
@@ -42,7 +73,7 @@
       },
       "icon_key": "rose-aspects"
     },
-    "4_sat": {
+    "sat": {
       "primary": 2,
       "secondary": 3,
       "labels": {
@@ -51,7 +82,7 @@
       },
       "icon_key": "sat-2"
     },
-    "5_precip_cumulated": {
+    "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
@@ -91,16 +122,16 @@
       },
       "icon_key": "snowfall"
     },
-    "6_stability": {
+    "stability": {
       "title": "MINCES PLAQUES EN PLACE ET EN FORMATION EN ALTITUDE",
       "text": "MINCES PLAQUES EN PLACE ET EN FORMATION EN ALTITUDE\n\nDéclenchements provoqués : plaques en place au dessus de 2200 m et d'autres en formation sous l'action du vent de nord-ouest qui reste fort jusqu'à samedi matin. Elles sont facilement identifiables dans les zones d'accumulations et ruptures de pentes, parfois loin des crêtes. D'aspect durci par le vent, elles peuvent être faciles à déclencher, mais peu épaisses et de petite taille (taille 1). En de rares pentes d'altitude en orientations ouest, nord et est, la rupture d'une couche fragile persistante enfouie est possible, même à distance, engendrant ainsi des avalanches de grande largeur, mobilisant de plus grands volumes de neige (taille 2). \n\nDéparts spontanés : généralement peu probables, une petite avalanche provoquée par surcharge due au vent n'est pas exclue. \n\nAutres : surfaces parfois très dures, le restant même au soleil compte tenu de l'air très sec et froid en altitude.",
       "icon_key": "stability"
     },
-    "7_snow_quality": {
+    "snow_quality": {
       "text": "L'enneigement est très déficitaire pour la saison.\nOn relève seulement une vingtaine de cm vers 2000 m et 22 cm de neige à la Nivôse du Parpaillon à 2545 m (secteur venté).\n\nLimite d'enneigement skiable vers 1700/1800 m en ubacs sur pente herbeuse ou piste forestière, mais enneigement souvent faible en dessous de 2000 m. Versants ensoleillés souvent très peu enneigés jusqu'à haute altitude.\n\nÉtat de la neige de surface : manteau neigeux ancien et dense.Neige croûtée ou très dure sous 2000/2200 m, souvent travaillé par le vent en altitude au dessus. On trouve encore de la neige d'aspect récent dans de rares pentes abritées du vent. Rochers restant peu enfouis.",
       "icon_key": "snow-quality"
     },
-    "8_snowpack": {
+    "snowpack": {
       "limits_m": {
         "north": 1600,
         "south": 2100
@@ -123,12 +154,6 @@
         }
       ],
       "icon_key": "snowpack"
-    },
-    "9_trend": {
-      "tomorrow_max_level": 2,
-      "direction": "steady",
-      "text": "Maintien d'un risque limité avec les petites plaques formées par le vent de nord-ouest qui peuvent être encore faciles à déclencher.",
-      "icon_key": "trend-steady"
     }
   }
 }

@@ -1,4 +1,5 @@
 {
+  "schema_version": 2,
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
@@ -7,29 +8,59 @@
     "amended": false
   },
   "evalbra": {
-    "1_risk_scale": {
+    "risk": {
       "max_level": 2,
-      "icon_key": "risk-2"
-    },
-    "2_risk_location": {
-      "altitude_threshold_m": 2500,
-      "bands": [
-        {
-          "label": "<2500",
-          "min_m": null,
-          "max_m": 2500,
-          "level": 1
+      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
+      "localization": {
+        "type": "altitude",
+        "threshold_m": 2500,
+        "split_axis": "horizontal",
+        "split_label": "2500m",
+        "zones": [
+          {
+            "id": "zone1",
+            "loc": "<2500",
+            "risk": 1,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2500",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "top"
+          }
+        ]
+      },
+      "pictogram": {
+        "template": "mf_mountain_risk_v1",
+        "split": {
+          "axis": "horizontal",
+          "label": "2500m"
         },
-        {
-          "label": ">2500",
-          "min_m": 2500,
-          "max_m": null,
-          "level": 2
+        "zones": {
+          "bottom": {
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          }
         }
-      ],
-      "icon_key": "risk-location"
+      },
+      "j2": {
+        "max_level": 2,
+        "date": "2026-01-04",
+        "label": "Indice de risque limité",
+        "comment": "Dimanche, pas d'évolution significative de la situation nivologique.",
+        "trend": "steady"
+      }
     },
-    "3_dangerous_aspects": {
+    "dangerous_aspects": {
       "aspects": {
         "N": true,
         "NE": true,
@@ -42,7 +73,7 @@
       },
       "icon_key": "rose-aspects"
     },
-    "4_sat": {
+    "sat": {
       "primary": 2,
       "secondary": null,
       "labels": {
@@ -50,7 +81,7 @@
       },
       "icon_key": "sat-2"
     },
-    "5_precip_cumulated": {
+    "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
@@ -90,16 +121,16 @@
       },
       "icon_key": "snowfall"
     },
-    "6_stability": {
+    "stability": {
       "title": "Petites accumulations de neige soufflée dues au vent d'est.",
       "text": "Petites accumulations de neige soufflée dues au vent d'est.\n\nDéclenchements provoqués : ils sont limités aux versants froids de haute altitude du massif. Il s'agit de plaques fines et de dimension probablement modeste, formées par vent d'est pour les plus anciennes et par vent d'ouest pour les plus récentes. Elles sont peu nombreuses et détectables en observant les zones d'accumulation.\n\nDéparts spontanés : peu probables.",
       "icon_key": "stability"
     },
-    "7_snow_quality": {
+    "snow_quality": {
       "text": "Qualification de l’enneigement : l'enneigement est médiocre voire franchement mauvais pour la saison, notamment en versant Sud et en moyenne montagne. Il est un peu meilleur en combe Nord au dessus de 2800 m. \nLimites skiables à partir de 1500/2000 m selon les versants.\n\nQualité de la neige samedi : la plupart du temps veille neige dense ou croûtée ou très dure, surtout sous 2000 m. Au-dessus, on trouve principalement de la neige ancienne souvent densifiée par le vent. Les crêtes et certaines pentes sont parfois totalement pelées.",
       "icon_key": "snow-quality"
     },
-    "8_snowpack": {
+    "snowpack": {
       "limits_m": {
         "north": 1500,
         "south": 1900
@@ -122,12 +153,6 @@
         }
       ],
       "icon_key": "snowpack"
-    },
-    "9_trend": {
-      "tomorrow_max_level": 2,
-      "direction": "steady",
-      "text": "Dimanche, pas d'évolution significative de la situation nivologique.",
-      "icon_key": "trend-steady"
     }
   }
 }

@@ -1,4 +1,5 @@
 {
+  "schema_version": 2,
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
@@ -7,12 +8,47 @@
     "amended": false
   },
   "evalbra": {
-    "1_risk_scale": {
+    "risk": {
       "max_level": 1,
-      "icon_key": "risk-1"
+      "comment": "Indice de risque faible.",
+      "localization": {
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
+        "zones": [
+          {
+            "id": "zone1",
+            "loc": null,
+            "risk": 1,
+            "evolution_to": null,
+            "position": null
+          }
+        ]
+      },
+      "pictogram": {
+        "template": "mf_mountain_risk_v1",
+        "split": {
+          "axis": null,
+          "label": null
+        },
+        "zones": {
+          "center": {
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
+          }
+        }
+      },
+      "j2": {
+        "max_level": 1,
+        "date": "2026-01-04",
+        "label": "Indice de risque faible",
+        "comment": "Dimanche, pas d'évolution significative de la situation nivologique.",
+        "trend": "steady"
+      }
     },
-    "2_risk_location": null,
-    "3_dangerous_aspects": {
+    "dangerous_aspects": {
       "aspects": {
         "N": false,
         "NE": false,
@@ -25,7 +61,7 @@
       },
       "icon_key": "rose-aspects"
     },
-    "4_sat": {
+    "sat": {
       "primary": 6,
       "secondary": null,
       "labels": {
@@ -33,7 +69,7 @@
       },
       "icon_key": "sat-6"
     },
-    "5_precip_cumulated": {
+    "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
@@ -73,16 +109,16 @@
       },
       "icon_key": "snowfall"
     },
-    "6_stability": {
+    "stability": {
       "title": "PEU DE NEIGE, MANTEAU STABLE",
       "text": "PEU DE NEIGE, MANTEAU STABLE\n\nDéclenchements provoqués : l'enneigement est faible et le manteau neigeux bien stabilisé. Il semble difficile d'envisager un déclenchement accidentel par un skieur.\n\nDéparts spontanés : peu probables.",
       "icon_key": "stability"
     },
-    "7_snow_quality": {
+    "snow_quality": {
       "text": "Qualification de l’enneigement : l'enneigement est déficitaire. Limites skiables (avec précautions) à partir de 1500/1800 m selon le versant.\n\nQualité de la neige samedi : neige regelée voire très dure ou parfois soufflée.",
       "icon_key": "snow-quality"
     },
-    "8_snowpack": {
+    "snowpack": {
       "limits_m": {
         "north": 1300,
         "south": 1900
@@ -105,12 +141,6 @@
         }
       ],
       "icon_key": "snowpack"
-    },
-    "9_trend": {
-      "tomorrow_max_level": 1,
-      "direction": "steady",
-      "text": "Dimanche, pas d'évolution significative de la situation nivologique.",
-      "icon_key": "trend-steady"
     }
   }
 }
