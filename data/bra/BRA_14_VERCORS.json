@@ -1,0 +1,114 @@
+{
+  "massif": "Vercors",
+  "bulletin": {
+    "id": 14,
+    "issued_at": "2026-01-02T15:00:00",
+    "valid_until": "2026-01-03T18:00:00",
+    "amended": false
+  },
+  "evalbra": {
+    "1_risk_scale": {
+      "max_level": 1,
+      "icon_key": "risk-1"
+    },
+    "2_risk_location": null,
+    "3_dangerous_aspects": {
+      "aspects": {
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
+        "NW": false
+      },
+      "icon_key": "rose-aspects"
+    },
+    "4_sat": {
+      "primary": 6,
+      "secondary": null,
+      "labels": {},
+      "icon_key": "sat-6"
+    },
+    "5_precip_cumulated": {
+      "reference_altitude_m": 1800,
+      "fresh_snow_24h": [
+        {
+          "date": "2025-12-29",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2025-12-30",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2025-12-31",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-01-01",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-01-02",
+          "min_cm": 0,
+          "max_cm": 1
+        },
+        {
+          "date": "2026-01-03",
+          "min_cm": 0,
+          "max_cm": 0
+        }
+      ],
+      "totals": {
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 1
+      },
+      "icon_key": "snowfall"
+    },
+    "6_stability": {
+      "title": "PEU DE NEIGE, MANTEAU STABLE",
+      "text": "PEU DE NEIGE, MANTEAU STABLE\n\nDéclenchements provoqués : l'enneigement est faible et le manteau neigeux bien stabilisé. Il semble difficile d'envisager un déclenchement accidentel par un skieur.\n\nDéparts spontanés : peu probables.",
+      "icon_key": "stability"
+    },
+    "7_snow_quality": {
+      "text": "Qualification de l’enneigement : l'enneigement est déficitaire. Limites skiables (avec précautions) à partir de 1500/1800 m selon le versant.\n\nQualité de la neige samedi : neige regelée voire très dure ou parfois soufflée.",
+      "icon_key": "snow-quality"
+    },
+    "8_snowpack": {
+      "limits_m": {
+        "north": 1300,
+        "south": 1900
+      },
+      "levels_cm": [
+        {
+          "alt_m": 1000,
+          "N": 0,
+          "S": 0
+        },
+        {
+          "alt_m": 1500,
+          "N": 10,
+          "S": 0
+        },
+        {
+          "alt_m": 2000,
+          "N": 80,
+          "S": 10
+        }
+      ],
+      "icon_key": "snowpack"
+    },
+    "9_trend": {
+      "tomorrow_max_level": 1,
+      "direction": "steady",
+      "text": "Dimanche, pas d'évolution significative de la situation nivologique.",
+      "icon_key": "trend-steady"
+    }
+  }
+}
