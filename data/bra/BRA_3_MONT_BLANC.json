@@ -1,0 +1,134 @@
+{
+  "massif": "Mont-Blanc",
+  "bulletin": {
+    "id": 3,
+    "issued_at": "2026-01-01T16:00:00",
+    "valid_until": "2026-01-02T18:00:00",
+    "amended": false
+  },
+  "evalbra": {
+    "1_risk_scale": {
+      "max_level": 2,
+      "icon_key": "risk-2"
+    },
+    "2_risk_location": {
+      "altitude_threshold_m": 2800,
+      "bands": [
+        {
+          "label": "<2800",
+          "min_m": null,
+          "max_m": 2800,
+          "level": 1
+        },
+        {
+          "label": ">2800",
+          "min_m": 2800,
+          "max_m": null,
+          "level": 2
+        }
+      ],
+      "icon_key": "risk-location"
+    },
+    "3_dangerous_aspects": {
+      "aspects": {
+        "N": true,
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": true
+      },
+      "icon_key": "rose-aspects"
+    },
+    "4_sat": {
+      "primary": 2,
+      "secondary": 3,
+      "labels": {
+        "2": "Neige ventée",
+        "3": "Couche fragile persistante"
+      },
+      "icon_key": "sat-2"
+    },
+    "5_precip_cumulated": {
+      "reference_altitude_m": 1800,
+      "fresh_snow_24h": [
+        {
+          "date": "2025-12-28",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2025-12-29",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2025-12-30",
+          "min_cm": 0,
+          "max_cm": 1
+        },
+        {
+          "date": "2025-12-31",
+          "min_cm": 0,
+          "max_cm": 1
+        },
+        {
+          "date": "2026-01-01",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-01-02",
+          "min_cm": 3,
+          "max_cm": 4
+        }
+      ],
+      "totals": {
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 4
+      },
+      "icon_key": "snowfall"
+    },
+    "6_stability": {
+      "title": "En altitude, plaque à vent formées par le vent d'Ouest.",
+      "text": "En altitude, plaque à vent formées par le vent d'Ouest.\n\nDéclenchements provoqués :\n* Au-dessus de 2800 m, plaques à vent formées sous le vent de NE de ces derniers jours. Se rajoute des plaques formées par le vent d'Ouest. Elles sont plus rares dès 2800 m, mais réactives (elles reposent sur des grains anguleux). Elles sont plus nombreuses et épaisses en altitude. Taille 1 à 2 (petite à moyenne). Le risque est moindre côté Aiguille Rouge que côté Mont Blanc. \nObservables : vaguelettes, zones d'accumulation, fissures devant les skis…  \n* Au-dessus de 2300 m, dans les versants froids, une couche fragile persistante est enfouie sous 70/90 cm, mais ne semble pas vraiment sollicitable par un skieur. Attention aux fortes sollicitations (chutes de séracs, avalanches en cascade, etc …). Taille 2 (moyenne).\n\nDéparts spontanés :\nPeu probables. Très rares plaques de fond dans les pentes lisses et raides. Taille 1 (petite).\n\nAutre :\nRisque de glissade ou de dévissage sur la neige dure regelée.",
+      "icon_key": "stability"
+    },
+    "7_snow_quality": {
+      "text": "Enneigement :\nDéficitaire pour la saison à toutes altitudes. On peut chausser les skis au-dessus de 1500 m dans les versants N, 1800 m dans les versants S.\n\nQualité de la neige vendredi :\n* Sous 2700/2800 m : croûte de surface hétérogène, plus ou moins épaisse, donnant une neige variable. Dessous la croûte, la neige est meuble et froide (grains anguleux). Dans les orientations sud raides, la croûte ramollit en surface et donne une neige de printemps sur le créneau ensoleillé. La neige ne décaille pas en sud sur les secteurs moins raides.\n* Au-dessus de 2700/2800 m : neige souvent dure et ventée, plus haut, des secteurs plus agréable. \n* Les arêtes et les crêtes sont dégarnies.",
+      "icon_key": "snow-quality"
+    },
+    "8_snowpack": {
+      "limits_m": {
+        "north": 1300,
+        "south": 1600
+      },
+      "levels_cm": [
+        {
+          "alt_m": 1500,
+          "N": 10,
+          "S": 0
+        },
+        {
+          "alt_m": 2000,
+          "N": 50,
+          "S": 30
+        },
+        {
+          "alt_m": 2500,
+          "N": 140,
+          "S": 120
+        }
+      ],
+      "icon_key": "snowpack"
+    },
+    "9_trend": {
+      "tomorrow_max_level": 2,
+      "direction": "steady",
+      "text": "Le vent fort d'ouest en altitude se poursuit et continue de former des plaques.",
+      "icon_key": "trend-steady"
+    }
+  }
+}

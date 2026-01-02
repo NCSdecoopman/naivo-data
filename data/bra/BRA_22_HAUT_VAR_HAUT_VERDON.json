@@ -1,0 +1,134 @@
+{
+  "massif": "Haut-Var Haut-Verdon",
+  "bulletin": {
+    "id": 22,
+    "issued_at": "2026-01-01T16:00:00",
+    "valid_until": "2026-01-02T18:00:00",
+    "amended": false
+  },
+  "evalbra": {
+    "1_risk_scale": {
+      "max_level": 2,
+      "icon_key": "risk-2"
+    },
+    "2_risk_location": {
+      "altitude_threshold_m": 2000,
+      "bands": [
+        {
+          "label": "<2000",
+          "min_m": null,
+          "max_m": 2000,
+          "level": 1
+        },
+        {
+          "label": ">2000",
+          "min_m": 2000,
+          "max_m": null,
+          "level": 2
+        }
+      ],
+      "icon_key": "risk-location"
+    },
+    "3_dangerous_aspects": {
+      "aspects": {
+        "N": true,
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": false,
+        "SW": false,
+        "W": true,
+        "NW": true
+      },
+      "icon_key": "rose-aspects"
+    },
+    "4_sat": {
+      "primary": 2,
+      "secondary": 3,
+      "labels": {
+        "2": "Neige ventée",
+        "3": "Couche fragile persistante"
+      },
+      "icon_key": "sat-2"
+    },
+    "5_precip_cumulated": {
+      "reference_altitude_m": 1800,
+      "fresh_snow_24h": [
+        {
+          "date": "2025-12-28",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2025-12-29",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2025-12-30",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2025-12-31",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-01-01",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-01-02",
+          "min_cm": 0,
+          "max_cm": 0
+        }
+      ],
+      "totals": {
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
+      },
+      "icon_key": "snowfall"
+    },
+    "6_stability": {
+      "title": "NOUVELLES PLAQUES EN FORMATION",
+      "text": "NOUVELLES PLAQUES EN FORMATION\n\nDéclenchements provoqués : \nQuelques nouvelles plaques en place et en formation. Elles se forment dans les secteurs où on trouve localement de la vieille neige poudreuse facile à transporter par le vent d'ouest à nord-ouest, à partir de 2000 m environ, et en particulier dans les versants ouest, nord à est. Elles peuvent se trouver loin des crêtes et ruptures de pentes. Ces plaques sont souvent d'aspect durci par le vent dans les zones exposées, localement friable dans les secteurs un peu plus abrités. En cas de rupture, elles sont généralement peu épaisses et peu étendues. Elles peuvent provoquer des avalanches petites à parfois moyenne (taille 1 à 2).\nAu dessus de 2200 m environ en un large secteur nord, la présence en profondeur de couches fragiles persistantes peut provoquer des cassures plus importantes surtout en cas de forte sollicitation (premier départ de plaque de surface par exemple), avec un déclenchement à distance possible. \n\nDéparts spontanés : départs en plaques possibles par surcharge du manteau neigeux due au transport de neige par le vent d'ouest à nord-ouest, parfois loin des crêtes et ruptures de pentes. Avalanches de taille petite à moyenne en général.",
+      "icon_key": "stability"
+    },
+    "7_snow_quality": {
+      "text": "Enneigement  proche des normales en altitude pour une fin décembre. \nDonnées observées : 50 cm à 2020 m dans le Valdemars, 45 cm vers la Cabane de Sanguinière à 2050 m.\n\nLimite d'enneigement skiable : vers 1600/1800 m environ, mais enneigement faible sous 2000/2200 m en orientations ensoleillées. Rochers restants généralement peu enfouis. \n\nÉtat de la neige en surface : À basse altitude et en versants plein sud raides, neige croutée sans humidification en journée. Ailleurs, neige encore sèche, durcie par le fort vent d'est à sud-est de la semaine dernière ou le vent d'ouest à nord-ouest en cours, et localement d'aspect poudreux dans les combes et pentes abritées.",
+      "icon_key": "snow-quality"
+    },
+    "8_snowpack": {
+      "limits_m": {
+        "north": 1500,
+        "south": 1800
+      },
+      "levels_cm": [
+        {
+          "alt_m": 1500,
+          "N": 5,
+          "S": 0
+        },
+        {
+          "alt_m": 2000,
+          "N": 50,
+          "S": 20
+        },
+        {
+          "alt_m": 2500,
+          "N": 90,
+          "S": 60
+        }
+      ],
+      "icon_key": "snowpack"
+    },
+    "9_trend": {
+      "tomorrow_max_level": 2,
+      "direction": "steady",
+      "text": "Maintient d'un risque localement limité avec des plaques en places, et d'autres en formation sous l'effet du vent de nord-ouest toujours sensible.",
+      "icon_key": "trend-steady"
+    }
+  }
+}
