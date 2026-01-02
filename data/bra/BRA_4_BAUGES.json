@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
@@ -59,7 +59,11 @@
         "W": false,
         "NW": false
       },
-      "icon_key": "rose-aspects"
+      "icon_key": "rose-aspects",
+      "image": {
+        "filename": "BRA_4_BAUGES_rose-pentes.png",
+        "content_type": "image/png"
+      }
     },
     "sat": {
       "primary": 6,
@@ -112,6 +116,7 @@
     "stability": {
       "title": "Manteau neigeux maigre, mais stable.",
       "text": "Manteau neigeux maigre, mais stable.\n\nAutre : Risque de glissade ou de dévissage sur la neige dure regelée. \n\nDéparts spontanés : Peu probables. Très rares plaques de fond dans les pentes lisses et raides. Taille 1 (petite).\n\nDéclenchements provoqués : Peu probables.",
+      "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
@@ -140,7 +145,11 @@
           "S": 20
         }
       ],
-      "icon_key": "snowpack"
+      "icon_key": "snowpack",
+      "image": {
+        "filename": "BRA_4_BAUGES_montagne-enneigement.png",
+        "content_type": "image/png"
+      }
     }
   }
 }

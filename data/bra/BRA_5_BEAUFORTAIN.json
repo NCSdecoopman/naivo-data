@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
@@ -59,7 +59,11 @@
         "W": true,
         "NW": true
       },
-      "icon_key": "rose-aspects"
+      "icon_key": "rose-aspects",
+      "image": {
+        "filename": "BRA_5_BEAUFORTAIN_rose-pentes.png",
+        "content_type": "image/png"
+      }
     },
     "sat": {
       "primary": 2,
@@ -113,6 +117,7 @@
     "stability": {
       "title": "MANTEAU BIEN STABILISÉ. MINCES INSTABILITÉS EN ALTITUDE.",
       "text": "MANTEAU BIEN STABILISÉ. MINCES INSTABILITÉS EN ALTITUDE.\n\nDéclenchements provoqués : Quelques petites plaques se forment avec le vent d'Ouest-Nord-Ouest dans les versants ombragés encore froids (Ouest/Nord/Est, au-dessus de 2000 m). Elles sont minces mais parfois réactives. Rarement et au dessus de 2500 m, une plaque en neige dure un peu plus épaisse peut encore réagir. Taille 1 (petite) voire une taille 2 (moyenne) si la topographie le permet.\n\nDéparts spontanés : rares plaques de fond sur pentes herbeuses ou lisses (dalles rocheuses). A toute heure, plutôt sous 2500 m. Max taille 2.\n\nAutre : attention aux glissades avec la neige très dure dans beaucoup de secteurs.",
+      "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
@@ -141,7 +146,11 @@
           "S": 80
         }
       ],
-      "icon_key": "snowpack"
+      "icon_key": "snowpack",
+      "image": {
+        "filename": "BRA_5_BEAUFORTAIN_montagne-enneigement.png",
+        "content_type": "image/png"
+      }
     }
   }
 }

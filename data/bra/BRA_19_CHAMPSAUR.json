@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "massif": "Champsaur",
   "bulletin": {
     "id": 19,
@@ -71,7 +71,11 @@
         "W": true,
         "NW": true
       },
-      "icon_key": "rose-aspects"
+      "icon_key": "rose-aspects",
+      "image": {
+        "filename": "BRA_19_CHAMPSAUR_rose-pentes.png",
+        "content_type": "image/png"
+      }
     },
     "sat": {
       "primary": 2,
@@ -125,6 +129,7 @@
     "stability": {
       "title": "MINCES PLAQUES EN PLACE ET EN FORMATION EN ALTITUDE",
       "text": "MINCES PLAQUES EN PLACE ET EN FORMATION EN ALTITUDE\n\nDéclenchements provoqués : plaques en place au dessus de 2200 m et d'autres en formation sous l'action du vent de nord-ouest qui reste fort jusqu'à samedi matin. Elles sont facilement identifiables dans les zones d'accumulations et ruptures de pentes, parfois loin des crêtes. D'aspect durci par le vent, elles peuvent être faciles à déclencher, mais peu épaisses et de petite taille (taille 1). En de rares pentes d'altitude en orientations ouest, nord et est, la rupture d'une couche fragile persistante enfouie est possible, même à distance, engendrant ainsi des avalanches de grande largeur, mobilisant de plus grands volumes de neige (taille 2). \n\nDéparts spontanés : généralement peu probables, une petite avalanche provoquée par surcharge due au vent n'est pas exclue. \n\nAutres : surfaces parfois très dures, le restant même au soleil compte tenu de l'air très sec et froid en altitude.",
+      "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
@@ -153,7 +158,11 @@
           "S": 35
         }
       ],
-      "icon_key": "snowpack"
+      "icon_key": "snowpack",
+      "image": {
+        "filename": "BRA_19_CHAMPSAUR_montagne-enneigement.png",
+        "content_type": "image/png"
+      }
     }
   }
 }

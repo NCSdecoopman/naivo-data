@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
@@ -71,7 +71,11 @@
         "W": true,
         "NW": true
       },
-      "icon_key": "rose-aspects"
+      "icon_key": "rose-aspects",
+      "image": {
+        "filename": "BRA_18_DEVOLUY_rose-pentes.png",
+        "content_type": "image/png"
+      }
     },
     "sat": {
       "primary": 2,
@@ -124,6 +128,7 @@
     "stability": {
       "title": "MINCES PLAQUES EN PLACE ET EN FORMATION EN ALTITUDE",
       "text": "MINCES PLAQUES EN PLACE ET EN FORMATION EN ALTITUDE\n\nDéclenchements provoqués : manteau neigeux plutôt bien stabilisé. Aux plus hautes altitudes du massif, quelques plaques se forment sous l'effet du vent de nord-ouest qui reste fort jusqu'à samedi matin. Elles sont facilement identifiables dans les zones d'accumulations et ruptures de pentes, parfois loin des crêtes. Généralement peu épaisses, elles sont toutefois facilement déclenchables par un skieur, et engendrent des avalanches de petite taille (taille 1). \n\nDéparts spontanés : peu probables. \n\nAutres : surfaces parfois très dures, le restant même au soleil compte tenu de l'air très sec et froid en altitude.",
+      "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
@@ -152,7 +157,11 @@
           "S": 40
         }
       ],
-      "icon_key": "snowpack"
+      "icon_key": "snowpack",
+      "image": {
+        "filename": "BRA_18_DEVOLUY_montagne-enneigement.png",
+        "content_type": "image/png"
+      }
     }
   }
 }

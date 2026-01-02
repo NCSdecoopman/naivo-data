@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
@@ -71,7 +71,11 @@
         "W": false,
         "NW": true
       },
-      "icon_key": "rose-aspects"
+      "icon_key": "rose-aspects",
+      "image": {
+        "filename": "BRA_15_OISANS_rose-pentes.png",
+        "content_type": "image/png"
+      }
     },
     "sat": {
       "primary": 2,
@@ -124,6 +128,7 @@
     "stability": {
       "title": "Petites accumulations de neige soufflée dues au vent d'est.",
       "text": "Petites accumulations de neige soufflée dues au vent d'est.\n\nDéclenchements provoqués : ils sont limités aux versants froids de haute altitude du massif. Il s'agit de plaques fines et de dimension probablement modeste, formées par vent d'est pour les plus anciennes et par vent d'ouest pour les plus récentes. Elles sont peu nombreuses et détectables en observant les zones d'accumulation.\n\nDéparts spontanés : peu probables.",
+      "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
@@ -152,7 +157,11 @@
           "S": 50
         }
       ],
-      "icon_key": "snowpack"
+      "icon_key": "snowpack",
+      "image": {
+        "filename": "BRA_15_OISANS_montagne-enneigement.png",
+        "content_type": "image/png"
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "massif": "Maurienne",
   "bulletin": {
     "id": 9,
@@ -71,7 +71,11 @@
         "W": true,
         "NW": true
       },
-      "icon_key": "rose-aspects"
+      "icon_key": "rose-aspects",
+      "image": {
+        "filename": "BRA_9_MAURIENNE_rose-pentes.png",
+        "content_type": "image/png"
+      }
     },
     "sat": {
       "primary": 2,
@@ -125,6 +129,7 @@
     "stability": {
       "title": "MANTEAU SCULPTÉ PAR LE VENT, ENCORE QUELQUES PLAQUES DURES EN ALTITUDE.",
       "text": "MANTEAU SCULPTÉ PAR LE VENT, ENCORE QUELQUES PLAQUES DURES EN ALTITUDE.\n\nDéclenchements provoqués : au-dessus de 2100/2200 m, quelques plaques souvent dures sont déjà en place. D'autres, les plus réactives, se forment avec le vent d'Ouest-Nord-Ouest en cours. Toutes sont localisées dans les creux, les combes, derrière les croupes râpées par le vent, dans les versants Ouest/Nord/Est. Le déclenchement de ces plaques est \"aléatoire\" et peut avoir lieu loin des crêtes, voire même en bas des pentes. Les avalanches engendrées sont généralement de taille 2 (moyennes) avec des cassures parfois épaisses. Certaines de ces plaques reposent sur une couche fragile persistante (gobelet). En cas de déclenchement, l'ensemble du manteau neigeux se met en mouvement, augmentant le volume et la longueur de l'avalanche. Risque accru en s'approchant de la Haute-Maurienne.\nObservables : avalanche dans une pente similaire (orientation, disposition par rapport au vent... ), woumfs.\n\nDéparts spontanés : Au dessus de 2200 m, quelques plaques surchargées par le vent peuvent céder. Taille 1 à 2, plus grosse si départ en cascade.\n\nAutre :  attention aux glissades avec la neige très dure dans beaucoup de secteurs.",
+      "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
@@ -153,7 +158,11 @@
           "S": 30
         }
       ],
-      "icon_key": "snowpack"
+      "icon_key": "snowpack",
+      "image": {
+        "filename": "BRA_9_MAURIENNE_montagne-enneigement.png",
+        "content_type": "image/png"
+      }
     }
   }
 }

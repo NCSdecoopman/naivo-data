@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
@@ -71,7 +71,11 @@
         "W": true,
         "NW": true
       },
-      "icon_key": "rose-aspects"
+      "icon_key": "rose-aspects",
+      "image": {
+        "filename": "BRA_6_HAUTE_TARENTAISE_rose-pentes.png",
+        "content_type": "image/png"
+      }
     },
     "sat": {
       "primary": 2,
@@ -125,6 +129,7 @@
     "stability": {
       "title": "MANTEAU SCULPTÉ PAR LE VENT, ENCORE QUELQUES PLAQUES SURTOUT SECTEUR VAL D'ISÈRE.",
       "text": "MANTEAU SCULPTÉ PAR LE VENT, ENCORE QUELQUES PLAQUES SURTOUT SECTEUR VAL D'ISÈRE.\n\nDéclenchements provoqués :  au-dessus de 2100 m, quelques plaques souvent dures sont déjà en place. D'autres, les plus réactives, se forment avec le vent d'Ouest-Nord-Ouest en cours. Toutes sont localisées dans les creux, les combes, derrière les croupes râpées par le vent, généralement dans les versants Ouest/Nord/Est. Le déclenchement est \"aléatoire\" et peut avoir lieu loin des crêtes, voire même en bas des pentes. Les avalanches engendrées sont généralement de taille 2 (moyennes) avec des cassures parfois épaisses. Certaines de ces plaques reposent sur une couche fragile persistante (gobelet). En cas de déclenchement, l'ensemble du manteau neigeux se met en mouvement, augmentant le volume et la longueur de l'avalanche. \n--> A noter que dans le secteur Val d'Isère/Sources de l'Isère/Méan Martin, les plaques sont plus réactives suite aux chutes de neige foehnées de la semaine passée. Elle reposent de plus sur des couches fragiles enfouies nettement plus généralisées et efficaces par rapport au reste du massif. Une grande avalanche (taille 3) reste envisageable dans ce secteur.\nObservables : avalanche dans une pente similaire (orientation, exposition, disposition par rapport au vent... ), woumfs.\n\nDéparts spontanés : Au dessus de 2200 m, quelques plaques surchargées par le vent peuvent céder. Taille 1 à 2, plus grosse si départ en cascade.\n\nAutre :  attention aux glissades avec la neige très dure dans beaucoup de secteurs.",
+      "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
@@ -153,7 +158,11 @@
           "S": 60
         }
       ],
-      "icon_key": "snowpack"
+      "icon_key": "snowpack",
+      "image": {
+        "filename": "BRA_6_HAUTE_TARENTAISE_montagne-enneigement.png",
+        "content_type": "image/png"
+      }
     }
   }
 }
