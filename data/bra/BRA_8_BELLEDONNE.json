@@ -28,7 +28,9 @@
     "4_sat": {
       "primary": 6,
       "secondary": null,
-      "labels": {},
+      "labels": {
+        "6": "Aucune prédominente"
+      },
       "icon_key": "sat-6"
     },
     "5_precip_cumulated": {

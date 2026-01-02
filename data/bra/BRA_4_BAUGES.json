@@ -2,8 +2,8 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-01-01T16:00:00",
-    "valid_until": "2026-01-02T18:00:00",
+    "issued_at": "2026-01-02T16:00:00",
+    "valid_until": "2026-01-03T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -28,17 +28,14 @@
     "4_sat": {
       "primary": 6,
       "secondary": null,
-      "labels": {},
+      "labels": {
+        "6": "Aucune prédominente"
+      },
       "icon_key": "sat-6"
     },
     "5_precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2025-12-28",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2025-12-29",
           "min_cm": 0,
@@ -61,23 +58,28 @@
         },
         {
           "date": "2026-01-02",
-          "min_cm": 1,
-          "max_cm": 2
+          "min_cm": 0,
+          "max_cm": 1
+        },
+        {
+          "date": "2026-01-03",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 2
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "6_stability": {
       "title": "Manteau neigeux maigre, mais stable.",
-      "text": "Manteau neigeux maigre, mais stable.\n\nDéparts spontanés : Peu probables. Très rares plaques de fond dans les pentes lisses et raides. Taille 1 (petite).\n\nDéclenchements provoqués : Peu probables.\n\nAutre :\nRisque de glissade ou de dévissage sur la neige dure regelée.",
+      "text": "Manteau neigeux maigre, mais stable.\n\nAutre : Risque de glissade ou de dévissage sur la neige dure regelée. \n\nDéparts spontanés : Peu probables. Très rares plaques de fond dans les pentes lisses et raides. Taille 1 (petite).\n\nDéclenchements provoqués : Peu probables.",
       "icon_key": "stability"
     },
     "7_snow_quality": {
-      "text": "Enneigement :\nTrès déficitaire à 1500 m et déficitaire sur les autres tranches d'altitude pour la saison. On peut chausser les skis au-dessus de 1500 m dans les versants N, 1800 m dans les versants S.\n\nQualité de la neige vendredi :\nNeige dure sauf en face sud raide où elle décaille sur le créneau ensoleillé.",
+      "text": "Enneigement :\nTrès déficitaire à 1500 m et déficitaire sur les autres tranches d'altitude pour la saison. On peut chausser les skis au-dessus de 1500 m dans les versants N, 1800 m dans les versants S.\n\nQualité de la neige samedi :\nNeige dure sauf en face sud raide où elle décaille sur le créneau ensoleillé.",
       "icon_key": "snow-quality"
     },
     "8_snowpack": {
@@ -107,7 +109,7 @@
     "9_trend": {
       "tomorrow_max_level": 1,
       "direction": "steady",
-      "text": "Manteau neigeux stable.",
+      "text": "Manteau neigeux maigre, mais stable.",
       "icon_key": "trend-steady"
     }
   }
