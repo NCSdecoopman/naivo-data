@@ -3,8 +3,8 @@
   "massif": "Pelvoux",
   "bulletin": {
     "id": 16,
-    "issued_at": "2026-01-02T16:00:00",
-    "valid_until": "2026-01-03T18:00:00",
+    "issued_at": "2026-01-03T16:00:00",
+    "valid_until": "2026-01-04T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-04",
+        "date": "2026-01-05",
         "label": "Indice de risque marqué",
-        "comment": "Maintien d'un risque marqué avec les nouvelles plaques formées par le vent de nord-ouest qui peuvent être encore faciles à déclencher.",
+        "comment": "Maintien d\"un risque marqué en altitude avec la présence de plaques à vent encore faciles à déclencher dans certains secteurs. Côté météo, temps devenant plus nuageux.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2025-12-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2025-12-30",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +113,11 @@
           "date": "2026-01-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,18 +127,18 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX INSTABLE EN ALTITUDE",
-      "text": "MANTEAU NEIGEUX INSTABLE EN ALTITUDE\n\nDéclenchements provoqués : plaques à vent en place et d'autres en formation sous l'action d'un vent de nord-ouest qui reste fort jusqu'à samedi matin. Ces nouvelles plaques se forment au dessus de 2400/2500 m, (où l'on trouve encore de la vieille neige poudreuse facile à transporter) et sont faciles à déclencher par un skieur. Avalanches de taille petite à moyenne dans les zones d'accumulations, rare grande (taille 3) en cas de sollicitation d'une couche fragile plus profondément enfouie, présentes principalement dans un large secteur nord d'altitude.\n\nDéparts spontanés : une plaque surchargée par le vent peut céder. Taille 1 à 2, plus grosse si départ en cascade.",
+      "title": "LE MANTEAU NEIGEUX RESTE INSTABLE EN ALTITUDE",
+      "text": "LE MANTEAU NEIGEUX RESTE INSTABLE EN ALTITUDE\n\nDéclenchements provoqués : plaques en place au dessus de 2400 m formées vendredi sous l'action d'un fort vent de nord-ouest. Ces nouvelles plaques restent faciles à déclencher par un skieur. Avalanches de taille petite à moyenne dans les zones d'accumulations, rare grande (taille 3) en cas de sollicitation d'une couche fragile plus profondément enfouie, présentes principalement dans un large secteur nord d'altitude.\n\nDéparts spontanés : peu d'activité naturelle à attendre.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est très déficitaire pour un début janvier, le plus faible pour la période depuis 2015.\nOn mesure 94 cm à la Nivôse des Écrins à 2970 m d'altitude et 49 cm au pré de Madame Carle à 1870 m d'altitude. \n\nLimite d'enneigement skiable vers 1600/1700 m en ubacs sur pente herbeuse ou piste forestière, mais enneigement souvent faible en dessous de 2000 m. Versants ensoleillés souvent peu enneigés jusqu'à 2500 m environ.\n\nÉtat de la neige de surface : manteau neigeux ancien et dense.Neige croûtée ou très dure sous 2000/2200 m, souvent travaillé par le vent en altitude au dessus. On trouve encore de la neige d'aspect récent dans de rares pentes abritées du vent. Rochers restant peu enfouis.",
+      "text": "L'enneigement est très déficitaire pour un début janvier, le plus faible pour la période depuis 2015.\nOn mesure 95 cm à la Nivôse des Écrins à 2970 m d'altitude et 48 cm au pré de Madame Carle à 1870 m d'altitude. \n\nLimite d'enneigement skiable vers 1600/1700 m en ubacs sur pente herbeuse ou piste forestière, mais enneigement souvent faible en dessous de 2000 m. Versants ensoleillés souvent peu enneigés jusqu'à 2500 m environ.\n\nÉtat de la neige de surface : manteau neigeux ancien et dense. Neige croûtée ou très dure sous 2000/2200 m, sans humidification en journée. Plus haut, neige souvent travaillée par le vent d'est la semaine de Noël et de nord-ouest vendredi. On trouve encore de la neige d'aspect poudreux dans de rares pentes abritées du vent. Rochers restant peu enfouis.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1400,
+        "north": 1500,
         "south": 2000
       },
       "levels_cm": [

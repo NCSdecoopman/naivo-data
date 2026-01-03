@@ -3,30 +3,30 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-01-02T16:00:00",
-    "valid_until": "2026-01-03T18:00:00",
+    "issued_at": "2026-01-03T16:00:00",
+    "valid_until": "2026-01-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2300m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2300,
+        "threshold_m": 2500,
         "split_axis": "horizontal",
-        "split_label": "2300m",
+        "split_label": "2500m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2300",
+            "loc": "<2500",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2300",
+            "loc": ">2500",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2300m"
+          "label": "2500m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-04",
+        "date": "2026-01-05",
         "label": "Indice de risque limité",
-        "comment": "Le vent d'ouest se poursuit et continue de former des plaques.",
+        "comment": "Risque stationnaire. Des instabilités liées au vent sont encore présentes en haute-montagne.",
         "trend": "steady"
       }
     },
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
+        "SE": false,
         "S": false,
-        "SW": true,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2025-12-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2025-12-30",
           "min_cm": 0,
           "max_cm": 1
@@ -111,34 +106,39 @@
         },
         {
           "date": "2026-01-02",
-          "min_cm": 1,
-          "max_cm": 5
+          "min_cm": 0,
+          "max_cm": 0
         },
         {
           "date": "2026-01-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 5
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "En altitude, plaque à vent formées par le vent d'Ouest.",
-      "text": "En altitude, plaque à vent formées par le vent d'Ouest.\n\nDéclenchements provoqués : Au-dessus de 2300 m : plaques à vent se sont formées avec le vent d'ouest de jeudi et continuent de se former vendredi. Elles sont moins nombreuses à ces altitudes mais réactives (elles reposent sur des grains anguleux). Elles sont plus présentes et épaisses en altitude. Taille 1 à 2 (petite à moyenne). Le risque est moindre côté Aiguille Rouge que côté Mont Blanc. À ça se rajoute, dans les versants froids, une couche fragile persistante qui est enfouie sous 70/90 cm. Elle ne semble pas vraiment sollicitable par un skieur. Attention aux fortes sollicitations (chutes de séracs, avalanches en cascade, etc …). Taille 2 (moyenne).\nObservables : vaguelettes, zones d'accumulation, fissures devant les skis…  \n\nDéparts spontanés : Peu probables. Très rares plaques de fond dans les pentes lisses et raides. Taille 1 (petite).\n\nAutre : Risque de glissade ou de dévissage sur la neige dure regelée.",
+      "text": "En altitude, plaque à vent formées par le vent d'Ouest.\n\nDéclenchements provoqués : \n* Au-dessus de 2500m, quelques plaques à vent se forment sous le vent d'W/SW. Ces plaques sont minces mais parfois réactives. Un peu plus haut en altitude, ces plaques sont un peu plus épaisses, mais réagissent plus difficilement. Taille 1, voire 2 (petite/moyenne).\n* Au-delà de 2300 m, dans les versants froids, une couche fragile persistante est enfouie sous 70/90 cm, mais ne semble pas vraiment sollicitable par un skieur. Attention aux fortes sollicitations (chutes de séracs, avalanches en cascade, etc …). Taille 1 à 2.\n\nDéparts spontanés :\nPeu probables. Très rares plaques de fond dans les pentes lisses et raides. Taille 1 (petite).\n\nAutre :\nRisque de glissade ou de dévissage sur la neige dure regelée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nDéficitaire pour la saison à toutes altitudes. On peut chausser les skis au-dessus de 1500 m dans les versants N, 1800 m dans les versants S.\n\nQualité de la neige samedi :\n* Sous 2500 m : neige variable, ventée par endroit et croutée ( plus/moins épaisse). Dessous la croûte, la neige est meuble et froide (grains anguleux). Dans les orientations sud raides, la croûte ramollit en surface et donne une neige de printemps sur le créneau ensoleillé. La neige ne décaille pas en sud sur les secteurs moins raides.\n* Au-dessus de 2500 m : la neige est dure et ventée, plus haut, des secteurs plus agréable. \n* Les arêtes et les crêtes sont dégarnies.",
+      "text": "Enneigement :\nDéficitaire pour la saison à toutes altitudes. On peut chausser les skis au-dessus de 1500 m dans les versants N, 1800 m dans les versants Sud.\n\nQualité de la neige dimanche :\n* En dessous de 2500 m : neige dure/croutée en tout versant. Dans les versants S raides, la neige décaille légèrement l'après-midi.\n* Au-dessus de 2500 m : la neige est variable, très souvent travaillé par le vent.\n* En haute-montagne, dans les quelques secteurs abrités du vent, on retrouve de la neige froide et légère.\n* Les arêtes et les crêtes sont dégarnies.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1300,
+        "north": 1400,
         "south": 1600
       },
       "levels_cm": [

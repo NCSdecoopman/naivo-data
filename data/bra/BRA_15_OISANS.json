@@ -3,30 +3,30 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-01-02T15:00:00",
-    "valid_until": "2026-01-03T18:00:00",
+    "issued_at": "2026-01-03T15:00:00",
+    "valid_until": "2026-01-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2400m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2500,
+        "threshold_m": 2400,
         "split_axis": "horizontal",
-        "split_label": "2500m",
+        "split_label": "2400m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2500",
+            "loc": "<2400",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2500",
+            "loc": ">2400",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2500m"
+          "label": "2400m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-04",
+        "date": "2026-01-05",
         "label": "Indice de risque limité",
-        "comment": "Dimanche, pas d'évolution significative de la situation nivologique.",
+        "comment": "Lundi, très d'évolution du risque. Le temps glacial et sec se poursuit.",
         "trend": "steady"
       }
     },
@@ -64,11 +64,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
+        "E": true,
         "SE": false,
         "S": false,
         "SW": false,
-        "W": false,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -78,21 +78,16 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 3,
       "secondary": null,
       "labels": {
-        "2": "Neige ventée"
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2025-12-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2025-12-30",
           "min_cm": 0,
@@ -111,33 +106,38 @@
         {
           "date": "2026-01-02",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
         },
         {
           "date": "2026-01-03",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-01-04",
           "min_cm": 0,
           "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 1
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Petites accumulations de neige soufflée dues au vent d'est.",
-      "text": "Petites accumulations de neige soufflée dues au vent d'est.\n\nDéclenchements provoqués : ils sont limités aux versants froids de haute altitude du massif. Il s'agit de plaques fines et de dimension probablement modeste, formées par vent d'est pour les plus anciennes et par vent d'ouest pour les plus récentes. Elles sont peu nombreuses et détectables en observant les zones d'accumulation.\n\nDéparts spontanés : peu probables.",
+      "title": "STABLE DANS L'ENSEMBLE, MAIS RARES INSTABILITÉS PERSISTANTES EN VERSANT \"FROID\" DE HAUTE ALTITUDE (SURTOUT A L’EXTRÊME EST DU MASSIF)",
+      "text": "STABLE DANS L'ENSEMBLE, MAIS RARES INSTABILITÉS PERSISTANTES EN VERSANT \"FROID\" DE HAUTE ALTITUDE (SURTOUT A L’EXTRÊME EST DU MASSIF)\n\nDéclenchements provoqués : Très localement en accumulations des versants d'un large Nord de haute altitude (au-dessus de 2400 m environ), et principalement dans la partie la plus à l'Est du massif, vers les Hautes-Alpes, de rares plaques dures reposant sur des sous-couches fragiles persistantes peuvent être présentes, généralement très difficiles à déclencher par un skieur ou un groupe de skieurs. Cependant, on ne peut exclure un déclenchement \"en cascade\" à partir d'une plaque à vent résiduelle située au-dessus et dont la sollicitation par des pratiquants serait moins difficile. Auquel cas, la surcharge occasionnée pourrait solliciter la sous-couche fragile enfouie et mobiliser un volume conséquent, comme ce fut le cas vendredi après-midi pour l'avalanche déclenchée accidentellement en versant Nord des Combeynots.\n\nDéparts spontanés : Peu probables.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : l'enneigement est médiocre voire franchement mauvais pour la saison, notamment en versant Sud et en moyenne montagne. Il est un peu meilleur en combe Nord au dessus de 2800 m. \nLimites skiables à partir de 1500/2000 m selon les versants.\n\nQualité de la neige samedi : la plupart du temps veille neige dense ou croûtée ou très dure, surtout sous 2000 m. Au-dessus, on trouve principalement de la neige ancienne souvent densifiée par le vent. Les crêtes et certaines pentes sont parfois totalement pelées.",
+      "text": "Qualification de l’enneigement : l'enneigement est médiocre voire franchement mauvais pour la saison, notamment en versant Sud et en moyenne montagne. Limites skiables à partir de 1600/2100 m selon les versants.\n\nQualité de la neige dimanche : La plupart du temps veille neige dense ou croûtée ou très dure, surtout sous 2000 m. Au-dessus, on trouve principalement de la neige ancienne souvent densifiée par le vent. Localement, quelques pentes ou contrepentes d'altitude abritées ont pu réussir à évoluer en frisette (grains anguleux sans cohésion). Les crêtes et certaines pentes Sud sont quant à elles parfois dégarnies.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1500,
+        "north": 1600,
         "south": 1900
       },
       "levels_cm": [
@@ -148,13 +148,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 60,
+          "N": 30,
           "S": 5
         },
         {
           "alt_m": 2500,
-          "N": 110,
-          "S": 50
+          "N": 80,
+          "S": 40
         }
       ],
       "icon_key": "snowpack",

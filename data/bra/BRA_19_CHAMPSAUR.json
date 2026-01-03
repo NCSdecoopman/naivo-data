@@ -3,30 +3,30 @@
   "massif": "Champsaur",
   "bulletin": {
     "id": 19,
-    "issued_at": "2026-01-02T16:00:00",
-    "valid_until": "2026-01-03T18:00:00",
+    "issued_at": "2026-01-03T16:00:00",
+    "valid_until": "2026-01-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2400m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2200,
+        "threshold_m": 2400,
         "split_axis": "horizontal",
-        "split_label": "2200m",
+        "split_label": "2400m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
+            "loc": "<2400",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2200",
+            "loc": ">2400",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2200m"
+          "label": "2400m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-04",
+        "date": "2026-01-05",
         "label": "Indice de risque limité",
-        "comment": "Maintien d'un risque limité avec les petites plaques formées par le vent de nord-ouest qui peuvent être encore faciles à déclencher.",
+        "comment": "Maintien d\"un risque limité en altitude avec la présence de petites plaques à vent encore faciles à déclencher dans certains secteurs. Côté météo, temps devenant plus nuageux.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2025-12-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2025-12-30",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +113,11 @@
           "date": "2026-01-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MINCES PLAQUES EN PLACE ET EN FORMATION EN ALTITUDE",
-      "text": "MINCES PLAQUES EN PLACE ET EN FORMATION EN ALTITUDE\n\nDéclenchements provoqués : plaques en place au dessus de 2200 m et d'autres en formation sous l'action du vent de nord-ouest qui reste fort jusqu'à samedi matin. Elles sont facilement identifiables dans les zones d'accumulations et ruptures de pentes, parfois loin des crêtes. D'aspect durci par le vent, elles peuvent être faciles à déclencher, mais peu épaisses et de petite taille (taille 1). En de rares pentes d'altitude en orientations ouest, nord et est, la rupture d'une couche fragile persistante enfouie est possible, même à distance, engendrant ainsi des avalanches de grande largeur, mobilisant de plus grands volumes de neige (taille 2). \n\nDéparts spontanés : généralement peu probables, une petite avalanche provoquée par surcharge due au vent n'est pas exclue. \n\nAutres : surfaces parfois très dures, le restant même au soleil compte tenu de l'air très sec et froid en altitude.",
+      "title": "MINCES PLAQUES EN PLACE EN ALTITUDE",
+      "text": "MINCES PLAQUES EN PLACE EN ALTITUDE\n\nDéclenchements provoqués : plaques en place au dessus de 2200/2400 m formées vendredi sous l'action d'un fort vent de nord-ouest. Elles sont facilement identifiables dans les zones d'accumulations et ruptures de pentes, parfois loin des crêtes. D'aspect durci par le vent, elles peuvent être faciles à déclencher, mais peu épaisses et de petite taille (taille 1). En de rares pentes d'altitude en orientations ouest, nord et est, la rupture d'une couche fragile persistante enfouie est possible, même à distance, engendrant ainsi des avalanches de grande largeur, mobilisant de plus grands volumes de neige (taille 2). \n\nDéparts spontanés : peu probables.\n\nAutres : surfaces parfois très dures, le restant même au soleil compte tenu de l'air très sec et froid en altitude.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est très déficitaire pour un début janvier, le plus faible pour la période depuis 2015.\nOn relève 28 cm de neige à la Nivôse d'Orcières à 2280 m d'altitude, 64 cm sur le plateau des Rougnous à 2480 m. \n\nLimite d'enneigement skiable vers 1600/1700 m en ubacs sur pente herbeuse ou piste forestière, mais enneigement souvent faible en dessous de 2000 m. Versants ensoleillés souvent très peu enneigés jusqu'à 2500 m environ.\n\nÉtat de la neige de surface : manteau neigeux ancien et dense.Neige croûtée ou très dure sous 2000/2200 m, souvent travaillé par le vent en altitude au dessus. On trouve encore de la neige d'aspect récent dans de rares pentes abritées du vent. Rochers restant peu enfouis.",
+      "text": "L'enneigement est très déficitaire pour un début janvier, le plus faible pour la période depuis 2015.\nOn relève 28 cm de neige à la Nivôse d'Orcières à 2280 m d'altitude, 63 cm sur le plateau des Rougnous à 2480 m. \n\nLimite d'enneigement skiable vers 1600/1700 m en ubacs sur pente herbeuse ou piste forestière, mais enneigement souvent faible en dessous de 2000 m. Versants ensoleillés souvent très peu enneigés jusqu'à 2500 m environ.\n\nÉtat de la neige de surface : manteau neigeux ancien et dense. Neige croûtée ou très dure sous 2000/2200 m, sans humidification en journée. Plus haut, neige souvent travaillée par le vent d'est la semaine dernière et de nord-ouest vendredi. On trouve encore de la neige d'aspect poudreux dans de rares pentes abritées du vent. Rochers restant peu enfouis. Rochers restant peu enfouis.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

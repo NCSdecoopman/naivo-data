@@ -3,8 +3,8 @@
   "massif": "Aravis",
   "bulletin": {
     "id": 2,
-    "issued_at": "2026-01-02T16:00:00",
-    "valid_until": "2026-01-03T18:00:00",
+    "issued_at": "2026-01-03T16:00:00",
+    "valid_until": "2026-01-04T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-01-04",
+        "date": "2026-01-05",
         "label": "Indice de risque faible",
-        "comment": "Manteau neigeux maigre et stable.",
+        "comment": "Risque stationnaire. Le manteau neigeux est toujours stable.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2025-12-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2025-12-30",
           "min_cm": 0,
           "max_cm": 0
@@ -99,33 +94,38 @@
         {
           "date": "2026-01-02",
           "min_cm": 0,
-          "max_cm": 2
+          "max_cm": 0
         },
         {
           "date": "2026-01-03",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-01-04",
           "min_cm": 0,
           "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 2
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux maigre, mais stable.",
-      "text": "Manteau neigeux maigre, mais stable.\n\nDéclenchements provoqués : Peu probables. Au-dessus de 2400/2500 m : très rares plaques à vent formées par le vent d'ouest, elles sont petites et isolées. Taille 1 (petite).\n\nDéparts spontanés : Peu probables. Très rares plaques de fond dans les pentes lisses et raides. Taille 1 (petite).\n\nAutre : Risque de glissade ou de dévissage sur la neige dure regelée.",
+      "title": "Manteau neigeux bien stabilisé.",
+      "text": "Manteau neigeux bien stabilisé.\n\nDéclenchements provoqués : Peu probables. Au-dessus de 2400/2500 m : très rares plaques à vent formées par le vent d'ouest, elles sont petites et isolées. Taille 1 (petite).\n\nDéparts spontanés : Peu probables. Très rares plaques de fond dans les pentes lisses et raides. Taille 1 (petite).\n\nAutre : Risque de glissade ou de dévissage sur la neige dure regelée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nDéficitaire pour la saison à toutes altitudes. On peut chausser les skis au-dessus de 1400 m dans les versants N, 1700 m dans les versants S.\n\nQualité de la neige samedi :\n* Neige variable avec une croûte de surface hétérogène (plus/moins épaisse) et neige ventée par endroit. Dessous la croûte, la neige est meuble et froide (grains anguleux). \n*Dans les orientations sud raides, la croûte ramollit en surface et donne une neige de printemps sur le petit créneau ensoleillé. La neige ne décaille pas en sud sur les secteurs moins raides.\n* Les arêtes et les crêtes sont dégarnies.",
+      "text": "Enneigement :\nTrès déficitaire à 1500 m et déficitaire sur les autres tranches d'altitude pour la saison (dernière chute de neige significative le 07/12). On peut chausser les skis au-dessus de 1500 m dans les versants N, 1700 m dans les versants S.\n\nQualité de la neige dimanche :\n* Neige dure en tout versant et altitude.\n* Dans les adrets raides, la neige décaille légèrement l'après-midi, donnant une moquette.\n* Les arêtes et les crêtes sont dégarnies.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1300,
+        "north": 1400,
         "south": 1600
       },
       "levels_cm": [

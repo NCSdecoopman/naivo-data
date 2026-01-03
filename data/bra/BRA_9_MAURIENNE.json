@@ -3,30 +3,30 @@
   "massif": "Maurienne",
   "bulletin": {
     "id": 9,
-    "issued_at": "2026-01-02T16:00:00",
-    "valid_until": "2026-01-03T18:00:00",
+    "issued_at": "2026-01-03T16:00:00",
+    "valid_until": "2026-01-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2100m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2100,
+        "threshold_m": 2200,
         "split_axis": "horizontal",
-        "split_label": "2100m",
+        "split_label": "2200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2100",
+            "loc": "<2200",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2100",
+            "loc": ">2200",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2100m"
+          "label": "2200m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-04",
+        "date": "2026-01-05",
         "label": "Indice de risque limité",
-        "comment": "Risque stationnaire. Le temps et le vent sont calmes, favorisant la stabilisation.",
+        "comment": "Aucun changement avec encore une belle journée froide. Il faudra attendre les chutes espérées en fin de semaine pour que les conditions et la stabilité change radicalement.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2025-12-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2025-12-30",
           "min_cm": 0,
           "max_cm": 0
@@ -112,23 +107,28 @@
         {
           "date": "2026-01-02",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
         },
         {
           "date": "2026-01-03",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-01-04",
           "min_cm": 0,
           "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 1
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU SCULPTÉ PAR LE VENT, ENCORE QUELQUES PLAQUES DURES EN ALTITUDE.",
-      "text": "MANTEAU SCULPTÉ PAR LE VENT, ENCORE QUELQUES PLAQUES DURES EN ALTITUDE.\n\nDéclenchements provoqués : au-dessus de 2100/2200 m, quelques plaques souvent dures sont déjà en place. D'autres, les plus réactives, se forment avec le vent d'Ouest-Nord-Ouest en cours. Toutes sont localisées dans les creux, les combes, derrière les croupes râpées par le vent, dans les versants Ouest/Nord/Est. Le déclenchement de ces plaques est \"aléatoire\" et peut avoir lieu loin des crêtes, voire même en bas des pentes. Les avalanches engendrées sont généralement de taille 2 (moyennes) avec des cassures parfois épaisses. Certaines de ces plaques reposent sur une couche fragile persistante (gobelet). En cas de déclenchement, l'ensemble du manteau neigeux se met en mouvement, augmentant le volume et la longueur de l'avalanche. Risque accru en s'approchant de la Haute-Maurienne.\nObservables : avalanche dans une pente similaire (orientation, disposition par rapport au vent... ), woumfs.\n\nDéparts spontanés : Au dessus de 2200 m, quelques plaques surchargées par le vent peuvent céder. Taille 1 à 2, plus grosse si départ en cascade.\n\nAutre :  attention aux glissades avec la neige très dure dans beaucoup de secteurs.",
+      "title": "MANTEAU SCULPTÉ PAR LE VENT, COMPORTANT ENCORE QUELQUES PLAQUES DURES EN ALTITUDE.",
+      "text": "MANTEAU SCULPTÉ PAR LE VENT, COMPORTANT ENCORE QUELQUES PLAQUES DURES EN ALTITUDE.\n\nDéclenchements provoqués : au-dessus de 2200 m, quelques plaques souvent dures sont déjà en place. D'autres, les plus réactives, se sont formées avec le vent d'Ouest-Nord-Ouest de ce vendredi. Toutes sont localisées dans les creux, les combes, derrière les croupes râpées par le vent, généralement dans les versants Ouest/Nord/Est. Le déclenchement peut avoir lieu loin des crêtes, voire même en bas des pentes. Les avalanches engendrées sont de taille 1 à 2 (petites à moyennes) plus rarement taille 3 avec des cassures parfois épaisses. La plupart  de ces plaques reposent sur une couche fragile persistante (gobelet).. Risque accru en s'approchant de la Haute Maurienne.\nObservables : avalanche dans une pente similaire (orientation, exposition, disposition par rapport au vent... ), woumfs.\n\nDéparts spontanés : Peu probable\n\nAutre :  attention aux glissades avec la neige très dure dans quelques secteurs.",
       "sections": null,
       "icon_key": "stability"
     },

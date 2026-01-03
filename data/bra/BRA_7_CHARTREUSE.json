@@ -3,8 +3,8 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-01-02T15:00:00",
-    "valid_until": "2026-01-03T18:00:00",
+    "issued_at": "2026-01-03T15:00:00",
+    "valid_until": "2026-01-04T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-01-04",
+        "date": "2026-01-05",
         "label": "Indice de risque faible",
-        "comment": "Dimanche, pas d'évolution significative de la situation nivologique.",
+        "comment": "Lundi, pas d'évolution du risque. Le temps glacial et sec se poursuit, avec une bise faible à modérée.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2025-12-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2025-12-30",
           "min_cm": 0,
           "max_cm": 0
@@ -94,38 +89,43 @@
         {
           "date": "2026-01-01",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
         },
         {
           "date": "2026-01-02",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
         },
         {
           "date": "2026-01-03",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-01-04",
           "min_cm": 0,
           "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 1
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "PEU DE NEIGE, MANTEAU STABLE",
-      "text": "PEU DE NEIGE, MANTEAU STABLE\n\nDéclenchements provoqués : l'enneigement est faible et le manteau neigeux bien stabilisé. Il semble difficile d'envisager un déclenchement accidentel par un skieur.\n\nDéparts spontanés : peu probables.",
+      "text": "PEU DE NEIGE, MANTEAU STABLE\n\nDéclenchements provoqués : L'enneigement est faible et le manteau neigeux bien stabilisé. Il semble difficile d'envisager un déclenchement accidentel par un skieur.\n\nDéparts spontanés : Très peu probables.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : l'enneigement est déficitaire. Limites skiables (avec précautions) à partir de 1400/1800 m selon le versant.\n\nQualité de la neige samedi : neige regelée voire très dure ou parfois soufflée.",
+      "text": "Qualification de l’enneigement : L'enneigement est déficitaire. Limites skiables (avec précautions) à partir de 1500/1800 m selon le versant.\n\nQualité de la neige dimanche : Neige dure à très dure, regelée ou soufflée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1300,
+        "north": 1400,
         "south": 1900
       },
       "levels_cm": [
@@ -141,7 +141,7 @@
         },
         {
           "alt_m": 2000,
-          "N": 80,
+          "N": 55,
           "S": 10
         }
       ],

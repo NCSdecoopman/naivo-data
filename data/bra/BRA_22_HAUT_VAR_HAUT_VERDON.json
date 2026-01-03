@@ -3,31 +3,31 @@
   "massif": "Haut-Var Haut-Verdon",
   "bulletin": {
     "id": 22,
-    "issued_at": "2026-01-02T16:00:00",
-    "valid_until": "2026-01-03T18:00:00",
+    "issued_at": "2026-01-03T15:00:00",
+    "valid_until": "2026-01-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 2200,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "2200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<2200",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
-            "risk": 2,
+            "loc": ">2200",
+            "risk": 3,
             "evolution_to": null,
             "position": "top"
           }
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "2200m"
         },
         "zones": {
           "bottom": {
@@ -46,17 +46,17 @@
             "evolution_to": null
           },
           "top": {
-            "text": "2",
-            "risk": 2,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-01-04",
-        "label": "Indice de risque limité",
-        "comment": "Maintien d'un risque limité avec la présence de plaques à vent encore faciles à déclencher dans certains secteurs.",
+        "max_level": 3,
+        "date": "2026-01-05",
+        "label": "Indice de risque marqué",
+        "comment": "Très lente stabilisation des plaques formées vendredi et samedi. Maintien d'un risque marqué en altitude.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2025-12-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2025-12-30",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +113,11 @@
           "date": "2026-01-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,24 +127,24 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOUVELLES PLAQUES EN PLACE ET EN FORMATION",
-      "text": "NOUVELLES PLAQUES EN PLACE ET EN FORMATION\n\nDéclenchements provoqués : \nDe nouvelles plaques sont en place et en cours de formation par le vent d'ouest à nord-ouest. Elles se trouvent dans les secteurs où on trouvait localement de la vieille neige poudreuse, facile à transporter par le vent. En particulier dans les versants ouest, nord à est, parfois loin des crêtes et ruptures de pentes, avec un transport de neige à partir de 2000 m environ, mais plus marqué au dessus de 2400/2500 m. Ces plaques sont souvent d'aspect durci par le vent dans les zones exposées, localement friable dans les secteurs un peu plus abrités. Elles peuvent être facile à déclencher. En cas de rupture, elles sont généralement peu épaisses et peu étendues. Elles peuvent provoquer des avalanches petites à moyenne en général (taille 1 à 2).\nAu dessus de 2200 m environ en un large secteur nord, la présence en profondeur de couches fragiles persistantes peut provoquer des cassures plus importantes (avalanches de taille 2 à très rarement 3) surtout en cas de forte sollicitation (premier départ de plaque de surface, ou zones de forte accumulation de neige ventée par exemple), avec un déclenchement à distance possible. \n\nDéparts spontanés : quelques départs en plaques possibles par surcharge du manteau neigeux due au transport de neige par le vent d'ouest à nord-ouest, parfois loin des crêtes et ruptures de pentes. Avalanches de taille petite à moyenne en général, un rare grande est possible en cas de rupture d'une couche fragile enfouie en profondeur.",
+      "title": "INSTABILITÉ MARQUÉE DANS LA NEIGE VENTÉE",
+      "text": "INSTABILITÉ MARQUÉE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : manteau neigeux faiblement à modérément stabilisé dans de nombreuses pentes d'altitude. Ces instabilités sont possibles en toute orientation, même loin des crêtes et ruptures de pente, au-dessus de 2200/2400 m, mais plus fréquentes en orientation ouest, nord, est et sud-est. Elles sont déclenchables par un seul skieur, occasionnellement à distance. Avalanches de taille petite à moyenne (taille 1 à  2), notamment dans les zones de forte accumulation de neige par le vent, et de grande largeur (taille 2 à 3, grande, non exclue) dans les orientations ouest, nord et est. Le vent de nord-ouest a soufflé fort vendredi et la nuit de vendredi à samedi à haute altitude, générant un fort transport de neige. Ces plaques généralement dures reposent fréquemment sur une couche fragile persistante, constituée de neige de faible cohésion, dans les orientations peu ensoleillées.\n\nDéparts spontanés : peu probables. Le vent a nettement faibli depuis samedi matin, limitant le départ spontané de plaque à vent. Pas d'activité en neige humide attendue ce dimanche, en raison de l'air sec et froid.\n\nAutres : neige très dure sur les crêtes",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement  proche des normales en altitude pour une fin décembre. \nDonnées observées : 51 cm à 2020 m dans le Valdemars, 46 cm vers la Cabane de Sanguinière à 2050 m.\n\nLimite d'enneigement skiable : vers 1600/1800 m environ, mais enneigement faible sous 2000/2200 m en orientations ensoleillées. Rochers restants généralement peu enfouis. \n\nÉtat de la neige en surface : À basse altitude et en versants plein sud raides, neige croutée sans humidification en journée. Ailleurs, neige encore sèche, durcie par le fort vent d'est à sud-est de la semaine dernière ou le vent d'ouest à nord-ouest en cours, plus rarement d'aspect poudreux dans certaines combes et pentes abritées.",
+      "text": "Enneigement restant très déficitaire pour un début janvier.\nDonnées observées : à 2000 m, 46 cm dans le vallon de Rougnouse, 44 cm à la Sanguinière.\n\nLimite d'enneigement skiable : à partir de 1600/1700 m en ubacs ou sur pistes forestières, mais faible enneigement à cette altitude, et 2200/2400 m en adrets. Nombreux rochers peu enfouis.\n\nÉtat de la neige en surface : manteau neigeux ancien et dense, souvent durci par le vent ou le regel. Les pentes en neige d'aspect encore poudreux sont devenus rares suite au coup de vent de nord-ouest de la nuit de vendredi à samedi, qui a également dégarni ou pelé les crêtes.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1500,
+        "north": 1600,
         "south": 1800
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 5,
+          "N": 0,
           "S": 0
         },
         {
