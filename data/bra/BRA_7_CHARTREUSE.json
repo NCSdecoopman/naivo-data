@@ -3,8 +3,8 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-01-04T15:00:00",
-    "valid_until": "2026-01-05T18:00:00",
+    "issued_at": "2026-01-05T16:00:00",
+    "valid_until": "2026-01-06T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-01-06",
+        "date": "2026-01-07",
         "label": "Indice de risque faible",
-        "comment": "Mardi, pas d'évolution du risque. Le temps glacial se poursuit avec un ciel devenant plus nuageux, quelques flocons possibles surtout sur la façade ouest du massif, et une bise sensible.",
+        "comment": "Pas d'évolution mercredi. Saupoudrage local de neige fraîche, davantage de vent de Nord en journée...",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2025-12-31",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-01",
           "min_cm": 0,
           "max_cm": 0
@@ -104,29 +99,34 @@
         {
           "date": "2026-01-05",
           "min_cm": 0,
-          "max_cm": 0
+          "max_cm": 1
+        },
+        {
+          "date": "2026-01-06",
+          "min_cm": 1,
+          "max_cm": 2
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 3
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PEU DE NEIGE, MANTEAU STABLE",
-      "text": "PEU DE NEIGE, MANTEAU STABLE\n\nDéclenchements provoqués : L'enneigement est faible et le manteau neigeux bien stabilisé. Il semble difficile d'envisager un déclenchement accidentel par un skieur.\n\nDéparts spontanés : Très peu probables.",
+      "title": "PEU DE NEIGE ET  STABLE,  ATTENTION AUX SURFACES DURCIES/GLISSANTES...",
+      "text": "PEU DE NEIGE ET  STABLE,  ATTENTION AUX SURFACES DURCIES/GLISSANTES...\n\nLe pratiquant sera surtout vigilant quant au risque de glissade sur neige très dure, regelée. Pentes herbeuses et secteurs humides sont également \"bétons\".\n\nDéclenchements provoqués : L'enneigement est faible et le manteau neigeux très stabilisé. Il semble difficile d'envisager un déclenchement accidentel par un skieur.\n\nDéparts spontanés : Très peu probables, neige compacte, sans dégel.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement est déficitaire. Limites skiables (avec précautions) à partir de 1500/1800 m selon le versant.\n\nQualité de la neige lundi : Neige dure à très dure, regelée ou soufflée.",
+      "text": "Qualification de l’enneigement : L'enneigement est franchement déficitaire. \nLimites skiables (avec précautions) à partir de 1500/1800 m en versants peu ensoleillés. Pentes Sud sèches\n\nQualité de la neige mardi : Neige compacte soufflée ou durcie/croutée par regel. Des secteurs vitrifiés parfois en altitude.\nPlus bas ruisseaux glacés et terre durcie. Attention au risque de glissade...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1400,
-        "south": 1900
+        "south": 2000
       },
       "levels_cm": [
         {

@@ -3,8 +3,8 @@
   "massif": "Maurienne",
   "bulletin": {
     "id": 9,
-    "issued_at": "2026-01-04T16:00:00",
-    "valid_until": "2026-01-05T18:00:00",
+    "issued_at": "2026-01-05T15:00:00",
+    "valid_until": "2026-01-06T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-06",
+        "date": "2026-01-07",
         "label": "Indice de risque limité",
-        "comment": "Aucun changement avec encore une belle journée froide. Il faudra attendre les chutes espérées en fin de semaine pour que les conditions et la stabilité change radicalement.",
+        "comment": "Le risque augmente légèrement avec le vent de Nord Ouest qui se lève et transporte un peu de neige vers la crête frontalière iséroise. Le risque demeure limité (risque 2) pour autant.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2025-12-31",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-01",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +113,11 @@
           "date": "2026-01-05",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-06",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -128,12 +128,12 @@
     },
     "stability": {
       "title": "MANTEAU SCULPTÉ PAR LE VENT, COMPORTANT ENCORE QUELQUES PLAQUES DURES EN ALTITUDE.",
-      "text": "MANTEAU SCULPTÉ PAR LE VENT, COMPORTANT ENCORE QUELQUES PLAQUES DURES EN ALTITUDE.\n\nDéclenchements provoqués : au-dessus de 2200 m, quelques plaques souvent dures sont déjà en place. D'autres, les plus réactives, se sont formées avec le vent d'Ouest-Nord-Ouest de ce vendredi. Toutes sont localisées dans les creux, les combes, derrière les croupes râpées par le vent, généralement dans les versants Ouest/Nord/Est. Le déclenchement peut avoir lieu loin des crêtes, voire même en bas des pentes. Les avalanches engendrées sont de taille 1 à 2 (petites à moyennes) plus rarement taille 3 avec des cassures parfois épaisses. La plupart  de ces plaques reposent sur une couche fragile persistante (gobelet).. Risque accru en s'approchant de la Haute Maurienne.\nObservables : avalanche dans une pente similaire (orientation, exposition, disposition par rapport au vent... ), woumfs.\n\nDéparts spontanés : Peu probable\n\nAutre :  attention aux glissades avec la neige très dure dans quelques secteurs.",
+      "text": "MANTEAU SCULPTÉ PAR LE VENT, COMPORTANT ENCORE QUELQUES PLAQUES DURES EN ALTITUDE.\n\nDéclenchements provoqués : au-dessus de 2200 m, quelques plaques souvent dures sont déjà en place. D'autres, les plus réactives, se sont formées avec le vent d'Ouest-Nord-Ouest de ce vendredi. Toutes sont localisées dans les creux, les combes, derrière les croupes râpées par le vent, généralement dans les versants Ouest/Nord/Est. Le déclenchement peut avoir lieu loin des crêtes, voire même en bas des pentes. Les avalanches engendrées sont de taille 1 à 2 (petite à moyenne), plus rarement taille 3 avec des cassures parfois épaisses. La plupart de ces plaques reposent sur une couche fragile persistante (gobelet). Risque accru en s'approchant de la Haute Maurienne.\nObservables : avalanche dans une pente similaire (orientation, exposition, disposition par rapport au vent... ), woumfs.\n\nDéparts spontanés : peu probables.\n\nAutre :  attention aux glissades avec la neige très dure dans quelques secteurs.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :  le vent couplé au manque de précipitations ont fait des ravages sur le manteau neigeux. L'enneigement est maintenant déficitaire à tous niveaux, au niveau des records bas dans certains secteurs comme à la nivôse des Rochilles (Cerces).\n\nLimite skiable : sur terrain herbeux : 1400 m en N, 1700 m en Sud pas trop raide. Pour skier sur terrain rocheux, il faut généralement monter à plus de 2000 m.\n\nQualité de la neige : sous 2100/2300 m en versants Est/Nord/Ouest, croûte de glace, soit non portante et assez pénible à skier, soit portante mais alors attention aux glissades sur cette neige dure. Au-dessus, la neige est très ventée, cartonnée voire bétonnée près des crêtes. Localement, dans les rares zones protégées du vent, on trouve de rares secteurs en vieille poudre. En Sud, neige de printemps, dure le matin qui ramollit difficilement en journée.",
+      "text": "Enneigement :  le vent couplé au manque de précipitations ont fait des ravages sur le manteau neigeux. L'enneigement est maintenant déficitaire à tous niveaux, au niveau des records bas dans certains secteurs comme à la nivôse des Rochilles (Cerces).\n\nLimite skiable : sur terrain herbeux : 1400 m en N, 1700 m en Sud pas trop raide. Pour skier sur terrain rocheux, il faut généralement monter à plus de 2000 m.\n\nQualité de la neige : sous 2100/2300 m en versants Est/Nord/Ouest, croûte de glace, soit non portante et assez pénible à skier, soit portante mais alors attention aux glissades sur cette neige dure. Au-dessus, la neige est très ventée, cartonnée voire bétonnée près des crêtes. Localement, dans les rares zones protégées du vent, on trouve des secteurs en vieille poudre. \nEnfin en Sud, neige dure mais au bon grip avec beaucoup de micro reliefs (pénitents). En journée, elle ne ramollit pas ou que très superficiellement (l'air étant trop sec et le froid trop froid).",
       "icon_key": "snow-quality"
     },
     "snowpack": {

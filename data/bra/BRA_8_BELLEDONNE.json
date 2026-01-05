@@ -3,8 +3,8 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-01-04T15:00:00",
-    "valid_until": "2026-01-05T18:00:00",
+    "issued_at": "2026-01-05T16:00:00",
+    "valid_until": "2026-01-06T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-01-06",
+        "date": "2026-01-07",
         "label": "Indice de risque faible",
-        "comment": "Mardi, pas d'évolution du risque. Le temps glacial se poursuit avec un ciel devenant plus nuageux, quelques flocons sans grande conséquence, et une bise faible à modérée, qui se renforce surtout en fin de journée.",
+        "comment": "Pas d'évolution mercredi, malgré davantage de vent de Nord en journée...",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2025-12-31",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-01",
           "min_cm": 0,
           "max_cm": 0
@@ -99,34 +94,39 @@
         {
           "date": "2026-01-04",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
         },
         {
           "date": "2026-01-05",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
+        },
+        {
+          "date": "2026-01-06",
+          "min_cm": 1,
+          "max_cm": 2
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
+        "last_48h_min_cm": 1,
         "last_48h_max_cm": 2
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX STABLE",
-      "text": "MANTEAU NEIGEUX STABLE\n\nDéclenchements provoqués : L'enneigement est faible et le manteau neigeux bien stabilisé. Il semble difficile d'envisager un déclenchement accidentel par un skieur, à l'exception d'une éventuelle plaque à vent de petite taille à haute altitude en versant de composante Nord, devenue plus difficile à déclencher au fil des jours.\n\nDéparts spontanés : Peu probables.",
+      "title": "MANTEAU NEIGEUX STABLE,  ATTENTION AU RISQUE DE GLISSADE SUR NEIGE DURE...",
+      "text": "MANTEAU NEIGEUX STABLE,  ATTENTION AU RISQUE DE GLISSADE SUR NEIGE DURE...\n\nL'un des principaux risque pour le pratiquant est le risque de glissade sur neige très dure, parfois vitrifiée.\nEn pentes non enneigées on observe des sols durcis par regel et de nombreux ruisseaux glacés.\n\nDéclenchements provoqués : L'enneigement est faible et le manteau neigeux est généralement bien stabilisé. \nLes anciennes plaques dures semblent difficiles à déclencher. En faces froids ombragées on se méfiera éventuellement d'une mince plaque superficielle, souvent loin des crêtes...\n\nDéparts spontanés  : Peu probables, neige compacte, sans dégel. Néanmoins sous le vent de Nord, fines coulées possibles en pentes très raides/parois rocheuses...",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement est médiocre pour la saison, notamment en versant Sud et en moyenne montagne. Il est un peu meilleur en combe Nord. Limites skiables à partir de 1500/1800 m selon les versants.\n\nQualité de la neige lundi : La plupart du temps veille neige dense, croûtée ou très dure, surtout sous 2000 m. Au-dessus, on trouve principalement de la neige ancienne densifiée par le vent et parfois des surfaces entièrement lisses. Localement, quelques pentes ou contrepentes d'altitude abritées ont pu évoluer en frisette (grains anguleux sans cohésion). Les crêtes et certaines pentes Sud sont quant à elles parfois dégarnies.",
+      "text": "Qualification de l’enneigement : L'enneigement est faible pour la saison, notamment en pentes Sud, vers les crêtes et en forêts. \nIl est un peu meilleur en combe Nord d'altitude. Limites skiables à partir de 1400/1600m en Nord, 1900/2400m en Sud...\n\nQualité de la neige lundi : La plupart du temps veille neige dense,  irrégulière croûtée ou très dure. Pentes ombragées parfois vitrifiées vers les crêtes. EN altitude, rares secteurs meilleurs à skier en neige sèche dense, souvent compacte.\nSous les les surfaces dures, neige parfois sans cohésion. Au soleil neige tendue par regel avec d'importants reliefs d'évaporation.\nSki délicat, attention au risque de glissade.\nAvec le gel persistant et de nombreuses pentes sèches, les ruisseaux sont souvent glacés, les pentes terreuses durcies...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1400,
-        "south": 1800
+        "south": 1900
       },
       "levels_cm": [
         {

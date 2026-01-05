@@ -3,8 +3,8 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-01-04T16:00:00",
-    "valid_until": "2026-01-05T18:00:00",
+    "issued_at": "2026-01-05T16:00:00",
+    "valid_until": "2026-01-06T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-06",
+        "date": "2026-01-07",
         "label": "Indice de risque limité",
-        "comment": "Risque stationnaire. Des instabilités liées au vent sont encore présentes en haute-montagne.",
+        "comment": "Le risque se maintient : le vent se renforce et transporte la neige encore légère en haute-montagne. La journée est encore belle, ensoleillée mais froide.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2025-12-31",
-          "min_cm": 0,
-          "max_cm": 1
-        },
-        {
           "date": "2026-01-01",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +113,11 @@
           "date": "2026-01-05",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-06",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "En altitude, plaques à vent formées par le vent de NE.",
-      "text": "En altitude, plaques à vent formées par le vent de NE.\n\nDéclenchements provoqués : \n* Au-dessus de 2500m, quelques plaques à vent se forment sous le vent de NE et s'ajoutent aux anciennes formées sous le vent de W/SW. Ces plaques sont minces, mais parfois réactives. Un peu plus haut en altitude, ces plaques sont un peu plus épaisses, mais réagissent plus difficilement. Taille 1, voire 2 (petite/moyenne).\n* Au-delà de 2300 m, dans les versants froids, une couche fragile persistante est enfouie sous 70/90 cm, mais ne semble pas vraiment sollicitable par un skieur. Attention aux fortes sollicitations (chutes de séracs, avalanches en cascade, etc …). Taille 1 à 2.\n\nDéparts spontanés :\nPeu probables. Très rares plaques de fond dans les pentes lisses et raides. Taille 1 (petite).\n\nAutre :\nRisque de glissade ou de dévissage sur la neige dure regelée.",
+      "title": "En altitude, plaques à vent en formation. En moyenne montagne, risque de glissade sur la neige regelée.",
+      "text": "En altitude, plaques à vent en formation. En moyenne montagne, risque de glissade sur la neige regelée. \n\nDéclenchements provoqués : \n* Au-dessus de 2500 m : plaques à vent. Elles se forment sous le vent de secteur Nord dans la neige encore froide et légère. Elles s'ajoutent à celles déjà formées ces deniers jours sous le vent d'Ouest/Sud-Ouest. Elles sont plus nombreuses et plus dures en montant en altitude, mais restent peu épaisses. Déclenchables au passage d'un·e skieur·euse. Taille 1 (petite) à 2 (moyenne).\nObservables : transport de neige par le vent, zones d'accumulation, vaguelettes, fissures devant les skis ... \n* Au-dessus de 2200 m : présence d'une couche fragile persistante enfouie. Présente en versants Ouest/Nord/Est. Difficilement sollicitable par un ·e pratiquant·e mais risque de cassure épaisse (70/90 cm). Taille 2 (moyenne). \n\nDéparts spontanés :\nPeu probables. En-dessous de 2500 m : Très rares plaques de fond dans les pentes lisses et raides, possibles à toute heure. Taille 1 (petite).\n\nAutre :\nRisque de glissade ou de dévissage sur la neige dure regelée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nDéficitaire pour la saison à toutes altitudes (dernière chute de neige significative le 07/12). On peut chausser les skis au-dessus de 1500 m dans les versants N, 1800 m dans les versants Sud.\n\nQualité de la neige lundi :\n* En dessous de 2500 m : neige dure/croutée en tout versant. Dans les versants S raides, la neige décaille légèrement l'après-midi.\n* Au-dessus de 2500 m : la neige est variable, très souvent travaillé par le vent.\n* En haute-montagne, dans les quelques secteurs abrités du vent, on retrouve de la neige froide et légère.\n* Les arêtes et les crêtes sont dégarnies.",
+      "text": "Enneigement :\nDéficitaire voire très déficitaire pour la saison à toutes altitudes (dernière chute de neige significative le 07/12). On peut chausser les skis au-dessus de 1500 m dans les versants N, 1800 m dans les versants Sud.\n\nQualité de la neige mardi :\n* En dessous de 2200 m : la surface du manteau neigeux est regelée. La croûte est dure, surtout dans les versants Sud et plus cassante ailleurs. Sous la croûte, la neige est meuble. \n* Au-dessus de 2200 m : dans les versants peu ensoleillés, la surface de la neige est restée froide, mais elle est souvent dure, travaillée par le vent. \n* En haute montagne, il reste de la neige légère dans les pentes peu exposées au vent.\n* Les arêtes et les crêtes de moyenne montagne sont dégarnies.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

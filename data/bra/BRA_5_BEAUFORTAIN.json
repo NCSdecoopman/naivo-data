@@ -3,8 +3,8 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-01-04T16:00:00",
-    "valid_until": "2026-01-05T18:00:00",
+    "issued_at": "2026-01-05T15:00:00",
+    "valid_until": "2026-01-06T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-01-06",
+        "date": "2026-01-07",
         "label": "Indice de risque faible",
-        "comment": "Aucun changement avec encore une belle journée froide. Il faudra attendre les chutes espérées en fin de semaine pour que les conditions et la stabilité change radicalement.",
+        "comment": "Journée froide. Peu de changement malgré le léger vent de Nord.",
         "trend": "steady"
       }
     },
@@ -67,21 +67,15 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 3,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
-        "3": "Couche fragile persistante"
+        "2": "Neige ventée"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2025-12-31",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-01",
           "min_cm": 0,
@@ -106,6 +100,11 @@
           "date": "2026-01-05",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-06",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -116,12 +115,12 @@
     },
     "stability": {
       "title": "Manteau globalement bien stable",
-      "text": "Manteau globalement bien stable\n\nDéclenchements provoqués : De rares plaques ventées dures trainent encore dans les versants ombragés froids (Ouest/Nord/Est, au-dessus de 2000 m). Elles sont épaisses et difficilement déclenchables par un seul skieur, mais parfois possible en groupe trop rapproché. Elles reposent sur des gobelets enfouies dans le manteau. On les trouve dans l'axe des couloirs,  et en bas de faces car le haut est souvent plus soufflé et moins chargé.  Taille 1 (petite) à taille 2 (moyenne) si la topographie le permet.\nObservable: elles sont reconnaissable à leur aspect de plus ou moins grande pastille d'un blanc mat et lisse avec une neige souvent très dure en surface (durété \"le couteau\"). \n\nDéparts spontanés : Peu probable\n\nAutre : attention aux glissades avec la neige très dure dans certains secteurs.",
+      "text": "Manteau globalement bien stable\n\nDéclenchements provoqués : de rares plaques ventées dures trainent encore dans les versants ombragés froids (Ouest/Nord/Est, au-dessus de 2000 m). Elles sont épaisses et difficilement déclenchables par un seul skieur, mais parfois possible en groupe trop rapproché. On les trouve dans l'axe des couloirs,  et en bas de faces car le haut est souvent plus soufflé et moins chargé. Taille 1 (petite) à taille 2 (moyenne) si la topographie le permet.\nObservable: elles sont reconnaissable à leur aspect de plus ou moins grande pastille d'un blanc mat et lisse avec une neige souvent très dure en surface (dureté \"le couteau\"). \n\nDéparts spontanés : Peu probable\n\nAutre : attention aux glissades avec la neige très dure dans certains secteurs.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : le foehn couplé au manque de précipitations ont fait des ravages sur le manteau neigeux. L'enneigement est maintenant déficitaire sous 2000 m, à peine correct pour la saison au-dessus.\n\nLimite skiable : 1300 m en N, 1700/1800 m en Sud pas trop raide.\n\nQualité de la neige : En large nord, neige croutée sous 1800/2000 m, pénible à skier car soit cassante/gênante soit béton/glissante. Puis au-dessus de cette altitude, la croute s'affine et devient peu gênante voire carrément absente au-delà de 2300/2500 m. Malheureusement, au-delà de ces altitudes, on trouve généralement une neige très ventée, cartonnée voire bétonnée près des crêtes. Localement, un peu de frisette en bas de pentes et dans les replats. Enfin en Sud, neige dure mais au bon grip avec beaucoup de micro reliefs (pénitents) , en journée elle ne ramollit pas ou que très superficiellement (l'air étant trop sec).",
+      "text": "Enneigement : le foehn couplé au manque de précipitations ont fait des ravages sur le manteau neigeux. L'enneigement est maintenant déficitaire sous 2000 m, à peine correct pour la saison au-dessus.\n\nLimite skiable : 1300 m en N, 1700/1800 m en Sud pas trop raide.\n\nQualité de la neige : en large nord, neige croutée sous 1800/2000 m, pénible à skier car soit cassante/gênante soit béton/glissante. Puis au-dessus de cette altitude, la croute s'affine et devient peu gênante voire carrément absente au-delà de 2300/2500 m. Malheureusement, au-delà de ces altitudes, on trouve généralement une neige très ventée, cartonnée voire bétonnée près des crêtes. Localement, un peu de frisette en bas de pentes et dans les replats. Enfin en Sud, neige dure mais au bon grip avec beaucoup de micro reliefs (pénitents). En journée, elle ne ramollit pas ou que très superficiellement (l'air étant trop sec et le froid trop froid).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
