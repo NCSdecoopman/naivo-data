@@ -3,8 +3,8 @@
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
-    "issued_at": "2026-01-05T16:00:00",
-    "valid_until": "2026-01-06T18:00:00",
+    "issued_at": "2026-01-06T16:00:00",
+    "valid_until": "2026-01-07T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-01-07",
-        "label": "Indice de risque limité",
-        "comment": "Le risque augmente légèrement avec le vent de Nord Ouest qui se lève et transporte un peu de neige vers la crête frontière. Le risque demeure limité (risque 2) pour autant.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-01-08",
+        "label": "Indice de risque marqué",
+        "comment": "Début de l'offensive neigeuse. En fin de journée, les cumuls de neige fraîche associés au vent fort (et aux gobelet en surface) induisent une importante hausse du risque.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-01",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-02",
           "min_cm": 0,
           "max_cm": 0
@@ -118,17 +113,22 @@
           "date": "2026-01-06",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-07",
+          "min_cm": 0,
+          "max_cm": 2
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_max_cm": 2
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "MANTEAU SCULPTÉ PAR LE VENT, COMPORTANT ENCORE QUELQUES PLAQUES DURES EN ALTITUDE.",
-      "text": "MANTEAU SCULPTÉ PAR LE VENT, COMPORTANT ENCORE QUELQUES PLAQUES DURES EN ALTITUDE.\n\nDéclenchements provoqués :  au-dessus de 2100 m, quelques plaques dures formées par le vent récent sont en place. Toutes sont localisées dans les creux, les combes, derrière les croupes râpées par le vent, généralement dans les versants Nord-Ouest/Nord/Est voir Sud-Est. Le déclenchement peut avoir lieu loin des crêtes, voire même en bas des pentes. Les avalanches engendrées sont généralement de taille 2 (moyennes) avec des cassures parfois épaisses. La plupart de ces plaques reposent sur une couche fragile persistante (gobelet). \n--> A noter que dans le secteur Val d'Isère/Sources de l'Isère/Méan Martin, les plaques sont plus réactives suite aux chutes de neige ventées de la semaine passée. De plus, elles reposent sur des couches fragiles persistantes enfouies nettement plus généralisées et efficaces par rapport au reste du massif. Une grande avalanche (taille 3) reste envisageable dans ce secteur.\nObservables : avalanche dans une pente similaire (orientation, exposition, disposition par rapport au vent... ), woumfs.\n\nDéparts spontanés :  peu probables.\n\nAutre :  attention aux glissades avec la neige très dure dans beaucoup de secteurs.",
+      "text": "MANTEAU SCULPTÉ PAR LE VENT, COMPORTANT ENCORE QUELQUES PLAQUES DURES EN ALTITUDE.\n\nDéclenchements provoqués :  au-dessus de 2100 m, dans les versants Ouest/Nord/Est, quelques plaques souvent dures sont en place. Elles sont localisées dans les creux, les combes, derrière les croupes/cols râpés par le vent. Bien que vieilles et difficilement mobilisables, ces plaques restent déclenchables car elles reposent sur une couche fragile persistante (gobelet). Les avalanches engendrées sont de taille 1 à 2 (petites à moyennes).\n--> A noter que dans le secteur Val d'Isère/Sources de l'Isère/Méan Martin, les plaques sont plus réactives car elles reposent sur des couches fragiles persistantes enfouies nettement plus généralisées et efficaces que dans le reste du massif. Une grande avalanche (taille 3) reste envisageable dans ce secteur.\nObservables : avalanche dans une pente similaire (orientation, exposition, disposition par rapport au vent... ), woumfs.\n\nDéparts spontanés :  peu probables.\n\nAutre :  attention aux glissades avec la neige très dure dans beaucoup de secteurs.",
       "sections": null,
       "icon_key": "stability"
     },

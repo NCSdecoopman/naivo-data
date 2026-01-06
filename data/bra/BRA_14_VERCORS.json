@@ -3,8 +3,8 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-01-05T16:00:00",
-    "valid_until": "2026-01-06T18:00:00",
+    "issued_at": "2026-01-06T16:00:00",
+    "valid_until": "2026-01-07T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-01-07",
-        "label": "Indice de risque faible",
-        "comment": "Pas d'évolution mercredi. Saupoudrage local de neige fraîche, davantage de vent de Nord en journée...",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-01-08",
+        "label": "Indice de risque marqué",
+        "comment": "Jeudi, des chutes de neiges soutenues sont attendues sur le massif, sous un vent marqué. La pluie devrait toutefois s'inviter jusqu'à 1500/1600m dans la journée. Le risque sera encore faible en matinée, et deviendra progressivement marqué au fil de la journée.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-01",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-02",
           "min_cm": 0,
           "max_cm": 0
@@ -103,24 +98,29 @@
         },
         {
           "date": "2026-01-06",
+          "min_cm": 0,
+          "max_cm": 1
+        },
+        {
+          "date": "2026-01-07",
           "min_cm": 1,
-          "max_cm": 2
+          "max_cm": 3
         }
       ],
       "totals": {
         "last_48h_min_cm": 1,
-        "last_48h_max_cm": 3
+        "last_48h_max_cm": 4
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PEU DE NEIGE ET  STABLE,  ATTENTION AUX SURFACES DURCIES/GLISSANTES...",
-      "text": "PEU DE NEIGE ET  STABLE,  ATTENTION AUX SURFACES DURCIES/GLISSANTES...\n\nLe pratiquant sera surtout vigilant quant au risque de glissade sur neige très dure, regelée. Pentes herbeuses et secteurs humides sont également \"bétons\".\n\nDéclenchements provoqués : L'enneigement est faible et le manteau neigeux très stabilisé. Il semble difficile d'envisager un déclenchement accidentel par un skieur.\n\nDéparts spontanés : Très peu probables, neige compacte, sans dégel. Néanmoins sous le vent de Nord, fines coulées possibles en pentes très raides/couloirs rocheux",
+      "title": "PEU DE NEIGE ET STABLE,  ATTENTION AUX SURFACES DURCIES/GLISSANTES...",
+      "text": "PEU DE NEIGE ET STABLE,  ATTENTION AUX SURFACES DURCIES/GLISSANTES...\n\nEnneigement très faible sur le massif. Si le risque d'avalanches est franchement faible, le risque de glissade est lui important avec une neige durcie / glacée sur le massif. Les pentes herbeuses sont également souvent gelées / glissantes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement est franchement déficitaire. \nLimites skiables (avec précautions) à partir de 1500/1800 m en versants peu ensoleillés. Pentes Sud sèches\n\nQualité de la neige mardi : Neige compacte soufflée ou durcie/croutée par regel. Des secteurs vitrifiés parfois en altitude.\nPlus bas ruisseaux glacés et terre durcie. Attention au risque de glissade...",
+      "text": "Qualification de l’enneigement : L'enneigement est franchement déficitaire. \nLimites skiables (avec précautions) à partir de 1500/1800 m en versants peu ensoleillés. Pentes Sud sèches\n\nQualité de la neige mercredi : Neige compacte soufflée ou durcie/croutée par regel. Des secteurs vitrifiés parfois en altitude.\nPlus bas ruisseaux glacés et terre durcie. Attention au risque de glissade...",
       "icon_key": "snow-quality"
     },
     "snowpack": {

@@ -3,8 +3,8 @@
   "massif": "Haut-Var Haut-Verdon",
   "bulletin": {
     "id": 22,
-    "issued_at": "2026-01-05T16:00:00",
-    "valid_until": "2026-01-06T18:00:00",
+    "issued_at": "2026-01-06T16:00:00",
+    "valid_until": "2026-01-07T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-07",
+        "date": "2026-01-08",
         "label": "Indice de risque limité",
-        "comment": "Maintien d'un risque limité avec des plaques à vent résiduelles en altitude. Côté météo, toujours glacial et un vent de nord-ouest qui se renforce en fin de journée.",
+        "comment": "Risque en hausse mais restant limité avec la formation de nouvelles plaques à vent sous l'action d'un fort vent de nord-ouest.",
         "trend": "steady"
       }
     },
@@ -78,22 +78,16 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 3,
+      "primary": 3,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-01",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-02",
           "min_cm": 0,
@@ -118,6 +112,11 @@
           "date": "2026-01-06",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-07",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +126,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "ENCORE QUELQUES PLAQUES DURES EN ALTITUDEE",
-      "text": "ENCORE QUELQUES PLAQUES DURES EN ALTITUDEE\n\nDéclenchements provoqués : dans de rares pentes au dessus de 2200/2400 m, le manteau neigeux est encore faiblement stabilisé. En cours de stabilisation, ces plaques souvent dures se situent dans les zones d'accumulation de neige par le vent et deviennent de plus en plus difficiles à déclencher, occasionnellement à distance. Avalanches de taille petite à moyenne (taille 1 à 2), une avalanche de grande taille encore possible dans les pentes les plus chargées par le vent, notamment en versants d'un large nord à est, où la présence d'une couche fragile enfouie permet de mobilier un volume plus conséquent.\n\nDéparts spontanés : peu d'activité naturelle à attendre. Pas d'humidification, même en sud, en raison de l'air sec et froid.\n\nAutres : neige très dure sur les crêtes",
+      "title": "ENCORE QUELQUES PLAQUES DURES EN ALTITUDE",
+      "text": "ENCORE QUELQUES PLAQUES DURES EN ALTITUDE\n\nDéclenchements provoqués : plaques résiduelles au dessus de 2200/2400 m, formées suite au fort vent de nord-ouest de vendredi et samedi derniers. Déclenchement de plus en plus difficiles et occasionnellement à distance, ces plaques souvent dures se situent dans les zones d'accumulation. Avalanches de taille petite à moyenne (taille 1 à 2). Une avalanche de grande taille n'est pas exclue dans les pentes les plus chargées par le vent, notamment en versants d'un large nord à est, où la présence d'une couche fragile enfouie permet de mobiliser des volumes de neige plus conséquents.\n\nDéparts spontanés : peu d'activité naturelle à attendre ou éventuellement de fines coulées poudreuses (en faces très raides) sous le vent de nord-ouest qui se renforce en fin de journée.\n\nAutres : neige très dure sur les crêtes",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement déficitaire pour un début janvier.\nDonnées observées : à 2000 m, 46 cm dans le vallon de Rougnouse, 45 cm à la Sanguinière et 11 cm à Péone (1784 m).\n\nLimite d'enneigement skiable : à partir de 1600/1700 m en ubacs ou sur pistes forestières, mais faible enneigement à cette altitude, et 2200/2400 m en adrets. Nombreux rochers peu enfouis.\n\nÉtat de la neige en surface : manteau neigeux ancien et dense, souvent durci par le vent ou le regel. Les pentes en neige d'aspect encore poudreux sont devenues rares (plutôt en forêt ou combes bien abritées) suite au coup de vent de nord-ouest de la nuit de vendredi à samedi, qui a également dégarni ou pelé les crêtes.",
+      "text": "Enneigement déficitaire pour un début janvier.\nDonnées observées : à 2000 m, 45 cm dans le vallon de Rougnouse et à la Sanguinière et 11 cm à Péone (1784 m).\n\nLimite d'enneigement skiable : à partir de 1600/1700 m en ubacs ou sur pistes forestières, mais faible enneigement à cette altitude, et 2200/2400 m en adrets. Nombreux rochers peu enfouis.\n\nÉtat de la neige en surface : manteau neigeux ancien et dense, souvent durci par le vent ou le regel. Les pentes en neige d'aspect encore poudreux sont devenues rares (plutôt en forêt ou combes bien abritées) suite au coup de vent de nord-ouest de la nuit de vendredi à samedi, qui a également dégarni ou pelé les crêtes.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

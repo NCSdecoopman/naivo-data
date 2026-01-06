@@ -3,8 +3,8 @@
   "massif": "Champsaur",
   "bulletin": {
     "id": 19,
-    "issued_at": "2026-01-05T16:00:00",
-    "valid_until": "2026-01-06T18:00:00",
+    "issued_at": "2026-01-06T16:00:00",
+    "valid_until": "2026-01-07T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-01-07",
-        "label": "Indice de risque limité",
-        "comment": "Encore quelques plaques dures dans les accumulations de neige transportée par le vent.\nMaintien d'un risque limité.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-01-08",
+        "label": "Indice de risque marqué",
+        "comment": "Risque en hausse, avec les chutes de neige ventée attendue dès la journée de jeudi et la présence de couches fragiles persistantes.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-01",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-02",
           "min_cm": 0,
           "max_cm": 0
@@ -118,17 +113,22 @@
           "date": "2026-01-06",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-07",
+          "min_cm": 0,
+          "max_cm": 2
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_max_cm": 2
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "ENCORE QUELQUES PLAQUES EN ALTITUDE",
-      "text": "ENCORE QUELQUES PLAQUES EN ALTITUDE\n\nDéclenchements provoqués : au-dessus de 2200 m environ, quelques plaques plutôt dures sont en place, mais elles sont de plus en plus difficiles à déclencher. Elles se situent derrière les croupes ou ruptures de pentes, sous les corniches, là où le vent a déposé et accumulé de la neige. En cas de rupture, ces plaques engendrent des avalanches petites à moyennes (taille 1 à 2). Les cassures ne sont pas forcément très larges, mais souvent épaisses, surtout en pentes ouest, nord à est où des couches fragiles persistantes sont enfouies dans le manteau neigeux. Une grande avalanche (taille 3) n'est pas exclue en cas de départ jusqu'au sol.\n\nDéparts spontanés : peu probables.",
+      "text": "ENCORE QUELQUES PLAQUES EN ALTITUDE\n\nDéclenchements provoqués : au-dessus de 2200 m environ, quelques plaques plutôt dures sont en place, mais elles sont de plus en plus difficiles à déclencher. Elles se situent derrière les croupes ou ruptures de pentes, sous les corniches, là où le vent a déposé et accumulé de la neige. En cas de rupture, ces plaques engendrent des avalanches petites à moyennes (taille 1 à 2). Les cassures ne sont pas forcément très larges, mais souvent épaisses, surtout en pentes ouest, nord à est où des couches fragiles persistantes sont enfouies dans le manteau neigeux. Une grande avalanche (taille 3) n'est pas exclue en cas de départ jusqu'au sol.\nTrès localement, de nouvelles petites instabilités superficielles peuvent se former dans les rares secteurs où le vent de nord est suffisamment sensible, et où on trouve un peu de vieille neige suffisamment légère.\n\nDéparts spontanés : peu probables.",
       "sections": null,
       "icon_key": "stability"
     },

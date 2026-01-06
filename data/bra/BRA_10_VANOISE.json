@@ -3,8 +3,8 @@
   "massif": "Vanoise",
   "bulletin": {
     "id": 10,
-    "issued_at": "2026-01-05T15:00:00",
-    "valid_until": "2026-01-06T18:00:00",
+    "issued_at": "2026-01-06T17:00:00",
+    "valid_until": "2026-01-07T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-07",
+        "date": "2026-01-08",
         "label": "Indice de risque limité",
-        "comment": "Le risque augmente légèrement avec le vent de Nord Ouest qui se lève et transporte un peu de neige sur les hauts sommets. Le risque demeure limité (risque 2) pour autant.",
+        "comment": "Début de l'offensive neigeuse. En fin de journée, les cumuls de neige fraîche associés au vent fort (et aux faces planes en surface) induisent une importante hausse du risque.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-01",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-02",
           "min_cm": 0,
           "max_cm": 2
@@ -118,17 +113,22 @@
           "date": "2026-01-06",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-07",
+          "min_cm": 0,
+          "max_cm": 2
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_max_cm": 2
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "MANTEAU SCULPTÉ PAR LE VENT, COMPORTANT ENCORE QUELQUES PLAQUES DURES EN ALTITUDE.",
-      "text": "MANTEAU SCULPTÉ PAR LE VENT, COMPORTANT ENCORE QUELQUES PLAQUES DURES EN ALTITUDE.\n\nDéclenchements provoqués : au-dessus de 2100/2300 m, quelques plaques souvent dures sont déjà en place. D'autres, les plus réactives, se sont formées avec le vent d'Ouest-Nord-Ouest de ce vendredi. Toutes sont localisées dans les creux, les combes, derrière les croupes râpées par le vent, généralement dans les versants Ouest/Nord/Est. Le déclenchement peut avoir lieu loin des crêtes, voire même en bas des pentes. Les avalanches engendrées sont de taille 1 à 2 (petites à moyennes) plus rarement taille 3 avec des cassures parfois épaisses. La plupart  de ces plaques reposent sur une couche fragile persistante (gobelet). Risque accru en s'approchant de la Haute Maurienne.\nObservables : avalanche dans une pente similaire (orientation, exposition, disposition par rapport au vent... ), woumfs.\n\nDéparts spontanés : peu probables. \n\nAutre :  attention aux glissades avec la neige très dure dans quelques secteurs.",
+      "text": "MANTEAU SCULPTÉ PAR LE VENT, COMPORTANT ENCORE QUELQUES PLAQUES DURES EN ALTITUDE.\n\nDéclenchements provoqués : au-dessus de 2100/2300 m dans les versants Ouest/Nord/Est, quelques plaques souvent dures sont en place. Elles sont localisées dans les creux, les combes, derrière les croupes/cols râpés par le vent. Bien que vieilles et difficilement mobilisables, ces plaques restent déclenchables car elles reposent sur une couche fragile persistante (gobelet). Les avalanches engendrées sont de taille 1 à 2 (petites à moyennes) plus rarement taille 3 avec des cassures parfois épaisses Risque accru en s'approchant de la Haute Maurienne.\nObservables : avalanche dans une pente similaire (orientation, exposition, disposition par rapport au vent... ), woumfs.\n\nDéparts spontanés : peu probables. \n\nAutre :  attention aux glissades avec la neige très dure dans quelques secteurs.",
       "sections": null,
       "icon_key": "stability"
     },
