@@ -3,32 +3,32 @@
   "massif": "Maurienne",
   "bulletin": {
     "id": 9,
-    "issued_at": "2026-01-06T17:00:00",
-    "valid_until": "2026-01-07T18:00:00",
+    "issued_at": "2026-01-07T16:00:00",
+    "valid_until": "2026-01-08T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2000m indice de risque limité évoluant en marqué, plus bas indice de risque faible évoluant en limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2200,
+        "threshold_m": 2000,
         "split_axis": "horizontal",
-        "split_label": "2200m",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
+            "loc": "<2000",
             "risk": 1,
-            "evolution_to": null,
+            "evolution_to": 2,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2200",
+            "loc": ">2000",
             "risk": 2,
-            "evolution_to": null,
+            "evolution_to": 3,
             "position": "top"
           }
         ]
@@ -37,27 +37,27 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2200m"
+          "label": "2000m"
         },
         "zones": {
           "bottom": {
-            "text": "1",
+            "text": "1→2",
             "risk": 1,
-            "evolution_to": null
+            "evolution_to": 2
           },
           "top": {
-            "text": "2",
+            "text": "2→3",
             "risk": 2,
-            "evolution_to": null
+            "evolution_to": 3
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-08",
+        "date": "2026-01-09",
         "label": "Indice de risque marqué",
-        "comment": "Début de l'offensive neigeuse. En fin de journée, les cumuls de neige fraîche associés au vent fort (et aux faces planes en surface) induisent une importante hausse du risque.",
-        "trend": "up"
+        "comment": "Nouvelle chute de neige assez conséquente avec 15/25cm de plus samedi matin à 1500m,  les risques naturels et accidentels seront orienté à la hausse",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 1,
       "secondary": 3,
       "labels": {
-        "2": "Neige ventée",
+        "1": "Neige fraîche",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-03",
           "min_cm": 0,
@@ -116,24 +111,29 @@
         },
         {
           "date": "2026-01-07",
-          "min_cm": 0,
-          "max_cm": 2
+          "min_cm": 2,
+          "max_cm": 5
+        },
+        {
+          "date": "2026-01-08",
+          "min_cm": 20,
+          "max_cm": 30
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 2
+        "last_48h_min_cm": 22,
+        "last_48h_max_cm": 35
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU SCULPTÉ PAR LE VENT, COMPORTANT ENCORE QUELQUES PLAQUES DURES EN ALTITUDE.",
-      "text": "MANTEAU SCULPTÉ PAR LE VENT, COMPORTANT ENCORE QUELQUES PLAQUES DURES EN ALTITUDE.\n\nDéclenchements provoqués : au-dessus de 2200 m, dans les versants Ouest/Nord/Est, quelques plaques souvent dures sont en place. Elles sont localisées dans les creux, les combes, derrière les croupes/cols râpés par le vent. Bien que vieilles et difficilement mobilisables, ces plaques restent déclenchables car elles reposent sur une couche fragile persistante (gobelet). Les avalanches engendrées sont de taille 1 à 2 (petites à moyennes). Risque accru en s'approchant de la Haute Maurienne. \nObservables : avalanche dans une pente similaire (orientation, exposition, disposition par rapport au vent... ), woumfs.\n\nDéparts spontanés : peu probables.\n\nAutre :  attention aux glissades avec la neige très dure dans quelques secteurs.",
+      "title": "Changement radical de manteau avec des chutes de neige en cours de journée de jeudi  formant de nouvelles plaques",
+      "text": "Changement radical de manteau avec des chutes de neige en cours de journée de jeudi  formant de nouvelles plaques\n\nDéclenchements provoqués : de nouvelles plaques vont se former au fur et à mesure des chutes attendues en cours de journée. Les premiers cm bien froid faisant office de couche fragile pour la suite des chutes de moins en moins froides.\nLe risque  augmentera doucement pour devenir significatif quand  la couche de fraiche aura atteint une épaisseur conséquente:  disons autour de 20 cm pour donner alors des petites plaques de Taille 1.  Taille 2 si la nouvelle plaque active les couches fragiles persistantes enfouies dans le manteau.  Ces couches fragiles enfouies ( la vielle poudre que l'on essayait d'aller chercher ces derniers temps ) se retrouvent localement en pente Est et Nord au dessus.de 2000m. Elles sont un facteur aggravant en facilitant déclenchement et propagation ce qui engendre des plaques plus larges et plus volumineuses.   \nObservable: le cumul de neige fraiche \n \nDéparts spontanés :   - En fin de journée et surtout nuit suivante les cumuls de fraiche devraient atteindre les seuils critiques engendrant alors les premiers petits  départs spontanés  d'avalanche de poudreuse dans les pentes raides comme de plaques friables avec cassure linéaire, Taille 1 voir 2  en cours de nuit de  jeudi à vendredi\n - Coulée de talus à petite avalanche de fraiche humide de Taille 1, là ou la pluie va remonter sur la neige fraiche. Possiblement sous 1500m en fin de journée ou soirée de jeudi au moins sur les massifs  en entrée de vallée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :  le vent couplé au manque de précipitations ont fait des ravages sur le manteau neigeux. L'enneigement est maintenant déficitaire à tous niveaux, au niveau des records bas dans certains secteurs comme à la nivôse des Rochilles (Cerces).\n\nLimite skiable : sur terrain herbeux : 1400 m en N, 1700 m en Sud pas trop raide. Pour skier sur terrain rocheux, il faut généralement monter à plus de 2000 m.\n\nQualité de la neige : sous 2100/2300 m en versants Est/Nord/Ouest, croûte de glace, soit non portante et assez pénible à skier, soit portante mais alors attention aux glissades sur cette neige dure. Au-dessus, la neige est très ventée, cartonnée voire bétonnée près des crêtes. Localement, dans les rares zones protégées du vent, on trouve des secteurs en vieille poudre. \nEnfin en Sud, neige dure mais au bon grip avec beaucoup de micro reliefs (pénitents). En journée, elle ne ramollit pas ou que très superficiellement (l'air étant trop sec et le froid trop froid).",
+      "text": "Enneigement : le foehn couplé au manque de précipitations ont fait des ravages sur le manteau neigeux. L'enneigement est maintenant déficitaire sous 2000 m, à peine correct pour la saison au-dessus. Les chutes de neige attendues vont améliorer nettement l'enneigement \n\nLimite skiable :  ce jeudi matin, même si saupoudré dès la basse altitude  il faudra monter vers 1300 m en N, 1700/1800 m en Sud pas trop raide pour trouver la sous couche dure. .\n\nQualité de la neige :  Une couche de neige fraiche de plus en plus épaisse (1/5 cm le matin, 10/15cm à midi, 20/25 le soir..) va recouvrir soit  un sol nu aux plus basses altitudes soit le vieux manteau le plus souvent dur. Cette neige fraiche sera plus ventée en gagnant en altitude. En cours d'après midi voir soirée cette neige fraiche va devenir lourde collante en s'humidifiant sous 1400/1500 m  avec la remontée de la limite pluie-neige.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

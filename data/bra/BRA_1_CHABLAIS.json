@@ -3,14 +3,14 @@
   "massif": "Chablais",
   "bulletin": {
     "id": 1,
-    "issued_at": "2026-01-06T16:00:00",
-    "valid_until": "2026-01-07T18:00:00",
+    "issued_at": "2026-01-07T16:00:00",
+    "valid_until": "2026-01-08T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 1,
-      "comment": "Indice de risque faible.",
+      "max_level": 3,
+      "comment": "Indice de risque faible évoluant en marqué.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 1,
-            "evolution_to": null,
+            "evolution_to": 3,
             "position": null
           }
         ]
@@ -34,30 +34,30 @@
         },
         "zones": {
           "center": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
+            "text": "1→3",
+            "risk": 3,
+            "evolution_to": 3
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-01-08",
-        "label": "Indice de risque limité",
-        "comment": "Des chutes de neige se mettent en place au cours de la journée (15-30 cm sur la journée du jeudi et sur la nuit du jeudi au vendredi). Le vent d'ouest/sud-ouest forcit en altitude. Des instabilités se forment dans la neige fraîche et reposent sur des couches fragiles présentes dans le manteau neigeux.",
+        "max_level": 4,
+        "date": "2026-01-09",
+        "label": "Indice de risque fort",
+        "comment": "Vendredi, poursuite des chutes de neige (30/50 cm de neige fraîche en plus en 24 h) avec un vent d’ouest modéré.\n⇒ augmentation du risque d’avalanches spontanées et provoquées dans tous les versants et à toutes altitudes.",
         "trend": "up"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
-        "NE": false,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
-        "NW": false
+        "N": true,
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -66,21 +66,17 @@
       }
     },
     "sat": {
-      "primary": 6,
-      "secondary": null,
+      "primary": 1,
+      "secondary": 3,
       "labels": {
-        "6": "Aucune prédominente"
+        "1": "Neige fraîche",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-6"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-03",
           "min_cm": 0,
@@ -103,24 +99,29 @@
         },
         {
           "date": "2026-01-07",
-          "min_cm": 0,
-          "max_cm": 2
+          "min_cm": 2,
+          "max_cm": 5
+        },
+        {
+          "date": "2026-01-08",
+          "min_cm": 25,
+          "max_cm": 40
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 2
+        "last_48h_min_cm": 27,
+        "last_48h_max_cm": 45
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux stable et regelé en surface. Risque de glissade sur la neige regelée.",
-      "text": "Manteau neigeux stable et regelé en surface. Risque de glissade sur la neige regelée. \n\nDéclenchements provoqués : \nPeu probables. Au-dessus de 2400/2500 m : très rares petites plaques à vent formées par la Bise des derniers jours dans la neige restée légère. Elles sont petites et isolées.\n\nDéparts spontanés : \nPeu probables. Très rares plaques de fond dans les pentes lisses et raides, possibles à toute heure. Peu épaisses : taille 1 (petite).\n\nAutre : \nRisque de glissade ou de dévissage sur la neige dure regelée à toute altitude.",
+      "title": "Début d'épisode de forte chute de neige sur un manteau neigeux moyennement stable",
+      "text": "Début d'épisode de forte chute de neige sur un manteau neigeux moyennement stable\n\nDéclenchements provoqués :\nPlaques friables dans la neige fraîche, rares jusqu’en milieu de journée, plus nombreuses au cours de l’après-midi et de la soirée. Très facile à déclencher. Taille 1 (petite) puis 2 (moyenne). La taille des avalanches augmente avec l'altitude et l'heure de la journée. Difficile à détecter. \nFacteur aggravant : dans les versants est/nord/ouest, au-dessus de 2000 m, avalanche de taille 3 (grande), possible en fin de période due à la présence d’une sous-couche fragile persistante enfouie. Difficile à déclencher. \n\nDéparts spontanés :\nAvalanche de neige fraîche pendant les chutes de neige, très rares le matin, un peu plus nombreuses au fil de l’après-midi et surtout en soirée. Taille 1 (petite) puis 2 (moyenne). \nFacteur aggravant : dans les versants est/nord/ouest, au-dessus de 2000 m,  une avalanche de taille 3 (grande) est possible en fin de période due à la présence d’une sous-couche fragile persistante enfouie. \n\nAutres :  en début de matinée, risque de glissade/dévissage sur la neige dure.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nDéficitaire à toutes altitudes pour la saison (dernière chute de neige significative le 07/12). On peut chausser les skis au-dessus de 1500 m dans les versants N, 1700 m dans les versants S.\n\nQualité de la neige mercredi :\n* Neige dure regelée en tous versants et à toutes altitudes.\n* Les arêtes et les crêtes sont dégarnies.",
+      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire.\nOn peut chausser les skis au-dessus de 1500 m dans les versants nord et 1700 m dans les versants sud.\n\nQualité de la neige ce jeudi matin : \nEn début de matinée, fine couche de neige fraîche (1/5 cm) reposant sur une croûte souvent portante à ski, mais pas à pied. Au fil de la journée, la couche de neige fraîche s’épaissit. En fin de soirée, 25/40 cm de neige fraîche vers 2000 m.\nArêtes et crêtes dégarnies en début de journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

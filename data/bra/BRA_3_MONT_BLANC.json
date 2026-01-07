@@ -3,60 +3,48 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-01-06T16:00:00",
-    "valid_until": "2026-01-07T18:00:00",
+    "issued_at": "2026-01-07T16:00:00",
+    "valid_until": "2026-01-08T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
+      "max_level": 3,
+      "comment": "Indice de risque limité évoluant en marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2500,
-        "split_axis": "horizontal",
-        "split_label": "2500m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2500",
-            "risk": 1,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2500",
+            "loc": null,
             "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "evolution_to": 3,
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2500m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
+          "center": {
+            "text": "2→3",
+            "risk": 3,
+            "evolution_to": 3
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-01-08",
-        "label": "Indice de risque marqué",
-        "comment": "Des chutes de neige se mettent en place au cours de la journée (20-30 cm sur la journée du jeudi et sur la nuit du jeudi au vendredi). Le vent d'ouest/sud-ouest forcit en altitude. Des instabilités se forment dans la neige fraîche et reposent sur des couches fragiles présentes dans le manteau neigeux.",
+        "max_level": 4,
+        "date": "2026-01-09",
+        "label": "Indice de risque fort",
+        "comment": "Vendredi, poursuite des chutes de neige (30/50 cm de neige fraîche en plus en 24 h) avec un vent d’ouest modéré.\n⇒ augmentation du risque d’avalanches spontanées et provoquées dans tous les versants et à toutes altitudes.",
         "trend": "up"
       }
     },
@@ -65,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -78,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 1,
       "secondary": 3,
       "labels": {
-        "2": "Neige ventée",
+        "1": "Neige fraîche",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-03",
           "min_cm": 0,
@@ -116,24 +99,29 @@
         },
         {
           "date": "2026-01-07",
-          "min_cm": 0,
-          "max_cm": 3
+          "min_cm": 3,
+          "max_cm": 7
+        },
+        {
+          "date": "2026-01-08",
+          "min_cm": 30,
+          "max_cm": 50
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 3
+        "last_48h_min_cm": 33,
+        "last_48h_max_cm": 57
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "En altitude, instabilités formées par le vent. En moyenne montagne, risque de glissade sur la neige regelée.",
-      "text": "En altitude, instabilités formées par le vent. En moyenne montagne, risque de glissade sur la neige regelée. \n\nDéclenchements provoqués : \n* Au-dessus de 2500 m : plaques à vent. Elles se forment / se sont formées sous le vent de secteur Nord qui se renforce en altitude. Elles sont plus nombreuses et plus dures en montant en altitude, mais restent peu épaisses. Déclenchables au passage d'un·e skieur·euse. Taille 1 (petite) à 2 (moyenne).\nObservables : transport de neige par le vent, zones d'accumulation, vaguelettes, fissures devant les skis ... \n* Au-dessus de 2200 m : présence d'une couche fragile persistante enfouie. Présente en versants Ouest/Nord/Est. Difficilement sollicitable par un ·e pratiquant·e mais risque de cassure épaisse (70/90 cm) dans le cas d'une avalanche en cascade ou d'une chute de sérac. Taille 2 (moyenne). \n\nDéparts spontanés :\nPeu probables. \n\nAutre :\nRisque de glissade ou de dévissage sur la neige dure regelée.",
+      "title": "Début d'épisode de forte chute de neige sur un manteau neigeux moyennement stable",
+      "text": "Début d'épisode de forte chute de neige sur un manteau neigeux moyennement stable\n\nDéclenchements provoqués :\nPlaques friables dans la neige fraîche, rares jusqu’en milieu de journée, plus nombreuses au cours de l’après-midi et de la soirée. Très facile à déclencher. Taille 1 (petite) puis 2 (moyenne). La taille des avalanches augmente avec l'altitude et l'heure de la journée. Difficile à détecter. \nFacteur aggravant : dans les versants est/nord/ouest, au-dessus de 2000 m, avalanche de taille 3 (grande) avec une cassure épaisse (80 cm/1m), possible en fin de période due à la présence d’une sous-couche fragile persistante enfouie. Difficile à déclencher. \n\nDéparts spontanés :\nAvalanche de neige fraîche pendant les chutes de neige, très rares le matin, un peu plus nombreuses au fil de l’après-midi et surtout en soirée. Taille 1 (petite) puis 2 (moyenne). \nFacteur aggravant : dans les versants est/nord/ouest, au-dessus de 2000 m,  une avalanche de taille 3 (grande) est possible en fin de période due à la présence d’une sous-couche fragile persistante enfouie. \n\nAutres :  en début de matinée, risque de glissade/dévissage sur la neige dure.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nDéficitaire voire très déficitaire pour la saison à toutes altitudes (dernière chute de neige significative le 07/12). On peut chausser les skis au-dessus de 1500 m dans les versants N, 1800 m dans les versants Sud.\n\nQualité de la neige mercredi :\n* En dessous de 2200 m : la surface du manteau neigeux est regelée. La croûte est plus ou moins dure avec une croute plus cassante en montant en altitude. Sous la croûte, la neige est meuble. \n* Au-dessus de 2200 m : dans les versants peu ensoleillés, la surface de la neige est restée froide, mais elle est souvent dure, travaillée par le vent. \n* En haute montagne, il reste de la neige légère dans les pentes peu exposées au vent.\n* Les arêtes et les crêtes de moyenne montagne sont dégarnies.",
+      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire.\nOn peut chausser les skis au-dessus de 1500 m dans les versants nord et 1800 m dans les versants sud.\n\nQualité de la neige ce jeudi matin : \nEn début de matinée, fine couche de neige fraîche (1/5 cm) reposant sur une croûte souvent portante à ski, mais pas à pied. Au fil de la journée, la couche de neige fraîche s’épaissit. En fin de soirée, 30/50 cm de neige fraîche vers 2000 m.\nArêtes et crêtes dégarnies en début de journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

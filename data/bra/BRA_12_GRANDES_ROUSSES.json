@@ -3,60 +3,48 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-01-06T16:00:00",
-    "valid_until": "2026-01-07T18:00:00",
+    "issued_at": "2026-01-07T16:00:00",
+    "valid_until": "2026-01-08T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
+      "max_level": 3,
+      "comment": "Indice de risque limité évoluant en marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2200,
-        "split_axis": "horizontal",
-        "split_label": "2200m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
-            "risk": 1,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2200",
+            "loc": null,
             "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "evolution_to": 3,
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2200m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
+          "center": {
+            "text": "2→3",
+            "risk": 3,
+            "evolution_to": 3
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-01-08",
-        "label": "Indice de risque marqué",
-        "comment": "Jeudi, des chutes de neige soutenues font leur retour, sous un vent marqué en altitude. Le risque, encore limité en matinée, deviendra progressivement marqué au fil de la journée, avec des instabilités en tout versants.",
+        "max_level": 4,
+        "date": "2026-01-09",
+        "label": "Indice de risque fort",
+        "comment": "Vendredi, le risque s'annonce en hausse avec de nouvelles chutes de neige conséquentes attendues dès la nuit de jeudi à vendredi, puis en journée, avec un vent d'Ouest parfois fort en altitude. L'instabilité du manteau neigeux devrait s'accroître davantage.",
         "trend": "up"
       }
     },
@@ -65,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -78,21 +66,17 @@
       }
     },
     "sat": {
-      "primary": 3,
-      "secondary": null,
+      "primary": 1,
+      "secondary": 3,
       "labels": {
+        "1": "Neige fraîche",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-3"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-03",
           "min_cm": 0,
@@ -115,24 +99,29 @@
         },
         {
           "date": "2026-01-07",
-          "min_cm": 0,
-          "max_cm": 2
+          "min_cm": 2,
+          "max_cm": 7
+        },
+        {
+          "date": "2026-01-08",
+          "min_cm": 30,
+          "max_cm": 50
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 2
+        "last_48h_min_cm": 32,
+        "last_48h_max_cm": 57
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RARES PLAQUES DURES EPAISSES REPOSANT SUR DES COUCHES FRAGILES PERSISTANTES. SINON, RISQUE DE GLISSADE SUR NEIGE DURE / GLACEE",
-      "text": "RARES PLAQUES DURES EPAISSES REPOSANT SUR DES COUCHES FRAGILES PERSISTANTES. SINON, RISQUE DE GLISSADE SUR NEIGE DURE / GLACEE\n\nDéclenchements provoqués : Le manteau neigeux est généralement stable, mais de rares plaques dures sont encore présentes dans les versants froids. Elles sont souvent difficiles à déclencher, mais peuvent mobiliser des volumes importants, car reposant sur des couches fragiles persistantes bien enfouies dans le manteau. \n\nDéparts spontanés : Peu probables.\n\nAutres : La neige de surface est souvent très dure, voire croûtée ou glacée par endroit, avec un risque de glissade important sans équipement. Prudence également sur les pentes herbeuses ou près des ruisseaux où le risque de glissade est aussi important.",
+      "title": "CHUTES DE NEIGE VENTÉES, AVEC FRANCHE INSTABILISATION DU MANTEAU NEIGEUX",
+      "text": "CHUTES DE NEIGE VENTÉES, AVEC FRANCHE INSTABILISATION DU MANTEAU NEIGEUX\n\nDéclenchements provoqués : Des plaques vont se former sous les chutes de neige significatives attendues jusqu'à jeudi soir (2-5 cm en nuit de mercredi à jeudi, puis 15-30 cm en journée de jeudi), associées à un vent de Nord-Ouest puis Ouest parfois fort. D'abord peu épaisses, elles deviennent plus conséquentes au fur et à mesure que le cumul augmente. Souvent d'aspect dur dans les zones les plus ventées, elles peuvent en revanche être d'aspect poudreux très peu identifiable dans les secteurs un peu plus abrités, y compris loin des crêtes, dans des combes ou des talus raides. Ces plaques peuvent être très réactives, avec des déclenchements à distance possibles. En effet, la couche fragile sur laquelle elles reposent peut être composée de neige fraîche moins dense, mais aussi parfois de grains anguleux issus de la vieille neige, et formés durant la longue période anticyclonique et froide de ces dernières semaines. A noter que très localement sur l'extrême Est du massif, une première avalanche pourrait venir surcharger une ancienne plaque reposant sur des sous-couches fragiles persistantes plus enfouies, mobilisant un volume plus important.\n\nDéparts spontanés : Au fil des chutes de neige attendues, le manteau neigeux devient instable, et des avalanches de taille 1 à 2 sont de plus en plus probables au fil de la journée dans les pentes et couloirs raides, devenant nombreuses l'après-midi et le soir. De rares grandes avalanches de taille 3 ne sont pas exclues en fin de journée et soirée dans les zones de plus fortes accumulations. Leur départ peut être par endroits linéaire (rupture de plaque). Le risque est moindre sous 1600/1800 m, le manteau neigeux y étant inexistant ou famélique avant les chutes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement est bien faible pour la saison, notamment en moyenne montagne, en pentes Sud raides et à l'abord des croupes/crêtes. Plus en altitude, enneigement variable, les coups de vent de décembre ont souvent bien pelés le massif. Limites skiables à partir de 1600/2400 m selon les versants, nombreuses roches affleurantes...\n\nQualité de la neige mercredi : La plupart du temps veille neige dense,  irrégulière croûtée ou très dure. Pentes ombragées parfois vitrifiées vers les crêtes. En altitude, rares secteurs meilleurs à skier en neige sèche dense, souvent compacte. La neige dure de surface est parfois cassante, avec une sous-couche qui a perdu en cohésion suite à cette longue période anticyclonique. Au soleil neige tendue par regel avec d'importants reliefs d'évaporation. Avec le gel persistant et de nombreuses pentes sèches, les ruisseaux sont souvent glacés, les pentes terreuses durcies...",
+      "text": "Qualification de l’enneigement : L'enneigement est bien faible pour la saison, notamment en moyenne montagne, en pentes Sud raides et à l'abord des croupes/crêtes. Plus en altitude, enneigement variable, les coups de vent de décembre ont souvent bien pelé le massif. Les chutes de neige attendues vont commencer à améliorer un peu la situation. Limites skiables à partir de 1600/2400 m selon les versants, nombreuses roches affleurantes...\n\nQualité de la neige jeudi : Une couche de neige fraîche va se déposer sur le massif, encore froide et légère en secteurs abrités dans un premier temps en nuit de mercredi à jeudi (2-5 cm), puis un peu plus dense avec le redoux en journée de jeudi (15-30 cm). En altitude, le vent de Nord-Ouest puis Ouest parfois fort pourra occasionner une répartition assez hétérogène avec des secteurs plus dégarnis/soufflés vers les crêtes les plus exposées, des zones d'accumulations en neige durcie par le vent, et des zones en neige plus meuble là où le vent sera moins marqué. Sous cette neige fraîche, on retrouve la vieille neige dense, irrégulière croûtée (avec une moindre cohésion suite à la longue période anticyclonique), ou très dure, parfois vitrifiée vers les crêtes.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

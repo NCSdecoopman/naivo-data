@@ -3,61 +3,49 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-01-06T16:00:00",
-    "valid_until": "2026-01-07T18:00:00",
+    "issued_at": "2026-01-07T16:00:00",
+    "valid_until": "2026-01-08T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
+      "max_level": 3,
+      "comment": "Indice de risque limité évoluant en marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2000,
-        "split_axis": "horizontal",
-        "split_label": "2000m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
-            "risk": 1,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2000",
+            "loc": null,
             "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "evolution_to": 3,
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2000m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
+          "center": {
+            "text": "2→3",
+            "risk": 3,
+            "evolution_to": 3
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-08",
+        "date": "2026-01-09",
         "label": "Indice de risque marqué",
-        "comment": "Début de l'offensive neigeuse. En fin de journée, les cumuls de neige fraîche associés au vent fort (et aux faces planes en surface) induisent une importante hausse du risque.",
-        "trend": "up"
+        "comment": "La nouvelle chute de neige ( 10/15 cm de plus samedi matin à 1500m ) et du vent encore assez fort vont maintenir un risque accidentel marqué",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -78,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 3,
-      "secondary": 2,
+      "primary": 1,
+      "secondary": 3,
       "labels": {
-        "3": "Couche fragile persistante",
-        "2": "Neige ventée"
+        "1": "Neige fraîche",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-3"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-03",
           "min_cm": 0,
@@ -117,23 +100,28 @@
         {
           "date": "2026-01-07",
           "min_cm": 0,
-          "max_cm": 0
+          "max_cm": 2
+        },
+        {
+          "date": "2026-01-08",
+          "min_cm": 10,
+          "max_cm": 20
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 22
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU SCULPTÉ PAR LE VENT, COMPORTANT ENCORE QUELQUES PLAQUES REACTIVES.",
-      "text": "MANTEAU SCULPTÉ PAR LE VENT, COMPORTANT ENCORE QUELQUES PLAQUES REACTIVES.\n\nDéclenchements provoqués :  au dessus de 2000 m, il reste quelques plaques formées par les chutes de la semaine dernière et le vent qui a suivi. D'aspect généralement venté/dur ou carton en surface, elles reposent très souvent sur une couche fragile persistante (faces planes et gobelets). Ces plaques sont encore localement déclenchables par un skieur, et plus encore par un groupe de skieurs/raquettistes. Les avalanches engendrées sont de taille 2 (moyenne) avec des cassures dépassant souvent 50 cm. Vers la frontière, une rare avalanche de taille 3 (grande) reste possible au vu des quantités de neige mobilisable plus importantes qu'ailleurs.\nObservables : woumfs, avalanche dans une pente similaire (orientation, exposition, disposition par rapport au vent... )\n\nDéparts spontanés :  peu probables.",
+      "title": "Changement radical de manteau avec des chutes de neige en cours de journée de jeudi  formant de nouvelles plaques",
+      "text": "Changement radical de manteau avec des chutes de neige en cours de journée de jeudi  formant de nouvelles plaques\n\nDéclenchements provoqués : de nouvelles plaques vont se former au fur et à mesure des chutes attendues en cours de journée. Les premiers cm bien froid faisant office de couche fragile pour la suite des chutes de moins en moins froides.\nLe risque  augmentera doucement pour devenir significatif quand  la couche de fraiche aura atteint une épaisseur conséquente:  disons autour de 20 cm pour donner alors des petites plaques de Taille 1.  Taille 2 si la nouvelle plaque active les couches fragiles persistantes enfouies dans le manteau.  Ces couches fragiles enfouies ( la vielle poudre que l'on essayait d'aller chercher ces derniers temps ) se retrouvent localement en pente Est et Nord surtout au dessus de 18000m. Elles sont un facteur aggravant en facilitant déclenchement et propagation ce qui engendre des plaques plus larges et plus volumineuses.   \nObservable: le cumul de neige fraiche \n \nDéparts spontanés :   - En fin de journée et surtout nuit suivante quelques petits  départs spontanés  d'avalanche de poudreuse dans les pentes les plus raides comme de plaques friables avec cassure linéaire avec le vent qui va transporter la neige récente, Taille 1 voir 2",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :  les retours d'Est sur le versant frontalier ont permis d'améliorer sensiblement l'enneigement, qui commençait à devenir franchement critique pour la saison... On se retrouve désormais avec des hauteurs de neige à peine déficitaires pour la saison.\n\nLimite skiable : sur terrain rocheux, il faut monter au-dessus de 2200/2400 m quel que soit le versant pour espérer skier sans faire trop de touchettes... Sur terrain herbeux, skiable dès 1500/1600 m en Nord, 1900/2000 m en Sud.\n\nQualité de la neige : \n- sur le versant frontalier, vieille poudre aux plus basses altitudes. Puis le travail du vent se fait sentir en prenant de l'altitude : neige cartonnée à dure, avec par endroits une vieille croute de glace qui ressort en surface.\n- ailleurs, neige dure souvent très travaillée voire bétonnée par le vent, avec de rares parcelles de \"frisette\" (vieille poudre) dans les coins ombragés et très abrités du vent.",
+      "text": "Enneigement : le foehn couplé au manque de précipitations ont fait des ravages sur le manteau neigeux. L'enneigement est maintenant déficitaire sous 2000 m, à peine correct pour la saison au-dessus. Les chutes de neige attendues vont améliorer nettement l'enneigement \n\nLimite skiable :  ce jeudi matin, même si saupoudré dès la basse altitude  il faudra monter vers 1300 m en N, 1700/1800 m en Sud pas trop raide pour trouver la sous couche dure. .\n\nQualité de la neige :  Une couche de neige fraiche de plus en plus épaisse (1/5 cm le matin, 10/20 cm à midi, 20/40 le soir du sud au nord de massif ..) va recouvrir soit  un sol nu aux plus basses altitudes soit le vieux manteau le plus souvent dur. Cette neige fraiche sera plus ventée en gagnant en altitude. En cours d'après midi voir soirée cette neige fraiche va devenir lourde collante en s'humidifiant sous 1400 m  avec la remontée de la limite pluie-neige.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
