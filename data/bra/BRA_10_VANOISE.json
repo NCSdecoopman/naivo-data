@@ -3,61 +3,49 @@
   "massif": "Vanoise",
   "bulletin": {
     "id": 10,
-    "issued_at": "2026-01-07T16:00:00",
-    "valid_until": "2026-01-08T18:00:00",
+    "issued_at": "2026-01-08T16:00:00",
+    "valid_until": "2026-01-09T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 1900m indice de risque limité évoluant en marqué, plus bas indice de risque faible évoluant en limité.",
+      "max_level": 4,
+      "comment": "Indice de risque fort.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 1900,
-        "split_axis": "horizontal",
-        "split_label": "1900m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1900",
-            "risk": 1,
-            "evolution_to": 2,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">1900",
-            "risk": 2,
-            "evolution_to": 3,
-            "position": "top"
+            "loc": null,
+            "risk": 4,
+            "evolution_to": null,
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "1900m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
-          },
-          "top": {
-            "text": "2→3",
-            "risk": 2,
-            "evolution_to": 3
+          "center": {
+            "text": "4",
+            "risk": 4,
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 4,
-        "date": "2026-01-09",
+        "date": "2026-01-10",
         "label": "Indice de risque fort",
-        "comment": "Nouvelle chute de neige conséquente avec 30/40 cm de plus samedi matin à 1500m en Lauzière, 20/30 cm sur le reste de la Vanoise ,  les risques naturels et accidentels seront en hausse significatives.",
-        "trend": "up"
+        "comment": "Les chutes de neige se poursuivent encore mais les intensités sont plus faibles. Le risque accidentel reste fort avec des plaques nombreuses et très faciles à déclencher en tous versants.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -90,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-04",
           "min_cm": 0,
           "max_cm": 0
@@ -111,51 +94,56 @@
         },
         {
           "date": "2026-01-07",
-          "min_cm": 3,
-          "max_cm": 7
+          "min_cm": 5,
+          "max_cm": 10
         },
         {
           "date": "2026-01-08",
-          "min_cm": 30,
+          "min_cm": 25,
+          "max_cm": 40
+        },
+        {
+          "date": "2026-01-09",
+          "min_cm": 25,
           "max_cm": 40
         }
       ],
       "totals": {
-        "last_48h_min_cm": 33,
-        "last_48h_max_cm": 47
+        "last_48h_min_cm": 50,
+        "last_48h_max_cm": 80
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Changement radical de manteau avec des chutes de neige en cours de journée de jeudi  formant de nouvelles plaques",
-      "text": "Changement radical de manteau avec des chutes de neige en cours de journée de jeudi  formant de nouvelles plaques\n\nDéclenchements provoqués : de nouvelles plaques vont se former au fur et à mesure des chutes attendues en cours de journée. Les premiers cm bien froid faisant office de couche fragile pour la suite des chutes de moins en moins froides.\nLe risque  augmentera doucement pour devenir significatif quand  la couche de fraiche aura atteint une épaisseur conséquente:  disons autour de 20 cm pour donner alors des petites plaques de taille 1. Une fois 30/40 cm atteint , plutôt en fin de journée soirée et encore pas partout, on pourra alors provoquer des plaques moyennes Taille 2 voir grandes Taille 3 si la nouvelle plaque active les couches fragiles persistantes enfouies dans le manteau.  Ces couches fragiles enfouies ( la vielle poudre que l'on essayait d'aller chercher ces derniers temps ) se retrouvent localement en pente Est et Nord au dessus.de 1900m. Elles sont un facteur aggravant en facilitant déclenchement et propagation ce qui engendre des plaques plus larges et plus volumineuses.   \nObservable: le cumul de neige fraiche \n \nDéparts spontanés :   - En fin de journée et surtout nuit suivante les cumuls de fraiche devraient atteindre les seuils critiques engendrant alors les premiers départs spontanés  d'avalanche de poudreuse dans les pentes raides comme de plaques friables avec cassure linéaire, Taille 2 voir une rare 3 en cours de nuit de  jeudi à vendredi\n - Petites mais nombreuses avalanches de neige fraiche humide là ou la pluie va remonter sur la neige fraiche. Possiblement sous 1500/1600m en fin de journée ou soirée de jeudi. Coulée de talus à petite avalanche de  Taille 1",
+      "title": "ÉPISODE NEIGEUX CONSÉQUENT DÈS LA MOYENNE MONTAGNE. FORT RISQUE D'AVALANCHE.",
+      "text": "ÉPISODE NEIGEUX CONSÉQUENT DÈS LA MOYENNE MONTAGNE. FORT RISQUE D'AVALANCHE.\n\nInvitation à la prudence en montagne (émission d'un communiqué spécial)\n\nDéclenchements provoqués : les plaques poudreuses sont nombreuses et très réactives dès l'aube. Le vent d'Ouest à Nord-Ouest transporte efficacement des quantités de neige fraîche de plus en plus grandes au fil de la journée, et charge tout particulièrement les pentes Sud à Est même si la vigilance reste de mise quelle que soit l'orientation. Le déclenchement à distance est possible, en toute orientation là aussi. Les cassures peuvent atteindre 1 m avec des volumes mobilisables importants, donnant lieu à des avalanches de taille 2 à 3 (moyennes à grandes). Dans un large secteur Nord, exceptionnellement, une avalanche de taille 4 allant chercher au terrain de vieilles couches fragiles n'est pas exclue.\nObservables : grandes quantités de neige fraîche, woumfs.\n\nDéparts spontanés : quelques départs en poire (ponctuels) ou en plaques (linéaires) déjà possibles en cours de nuit, puis devenant nombreux au fil de la journée avec les chutes de neige qui se poursuivent sous un vent d'Ouest/Nord-Ouest toujours sensible. En particulier, ces départs sont très fréquents au pied des falaises et dans les couloirs raides. Tailles 2 à 3, exceptionnellement une taille 4 mobilisant de vieilles couches fragiles enfouies.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : le foehn couplé au manque de précipitations ont fait des ravages sur le manteau neigeux. L'enneigement est maintenant déficitaire sous 2000 m, à peine correct pour la saison au-dessus. Les chutes de neige attendues vont améliorer nettement l'enneigement \n\nLimite skiable :  ce jeudi matin, même si saupoudré dès la basse altitude  il faudra monter vers 1300 m en N, 1700/1800 m en Sud pas trop raide pour trouver la sous couche dure. .\n\nQualité de la neige :  Une couche de neige fraiche de plus en plus épaisse (1/5 cm le matin, 10/20 cm à midi, 20/30 le soir..) va recouvrir soit  un sol nu aux plus basses altitudes soit le vieux manteau le plus souvent dur. Cette neige fraiche sera plus ventée en gagnant en altitude. En cours d'après midi voir soirée cette neige fraiche va devenir lourde collante en s'humidifiant sous 1500 m  avec la remontée de la limite pluie-neige.",
+      "text": "Enneigement : l'épisode neigeux en cours va améliorer nettement l'enneigement, qui était devenu déficitaire à peu près partout.\n\nLimite skiable :  skiable à toutes altitudes sur l'herbe. Sur terrain caillouteux, la sous-couche se situe vers 1300 m en Nord, 1800 m en Sud.\n\nQualité de la neige :  environ 30-40 cm de neige fraîche poudreuse au petit matin au-dessus de 1600/1800 m, humide plus bas. Le travail du vent est marqué dès que l'on prend de l'altitude, avec des congères et donc des quantités de neige assez hétérogènes entre les \"creux\" bien chargés et les \"bosses\" bien soufflées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1400,
-        "south": 1900
+        "north": 600,
+        "south": 600
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 10,
-          "S": 0
-        },
-        {
-          "alt_m": 2000,
-          "N": 40,
+          "N": 20,
           "S": 10
         },
         {
+          "alt_m": 2000,
+          "N": 50,
+          "S": 20
+        },
+        {
           "alt_m": 2500,
-          "N": 80,
-          "S": 60
+          "N": 90,
+          "S": 70
         }
       ],
       "icon_key": "snowpack",

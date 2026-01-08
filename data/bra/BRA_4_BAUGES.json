@@ -3,48 +3,60 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-01-07T16:00:00",
-    "valid_until": "2026-01-08T18:00:00",
+    "issued_at": "2026-01-08T16:00:00",
+    "valid_until": "2026-01-09T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque faible évoluant en marqué.",
+      "max_level": 4,
+      "comment": "Au-dessus de 1900m indice de risque fort, plus bas indice marqué.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1900,
+        "split_axis": "horizontal",
+        "split_label": "1900m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
-            "risk": 1,
-            "evolution_to": 3,
-            "position": null
+            "loc": "<1900",
+            "risk": 3,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1900",
+            "risk": 4,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1900m"
         },
         "zones": {
-          "center": {
-            "text": "1→3",
+          "bottom": {
+            "text": "3",
             "risk": 3,
-            "evolution_to": 3
+            "evolution_to": null
+          },
+          "top": {
+            "text": "4",
+            "risk": 4,
+            "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-01-09",
-        "label": "Indice de risque marqué",
-        "comment": "Vendredi, poursuite des chutes de neige (20/40 cm de neige fraîche en plus en 24 h) avec un vent d’ouest modéré.\n⇒ augmentation du risque d’avalanches spontanées et provoquées dans tous les versants et à toutes altitudes.",
+        "max_level": 4,
+        "date": "2026-01-10",
+        "label": "Indice de risque fort",
+        "comment": "Samedi : dernier jour de l'épisode neigeux et venté. Encore 5/10 cm de neige fraîche en plus. \n⇒ manteau neigeux toujours très instable avec des avalanches spontanées et provoqués de grandes tailles possibles.",
         "trend": "steady"
       }
     },
@@ -67,21 +79,16 @@
     },
     "sat": {
       "primary": 1,
-      "secondary": 2,
+      "secondary": 3,
       "labels": {
         "1": "Neige fraîche",
-        "2": "Neige ventée"
+        "3": "Couche fragile persistante"
       },
       "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-04",
           "min_cm": 0,
@@ -104,41 +111,46 @@
         },
         {
           "date": "2026-01-08",
-          "min_cm": 20,
+          "min_cm": 25,
           "max_cm": 35
+        },
+        {
+          "date": "2026-01-09",
+          "min_cm": 15,
+          "max_cm": 25
         }
       ],
       "totals": {
-        "last_48h_min_cm": 21,
-        "last_48h_max_cm": 38
+        "last_48h_min_cm": 40,
+        "last_48h_max_cm": 60
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Début d'épisode de forte chute de neige",
-      "text": "Début d'épisode de forte chute de neige\n\nDéclenchements provoqués :\nPlaques friables dans la neige fraîche, très rares jusqu’en milieu de journée, plus nombreuses au cours de l’après-midi et de la soirée. Très facile à déclencher. Taille 1 (petite) puis 2 (moyenne). La taille des avalanches augmente avec l'altitude et l'heure de la journée. Difficile à détecter. \n\nDéparts spontanés :\nAvalanche de neige fraîche pendant les chutes de neige, très rares le matin, un peu plus nombreuses au fil de l’après-midi et surtout en soirée. Taille 1 (petite) puis 2 (moyenne). \n\nAutres :  en début de matinée, risque de glissade/dévissage sur la neige dure.",
+      "title": "Fortes chutes de neige sur un manteau neigeux avec des sous-couches fragiles persistantes",
+      "text": "Fortes chutes de neige sur un manteau neigeux avec des sous-couches fragiles persistantes\n\nInvitation à la prudence en montagne (émission d'un communiqué spécial)\n\nDéclenchements provoqués :\n* Plaques friables dans la neige fraîche. Elles sont très nombreuses et présentes à toutes les altitudes et tous les versants.  Très faciles à déclencher. Nombreuses tailles 2 (moyenne) et quelques tailles 3 (grande). Le fort vent va créer de grosses accumulations de neige fraîche (zone favorable au départ de plaques), néanmoins, de nombreuses plaques seront également présentes dans les zones abritées du vent (sans indice de surface pour les détecter). \n* Plaques sur sous-couche fragile persistante. Présente principalement dans les versants est/nord/ouest au-dessus de 1900 m. Taille 3 (grande). \n\nDéparts spontanés :\nAvalanches de neige fraîche pendant les chutes de neige, elles sont très nombreuses, a fortiori dans la nuit avec le renforcement du vent. Nombreuses tailles 2 (moyenne) et quelques tailles 3 (grande). \nFacteur aggravant : dans les versants est/nord/ouest au-dessus de 1900 m, une avalanche avec une cassure épaisse (80 cm) est possible due à la présence d’une sous-couche fragile persistante.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire.\nOn peut chausser les skis au-dessus de 1500 m dans les versants nord et 1700 m dans les versants sud.\n\nQualité de la neige ce jeudi matin : \nEn début de matinée, fine couche de neige fraîche (1/5 cm) reposant sur de la neige dure. Au fil de la journée, la couche de neige fraîche s’épaissit. En fin de soirée, 20/30 cm de neige fraîche vers 1800 m.\nArêtes et crêtes dégarnies en début de journée.",
+      "text": "Enneigement : Les chutes de neige en cours permettent de retrouver un enneigement normal pour la saison. \nOn peut chausser les skis au-dessus de 1000 m. Pas de sous-couche en dessous de 1500 m en versant nord et 1700 m  en versant sud. \n\nQualité de la neige ce vendredi matin : \nEn début de matinée, 20/40 cm de neige fraîche sur un fond dur. Au fil de la journée, la couche de neige fraîche sera de plus en plus épaisse. \nNombreuses congères/accumulations/corniches en cours de formation",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1400,
-        "south": 1600
+        "north": 400,
+        "south": 400
       },
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 0,
-          "S": 0
+          "N": 1,
+          "S": 1
         },
         {
           "alt_m": 1500,
           "N": 10,
-          "S": 0
+          "S": 1
         },
         {
           "alt_m": 2000,
