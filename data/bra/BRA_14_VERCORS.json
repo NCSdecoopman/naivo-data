@@ -3,8 +3,8 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-01-09T16:00:00",
-    "valid_until": "2026-01-10T18:00:00",
+    "issued_at": "2026-01-10T15:00:00",
+    "valid_until": "2026-01-11T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-11",
+        "date": "2026-01-12",
         "label": "Indice de risque marqué",
-        "comment": "Dimanche, la journée s'annonce calme et ensoleillée. Le manteau neigeux est en voie de stabilisation, mais le risque restera encore marqué pour la journée.",
+        "comment": "Risque d'avalanche en atténuation lundi. Moins de risque de plaques, mais neige s'humidifiant en surface...",
         "trend": "steady"
       }
     },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 1,
       "labels": {
-        "1": "Neige fraîche",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "1": "Neige fraîche"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-05",
-          "min_cm": 0,
-          "max_cm": 1
-        },
         {
           "date": "2026-01-06",
           "min_cm": 0,
@@ -99,29 +94,34 @@
         },
         {
           "date": "2026-01-09",
+          "min_cm": 30,
+          "max_cm": 50
+        },
+        {
+          "date": "2026-01-10",
           "min_cm": 10,
           "max_cm": 20
         },
         {
-          "date": "2026-01-10",
-          "min_cm": 7,
-          "max_cm": 15
+          "date": "2026-01-11",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 17,
-        "last_48h_max_cm": 35
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 21
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES INSTABILITES DANS LA NEIGE RECENTE VENTEE",
-      "text": "NOMBREUSES INSTABILITES DANS LA NEIGE RECENTE VENTEE\n\nInvitation à la prudence en montagne (émission d'un communiqué spécial)\n\nDéclenchements provoqués : De nombreuses instabilités sont présentes sur le massif et continuent de se former sous les chutes de neige et le vent de secteur Nord-Ouest. Ces instabilités sont parfois très réactives, sensibles au passage d'un seul skieur. Elles seront d'aspect dures dans les secteurs ventés / près des crêtes, et d'aspect poudreux plus loin des crêtes et dans les secteurs abrités du vent. Sur le haut du massif les cumuls de neige depuis le début de l'épisode deviennent conséquents, avec des cassures qui peuvent être épaisses dans les zones d'accumulation. Sous 1600 à 1800m, les volumes mobilisables sont moins importants, la pluie ayant bien humidifié la base du manteau, mais les instabilités restent parfois très réactives. \n\nDéparts spontanés : Au fil des chutes de neige, de nombreux départs d'avalanches en pentes et couloirs raides. Elles sont de tailles petites à moyennes en générale. Au-dessus de 1600/1800m environ, un rare départ en plaque de grande taille n'est pas exclu, dans une pente surchargée par le vent.",
+      "title": "RISQUE DE PLAQUE A L'ABORD DES CRETES (SOUS LE VENT DE NORD), DES MODESTE ALTITUDE...",
+      "text": "RISQUE DE PLAQUE A L'ABORD DES CRETES (SOUS LE VENT DE NORD), DES MODESTE ALTITUDE...\n\nImportantes quantités de neige récente en altitude, (40/60 cm, voire 70 cm vers La Moucherolle) bien soufflées par vent de Nord-Ouest puis Nord dimanche matin.\nAmorce de tassement/stabilisation des sous-couches en pentes moins ventées et sous 1800m environ...\n\nDéclenchements provoqués : \nRisque de plaque localisé mais parfois dès altitude modeste, en secteur chargé par le vent de Nord.\nUn seul skieur pourrait parfois déclencher une cassure (peu large a priori) mais assez épaisse, notamment au dessus de 1800m environ.\nIndices observables : Congères/corniches, alternance secteurs décapés/accumulés, quantités de fraîche irrégulières...\n\nDéparts spontanés : Possibles surtout samedi soir et en début de nuit avec le maximum de giboulées et vent de Nord. Nombreuses coulées poudreuses et quelques avalanches de taille moyenne attendues.\nDimanche en journée moins d'activité a priori mais en pentes Sud raides, près des rochers, on s'attend à quelques avalanches spontanées (poudreuses ou légèrement humides)...",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement s'améliore depuis quelques jours mais reste malgré tout encore bien déficitaire. Limites skiables (avec précautions) à partir de 1300/1500 m selon les versants.\n\nQualité de la neige samedi : Une couche de neige fraîche significative continue à se déposer sur le massif, souvent soufflée ou travaillée par le vent près des crêtes avec des zones d'accumulations parfois importantes, et plus meuble voire poudreuse par endroits dans les combes et pentes plus abritées. Sous 1600 à 1800m cette neige fraîche repose sur une sous-couche humidifié par la pluie de jeudi.",
+      "text": "Qualification de l’enneigement : L'enneigement s'est bien amélioré, mais reste déficitaire à basse altitude, en faces Sud et sous les sapins... Limites skiables (avec précautions) à partir de  700/1200m (prairies/pistes forestières).\n\nQualité de la neige dimanche : Neige poudreuse en secteurs abrités et à l'ombre, parfois épaisse (50/80 cm) et se tassant progressivement. Neige bien soufflée à l'abord des crêtes et sommets, parfois sculptée/durcie. Des secteurs dégarnis/congères... En pentes sud et sous les sapins absence de sous couche...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 2,
-          "S": 2
-        },
-        {
-          "alt_m": 1500,
-          "N": 30,
+          "N": 20,
           "S": 15
         },
         {
+          "alt_m": 1500,
+          "N": 50,
+          "S": 35
+        },
+        {
           "alt_m": 2000,
-          "N": 70,
-          "S": 25
+          "N": 100,
+          "S": 60
         }
       ],
       "icon_key": "snowpack",

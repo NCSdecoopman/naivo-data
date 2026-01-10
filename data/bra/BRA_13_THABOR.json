@@ -3,8 +3,8 @@
   "massif": "Thabor",
   "bulletin": {
     "id": 13,
-    "issued_at": "2026-01-09T16:00:00",
-    "valid_until": "2026-01-10T18:00:00",
+    "issued_at": "2026-01-10T16:00:00",
+    "valid_until": "2026-01-11T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-01-11",
-        "label": "Indice de risque fort",
-        "comment": "Risque encore fort, malgré une amélioration des conditions météorologiques et un début de stabilisation des nombreuses plaques en place.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-01-12",
+        "label": "Indice de risque marqué",
+        "comment": "Tendance à la stabilisation du manteau neigeux. Risque restant marqué.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-05",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-06",
           "min_cm": 0,
           "max_cm": 0
@@ -99,29 +94,34 @@
         },
         {
           "date": "2026-01-09",
-          "min_cm": 20,
+          "min_cm": 15,
           "max_cm": 30
         },
         {
           "date": "2026-01-10",
-          "min_cm": 3,
-          "max_cm": 10
+          "min_cm": 5,
+          "max_cm": 20
+        },
+        {
+          "date": "2026-01-11",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 23,
-        "last_48h_max_cm": 40
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 20
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "FORTE INSTABILITÉ DANS LA NEIGE FRAÎCHE",
-      "text": "FORTE INSTABILITÉ DANS LA NEIGE FRAÎCHE\n\nInvitation à la prudence en montagne (émission d'un communiqué spécial)\n\nDéclenchements provoqués : nombreuses plaques en place et en formation avec l'épisode neigeux en cours depuis jeudi, localement accompagné d'un fort vent d'ouest à nord-ouest en altitude. Avec des cumuls de neige importants depuis deux jours, associés à un fort transport par le vent, ces plaques peuvent être localement épaisses.\nMême si les pentes est sont plus propices aux accumulations par le vent, ces plaques peuvent être présentes en tous versants, y compris loin des crêtes et ruptures de pente. Elles peuvent être d'aspect durci par le vent, ou friable dans les secteurs plus abrités. Elles reposent très fréquemment, en particulier en versants ouest, nord et est, sur des couches fragiles parfois épaisses de grains anguleux, localement encore peu enfouies, ce qui favorise le déclenchement localement très facile d'avalanches, possiblement à distance. \nEn cas de rupture, avalanches de plaques de taille petite à souvent moyenne, parfois grande dans les zones d'accumulation de neige ou lorsque l'ensemble du manteau neigeux est emporté avec les couches fragiles enfouies.\n\nDéparts spontanés : quelques départs ponctuels de neige fraîche au fil des chutes de neige. Quelques départs linéaires également possibles par surcharge due au transport de neige par le fort vent de nord-ouest. Avalanches petites à souvent moyennes, rares grandes possibles dans les zones d’importantes accumulations de neige.",
+      "title": "FORTE INSTABILITÉ DANS LA NEIGE RÉCENTE",
+      "text": "FORTE INSTABILITÉ DANS LA NEIGE RÉCENTE\n\nInvitation à la prudence en montagne (émission d'un communiqué spécial)\n\nDéclenchements provoqués : le manteau neigeux reste faiblement stabilisé dans la plupart des pentes. Nombreuses instabilités dans la neige récente, facilement déclenchables par un seul skieur et possibles en toutes orientations, même loin des crêtes. Elles mobilisent généralement l'ensemble des chutes de neige tombées depuis jeudi, et sont généralement de taille moyenne (taille 2), une grande (taille 3) avalanche n'est pas exclue en altitude par topographie défavorable. Ces instabilités sont souvent d'aspect friable, et difficilement identifiables. La neige fraîche tombée d'abord très légère, faisant office de couche fragile temporaire, a été densifiée / cartonnée en surface par le fort vent de secteur nord. Au-dessus de 2000/2200 m environ, ces instabilités peuvent solliciter en cascade une couche fragile persistante enfouie, et générer des avalanches de grande largeur mobilisant d'importants volumes de neige (taille 2 à 3).\n\nDéparts spontanés :  avalanches de taille petite à moyenne, rarement grande, dans les secteurs de forte accumulation par le vent samedi soir et en première partie de nuit de samedi à dimanche. Ce risque s'atténue dimanche avec l'affaiblissement du vent. Départs de neige humide en versants ensoleillés de basse altitude, emportant toute la neige récente, mais restant ponctuels et de taille petite à moyenne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement s'est nettement amélioré avec les chutes de neige en cours.\nOn relève ce vendredi 72 cm de neige à 2455 m dans le vallon du Chardonnet, 36 cm à la Nivôse du Galibier à 2559 m, 48 cm à la Nivôse des Rochilles à 2444 m. \n\nLimite d'enneigement skiable en vallées, mais souvent peu voire pas de sous couche sous 1800/2000 m en ubacs, et jusqu'à 2200/2400 m en versants ensoleillés.\n\nÉtat de la neige de surface : ce samedi matin, on trouve généralement 30 à 60 cm de neige fraîche, répartie de manière très hétérogène par le vent. Elle est parfois durcie par le vent dans les secteurs exposés, sinon restée légère en secteurs abrités. Elle repose sur un manteau neigeux hétérogène en surface, mais souvent composé de vieille poudreuse encore parfois non loin de la surface, et présente sur de grandes épaisseurs. Les abords des crêtes et sommets de haute altitude sont souvent soufflés par le vent.",
+      "text": "L'enneigement s'est nettement amélioré ces derniers jours. Il est devenu proche des normales en vallées, mais reste déficitaire en altitude.\nOn mesure ce samedi à 2500 m : 90 cm dans le vallon du Chardonnet, 60 cm à la nivôse des Rochilles, 36 cm à celle du Galibier, exposée au vent, entre 30 et 50 cm en vallée sous 1600 m.\n\nLimite d'enneigement skiable en vallées, mais l'épaisse couche de neige récente s'est déposée sur un sol souvent nu sous 1600/1800 m en ubacs et 2000/2200 m en adrets.\n\nÉtat de la neige de surface : épaisse couche de neige récente, entre 40 et 70 cm, avec des accumulations bien supérieures dans les endroits exposés au vent. Elle reste très légère et poudreuse en forêts et dans les combes peu ensoleillées bien abritées du vent, souvent densifiée ou cartonnée ailleurs, fortement durcie dans les zones les plus exposées au vent. En journée le manteau neigeux se tasse à basse altitude avec le redoux, et s'humidifie en surface au soleil jusque 2200 m environ.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 40,
-          "S": 30
+          "N": 50,
+          "S": 45
         },
         {
           "alt_m": 2000,
           "N": 70,
-          "S": 45
+          "S": 50
         },
         {
           "alt_m": 2500,
-          "N": 115,
-          "S": 85
+          "N": 120,
+          "S": 80
         }
       ],
       "icon_key": "snowpack",
