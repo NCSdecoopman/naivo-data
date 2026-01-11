@@ -3,61 +3,49 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-01-10T16:00:00",
-    "valid_until": "2026-01-11T18:00:00",
+    "issued_at": "2026-01-11T16:00:00",
+    "valid_until": "2026-01-12T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Au-dessus de 1800m indice de risque fort, plus bas indice marqué.",
+      "max_level": 3,
+      "comment": "Indice de risque marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 1800,
-        "split_axis": "horizontal",
-        "split_label": "1800m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1800",
+            "loc": null,
             "risk": 3,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">1800",
-            "risk": 4,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "1800m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "3",
             "risk": 3,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "4",
-            "risk": 4,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-12",
+        "date": "2026-01-13",
         "label": "Indice de risque marqué",
-        "comment": "Les instabilités dans la neige fraiche sont plus localisées, le manteau reste très instable. Redoux efficace.",
-        "trend": "down"
+        "comment": "Encore quelques instabilités présentes (vent NO, redoux).",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -90,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-07",
           "min_cm": 1,
           "max_cm": 3
@@ -116,24 +99,29 @@
         },
         {
           "date": "2026-01-11",
+          "min_cm": 1,
+          "max_cm": 2
+        },
+        {
+          "date": "2026-01-12",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 15,
-        "last_48h_max_cm": 26
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 2
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nombreuses instabilités encore présentes en haute montagne dues aux dernières chutes de neige et de nombreux départs dans les pentes raides et ensoleillées.",
-      "text": "Nombreuses instabilités encore présentes en haute montagne dues aux dernières chutes de neige et de nombreux départs dans les pentes raides et ensoleillées.\n\nInvitation à la prudence en montagne (émission d'un Communiqué Spécial Avalanches)\n\nDéclenchements provoqués :\n* Plaques encore présentes dans la neige fraîche. Taille 2 (moyenne). Elles se sont formées dans la nuit de jeudi à vendredi, toujours sensibles au passage d'un skieur.. Elles sont nombreuses et dans diverses orientations et altitudes :\n- plaques friables de neige poudreuse dans les secteurs abrités. Attention, complexes à détecter, peu d'indices visibles. \n- plaques dures en altitude et dans les secteurs ventés (cols, crêtes). Observables : fissures devant les skis, alternance de zones érodées et d'accumulations, changement de dureté de neige sur une courte distance.\n* Facteur aggravant au dessus de 1800 m : la présence d'une couche fragile persistante enfouie, facilitant des cassures épaisses. Dans les versants E/N/W, plus haut que 1800/2000 m. A fortiori dans les endroits peu skiés ces derniers temps, notamment les zones où l'enneigement était insuffisant. Possibles déclenchements en cascade (une petite avalanche en déclenche une plus volumineuse) et à distance. Taille 3 (grande). \n\nDéparts spontanés :\n* Nombreux départs dans les pentes raides au soleil (coulées), et plus rarement plaques à vent par surcharge sous le vent de Nord. Ces petites avalanches peuvent engendrer une avalanche en cascade de plus grande ampleur au vu des gros cumuls tombés ces deux derniers jours.. Taille 1 voir 2 et plus rarement 3 (grande).",
+      "title": "Nombreuses instabilités encore présentes en montagne dues aux dernières chutes de neige.",
+      "text": "Nombreuses instabilités encore présentes en montagne dues aux dernières chutes de neige.\n\nDéclenchements provoqués :\n* Plaques friables et dures présentes dans la neige fraîche. Elles sont moins réactives mais peuvent donner des avalanches de plus grande ampleur avec une forte surcharge. Taille 2 à 3 (moyenne à grande). Attention dans le secteur de Balme, station très sensible au vent.\n* Facteur aggravant au-dessus de 1800 m : la présence d'une couche fragile persistante enfouie, facilitant des cassures épaisses. Dans les versants E/N/W. A fortiori dans les endroits peu skiés ces derniers temps (combes éloignées, bords de combes ou zones où l'enneigement était insuffisant). Possibles déclenchements en cascade (une petite avalanche en déclenche une plus volumineuse) et à distance. Taille 3 voir 4 (grande à très grande). \n*Quelques départs en poire sous les skis sous l'effet du couvert nuageux avec la densification en surface. Ces petites avalanches peuvent prendre de l'ampleur au vu des gros cumuls tombés ces deux derniers jours. Taille 1 voir 2.\n\nDéparts spontanés :\n* Quelques départs dans les pentes raides sous l'effet du couvert nuageux (coulées). Taille 1 voir 2.\n* Au-dessus de 2500 m : départs linéaires sous le vent de Ouest-Nord-Ouest, qui transporte de la neige  peut surcharge les quelques plaques encore présentes et/ou en former de nouvelles. Surtout en matinée. Taille 2 à 3.\n\nAutre : Attention aux ruptures de corniches.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : l'épisode neigeux en cours (tempête Goretti) permet une retour à un enneigement quasiment normal pour un début janvier. On peut chausser les skis au-dessus de 1000 m. Attention, absence de sous-couche en dessous de 1500 m en N et 1600/1900 m en S : attentions aux souches, cailloux et rigoles juste recouverts. \n\nQualité de la neige ce dimanche : Nouvelle couche de neige fraiche, plus froide et plus légère que celle de la veille. Elle vient s'ajouter à celle d'hier. Elle est présente dans les endroits abrités, et est compactée par le vent dans les endroits exposés. Neige dure dans les cols et sur les arêtes. Formation de belles congères/accumulations/corniches.",
+      "text": "Enneigement : l'épisode neigeux de la tempête Goretti a permis un retour à un enneigement quasiment normal pour un début janvier. On peut chausser les skis au-dessus de 1000 m. Attention, absence de sous-couche en dessous de 1500 m en N et 1600/1900 m en S : attentions aux souches, cailloux et rigoles juste recouverts. \n\nQualité de la neige ce lundi : \nSous 2400 m, une bonne épaisseur de neige récente qui s'alourdit en surface sous l'effet du couvert nuageux et au-delà, elle reste froide. Neige dure dans les cols et sur les arêtes. Formation de belles congères/accumulations/corniches.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

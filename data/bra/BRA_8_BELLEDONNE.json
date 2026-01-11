@@ -3,8 +3,8 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-01-10T15:00:00",
-    "valid_until": "2026-01-11T18:00:00",
+    "issued_at": "2026-01-11T16:00:00",
+    "valid_until": "2026-01-12T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-12",
+        "date": "2026-01-13",
         "label": "Indice de risque marqué",
-        "comment": "Risque d'avalanche en légère baisse lundi matin, puis devenant plus marqué lundi après-midi en altitude, sous l'action possible du vent de Sud-Ouest...",
+        "comment": "Mardi, risque restant de niveau marqué en altitude. Sous un temps doux et ensoleillé, le vent de Sud à Sud-Ouest commence à se renforcer et pourrait créer de nouvelles instabilités dans les versants froids d'altitude.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-06",
-          "min_cm": 0,
-          "max_cm": 1
-        },
-        {
           "date": "2026-01-07",
           "min_cm": 3,
           "max_cm": 7
@@ -100,28 +95,33 @@
         {
           "date": "2026-01-10",
           "min_cm": 10,
-          "max_cm": 20
+          "max_cm": 15
         },
         {
           "date": "2026-01-11",
           "min_cm": 0,
           "max_cm": 1
+        },
+        {
+          "date": "2026-01-12",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 10,
-        "last_48h_max_cm": 21
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RISQUE MARQUE DE RUPTURES ACCIDENTELLES DE PLAQUES, NOTAMMENT EN ALTITUDE...",
-      "text": "RISQUE MARQUE DE RUPTURES ACCIDENTELLES DE PLAQUES, NOTAMMENT EN ALTITUDE...\n\nImportantes quantités de neige récente en altitude, (60 à 80 cm) bien soufflées par vents océaniques puis de Nord ce dimanche matin. De rares sous couches fragiles enfouies en faces Nord.\nAmorce de tassement/stabilisation des sous-couches en pentes moins ventées et sous 1800/2200m environ...\n\nDéclenchements provoqués : Dimanche risque marqué de rupture accidentelle, notamment sous le vent de Nord et parfois en pentes froides d'altitude. Avec les récentes intempéries les épaisses accumulations ne sont pas toutes stabilisées. Un seul skieur peut parfois entrainer une cassure conséquente, pouvant mobiliser \"en cascade\" une plus épaisse plaque en contrebas (notamment en large secteur Est à Nord d'altitude). Dans de rares combes Nord des sous couches fragiles sont enfouies, effondrement non exclu sous les skis voire une cassure à distance possible ?\nIndice de terrain : Congères/corniches, 50/80 cm de neige récente en moyenne (voire davantage versant Savoie/vallées des Villards). Alternance zones dégarnies/chargées, neige encore transportée le matin...\nSous 1800/2200m selon le versant les sous-couches sont moindres ou un peu mieux stabilisées, le risque de plaque serait plus superficiel a priori... \n\nDéparts spontanés : Principalement de samedi soir à la nuit de samedi à dimanche, avec de nouvelles averses de neige et du vent de Nord : Quelques départs spontanés de taille moyenne à grande, parfois une cassure linéaire.\nEn journée de dimanche, l'activité spontanée se limiterait à quelques pentes Sud/au soleil, près des rochers (départs ponctuels de fraîche poudreuse ou légèrement humides, de taille petite à moyenne).",
+      "title": "INSTABILITÉS DANS LA NEIGE RÉCENTE ET/OU VENTÉE, RISQUE DE CASSURE ÉPAISSE. MISE EN PLACE D'UN REDOUX.",
+      "text": "INSTABILITÉS DANS LA NEIGE RÉCENTE ET/OU VENTÉE, RISQUE DE CASSURE ÉPAISSE. MISE EN PLACE D'UN REDOUX.\n\nDéclenchements provoqués : Le risque reste marqué :\n- Des plaques se sont formées dans la neige récente avec le vent parfois fort qui a soufflé ces derniers jours, créant parfois d'importantes accumulations pouvant être situées assez loin des crêtes à certains endroits. Ce lundi, bien que le vent ait faibli et que ces plaques soient en voie de stabilisation, elles peuvent encore être faciles à déclencher par un seul pratiquant, avec parfois des épaisseurs de cassures conséquentes. Par ailleurs, un déclenchement \"en cascade\", avec une première avalanche qui déclencherait une avalanche de volume encore plus épais en contrebas, reste possible (notamment en large secteur Est à Nord d'altitude peu fréquenté où l'on est plus susceptible de rencontrer des sous-couches fragiles persistantes davantage enfouies, même si on ne peut totalement les exclure dans d'autres versants). \n- Sous 2100/2200 m en début de matinée puis jusqu'à 2600 m environ au fil de la journée, l'alourdissement de la neige récente en surface sous l'action du redoux pourrait créer de nouvelles structures instables temporaires en surface du manteau neigeux, pouvant être faciles à déclencher par un pratiquant. Ce risque peut concerner tous les versants ainsi que les pentes en neige poudreuse qui ne présentent pas de signe de transport par le vent.\n\nDéparts spontanés : De rares départs linéaires spontanés de taille 1 à 2 (petite à moyenne), voire localement de taille 3 (grande), pourraient se produire dans la neige récente qui s'alourdit avec le redoux dans toutes les orientations sous 2200m en début de matinée de lundi, puis 2600 m l'après-midi et si le ciel est suffisamment nuageux. De plus, quelques départs ponctuels en pentes Sud/au soleil ou près des rochers restent possibles en cas de belles éclaircies, généralement de taille 1 à 2 (petite à moyenne). Enfin, de rares avalanches de glissement (avalanches de fond) pourraient commencer à se produire en pente raide herbeuse / secteur de reptation habituel de moyenne altitude, pouvant atteindre la taille 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement s'améliore sensiblement mais demeure faible en moyenne montagne, sous les sapins et vers les crêtes, les faces Sud (absence de sous-couche)...\nLimites skiables en prairies dès 800/1200m, combes Nord meilleures dès 1500/1800m...\n\nQualité de la neige dimanche : \nNeige fraîche poudreuse assez abondante à moyennes altitudes, dans les combes (50/80 cm parfois), puis bien chahutée irrégulière à l'abord des crêtes et sommets (épaisses congères et zones plus dégarnies)... Neige souvent sculptée/ voire \"plaquée\"...",
+      "text": "Qualification de l’enneigement : L'enneigement s'améliore sensiblement mais demeure faible en moyenne montagne, sous les sapins et vers les crêtes, les faces Sud (absence de sous-couche)...\nLimites skiables en prairies dès 800/1200m, combes Nord meilleures dès 1500/1800m...\n\nQualité de la neige lundi : Neige poudreuse parfois épaisse en cours de tassement à moyennes altitudes et dans les combes abritées, qui commence à s'alourdir sous 2200 m dès le début de journée, ainsi que sous 2500/2600 m l'après-midi (voire plus haut au soleil) avec le redoux qui s'accentue et un ciel très nuageux au début puis plus ou moins voilé dans un second temps. En altitude à l'abord des crêtes et des sommets, neige ayant été bien chahutée par le vent de Nord avec des surfaces très irrégulières, d'épaisses congères et des zones très dégarnies... Neige souvent sculptée, voire durcie/plaquée...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 45,
-          "S": 30
+          "N": 55,
+          "S": 40
         },
         {
           "alt_m": 2000,
-          "N": 140,
-          "S": 80
+          "N": 150,
+          "S": 90
         },
         {
           "alt_m": 2500,
-          "N": 190,
-          "S": 140
+          "N": 200,
+          "S": 150
         }
       ],
       "icon_key": "snowpack",

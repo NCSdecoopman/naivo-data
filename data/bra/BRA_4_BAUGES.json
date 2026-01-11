@@ -3,14 +3,14 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-01-10T16:00:00",
-    "valid_until": "2026-01-11T18:00:00",
+    "issued_at": "2026-01-11T16:00:00",
+    "valid_until": "2026-01-12T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 3,
+            "risk": 2,
             "evolution_to": null,
             "position": null
           }
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "3",
-            "risk": 3,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-01-12",
-        "label": "Indice de risque marqué",
-        "comment": "Les instabilités dans la neige fraiche sont plus localisées, le manteau reste très instable. Redoux efficace.",
+        "max_level": 2,
+        "date": "2026-01-13",
+        "label": "Indice de risque limité",
+        "comment": "Le manteau poursuit sa stabilisation.",
         "trend": "steady"
       }
     },
@@ -67,21 +67,15 @@
     },
     "sat": {
       "primary": 1,
-      "secondary": 2,
+      "secondary": null,
       "labels": {
-        "1": "Neige fraîche",
-        "2": "Neige ventée"
+        "1": "Neige fraîche"
       },
       "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-07",
           "min_cm": 1,
@@ -106,22 +100,27 @@
           "date": "2026-01-11",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-12",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 15
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Encore des instabilités dans la neige fraiche et de nombreuses coulées pour les pentes raides au soleil.",
-      "text": "Encore des instabilités dans la neige fraiche et de nombreuses coulées pour les pentes raides au soleil.\n\nDéclenchements provoqués :\n* Plaques encore présentes dans la neige fraîche. Taille 1 à 2 (petite à moyenne). Assez nombreuses, dans diverses orientations et altitudes :\n- plaques friables de neige poudreuse dans les secteurs abrités. Complexes à détecter, peu d'indices visibles.\n- plaques dures en altitude surtout à proximité des crêtes (ventées). Observables : fissures devant les skis, alternance de zones érodées et d'accumulations, changement de dureté de neige sur une courte distance.\n\nDéparts spontanés :\n* Nombreux départs dans les pentes raides au soleil (coulées), et plus rarement plaques à vent par surcharge sous le vent de Nord. Ces petites avalanches peuvent engendrer une avalanche en cascade de plus grande ampleur au vu des gros cumuls tombés ces deux derniers jours.. Taille 1 voir 2 et plus rarement 3 (grande).",
+      "title": "Encore quelques instabilités dans la neige fraiche.",
+      "text": "Encore quelques instabilités dans la neige fraiche.\n\nDéclenchements provoqués :\n* Quelques plaques peuvent être encore présentes dans la neige fraîche. Taille 1 à 2 (petite à moyenne). Elles sont moins nombreuses et moins réactives que ces derniers jours :\n- plaques friables de neige poudreuse dans les secteurs abrités. Complexes à détecter, peu d'indices visibles.\n- plaques dures en altitude surtout à proximité des crêtes (ventées). Observables : fissures devant les skis, alternance de zones érodées et d'accumulations, changement de dureté de neige sur une courte distance.\n\nDéparts spontanés :\n* Quelques départs dans les pentes raides sous l'effet du couvert nuageux (coulées). Ces petites avalanches peuvent engendrer de plus gros volumes au vu des cumuls tombés ces derniers jours.. Taille 1 voir 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : l'épisode neigeux en cours (tempête Goretti) permet une retour à un enneigement quasiment normal pour un début janvier. On peut chausser les skis au-dessus de 1000 m. Attention, absence de sous-couche en dessous de 1500 m en N et 1600/1900 m en S : attentions aux souches, cailloux et rigoles juste recouverts. \n\nQualité de la neige ce dimanche : nouvelle couche de neige fraiche qui s'ajoute à celle d'hier, assez épaisse en altitude. Poudreuse dans les endroits abrités, compactée par le vent près des crêtes. Formation de congères/accumulations/corniches.",
+      "text": "Enneigement : l'épisode neigeux a permis un retour à un enneigement quasiment normal pour un début janvier. On peut chausser les skis au-dessus de 1000 m. Attention, absence de sous-couche en dessous de 1500 m en N et 1600/1900 m en S : attentions aux souches, cailloux et rigoles juste recouverts. \n\nQualité de la neige ce lundi: \n* Neige froide récente, assez épaisse en altitude. En journée, elle s'alourdit en surface sous l'effet du couvert nuageux. Quelques anciennes traces de neige plus dure sur certain secteur.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
