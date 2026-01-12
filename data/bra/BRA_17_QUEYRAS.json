@@ -3,30 +3,30 @@
   "massif": "Queyras",
   "bulletin": {
     "id": 17,
-    "issued_at": "2026-01-11T16:00:00",
-    "valid_until": "2026-01-12T18:00:00",
+    "issued_at": "2026-01-12T16:00:00",
+    "valid_until": "2026-01-13T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 2200,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "2200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<2200",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
+            "loc": ">2200",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "2200m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-13",
+        "date": "2026-01-14",
         "label": "Indice de risque marqué",
-        "comment": "Poursuite de la stabilisation du manteau neigeux. Plaques encore facilement déclenchables en altitude. Risque restant marqué.",
+        "comment": "Risque restant marqué. La présence de couche fragile persistante au sein du manteau neigeux maintient la possibilité de localement déclencher des plaques volumineuses.",
         "trend": "steady"
       }
     },
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 3,
+      "primary": 3,
+      "secondary": 2,
       "labels": {
-        "2": "Neige ventée",
-        "3": "Couche fragile persistante"
+        "3": "Couche fragile persistante",
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-07",
-          "min_cm": 0,
-          "max_cm": 1
-        },
         {
           "date": "2026-01-08",
           "min_cm": 10,
@@ -118,6 +113,11 @@
           "date": "2026-01-12",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-13",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITÉ ENCORE MARQUÉE DANS LA NEIGE RÉCENTE, FORTEMENT VENTÉE",
-      "text": "INSTABILITÉ ENCORE MARQUÉE DANS LA NEIGE RÉCENTE, FORTEMENT VENTÉE\n\nDéclenchements provoqués : le manteau neigeux reste faiblement à modérément stabilisé dans de nombreuses pentes d'altitude. Ces instabilités sont possibles en toute orientation, mais elles se situent principalement dans les zones d'accumulation par le vent. Dans ces secteurs, des plaques dures bien identifiables peuvent encore être déclenchées par un seul skieur, éventuellement à distance. Elles mobilisent l'ensemble de la neige récente, et peuvent être de taille moyenne (taille 2). Au-dessus de 2000/2200 m, la rupture de ces plaques peut solliciter une couche fragile persistante enfouie, conduisant à des avalanches de grande largeur, souvent de taille 2.\nDans les secteurs bien abrités du fort vent de nord du week-end (forêt peu dense, combes bien abritées du vent de nord) persistent des instabilités dans la neige fraîche : plus difficilement identifiables car d'aspect poudreux, elles sont déclenchables par un skieur et génèrent des avalanches de taille 1 à 2.\nSous 1800/2000 m, l'instabilité est plus limitée, notamment dans les pentes bien ensoleillées. La neige récente a gagné en cohésion sous l'effet du temps ensoleillé moins venté et du début de redoux, qui se poursuit ce lundi.\n\nDéparts spontanés : de neige humide en versants ensoleillés, emportant toute la neige récente, mais restant ponctuels et de taille petite à moyenne. L'humidification gagne en altitude mais reste encore plutôt superficielle.",
+      "title": "PLAQUES LOCALEMENT ÉPAISSES EN VERSANTS NORD EN RAISON DE LA PRÉSENCE DE COUCHE FRAGILE PERSISTANTE",
+      "text": "PLAQUES LOCALEMENT ÉPAISSES EN VERSANTS NORD EN RAISON DE LA PRÉSENCE DE COUCHE FRAGILE PERSISTANTE\n\nDéclenchements provoqués : des plaques sont encore en place, formées par les récentes chutes de neige et le fort vent de nord-ouest des derniers jours, d'autres en formation en altitude avec le vent de sud-ouest modéré. Elles ont tendance à se stabiliser avec le redoux de ce lundi, mais restent présentes en toutes orientations au-dessus de 2200/2400 m environ, localisées dans les zones d’accumulation par le vent. Elles sont souvent d’aspect durci par le vent, facilement identifiables, mais peuvent encore être déclenchées par un seul skieur, parfois même à distance. En cas de rupture, elles engendrent généralement des avalanches de taille moyenne (taille 2), mobilisant l’ensemble de la neige récente. Au-dessus de 2200/2400 m environ, la rupture d’une plaque de surface et/ou une forte surcharge peuvent solliciter une couche fragile persistante enfouie. Dans ce cas, des avalanches de plus grande ampleur sont possibles (taille moyenne à grande), notamment dans les orientations nord, nord-est et est, particulièrement chargées avec le fort vent des derniers jours. \nSous 1800/2000 m, l'instabilité est plus limitée, notamment dans les pentes bien ensoleillées. La neige récente a gagné en cohésion sous l'effet du temps ensoleillé moins venté et du début de redoux, qui se poursuit ce lundi.\n\nDéparts spontanés : de neige humide en pentes raides près des rochers. Départs ponctuels, emportant toute la neige récente, de taille petite à moyenne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement s'est amélioré ces derniers jours s'est amélioré ces derniers jours. Il est proche des normales en vallées mais il reste déficitaire, particulièrement en altitude.\nOn mesure ce samedi :  77 cm au-dessus de St Véran à 2700 m, 26 cm à la nivôse du col Agnel à 2600 m, 99 cm dans le versant nord du col Izoard à 2280 m. En vallées, entre 20 et 50 cm.\n\nLimite d'enneigement skiable vers 1400 m sur l'ouest du massif mais la couche de neige récente s'est déposée sur un sol souvent nu sous 1600/1800 m en ubacs et 2000/2200 m en adrets. Sur l'est du massif, limite d'enneigement plus élevée en adrets, vers 1800/2000 m.  \n\nÉtat de la neige de surface : la couche de neige récente (entre 20 et 50 cm) a été densifiée ou cartonnée par le vent, voire fortement durcie dans les zones les plus exposées, mais reste froide, légère et poudreuse en secteurs bien abrités du vent, notamment en forêt. Le matin, seuls les adrets raides de basse altitude sont finement croûtés. En journée, la neige récente se tasse au soleil, l'humidification superficielle gagne en altitude en adrets jusque 2400 m environ.",
+      "text": "L'enneigement s'est amélioré ces derniers jours s'est amélioré ces derniers jours. Il est proche des normales en vallées mais il reste déficitaire, particulièrement en altitude.\nOn mesure ce lundi : 75 cm au-dessus de St Véran à 2700 m, 27 cm à la nivôse du col Agnel à 2600 m, 91 cm dans le versant nord du col Izoard à 2280 m. En vallées, entre 20 et 50 cm.\n\nLimite d'enneigement skiable vers 1400 m sur l'ouest du massif mais la couche de neige récente s'est déposée sur un sol souvent nu sous 1600/1800 m en ubacs et 2000/2200 m en adrets. Sur l'est du massif, limite d'enneigement plus élevée en adrets, vers 1800/2000 m.  \n\nÉtat de la neige de surface : la couche de neige récente (entre 20 et 50 cm) a été densifiée ou cartonnée par le vent, voire fortement durcie dans les zones les plus exposées, mais reste froide, légère et poudreuse en secteurs bien abrités du vent, notamment en forêt. Le matin, seuls les adrets raides en dessous de 2200/2400 m environ sont finement croûtés. En journée, la neige récente se tasse au soleil, l'humidification superficielle se poursuit et gagne en altitude en adrets jusqu'à 2400 m environ.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 55,
-          "S": 35
+          "N": 50,
+          "S": 30
         },
         {
           "alt_m": 2500,
-          "N": 100,
-          "S": 70
+          "N": 90,
+          "S": 60
         }
       ],
       "icon_key": "snowpack",

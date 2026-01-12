@@ -3,8 +3,8 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-01-11T16:00:00",
-    "valid_until": "2026-01-12T18:00:00",
+    "issued_at": "2026-01-12T16:00:00",
+    "valid_until": "2026-01-13T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-13",
+        "date": "2026-01-14",
         "label": "Indice de risque limité",
-        "comment": "Mardi, risque probablement en baisse. Sous un temps doux et ensoleillé, le vent de Sud à Sud-Ouest commence à se renforcer, mais la neige sera moins facile à transporter qu'auparavant car elle aura déjà subi le redoux dans de nombreuses pentes.",
+        "comment": "vers une stabilisation avec le redoux en cours",
         "trend": "down"
       }
     },
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
-        "1": "Neige fraîche",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-07",
-          "min_cm": 3,
-          "max_cm": 7
-        },
         {
           "date": "2026-01-08",
           "min_cm": 15,
@@ -118,22 +113,27 @@
           "date": "2026-01-12",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-13",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 1
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "INSTABILITÉS DANS LA NEIGE RÉCENTE ET/OU VENTÉE, SURTOUT EN ALTITUDE. MISE EN PLACE D'UN REDOUX.",
-      "text": "INSTABILITÉS DANS LA NEIGE RÉCENTE ET/OU VENTÉE, SURTOUT EN ALTITUDE. MISE EN PLACE D'UN REDOUX.\n\nDéclenchements provoqués : - Surtout au-dessus de 1800 m environ, le risque peut encore être marqué ce lundi. Des plaques se sont formées dans la neige récente avec le vent parfois fort qui a soufflé ces derniers jours, créant parfois d'importantes accumulations. Ce lundi, bien que le vent ait faibli et que ces plaques soient en voie de stabilisation, elles peuvent encore être faciles à déclencher par un seul pratiquant, avec parfois des épaisseurs de cassures conséquentes. \n- A cela s'ajoute l'alourdissement de la neige récente en surface sous l'action du redoux, qui pourrait créer de nouvelles structures instables temporaires dans tous les versants (neige devenant plus dense en surface qu'en profondeur). Ces instabilités pouvant être faciles à déclencher par un pratiquant.\n- Sous 1800 m, le risque de déclenchement semble plus limité, le manteau neigeux y étant déjà plus dense en profondeur.\n\nDéparts spontanés : - Quelques départs linéaires spontanés de taille 1 à 2 (petite à moyenne), voire très localement de taille 3 (grande) dans une zone d'accumulation plus importante, pourraient se produire dans la neige récente qui s'alourdit avec le redoux dans toutes les orientations. \n- De rares avalanches de glissement (avalanches de fond) pourraient commencer à se produire en pente raide herbeuse / secteur de reptation habituel de moyenne altitude, pouvant atteindre la taille 2.",
+      "text": "INSTABILITÉS DANS LA NEIGE RÉCENTE ET/OU VENTÉE, SURTOUT EN ALTITUDE. MISE EN PLACE D'UN REDOUX.\n\nDéclenchements provoqués : - Surtout au-dessus de 1800 m, le risque peut encore être marqué ce mardi. Des plaques se forment dans la neige récente avec le vent parfois fort qui souffle de secteur Sud en journée, créant parfois d'importantes accumulations.Elles peuvent être faciles à déclencher par un seul pratiquant, avec parfois des épaisseurs de cassures conséquentes. \n Sous 1800 m, le risque de déclenchement semble plus limité, le manteau neigeux y étant déjà plus dense en profondeur et le tassement plus marqué.\n\nDéparts spontanés : - Quelques départs linéaires spontanés de petite taille, rarement moyenne en altitude dans une zone d'accumulation plus importante, peuvent se produire dans la neige récente qui s'alourdit avec le redoux dans toutes les orientations. \nDe rares avalanches de glissement (avalanches de fond) peuvent commencer à se produire en pente raide herbeuse / secteur de reptation habituel de moyenne altitude.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement s'est bien amélioré, mais reste déficitaire à basse altitude, en faces Sud et sous les sapins... Limites skiables (avec précautions) à partir de  700/1200m (prairies/pistes forestières).\n\nQualité de la neige lundi : Neige poudreuse parfois épaisse en cours de tassement à moyennes altitudes et dans les combes abritées, qui commence à s'alourdir dès le début de journée, avec le redoux qui s'accentue et un ciel très nuageux au début puis plus ou moins voilé dans un second temps. Neige bien soufflée à l'abord des crêtes et sommets, avec des secteurs dégarnis et des congères... En pentes sud et sous les sapins, absence de sous couche...",
+      "text": "Qualification de l’enneigement : L'enneigement s'est bien amélioré, mais redevient nettement déficitaire à basse altitude, en faces Sud et en forêt... Limites skiables à partir de  900/1200m.\n\nQualité de la neige mardi : Encore une couche de neige poudreuse en cours de tassement à moyennes altitudes et dans les combes abritées, qui commence à s'alourdir avec le redoux qui s'accentue et un ciel très nuageux au début puis plus ou moins voilé dans un second temps. Neige bien soufflée à l'abord des crêtes et sommets, avec des secteurs dégarnis et des congères... En pentes sud et sous les sapins, absence de sous couche...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,13 +144,13 @@
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 30,
-          "S": 25
+          "N": 20,
+          "S": 15
         },
         {
           "alt_m": 1500,
-          "N": 70,
-          "S": 55
+          "N": 65,
+          "S": 45
         },
         {
           "alt_m": 2000,

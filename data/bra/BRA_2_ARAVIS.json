@@ -3,8 +3,8 @@
   "massif": "Aravis",
   "bulletin": {
     "id": 2,
-    "issued_at": "2026-01-11T16:00:00",
-    "valid_until": "2026-01-12T18:00:00",
+    "issued_at": "2026-01-12T16:00:00",
+    "valid_until": "2026-01-13T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-13",
+        "date": "2026-01-14",
         "label": "Indice de risque marqué",
-        "comment": "Encore quelques instabilités présentes (vent SO, redoux).",
+        "comment": "Mercredi : assez beau. Le vent de sud-ouest faiblit un peu et l'isotherme 0°C baisse nettement. \n⇒ plaques à vent et sous couche fragile persistante toujours présente.",
         "trend": "steady"
       }
     },
@@ -53,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 3,
       "labels": {
-        "1": "Neige fraîche",
+        "2": "Neige ventée",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-07",
-          "min_cm": 1,
-          "max_cm": 3
-        },
         {
           "date": "2026-01-08",
           "min_cm": 30,
@@ -99,29 +94,34 @@
         },
         {
           "date": "2026-01-11",
-          "min_cm": 1,
-          "max_cm": 1
+          "min_cm": 0,
+          "max_cm": 0
         },
         {
           "date": "2026-01-12",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-13",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 1
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nombreuses instabilités encore présentes en montagne dues aux dernières chutes de neige.",
-      "text": "Nombreuses instabilités encore présentes en montagne dues aux dernières chutes de neige.\n\nDéclenchements provoqués :\n* Plaques friables et dures présentes dans la neige fraîche. Elles sont moins réactives que ces derniers jours.. Taille 2 (moyenne). Attention, elles sont parfois difficiles à détecter. À ça se rajoute la formation de nouvelles plaques sous le vent de SO qui se lève dans la nuit de dimanche à lundi, elles sont sensibles au passage d'un skieur, mais présentes au-delà de 2200 m.\n* Facteur aggravant au-dessus de 1800 m : la présence d'une couche fragile persistante enfouie, facilitant des cassures épaisses. Dans les versants E/N/W. A fortiori dans les endroits peu skiés ces derniers temps (combes éloignées, bords de combes ou zones où l'enneigement était insuffisant). Possibles déclenchements en cascade (une petite avalanche en déclenche une plus volumineuse) et à distance. Taille 3 (grande). \n*Quelques départs en poire sous les skis sous l'effet du couvert nuageux avec la densification en surface. Ces petites avalanches peuvent prendre de l'ampleur au vu des gros cumuls tombés ces deux derniers jours. Taille 1 voir 2. (petite voir moyenne).\n\nDéparts spontanés :\n* Quelques départs dans les pentes raides sous l'effet du couvert nuageux (coulées). Taille 1 voir 2.\n* Rares départs linéaires sous le vent de Ouest-Sud-Ouest, qui transporte de la neige  peut surcharge les quelques plaques encore présentes et/ou en former de nouvelles. Taille 2 à 3.\n\nAutre : Attention aux ruptures de corniches.",
+      "title": "Nombreuses instabilités dans la neige fraîche, maintenues par le fort vent",
+      "text": "Nombreuses instabilités dans la neige fraîche, maintenues par le fort vent\n\nDéclenchements provoqués :\n* Plaques à vent en cours de formation dans la neige récente avec le fort vent de sud-ouest. De plus en plus nombreuses au fil de la journée et en montant en altitude. Très facile à déclencher. Taille 1 à 2 (petite à moyenne).  \nObservables : transport de neige par le vent, fissures sous les skis, accumulations de neige récente. \nFacteur aggravant : une sous-couche fragile persistante enfouie est présente localement au-dessus de 1800/2000 m, dans les versants est/nord/ouest. Difficile à déclencher. Une avalanche de taille 3 (grande) n’est pas exclu. \n* Rares plaques friables dans la neige récente au-dessus de 1800 m, en tous versants. Assez facile à déclencher. Taille 2 (moyenne). \n\nDéparts spontanés :\n* Avalanches de neige fraiche, dans les pentes ensoleillées aux heures les plus chaudes, notamment dans les falaises et près des rochers. Quelques tailles 1 et rarement 2. \n* Quelques plaques de fond, dans les versants ensoleillés, dans les zones herbeuses ou les dalles rocheuses, en dessous de 2200 m. Taille 2 (moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : l'épisode neigeux a permis un retour à un enneigement quasiment normal pour un début janvier. On peut chausser les skis au-dessus de 1000 m. Attention, absence de sous-couche en dessous de 1500 m en N et 1600/1900 m en S : attentions aux souches, cailloux et rigoles juste recouverts. \n\nQualité de la neige ce lundi : Sous 2400 m, une bonne épaisseur de neige récente qui s'alourdit en surface sous l'effet du couvert nuageux et au-delà, elle reste froide. Neige dure dans les cols et sur les arêtes. Belles congères/accumulations/corniches par endroit.",
+      "text": "Enneigement : Pour la saison, l’enneigement est correct.\nOn peut chausser les skis vers 1000 m. Pas de sous-couche sous 1500 m, des cailloux sont cachés sous la neige. \n\nQualité de la neige ce mardi matin : \n* Au-dessus de 2000 m, couche de neige fraiche (30/50 cm) assez légère. \n* Vers 1500 m, 20/30 cm de neige fraîche dense.\nPrès des crêtes, neige soufflée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -142,8 +142,8 @@
         },
         {
           "alt_m": 2000,
-          "N": 130,
-          "S": 110
+          "N": 110,
+          "S": 90
         }
       ],
       "icon_key": "snowpack",

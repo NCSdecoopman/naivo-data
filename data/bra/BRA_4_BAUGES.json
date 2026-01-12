@@ -3,8 +3,8 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-01-11T16:00:00",
-    "valid_until": "2026-01-12T18:00:00",
+    "issued_at": "2026-01-12T16:00:00",
+    "valid_until": "2026-01-13T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-13",
+        "date": "2026-01-14",
         "label": "Indice de risque limité",
-        "comment": "Le manteau poursuit sa stabilisation.",
+        "comment": "Mercredi : assez beau. Le vent de sud-ouest faiblit un peu et l'isotherme 0°C baisse nettement. \n⇒ plaques à vent toujours présente.",
         "trend": "steady"
       }
     },
@@ -53,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -66,21 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": null,
+      "primary": 2,
+      "secondary": 3,
       "labels": {
-        "1": "Neige fraîche"
+        "2": "Neige ventée",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-07",
-          "min_cm": 1,
-          "max_cm": 3
-        },
         {
           "date": "2026-01-08",
           "min_cm": 20,
@@ -105,6 +101,11 @@
           "date": "2026-01-12",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-13",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Encore quelques instabilités dans la neige fraiche.",
-      "text": "Encore quelques instabilités dans la neige fraiche.\n\nDéclenchements provoqués :\n* Quelques plaques peuvent être encore présentes dans la neige fraîche. Taille 1 à 2 (petite à moyenne). Elles sont moins nombreuses et moins réactives que ces derniers jours :\n- plaques friables de neige poudreuse dans les secteurs abrités. Complexes à détecter, peu d'indices visibles.\n- plaques dures en altitude surtout à proximité des crêtes (ventées). Observables : fissures devant les skis, alternance de zones érodées et d'accumulations, changement de dureté de neige sur une courte distance.\n\nDéparts spontanés :\n* Quelques départs dans les pentes raides sous l'effet du couvert nuageux (coulées). Ces petites avalanches peuvent engendrer de plus gros volumes au vu des cumuls tombés ces derniers jours.. Taille 1 voir 2.",
+      "title": "Quelques instabilités dans la neige fraîche, maintenues par le fort vent",
+      "text": "Quelques instabilités dans la neige fraîche, maintenues par le fort vent\n\nDéclenchements provoqués :\n* Plaques à vent en cours de formation dans la neige récente avec le fort vent de sud-ouest. De plus en plus nombreuses au fil de la journée, surtout au-dessus de 1800 m. Très facile à déclencher. Taille 1 à 2 (petite à moyenne).  \nObservables : transport de neige par le vent, fissures sous les skis, accumulations de neige récente. \n* Rares plaques friables dans la neige récente au-dessus de 1800 m, en tous versants. Assez facile à déclencher. Taille 2 (moyenne). \n\nDéparts spontanés :\n* Avalanches de neige fraiche, dans les pentes ensoleillées aux heures les plus chaudes, notamment dans les falaises et près des rochers. Quelques tailles 1 et rarement 2. \n* Quelques plaques de fond, dans les versants ensoleillés, dans les zones herbeuses ou les dalles rocheuses. Taille 2 (moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : l'épisode neigeux a permis un retour à un enneigement quasiment normal pour un début janvier. On peut chausser les skis au-dessus de 1000 m. Attention, absence de sous-couche en dessous de 1500 m en N et 1600/1900 m en S : attentions aux souches, cailloux et rigoles juste recouverts. \n\nQualité de la neige ce lundi: \n* Neige froide récente, assez épaisse en altitude. En journée, elle s'alourdit en surface sous l'effet du couvert nuageux. Quelques anciennes traces de neige plus dure sur certain secteur.",
+      "text": "Enneigement : Pour la saison, l’enneigement est correct.\nOn peut chausser les skis vers 1000 m. Pas de sous-couche sous 1500 m, des cailloux sont cachés sous la neige. \n\nQualité de la neige ce mardi matin : \n* Au-dessus de 2000 m, couche de neige fraiche (30/50 cm) assez légère. \n* Vers 1500 m, 20/30 cm de neige fraîche dense.\nPrès des crêtes, neige soufflée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -141,8 +142,8 @@
         },
         {
           "alt_m": 2000,
-          "N": 100,
-          "S": 80
+          "N": 90,
+          "S": 70
         }
       ],
       "icon_key": "snowpack",
