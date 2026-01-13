@@ -3,37 +3,49 @@
   "massif": "Aravis",
   "bulletin": {
     "id": 2,
-    "issued_at": "2026-01-12T16:00:00",
-    "valid_until": "2026-01-13T18:00:00",
+    "issued_at": "2026-01-13T16:00:00",
+    "valid_until": "2026-01-14T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1800,
+        "split_axis": "horizontal",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1800",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1800",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1800m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-14",
+        "date": "2026-01-15",
         "label": "Indice de risque marqué",
-        "comment": "Mercredi : assez beau. Le vent de sud-ouest faiblit un peu et l'isotherme 0°C baisse nettement. \n⇒ plaques à vent et sous couche fragile persistante toujours présente.",
+        "comment": "Vers une stabilisation du manteau avec le redoux en cours.",
         "trend": "steady"
       }
     },
@@ -78,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-08",
-          "min_cm": 30,
-          "max_cm": 40
-        },
-        {
           "date": "2026-01-09",
           "min_cm": 20,
           "max_cm": 25
@@ -106,6 +113,11 @@
           "date": "2026-01-13",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-14",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,35 +127,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nombreuses instabilités dans la neige fraîche, maintenues par le fort vent",
-      "text": "Nombreuses instabilités dans la neige fraîche, maintenues par le fort vent\n\nDéclenchements provoqués :\n* Plaques à vent en cours de formation dans la neige récente avec le fort vent de sud-ouest. De plus en plus nombreuses au fil de la journée et en montant en altitude. Très facile à déclencher. Taille 1 à 2 (petite à moyenne).  \nObservables : transport de neige par le vent, fissures sous les skis, accumulations de neige récente. \nFacteur aggravant : une sous-couche fragile persistante enfouie est présente localement au-dessus de 1800/2000 m, dans les versants est/nord/ouest. Difficile à déclencher. Une avalanche de taille 3 (grande) n’est pas exclu. \n* Rares plaques friables dans la neige récente au-dessus de 1800 m, en tous versants. Assez facile à déclencher. Taille 2 (moyenne). \n\nDéparts spontanés :\n* Avalanches de neige fraiche, dans les pentes ensoleillées aux heures les plus chaudes, notamment dans les falaises et près des rochers. Quelques tailles 1 et rarement 2. \n* Quelques plaques de fond, dans les versants ensoleillés, dans les zones herbeuses ou les dalles rocheuses, en dessous de 2200 m. Taille 2 (moyenne).",
+      "title": "INSTABILITES DANS LA NEIGE VENTEE EN ALTITUDE",
+      "text": "INSTABILITES DANS LA NEIGE VENTEE EN ALTITUDE\n\nDéclenchements provoqués :\n* Formation de nouvelles plaques à vent au-dessus de 1800/2000m avec le fort vent de Sud qui perdure. Elles sont faciles à déclencher au passage d'un unique skieur surtout sur un large secteur Nord mais restent de tailles limitées 1 à 2 (petite à moyenne).\n* Sur ces secteurs Nord, on retrouve la présence  d'une sous-couche fragile persistante, au-dessus de 1800 m. Rendant la plupart des plaques assez facile à déclencher et laisse la possibilité d'un départ plus gros de Taille 2 (moyenne), rarement 3 (grande) avec de grandes cassures possibles (1m/1,5m).  \n\n\nDéparts spontanés :\n* Avalanches de neige fraiche, dans les pentes ensoleillées en cours d'après-midi sous 2500m, notamment dans les falaises et près des rochers. Quelques tailles 1 et rarement 2. \n* Possibilité de départs de fond, dans les versants ensoleillés, dans les zones herbeuses ou les dalles rocheuses, en dessous de 2200/2400 m. Taille 2 (moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Pour la saison, l’enneigement est correct.\nOn peut chausser les skis vers 1000 m. Pas de sous-couche sous 1500 m, des cailloux sont cachés sous la neige. \n\nQualité de la neige ce mardi matin : \n* Au-dessus de 2000 m, couche de neige fraiche (30/50 cm) assez légère. \n* Vers 1500 m, 20/30 cm de neige fraîche dense.\nPrès des crêtes, neige soufflée.",
+      "text": "Enneigement : Pour la saison, l’enneigement reste correct mais redevient faible à basse altitude.\nOn peut chausser les skis vers 1000/1200 m. Pas de sous-couche sous 1500 m, des cailloux sont cachés sous la neige. \n\nQualité de la neige ce mercredi matin : \n* Au-dessus de 2000 m, couche de neige fraiche (30/40 cm) qui commence à être travaillée par le vent sur les secteurs exposés.\n* Sous 1600/1800m, neige souvent humidifée avec présence de croute.\nPrès des crêtes, neige dure soufflée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 700,
-        "south": 700
+        "north": 900,
+        "south": 1000
       },
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 10,
-          "S": 10
+          "N": 7,
+          "S": 5
         },
         {
           "alt_m": 1500,
-          "N": 80,
-          "S": 60
+          "N": 75,
+          "S": 50
         },
         {
           "alt_m": 2000,
-          "N": 110,
-          "S": 90
+          "N": 105,
+          "S": 85
         }
       ],
       "icon_key": "snowpack",
