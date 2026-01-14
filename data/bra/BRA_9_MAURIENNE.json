@@ -3,61 +3,49 @@
   "massif": "Maurienne",
   "bulletin": {
     "id": 9,
-    "issued_at": "2026-01-13T16:00:00",
-    "valid_until": "2026-01-14T18:00:00",
+    "issued_at": "2026-01-14T16:00:00",
+    "valid_until": "2026-01-15T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Au-dessus de 1800m indice de risque fort, plus bas indice marqué.",
+      "max_level": 3,
+      "comment": "Indice de risque marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 1800,
-        "split_axis": "horizontal",
-        "split_label": "1800m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1800",
+            "loc": null,
             "risk": 3,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">1800",
-            "risk": 4,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "1800m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "3",
             "risk": 3,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "4",
-            "risk": 4,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-15",
+        "date": "2026-01-16",
         "label": "Indice de risque marqué",
-        "comment": "Manteau en cours de stabilisation mais risque encore marqué.",
-        "trend": "down"
+        "comment": "Maintient d'un risque marqué dans de nombreuses pentes.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -90,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-09",
-          "min_cm": 30,
-          "max_cm": 55
-        },
-        {
           "date": "2026-01-10",
           "min_cm": 7,
           "max_cm": 15
@@ -118,6 +101,11 @@
           "date": "2026-01-14",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-15",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,8 +115,8 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Structures de plaques très instables encore présentes, déclenchement facile, grandes avalanches possibles.",
-      "text": "Structures de plaques très instables encore présentes, déclenchement facile, grandes avalanches possibles.\n\nDéclenchements provoqués : De nombreuses structures instables sont en place, reposant sur une couche fragile de grains sans cohésion (gobelets ou faces planes). L'épaisse couche de neige tombée la semaine dernière se tasse et prend une certaine cohésion rendant  la couche fragile sous-jacente réactive même assez profondément. Des déclenchements à distance avec de grandes propagations sont toujours possibles engendrant des avalanches de taille 2 à 3, voire 4 dans certaines configurations. En se rapprochant des crêtes et sommets , le vent a souvent \"bétonné\" cette neige et la sollicitation de la couche fragile est moins facile (plaque dure et épaisse alternant avec des zones pelées). Dans les pentes bien ensoleillées (Sud-Est à Sud-Ouest raide), ainsi qu'à basse altitude (<1800m), la présence d'une croûte en surface limite l'initiation de ces avalanches. Ailleurs, dans les pentes dépassant les 30° environ, le risque de déclenchement accidentel reste maximal.  \nObservables :  alternance de zones érodées et d'accumulations (plaques dures), fissures devant les skis, \"Woumfs\" (effondrement de la couche fragile). La présence de traces se skis antérieures n'est pas forcément un signe de stabilité (prise de cohésion du manteau neigeux).\n\nDéparts spontanés : - rares départs ponctuels dans les pentes très raides, souvent sous les barres ou rochers, ainsi qu'en falaises plâtrées essentiellement dans les faces ensoleillées donc plutôt en Est le matin, puis Sud et enfin Ouest l'après-midi. Taille 1 à 2 (moyenne).    \n - quelques plaques de fond sur pentes très raide lisse/herbeuse, surtout l'après-midi en dessous de 1600m environ.\n\nAutres :  Quelques nouvelles plaques ont pu se former en altitude avec le vent de Sud-Ouest, facilement déclenchables mais généralement peu épaisses.",
+      "title": "Structures de plaques instables encore présentes nécessitant une grande prudence.",
+      "text": "Structures de plaques instables encore présentes nécessitant une grande prudence.\n\nDéclenchements provoqués : De nombreuses structures instables sont encore en place, reposant sur une couche fragile (gobelets ou faces planes). L'épaisse couche de neige tombée la semaine dernière se tasse et prend une certaine cohésion rendant parfois la couche fragile sous-jacente réactive même assez profondément. Des déclenchements à distance sont toujours possibles engendrant des avalanches de taille 2 à 3 avec des cassure de 50 à 80cm en général mais pouvant dépasser 1m dans certaines configurations. En se rapprochant des crêtes et sommets , le vent a souvent \"bétonné\" cette neige et la sollicitation de la couche fragile est moins facile (plaque dure et épaisse alternant avec des zones pelées). Dans les pentes bien ensoleillées (Sud-Est à Sud-Ouest raide), ainsi qu'à basse altitude (<1800 à 2000m), La neige s'est humidifiée et la présence d'une croûte en surface limite l'initiation de ces structures instables. Les pentes peu ensoleillées dépassant les 30 à 35° restent particulièrement dangereuses.\nObservables :  alternance de zones érodées et d'accumulations (plaques dures), fissures devant les skis, \"Woumfs\" (effondrement de la couche fragile). La présence de traces se skis antérieures n'est pas à considérer comme un signe de stabilité (prise de cohésion du manteau neigeux).\n\nDéparts spontanés : - rares départs ponctuels dans les pentes très raides, suivant le soleil donc plutôt en Est le matin, puis Sud et enfin Ouest l'après-midi. Taille 1 à 2 (moyenne).    \n - quelques plaques de fond sur pentes très raide lisse/herbeuse, surtout l'après-midi en dessous de 1800m environ.\n\nAutres :  Quelques nouvelles plaques ont pu se former en altitude avec le vent de Sud-Ouest, facilement déclenchables mais généralement peu épaisses.",
       "sections": null,
       "icon_key": "stability"
     },
@@ -144,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 75,
-          "S": 55
+          "N": 70,
+          "S": 50
         },
         {
           "alt_m": 2000,
-          "N": 95,
-          "S": 85
+          "N": 90,
+          "S": 80
         },
         {
           "alt_m": 2500,
-          "N": 145,
-          "S": 115
+          "N": 140,
+          "S": 110
         }
       ],
       "icon_key": "snowpack",

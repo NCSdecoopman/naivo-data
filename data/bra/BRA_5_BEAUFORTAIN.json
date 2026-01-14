@@ -3,8 +3,8 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-01-13T16:00:00",
-    "valid_until": "2026-01-14T18:00:00",
+    "issued_at": "2026-01-14T16:00:00",
+    "valid_until": "2026-01-15T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-15",
+        "date": "2026-01-16",
         "label": "Indice de risque marqué",
-        "comment": "Manteau en cours de stabilisation mais risque encore marqué.",
+        "comment": "Pas d'évolution significative",
         "trend": "steady"
       }
     },
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-09",
-          "min_cm": 30,
-          "max_cm": 60
-        },
-        {
           "date": "2026-01-10",
           "min_cm": 10,
           "max_cm": 20
@@ -117,6 +112,11 @@
           "date": "2026-01-14",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-15",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,12 +127,12 @@
     },
     "stability": {
       "title": "Structures de plaques encore présentes, déclenchement facile possible.",
-      "text": "Structures de plaques encore présentes, déclenchement facile possible.\n\nDéclenchements provoqués : De nombreuses structures instables sont encore en place, reposant sur une couche fragile de grains sans cohésion (gobelets ou faces planes). Des déclenchements parfois à distance avec propagation sont toujours possibles engendrant des avalanches de taille 2 voire 3. En se rapprochant des crêtes et sommets , le vent a souvent beaucoup travaillé cette neige et la sollicitation de la couche fragile est moins facile (plaque dure et épaisse alternant avec des zones pelées). Dans les pentes bien ensoleillées (Sud-Est à Sud-Ouest raide), ainsi qu'à basse altitude (<1800m), le risque semble plus limité. \nObservables : Fissures devant les skis, \"Woumfs\" (effondrement de la couche fragile). La présence de traces se skis antérieures n'est pas forcément un signe de stabilité (prise de cohésion du manteau neigeux).\n\nDéparts spontanés :  rares départs ponctuels dans les pentes très raides, souvent sous les barres ou rochers essentiellement dans les faces ensoleillées donc plutôt en Est le matin, puis Sud et enfin Ouest l'après-midi. Taille 1 à 2 (moyenne).    \n - quelques plaques de fond sur pentes très raide lisse/herbeuse, surtout l'après-midi en dessous de 1600m environ.\n\nAutres :  Quelques nouvelles plaques ont pu se former en altitude avec le vent de Sud-Ouest, facilement déclenchables mais généralement peu épaisses.",
+      "text": "Structures de plaques encore présentes, déclenchement facile possible.\n\nDéclenchements provoqués : De nombreuses structures instables sont encore en place, reposant sur une couche fragile de grains sans cohésion (gobelets ou faces planes). Des déclenchements parfois à distance avec propagation sont toujours possibles engendrant des avalanches de taille 2 voire 3. En se rapprochant des crêtes et sommets , le vent a souvent beaucoup travaillé cette neige et la sollicitation de la couche fragile est moins facile (plaque dure et épaisse alternant avec des zones pelées). Dans les pentes bien ensoleillées (Sud-Est à Sud-Ouest raide), ainsi qu'à basse altitude (<1800m), le risque semble plus limité. \nObservables : Fissures devant les skis, \"Woumfs\" (effondrement de la couche fragile). La présence de traces se skis antérieures n'est pas forcément un signe de stabilité (prise de cohésion du manteau neigeux).\n\nDéparts spontanés :  rares départs ponctuels dans les pentes très raides, souvent sous les barres ou rochers essentiellement dans les faces ensoleillées donc plutôt en Est le matin, puis Sud et enfin Ouest l'après-midi. Taille 1 à 2 (moyenne).    \n - quelques plaques de fond sur pentes lisse/herbeuse, surtout l'après-midi en dessous de 1800m environ.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Désormais proche de la normale voire excédentaire à basse altitude.\n\nLimite skiable :  skiable même à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1300 m en N, 1800 m en S.\n\nQualité de la neige : neige encore meuble en surface, encore poudreuse dans les pentes ne prenant pas ou peu le soleil, en cours de densification mais toujours bien agréable à skier (poudreuse moins profonde et un peu plus portante). Le vent des derniers jours a créé des hétérogénéités surtout en altitude : crêtes rabotées cartonnées, grosses accumulations en zones de dépôt. En versants Sud ainsi qu'à basse altitude (<1500m) : La neige s'est humidifiée en journée avec une croûte souvent peu épaisse en dessous de 2200/2400 m. Elle se ramollit en journée.  La neige s'est aussi nettement alourdie dans les secteurs forestiers.",
+      "text": "Enneigement : Désormais proche de la normale voire excédentaire à basse altitude.\n\nLimite skiable :  skiable même à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1300 m en N, 1800 m en S.\n\nQualité de la neige : neige encore poudreuse dans les pentes ne prenant pas ou peu le soleil dès les altitude les plus basses, en cours de densification mais toujours bien agréable à skier (poudreuse moins profonde et un peu plus portante). Le vent des derniers jours a créé des hétérogénéités surtout en altitude : crêtes rabotées cartonnées, grosses accumulations dans les combes en zones de dépôt. En versants Sud ainsi qu'à basse altitude (<1500m) : La neige s'est humidifiée en journée avec une croûte plus ou moins portante le matin en dessous de 2200/2400 m. Elle se ramollit en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -143,18 +143,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 85,
-          "S": 65
+          "N": 80,
+          "S": 60
         },
         {
           "alt_m": 2000,
-          "N": 145,
-          "S": 115
+          "N": 140,
+          "S": 110
         },
         {
           "alt_m": 2500,
-          "N": 195,
-          "S": 155
+          "N": 190,
+          "S": 150
         }
       ],
       "icon_key": "snowpack",

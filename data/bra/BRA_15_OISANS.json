@@ -3,8 +3,8 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-01-13T16:00:00",
-    "valid_until": "2026-01-14T18:00:00",
+    "issued_at": "2026-01-14T16:00:00",
+    "valid_until": "2026-01-15T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-15",
+        "date": "2026-01-16",
         "label": "Indice de risque marqué",
-        "comment": "Risque d'avalanche évoluant peu ou en légère baisse. Tassement en moyenne montagne, renforcement du vent de Sud en altitude ; quelques nouvelles plaques possibles loin en contrebas ?",
+        "comment": "Vendredi, le vent de sud se maintient en altitude et forme de nouvelles instabilités, avec un risque restant marqué sur le massif.",
         "trend": "steady"
       }
     },
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -89,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-09",
-          "min_cm": 20,
-          "max_cm": 30
-        },
         {
           "date": "2026-01-10",
           "min_cm": 5,
@@ -118,6 +113,11 @@
           "date": "2026-01-14",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-15",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "DE NOUVELLES PLAQUES LOCALES SOUS LE VENT DE SUD, PLUS EPAISSES EN ALTITUDE... POSSIBLE DECLENCHEMENT A DISTANCE VERS LES ECRINS ?",
-      "text": "DE NOUVELLES PLAQUES LOCALES SOUS LE VENT DE SUD, PLUS EPAISSES EN ALTITUDE... POSSIBLE DECLENCHEMENT A DISTANCE VERS LES ECRINS ?\n\nDéclenchements provoqués : Risque accidentel localement marqué, sous le vent de Sud/Sud-Ouest  et notamment au dessus de 1900/2100m (chasse neige locale et sous-couches peu stabilisées). Rupture de plaque possible au passage d'un skieur, avec en contrebas parfois une plus épaisse et large cassure (en secteur Nord, Ouest à Est)... Risque présent parfois assez loin des crêtes (sous couches  poudreuses moins ventées ce week-end, donc plus instables). \nIndices observables : alternance pentes dégarnies/accumulées, chasse neige parfois en cours... \nVers Les Ecrins, La Meije des sous-couches fragiles persistantes sont parfois présentes en bas de pente. Elles majorent le risque accidentel (effondrement ou rupture possible à distance).\nVers le Taillefer/Matheysine, vent récent plus fort formant des plaques dures, plutôt sensible à une forte surcharge ?  \nSous 2000m environ, le risque accidentel serait plus limité et les ruptures moins épaisses...\n\nDéparts spontanés : Sous l'action du vent, rare rupture spontanée de plaque en faces froides, en pieds de barres parfois (de taille moyenne à grande). En Sud rocheux de modeste altitude possibles nouvelles coulées humides.\nEn pentes herbeuses raides/secteurs de reptation, on n'exclut pas une rare avalanche de glissement (de taille moyenne).",
+      "title": "NOUVELLES PLAQUES EN FORMATION SOUS LE VENT DE SUD, RISQUE AMPLIFIE PAR LA PRESENCE LOCALE DE COUCHES FRAGILES PERSISTANTES",
+      "text": "NOUVELLES PLAQUES EN FORMATION SOUS LE VENT DE SUD, RISQUE AMPLIFIE PAR LA PRESENCE LOCALE DE COUCHES FRAGILES PERSISTANTES\n\nDéclenchements provoqués : En large secteur Nord, de nouvelles plaques se forment au fil de la journée sous le vent de Sud / Sud-Ouest. Ces instabilités peuvent prendre la forme de plaque dures près des crêtes et de plaques friables plus bas dans les pentes. Les instabilités sont sensibles au passage d'un seul skieur et sont plus marquées en secteurs poudreux. Le risque est parfois amplifié par la présence de grains anguleux enfouis sous les chutes de neige récentes, rendant possible des déclenchements à distance et des départs de grandes ampleurs. Ces couches fragiles se retrouvent principalement vers les Ecrins, en milieu de pentes / dans les secteurs moins exposés au vent. \nVers le Taillefer, plus exposé aux épisodes de vent, les instabilités prennent principalement la forme de plaques dures, plus difficiles à solliciter. \nObservables : Chasse neige en cours, accumulations de neige, neige dense en surface et plus légère en profondeur, \"woumfs\". \nEn versants ensoleillés, et sous 2100m environ, le manteau est généralement plus stable et les volumes mobilisables moins importants. \n\nDéclenchements spontanés : Dans les versants froids chargés par le vent, un rare départ de plaque de taille moyenne voire grande est possible. \nDans les versants ensoleillés, quelques coulées possibles sous les rochers. En pente raide/herbeuse de moyenne altitude enfin, un rare départ au terrain est possible à toute heure (de taille moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement s'est récemment bien amélioré, dans les combes et en moyenne montagne. Mais il reste déficitaire, en faces sud et généralement à l'abord des croupes/crêtes...Limites skiables à partir de  1000/1400m en pentes herbeuses.\nQualité de la neige mercredi : Il ne reste plus beaucoup de poudreuse ou dans de rares combes froides bien abritées au dessus de 1900/2100m. Neige majoritairement soufflée en altitude avec des secteurs à nouveau dégarnis, d'autres compactés/sculptés...\nEn face Sud et sous 2000m environ neige en partie transformée, crôutée par regel (le matin)... En moyenne montagne rapide humidification/tassement....",
+      "text": "Qualification de l’enneigement : L'enneigement s'est récemment bien amélioré, dans les combes et en moyenne montagne. Mais il reste déficitaire sous les sapins, en faces sud et l'abord des croupes/crêtes...Limites skiables à partir de  1000/1400m.\n\nQualité de la neige jeudi : Il ne reste plus beaucoup de poudreuse ou de rares combes froides bien abritées au dessus de 2000/2200m. Neige souvent soufflée en altitude avec des secteurs dégarnis, d'autres compactés/sculptés...\nEn face Sud et sous 2200m environ neige en partie transformée, crôutée par regel (le matin)... En moyenne montagne rapide humidification/tassement....",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 40,
-          "S": 25
+          "N": 35,
+          "S": 20
         },
         {
           "alt_m": 2000,
-          "N": 90,
-          "S": 65
+          "N": 80,
+          "S": 60
         },
         {
           "alt_m": 2500,
-          "N": 140,
-          "S": 90
+          "N": 130,
+          "S": 80
         }
       ],
       "icon_key": "snowpack",

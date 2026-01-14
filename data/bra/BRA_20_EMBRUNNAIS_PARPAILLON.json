@@ -3,8 +3,8 @@
   "massif": "Embrunais Parpaillon",
   "bulletin": {
     "id": 20,
-    "issued_at": "2026-01-13T16:00:00",
-    "valid_until": "2026-01-14T18:00:00",
+    "issued_at": "2026-01-14T16:00:00",
+    "valid_until": "2026-01-15T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-15",
+        "date": "2026-01-16",
         "label": "Indice de risque marqué",
-        "comment": "Risque marqué au-dessus de 2200/2400 m. La présence de couche fragile persistante enfouie dans le manteau neigeux maintient la possibilité de déclencher localement des plaques épaisses.",
+        "comment": "Risque stable ou en hausse. Formation de nouvelles plaques superficielles dans un premier temps avec les faibles chutes de neige ventée.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-09",
-          "min_cm": 15,
-          "max_cm": 25
-        },
-        {
           "date": "2026-01-10",
           "min_cm": 1,
           "max_cm": 3
@@ -118,6 +113,11 @@
           "date": "2026-01-14",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-15",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,19 +127,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PLAQUES LOCALEMENT ÉPAISSES EN VERSANTS NORD EN RAISON DE LA PRÉSENCE DE COUCHE FRAGILE PERSISTANTE",
-      "text": "PLAQUES LOCALEMENT ÉPAISSES EN VERSANTS NORD EN RAISON DE LA PRÉSENCE DE COUCHE FRAGILE PERSISTANTE\n\nDéclenchements provoqués : des plaques sont encore en place, formées par les récentes chutes de neige et le fort vent de nord-ouest puis de sud-ouest des derniers jours. Elles ont tendance à se stabiliser avec le redoux qui se poursuit mardi, mais restent présentes en toutes orientations au-dessus de 2000/2200 m environ, localisées dans les zones d’accumulation par le vent. Elles sont souvent d’aspect durci par le vent, facilement identifiables, mais peuvent encore être déclenchées par un seul skieur, parfois même à distance. En cas de rupture, elles engendrent généralement des avalanches de taille moyenne (taille 2), mobilisant l’ensemble de la neige récente. Au-dessus de 2000/2200 m environ, la rupture d’une plaque de surface et/ou une forte surcharge peuvent solliciter une couche fragile persistante enfouie. Dans ce cas, des avalanches de plus grande ampleur sont possibles (taille moyenne à grande), notamment dans les orientations nord, nord-est et est, particulièrement chargées en neige avec le fort vent des derniers jours. \nSous 2000/2200 m, le risque est plus limité, le manteau neigeux s'étant humidifié avec le redoux et la couverture nuageuse. \n\nDéparts spontanés : de neige humide en pentes raides près des rochers. Départs ponctuels, emportant toute la neige récente, de taille petite à moyenne.",
+      "title": "RISQUE MARQUÉ DÉCLENCHEMENT SKIEUR. PLAQUES LOCALEMENT ÉPAISSES, ENCORE FACILES À DÉCLENCHER, MÊME À DISTANCE",
+      "text": "RISQUE MARQUÉ DÉCLENCHEMENT SKIEUR. PLAQUES LOCALEMENT ÉPAISSES, ENCORE FACILES À DÉCLENCHER, MÊME À DISTANCE\n\nDéclenchements provoqués : instabilités encore faciles à déclencher par un skieur. Plus nombreuses au-dessus de 2000/2200 m, potentiellement en tous versants, et plus particulièrement dans les zones où le vent avait densifié la neige ou occasionné des accumulations parfois épaisses. Leur déclenchement, possiblement à distance, et la propagation sont favorisés par la présence d’une couche fragile enfouie composée de grains sans cohésion, non détectable depuis la surface. En cas de rupture, avalanche de plaque de taille généralement moyenne mobilisant l’ensemble de la neige récente, possiblement grande dans les orientations de large nord à est particulièrement chargées.\nEn journée de vendredi, quelques nouvelles plaques en formation principalement vers les crêtes et sommets de haute altitude avec la neige transportée par le vent.\n\nDéparts spontanés : - rares départs en plaque en orientation ombragée de haute altitude avec la surcharge due au transport de la neige par le vent. Taille moyenne, voire grande. \n- départs ponctuels résiduels en neige humide en pente raide bien ensoleillée, près des rochers. Taille le plus souvent petite.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement  s'est amélioré ces derniers jours, mais il reste déficitaire, particulièrement en altitude.\nOn mesure ce mardi : 37 cm à la nivôse du Parpaillon à 2550 m.\n\nLimite d'enneigement skiable vers 1500 m, mais la couche de neige récente s'est déposée sur un sol souvent nu sous 1800 m en ubacs et 2000/2200 m en adrets.\n\nÉtat de la neige de surface :  la couche de neige récente (entre 20 et 40 cm) a été densifiée ou cartonnée par le vent, voire fortement durcie dans les zones les plus exposées, mais reste froide, légère et poudreuse en secteurs bien abrités du vent, notamment en forêt. Les crêtes sont souvent dégarnies. Le matin, neige finement croputée en dessous de 2000/2200 m. En journée, la neige récente se tasse au soleil, l'humidification superficielle se poursuit et gagne en altitude en adrets jusqu'à 2400 m environ.",
+      "text": "L'enneigement  reste déficitaire, particulièrement en altitude.\nDonnées observées : 37 cm à la nivôse du Parpaillon à 2550 m.\n\nLimite d'enneigement skiable vers 1500 m, mais la couche de neige récente s'est déposée sur un sol souvent nu sous 1800 m en ubacs et 2000/2200 m en adrets.\n\nÉtat de la neige de surface :  la couche de neige récente (entre 20 et 40 cm) a été densifiée ou cartonnée par le vent, voire fortement durcie dans les zones les plus exposées, mais reste froide, légère et poudreuse en secteurs bien abrités du vent, notamment en forêt. Les crêtes sont souvent dégarnies. Le matin, neige finement croutée sous 2000/2200 m ou en versants bien ensoleillés. Humidification superficielle en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 800,
-        "south": 800
+        "south": 1000
       },
       "levels_cm": [
         {
