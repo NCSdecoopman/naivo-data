@@ -3,8 +3,8 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-01-14T16:00:00",
-    "valid_until": "2026-01-15T18:00:00",
+    "issued_at": "2026-01-15T16:00:00",
+    "valid_until": "2026-01-16T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-16",
+        "date": "2026-01-17",
         "label": "Indice de risque limité",
-        "comment": "Très rares plaques à vent, manteau en cours de stabilisation.",
+        "comment": "Les instabilités sont limitées, de rares plaques sont encore présentes. Le manteau poursuit sa stabilisation.",
         "trend": "steady"
       }
     },
@@ -67,20 +67,16 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": null,
+      "secondary": 4,
       "labels": {
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-10",
-          "min_cm": 5,
-          "max_cm": 15
-        },
         {
           "date": "2026-01-11",
           "min_cm": 0,
@@ -105,6 +101,11 @@
           "date": "2026-01-15",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-16",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Quelques plaques à vent",
-      "text": "Quelques plaques à vent\n\nDéclenchements provoqués :\n* Formation de quelques plaques à vent au-dessus de 1800/2000m avec le vent de Sud-Ouest qui se renforce. Elles restent de tailles limitées 1 à 2 (petite à moyenne). \nObservables : irrégularités d'épaisseurs, fissures sous les skis, crêtes décapées\n\nDéparts spontanés :\n* Quelques escargots (boulettes) ou coulées dans les pentes raides et ensoleillées aux heures les plus chaudes, notamment dans les falaises et près des rochers, de petites tailles.\n* Rares avalanches de fond, dans les versants ensoleillés, dans les zones herbeuses ou les dalles rocheuses.",
+      "title": "Rares à quelques plaques à vent, coulées de neige humide",
+      "text": "Rares à quelques plaques à vent, coulées de neige humide\n\nDéclenchements provoqués :\n*Rares plaques à vent au-dessus de 1800/2000m sous le vent de Sud (et de Sud-Ouest ces derniers jours). Elles restent de tailles limitées 1 à 2 (petite à moyenne). \nObservables : irrégularités d'épaisseurs, fissures sous les skis, crêtes décapées\n\nDéparts spontanés :\n* Quelques escargots (boulettes) ou coulées dans les pentes raides et ensoleillées aux heures les plus chaudes, notamment dans les falaises et près des rochers, de petites tailles (1).\n* Rares avalanches de fond, dans les versants ensoleillés, dans les zones herbeuses ou les dalles rocheuses.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Pour la saison, l’enneigement reste correct, mais redevient faible à basse altitude.\nOn peut chausser les skis vers 1000/1200 m. Pas de sous-couche sous 1500 m, des cailloux sont cachés sous la neige. \n\nQualité de la neige ce jeudi : \n* Au-dessus de 2200 m, couche de neige fraiche (30/50 cm), travaillée par le vent sur les secteurs exposés.\n* Sous 2200 m, neige souvent humidifiée, mauvais regel.\nPrès des crêtes, neige dure soufflée.",
+      "text": "Enneigement : L'enneigement est de nouveau faible pour la saison. On peut chausser les skis vers 1000/1200 m. Pas de sous-couche sous 1500 m.\n\nQualité de la neige ce vendredi : \n* Regel plus ou moins bon (ciel partiellement voilé la nuit).\n* Dans les versants à l'ombre et loin des crêtes, neige encore poudreuse. \n* Dans les versants ensoleillés et raides, elle s'humidifie en surface, voire neige de printemps à basse altitude ou plein sud. Souvent croûtée selon les orientations. \n* Près des crêtes, neige dure soufflée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,7 +133,7 @@
         {
           "alt_m": 1000,
           "N": 5,
-          "S": 5
+          "S": 0
         },
         {
           "alt_m": 1500,
@@ -141,8 +142,8 @@
         },
         {
           "alt_m": 2000,
-          "N": 75,
-          "S": 55
+          "N": 70,
+          "S": 50
         }
       ],
       "icon_key": "snowpack",

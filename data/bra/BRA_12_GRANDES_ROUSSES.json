@@ -3,8 +3,8 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-01-14T16:00:00",
-    "valid_until": "2026-01-15T18:00:00",
+    "issued_at": "2026-01-15T16:00:00",
+    "valid_until": "2026-01-16T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-16",
+        "date": "2026-01-17",
         "label": "Indice de risque marqué",
-        "comment": "Vendredi, le vent de sud se maintient en altitude et forme de nouvelles instabilités, avec un risque restant marqué sur le massif.",
+        "comment": "Risque d'avalanche stationnaire samedi (vent de Sud-Est formant quelques nouvelles plaques ?). Quelques cm de fraîche possibles sur les sommets.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-10",
-          "min_cm": 5,
-          "max_cm": 10
-        },
-        {
           "date": "2026-01-11",
           "min_cm": 0,
           "max_cm": 1
@@ -118,28 +113,33 @@
           "date": "2026-01-15",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-16",
+          "min_cm": 0,
+          "max_cm": 2
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_max_cm": 2
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOUVELLES PLAQUES EN FORMATION SOUS LE VENT DE SUD, RISQUE AMPLIFIE PAR LA PRESENCE LOCALE DE COUCHES FRAGILES PERSISTANTES",
-      "text": "NOUVELLES PLAQUES EN FORMATION SOUS LE VENT DE SUD, RISQUE AMPLIFIE PAR LA PRESENCE LOCALE DE COUCHES FRAGILES PERSISTANTES\n\nDéclenchements provoqués : En large secteur Nord, de nouvelles plaques se forment au fil de la journée sous le vent de Sud / Sud-Ouest. Ces instabilités peuvent prendre la forme de plaque dures près des crêtes et de plaques friables plus bas dans les pentes.  Les instabilités sont sensibles au passage d'un seul skieur et sont plus marquées en secteurs poudreux. Le risque est parfois amplifié par la présence de grains anguleux enfouis sous les chutes de neige récentes, rendant possible des déclenchements à distance et des départs de grandes ampleurs. Ces couches fragiles se retrouvent principalement vers Emparis et sur les versants côté Maurienne, en milieu de pentes / dans les secteurs moins exposés au vent. \nObservables : Chasse neige en cours, accumulations de neige, neige dense en surface et plus légère en profondeur. \nEn versants ensoleillés, et sous 2100m environ, le manteau est généralement plus stable et les volumes mobilisables moins importants. \n\nDéclenchements spontanés : Dans les versants froids chargés par le vent, un rare départ de plaque de taille moyenne voire grande est possible. \nDans les versants ensoleillés, quelques coulées possibles sous les rochers. En pente raide/herbeuse de moyenne altitude enfin, un rare départ au terrain est possible à toute heure (de taille moyenne).",
+      "title": "DE NOUVELLES PLAQUES PARFOIS LOIN DES CRETES (SOUS LE VENT DE SUD) ;  POSSIBLE DECLENCHEMENT A DISTANCE (VERS EMPARIS NOTAMMENT)...",
+      "text": "DE NOUVELLES PLAQUES PARFOIS LOIN DES CRETES (SOUS LE VENT DE SUD) ;  POSSIBLE DECLENCHEMENT A DISTANCE (VERS EMPARIS NOTAMMENT)...\n\nLe vent de Sud va sans doute créer quelques nouvelles plaques instables vendredi, vigilance dans un large versant Nord...\nDéclenchements provoqués : En large secteur Nord, quelques nouvelles plaques se forment sous le vent de Sud depuis jeudi soir, parfois loin des crêtes et sommets. Risque localement majoré de plaque dures (en secteur plus exposé au vent) et de plaques poudreuses/friables en bas de pentes, difficiles à déceler mais bien \"réactives\". Rupture accidentelle parfois possible au passage d'une personne (sur 30/50 cm environ). Présence locale de sous-couches fragiles persistantes, surtout vers Emparis. Possible déclenchement à distance et large avalanche...Respecter de grandes distances, notamment au dessus de 2000m environ. \nIndices observables :  Chasse neige locale; transitions secteurs dégarnis/chargés. En bas de pente neige dense en surface et plus légère en profondeur,\" WOUMFS\" parfois... \nEn versants bien ensoleillés, et sous 1800/2000m environ, le manteau est a priori moins sensible au passage de skieurs et les volumes mobilisables moins importants. \n\nDéclenchements spontanés : Dans les versants froids chargés par le vent, des coulées poudreuses en couloirs raides, vers les rochers. Possible décrochement de plaque spontané (parfois grande ?).\nPlus bas en neige humide, rare coulée/petite avalanche, surtout le matin lors d'éclaircies. En pente herbeuse/fissurée, un rare départ au terrain (de glissement) est possible à toute heure ( de taille moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement s'est récemment bien amélioré, dans les combes et en moyenne montagne. Mais il reste déficitaire sous les sapins, en faces sud et l'abord des croupes/crêtes...Limites skiables à partir de  1000/1400m.\n\nQualité de la neige jeudi : Il ne reste plus beaucoup de poudreuse ou de rares combes froides bien abritées au dessus de 2000/2200m. Neige souvent soufflée en altitude avec des secteurs dégarnis, d'autres compactés/sculptés...\nEn face Sud et sous 2200m environ neige en partie transformée, crôutée par regel (le matin)... En moyenne montagne rapide humidification/tassement....",
+      "text": "Qualification de l’enneigement : L'enneigement s'est récemment amélioré, dans les combes d'altitude et en moyenne montagne. Mais il reste déficitaire en faces Sud et l'abord des croupes/crêtes (celles-ci sont à nouveau dégarnies)...Limites skiables à partir de  1000/1500m.\n\nQualité de la neige vendredi : Il ne reste plus beaucoup de poudreuse ou dans de rares combes froides bien abritées au dessus de 1800/2100m. Neige souvent soufflée en altitude avec des secteurs dégarnis, d'autres compactés/sculptés...\nEn face Sud neige en partie transformée, crôutée par regel... En moyenne montagne rapide humidification/tassement....",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1000,
-        "south": 1000
+        "south": 1100
       },
       "levels_cm": [
         {
@@ -150,7 +150,7 @@
         {
           "alt_m": 2000,
           "N": 110,
-          "S": 60
+          "S": 22
         },
         {
           "alt_m": 2500,

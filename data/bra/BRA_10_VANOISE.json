@@ -3,61 +3,49 @@
   "massif": "Vanoise",
   "bulletin": {
     "id": 10,
-    "issued_at": "2026-01-14T16:00:00",
-    "valid_until": "2026-01-15T18:00:00",
+    "issued_at": "2026-01-15T16:00:00",
+    "valid_until": "2026-01-16T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice marqué.",
+      "max_level": 3,
+      "comment": "Indice de risque marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2000,
-        "split_axis": "horizontal",
-        "split_label": "2000m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": null,
             "risk": 3,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2000",
-            "risk": 4,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2000m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "3",
             "risk": 3,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "4",
-            "risk": 4,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-16",
+        "date": "2026-01-17",
         "label": "Indice de risque marqué",
-        "comment": "Lente stabilisation, maintient à minima d'un risque marqué",
-        "trend": "down"
+        "comment": "Risque stationnaire : Le foehn se met en place pour quelques jours, le transport de neige se poursuit en altitude formant de nouvelles plaques,  lente stabilisation de celles en place. Fonte à basse altitude.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -90,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-10",
-          "min_cm": 10,
-          "max_cm": 20
-        },
-        {
           "date": "2026-01-11",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +101,11 @@
           "date": "2026-01-15",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-16",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,19 +115,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Structures de plaques très instables toujours présentes, déclenchement facile même à distance, grandes avalanches possibles.",
-      "text": "Structures de plaques très instables toujours présentes, déclenchement facile même à distance, grandes avalanches possibles.\n\nDéclenchements provoqués : De nombreuses structures instables restent en place, reposant sur une couche fragile de grains anguleux (gobelets ou faces planes). L'épaisse couche de neige tombée la semaine dernière se tasse et prend de la cohésion rendant la couche fragile sous-jacente plus facilement sollicitable même assez profondément. Des déclenchements à distance avec de grandes propagations sont toujours possibles engendrant des avalanches de taille 2 à 3, voire 4 dans certaines configurations (cassures dépassant fréquemment 1m d'épaisseur). En se rapprochant des crêtes et sommets , le vent a souvent \"bétonné\" cette neige ; le déclenchement est plus difficile (plaque dure et épaisse alternant avec des zones pelées). Dans les pentes bien ensoleillées (Sud-Est à Sud-Ouest raide), ainsi qu'à basse altitude (<1800/2000m), la présence d'une croûte en surface limite l'initiation de ces structures. Ailleurs, dans les pentes dépassant les 30 à 35° environ, le risque de déclenchement provoqué reste maximal. De nombreux accidents survenus ces dernières heures le confirme.   \nObservables :  Fissures devant les skis, \"Woumfs\" (effondrement de la couche fragile). La présence de traces se skis antérieures n'est pas forcément un signe de stabilité (prise de cohésion du manteau neigeux).\n\nDéparts spontanés : - rares départs ponctuels essentiellement dans les faces raides ensoleillées donc plutôt en Est le matin, puis Sud et enfin Ouest l'après-midi. Taille 1 à 2 (moyenne).    \n - quelques plaques de fond sur pentes très raide lisse/herbeuse, surtout l'après-midi en dessous de 1800m environ.\n\nAutres :  Quelques nouvelles plaques ont pu se former en altitude avec le vent de Sud-Ouest, facilement déclenchables mais généralement peu épaisses.",
+      "title": "Le risque accidentel reste fort dans les pentes raides en versant froid,  au soleil les pentes se sont assez bien stabilisées.",
+      "text": "Le risque accidentel reste fort dans les pentes raides en versant froid,  au soleil les pentes se sont assez bien stabilisées. \n\nDéclenchements provoqués : \nEn versant Nord-ouest à Est, le risque reste fort avec de nombreuses structures instables  dans la neige récente encore poudreuse en surface. Ces plaques reposent sur des couches fragiles de grains sans cohésion qui n'évoluent pas ou peu (gobelets ou faces planes). Des déclenchements parfois à distance avec de larges propagation sont toujours possibles engendrant des avalanches de taille 2 à 3.   En se rapprochant des crêtes et sommets , le vent a et va de nouveau beaucoup travaillé cette neige, formant de nouvelles plaques, la sollicitation de la couche fragile est alors moins facile mais cela peut partir encore plus gros:  plaque plus dure et épaisse, cassure jusqu'à 2m parfois observé ces derniers jours. \nDans les pentes Ouest couche fragile persistante présente de façon plus ponctuelle ce qui limite la largeur des plaques déclenchables Taille 1 à 2 , plus  rarement 3 en terrain défavorable  . \nObservables : Fissures devant les skis, \"Woumfs\" .Transport de vent en cours. La présence de traces se skis antérieures n'est pas un signe de stabilité (la plaque a pu prendre de la cohésion depuis les derniers passages). A l'inverse, la présence d'une croute de regel assez épaisse en versant ensoleillé ou zone ventée/décapée est un bon signe de stabilité locale.   .\n\nDéparts spontanés :  rares départs ponctuels dans les pentes très raides, souvent sous les barres ou rochers essentiellement dans les faces ensoleillées donc plutôt en Est le matin, puis Sud . Taille 1 à 2 (moyenne).    \n - rares plaques de fond sur pentes lisse/herbeuse, plutôt sous 2000m environ.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Désormais proche de la normale voire excédentaire à basse altitude.\n\nLimite skiable :  skiable même à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1300 m en N, 1800 m en S.\n\nQualité de la neige : Dés la basse altitude, neige encore poudreuse dans les pentes ne prenant pas ou peu le soleil, en cours de densification mais toujours bien agréable à skier (poudreuse moins profonde et un peu plus portante). Le vent des derniers jours a créé des hétérogénéités surtout en altitude : crêtes rabotées cartonnées, grosses accumulations en zones de dépôt.\n En versants Sud jusqu'à 2000m environ voire plus haut dans les pentes raides : La neige s'est humidifiée en journée avec une croûte parfois portante jusqu'à 1500m puis cassante en dessous de 2200/2400 m. Elle se ramollit en journée.",
+      "text": "Enneigement : A la faveur des fortes chutes de fin de semaine dernière, l'enneigement est désormais proche de la normale voire même excédentaire à basse altitude.\nLimite skiable :  skiable même à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1300 m en N, 1800 m en S.\nQualité de la neige vendredi  : A l'abri du vent,  neige encore poudreuse dans les pentes ne prenant pas ou peu le soleil dès les altitude les plus basses, en cours de densification mais toujours bien agréable à skier (poudreuse moins profonde et un peu plus portante ).  Le vent a et va créé des hétérogénéités surtout en altitude : crêtes rabotées cartonnées, grosses accumulations dans les combes en zones de dépôt. En versants Sud sous 2200m ainsi qu'à basse altitude en Nord (<1200m) : La neige est maintenant croutée plus ou moins portante le matin puis elle s'humidifie en journée chaque jour un peu plus.  Ca peut encore botter par endroit l'après midi là ou le réchauffement gagne des zones encore en poudre froide.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 600,
-        "south": 700
+        "south": 800
       },
       "levels_cm": [
         {
