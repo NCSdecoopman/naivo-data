@@ -383,7 +383,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/correncon_rambins.jpg",
         "url_page": "https://m.webcam-hd.com/correncon-en-vercors/rambins",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -3077,8 +3077,8 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 14308,
-        "hauteur": 3230
+        "largeur": 15200,
+        "hauteur": 3956
       }
     },
     {
@@ -4218,7 +4218,7 @@
         "altitude": 3812,
         "url_image": "https://caf.requea.com/cameras/gouter/cam5/cam5-{yyyy}{mm}{dd}{hh}{ii}.jpg",
         "url_page": "https://refugedugouter.ffcam.fr/FR_en-images.html",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V",
         "periodicite": 10,
         "decalage_periodicite": 4,
@@ -4274,7 +4274,7 @@
         "altitude": 3812,
         "url_image": "https://caf.requea.com/cameras/gouter/cam2/cam2-{yyyy}{mm}{dd}{hh}{ii}.jpg",
         "url_page": "https://refugedugouter.ffcam.fr/FR_en-images.html",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V",
         "periodicite": 10,
         "decalage_periodicite": 0,
@@ -4779,14 +4779,14 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_chatel_village.jpg",
         "url_page": "https://www.chatel.com/webcams.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
         "largeur": 2590,
-        "hauteur": 1925
+        "hauteur": 1728
       }
     },
     {
@@ -4975,14 +4975,14 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_aillons-margeriaz_sommet-margeriaz.jpg",
         "url_page": "https://www.lesaillons.com/webcams.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 8586,
-        "hauteur": 2590
+        "largeur": 9260,
+        "hauteur": 1829
       }
     },
     {
@@ -5395,7 +5395,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/praz_lys_sommand_haut-fleury.jpg",
         "url_page": "https://app.webcam-hd.com/praz_lys_sommand/haut_fleury",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -6095,7 +6095,7 @@
         "url_image": "http://jean-max.fr//webcams/EEECam.jpg",
         "url_page": "https://www.acrv.org/webcams/",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -6390,34 +6390,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.060172,
-          45.328958
-        ]
-      },
-      "properties": {
-        "id": 2857,
-        "name": "Crêt du Poulet",
-        "lat": 45.328958,
-        "lon": 6.060172,
-        "altitude": 1698,
-        "url_image": "https://cretdupoulet.epok.network/camera/cret_du_poulet.jpg",
-        "url_page": "https://www.barioz.fr/#webcam",
-        "statut_enligne": "H",
-        "statut_variable": "V",
-        "periodicite": null,
-        "decalage_periodicite": 0,
-        "decalage_horloge": 0,
-        "fuseau_horaire": null,
-        "code_locale": null,
-        "largeur": 2560,
-        "hauteur": 1440
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           6.48655179,
           44.84361388
         ]
@@ -6431,7 +6403,7 @@
         "url_image": "http://www.fertito.net/webcam/capt.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -6823,14 +6795,14 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly_cret-du-midi.jpg",
         "url_page": "https://m.webcam-hd.com/val-d-arly/cret-du-midi",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 6368,
-        "hauteur": 1708
+        "largeur": 9484,
+        "hauteur": 1851
       }
     },
     {
@@ -6851,14 +6823,14 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_val-d-arly_depart-des-pistes.jpg",
         "url_page": "https://m.webcam-hd.com/val-d-arly/depart-des-pistes",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 4468,
-        "hauteur": 1027
+        "largeur": 7286,
+        "hauteur": 1532
       }
     },
     {
@@ -6991,7 +6963,7 @@
         "url_image": "https://www.chooksprod.com/parapente-annecy-marlens-webcam.jpg",
         "url_page": "https://aerodream-parapente.com/webcam-decollage-parapente-marlens-annecy/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -7103,13 +7075,13 @@
         "url_image": "https://api.skaping.com/clSP-P998-MHFx-kAQx-lT9A/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/serrechevalier/monetier",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 270,
+        "largeur": 961,
         "hauteur": 180
       }
     },
@@ -7579,7 +7551,7 @@
         "url_image": "https://api.skaping.com/cN1wy-Aomoy-DMlQh-Fj6LG/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/Valmeinier/sandoniere",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -7607,7 +7579,7 @@
         "url_image": "https://api.skaping.com/qS4eL-edIS6-ZtamD-fAJCL/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/valdisere/solaise",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -7635,7 +7607,7 @@
         "url_image": "https://api.skaping.com/I1rwn-sAA3s-Qcsnp-IwOmx/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/valthorens/boismint",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -7915,7 +7887,7 @@
         "url_image": "https://api.skaping.com/8cN23-FUOZb-ULvYb-2Bmrt/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/valloire/crey-du-quart",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -8854,6 +8826,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          5.87836,
+          45.125001
+        ]
+      },
+      "properties": {
+        "id": 3668,
+        "name": "Le Recoin de Chamrousse",
+        "lat": 45.125001,
+        "lon": 5.87836,
+        "altitude": 1651,
+        "url_image": "https://api.skaping.com/1RAVi-jglaM-pw6gP-4fEQp/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/chamrousse/recoin/video",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.79181813,
           44.64994898
         ]
@@ -9377,7 +9377,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 1043,
+        "largeur": 1016,
         "hauteur": 180
       }
     },
@@ -9511,7 +9511,7 @@
         "url_image": "https://api.skaping.com/BNh8i-EJ0gB-AFtl7-cARSB/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/chamonix/aiguille-du-midi",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -9875,7 +9875,7 @@
         "url_image": "https://api.skaping.com/EOLUj-56xZ3-GeMiE-T7BsW/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/grenoble/col-de-porte",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -10127,7 +10127,7 @@
         "url_image": "https://api.skaping.com/OtsEt-AoHKs-fQLwp-5Ef4y/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/lac-serre-poncon/plage-embrun",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -10575,7 +10575,7 @@
         "url_image": "https://api.skaping.com/NDjZ1-GJ4ZO-DqtuE-KcJvM/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/lac-d-aiguebelette/st-alban",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11555,7 +11555,7 @@
         "url_image": "https://api.skaping.com/Dtzos-7SYGO-tN6io-OiftA/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/montriond/village-des-lindarets",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11751,7 +11751,7 @@
         "url_image": "https://api.skaping.com/mDABy-dwlHp-l22uH-5f2up/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/pra-loup/molanes",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -12535,7 +12535,7 @@
         "url_image": "https://api.skaping.com/SdG4s-4vkBV-Ti6rE-nOFaz/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/vars/chabrieres",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13879,7 +13879,7 @@
         "url_image": "https://api.skaping.com/1YrUi-UkOvn-wyjkH-LfE6q/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/lac-serre-poncon/crevoux/station",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13915,6 +13915,34 @@
         "code_locale": null,
         "largeur": 973,
         "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.06009329,
+          45.32893088
+        ]
+      },
+      "properties": {
+        "id": 4512,
+        "name": "Crêt du Poulet",
+        "lat": 45.32893088,
+        "lon": 6.06009329,
+        "altitude": 1698,
+        "url_image": "https://cretdupoulet.epok.network/cret_du_poulet.jpg",
+        "url_page": "https://cretdupoulet.epok.network/",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 7680,
+        "hauteur": 2160
       }
     }
   ]
