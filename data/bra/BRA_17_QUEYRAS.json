@@ -3,14 +3,14 @@
   "massif": "Queyras",
   "bulletin": {
     "id": 17,
-    "issued_at": "2026-01-15T16:00:00",
-    "valid_until": "2026-01-16T18:00:00",
+    "issued_at": "2026-01-16T16:00:00",
+    "valid_until": "2026-01-17T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "max_level": 4,
+      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice marqué.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2000,
@@ -20,14 +20,14 @@
           {
             "id": "zone1",
             "loc": "<2000",
-            "risk": 2,
+            "risk": 3,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
             "loc": ">2000",
-            "risk": 3,
+            "risk": 4,
             "evolution_to": null,
             "position": "top"
           }
@@ -41,22 +41,22 @@
         },
         "zones": {
           "bottom": {
-            "text": "2",
-            "risk": 2,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           },
           "top": {
-            "text": "3",
-            "risk": 3,
+            "text": "4",
+            "risk": 4,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-01-17",
-        "label": "Indice de risque marqué",
-        "comment": "Risque en hausse, restant marqué, avec la formation de nouvelles plaques en surfaces, associées aux chutes de neige ventée.",
+        "max_level": 4,
+        "date": "2026-01-18",
+        "label": "Indice de risque fort",
+        "comment": "Maintien d'un risque fort en altitude, avec la stabilisation lente des plaques en place, entretenues par le vent fort d'est.",
         "trend": "steady"
       }
     },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 3,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 3,
       "labels": {
-        "3": "Couche fragile persistante",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-3"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-11",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-12",
           "min_cm": 0,
@@ -117,23 +112,28 @@
         {
           "date": "2026-01-16",
           "min_cm": 3,
-          "max_cm": 7
+          "max_cm": 10
+        },
+        {
+          "date": "2026-01-17",
+          "min_cm": 3,
+          "max_cm": 10
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 7
+        "last_48h_min_cm": 6,
+        "last_48h_max_cm": 20
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RISQUE MARQUÉ DÉCLENCHEMENT SKIEUR. PLAQUES LOCALEMENT ÉPAISSES, ENCORE FACILES À DÉCLENCHER, MÊME À DISTANCE",
-      "text": "RISQUE MARQUÉ DÉCLENCHEMENT SKIEUR. PLAQUES LOCALEMENT ÉPAISSES, ENCORE FACILES À DÉCLENCHER, MÊME À DISTANCE\n\nDéclenchements provoqués : nombreuses instabilités encore faciles à déclencher par un skieur, principalement au-dessus de 2000/2200 m en versant ouest, nord et est où l'épaisse couche de neige récente s'est déposée sur de la neige sans cohésion, faisant office de couche fragile persistante. Plaques friables difficiles à identifier dans les secteurs peu ventés, pouvant être déclenchées à distance, et générant des avalanches de taille moyenne, voire grande les zones de forte accumulations par le vent, ou en cas de topographie favorable. \nDe nouvelles plaques sensibles se forment vers les crêtes et sommets de haute altitude sous l'effet de transport de neige par le vent de sud à sud-est.\n\nDéparts spontanés : rares départs en plaque proche des crêtes en orientations ombragées, par surcharge due au transport de la neige par le vent sud à sud-est. Taille moyenne, voire grande.",
+      "title": "RISQUE FORT DÉCLENCHEMENT SKIEURS. NOMBREUSES PLAQUES SENSIBLES, PARFOIS ÉPAISSES EN UBACS D'ALTITUDE.",
+      "text": "RISQUE FORT DÉCLENCHEMENT SKIEURS. NOMBREUSES PLAQUES SENSIBLES, PARFOIS ÉPAISSES EN UBACS D'ALTITUDE.\n\nDéclenchements provoqués : nombreuses instabilités en formations avec les chutes de neige ventée au-dessus de 1800/2000 m, possibles en toutes orientations, mais plus épaisses et sensibles en versant ouest, nord et est ou elles s'ajoutent à des plaques encore peu stabilisées, reposant sur des sous-couches fragiles persistantes. Plaques friables généralement difficiles à identifier, facile à déclencher par un skieur isolé, parfois à distance, et générant des avalanches de taille petite à moyenne, parfois grande dans un large versant nord où elles peuvent emporter la totalité du manteau neigeux avec des cassures larges et épaisses. \nÀ plus basse altitude, le manteau neigeux est humidifié/crouté, réduisant le nombre plaques faciles à déclencher. \n\nDéparts spontanés : quelques départs avec les chutes de neige fraiche ventée principalement à proximité des crêtes, taille petite à moyenne, voir grande dans un large versant nord au-dessus de 1800/2000 m en cas de sollicitation de couche fragile enfouies, générant des cassures linéaires parfois épaisses.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement proche des normales en vallées mais il reste déficitaire, particulièrement en altitude.\nDonnées observées : 74 cm au-dessus de St Véran à 2700 m, 82 cm dans le versant nord du col Izoard à 2280 m. En vallées, entre 20 et 40 cm.\n\nLimite d'enneigement skiable vers 1400/1600, un peu plus haut en adrets sur l'est du massif, devenant plus confortable au-dessus de 1800/2200 m selon les orientations.\n\nÉtat de la neige de surface : la couche de neige récente a été densifiée ou cartonnée par le vent, voire fortement durcie dans les zones les plus exposées, mais reste froide et légère en secteurs bien abrités du vent au-dessus de 2000/2200 m, notamment en forêt. Neige croutée à plus basse altitude ainsi qu'en versants ensoleillés. Crêtes souvent dégarnies.",
+      "text": "L'enneigement proche des normales en vallées mais il reste déficitaire, particulièrement en altitude.\nDonnées observées : 74 cm au-dessus de St Véran à 2700 m, 82 cm dans le versant nord du col Izoard à 2280 m. En vallées, entre 20 et 40 cm.\n\nLimite d'enneigement skiable en vallées avec précaution, devenant plus confortable au-dessus de 1800/2200 m selon les orientations.\n\nÉtat de la neige de surface :  au-dessus de 1800/2000 m, on retrouve une petite couche de neige fraîche légère en surface, travaillée par le vent proche des crêtes, et reposant sur de la neige meuble dans un large secteur nord abrité du vent. À plus basse altitude, neige collante à mouillée en toutes orientations.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 45,
+          "N": 40,
           "S": 25
         },
         {
           "alt_m": 2500,
-          "N": 85,
-          "S": 55
+          "N": 80,
+          "S": 50
         }
       ],
       "icon_key": "snowpack",
