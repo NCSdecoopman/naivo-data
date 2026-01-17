@@ -3,14 +3,14 @@
   "massif": "Embrunais Parpaillon",
   "bulletin": {
     "id": 20,
-    "issued_at": "2026-01-16T16:00:00",
-    "valid_until": "2026-01-17T18:00:00",
+    "issued_at": "2026-01-17T16:00:00",
+    "valid_until": "2026-01-18T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice marqué.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2000,
@@ -20,14 +20,14 @@
           {
             "id": "zone1",
             "loc": "<2000",
-            "risk": 3,
+            "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
             "loc": ">2000",
-            "risk": 4,
+            "risk": 3,
             "evolution_to": null,
             "position": "top"
           }
@@ -41,22 +41,22 @@
         },
         "zones": {
           "bottom": {
-            "text": "3",
-            "risk": 3,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           },
           "top": {
-            "text": "4",
-            "risk": 4,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-01-18",
-        "label": "Indice de risque fort",
-        "comment": "Maintien d'un risque fort en altitude, avec la stabilisation lente des plaques en place, entretenues par le vent fort d'est.",
+        "max_level": 3,
+        "date": "2026-01-19",
+        "label": "Indice de risque marqué",
+        "comment": "Risque marqué, avec encore des plaques faciles à déclencher dans les accumulations de neige transportée par le vent.\nLes couches fragiles persistantes enfouies maintiennent un risque de déclenchement de plaque volumineuse en ubac.",
         "trend": "steady"
       }
     },
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -89,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-12",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-13",
           "min_cm": 0,
@@ -118,28 +113,33 @@
           "date": "2026-01-17",
           "min_cm": 5,
           "max_cm": 10
+        },
+        {
+          "date": "2026-01-18",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 10,
-        "last_48h_max_cm": 20
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 10
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RISQUE FORT DÉCLENCHEMENT SKIEURS. NOMBREUSES PLAQUES SENSIBLES, PARFOIS ÉPAISSES EN UBACS D'ALTITUDE.",
-      "text": "RISQUE FORT DÉCLENCHEMENT SKIEURS. NOMBREUSES PLAQUES SENSIBLES, PARFOIS ÉPAISSES EN UBACS D'ALTITUDE.\n\nDéclenchements provoqués : nombreuses instabilités en formations avec les chutes de neige ventée au-dessus de 1800/2000 m, possibles en toutes orientations, mais plus épaisses et sensibles en versant ouest, nord et est ou elles s'ajoutent à des plaques encore peu stabilisées, reposant sur des sous-couches fragiles persistantes. Plaques friables généralement difficiles à identifier, facile à déclencher par un skieur isolé, parfois à distance, et générant des avalanches de taille petite à moyenne, parfois grande dans un large versant nord où elles peuvent emporter la totalité du manteau neigeux avec des cassures larges et épaisses. \nÀ plus basse altitude, le manteau neigeux est humidifié/crouté, réduisant le nombre plaques faciles à déclencher. \n\nDéparts spontanés : quelques départs avec les chutes de neige fraiche ventée principalement à proximité des crêtes, taille petite à moyenne, voir grande dans un large versant nord au-dessus de 1800/2000 m en cas de sollicitation de couche fragile enfouies, générant des cassures linéaires parfois épaisses.",
+      "title": "INSTABILITÉ DU MANTEAU NEIGEUX ENTRETENUE PAR LE TRANSPORT DE NEIGE PAR LE VENT",
+      "text": "INSTABILITÉ DU MANTEAU NEIGEUX ENTRETENUE PAR LE TRANSPORT DE NEIGE PAR LE VENT\n\nDéclenchements provoqués : - à partir de 2000/2200 m, plaques faciles à déclencher dans les accumulations de neige récente ventée, avec le renforcement du vent d'est à sud-est dans la nuit de samedi à dimanche. Ces plaques sont situées en contrebas des crêtes, des cols ou des ruptures de pente et peuvent céder au passage d'un skieur. Avalanches petites à moyennes (taille 1 à 2). Observables : zones d'accumulation, changement de texture de la neige sous les skis.\n- Dans les ubacs (pentes ouest, nord à est), quelques cassures plus épaisses sont envisagées, en cas de sollicitation d'une couche fragile persistante enfouie, emportant alors la totalité du manteau neigeux. Déclenchement directement sous le skieur ou à distance, même en milieu de pente, ou suite au départ d'une première plaque de surface. Avalanches moyennes, voire grandes (taille 2 à 3). Observables : woumfs, manteau neigeux peu résistant en profondeur.\n\nDéparts spontanés : - quelques plaques cédant spontanément avec le fort transport par le vent. \n- Des départs superficiels de neige fraîche en poire dans les pentes raides ou couloirs, avec les petites éclaircies attendues dimanche.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement  reste déficitaire, particulièrement en altitude.\nDonnées observées : 36 cm à la nivôse du Parpaillon à 2550 m, secteur fortement venté. \n\nLimite d'enneigement skiable à partir de 1500 m avec précaution, devenant plus confortable au-dessus de 1700/1800 m.\n\nÉtat de la neige de surface : au-dessus de 1800/2000 m, on retrouve une petite couche de neige fraîche légère en surface, travaillée par le vent proche des crêtes, et reposant sur de la neige meuble dans un large secteur nord abrité du vent. À plus basse altitude, neige collante à mouillée en toutes orientations.",
+      "text": "L'enneigement  reste déficitaire pour une mi-janvier sur l'ensemble du massif\nDonnées observées : 44 cm à la Nivôse du Parpaillon à 2550 m, secteur fortement venté.\n\nLimite d'enneigement skiable à partir de 1500/1600 m en ubacs avec précaution. Enneigement devenant un peu plus confortable au-dessus de 1800/2000 m, mais les rochers restent peu enfouis.\n\nÉtat de la neige de surface : neige récente humide ou légèrement croûtée sous 2000/2100 m environ, plus froide au-delà de 2200 m, mais souvent bien travaillée par le vent d'est à sud-est qui souffle fort en altitude.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 800,
-        "south": 1000
+        "north": 1000,
+        "south": 1300
       },
       "levels_cm": [
         {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 45,
-          "S": 25
+          "N": 55,
+          "S": 35
         },
         {
           "alt_m": 2500,
-          "N": 70,
-          "S": 40
+          "N": 80,
+          "S": 50
         }
       ],
       "icon_key": "snowpack",

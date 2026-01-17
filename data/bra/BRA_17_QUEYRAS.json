@@ -3,49 +3,44 @@
   "massif": "Queyras",
   "bulletin": {
     "id": 17,
-    "issued_at": "2026-01-16T16:00:00",
-    "valid_until": "2026-01-17T18:00:00",
+    "issued_at": "2026-01-17T16:00:00",
+    "valid_until": "2026-01-18T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 4,
-      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice marqué.",
+      "comment": "Indice de risque marqué à l'ouest du massif, fort à l'est.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2000,
-        "split_axis": "horizontal",
-        "split_label": "2000m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
-            "risk": 3,
+            "loc": "E",
+            "risk": 4,
             "evolution_to": null,
-            "position": "bottom"
+            "position": null
           },
           {
             "id": "zone2",
-            "loc": ">2000",
-            "risk": 4,
+            "loc": "W",
+            "risk": 3,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2000m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "3",
-            "risk": 3,
-            "evolution_to": null
-          },
-          "top": {
+          "center": {
             "text": "4",
             "risk": 4,
             "evolution_to": null
@@ -54,9 +49,9 @@
       },
       "j2": {
         "max_level": 4,
-        "date": "2026-01-18",
+        "date": "2026-01-19",
         "label": "Indice de risque fort",
-        "comment": "Maintien d'un risque fort en altitude, avec la stabilisation lente des plaques en place, entretenues par le vent fort d'est.",
+        "comment": "Risque fort sur l'est du massif, marqué à l'ouest, avec encore des plaques faciles à déclencher dans la neige fraîche, ou dans les accumulations de neige transportée par le vent.\nLes couches fragiles persistantes enfouies maintiennent un risque de déclencher une plaque volumineuse en ubac.",
         "trend": "steady"
       }
     },
@@ -65,9 +60,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -78,22 +73,17 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 1,
       "secondary": 3,
       "labels": {
-        "2": "Neige ventée",
+        "1": "Neige fraîche",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-12",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-13",
           "min_cm": 0,
@@ -111,35 +101,40 @@
         },
         {
           "date": "2026-01-16",
-          "min_cm": 3,
+          "min_cm": 5,
           "max_cm": 10
         },
         {
           "date": "2026-01-17",
-          "min_cm": 3,
-          "max_cm": 10
+          "min_cm": 5,
+          "max_cm": 15
+        },
+        {
+          "date": "2026-01-18",
+          "min_cm": 2,
+          "max_cm": 15
         }
       ],
       "totals": {
-        "last_48h_min_cm": 6,
-        "last_48h_max_cm": 20
+        "last_48h_min_cm": 7,
+        "last_48h_max_cm": 30
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RISQUE FORT DÉCLENCHEMENT SKIEURS. NOMBREUSES PLAQUES SENSIBLES, PARFOIS ÉPAISSES EN UBACS D'ALTITUDE.",
-      "text": "RISQUE FORT DÉCLENCHEMENT SKIEURS. NOMBREUSES PLAQUES SENSIBLES, PARFOIS ÉPAISSES EN UBACS D'ALTITUDE.\n\nDéclenchements provoqués : nombreuses instabilités en formations avec les chutes de neige ventée au-dessus de 1800/2000 m, possibles en toutes orientations, mais plus épaisses et sensibles en versant ouest, nord et est ou elles s'ajoutent à des plaques encore peu stabilisées, reposant sur des sous-couches fragiles persistantes. Plaques friables généralement difficiles à identifier, facile à déclencher par un skieur isolé, parfois à distance, et générant des avalanches de taille petite à moyenne, parfois grande dans un large versant nord où elles peuvent emporter la totalité du manteau neigeux avec des cassures larges et épaisses. \nÀ plus basse altitude, le manteau neigeux est humidifié/crouté, réduisant le nombre plaques faciles à déclencher. \n\nDéparts spontanés : quelques départs avec les chutes de neige fraiche ventée principalement à proximité des crêtes, taille petite à moyenne, voir grande dans un large versant nord au-dessus de 1800/2000 m en cas de sollicitation de couche fragile enfouies, générant des cassures linéaires parfois épaisses.",
+      "title": "INSTABILITÉ DU MANTEAU NEIGEUX ENTRETENUE PAR LE FORT VENT D'EST ET LES CHUTES DE NEIGE PRÈS DE L'ITALIE",
+      "text": "INSTABILITÉ DU MANTEAU NEIGEUX ENTRETENUE PAR LE FORT VENT D'EST ET LES CHUTES DE NEIGE PRÈS DE L'ITALIE \n\nDéclenchements provoqués : - à l'est de Saint-Véran, les plaques sont de plus en plus nombreuses au fil de la journée, suite aux chutes de neige qui débordent depuis l'Italie. Déclenchement facile au passage d'un seul skieur. Ces plaques sont plutôt difficiles à détecter dans la neige fraîche et génèrent des avalanches moyennes (taille 2). Dans les ubacs (pentes ouest, nord à est), ces plaques peuvent mobiliser des volumes de neige plus conséquents en emportant une grande partie du manteau neigeux en place, car elles reposent souvent sur un manteau très peu consolidé constitué d'une importante couche fragile enfouie. Déclenchement à distance possible. Avalanches moyennes à grandes (taille 2 à 3), en particulier le long de la frontière. Observables : woumfs, fissures sous les skis, manteau neigeux peu résistant en profondeur.\n\n- sur l'ouest du massif, à partir de 2000 m environ, quelques plaques faciles à déclencher dans les accumulations de neige récente ventée, derrière les ruptures de pente, avec le renforcement du vent d'est à sud-est dans la nuit de samedi à dimanche. Avalanches petites à moyennes (taille 1 à 2). Observables : zones d'accumulation, changement de texture de la neige sous les skis. \nUn départ plus volumineux est aussi possible dans un ubac d'altitude, en cas de sollicitation d'une couche fragile persistante enfouie (avalanche taille 2 à 3).\n\nDéparts spontanés : avalanches de neige fraîche en poire ou sous forme de plaques, suite aux chutes de neige près de l'Italie ou au transport par le vent partout ailleurs.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement proche des normales en vallées mais il reste déficitaire, particulièrement en altitude.\nDonnées observées : 74 cm au-dessus de St Véran à 2700 m, 82 cm dans le versant nord du col Izoard à 2280 m. En vallées, entre 20 et 40 cm.\n\nLimite d'enneigement skiable en vallées avec précaution, devenant plus confortable au-dessus de 1800/2200 m selon les orientations.\n\nÉtat de la neige de surface :  au-dessus de 1800/2000 m, on retrouve une petite couche de neige fraîche légère en surface, travaillée par le vent proche des crêtes, et reposant sur de la neige meuble dans un large secteur nord abrité du vent. À plus basse altitude, neige collante à mouillée en toutes orientations.",
+      "text": "L'enneigement reste déficitaire pour une mi-janvier, plus proche des normales à l'est de Ristolas.\nDonnées observées : 35 cm à la Nivôse du col Agnel à 2600 m d'altitude (secteur venté), 40 cm à l'Echalp à 1670 m.\n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs avec précaution, mais il faut monter au-dessus de 1800/2200 m selon les orientations et les secteurs pour avoir un enneigement un peu plus confortable.\n\nÉtat de la neige de surface : neige récente humide ou légèrement croûtée sous 1700/1800 m environ, plus froide au-delà de 2000 m, avec encore de la neige assez légère en secteurs abrités ou cartonnée/durcie dans les zones exposées au vent. Près de l'Italie, la couche de neige fraîche augmente tout au long de la journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 900,
-        "south": 1000
+        "north": 1000,
+        "south": 1100
       },
       "levels_cm": [
         {
@@ -149,13 +144,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 40,
-          "S": 25
+          "N": 50,
+          "S": 35
         },
         {
           "alt_m": 2500,
-          "N": 80,
-          "S": 50
+          "N": 90,
+          "S": 60
         }
       ],
       "icon_key": "snowpack",

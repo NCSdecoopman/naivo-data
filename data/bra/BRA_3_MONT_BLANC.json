@@ -3,49 +3,37 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-01-16T16:00:00",
-    "valid_until": "2026-01-17T18:00:00",
+    "issued_at": "2026-01-17T16:00:00",
+    "valid_until": "2026-01-18T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "comment": "Indice de risque marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2000,
-        "split_axis": "horizontal",
-        "split_label": "2000m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2000",
+            "loc": null,
             "risk": 3,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2000m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
+          "center": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -54,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-18",
+        "date": "2026-01-19",
         "label": "Indice de risque marqué",
-        "comment": "Risque stationnaire. Le foehn faiblit en journée de dimanche.",
+        "comment": "Les couches fragiles persistantes et les plaques à vent sont toujours déclenchables. Le manteau neigeux continue son tassement avec le réchauffement. La journée est ensoleillée et le vent est plus calme.",
         "trend": "steady"
       }
     },
@@ -90,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-12",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-13",
           "min_cm": 0,
           "max_cm": 0
@@ -112,28 +95,33 @@
         {
           "date": "2026-01-16",
           "min_cm": 0,
-          "max_cm": 0
+          "max_cm": 4
         },
         {
           "date": "2026-01-17",
+          "min_cm": 0,
+          "max_cm": 4
+        },
+        {
+          "date": "2026-01-18",
           "min_cm": 0,
           "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_max_cm": 4
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Instabilité marquée en ubacs.",
-      "text": "Instabilité marquée en ubacs.\n\nDéclenchements provoqués :\n* Dans les secteurs Nord/Est/Ouest, on retrouve la présence d'une sous-couche fragile persistante au-dessus de 1800/2200 m, et dans d'assez nombreuses pentes au-dessus de 2000 m. Dans ces endroits, les plaques sont de grosses épaisseurs (possibilité de départ en cascade), de taille 2 à 3 (moyenne à grande). Ces plaques se trouvent parfois dans les pentes déjà skiées. Elles sont déclenchables à distances.\n* Formation de plaques à vent au-dessus de 2600/2800 m dû au Foehn. Elles restent de tailles limitées 1 à 2 (petite à moyenne). \nObservables : transport de neige, irrégularités d'épaisseurs, fissures sous les skis.\n\nDéparts spontanés :\n* En dessous de 2200/2400 m : rares avalanches de fond, dans les zones herbeuses ou les dalles rocheuses. Taille 1 à 2 (petite à moyenne).\n* Au-dessus 2800/3000 m : rares départs de plaques à vent souvent en ubacs. Taille 1 à 2 (petite à moyenne)",
+      "title": "Présence d'instabilités enfouies dans le manteau neigeux dans les versants à l'ombre.",
+      "text": "Présence d'instabilités enfouies dans le manteau neigeux dans les versants à l'ombre. \n\nDéclenchements provoqués :\n* Au-dessus de 1800/2000 m : Présence d'une couche fragile persistante dans de nombreuses pentes en orientations Nord/Est/Ouest. Elles sont déclenchables par un·e skieur·euse et peuvent être déclenchées à distance. Plaques épaisses (50 cm à 1m dans les zones d'accumulation) et risque de départs en cascade. Ces plaques sont parfois aussi sollicitables dans des pentes déjà skiées. Taille 2 (moyenne) à 3 (grande). \n* Au-dessus de 2400/2800 m : plaques à vent. Elles se forment et se sont formées sous le Foehn assez fort dans la neige restée poudreuse. Taille 2 (moyenne). \nObservables : transport de neige par le vent, zones d'accumulations, fissures devant les skis. \n\nDéparts spontanés :\n* En haute-montagne : rares départs de plaques à vent par accumulation de la neige par le Foehn fort. Taille 2 (moyenne).\n* En dessous de 2400 m : rares avalanches de fond, dans les zones herbeuses ou les dalles rocheuses. Départs possibles à toute heure du jour et de la nuit. Taille 1 à 2 (petite à moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\n Pour la saison, l’enneigement reste correct, mais redevient faible à basse altitude.\nOn peut chausser les skis vers 1000/1200 m. Pas de sous-couche sous 1500 m, des cailloux sont cachés sous la neige. \n\nQualité de la neige samedi : \n* Au-dessus de 2800/3000 m : Le plus souvent dure et ventée, mais parfois encore poudreux et froid dans les endroits les plus abrités du vent.\n*Entre 2200/2400 m et 2600/2800 m :  dans les versants froids (loin des crêtes) neige encore poudreuse bien que de plus en plus dense. Ailleurs neige finement croûté non portante.\n* En dessous de 2200/2 000 m, neige souvent humidifiée, simplement maté dans les ubacs à l’abri du vent .",
+      "text": "Enneigement :\nL'enneigement est déficitaire pour la saison sous 2400 m et normal au-dessus. \nOn peut chausser les skis vers 1000/1200 m. Pas de sous-couche sous 1500 m, des cailloux sont cachés sous la neige. \n\nQualité de la neige dimanche :\n* Au-dessus de 2800/3000 m : neige souvent durcie par le vent, mais parfois encore poudreuse et froide dans les pentes les plus abritées du vent.\n* Entre 2400 m et 2800 m :  dans les versants froids et loin des crêtes, la neige est encore poudreuse bien que de plus en plus tassée. Ailleurs la surface de la neige est humidifiée, transformée par la douceur. \n* En dessous de 2200/2400 m : neige souvent humidifiée, simplement matée dans les ubacs à l’abri du vent. Les crêtes et les arêtes sont peu enneigées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

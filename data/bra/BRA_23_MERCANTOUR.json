@@ -3,14 +3,14 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-01-16T16:00:00",
-    "valid_until": "2026-01-17T18:00:00",
+    "issued_at": "2026-01-17T16:00:00",
+    "valid_until": "2026-01-18T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "max_level": 4,
+      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice limité.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2000,
@@ -27,7 +27,7 @@
           {
             "id": "zone2",
             "loc": ">2000",
-            "risk": 3,
+            "risk": 4,
             "evolution_to": null,
             "position": "top"
           }
@@ -46,17 +46,17 @@
             "evolution_to": null
           },
           "top": {
-            "text": "3",
-            "risk": 3,
+            "text": "4",
+            "risk": 4,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-01-18",
-        "label": "Indice de risque marqué",
-        "comment": "nombreuses instabilités persistant dans la neige récente. Maintien d'un risque a minima marqué, risque fort non exclu en fonction des conditions observées samedi.",
+        "max_level": 4,
+        "date": "2026-01-19",
+        "label": "Indice de risque fort",
+        "comment": "Maintien d'un risque fort au-dessus de 2200 m environ, notamment pour les secteurs à proximité de l'Italie où les chutes de neige se poursuivent en lien avec le retour d'est. Le vent modéré de secteur est entraine également la formation de nouvelles instabilités.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-12",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-13",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +113,11 @@
           "date": "2026-01-17",
           "min_cm": 10,
           "max_cm": 20
+        },
+        {
+          "date": "2026-01-18",
+          "min_cm": 10,
+          "max_cm": 20
         }
       ],
       "totals": {
@@ -127,35 +127,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITÉ MARQUÉE DANS LA NEIGE FRAÎCHE",
-      "text": "INSTABILITÉ MARQUÉE DANS LA NEIGE FRAÎCHE\n\nDéclenchements provoqués :  les chutes de neige jusqu'en journée de samedi rendent le manteau neigeux instable dans de nombreuses pentes d'altitude. Des instabilités superficielles se forment dans la neige fraîche au fil des chutes dans toutes les orientations, plus nombreuses au-dessus de 2000 m. Elles sont difficilement identifiables et facilement déclenchables par un seul skieur. Avalanches de taille petite (taille 1) à moyenne (taille 2) dans les zones d'accumulation par le vent, qui tourne progressivement au nord-est en se renforçant l'après-midi. En orientations est, ouest et nord d'altitude supérieure à 2200 m environ, une avalanche de grande taille (taille 3) n'est pas exclue,  et déclenchable à distance par un seul skieur. Sur ces pentes, les chutes de neige tombent localement sur un manteau faiblement stabilisé, en raison de la présence d'une couche fragile peu enfouie.  \nEn dessous de 2000 m, le manteau neigeux est plus stabilisé. Des instabilités se forment cependant en cours de journée, sous l'effet des chutes de neige ventée. Elles restent d'ampleur limitée (taille 1) et plus difficilement déclenchables. \n\nDéparts spontanés : nombreux pendant les chutes de neige, restant de taille petite à moyenne. Grande avalanche linéaire non exclue dans les zones d'accumulation de haute altitude sous le vent de sud à est en altitude en cas de rupture de couche fragile persistante enfouie.",
+      "title": "FORTE INSTABILITÉ DANS LA NEIGE RÉCENTE ; NOUVELLES PLAQUES EN FORMATION À PROXIMITÉ DE L'ITALIE",
+      "text": "FORTE INSTABILITÉ DANS LA NEIGE RÉCENTE ; NOUVELLES PLAQUES EN FORMATION À PROXIMITÉ DE L'ITALIE\n\nDéclenchements provoqués :  nombreuses instabilités en place, formées par les récentes chutes de neige ventées. D'autres en formation avec le fort vent de secteur est ce dimanche et avec les chutes de neige qui se maintiennent principalement sur le secteur frontalier italien. Elles sont souvent difficilement identifiables, car d'aspect poudreux, et facilement déclenchables par un seul skieur. Avalanches de taille petite (taille 1) à moyenne (taille 2) dans les zones d'accumulation par le vent. Dans les orientations d'un large secteur nord (ouest, nord, est) au-dessus de 2200 m environ, des avalanches de taille moyenne à grande (taille 2 à 3) sont possibles et déclenchables à distance. En effet, la neige récente se dépose sur un manteau neigeux faiblement stabilisé, en raison de la présence de couches fragiles peu enfouies. \nEn dessous de 2000/2200 m, le risque est plus limité, la neige récente s'étant généralement humidifié. Quelques instabilités sont néanmoins en place et peuvent encore être facilement déclenchables par un skieur. Les volumes de neige mobilisés sont plus faibles, avalanches de taille petite, très rarement moyenne. \n\nDéparts spontanés : nombreux pendant les chutes de neige sur le secteur frontalier italien, mais restant de taille petite à moyenne. Une grande avalanche reste possible sur l'ensemble du massif, dans les zones d'accumulation de haute altitude par surcharge dû au vent.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement encore déficitaire pour une mi-janvier, mais en amélioration en altitude ce samedi avec les chutes de neige.\nDonnées observées : 55 cm à la nivôse de Millefonts (2430 m).\n\nLimite d'enneigement skiable : à partir de 1500/1600 m en ubacs sur terrains favorables (pentes herbeuses, routes forestières), plutôt 2000 m en adrets. Faible enneigement sous 1800/2000 m en ubacs et jusqu'à 2200 m en adrets.\n\nÉtat de la neige en surface : samedi matin, il neige. L'épaisseur de neige fraîche, de 10/20 cm environ en altitude le matin, augmente jusqu'à 30/40 cm en cours de journée. Neige plutôt peu ventée le matin, sèche et légère en altitude, humide sous 1800 m. Fort transport par le vent qui se renforce au secteur est l'après-midi et densifie la neige, ou fait parfois réapparaître le vieux manteau neigeux, souvent durci par le vent, ou croûté en adrets raides jusque 2200/2400 m.",
+      "text": "Enneigement encore déficitaire pour une mi-janvier, mais en amélioration en altitude avec les chutes de neige.\nDonnées observées ce samedi : 66 cm à la nivôse de Millefonts (2430 m).\n\nLimite d'enneigement skiable : à partir de 1500/1600 m en ubacs sur terrains favorables (pentes herbeuses, routes forestières), plutôt 2000 m en adrets. Faible enneigement sous 1800/2000 m en ubacs et jusqu'à 2200 m en adrets.\n\nÉtat de la neige en surface : dimanche matin, on retrouve 30/40 cm de neige fraîche tombée vendredi et samedi. Les chutes de neige se poursuivent à proximité de l'Italie et apportent 10/20 cm supplémentaires. Neige légère en altitude et dans les combes bien abritées du vent, humide sous 2000 m. Le fort transport par le vent densifie la neige dans les endroits bien exposés. Cette neige repose souvent sur de la neige durcie par le vent ou croûté en adrets raides jusqu'à 2200/2400 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1600,
-        "south": 2000
+        "north": 1500,
+        "south": 1500
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 0,
-          "S": 0
+          "N": 10,
+          "S": 10
         },
         {
           "alt_m": 2000,
-          "N": 45,
-          "S": 15
+          "N": 65,
+          "S": 35
         },
         {
           "alt_m": 2500,
-          "N": 90,
-          "S": 65
+          "N": 110,
+          "S": 85
         }
       ],
       "icon_key": "snowpack",

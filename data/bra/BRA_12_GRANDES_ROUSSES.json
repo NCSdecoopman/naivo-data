@@ -3,8 +3,8 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-01-16T16:00:00",
-    "valid_until": "2026-01-17T18:00:00",
+    "issued_at": "2026-01-17T16:00:00",
+    "valid_until": "2026-01-18T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-18",
+        "date": "2026-01-19",
         "label": "Indice de risque marqué",
-        "comment": "Risque d'avalanche stationnaire ou en légère baisse. Dimanche sera sec et moins venté a priori",
+        "comment": "Lundi, le vent de Sud-Est faiblit, sous un ciel encore bien voilé. Le manteau neigeux se stabilise lentement mais le risque reste marqué, notamment dans les secteurs où les plaques reposent sur des couches fragiles persistantes.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-12",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-13",
           "min_cm": 0,
           "max_cm": 0
@@ -117,23 +112,28 @@
         {
           "date": "2026-01-17",
           "min_cm": 1,
-          "max_cm": 3
+          "max_cm": 1
+        },
+        {
+          "date": "2026-01-18",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 2,
-        "last_48h_max_cm": 6
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "DE NOUVELLES PLAQUES PARFOIS LOIN DES CRETES (SOUS LE VENT DE SUD-EST) ;  POSSIBLE DECLENCHEMENT A DISTANCE (VERS EMPARIS NOTAMMENT)...",
-      "text": "DE NOUVELLES PLAQUES PARFOIS LOIN DES CRETES (SOUS LE VENT DE SUD-EST) ;  POSSIBLE DECLENCHEMENT A DISTANCE (VERS EMPARIS NOTAMMENT)...\n\nLe vent de Sud-Est va sans doute créer quelques nouvelles plaques instables samedi, souvent loin des crêtes... Vers les sommets neige dure ou instabilités plus superficielles...\n\nDéclenchements provoqués : En large secteur Nord, quelques nouvelles plaques se forment sous le vent de Sud-Sud-Est depuis jeudi soir, souvent loin des crêtes et sommets (vent très fort). Plaques souvent dures ou encore plus poudreuses/friables en bas de pentes, difficiles à déceler... mais \"réactives\". Présence locale de sous-couches fragiles persistantes, surtout vers la Savoie, Emparis, le Galibier. Possible déclenchement à distance et large avalanche...Respecter de grandes distances, notamment au dessus de 2000m environ. \nIndices observables :  Chasse neige locale; transitions secteurs dégarnis/chargés. En bas de pente neige dense en surface et plus légère en profondeur,\" WOUMFS\" parfois... \nEn versants Sud et sous 1800/2000m environ, le manteau est a priori moins sensible au passage de skieurs et les volumes mobilisables moins importants. \n\nDéclenchements spontanés : Dans les versants froids chargés par le vent, des coulées poudreuses en couloirs raides, vers les rochers. Très rare décrochement de plaque ?.\nPlus bas en neige humide, rare coulée/petite avalanche, surtout le matin lors d'éclaircies. En pente herbeuse/fissurée, un rare départ au terrain (de glissement) est possible à toute heure ( de taille moyenne).",
+      "title": "DE NOUVELLES PLAQUES PARFOIS LOIN DES CRETES (SOUS LE VENT DE SUD-EST) ;  POSSIBLE DECLENCHEMENT A DISTANCE (VERS EMPARIS NOTAMMENT)",
+      "text": "DE NOUVELLES PLAQUES PARFOIS LOIN DES CRETES (SOUS LE VENT DE SUD-EST) ;  POSSIBLE DECLENCHEMENT A DISTANCE (VERS EMPARIS NOTAMMENT)\n\nDéclenchements provoqués : En large secteur Nord, de nouvelles plaques se forment au ﬁl de la journée sous le vent de Sud-Est, et s'ajoutent aux plaques déjà formées cette semaine. Sous la puissance du vent ces instabilités prennent souvent l'aspect de plaques dures (neige dure / cartonnée par le vent) et se retrouvent plutôt loin des crêtes. Les instabilités sont sensibles au passage d'un seul skieur, avec un risque plus marqué là où les plaques sont moins épaisses. Le risque est parfois ampliﬁé par la présence de grains anguleux enfouis sous les chutes de neige récentes, rendant possible des déclenchements à distance et des départs de grandes ampleurs. Ces couches fragiles se retrouvent principalement vers Emparis et sur les versants côté Maurienne, en milieu de pentes / dans les secteurs moins exposés au vent.\nObservables : Chasse neige en cours, accumulations de neige, neige dense en surface et plus légère en profondeur, \"woumfs\".\nEn versants ensoleillés, et sous 2100m environ, le manteau est généralement plus stable et les volumes mobilisables moins importants.\n\nDéclenchements spontanés :  En large secteur Nord et surtout au-dessus de 2000m, le vent de secteur Sud-Est vient charger les pentes et quelques avalanches pourraient partir spontanément, de tailles petites à moyennes, voire localement de grande taille. Dans les pentes raides herbeuses exposées au Sud, une rare avalanche de glissement est possible, surtout à basse altitude.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement s'est récemment amélioré, dans les combes d'altitude et en moyenne montagne. Mais il reste déficitaire en faces Sud et à l'abord des croupes/crêtes (celles-ci sont à nouveau dégarnies)...Limites skiables à partir de  1100/1500m.\n\nQualité de la neige samedi : Il ne reste plus beaucoup de poudreuse ou dans de rares combes froides bien abritées au dessus de 1800m. Neige souvent soufflée en altitude avec des secteurs dégarnis, d'autres compactés/sculptés, jusque 5cm de fraîche, voire 10 cm vers le Galibier ? En face Sud neige en partie transformée, crôutée... En moyenne montagne humidification....",
+      "text": "Qualification de l’enneigement : L'enneigement s'est récemment amélioré, dans les combes d'altitude et en moyenne montagne. Mais il reste déficitaire en faces Sud et à l'abord des croupes/crêtes (celles-ci sont à nouveau dégarnies)...Limites skiables à partir de  1100/1500m.\n\nQualité de la neige dimanche : Avec ce nouvel épisode de vent, la neige est souvent dure / croûtée, au mieux cartonnée par le vent. De rares combes abritées pourraient encore héberger de la neige en poudreuse dense. Sous 2000/2200m, humidification en journée, surtout en versants chauds, mais la présence d'un épais voile nuageux permettra aussi l'humidification dans certaines pentes Nord de basses altitudes.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

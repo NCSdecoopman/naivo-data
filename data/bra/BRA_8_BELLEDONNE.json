@@ -3,49 +3,61 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-01-16T16:00:00",
-    "valid_until": "2026-01-17T18:00:00",
+    "issued_at": "2026-01-17T16:00:00",
+    "valid_until": "2026-01-18T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
+            "risk": 3,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
             "text": "2",
             "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-18",
+        "date": "2026-01-19",
         "label": "Indice de risque limité",
-        "comment": "Risque d'avalanche stationnaire ou en légère baisse. Dimanche sera sec et moins venté a priori",
-        "trend": "steady"
+        "comment": "Lundi, le vent de Sud-Est faiblit, sous un ciel encore bien voilé. Le manteau neigeux se stabilise progressivement, avec un risque devenant limité.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -67,21 +79,16 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 5,
+      "secondary": 3,
       "labels": {
         "2": "Neige ventée",
-        "5": "Avalanche de fond"
+        "3": "Couche fragile persistante"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-12",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-13",
           "min_cm": 0,
@@ -104,24 +111,29 @@
         },
         {
           "date": "2026-01-17",
-          "min_cm": 1,
+          "min_cm": 0,
           "max_cm": 3
+        },
+        {
+          "date": "2026-01-18",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 2,
-        "last_48h_max_cm": 6
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 3
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "DE RARES PLAQUES INSTABLES, SOUVENT LOIN DES CRETES.... VERS LES SOMMETS UN PEU DE FRAICHE TRES VENTEE...",
-      "text": "DE RARES PLAQUES INSTABLES, SOUVENT LOIN DES CRETES.... VERS LES SOMMETS UN PEU DE FRAICHE TRES VENTEE...\n\nNeige souvent compactée \"costaud\". Rares plaques \"réactives\" en faces Nord, souvent loin des crêtes... \n\nDéclenchements provoqués : Risque très localisé en large secteur Nord, à l'abri du vent de Sud à Sud-Est, notamment au Nord de Belledonne. Ces plaques seraient présentes loin en contrebas des crêtes (le vent a été très vigoureux...). Vers les sommets, neige dure stable ou sensible ou rare congère sensible à forte surcharge. Notez aussi de minces accumulations de fraîche, suivant les intempéries... \nIndices observables :  Chasse neige locale (quelques cm de fraîche) ; transitions secteurs dégarnis/chargés. En bas de pente neige dense en surface et plus légère en profondeur... \nEn versants Sud la neige est souvent croutée, davantage stabilisée.\n\nDéclenchements spontanés :  Dans les versants froids chargés par le vent, des coulées poudreuses en couloirs raides, vers les rochers. \nPlus bas en neige humide, un rare départ au terrain (de glissement) est possible à toute heure ( de taille moyenne).",
+      "title": "FORMATIONS DE NOUVELLES PLAQUES A VENT EN JOURNEE SOUS L'EFFET DU VENT DE SUD-EST",
+      "text": "FORMATIONS DE NOUVELLES PLAQUES A VENT EN JOURNEE SOUS L'EFFET DU VENT DE SUD-EST\n\nDéclenchements provoqués : En large secteur Nord, de nouvelles plaques se forment au ﬁl de la journée sous le vent de Sud-Est, et s'ajoutent aux plaques déjà formées cette semaine. Sous la puissance du vent ces instabilités prennent souvent l'aspect de plaques dures (neige dure / cartonnée par le vent) et se retrouvent plutôt loin des crêtes. Les instabilités sont sensibles au passage d'un seul skieur, avec un risque de déclenchement plus marqué là où les plaques sont moins épaisses. Très localement, le risque peut être amplifié par la présence de grains anguleux enfouis sous les chutes de neige récentes, rendant possible des déclenchements à distance. \nObservables : Chasse neige en cours, accumulations de neige, neige dense en surface et plus légère en profondeur.\nEn versants ensoleillés, et sous 2100m environ, le manteau est généralement plus stable et les volumes mobilisables moins importants.\n\nDéclenchements spontanés :  En large secteur Nord et surtout au-dessus de 2000m, le vent de secteur Sud-Est vient charger les pentes et quelques avalanches pourraient partir spontannément, de tailles petites à moyennes, voire localement de grande taille. Dans les pentes raides herbeuses exposées au Sud, une rare avalanche de glissement est possible, surtout à basse altitude. \n\nAutres : En altitude, nombreuses surfaces dures / glacées, rendant parfois la progression délicate.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement est redevenu inférieur aux moyennes de saison, notamment en faces Sud et l'abord des croupes/crêtes (celles-ci sont à nouveau dégarnies)...Limites skiables à partir de  1100/1600m.\n\nQualité de la neige samedi :  En altitude saupoudrage de fraîche bien ventée par du Sud-Sud-Est. Neige dure ou cartonnée  prédominante... Très rares combes froides bien abritées en poudreuse dense (versant Villards/Maurienne ?)\nEn face Sud neige en partie transformée, crôutée par regel... En moyenne montagne humidification/tassement....",
+      "text": "Qualification de l’enneigement : L'enneigement est correct au-dessus de 2000m environ, mais est médiocre à basses altitudes et en versants Sud. Il est parfois médiocre en haute montagne également, le vent ayant dégarni les crêtes et sommets de pentes. Limites skiables à partir de 1100/1600m.\n\nQualité de la neige dimanche :  Le ski est souvent mauvais sur le massif, avec une neige très travaillée par le vent, souvent dure / cartonnée. Des surfaces glacées ressortent parfois, et les crêtes sont souvent dégarnies. Très rares combes froides bien abritées en poudreuse dense. En journée, humidification sous 2200/2300m environ.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

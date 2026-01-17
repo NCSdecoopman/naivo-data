@@ -3,60 +3,48 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-01-16T16:00:00",
-    "valid_until": "2026-01-17T18:00:00",
+    "issued_at": "2026-01-17T16:00:00",
+    "valid_until": "2026-01-18T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 1800m indice de risque faible, plus bas indice limité.",
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 1800,
-        "split_axis": "horizontal",
-        "split_label": "1800m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1800",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">1800",
-            "risk": 1,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "1800m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "2",
             "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "1",
-            "risk": 1,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-18",
+        "date": "2026-01-19",
         "label": "Indice de risque limité",
-        "comment": "Risque d'avalanche stationnaire ou en légère baisse. Dimanche sera sec et moins venté a priori",
+        "comment": "Lundi, le manteau se stabilise en altitude tandis que l'humidification se poursuit, avec de probables coulées humides / avalanches de fond à basse altitude.",
         "trend": "steady"
       }
     },
@@ -79,21 +67,16 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 5,
+      "secondary": 4,
       "labels": {
         "2": "Neige ventée",
-        "5": "Avalanche de fond"
+        "4": "Neige humide"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-12",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-13",
           "min_cm": 0,
@@ -117,23 +100,28 @@
         {
           "date": "2026-01-17",
           "min_cm": 2,
-          "max_cm": 5
+          "max_cm": 7
+        },
+        {
+          "date": "2026-01-18",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 4,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 2,
+        "last_48h_max_cm": 7
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "UN PEU DE FRAICHE ET DU FORT VENT DE SUD-EST... QUELQUES PLAQUES EN ALTITUDE...",
-      "text": "UN PEU DE FRAICHE ET DU FORT VENT DE SUD-EST... QUELQUES PLAQUES EN ALTITUDE...\n\nSamedi jusque 10 cm soufflées en haut du Vercors, reposant sur de la neige souvent compactée/durcie...\n\nDéclenchements provoqués : Risque accidentel de plaque sans doute localisé, avec de  petites plaques par places à l'abri du vent de Sud-Est  Plaques se formant durant les intempéries et reposant parfois sur de la neige moins ventée...\nIndices observables :  10 cm en moyenne vers les hauts, des congères... et moindre résistance enfouie. En fait beaucoup de secteurs seront dégarnis ou durcis, stables... \nEn contrebas/combes Nord possible petite plaque poudreuse, moins volumineuse mais parfois facile à déclencher au passage d'un skieur. \nSous 1800m environ neige plus humide, risque plutôt de coulée humide ponctuelle sous les skis...\n\nDéparts spontanés :   Vers les sommets du Vercors, goulets et falaises, on attend quelques coulées de neige fraîche, voire une petite avalanche dans un couloir chargé par le vent ?\nPlus bas en pentes herbeuse raide, fissurée,  une rare avalanche de glissement est possible (de taille moyenne), presque à toute heure...",
+      "title": "QUELQUES INSTABILITES DANS LA NEIGE RECENTE, COULEES HUMIDES",
+      "text": "QUELQUES INSTABILITES DANS LA NEIGE RECENTE, COULEES HUMIDES \n\nDéclenchements provoqués : Quelques plaques ont pu se former sous les chutes de neige légèrement ventées de samedi. Elles sont difficilement décelables, d'aspect poudreuse dense / neige ventée, et sont surtout présentes au-dessus de 1800m. Elles peuvent encore être relativement faciles à déclencher en matinée, mais deviennent de moins en moins réactive en journée sous l'effet du tassement. \nIndices observables : Accumulations de neige récente, neige plus légère en profondeur. \nTrès localement des instabilités plus anciennes, liées aux épisode de vents de Sud de la semaine, sont encore présentes sous cette couche de neige récente. Elles deviennent dures à déclencher, mais une avalanche de surface dans la neige récente pourrait créer une contrainte suffisante pour déclencher une plaque dure plus enfouie. Ces instabilités se retrouvent surtout en versants Nord, plutôt loin des crêtes, en milieu / bas de pentes. \n\nDéparts spontanés :   Départs de boulettes voire de coulées de neige humides sous les rochers, en pente raide. Possibles parfois même en Nord, avec une couche nuageuse qui chauffera le manteau en tout versant.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  Avec le récent redoux et le vent, l'enneigement se dégrade notamment en moyenne montagne et vers les crêtes. Guère de neige sous les sapins. Limites skiables remontant vers  1100/1400m.\n\nQualité de la neige samedi : Neige en partie humidifiée jusque vers 1800m... Sommets dégarnis par le vent (roches, givre parfois et glace). Pentes Nord d'altitude en neige sèche compactée /ventée avec un saupoudrage de neige récente (2 cm ?), très rare poudreuse dense en combes/couloirs...  En forêts, tassement/fonte accélérée...",
+      "text": "Qualification de l’enneigement :  Avec le récent redoux et le vent, l'enneigement se dégrade notamment en moyenne montagne et vers les crêtes. Guère de neige sous les sapins. Limites skiables remontant vers  1100/1400m.\n\nQualité de la neige dimanche : On retrouve une couche de neige récente au-dessus de 1600m environ, 2-3cm sur le nord du massif, 10-15cm locaux plus au sud. Neige de surface souvent lourde voire croûtée au réveil, hormis en combes Nord d'altitude où on peut encore trouver une neige plus légère. En journée, humidification à toutes altitudes et en tout versants (plus lente toutefois en nord). A plus basse altitude, regel très médiocre, voire inexistant, avec une neige humide dés le réveil.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

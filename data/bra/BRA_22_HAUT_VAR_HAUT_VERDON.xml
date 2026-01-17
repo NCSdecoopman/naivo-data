@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="22" MASSIF="Haut-Var Haut-Verdon" DATEBULLETIN="2026-01-16T16:00:00" DATEECHEANCE="2026-01-17T18:00:00" DATEVALIDITE="2026-01-17T18:00:00" DATEDIFFUSION="2026-01-16T15:39:00" AMENDEMENT="false">
-  <DateValidite>2026-01-17T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="22" MASSIF="Haut-Var Haut-Verdon" DATEBULLETIN="2026-01-17T16:00:00" DATEECHEANCE="2026-01-18T18:00:00" DATEVALIDITE="2026-01-18T18:00:00" DATEDIFFUSION="2026-01-17T16:07:00" AMENDEMENT="false">
+  <DateValidite>2026-01-18T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="2" EVOLURISQUE1="3" LOC1="&lt;2200" ALTITUDE="2200" RISQUE2="4" EVOLURISQUE2="" LOC2="&gt;2200" RISQUEMAXI="4" COMMENTAIRE="Au-dessus de 2200m indice de risque fort, plus bas indice limité évoluant en marqué." RISQUEMAXIJ2="4" DATE_RISQUE_J2="2026-01-18T00:00:00"/>
+    <RISQUE RISQUE1="2" EVOLURISQUE1="" LOC1="&lt;2000" ALTITUDE="2000" RISQUE2="4" EVOLURISQUE2="" LOC2="&gt;2000" RISQUEMAXI="4" COMMENTAIRE="Au-dessus de 2000m indice de risque fort, plus bas indice limité." RISQUEMAXIJ2="4" DATE_RISQUE_J2="2026-01-19T00:00:00"/>
     <PENTE NE="true" E="true" SE="true" S="true" SW="true" W="true" NW="true" N="true" COMMENTAIRE=""/>
-    <ACCIDENTEL><![CDATA[nombreuses instabilités facilement déclenchables en formation, très volumineuses en versants froids d'altitude]]></ACCIDENTEL>
-    <NATUREL><![CDATA[nombreux dans la neige fraîche, parfois linéaires et de grande taille]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : nombreux dans la neige fraîche, parfois linéaires et de grande taille
-Déclenchements skieurs : nombreuses instabilités facilement déclenchables en formation, très volumineuses en versants froids d'altitude]]></RESUME>
+    <ACCIDENTEL><![CDATA[nombreuses instabilités en place et en formation, volumineuses en versants froids d'altitude.]]></ACCIDENTEL>
+    <NATUREL><![CDATA[dans la neige récente ventée. Taille moyenne à grande. ]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : dans la neige récente ventée. Taille moyenne à grande. 
+Déclenchements skieurs : nombreuses instabilités en place et en formation, volumineuses en versants froids d'altitude.]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque fort]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[nombreuses instabilités persistant dans la neige récente. Maintien d'un risque fort en altitude]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Maintien d'un risque fort au-dessus de 2200 m environ. Le vent modéré de secteur est entraine également la formation de nouvelles instabilités, localement volumineuses.  ]]></CommentaireRisqueJ2>
     <AVIS>FORT RISQUE D'AVALANCHE</AVIS>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_22.png</ImageRisque>
@@ -18,55 +18,53 @@ Déclenchements skieurs : nombreuses instabilités facilement déclenchables en 
   </CARTOUCHERISQUE>
   <STABILITE>
     <SitAvalTyp SAT1="1" SAT2="3"/>
-    <TITRE><![CDATA[FORTE INSTABILITÉ DANS LA NEIGE FRAÎCHE]]></TITRE>
-    <TEXTESANSTITRE><![CDATA[Déclenchements provoqués :  les chutes de neige jusqu'en journée de samedi rendent le manteau neigeux très instable dans de nombreuses pentes d'altitude. Des instabilités superficielles se forment dans la neige fraîche au fil des chutes dans toutes les orientations. Elles sont difficilement identifiables et facilement déclenchables par un seul skieur. Avalanches de taille petite (taille 1) à moyenne (taille 2) dans les zones d'accumulation par le vent, qui tourne progressivement à l'est en cours de journée. En orientations est, ouest et nord d'altitude supérieure à 2200 m environ, des avalanches de taille moyenne à grande (taille 3) sont possibles, notamment dans le Haut Verdon, et déclenchables à distance par un seul skieur. Sur ces pentes, les chutes de neige tombent en effet sur un manteau encore faiblement stabilisé, en raison de la présence d'une couche fragile peu enfouie.  
-En dessous de 2000/2200 m, l'instabilité est moins forte. De nombreuses instabilités se forment cependant en cours de journée, sous l'effet du fort vent de secteur est. Elles restent d'ampleur limitée (taille 1, rarement 2) mais sont facilement déclenchables par un skieur et difficilement identifiables car restant d'aspect poudreux.  
+    <TITRE><![CDATA[FORTE INSTABILITÉ DANS LA NEIGE RÉCENTE]]></TITRE>
+    <TEXTESANSTITRE><![CDATA[Déclenchements provoqués :  nombreuses instabilités en place, formées par les récentes chutes de neige ventées. D'autres en formation avec le fort vent de secteur est ce dimanche. Elles sont souvent difficilement identifiables, car d'aspect poudreux, et facilement déclenchables par un seul skieur. Avalanches de taille petite (taille 1) à moyenne (taille 2) dans les zones d'accumulation par le vent. Dans les orientations d'un large secteur nord (ouest, nord, est) au-dessus de 2200 m environ, des avalanches de taille moyenne à grande (taille 2 à 3) sont possibles et déclenchables à distance. En effet, la neige récente se dépose sur un manteau neigeux faiblement stabilisé, en raison de la présence de couches fragiles peu enfouies. 
+En dessous de 2000/2200 m, le risque est plus limité, la neige récente s'étant généralement humidifié. Quelques instabilités sont néanmoins en place et peuvent encore être facilement déclenchables par un skieur. Les volumes de neige mobilisés sont plus faibles, avalanches de taille petite, très rarement moyenne. 
 
-Départs spontanés : nombreux pendant les chutes de neige, restant de taille petite à moyenne. Grande avalanche linéaire possible dans les zones d'accumulation de haute altitude sous le vent de sud à est en altitude en cas de rupture de couche fragile persistante enfouie, en particulier dans le Haut Verdon.]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[FORTE INSTABILITÉ DANS LA NEIGE FRAÎCHE
+Départs spontanés : encore possibles en matinée lors des averses de neige modérées, mais restant de taille petite à rarement moyenne. Une grande avalanche reste possible sur l'ensemble du massif, dans les zones d'accumulation de haute altitude par surcharge dû au vent. 
+]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[FORTE INSTABILITÉ DANS LA NEIGE RÉCENTE
 
-Déclenchements provoqués :  les chutes de neige jusqu'en journée de samedi rendent le manteau neigeux très instable dans de nombreuses pentes d'altitude. Des instabilités superficielles se forment dans la neige fraîche au fil des chutes dans toutes les orientations. Elles sont difficilement identifiables et facilement déclenchables par un seul skieur. Avalanches de taille petite (taille 1) à moyenne (taille 2) dans les zones d'accumulation par le vent, qui tourne progressivement à l'est en cours de journée. En orientations est, ouest et nord d'altitude supérieure à 2200 m environ, des avalanches de taille moyenne à grande (taille 3) sont possibles, notamment dans le Haut Verdon, et déclenchables à distance par un seul skieur. Sur ces pentes, les chutes de neige tombent en effet sur un manteau encore faiblement stabilisé, en raison de la présence d'une couche fragile peu enfouie.  
-En dessous de 2000/2200 m, l'instabilité est moins forte. De nombreuses instabilités se forment cependant en cours de journée, sous l'effet du fort vent de secteur est. Elles restent d'ampleur limitée (taille 1, rarement 2) mais sont facilement déclenchables par un skieur et difficilement identifiables car restant d'aspect poudreux.  
+Déclenchements provoqués :  nombreuses instabilités en place, formées par les récentes chutes de neige ventées. D'autres en formation avec le fort vent de secteur est ce dimanche. Elles sont souvent difficilement identifiables, car d'aspect poudreux, et facilement déclenchables par un seul skieur. Avalanches de taille petite (taille 1) à moyenne (taille 2) dans les zones d'accumulation par le vent. Dans les orientations d'un large secteur nord (ouest, nord, est) au-dessus de 2200 m environ, des avalanches de taille moyenne à grande (taille 2 à 3) sont possibles et déclenchables à distance. En effet, la neige récente se dépose sur un manteau neigeux faiblement stabilisé, en raison de la présence de couches fragiles peu enfouies. 
+En dessous de 2000/2200 m, le risque est plus limité, la neige récente s'étant généralement humidifié. Quelques instabilités sont néanmoins en place et peuvent encore être facilement déclenchables par un skieur. Les volumes de neige mobilisés sont plus faibles, avalanches de taille petite, très rarement moyenne. 
 
-Départs spontanés : nombreux pendant les chutes de neige, restant de taille petite à moyenne. Grande avalanche linéaire possible dans les zones d'accumulation de haute altitude sous le vent de sud à est en altitude en cas de rupture de couche fragile persistante enfouie, en particulier dans le Haut Verdon.]]></TEXTE>
+Départs spontanés : encore possibles en matinée lors des averses de neige modérées, mais restant de taille petite à rarement moyenne. Une grande avalanche reste possible sur l'ensemble du massif, dans les zones d'accumulation de haute altitude par surcharge dû au vent. 
+]]></TEXTE>
   </STABILITE>
   <QUALITE>
-    <TEXTE><![CDATA[Enneigement encore déficitaire pour une mi-janvier, mais en amélioration en altitude ce samedi avec les chutes de neige.
-Données observées ce vendredi : à 2000 m, 55 cm dans le vallon de Rougnouse en Haut Verdon et 54 cm à Sanguinière dans le Haut Var.
+    <TEXTE><![CDATA[Enneigement encore déficitaire pour une mi-janvier, mais en amélioration en altitude avec les chutes de neige.
+Données observées ce samedi: 80 cm au-dessus de 2000 m environ. 
  
-Limite d'enneigement skiable : à partir de 1400 m en ubacs sur terrains favorables (pentes herbeuses, routes forestières) dans le Haut Verdon, plutôt 1600 m dans le Haut Var.  
+Limite d'enneigement skiable : à partir de 1400 m en ubacs sur terrains favorables (pentes herbeuses, routes forestières) dans le Haut-Verdon, plutôt 1600 m dans le Haut-Var.  
 
-État de la neige en surface : samedi matin, il neige. L'épaisseur de neige fraîche, de 15/30 cm environ en altitude le matin, augmente jusqu'à 30/40, voire 50 cm en cours de journée. Neige plutôt peu ventée le matin, sèche et légère en altitude, humide sous 1800 m. Fort transport par le vent qui se renforce au secteur est l'après-midi et densifie la neige, ou fait parfois réapparaître le vieux manteau neigeux, souvent durci par le vent, ou croûté en adrets raides jusque 2200/2400 m.  ]]></TEXTE>
+État de la neige en surface : dimanche matin, on retrouve 30/40 cm de neige fraîche tombée vendredi et samedi, localement 50 cm sur le Haut-Verdon. Des averses apportent encore quelques cm supplémentaires. Neige légère en altitude et dans les combes bien abritées du vent, humide sous 2000 m. Le fort transport par le vent densifie la neige dans les endroits bien exposés. Cette neige repose souvent sur de la neige durcie par le vent ou croûté en adrets raides jusqu'à 2200/2400 m. ]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-01-16T00:00:00" LimiteSud="1800" LimiteNord="1500">
+  <ENNEIGEMENT DATE="2026-01-17T00:00:00" LimiteSud="1800" LimiteNord="1500">
     <NIVEAU ALTI="1500" N="5" S="0"/>
-    <NIVEAU ALTI="2000" N="50" S="20"/>
-    <NIVEAU ALTI="2500" N="100" S="70"/>
+    <NIVEAU ALTI="2000" N="65" S="35"/>
+    <NIVEAU ALTI="2500" N="120" S="90"/>
     <ImageEnneigement>montagne_enneigement_22.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-01-12T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-01-13T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-01-14T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-01-15T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-01-16T00:00:00" SS24Min="15" SS24Max="25"/>
     <NEIGE24H DATE="2026-01-17T00:00:00" SS24Min="10" SS24Max="20"/>
+    <NEIGE24H DATE="2026-01-18T00:00:00" SS24Min="3" SS24Max="7"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_22.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="2000" ALTITUDEVENT2="3000">
-    <COMMENTAIRE>Neige modérée / forte assez peu ventée jusqu'en début d'après-midi </COMMENTAIRE>
-    <ECHEANCE DATE="2026-01-17T06:00:00" FF1="25" DD1="E" FF2="40" DD2="SE" ISO0="1900" PLUIENEIGE="1300" TEMPSSENSIBLE="63" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-01-17T12:00:00" FF1="25" DD1="SE" FF2="55" DD2="SE" ISO0="2100" PLUIENEIGE="1300" TEMPSSENSIBLE="63" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-01-17T18:00:00" FF1="30" DD1="SE" FF2="65" DD2="SE" ISO0="2100" PLUIENEIGE="1600" TEMPSSENSIBLE="61" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-01-18T00:00:00" FF1="35" DD1="E" FF2="75" DD2="SE" ISO0="2100" PLUIENEIGE="1600" TEMPSSENSIBLE="81" MERNUAGES="-1"/>
+    <COMMENTAIRE>Sous un ciel qui reste chargé, quelques averses de neige se produisent, généralement de faible intensité. </COMMENTAIRE>
+    <ECHEANCE DATE="2026-01-18T06:00:00" FF1="40" DD1="E" FF2="55" DD2="E" ISO0="1800" PLUIENEIGE="1400" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-01-18T12:00:00" FF1="50" DD1="E" FF2="60" DD2="E" ISO0="1800" PLUIENEIGE="1400" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-01-18T18:00:00" FF1="50" DD1="E" FF2="60" DD2="E" ISO0="1700" PLUIENEIGE="1400" TEMPSSENSIBLE="81" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-01-19T00:00:00" FF1="45" DD1="E" FF2="55" DD2="E" ISO0="1600" PLUIENEIGE="1300" TEMPSSENSIBLE="81" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_22.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-01-10T06:00:00" FF1="55" DD1="O" FF2="70" DD2="NO" ISO0="800" PLUIENEIGE="700" TEMPSSENSIBLE="81"/>
-      <ECHEANCE DATE="2026-01-10T12:00:00" FF1="60" DD1="NO" FF2="65" DD2="N" ISO0="900" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
-      <ECHEANCE DATE="2026-01-10T18:00:00" FF1="55" DD1="NO" FF2="75" DD2="NO" ISO0="900" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
-      <ECHEANCE DATE="2026-01-11T00:00:00" FF1="55" DD1="N" FF2="70" DD2="N" ISO0="800" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-01-11T06:00:00" FF1="45" DD1="N" FF2="55" DD2="NO" ISO0="1000" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-01-11T12:00:00" FF1="15" DD1="E" FF2="45" DD2="N" ISO0="1300" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-01-11T18:00:00" FF1="10" DD1="NO" FF2="50" DD2="N" ISO0="1600" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
@@ -91,13 +89,12 @@ Limite d'enneigement skiable : à partir de 1400 m en ubacs sur terrains favorab
       <ECHEANCE DATE="2026-01-16T12:00:00" FF1="15" DD1="SE" FF2="55" DD2="S" ISO0="2100" PLUIENEIGE="-1" TEMPSSENSIBLE="61"/>
       <ECHEANCE DATE="2026-01-16T18:00:00" FF1="25" DD1="SE" FF2="55" DD2="S" ISO0="2000" PLUIENEIGE="1600" TEMPSSENSIBLE="61"/>
       <ECHEANCE DATE="2026-01-17T00:00:00" FF1="25" DD1="E" FF2="50" DD2="S" ISO0="1900" PLUIENEIGE="1500" TEMPSSENSIBLE="61"/>
+      <ECHEANCE DATE="2026-01-17T06:00:00" FF1="25" DD1="E" FF2="40" DD2="SE" ISO0="1900" PLUIENEIGE="1300" TEMPSSENSIBLE="63"/>
+      <ECHEANCE DATE="2026-01-17T12:00:00" FF1="25" DD1="SE" FF2="55" DD2="SE" ISO0="2000" PLUIENEIGE="1300" TEMPSSENSIBLE="63"/>
+      <ECHEANCE DATE="2026-01-17T18:00:00" FF1="30" DD1="SE" FF2="65" DD2="SE" ISO0="1900" PLUIENEIGE="1600" TEMPSSENSIBLE="61"/>
+      <ECHEANCE DATE="2026-01-18T00:00:00" FF1="35" DD1="E" FF2="75" DD2="SE" ISO0="1800" PLUIENEIGE="1400" TEMPSSENSIBLE="81"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-01-10T00:00:00" LimiteSud="900" LimiteNord="900">
-        <NIVEAU ALTI="1500" N="10" S="10"/>
-        <NIVEAU ALTI="2000" N="60" S="35"/>
-        <NIVEAU ALTI="2500" N="110" S="80"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-01-11T00:00:00" LimiteSud="900" LimiteNord="900">
         <NIVEAU ALTI="1500" N="10" S="10"/>
         <NIVEAU ALTI="2000" N="60" S="35"/>
@@ -128,23 +125,28 @@ Limite d'enneigement skiable : à partir de 1400 m en ubacs sur terrains favorab
         <NIVEAU ALTI="2000" N="50" S="20"/>
         <NIVEAU ALTI="2500" N="100" S="70"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-01-17T00:00:00" LimiteSud="1800" LimiteNord="1500">
+        <NIVEAU ALTI="1500" N="5" S="0"/>
+        <NIVEAU ALTI="2000" N="65" S="35"/>
+        <NIVEAU ALTI="2500" N="120" S="90"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-01-11T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-01-12T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-01-13T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-01-14T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-01-15T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-01-16T00:00:00" SS24Min="0" SS24Max="0"/>
+      <NEIGE24H DATE="2026-01-17T00:00:00" SS24Min="15" SS24Max="25"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-01-10T00:00:00" RISQUEMAXI="4"/>
       <RISQUE DATE="2026-01-11T00:00:00" RISQUEMAXI="4"/>
       <RISQUE DATE="2026-01-12T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-01-13T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-01-14T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-01-15T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-01-16T00:00:00" RISQUEMAXI="3"/>
+      <RISQUE DATE="2026-01-17T00:00:00" RISQUEMAXI="4"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_22.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_22.png</Image7derniersjours_portrait>

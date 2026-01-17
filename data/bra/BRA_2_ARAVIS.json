@@ -3,48 +3,60 @@
   "massif": "Aravis",
   "bulletin": {
     "id": 2,
-    "issued_at": "2026-01-16T16:00:00",
-    "valid_until": "2026-01-17T18:00:00",
+    "issued_at": "2026-01-17T16:00:00",
+    "valid_until": "2026-01-18T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "max_level": 3,
+      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1800,
+        "split_axis": "horizontal",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1800",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1800",
+            "risk": 3,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1800m"
         },
         "zones": {
-          "center": {
+          "bottom": {
             "text": "2",
             "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-01-18",
-        "label": "Indice de risque limité",
-        "comment": "Risque stationnaire. Quelques éclaircies en journée.",
+        "max_level": 3,
+        "date": "2026-01-19",
+        "label": "Indice de risque marqué",
+        "comment": "Les couches fragiles persistantes sont toujours déclenchables. Le manteau neigeux continue son tassement avec le réchauffement. La journée est ensoleillée et le vent est plus calme.",
         "trend": "steady"
       }
     },
@@ -78,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-12",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-13",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +113,11 @@
           "date": "2026-01-17",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-18",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -116,12 +128,12 @@
     },
     "stability": {
       "title": "Instabilité en ubacs.",
-      "text": "Instabilité en ubacs.\n\nDéclenchements provoqués :\n* Dans les secteurs Nord/Est/Ouest, on retrouve, localement, la présence d'une sous-couche fragile persistante au-dessus de 2000/2200 m. Dans ces endroits, les plaques sont de grosses épaisseurs (possibilité de départ en cascade), de taille 2 à 3 (moyenne à grande). Ces plaques se trouvent parfois dans les pentes déjà skiées, et le plus souvent dans les faces nord hors sommets des combes. Elles sont, parfois, déclenchables à distances.\n\nDéparts spontanés :\n* En dessous de 2200/2400 m : rares avalanches de fond, dans les zones herbeuses ou les dalles rocheuses. Taille 1 à 2 (petite à moyenne).",
+      "text": "Instabilité en ubacs.\n\nDéclenchements provoqués :\n* Au-dessus de 1800/2000 m : Présence d'une couche fragile persistante dans d'assez nombreuses pentes en orientations Nord/Est/Ouest. Elles sont déclenchables par un·e skieur·euse et peuvent être déclenchées à distance. Plaques épaisses (40/60 cm, voire plus dans les zones d'accumulation) et risque de départs en cascade. Ces plaques sont parfois aussi sollicitables dans des pentes déjà skiées. Taille 2 (moyenne), plus rarement 3 (grande). \n* Rares plaques à vent. Elles se forment et se sont formées sous le vent de Sud à Sud-Est dans la neige restée poudreuse. Taille 1 (petite). \n\nDéparts spontanés :\n* Rares avalanches de fond, dans les pentes herbeuses ou sur les dalles rocheuses. Départs possibles à toute heure du jour et de la nuit. Taille 1 à 2 (petite à moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Pour la saison, l’enneigement reste correct mais redevient faible à basse altitude.\nOn peut chausser les skis vers 1000/1200 m. Pas de sous-couche sous 1500 m, des cailloux sont cachés sous la neige. \n\nQualité de la neige samedi : \n\n*Au-dessus de 2200/2400 m :  dans les versants froids (loin des crêtes) neige encore poudreuse bien que de plus en plus dense. Ailleurs neige finement croûté non portante.\n* En dessous de 2200/2 000 m, neige humidifiée, simplement maté dans les ubacs à l’abri du vent.\nPrès des crêtes, neige dure soufflée.",
+      "text": "Enneigement :\nL'enneigement est normal pour la saison. \nOn peut chausser les skis vers 1000/1200 m. Faible sous-couche sous 1500 m, des cailloux sont cachés sous la neige. \n\nQualité de la neige dimanche :\n* Au-dessus de 2200 m :  dans les versants froids et loin des crêtes, la neige est encore poudreuse bien que de plus en plus tassée. Ailleurs la surface de la neige est humidifiée, transformée par la douceur. \n* En dessous de 2200 m : neige souvent humidifiée, simplement matée dans les ubacs à l’abri du vent. \n* Les crêtes et les arêtes sont décapées par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
