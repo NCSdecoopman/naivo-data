@@ -3,8 +3,8 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-01-17T16:00:00",
-    "valid_until": "2026-01-18T18:00:00",
+    "issued_at": "2026-01-18T16:00:00",
+    "valid_until": "2026-01-19T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-19",
+        "date": "2026-01-20",
         "label": "Indice de risque marqué",
-        "comment": "Lundi, le vent de Sud-Est faiblit, sous un ciel encore bien voilé. Le manteau neigeux se stabilise lentement mais le risque reste marqué, notamment dans les secteurs où les plaques reposent sur des couches fragiles persistantes.",
+        "comment": "Le manteau se stabilise progressivement mardi, avec le retour du soleil et un vent nettement plus faible. Les plaques formées ces derniers jours restent toutefois réactives par endroits, notamment là où elles reposent sur des couches fragiles persistantes.",
         "trend": "steady"
       }
     },
@@ -64,10 +64,10 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-13",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-14",
           "min_cm": 0,
           "max_cm": 0
@@ -112,10 +107,15 @@
         {
           "date": "2026-01-17",
           "min_cm": 0,
-          "max_cm": 0
+          "max_cm": 5
         },
         {
           "date": "2026-01-18",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-01-19",
           "min_cm": 0,
           "max_cm": 0
         }
@@ -128,12 +128,12 @@
     },
     "stability": {
       "title": "NOMBREUSES INSTABILITES DANS LA NEIGE RECENTE VENTEE VERS LA MEIJE / LES ECRINS, DECLENCHEMENT A DISTANCE POSSIBLE",
-      "text": "NOMBREUSES INSTABILITES DANS LA NEIGE RECENTE VENTEE VERS LA MEIJE / LES ECRINS, DECLENCHEMENT A DISTANCE POSSIBLE\n\nDéclenchements provoqués : Vers les Ecrins, La Meije, l'Olan, des instabilités sont présentes dans les 15-30cm de neige récente. En journée de dimanche le vent de secteur Sud-Est souffle sensiblement et vient former de nouvelles plaques dans cette couche de neige. Ces instabilités seront difficiles à déceler car d'aspects variables, parfois en neige poudreuse, parfois en neige densifiée par le vent / cartonnées. Elles pourront se retrouver en tout versants mais seront un peu plus réactives et un peu plus épaisses dans un large secteur Nord. Dans ces mêmes secteurs Nord et toujours principalement vers les Ecrins / La Meije, le risque est parfois ampliﬁé par la présence de grains anguleux enfouis sous les chutes de neige récentes, rendant possible des déclenchements à distance et des départs de grandes ampleurs. \nObservables : Chasse neige en cours, accumulations de neige, neige densifiée par le vent en surface et plus légère en profondeur, \"woumfs\".\nEn allant vers le Taillefer, le risque est plus limité. Les épaisseurs de neige récente sont très faibles, et les couches fragiles persistantes plus rares. Le manteau neigeux a été fortement travaillé par le vent depuis le début de semaine, avec une neige souvent béton. Des plaques dures peuvent être localement présentes, mais sont la plupart du temps dures à déclencher. Le vent de Sud-Est devrait toutefois réussir à arracher de la neige vers les crêtes, créant de nouvelles accumulations en contrebas, hébergeant parfois quelques instabilités. \n\nDéclenchements spontanés :  En large secteur Nord et surtout au-dessus de 2000m, le vent de secteur Sud-Est vient charger les pentes et des avalanches pourraient partir spontanément, de tailles petites à moyennes, voire localement de grande taille. Le risque est plus marqué vers les Ecrins / l'Olan où les quantités de neige fraîche sont plus importantes. Sous les rochers / barres rocheuses exposées à un large Sud, une coulée humide est possible aux heures les plus chaudes de la journée, emportant la couche de neige récente.",
+      "text": "NOMBREUSES INSTABILITES DANS LA NEIGE RECENTE VENTEE VERS LA MEIJE / LES ECRINS, DECLENCHEMENT A DISTANCE POSSIBLE\n\nDéclenchements provoqués : Vers les Ecrins, La Meije, l'Olan ou les Deux Alpes, de nombreuses instabilités restent présentes dans la neige récente ventée. Sur ces secteurs, 15 à 30cm de neige sont tombés entre vendredi et samedi, avant un fort épisode de vent de Sud-Est dimanche. Par conséquent, de nombreuses plaques se sont formées même loin des crêtes, plus nombreuses en versants Ouest à Nord. Ces instabilités sont difficiles à déceler car d'aspects variables, parfois en neige poudreuse, plus souvent en neige densifiée par le vent / cartonnées. Dans un large secteur Nord et toujours principalement vers les Ecrins / La Meije / les Deux Alpes, le risque est parfois ampliﬁé par la présence de grains anguleux peu enfouis sous les chutes de neige récentes, rendant possible des déclenchements à distance et des départs de grandes ampleurs. Ces couches fragiles se retrouvent surtout en milieu / bas de pentes, dans les secteurs abrités du vent. \nObservables : Accumulations de neige, neige densifiée par le vent en surface et plus légère en profondeur, \"woumfs\".\nSous 2000m, quelques plaques sont également présentes, mais elles sont de moindre taille, et plus difficiles à déclencher. \nEn allant vers le Taillefer, le risque est plus limité. Les épaisseurs de neige récente sont très faibles, et les couches fragiles persistantes plus rares. Le manteau neigeux a été fortement travaillé par le vent depuis le début de semaine, avec une neige souvent béton. Des plaques dures peuvent être localement présentes, mais sont la plupart du temps dures à déclencher. Le vent de Sud-Est devrait toutefois réussir à arracher de la neige vers les crêtes, créant de nouvelles accumulations en contrebas, hébergeant parfois quelques instabilités. \n\nDéclenchements spontanés :  En versants Ouest à Nord principalement et surtout au-dessus de 2000m, le vent de secteur Sud-Est continue de charger les pentes et de rares avalanches pourraient partir spontanément, de tailles petites à moyennes, voire très rarement une de grande taille. Le risque est plus marqué vers les Ecrins / l'Olan où les quantités de neige récente sont plus importantes. Sous les rochers / barres rocheuses exposées à un large Sud, une coulée humide est possible aux heures les plus chaudes de la journée, emportant la couche de neige récente.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement s'est légèrement amélioré vers les Ecrins suite aux chutes de neige de samedi, mais restent déficitaires sur le massif. Limites skiables à partir de 1200/1600m.\n\nQualité de la neige dimanche : 15-30cm de neige récente vers les Ecrins / La Meije / l'Olan. Parfois déjà bien densifiée / cartonnée par le vent, voire humidifiée en surface sous 2200m environ.Quelques combes abritées peuvent encore héberger une neige froide plus légère. En allant vers le Taillefer, les épaisseurs de neige récente sont très faibles, et on retrouve souvent une neige fortement travaillée par le vent, souvent dure / croûtée, voire glacée par endroits. En moyenne montagne, humidification en journée.",
+      "text": "Qualification de l’enneigement : L'enneigement s'est légèrement amélioré vers les Ecrins suite aux chutes de neige de samedi, mais reste déficitaire sur le massif à toutes altitudes... Limites skiables à partir de 1200/1600m.\n\nQualité de la neige lundi : Neige récente cartonnée par le vent vers les Ecrins / La Meije / l'Olan. Quelques combes abritées peuvent encore héberger une neige froide plus légère. En allant vers le Taillefer, très peu de neige récente, on retrouve souvent une neige fortement travaillée par le vent, souvent dure / croûtée. Sous 2000m le manteau a pris la pluie sur le Taillefer, avec une neige parfois glacée avec le regel nocturne. Amélioration en journée en versants chauds, mais humidification limitée par le voile nuageux.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

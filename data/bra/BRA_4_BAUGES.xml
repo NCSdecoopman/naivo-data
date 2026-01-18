@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="4" MASSIF="Bauges" DATEBULLETIN="2026-01-17T16:00:00" DATEECHEANCE="2026-01-18T18:00:00" DATEVALIDITE="2026-01-18T18:00:00" DATEDIFFUSION="2026-01-17T16:16:00" AMENDEMENT="false">
-  <DateValidite>2026-01-18T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="4" MASSIF="Bauges" DATEBULLETIN="2026-01-18T16:00:00" DATEECHEANCE="2026-01-19T18:00:00" DATEVALIDITE="2026-01-19T18:00:00" DATEDIFFUSION="2026-01-18T16:07:00" AMENDEMENT="false">
+  <DateValidite>2026-01-19T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="2" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="2" COMMENTAIRE="Indice de risque limité." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-01-19T00:00:00"/>
+    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="&lt;1600" ALTITUDE="1600" RISQUE2="2" EVOLURISQUE2="" LOC2="&gt;1600" RISQUEMAXI="2" COMMENTAIRE="Au-dessus de 1600m indice de risque limité, plus bas indice faible." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-01-20T00:00:00"/>
     <PENTE NE="true" E="true" SE="false" S="false" SW="false" W="false" NW="true" N="true" COMMENTAIRE=""/>
-    <ACCIDENTEL><![CDATA[Rares instabilité dues au vent en ubacs.]]></ACCIDENTEL>
+    <ACCIDENTEL><![CDATA[Rares instabilité dues au vent de Sud/Sud-Est.]]></ACCIDENTEL>
     <NATUREL><![CDATA[Rares plaques de fond.]]></NATUREL>
     <RESUME><![CDATA[Départs spontanés : Rares plaques de fond.
-Déclenchements skieurs : Rares instabilité dues au vent en ubacs.]]></RESUME>
+Déclenchements skieurs : Rares instabilité dues au vent de Sud/Sud-Est.]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque limité]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Risque stationnaire. La journée est ensoleillée et le vent est plus calme. ]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[La stabilisation du manteau neigeux continu. La journée est ensoleillée et le vent est plus calme. ]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_4.png</ImageRisque>
@@ -18,58 +18,54 @@ Déclenchements skieurs : Rares instabilité dues au vent en ubacs.]]></RESUME>
   </CARTOUCHERISQUE>
   <STABILITE>
     <SitAvalTyp SAT1="5" SAT2=""/>
-    <TITRE><![CDATA[Bonne stabilité globale, rares instabilités dans les pentes à l'ombre. ]]></TITRE>
+    <TITRE><![CDATA[Bonne stabilité globale, rares instabilités dans la neige restée froide. ]]></TITRE>
     <TEXTESANSTITRE><![CDATA[Départs spontanés :
 * Rares avalanches de fond, dans les pentes herbeuses ou sur les dalles rocheuses. Départs possibles à toute heure du jour et de la nuit. Taille 1 à 2 (petite à moyenne).
 
 Déclenchements provoqués :
-* Très rares plaques à vent au-dessus de 1800/2000 m. Formées par le vent de Sud/Sud-Est dans les ubacs. Taille 1, très rarement  2 (petite très rarement moyenne). 
-Observables : irrégularités d'épaisseurs, fissures sous les skis, crêtes décapées]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[Bonne stabilité globale, rares instabilités dans les pentes à l'ombre. 
+* Très rares plaques à vent au-dessus de 1800/2000 m. Formées par le vent de Sud/Sud-Est de ces derniers jours dans la neige restée légère. Taille 1 (petite), rarement 2 (moyenne). 
+Observables : irrégularités d'épaisseurs, fissures sous les skis.]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[Bonne stabilité globale, rares instabilités dans la neige restée froide. 
 
 Départs spontanés :
 * Rares avalanches de fond, dans les pentes herbeuses ou sur les dalles rocheuses. Départs possibles à toute heure du jour et de la nuit. Taille 1 à 2 (petite à moyenne).
 
 Déclenchements provoqués :
-* Très rares plaques à vent au-dessus de 1800/2000 m. Formées par le vent de Sud/Sud-Est dans les ubacs. Taille 1, très rarement  2 (petite très rarement moyenne). 
-Observables : irrégularités d'épaisseurs, fissures sous les skis, crêtes décapées]]></TEXTE>
+* Très rares plaques à vent au-dessus de 1800/2000 m. Formées par le vent de Sud/Sud-Est de ces derniers jours dans la neige restée légère. Taille 1 (petite), rarement 2 (moyenne). 
+Observables : irrégularités d'épaisseurs, fissures sous les skis.]]></TEXTE>
   </STABILITE>
   <QUALITE>
-    <TEXTE><![CDATA[Enneigement : L'enneigement est de nouveau faible pour la saison. On peut chausser les skis vers 1000/1200 m. Pas de sous-couche sous 1500 m.
+    <TEXTE><![CDATA[Enneigement : L'enneigement est de nouveau faible pour la saison. On peut chausser les skis vers 1000/1200 m. Pas de sous-couche sous 1500 m, les cailloux ressortent de la neige.
 
-Qualité de la neige dimanche :
-* Absence de regel nocturne. Neige humide dans la plupart des versants, maté dans les ubacs. 
-* Près des crêtes, neige dure soufflée. ]]></TEXTE>
+Qualité de la neige lundi :
+* Une fine croute de regel non portante est présente au lever du jour, puis elle se ramollit l'après-midi, principalement dans les versants ensoleillés. Dans les versants à l'ombre et à l'abri du vent, la neige est froide souvent tassée et durcie.
+* Les crêtes et les arêtes de moyenne montagne sont peu enneigées. ]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-01-17T00:00:00" LimiteSud="1000" LimiteNord="1000">
+  <ENNEIGEMENT DATE="2026-01-18T00:00:00" LimiteSud="1100" LimiteNord="1000">
     <NIVEAU ALTI="1000" N="5" S="0"/>
-    <NIVEAU ALTI="1500" N="45" S="35"/>
+    <NIVEAU ALTI="1500" N="40" S="30"/>
     <NIVEAU ALTI="2000" N="70" S="50"/>
     <ImageEnneigement>montagne_enneigement_4.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-01-13T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-01-14T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-01-15T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-01-16T00:00:00" SS24Min="0" SS24Max="1"/>
     <NEIGE24H DATE="2026-01-17T00:00:00" SS24Min="0" SS24Max="1"/>
     <NEIGE24H DATE="2026-01-18T00:00:00" SS24Min="0" SS24Max="0"/>
+    <NEIGE24H DATE="2026-01-19T00:00:00" SS24Min="0" SS24Max="0"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_4.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="1500" ALTITUDEVENT2="2000">
-    <COMMENTAIRE>Ciel nuageuxavec quelques trouées l'après-midi. Assez doux pour la saison. Vent de SE assez fort. </COMMENTAIRE>
-    <ECHEANCE DATE="2026-01-18T06:00:00" FF1="30" DD1="SE" FF2="40" DD2="SE" ISO0="2500" PLUIENEIGE="-1" TEMPSSENSIBLE="4" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-01-18T12:00:00" FF1="35" DD1="SE" FF2="40" DD2="SE" ISO0="2500" PLUIENEIGE="-1" TEMPSSENSIBLE="4" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-01-18T18:00:00" FF1="25" DD1="SE" FF2="30" DD2="SE" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="3" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-01-19T00:00:00" FF1="20" DD1="SE" FF2="25" DD2="SE" ISO0="2300" PLUIENEIGE="-1" TEMPSSENSIBLE="3" MERNUAGES="-1"/>
+    <COMMENTAIRE>Le ciel se dégage progressivement au fil de la journée. Le vent est faible. </COMMENTAIRE>
+    <ECHEANCE DATE="2026-01-19T06:00:00" FF1="30" DD1="SE" FF2="35" DD2="SE" ISO0="2200" PLUIENEIGE="-1" TEMPSSENSIBLE="4" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-01-19T12:00:00" FF1="25" DD1="SE" FF2="30" DD2="SE" ISO0="2200" PLUIENEIGE="-1" TEMPSSENSIBLE="3" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-01-19T18:00:00" FF1="25" DD1="SE" FF2="35" DD2="SE" ISO0="2200" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-01-20T00:00:00" FF1="30" DD1="SE" FF2="40" DD2="SE" ISO0="2200" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_4.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-01-11T06:00:00" FF1="20" DD1="N" FF2="30" DD2="N" ISO0="500" PLUIENEIGE="300" TEMPSSENSIBLE="81"/>
-      <ECHEANCE DATE="2026-01-11T12:00:00" FF1="15" DD1="NE" FF2="20" DD2="NE" ISO0="800" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
-      <ECHEANCE DATE="2026-01-11T18:00:00" FF1="10" DD1="N" FF2="10" DD2="N" ISO0="1000" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
-      <ECHEANCE DATE="2026-01-12T00:00:00" FF1="10" DD1="NE" FF2="10" DD2="S" ISO0="1500" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
       <ECHEANCE DATE="2026-01-12T06:00:00" FF1="10" DD1="S" FF2="15" DD2="S" ISO0="1900" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
       <ECHEANCE DATE="2026-01-12T12:00:00" FF1="15" DD1="S" FF2="20" DD2="SO" ISO0="2200" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
       <ECHEANCE DATE="2026-01-12T18:00:00" FF1="20" DD1="S" FF2="25" DD2="SO" ISO0="2500" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
@@ -94,13 +90,12 @@ Qualité de la neige dimanche :
       <ECHEANCE DATE="2026-01-17T12:00:00" FF1="20" DD1="SE" FF2="30" DD2="SE" ISO0="2100" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
       <ECHEANCE DATE="2026-01-17T18:00:00" FF1="30" DD1="SE" FF2="40" DD2="SE" ISO0="2300" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
       <ECHEANCE DATE="2026-01-18T00:00:00" FF1="25" DD1="SE" FF2="40" DD2="SE" ISO0="2500" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
+      <ECHEANCE DATE="2026-01-18T06:00:00" FF1="30" DD1="SE" FF2="40" DD2="SE" ISO0="2500" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
+      <ECHEANCE DATE="2026-01-18T12:00:00" FF1="35" DD1="SE" FF2="40" DD2="SE" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
+      <ECHEANCE DATE="2026-01-18T18:00:00" FF1="25" DD1="SE" FF2="30" DD2="SE" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
+      <ECHEANCE DATE="2026-01-19T00:00:00" FF1="25" DD1="SE" FF2="30" DD2="SE" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-01-11T00:00:00" LimiteSud="700" LimiteNord="700">
-        <NIVEAU ALTI="1000" N="10" S="10"/>
-        <NIVEAU ALTI="1500" N="60" S="40"/>
-        <NIVEAU ALTI="2000" N="100" S="80"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-01-12T00:00:00" LimiteSud="700" LimiteNord="700">
         <NIVEAU ALTI="1000" N="10" S="10"/>
         <NIVEAU ALTI="1500" N="60" S="40"/>
@@ -126,28 +121,33 @@ Qualité de la neige dimanche :
         <NIVEAU ALTI="1500" N="45" S="35"/>
         <NIVEAU ALTI="2000" N="70" S="50"/>
       </ENNEIGEMENT>
-      <ENNEIGEMENT DATE="2026-01-17T00:00:00" LimiteSud="1000" LimiteNord="1000">
+      <ENNEIGEMENT DATE="2026-01-17T00:00:00" LimiteSud="1100" LimiteNord="1000">
         <NIVEAU ALTI="1000" N="5" S="0"/>
-        <NIVEAU ALTI="1500" N="45" S="35"/>
+        <NIVEAU ALTI="1500" N="40" S="30"/>
+        <NIVEAU ALTI="2000" N="70" S="50"/>
+      </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-01-18T00:00:00" LimiteSud="1100" LimiteNord="1000">
+        <NIVEAU ALTI="1000" N="5" S="0"/>
+        <NIVEAU ALTI="1500" N="40" S="30"/>
         <NIVEAU ALTI="2000" N="70" S="50"/>
       </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-01-12T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-01-13T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-01-14T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-01-15T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-01-16T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-01-17T00:00:00" SS24Min="0" SS24Max="1"/>
+      <NEIGE24H DATE="2026-01-18T00:00:00" SS24Min="0" SS24Max="1"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-01-11T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-01-12T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-01-13T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-01-14T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-01-15T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-01-16T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-01-17T00:00:00" RISQUEMAXI="2"/>
+      <RISQUE DATE="2026-01-18T00:00:00" RISQUEMAXI="2"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_4.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_4.png</Image7derniersjours_portrait>

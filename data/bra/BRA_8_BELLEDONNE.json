@@ -3,8 +3,8 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-01-17T16:00:00",
-    "valid_until": "2026-01-18T18:00:00",
+    "issued_at": "2026-01-18T16:00:00",
+    "valid_until": "2026-01-19T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-19",
+        "date": "2026-01-20",
         "label": "Indice de risque limité",
-        "comment": "Lundi, le vent de Sud-Est faiblit, sous un ciel encore bien voilé. Le manteau neigeux se stabilise progressivement, avec un risque devenant limité.",
+        "comment": "Le manteau se stabilise progressivement mardi, avec le retour du soleil et un vent nettement plus faible. Les plaques formées ces derniers jours restent toutefois réactives par endroits.",
         "trend": "down"
       }
     },
@@ -64,7 +64,7 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
+        "E": false,
         "SE": false,
         "S": false,
         "SW": false,
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-13",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-14",
           "min_cm": 0,
           "max_cm": 0
@@ -118,34 +113,39 @@
           "date": "2026-01-18",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-19",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 3
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "FORMATIONS DE NOUVELLES PLAQUES A VENT EN JOURNEE SOUS L'EFFET DU VENT DE SUD-EST",
-      "text": "FORMATIONS DE NOUVELLES PLAQUES A VENT EN JOURNEE SOUS L'EFFET DU VENT DE SUD-EST\n\nDéclenchements provoqués : En large secteur Nord, de nouvelles plaques se forment au ﬁl de la journée sous le vent de Sud-Est, et s'ajoutent aux plaques déjà formées cette semaine. Sous la puissance du vent ces instabilités prennent souvent l'aspect de plaques dures (neige dure / cartonnée par le vent) et se retrouvent plutôt loin des crêtes. Les instabilités sont sensibles au passage d'un seul skieur, avec un risque de déclenchement plus marqué là où les plaques sont moins épaisses. Très localement, le risque peut être amplifié par la présence de grains anguleux enfouis sous les chutes de neige récentes, rendant possible des déclenchements à distance. \nObservables : Chasse neige en cours, accumulations de neige, neige dense en surface et plus légère en profondeur.\nEn versants ensoleillés, et sous 2100m environ, le manteau est généralement plus stable et les volumes mobilisables moins importants.\n\nDéclenchements spontanés :  En large secteur Nord et surtout au-dessus de 2000m, le vent de secteur Sud-Est vient charger les pentes et quelques avalanches pourraient partir spontannément, de tailles petites à moyennes, voire localement de grande taille. Dans les pentes raides herbeuses exposées au Sud, une rare avalanche de glissement est possible, surtout à basse altitude. \n\nAutres : En altitude, nombreuses surfaces dures / glacées, rendant parfois la progression délicate.",
+      "title": "NOMBREUSES PLAQUES FORMEES PAR LE VENT DE SUD-EST, SURTOUT SUR LE NORD DU MASSIF. DECLENCHEMENT A DISTANCE LOCALEMENT POSSIBLE EN VERSANTS FROIDS",
+      "text": "NOMBREUSES PLAQUES FORMEES PAR LE VENT DE SUD-EST, SURTOUT SUR LE NORD DU MASSIF. DECLENCHEMENT A DISTANCE LOCALEMENT POSSIBLE EN VERSANTS FROIDS\n\nDéclenchements provoqués : Dans un large secteur Nord mais principalement en versants Ouest à Nord, des instabilités se sont formées sous l'épisode de vent de Sud-Est qui dure depuis samedi. Ces instabilités prennent souvent la forme de plaques dures et se retrouvent même loin des crêtes, le vent ayant soufflé particulièrement fort par moments. Ces plaques sont généralement peu épaisses et peu larges, mais peuvent être réactives au passage d'un skieur. Le départ d'une plaque de surface pourrait toutefois par cascade faire partir une plaque dure plus ancienne et plus épaisse difficilement sollicitables par un skieur, ou encore venir solliciter des couches fragiles enfouies, dans quel cas une avalanche de grande ampleur serait possible. \nObservables : Chasse neige en cours, accumulations de neige, neige ventée reposant sur une neige plus légère \n\nDéparts spontanés : Surtout en versants Ouest à Nord, quelques plaques de tailles petites à moyennes pourraient partir spontanément dans les pentes chargées par le vent.\n\nAutres : En altitude, neige souvent béton, voire glacée par endroits, rendant la progression difficile sans équipements.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement est correct au-dessus de 2000m environ, mais est médiocre à basses altitudes et en versants Sud. Il est parfois médiocre en haute montagne également, le vent ayant dégarni les crêtes et sommets de pentes. Limites skiables à partir de 1100/1600m.\n\nQualité de la neige dimanche :  Le ski est souvent mauvais sur le massif, avec une neige très travaillée par le vent, souvent dure / cartonnée. Des surfaces glacées ressortent parfois, et les crêtes sont souvent dégarnies. Très rares combes froides bien abritées en poudreuse dense. En journée, humidification sous 2200/2300m environ.",
+      "text": "Qualification de l’enneigement : L'enneigement est correct au-dessus de 2000m environ, mais est médiocre à basses altitudes et en versants Sud. Il est parfois médiocre en haute montagne également, le vent ayant dégarni les crêtes et sommets de pentes. Limites skiables à partir de 1100/1600m.\n\nQualité de la neige lundi :  Le ski est souvent mauvais sur le massif, avec une neige très travaillée par le vent, souvent dure / cartonnée. Des surfaces glacées ressortent parfois, et les crêtes sont souvent dégarnies. Très rares combes froides bien abritées en poudreuse dense. Légère humidification en journée, surtout en versants Sud de moyenne montagne.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 800,
-        "south": 1200
+        "south": 1300
       },
       "levels_cm": [
         {
           "alt_m": 1500,
           "N": 40,
-          "S": 15
+          "S": 10
         },
         {
           "alt_m": 2000,

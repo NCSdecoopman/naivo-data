@@ -3,14 +3,14 @@
   "massif": "Haut-Var Haut-Verdon",
   "bulletin": {
     "id": 22,
-    "issued_at": "2026-01-17T16:00:00",
-    "valid_until": "2026-01-18T18:00:00",
+    "issued_at": "2026-01-18T16:00:00",
+    "valid_until": "2026-01-19T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice limité.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2000,
@@ -27,7 +27,7 @@
           {
             "id": "zone2",
             "loc": ">2000",
-            "risk": 4,
+            "risk": 3,
             "evolution_to": null,
             "position": "top"
           }
@@ -46,17 +46,17 @@
             "evolution_to": null
           },
           "top": {
-            "text": "4",
-            "risk": 4,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-01-19",
-        "label": "Indice de risque fort",
-        "comment": "Maintien d'un risque fort au-dessus de 2200 m environ. Le vent modéré de secteur est entraine également la formation de nouvelles instabilités, localement volumineuses.",
+        "max_level": 3,
+        "date": "2026-01-20",
+        "label": "Indice de risque marqué",
+        "comment": "Maintien d'un risque marqué. De nombreuses instabilités sont encore en place et peuvent être facilement déclenchables.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-13",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-14",
           "min_cm": 0,
           "max_cm": 0
@@ -116,24 +111,29 @@
         },
         {
           "date": "2026-01-18",
-          "min_cm": 3,
-          "max_cm": 7
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-01-19",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 13,
-        "last_48h_max_cm": 27
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "FORTE INSTABILITÉ DANS LA NEIGE RÉCENTE",
-      "text": "FORTE INSTABILITÉ DANS LA NEIGE RÉCENTE\n\nDéclenchements provoqués :  nombreuses instabilités en place, formées par les récentes chutes de neige ventées. D'autres en formation avec le fort vent de secteur est ce dimanche. Elles sont souvent difficilement identifiables, car d'aspect poudreux, et facilement déclenchables par un seul skieur. Avalanches de taille petite (taille 1) à moyenne (taille 2) dans les zones d'accumulation par le vent. Dans les orientations d'un large secteur nord (ouest, nord, est) au-dessus de 2200 m environ, des avalanches de taille moyenne à grande (taille 2 à 3) sont possibles et déclenchables à distance. En effet, la neige récente se dépose sur un manteau neigeux faiblement stabilisé, en raison de la présence de couches fragiles peu enfouies. \nEn dessous de 2000/2200 m, le risque est plus limité, la neige récente s'étant généralement humidifié. Quelques instabilités sont néanmoins en place et peuvent encore être facilement déclenchables par un skieur. Les volumes de neige mobilisés sont plus faibles, avalanches de taille petite, très rarement moyenne. \n\nDéparts spontanés : encore possibles en matinée lors des averses de neige modérées, mais restant de taille petite à rarement moyenne. Une grande avalanche reste possible sur l'ensemble du massif, dans les zones d'accumulation de haute altitude par surcharge dû au vent.",
+      "title": "INSTABILITÉ MARQUÉE DANS LA NEIGE RÉCENTE",
+      "text": "INSTABILITÉ MARQUÉE DANS LA NEIGE RÉCENTE\n\nDéclenchements provoqués :  nouvelles instabilités en formation avec le vent d'est qui reste modéré ce lundi. Elles s'ajoutent aux plaques formées par les récentes chutes de neige ventées des derniers jours. Dans les combes bien abritées du vent, elles sont difficilement identifiables, car encore d'aspect poudreux. Elles peuvent aussi être d'aspect durci par le vent, plus facilement identifiables, et présentes même loin des crêtes et ruptures de pentes. Elles sont facilement déclenchables par un seul skieur, car la neige récente se dépose souvent sur des grains à faible cohésion faisant office de couche fragile. Avalanches de taille petite (taille 1) à moyenne (taille 2) dans les zones d'accumulation par le vent. Dans les orientations d'un large secteur nord (ouest, nord, est) au-dessus de 2000/2200 m environ, des avalanches de taille moyenne à grande (taille 2 à 3) sont possibles et déclenchables à distance. En effet, le manteau neigeux est encore peu stabilisé et se compose de couches fragiles persistantes plus profondément enfouies. \nEn dessous de 2000/2200 m, le risque est plus limité, la neige récente s'étant généralement humidifié. \n\nDéparts spontanés : principalement par surcharge due au vent qui reste modéré ce lundi et qui crée des accumulations importantes. Une grande avalanche reste possible sur l'ensemble du massif, dans les zones d'accumulation de haute altitude par surcharge dû au vent.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement encore déficitaire pour une mi-janvier, mais en amélioration en altitude avec les chutes de neige.\nDonnées observées ce samedi: 80 cm au-dessus de 2000 m environ. \n \nLimite d'enneigement skiable : à partir de 1400 m en ubacs sur terrains favorables (pentes herbeuses, routes forestières) dans le Haut-Verdon, plutôt 1600 m dans le Haut-Var.  \n\nÉtat de la neige en surface : dimanche matin, on retrouve 30/40 cm de neige fraîche tombée vendredi et samedi, localement 50 cm sur le Haut-Verdon. Des averses apportent encore quelques cm supplémentaires. Neige légère en altitude et dans les combes bien abritées du vent, humide sous 2000 m. Le fort transport par le vent densifie la neige dans les endroits bien exposés. Cette neige repose souvent sur de la neige durcie par le vent ou croûté en adrets raides jusqu'à 2200/2400 m.",
+      "text": "Enneigement encore déficitaire pour une mi-janvier, mais en amélioration en altitude avec les chutes de neige.\nDonnées observées ce dimanche : 80 cm au-dessus de 2000 m environ. \n \nLimite d'enneigement skiable : à partir de 1400 m en ubacs sur terrains favorables (pentes herbeuses, routes forestières) dans le Haut-Verdon, plutôt 1600 m dans le Haut-Var.  \n\nÉtat de la neige en surface : lundi matin, on retrouve 30/40 cm de neige récente tombée vendredi et samedi, localement 50 cm sur le Haut-Verdon. Neige légère en altitude et dans les combes bien abritées du vent, humide sous 2000/2200 m. Le fort transport par le vent densifie la neige dans les endroits bien exposés. Cette neige repose souvent sur de la neige durcie par le vent ou croûté en adrets raides jusqu'à 2200/2400 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 65,
-          "S": 35
+          "N": 75,
+          "S": 45
         },
         {
           "alt_m": 2500,
-          "N": 120,
-          "S": 90
+          "N": 130,
+          "S": 80
         }
       ],
       "icon_key": "snowpack",

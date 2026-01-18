@@ -3,37 +3,49 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-01-17T16:00:00",
-    "valid_until": "2026-01-18T18:00:00",
+    "issued_at": "2026-01-18T16:00:00",
+    "valid_until": "2026-01-19T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Au-dessus de 1600m indice de risque limité, plus bas indice faible.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1600,
+        "split_axis": "horizontal",
+        "split_label": "1600m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1600",
+            "risk": 1,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1600",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1600m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
+          },
+          "top": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-19",
+        "date": "2026-01-20",
         "label": "Indice de risque limité",
-        "comment": "Risque stationnaire. La journée est ensoleillée et le vent est plus calme.",
+        "comment": "La stabilisation du manteau neigeux continu. La journée est ensoleillée et le vent est plus calme.",
         "trend": "steady"
       }
     },
@@ -77,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-13",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-14",
           "min_cm": 0,
           "max_cm": 0
@@ -105,28 +112,33 @@
           "date": "2026-01-18",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-19",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 1
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Bonne stabilité globale, rares instabilités dans les pentes à l'ombre.",
-      "text": "Bonne stabilité globale, rares instabilités dans les pentes à l'ombre. \n\nDéparts spontanés :\n* Rares avalanches de fond, dans les pentes herbeuses ou sur les dalles rocheuses. Départs possibles à toute heure du jour et de la nuit. Taille 1 à 2 (petite à moyenne).\n\nDéclenchements provoqués :\n* Très rares plaques à vent au-dessus de 1800/2000 m. Formées par le vent de Sud/Sud-Est dans les ubacs. Taille 1, très rarement  2 (petite très rarement moyenne). \nObservables : irrégularités d'épaisseurs, fissures sous les skis, crêtes décapées",
+      "title": "Bonne stabilité globale, rares instabilités dans la neige restée froide.",
+      "text": "Bonne stabilité globale, rares instabilités dans la neige restée froide. \n\nDéparts spontanés :\n* Rares avalanches de fond, dans les pentes herbeuses ou sur les dalles rocheuses. Départs possibles à toute heure du jour et de la nuit. Taille 1 à 2 (petite à moyenne).\n\nDéclenchements provoqués :\n* Très rares plaques à vent au-dessus de 1800/2000 m. Formées par le vent de Sud/Sud-Est de ces derniers jours dans la neige restée légère. Taille 1 (petite), rarement 2 (moyenne). \nObservables : irrégularités d'épaisseurs, fissures sous les skis.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : L'enneigement est de nouveau faible pour la saison. On peut chausser les skis vers 1000/1200 m. Pas de sous-couche sous 1500 m.\n\nQualité de la neige dimanche :\n* Absence de regel nocturne. Neige humide dans la plupart des versants, maté dans les ubacs. \n* Près des crêtes, neige dure soufflée.",
+      "text": "Enneigement : L'enneigement est de nouveau faible pour la saison. On peut chausser les skis vers 1000/1200 m. Pas de sous-couche sous 1500 m, les cailloux ressortent de la neige.\n\nQualité de la neige lundi :\n* Une fine croute de regel non portante est présente au lever du jour, puis elle se ramollit l'après-midi, principalement dans les versants ensoleillés. Dans les versants à l'ombre et à l'abri du vent, la neige est froide souvent tassée et durcie.\n* Les crêtes et les arêtes de moyenne montagne sont peu enneigées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1000,
-        "south": 1000
+        "south": 1100
       },
       "levels_cm": [
         {
@@ -136,8 +148,8 @@
         },
         {
           "alt_m": 1500,
-          "N": 45,
-          "S": 35
+          "N": 40,
+          "S": 30
         },
         {
           "alt_m": 2000,

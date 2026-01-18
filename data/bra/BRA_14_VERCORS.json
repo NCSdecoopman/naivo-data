@@ -3,8 +3,8 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-01-17T16:00:00",
-    "valid_until": "2026-01-18T18:00:00",
+    "issued_at": "2026-01-18T16:00:00",
+    "valid_until": "2026-01-19T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-19",
+        "date": "2026-01-20",
         "label": "Indice de risque limité",
-        "comment": "Lundi, le manteau se stabilise en altitude tandis que l'humidification se poursuit, avec de probables coulées humides / avalanches de fond à basse altitude.",
+        "comment": "Mardi, temps ensoleillé. Quelques coulées en versants chauds, mais le manteau est généralement stable, avec un risque faible.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-13",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-14",
           "min_cm": 0,
           "max_cm": 0
@@ -106,22 +101,27 @@
           "date": "2026-01-18",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-19",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 2,
-        "last_48h_max_cm": 7
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES INSTABILITES DANS LA NEIGE RECENTE, COULEES HUMIDES",
-      "text": "QUELQUES INSTABILITES DANS LA NEIGE RECENTE, COULEES HUMIDES \n\nDéclenchements provoqués : Quelques plaques ont pu se former sous les chutes de neige légèrement ventées de samedi. Elles sont difficilement décelables, d'aspect poudreuse dense / neige ventée, et sont surtout présentes au-dessus de 1800m. Elles peuvent encore être relativement faciles à déclencher en matinée, mais deviennent de moins en moins réactive en journée sous l'effet du tassement. \nIndices observables : Accumulations de neige récente, neige plus légère en profondeur. \nTrès localement des instabilités plus anciennes, liées aux épisode de vents de Sud de la semaine, sont encore présentes sous cette couche de neige récente. Elles deviennent dures à déclencher, mais une avalanche de surface dans la neige récente pourrait créer une contrainte suffisante pour déclencher une plaque dure plus enfouie. Ces instabilités se retrouvent surtout en versants Nord, plutôt loin des crêtes, en milieu / bas de pentes. \n\nDéparts spontanés :   Départs de boulettes voire de coulées de neige humides sous les rochers, en pente raide. Possibles parfois même en Nord, avec une couche nuageuse qui chauffera le manteau en tout versant.",
+      "title": "QUELQUES INSTABILITES DANS LA NEIGE RECENTE, COULEES HUMIDES EN VERSANTS CHAUDS",
+      "text": "QUELQUES INSTABILITES DANS LA NEIGE RECENTE, COULEES HUMIDES EN VERSANTS CHAUDS \n\nDéclenchements provoqués : Quelques plaques ont pu se former sous les chutes de neige légèrement ventées de samedi. Elles sont difficilement décelables, d'aspect poudreuse dense / neige ventée, et sont surtout présentes au-dessus de 1800m. Elles sont surtout plus réactives et plus épaisses sur le Sud du massif où les cumuls de neige ont été plus importants. \nIndices observables : Accumulations de neige récente, neige plus légère en profondeur. \nTrès localement des instabilités plus anciennes, liées aux épisode de vents de Sud de la semaine, sont encore présentes sous cette couche de neige récente. Elles deviennent dures à déclencher, mais une avalanche de surface dans la neige récente pourrait créer une surcharge suffisante pour déclencher une plaque dure plus enfouie. Ces instabilités se retrouvent surtout en versants Nord, plutôt loin des crêtes, en milieu / bas de pentes. \n\nDéparts spontanés :  En journée, départs de boulettes voire de coulées de neige humides sous les rochers, en pente raides ensoleillés.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  Avec le récent redoux et le vent, l'enneigement se dégrade notamment en moyenne montagne et vers les crêtes. Guère de neige sous les sapins. Limites skiables remontant vers  1100/1400m.\n\nQualité de la neige dimanche : On retrouve une couche de neige récente au-dessus de 1600m environ, 2-3cm sur le nord du massif, 10-15cm locaux plus au sud. Neige de surface souvent lourde voire croûtée au réveil, hormis en combes Nord d'altitude où on peut encore trouver une neige plus légère. En journée, humidification à toutes altitudes et en tout versants (plus lente toutefois en nord). A plus basse altitude, regel très médiocre, voire inexistant, avec une neige humide dés le réveil.",
+      "text": "Qualification de l’enneigement :  Enneigement correct pour la saison en altitude, mais faible à basse altitude et en versants Sud. Limites skiables remontant vers  1100/1400m.\n\nQualité de la neige lundi : Au-dessus de 1600m environ, on retrouve quelques cm de neige récente densifiée par le vent, jusqu'à 10-15cm sur le Sud du massif. Cette neige est souvent assez lourde, voire légèrement croûtée au réveil par endroit, hormis peut être en combes Nord où elle a pu rester plus froide. En journée, la neige s'alourdit voire s'humidifie en versants ensoleillés, même si le voile d'altitude devrait limiter l'humidification.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -138,7 +138,7 @@
         {
           "alt_m": 1500,
           "N": 60,
-          "S": 30
+          "S": 20
         },
         {
           "alt_m": 2000,

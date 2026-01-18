@@ -3,31 +3,31 @@
   "massif": "Thabor",
   "bulletin": {
     "id": 13,
-    "issued_at": "2026-01-17T16:00:00",
-    "valid_until": "2026-01-18T18:00:00",
+    "issued_at": "2026-01-18T17:00:00",
+    "valid_until": "2026-01-19T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice limité.",
+      "max_level": 3,
+      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 1800,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<1800",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
-            "risk": 4,
+            "loc": ">1800",
+            "risk": 3,
             "evolution_to": null,
             "position": "top"
           }
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "1800m"
         },
         "zones": {
           "bottom": {
@@ -46,18 +46,18 @@
             "evolution_to": null
           },
           "top": {
-            "text": "4",
-            "risk": 4,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-19",
+        "date": "2026-01-20",
         "label": "Indice de risque marqué",
-        "comment": "Risque marqué, avec encore des plaques faciles à déclencher dans les accumulations de neige transportée par le vent.\nLes couches fragiles persistantes enfouies maintiennent un risque de déclencher une plaque volumineuse en ubac.",
-        "trend": "down"
+        "comment": "Risque marqué, avec encore des plaques faciles à déclencher dans la neige récente / ventée.\nLes couches fragiles persistantes enfouies maintiennent un risque de déclencher une plaque volumineuse en ubac.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-13",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-14",
           "min_cm": 0,
           "max_cm": 0
@@ -111,29 +106,34 @@
         },
         {
           "date": "2026-01-17",
-          "min_cm": 10,
-          "max_cm": 15
+          "min_cm": 5,
+          "max_cm": 10
         },
         {
           "date": "2026-01-18",
-          "min_cm": 2,
+          "min_cm": 0,
           "max_cm": 5
+        },
+        {
+          "date": "2026-01-19",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 12,
-        "last_48h_max_cm": 20
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 6
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PLAQUES FRÉQUENTES DANS LA NEIGE FRAÎCHE - CASSURES PARFOIS ÉPAISSES",
-      "text": "PLAQUES FRÉQUENTES DANS LA NEIGE FRAÎCHE - CASSURES PARFOIS ÉPAISSES\n\nDéclenchements provoqués : au-dessus de 2000 m environ, plaques fréquentes et faciles à déclencher dans la neige fraîche travaillée par le fort vent de sud-est. Elles se situent derrière les crêtes, les cols, les ruptures de terrain, mais parfois aussi au milieu des pentes et sont souvent difficiles à détecter. Avalanches généralement moyennes (taille 2). Dans les orientations plutôt ombragées (pentes ouest, nord à est), les plaques, déclenchables aussi à distance, peuvent être épaisses et emporter une grande partie du manteau neigeux en place, car elles reposent souvent sur un manteau neigeux très peu consolidé et constitué d'une importante couche fragile enfouie. Déclenchement directement par le skieur ou suite au départ d'une première plaque de surface. Avalanches moyennes à grandes (taille 2 à 3). Observables : woumfs, fissures sous les skis, manteau neigeux peu résistant en profondeur.\n\nDéparts spontanés : avalanches de neige fraîche en poire ou sous forme de plaques, suite aux petites chutes de neige qui se poursuivent et au transport par le vent.",
+      "title": "MANTEAU NEIGEUX ENCORE INSTABLE",
+      "text": "MANTEAU NEIGEUX ENCORE INSTABLE\n\nDéclenchements provoqués : la couche de neige récente se stabilise progressivement, mais héberge encore de fréquentes instabilités, entretenues par le vent. \n- Des plaques sont présentes derrière les crêtes, les cols, les ruptures de pentes, au pied des barres rocheuses etc. Elles peuvent encore facilement céder au passage d'un skieur et engendrer des avalanches petites à moyennes (taille 1 à 2). Dans les secteurs pas trop ventés, ces plaques sont souvent d'aspect poudreux et plus difficile à détecter. Vers la Savoie et à proximité, ces instabilités sont davantage concentrées dans les zones d'accumulation suite au fort transport par le vent. \n- Dans les ubacs (orientations ouest, nord à est), des cassures plus épaisses emportant tout le manteau neigeux sont possibles, suite à la présence sur une grande épaisseur de couches fragiles persistantes enfouies. Déclenchement possible même en milieu de pente, parfois à distance. Le départ d'une première plaque de surface dans la neige récente peut faciliter le déclenchement d'une plaque plus épaisse en contrebas. Avalanches moyennes (taille 2), voire grandes (taille 3) si la propagation de la cassure se fait sur une grande largeur.\nObservables : accumulations, transport de neige, fissures dans la neige récente, woumfs.\n\nDéparts spontanés : - quelques départs de plaques, suite à la surcharge liée au transport de neige par le vent. Avalanches petites à moyennes (taille 1 à 2), voire grandes (taille 3) en cas de rupture de la couche fragile persistante enfouie.\n- Des avalanches de neige récente en poire dans les pentes raides ou couloirs, sous les éclaircies en journée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement s'améliore un peu avec les récentes chutes de neige, mais reste encore déficitaire pour la période.\nDonnées observées : 50 cm à la Nivôse des Rochilles, 35 cm à celle du Galibier, exposée au vent.\n\nLimite d'enneigement skiable vers 1300/1400 m en ubacs avec précaution, mais il faut monter au-dessus de 1600/1800 m pour avoir un enneigement un peu plus confortable.\n\nÉtat de la neige de surface : neige récente humide ou légèrement croûtée sous 1700/1800 m environ, plus froide au-delà de 2000 m, avec souvent 20/30 cm de neige fraîche, parfois travaillée par le vent.",
+      "text": "L'enneigement s'est un peu amélioré dans certains secteurs avec les récentes chutes de neige, mais il reste encore déficitaire pour la période.\nDonnées observées : 45 cm à la Nivôse des Rochilles, 65 cm à celle du Galibier, exposée au vent.\n\nLimite d'enneigement skiable vers 1300/1400 m en ubacs avec précaution, mais il faut monter au-dessus de 1600/1800 m pour avoir un enneigement un peu plus confortable.\n\nÉtat de la neige de surface : neige récente humide ou légèrement croûtée sous 1700/1800 m environ, plus froide au-delà de 2000 m, avec jusqu'à 20/30 cm de neige récente, souvent travaillée par le vent en particulier vers la Savoie.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 30,
-          "S": 20
+          "N": 35,
+          "S": 25
         },
         {
           "alt_m": 2000,
-          "N": 70,
-          "S": 55
+          "N": 75,
+          "S": 60
         },
         {
           "alt_m": 2500,
-          "N": 120,
-          "S": 80
+          "N": 125,
+          "S": 85
         }
       ],
       "icon_key": "snowpack",

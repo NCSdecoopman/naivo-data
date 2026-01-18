@@ -3,8 +3,8 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-01-17T16:00:00",
-    "valid_until": "2026-01-18T18:00:00",
+    "issued_at": "2026-01-18T17:00:00",
+    "valid_until": "2026-01-19T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-19",
+        "date": "2026-01-20",
         "label": "Indice de risque marqué",
-        "comment": "Risque marqué, avec encore des plaques faciles à déclencher dans les accumulations de neige transportée par le vent.\nLes couches fragiles persistantes enfouies maintiennent un risque de déclencher une plaque volumineuse en ubac.",
+        "comment": "Risque marqué, avec encore quelques plaques faciles à déclencher dans la neige récente / ventée.\nLes couches fragiles persistantes enfouies maintiennent un risque de déclencher une plaque volumineuse en ubac.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-13",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-14",
           "min_cm": 0,
           "max_cm": 0
@@ -118,28 +113,33 @@
           "date": "2026-01-18",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-19",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX INSTABLE AVEC LE TRANSPORT DE NEIGE PAR LE VENT",
-      "text": "MANTEAU NEIGEUX INSTABLE AVEC LE TRANSPORT DE NEIGE PAR LE VENT\n\nDéclenchements provoqués : - à partir de 2000/2200 m, plaques fréquentes dans les accumulations de neige récente, suite au fort transport par le vent d'est à sud-est qui se met en place dans la nuit de samedi à dimanche. Déclenchement facile au passage d'un skieur, provoquant des avalanches petites à moyennes (taille 1 à 2). Ces plaques sont situées derrières les crêtes, les cols ou les ruptures de pente. Observables : zones d'accumulation, changement de texture de la neige sous les skis, woumfs.\n- Dans les ubacs (orientations ouest, nord à est), un départ plus volumineux est possible en cas de sollicitation d'une couche fragile persistante enfouie. Déclenchement parfois en milieu de pente, directement par un skieur ou suite au départ d'une première plaque superficielle. Avalanches moyennes, voire grandes (taille 2 à 3).\n\nDéparts spontanés : - quelques plaques cédant spontanément avec le fort transport par le vent. \n- Des départs superficiels de neige fraîche en poire dans les pentes raides ou couloirs, avec les petites éclaircies attendues dimanche.",
+      "title": "DES INSTABILITÉS ENTRETENUES PAR LE TRANSPORT DE NEIGE PAR LE VENT",
+      "text": "DES INSTABILITÉS ENTRETENUES PAR LE TRANSPORT DE NEIGE PAR LE VENT\n\nDéclenchements provoqués : l'instabilité du manteau neigeux est pilotée essentiellement par le transport de neige par le vent. Des plaques sont présentes derrière les crêtes, les cols, les bosses, au pied des barres rocheuses etc., là où le vent a chargé les pentes. Elles peuvent céder au passage d'un seul skieur et générer des avalanches petites à moyennes (taille 1 à 2). Observables : zones d'accumulation, changements de la texture ou de l'épaisseur de la neige sous les skis.\nDans les ubacs d'altitude (orientations ouest, nord à est), même en milieu de pente, ces plaques peuvent engendrer des avalanches plus volumineuses, en emportant parfois une grande partie du manteau neigeux en place, suite à la présence de couches fragiles persistantes enfouies. Déclenchement à distance possible. Avalanches moyennes (taille 2). Le départ d'une première petite plaque de surface peut faciliter le déclenchement d'une plaque plus épaisse en contrebas. \n\nDéparts spontanés : quelques départs de plaques, suite à la surcharge liée au transport de neige par le vent. Avalanches petites à moyennes (taille 1 à 2).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement reste déficitaire pour une mi-janvier.\n\nLimite d'enneigement skiable vers 1300/1400 m en ubacs avec précaution, mais il faut monter au-dessus de 1600/1800 m pour avoir un enneigement un peu plus confortable. \n\nÉtat de la neige de surface : neige récente humide ou légèrement croûtée sous 2000/2100 m environ, plus froide au-delà de 2200 m, mais souvent bien travaillée par le vent de sud-est qui souffle fort en altitude.",
+      "text": "L'enneigement reste déficitaire pour une mi-janvier.\n\nLimite d'enneigement skiable vers 1300/1400 m en ubacs avec précaution, mais il faut monter au-dessus de 1600/1800 m pour avoir un enneigement un peu plus confortable. \n\nÉtat de la neige de surface : neige récente humide ou légèrement croûtée sous 1800/2000 m environ, plus froide au-delà de 2000/2100 m, mais souvent bien travaillée par le vent de sud-est qui a soufflé fort en altitude.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1000,
-        "south": 1200
+        "north": 1100,
+        "south": 1400
       },
       "levels_cm": [
         {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 85,
-          "S": 55
+          "N": 95,
+          "S": 60
         },
         {
           "alt_m": 2500,
-          "N": 125,
-          "S": 95
+          "N": 135,
+          "S": 105
         }
       ],
       "icon_key": "snowpack",
