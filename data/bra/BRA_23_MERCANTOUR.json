@@ -3,8 +3,8 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-01-18T16:00:00",
-    "valid_until": "2026-01-19T18:00:00",
+    "issued_at": "2026-01-19T16:00:00",
+    "valid_until": "2026-01-20T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-20",
+        "date": "2026-01-21",
         "label": "Indice de risque marqué",
-        "comment": "Maintien d'un risque marqué au-dessus de 2000/2200 m. Nombreuses instabilités formées par le vent et facilement déclenchables.",
+        "comment": "Risque stationnaire ou en baisse. Les instabilités ne se stabilisent que très  progressivement.",
         "trend": "steady"
       }
     },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 3,
       "labels": {
-        "1": "Neige fraîche",
+        "2": "Neige ventée",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-14",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-15",
           "min_cm": 0,
@@ -111,29 +106,34 @@
         },
         {
           "date": "2026-01-18",
-          "min_cm": 10,
-          "max_cm": 20
+          "min_cm": 0,
+          "max_cm": 10
         },
         {
           "date": "2026-01-19",
-          "min_cm": 3,
-          "max_cm": 7
+          "min_cm": 0,
+          "max_cm": 5
+        },
+        {
+          "date": "2026-01-20",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 13,
-        "last_48h_max_cm": 27
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 6
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITÉ MARQUÉE DANS LA NEIGE RÉCENTE ; NOUVELLES PLAQUES EN FORMATION À PROXIMITÉ DE L'ITALIE",
-      "text": "INSTABILITÉ MARQUÉE DANS LA NEIGE RÉCENTE ; NOUVELLES PLAQUES EN FORMATION À PROXIMITÉ DE L'ITALIE\n\nDéclenchements provoqués :  instabilités en formation avec le vent d'est encore modéré sur l'ensemble du massif, ainsi qu'avec les chutes de neige qui se poursuivent à proximité de l'Italie. Elles s'ajoutent aux instabilités présentes sur l'ensemble du massif, formées par les récentes chutes de neige ventées. Dans les combes bien abritées du vent, elles sont difficilement identifiables, car d'aspect poudreux. Elles peuvent aussi être d'aspect durci par le vent, plus facilement identifiables, et présentes même loin des crêtes et ruptures de pentes. Elles sont facilement déclenchables par un seul skieur, car la neige récente se dépose souvent sur des grains à faible cohésion faisant office de couche fragile. Avalanches de taille petite (taille 1) à moyenne (taille 2) dans les zones d'accumulation par le vent. Dans les orientations d'un large secteur nord (ouest, nord, est) au-dessus de 2000/2200 m environ, des avalanches de taille moyenne à grande (taille 2 à 3) sont possibles et déclenchables à distance. En effet, le manteau neigeux est encore peu stabilisé et se compose de couches fragiles persistantes plus profondément enfouies. \n\nDéparts spontanés : avalanches de neige fraîche à proximité de l'Italie, restant de taille petite à moyenne. Une grande avalanche reste possible sur l'ensemble du massif, dans les zones d'accumulation de haute altitude par surcharge dû au vent.",
+      "title": "INSTABILITÉ MARQUÉE ENTRETENUE PAR LE TRANSPORT DE LA NEIGE PAR LE VENT",
+      "text": "INSTABILITÉ MARQUÉE ENTRETENUE PAR LE TRANSPORT DE LA NEIGE PAR LE VENT\n\nDéclenchements provoqués :  nombreuses instabilités, entretenues par le transport de la neige récente par le vent. Elles se situent même loin des crêtes/ sommets et ruptures de pente, plus particulièrement où le vent a chargé les pentes. Déclenchement possible au passage d’un seul skieur, générant plutôt une avalanche de plaque de taille petite à moyenne dans la neige récente. Observables : accumulations de neige, transport de neige, fissures devant les skis, « woumfs ».\nDans les versants ouest / nord / est, déclenchement par skieur possible à distance avec une propagation plus importante. Volume mobilisable plus conséquent, avalanche souvent moyenne, voire grande en cas de sollicitation d’une couche fragile plus enfouie. \n\nEn dessous de 2000 m environ, le risque est plus limité. Plaques à vent plus rares et de moindre taille. \n\nDéparts spontanés : - des plaques peuvent céder spontanément sous la surcharge de la neige transportée par le vent. Avalanches généralement de taille petite à moyenne, une grande possible. \n- départs ponctuels superficiels en pente raide bien ensoleillée près des rochers, surtout mardi mi-journée / après-midi. En effet, la neige récente s’humidifie superficiellement en plein sud avec le retour du soleil.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement encore déficitaire pour une mi-janvier, mais en amélioration en altitude avec les chutes de neige.\nDonnées observées ce samedi : 64 cm à la nivôse de Millefonts (2430 m).\n\nLimite d'enneigement skiable : à partir de 1500/1600 m en ubacs sur terrains favorables (pentes herbeuses, routes forestières), plutôt 2000 m en adrets. Faible enneigement sous 1800/2000 m en ubacs et jusqu'à 2200 m en adrets.\n\nÉtat de la neige en surface : lundi matin, on retrouve 30/40 cm de neige récente tombée vendredi et samedi. Les chutes de neige se poursuivent à proximité de l'Italie et apportent 10/20 cm supplémentaires. Neige légère en altitude et dans les combes bien abritées du vent, humide sous 2000 m. Le fort transport par le vent densifie la neige dans les endroits bien exposés. Cette neige repose souvent sur de la neige durcie par le vent ou croûté en adrets raides jusqu'à 2200/2400 m.",
+      "text": "Enneigement se rapprochant des normales pour la saison.\nDonnées observées : 60 cm à la nivôse de Millefonts (2430 m), 65 cm à Isola 2000 à 1912 m.\n\nLimite d'enneigement skiable : à partir de 1500/1600 m en ubacs sur terrains favorables (pentes herbeuses, routes forestières), plutôt 2000 m en adrets. \n\nÉtat de la neige en surface : neige récente en quantité, lourde sous 1800/2000 m environ. Plus froide au-dessus, mais souvent travaillée par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

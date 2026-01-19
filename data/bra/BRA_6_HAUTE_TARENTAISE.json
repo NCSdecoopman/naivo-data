@@ -3,8 +3,8 @@
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
-    "issued_at": "2026-01-18T16:00:00",
-    "valid_until": "2026-01-19T18:00:00",
+    "issued_at": "2026-01-19T16:00:00",
+    "valid_until": "2026-01-20T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-20",
+        "date": "2026-01-21",
         "label": "Indice de risque marqué",
-        "comment": "Stationnaire",
+        "comment": "Beau temps calme et ensoleillé. Le vent est calme en journée. Malheureusement, le manteau reste instable car les couches fragiles enfouies n'évoluent pas.",
         "trend": "steady"
       }
     },
@@ -52,7 +52,7 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
+        "E": true,
         "SE": false,
         "S": false,
         "SW": false,
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-14",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-15",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-01-19",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-20",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,35 +115,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nouvelles instabilités liées aux chutes de neige en cours, risque très marqué, conditions délicates près de la frontière Italienne.",
-      "text": "Nouvelles instabilités liées aux chutes de neige en cours, risque très marqué, conditions délicates près de la frontière Italienne.\n\nDéclenchements provoqués : \n- En versant Nord-Ouest, Nord et Est : Nombreuses plaques en place dans les pentes les plus raides. Elles sont  d'aspect poudreux à l'abri ou plus dense si il y a eu du vent. Elles reposent sur des couches fragiles persistantes (gobelets, grosses faces planes), départ à distance ou à la moindre sollicitation encore possible avec de grandes propagations possibles. Départ sur de grandes largeur Taille 2 à 3 suivant l'ampleur de la pente.\n- Dans les secteurs les plus ventés ( Secteur La Rosière, Ruitor/grande Sassière et ailleurs toutes les zones de crêtes). On trouve quelques plaques à vent épaisse et dure, souvent difficiles à déclencher mais cassure potentiellement très épaisse (1.5 à 2m et +) lors de ruptures sous forte contrainte (skieurs groupés, saut, chute... ) donnant alors des Taille 3 dépôt en blocs.\n- Dans les secteurs où la neige ventée se dépose  (en s'éloignant des crêtes par ex) le transport par le vent crée de nouvelles plaques, peu épaisse cette fois mais facilement déclenchable Taille 1 à 2. Une taille 3 par déclenchement en cascade est possible suivant la configuration du relief.   \nObservables : Fissures devant les skis, \"Woumfs\" .Tous les indices du transport par le vent en cours ou passé . La présence de traces se skis antérieures n'est pas un signe de stabilité (la plaque a pu prendre de la cohésion depuis les derniers passages). A l'inverse, la présence d'une croute de regel assez épaisse en versant ensoleillé ou zone ventée/décapée est un bon signe de stabilité locale.   .\n\nDéparts spontanés :  Dans les secteurs ou le vent déposent la neige rares départs de plaques cédant sous le poids de la neige rapportée par le vent. Taille 1 à 2  (moyenne).    \n - Quelques plaques de fond sur pentes lisse/herbeuse, là ou la neige sera humide voir pourrie par le foehn donc  plutôt sous 2000m environ.",
+      "title": "Risque accidentel marqué dans les pentes raides en versant froid, surtout près de la frontière italienne.",
+      "text": "Risque accidentel marqué dans les pentes raides en versant froid, surtout près de la frontière italienne.\n\nDéclenchements provoqués : dans les pentes Nord, Ouest et Est, quelques plaques parfois très réactives. \nCes plaques reposent sur des couches fragiles qui évoluent pas ou peu (grains sans cohésion : gobelets ou faces planes). Déclenchements à distance possibles, avec de larges propagations engendrant des avalanches de taille 2 à 3 (moyennes à grandes).\nDans les secteurs les plus ventés (La Rosière/Ruitor/Grande Sassière et ailleurs toutes les zones de crêtes), on trouve quelques plaques à vent épaisses et dures, souvent difficiles à déclencher mais avec une cassure potentiellement très épaisse (2 m et +) lors de ruptures sous forte contrainte (skieurs groupés, saut, chute... ), donnant alors des tailles 3 avec dépôt en blocs.\nObservables : hormis un \"woumf\" de la dernière chance, les observables sont peu nombreux en surface (la couche fragile se situe aussi bien sous une neige ventée que sous une neige d'apparence encore poudreuse). La présence de traces de ski antérieures n'est pas un signe de stabilité. A l'inverse, la présence d'une croute de regel assez épaisse en versant ensoleillé ou zone ventée/décapée est un bon signe de stabilité locale.\n\nDéparts spontanés : dans les secteurs d'altitude ventés où la neige est encore froide et mobilisable, une plaque peut céder d'elle-même sous la surcharge due au vent. Taille 1 (petite) à 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : L'enneigement est désormais proche de la normale voire excédentaire à basse altitude\nLimite skiable :  skiable même à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1300 m en N, 1800 m en S.\nQualité de la neige vendredi  : En large versant Nord et a l'abri du vent,  on peut trouver une neige encore poudreuse de plus en plus dense mais très agréable à skier. Ailleurs, le vent crée des hétérogénéités surtout en altitude : crêtes rabotées cartonnées, grosses accumulations dans les combes et zones de dépôt. Une nouvelle couche de neige fraîche est aussi présente sur les massifs frontaliers avec l'Italie, rapidement travaillée par le vent en se rapprochent des sommets.\n En versants Sud sous 2200m, la neige devient portante de type printanière. A basse altitude en Nord (<1300m) : La neige est maintenant croutée souvent non portante le matin puis elle s'humidifie en journée chaque jour un peu plus toujours à l'exception des massifs frontaliers où l'ambiance est plus hivernale",
+      "text": "Enneigement : à la faveur des abondantes chutes du début d'année, l'enneigement est désormais proche de la normale voire excédentaire à basse altitude\n\nLimite skiable :  skiable même à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1300 m en N, 1800 m en S.\n\nQualité de la neige vendredi  : en large versant Nord, au-dessus de 1800/1900 m et à l'abri du vent, on peut trouver une neige encore poudreuse assez dense. Ailleurs le vent a fortement travaillé le manteau, surtout en altitude : crêtes rabotées cartonnées, grosses accumulations dans les combes et zones de dépôt.\nEn Sud : neige de printemps sous 2200/2400 m. Humidification superficielle en journée, jusqu'à assez haute altitude (ça peut botter, notamment dans les secteurs frontaliers).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 800,
-        "south": 900
+        "north": 900,
+        "south": 1100
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 80,
-          "S": 55
+          "N": 60,
+          "S": 40
         },
         {
           "alt_m": 2000,
-          "N": 115,
-          "S": 105
+          "N": 110,
+          "S": 90
         },
         {
           "alt_m": 2500,
           "N": 160,
-          "S": 120
+          "S": 110
         }
       ],
       "icon_key": "snowpack",
