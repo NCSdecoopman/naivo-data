@@ -3,60 +3,48 @@
   "massif": "Aravis",
   "bulletin": {
     "id": 2,
-    "issued_at": "2026-01-19T16:00:00",
-    "valid_until": "2026-01-20T18:00:00",
+    "issued_at": "2026-01-20T16:00:00",
+    "valid_until": "2026-01-21T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2200,
-        "split_axis": "horizontal",
-        "split_label": "2200m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2200",
-            "risk": 3,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2200m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "2",
             "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "3",
-            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-01-21",
-        "label": "Indice de risque marqué",
-        "comment": "Risque stationnaire : limité en adrets, marqués en ubacs. Beau temps.",
+        "max_level": 2,
+        "date": "2026-01-22",
+        "label": "Indice de risque limité",
+        "comment": "Risque stationnaire. Le ciel se couvre dans la journée.",
         "trend": "steady"
       }
     },
@@ -90,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-15",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-16",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +101,11 @@
           "date": "2026-01-20",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-21",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -128,18 +116,18 @@
     },
     "stability": {
       "title": "Instabilités en ubacs.",
-      "text": "Instabilités en ubacs.\n\nDéclenchements provoqués :\n* Dans les secteurs Nord/Est/Ouest, on retrouve, localement, la présence d'une sous-couche fragile persistante au-dessus de 2000/2200 m. Dans ces endroits, les plaques sont de grosses épaisseurs (possibilité de départ en cascade), de taille 2 à 3 (moyenne à grande). Ces plaques se trouvent parfois dans les pentes déjà skiées, et le plus souvent dans les faces nord à l'abri du vent de Sud. Elles sont, parfois, déclenchables à distances.\n\nDéparts spontanés :\n* En dessous de 2400 m : rares avalanches de fond, dans les pentes herbeuses ou les dalles rocheuses. Départs possibles à toute heure du jour et de la nuit. Taille 1 à 2 (petite à moyenne).",
+      "text": "Instabilités en ubacs.\n\nDéclenchements provoqués :\n* Dans les secteurs Nord/Est/Ouest, on retrouve la présence d'une sous-couche fragile persistante au-dessus de 2000/2200 m, le plus souvent dans les ubacs les plus abrités du vent. Taille 2 plus rarement 3 (moyenne à grande : possibilité de départ en cascade). Ces plaques se trouvent parfois dans les pentes déjà skiées, parfois déclenchable à distance.\n\nDéparts spontanés :\n* En dessous de 2400 m : rares avalanches de fond, dans les pentes herbeuses ou les dalles rocheuses. Départs possibles à toute heure du jour et de la nuit. Taille 1 à 2 (petite à moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nL'enneigement est déficitaire pour la saison sous 2400 m et normal au-dessus. \nOn peut chausser les skis vers 1000/1200 m. Faible sous-couche sous 1500 m, des cailloux sont cachés sous la neige. \n\nQualité de la neige mardi :\n* Au-dessus de 2200/2400 m : neige froide, soit très travaillée par le vent, ou très dense, mais plus lisse dans les secteurs à l'abri du vent de Sud. \n* En dessous de 2000/2200m : une fine croute de regel non portante est présente au lever du jour, puis elle se ramollit l'après-midi, principalement dans les versants ensoleillés. Dans les versants à l'ombre et à l'abri du vent, la neige est dure\n* Les crêtes et les arêtes sont décapées par le vent.",
+      "text": "Enneigement :\nL'enneigement est déficitaire pour la saison sous 2400 m et normal au-dessus. \nOn peut chausser les skis vers 1000/1200 m. Faible sous-couche sous 1500 m, des cailloux sont cachés sous la neige. \n\nQualité de la neige mercredi :\n* Au-dessus de 2200/2400 m : neige froide, soit très travaillée par le vent, ou très dense, mais plus lisse, voir poudreux dense dans les secteurs à l'abri du vent de Sud. \n* En dessous de 2000/2200m : une fine croute de regel non portante est présente au lever du jour, puis elle se ramollit l'après-midi, principalement dans les versants ensoleillés.Dans les versants à l'ombre  la neige est dure, voir poudreux denses dans les endroits les plus protégés du vent.\n* Les crêtes et les arêtes sont décapées par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 900,
-        "south": 1100
+        "north": 1000,
+        "south": 1300
       },
       "levels_cm": [
         {
@@ -150,12 +138,12 @@
         {
           "alt_m": 1500,
           "N": 50,
-          "S": 30
+          "S": 20
         },
         {
           "alt_m": 2000,
           "N": 90,
-          "S": 70
+          "S": 60
         }
       ],
       "icon_key": "snowpack",

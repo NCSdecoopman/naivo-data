@@ -3,8 +3,8 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-01-19T16:00:00",
-    "valid_until": "2026-01-20T18:00:00",
+    "issued_at": "2026-01-20T16:00:00",
+    "valid_until": "2026-01-21T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-21",
+        "date": "2026-01-22",
         "label": "Indice de risque marqué",
-        "comment": "Mercredi, le risque devrait être stationnaire le matin, puis repartir en légère hausse au fil de l'après-midi, avec la reprise d'un vent de Sud plus sensible, devenant assez fort le soir. Temps restant ensoleillé.",
+        "comment": "Jeudi, risque stationnaire. Le vent de Sud encore sensible le matin baisse d'un cran l'après-midi, et une perturbation apporte de faibles chutes de neige, mais les cumuls restent faibles.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-15",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-16",
           "min_cm": 1,
           "max_cm": 3
@@ -118,6 +113,11 @@
           "date": "2026-01-20",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-21",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITÉS FORMÉES PAR LE VENT DE SUD-EST. DÉCLENCHEMENT A DISTANCE LOCALEMENT POSSIBLE EN VERSANTS FROIDS",
-      "text": "INSTABILITÉS FORMÉES PAR LE VENT DE SUD-EST. DÉCLENCHEMENT A DISTANCE LOCALEMENT POSSIBLE EN VERSANTS FROIDS\n\nDéclenchements provoqués : Dans un large secteur Nord, des instabilités se sont formées avec l'épisode de vent de Sud-Est de ces derniers jours. Certaines d'entre-elles restent présentes ce mardi, prenant souvent la forme de plaques dures et se retrouvent même loin des crêtes. Ces plaques peuvent être encore localement réactives au passage d'un seul skieur. De plus, le départ d'une plaque de surface pourrait déclencher une plaque dure plus ancienne, plus épaisse et plus difficilement sollicitable.  Localement, le risque est parfois ampliﬁé par la présence de grains anguleux enfouis sous la neige ventée, rendant possible des déclenchements à distance et des départs de plus grande ampleur. Ces sous-couches fragiles persistantes se retrouvent plutôt vers Emparis et sur les versants côté Maurienne, en milieu de pentes / dans les secteurs moins exposés au vent, mais on ne peut toutefois les écarter partout ailleurs. Observables : Accumulations de neige, neige ventée reposant sur une neige plus légère, \"woumfs\".\nPlus bas que 2000m, quelques plaques peuvent également également présentes, mais elles sont de moindre taille, et plus difficiles à déclencher. \n\nDéparts spontanés : De rares départs au terrain de taille 1 à 2 sont possibles en pentes raides herbeuses. Eventuellement quelques coulées humides superficielles de taille 1, plus rarement 2, avec départ en poire, dans les faces raides réchauffées par le soleil et près des rochers. \n\nAutres : En altitude, neige souvent béton, voire glacée par endroits, rendant la progression difficile sans équipements. De même, la neige humide croûtée par regel présente des surfaces glissantes.",
+      "title": "QUELQUES INSTABILITÉS FORMÉES PAR LE VENT DE SUD-EST. DÉCLENCHEMENT A DISTANCE TRÈS LOCALEMENT POSSIBLE EN VERSANTS FROIDS",
+      "text": "QUELQUES INSTABILITÉS FORMÉES PAR LE VENT DE SUD-EST. DÉCLENCHEMENT A DISTANCE TRÈS LOCALEMENT POSSIBLE EN VERSANTS FROIDS\n\nDéclenchements provoqués : Risque encore localement marqué. Dans un large secteur Nord d'altitude, surtout au-dessus de 2000 m, quelques instabilités peuvent persister, formées avec l'épisode de vent de Sud-Est de ces derniers jours. Elles prennent souvent la forme de plaques dures et se retrouvent même loin des crêtes. Ces plaques peuvent être encore localement réactives. De plus, le départ d'une plaque de surface pourrait déclencher une plaque dure plus ancienne, plus épaisse et plus difficilement sollicitable.  Très localement, le risque est ampliﬁé par la présence de grains anguleux enfouis sous la neige ventée, rendant possible des déclenchements à distance et des départs de plus grande ampleur. Ces sous-couches fragiles persistantes se retrouvent plutôt vers Emparis et sur les versants côté Maurienne, en milieu de pentes / dans les secteurs moins exposés au vent, mais on ne peut toutefois les écarter partout ailleurs. Observables : Accumulations de neige, neige soufflée/cartonnée, éventuellement un \"woumf\"... Mercredi à partir de l'après-midi, le vent de Sud commence à se renforcer vers les crêtes, et pourrait très localement transporter à nouveau la neige, formant de rares nouvelles instabilités très peu épaisses mais plus faciles à déclencher. \nPlus bas que 2000m, quelques plaques peuvent également également présentes, mais elles sont de moindre taille, et difficiles à déclencher. \n\nDéparts spontanés : De rares départs au terrain de taille 1 à 2 sont possibles en pentes raides herbeuses. Eventuellement de rares coulées humides superficielles de taille 1 avec départ en poire, dans les faces raides réchauffées par le soleil et près des rochers. \n\nAutres : En altitude, neige souvent béton, voire glacée par endroits, rendant la progression difficile sans équipements. De même, la neige humide croûtée par regel présente des surfaces glissantes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement s'est récemment amélioré et se situe proche des normales de saison. Il reste toutefois médiocre en faces Sud et à l'abord des croupes/crêtes qui ont souvent été dégarnies par le vent... Limites skiables à partir de  1100/1500m.\n\nQualité de la neige mardi : Neige très travaillée par le vent, souvent dure / cartonnée, ou humide souvent croûtée aux plus basses altitudes et dans les pentes Sud. En journée au soleil, la neige se ramollit et s'humidifie à nouveau. Les crêtes sont parfois dégarnies, avec des surfaces glacées qui peuvent ressortir ressortent. De rares combes abritées du vent pourraient encore héberger de la neige en poudreuse dense.",
+      "text": "Qualification de l’enneigement : L'enneigement s'est récemment amélioré et se situe proche des normales de saison. Il reste toutefois médiocre en faces Sud et à l'abord des croupes/crêtes qui ont souvent été dégarnies par le vent... Limites skiables à partir de  1100/1500m.\n\nQualité de la neige mercredi : Neige très travaillée par le vent, souvent dure / cartonnée, ou humide souvent croûtée aux plus basses altitudes et dans les pentes Sud. En journée au soleil, la neige se ramollit et s'humidifie à nouveau. Les crêtes sont parfois dégarnies, avec des surfaces glacées qui peuvent ressortir ressortent. De rares combes abritées du vent pourraient encore héberger de la neige en poudreuse dense.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 100,
-          "S": 40
+          "N": 95,
+          "S": 35
         },
         {
           "alt_m": 2500,
-          "N": 150,
-          "S": 90
+          "N": 145,
+          "S": 85
         }
       ],
       "icon_key": "snowpack",

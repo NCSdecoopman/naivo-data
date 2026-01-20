@@ -3,8 +3,8 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-01-19T16:00:00",
-    "valid_until": "2026-01-20T18:00:00",
+    "issued_at": "2026-01-20T16:00:00",
+    "valid_until": "2026-01-21T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-21",
+        "date": "2026-01-22",
         "label": "Indice de risque marqué",
-        "comment": "Mercredi, le risque devrait être stationnaire le matin, puis repartir en légère hausse au fil de l'après-midi, avec la reprise d'un vent de Sud plus sensible, devenant assez fort le soir. Temps restant ensoleillé.",
+        "comment": "Jeudi, risque stationnaire. Le vent de Sud encore sensible le matin baisse d'un cran l'après-midi, et une perturbation apporte de faibles chutes de neige, mais les cumuls restent limités.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-15",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-16",
           "min_cm": 3,
           "max_cm": 8
@@ -118,6 +113,11 @@
           "date": "2026-01-20",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-21",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITÉS DANS LA NEIGE RÉCENTE VENTÉE. DÉCLENCHEMENT A DISTANCE POSSIBLE EN VERSANTS FROIDS",
-      "text": "INSTABILITÉS DANS LA NEIGE RÉCENTE VENTÉE. DÉCLENCHEMENT A DISTANCE POSSIBLE EN VERSANTS FROIDS\n\nDéclenchements provoqués : Dans un large secteur Nord, des instabilités se sont formées avec l'épisode de vent de Sud-Est de ces derniers jours. Un certain nombre d'entre-elles restent présentes ce mardi, prenant souvent la forme de plaques dures et se retrouvant même loin des crêtes, cependant localement elles peuvent au contraire présenter un aspect poudreux moins identifiable. Ces plaques peuvent être encore localement réactives au passage d'un seul skieur. De plus, le départ d'une plaque de surface pourrait déclencher une plaque dure plus ancienne, plus épaisse et plus difficilement sollicitable.  Le risque est parfois ampliﬁé par la présence de grains anguleux enfouis sous la neige ventée, rendant possible des déclenchements à distance et des départs de plus grande ampleur. Ces sous-couches fragiles persistantes se retrouvent plutôt vers les Ecrins / la Meije / l'Olan ou les Deux Alpes, en milieu de pentes / dans les secteurs moins exposés au vent, mais on ne peut toutefois les écarter partout ailleurs. Observables : Accumulations de neige, neige ventée reposant sur une neige plus légère, \"woumfs\".\nPlus bas que 2000m, quelques plaques peuvent également également présentes, mais elles sont de moindre taille, et plus difficiles à déclencher. \n\nDéclenchements spontanés :  De rares départs au terrain de taille 1 à 2 sont possibles en pentes raides herbeuses. Eventuellement quelques coulées humides superficielles de taille 1, plus rarement 2, avec départ en poire, dans les faces raides réchauffées par le soleil et près des rochers.\n\nAutres : En altitude, neige parfois béton, voire glacée par endroits, rendant la progression difficile sans équipements. De même, la neige humide croûtée par regel présente des surfaces glissantes.",
+      "title": "QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE VENTÉE. DÉCLENCHEMENT A DISTANCE POSSIBLE LOCALEMENT EN VERSANTS FROIDS",
+      "text": "QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE VENTÉE. DÉCLENCHEMENT A DISTANCE POSSIBLE LOCALEMENT EN VERSANTS FROIDS\n\nDéclenchements provoqués : Risque encore localement marqué. Dans un large secteur Nord d'altitude, surtout au-dessus de 2000 m, quelques instabilités peuvent persister,, formées avec l'épisode de vent de Sud-Est de ces derniers jours. Elles prennent souvent la forme de plaques dures et se retrouvent même loin des crêtese. Ces plaques peuvent être encore localement réactives. De plus, le départ d'une plaque de surface pourrait déclencher une plaque dure plus ancienne, plus épaisse et plus difficilement sollicitable.  Localement, le risque est ampliﬁé par la présence de grains anguleux enfouis sous la neige ventée, rendant possible des déclenchements à distance et des départs de plus grande ampleur. Ces sous-couches fragiles persistantes se retrouvent plutôt vers les Ecrins / la Meije / l'Olan, en milieu de pentes / dans les secteurs moins exposés au vent, mais on ne peut toutefois les écarter partout ailleurs. Observables : Accumulations de neige, neige ventée reposant sur une neige plus légère, éventuellement un \"woumf\". Mercredi à partir de l'après-midi, le vent de Sud commence à se renforcer vers les crêtes, et pourrait très localement transporter à nouveau la neige, formant de rares nouvelles instabilités très peu épaisses mais plus faciles à déclencher. \nPlus bas que 2000m, quelques plaques peuvent également également présentes, mais elles sont de moindre taille, et difficiles à déclencher. \n\nDéclenchements spontanés :  De rares départs au terrain de taille 1 à 2 sont possibles en pentes raides herbeuses. Eventuellement de rares coulées humides superficielles de taille 1 avec départ en poire, dans les faces raides réchauffées par le soleil et près des rochers.\n\nAutres : En altitude, neige parfois béton, voire glacée par endroits, rendant la progression difficile sans équipements. De même, la neige humide croûtée par regel présente des surfaces glissantes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement s'est légèrement amélioré vers les Ecrins suite aux chutes de neige de samedi, mais reste déficitaire sur le massif à toutes altitudes... Limites skiables à partir de 1200/1600m.\n\nQualité de la neige mardi : Neige parfois fortement travaillée par le vent, souvent dure / cartonnée, ou humide croûtée aux plus basses altitudes et dans certaines pentes Sud. En journée dans les pentes au soleil, la neige se ramollit et s'humidifie à nouveau. Quelques combes abritées peuvent encore héberger une neige froide plus légère (plutôt vers Ecrins / Meije / Olan où il a davantage neigé ces derniers jours), et/ou une poudreuse dense.",
+      "text": "Qualification de l’enneigement : L'enneigement s'est légèrement amélioré vers les Ecrins suite aux chutes de neige de samedi, mais reste déficitaire sur le massif à toutes altitudes... Limites skiables à partir de 1200/1600m.\n\nQualité de la neige mercredi : Neige parfois fortement travaillée par le vent, souvent dure / cartonnée, ou humide croûtée aux plus basses altitudes et dans certaines pentes Sud. En journée dans les pentes au soleil, la neige se ramollit et s'humidifie à nouveau. Quelques combes abritées peuvent encore héberger une neige froide plus légère (plutôt vers Ecrins / Meije / Olan où il a davantage neigé ces derniers jours), et/ou une poudreuse dense.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 85,
-          "S": 45
+          "N": 80,
+          "S": 40
         },
         {
           "alt_m": 2500,
-          "N": 145,
-          "S": 85
+          "N": 140,
+          "S": 80
         }
       ],
       "icon_key": "snowpack",

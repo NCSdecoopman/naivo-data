@@ -3,73 +3,61 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-01-19T16:00:00",
-    "valid_until": "2026-01-20T18:00:00",
+    "issued_at": "2026-01-20T16:00:00",
+    "valid_until": "2026-01-21T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 1700m indice de risque limité, plus bas indice faible.",
+      "max_level": 1,
+      "comment": "Indice de risque faible.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 1700,
-        "split_axis": "horizontal",
-        "split_label": "1700m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1700",
+            "loc": null,
             "risk": 1,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">1700",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "1700m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "1",
             "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-01-21",
-        "label": "Indice de risque limité",
-        "comment": "Mercredi, le risque devrait être stationnaire. Temps restant ensoleillé, avec reprise d'un vent de Sud plus sensible à partir de l'après-midi, devenant assez fort le soir.",
+        "max_level": 1,
+        "date": "2026-01-22",
+        "label": "Indice de risque faible",
+        "comment": "Jeudi, risque stationnaire. Le vent de Sud encore sensible le matin baisse d'un cran l'après-midi, et une perturbation apporte de faibles chutes de neige, mais les cumuls restent faibles.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
-        "E": true,
+        "N": false,
+        "NE": false,
+        "E": false,
         "SE": false,
         "S": false,
         "SW": false,
-        "W": true,
-        "NW": true
+        "W": false,
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -89,11 +77,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-15",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-16",
           "min_cm": 0,
@@ -118,6 +101,11 @@
           "date": "2026-01-20",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-21",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RARES PLAQUES EN ALTITUDE, ET QUELQUES COULÉES HUMIDES OU DÉPARTS AU TERRAIN NON EXCLUS.",
-      "text": "RARES PLAQUES EN ALTITUDE, ET QUELQUES COULÉES HUMIDES OU DÉPARTS AU TERRAIN NON EXCLUS.\n\nDéclenchements provoqués : Les épisodes de vent de Sud / Sud-Est de la semaine ont formé quelques instabilités dans un large secteur Nord d'altitude. Le vent ayant soufflé particulièrement fort, les crêtes sont parfois dégarnies, les instabilités se retrouvant alors plus bas dans les pentes. Le manteau continue à se stabiliser, avec des plaques de plus en plus rares et devenant difficiles à déclencher par un skieur ou groupe de skieurs. Observables : Neige soufflée / cartonnée, accumulations, neige plus meuble en profondeur. Sous 1700 m, le risque semble plus faible, la neige s'étant humidifiée dans la plupart des cas.\n\nDéparts spontanés : De rares départs au terrain de taille 1 à 2 sont possibles en pentes raides herbeuses. Eventuellement quelques boulettes voire de rares coulées humides superficielles de taille 1 avec départ en poire, dans les faces raides réchauffées par le soleil et près des rochers. \n\nAutres : Le vent a souvent dégarni les crêtes, ou rendu la neige très dure, la progression étant parfois difficile. De même, la neige humide croûtée par regel présente des surfaces glissantes.",
+      "title": "STABLE DANS L'ENSEMBLE. RARES PLAQUES EN ALTITUDE, ET RARES DÉPARTS AU TERRAIN NON EXCLUS.",
+      "text": "STABLE DANS L'ENSEMBLE. RARES PLAQUES EN ALTITUDE, ET RARES DÉPARTS AU TERRAIN NON EXCLUS.\n\nDéclenchements provoqués : Assez peu probables, hormis de très rares plaques pouvant encore être présentes dans les pentes d'altitude d'un large secteur Nord, devenues difficiles à déclencher au fil des jours. Mercredi à partir de l'après-midi, le vent de Sud commence à se renforcer vers les crêtes, et pourrait très localement transporter à nouveau la neige, formant de rares nouvelles instabilités très peu épaisses mais plus faciles à déclencher. Sous 1800 m, le risque semble encore plus faible, la neige s'étant humidifiée dans la plupart des cas. \n\nDéparts spontanés : Peu probables, hormis de rares départs au terrain de taille 1 à 2 possibles en pentes raides herbeuses. Eventuellement quelques boulettes voire de rares coulées humides superficielles de taille 1 avec départ en poire, dans les faces raides réchauffées par le soleil et près des rochers. \n\nAutres : Le vent a souvent dégarni les crêtes, ou rendu la neige très dure, la progression étant parfois difficile. De même, la neige humide croûtée par regel présente des surfaces glissantes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  Avec le récent redoux et le vent, l'enneigement s'est dégradé notamment en moyenne montagne et vers les crêtes. Limites skiables remontant vers 1100/1400m.\n\nQualité de la neige mardi : Neige souvent humide et croûtée avec un regel nocturne meilleur que les jours précédents, et parfois plus froide en versants à l'ombre, mais densifiée par le vent en altitude. En journée au soleil, la neige se ramollit et s'humidifie à nouveau. Plus vraiment de poudreuse sur le massif, ou alors très dense vers les sommets, et très rarement en combe Nord abritée. Vers les sommets, crêtes dégarnies, ou en neige dure / gelée.",
+      "text": "Qualification de l’enneigement :  Avec le récent redoux et le vent, l'enneigement s'est dégradé notamment en moyenne montagne et vers les crêtes. Limites skiables remontant vers 1100/1400m.\n\nQualité de la neige mercredi : Neige souvent humide et croûtée, et localement plus froide en versants à l'ombre, mais densifiée par le vent en altitude. En journée au soleil, la neige se ramollit et s'humidifie à nouveau. Plus vraiment de poudreuse sur le massif, ou alors très dense vers les sommets, et très rarement en combe Nord abritée. Vers les sommets, crêtes dégarnies, ou en neige dure / gelée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -154,8 +142,8 @@
         },
         {
           "alt_m": 2000,
-          "N": 120,
-          "S": 70
+          "N": 115,
+          "S": 65
         }
       ],
       "icon_key": "snowpack",

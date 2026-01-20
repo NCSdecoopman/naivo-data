@@ -3,37 +3,49 @@
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
-    "issued_at": "2026-01-19T16:00:00",
-    "valid_until": "2026-01-20T18:00:00",
+    "issued_at": "2026-01-20T16:00:00",
+    "valid_until": "2026-01-21T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 1700m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1700,
+        "split_axis": "horizontal",
+        "split_label": "1700m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1700",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1700",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1700m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-21",
+        "date": "2026-01-22",
         "label": "Indice de risque marqué",
-        "comment": "Beau temps calme et ensoleillé. Le vent est calme en journée. Malheureusement, le manteau reste instable car les couches fragiles enfouies n'évoluent pas.",
+        "comment": "Ciel très nuageux mais sans précipitation ou en quantités négligeables. Foehn faiblissant. Le risque est stationnaire.",
         "trend": "steady"
       }
     },
@@ -66,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 3,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 3,
       "labels": {
-        "3": "Couche fragile persistante",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-3"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-15",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-16",
           "min_cm": 0,
@@ -106,6 +113,11 @@
           "date": "2026-01-20",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-21",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,35 +127,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Risque accidentel marqué dans les pentes raides en versant froid, surtout près de la frontière italienne.",
-      "text": "Risque accidentel marqué dans les pentes raides en versant froid, surtout près de la frontière italienne.\n\nDéclenchements provoqués : dans les pentes Nord, Ouest et Est, quelques plaques parfois très réactives. \nCes plaques reposent sur des couches fragiles qui évoluent pas ou peu (grains sans cohésion : gobelets ou faces planes). Déclenchements à distance possibles, avec de larges propagations engendrant des avalanches de taille 2 à 3 (moyennes à grandes).\nDans les secteurs les plus ventés (La Rosière/Ruitor/Grande Sassière et ailleurs toutes les zones de crêtes), on trouve quelques plaques à vent épaisses et dures, souvent difficiles à déclencher mais avec une cassure potentiellement très épaisse (2 m et +) lors de ruptures sous forte contrainte (skieurs groupés, saut, chute... ), donnant alors des tailles 3 avec dépôt en blocs.\nObservables : hormis un \"woumf\" de la dernière chance, les observables sont peu nombreux en surface (la couche fragile se situe aussi bien sous une neige ventée que sous une neige d'apparence encore poudreuse). La présence de traces de ski antérieures n'est pas un signe de stabilité. A l'inverse, la présence d'une croute de regel assez épaisse en versant ensoleillé ou zone ventée/décapée est un bon signe de stabilité locale.\n\nDéparts spontanés : dans les secteurs d'altitude ventés où la neige est encore froide et mobilisable, une plaque peut céder d'elle-même sous la surcharge due au vent. Taille 1 (petite) à 2.",
+      "title": "LE RISQUE RESTE MARQUÉ DANS LES VERSANTS FROIDS, SURTOUT PRÈS DE LA FRONTIÈRE ITALIENNE.",
+      "text": "LE RISQUE RESTE MARQUÉ DANS LES VERSANTS FROIDS, SURTOUT PRÈS DE LA FRONTIÈRE ITALIENNE.\n\nDéclenchements provoqués : \n- au-dessus de 1700/1800 m, quelques plaques réactives subsistent dans les pentes Nord, Est et Ouest. Ces plaques désormais généralement dures ont été entretenues par le foehn sensible ces derniers jours, elles reposent par ailleurs sur des couches fragiles qui évoluent pas ou peu (grains sans cohésion : gobelets ou faces planes). Déclenchements à distance possibles, avec de larges propagations engendrant des avalanches de taille 2 à 3 (moyennes à grandes). Les cassures peuvent atteindre 1 à 2 m. \nObservables : \"woumf\", les indices de transport par le vent doivent mettre en alerte mais attention : même là où la neige est encore meuble en surface, le risque de plaque est important. La présence de traces de ski antérieures n'est pas un signe de stabilité. A l'inverse, la présence d'une croute de regel est un bon signe de stabilité locale.\n- sous 1700 m ou en adrets, le foehn et/ou le soleil ont transformé la neige en surface, le risque est alors bien moindre.\n\nDéparts spontanés : peu probables.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : à la faveur des abondantes chutes du début d'année, l'enneigement est désormais proche de la normale voire excédentaire à basse altitude\n\nLimite skiable :  skiable même à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1300 m en N, 1800 m en S.\n\nQualité de la neige vendredi  : en large versant Nord, au-dessus de 1800/1900 m et à l'abri du vent, on peut trouver une neige encore poudreuse assez dense. Ailleurs le vent a fortement travaillé le manteau, surtout en altitude : crêtes rabotées cartonnées, grosses accumulations dans les combes et zones de dépôt.\nEn Sud : neige de printemps sous 2200/2400 m. Humidification superficielle en journée, jusqu'à assez haute altitude (ça peut botter, notamment dans les secteurs frontaliers).",
+      "text": "Enneigement : à la faveur des abondantes chutes du début d'année, l'enneigement est désormais proche de la normale voire excédentaire à basse altitude\n\nLimite skiable :  à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1300 m en N, 1800 m en S.\n\nQualité de la neige vendredi  : en large versant Nord, au-dessus de 1800/1900 m et à l'abri du vent, on trouve encore très localement une neige poudreuse assez dense. Ailleurs le vent a fortement travaillé le manteau, surtout en altitude : crêtes rabotées cartonnées, grosses accumulations dans les combes et zones de dépôt.\nEn Sud : neige de printemps sous 2200/2400 m. Humidification superficielle en journée, jusqu'à assez haute altitude (ça peut botter, surtout secteur frontalier).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 900,
-        "south": 1100
+        "south": 1200
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 60,
-          "S": 40
+          "N": 50,
+          "S": 30
         },
         {
           "alt_m": 2000,
-          "N": 110,
+          "N": 100,
           "S": 90
         },
         {
           "alt_m": 2500,
-          "N": 160,
-          "S": 110
+          "N": 150,
+          "S": 100
         }
       ],
       "icon_key": "snowpack",
