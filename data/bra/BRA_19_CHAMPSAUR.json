@@ -3,30 +3,30 @@
   "massif": "Champsaur",
   "bulletin": {
     "id": 19,
-    "issued_at": "2026-01-20T16:00:00",
-    "valid_until": "2026-01-21T18:00:00",
+    "issued_at": "2026-01-21T16:00:00",
+    "valid_until": "2026-01-22T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2200,
+        "threshold_m": 2000,
         "split_axis": "horizontal",
-        "split_label": "2200m",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
+            "loc": "<2000",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2200",
+            "loc": ">2000",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2200m"
+          "label": "2000m"
         },
         "zones": {
           "bottom": {
@@ -54,17 +54,17 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-22",
+        "date": "2026-01-23",
         "label": "Indice de risque marqué",
-        "comment": "Formation de nouvelles petites instabilités sous les chutes de neige l'après-midi, difficilement identifiables. Maintien d'un risque marqué.",
+        "comment": "Maintient d'un risque accidentel marqué, localement accentué par les petites chutes de neige prévues en cours de journée.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
-        "NE": false,
-        "E": false,
+        "NE": true,
+        "E": true,
         "SE": false,
         "S": false,
         "SW": true,
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-16",
-          "min_cm": 10,
-          "max_cm": 15
-        },
-        {
           "date": "2026-01-17",
           "min_cm": 5,
           "max_cm": 5
@@ -117,23 +112,28 @@
         {
           "date": "2026-01-21",
           "min_cm": 0,
-          "max_cm": 0
+          "max_cm": 1
+        },
+        {
+          "date": "2026-01-22",
+          "min_cm": 3,
+          "max_cm": 7
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 8
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITÉS  DANS LA NEIGE FORTEMENT VENTÉE.",
-      "text": "INSTABILITÉS  DANS LA NEIGE FORTEMENT VENTÉE. \n\nDéclenchements provoqués : l'instabilité du manteau neigeux concerne encore quelques pentes, notamment au-dessus de 2200 m.  Ces instabilités se présentent sous forme de plaques dures plutôt identifiables mais déclenchables par un seul skieur. Elles sont  bien plus nombreuses dans les versants sud-ouest à nord. Avalanches de taille moyenne (taille 2), grande (taille 3) non exclue en versants ouest, nord-ouest et nord. Le passage d'un seul skieur peut, même à distance, solliciter la couche fragile irrégulièrement enfouie. Les endroits les plus dangereux se situent loin des crêtes et ruptures de pente où l'enneigement est rendu très irrégulier par le récent, et très fort, transport de neige par le vent.\n\nDéparts spontanés : peu probables avec l'arrêt du transport de neige par le vent.",
+      "title": "NOMBREUSES INSTABILITÉS ENCORE EN PLACE",
+      "text": "NOMBREUSES INSTABILITÉS ENCORE EN PLACE\n\nDéclenchements provoqués : l'instabilité du manteau neigeux concerne encore de nombreuses pentes d'altitude supérieure à 2000 m. \nDes plaques d'aspect encore localement friable et difficilement détectables sont toujours en place, d'autres d'aspect plus durci par le vent. Elles sont possibles en toutes orientations, mais plus nombreuses et sensibles en orientations sud-ouest à est, en passant par le nord. Elles reposent souvent sur une couche fragile irrégulièrement enfouie, et localement facile à déclencher dans les secteurs où les quantités de neige en surface sont moindres. Le passage d'un seul skieur peut dans ce cas déclencher une avalanche, y compris à distance. Avalanches de taille généralement moyenne (taille 2), une grande (taille 3) est possible en cas de propagation de la cassure dans des secteurs d'importante accumulation de neige.\nObservables : \"woumfs\", fissures sous les skis, mais les couches fragiles sont difficiles à détecter pendant la progression.\n\nDéparts spontanés : peu probables.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est très irrégulier et plutôt déficitaire pour une mi-janvier, notamment à cause du fort vent de nord-est récent.\nDonnées observées : 33 cm à la Nivôse d'Orcières à 2280 m et 71 cm à Prapic à 2480 m.\n\nLimite d'enneigement skiable : vers 1300/1500 m en ubacs avec précaution, mais il faut monter au-dessus de 1800/2000 m pour avoir un enneigement un peu plus confortable. \n\nÉtat de la neige de surface : fortement travaillée par le récent épisode de vent d'est à nord-est. Les crêtes souvent décapées cotoient des zones de forte accumulation sous le vent.En adrets de basse altitude, très bon regel nocturne puis humidification superficielle.",
+      "text": "L'enneigement est très irrégulier et plutôt déficitaire pour une mi-janvier, notamment à cause du récent fort vent de nord-est.\nDonnées observées : 34 cm à la Nivôse d'Orcières à 2280 m et 70 cm à Prapic à 2480 m.\n\nLimite d'enneigement skiable : vers 1300/1500 m en ubacs avec précaution, mais il faut monter au-dessus de 1800/2000 m pour avoir un enneigement un peu plus confortable. \n\nÉtat de la neige de surface : jeudi matin, on trouve localement un petit saupoudrage de neige fraîche. Elle se dépose sur une neige souvent fortement travaillée par le vent, notamment en altitude, parfois sur de la neige peu ventée en forêts ou dans les combes bien abritées du vent. En approchant des crêtes, alternance entre corniches volumineuses et zones décapées par le vent. Bon regel nocturne sous 1800 m, voire plus haut en adrets.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 30,
-          "S": 20
+          "N": 25,
+          "S": 15
         },
         {
           "alt_m": 2000,
-          "N": 80,
-          "S": 50
+          "N": 75,
+          "S": 45
         },
         {
           "alt_m": 2500,
-          "N": 120,
-          "S": 90
+          "N": 115,
+          "S": 85
         }
       ],
       "icon_key": "snowpack",

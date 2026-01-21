@@ -3,8 +3,8 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-01-20T16:00:00",
-    "valid_until": "2026-01-21T18:00:00",
+    "issued_at": "2026-01-21T16:00:00",
+    "valid_until": "2026-01-22T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-01-22",
-        "label": "Indice de risque limité",
-        "comment": "Jeudi, risque stationnaire. Le vent de Sud encore sensible le matin baisse d'un cran l'après-midi, et une perturbation apporte de faibles chutes de neige, mais les cumuls restent limités.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-01-23",
+        "label": "Indice de risque marqué",
+        "comment": "Vendredi, le risque devrait être en hausse, devenant potentiellement marqué en fin de journée. Vent de Sud sensible vers les crêtes, et perturbation un peu plus active entre l'après-midi et la soirée, donnant un peu plus de neige que jeudi (10-15 cm envisagés pour le moment).",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-16",
-          "min_cm": 2,
-          "max_cm": 5
-        },
-        {
           "date": "2026-01-17",
           "min_cm": 2,
           "max_cm": 7
@@ -118,22 +113,27 @@
           "date": "2026-01-21",
           "min_cm": 0,
           "max_cm": 1
+        },
+        {
+          "date": "2026-01-22",
+          "min_cm": 3,
+          "max_cm": 10
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 1
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 11
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES INSTABILITÉS EN ALTITUDE, ET DE RARES COULÉES HUMIDES / RARES DEPARTS AU TERRAIN NON EXCLUS.",
-      "text": "QUELQUES INSTABILITÉS EN ALTITUDE, ET DE RARES COULÉES HUMIDES / RARES DEPARTS AU TERRAIN NON EXCLUS.\n\nDéclenchements provoqués : Quelques plaques peuvent encore être présentes, surtout dans les versants d'un large Nord au-dessus de 1800m, formées dans la neige récente et sous le vent de Sud-Est. Elles deviennent de plus en plus difficiles à déclencher par un pratiquant ou un groupe de pratiquants. Observables : Neige soufflée / cartonnée, accumulations, parfois loin des crêtes, en milieu / bas de pente. Mercredi à partir de l'après-midi, le vent de Sud commence à se renforcer vers les crêtes, et pourrait transporter à nouveau de la neige récente, formant quelques nouvelles instabilités peu épaisses mais plus faciles à déclencher.\n\nDéparts spontanés : De rares départs au terrain de taille 1 à 2 sont possibles en pentes raides herbeuses. Eventuellement quelques coulées humides superficielles de taille 1 avec départ en poire, dans les faces raides réchauffées par le soleil et près des rochers. \n\nAutres : Le vent a souvent dégarni les crêtes, ou rendu la neige très dure, la progression étant parfois difficile. De même, la neige humide croûtée par regel présente des surfaces glissantes.",
+      "title": "QUELQUES INSTABILITÉS EN VERSANTS FROIDS D'ALTITUDE, ET RARE AVALANCHE DE FOND NON EXCLUE.",
+      "text": "QUELQUES INSTABILITÉS EN VERSANTS FROIDS D'ALTITUDE, ET RARE AVALANCHE DE FOND NON EXCLUE.\n\nDéclenchements provoqués : Quelques plaques peuvent encore être présentes, surtout dans les versants d'un large Nord au-dessus de 1800m, formées dans la neige récente et sous le vent de Sud à Sud-Est des derniers jours. Elles deviennent de plus en plus difficiles à déclencher par un pratiquant ou un groupe de pratiquants. En nuit de mercredi à jeudi, le vent de Sud peut être soutenu vers les crêtes, et pourrait très localement transporter à nouveau la neige, formant de rares nouvelles instabilités très peu épaisses mais plus faciles à déclencher. De même en journée de jeudi, quelques faibles chutes de neige (3 à 10 cm envisagés) peuvent créer localement de petites instabilités très peu épaisses et faciles à mobiliser.\n\nDéparts spontanés : Peu probables, hormis un rare départ au terrain de taille 1 à 2 non exclu en pente raide herbeuse.\n\nAutres : Le vent a souvent dégarni les crêtes, ou rendu la neige très dure, la progression étant parfois difficile. De même, la neige humide croûtée par regel présente des surfaces glissantes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  Enneigement assez correct pour la saison en altitude, mais faible à basse altitude et en versants Sud. Limites skiables remontant vers 1100/1400m.\n\nQualité de la neige mercredi : Neige souvent humide et croûtée, et parfois plus froide en versants à l'ombre, mais densifiée par le vent en altitude. En journée au soleil, la neige se ramollit et s'humidifie à nouveau. Plus vraiment de poudreuse sur le massif, ou alors très dense vers les sommets, et très rarement en combe Nord abritée. Vers les sommets, crêtes dégarnies, ou en neige dure / gelée.",
+      "text": "Qualification de l’enneigement :  Enneigement assez correct pour la saison en altitude, mais faible à basse altitude et en versants Sud. Limites skiables remontant vers 1100/1400m.\n\nQualité de la neige jeudi : En journée de jeudi, une petite couche de neige fraîche peut se déposer sur le massif. Elle va recouvrir une neige souvent humide et croûtée, et parfois plus froide en versants à l'ombre, mais généralement densifiée par le vent en altitude. Vers les sommets, crêtes dégarnies, ou en neige dure / gelée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

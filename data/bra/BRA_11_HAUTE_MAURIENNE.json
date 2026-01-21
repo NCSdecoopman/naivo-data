@@ -3,37 +3,49 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-01-20T16:00:00",
-    "valid_until": "2026-01-21T18:00:00",
+    "issued_at": "2026-01-21T16:00:00",
+    "valid_until": "2026-01-22T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 1600m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1600,
+        "split_axis": "horizontal",
+        "split_label": "1600m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1600",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1600",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1600m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-22",
+        "date": "2026-01-23",
         "label": "Indice de risque marqué",
-        "comment": "Ciel très nuageux mais sans précipitation ou en quantités négligeables. Vent de Sud-Est/lombarde faiblissant. Le risque est stationnaire.",
+        "comment": "Stationnaire",
         "trend": "steady"
       }
     },
@@ -78,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-16",
-          "min_cm": 15,
-          "max_cm": 25
-        },
-        {
           "date": "2026-01-17",
           "min_cm": 5,
           "max_cm": 15
@@ -106,22 +113,27 @@
           "date": "2026-01-21",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-22",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "LE RISQUE RESTE MARQUÉ DANS LES VERSANTS FROIDS, SURTOUT PRÈS DE LA FRONTIÈRE ITALIENNE.",
-      "text": "LE RISQUE RESTE MARQUÉ DANS LES VERSANTS FROIDS, SURTOUT PRÈS DE LA FRONTIÈRE ITALIENNE.\n\nDéclenchements provoqués : quelques plaques réactives subsistent essentiellement dans les pentes Nord, Est et Ouest. Ces plaques reposent sur des couches fragiles qui évoluent pas ou peu (grains sans cohésion : gobelets ou faces planes). Déclenchements à distance possibles, avec de larges propagations engendrant des avalanches de taille 2 à 3 (moyennes à grandes). Ces plaques sont encore régulièrement d'aspect poudreux, plus ou moins densifiées voire durcies par le vent en approchant les crêtes (les cassures peuvent alors atteindre 1 à 2 m). \nObservables : hormis un \"woumf\" de la dernière chance, les observables sont peu nombreux en surface (la couche fragile se situe aussi bien sous une neige ventée que sous une neige d'apparence encore poudreuse). La présence de traces de ski antérieures n'est pas un signe de stabilité. A l'inverse, la présence d'une croute de regel est un bon signe de stabilité locale.\n\nDéparts spontanés : quelques départs ponctuels (en poire) sont possibles dans les pentes raides au soleil, plutôt dans les secteurs frontaliers. Très localement, l'un de ces petits départs peut venir déclencher en cascade une plaque, donnant alors une taille 2.",
+      "text": "LE RISQUE RESTE MARQUÉ DANS LES VERSANTS FROIDS, SURTOUT PRÈS DE LA FRONTIÈRE ITALIENNE.\n\nDéclenchements provoqués : quelques plaques réactives subsistent essentiellement dans les pentes Nord, Est et Ouest. Ces plaques reposent sur des couches fragiles qui évoluent pas ou peu (grains sans cohésion : gobelets ou faces planes). Déclenchements à distance possibles, avec de larges propagations engendrant des avalanches de taille 2 à 3 (moyennes à grandes). Ces plaques sont encore régulièrement d'aspect poudreux, plus ou moins densifiées voire durcies par le vent en approchant les crêtes (les cassures peuvent alors atteindre 1 à 2 m). Les pentes Sud à haute altitude ont pu aussi garder une neige froide et dans ces conditions, un déclenchement est possible.\nObservables : hormis un \"woumf\" de la dernière chance, les observables sont peu nombreux en surface (la couche fragile se situe aussi bien sous une neige ventée que sous une neige d'apparence encore poudreuse). La présence de traces de ski antérieures n'est pas un signe de stabilité. A l'inverse, la présence d'une croute de regel est un bon signe de stabilité locale.\n\nDéparts spontanés : quelques départs ponctuels (en poire) sont possibles dans les pentes raides au soleil, plutôt dans les secteurs frontaliers. Très localement, l'un de ces petits départs peut venir déclencher en cascade une plaque, donnant alors une taille 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : désormais proche de la normale voire excédentaire avec les nouvelles chutes de neige récentes. \n\nLimite skiable :  à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1500 m en N, 2000 m en Sud où quelques requins ne sont pas loin de la surface...\n\nQualité de la neige vendredi  : à l'abri du vent, neige récente froide souvent poudreuse en surface sur le versant frontalier. Dans les secteurs soumis à la Lombarde, le vent de Sud/Sud-Est a créé des hétérogénéités : crêtes rabotées/glacées, alternant avec des zones cartonnées, formations de sastrugis ou \"crêtes de coq\". Grosses accumulations dans les combes en zones de dépôt. \nEn versants Sud : sous 2000/2200 m, la neige est souvent portante, parfois croûtée et surmontée d'un peu de neige récente. Ça s'humidifie et ça botte jusqu'à haute altitude en journée !",
+      "text": "Enneigement : désormais proche de la normale voire excédentaire avec les nouvelles chutes de neige récentes. \n\nLimite skiable :  à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1500 m en N, 2000 m en Sud où quelques requins ne sont pas loin de la surface...\n\nQualité de la neige vendredi  : à l'abri du vent, neige récente froide souvent poudreuse en surface sur le versant frontalier. Dans les secteurs soumis à la Lombarde, le vent de Sud/Sud-Est a créé des hétérogénéités : crêtes rabotées/glacées, alternant avec des zones cartonnées, formations de sastrugis ou \"crêtes de coq\". Grosses accumulations dans les combes en zones de dépôt. \nEn versants Sud : sous 2000/2200 m, la neige est souvent portante, parfois croûtée. Ça s'humidifie en journée uniquement à basse altitude par faible ensoleillement",
       "icon_key": "snow-quality"
     },
     "snowpack": {

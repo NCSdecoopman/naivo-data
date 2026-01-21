@@ -3,8 +3,8 @@
   "massif": "Vanoise",
   "bulletin": {
     "id": 10,
-    "issued_at": "2026-01-20T16:00:00",
-    "valid_until": "2026-01-21T18:00:00",
+    "issued_at": "2026-01-21T16:00:00",
+    "valid_until": "2026-01-22T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-22",
+        "date": "2026-01-23",
         "label": "Indice de risque marqué",
-        "comment": "Ciel très nuageux mais sans précipitation ou en quantités négligeables. Vent de Sud/foehn faiblissant. Le risque est stationnaire.",
+        "comment": "Stationnaire",
         "trend": "steady"
       }
     },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 3,
+      "primary": 3,
+      "secondary": 2,
       "labels": {
-        "2": "Neige ventée",
-        "3": "Couche fragile persistante"
+        "3": "Couche fragile persistante",
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-16",
-          "min_cm": 0,
-          "max_cm": 2
-        },
         {
           "date": "2026-01-17",
           "min_cm": 0,
@@ -118,22 +113,27 @@
           "date": "2026-01-21",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-22",
+          "min_cm": 1,
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "LE RISQUE RESTE MARQUÉ DANS LES VERSANTS FROIDS.",
-      "text": "LE RISQUE RESTE MARQUÉ DANS LES VERSANTS FROIDS.\n\nDéclenchements provoqués : \n- au-dessus de 1700/1800 m, quelques plaques réactives subsistent dans les pentes Nord, Est et Ouest. Ces plaques désormais généralement dures ont été entretenues par le foehn sensible ces derniers jours, elles reposent par ailleurs sur des couches fragiles qui évoluent pas ou peu (grains sans cohésion : gobelets ou faces planes). Déclenchements à distance possibles, avec de larges propagations engendrant des avalanches de taille 2 à 3 (moyennes à grandes). Les cassures peuvent atteindre 1 à 2 m. \nObservables : \"woumf\", les indices de transport par le vent doivent mettre en alerte mais attention : même là où la neige est encore meuble en surface, le risque de plaque est important. La présence de traces de ski antérieures n'est pas un signe de stabilité. A l'inverse, la présence d'une croute de regel est un bon signe de stabilité locale.\n- sous 1700 m ou en adrets, le foehn et/ou le soleil ont transformé la neige en surface, le risque est alors bien moindre.\n\nDéparts spontanés : peu probables, une rare plaque de fond (glissement) reste possible plutôt en versants ensoleillés et à basse altitude.",
+      "text": "LE RISQUE RESTE MARQUÉ DANS LES VERSANTS FROIDS.\n\nDéclenchements provoqués : \n- au-dessus de 1700/1800 m, quelques plaques réactives subsistent dans les pentes Nord, Est et Ouest. Ces plaques désormais généralement dures ont été entretenues par le foehn sensible ces derniers jours, elles reposent par ailleurs sur des couches fragiles qui évoluent pas ou peu (grains sans cohésion : gobelets ou faces planes). Déclenchements à distance possibles, avec de larges propagations engendrant des avalanches de taille 2 à 3 (moyennes à grandes). Les cassures peuvent atteindre 1 à 2 m. Les pentes Sud à haute altitude ont pu aussi garder une neige froide et dans ces conditions, un déclenchement est possible.\nObservables : \"woumf\", les indices de transport par le vent doivent mettre en alerte mais attention : même là où la neige est encore meuble en surface, le risque de plaque est important. La présence de traces de ski antérieures n'est pas un signe de stabilité. A l'inverse, la présence d'une croute de regel est un bon signe de stabilité locale.\n- sous 1700 m ou en adrets, le foehn et/ou le soleil ont transformé la neige en surface, le risque est alors bien moindre.\n\nDéparts spontanés : peu probables.  le retour des nuages limite les départs en neige humide qu'à basse altitude.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : à la faveur des abondantes chutes du début d'année, l'enneigement est désormais normal. Fonte rapide à basse altitude sous le foehn.\n\nLimite skiable :  à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1300 m en N, 1800 m en Sud avec une neige parfois pourrie .\n\nQualité de la neige vendredi  : en large versant Nord, au-dessus de 1800/2000 m et à l'abri du vent, on peut trouver une neige encore poudreuse assez dense. Ailleurs le vent a fortement travaillé le manteau, surtout en altitude : crêtes rabotées cartonnées, grosses accumulations dans les combes et zones de dépôt.\nEn Sud : neige de printemps sous 2200/2400 m. Humidification superficielle en journée, jusqu'à assez haute altitude (ça peut botter).",
+      "text": "Enneigement : à la faveur des abondantes chutes du début d'année, l'enneigement est désormais normal. \n\nLimite skiable :  à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1300 m en N, 1800 m en Sud avec une neige parfois pourrie .\n\nQualité de la neige vendredi  : en large versant Nord, au-dessus de 1800/2000 m et à l'abri du vent, on peut trouver une neige encore poudreuse assez dense. Ailleurs le vent a fortement travaillé le manteau, surtout en altitude : crêtes rabotées cartonnées, grosses accumulations dans les combes et zones de dépôt.\nEn Sud : neige de printemps sous 2200/2400 m. Humidification superficielle en journée, uniquement à basse altitude (les nuages limitant le dégel au dessus de 2000m)",
       "icon_key": "snow-quality"
     },
     "snowpack": {
