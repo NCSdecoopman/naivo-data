@@ -3,8 +3,8 @@
   "massif": "Champsaur",
   "bulletin": {
     "id": 19,
-    "issued_at": "2026-01-21T16:00:00",
-    "valid_until": "2026-01-22T18:00:00",
+    "issued_at": "2026-01-22T16:00:00",
+    "valid_until": "2026-01-23T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-23",
+        "date": "2026-01-24",
         "label": "Indice de risque marqué",
-        "comment": "Maintient d'un risque accidentel marqué, localement accentué par les petites chutes de neige prévues en cours de journée.",
+        "comment": "risque encore marqué, avec les couches fragiles persistantes toujours localement faciles à solliciter, et de nouvelles instabilités en surface du manteau neigeux, formées par les dernières chutes de neige.",
         "trend": "steady"
       }
     },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 3,
+      "primary": 3,
+      "secondary": 2,
       "labels": {
-        "2": "Neige ventée",
-        "3": "Couche fragile persistante"
+        "3": "Couche fragile persistante",
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-17",
-          "min_cm": 5,
-          "max_cm": 5
-        },
         {
           "date": "2026-01-18",
           "min_cm": 0,
@@ -116,24 +111,29 @@
         },
         {
           "date": "2026-01-22",
-          "min_cm": 3,
-          "max_cm": 7
+          "min_cm": 7,
+          "max_cm": 15
+        },
+        {
+          "date": "2026-01-23",
+          "min_cm": 10,
+          "max_cm": 20
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 8
+        "last_48h_min_cm": 17,
+        "last_48h_max_cm": 35
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES INSTABILITÉS ENCORE EN PLACE",
-      "text": "NOMBREUSES INSTABILITÉS ENCORE EN PLACE\n\nDéclenchements provoqués : l'instabilité du manteau neigeux concerne encore de nombreuses pentes d'altitude supérieure à 2000 m. \nDes plaques d'aspect encore localement friable et difficilement détectables sont toujours en place, d'autres d'aspect plus durci par le vent. Elles sont possibles en toutes orientations, mais plus nombreuses et sensibles en orientations sud-ouest à est, en passant par le nord. Elles reposent souvent sur une couche fragile irrégulièrement enfouie, et localement facile à déclencher dans les secteurs où les quantités de neige en surface sont moindres. Le passage d'un seul skieur peut dans ce cas déclencher une avalanche, y compris à distance. Avalanches de taille généralement moyenne (taille 2), une grande (taille 3) est possible en cas de propagation de la cassure dans des secteurs d'importante accumulation de neige.\nObservables : \"woumfs\", fissures sous les skis, mais les couches fragiles sont difficiles à détecter pendant la progression.\n\nDéparts spontanés : peu probables.",
+      "title": "NOMBREUSES INSTABILITÉS EN PLACE ET EN FORMATION",
+      "text": "NOMBREUSES INSTABILITÉS EN PLACE ET EN FORMATION\n\nDéclenchements provoqués : \n- D'anciennes plaques sont toujours en place, plus ou moins durcies par le vent. Elles sont possibles surtout au dessus de 2000 m, en toutes orientations, mais plus nombreuses et sensibles en orientations sud-ouest à est, en passant par le nord. Elles reposent souvent sur une couche fragile persistante irrégulièrement enfouie, et localement facile à déclencher dans les secteurs où les quantités de neige en surface sont moindres. Le passage d'un seul skieur peut dans ce cas déclencher une avalanche, y compris à distance. Avalanches de taille généralement moyenne (taille 2), une grande (taille 3) est possible en cas de propagation de la cassure dans des secteurs d'importante accumulation de neige.\nObservables : \"woumfs\", fissures sous les skis, mais les couches fragiles sont difficiles à détecter pendant la progression, et la présence de neige fraîche en surface peut masquer les plaques en place.\n- Nouvelles instabilités superficielles en formation : les nouvelles petites chutes de neige modérément ventées se déposent sur la couche de neige fraîche tombée sans vent jeudi, et qui sert de couche fragile temporaire. Elles sont possibles en toutes orientations au dessus de 1800/2000 m environ, et peuvent être faciles à déclencher. Rares avalanches de neige friable de petite taille en journée, devenant plus nombreuses et parfois de taille moyenne en soirée avec le renforcement des chutes de neige (taille 1 à 2).\n\nDéparts spontanés : peu probables en début de journée, puis des avalanches de neige fraîche au fil des chutes de neige, se renforçant vendredi soir. Départs ponctuels en pentes raides, d'abord de petite taille en journée, puis parfois moyenne dans les accumulations plus importantes (taille 1 à 2). Localement cassure linéaire possible par surcharge de plaque en place, occasionnant une avalanche de taille moyenne à très localement grande (taille 2 à 3).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est très irrégulier et plutôt déficitaire pour une mi-janvier, notamment à cause du récent fort vent de nord-est.\nDonnées observées : 34 cm à la Nivôse d'Orcières à 2280 m et 70 cm à Prapic à 2480 m.\n\nLimite d'enneigement skiable : vers 1300/1500 m en ubacs avec précaution, mais il faut monter au-dessus de 1800/2000 m pour avoir un enneigement un peu plus confortable. \n\nÉtat de la neige de surface : jeudi matin, on trouve localement un petit saupoudrage de neige fraîche. Elle se dépose sur une neige souvent fortement travaillée par le vent, notamment en altitude, parfois sur de la neige peu ventée en forêts ou dans les combes bien abritées du vent. En approchant des crêtes, alternance entre corniches volumineuses et zones décapées par le vent. Bon regel nocturne sous 1800 m, voire plus haut en adrets.",
+      "text": "L'enneigement est très irrégulier et plutôt déficitaire pour la période.\nDonnées observées : 39 cm à la Nivôse d'Orcières à 2280 m et 75 cm à Prapic à 2480 m.\n\nLimite d'enneigement skiable : vers 1300/1500 m en ubacs avec précaution, mais il faut monter au-dessus de 1800/2000 m pour avoir un enneigement un peu plus confortable. \n\n\nÉtat de la neige de surface : vendredi matin, on trouve autour de 10 cm de neige fraîche en surface du manteau neigeux. Elle s'est déposée sur une neige souvent fortement travaillée par le vent, notamment en altitude, parfois sur de la neige poudreuse en forêts ou dans les combes bien abritées du vent, voire sur un sol décapé par le vent à l'approche des crêtes. En début de journée, petite croute de regel au dessous de 1800/2000 m environ.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

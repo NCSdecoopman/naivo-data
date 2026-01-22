@@ -3,61 +3,49 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-01-21T16:00:00",
-    "valid_until": "2026-01-22T18:00:00",
+    "issued_at": "2026-01-22T16:00:00",
+    "valid_until": "2026-01-23T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2000,
-        "split_axis": "horizontal",
-        "split_label": "2000m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2000",
-            "risk": 3,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2000m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "2",
             "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "3",
-            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-23",
+        "date": "2026-01-24",
         "label": "Indice de risque marqué",
-        "comment": "Vendredi, le risque devrait être en hausse relative. Vent de Sud sensible vers les crêtes, et perturbation un peu plus active entre l'après-midi et la soirée, donnant un peu plus de neige que jeudi (10-15 cm envisagés pour le moment).",
-        "trend": "steady"
+        "comment": "Dés la nuit de vendredi à samedi le risque devient marqué sur le massif avec des chutes de neige temporairement soutenues, qui pourraient apporter 15 à 30cm d'ici samedi matin.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -90,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-17",
-          "min_cm": 0,
-          "max_cm": 3
-        },
-        {
           "date": "2026-01-18",
           "min_cm": 0,
           "max_cm": 0
@@ -116,24 +99,29 @@
         },
         {
           "date": "2026-01-22",
-          "min_cm": 1,
+          "min_cm": 2,
           "max_cm": 5
+        },
+        {
+          "date": "2026-01-23",
+          "min_cm": 15,
+          "max_cm": 30
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 5
+        "last_48h_min_cm": 17,
+        "last_48h_max_cm": 35
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES INSTABILITÉS EN VERSANTS FROIDS DANS LA NEIGE VENTÉE, AVEC TRÈS LOCALEMENT DES SOUS-COUCHES FRAGILES PERSISTANTES",
-      "text": "QUELQUES INSTABILITÉS EN VERSANTS FROIDS DANS LA NEIGE VENTÉE, AVEC TRÈS LOCALEMENT DES SOUS-COUCHES FRAGILES PERSISTANTES\n\nDéclenchements provoqués : Risque encore localement marqué dans un large secteur Nord d'altitude, principalement au-dessus de 2000 m. Quelques instabilités peuvent persister dans les zones d'accumulations, formées avec le vent de Sud-Est des derniers jours. Elles prennent souvent la forme de plaques dures et se retrouvent parfois assez loin des crêtes. Ces plaques sont généralement peu épaisses et peu larges, mais peuvent être encore localement réactives. Très ponctuellement, la présence de grains anguleux enfouis sous la neige ventée, rend possible des déclenchements à distance et des départs de plus grande ampleur. En nuit de mercredi à jeudi, le vent de Sud peut être soutenu vers les crêtes, et pourrait très localement transporter à nouveau la neige, formant de rares nouvelles instabilités peu épaisses mais plus faciles à déclencher. Quant aux faibles chutes de neige attendues ce jeudi en journée (traces à 5 cm), elles n'auront que peu d'impact. \n\nDéparts spontanés : Peu probables, ou de rares départs au terrain de taille 1 à 2 sont possibles en pentes raides herbeuses.\n\nAutres : En altitude, neige souvent béton, voire glacée par endroits, rendant la progression difficile sans équipements. De même, la neige humide croûtée par regel présente des surfaces glissantes.",
+      "title": "PLAQUES A VENT EN COURS DE STABILISATION, FINES INSTABILITES DANS LA NEIGE RECENTE, RISQUE PLUS IMPORTANT EN SOIREE",
+      "text": "PLAQUES A VENT EN COURS DE STABILISATION, FINES INSTABILITES DANS LA NEIGE RECENTE, RISQUE PLUS IMPORTANT EN SOIREE\n\nDéclenchements provoqués : Les instabilités formées principalement dans un large secteur Nord d'altitude par les différents épisodes de vent des derniers jours sont en cours de stabilisation. Elles deviennent de plus en plus localisées et sont plus difficiles à déclencher. Elles sont généralement d'aspect ventées, mais sont souvent recouvertes d'une fine couche de neige fraîche qui les rend peu identifiables. Cette couche de neige fraîche présente elle-même des instabilités qui sont présentes en tout versants et localement très réactives, mais également de très faibles épaisseurs, de 5-10cm en général. Le vent de Sud vient toutefois former quelques accumulations instables qui peuvent atteindre 20cm d'épais. Très localement enfin et plutôt dans les versants Nord d'altitude, des couches fragiles peuvent être enfouies. Elles semblent rares et difficiles à venir solliciter, mais en cas de présence pourraient localement rendre possible le déclenchement à distance et le départ d'une plaque assez large. Le risque deviendra plus marqué à partir de de vendredi soir avec l'arrivée de chutes de neige soutenues, qui pourront donner 15 à 30cm sur le massif ... \n\n\nDéparts spontanés : Peu probables en journée, hormis peut être une purge de petite taille sous les rochers, en versant chargé par le vent. Quelques coulées humides possibles en versants ensoleillés sous les rochers, plutôt en matinée / milieu de journée. Puis à partir de la fin d'après-midi / soirée sous les chutes de neige, de petites purges naturelles pourraient se produire en pente raide dans les 15 à 30cm de neige attendues...",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement est correct au-dessus de 2000m environ, mais est médiocre à basses altitudes et en versants Sud. Il est parfois médiocre en haute montagne également, le vent ayant dégarni les crêtes et sommets de pentes. Limites skiables à partir de 1100/1600m.\n\nQualité de la neige jeudi :  En journée de jeudi, une fine couche de neige fraîche peut se déposer sur le massif, mais de manière parfois hétérogène tant les cumuls sont faibles...  Sinon, neige très travaillée par le vent, souvent dure / cartonnée, ou humide souvent croûtée aux plus basses altitudes et dans les pentes Sud. Les crêtes sont parfois dégarnies, avec des surfaces glacées qui peuvent ressortir. Rares combes froides bien abritées en poudreuse dense.",
+      "text": "Qualification de l’enneigement : L'enneigement est correct au-dessus de 2000m environ, mais est médiocre à basses altitudes et en versants Sud. Il est parfois médiocre en haute montagne également, le vent ayant dégarni les crêtes et sommets de pentes. Limites skiables à partir de 1100/1600m.\n\nQualité de la neige vendredi :  Vendredi matin, on retrouvera une fine couche de neige récente sur le massif, parfois densifiée par le vent de Sud, notamment à l'abord des crêtes et sommets. Dans les secteurs abrités du vent et plus haut que 2000m environ, on retrouvera 3 à 10cm de neige poudreuse bien légère. Plus bas, la neige est tombée plus lourde voire humide et pourra être légèrement croûtée au réveil, avant une reprise de l'humidification au soleil en journée. En toute fin de journée, les chutes de neige reprennent et devraient déposer une belle couche de 15 à 30cm d'ici samedi matin...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,8 +132,8 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 40,
-          "S": 10
+          "N": 51,
+          "S": 11
         },
         {
           "alt_m": 2000,

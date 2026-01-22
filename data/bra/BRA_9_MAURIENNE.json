@@ -3,8 +3,8 @@
   "massif": "Maurienne",
   "bulletin": {
     "id": 9,
-    "issued_at": "2026-01-21T16:00:00",
-    "valid_until": "2026-01-22T18:00:00",
+    "issued_at": "2026-01-22T16:00:00",
+    "valid_until": "2026-01-23T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,7 +54,7 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-23",
+        "date": "2026-01-24",
         "label": "Indice de risque marqué",
         "comment": "Stationnaire",
         "trend": "steady"
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-17",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-18",
           "min_cm": 0,
           "max_cm": 0
@@ -117,23 +112,28 @@
         {
           "date": "2026-01-22",
           "min_cm": 1,
-          "max_cm": 3
+          "max_cm": 2
+        },
+        {
+          "date": "2026-01-23",
+          "min_cm": 5,
+          "max_cm": 10
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 3
+        "last_48h_min_cm": 6,
+        "last_48h_max_cm": 12
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "LE RISQUE RESTE MARQUÉ DANS LES VERSANTS FROIDS.",
-      "text": "LE RISQUE RESTE MARQUÉ DANS LES VERSANTS FROIDS. \n\nDéclenchements provoqués : \n- au-dessus de 1600/1700 m, quelques plaques réactives subsistent dans les pentes Nord, Est et Ouest. Ces plaques désormais généralement dures ont été entretenues par le foehn sensible ces derniers jours, elles reposent par ailleurs sur des couches fragiles qui évoluent pas ou peu (grains sans cohésion : gobelets ou faces planes). Déclenchements à distance possibles, avec de larges propagations engendrant des avalanches de taille 2 à 3 (moyennes à grandes). Les cassures peuvent atteindre 1 à 2 m. Les pentes Sud à haute altitude ont pu aussi garder une neige froide et dans ces conditions, un déclenchement est possible.\nObservables : \"woumf\", les indices de transport par le vent doivent mettre en alerte mais attention : même là où la neige est encore meuble en surface, le risque de plaque est important. La présence de traces de ski antérieures n'est pas un signe de stabilité. A l'inverse, la présence d'une croute de regel est un bon signe de stabilité locale.\n- sous 1600 m ou en adrets, le foehn et/ou le soleil ont transformé la neige en surface, le risque est alors bien moindre.\n\nDéparts spontanés : peu probables, le retour des nuages limite les départs en neige humide qu'à basse altitude.",
+      "text": "LE RISQUE RESTE MARQUÉ DANS LES VERSANTS FROIDS. \n\nDéclenchements provoqués : \n- au-dessus de 1600/1700 m, quelques plaques réactives subsistent dans les pentes Nord, Est et Ouest. Ces plaques désormais généralement dures recouvertes d'une fine couche de neige fraîche, elles reposent par ailleurs sur des couches fragiles qui évoluent pas ou peu (grains sans cohésion : gobelets ou faces planes). Déclenchements à distance possibles, avec de larges propagations engendrant des avalanches de taille 2 à 3 (moyennes à grandes). Les cassures peuvent toujours atteindre 60cm à 1 m, parfois plus au niveau de ruptures de pente. Les pentes Sud à haute altitude ont pu aussi garder une neige froide et dans ces conditions, un déclenchement est possible.\nObservables : Quelques \"woumf\" plutôt loin des crêtes où les plaques sont moins dures, les indices de transport par le vent doivent mettre en alerte mais attention : même là où la neige est encore meuble en surface, le risque de plaque est important. La présence de traces de ski antérieures n'est pas un signe de stabilité. A l'inverse, la présence d'une croute de regel est un bon signe de stabilité locale. Des indices parfois dissimulés par une fine couche de neige tombée ce jeudi.\n- sous 1600 m ou en adrets, le foehn et/ou le soleil ont transformé la neige en surface, le risque de déclenchement est alors bien moindre.\n\nDéparts spontanés : peu probables, petites boulettes ou coulées matinales au soleil de neige fraîche en surface",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : à la faveur des abondantes chutes du début d'année, l'enneigement est désormais normal. Fonte rapide à basse altitude sous la lombarde.\n\nLimite skiable :  à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1300 m en N, 1800 m en Sud avec une neige parfois pourrie .\n\nQualité de la neige vendredi  : en large versant Nord, au-dessus de 1800/2000 m et à l'abri du vent, on trouve encore très localement une neige poudreuse assez dense. Ailleurs le vent a fortement travaillé le manteau, surtout en altitude : crêtes rabotées cartonnées, grosses accumulations dans les combes et zones de dépôt.\nEn Sud : neige de printemps sous 2200/2400 m. Humidification superficielle en journée, uniquement à basse altitude (les nuages limitant le dégel au dessus de 2000m)",
+      "text": "Enneigement : L'enneigement est proche de la normale en moyenne montagne, le vent a pelé de nombreuses crêtes et sommets.\n\nLimite skiable :  Les versants froids voyant pas ou peu le soleil ont gardé de la neige à basse altitude skiable sur l'herbe. Sur terrain rocheux, il vaut mieux atteindre 1300 m en N, 1800 m en Sud pour trouver un terrain plus serein.\n\nQualité de la neige vendredi  : Une très fine couche de neige fraîche est présente en surface vendredi matin. Elle repose dans en large versant Nord, au-dessus de 1800/2000 m et à l'abri du vent, sur une neige encore poudreuse assez dense. Ailleurs le vent a fortement travaillé le manteau, surtout en altitude : crêtes rabotées cartonnées, grosses accumulations dans les combes et zones de dépôt.\nEn Sud : neige de printemps sous 2200/2400 m. Léger bottage de la neige fraîche le matin.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

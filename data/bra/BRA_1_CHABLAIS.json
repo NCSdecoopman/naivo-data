@@ -3,8 +3,8 @@
   "massif": "Chablais",
   "bulletin": {
     "id": 1,
-    "issued_at": "2026-01-21T16:00:00",
-    "valid_until": "2026-01-22T18:00:00",
+    "issued_at": "2026-01-22T16:00:00",
+    "valid_until": "2026-01-23T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-23",
+        "date": "2026-01-24",
         "label": "Indice de risque limité",
-        "comment": "Risque stationnaire.",
+        "comment": "Possibles petites coulées de neige fraîches pendant/après les chutes de la nuit. La couche fragile persistante reste sollicitable.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-17",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-18",
           "min_cm": 0,
           "max_cm": 0
@@ -99,28 +94,33 @@
         {
           "date": "2026-01-21",
           "min_cm": 0,
-          "max_cm": 0
+          "max_cm": 1
         },
         {
           "date": "2026-01-22",
-          "min_cm": 1,
-          "max_cm": 1
+          "min_cm": 0,
+          "max_cm": 2
+        },
+        {
+          "date": "2026-01-23",
+          "min_cm": 3,
+          "max_cm": 7
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 1
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 9
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Instabilités en ubacs.",
-      "text": "Instabilités en ubacs.\n\nDéclenchements provoqués :\n* Dans les secteurs Nord/Est/Ouest, on retrouve la présence d'une sous-couche fragile persistante au-dessus de 2000/2200 m, le plus souvent dans les ubacs les plus abrités du vent. Taille 2 plus rarement 3 (moyenne à grande : possibilité de départ en cascade). Ces plaques se trouvent aussi dans les pentes déjà skiées, parfois déclenchable à distance. \n\nDéparts spontanés :\n* En dessous de 2400 m : rares avalanches de fond, dans les pentes herbeuses ou les dalles rocheuses. Départs possibles à toute heure du jour et de la nuit. Taille 1 à 2 (petite à moyenne).",
+      "title": "Instabilités enfouies, pouvant donner une grande avalanche.",
+      "text": "Instabilités enfouies, pouvant donner une grande avalanche. \n\nDéclenchements provoqués :\n* Au-dessus de 2000 m : présence d'une couche fragile persistante dans d'assez nombreuses pentes des versants Nord/Est/Ouest. Elle peut être déclenchée à distance et parfois dans les pentes déjà skiées. Risque de cassure épaisse et longue. Taille 2, (moyenne) plus rarement 3  (grande). Possibilité d'avalanches en cascade.\n\nDéparts spontanés :\n* Sous 2400 m : très rares avalanches de fond. Départs possibles dans les pentes herbeuses ou les dalles rocheuses. Départs à toute heure du jour et de la nuit. Taille 1 à 2 (petite à moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nL'enneigement est déficitaire pour la saison sous 2400 m et normal au-dessus. \nOn peut chausser les skis vers 1100/1300 m. Faible sous-couche sous 1500 m, des cailloux sont cachés sous la neige. \n\nQualité de la neige jeudi :\n* Au-dessus de 2600 m : Le plus souvent dure et ventée, mais parfois encore poudreux dense et froid dans les endroits les plus abrités du vent.\n* Entre de 2200 et 2600 m : neige froide, soit très travaillée par le vent, ou très dense mais plus lisse, voir poudreux dense dans les secteurs à l'abri du vent de sud. \n* En dessous de 2000/2200m : une fine croute de regel non portante est présente au lever du jour, puis elle se ramollit l'après-midi, principalement dans les versants ensoleillés. Dans les versants à l'ombre  la neige est dure, voir poudreux denses dans les endroits les plus protégés du vent.\n* Les crêtes et les arêtes sont décapées par le vent.",
+      "text": "Enneigement :\nL'enneigement est déficitaire pour la saison sous 2400 m et normal au-dessus. \nOn peut chausser les skis vers 1100/1300 m. Pas de sous-couche sous 1500 m, des cailloux ressortent de la neige. \n\nQualité de la neige vendredi :\n* Au-dessus de 2000/2200 m : neige froide. Elle est souvent dense due au tassement (faible enfoncement piéton) ou durcie par le vent. Dans quelques pentes à l'abri du vent, la surface reste encore légère sur quelques centimètres (avec un fond plus dur en-dessous).\n* En-dessous de 2000/2200 m : dans les versants Sud, fine croûte cassante due à un faible regel nocturne le matin. La surface se ramollit en journée. Dans les autres versants, la surface de la neige est dure. \n* Les crêtes et les arêtes sont décapées par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

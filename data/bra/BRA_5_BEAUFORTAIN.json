@@ -3,8 +3,8 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-01-21T16:00:00",
-    "valid_until": "2026-01-22T18:00:00",
+    "issued_at": "2026-01-22T16:00:00",
+    "valid_until": "2026-01-23T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,7 +54,7 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-23",
+        "date": "2026-01-24",
         "label": "Indice de risque marqué",
         "comment": "Stationnaire",
         "trend": "steady"
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-17",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-18",
           "min_cm": 0,
           "max_cm": 0
@@ -118,22 +113,27 @@
           "date": "2026-01-22",
           "min_cm": 1,
           "max_cm": 1
+        },
+        {
+          "date": "2026-01-23",
+          "min_cm": 3,
+          "max_cm": 7
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 1
+        "last_48h_min_cm": 4,
+        "last_48h_max_cm": 8
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "LE RISQUE RESTE MARQUÉ DANS LES VERSANTS FROIDS. \nEN SUD, MANTEAU GÉNÉRALEMENT BIEN STABILISÉ.",
-      "text": "LE RISQUE RESTE MARQUÉ DANS LES VERSANTS FROIDS. \nEN SUD, MANTEAU GÉNÉRALEMENT BIEN STABILISÉ.\n\nDéclenchements provoqués : \n- au-dessus de 1800 m, quelques plaques réactives subsistent dans les pentes Nord, Est et Ouest. Ces plaques reposent sur des couches fragiles qui évoluent pas ou peu (grains sans cohésion : gobelets ou faces planes). Déclenchements à distance possibles, avec de larges propagations engendrant des avalanches de taille 2 à 3 (moyennes à grandes). Ces plaques sont parfois encore d'aspect poudreux dense dans les secteurs abrités du vent, plus généralement dures dans les secteurs qui ont subi le violent foehn ces derniers jours (les cassures peuvent alors atteindre 1 à 2 m). \nObservables : hormis un \"woumf\" de la dernière chance, les observables sont peu nombreux en surface (la couche fragile se situe aussi bien sous une neige ventée que sous une neige d'apparence encore poudreuse). La présence de traces de ski antérieures n'est pas un signe de stabilité. A l'inverse, la présence d'une croute de regel est un bon signe de stabilité locale.\n- sous 1800 m ou en adrets, le foehn et/ou le soleil ont transformé la neige en surface, le risque est alors bien moindre.\n\nDéparts spontanés : peu probables, le temps nuageux limite le risque de plaques de fond.",
+      "text": "LE RISQUE RESTE MARQUÉ DANS LES VERSANTS FROIDS. \nEN SUD, MANTEAU GÉNÉRALEMENT BIEN STABILISÉ.\n\nDéclenchements provoqués : \n- au-dessus de 1800 m, quelques plaques réactives subsistent encore dans les pentes Nord, Est et Ouest. Ces plaques reposent sur des couches fragiles qui évoluent pas ou peu (grains sans cohésion : gobelets ou faces planes). Déclenchements à distance possibles, avec de larges propagations engendrant des avalanches de taille 2 à 3 (moyennes à grandes). Ces plaques sont parfois encore d'aspect poudreux dense dans les secteurs abrités du vent, plus généralement dures dans les secteurs qui ont subi le violent foehn ces derniers jours (les cassures peuvent alors atteindre 1 à 2 m).  De nombreux tests de stabilité récents valident la réactivité de ces plaques ainsi que le risque de propagation.\nObservables : hormis un \"woumf\" de la dernière chance, souvent dans les pentes douces loin des crêtes où les plaques sont moins dures, les observables sont peu nombreux en surface avec une couche fragile bien enfouie. La présence de traces de ski antérieures n'est pas un signe de stabilité. A l'inverse, la présence d'une croute de regel est un bon signe de stabilité locale.\n- sous 1800 m ou en adrets, le risque de déclenchement est moindre.\n\nDéparts spontanés : peu probables.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : à la faveur des abondantes chutes du début d'année, l'enneigement est désormais normal. Fonte rapide à basse altitude sous le foehn (surtout vers Bourg-Saint-Maurice/Valezan).\n\nLimite skiable : à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche sous 1300 m en N, 1800 m en Sud avec une neige parfois pourrie .\n\nQualité de la neige : en large versant Nord, au-dessus de 1700/1900 m et à l'abri du vent, on peut trouver une neige encore poudreuse assez dense. Ailleurs le vent a fortement travaillé le manteau, surtout en altitude : crêtes rabotées cartonnées, grosses accumulations dans les combes et zones de dépôt.\nEn Sud : neige de printemps sous 2200/2400 m. Humidification superficielle en journée, uniquement à basse altitude (les nuages limitant le dégel au dessus de 2000m)",
+      "text": "Enneigement : L'enneigement est désormais globalement normal même si on observe un déneigement des pentes ensoleillées à basse altitude et un net tassement de la neige tombée en début de mois.\n\nLimite skiable : encore à basse altitude à l'ombre sur l'herbe. Sur terrain rocheux, il vaut mieux atteindre 1300 m en N, 1800 m en Sud pour trouver un terrain plus serein.\n\nQualité de la neige : en large versant Nord, au-dessus de 1700/1900 m et à l'abri du vent, on peut trouver une neige encore poudreuse assez dense. Ailleurs le vent a fortement travaillé le manteau, surtout en altitude : crêtes rabotées cartonnées, grosses accumulations dans les combes et zones de dépôt.\nEn Sud : neige de printemps sous 2200/2400 m. Humidification superficielle le matin avant le retour des nuages.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
