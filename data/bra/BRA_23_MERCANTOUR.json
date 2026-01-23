@@ -3,30 +3,30 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-01-22T16:00:00",
-    "valid_until": "2026-01-23T18:00:00",
+    "issued_at": "2026-01-23T16:00:00",
+    "valid_until": "2026-01-24T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 1800,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<1800",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
+            "loc": ">1800",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "1800m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-24",
+        "date": "2026-01-25",
         "label": "Indice de risque marqué",
-        "comment": "Risque en hausse et restant marqué avec les nouvelles chutes de neige vendredi soir. Formation de nouvelles instabilités dans la neige fraîche.",
+        "comment": "Risque en hausse et restant marqué avec les nouvelles chutes de neige samedi soir. Formation de nouvelles instabilités dans la neige fraîche.",
         "trend": "steady"
       }
     },
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 3,
-      "secondary": 2,
+      "primary": 1,
+      "secondary": 3,
       "labels": {
-        "3": "Couche fragile persistante",
-        "2": "Neige ventée"
+        "1": "Neige fraîche",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-3"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-18",
-          "min_cm": 0,
-          "max_cm": 10
-        },
         {
           "date": "2026-01-19",
           "min_cm": 0,
@@ -116,46 +111,51 @@
         },
         {
           "date": "2026-01-23",
-          "min_cm": 10,
+          "min_cm": 15,
           "max_cm": 20
+        },
+        {
+          "date": "2026-01-24",
+          "min_cm": 10,
+          "max_cm": 15
         }
       ],
       "totals": {
-        "last_48h_min_cm": 15,
-        "last_48h_max_cm": 30
+        "last_48h_min_cm": 25,
+        "last_48h_max_cm": 35
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RISQUE DE DÉCLENCHEMENT À SKI MARQUÉ EN ALTITUDE",
-      "text": "RISQUE DE DÉCLENCHEMENT À SKI MARQUÉ EN ALTITUDE\n\nDéclenchements provoqués : - quelques plaques sont en place principalement au-dessus de 2000/2200 m en orientations ouest, nord et est, où l'on retrouve des couches fragiles persistantes enfouies encore sollicitables au passage d'un skieur. Plaques difficiles à identifier car souvent recouvertes par une fine couche de neige récente, présentes plutôt aux abords des crêtes, mais aussi possibles au milieu de pentes dans des secteurs abrités du vent (forêt). Déclenchements possibles à distance avec des cassures parfois larges et épaisses, générant des avalanches de taille moyenne (taille 2), rarement grandes (taille 3) dans les secteurs de forte accumulation par le vent ou en cas de topographie favorable. Observables : fissures devant les skis,  « woumfs ». \n - des petites plaques faciles à déclencher se forment au-dessus de 2000 m dans la fine couche de neige fraiche ventée, restant de petite taille. \n\nEn dessous de 2000 m et en versant sud, des plaques restent possibles, mais elles sont de taille plus limitée, et plus difficiles à déclencher du fait de la présence de croûtes de regel dans le manteau neigeux.\n\nDéparts spontanés : rares départs de petites taille avec le transport de neige par le vent.",
+      "title": "NOMBREUSES PLAQUES DANS LA NEIGE FRAICHE, PARFOIS ÉPAISSES EN UBACS D'ALTITUDE",
+      "text": "NOMBREUSES PLAQUES DANS LA NEIGE FRAICHE, PARFOIS ÉPAISSES EN UBACS D'ALTITUDE\n\nDéclenchements provoqués :  - de nombreuses plaques sont en place et en formation dans la neige fraiche ventée, possibles en toutes orientations et plus fréquentes et sensibles au-dessus de 1800/2000 m. Plaques présentes principalement dans les secteurs exposés au vent, à proximité des crêtes et parfois dans les ruptures de pentes plus loin de crêtes. Avalanches restant de taille petite à moyenne (taille 1 à 2).\n - En secteur ouest nord et est au-dessus de 2000/2200 m, ces instabilités de surface viennent s'ajouter à des plaques plus larges et épaisses reposant sur des couches fragiles persistantes enfouies. Plaques pouvant encore localement être sollicitées par un skieur isolé, parfois à distance, notamment sur les croupes et bords de couloirs où le manteau neigeux est moins épais, ou en cascade par une petite avalanche de surface. Avalanche de taille moyenne à grande (taille 2 à 3). Observables : fissures devant les skis,  « woumfs ». \n\nDéparts spontanés : quelques départs de taille petite à moyenne (taille 1 à 2) avec le transport de neige par le vent, plus nombreux l'après-midi.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement se rapprochant de la normale pour la saison.\nDonnées observées : 60 cm à la nivôse de Millefonts (2430 m), 67 cm à Isola 2000 à 1912 m.\n\nLimite d'enneigement skiable : à partir de 1500/1600 m en ubacs sur terrains favorables (pentes herbeuses, routes forestières), plutôt 2000 m en adrets. \n\nÉtat de la neige en surface :  On retrouve une petite couche de neige fraîche légère au-dessus de 1800/2000 m, humidifiée/regelé en dessous. Elle repose sur de la neige récente encore poudreuse en versant nord abrité du vent, souvent durcie par le vent à proximité des crêtes, et croutées en versants bien ensoleillés sous 2200/2300 m. Crêtes souvent pelées",
+      "text": "Enneigement se rapprochant de la normale pour la saison.\nDonnées observées : 71 cm à la nivôse de Millefonts (2430 m), 71 cm à Isola 2000 à 1912 m.\n\nLimite d'enneigement skiable : à partir de 1500/1600 m en ubacs sur terrains favorables (pentes herbeuses, routes forestières), plutôt 1700/1800 m en adrets. \n\nÉtat de la neige en surface :  On retrouve en surface 20 à 30 cm de neige fraîche ventée reposant sur de la neige récente encore poudreuse en versant nord abrité du vent, souvent durcie par le vent à proximité des crêtes, et croutées en versants bien ensoleillés sous 2200/2300 m. Crêtes souvent pelées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1500,
-        "south": 1500
+        "north": 1400,
+        "south": 1400
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 10,
-          "S": 5
+          "N": 15,
+          "S": 10
         },
         {
           "alt_m": 2000,
-          "N": 70,
-          "S": 35
+          "N": 80,
+          "S": 45
         },
         {
           "alt_m": 2500,
-          "N": 115,
-          "S": 90
+          "N": 125,
+          "S": 100
         }
       ],
       "icon_key": "snowpack",

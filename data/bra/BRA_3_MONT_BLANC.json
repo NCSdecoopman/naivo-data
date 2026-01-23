@@ -3,30 +3,30 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-01-22T16:00:00",
-    "valid_until": "2026-01-23T18:00:00",
+    "issued_at": "2026-01-23T16:00:00",
+    "valid_until": "2026-01-24T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 1800,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<1800",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
+            "loc": ">1800",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "1800m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-24",
+        "date": "2026-01-25",
         "label": "Indice de risque marqué",
-        "comment": "Possibles petites coulées de neige fraîches pendant/après les chutes de la nuit. La couche fragile persistante reste sollicitable.",
+        "comment": "Risque stationnaire, les couches fragiles persistantes sont toujours sollicitables. Le vent faiblit en haute-montagne mais les plaques à vent sont toujours présentes. Journée sous de nombreux nuages.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-18",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-19",
           "min_cm": 0,
           "max_cm": 0
@@ -118,22 +113,27 @@
           "date": "2026-01-23",
           "min_cm": 3,
           "max_cm": 7
+        },
+        {
+          "date": "2026-01-24",
+          "min_cm": 0,
+          "max_cm": 2
         }
       ],
       "totals": {
         "last_48h_min_cm": 3,
-        "last_48h_max_cm": 8
+        "last_48h_max_cm": 9
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Instabilités enfouies, pouvant donner une grande avalanche.",
-      "text": "Instabilités enfouies, pouvant donner une grande avalanche. \n\nDéclenchements provoqués :\n* Au-dessus de 2000 m : présence d'une couche fragile persistante dans d'assez nombreuses pentes des versants Nord/Est/Ouest. Elle peut être déclenchée à distance et parfois dans les pentes déjà skiées. Risque de cassure épaisse (40/70 cm) et longue. Taille 2, (moyenne) plus rarement 3  (grande). Possibilité d'avalanches en cascade.\n* Au-dessus de 2000 m : rares plaques à vent. Formées par le Foehn des derniers jours. Présentes vers les crêtes mais aussi plus bas dans les pentes. Plus nombreuses en haute-montagne. Taille 1 (petite). Facteur aggravant : le départ d'une plaque à vent peut solliciter la couche fragile persistante et donner une avalanche de plus grande ampleur. \nObservables : vaguelettes, zones d'accumulations, fissures devant les skis. \n\nDéparts spontanés :\n* En moyenne montagne : très rares avalanches de fond. Départs possibles dans les pentes herbeuses ou les dalles rocheuses. Départs à toute heure du jour et de la nuit. Taille 1 à 2 (petite à moyenne).",
+      "title": "Faibles chutes de neige dans la nuit de vendredi à samedi (3-7 cm).",
+      "text": "Faibles chutes de neige dans la nuit de vendredi à samedi (3-7 cm).\n\nDéclenchements provoqués :\n* Au-dessus de 1800 m, dans les versants Est/Nord/Ouest : présence d'une couche fragile persistante enfouie mais réactive. Elle peut être déclenchée à distance et parfois dans les pentes déjà skiées. Risque de cassure épaisse (40/70 cm) et longue. Taille 2, (moyenne) plus rarement 3  (grande). Possibilité d'avalanches en cascade.\n* En haute-montagne : plaques à vent. Elles se forment et se sont formées par le vent fort de Sud-Ouest à Sud-Est dans la neige restée froide et légère ces deniers jours. Plus nombreuses à proximité des crêtes. Taille 1 (petite) à 2 (moyenne)\nObservables : transport de neige par le vent, zones d'accumulations, fissures devant les skis. \n\nDéparts spontanés :\n* En moyenne montagne : rares avalanches de fond dans les pentes raides et lisses (pentes herbeuses ou dalles rocheuses). Départs possibles à toute heure du jour et de la nuit. Taille 1 à 2 (petite à moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nL'enneigement est déficitaire pour la saison sous 2400 m et normal au-dessus. \nOn peut chausser les skis vers 1100/1300 m. Pas de sous-couche sous 1500 m, des cailloux ressortent de la neige. \n\nQualité de la neige vendredi :\n* En haute montagne : neige froide mais dure, travaillée par le vent. \n* Au-dessus de 2000/2400 m : neige froide. Elle est souvent dense due au tassement (faible enfoncement piéton) ou durcie par le vent. Dans quelques pentes à l'abri du vent, la surface reste encore légère sur quelques centimètres (avec un fond plus dur en-dessous).\n* En-dessous de 2000/2400 m : Dans les versants Sud, fine croûte cassante due à un faible regel nocturne le matin. La surface se ramollit en journée. Dans les autres versants, la surface de la neige est dure. \n* Les crêtes et les arêtes sont décapées par le vent.",
+      "text": "Enneigement :\nL'enneigement est déficitaire pour la saison sous 2700 m et normal en haute-montagne. \nOn peut chausser les skis vers 1100/1300 m en versants à l'ombre et 1500/1700 m en versant S. Pas de sous-couche sous 1500 m, des cailloux ressortent de la neige. \n\nQualité de la neige samedi :  \n* Au matin, 3-7 cm de neige fraîche à toute altitude. Cette fine couche repose sur :\n-  en haute montagne, sur un manteau neigeux dur, dû au vent fort ces derniers jours. Dans de rares pentes abritées du vent, il reste un peu de neige légère.\n-  en versant Sud sous 1800/2200 m, sur de la neige transformée en surface par le soleil\n-  ailleurs, sur de la neige froide mais compacte dû au tassement (enfoncement piéton de 15-30 cm) ou durcie par le vent. \n* Les crêtes et les arêtes de moyenne montagne sont dégarnies.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 120,
-          "S": 70
+          "N": 110,
+          "S": 60
         },
         {
           "alt_m": 2500,
-          "N": 220,
-          "S": 190
+          "N": 210,
+          "S": 180
         }
       ],
       "icon_key": "snowpack",

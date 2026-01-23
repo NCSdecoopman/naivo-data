@@ -3,49 +3,61 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-01-22T16:00:00",
-    "valid_until": "2026-01-23T18:00:00",
+    "issued_at": "2026-01-23T16:00:00",
+    "valid_until": "2026-01-24T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque faible évoluant en limité.",
+      "max_level": 3,
+      "comment": "Au-dessus de 1600m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1600,
+        "split_axis": "horizontal",
+        "split_label": "1600m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
-            "risk": 1,
-            "evolution_to": 2,
-            "position": null
+            "loc": "<1600",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1600",
+            "risk": 3,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1600m"
         },
         "zones": {
-          "center": {
-            "text": "1→2",
+          "bottom": {
+            "text": "2",
             "risk": 2,
-            "evolution_to": 2
+            "evolution_to": null
+          },
+          "top": {
+            "text": "3",
+            "risk": 3,
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-24",
+        "date": "2026-01-25",
         "label": "Indice de risque marqué",
-        "comment": "Dés la nuit de vendredi à samedi le risque devient marqué sur le massif avec des chutes de neige temporairement soutenues, qui pourraient apporter 15 à 30cm d'ici samedi matin.",
-        "trend": "up"
+        "comment": "Dimanche, le risque restera marqué. L'atmosphère reste plutôt fraîche et le vent d'Ouest se lève, devenant modéré en journée, et formant des plaques dans la neige fraîche, surtout en altitude.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -53,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -66,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 1,
+      "primary": 1,
+      "secondary": 2,
       "labels": {
-        "2": "Neige ventée",
-        "1": "Neige fraîche"
+        "1": "Neige fraîche",
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-18",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-19",
           "min_cm": 0,
@@ -106,22 +113,27 @@
           "date": "2026-01-23",
           "min_cm": 15,
           "max_cm": 30
+        },
+        {
+          "date": "2026-01-24",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 18,
-        "last_48h_max_cm": 35
+        "last_48h_min_cm": 15,
+        "last_48h_max_cm": 31
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITES DE SURFACE DANS LA NEIGE RECENTE EN JOURNEE, PUIS FORMATION DE NOUVELLES INSTABILITES SOUS LES CHUTES DE NEIGE EN FIN DE JOURNEE",
-      "text": "INSTABILITES DE SURFACE DANS LA NEIGE RECENTE EN JOURNEE, PUIS FORMATION DE NOUVELLES INSTABILITES SOUS LES CHUTES DE NEIGE EN FIN DE JOURNEE\n\nDéclenchements provoqués : En journée le risque est limité, avec seulement quelques plaques de surfaces formées dans les 5-10cm de neige récente. Elles sont parfois rendues un peu plus épaisses et plus réactives par le vent de Sud qui vient former de petites accumulations. Le risque va augmenter avec le retour des chutes de neige en toute fin d'après-midi et en soirée de vendredi, où l'on attends jusqu'à 15 voire 30 cm de neige froide supplémentaires. Ces chutes de neige pourraient s'accompagner d'un léger vent d'Ouest, suffisant pour venir former de nombreuses instabilités. Elles seront généralement peu épaisses, mais pourront être trés réactives et seront souvent difficilement identifiables. \n\nDéparts spontanés : Peu probables en journée, hormis peut être une purge de petite taille sous les rochers, en versant chargé par le vent. Quelques coulées humides possibles en versants ensoleillés sous les rochers, plutôt en matinée / milieu de journée. Puis à partir de la fin d'après-midi sous les chutes de neige, de petites purges naturelles pourraient se produire en pente raide dans les 15 à 30cm de neige attendues...",
+      "title": "NOMBREUSES INSTABILITES DANS LA NEIGE FRAICHE, SURTOUT EN ALTITUDE",
+      "text": "NOMBREUSES INSTABILITES DANS LA NEIGE FRAICHE, SURTOUT EN ALTITUDE \n\nDéclenchements provoqués : En tout versants et surtout au-dessus 1600m, les instabilités seront nombreuses et réactives dans les 15 à 30cm de neige fraîche attendus dans la nuit de vendredi à samedi. Cette neige très légère prends un peu de cohésion en surface sous le léger vent d'Est, formant des structures de plaques friables difficilement identifiables. Le risque pourrait être un peu plus marqué là où cette neige fraîche se dépose sur 5 à 10cm de neige encore légère tombée en journée de jeudi, qui jouera le rôle de couche fragile temporaire.  Sous 1600m, le risque est également présent, mais la neige fraîche se dépose sur une neige plus dense, parfois humide, l'empêchant de jouer pleinement son rôle de couche fragile. Des instabilités seront toutefois présentes au sein de la neige fraîche, mais le risque sera plus limité, et les cassures seront moins larges et épaisses. Là où la neige de surface n'a pas pris de cohésion, possibilité de faire partir une petite coulée ponctuelle sous les skis. \n\nDéparts spontanés : Des départs sont probables en soirée de vendredi sous les intenses chutes de neige, avec des avalanches de tailles petites à moyennes. Samedi, le risque est faible, ou alors de petites coulées sous les vent de Sud en matinée, d'Est en soirée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est médiocre sur le massif, notamment dans les versants Sud où les quelques cm de neige tombés ce jeudi reposent sur des sous-couches irrégulières voire  inexistantes à basses altitudes. Limites skiables remontant vers 1100/1400m.\n\nQualité de la neige vendredi : Vendredi matin, on retrouvera une fine couche de neige récente sur le massif, parfois densifiée par le vent de Sud, notamment à l'abord des crêtes et sommets. Plus bas, la neige est tombée humide pourra être légèrement croûtée au réveil, mais l'humidification reprendra rapidement en journée. En toute fin de journée, les chutes de neige reprennent et devraient déposer une belle couche de 15 à 30cm d'ici samedi matin...",
+      "text": "Qualification de l’enneigement :  L'enneigement s'améliore sous les chutes de neige récentes mais reste médiocre pour la saison. La neige tombe très légère sur des sous-couches irrégulières.   Limites skiables vers 900/1200m (avec prudence en basse altitude où les sous-couches sont peu épaisses voire inexistantes)\n\nQualité de la neige samedi : Samedi matin, on retrouvera 15 à 30cm de neige poudreuse souvent légère sur le massif, parfois légèrement densifiée par le vent en surface. Elle repose sur une sous-couche assez dense, mais parfois peu épaisse. En journée la poudreuse s'alourdira sous 1700m sous l'effet du léger redoux.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

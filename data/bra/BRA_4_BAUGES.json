@@ -3,14 +3,14 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-01-22T16:00:00",
-    "valid_until": "2026-01-23T18:00:00",
+    "issued_at": "2026-01-23T16:00:00",
+    "valid_until": "2026-01-24T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 1,
-      "comment": "Indice de risque faible.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 1,
+            "risk": 2,
             "evolution_to": null,
             "position": null
           }
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "1",
-            "risk": 1,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-01-24",
-        "label": "Indice de risque faible",
-        "comment": "Manteau neigeux stable. Possibles petites coulées de neige fraîches pendant/après les chutes de la nuit de vendredi à samedi.",
+        "max_level": 2,
+        "date": "2026-01-25",
+        "label": "Indice de risque limité",
+        "comment": "Risque stationnaire, les couches fragiles persistantes sont toujours sollicitables. Journée sous de nombreux passages nuageux.",
         "trend": "steady"
       }
     },
@@ -52,11 +52,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -66,21 +66,16 @@
       }
     },
     "sat": {
-      "primary": 6,
+      "primary": 2,
       "secondary": null,
       "labels": {
-        "6": "Aucune prédominente"
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-6"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-18",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-19",
           "min_cm": 0,
@@ -98,35 +93,40 @@
         },
         {
           "date": "2026-01-22",
-          "min_cm": 1,
-          "max_cm": 3
+          "min_cm": 0,
+          "max_cm": 2
         },
         {
           "date": "2026-01-23",
-          "min_cm": 5,
-          "max_cm": 10
+          "min_cm": 10,
+          "max_cm": 15
+        },
+        {
+          "date": "2026-01-24",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 6,
-        "last_48h_max_cm": 13
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 16
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Bonne stabilité globale, rares instabilités dans la neige restée froide.",
-      "text": "Bonne stabilité globale, rares instabilités dans la neige restée froide. \n\nDéclenchements provoqués :\n* Très rares plaques à vent sur les plus hauts sommets. Formées par le vent de Sud/Sud-Est de ces derniers jours dans la neige restée froide. Taille 1 (petite).\nObservables : irrégularités d'épaisseurs, fissures sous les skis.\n\nDéparts spontanés :\n* Peu probables. Très rares avalanches de fond, dans les pentes herbeuses ou sur les dalles rocheuses. Départs possibles à toute heure du jour et de la nuit. Taille 1 à 2 (petite à moyenne).",
+      "title": "Faibles chutes de neige dans la nuit de vendredi à samedi (7-15 cm).",
+      "text": "Faibles chutes de neige dans la nuit de vendredi à samedi (7-15 cm).\n\nDéclenchements provoqués :\n* Rares petites plaques à vent formées par le vent de Sud-Est à Sud-Ouest dans la neige fraîche qui tombe dans la nuit de vendredi à samedi. Taille 1 (petite).\nObservables : zones d'accumulation, fissures sous les skis.\n\nDéparts spontanés :\n* Peu probables. Très rares avalanches de fond, dans les pentes herbeuses ou sur les dalles rocheuses. Départs possibles à toute heure du jour et de la nuit. Taille 1 à 2 (petite à moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : L'enneigement est de nouveau faible pour la saison. On peut chausser les skis vers 1200 m. Pas de sous-couche sous 1500 m, les cailloux ressortent de la neige.\n\nQualité de la neige vendredi :\n* Dans les versants Sud, fine croûte cassante due à un faible regel nocturne le matin. La surface se ramollit en journée. Dans les autres versants, la surface de la neige est dure, tassée ou travaillée par le vent. \n* Les crêtes et les arêtes sont décapées par le vent.",
+      "text": "Enneigement :\nL'enneigement est déficitaire pour la saison à toute altitude. \nOn peut chausser les skis vers 1200/1300 m en versants à l'ombre et 1300/1500 m en versant S. Pas de sous-couche sous 1500 m, des cailloux ressortent de la neige. \n\nQualité de la neige samedi :  \n* Au matin, 7-15 cm de neige fraîche légère à toute altitude. Cette fine couche repose sur de la neige froide mais compacte dû au tassement ou durcie par le vent. \n* En versant Sud, les 7-15 cm de neige fraîche reposent sur de la neige transformée en surface par le soleil. \n* Les crêtes et les arêtes sont dégarnies.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1000,
-        "south": 1100
+        "south": 1200
       },
       "levels_cm": [
         {
