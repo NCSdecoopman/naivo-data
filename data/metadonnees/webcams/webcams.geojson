@@ -3799,7 +3799,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_grand-massif_samoens-1600.jpg",
         "url_page": "https://m.webcam-hd.com/grand-massif/grand-massif_samoens-1600",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5087,7 +5087,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_ducrey-sports_les-saisies-centre-village.jpg",
         "url_page": "http://m.webcam-hd.com/ducrey-sports/les-saisies-centre-village",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5290,7 +5290,7 @@
         "fuseau_horaire": null,
         "code_locale": null,
         "largeur": 2304,
-        "hauteur": 1157
+        "hauteur": 868
       }
     },
     {
@@ -5317,8 +5317,8 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 2685,
-        "hauteur": 1483
+        "largeur": 2682,
+        "hauteur": 994
       }
     },
     {
@@ -5395,7 +5395,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/praz_lys_sommand_haut-fleury.jpg",
         "url_page": "https://app.webcam-hd.com/praz_lys_sommand/haut_fleury",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5821,7 +5821,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 1286,
+        "largeur": 3445,
         "hauteur": 600
       }
     },
@@ -6297,7 +6297,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 9889,
+        "largeur": 9887,
         "hauteur": 1626
       }
     },
@@ -6598,7 +6598,7 @@
         "altitude": 2221,
         "url_image": "https://vision.quanteec.com/contents/encodings/live/03bdf3e6-ffac-41d3-746c-7561-6665-64-a7fc-251978d5a69bd/poster.jpg",
         "url_page": "https://www.vision-environnement.com/livecams/webcam.php?webcam=pelvoux4-",
-        "statut_enligne": "E",
+        "statut_enligne": "H",
         "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
@@ -6963,7 +6963,7 @@
         "url_image": "https://www.chooksprod.com/parapente-annecy-marlens-webcam.jpg",
         "url_page": "https://aerodream-parapente.com/webcam-decollage-parapente-marlens-annecy/",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -7551,7 +7551,7 @@
         "url_image": "https://api.skaping.com/cN1wy-Aomoy-DMlQh-Fj6LG/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/Valmeinier/sandoniere",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -7775,7 +7775,7 @@
         "url_image": "https://api.skaping.com/GJJVR-xsghn-qZxTe-cZpf6/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/montriond/lac",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -8811,7 +8811,7 @@
         "url_image": "https://api.skaping.com/nm7zX-hmfER-kDVAy-DO2Vs/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/valdisere/refuge-du-prariond",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -8819,34 +8819,6 @@
         "code_locale": null,
         "largeur": 909,
         "hauteur": 180
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.87836,
-          45.125001
-        ]
-      },
-      "properties": {
-        "id": 3668,
-        "name": "Le Recoin de Chamrousse",
-        "lat": 45.125001,
-        "lon": 5.87836,
-        "altitude": 1651,
-        "url_image": "https://api.skaping.com/1RAVi-jglaM-pw6gP-4fEQp/media/latest/thumb.mp4",
-        "url_page": "https://www.skaping.com/chamrousse/recoin/video",
-        "statut_enligne": "E",
-        "statut_variable": "V",
-        "periodicite": null,
-        "decalage_periodicite": 0,
-        "decalage_horloge": 0,
-        "fuseau_horaire": null,
-        "code_locale": null,
-        "largeur": 960,
-        "hauteur": 540
       }
     },
     {
@@ -9209,7 +9181,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 1206,
+        "largeur": 1361,
         "hauteur": 600
       }
     },
@@ -9875,7 +9847,7 @@
         "url_image": "https://api.skaping.com/EOLUj-56xZ3-GeMiE-T7BsW/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/grenoble/col-de-porte",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -9965,7 +9937,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 1428,
+        "largeur": 1232,
         "hauteur": 180
       }
     },
@@ -10127,7 +10099,7 @@
         "url_image": "https://api.skaping.com/OtsEt-AoHKs-fQLwp-5Ef4y/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/lac-serre-poncon/plage-embrun",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -10351,7 +10323,7 @@
         "url_image": "https://api.skaping.com/om79u-0U3Ge-RuSoX-ymxMq/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/la-feclaz/orionde",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11975,7 +11947,7 @@
         "url_image": "https://api.skaping.com/UZGGC-53hO1-l44tV-oLo4Y/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/tete-des-saix",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -12003,7 +11975,7 @@
         "url_image": "https://api.skaping.com/iYXG8-sNNmk-JSTz7-TLPB6/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/sappey-en-chartreuse",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -12535,7 +12507,7 @@
         "url_image": "https://api.skaping.com/SdG4s-4vkBV-Ti6rE-nOFaz/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/vars/chabrieres",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13094,7 +13066,7 @@
         "altitude": 1155,
         "url_image": "https://vision.quanteec.com/contents/encodings/live/121269ed-b27e-4039-746c-7561-6665-64-a9ca-0fb429165439d/poster.jpg",
         "url_page": "https://www.vision-environnement.com/livecams/webcam.php?webcam=pelvoux&theme=colorful",
-        "statut_enligne": "E",
+        "statut_enligne": "H",
         "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
@@ -13879,7 +13851,7 @@
         "url_image": "https://api.skaping.com/1YrUi-UkOvn-wyjkH-LfE6q/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/lac-serre-poncon/crevoux/station",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13943,6 +13915,90 @@
         "code_locale": null,
         "largeur": 7680,
         "hauteur": 2160
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.90010594,
+          45.29912132
+        ]
+      },
+      "properties": {
+        "id": 4513,
+        "name": "Saint-Hilaire - Depuis Montfort",
+        "lat": 45.29912132,
+        "lon": 5.90010594,
+        "altitude": 248,
+        "url_image": "http://lists.duckparapente.fr:8080/snapshots/manz/cam_latest.jpg",
+        "url_page": "http://lists.duckparapente.fr:8080/snapshots/manz/cam_latest.jpg",
+        "statut_enligne": "E",
+        "statut_variable": "F",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1920,
+        "hauteur": 1080
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.87984204,
+          45.12603513
+        ]
+      },
+      "properties": {
+        "id": 4515,
+        "name": "Chamrousse - Le recoin",
+        "lat": 45.12603513,
+        "lon": 5.87984204,
+        "altitude": 1672,
+        "url_image": "https://api.skaping.com/XgPjU-zcDJD-yLxGy-rNSWm/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/chamrousse/recoin/archives",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 320,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.87984204,
+          45.12603513
+        ]
+      },
+      "properties": {
+        "id": 4516,
+        "name": "Chamrousse - Le Recoin",
+        "lat": 45.12603513,
+        "lon": 5.87984204,
+        "altitude": 1672,
+        "url_image": "https://api.skaping.com/nmLwc-xcfLa-wlPyu-Yesaf/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/chamrousse/recoin/video",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
       }
     }
   ]
