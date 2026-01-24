@@ -3,30 +3,30 @@
   "massif": "Vanoise",
   "bulletin": {
     "id": 10,
-    "issued_at": "2026-01-23T17:00:00",
-    "valid_until": "2026-01-24T18:00:00",
+    "issued_at": "2026-01-24T16:00:00",
+    "valid_until": "2026-01-25T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 1700m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 1700,
+        "threshold_m": 1800,
         "split_axis": "horizontal",
-        "split_label": "1700m",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1700",
+            "loc": "<1800",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">1700",
+            "loc": ">1800",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "1700m"
+          "label": "1800m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-25",
-        "label": "Indice de",
-        "comment": "Risque demeurant marqué en raison des couches fragiles persistantes, auxquelles s'ajoutent quelques petites instabilités de surface en cours de formation.",
+        "date": "2026-01-26",
+        "label": "Indice de risque marqué",
+        "comment": "Peu d'évolution du risque pour lundi",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-19",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-20",
           "min_cm": 0,
           "max_cm": 0
@@ -112,28 +107,33 @@
         {
           "date": "2026-01-23",
           "min_cm": 3,
-          "max_cm": 5
+          "max_cm": 8
         },
         {
           "date": "2026-01-24",
-          "min_cm": 0,
-          "max_cm": 0
+          "min_cm": 1,
+          "max_cm": 3
+        },
+        {
+          "date": "2026-01-25",
+          "min_cm": 4,
+          "max_cm": 7
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 5
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 10
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "DÉCLENCHEMENT ALÉATOIRE ET FORTE PROPAGATION : DANGER INSIDIEUX DANS LA MAJORITÉ DES PENTES.",
-      "text": "DÉCLENCHEMENT ALÉATOIRE ET FORTE PROPAGATION : DANGER INSIDIEUX DANS LA MAJORITÉ DES PENTES.\n\nDéclenchements provoqués :\n - Au-dessus de 1700 m, quelques plaques sont en place et reposent très souvent sur une couche fragile persistante (grains anguleux sans cohésion, semblables à du gros sel). Les versants les plus dangereux sont les pentes Nord, Est et Ouest auxquelles s'ajoutent les pentes Sud à haute altitude (>2700 m). Les caractéristiques de cette couche fragile ainsi que sa profondeur d'enfouissement rendent le déclenchement particulièrement aléatoire : parfois rien ne se passe au(x) premier(s) passage(s) puis le déclenchement a lieu après X passages (cela peut-être 2, comme 10, comme 100); d'autres fois il est immédiat et le déclenchement à distance est même possible. De plus cette couche fragile rend la propagation très efficace, les avalanches subséquentes peuvent parfois atteindre la taille maximale permise par la topographie et l'enneigement (souvent taille 2 ou 3, exceptionnellement 4), avec des cassures allant de 40 cm à 2 m.\nObservables : Peu d'indices d'instabilité au premier regard. En revanche, la présence d'une croute de regel est un bon signe de stabilité locale.\n - Sous 1700 m en général et sous 2700 m en adrets, le risque de déclenchement est moindre.\n\nDéparts spontanés :\n - De rares plaques peuvent céder spontanément avec la surcharge de la neige transportée par le vent. Surtout près des crêtes et derrière les ruptures de pente. Taille 1 à 2.",
+      "title": "DÉCLENCHEMENT ALÉATOIRE AVEC PROPAGATION PROBABLE.",
+      "text": "DÉCLENCHEMENT ALÉATOIRE AVEC PROPAGATION PROBABLE.\n\nDéclenchements provoqués :\n  - Au-dessus de 1800 m, quelques plaques sont toujours en place et reposent très souvent sur une couche fragile persistante (grains anguleux sans cohésion, semblables à du gros sel), essentiellement dans les pentes Nord, Est et Ouest. Les caractéristiques de cette couche ainsi que sa profondeur d'enfouissement rendent le déclenchement encore aléatoire : il est de moins en moins facile mais dans de quelques cas un déclenchement immédiat reste possible, rarement à distance. Cette couche fragile maintient une propagation efficace, les cassures peuvent être vastes et les avalanches provoquées peuvent être grandes (T2 à T3), avec des cassures moyennes allant de 40 cm à 1 m (parfois plus dans la partie la plus épaisse). \n- De plus, de nouvelles petites accumulations se sont formées avec les chutes récentes et le vent de Sud. Elles sont peu épaisses mais elles ont pour effet d'augmenter la charge sur les anciennes structures de plaques précitées et faciliter ainsi leur déclenchement.\nObservables : Peu d'indices d'instabilité au premier regard. En revanche, la présence d'une croute de regel est un bon signe de stabilité locale.\n - Sous 1800 m en général et sous 2700 m en adrets, le risque de déclenchement est moindre. A haute altitude, le vent a souvent bétonné la neige rendant le déclanchement possible que par forte contrainte.\n\nDéparts spontanés :\n - De rares plaques peuvent céder spontanément avec la surcharge de la neige transportée par le vent. Surtout près des crêtes et derrière les ruptures de pente. Taille 1 à 2.  Quelques départs en surface près des rochers de neige fraîche avec le retour d'un franc soleil en journée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : L'enneigement est désormais proche de la normale malgré un tassement assez important des abondantes chutes de début janvier ainsi qu'une fonte à basse altitude.\n\nLimite skiable :  encore à basse altitude à l'ombre sur l'herbe. Sur terrain rocheux, il vaut mieux atteindre 1300 m en N, 1800 m en Sud pour trouver un terrain plus serein. \n\nQualité de la neige : Quelques centimètres de poudre à toute altitude, parfois redistribués par le vent. La sous-couche est donc très présente à ski : en large versant Nord, au-dessus de 1800/1900 m et à l'abri du vent, elle est poudreuse assez dense. Ailleurs, souvent durcie par le vent (zones exposées, hautes altitudes) ou les cycles de regel (en Sud sous 2500 m).",
+      "text": "Enneigement : L'enneigement est proche de la normale en moyenne montagne, le vent a pelé de nombreuses crêtes et sommets. Les petites chutes récentes maintiennent cette normalité.\n\nLimite skiable :  Les versants froids voyant pas ou peu le soleil ont gardé de la neige à basse altitude skiable sur l'herbe. Sur terrain rocheux, il vaut mieux atteindre 1300 m en N, 1800 m en Sud pour trouver un terrain plus serein.\n\nQualité de la neige : Quelques centimètres de neige récente, parfois redistribués par le vent. En large versant Nord, au-dessus de 1800/2000 m et à l'abri du vent, elle est poudreuse assez dense, très agréable à skier. Ailleurs, souvent durcie par le vent (zones exposées, hautes altitudes) ou les cycles de regel (en Sud sous 2500 m). Les pentes intermédiaires entre le Nord froid et le Sud printanier sont souvent croûtées et plus délicates à skier.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 40,
+          "N": 45,
           "S": 20
         },
         {
           "alt_m": 2000,
-          "N": 90,
-          "S": 60
+          "N": 95,
+          "S": 65
         },
         {
           "alt_m": 2500,
-          "N": 110,
-          "S": 90
+          "N": 115,
+          "S": 95
         }
       ],
       "icon_key": "snowpack",

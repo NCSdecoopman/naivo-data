@@ -3,60 +3,48 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-01-23T16:00:00",
-    "valid_until": "2026-01-24T18:00:00",
+    "issued_at": "2026-01-24T16:00:00",
+    "valid_until": "2026-01-25T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 1600m indice de risque marqué, plus bas indice limité.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 1600,
-        "split_axis": "horizontal",
-        "split_label": "1600m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1600",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">1600",
-            "risk": 3,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "1600m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "2",
             "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "3",
-            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-01-25",
-        "label": "Indice de risque marqué",
-        "comment": "Dimanche, le risque restera marqué. L'atmosphère reste plutôt fraîche et le vent d'Ouest se lève, devenant modéré en journée, et formant des plaques dans la neige fraîche, surtout en altitude.",
+        "max_level": 2,
+        "date": "2026-01-26",
+        "label": "Indice de risque limité",
+        "comment": "Lundi, plaques residuelles vers les crêtes.\nMétéo : quelques flocons en matinée puis des éclaircies en journée sous le vent du nord (60 km/h).",
         "trend": "steady"
       }
     },
@@ -90,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-19",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-20",
           "min_cm": 0,
           "max_cm": 0
@@ -111,51 +94,56 @@
         },
         {
           "date": "2026-01-23",
-          "min_cm": 15,
-          "max_cm": 30
+          "min_cm": 10,
+          "max_cm": 20
         },
         {
           "date": "2026-01-24",
-          "min_cm": 1,
-          "max_cm": 4
+          "min_cm": 0,
+          "max_cm": 1
+        },
+        {
+          "date": "2026-01-25",
+          "min_cm": 2,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 16,
-        "last_48h_max_cm": 34
+        "last_48h_min_cm": 2,
+        "last_48h_max_cm": 6
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSE INSTABILITE DANS LA NEIGE FRAICHE, SURTOUT EN ALTITUDE",
-      "text": "NOMBREUSE INSTABILITE DANS LA NEIGE FRAICHE, SURTOUT EN ALTITUDE \n\nDéclenchements provoqués : En tout versants et surtout au-dessus 1600m, les instabilités seront nombreuses et réactives dans les 15 à 30cm de neige fraîche attendus dans la nuit de vendredi à samedi. Cette neige très légère prends un peu de cohésion en surface sous le léger vent d'Est, formant des structures de plaques friables difficilement identifiables. Le risque pourrait être un peu plus marqué là où cette neige fraîche se dépose sur 5 à 10cm de neige encore légère tombée en journée de jeudi, qui jouera le rôle de couche fragile temporaire. Sous 1600m, le risque est également présent, mais la neige fraîche se dépose sur une neige plus dense, parfois humide, l'empêchant de jouer pleinement son rôle de couche fragile. Des instabilités seront toutefois présentes au sein de la neige fraîche, mais le risque sera plus limité, et les cassures seront moins larges et épaisses. Là où la neige de surface n'a pas pris de cohésion, possibilité de faire partir une petite coulée ponctuelle sous les skis. \n\nDéparts spontanés : Des départs sont probables en soirée de vendredi sous les intenses chutes de neige, avec des avalanches de tailles petites à moyennes. Samedi, le risque est faible, ou alors de petites coulées sous les vent de Sud en matinée, d'Est en soirée.",
+      "title": "QUELQUES PLAQUES VERS LES CRETES ET SOMMETS.",
+      "text": "QUELQUES PLAQUES VERS LES CRETES ET SOMMETS.\n\nDéclenchements provoqués : quelques plaques friables plutôt au-dessus de 1600/1800 m, vers les crêtes du massif dans la neige récente tombée vendredi soir (10-20 cm) que le pratiquant peut déclencher. Dimanche, léger vent d'ouest à sud-ouest pouvant favoriser ou épaissir un peu les structures de plaques. Plus bas que 1800/1600 m, neige récente pas encore stabilisée non plus mais moins réactive au passage d'un skieur.\n\nDéparts spontanés : activité naturelle limitée en général ce dimanche...Escargots et/ou des petites coulées humides dans la neige récente peuvant glisser au soleil, surtout depuis les rochers, falaises etc. Ruptures naturelles locales de plaques friables en altitude notamment sous léger vent d'ouest (qui peut, bien que faible, s'avérer suffisant pour le transport de neige poudreuse).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'améliore sous les chutes de neige récentes mais reste médiocre pour la saison. La neige tombe très légère sur des sous-couches irrégulières. Prudences aux cailloux à peine recouverts parfois.  Limites skiables remontant vers 1100/1400m.\n\nQualité de la neige samedi : Samedi matin, on retrouvera 15 à 30cm de neige poudreuse souvent légère sur le massif, parfois légèrement densifiée par le vent en surface. Elle repose sur une sous-couche assez dense, mais parfois peu épaisse. En journée la poudreuse s'allourdira sous 1700m sous l'effet du léger redoux.",
+      "text": "Qualification de l’enneigement :  l'enneigement s'est amélioré sous les chutes de neige récentes mais reste médiocre pour la saison. La neige tombe très légère sur des sous-couches irrégulières. Prudences aux cailloux à peine recouverts parfois. Limites skiables vers 1100/1400 m.\n\nQualité de la neige dimanche : 10 à 20 cm de neige poudreuse souvent légère sur le massif, parfois plus densifiée par le vent en surface. Elle repose sur une sous-couche assez dense, mais parfois peu épaisse. En journée la poudreuse devrait s'alourdir sous 1800 m sous l'effet du léger redoux, voire plus haut au soleil.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 900,
-        "south": 1300
+        "north": 700,
+        "south": 700
       },
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 5,
-          "S": 0
+          "N": 15,
+          "S": 10
         },
         {
           "alt_m": 1500,
-          "N": 61,
-          "S": 16
+          "N": 75,
+          "S": 30
         },
         {
           "alt_m": 2000,
-          "N": 105,
-          "S": 45
+          "N": 120,
+          "S": 60
         }
       ],
       "icon_key": "snowpack",

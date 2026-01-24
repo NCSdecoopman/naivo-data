@@ -3,30 +3,30 @@
   "massif": "Queyras",
   "bulletin": {
     "id": 17,
-    "issued_at": "2026-01-23T16:00:00",
-    "valid_until": "2026-01-24T18:00:00",
+    "issued_at": "2026-01-24T16:00:00",
+    "valid_until": "2026-01-25T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 1800,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<1800",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
+            "loc": ">1800",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "1800m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-25",
+        "date": "2026-01-26",
         "label": "Indice de risque marqué",
-        "comment": "Maintient d'un risque marqué, avec la présence de plaques temporaires dans la neige récente, et toujours les couches fragiles enfouies en profondeur.",
+        "comment": "Risque en baisse mais restant marqué, avec encore des plaques faciles à déclencher, potentiellement épaisses en ubacs d'altitude.",
         "trend": "steady"
       }
     },
@@ -65,8 +65,8 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
+        "SE": false,
+        "S": false,
         "SW": true,
         "W": true,
         "NW": true
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-19",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-20",
           "min_cm": 0,
           "max_cm": 0
@@ -116,46 +111,51 @@
         },
         {
           "date": "2026-01-24",
-          "min_cm": 5,
+          "min_cm": 3,
           "max_cm": 20
+        },
+        {
+          "date": "2026-01-25",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 10,
-        "last_48h_max_cm": 30
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 20
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOUVELLES PLAQUES DANS LA NEIGE FRAÎCHE, SE RAJOUTANT AUX INSTABILITÉS ENFOUIES",
-      "text": "NOUVELLES PLAQUES DANS LA NEIGE FRAÎCHE, SE RAJOUTANT AUX INSTABILITÉS ENFOUIES\n\nDéclenchements provoqués : \nQuelques nouvelles instabilités : les chutes de neige de la nuit de vendredi, accompagnées d'un vent de sud modéré à localement assez fort, forment de nouvelles plaques plus ou moins durcies par le vent. Elles sont possibles en toutes orientations, plus fréquentes au dessus de 2000 m environ. Avec le renforcement du vent d'est samedi après-midi, de nouvelles plaques peuvent également se former par transport de neige fraîche. En fin de journée et nuit suivante, des chutes de neige frontalières s'ajoutent également. Ces instabilités peuvent être faciles à déclencher, et en cas de rupture, provoquer de petites avalanches, plus rarement moyennes dans les zones d'accumulation (taille 1 à 2). \n\nAu dessus de 2000 m dans les orientations sud-ouest à est, en passant par le nord, la présence fréquente de couches fragiles (vieille poudre sans cohésion), irrégulièrement enfouies dans le manteau neigeux, peut occasionner des avalanches de taille moyenne à localement grande (taille 2 à 3) en cas de rupture. Ces instabilités sont plus difficiles à déclencher, mais restent possibles au passage d'un skieur dans les secteurs où l'épaisseur de neige est moins importante, ou en cas de premier déclenchement d'une avalanche en surface. Un déclenchement à distance est possible.\n\nDéparts spontanés : \nRares en matinée, puis quelques avalanches de neige fraîche ventée par surcharge due au transport de neige par le vent d'est se renforçant l'après-midi. Départs en pentes raides, ponctuels ou en cassure linéaire, occasionnant des avalanches de taille petite à parfois moyenne, une rare grande reste localement possible par rupture d'une couche fragile persistante enfouie.",
+      "title": "PLAQUES INSTABLES DANS LA NEIGE RÉCENTE VENTÉE SUR LE HAUT-GUIL, SE RAJOUTANT AUX INSTABILITÉS ENFOUIES EN UBACS D'ALTITUDE",
+      "text": "PLAQUES INSTABLES DANS LA NEIGE RÉCENTE VENTÉE SUR LE HAUT-GUIL, SE RAJOUTANT AUX INSTABILITÉS ENFOUIES EN UBACS D'ALTITUDE\n\nDéclenchements provoqués :  \n- nombreuses plaques en place dans la neige récente ventée, possibles en toutes orientations mais plus fréquentes dans un large versant ouest et nord au-dessus de 1800/2000 m environ, notamment sur le Haut-Guil. Ces instabilités peuvent être faciles à déclencher, et en cas de rupture, provoquer des avalanches petites (taille 1), rarement moyenne (taille 2) dans les zones d'accumulation sur le Haut-Guil. \n\nAu dessus de 2000 m dans les orientations ouest, nord et est, on peut retrouver des plaques plus larges et épaisses reposant sur des couches fragiles persistantes enfouies, et occasionnant en cas de rupture des avalanches de taille moyenne à localement grande (taille 2 à 3). Ces instabilités sont plus difficiles à déclencher, mais restent possibles au passage d'un skieur dans les secteurs où l'épaisseur de neige est moins importante (croupes, bords de couloir), ou en cas de premier déclenchement d'une avalanche en surface. Déclenchement possible à distance.\n\nDéparts spontanés : quelques avalanches de neige fraîche ventée dans la nuit de samedi à dimanche sur le Haut-Guil, devenant rare en journée de dimanche en absence de vent et de chutes de neige. Départs linéaires occasionnant des avalanches de taille petite voir moyenne. Une grande reste localement possible en versant nord en cas de rupture d'une couche fragile persistante enfouie.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement s'est amélioré avec les dernières chutes de neige, mais reste plutôt déficitaire pour la période.\nDonnées observées : 88 cm en versant nord du col Izoard à 2300 m, 34 cm à la nivôse du Col Agnel à 2630 m, 43 cm à Ristolas à 1670 m. \n\nLimite d'enneigement skiable vers 1400/1500 m en ubacs avec précaution, mais il faut monter au-dessus de 1800/2000 m pour avoir un enneigement un peu plus confortable.\n\nÉtat de la neige de surface : samedi matin, on trouve autour de 10 cm de neige fraîche parfois ventée. En dessous, on trouve de la neige ancienne souvent fortement travaillée par le vent, notamment en altitude, localement 20/30 cm de neige poudreuse en forêts ou dans les combes bien abritées du vent.",
+      "text": "L'enneigement s'est amélioré avec les dernières chutes de neige, mais reste plutôt déficitaire pour la période.\nDonnées observées : 95 cm en versant nord du col Izoard à 2300 m, 39 cm à la nivôse du Col Agnel à 2630 m, 48 cm à Ristolas à 1670 m. \n\nLimite d'enneigement skiable vers 1400/1500 m en ubacs avec précaution, 1800/2000 m en versant sud, voir plus haut autour de Ceillac et Saint-Véran. \n\nÉtat de la neige de surface : on trouve en surface 5 à 10 cm de neige fraîche parfois ventée, localement 20 sur le Haut-Guil. Elle s'est déposée sur une ancienne neige souvent fortement travaillée par le vent, notamment en altitude, mais localement poudreuse en forêts ou dans les combes bien abritées du vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1200,
-        "south": 1400
+        "north": 900,
+        "south": 900
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 10,
-          "S": 5
+          "N": 15,
+          "S": 10
         },
         {
           "alt_m": 2000,
-          "N": 45,
-          "S": 25
+          "N": 50,
+          "S": 30
         },
         {
           "alt_m": 2500,
-          "N": 85,
-          "S": 55
+          "N": 90,
+          "S": 60
         }
       ],
       "icon_key": "snowpack",
