@@ -3,8 +3,8 @@
   "massif": "Chablais",
   "bulletin": {
     "id": 1,
-    "issued_at": "2026-01-24T16:00:00",
-    "valid_until": "2026-01-25T18:00:00",
+    "issued_at": "2026-01-25T16:00:00",
+    "valid_until": "2026-01-26T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-01-26",
-        "label": "Indice de risque limité",
-        "comment": "+5 cm de neige la nuit de dimanche à lundi. Risque stationnaire avec toujours la couche fragile persistante enfouie.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-01-27",
+        "label": "Indice de risque marqué",
+        "comment": "Fort vent de SW formant de nouvelles plaques. Pluie mardi après-midi. Risque en hausse.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-20",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-21",
           "min_cm": 0,
           "max_cm": 1
@@ -98,35 +93,40 @@
         },
         {
           "date": "2026-01-24",
-          "min_cm": 0,
-          "max_cm": 0
+          "min_cm": 1,
+          "max_cm": 3
         },
         {
           "date": "2026-01-25",
-          "min_cm": 4,
-          "max_cm": 6
+          "min_cm": 5,
+          "max_cm": 10
+        },
+        {
+          "date": "2026-01-26",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 4,
-        "last_48h_max_cm": 6
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 10
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "",
-      "text": "Déclenchements provoqués :\n* Plaques dures anciennes, reposant sur une couche fragile persistante enfouie. Plus haut que 1800/2000 m, en versants E/N/W. Taille 2 (moyenne), possible cassure épaisse et large, rupture en blocs durs. Possibilité d'avalanches en cascade : une première plaque en déclenche une autre. Ces plaques sont peu nombreuses mais piégeuses (aucun indice de surface visible). La couche fragile persistante, d'aspect sucre en poudre, est généralement enfouie sous 40 à 70 cm de neige compacte. Elle est moins réactive que ces derniers jours, mais cela reste complexe à évaluer ! Les tests CT/ECT peuvent contribuer à la prise de décision.\n\nDéparts spontanés : peu probables\n* plaques de fond. En dessous de 2000/2200 m, principalement en adrets. Rares, mais possibles dans les pentes très raides et lisses herbeuses. Taille 2 (moyenne).",
+      "text": "Déclenchements provoqués :\n* Plaques dures anciennes, reposant sur une couche fragile persistante enfouie. Plus haut que 1800/2000 m, en versants E/N/W. Taille 2 (moyenne), possible cassure épaisse et large, rupture en blocs durs. Possibilité d'avalanches en cascade : une première plaque de surface en déclenche une autre plus épaisse. Ces plaques sont peu nombreuses mais piégeuses (aucun indice de surface visible) et masquées sous la neige récente. La couche fragile persistante, d'aspect sucre en poudre, est généralement enfouie sous 40 à 70 cm de neige compacte. Elle est moins réactive que la semaine dernière, mais cela reste complexe à évaluer ! Les tests CT/ECT peuvent contribuer à la prise de décision.\n\nDéparts spontanés :\n* petites avalanches dans les barres rocheuses et falaises, sous les éclaircies l'après-midi.\n* plaques de fond. En dessous de 2000/2200 m, principalement en adrets, l'après-midi. Rares, peu probables, mais possibles dans les pentes très raides, lisses, herbeuses... Taille 2 (moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : déficitaire. On peut chausser les skis vers 1200 m en N, 1300/1500 m en S. Pas de sous-couche sous 1500 m, gare aux cailloux juste masqués.\n\nQualité de la neige ce dimanche : \n* manteau neigeux hétérogène. Les 5 cm de neige fraîche tombés la nuit de samedi à dimanche ont bien adouci la surface.\n* Cette fine couche repose sur l'ancienne neige froide, dense, compacte. Dans les ubacs abritées des vents, le fond est resté meuble. En versants S, on retouche l'ancienne croûte de regel cassante, irrégulière.\n* Les crêtes et les arêtes exposées ont été dégarnies par les épisodes de vent récents.",
+      "text": "Enneigement : déficitaire. On peut chausser les skis vers 1000/1200 m en N, 1300/1400 m en S. Pas de sous-couche sous 1500 m, gare aux cailloux juste masqués.\n\nQualité de la neige ce lundi : \n* les deux petites chutes de neige récentes ont bien amélioré la skiabilité : poudreuse froide et légère, localement un peu soufflée aux crêtes.\n* sous cette neige froide poudreuse, on retrouve l'ancienne surface irrégulière, dense, compacte, parfois croûtée dure.\n* Très peu de neige sur les croupes/arêtes, dégarnies par les épisodes ventés de mi-janvier.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 900,
-        "south": 900
+        "south": 1000
       },
       "levels_cm": [
         {
@@ -136,8 +136,8 @@
         },
         {
           "alt_m": 1500,
-          "N": 55,
-          "S": 25
+          "N": 50,
+          "S": 20
         },
         {
           "alt_m": 2000,

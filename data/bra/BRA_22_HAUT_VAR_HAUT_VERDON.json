@@ -3,8 +3,8 @@
   "massif": "Haut-Var Haut-Verdon",
   "bulletin": {
     "id": 22,
-    "issued_at": "2026-01-24T16:00:00",
-    "valid_until": "2026-01-25T18:00:00",
+    "issued_at": "2026-01-25T16:00:00",
+    "valid_until": "2026-01-26T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-01-26",
-        "label": "Indice de risque marqué",
-        "comment": "Maintient d'un risque marqué avec la présence de nombreuses plaques dans la neige récente. Côté météo, temps calme et sec.",
-        "trend": "steady"
+        "max_level": 4,
+        "date": "2026-01-27",
+        "label": "Indice de risque fort",
+        "comment": "Risque restant marqué en journée, devenant fort en fin d'après-midi/soirée en raison de fortes chutes de neige (20/40 cm de fraîche), accompagnées d'un fort vent de sud. Iso0 en hausse vers 1800/2000 m.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-20",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-21",
           "min_cm": 0,
           "max_cm": 0
@@ -105,23 +100,28 @@
         {
           "date": "2026-01-25",
           "min_cm": 0,
+          "max_cm": 1
+        },
+        {
+          "date": "2026-01-26",
+          "min_cm": 0,
           "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 10,
-        "last_48h_max_cm": 15
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX INSTABLE - NOMBREUSES PLAQUES DANS LA NEIGE FRAICHE, PARFOIS ÉPAISSES EN NORD D'ALTITUDE",
-      "text": "MANTEAU NEIGEUX INSTABLE - NOMBREUSES PLAQUES DANS LA NEIGE FRAICHE, PARFOIS ÉPAISSES EN NORD D'ALTITUDE\n\nDéclenchements provoqués : - nombreuses plaques en place et en formation jusqu'à dimanche matin sous l'action de la Lombarde qui transporte la neige restée froide et légère. Possibles en toutes orientations, ces plaques, facilement déclenchables, sont présentes principalement à proximité des crêtes et parfois dans les ruptures de pentes plus loin de crêtes. Avalanches petites à moyennes (taille 1 à 2).\n - En secteur ouest nord et est au-dessus de 2000/2200 m, ces instabilités de surface viennent s'ajouter à des plaques plus larges et épaisses reposant sur des couches fragiles persistantes enfouies. Plaques pouvant encore localement être sollicitées par un skieur isolé, parfois à distance, notamment sur les croupes et bords de couloirs où le manteau neigeux est moins épais, ou en cascade par une petite avalanche de surface. Avalanches de taille moyenne à grande (taille 2 à 3). Observables : fissures devant les skis,  « woumfs ». \n\nDéparts spontanés : de petites avalanches de neige fraîche sont possibles pendant les chutes de la nuit, puis demain dimanche quelques départs sont attendus avec le retour du soleil qui vient déstabiliser la neige récente en sud. Avalanches petites à moyennes (taille 1 à 2).",
+      "title": "NOMBREUSES PLAQUES EN PLACE DANS LA NEIGE RÉCENTE, PARFOIS ÉPAISSES EN NORD D'ALTITUDE",
+      "text": "NOMBREUSES PLAQUES EN PLACE DANS LA NEIGE RÉCENTE, PARFOIS ÉPAISSES EN NORD D'ALTITUDE\n\nDéclenchements provoqués : manteau neigeux restant instable avec de nombreuses plaques en place en divers versants, formées lors des chutes parfois ventées de ces 3 derniers jours. Ces plaques restent facilement déclenchables et peuvent générer des avalanches petites à moyennes. Dans un large secteur nord (ouest, nord et est) au-dessus de 2000/2200 m, des cassures plus épaisses peuvent engendrer des avalanches volumineuses, emportant presque tout le manteau neigeux, suite à la présence de couches fragiles persistantes enfouies. Déclenchement à distance possible ou en cascade par une petite avalanche de surface. Avalanches souvent de taille moyenne (taille 2), voire grande (taille 3) en cas de forte propagation de la cassure. \n\nDéparts spontanés : peu d'activité naturelle à attendre en dehors de quelques départs attendus avec le soleil et le léger redoux qui viennent déstabiliser la neige récente. Avalanches petites à moyennes (taille 1 à 2).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement se rapprochant de la normale pour la saison.\nDonnées observées : 37 cm à Peone à 1784 m et autour de 80 à 90 cm vers 2000/2200 m environ. \n \nLimite d'enneigement skiable : à partir de 1400 m en ubacs sur terrains favorables (pentes herbeuses, routes forestières) dans le Haut-Verdon, plutôt 1600 m dans le Haut-Var. 1700/1900 m en adrets.   \n\nÉtat de la neige en surface : on retrouve en surface 10/15 cm de poudreuse reposant sur de la neige récente encore froide et légère en versant nord abrité du vent. Neige souvent durcie par la Lombarde en altitude avec des crêtes souvent pelées. En journée, cette neige fraîche tend à s'alourdir en sud sous 1600/ 1800 m.",
+      "text": "Enneigement se rapprochant de la normale pour la saison.\nDonnées observées : 43 cm à Peone à 1784 m et autour de 90 à 100 cm vers 2000/2200 m environ. \n \nLimite d'enneigement skiable : à partir de 1200 m en ubacs sur terrains favorables (pentes herbeuses, routes forestières), plutôt 1500 m en adrets.\n\nÉtat de la neige en surface : on retrouve en surface 20/30 cm de neige récente, encore assez poudreuse en forêt ou versant nord abrité du vent. Neige souvent durcie par le vent en altitude, surtout près des crêtes. En journée, cette neige fraîche tend à s'alourdir en sud sous 2000/2200 m, voire plus en pentes raides.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 15,
-          "S": 15
+          "N": 30,
+          "S": 30
         },
         {
           "alt_m": 2000,
-          "N": 90,
-          "S": 50
+          "N": 100,
+          "S": 60
         },
         {
           "alt_m": 2500,
-          "N": 135,
-          "S": 90
+          "N": 140,
+          "S": 100
         }
       ],
       "icon_key": "snowpack",

@@ -3,49 +3,37 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-01-24T16:00:00",
-    "valid_until": "2026-01-25T18:00:00",
+    "issued_at": "2026-01-25T16:00:00",
+    "valid_until": "2026-01-26T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
+      "comment": "Indice de risque marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 1800,
-        "split_axis": "horizontal",
-        "split_label": "1800m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1800",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">1800",
+            "loc": null,
             "risk": 3,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "1800m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
+          "center": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -54,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-26",
+        "date": "2026-01-27",
         "label": "Indice de risque marqué",
-        "comment": "Lundi, le stabilistation est lente... le risque pourrait rester marqué (3). \nMétéo : des éclaircies en journée sous un vent du nord (60 km/h).",
+        "comment": "Mardi : brèves éclaircies et voiles d'altitude denses. Tempête de sud sur le massif.\nRisque en hausse, fort transport de neige à attendre. Evolution vers un risque 4 possible.",
         "trend": "steady"
       }
     },
@@ -90,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-20",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-21",
           "min_cm": 0,
           "max_cm": 0
@@ -111,29 +94,34 @@
         },
         {
           "date": "2026-01-24",
-          "min_cm": 2,
-          "max_cm": 7
+          "min_cm": 5,
+          "max_cm": 15
         },
         {
           "date": "2026-01-25",
-          "min_cm": 1,
-          "max_cm": 5
+          "min_cm": 5,
+          "max_cm": 10
+        },
+        {
+          "date": "2026-01-26",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 12
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 10
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES INSTABILITES DANS LA NEIGE FRAICHE, SURTOUT EN ALTITUDE. AVALANCHES DE GRANDES TAILLES POSSIBLES EN NORD D'ALTITUDE",
-      "text": "NOMBREUSES INSTABILITES DANS LA NEIGE FRAICHE, SURTOUT EN ALTITUDE. AVALANCHES DE GRANDES TAILLES POSSIBLES EN NORD D'ALTITUDE\n\nDéclenchements provoqués : manteau restant instable avec plaques friables surtout au-dessus de 1600/1800 m, en divers versants dans la neige récente tombée vendredi soir (10-20 cm, localement 30 cm en altitude). Plaques déclenchables au passage d'un skieur. Dimanche, léger vent d'ouest pouvant favoriser ou épaissir les structures de plaques. En large nord d'altitude, surtout au-dessus de 2000 m, des grains anguleux demeurent enfouis dans le manteau. Ces couches fragiles surtout présentes vers Emparis et sur les versants côté Maurienne, sont plutôt en milieu de pente/ dans les secteurs moins exposés au vent, et difficiles à déclencher par un skieur (car souvent recouvertes par une couche de neige très dense). En revanche une plaque friable déclenchée plus haut pourrait venir en cascade les solliciter, faisant craindre une avalanche de grande taille  dans ces pentes ombragées d'altitude. Plus bas que 1800/1600 m, neige récente pas encore stabilisée non plus mais moins réactive au passage d'un skieur.\n\nDéparts spontanés : activité naturelle limitée ce dimanche...Escargots et/ou des petites coulées humides dans la neige récente pouvant glisser au soleil, surtout depuis les rochers, falaises etc. Quelques ruptures naturelles de plaques friables en altitude notamment sous léger vent d'ouest (qui peut, bien que faible, s'avérer suffisant pour le transport de neige poudreuse).",
+      "title": "NOMBREUSES INSTABILITES DANS LA NEIGE RECENTE DES DERNIERS JOURS, SURTOUT EN ALTITUDE.",
+      "text": "NOMBREUSES INSTABILITES DANS LA NEIGE RECENTE DES DERNIERS JOURS, SURTOUT EN ALTITUDE. \n\nDéclenchements provoqués : manteau instable avec plaques friables/poudreuses en divers versants et altitudes, mais plus fréquentes et épaisses au-dessus de 1600/1800 m, et en Ouest, Nord et Est. Plaques friables facilement déclenchables par un skieur, dans la neige récente tombée ces derniers jours (10-20 cm vendredi soir +5 loc10 cm nuit samedi/dimanche, +5/15 cm nuit dimanche/lundi). La chute de neige de la nuit de dimanche à lundi (poudreuse et peu ventée) peut complexifier la lecture du terrain en camouflant les indices de transport par le vent, méfiance... De plus un petit vent du nord s'installe lundi par endroits, il pourrait épaissir les structures de plaques et en former de nouvelles.\n-> En plus de tout ça, une 2eme problématique se superpose : en large nord d'altitude, surtout au-dessus de 2000 m, plutôt en milieu de pente/ dans les secteurs moins exposés au vent, des grains anguleux demeurent enfouis dans le manteau, surtout présents vers Emparis et sur les versants côté Maurienne. Ces fragilités enfouies sont difficiles à déclencher par un skieur mais le déclenchement plus haut d'une plaque friable pourrait venir en cascade les solliciter, faisant craindre une avalanche de grande taille dans ces pentes ombragées d'altitude.\n\nDéparts spontanés : quelques avalanches moyennes de neige fraîche poudreuse pendant les chutes de neige de la nuit de dimanche/lundi. Lundi, quelques ruptures naturelles de plaques friables en altitude notamment sous le vent de nord local (qui peut, bien qu'assez faible, s'avérer suffisant pour le transport de neige poudreuse). Aussi, de minces coulées humides au soleil au fil de la journée, dans la neige récente, surtout depuis les rochers, falaises etc.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement est proche des normales de saison sur le massif. Parfois déficitaire près des croupes, ou en versants Sud. Limites skiables à partir de  1000/1300m (avec prudence en basse altitude où les sous-couches sont peu épaisses voire inexistantes) .\n\nQualité de la neige dimanche : 10 à 20 cm de neige récente dimanche matin, assez poudreuse en forêt mais parfois un peu ventée plus haut, vers certaines crêtes, cols...Cette neige récente repose sur une sous-couche très dense, croûtée par les épisodes de vent du début de semaine. En journée, cette neige fraîche pourrait s'alourdir sous 1600 m (voire plus haut au soleil), et pourra un peu se densifier en altitude sous le léger vent d'ouest...",
+      "text": "Qualification de l’enneigement : l'enneigement est proche des normales de saison sur le massif. Parfois déficitaire près des croupes, ou en versants Sud. Limites skiables à partir de  1000/1300m (avec prudence en basse altitude où les sous-couches sont peu épaisses voire inexistantes).\n\nQualité de la neige lundi : 15 à 30 cm de neige récente lundi matin, parfois 40 cm (dont 5/10 cm de la nuit de dimanche à lundi), assez poudreuse en forêt mais parfois un peu ventée plus haut, vers certaines crêtes, cols...Cette neige récente repose sur une sous-couche très dense, croûtée par les épisodes de vent. En journée, cette neige fraîche pourrait s'alourdir sous 1600 m (voire plus haut au soleil), et se densifier en altitude sous le vent du nord localisé...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 50,
-          "S": 25
+          "N": 55,
+          "S": 30
         },
         {
           "alt_m": 2000,
-          "N": 120,
-          "S": 50
+          "N": 125,
+          "S": 55
         },
         {
           "alt_m": 2500,
-          "N": 160,
-          "S": 110
+          "N": 165,
+          "S": 115
         }
       ],
       "icon_key": "snowpack",

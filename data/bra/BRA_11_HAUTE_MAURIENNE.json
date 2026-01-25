@@ -3,8 +3,8 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-01-24T16:00:00",
-    "valid_until": "2026-01-25T18:00:00",
+    "issued_at": "2026-01-25T16:00:00",
+    "valid_until": "2026-01-26T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-26",
+        "date": "2026-01-27",
         "label": "Indice de risque marqué",
-        "comment": "Stationnaire lundi",
+        "comment": "Stationnaire ou légère hausse suivant les chutes de neige attendues mardi soir.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-20",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-21",
           "min_cm": 0,
           "max_cm": 0
@@ -104,24 +99,29 @@
         },
         {
           "date": "2026-01-25",
-          "min_cm": 1,
-          "max_cm": 2
+          "min_cm": 2,
+          "max_cm": 5
+        },
+        {
+          "date": "2026-01-26",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 6,
-        "last_48h_max_cm": 12
+        "last_48h_min_cm": 2,
+        "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nouvelles instabilités près de la frontière, couche fragile persistante toujours présente",
-      "text": "Nouvelles instabilités près de la frontière, couche fragile persistante toujours présente\n\nDéclenchements provoqués :\n- de nouvelles petites accumulations se forment avec le vent de Sud et les chutes de neige attendues cette nuit pouvant localement atteindre les 30cm près de la frontière italienne. Elles ont pour effet d'augmenter la charge sur les anciennes structures de plaques toujours présentes et faciliter ainsi leur déclenchement. En effet, ces dernières reposent souvent sur une couche fragile persistante (grains anguleux sans cohésion, semblables à du gros sel). Le déclenchement reste assez aléatoire mais le passage d'un simple skieur combiné à la présence de cette nouvelle neige peut suffire à provoquer une avalanche. Les déclenchement à distance sont rares mais possibles avec de vastes propagations. Des avalanches de taille 2 à 3 sont largement envisageables.\n\n Les versants les plus dangereux sont les pentes Nord, Est et Ouest auxquelles s'ajoutent les pentes Sud à haute altitude (>2700 m). \n\nObservables :  Woumf, fissures devant les skis dans la neige récente. Peu d'indices pour repérer la couche fragile persistante mis à part la réalisation de tests in situ. En revanche, la présence d'une croute de regel est un bon signe de stabilité locale.\n\n\nDéparts spontanés :\n - De rares plaques peuvent céder spontanément avec la surcharge de la neige transportée par le vent. Surtout près des crêtes et derrière les ruptures de pente. Taille 1 à 2.",
+      "title": "NOUVELLES PLAQUES FRIABLES EN SURFACE, COUCHE FRAGILE ENFOUIE TOUJOURS REACTIVE DANS LES VERSANTS FROIDS. DÉCLENCHEMENT ALÉATOIRE AVEC PROPAGATION PROBABLE.",
+      "text": "NOUVELLES PLAQUES FRIABLES EN SURFACE, COUCHE FRAGILE ENFOUIE TOUJOURS REACTIVE DANS LES VERSANTS FROIDS. DÉCLENCHEMENT ALÉATOIRE AVEC PROPAGATION PROBABLE.\n\nDéclenchements provoqués :\n - De nouvelles accumulations se sont formées avec les chutes récentes et le vent de Sud. Elles sont peu épaisses (quelques dizaines de centimètres) mais facilement déclenchables avec des propagations faciles engendrant des avalanches généralement petites (T1), parfois T2 en se rapprochant de la frontière italienne où les cumuls de neige fraîche sont plus significatifs. Cette instabilité devrait baisser assez rapidement par la suite. Par ailleurs, elles ont pour effet d'augmenter la charge sur des anciennes structures de plaques sous-jacentes et faciliter ainsi leur déclenchement.\n  - En effet, Au-dessus de 1800 m, quelques plaques sont toujours en place reposant souvent sur une couche fragile persistante (grains anguleux sans cohésion, semblables à du gros sel), essentiellement dans les pentes Nord, Est et Ouest. Les caractéristiques de cette couche ainsi que sa profondeur d'enfouissement rendent le déclenchement de moins en moins facile en général mais dans de quelques cas un déclenchement immédiat reste possible. Cette couche fragile maintient une propagation efficace, les cassures peuvent être vastes dans certaines configurations du relief et les avalanches provoquées peuvent être grandes (T2 à T3), avec des cassures moyennes allant de 40 cm à 1 m (parfois plus dans la partie la plus épaisse). \n\nObservables : Avec les nouvelles chutes de neige, peu d'indices d'instabilité au premier regard. La neige un peu ventée en surface indique les nouvelles plaques friables mais seule une coupe rapide du manteau peut mettre à jour les structures plus anciennes reposant sur la couche fragile persistante.\n\nDéparts spontanés :\n - De rares plaques friables récentes peuvent céder spontanément avec la surcharge de la neige fraîche. Taille 1 à 2.  Quelques départs en surface près des rochers avec le retour d'éclaircies en journée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : désormais proche de la normale voire excédentaire avec les nouvelles chutes de neige récentes. \n\nLimite skiable :  à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1500 m en N, 2000 m en Sud où quelques requins ne sont pas loin de la surface... En se rapprochant de la frontière, l'enneigement est plus conséquent.\n\nQualité de la neige vendredi  : à l'abri du vent, neige encore récente froide souvent poudreuse en surface sur le versant frontalier prenant progressivement de la densité. Dans les secteurs soumis à la Lombarde, le vent de Sud/Sud-Est crée de fortes hétérogénéités : crêtes rabotées/glacées, alternant avec des zones cartonnées. Grosses accumulations dans les combes en zones de dépôt.",
+      "text": "Enneigement : L'enneigement est proche de la normale en moyenne montagne. Les petites chutes récentes maintiennent cette normalité.\n\nLimite skiable :  Les versants froids voyant pas ou peu le soleil ont gardé de la neige à basse altitude skiable sur l'herbe souvent dès les fonds de vallée. Sur terrain rocheux, quelques requins peuvent affleurer en desous de 1500 m en N, 2000 m en Sud pour trouver. L'enneigement est plus conséquent proche de la frontière italienne.\n\nQualité de la neige :  Quelques nouveaux centimètres de neige fraîche à basse altitude. On trouve donc 10 à 20cm de poudreuse en surface lundi matin, jusqu'à 30 à la frontière, reposant sur une neige souvent durcie par le vent (zones exposées, hautes altitudes) ou les cycles de regel (en Sud sous 2500 m). Avec les éclaircies, la neige devient collante au soleil et moins facile à skier.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 45,
-          "S": 20
+          "N": 50,
+          "S": 25
         },
         {
           "alt_m": 2000,
-          "N": 95,
-          "S": 75
+          "N": 100,
+          "S": 80
         },
         {
           "alt_m": 2500,
-          "N": 135,
-          "S": 115
+          "N": 150,
+          "S": 125
         }
       ],
       "icon_key": "snowpack",

@@ -3,49 +3,37 @@
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
-    "issued_at": "2026-01-24T16:00:00",
-    "valid_until": "2026-01-25T18:00:00",
+    "issued_at": "2026-01-25T16:00:00",
+    "valid_until": "2026-01-26T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 1700m indice de risque marqué, plus bas indice limité.",
+      "comment": "Indice de risque marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 1700,
-        "split_axis": "horizontal",
-        "split_label": "1700m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1700",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">1700",
+            "loc": null,
             "risk": 3,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "1700m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
+          "center": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -54,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-26",
+        "date": "2026-01-27",
         "label": "Indice de risque marqué",
-        "comment": "Stationnaire lundi",
+        "comment": "Stationnaire ou légère hausse suivant les chutes de neige attendues mardi soir.",
         "trend": "steady"
       }
     },
@@ -90,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-20",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-21",
           "min_cm": 0,
           "max_cm": 0
@@ -116,24 +99,29 @@
         },
         {
           "date": "2026-01-25",
-          "min_cm": 2,
-          "max_cm": 4
+          "min_cm": 3,
+          "max_cm": 5
+        },
+        {
+          "date": "2026-01-26",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 4,
-        "last_48h_max_cm": 14
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 6
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nouvelles instabilités près de la frontière au Sud du Massif, couche fragile persistante toujours présente",
-      "text": "Nouvelles instabilités près de la frontière au Sud du Massif, couche fragile persistante toujours présente\n\nDéclenchements provoqués :\n- de nouvelles petites accumulations se forment avec le vent de Sud et les chutes de neige attendues cette nuit pouvant localement atteindre les 30cm près de la frontière italienne au Sdu du massif de la Grande Sassière. Elles ont pour effet d'augmenter la charge sur les anciennes structures de plaques toujours présentes et faciliter ainsi leur déclenchement. En effet, ces dernières reposent souvent sur une couche fragile persistante (grains anguleux sans cohésion, semblables à du gros sel). Le déclenchement reste assez aléatoire mais le passage d'un simple skieur combiné à la présence de cette nouvelle neige peut suffire à provoquer une avalanche. Les déclenchement à distance sont rares mais possibles avec de vastes propagations. Des avalanches de taille 2 à 3 sont largement envisageables.\n Les versants les plus dangereux sont les pentes Nord, Est et Ouest auxquelles s'ajoutent les pentes Sud à haute altitude (>2700 m). \nAu Nord de Sainte-Foy de Tarentaise, les chutes de neige attendues sont bien moindre et le vent récent a bétonné la neige en altitude rendant les déclenchements plus difficiles même si la couche fragile persistante reste bien présente requérant une grande prudence lors de fortes ruptures de pentes par exemple. \nObservables :  Woumf, fissures devant les skis dans la neige récente. Peu d'indices pour repérer la couche fragile persistante mis à part la réalisation de tests in situ. En revanche, la présence d'une croute de regel est un bon signe de stabilité locale.\n\n\nDéparts spontanés :\n - De rares plaques peuvent céder spontanément avec la surcharge de la neige transportée par le vent. Surtout près des crêtes et derrière les ruptures de pente. Taille 1 à 2.",
+      "title": "Nouvelles instabilités près de la frontière au Sud du Massif, couche fragile persistante toujours présente ailleurs",
+      "text": "Nouvelles instabilités près de la frontière au Sud du Massif, couche fragile persistante toujours présente ailleurs\n\nDéclenchements provoqués :\n- de nouvelles petites accumulations se forment avec le vent de Sud et les chutes de neige attendues cette nuit pouvant localement atteindre les 30cm près de la frontière italienne au Sdu du massif de la Grande Sassière. Elles ont pour effet d'augmenter la charge sur les anciennes structures de plaques toujours présentes et faciliter ainsi leur déclenchement. En effet, ces dernières reposent souvent sur une couche fragile persistante (grains anguleux sans cohésion, semblables à du gros sel). Le déclenchement reste assez aléatoire mais le passage d'un simple skieur combiné à la présence de cette nouvelle neige peut suffire à provoquer une avalanche. Les déclenchement à distance sont rares mais possibles avec de vastes propagations. Des avalanches de taille 2 à 3 sont largement envisageables.\n Les versants les plus dangereux sont les pentes Nord, Est et Ouest auxquelles s'ajoutent les pentes Sud à haute altitude (>2700 m). \nAu Nord de Sainte-Foy de Tarentaise, les chutes de neige attendues sont bien moindre et le vent récent a bétonné la neige en altitude rendant les déclenchements plus difficiles même si la couche fragile persistante reste bien présente requérant une grande prudence lors de fortes ruptures de pentes par exemple. \nObservables :  Woumf, fissures devant les skis dans la neige récente. Peu d'indices pour repérer la couche fragile persistante mis à part la réalisation de tests in situ. En revanche, la présence d'une croute de regel est un bon signe de stabilité locale.\n\n\nDéparts spontanés :\n - De rares plaques peuvent céder spontanément avec la surcharge de la neige transportée par le vent. Surtout près des crêtes et derrière les ruptures de pente. Taille 1 à 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : désormais proche de la normale voire localement excédentaire avec les nouvelles chutes de neige récentes. \n\nLimite skiable :  à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1500 m en N, 2000 m en Sud où quelques requins ne sont pas loin de la surface... En se rapprochant de la frontière, l'enneigement est plus conséquent.\n\nQualité de la neige vendredi  : à l'abri du vent, neige encore récente froide souvent poudreuse en surface sur le versant frontalier prenant progressivement de la densité. Dans les secteurs soumis au foehn, le vent d' Est/Sud-Est crée de fortes hétérogénéités : crêtes rabotées/glacées, alternant avec des zones cartonnées. Grosses accumulations dans les combes en zones de dépôt.  Les pentes intermédiaires entre le Nord froid et le Sud printanier sont souvent croûtées et plus délicates à skier à moyenne altitude.",
+      "text": "Enneigement : désormais proche de la normale voire localement excédentaire avec les nouvelles chutes de neige récentes près de la frontière italienne. \n\nLimite skiable :  à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1500 m en N, 2000 m en Sud où quelques requins ne sont pas loin de la surface... En se rapprochant de la frontière, l'enneigement est plus conséquent.\n\nQualité de la neige vendredi  : à l'abri du vent, neige encore récente froide souvent poudreuse en surface sur le versant frontalier prenant progressivement de la densité. Dans les secteurs soumis au foehn, le vent d' Est/Sud-Est crée de fortes hétérogénéités : crêtes rabotées/glacées, alternant avec des zones cartonnées. Grosses accumulations dans les combes en zones de dépôt. A noter que la neige récente pourra s'humidifier en journée au soleil et devenir collante sous les skis.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 52,
-          "S": 30
+          "N": 55,
+          "S": 35
         },
         {
           "alt_m": 2000,
-          "N": 105,
-          "S": 95
+          "N": 110,
+          "S": 100
         },
         {
           "alt_m": 2500,
-          "N": 155,
-          "S": 105
+          "N": 160,
+          "S": 110
         }
       ],
       "icon_key": "snowpack",

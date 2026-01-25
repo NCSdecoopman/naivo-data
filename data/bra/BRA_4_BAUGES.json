@@ -3,8 +3,8 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-01-24T16:00:00",
-    "valid_until": "2026-01-25T18:00:00",
+    "issued_at": "2026-01-25T16:00:00",
+    "valid_until": "2026-01-26T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-01-26",
-        "label": "Indice de risque limité",
-        "comment": "+5/10 cm de neige la nuit de dimanche à lundi : nouvelles petites plaques friables de surface.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-01-27",
+        "label": "Indice de risque marqué",
+        "comment": "Vent de SW formant de nouvelles plaques. Pluie mardi après-midi. Risque en hausse.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-20",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-21",
           "min_cm": 0,
           "max_cm": 2
@@ -98,35 +93,40 @@
         },
         {
           "date": "2026-01-24",
-          "min_cm": 0,
-          "max_cm": 0
+          "min_cm": 1,
+          "max_cm": 3
         },
         {
           "date": "2026-01-25",
-          "min_cm": 5,
-          "max_cm": 10
+          "min_cm": 9,
+          "max_cm": 12
+        },
+        {
+          "date": "2026-01-26",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 9,
+        "last_48h_max_cm": 12
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "",
-      "text": "Déclenchements provoqués :\n* Rares plaques à vent dans la neige récente. Formées par les vents de SE à SW. Pas très nombreuses ni volumineuses, mais sensibles sous les skis, en particulier dans un large secteur N. Taille 1 (petite).\nObservables : alternance d'érosions/accumulations, fissures devant les skis.\n\nDéparts spontanés :\n* Peu probables. Très rares plaques de fond, dans les pentes herbeuses raides ou sur les dalles rocheuses. Taille 1 à 2 (petite à moyenne).",
+      "text": "Déclenchements provoqués :\n* Quelques plaques friables dans la neige récente. Formées par les vents de S/SW/W. Pas très nombreuses ni volumineuses, mais sensibles sous les skis, en particulier dans un large secteur N à E. Taille 1 (petite), éventuellement 2 (moyenne) au-dessus de 1800 m.\nObservables : accumulations plus ou moins visibles, fissures devant les skis.\n\nDéparts spontanés :\n* petites avalanches dans les pentes très raides, en adrets S/SW, sous les éclaircies de l'après-midi, en départ ponctuel ou plaque peu large.\n* très rares plaques de fond, dans les pentes herbeuses raides ou sur les dalles rocheuses. Peu probables. Taille 1 à 2 (petite à moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : déficitaire. On peut chausser les skis vers 1200 m en N, 1300/1500 m en S. Pas de sous-couche sous 1500 m, gare aux cailloux juste masqués.\n\nQualité de la neige ce dimanche : \n* manteau neigeux hétérogène. Les 10 cm de neige fraîche tombés la nuit de samedi à dimanche ont bien adouci la surface.\n* Cette couche repose sur l'ancienne neige froide, irrégulière : froide et meuble en ubacs, dure/croûtée dans les pentes qui ont vu le soleil auparavant.\n* Très peu de neige aux crêtes, dégarnies par les épisodes de vent récents.",
+      "text": "Enneigement : déficitaire. On peut chausser les skis vers 1000/1200 m en N, 1300/1400 m en S. Pas de sous-couche sous 1500 m, gare aux cailloux juste masqués.\n\nQualité de la neige ce lundi : \n* les deux petites chutes de neige récentes ont bien amélioré la skiabilité : 10/20 cm de poudreuse froide et assez légère, localement un peu soufflée aux crêtes.\n* sous cette neige froide poudreuse, on retrouve l'ancienne surface irrégulière, dense, compacte, parfois croûtée dure.\n* Très peu de neige aux crêtes, dégarnies par les épisodes de vent récents (mi-janvier).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 800,
-        "south": 800
+        "south": 900
       },
       "levels_cm": [
         {

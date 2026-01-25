@@ -3,49 +3,37 @@
   "massif": "Maurienne",
   "bulletin": {
     "id": 9,
-    "issued_at": "2026-01-24T16:00:00",
-    "valid_until": "2026-01-25T18:00:00",
+    "issued_at": "2026-01-25T16:00:00",
+    "valid_until": "2026-01-26T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
+      "comment": "Indice de risque marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 1800,
-        "split_axis": "horizontal",
-        "split_label": "1800m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1800",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">1800",
+            "loc": null,
             "risk": 3,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "1800m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
+          "center": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -53,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-01-26",
-        "label": "Indice de risque limité",
-        "comment": "Peu d'évolution du risque pour lundi",
-        "trend": "down"
+        "max_level": 3,
+        "date": "2026-01-27",
+        "label": "Indice de risque marqué",
+        "comment": "Stationnaire ou légère hausse suivant les chutes de neige attendues mardi soir.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -78,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 3,
-      "secondary": 2,
+      "primary": 1,
+      "secondary": 3,
       "labels": {
-        "3": "Couche fragile persistante",
-        "2": "Neige ventée"
+        "1": "Neige fraîche",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-3"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-20",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-21",
           "min_cm": 0,
@@ -116,24 +99,29 @@
         },
         {
           "date": "2026-01-25",
-          "min_cm": 4,
-          "max_cm": 7
+          "min_cm": 6,
+          "max_cm": 12
+        },
+        {
+          "date": "2026-01-26",
+          "min_cm": 1,
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 7,
+        "last_48h_max_cm": 13
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "DÉCLENCHEMENT ALÉATOIRE AVEC PROPAGATION PROBABLE.",
-      "text": "DÉCLENCHEMENT ALÉATOIRE AVEC PROPAGATION PROBABLE.\n\nDéclenchements provoqués :\n  - Au-dessus de 1800 m, quelques plaques sont toujours en place et reposent très souvent sur une couche fragile persistante (grains anguleux sans cohésion, semblables à du gros sel), essentiellement dans les pentes Nord, Est et Ouest. Les caractéristiques de cette couche ainsi que sa profondeur d'enfouissement rendent le déclenchement encore aléatoire : il est de moins en moins facile mais dans de quelques cas un déclenchement immédiat reste possible, rarement à distance. Cette couche fragile maintient une propagation efficace, les cassures peuvent être vastes et les avalanches provoquées peuvent être grandes (T2 à T3), avec des cassures moyennes allant de 40 cm à 1 m (parfois plus dans la partie la plus épaisse). \n- De plus, de nouvelles petites accumulations se sont formées avec les chutes récentes et le vent de Sud. Elles sont peu épaisses mais elles ont pour effet d'augmenter la charge sur les anciennes structures de plaques précitées et faciliter ainsi leur déclenchement.\nObservables : Peu d'indices d'instabilité au premier regard. En revanche, la présence d'une croute de regel est un bon signe de stabilité locale.\n - Sous 1600 m en général et sous 2700 m en adrets, le risque de déclenchement est moindre.\n\nDéparts spontanés :\n - De rares plaques peuvent céder spontanément avec la surcharge de la neige transportée par le vent. Surtout près des crêtes et derrière les ruptures de pente. Taille 1 à 2.  Quelques départs en surface près des rochers avec le retour d'un franc soleil en journée.",
+      "title": "NOUVELLES PLAQUES FRIABLES EN SURFACE, COUCHE FRAGILE ENFOUIE TOUJOURS REACTIVE DANS LES VERSANTS FROIDS. DÉCLENCHEMENT ALÉATOIRE AVEC PROPAGATION PROBABLE.",
+      "text": "NOUVELLES PLAQUES FRIABLES EN SURFACE, COUCHE FRAGILE ENFOUIE TOUJOURS REACTIVE DANS LES VERSANTS FROIDS. DÉCLENCHEMENT ALÉATOIRE AVEC PROPAGATION PROBABLE.\n\nDéclenchements provoqués :\n - De nouvelles accumulations se sont formées avec les chutes récentes et le vent de Sud. Elles sont peu épaisses (quelques dizaines de centimètres) mais facilement déclenchables avec des propagations faciles engendrant des avalanches généralement petites (T1), parfois T2. Cette instabilité devrait baisser assez rapidement par la suite. Par ailleurs, elles ont pour effet d'augmenter la charge sur des anciennes structures de plaques sous-jacentes et faciliter ainsi leur déclenchement.\n  - En effet, Au-dessus de 1800 m, quelques plaques sont toujours en place reposant souvent sur une couche fragile persistante (grains anguleux sans cohésion, semblables à du gros sel), essentiellement dans les pentes Nord, Est et Ouest. Les caractéristiques de cette couche ainsi que sa profondeur d'enfouissement rendent le déclenchement de moins en moins facile en général mais dans de quelques cas un déclenchement immédiat reste possible. Cette couche fragile maintient une propagation efficace, les cassures peuvent être vastes dans certaines configurations du relief et les avalanches provoquées peuvent être grandes (T2 à T3), avec des cassures moyennes allant de 40 cm à 1 m (parfois plus dans la partie la plus épaisse). \n\nObservables : Avec les nouvelles chutes de neige, peu d'indices d'instabilité au premier regard. La neige un peu ventée en surface indique les nouvelles plaques friables mais seule une coupe rapide du manteau peut mettre à jour les structures plus anciennes reposant sur la couche fragile persistante.\n\nDéparts spontanés :\n - De rares plaques friables récentes peuvent céder spontanément avec la surcharge de la neige fraîche. Taille 1 à 2.  Quelques départs en surface près des rochers avec le retour d'éclaircies en journée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : L'enneigement est proche de la normale en moyenne montagne, le vent a pelé de nombreuses crêtes et sommets. Les petites chutes récentes maintiennent cette normalité.\n\nLimite skiable :  Les versants froids voyant pas ou peu le soleil ont gardé de la neige à basse altitude skiable sur l'herbe. Sur terrain rocheux, il vaut mieux atteindre 1300 m en N, 1800 m en Sud pour trouver un terrain plus serein.\n\nQualité de la neige : Quelques centimètres de poudre à toute altitude, parfois redistribués par le vent. En large versant Nord, au-dessus de 1800/2000 m et à l'abri du vent, elle est poudreuse assez dense. Ailleurs, souvent durcie par le vent (zones exposées, hautes altitudes) ou les cycles de regel (en Sud sous 2500 m). Les pentes intermédiaires entre le Nord froid et le Sud printanier sont souvent croûtées et plus délicates à skier.",
+      "text": "Enneigement : L'enneigement est proche de la normale en moyenne montagne, le vent a pelé de nombreuses crêtes et sommets. Les petites chutes récentes maintiennent cette normalité.\n\nLimite skiable :  Les versants froids voyant pas ou peu le soleil ont gardé de la neige à basse altitude skiable sur l'herbe parfois dès 1000m d'altitude. Sur terrain rocheux, il vaut mieux atteindre 1300 m en N, 1800 m en Sud pour trouver un terrain plus serein.\n\nQualité de la neige :  Quelques nouveaux centimètres de neige fraîche à basse altitude. On trouve donc 10 à 20cm de poudreuse en surface lundi matin, reposant sur une neige souvent durcie par le vent (zones exposées, hautes altitudes) ou les cycles de regel (en Sud sous 2500 m). Avec les éclaircies, la neige devient collante au soleil et moins facile à skier.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 45,
-          "S": 20
+          "N": 50,
+          "S": 25
         },
         {
           "alt_m": 2000,
-          "N": 85,
-          "S": 65
+          "N": 90,
+          "S": 70
         },
         {
           "alt_m": 2500,
-          "N": 110,
-          "S": 80
+          "N": 120,
+          "S": 90
         }
       ],
       "icon_key": "snowpack",
