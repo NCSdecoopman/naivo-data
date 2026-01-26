@@ -3,14 +3,14 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-01-25T16:00:00",
-    "valid_until": "2026-01-26T18:00:00",
+    "issued_at": "2026-01-26T16:00:00",
+    "valid_until": "2026-01-27T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "max_level": 4,
+      "comment": "Indice de risque marqué évoluant en fort.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 3,
-            "evolution_to": null,
+            "evolution_to": 4,
             "position": null
           }
         ]
@@ -34,18 +34,18 @@
         },
         "zones": {
           "center": {
-            "text": "3",
-            "risk": 3,
-            "evolution_to": null
+            "text": "3→4",
+            "risk": 4,
+            "evolution_to": 4
           }
         }
       },
       "j2": {
         "max_level": 4,
-        "date": "2026-01-27",
+        "date": "2026-01-28",
         "label": "Indice de risque fort",
-        "comment": "Risque restant marqué en journée, devenant fort en fin d'après-midi/soirée en raison de fortes chutes de neige (20/40 cm de fraîche), accompagnées d'un fort vent de sud. Iso0 en hausse vers 1800/2000 m.",
-        "trend": "up"
+        "comment": "Instabilité du manteau neigeux remarquablement forte, avec de nombreuses plaques volumineuses faciles à déclencher.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-21",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-22",
           "min_cm": 5,
           "max_cm": 10
@@ -106,28 +101,33 @@
           "date": "2026-01-26",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-27",
+          "min_cm": 20,
+          "max_cm": 30
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 20,
+        "last_48h_max_cm": 30
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES PLAQUES EN PLACE DANS LA NEIGE RÉCENTE, PARFOIS ÉPAISSES EN NORD D'ALTITUDE",
-      "text": "NOMBREUSES PLAQUES EN PLACE DANS LA NEIGE RÉCENTE, PARFOIS ÉPAISSES EN NORD D'ALTITUDE\n\nDéclenchements provoqués : manteau neigeux restant instable avec de nombreuses plaques en place en divers versants, formées lors des chutes parfois ventées de ces 3 derniers jours. Ces plaques restent facilement déclenchables et peuvent générer des avalanches petites à moyennes. Dans un large secteur nord (ouest, nord et est) au-dessus de 2000/2200 m, des cassures plus épaisses peuvent engendrer des avalanches volumineuses, emportant presque tout le manteau neigeux, suite à la présence de couches fragiles persistantes enfouies. Déclenchement à distance possible ou en cascade par une petite avalanche de surface. Avalanches souvent de taille moyenne (taille 2), voire grande (taille 3) en cas de forte propagation de la cassure. \n\nDéparts spontanés : peu d'activité naturelle à attendre en dehors de quelques départs attendus avec le soleil et le léger redoux qui viennent déstabiliser la neige récente. Avalanches petites à moyennes (taille 1 à 2).",
+      "title": "INSTABILITÉ DU MANTEAU NEIGEUX MARQUÉE, DEVENANT PARTICULIÈREMENT FORTE EN FIN D'APRÈS-MIDI ET NUIT SUIVANTE",
+      "text": "INSTABILITÉ DU MANTEAU NEIGEUX MARQUÉE, DEVENANT PARTICULIÈREMENT FORTE EN FIN D'APRÈS-MIDI ET NUIT SUIVANTE\n\nDéclenchements provoqués : nombreuses plaques en formation, très faciles à déclencher même à distance, et de plus en plus volumineuses au fil des heures. Elles sont générées à la fois par le transport de neige lié au vent de sud, et par les nouvelles chutes de neige qui deviennent particulièrement fortes le soir, notamment au-dessus de 2000 m. Cassures épaisses probables, emportant une grande partie du manteau neigeux, voire la totalité. Avalanches moyennes à grandes (taille 2 à 3). Manteau neigeux souvent très peu consolidé sur toute son épaisseur, hébergeant de nombreuses couches fragiles (neige froide des derniers jours et vieille neige sans cohésion plus enfouie), en particulier dans les ubacs.\n\nDéparts spontanés : - plaques cédant spontanément suite au transport par le vent, puis à la surcharge des nouvelles chutes de neige. Avalanches moyennes à grandes (taille 2 à 3).\nÀ partir de la fin d'après-midi/soirée, des départs ponctuels de neige fraîche dans les pentes raides suffisamment chargées, s'ajoutant aux départs spontanés de plaques déjà mentionnés.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement se rapprochant de la normale pour la saison.\nDonnées observées : 100 cm à la nivôse de Millefonts (2430 m), 95 cm à Isola 2000 à 1912 m.\n\nLimite d'enneigement skiable : à partir de 1200 m en ubacs sur terrains favorables (pentes herbeuses, routes forestières), plutôt 1500 m en adrets. \n\nÉtat de la neige en surface : on retrouve en surface 20/30 cm de neige récente, encore assez poudreuse en forêt ou versant nord abrité du vent. Neige souvent durcie par le vent en altitude, surtout près des crêtes. En journée, cette neige fraîche tend à s'alourdir en sud sous 2000/2200 m, voire plus en pentes raides.",
+      "text": "Enneigement proches des normales pour une fin janvier.\nDonnées observées : 95 cm à la Nivôse de Millefonts (2430 m), 90 cm à Isola 2000 à 1912 m.\n\nLimite d'enneigement skiable : à partir de 1200 m en ubacs sur terrains favorables (pentes herbeuses, routes forestières), plutôt 1500/1600 m en adrets. \n\nÉtat de la neige en surface : neige froide et encore plutôt légère, un peu plus dense dans les secteurs bien ensoleillés ou exposés au vent. Elle repose sur un fond dur à basse altitude et dans les adrets, ou sur un manteau neigeux meuble et peu consolidé dans les ubacs. En cours de journée de mardi, chutes de neige humides sous 1800/1900 m, plus froides au-dessus de 2000/2200 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 900,
-        "south": 900
+        "south": 1200
       },
       "levels_cm": [
         {

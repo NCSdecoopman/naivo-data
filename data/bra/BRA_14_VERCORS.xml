@@ -1,68 +1,71 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="14" MASSIF="Vercors" DATEBULLETIN="2026-01-25T16:00:00" DATEECHEANCE="2026-01-26T18:00:00" DATEVALIDITE="2026-01-26T18:00:00" DATEDIFFUSION="2026-01-25T15:49:00" AMENDEMENT="false">
-  <DateValidite>2026-01-26T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="14" MASSIF="Vercors" DATEBULLETIN="2026-01-26T17:00:00" DATEECHEANCE="2026-01-27T18:00:00" DATEVALIDITE="2026-01-27T18:00:00" DATEDIFFUSION="2026-01-26T16:37:00" AMENDEMENT="false">
+  <DateValidite>2026-01-27T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="2" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="2" COMMENTAIRE="Indice de risque limité." RISQUEMAXIJ2="3" DATE_RISQUE_J2="2026-01-27T00:00:00"/>
-    <PENTE NE="true" E="true" SE="true" S="true" SW="true" W="true" NW="true" N="true" COMMENTAIRE="plaques friables"/>
-    <ACCIDENTEL><![CDATA[instabilités dans la couche de récente, en plaques friables, vers les crêtes/sommets du massif surtout.]]></ACCIDENTEL>
-    <NATUREL><![CDATA[minces coulées de fraîche dans la nuit de dimanche à lundi, puis lundi en journée quelques ruptures naturelles de plaques friables sous le vent du N et minces coulées humides au soleil.]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : minces coulées de fraîche dans la nuit de dimanche à lundi, puis lundi en journée quelques ruptures naturelles de plaques friables sous le vent du N et minces coulées humides au soleil.
-Déclenchements skieurs : instabilités dans la couche de récente, en plaques friables, vers les crêtes/sommets du massif surtout.]]></RESUME>
+    <RISQUE RISQUE1="3" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="3" COMMENTAIRE="Indice de risque marqué." RISQUEMAXIJ2="3" DATE_RISQUE_J2="2026-01-28T00:00:00"/>
+    <PENTE NE="true" E="true" SE="false" S="false" SW="false" W="true" NW="true" N="true" COMMENTAIRE=""/>
+    <ACCIDENTEL><![CDATA[Plaques à vent en formation en large nord, loin des crêtes ]]></ACCIDENTEL>
+    <NATUREL><![CDATA[Quelques avalanches possibles en large nord, sous les barres ]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : Quelques avalanches possibles en large nord, sous les barres 
+Déclenchements skieurs : Plaques à vent en formation en large nord, loin des crêtes ]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque marqué]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Mardi : brèves éclaircies et voiles d'altitude denses. Tempête de sud sur le massif.
-Risque en hausse, fort transport de neige à attendre. ]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Mercredi, risque marqué avec de nombreuses instabilités dans la neige fraîche. ]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_14.png</ImageRisque>
     <ImagePente>rose_pentes_14.png</ImagePente>
   </CARTOUCHERISQUE>
   <STABILITE>
-    <SitAvalTyp SAT1="1" SAT2="2"/>
-    <TITRE><![CDATA[PLAQUES FRIABLES, SURTOUT VERS LES CRETES ET SOMMETS.]]></TITRE>
-    <TEXTESANSTITRE><![CDATA[Déclenchements provoqués : présence de plaques friables sur le massif dans la neige récente tombée ces derniers jours (10-20 cm vendredi soir + 1-5 cm nuit samedi/dimanche +5 à localement 10 cm nuit dimanche à lundi) que le pratiquant peut déclencher. Méfiance, indices de terrain souvent masqués par la petite couche de poudreuse tombée dans la nuit de dimanche à lundi. Lundi, le vent local de N à NE pourra favoriser ou épaissir un peu les structures de plaques. C'est surtout au-dessus des forêts, vers les crêtes et sommets du massif que ces plaques pourront être les plus épaisses. 
+    <SitAvalTyp SAT1="2" SAT2="4"/>
+    <TITRE><![CDATA[FORMATION DE PLAQUES A VENT, LOIN DES CRETES, EN LARGE NORD ]]></TITRE>
+    <TEXTESANSTITRE><![CDATA[Déclenchements provoqués : De nombreuses plaques se forment sous le vent de sud ce mardi, en large nord où la neige ne subit pas d'humidification. Elles se retrouvent principalement loin des crêtes, souvent sous les barres rocheuses ou en milieu / bas de pentes, et seront parfois faciles à déclencher car reposant sur une couche de neige récente encore légère. 
+Observables : Chasse neige, neige travaillée par le vent en surface reposant sur une neige plus poudreuse. 
+En versants sud le redoux tasse et stabilise le manteau neigeux, tandis que les crêtes sont souvent pelées / dégarnies. 
 
-Départs spontanés : coulées locales de neige fraîche poudreuse pendant les chutes de neige de la nuit de dimanche/lundi, en pentes raides sommitales. Lundi, quelques ruptures naturelles de plaques friables vers les crêtes notamment sous le vent de nord local (qui peut, bien qu'assez faible, s'avérer suffisant pour le transport de neige poudreuse). Aussi, de minces coulées humides au soleil au fil de la journée, dans la neige récente, surtout depuis les rochers, falaises etc.]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[PLAQUES FRIABLES, SURTOUT VERS LES CRETES ET SOMMETS.
+Départs spontanés : Dans un large secteur nord, des avalanches de tailles petites à moyennes pourront partir spontanément dans les pentes chargées par le vent de sud. Le risque sera plus marqué sous les barres rocheuses. En versant sud, de rares coulées de petites tailles sont possibles sous le redoux, surtout sous les rochers. En soirée de mardi de fortes chutes de neige gagnent le massif, et sous les fortes intensités des coulées pourront partir en tout versants. Le risque restera plus marqué en nord où les pentes ont déjà été chargées par le vent en journée. 
 
-Déclenchements provoqués : présence de plaques friables sur le massif dans la neige récente tombée ces derniers jours (10-20 cm vendredi soir + 1-5 cm nuit samedi/dimanche +5 à localement 10 cm nuit dimanche à lundi) que le pratiquant peut déclencher. Méfiance, indices de terrain souvent masqués par la petite couche de poudreuse tombée dans la nuit de dimanche à lundi. Lundi, le vent local de N à NE pourra favoriser ou épaissir un peu les structures de plaques. C'est surtout au-dessus des forêts, vers les crêtes et sommets du massif que ces plaques pourront être les plus épaisses. 
+Autres : Crêtes et pentes sommitales pelées par le vent, faisant ressortir des surfaces glacées. ]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[FORMATION DE PLAQUES A VENT, LOIN DES CRETES, EN LARGE NORD 
 
-Départs spontanés : coulées locales de neige fraîche poudreuse pendant les chutes de neige de la nuit de dimanche/lundi, en pentes raides sommitales. Lundi, quelques ruptures naturelles de plaques friables vers les crêtes notamment sous le vent de nord local (qui peut, bien qu'assez faible, s'avérer suffisant pour le transport de neige poudreuse). Aussi, de minces coulées humides au soleil au fil de la journée, dans la neige récente, surtout depuis les rochers, falaises etc.]]></TEXTE>
+Déclenchements provoqués : De nombreuses plaques se forment sous le vent de sud ce mardi, en large nord où la neige ne subit pas d'humidification. Elles se retrouvent principalement loin des crêtes, souvent sous les barres rocheuses ou en milieu / bas de pentes, et seront parfois faciles à déclencher car reposant sur une couche de neige récente encore légère. 
+Observables : Chasse neige, neige travaillée par le vent en surface reposant sur une neige plus poudreuse. 
+En versants sud le redoux tasse et stabilise le manteau neigeux, tandis que les crêtes sont souvent pelées / dégarnies. 
+
+Départs spontanés : Dans un large secteur nord, des avalanches de tailles petites à moyennes pourront partir spontanément dans les pentes chargées par le vent de sud. Le risque sera plus marqué sous les barres rocheuses. En versant sud, de rares coulées de petites tailles sont possibles sous le redoux, surtout sous les rochers. En soirée de mardi de fortes chutes de neige gagnent le massif, et sous les fortes intensités des coulées pourront partir en tout versants. Le risque restera plus marqué en nord où les pentes ont déjà été chargées par le vent en journée. 
+
+Autres : Crêtes et pentes sommitales pelées par le vent, faisant ressortir des surfaces glacées. ]]></TEXTE>
   </STABILITE>
   <QUALITE>
-    <TEXTE><![CDATA[Qualification de l’enneigement : l'enneigement s'est amélioré sous les chutes de neige récentes mais reste médiocre pour la saison. La neige tombe très légère sur des sous-couches irrégulières. Prudences aux cailloux à peine recouverts parfois. Limites skiables vers 1100/1400 m... temporairement plus bas.
+    <TEXTE><![CDATA[Qualification de l’enneigement :  L'enneigement est médiocre pour la saison, et se dégrade encore en journée sous le redoux et le vent de sud.  Limites skiables vers 1000/1300 m (avec prudence en basse altitude où les sous-couches sont peu épaisses voire inexistantes)
 
-Qualité de la neige lundi : 15 à 30 cm de neige poudreuse souvent légère sur le massif (dont 5/10cm tombés en nuit de dimanche/lundi) . Elle est parfois plus densifiée par le vent en surface. Elle repose sur une sous-couche assez dense, mais parfois peu épaisse. En journée la poudreuse devrait s'alourdir sous 1800 m sous l'effet du léger redoux, voire plus haut au soleil. ]]></TEXTE>
+Qualité de la neige mardi : En versants nord, neige froide encore poudreuse dans les combes abritées. Le vent s'engouffre toutefois sur la majeure partie du massif, avec une neige de plus en plus dense en surface, totalement cartonée vers les crêtes et pentes sommitales. En versants sud, neige dense / humide. ]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-01-25T00:00:00" LimiteSud="700" LimiteNord="700">
-    <NIVEAU ALTI="1000" N="15" S="10"/>
-    <NIVEAU ALTI="1500" N="80" S="35"/>
-    <NIVEAU ALTI="2000" N="125" S="65"/>
+  <ENNEIGEMENT DATE="2026-01-26T00:00:00" LimiteSud="800" LimiteNord="700">
+    <NIVEAU ALTI="1000" N="15" S="5"/>
+    <NIVEAU ALTI="1500" N="85" S="35"/>
+    <NIVEAU ALTI="2000" N="130" S="65"/>
     <ImageEnneigement>montagne_enneigement_14.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-01-21T00:00:00" SS24Min="0" SS24Max="1"/>
     <NEIGE24H DATE="2026-01-22T00:00:00" SS24Min="5" SS24Max="6"/>
     <NEIGE24H DATE="2026-01-23T00:00:00" SS24Min="10" SS24Max="20"/>
     <NEIGE24H DATE="2026-01-24T00:00:00" SS24Min="1" SS24Max="5"/>
     <NEIGE24H DATE="2026-01-25T00:00:00" SS24Min="5" SS24Max="10"/>
-    <NEIGE24H DATE="2026-01-26T00:00:00" SS24Min="0" SS24Max="3"/>
+    <NEIGE24H DATE="2026-01-26T00:00:00" SS24Min="0" SS24Max="0"/>
+    <NEIGE24H DATE="2026-01-27T00:00:00" SS24Min="14" SS24Max="16"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_14.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="1500" ALTITUDEVENT2="2000">
-    <COMMENTAIRE>5 cm de neige, loc 10 cm en altitude. Quelques flocons lundi matin puis des éclaircies. Un peu de vent de N..</COMMENTAIRE>
-    <ECHEANCE DATE="2026-01-26T06:00:00" FF1="25" DD1="N" FF2="35" DD2="NO" ISO0="1100" PLUIENEIGE="800" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-01-26T12:00:00" FF1="45" DD1="N" FF2="55" DD2="N" ISO0="1000" PLUIENEIGE="700" TEMPSSENSIBLE="81" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-01-26T18:00:00" FF1="40" DD1="NE" FF2="50" DD2="N" ISO0="1300" PLUIENEIGE="-1" TEMPSSENSIBLE="2" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-01-27T00:00:00" FF1="15" DD1="S" FF2="30" DD2="N" ISO0="2000" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
+    <COMMENTAIRE>Ciel très chargé en journée sous un vent de sud tempétueux. Quelques averses en journée, avant une forte dégradation neigeuse en soirée. </COMMENTAIRE>
+    <ECHEANCE DATE="2026-01-27T06:00:00" FF1="40" DD1="S" FF2="70" DD2="S" ISO0="2100" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-01-27T12:00:00" FF1="75" DD1="S" FF2="90" DD2="S" ISO0="2800" PLUIENEIGE="-1" TEMPSSENSIBLE="4" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-01-27T18:00:00" FF1="90" DD1="S" FF2="100" DD2="S" ISO0="2400" PLUIENEIGE="1900" TEMPSSENSIBLE="70" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-01-28T00:00:00" FF1="80" DD1="S" FF2="90" DD2="S" ISO0="2000" PLUIENEIGE="1800" TEMPSSENSIBLE="58" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_14.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-01-19T06:00:00" FF1="10" DD1="E" FF2="15" DD2="SE" ISO0="2200" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
-      <ECHEANCE DATE="2026-01-19T12:00:00" FF1="10" DD1="SE" FF2="15" DD2="E" ISO0="2100" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
-      <ECHEANCE DATE="2026-01-19T18:00:00" FF1="10" DD1="E" FF2="15" DD2="E" ISO0="2100" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
-      <ECHEANCE DATE="2026-01-20T00:00:00" FF1="10" DD1="NE" FF2="15" DD2="E" ISO0="2100" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
       <ECHEANCE DATE="2026-01-20T06:00:00" FF1="10" DD1="NE" FF2="15" DD2="E" ISO0="2100" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
       <ECHEANCE DATE="2026-01-20T12:00:00" FF1="10" DD1="SE" FF2="15" DD2="SE" ISO0="2100" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-01-20T18:00:00" FF1="10" DD1="SO" FF2="15" DD2="S" ISO0="2100" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
@@ -87,13 +90,12 @@ Qualité de la neige lundi : 15 à 30 cm de neige poudreuse souvent légère sur
       <ECHEANCE DATE="2026-01-25T12:00:00" FF1="5" DD1="O" FF2="10" DD2="NO" ISO0="1200" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
       <ECHEANCE DATE="2026-01-25T18:00:00" FF1="10" DD1="SO" FF2="20" DD2="O" ISO0="1500" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
       <ECHEANCE DATE="2026-01-26T00:00:00" FF1="10" DD1="O" FF2="20" DD2="NO" ISO0="1200" PLUIENEIGE="900" TEMPSSENSIBLE="61"/>
+      <ECHEANCE DATE="2026-01-26T06:00:00" FF1="25" DD1="N" FF2="35" DD2="NO" ISO0="1100" PLUIENEIGE="800" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2026-01-26T12:00:00" FF1="45" DD1="N" FF2="55" DD2="N" ISO0="1000" PLUIENEIGE="700" TEMPSSENSIBLE="81"/>
+      <ECHEANCE DATE="2026-01-26T18:00:00" FF1="40" DD1="NE" FF2="50" DD2="N" ISO0="1300" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
+      <ECHEANCE DATE="2026-01-27T00:00:00" FF1="10" DD1="SO" FF2="20" DD2="NE" ISO0="2000" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-01-19T00:00:00" LimiteSud="1300" LimiteNord="900">
-        <NIVEAU ALTI="1000" N="5" S="0"/>
-        <NIVEAU ALTI="1500" N="60" S="15"/>
-        <NIVEAU ALTI="2000" N="110" S="50"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-01-20T00:00:00" LimiteSud="1300" LimiteNord="900">
         <NIVEAU ALTI="1000" N="5" S="0"/>
         <NIVEAU ALTI="1500" N="60" S="15"/>
@@ -124,23 +126,28 @@ Qualité de la neige lundi : 15 à 30 cm de neige poudreuse souvent légère sur
         <NIVEAU ALTI="1500" N="80" S="35"/>
         <NIVEAU ALTI="2000" N="125" S="65"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-01-26T00:00:00" LimiteSud="800" LimiteNord="700">
+        <NIVEAU ALTI="1000" N="15" S="5"/>
+        <NIVEAU ALTI="1500" N="85" S="35"/>
+        <NIVEAU ALTI="2000" N="130" S="65"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-01-20T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-01-21T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-01-22T00:00:00" SS24Min="0" SS24Max="1"/>
       <NEIGE24H DATE="2026-01-23T00:00:00" SS24Min="5" SS24Max="6"/>
       <NEIGE24H DATE="2026-01-24T00:00:00" SS24Min="10" SS24Max="20"/>
       <NEIGE24H DATE="2026-01-25T00:00:00" SS24Min="1" SS24Max="5"/>
+      <NEIGE24H DATE="2026-01-26T00:00:00" SS24Min="5" SS24Max="10"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-01-19T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-01-20T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-01-21T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-01-22T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-01-23T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-01-24T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-01-25T00:00:00" RISQUEMAXI="2"/>
+      <RISQUE DATE="2026-01-26T00:00:00" RISQUEMAXI="2"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_14.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_14.png</Image7derniersjours_portrait>

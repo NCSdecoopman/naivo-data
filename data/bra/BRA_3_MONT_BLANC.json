@@ -3,30 +3,30 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-01-25T16:00:00",
-    "valid_until": "2026-01-26T18:00:00",
+    "issued_at": "2026-01-26T16:00:00",
+    "valid_until": "2026-01-27T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 1800,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<1800",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
+            "loc": ">1800",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "1800m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-27",
+        "date": "2026-01-28",
         "label": "Indice de risque marqué",
-        "comment": "Vent de S/Foehn formant de nouvelles plaques mardi. Risque en légère hausse.",
+        "comment": "Mercredi, faibles chutes de neige toute la journée (5/15 cm).\n⇒ plaques friables dans la neige fraîche et quelques départs spontanés en neige fraîche. Sous-couche fragile persistante toujours présente.",
         "trend": "steady"
       }
     },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 3,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 3,
       "labels": {
-        "3": "Couche fragile persistante",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-3"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-21",
-          "min_cm": 0,
-          "max_cm": 1
-        },
         {
           "date": "2026-01-22",
           "min_cm": 0,
@@ -112,50 +107,55 @@
         {
           "date": "2026-01-25",
           "min_cm": 3,
-          "max_cm": 5
+          "max_cm": 8
         },
         {
           "date": "2026-01-26",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-27",
+          "min_cm": 3,
+          "max_cm": 8
         }
       ],
       "totals": {
         "last_48h_min_cm": 3,
-        "last_48h_max_cm": 5
+        "last_48h_max_cm": 8
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "",
-      "text": "Déclenchements provoqués :\n* Plaques dures anciennes, reposant sur une couche fragile persistante enfouie. Plus haut que 2000 m, en versants E/N/W. Taille 2 (moyenne), éventuellement 3 (grande) : possible cassure épaisse et large, rupture en blocs durs. Possibilité d'avalanches en cascade : une première plaque de surface en déclenche une autre plus épaisse. Ces plaques sont piégeuses (aucun indice de surface visible) et masquées sous la fine couche de neige récente. La couche fragile persistante, d'aspect sucre en poudre, est généralement enfouie sous 50 à 80 cm de neige compacte. Elle semble moins réactive que la semaine dernière, mais cela reste complexe à évaluer ! Localement, les tests CT/ECT peuvent contribuer à la prise de décision.\n* Plaques nouvelles, friables ou dures, formées ce samedi par le vent de Foehn, puis la nuit de dimanche à lundi avec la dernière chute (5 cm). Toutes orientations, à fortiori N/NE/NW. Taille 1 à 2 (petite à moyenne). Facteur aggravant : plaques peu visibles, masquées sous la neige fraîche.\nObservables : zones d'accumulation, fissures devant les skis. \n\nDéparts spontanés :\n* quelques plaques ou coulées en pentes raides, surtout près des falaises/rochers, sous les éclaircies. Taille 1, voire 2 en s'approchant des versants italiens.",
+      "title": "Instabilités de plus en plus nombreuses dans la neige de surface à cause du Foehn",
+      "text": "Instabilités de plus en plus nombreuses dans la neige de surface à cause du Foehn\n\nDéclenchements provoqués :\n* Plaques à vent en cours de formation dans la neige récente avec le Foehn. Très facile à déclencher. Elles sont de plus en plus nombreuses au fil de la journée et en montant en altitude (principalement au-dessus de 1800 m). Taille 1 à 2 (petites à moyenne).  \nObservables : transport de neige par le vent, fissures sous les skis, accumulations de neige récente. \n* Plaques sur sous-couche fragile persistante enfouie, au-dessus de 1800/2000 m, dans les versants est/nord/ouest. Difficile à déclencher par un.e skieur.e, mais possible avalanche en cascade (déclenchement par la plaque à vent décrite ci-dessus). Taille 2 (moyenne), voire 3 (grande) avec une cassure large et épaisse (50/80 cm). \nObservables : pas d'indice de surface. Faire des tests de stabilité (CT/ECT). \n\nDéparts spontanés :\n* Rares plaques de fond dans les versants ensoleillés dans les zones herbeuses ou les dalles rocheuses, en dessous de 2200 m. Taille 2 (moyenne).\n* Rares petites avalanches de neige fraîche dans les falaises ou près des rochers, sous 2200 m. Taille 1 (petite).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : déficitaire sous 2500 m, juste correct en haute-montagne. On peut chausser les skis vers 1200 m en N, 1500 m en S (absence de sous-couche, gare aux cailloux juste masqués).\n\nQualité de la neige ce lundi :  \n* neige poudreuse froide en surface, suite aux deux petites chutes récentes. Cette fine couche repose sur l'ancien manteau irrégulier, tantôt en neige meuble très dense, tantôt croûté/dur.\n* en haute montagne, le Foehn de samedi a travaillé la neige. Les irrégularités sont masquées sous la neige fraîche. Le Foehn a aussi soufflé près de la frontière suisse (Balme/Autannes) et secteur Miages/Tondu.",
+      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire en dessous de 2500 m et correct au-dessus. \nOn peut chausser les skis vers 1200/1400 m. Pas de sous-couche sous 1500 m, des cailloux peuvent affleurer la surface du manteau neigeux. \n\nQualité de la neige ce mardi matin : \n15/30 cm de neige récente, froide et assez légère, reposant sur un fond dur. Au fil de la journée, la neige de surface sera de plus en plus soufflée, surtout près des crêtes.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 900,
-        "south": 1000
+        "south": 900
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 50,
-          "S": 15
+          "N": 55,
+          "S": 20
         },
         {
           "alt_m": 2000,
-          "N": 110,
-          "S": 60
+          "N": 115,
+          "S": 65
         },
         {
           "alt_m": 2500,
-          "N": 210,
-          "S": 180
+          "N": 220,
+          "S": 190
         }
       ],
       "icon_key": "snowpack",

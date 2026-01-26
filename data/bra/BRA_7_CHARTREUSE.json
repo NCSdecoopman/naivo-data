@@ -3,14 +3,14 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-01-25T16:00:00",
-    "valid_until": "2026-01-26T18:00:00",
+    "issued_at": "2026-01-26T17:00:00",
+    "valid_until": "2026-01-27T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "max_level": 3,
+      "comment": "Indice de risque marqué.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 2,
+            "risk": 3,
             "evolution_to": null,
             "position": null
           }
@@ -34,18 +34,18 @@
         },
         "zones": {
           "center": {
-            "text": "2",
-            "risk": 2,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-27",
+        "date": "2026-01-28",
         "label": "Indice de risque marqué",
-        "comment": "Mardi : brèves éclaircies et voiles d'altitude denses. Tempête de sud sur le massif.\nRisque en hausse, fort transport de neige à attendre.",
-        "trend": "up"
+        "comment": "Mercredi, risque marqué avec de nombreuses instabilités dans la neige fraîche.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -53,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
-        "1": "Neige fraîche",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-21",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-22",
           "min_cm": 3,
@@ -105,44 +100,49 @@
         {
           "date": "2026-01-26",
           "min_cm": 0,
-          "max_cm": 3
+          "max_cm": 0
+        },
+        {
+          "date": "2026-01-27",
+          "min_cm": 15,
+          "max_cm": 30
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 13
+        "last_48h_min_cm": 15,
+        "last_48h_max_cm": 30
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PLAQUES FRIABLES, SURTOUT VERS LES CRETES ET SOMMETS.",
-      "text": "PLAQUES FRIABLES, SURTOUT VERS LES CRETES ET SOMMETS.\n\nDéclenchements provoqués : présence de plaques friables sur le massif dans la neige récente tombée ces derniers jours (10-20 cm vendredi soir + 1-5 cm nuit samedi/dimanche +5 à localement 10 cm nuit dimanche à lundi) que le pratiquant peut déclencher. Méfiance, indices de terrain souvent masqués par la petite couche de poudreuse tombée dans la nuit de dimanche à lundi. Lundi, le vent local de N à NE pourra favoriser ou épaissir un peu les structures de plaques. C'est surtout au-dessus des forêts, vers les crêtes et sommets du massif que ces plaques pourront être les plus épaisses. \n\nDéparts spontanés : coulées locales de neige fraîche poudreuse pendant les chutes de neige de la nuit de dimanche/lundi, en pentes raides sommitales. Lundi, quelques ruptures naturelles de plaques friables vers les crêtes notamment sous le vent de nord local (qui peut, bien qu'assez faible, s'avérer suffisant pour le transport de neige poudreuse). Aussi, de minces coulées humides au soleil au fil de la journée, dans la neige récente, surtout depuis les rochers, falaises etc.",
+      "title": "FORMATION DE PLAQUES A VENT, LOIN DES CRETES, EN LARGE NORD",
+      "text": "FORMATION DE PLAQUES A VENT, LOIN DES CRETES, EN LARGE NORD \n\nDéclenchements provoqués : De nombreuses plaques se forment sous le vent de sud ce mardi, en large nord où la neige ne subit pas d'humidification. Elles se retrouvent principalement loin des crêtes, souvent sous les barres rocheuses ou en milieu / bas de pentes, et seront parfois faciles à déclencher car reposant sur une couche de neige récente encore légère. \nObservables : Chasse neige, neige travaillée par le vent en surface reposant sur une neige plus poudreuse. \nEn versants sud le redoux tasse et stabilise le manteau neigeux, tandis que les crêtes sont souvent pelées / dégarnies. \n\nDéparts spontanés : Dans un large secteur nord, des avalanches de tailles petites à moyennes pourront partir spontanément dans les pentes chargées par le vent de sud. Le risque sera plus marqué sous les barres rocheuses. En versant sud, de rares coulées de petites tailles sont possibles sous le redoux, surtout sous les rochers. En soirée de mardi de fortes chutes de neige gagnent le massif, et sous les fortes intensités des coulées pourront partir en tout versants. Le risque restera plus marqué en nord où les pentes ont déjà été chargées par le vent en journée. \n\nAutres : Crêtes et pentes sommitales pelées par le vent, faisant ressortir des surfaces glacées.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  l'enneigement s'est amélioré sous les chutes de neige récentes mais reste médiocre pour la saison. La neige tombe très légère sur des sous-couches irrégulières.   Limites skiables vers 900/1200 m (avec prudence en basse altitude où les sous-couches sont peu épaisses voire inexistantes)\n\nQualité de la neige lundi : 15 à 30 cm de neige poudreuse souvent légère sur le massif (dont 5/10cm tombés en nuit de dimanche/lundi) . Elle est parfois plus densifiée par le vent en surface. Elle repose sur une sous-couche assez dense, mais parfois peu épaisse. En journée la poudreuse devrait s'alourdir sous 1800 m sous l'effet du léger redoux, voire plus haut au soleil.",
+      "text": "Qualification de l’enneigement :  L'enneigement est médiocre pour la saison, et se dégrade encore en journée sous le redoux et le vent de sud.  Limites skiables vers 1000/1300 m (avec prudence en basse altitude où les sous-couches sont peu épaisses voire inexistantes)\n\nQualité de la neige mardi : En versants nord, neige froide encore poudreuse dans les combes abritées. Le vent s'engouffre toutefois sur la majeure partie du massif, avec une neige de plus en plus dense en surface, totalement cartonée vers les crêtes et pentes sommitales. En versants sud, neige dense / humide.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 700,
-        "south": 700
+        "south": 800
       },
       "levels_cm": [
         {
           "alt_m": 1000,
           "N": 20,
-          "S": 10
+          "S": 5
         },
         {
           "alt_m": 1500,
-          "N": 85,
+          "N": 90,
           "S": 40
         },
         {
           "alt_m": 2000,
-          "N": 135,
+          "N": 140,
           "S": 85
         }
       ],

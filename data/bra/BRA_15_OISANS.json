@@ -3,14 +3,14 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-01-25T16:00:00",
-    "valid_until": "2026-01-26T18:00:00",
+    "issued_at": "2026-01-26T17:00:00",
+    "valid_until": "2026-01-27T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "max_level": 4,
+      "comment": "Indice de risque marqué évoluant en fort.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 3,
-            "evolution_to": null,
+            "evolution_to": 4,
             "position": null
           }
         ]
@@ -34,18 +34,18 @@
         },
         "zones": {
           "center": {
-            "text": "3",
-            "risk": 3,
-            "evolution_to": null
+            "text": "3→4",
+            "risk": 4,
+            "evolution_to": 4
           }
         }
       },
       "j2": {
         "max_level": 4,
-        "date": "2026-01-27",
+        "date": "2026-01-28",
         "label": "Indice de risque fort",
-        "comment": "Mardi : brèves éclaircies et voiles d'altitude denses puis neige l'après-midi vers les Ecrins > 1900/2100 m. Tempête de sud sur les crêtes et sommets exposés.\nRisque en hausse, fort transport de neige à attendre. Evolution d'un risque marqué (3) vers un risque fort (4) très probable.",
-        "trend": "up"
+        "comment": "Mercredi, risque fort. Les instabilités sont très nombreuses dans la couche de neige fraîche, avec des avalanches pouvant être facilement volumineuses.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 3,
       "labels": {
-        "1": "Neige fraîche",
+        "2": "Neige ventée",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-21",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-22",
           "min_cm": 2,
@@ -106,22 +101,27 @@
           "date": "2026-01-26",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-01-27",
+          "min_cm": 15,
+          "max_cm": 30
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 15,
+        "last_48h_max_cm": 30
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES INSTABILITES DANS LA NEIGE RECENTE DES DERNIERS JOURS, SURTOUT EN ALTITUDE.",
-      "text": "NOMBREUSES INSTABILITES DANS LA NEIGE RECENTE DES DERNIERS JOURS, SURTOUT EN ALTITUDE. \n\nDéclenchements provoqués : manteau instable avec plaques friables/poudreuses en divers versants et altitudes, mais plus fréquentes et épaisses au-dessus de 1600/1800 m, et en Ouest, Nord et Est. Plaques friables facilement déclenchables par un skieur, dans la neige récente tombée ces derniers jours (10-20 cm vendredi soir +5 loc10 cm nuit samedi/dimanche, +5/15 cm nuit dimanche/lundi). La chute de neige de la nuit de dimanche à lundi (poudreuse et peu ventée) peut complexifier la lecture du terrain en camouflant les indices de transport par le vent, méfiance... De plus un petit vent du nord s'installe lundi par endroits, il pourrait épaissir les structures de plaques et en former de nouvelles.\n-> En plus de tout ça, une 2eme problématique se superpose : en large nord d'altitude, surtout au-dessus de 2000 m, plutôt en milieu de pente/ dans les secteurs moins exposés au vent, des grains anguleux demeurent enfouis dans le manteau, surtout présents vers les Ecrins, les deux Alpes, l'Olan. Ces fragilités enfouies sont difficiles à déclencher par un skieur mais le déclenchement plus haut d'une plaque friable pourrait venir en cascade les solliciter, faisant craindre une avalanche de grande taille dans ces pentes ombragées d'altitude.\n\nDéparts spontanés : quelques avalanches moyennes de neige fraîche poudreuse pendant les chutes de neige de la nuit de dimanche/lundi. Lundi, quelques ruptures naturelles de plaques friables en altitude notamment sous le vent de nord local (qui peut, bien qu'assez faible, s'avérer suffisant pour le transport de neige poudreuse). Aussi, de minces coulées humides au soleil au fil de la journée, dans la neige récente, surtout depuis les rochers, falaises etc.",
+      "title": "NOMBREUSES INSTABILITES SOUS LE VENT DE SUD EN MATINEE. INSTABILITES SE GENERALISANT SOUS LES CHUTES DE NEIGE L'APRES-MIDI",
+      "text": "NOMBREUSES INSTABILITES SOUS LE VENT DE SUD EN MATINEE. INSTABILITES SE GENERALISANT SOUS LES CHUTES DE NEIGE L'APRES-MIDI\n\nDéclenchements provoqués : Mardi le vent de sud se lève et devient vite tempétueux sur le massif, formant de nombreuses instabilités en large nord. La présence de 20 à 40cm de neige récente encore légère favorise la formation de plaques et les rend particulièrement réactives, avec des cassures pouvant être assez larges et épaisses. Ces instabilités se retrouvent parfois loin des crêtes, en milieu / bas de pente, et souvent sous les barres rocheuses. A partir de mardi midi des chutes de neige se mettent en place sur le massif, avec 20 à 30cm localement attendus d'ici la soirée (surtout vers la Meije / Ecrins / Olan). Sous ces chutes de neige les instabilités deviendront généralisées et très réactives, présentes en tout versants. En large nord et parfois dés 2000m, le risque est majoré par la présence de grains anguleux enfouis dans le manteau. Ces couches fragiles sont rarement sollicitables par un skieur, mais le départ d'une plaque de surface peut provoquer en cascade le départ d'une avalanche de grande taille.  \nDéparts spontanés : En large nord, des cassures linéaires seront possibles en journée de mardi dans les pentes chargées par le vent de sud, avec des avalanches de tailles petites à moyennes, voire rarement grande vers les Ecrins. Les avalanches deviendront plus nombreuses et plus grandes au fil de la journée sous les chutes de neige. Sous 1800/1900m environ, quelques coulées possibles en journée sous la pluie.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : l'enneigement est proche des normales de saison sur le massif. Parfois déficitaire près des croupes, ou en versants Sud. Limites skiables à partir de  1000/1300m (avec prudence en basse altitude où les sous-couches sont peu épaisses voire inexistantes).\n\nQualité de la neige lundi : 15 à 30 cm de neige récente lundi matin, parfois 40 cm (dont 5/10 cm de la nuit de dimanche à lundi), assez poudreuse en forêt mais parfois un peu ventée plus haut, vers certaines crêtes, cols...Cette neige récente repose sur une sous-couche très dense, croûtée par les épisodes de vent. En journée, cette neige fraîche pourrait s'alourdir sous 1600 m (voire plus haut au soleil), et se densifier en altitude sous le vent du nord localisé...",
+      "text": "Qualification de l’enneigement : L'enneigement est proche des normales et s'améliore encore vers les hautes-Alpes. Croupes dégarnies. Limites skiables à partir de  1000/1300m\n\nQualité de la neige mardi : Très variable sur le massif. Neige dure / cartonnée par le vent vers le Taillefer, encore froide en nord, mais humide dense en versants sud. En allant vers les Ecrins / La Meije, neige encore légère en matinée en combe abritée, se densifiant sous le vent, devenant cartonée par endroits. Crêtes et sommets dégarnis. A partir de la mi-journée nouvelles chutes de neige vers Ecrins / Meije / Olan, limite pluie-neige vers 1400m côté hautes-Alpes, 1900m côté Isère. Poudreuse dense, travaillée par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 50,
+          "N": 55,
           "S": 25
         },
         {
           "alt_m": 2000,
-          "N": 100,
+          "N": 105,
           "S": 60
         },
         {
           "alt_m": 2500,
-          "N": 160,
-          "S": 100
+          "N": 165,
+          "S": 105
         }
       ],
       "icon_key": "snowpack",

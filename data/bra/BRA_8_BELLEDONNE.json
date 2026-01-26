@@ -3,8 +3,8 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-01-25T16:00:00",
-    "valid_until": "2026-01-26T18:00:00",
+    "issued_at": "2026-01-26T17:00:00",
+    "valid_until": "2026-01-27T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-27",
+        "date": "2026-01-28",
         "label": "Indice de risque marqué",
-        "comment": "Mardi : brèves éclaircies et voiles d'altitude denses. Tempête de sud sur le massif.\nRisque en hausse, fort transport de neige à attendre. Evolution vers un risque 4 possible.",
+        "comment": "Mercredi, risque marqué. Les chutes de neige se poursuivent et le manteau est peu stabilisé, avec des plaques nombreuses et réactives.",
         "trend": "steady"
       }
     },
@@ -53,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 3,
       "labels": {
-        "1": "Neige fraîche",
+        "2": "Neige ventée",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-21",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-22",
           "min_cm": 2,
@@ -105,45 +100,50 @@
         {
           "date": "2026-01-26",
           "min_cm": 0,
-          "max_cm": 3
+          "max_cm": 1
+        },
+        {
+          "date": "2026-01-27",
+          "min_cm": 15,
+          "max_cm": 18
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 13
+        "last_48h_min_cm": 15,
+        "last_48h_max_cm": 19
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES INSTABILITES DANS LA NEIGE RECENTE DES DERNIERS JOURS, SURTOUT EN ALTITUDE.",
-      "text": "NOMBREUSES INSTABILITES DANS LA NEIGE RECENTE DES DERNIERS JOURS, SURTOUT EN ALTITUDE. \n\nDéclenchements provoqués : manteau instable avec plaques friables/poudreuses en divers versants et altitudes, mais plus fréquentes et épaisses au-dessus de 1600/1800 m, et en Ouest, Nord et Est. Plaques friables facilement déclenchables par un skieur, dans la neige récente tombée ces derniers jours (10-20 cm vendredi soir +5 loc10 cm nuit samedi/dimanche, +5/15 cm nuit dimanche/lundi). La chute de neige de la nuit de dimanche à lundi (poudreuse et peu ventée) peut complexifier la lecture du terrain en camouflant les indices de transport par le vent, méfiance... De plus un petit vent du nord s'installe lundi par endroits, il pourrait épaissir les structures de plaques et en former de nouvelles.\n-> En plus de tout ça, une 2eme problématique se superpose : en large nord d'altitude, surtout au-dessus de 2000 m, plutôt en milieu de pente/ dans les secteurs moins exposés au vent, des grains anguleux demeurent enfouis dans le manteau. Ces fragilités enfouies sont difficiles à déclencher par un skieur mais le déclenchement plus haut d'une plaque friable pourrait venir en cascade les solliciter, faisant craindre une avalanche de grande taille dans ces pentes ombragées d'altitude.\n\nDéparts spontanés : quelques avalanches moyennes de neige fraîche poudreuse pendant les chutes de neige de la nuit de dimanche/lundi. Lundi, quelques ruptures naturelles de plaques friables en altitude notamment sous le vent de nord local (qui peut, bien qu'assez faible, s'avérer suffisant pour le transport de neige poudreuse). Aussi, de minces coulées humides au soleil au fil de la journée, dans la neige récente, surtout depuis les rochers, falaises etc.",
+      "title": "FORMATION DE NOMBREUSES PLAQUES A VENT EN JOURNEE, SURTOUT EN VERSANTS NORD",
+      "text": "FORMATION DE NOMBREUSES PLAQUES A VENT EN JOURNEE, SURTOUT EN VERSANTS NORD \n\nDéclenchements provoqués : Mardi le vent de sud se lève et devient vite tempétueux sur le massif, formant de nombreuses instabilités en large secteur nord. La présence de 20 à 40cm de neige récente encore légère favorise la formation de plaques et les rend particulièrement réactives, avec des cassures pouvant être assez larges et épaisses. Les plaques seront souvent d'aspect dures, mais pourront être friables en secteurs moins ventés, surtout en milieu et bas de pentes / sous les barres rocheuses. \nObservables : Chasse neige en cours, accumulations de neige, neige plus légère en profondeur. \nDans certains versants nord, des grains anguleux sont enfouis dans le manteau. Ces couches fragiles semblent difficiles à solliciter par un skieur, mais le départ d'une plaque de surface pourrait suffir à provoquer en cascade le départ d'une avalanche de plus grande ampleur. Ces couches fragiles sont difficile à déceler. Elles semblent être plus nombreuses vers la Maurienne, et se trouvent plus souvent en bas et milieu de pentes, ou sous les barres, dans les secteurs habituellement peu ventés.  \nEn début de nuit de mardi à mercredi, formations de nouvelles instabilités en tout versants sous les chutes de neige. \n\nDéclenchements spontanés : Au fil de la journée, des avalanches de plaque peuvent partir spontanément dans les versants chargés par le vent de sud. De tailles petites à moyennes la plupart du temps, une avalanche de grande taille ne peut être exclue. Sous 1900m, de rares coulées sont possibles en fin d'après-midi / soirée sous les remontées pluvieuses. \nEn début de nuit de mardi à mercredi, de fortes chutes de neige abordent le massif avec une limite pluie-neige s'abaissant vers 1000m. Sous ces chutes, de nombreux départs sont possibles, souvent de petites tailles, parfois moyennes. Dans les versants nord déjà chargé par le vent en journée, une rare cassure de grande taille restera possible. \n\nAutres : Crêtes et pentes sommitales pelées par le vent, faisant ressortir de vieilles surfaces dures / glacées.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : l'enneigement s'améliore en partie sous les différentes chutes de neige ces derniers jours, mais reste médiocre en Sud et à basse altitude. Limites skiables à partir de 1000/1400 m (avec prudence en basse altitude où les sous-couches sont peu épaisses voire inexistantes).\n\nQualité de la neige lundi : 15 à 30 cm de neige récente lundi matin, parfois 40 cm (dont 5/15 cm de la nuit de dimanche à lundi), assez poudreuse en forêt mais parfois un peu ventée plus haut, vers certaines crêtes, cols...Cette neige récente repose sur une sous-couche très dense, croûtée par les épisodes de vent. En journée, cette neige fraîche pourrait s'alourdir sous 1600 m (voire plus haut au soleil), et se densifier en altitude sous le vent du nord localisé...",
+      "text": "Qualification de l’enneigement : L'enneigement est correct sur le massif. Limites skiables à partir de 1000/1400 m (avec prudence en basse altitude où les sous-couches sont peu épaisses voire inexistantes).\n\nQualité de la neige mardi : Neige encore froide dans les versants nord. Quelques combes abritées peuvent encore être en poudreuse, mais la neige est souvent travailllée / cartonnée par le vent sur le massif. En versants Sud, neige humide et dense.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 700,
-        "south": 700
+        "south": 800
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 70,
+          "N": 75,
           "S": 30
         },
         {
           "alt_m": 2000,
-          "N": 150,
+          "N": 155,
           "S": 80
         },
         {
           "alt_m": 2500,
-          "N": 210,
-          "S": 150
+          "N": 215,
+          "S": 155
         }
       ],
       "icon_key": "snowpack",
