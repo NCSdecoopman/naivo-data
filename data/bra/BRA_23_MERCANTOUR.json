@@ -3,14 +3,14 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-01-26T16:00:00",
-    "valid_until": "2026-01-27T18:00:00",
+    "issued_at": "2026-01-27T16:00:00",
+    "valid_until": "2026-01-28T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 4,
-      "comment": "Indice de risque marqué évoluant en fort.",
+      "comment": "Indice de risque fort.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 3,
-            "evolution_to": 4,
+            "risk": 4,
+            "evolution_to": null,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "3→4",
+            "text": "4",
             "risk": 4,
-            "evolution_to": 4
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 4,
-        "date": "2026-01-28",
+        "date": "2026-01-29",
         "label": "Indice de risque fort",
-        "comment": "Instabilité du manteau neigeux remarquablement forte, avec de nombreuses plaques volumineuses faciles à déclencher.",
+        "comment": "Retour d'un temps sec et ensoleillé, mais l'instabilité du manteau neigeux reste forte en altitude.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-22",
-          "min_cm": 5,
-          "max_cm": 10
-        },
-        {
           "date": "2026-01-23",
           "min_cm": 15,
           "max_cm": 20
@@ -104,24 +99,29 @@
         },
         {
           "date": "2026-01-27",
-          "min_cm": 20,
-          "max_cm": 30
+          "min_cm": 40,
+          "max_cm": 60
+        },
+        {
+          "date": "2026-01-28",
+          "min_cm": 8,
+          "max_cm": 15
         }
       ],
       "totals": {
-        "last_48h_min_cm": 20,
-        "last_48h_max_cm": 30
+        "last_48h_min_cm": 48,
+        "last_48h_max_cm": 75
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITÉ DU MANTEAU NEIGEUX MARQUÉE, DEVENANT PARTICULIÈREMENT FORTE EN FIN D'APRÈS-MIDI ET NUIT SUIVANTE",
-      "text": "INSTABILITÉ DU MANTEAU NEIGEUX MARQUÉE, DEVENANT PARTICULIÈREMENT FORTE EN FIN D'APRÈS-MIDI ET NUIT SUIVANTE\n\nDéclenchements provoqués : nombreuses plaques en formation, très faciles à déclencher même à distance, et de plus en plus volumineuses au fil des heures. Elles sont générées à la fois par le transport de neige lié au vent de sud, et par les nouvelles chutes de neige qui deviennent particulièrement fortes le soir, notamment au-dessus de 2000 m. Cassures épaisses probables, emportant une grande partie du manteau neigeux, voire la totalité. Avalanches moyennes à grandes (taille 2 à 3). Manteau neigeux souvent très peu consolidé sur toute son épaisseur, hébergeant de nombreuses couches fragiles (neige froide des derniers jours et vieille neige sans cohésion plus enfouie), en particulier dans les ubacs.\n\nDéparts spontanés : - plaques cédant spontanément suite au transport par le vent, puis à la surcharge des nouvelles chutes de neige. Avalanches moyennes à grandes (taille 2 à 3).\nÀ partir de la fin d'après-midi/soirée, des départs ponctuels de neige fraîche dans les pentes raides suffisamment chargées, s'ajoutant aux départs spontanés de plaques déjà mentionnés.",
+      "title": "NEIGE TRÈS ABONDANTE, FORTE INSTABILITÉ DU MANTEAU NEIGEUX\nVIGILANCE ORANGE AVALANCHES",
+      "text": "NEIGE TRÈS ABONDANTE, FORTE INSTABILITÉ DU MANTEAU NEIGEUX\nVIGILANCE ORANGE AVALANCHES\n\nLes très abondantes chutes de neige conduisent à une forte instabilité du manteau neigeux, avec des avalanches de très grande taille possibles, atteignant certains secteurs routiers exposés de moyenne altitude (1500/1800 m).\nVigilance orange avalanches sur le massif du Mercantour.\n\nDéparts spontanés : dans la nuit de mardi à mercredi et mercredi matin, nombreux départs ponctuels en neige sèche en altitude, avec aérosol et souvent de grande taille (taille 3). Dans les zones de départ situées en orientations d'un large secteur nord de haute altitude, des départs linéaires de très grande taille (taille 4) sont possibles, s'approchant ou atteignant les fonds de vallées. Certaines grandes avalanches peuvent être de nature mixte, sèche et poudreuse à haute altitude, humide et dense sous 1800 m. Cette activité naturelle s'estompe rapidement en cours de matinée de mercredi.  \n\nDéclenchements provoqués : forte instabilité généralisée dans la neige fraîche. Nombreuses instabilités formées mardi et la nuit de mardi à mercredi, possibles en tous versants, très faciles à déclencher et très volumineuses (souvent de taille 3). Les instabilités dans la neige fraîche, difficilement identifiables, sollicitent des couches fragiles enfouies, possibles en toute orientation dès 1600/1800 m d'altitude. En large versant nord de haute altitude où l'épaisseur de neige mobilisable est plus importante et les couches fragiles plus enfouies, un skieur peut déclencher des avalanches de très grande taille, avec cassure supérieure à 1 mètre sur de grandes largeurs, emportant une grande partie du manteau neigeux, voire la totalité. Le manteau neigeux est souvent très peu consolidé sur toute son épaisseur, caractérisé de nombreuses couches fragiles (neige froide des derniers jours et vieille neige sans cohésion plus enfouie), en particulier dans les ubacs.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement proches des normales pour une fin janvier.\nDonnées observées : 95 cm à la Nivôse de Millefonts (2430 m), 90 cm à Isola 2000 à 1912 m.\n\nLimite d'enneigement skiable : à partir de 1200 m en ubacs sur terrains favorables (pentes herbeuses, routes forestières), plutôt 1500/1600 m en adrets. \n\nÉtat de la neige en surface : neige froide et encore plutôt légère, un peu plus dense dans les secteurs bien ensoleillés ou exposés au vent. Elle repose sur un fond dur à basse altitude et dans les adrets, ou sur un manteau neigeux meuble et peu consolidé dans les ubacs. En cours de journée de mardi, chutes de neige humides sous 1800/1900 m, plus froides au-dessus de 2000/2200 m.",
+      "text": "Enneigement proche des normales pour une fin janvier.\nDonnées observées : 94 cm à la Nivôse de Millefonts (2430 m), 88 cm à Isola 2000 à 1912 m.\n\nLimite d'enneigement skiable : à partir de 1400 m sur terrains favorables (pentes herbeuses, routes forestières), peu de sous-couche sous 1600/1800 m.\n\nÉtat de la neige en surface : mercredi matin, on trouve une épaisse couche de neige fraîche, tombée (au moins temporairement) humide sous 2000 m : 10/20 cm à 1500 m, 30/50 cm à 1800m, 40/60 localement 70/90 cm au dessus de 2000 m dans les secteurs abrités du vent. Nombreuses corniches sur les crêtes et congères dans les pentes au-dessus.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -133,17 +133,17 @@
         {
           "alt_m": 1500,
           "N": 30,
-          "S": 30
+          "S": 25
         },
         {
           "alt_m": 2000,
           "N": 90,
-          "S": 60
+          "S": 55
         },
         {
           "alt_m": 2500,
           "N": 130,
-          "S": 110
+          "S": 105
         }
       ],
       "icon_key": "snowpack",

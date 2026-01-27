@@ -3,14 +3,14 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-01-26T16:00:00",
-    "valid_until": "2026-01-27T18:00:00",
+    "issued_at": "2026-01-27T17:00:00",
+    "valid_until": "2026-01-28T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 1800m indice de risque limité évoluant en marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
         "threshold_m": 1800,
@@ -27,8 +27,8 @@
           {
             "id": "zone2",
             "loc": ">1800",
-            "risk": 2,
-            "evolution_to": 3,
+            "risk": 3,
+            "evolution_to": null,
             "position": "top"
           }
         ]
@@ -46,17 +46,17 @@
             "evolution_to": null
           },
           "top": {
-            "text": "2→3",
-            "risk": 2,
-            "evolution_to": 3
+            "text": "3",
+            "risk": 3,
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-28",
+        "date": "2026-01-29",
         "label": "Indice de risque marqué",
-        "comment": "Le fort coup de vent généralise le risque de plaque, aussi bien près que loin des crêtes.",
+        "comment": "Poursuite des conditions instables.",
         "trend": "steady"
       }
     },
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-22",
-          "min_cm": 0,
-          "max_cm": 1
-        },
-        {
           "date": "2026-01-23",
           "min_cm": 3,
           "max_cm": 8
@@ -116,24 +111,29 @@
         },
         {
           "date": "2026-01-27",
-          "min_cm": 1,
-          "max_cm": 10
+          "min_cm": 0,
+          "max_cm": 3
+        },
+        {
+          "date": "2026-01-28",
+          "min_cm": 5,
+          "max_cm": 15
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 18
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOUVELLES PLAQUES EN FORMATION AVEC LE FOEHN, COUCHE FRAGILE ENFOUIE DANS LES VERSANTS FROIDS.",
-      "text": "NOUVELLES PLAQUES EN FORMATION AVEC LE FOEHN, COUCHE FRAGILE ENFOUIE DANS LES VERSANTS FROIDS. \n\nDéclenchements provoqués :\n- Dès que le vent (Foehn) commence à transporter la neige récente, de nouvelles structures de plaques \"de surface\" se mettent en place. Présentes dans les accumulations sous le vent, on les trouve en tous versants et plutôt aux abords des crêtes. Elles sont très réactives et grossissent au fil des heures une fois le transport entamé - d'abord taille 1 (petite) puis taille 2 (moyenne, en fin de journée).\n\nFacteur aggravant : au-dessus de 1800 m, une couche fragile persistante enfouie (grains anguleux sans cohésion, semblables à du gros sel) essentiellement dans les pentes Nord, Est et Ouest, engendre une autre structure de plaque plus ancienne. Les caractéristiques actuelles rendent son déclenchement aléatoire, aussi bien localement que à distance, ou qu'en cascade. Les avalanches provoquées peuvent être grandes (T2, parfois T3), avec des cassures moyennes allant de 40 cm à 1 m (localement plus). \nObservables :  pour les plaques \"de surface\", le transport de neige par le vent est visible. Pour les autres, seul un \"woumf\" ou une coupe du manteau peut mettre à jour la présence de couche fragile persistante.\n\nDéparts spontanés : quelques départs ponctuels ou en plaque dans des pentes raides, là où le transport est en cours (coulées ou taille 1).",
+      "title": "NOMBREUSES PLAQUES À VENT, COUCHE FRAGILE ENFOUIE DANS LES VERSANTS FROIDS.",
+      "text": "NOMBREUSES PLAQUES À VENT, COUCHE FRAGILE ENFOUIE DANS LES VERSANTS FROIDS. \n\nDéclenchements provoqués : des plaques \"de surface\" se sont formées suite au coup de vent de Sud/Est de mardi soir. Présentes dans les accumulations sous le vent, on les trouve en tous versants, aussi bien près des crêtes qu'en pied de pente. Elles sont très réactives et engendrent des avalanches de taille 2 (moyenne).\n\nFacteur aggravant : au-dessus de 1800 m, une couche fragile persistante enfouie (grains anguleux sans cohésion, semblables à du gros sel) essentiellement dans les pentes Nord, Est et Ouest, engendre une autre structure de plaque plus ancienne. Les caractéristiques actuelles rendent son déclenchement difficile et aléatoire, plutôt en cascade. Les avalanches provoquées peuvent être grandes (T2, parfois T3), avec des cassures moyennes allant de 40 cm à 1 m (localement plus). \nObservables :  pour les plaques \"de surface\", surveiller les signes de transport, les accumulation en neige raffermie. Pour les autres, seul un \"woumf\" ou une coupe du manteau peut mettre à jour la présence de couche fragile persistante.\n\nDéparts spontanés : quelques départs ponctuels ou en plaque dans des pentes raides, pendant les averses de l'après-midi (taille 1).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : l'enneigement est désormais globalement normal même si on observe un déneigement des pentes ensoleillées à basse altitude. Les petites chutes de neige maintiennent cette normalité.\n\nLimite skiable : encore à basse altitude sur l'herbe en ubac, parfois dès 900 à 1000m. Même si la plupart des pentes sont enneigées dès 1000 à 1100m, sur terrain rocheux, il vaut mieux atteindre 1300 m en N, 1800 m en Sud pour trouver un terrain plus serein. Certaines croupes sont dégarnies tandis que des combes sont très bien enneigées.\n\nQualité de la neige : on trouve 10 à 20 cm de poudreuse en surface, reposant sur une neige souvent durcie par le vent (zones exposées, hautes altitudes). En versants ensoleillés, la neige est croutée au réveil et ramollie lentement au fil des heures.",
+      "text": "Enneigement : l'enneigement est désormais globalement normal même si on observe un déneigement des pentes ensoleillées à basse altitude. Les petites chutes de neige maintiennent cette normalité.\n\nLimite skiable : encore à basse altitude sur l'herbe en ubac, parfois dès 900 à 1000m. Même si la plupart des pentes sont enneigées dès 1000 à 1100m, sur terrain rocheux, il vaut mieux atteindre 1300 m en N, 1800 m en Sud pour trouver un terrain plus serein. Certaines croupes sont dégarnies tandis que des combes sont très bien enneigées.\n\nQualité de la neige : le vent a réorganisé la neige récente dans de nombreuses pentes. Le ski est légèrement moins bon le matin avec une neige poudreuse irrégulière, souvent ferme, voire cartonnée. L'après-midi, les cumuls de neige fraîche attendus améliorent la qualité de la neige de surface avec une couche de neige légère et tombée avec peu de vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

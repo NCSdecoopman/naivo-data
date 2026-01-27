@@ -3,8 +3,8 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-01-26T16:00:00",
-    "valid_until": "2026-01-27T18:00:00",
+    "issued_at": "2026-01-27T17:00:00",
+    "valid_until": "2026-01-28T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-28",
+        "date": "2026-01-29",
         "label": "Indice de risque marqué",
-        "comment": "Poursuite des conditions instables en montagne.",
+        "comment": "Poursuite des conditions instables.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-22",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-23",
           "min_cm": 1,
           "max_cm": 3
@@ -106,22 +101,27 @@
           "date": "2026-01-27",
           "min_cm": 3,
           "max_cm": 7
+        },
+        {
+          "date": "2026-01-28",
+          "min_cm": 1,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 7
+        "last_48h_min_cm": 4,
+        "last_48h_max_cm": 12
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOUVELLES PLAQUES EN FORMATION AVEC LE FOEHN, COUCHE FRAGILE ENFOUIE REACTIVE DANS LES VERSANTS FROIDS.",
-      "text": "NOUVELLES PLAQUES EN FORMATION AVEC LE FOEHN, COUCHE FRAGILE ENFOUIE REACTIVE DANS LES VERSANTS FROIDS. \n\nDéclenchements provoqués :\n- Avec le vent de Sud (Lombarde) qui transport efficacement la neige, de nouvelles structures de plaques \"de surface\" se mettent en place. Présentes dans les accumulations sous le vent, on les trouve dans tous les versants, aussi bien près des crêtes qu'en pied de pente. Elles sont très réactives et engendrent des avalanches de taille 2 (moyenne).\n\nFacteur aggravant : au-dessus de 1800 m, une couche fragile persistante enfouie (grains anguleux sans cohésion, semblables à du gros sel) essentiellement dans les pentes Nord, Est et Ouest, engendre une autre structure de plaque plus ancienne. Son déclenchement est possible aussi bien localement qu'à distance, ou qu'en cascade. Les avalanches provoquées peuvent être grandes (taille 3), avec des cassures moyennes allant de 40 cm à 1 m (localement plus). \nObservables :  pour les plaques \"de surface\", le transport de neige par le vent est visible. Pour les autres, seul un \"woumf\" ou une coupe du manteau peut mettre à jour la présence de couche fragile persistante.\n\nDéparts spontanés : quelques départs ponctuels ou en plaque dans des pentes raides, là où le transport est en cours (taille 1, 2 voire 3).",
+      "title": "MANTEAU TRÈS INSTABLE SUR L'OUEST DU MASSIF.  RISQUE CONSIDÉRABLE.",
+      "text": "MANTEAU TRÈS INSTABLE SUR L'OUEST DU MASSIF.  RISQUE CONSIDÉRABLE. \n\nSituation préoccupante de Val Fréjus aux Dents d'Ambin.\n\nDéclenchements provoqués :\n\nManteau neigeux particulièrement instable de Val Fréjus aux Dents d'Ambin. Les ~30 cm de neige fraîche prévus dans le secteur, additionnés au vent de Sud engendrent de nouvelles plaques \"de surface\" très réactives, aussi bien près des crêtes qu'en pied de pente. De plus, au-dessus de 1800 m dans les pentes Nord, Est et Ouest, une couche fragile persistante enfouie (grains anguleux sans cohésion, semblables à du gros sel) très réactive engendre des avalanches de taille 2 à 3 (grande), aussi bien localement qu'à distance, ou qu'en cascade. \nL'évolution à ski dans le secteur requiert une analyse fine du manteau et de la topographie. \nObservables :  pour les plaques \"de surface\", le transport de neige par le vent est visible. Pour les autres, seul un \"woumf\" ou une coupe du manteau peut mettre à jour la présence de couche fragile persistante.\n\nSur le reste du massif, les cumuls de neige sont plus faibles et le vent plus calme. Les problématiques y sont similaires mais légèrement moins marquées. Le risque demeure marqué. \n\n\nDéparts spontanés : quelques départs ponctuels ou en plaque dans des pentes raides, pendant les averses de l'après-midi (taille 1).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : L'enneigement est proche de la normale en moyenne montagne. Les petites chutes récentes maintiennent cette normalité.\n\nLimite skiable :  Les versants froids voyant pas ou peu le soleil ont gardé de la neige à basse altitude skiable sur l'herbe souvent dès les fonds de vallée. Sur terrain rocheux, quelques requins peuvent affleurer en desous de 1500 m en N, 2000 m en Sud pour trouver. L'enneigement est plus conséquent proche de la frontière italienne.\n\nQualité de la neige :  Quelques nouveaux centimètres de neige fraîche à basse altitude. On trouve donc 10 à 20cm de poudreuse en surface lundi matin, jusqu'à 30 à la frontière, reposant sur une neige souvent durcie par le vent (zones exposées, hautes altitudes) ou les cycles de regel (en Sud sous 2500 m). Avec les éclaircies, la neige devient collante au soleil et moins facile à skier.",
+      "text": "Enneigement : L'enneigement est proche de la normale en moyenne montagne. Les petites chutes récentes maintiennent cette normalité.\n\nLimite skiable :  Les versants froids voyant pas ou peu le soleil ont gardé de la neige à basse altitude skiable sur l'herbe souvent dès les fonds de vallée. Sur terrain rocheux, quelques requins peuvent affleurer en dessous de 1500 m en N, 2000 m en Sud pour trouver. L'enneigement est plus conséquent proche de la frontière italienne.\n\nQualité de la neige :  le vent a réorganisé la neige récente dans de nombreuses pentes. Le ski est moins bon que mardi avec une neige poudreuse irrégulière, souvent ferme, voire cartonnée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -133,7 +133,7 @@
         {
           "alt_m": 1500,
           "N": 50,
-          "S": 25
+          "S": 20
         },
         {
           "alt_m": 2000,

@@ -3,14 +3,14 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-01-26T17:00:00",
-    "valid_until": "2026-01-27T18:00:00",
+    "issued_at": "2026-01-27T17:00:00",
+    "valid_until": "2026-01-28T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 4,
-      "comment": "Indice de risque marqué évoluant en fort.",
+      "comment": "Indice de risque fort.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 3,
-            "evolution_to": 4,
+            "risk": 4,
+            "evolution_to": null,
             "position": null
           }
         ]
@@ -34,18 +34,18 @@
         },
         "zones": {
           "center": {
-            "text": "3→4",
+            "text": "4",
             "risk": 4,
-            "evolution_to": 4
+            "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-01-28",
-        "label": "Indice de risque fort",
-        "comment": "Mercredi, risque fort. Les instabilités sont très nombreuses dans la couche de neige fraîche, avec des avalanches pouvant être facilement volumineuses.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-01-29",
+        "label": "Indice de risque marqué",
+        "comment": "Jeudi, journée ensoleillée et temps assez frais. Le manteau se stabilise lentement, mais les instabilités restent nombreuses sur le massif.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-22",
-          "min_cm": 2,
-          "max_cm": 7
-        },
-        {
           "date": "2026-01-23",
           "min_cm": 10,
           "max_cm": 20
@@ -104,24 +99,29 @@
         },
         {
           "date": "2026-01-27",
-          "min_cm": 15,
-          "max_cm": 30
+          "min_cm": 10,
+          "max_cm": 20
+        },
+        {
+          "date": "2026-01-28",
+          "min_cm": 7,
+          "max_cm": 15
         }
       ],
       "totals": {
-        "last_48h_min_cm": 15,
-        "last_48h_max_cm": 30
+        "last_48h_min_cm": 17,
+        "last_48h_max_cm": 35
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES INSTABILITES SOUS LE VENT DE SUD EN MATINEE. INSTABILITES SE GENERALISANT SOUS LES CHUTES DE NEIGE L'APRES-MIDI",
-      "text": "NOMBREUSES INSTABILITES SOUS LE VENT DE SUD EN MATINEE. INSTABILITES SE GENERALISANT SOUS LES CHUTES DE NEIGE L'APRES-MIDI\n\nDéclenchements provoqués : Mardi le vent de sud se lève et devient vite tempétueux sur le massif, formant de nombreuses instabilités en large nord. La présence de 20 à 40cm de neige récente encore légère favorise la formation de plaques et les rend particulièrement réactives, avec des cassures pouvant être assez larges et épaisses. Ces instabilités se retrouvent parfois loin des crêtes, en milieu / bas de pente, et souvent sous les barres rocheuses. A partir de mardi midi des chutes de neige se mettent en place sur le massif, avec 20 à 30cm localement attendus d'ici la soirée (surtout vers la Meije / Ecrins / Olan). Sous ces chutes de neige les instabilités deviendront généralisées et très réactives, présentes en tout versants. En large nord et parfois dés 2000m, le risque est majoré par la présence de grains anguleux enfouis dans le manteau. Ces couches fragiles sont rarement sollicitables par un skieur, mais le départ d'une plaque de surface peut provoquer en cascade le départ d'une avalanche de grande taille.  \nDéparts spontanés : En large nord, des cassures linéaires seront possibles en journée de mardi dans les pentes chargées par le vent de sud, avec des avalanches de tailles petites à moyennes, voire rarement grande vers les Ecrins. Les avalanches deviendront plus nombreuses et plus grandes au fil de la journée sous les chutes de neige. Sous 1800/1900m environ, quelques coulées possibles en journée sous la pluie.",
+      "title": "INSTABILITES GENERALISEES, PLUS NOMBREUSES VERS ECRINS / OLAN / MEIJE / DEUX ALPES. AVALANCHES DE GRANDE TAILLES POSSIBLES",
+      "text": "INSTABILITES GENERALISEES, PLUS NOMBREUSES VERS ECRINS / OLAN / MEIJE / DEUX ALPES. AVALANCHES DE GRANDE TAILLES POSSIBLES\n\nDéclenchements provoqués : Instabilités nombreuses et très réactives sur le massif, notamment secteur Ecrins / Olan / Meije / Deux Alpes où les chutes de neige sont plus importantes. Sur ces secteurs on relève parfois jusqu'à 50 à 60 cm de neige fraîche, qui tombent en grande partie sous un vent de sud sensible. Les plaques peuvent être grandes et épaisses, notamment en nord où les accumulations sont plus nombreuses. En nord, ces plaques reposent parfois sur des couches fragiles persistantes, rendant possible le départ de grandes avalanches et les déclenchements à distance. Les instabilités sont difficilement identifiables, avec des plaques d'aspects variables, plus ou moins travaillées par le vent. \nVers le Taillefer, risque moins fort mais restant marqué, avec des cumuls moins importants (20 à 30cm en altitude), et des couches fragiles persistantes plus rares / moins réactives. Sur ce secteur, de nombreuses plaques formées par le vent de Sud de mardi et recouverte par la neige récente restent toutefois présentes et réactives.  \n\nDéclenchements spontanés : Sous les chutes de neige, des avalanches de tailles moyennes à grandes sont possibles en tout versants. Elles sont plus nombreuses et plus épaisses en versants nord et vers les Ecrins / l'Olan / La Meije, où une rare très grande avalanche ne peut être exclue. Les avalanches deviendront plus rares mercredi après-midi avec l'affaiblissement des chutes de neige.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement est proche des normales et s'améliore encore vers les hautes-Alpes. Croupes dégarnies. Limites skiables à partir de  1000/1300m\n\nQualité de la neige mardi : Très variable sur le massif. Neige dure / cartonnée par le vent vers le Taillefer, encore froide en nord, mais humide dense en versants sud. En allant vers les Ecrins / La Meije, neige encore légère en matinée en combe abritée, se densifiant sous le vent, devenant cartonée par endroits. Crêtes et sommets dégarnis. A partir de la mi-journée nouvelles chutes de neige vers Ecrins / Meije / Olan, limite pluie-neige vers 1400m côté hautes-Alpes, 1900m côté Isère. Poudreuse dense, travaillée par le vent.",
+      "text": "Qualification de l’enneigement : L'enneigement s'améliore et devient bon sur le massif, notamment vers les Ecrins où il tombe en 24h près de 50cm de neige fraîche (mais très ventée). Les croupes restent toutefois peu enneigées. \n\nLimites skiables : à partir de  1000/1300m ( faibles sous-couches localement) \n\nQualité de la neige mercredi : Neige récente parfois très soufflée vers les Ecrins / La Meije, avec des crêtes dégarnies et de grosses accumulations dans les combes abritées / bas de pentes. Neige plus poudreuse loin des crêtes, et vers le Taillefer.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -133,12 +133,12 @@
         {
           "alt_m": 1500,
           "N": 55,
-          "S": 25
+          "S": 20
         },
         {
           "alt_m": 2000,
           "N": 105,
-          "S": 60
+          "S": 55
         },
         {
           "alt_m": 2500,

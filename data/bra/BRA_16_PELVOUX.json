@@ -3,14 +3,14 @@
   "massif": "Pelvoux",
   "bulletin": {
     "id": 16,
-    "issued_at": "2026-01-26T16:00:00",
-    "valid_until": "2026-01-27T18:00:00",
+    "issued_at": "2026-01-27T16:00:00",
+    "valid_until": "2026-01-28T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 4,
-      "comment": "Indice de risque marqué évoluant en fort.",
+      "comment": "Indice de risque fort.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 3,
-            "evolution_to": 4,
+            "risk": 4,
+            "evolution_to": null,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "3→4",
+            "text": "4",
             "risk": 4,
-            "evolution_to": 4
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 4,
-        "date": "2026-01-28",
+        "date": "2026-01-29",
         "label": "Indice de risque fort",
-        "comment": "Risque restant fort. De nombreuses plaques se sont formées lors des chutes de neige ventées. Elles sont très facilement déclenchables et localement épaisses. Nombreux départs spontanés attendus en altitude.",
+        "comment": "Maintien d'un risque fort. Les instabilités formées sont encore très réactives et des avalanches de grande ampleur restent possibles.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-22",
-          "min_cm": 0,
-          "max_cm": 3
-        },
-        {
           "date": "2026-01-23",
           "min_cm": 15,
           "max_cm": 20
@@ -104,24 +99,29 @@
         },
         {
           "date": "2026-01-27",
-          "min_cm": 20,
-          "max_cm": 40
+          "min_cm": 30,
+          "max_cm": 60
+        },
+        {
+          "date": "2026-01-28",
+          "min_cm": 7,
+          "max_cm": 15
         }
       ],
       "totals": {
-        "last_48h_min_cm": 20,
-        "last_48h_max_cm": 40
+        "last_48h_min_cm": 37,
+        "last_48h_max_cm": 75
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX INSTABLE, DEVENANT TRÈS INSTABLE EN SOIRÉE ET NUIT SUIVANTE",
-      "text": "MANTEAU NEIGEUX INSTABLE, DEVENANT TRÈS INSTABLE EN SOIRÉE ET NUIT SUIVANTE\n\nDéclenchements provoqués : des plaques sont en place et d'autres en formation, faciles à déclencher dans la neige récente ventée. Elles engendrent des avalanches de taille petite à moyenne (taille 1 à 2), emportant toute la couche de neige récente, parfois sur une largeur significative. En effet, les chutes de neige ventées de mardi après-midi se déposent sur un manteau neigeux très peu stabilisé. Au fil de l'après-midi et de la nuit suivante, le renforcement des chutes de neige et du vent de secteur sud à sud-est entraine la formation de nouvelles plaques très faciles à déclencher et qui deviennent localement épaisses. Elles sont difficilement identifiables dans les endroits abrités du vent, car souvent d'aspect poudreux. Des volumes de neige plus importants deviennent alors mobilisables, et des avalanches de taille moyenne à grande (taille 2 à 3) sont alors possibles. Dans les versants ombragés, la présence de couches fragiles persistantes enfouies peut provoquer des cassures plus épaisses en emportant la totalité du manteau neigeux. Déclenchements possibles à distance et/ou par surcharge liée au déclenchement d'une première plaque de surface. Avalanches de taille moyenne à grande (taille 2 à 3). \n\nDéparts spontanés : en journée, quelques plaques peuvent encore céder spontanément suite à la surcharge liée au transport de neige par le vent (taille 1 à 2, voire 3 si sollicitation de la couche fragile persistante enfouie). \nEn cours d'après-midi et nuit suivante, nombreux départs au fil des fortes chutes de neige ventées. Avalanches de taille moyenne, voire grande en milieu de nuit avec les cumuls importants de neige fraîche. \nEn dessous de 1800/2000 m environ, des départs de neige humide sont également possibles avec le redoux, notamment sur certains talus. Avalanche de taille petite.",
+      "title": "MANTEAU NEIGEUX TRÈS INSTABLE",
+      "text": "MANTEAU NEIGEUX TRÈS INSTABLE\n\nDéparts spontanés : nombreux départs dans la nuit de mardi à mercredi et mercredi matin, au fil des fortes chutes de neige ventées. Des avalanches de taille moyenne à grande se généralisent en milieu de nuit avec les cumuls de neige qui deviennent conséquents. Une très grande avalanche n'est pas exclue aux plus hautes altitudes du massif, dans une zone de forte accumulation due au vent de sud. Cette activité naturelle s'estompe en milieu de journée de mercredi. \n\nDéclenchements provoqués : le manteau neigeux est très instable. De nombreuses plaques sont en formation avec les fortes chutes de neige dans la nuit de mardi à mercredi et mercredi matin, et le fort transport de neige par le vent. Elles sont très faciles à déclencher, souvent épaisses avec des cassures larges probables et présentes dans toutes les orientations au-dessus de 1600/1800 m environ. Elles sont d'aspect poudreux et donc difficilement identifiables. Elles provoquent des avalanches de taille moyenne à grande (taille 2 à 3). En effet, les chutes de neige conséquentes se déposent sur un manteau neigeux très peu stabilisé et composé de couches fragiles. Une très grande avalanche (taille 4) n'est pas exclue à haute altitude et/ou dans le cas où une couche fragile persistante plus enfouie est sollicitée, notamment dans les versants ombragés (ouest, nord, est).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement s'est amélioré avec les récentes chutes de neige. Il est proche des normales pour une fin janvier ou légèrement déficitaire près de la Durance/Guisane.\nDonnées observées : 156 cm à la Nivôse de  Écrins vers 3000 m, 122 cm au Pré de Madame Carle à 1900 m, 75 cm au hameau de Dormillouse à 1730 m.\n\nLimite d'enneigement skiable : avec précaution sur terrain favorable vers 1200 m en ubacs, 1400/1500 m en adrets. \n\nÉtat de la neige de surface : neige froide et légère en quantité, un peu plus dense dans les secteurs exposés au vent. Elle repose sur un fond dur à basse altitude et dans les adrets, ou sur un manteau neigeux meuble et peu consolidé dans les ubacs. Les chutes de neige apportent jusqu'à 30/40 cm, localement 50/60 cm au cœur des Écrins, de neige fraîche au-dessus de 2200 m d'ici à mercredi matin.",
+      "text": "L'enneigement s'est amélioré avec les récentes chutes de neige. Il est proche des normales pour une fin janvier ou légèrement déficitaire près de la Durance/Guisane.\nDonnées observées ce mardi : 148 cm à la Nivôse de  Écrins vers 3000 m, 119 cm au Pré de Madame Carle à 1900 m, 71 cm au hameau de Dormillouse à 1730 m.\n\nLimite d'enneigement skiable : avec précaution sur terrain favorable vers 1200 m en ubacs, 1400/1500 m en adrets. \n\nÉtat de la neige de surface : mercredi matin, on retrouve 30/40 cm de neige fraîche, localement 50/60 cm au-dessus de 2200 m. Cette neige est bien légère au-dessus de 1800/2000 m, plus lourde en dessous. Elle repose sur un manteau neigeux peu consolidé et profond ou sur un fond dur dans les orientations plus ensoleillées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 55,
-          "S": 35
+          "N": 50,
+          "S": 30
         },
         {
           "alt_m": 2000,
-          "N": 130,
-          "S": 100
+          "N": 125,
+          "S": 95
         },
         {
           "alt_m": 2500,
-          "N": 150,
-          "S": 120
+          "N": 145,
+          "S": 115
         }
       ],
       "icon_key": "snowpack",

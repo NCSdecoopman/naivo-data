@@ -3,8 +3,8 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-01-26T17:00:00",
-    "valid_until": "2026-01-27T18:00:00",
+    "issued_at": "2026-01-27T17:00:00",
+    "valid_until": "2026-01-28T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-28",
+        "date": "2026-01-29",
         "label": "Indice de risque marqué",
-        "comment": "Mercredi, risque marqué avec de nombreuses instabilités dans la neige fraîche.",
+        "comment": "Jeudi, retour du beau temps mais risque encore marqué dans la neige fraîche.",
         "trend": "steady"
       }
     },
@@ -53,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -67,21 +67,16 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 4,
+      "secondary": 1,
       "labels": {
         "2": "Neige ventée",
-        "4": "Neige humide"
+        "1": "Neige fraîche"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-22",
-          "min_cm": 5,
-          "max_cm": 6
-        },
         {
           "date": "2026-01-23",
           "min_cm": 10,
@@ -104,46 +99,51 @@
         },
         {
           "date": "2026-01-27",
-          "min_cm": 14,
-          "max_cm": 16
+          "min_cm": 7,
+          "max_cm": 15
+        },
+        {
+          "date": "2026-01-28",
+          "min_cm": 7,
+          "max_cm": 15
         }
       ],
       "totals": {
         "last_48h_min_cm": 14,
-        "last_48h_max_cm": 16
+        "last_48h_max_cm": 30
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "FORMATION DE PLAQUES A VENT, LOIN DES CRETES, EN LARGE NORD",
-      "text": "FORMATION DE PLAQUES A VENT, LOIN DES CRETES, EN LARGE NORD \n\nDéclenchements provoqués : De nombreuses plaques se forment sous le vent de sud ce mardi, en large nord où la neige ne subit pas d'humidification. Elles se retrouvent principalement loin des crêtes, souvent sous les barres rocheuses ou en milieu / bas de pentes, et seront parfois faciles à déclencher car reposant sur une couche de neige récente encore légère. \nObservables : Chasse neige, neige travaillée par le vent en surface reposant sur une neige plus poudreuse. \nEn versants sud le redoux tasse et stabilise le manteau neigeux, tandis que les crêtes sont souvent pelées / dégarnies. \n\nDéparts spontanés : Dans un large secteur nord, des avalanches de tailles petites à moyennes pourront partir spontanément dans les pentes chargées par le vent de sud. Le risque sera plus marqué sous les barres rocheuses. En versant sud, de rares coulées de petites tailles sont possibles sous le redoux, surtout sous les rochers. En soirée de mardi de fortes chutes de neige gagnent le massif, et sous les fortes intensités des coulées pourront partir en tout versants. Le risque restera plus marqué en nord où les pentes ont déjà été chargées par le vent en journée. \n\nAutres : Crêtes et pentes sommitales pelées par le vent, faisant ressortir des surfaces glacées.",
+      "title": "NOUVELLES INSTABILITES SOUS LES CHUTES DE NEIGE, ANCIENNES PLAQUES A VENT TOUJOURS REACTIVES EN NORD",
+      "text": "NOUVELLES INSTABILITES SOUS LES CHUTES DE NEIGE, ANCIENNES PLAQUES A VENT TOUJOURS REACTIVES EN NORD \n\nDéclenchements provoqués : Ce mercredi des instabilités se forment dans les 20 à 40cm de neige fraîche attendus sur le massif. Ces instabilités seront présentes en tout versants, mais seront plus nombreuses et plus épaisses en altitude. Les plaques pourraient également être un peu plus grandes là où le vent (de secteur sud puis nord) accompagnant les chutes aura donné un peu de cohésion à la neige de surface. \nCes instabilités seront peu décelables car d'apparence poudreuse. La présence de fissures sous les skis ou de neige plus dense en surface devront attirer l'attention. \nEn large nord d'altitude, la neige fraîche vient recouvrir des plaques formées par l'épisode de vent de Sud de mardi. Ces instabilités restent encore réactives au passage d'un skieur, avec des cassures peu larges mais pouvant être assez épaisses dans les zones d'accumulation. Le départ d'une avalanche de surface peut également par cascade déclencher l'une de ces plaques. \n\nDéclenchements spontanés : Sous le vent de sud ce mardi en fin d'après-midi et en soirée, des plaques se forment en large nord et peuvent encore se décrocher spontanément. Elles sont la plupart du temps de tailles petites à moyennes. Puis à partir de la soirée de mardi et toute la journée de mercredi, des coulées peuvent partir sous les chutes de neige. Coulées ponctuelles de tailles petites à moyennes en général, mais des départs de plaques de tailles moyennes restent possibles en large nord.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est médiocre pour la saison, et se dégrade encore en journée sous le redoux et le vent de sud.  Limites skiables vers 1000/1300 m (avec prudence en basse altitude où les sous-couches sont peu épaisses voire inexistantes)\n\nQualité de la neige mardi : En versants nord, neige froide encore poudreuse dans les combes abritées. Le vent s'engouffre toutefois sur la majeure partie du massif, avec une neige de plus en plus dense en surface, totalement cartonée vers les crêtes et pentes sommitales. En versants sud, neige dense / humide.",
+      "text": "Qualification de l’enneigement :  L'enneigement s'améliore ce mercredi sous les chutes de neige.  Limites skiables vers 1000/1300 m.\n\nQualité de la neige mercredi : Au fil de la journée l'épaisseur de neige poudreuse devrait augmenter, avec au lever du jour déjà 15cm vers 1000m et 20cm à 1500m. En journée, 15 à 20cm supplémentaires sont possibles. Cette neige fraîche repose sur une neige ventée très dense en versants nord, et sur une neige humide partiellement regelée en sud.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 700,
-        "south": 800
+        "south": 1000
       },
       "levels_cm": [
         {
           "alt_m": 1000,
           "N": 15,
-          "S": 5
+          "S": 1
         },
         {
           "alt_m": 1500,
           "N": 85,
-          "S": 35
+          "S": 30
         },
         {
           "alt_m": 2000,
           "N": 130,
-          "S": 65
+          "S": 60
         }
       ],
       "icon_key": "snowpack",
