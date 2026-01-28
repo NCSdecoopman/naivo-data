@@ -3,8 +3,8 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-01-27T17:00:00",
-    "valid_until": "2026-01-28T18:00:00",
+    "issued_at": "2026-01-28T16:00:00",
+    "valid_until": "2026-01-29T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-01-29",
-        "label": "Indice de risque marqué",
-        "comment": "Jeudi, retour du beau temps mais risque encore marqué dans la neige fraîche.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-01-30",
+        "label": "Indice de risque limité",
+        "comment": "Vendredi, la neige récente se tasse lentement. Risque plutôt orienté à la baisse, cependant une autre perturbation est prévue, elle pourrait donner 5 à 10 cm de neige sur le massif. A confirmer.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-23",
-          "min_cm": 10,
-          "max_cm": 20
-        },
-        {
           "date": "2026-01-24",
           "min_cm": 1,
           "max_cm": 5
@@ -106,44 +101,49 @@
           "date": "2026-01-28",
           "min_cm": 7,
           "max_cm": 15
+        },
+        {
+          "date": "2026-01-29",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 14,
-        "last_48h_max_cm": 30
+        "last_48h_min_cm": 7,
+        "last_48h_max_cm": 15
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOUVELLES INSTABILITES SOUS LES CHUTES DE NEIGE, ANCIENNES PLAQUES A VENT TOUJOURS REACTIVES EN NORD",
-      "text": "NOUVELLES INSTABILITES SOUS LES CHUTES DE NEIGE, ANCIENNES PLAQUES A VENT TOUJOURS REACTIVES EN NORD \n\nDéclenchements provoqués : Ce mercredi des instabilités se forment dans les 10 à 30cm de neige fraîche attendus sur le massif. Ces instabilités seront présentes en tout versants, mais seront plus nombreuses et plus épaisses en altitude. Les plaques pourraient également être un peu plus grandes là où le vent (de secteur sud puis nord) accompagnant les chutes aura donné un peu de cohésion à la neige de surface. \nCes instabilités seront peu décelables car d'apparence poudreuse. La présence de fissures sous les skis ou de neige plus dense en surface devront attirer l'attention. \nEn large nord d'altitude, la neige fraîche vient recouvrir des plaques formées par l'épisode de vent de Sud de mardi. Ces instabilités restent encore réactives au passage d'un skieur, avec des cassures peu larges mais pouvant être assez épaisses dans les zones d'accumulation. Le départ d'une avalanche de surface peut également par cascade déclencher l'une de ces plaques. \n\nDéclenchements spontanés : Sous le vent de sud ce mardi en fin d'après-midi et en soirée, des plaques se forment en large nord et peuvent encore se décrocher spontanément. Elles sont la plupart du temps de tailles petites à moyennes. Puis à partir de la soirée de mardi et toute la journée de mercredi, des coulées peuvent partir sous les chutes de neige. Coulées ponctuelles de tailles petites à moyennes en général, mais des départs de plaques de tailles moyennes restent possibles en large nord.",
+      "title": "INSTABILITES DANS LA NEIGE RECENTE + ANCIENNES PLAQUES A VENT TOUJOURS REACTIVES EN NORD",
+      "text": "INSTABILITES DANS LA NEIGE RECENTE + ANCIENNES PLAQUES A VENT TOUJOURS REACTIVES EN NORD \n\nDéclenchements provoqués : instabilités fréquentes dans la neige récente (env. 15  à 40 cm observés sur le massif), en divers versants, surtout au-dessus de 1500/1600 m. Au passage d'un skieur, les départs sont faciles, sous forme de plaques friables. Cette couche de neige récente recouvre la plupart du temps les structures de plaques formées mardi 27 sous le fort vent de sud ce jour là, rendant le terrain piégeux. De plus, on attend un peu de vent de nord (30-40 km/h) sur les crêtes dans la nuit de mercredi/jeudi, qui pourra favoriser la formation de nouvelles plaques sur la neige récente, et le soleil de jeudi pourra aussi jouer un rôle.\n\nDéclenchements spontanés : activité naturelle en baisse jeudi, mais quelques avalanches moyennes, voire une rare grande (en altitude) restent possibles, sous les éclaircies ou suite à une surcharge locale par le vent de nord/nord-ouest.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'améliore ce mercredi sous les chutes de neige.  \n\nLimites skiables : Vers 1000/1300 m. Un peu plus bas l'après-midi avec précaution. \n\nQualité de la neige mercredi : Au fil de la journée l'épaisseur de neige poudreuse devrait augmenter, avec au lever du jour déjà 10cm vers 1000m et 15cm à 1500m. En journée, 5 à 10cm supplémentaires sont possibles. Cette neige fraîche repose sur une neige ventée très dense en versants nord, et sur une neige humide partiellement regelée en sud.",
+      "text": "Qualification de l’enneigement :  l'enneigement s'est encore amélioré sous les dernières chutes de neige. Il est désormais plutôt bon sur le massif.\n\nLimites skiables : vers 1000/1300 m, parfois plus haut...\n\nQualité de la neige jeudi : neige récente, assez épaisse par endroits et poudreuse. Cette neige fraîche repose sur une neige ventée très dense en versants nord, et sur une neige humide partiellement regelée en sud. Méfiance car parfois pas ou peu de sous couche sous 1400/1500 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 700,
-        "south": 800
+        "north": 500,
+        "south": 600
       },
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 20,
-          "S": 5
+          "N": 30,
+          "S": 15
         },
         {
           "alt_m": 1500,
-          "N": 90,
-          "S": 40
+          "N": 105,
+          "S": 60
         },
         {
           "alt_m": 2000,
-          "N": 140,
-          "S": 85
+          "N": 160,
+          "S": 110
         }
       ],
       "icon_key": "snowpack",

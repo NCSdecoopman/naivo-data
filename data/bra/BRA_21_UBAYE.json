@@ -3,8 +3,8 @@
   "massif": "Ubaye",
   "bulletin": {
     "id": 21,
-    "issued_at": "2026-01-27T16:00:00",
-    "valid_until": "2026-01-28T18:00:00",
+    "issued_at": "2026-01-28T16:00:00",
+    "valid_until": "2026-01-29T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 4,
-        "date": "2026-01-29",
+        "date": "2026-01-30",
         "label": "Indice de risque fort",
-        "comment": "Retour d'un temps sec et ensoleillé, mais l'instabilité du manteau neigeux reste forte en altitude.",
+        "comment": "Nombreuses instabilités encore faciles à déclencher et volumineuses, risque restant fort en altitude.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-23",
-          "min_cm": 5,
-          "max_cm": 10
-        },
-        {
           "date": "2026-01-24",
           "min_cm": 3,
           "max_cm": 5
@@ -99,51 +94,56 @@
         },
         {
           "date": "2026-01-27",
-          "min_cm": 15,
-          "max_cm": 30
+          "min_cm": 25,
+          "max_cm": 45
         },
         {
           "date": "2026-01-28",
           "min_cm": 5,
           "max_cm": 10
+        },
+        {
+          "date": "2026-01-29",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 20,
-        "last_48h_max_cm": 40
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 10
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NEIGE ABONDANTE, FORTE INSTABILITÉ DU MANTEAU NEIGEUX",
-      "text": "NEIGE ABONDANTE, FORTE INSTABILITÉ DU MANTEAU NEIGEUX\n\nLes abondantes chutes de neige conduisent à une forte instabilité du manteau neigeux, avec des avalanches de grande taille probables.\n\nDéparts spontanés : dans la nuit de mardi à mercredi et mercredi matin, nombreux départs ponctuels en neige sèche en altitude, avec aérosol et de taille moyenne (taille 2), parfois grande (taille 3). Une avalanche de très grande taille (taille 4) n'est pas exclue en cas de départ linéaire en versant nord de haute altitude, notamment dans le secteur du Bachelard . Cette activité naturelle s'estompe rapidement en cours de matinée de mercredi. \nSur l'ouest du massif, activité avalancheuse en neige humide sous l'effet de la pluie qui remonte à 1600/1800 m temporairement et tombe sur une épaisseur de neige en place non négligeable. Coulées de talus possibles sur les secteurs routiers exposés.\n\n \nDéclenchements provoqués : forte instabilité généralisée dans la neige fraîche. Nombreuses instabilités formées mardi et la nuit de mardi à mercredi, possibles en tous versants, très faciles à déclencher et volumineuses (taille 2 à 3). Les instabilités dans la neige fraîche, difficilement identifiables, sollicitent des couches fragiles enfouies, possibles en toute orientation dès 1600/1800 m d'altitude. En large versant nord de haute altitude où l'épaisseur de neige mobilisable est plus importante et les couches fragiles plus enfouies, un skieur peut déclencher des avalanches de grande, voire très grande taille, avec cassure de l'ordre de 1 mètre sur de grandes largeurs, emportant une grande partie du manteau neigeux, voire la totalité. Le manteau neigeux est souvent très peu consolidé sur toute son épaisseur, caractérisé de nombreuses couches fragiles (neige froide des derniers jours et vieille neige sans cohésion plus enfouie), en particulier dans les ubacs.",
+      "title": "MANTEAU NEIGEUX ENCORE TRÈS INSTABLE",
+      "text": "MANTEAU NEIGEUX ENCORE TRÈS INSTABLE\n\nDéclenchements provoqués : le manteau neigeux reste faiblement stabilisé dans la plupart des pentes , y compris en terrain réputé moins dangereux comme les forêts clairsemées de moyenne altitude. Un seul skieur peut facilement déclencher des avalanches de taille moyenne (taille 2) à grande (taille 3), avec des cassures parfois linéaires. En orientation est, nord ou ouest d'altitude supérieure à 2200 m, une avalanche de très grande taille (taille 4) n'est pas exclue, avec cassure de l'ordre de 1 mètre sur de grandes largeurs, emportant une grande partie du manteau neigeux, voire la totalité. Le manteau neigeux est constitué d'un empilement instable de neige récente et de couches fragiles enfouies, mais encore sollicitables, parfois à distance, par un seul skieur. Le bref épisode de vent de nord-ouest dans la nuit de mercredi à jeudi favorise en outre la formation de nouvelles instabilités, le plus souvent d'aspect friable, parfois durcies par le vent près des crêtes d'altitude.\n\nDéparts spontanés : dans la nuit de mercredi à jeudi, départs linéaires possibles sous l'action du vent de nord-ouest. Taille moyenne à grande. Cette activité s'atténue en journée, mais une rupture de corniche n'est pas exclue, générant une avalanche de grande taille. Au soleil, nombreux départs ponctuels de neige récente humide, taille petite à moyenne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement proche des normales pour une fin janvier.\nDonnées observées  : 74 cm au-dessus de Larche à 2270 m en versant sud-ouest, 60 à 80 cm à partir de 2000/2200 m. \n\nLimite d'enneigement skiable : à partir de 1400 m sur terrains favorables (pentes herbeuses, routes forestières), peu de sous-couche sous 1600/1800 m.\n\nÉtat de la neige en surface : mercredi matin, on trouve une épaisse couche de neige fraîche, tombée (au moins temporairement) humide sous 2000 m : 10/20 cm à 1500 m, 15/30 cm à 1800m, 30/50 cm au dessus de 2000 m dans les secteurs abrités du vent, localement 60 cm en bordure du Verdon et de la Tinée. Nombreuses corniches sur les crêtes et congères dans les pentes au-dessus.",
+      "text": "Enneigement globalement excédentaire pour une fin janvier.\nDonnées observées  : 102 cm au Sauze à 2000 m, 101 cm au-dessus de Larche à 2270 m en versant sud-ouest, 76 cm à Maljasset, 30 cm à Barcelonnette où une telle hauteur de neige n'avait plus été observée depuis l'hiver 2017/2018.\n\nEnneigement skiable dès 1100/1200 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface : épaisse couche de neige récente, tombée plus humide et lourde sous 2000 m : 20/40 cm à 1500 m, 30/50 cm à partir de 1800m, localement 60 cm en bordure du Verdon et de la Tinée. Cette neige est tombée modérément ventée en régime de sud et de lombarde, puis a été transportée ou densifiée par le vent de nord-ouest la nuit de mardi à mercredi. Crêtes et arêtes bien chargées de corniches, congères dans les pentes.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 900,
-        "south": 1400
+        "south": 1000
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 15,
-          "S": 10
+          "N": 45,
+          "S": 30
         },
         {
           "alt_m": 2000,
-          "N": 65,
-          "S": 35
+          "N": 100,
+          "S": 70
         },
         {
           "alt_m": 2500,
-          "N": 100,
-          "S": 60
+          "N": 140,
+          "S": 100
         }
       ],
       "icon_key": "snowpack",

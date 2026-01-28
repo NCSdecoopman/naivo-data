@@ -3,8 +3,8 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-01-27T16:00:00",
-    "valid_until": "2026-01-28T18:00:00",
+    "issued_at": "2026-01-28T16:00:00",
+    "valid_until": "2026-01-29T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-29",
+        "date": "2026-01-30",
         "label": "Indice de risque marqué",
-        "comment": "Les plaques à vent et les couches fragiles persistantes restent réactives. La journée est sèche avec de belles éclaircies. Léger redoux en journée.",
+        "comment": "Les instabilités dans la neige récente se stabilisent progressivement. De nouvelles petites chutes de neige circulent au-dessus de 1100 m apportant quelques petits centimètres en journée de vendredi et créant de nouvelles instabilités.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-23",
-          "min_cm": 3,
-          "max_cm": 6
-        },
-        {
           "date": "2026-01-24",
           "min_cm": 3,
           "max_cm": 5
@@ -111,29 +106,34 @@
         },
         {
           "date": "2026-01-27",
-          "min_cm": 2,
-          "max_cm": 10
+          "min_cm": 0,
+          "max_cm": 2
         },
         {
           "date": "2026-01-28",
-          "min_cm": 5,
-          "max_cm": 10
+          "min_cm": 3,
+          "max_cm": 7
+        },
+        {
+          "date": "2026-01-29",
+          "min_cm": 0,
+          "max_cm": 2
         }
       ],
       "totals": {
-        "last_48h_min_cm": 7,
-        "last_48h_max_cm": 20
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 9
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "7-15 cm de neige fraîche au matin dans le Mont-Blanc et 0-3 cm dans les Aiguilles-Rouges. Des instabilités se forment par le Foehn fort.",
-      "text": "7-15 cm de neige fraîche au matin dans le Mont-Blanc et 0-3 cm dans les Aiguilles-Rouges. Des instabilités se forment par le Foehn fort. \n\nDéclenchements provoqués :\n* Plaques à vent. Formées et en cours de formation par le Foehn, avant, au fil et après les chutes de neige. Facilement déclenchables. Plus nombreuses et plus épaisses en montant en altitude et vers les crêtes/arêtes. Taille 1 (petite) à 2 (moyenne). \nObservables : transport de neige par le vent, fissures sous les skis, accumulations de neige récente. \n* Au-dessus de 2000 m en versants Est/Nord/Ouest : présence d'une couche fragile persistante enfouie. Difficile à déclencher par un·e skieur·euse mais risque d'avalanche en cascade (le départ d'une plaque à vent peut solliciter la couche fragile persistante) et donner une avalanche de plus grande ampleur (cassure de 50/80 cm). Taille 2 (moyenne), rarement 3 (grande). \nObservables : pas d'indice de surface. Faire des tests de stabilité (CT/ECT). \n\nDéparts spontanés :\n* En haute montagne : Rares plaques à vent formées par le Foehn. Départ suite à une surcharge de neige transportée. Principalement vers les crêtes/arêtes. Taille 2 (moyenne). \n* Petits départs de neige fraîche pendant les chutes ou lors d'une éclaircies dans les rochers/falaise. Taille 1 (petite).",
+      "title": "3-7 cm de neige fraîche au matin. Des instabilités dues au vent sont présentes dans la neige récente.",
+      "text": "3-7 cm de neige fraîche au matin. Des instabilités dues au vent sont présentes dans la neige récente. \n\nDéclenchements provoqués :\n* Au-dessus de 2000 m : Plaques à vent. Formées par le Foehn fort avant et pendant les chutes de neige de mercredi. Plus nombreuses et plus épaisses en montant en altitude et/ou vers les crêtes et les arêtes. Taille 1 (petite) à 2 (moyenne). Elles peuvent être cachées par la fine couche de neige fraîche.\nObservables : fissures sous les skis, accumulations de neige récente, irrégularités d'épaisseur. \n* Au-dessus de 2000 m en versants Est/Nord/Ouest : présence d'une couche fragile persistante enfouie. Difficile à déclencher par un·e skieur·euse mais risque d'avalanche en cascade : le départ d'une plaque à vent peut solliciter la couche fragile persistante et donner une avalanche de plus grande ampleur (cassure de 50/80 cm). Taille 2 (moyenne), rarement 3 (grande). \nObservables : pas d'indice de surface. Faire des tests de stabilité (CT/ECT). \n\nDéparts spontanés :\n* Petits départs de neige fraîche pendant les chutes ou lors d'une éclaircies dans les rochers/falaise. Taille 1 (petite).\n* Sous 2000 m : plaques de fond. Départs possibles à toute heure de jour et de la nuit dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Départs plus facile avec le réchauffement. Taille 2 (moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire en dessous de 2700 m et correct au-dessus. \nOn peut chausser les skis vers 1200/1400 m. Pas de sous-couche sous 1500 m, des cailloux peuvent affleurer la surface du manteau neigeux. \n\nQualité de la neige mercredi :\n* Au matin, 7-15 cm de neige fraîche dans le Mont-Blanc au-dessus de 1500 m et 0-3 cm dans les Aiguilles Rouges.\n* Cette neige fraîche repose sur 15-30 cm de neige récente. Cette neige récente est :\n    - restée froide et légère dans la majorité des pentes\n    - durcie par le vent de S/SW dans certaines pentes exposées / à proximité des crêtes et arêtes\n    - alourdie en surface par le réchauffement dans le pentes orientées Sud. \n* Au fil de la journée, le vent travaille la neige fraîche légère en surface.",
+      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire en dessous de 2700 m et correct au-dessus. \nOn peut chausser les skis vers 1200/1400 m. Pas de sous-couche sous 1500 m, des cailloux peuvent affleurer la surface du manteau neigeux. \n\nQualité de la neige jeudi :\n* Au matin, au-dessus de 1800/2000 m, 3-7 cm de neige fraîche et en dessous, 2-5 cm.\n* Cette neige fraîche repose sur 15-30 cm de neige récente. Cette neige récente est :\n    - alourdie en surface par le réchauffement dans le pentes orientées Sud et/ou sous 1800/2000 m \n    - durcie et travaillée par le Foehn dans les pentes exposées et à proximité des crêtes et arêtes, notamment du côté du Mont Blanc\n    - restée froide et légère ailleurs.\n* Au fil de la journée, le soleil tasse la neige récente et l'alourdie en surface, notamment à basse altitude.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
