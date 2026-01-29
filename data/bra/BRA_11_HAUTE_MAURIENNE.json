@@ -3,8 +3,8 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-01-28T16:00:00",
-    "valid_until": "2026-01-29T18:00:00",
+    "issued_at": "2026-01-29T16:00:00",
+    "valid_until": "2026-01-30T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-30",
+        "date": "2026-01-31",
         "label": "Indice de risque marqué",
-        "comment": "Pas de changement du risque. De petites chutes alimentent les plaques de surfaces, en parallèle, les couches fragiles enfouies sont toujours là.",
+        "comment": "Pas de changement du risque. Si les instabilité de surfaces deviennent moins réactives, les couches fragiles enfouies restent elles bien présentent et ce sont bien elles les plus dangereuses.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-24",
-          "min_cm": 5,
-          "max_cm": 10
-        },
-        {
           "date": "2026-01-25",
           "min_cm": 1,
           "max_cm": 3
@@ -99,51 +94,56 @@
         },
         {
           "date": "2026-01-28",
-          "min_cm": 0,
-          "max_cm": 3
+          "min_cm": 3,
+          "max_cm": 7
         },
         {
           "date": "2026-01-29",
           "min_cm": 0,
           "max_cm": 1
+        },
+        {
+          "date": "2026-01-30",
+          "min_cm": 0,
+          "max_cm": 2
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 4
+        "last_48h_max_cm": 3
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU INSTABLE ET GRANDES AVALANCHES FACILEMENT DÉCLENCHABLES.",
-      "text": "MANTEAU INSTABLE ET GRANDES AVALANCHES FACILEMENT DÉCLENCHABLES.\n\nDéclenchements provoqués :\nNombreuses plaques de surface, formées par les variations de vent, sont en place en tous versants. On les trouve dans les zones d'accumulation, aussi bien près des crêtes qu'en pied de pente. Elles sont réactives et engendrent des avalanches de taille 2 (moyenne).\nATTENTION : au-dessus de 1800 m, une couche fragile persistante enfouie (grains anguleux sans cohésion, semblables à du gros sel) essentiellement dans les pentes Nord, Est et Ouest, engendre une autre structure de plaque plus ancienne. Son déclenchement est possible, aussi bien localement qu'à distance, ou qu'en cascade. Les avalanches provoquées peuvent être grandes (taille 3), avec des cassures régulièrement autour d'1 m. \nObservables :  pour les plaques \"de surface\", le transport de neige par le vent est visible. Pour les autres, seul un \"woumf\" ou une coupe du manteau peut mettre à jour la présence de couche fragile persistante.\n\nDéparts spontanés : quelques départs petits ponctuels dans les pentes raides ensoleillées avec le retour du beau temps (taille 1).",
+      "title": "MANTEAU INSTABLE : GRANDES AVALANCHES TOUJOURS POSSIBLES.",
+      "text": "MANTEAU INSTABLE : GRANDES AVALANCHES TOUJOURS POSSIBLES.\n\nDéclenchements provoqués :\nNombreuses plaques de surface, formées par les variations de vent et les chutes de neige de cette semaine, en place en tous versants. On les trouve dans les zones d'accumulation, aussi bien près des crêtes qu'en pied de pente. Elles sont réactives et engendrent des avalanches de taille 2 (moyenne).\nATTENTION : au-dessus de 1800 m, une couche fragile persistante est enfouie (grains anguleux sans cohésion, semblables à du gros sel). Présente essentiellement dans les pentes Nord, Est et Ouest mais aussi en Sud à haute altitude, elle constitue, avec la couche qui la surplombe, une épaisse et ancienne plaque. Son déclenchement est possible, aussi bien localement qu'à distance, ou qu'en cascade. Les avalanches provoquées peuvent être grandes (taille 3), avec des cassures régulièrement autour d'1 m. \nObservables :  pour les plaques \"de surface\", le transport de neige par le vent est visible. Pour les autres, seul un \"woumf\" ou une coupe du manteau peut mettre à jour la présence de couche fragile persistante.\n\nDéparts spontanés : \n - le matin, près des crêtes, une rare plaque peut céder avec la surcharge de neige transporté par le vent d'Ouest (taille 1, rare 2).\n - quelques départs petits ponctuels dans les pentes raides ensoleillées avec le retour des éclaircies (taille 1).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : L'enneigement est proche de la normale en moyenne montagne. Les petites chutes récentes maintiennent cette normalité.\n\nLimite skiable :  Les versants froids voyant pas ou peu le soleil ont gardé de la neige à basse altitude skiable sur l'herbe souvent dès les fonds de vallée. Sur terrain rocheux, quelques requins peuvent affleurer en dessous de 1500 m en N, 2000 m en Sud pour trouver. L'enneigement est plus conséquent proche de la frontière italienne.\n\nQualité de la neige :  un peu de poudre sur fond dense rend le ski agréable. La neige récente a souvent été redistribuée par le vent, en moyenne 10/15 cm (localement 20/30 près de la  frontière avec l'Italie) parfois le triple dans les combes, mais des croupes et crêtes quasi sèches.",
+      "text": "Enneigement : l'enneigement est désormais globalement normal. Les petites chutes de neige maintiennent l'enneigement dans la nome. L'enneigement est plus conséquent proche de la frontière italienne.\n\nLimite skiable : les versants froids voyant pas ou peu le soleil ont gardé de la neige à basse altitude, skiable sur l'herbe souvent dès les fonds de vallée.\n\nQualité de la neige : poudre légère sur fond dense (mais rarement dur) rendant le ski très agréable. La neige récente a souvent été redistribuée par le vent, en moyenne 10/15 cm (localement 20/30 près de la  frontière avec l'Italie) parfois le triple dans les combes, mais des croupes et crêtes quasi sèches.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1000,
-        "south": 1200
+        "south": 1000
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 55,
-          "S": 25
+          "N": 60,
+          "S": 30
         },
         {
           "alt_m": 2000,
-          "N": 105,
-          "S": 85
+          "N": 110,
+          "S": 90
         },
         {
           "alt_m": 2500,
-          "N": 155,
-          "S": 130
+          "N": 160,
+          "S": 135
         }
       ],
       "icon_key": "snowpack",

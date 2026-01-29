@@ -3,37 +3,49 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-01-28T16:00:00",
-    "valid_until": "2026-01-29T18:00:00",
+    "issued_at": "2026-01-29T16:00:00",
+    "valid_until": "2026-01-30T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 1700m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1700,
+        "split_axis": "horizontal",
+        "split_label": "1700m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1700",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1700",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1700m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-01-30",
+        "date": "2026-01-31",
         "label": "Indice de risque limité",
-        "comment": "Vendredi, la neige récente se tasse lentement. Risque plutôt orienté à la baisse, cependant une autre perturbation est prévue, elle pourrait donner 5 à 10 cm de neige sur le massif. A confirmer.",
+        "comment": "Risque d'avalanche en légère baisse samedi (quelques cm de fraîche et absence de vent)...",
         "trend": "down"
       }
     },
@@ -54,8 +66,8 @@
         "NE": true,
         "E": true,
         "SE": true,
-        "S": true,
-        "SW": true,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -78,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-24",
-          "min_cm": 1,
-          "max_cm": 5
-        },
-        {
           "date": "2026-01-25",
           "min_cm": 5,
           "max_cm": 10
@@ -104,30 +111,35 @@
         },
         {
           "date": "2026-01-29",
-          "min_cm": 0,
-          "max_cm": 0
+          "min_cm": 4,
+          "max_cm": 7
+        },
+        {
+          "date": "2026-01-30",
+          "min_cm": 5,
+          "max_cm": 7
         }
       ],
       "totals": {
-        "last_48h_min_cm": 10,
-        "last_48h_max_cm": 15
+        "last_48h_min_cm": 9,
+        "last_48h_max_cm": 14
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITES DANS LA NEIGE RECENTE + ANCIENNES PLAQUES A VENT TOUJOURS REACTIVES EN NORD",
-      "text": "INSTABILITES DANS LA NEIGE RECENTE + ANCIENNES PLAQUES A VENT TOUJOURS REACTIVES EN NORD \n\nDéclenchements provoqués : instabilités fréquentes dans la neige récente (env. 15  à 40 cm observés sur le massif), en divers versants, surtout au-dessus de 1500/1600 m. Au passage d'un skieur, les départs sont faciles, sous forme de plaques friables. Cette couche de neige récente recouvre la plupart du temps les structures de plaques formées mardi 27 sous le fort vent de sud ce jour là, rendant le terrain piégeux. De plus, on attend un peu de vent de nord (30-40 km/h) sur les crêtes dans la nuit de mercredi/jeudi, qui pourra favoriser la formation de nouvelles plaques sur la neige récente, et le soleil de jeudi pourra aussi jouer un rôle.\n\nDéclenchements spontanés : activité naturelle en baisse jeudi, mais quelques avalanches moyennes, voire une rare grande (en altitude) restent possibles, sous les éclaircies ou suite à une surcharge locale par le vent de nord/nord-ouest.",
+      "title": "PRES DES CRETES QUELQUES NOUVELLES PLAQUES FRIABLES, INSTABLES AU PASSAGE D'UNE PERSONNE...",
+      "text": "PRES DES CRETES QUELQUES NOUVELLES PLAQUES FRIABLES, INSTABLES AU PASSAGE D'UNE PERSONNE...\n\nVendredi avec les petites chutes de neige à nouveau prévues on attend 30 voire 50 cm de neige récente en haut des forêts (vers La Moucherolle, le Cornafion), parfois ventée...\nA l'abord des croupes/crêtes possible formation de petites plaques friables, d'aspect poudreux et temporairement instables au passage d'un skieur \n\nDéclenchements provoqués : Risque accidentel localisé mais probablement marqué ce vendredi, notamment à l'abords des cols et crêtes, dès modeste altitude. Cassures  de plaques friables (en poudreuse plus dense) de 30 à 60 cm possibles au passage d'une personne et parfois plus épaisses en faces Nord (accumulations de mardi dernier ?). Vent temporairement sensible de Sud-Ouest à Nord-Ouest. Les sous couches plus poudreuses peuvent jouer le rôle de couche fragile temporaire.\nIndices observables : Manteau ridé par le vent ;  zones de transition entre croupes dégarnies et importante quantité de neige meuble.\nPlus bas que 1700m environ, moins de vent et de neige mobilisable a priori...\n\nDéclenchements spontanés : Vendredi matin rare petite avalanche poudreuse ou cassure sous l'action du vent en altitude (de taille petite à moyenne). \nL'après-midi avec des éclaircies et un redoux relatif, quelques boules/escargots au soleil voire une petite avalanche près des rochers ?",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  l'enneigement s'est encore amélioré sous les dernières chutes de neige. Il est désormais plutôt bon sur le massif.\n\nLimites skiables : vers 1000/1300 m, parfois plus haut...\n\nQualité de la neige jeudi : neige récente, assez épaisse par endroits et poudreuse. Cette neige fraîche repose sur une neige ventée très dense en versants nord, et sur une neige humide partiellement regelée en sud. Méfiance car parfois pas ou peu de sous couche sous 1400/1500 m.",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est  récemment amélioré et devient bon pour la saison, notamment en prairies/pistes forestières et dans les combes...\nLimites skiables : vers 900/1200 m, hors sapins...\n\nQualité de la neige vendredi : Nouvelle couche poudreuse attendue dès 900/1200m (10 cm parfois)... En journée celle-ci pourra s'humidifier plus bas que 1400/1800m selon l'exposition au soleil...\nVers les crêtes et sommets neige modérément ventée, parfois cartonnée...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 600,
-        "south": 600
+        "north": 700,
+        "south": 900
       },
       "levels_cm": [
         {
@@ -137,13 +149,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 100,
-          "S": 45
+          "N": 110,
+          "S": 55
         },
         {
           "alt_m": 2000,
-          "N": 150,
-          "S": 80
+          "N": 160,
+          "S": 90
         }
       ],
       "icon_key": "snowpack",

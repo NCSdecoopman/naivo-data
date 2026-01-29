@@ -3,8 +3,8 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-01-28T16:00:00",
-    "valid_until": "2026-01-29T18:00:00",
+    "issued_at": "2026-01-29T16:00:00",
+    "valid_until": "2026-01-30T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-30",
+        "date": "2026-01-31",
         "label": "Indice de risque marqué",
-        "comment": "La neige récente se tasse, risque en légère diminution cependant il pourrait rester marqué en altitude. De plus, une nouvelle perturbation est prévue ce vendredi, elle pourrait donner 5 à 10 cm sur le massif.",
+        "comment": "Risque d'avalanche stationnaire ou en légère baisse samedi.\nPeu de vent et de neige fraîche prévue.  Moins de risque de plaque de surface mais persistance de structures instables en faces Nord ...",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-24",
-          "min_cm": 5,
-          "max_cm": 15
-        },
-        {
           "date": "2026-01-25",
           "min_cm": 5,
           "max_cm": 10
@@ -104,24 +99,29 @@
         },
         {
           "date": "2026-01-29",
-          "min_cm": 0,
-          "max_cm": 0
+          "min_cm": 2,
+          "max_cm": 4
+        },
+        {
+          "date": "2026-01-30",
+          "min_cm": 3,
+          "max_cm": 5
         }
       ],
       "totals": {
         "last_48h_min_cm": 5,
-        "last_48h_max_cm": 10
+        "last_48h_max_cm": 9
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITES EN TOUS VERSANTS DANS LA NEIGE RECENTE, PLAQUES A VENT ENFOUIES ENCORE REACTIVES, AVALANCHES EN CASCADES POSSIBLES EN NORD",
-      "text": "INSTABILITES EN TOUS VERSANTS DANS LA NEIGE RECENTE, PLAQUES A VENT ENFOUIES ENCORE REACTIVES, AVALANCHES EN CASCADES POSSIBLES EN NORD  \n\nDéclenchements provoqués : nombreuses instabilités dans la neige récente (env. 20 à 40 cm observés sur le massif), en divers versants et altitudes. Au passage d'un skieur, les départs sont faciles, sous forme de plaques friables. Cette couche de neige récente recouvre la plupart du temps les structures de plaques formées mardi 27 (fort vent de sud ce jour là), rendant le terrain piégeux. Prendre aussi en compte qu'en nord, au-dessus de 2000 m, ces instabilités récentes reposent localement sur des couches enfouies aux grains anguleux pouvant favoriser des départs  volumineux (déclenchements à distance depuis un secteur moins enneigé). Ces couches fragiles deviennent dures à solliciter, mais restent sensibles vers la Maurienne ou Emparis, ou sinon via un déclenchement en cascade, depuis une plaque friable déclenchée par skieur par exemple.\nEnfin, on attend un peu de vent de nord (30-40 km/h) en haute montagne dans la nuit de mercredi/jeudi, qui pourra favoriser la formation de nouvelles plaques sur la neige récente, et le soleil de jeudi pourra aussi jouer un rôle.\n\nDéclenchements spontanés : activité naturelle en baisse jeudi, mais quelques avalanches moyennes, voire une rare grande restent possibles, sous l'effet de l'ensoleillement ou à une surcharge locale par le vent de nord/nord-ouest.",
+      "title": "DE NOUVELLES PLAQUES FRIABLES A L'ABORD DES CRETES, TEMPORAIREMENT REACTIVES... POSSIBLE EPAISSE CASSURE (EN CASCADE) EN LARGES FACES NORD  (VERS EMPARIS NOTAMMENT)...",
+      "text": "DE NOUVELLES PLAQUES FRIABLES A L'ABORD DES CRETES, TEMPORAIREMENT REACTIVES... POSSIBLE EPAISSE CASSURE (EN CASCADE) EN LARGES FACES NORD  (VERS EMPARIS NOTAMMENT)...\n\nVendredi, avec les petites chutes de neige à nouveau prévues, on attend 25 à 40 cm de neige récente poudreuse en altitude, parfois ventée... A l'abord des croupes/crêtes possible formation de petites plaques friables, d'aspect poudreux et temporairement instables au passage d'un skieur .\nFacteur aggravant (surtout vers Emparis), des sous couches fragiles enfouies en faces froides d'altitude (possible large et épaisse cassure  à distance des skieurs)\n\nDéclenchements provoqués : Risque accidentel localisé mais probablement marqué ce vendredi, notamment à l'abords des cols et crêtes. Plaques friables (assez difficiles à déceler en poudreuse plus dense) et temporairement bien instables. Cassures de 30 à 60 cm possibles au passage d'une personne). Vent parfois sensible de Sud-Ouest à Nord-Ouest. Les sous couches plus poudreuses peuvent jouer le rôle de couche fragile temporaire. \nFacteur aggravant : en larges faces Nord et surtout vers Emparis/ le Galibier (au dessus de 2100m environ), des sous couches fragiles sont enfouies, une cassure de surface pourrait entrainer à distance une plus épaisse cassure et dégénérer en grande avalanche...\nIndices observables : Manteau ridé par le vent ;  zones de transition entre croupes dégarnies et importante quantité de neige meuble. \"Woumfs\" non exclus vers les replats\nPlus bas que 1800/2000m environ, moins de vent et de neige mobilisable a priori...\n\nDéclenchements spontanés : Vendredi matin durant les chutes de neige quelques coulées/petites avalanches poudreuses attendues (en terrain bien raide) ;  ou sous l'action du vent en altitude une rare cassure (dégénérant en avalanche de taille plus conséquente). \nL'après-midi avec des éclaircies et un redoux relatif, quelques boules/escargots au soleil voire une petite avalanche près des rochers ?",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : l'enneigement s'est amélioré et devient correct désormais, voire bon en altitude. Les crêtes sont toutefois assez peu enneigées, et les épaisseurs restent limitées en versants sud de basses altitudes. \n\nLimites skiables : à partir de 1000/1400 m\n\nQualité de la neige jeudi : couche de neige récente entre 20 et 40 cm globalement de bas en haut sur le massif, assez poudreuse sur le dessus. Peut-être un peu ventée vers les crêtes suite au vent de la nuit ? Cette neige récente repose sur une neige ventée très dense en versants nord, et sur une neige humide partiellement regelée en sud.",
+      "text": "Qualification de l’enneigement : l'enneigement s'est amélioré et devient  très correct, voire bon dès la moyenne montagne et en combes d'altitude. Les crêtes sont toutefois assez peu enneigées ainsi que les pentes Sud raides...\nLimites skiables : à partir de 1000/1300 m.\n\nQualité de la neige vendredi : On attend jusque 5/10 cm de fraîche versant Vaujany, donnent 25/40 cm de neige récente poudreuse en altitude... A l'abord des croupes et crêtes, neige parfois soufflée ou un peu cartonnée....\nL'après-midi lors d'éclaircies, neige parfois collante, voire humide en moyenne montagne.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 75,
-          "S": 40
+          "N": 80,
+          "S": 45
         },
         {
           "alt_m": 2000,
-          "N": 150,
-          "S": 75
+          "N": 155,
+          "S": 80
         },
         {
           "alt_m": 2500,
-          "N": 190,
-          "S": 145
+          "N": 195,
+          "S": 150
         }
       ],
       "icon_key": "snowpack",

@@ -3,30 +3,30 @@
   "massif": "Haut-Var Haut-Verdon",
   "bulletin": {
     "id": 22,
-    "issued_at": "2026-01-28T16:00:00",
-    "valid_until": "2026-01-29T18:00:00",
+    "issued_at": "2026-01-29T16:00:00",
+    "valid_until": "2026-01-30T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 4,
-      "comment": "Au-dessus de 1700m indice de risque fort, plus bas indice marqué.",
+      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice marqué.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 1700,
+        "threshold_m": 2000,
         "split_axis": "horizontal",
-        "split_label": "1700m",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1700",
+            "loc": "<2000",
             "risk": 3,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">1700",
+            "loc": ">2000",
             "risk": 4,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "1700m"
+          "label": "2000m"
         },
         "zones": {
           "bottom": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-01-30",
-        "label": "Indice de risque fort",
-        "comment": "Nombreuses instabilités encore faciles à déclencher et volumineuses, risque restant fort en altitude.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-01-31",
+        "label": "Indice de risque marqué",
+        "comment": "Risque en baisse, mais restant marqué avec des plaques encore sensibles dans la neige récente, notamment en versants nord.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-24",
-          "min_cm": 10,
-          "max_cm": 15
-        },
-        {
           "date": "2026-01-25",
           "min_cm": 0,
           "max_cm": 1
@@ -112,28 +107,33 @@
         {
           "date": "2026-01-28",
           "min_cm": 10,
-          "max_cm": 20
+          "max_cm": 15
         },
         {
           "date": "2026-01-29",
           "min_cm": 0,
-          "max_cm": 0
+          "max_cm": 1
+        },
+        {
+          "date": "2026-01-30",
+          "min_cm": 0,
+          "max_cm": 2
         }
       ],
       "totals": {
-        "last_48h_min_cm": 10,
-        "last_48h_max_cm": 20
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 3
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX ENCORE TRÈS INSTABLE",
-      "text": "MANTEAU NEIGEUX ENCORE TRÈS INSTABLE\n\nDéclenchements provoqués : le manteau neigeux reste faiblement stabilisé dans la plupart des pentes situées au-dessus de 1700 m, y compris en terrain réputé moins dangereux comme les forêts clairsemées. Un seul skieur peut facilement déclencher des avalanches de taille moyenne (taille 2) à grande (taille 3), avec des cassures parfois linéaires. En orientation est, nord ou ouest d'altitude supérieure à 2200 m, une avalanche de très grande taille (taille 4), est possible, avec cassure parfois supérieure à 1 mètre sur de grandes largeurs, emportant une grande partie du manteau neigeux, voire la totalité. Le manteau neigeux est constitué d'un empilement instable de neige récente et de couches fragiles enfouies, mais encore sollicitables, parfois à distance, par un seul skieur. Le bref épisode de vent de nord-ouest dans la nuit de mercredi à jeudi favorise en outre la formation de nouvelles instabilités, le plus souvent d'aspect friable, parfois durcies par le vent près des crêtes d'altitude.\nLe risque est moins fort sur les pentes d'altitude situées sous 1700 m. Un seul skieur peut cependant déclencher des avalanches de neige récente humide relativement volumineuses pour l'altitude (taille 1, rarement 2).\n\nDéparts spontanés : dans la nuit de mercredi à jeudi, départs linéaires probables sous l'action du vent de nord-ouest. Taille moyenne à grande, très grande non exclue. Cette activité s'atténue en journée, mais une rupture de corniche n'est pas exclue, générant une avalanche de grande taille. Au soleil, nombreux départs ponctuels de neige récente humide, taille moyenne, rarement grande.",
+      "title": "PLAQUES VOLUMINEUSES ET ENCORE TRÈS INSTABLES EN ALTITUDE",
+      "text": "PLAQUES VOLUMINEUSES ET ENCORE TRÈS INSTABLES EN ALTITUDE\n\nDéclenchements provoqués :  nombreuses plaques en place dans l'épaisse couche de neige récente, entretenue par le vent de nord-ouest, possibles en toutes orientations et plus nombreuses au-dessus de 1800/2000 m. Plaques d'aspect friables faciles à déclencher par un seul skieur et générant des avalanches de taille moyenne à grande (taille 2 à 3). En orientation est, nord ou ouest d'altitude supérieure à 2000/2200 m, une avalanche de très grande taille (taille 4) n'est pas exclue, avec cassure de l'ordre de 1 mètre sur de grandes largeurs, emportant une grande partie du manteau neigeux, voire la totalité. Le manteau neigeux y est constitué d'un empilement instable de neige récente et de couches fragiles enfouies, mais encore sollicitables, parfois à distance, par un seul skieur.\n\nEn dessous de 2000 m les plaques sont moins volumineuses mais restent fréquentes en versant ombragés et faciles à déclencher par un seul skieur même en zones forestières peu ventées. \n\nDéparts spontanés :  quelques départs linéaires possibles sous l'action du vent de nord-ouest en journée. Taille moyenne à grande.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement excédentaire pour une fin janvier.\nDonnées observées  à 2000 m en fond de vallon : 150 cm dans le Haut Verdon, 130 cm dans le Haut Var. Par ailleurs, 70 cm à Valberg à 1700 m. \n\nEnneigement skiable dès 1100/1200 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface : épaisse couche de neige récente, tombée plus humide et lourde sous 2000 m : 20/40 cm à 1500 m, 40/60 cm à partir de 1800m, localement 70 cm dans le Haut Verdon. Cette neige est tombée peu ventée sauf à haute altitude, puis a été transportée ou densifiée par le vent de nord-ouest la nuit de mardi à mercredi. Crêtes et arêtes bien chargées de corniches, congères dans les pentes.",
+      "text": "Enneigement excédentaire pour une fin janvier.\nDonnées observées  à 2000 m en fond de vallon : 146 cm dans le Haut Verdon, 130 cm dans le Haut Var. Par ailleurs, 65 cm à Valberg à 1780 m. \n\nEnneigement skiable dès 1200/1400 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface :  épaisse couche de neige récente : 20/40 cm à 1500 m, 40/60 cm à partir de 1800m, localement 70 cm dans le Haut Verdon. Cette neige est croutée en surface sous 1600/2200 m selon les orientations, plus froide et légère au-dessus et parfois travaillée/durcie par le vent en altitude. Crêtes et arêtes bien chargées de corniches, congères dans les pentes.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,17 +144,17 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 55,
-          "S": 50
+          "N": 65,
+          "S": 60
         },
         {
           "alt_m": 2000,
-          "N": 160,
-          "S": 110
+          "N": 165,
+          "S": 115
         },
         {
           "alt_m": 2500,
-          "N": 200,
+          "N": 210,
           "S": 160
         }
       ],
