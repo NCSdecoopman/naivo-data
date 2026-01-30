@@ -3,37 +3,49 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-01-29T16:00:00",
-    "valid_until": "2026-01-30T18:00:00",
+    "issued_at": "2026-01-30T16:00:00",
+    "valid_until": "2026-01-31T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 1700m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1700,
+        "split_axis": "horizontal",
+        "split_label": "1700m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1700",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1700",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1700m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-31",
+        "date": "2026-02-01",
         "label": "Indice de risque marqué",
-        "comment": "Risque d'avalanche stationnaire samedi.\nPeu de vent et de neige fraîche prévue.  Moins de risque de plaque de surface mais persistance de structures  bien instables en large faces Nord ...",
+        "comment": "Dimanche, le manteau se stabilise lentement, mais le risque d'avalanches reste marqué.",
         "trend": "steady"
       }
     },
@@ -66,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 3,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 3,
       "labels": {
-        "3": "Couche fragile persistante",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-3"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-25",
-          "min_cm": 5,
-          "max_cm": 10
-        },
         {
           "date": "2026-01-26",
           "min_cm": 0,
@@ -104,24 +111,29 @@
         },
         {
           "date": "2026-01-30",
-          "min_cm": 3,
-          "max_cm": 5
+          "min_cm": 5,
+          "max_cm": 10
+        },
+        {
+          "date": "2026-01-31",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 6,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 11
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "DE NOUVELLES PLAQUES FRIABLES A L'ABORD DES CRETES, TEMPORAIREMENT REACTIVES... POSSIBLE EPAISSE CASSURE (EN CASCADE) EN LARGES FACES NORD...",
-      "text": "DE NOUVELLES PLAQUES FRIABLES A L'ABORD DES CRETES, TEMPORAIREMENT REACTIVES... POSSIBLE EPAISSE CASSURE (EN CASCADE) EN LARGES FACES NORD...\n\nVendredi, 40 à 50 cm de neige récente poudreuse en altitude, (voire 60 cm vers les Ecrins), neige encore peu stabilisée... A l'abord des croupes/crêtes possible formation de petites plaques friables, d'aspect poudreux et temporairement instables au passage d'un skieur .\nFacteur aggravant (surtout vers l'Est Oisans, en gros des 2 Alpes à Meije/Ecrins) : des sous couches fragiles bien enfouies en faces froides (possible large et épaisse cassure  à distance des skieurs). Des traces ne sont pas garantie de stabilité.\n\nDéclenchements provoqués : Risque accidentel franchement marqué ce vendredi, notamment à l'abords des cols et crêtes et vers le Taillefer. Plaques friables (assez difficiles à déceler en poudreuse plus dense) et temporairement bien instables. Cassures de 30 à 60 cm possibles au passage d'une personne). Vent parfois sensible de Sud-Ouest à Nord-Ouest. Les sous couches plus poudreuses peuvent jouer le rôle de couche fragile temporaire. \nFacteur aggravant : en larges faces Nord et surtout vers l'Est Oisans, des 2 Alpes à Meije/Ecrins (et au dessus de 2100m environ), des sous couches fragiles sont enfouies, une cassure de surface pourrait entrainer à distance une épaisse et large cassure et dégénérer en grande avalanche...\nIndices observables : Manteau ridé par le vent ;  zones de transition entre croupes dégarnies et importante quantité de neige meuble. \"Woumfs\" parfois vers les replats. Jeudi plusieurs avalanches accidentelles sont signalées aux 2 Alpes. Des traces ne sont pas signe de stabilité (couches sans cohésion bien enfouies) !\nPlus bas que 1700/2100m environ, moins de vent et de neige mobilisable a priori...\n\nDéclenchements spontanés : Vendredi matin durant les chutes de neige quelques coulées/petites avalanches poudreuses attendues (en terrain bien raide) ;  ou sous l'action du vent en altitude une rare cassure (dégénérant en avalanche de taille plus conséquente). \nL'après-midi avec des éclaircies et un redoux relatif à modeste altitude, quelques boules/escargots au soleil voire une petite avalanche près des rochers ?",
+      "title": "PLAQUES NOMBREUSES ET EPAISSES, REPOSANT PARFOIS SUR DES COUCHES FRAGILES PERISTANTES",
+      "text": "PLAQUES NOMBREUSES ET EPAISSES, REPOSANT PARFOIS SUR DES COUCHES FRAGILES PERISTANTES\n\nDéclenchements provoqués : Les épaisses couches de neige tombées récemment restent instables sur le massif, avec encore de nombreuses plaques friables relativement faciles à déclencher, présentes en tout versants. Elles sont parfois épaisses ( 80cm / 1m), larges et sont difficiles à déceler (d'apparence parfois poudreuses). Dans un large secteur Nord, des plaques formées par l'épisode de vent de sud de mardi restent présentes et sont enfouies sous la neige récente. Elles sont plus dures à déclencher mais peuvent mobiliser des volumes de neige importants... Enfin, et toujours en large Nord, ces plaques reposent parfois sur de vieux grains anguleux, pouvant favoriser les départs très volumineux (déclenchements à distance depuis un secteur moins enneigé, ou départ en cascade suite à une plaque de surface). Ces couches fragiles sont surtout présentes vers les Hautes Alpes ( La Meije, les Ecrins, les Deux Alpes, l'Olan), et plus rares vers le Taillefer. Une pente skié n'est pas un indice de stabilité ... \nPlus bas que 1700m, les températures douces permettent une stabilisation plus rapide du manteau neigeux, et les couches fragiles persistantes semblent absentes.\n\nDéparts spontanés : En journée de samedi le soleil, même caché par des nuages, va venir humidifier la neige en versants Sud. Quelques coulées ponctuelles (ou plus rarement une plaque) pourrait partir spontanément sous les rochers, de tailles moyennes parfois, rarement une grande. La plupart du temps de simples boulettes / escargots.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : l'enneigement s'est amélioré et devient bon pour la saison dès les vallées et en combes d'altitude. Les crêtes sont toutefois assez peu enneigées ainsi que les pentes Sud raides...\nLimites skiables : à partir de 1100/1500 m.\n\nQualité de la neige vendredi : On attend jusque 5 cm de fraîche (voire 10 cm vers la Matheysine), qui s'ajoutent au 40/60 cm de neige récente poudreuse en altitude... A l'abord des croupes et crêtes, neige parfois soufflée ou un peu cartonnée....\nL'après-midi lors d'éclaircies, neige parfois collante, voire humide en moyenne montagne.",
+      "text": "Qualification de l’enneigement : L'enneigement s'est amélioré et devient bon pour la saison dès les vallées et en combes d'altitude. Les crêtes sont toutefois assez peu enneigées ainsi que les pentes Sud raides...\n\nLimites skiables : à partir de 1100/1500 m.\n\nQualité de la neige samedi : On retrouve 30 à 60 cm de neige récente sur le massif (localement plus vers la Meije / les Ecrins), généralement encore assez légère, quoi que parfois travaillée par le vent à l'abord des crêtes. Sous 1700m, la neige de surface est toutefois plus lourde, voire croutée en matinée (surtout en Sud). En journée, la neige se tasse légèrement. En versants Sud, elle s'allourdit et s'humidifie parfois en surface.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 75,
-          "S": 40
+          "N": 85,
+          "S": 50
         },
         {
           "alt_m": 2000,
-          "N": 130,
-          "S": 80
+          "N": 140,
+          "S": 90
         },
         {
           "alt_m": 2500,
-          "N": 200,
-          "S": 150
+          "N": 210,
+          "S": 160
         }
       ],
       "icon_key": "snowpack",

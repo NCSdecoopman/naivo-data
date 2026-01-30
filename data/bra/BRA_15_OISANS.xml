@@ -1,84 +1,67 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="15" MASSIF="Oisans" DATEBULLETIN="2026-01-29T16:00:00" DATEECHEANCE="2026-01-30T18:00:00" DATEVALIDITE="2026-01-30T18:00:00" DATEDIFFUSION="2026-01-29T16:02:00" AMENDEMENT="false">
-  <DateValidite>2026-01-30T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="15" MASSIF="Oisans" DATEBULLETIN="2026-01-30T16:00:00" DATEECHEANCE="2026-01-31T18:00:00" DATEVALIDITE="2026-01-31T18:00:00" DATEDIFFUSION="2026-01-30T16:26:00" AMENDEMENT="false">
+  <DateValidite>2026-01-31T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="3" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="3" COMMENTAIRE="Indice de risque marqué." RISQUEMAXIJ2="3" DATE_RISQUE_J2="2026-01-31T00:00:00"/>
-    <PENTE NE="true" E="true" SE="true" S="true" SW="true" W="true" NW="true" N="true" COMMENTAIRE="Proche croupe/crêtes"/>
-    <ACCIDENTEL><![CDATA[Surtout à l'abord des crêtes, instabilités temporaires / Plaques friables en poudreuse dense, assez difficiles à déceler. En versant froid, possible épaisse/large cassure (en cascade), surtout vers Est Oisans, des 2 Alpes à La Meije/Ecrins...]]></ACCIDENTEL>
-    <NATUREL><![CDATA[Possibles petites avalanches poudreuses lors des chutes de neige (vendredi matin), parfois une cassure spontanée dégénérant en avalanche conséquente ?]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : Possibles petites avalanches poudreuses lors des chutes de neige (vendredi matin), parfois une cassure spontanée dégénérant en avalanche conséquente ?
-Déclenchements skieurs : Surtout à l'abord des crêtes, instabilités temporaires / Plaques friables en poudreuse dense, assez difficiles à déceler. En versant froid, possible épaisse/large cassure (en cascade), surtout vers Est Oisans, des 2 Alpes à La Meije/Ecrins...]]></RESUME>
+    <RISQUE RISQUE1="2" EVOLURISQUE1="" LOC1="&lt;1700" ALTITUDE="1700" RISQUE2="3" EVOLURISQUE2="" LOC2="&gt;1700" RISQUEMAXI="3" COMMENTAIRE="Au-dessus de 1700m indice de risque marqué, plus bas indice limité." RISQUEMAXIJ2="3" DATE_RISQUE_J2="2026-02-01T00:00:00"/>
+    <PENTE NE="true" E="true" SE="true" S="true" SW="true" W="true" NW="true" N="true" COMMENTAIRE=""/>
+    <ACCIDENTEL><![CDATA[Plaques toujours réactives et difficiles à déceler, pouvant être de grandes tailles en versants froids où elles reposent sur des couches fragiles persistantes. ]]></ACCIDENTEL>
+    <NATUREL><![CDATA[Quelques coulées humides en journée ]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : Quelques coulées humides en journée 
+Déclenchements skieurs : Plaques toujours réactives et difficiles à déceler, pouvant être de grandes tailles en versants froids où elles reposent sur des couches fragiles persistantes. ]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque marqué]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Risque d'avalanche stationnaire samedi.
-Peu de vent et de neige fraîche prévue.  Moins de risque de plaque de surface mais persistance de structures  bien instables en large faces Nord ...]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Dimanche, le manteau se stabilise lentement, mais le risque d'avalanches reste marqué. ]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_15.png</ImageRisque>
     <ImagePente>rose_pentes_15.png</ImagePente>
   </CARTOUCHERISQUE>
   <STABILITE>
-    <SitAvalTyp SAT1="3" SAT2="2"/>
-    <TITRE><![CDATA[DE NOUVELLES PLAQUES FRIABLES A L'ABORD DES CRETES, TEMPORAIREMENT REACTIVES... POSSIBLE EPAISSE CASSURE (EN CASCADE) EN LARGES FACES NORD...]]></TITRE>
-    <TEXTESANSTITRE><![CDATA[Vendredi, 40 à 50 cm de neige récente poudreuse en altitude, (voire 60 cm vers les Ecrins), neige encore peu stabilisée... A l'abord des croupes/crêtes possible formation de petites plaques friables, d'aspect poudreux et temporairement instables au passage d'un skieur .
-Facteur aggravant (surtout vers l'Est Oisans, en gros des 2 Alpes à Meije/Ecrins) : des sous couches fragiles bien enfouies en faces froides (possible large et épaisse cassure  à distance des skieurs). Des traces ne sont pas garantie de stabilité.
+    <SitAvalTyp SAT1="2" SAT2="3"/>
+    <TITRE><![CDATA[PLAQUES NOMBREUSES ET EPAISSES, REPOSANT PARFOIS SUR DES COUCHES FRAGILES PERISTANTES]]></TITRE>
+    <TEXTESANSTITRE><![CDATA[Déclenchements provoqués : Les épaisses couches de neige tombées récemment restent instables sur le massif, avec encore de nombreuses plaques friables relativement faciles à déclencher, présentes en tout versants. Elles sont parfois épaisses ( 80cm / 1m), larges et sont difficiles à déceler (d'apparence parfois poudreuses). Dans un large secteur Nord, des plaques formées par l'épisode de vent de sud de mardi restent présentes et sont enfouies sous la neige récente. Elles sont plus dures à déclencher mais peuvent mobiliser des volumes de neige importants... Enfin, et toujours en large Nord, ces plaques reposent parfois sur de vieux grains anguleux, pouvant favoriser les départs très volumineux (déclenchements à distance depuis un secteur moins enneigé, ou départ en cascade suite à une plaque de surface). Ces couches fragiles sont surtout présentes vers les Hautes Alpes ( La Meije, les Ecrins, les Deux Alpes, l'Olan), et plus rares vers le Taillefer. Une pente skié n'est pas un indice de stabilité ... 
+Plus bas que 1700m, les températures douces permettent une stabilisation plus rapide du manteau neigeux, et les couches fragiles persistantes semblent absentes.
 
-Déclenchements provoqués : Risque accidentel franchement marqué ce vendredi, notamment à l'abords des cols et crêtes et vers le Taillefer. Plaques friables (assez difficiles à déceler en poudreuse plus dense) et temporairement bien instables. Cassures de 30 à 60 cm possibles au passage d'une personne). Vent parfois sensible de Sud-Ouest à Nord-Ouest. Les sous couches plus poudreuses peuvent jouer le rôle de couche fragile temporaire. 
-Facteur aggravant : en larges faces Nord et surtout vers l'Est Oisans, des 2 Alpes à Meije/Ecrins (et au dessus de 2100m environ), des sous couches fragiles sont enfouies, une cassure de surface pourrait entrainer à distance une épaisse et large cassure et dégénérer en grande avalanche...
-Indices observables : Manteau ridé par le vent ;  zones de transition entre croupes dégarnies et importante quantité de neige meuble. "Woumfs" parfois vers les replats. Jeudi plusieurs avalanches accidentelles sont signalées aux 2 Alpes. Des traces ne sont pas signe de stabilité (couches sans cohésion bien enfouies) !
-Plus bas que 1700/2100m environ, moins de vent et de neige mobilisable a priori...
+Départs spontanés : En journée de samedi le soleil, même caché par des nuages, va venir humidifier la neige en versants Sud. Quelques coulées ponctuelles (ou plus rarement une plaque) pourrait partir spontanément sous les rochers, de tailles moyennes parfois, rarement une grande. La plupart du temps de simples boulettes / escargots.]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[PLAQUES NOMBREUSES ET EPAISSES, REPOSANT PARFOIS SUR DES COUCHES FRAGILES PERISTANTES
 
-Déclenchements spontanés : Vendredi matin durant les chutes de neige quelques coulées/petites avalanches poudreuses attendues (en terrain bien raide) ;  ou sous l'action du vent en altitude une rare cassure (dégénérant en avalanche de taille plus conséquente). 
-L'après-midi avec des éclaircies et un redoux relatif à modeste altitude, quelques boules/escargots au soleil voire une petite avalanche près des rochers ?]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[DE NOUVELLES PLAQUES FRIABLES A L'ABORD DES CRETES, TEMPORAIREMENT REACTIVES... POSSIBLE EPAISSE CASSURE (EN CASCADE) EN LARGES FACES NORD...
+Déclenchements provoqués : Les épaisses couches de neige tombées récemment restent instables sur le massif, avec encore de nombreuses plaques friables relativement faciles à déclencher, présentes en tout versants. Elles sont parfois épaisses ( 80cm / 1m), larges et sont difficiles à déceler (d'apparence parfois poudreuses). Dans un large secteur Nord, des plaques formées par l'épisode de vent de sud de mardi restent présentes et sont enfouies sous la neige récente. Elles sont plus dures à déclencher mais peuvent mobiliser des volumes de neige importants... Enfin, et toujours en large Nord, ces plaques reposent parfois sur de vieux grains anguleux, pouvant favoriser les départs très volumineux (déclenchements à distance depuis un secteur moins enneigé, ou départ en cascade suite à une plaque de surface). Ces couches fragiles sont surtout présentes vers les Hautes Alpes ( La Meije, les Ecrins, les Deux Alpes, l'Olan), et plus rares vers le Taillefer. Une pente skié n'est pas un indice de stabilité ... 
+Plus bas que 1700m, les températures douces permettent une stabilisation plus rapide du manteau neigeux, et les couches fragiles persistantes semblent absentes.
 
-Vendredi, 40 à 50 cm de neige récente poudreuse en altitude, (voire 60 cm vers les Ecrins), neige encore peu stabilisée... A l'abord des croupes/crêtes possible formation de petites plaques friables, d'aspect poudreux et temporairement instables au passage d'un skieur .
-Facteur aggravant (surtout vers l'Est Oisans, en gros des 2 Alpes à Meije/Ecrins) : des sous couches fragiles bien enfouies en faces froides (possible large et épaisse cassure  à distance des skieurs). Des traces ne sont pas garantie de stabilité.
-
-Déclenchements provoqués : Risque accidentel franchement marqué ce vendredi, notamment à l'abords des cols et crêtes et vers le Taillefer. Plaques friables (assez difficiles à déceler en poudreuse plus dense) et temporairement bien instables. Cassures de 30 à 60 cm possibles au passage d'une personne). Vent parfois sensible de Sud-Ouest à Nord-Ouest. Les sous couches plus poudreuses peuvent jouer le rôle de couche fragile temporaire. 
-Facteur aggravant : en larges faces Nord et surtout vers l'Est Oisans, des 2 Alpes à Meije/Ecrins (et au dessus de 2100m environ), des sous couches fragiles sont enfouies, une cassure de surface pourrait entrainer à distance une épaisse et large cassure et dégénérer en grande avalanche...
-Indices observables : Manteau ridé par le vent ;  zones de transition entre croupes dégarnies et importante quantité de neige meuble. "Woumfs" parfois vers les replats. Jeudi plusieurs avalanches accidentelles sont signalées aux 2 Alpes. Des traces ne sont pas signe de stabilité (couches sans cohésion bien enfouies) !
-Plus bas que 1700/2100m environ, moins de vent et de neige mobilisable a priori...
-
-Déclenchements spontanés : Vendredi matin durant les chutes de neige quelques coulées/petites avalanches poudreuses attendues (en terrain bien raide) ;  ou sous l'action du vent en altitude une rare cassure (dégénérant en avalanche de taille plus conséquente). 
-L'après-midi avec des éclaircies et un redoux relatif à modeste altitude, quelques boules/escargots au soleil voire une petite avalanche près des rochers ?]]></TEXTE>
+Départs spontanés : En journée de samedi le soleil, même caché par des nuages, va venir humidifier la neige en versants Sud. Quelques coulées ponctuelles (ou plus rarement une plaque) pourrait partir spontanément sous les rochers, de tailles moyennes parfois, rarement une grande. La plupart du temps de simples boulettes / escargots.]]></TEXTE>
   </STABILITE>
   <QUALITE>
-    <TEXTE><![CDATA[Qualification de l’enneigement : l'enneigement s'est amélioré et devient bon pour la saison dès les vallées et en combes d'altitude. Les crêtes sont toutefois assez peu enneigées ainsi que les pentes Sud raides...
+    <TEXTE><![CDATA[Qualification de l’enneigement : L'enneigement s'est amélioré et devient bon pour la saison dès les vallées et en combes d'altitude. Les crêtes sont toutefois assez peu enneigées ainsi que les pentes Sud raides...
+
 Limites skiables : à partir de 1100/1500 m.
 
-Qualité de la neige vendredi : On attend jusque 5 cm de fraîche (voire 10 cm vers la Matheysine), qui s'ajoutent au 40/60 cm de neige récente poudreuse en altitude... A l'abord des croupes et crêtes, neige parfois soufflée ou un peu cartonnée....
-L'après-midi lors d'éclaircies, neige parfois collante, voire humide en moyenne montagne.]]></TEXTE>
+Qualité de la neige samedi : On retrouve 30 à 60 cm de neige récente sur le massif (localement plus vers la Meije / les Ecrins), généralement encore assez légère, quoi que parfois travaillée par le vent à l'abord des crêtes. Sous 1700m, la neige de surface est toutefois plus lourde, voire croutée en matinée (surtout en Sud). En journée, la neige se tasse légèrement. En versants Sud, elle s'allourdit et s'humidifie parfois en surface. ]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-01-29T00:00:00" LimiteSud="1000" LimiteNord="1000">
-    <NIVEAU ALTI="1500" N="75" S="40"/>
-    <NIVEAU ALTI="2000" N="130" S="80"/>
-    <NIVEAU ALTI="2500" N="200" S="150"/>
+  <ENNEIGEMENT DATE="2026-01-30T00:00:00" LimiteSud="1000" LimiteNord="1000">
+    <NIVEAU ALTI="1500" N="85" S="50"/>
+    <NIVEAU ALTI="2000" N="140" S="90"/>
+    <NIVEAU ALTI="2500" N="210" S="160"/>
     <ImageEnneigement>montagne_enneigement_15.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-01-25T00:00:00" SS24Min="5" SS24Max="10"/>
     <NEIGE24H DATE="2026-01-26T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-01-27T00:00:00" SS24Min="15" SS24Max="30"/>
     <NEIGE24H DATE="2026-01-28T00:00:00" SS24Min="5" SS24Max="10"/>
     <NEIGE24H DATE="2026-01-29T00:00:00" SS24Min="3" SS24Max="5"/>
-    <NEIGE24H DATE="2026-01-30T00:00:00" SS24Min="3" SS24Max="5"/>
+    <NEIGE24H DATE="2026-01-30T00:00:00" SS24Min="5" SS24Max="10"/>
+    <NEIGE24H DATE="2026-01-31T00:00:00" SS24Min="0" SS24Max="1"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_15.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="2500" ALTITUDEVENT2="3500">
-    <COMMENTAIRE>Neige faible jusque vendredi matin (5/10 cm sur Ouest du massif), parfois ventée vers les crêtes. Des éclaircies l'après-midi...</COMMENTAIRE>
-    <ECHEANCE DATE="2026-01-30T06:00:00" FF1="30" DD1="O" FF2="45" DD2="O" ISO0="1700" PLUIENEIGE="900" TEMPSSENSIBLE="61" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-01-30T12:00:00" FF1="15" DD1="NO" FF2="30" DD2="O" ISO0="1400" PLUIENEIGE="1100" TEMPSSENSIBLE="61" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-01-30T18:00:00" FF1="15" DD1="O" FF2="30" DD2="O" ISO0="1600" PLUIENEIGE="-1" TEMPSSENSIBLE="3" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-01-31T00:00:00" FF1="10" DD1="SE" FF2="20" DD2="SO" ISO0="1400" PLUIENEIGE="-1" TEMPSSENSIBLE="4" MERNUAGES="-1"/>
+    <COMMENTAIRE>Ciel voilé en matinée, et nuageux en journée. </COMMENTAIRE>
+    <ECHEANCE DATE="2026-01-31T06:00:00" FF1="10" DD1="SO" FF2="20" DD2="SO" ISO0="1700" PLUIENEIGE="1000" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-01-31T12:00:00" FF1="10" DD1="E" FF2="15" DD2="SE" ISO0="1500" PLUIENEIGE="-1" TEMPSSENSIBLE="3" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-01-31T18:00:00" FF1="10" DD1="SO" FF2="15" DD2="SO" ISO0="1600" PLUIENEIGE="-1" TEMPSSENSIBLE="2" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-02-01T00:00:00" FF1="10" DD1="O" FF2="15" DD2="O" ISO0="1400" PLUIENEIGE="-1" TEMPSSENSIBLE="3" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_15.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-01-23T06:00:00" FF1="20" DD1="S" FF2="40" DD2="S" ISO0="1700" PLUIENEIGE="1300" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-01-23T12:00:00" FF1="25" DD1="SE" FF2="50" DD2="SO" ISO0="1800" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
-      <ECHEANCE DATE="2026-01-23T18:00:00" FF1="35" DD1="SE" FF2="55" DD2="S" ISO0="1700" PLUIENEIGE="1200" TEMPSSENSIBLE="61"/>
-      <ECHEANCE DATE="2026-01-24T00:00:00" FF1="30" DD1="O" FF2="55" DD2="S" ISO0="1400" PLUIENEIGE="800" TEMPSSENSIBLE="63"/>
       <ECHEANCE DATE="2026-01-24T06:00:00" FF1="10" DD1="SO" FF2="25" DD2="O" ISO0="1300" PLUIENEIGE="700" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-01-24T12:00:00" FF1="20" DD1="SE" FF2="25" DD2="SE" ISO0="1700" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
       <ECHEANCE DATE="2026-01-24T18:00:00" FF1="25" DD1="E" FF2="45" DD2="E" ISO0="1700" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
@@ -103,13 +86,12 @@ L'après-midi lors d'éclaircies, neige parfois collante, voire humide en moyenn
       <ECHEANCE DATE="2026-01-29T12:00:00" FF1="20" DD1="N" FF2="30" DD2="NO" ISO0="1400" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-01-29T18:00:00" FF1="20" DD1="N" FF2="30" DD2="NO" ISO0="1700" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-01-30T00:00:00" FF1="30" DD1="SO" FF2="45" DD2="O" ISO0="1600" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
+      <ECHEANCE DATE="2026-01-30T06:00:00" FF1="30" DD1="O" FF2="45" DD2="O" ISO0="1700" PLUIENEIGE="900" TEMPSSENSIBLE="61"/>
+      <ECHEANCE DATE="2026-01-30T12:00:00" FF1="15" DD1="NO" FF2="30" DD2="O" ISO0="1400" PLUIENEIGE="900" TEMPSSENSIBLE="61"/>
+      <ECHEANCE DATE="2026-01-30T18:00:00" FF1="15" DD1="O" FF2="30" DD2="O" ISO0="1600" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
+      <ECHEANCE DATE="2026-01-31T00:00:00" FF1="10" DD1="SE" FF2="20" DD2="SO" ISO0="1400" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-01-23T00:00:00" LimiteSud="1300" LimiteNord="1000">
-        <NIVEAU ALTI="1500" N="36" S="11"/>
-        <NIVEAU ALTI="2000" N="80" S="40"/>
-        <NIVEAU ALTI="2500" N="140" S="80"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-01-24T00:00:00" LimiteSud="1000" LimiteNord="1000">
         <NIVEAU ALTI="1500" N="45" S="20"/>
         <NIVEAU ALTI="2000" N="95" S="55"/>
@@ -140,23 +122,28 @@ L'après-midi lors d'éclaircies, neige parfois collante, voire humide en moyenn
         <NIVEAU ALTI="2000" N="130" S="80"/>
         <NIVEAU ALTI="2500" N="200" S="150"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-01-30T00:00:00" LimiteSud="1000" LimiteNord="1000">
+        <NIVEAU ALTI="1500" N="85" S="50"/>
+        <NIVEAU ALTI="2000" N="140" S="90"/>
+        <NIVEAU ALTI="2500" N="210" S="160"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-01-24T00:00:00" SS24Min="10" SS24Max="20"/>
       <NEIGE24H DATE="2026-01-25T00:00:00" SS24Min="5" SS24Max="10"/>
       <NEIGE24H DATE="2026-01-26T00:00:00" SS24Min="5" SS24Max="10"/>
       <NEIGE24H DATE="2026-01-27T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-01-28T00:00:00" SS24Min="15" SS24Max="30"/>
       <NEIGE24H DATE="2026-01-29T00:00:00" SS24Min="5" SS24Max="10"/>
+      <NEIGE24H DATE="2026-01-30T00:00:00" SS24Min="3" SS24Max="5"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-01-23T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-01-24T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-01-25T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-01-26T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-01-27T00:00:00" RISQUEMAXI="4"/>
       <RISQUE DATE="2026-01-28T00:00:00" RISQUEMAXI="4"/>
       <RISQUE DATE="2026-01-29T00:00:00" RISQUEMAXI="4"/>
+      <RISQUE DATE="2026-01-30T00:00:00" RISQUEMAXI="3"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_15.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_15.png</Image7derniersjours_portrait>

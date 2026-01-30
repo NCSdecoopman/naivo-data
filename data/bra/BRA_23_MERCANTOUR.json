@@ -3,8 +3,8 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-01-29T16:00:00",
-    "valid_until": "2026-01-30T18:00:00",
+    "issued_at": "2026-01-30T16:00:00",
+    "valid_until": "2026-01-31T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-31",
+        "date": "2026-02-01",
         "label": "Indice de risque marqué",
-        "comment": "Risque restant marqué avec des plaques encore sensibles dans la neige récente, notamment en versants nord.",
+        "comment": "Risque restant marqué, avec toujours des plaques parfois sensibles et localement volumineuses en ubacs d'altitude.",
         "trend": "steady"
       }
     },
@@ -53,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 3,
       "labels": {
-        "1": "Neige fraîche",
+        "2": "Neige ventée",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-25",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-26",
           "min_cm": 0,
@@ -100,28 +95,33 @@
         {
           "date": "2026-01-29",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
         },
         {
           "date": "2026-01-30",
-          "min_cm": 1,
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-01-31",
+          "min_cm": 0,
           "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 2
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PLAQUES VOLUMINEUSES ET ENCORE INSTABLES EN ALTITUDE",
-      "text": "PLAQUES VOLUMINEUSES ET ENCORE INSTABLES EN ALTITUDE\n\nDéclenchements provoqués : plaques encore en place dans l'épaisse couche de neige récente, entretenue par le vent de nord-ouest notamment en Haute-Tinée, possibles en toutes orientations et plus nombreuses au-dessus de 1800/2000 m. Plaques d'aspect friables faciles à déclencher par un seul skieur et générant des avalanches de taille moyenne à grande (taille 2 à 3). En orientation est, nord ou ouest d'altitude supérieure à 2000/2200 m, une avalanche de très grande taille (taille 4) reste non exclue, par sollicitation de couches fragiles enfouies, emportant alors la totalité du manteau neigeux.\nEn dessous de 2000 m les plaques sont moins volumineuses mais restent fréquentes en versant ombragés et faciles à déclencher par un seul skieur même en zones forestières peu ventées. \n\nDéparts spontanés :  quelques départs linéaires possibles sous l'action du vent de nord-ouest en journée. Taille moyenne à grande.",
+      "title": "RISQUE MARQUÉ DE DÉCLENCHEMENTS SKIEURS : PLAQUES VOLUMINEUSES ET LOCALEMENT INSTABLES EN UBACS",
+      "text": "RISQUE MARQUÉ DE DÉCLENCHEMENTS SKIEURS : PLAQUES VOLUMINEUSES ET LOCALEMENT INSTABLES EN UBACS\n\nDéclenchements provoqués :  quelques plaques à vent encore en place dans l'épaisse couche de neige récente, plus nombreuses et sensibles en versant est nord et ouest au-dessus de 1800/2000 m. Plaques plutôt faciles à déclencher par un seul skieur, généralement d'aspect friables mais parfois en neige durcie par le vent proche des crêtes. Elles génèrent des avalanches de taille moyenne à grande (taille 2 à 3), notamment en orientation est, nord ou ouest d'altitude supérieure à 2000/2200 m, où une avalanche de très grande taille (taille 4) reste non exclue par sollicitation d'une couche fragile persistante enfouie, générant alors des cassures très épaisses et larges.\n\nEn dessous de 2000 m les plaques sont moins nombreuses et volumineuses, mais restent possibles en versant ombragés et faciles à déclencher par un seul skieur, même en zones forestières peu ventées. \n\nDéparts spontanés :  peu probables. Un départ linéaire non exclu sous l'action du vent à proximité des crêtes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement excédentaire pour une fin janvier.\nDonnées observées : 117 cm à la nivôse de Millefonts à 2400 m, 117 cm à Isola 2000 à 1900 m.\n\nEnneigement skiable dès 1200/1400 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface : épaisse couche de neige récente : 20/40 cm à 1500 m, 40/60 cm à partir de 1800m. Cette neige est croutée en surface sous 1600/2200 m selon les orientations, plus froide et légère au-dessus et parfois travaillée/durcie par le vent en altitude, notamment en Haute-Tinée. Crêtes et arêtes bien chargées de corniches, congères dans les pentes.",
+      "text": "Enneigement excédentaire pour une fin janvier.\nDonnées observées : 115 cm à la nivôse de Millefonts à 2400 m, 114 cm à Isola 2000 à 1900 m.\n\nEnneigement skiable dès 1200/1300 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface : épaisse couche de neige récente : 20/30 cm à 1500 m, 30/50 cm à partir de 1800m. Cette neige est croutée en surface sous 1500/2200 m selon les orientations, plus froide et légère au-dessus et parfois travaillée/durcie par le vent en altitude, notamment en Haute-Tinée. Crêtes et arêtes bien chargées de corniches, congères dans les pentes.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 60,
-          "S": 50
+          "N": 55,
+          "S": 40
         },
         {
           "alt_m": 2000,
-          "N": 140,
-          "S": 100
+          "N": 135,
+          "S": 90
         },
         {
           "alt_m": 2500,
-          "N": 190,
-          "S": 160
+          "N": 185,
+          "S": 155
         }
       ],
       "icon_key": "snowpack",

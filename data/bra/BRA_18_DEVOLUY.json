@@ -3,14 +3,14 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-01-29T16:00:00",
-    "valid_until": "2026-01-30T18:00:00",
+    "issued_at": "2026-01-30T16:00:00",
+    "valid_until": "2026-01-31T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice limité.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2000,
@@ -27,7 +27,7 @@
           {
             "id": "zone2",
             "loc": ">2000",
-            "risk": 4,
+            "risk": 3,
             "evolution_to": null,
             "position": "top"
           }
@@ -46,18 +46,18 @@
             "evolution_to": null
           },
           "top": {
-            "text": "4",
-            "risk": 4,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-31",
+        "date": "2026-02-01",
         "label": "Indice de risque marqué",
-        "comment": "Lente stabilisation du manteau neigeux. Risque en légère diminution mais restant marqué. Côté météo, faibles chutes de neige apportant 3/5 cm.",
-        "trend": "down"
+        "comment": "Maintien d'un risque marqué. Peu de vent et pas de neige fraîche prévue.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-25",
-          "min_cm": 5,
-          "max_cm": 5
-        },
-        {
           "date": "2026-01-26",
           "min_cm": 0,
           "max_cm": 0
@@ -111,29 +106,34 @@
         },
         {
           "date": "2026-01-29",
-          "min_cm": 1,
-          "max_cm": 3
+          "min_cm": 0,
+          "max_cm": 0
         },
         {
           "date": "2026-01-30",
-          "min_cm": 1,
-          "max_cm": 3
+          "min_cm": 5,
+          "max_cm": 10
+        },
+        {
+          "date": "2026-01-31",
+          "min_cm": 0,
+          "max_cm": 2
         }
       ],
       "totals": {
-        "last_48h_min_cm": 2,
-        "last_48h_max_cm": 6
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 12
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX ENCORE TRÈS INSTABLE",
-      "text": "MANTEAU NEIGEUX ENCORE TRÈS INSTABLE\n\nDéclenchements provoqués : le manteau neigeux reste très instable dans la plupart des pentes au dessus de 2000/2200 m. En effet, de nombreuses plaques sont en place, formées lors des chutes fortement ventées de la nuit de mardi à mercredi et entretenues par le vent de nord-ouest modéré qui transporte la neige récente restée légère en altitude. Elles sont très faciles à déclencher et peuvent générer des avalanches de taille moyenne à grande (taille 2 à 3). Une très grande avalanche de taille 4 n'est pas exclue en cas de sollicitation d'une couche fragile persistante plus profondément enfouie, notamment dans les versants ombragés (ouest, nord, est). \nSous 2000 m, l'instabilité est plus limité avec un manteau neigeux humidifié par la pluie de mardi qui se stabilise grâce au regel. \n\nDéparts spontanés : des plaques surchargées par le vent de nord-ouest peuvent céder spontanément. Avalanches généralement moyennes de taille 2.",
+      "title": "MANTEAU NEIGEUX ENCORE INSTABLE EN ALTITUDE",
+      "text": "MANTEAU NEIGEUX ENCORE INSTABLE EN ALTITUDE\n\nDéclenchements provoqués : le manteau neigeux reste très instable dans de nombreuses pentes au dessus de 2000/2200 m. Risque accidentel franchement marqué avec de nombreuses plaques en place, formées lors des fortes chutes de neige ventées du milieu de semaine. Elles sont très faciles à déclencher et peuvent générer des avalanches de taille moyenne à grande (taille 2 à 3). Une très grande avalanche de taille 4 n'est pas exclue en cas de sollicitation d'une couche fragile persistante plus profondément enfouie, notamment dans les versants ombragés (ouest, nord, est). Des traces ne sont pas signe de stabilité...\nSous 2000 m, l'instabilité est plus limité avec un manteau neigeux humidifié par la pluie de mardi qui s'est bien stabilisé grâce au regel. \n\nDéparts spontanés : peu probables. Les chutes de neige étant trop faibles pour générer de l'activité naturelle.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est désormais proche des normales pour une fin janvier avec les récentes chutes de neige.\n\nLimite d'enneigement skiable : avec précaution et sur terrain favorable vers 1200 m en ubacs, 1500 m en adrets.\n\nÉtat de la neige de surface : on retrouve 30/50 cm de neige récente. Cette neige est bien légère et poudreuse au-dessus de 2200/2300 m, plus lourde en dessous et parfois croûtée en sud. Elle repose sur un manteau neigeux peu consolidé et profond ou sur un fond dur dans les orientations plus ensoleillées.",
+      "text": "L'enneigement est désormais proche des normales pour une fin janvier avec les récentes chutes de neige.\n\nLimite d'enneigement skiable : avec précaution et sur terrain favorable vers 1200 m en ubacs, 1500 m en adrets.\n\nÉtat de la neige de surface : on attend un léger saupoudrage sur les 30/50 cm de neige récente. Cette neige est bien légère et poudreuse au-dessus de 2200/2300 m, plus lourde en dessous et parfois croûtée en sud. Elle repose sur un manteau neigeux peu consolidé et profond ou sur un fond dur dans les orientations plus ensoleillées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 65,
-          "S": 55
+          "N": 70,
+          "S": 60
         },
         {
           "alt_m": 2000,
-          "N": 130,
-          "S": 100
+          "N": 135,
+          "S": 105
         },
         {
           "alt_m": 2500,
-          "N": 180,
-          "S": 150
+          "N": 185,
+          "S": 155
         }
       ],
       "icon_key": "snowpack",

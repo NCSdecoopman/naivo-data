@@ -3,8 +3,8 @@
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
-    "issued_at": "2026-01-29T16:00:00",
-    "valid_until": "2026-01-30T18:00:00",
+    "issued_at": "2026-01-30T16:00:00",
+    "valid_until": "2026-01-31T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-01-31",
+        "date": "2026-02-01",
         "label": "Indice de risque marqué",
-        "comment": "Pas de changement du risque. Si les instabilité de surfaces deviennent moins réactives, les couches fragiles enfouies restent elles bien présentent et ce sont bien elles les plus dangereuses.",
+        "comment": "Maintient du risque marqué en raison de la couche fragile persistante, baisse du risque en surface.",
         "trend": "steady"
       }
     },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 3,
+      "primary": 3,
+      "secondary": 2,
       "labels": {
-        "2": "Neige ventée",
-        "3": "Couche fragile persistante"
+        "3": "Couche fragile persistante",
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-25",
-          "min_cm": 3,
-          "max_cm": 6
-        },
         {
           "date": "2026-01-26",
           "min_cm": 0,
@@ -116,24 +111,29 @@
         },
         {
           "date": "2026-01-30",
-          "min_cm": 2,
-          "max_cm": 7
+          "min_cm": 3,
+          "max_cm": 8
+        },
+        {
+          "date": "2026-01-31",
+          "min_cm": 1,
+          "max_cm": 2
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
+        "last_48h_min_cm": 4,
         "last_48h_max_cm": 10
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU INSTABLE : GRANDES AVALANCHES TOUJOURS POSSIBLES.",
-      "text": "MANTEAU INSTABLE : GRANDES AVALANCHES TOUJOURS POSSIBLES.\n\nDéclenchements provoqués :\nNombreuses plaques de surface, formées par les variations de vent et les chutes de neige de cette semaine, en place en tous versants. On les trouve dans les zones d'accumulation, aussi bien près des crêtes qu'en pied de pente. Elles sont réactives et engendrent des avalanches de taille 2 (moyenne).\nATTENTION : au-dessus de 1800 m, une couche fragile persistante est enfouie (grains anguleux sans cohésion, semblables à du gros sel). Présente essentiellement dans les pentes Nord, Est et Ouest mais aussi en Sud à haute altitude, elle constitue, avec la couche qui la surplombe, une épaisse et ancienne plaque. Son déclenchement est possible, aussi bien localement qu'à distance, ou qu'en cascade. Les avalanches provoquées peuvent être grandes (taille 3), avec des cassures régulièrement autour d'1 m. \nObservables :  pour les plaques \"de surface\", le transport de neige par le vent est visible. Pour les autres, seul un \"woumf\" ou une coupe du manteau peut mettre à jour la présence de couche fragile persistante.\n\nDéparts spontanés : \n - le matin, près des crêtes, une rare plaque peut céder avec la surcharge de neige transporté par le vent d'Ouest (taille 1, rare 2).\n - quelques départs petits ponctuels dans les pentes raides ensoleillées avec le retour des éclaircies (taille 1).",
+      "title": "COUCHE FRAGILE ENFOUIE : GRANDES AVALANCHES TOUJOURS POSSIBLES.",
+      "text": "COUCHE FRAGILE ENFOUIE : GRANDES AVALANCHES TOUJOURS POSSIBLES.\n\nDéclenchements provoqués :\nATTENTION : au-dessus de 1800 m, une couche fragile persistante reste enfouie (grains anguleux sans cohésion, semblables à du gros sel). Présente essentiellement dans les pentes Nord, Est et Ouest mais aussi en Sud à haute altitude, elle constitue, avec la couche qui la surplombe, une épaisse et ancienne plaque. Son déclenchement est possible, aussi bien localement qu'à distance, ou qu'en cascade. Les avalanches provoquées peuvent être grandes (taille 3), avec des cassures régulièrement autour d'1 m. \nDe plus, de nombreuses petites plaques friables de surface, formées par les variations de vent et les chutes de neige de cette semaine, sont en place en tous versants. On les trouve dans les zones d'accumulation, aussi bien près des crêtes qu'en pied de pente. Elles sont réactives et engendrent des avalanches de taille 1 à 2 (moyenne).\nObservables :  pour les plaques \"de surface\", le transport de neige par le vent est visible par moment mais mais la présence d'une petite couche de neige fraîche tombée sans vent ce vendredi peut les dissimuler. Pour les autres, seul un \"woumf\" ou une coupe du manteau peut mettre à jour la présence de couche fragile persistante.\n\nDéparts spontanés : \n - quelques départs petits ponctuels dans les pentes raides  (taille 1).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : désormais proche de la normale voire localement excédentaire avec les nouvelles chutes de neige récentes près de la frontière italienne. \n\nLimite skiable :  à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1500 m en N, 2000 m en Sud.\n\nQualité de la neige : poudre légère sur fond dense (mais rarement dur) rendant le ski très agréable. La neige récente a souvent été redistribuée par le vent, en moyenne 15/25 cm mais parfois le triple dans les zones d’accumulation.",
+      "text": "Enneigement : désormais proche de la normale voire localement excédentaire avec les nouvelles chutes de neige récentes près de la frontière italienne. \n\nLimite skiable :  à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1500 m en N, 2000 m en Sud.\n\nQualité de la neige : Un peu de poudre légère sur fond dense (mais rarement dur) rendant le ski très agréable. La neige récente a souvent été redistribuée par le vent, en moyenne 15/25 cm mais parfois le triple dans les zones d’accumulation. Neige parfois lourde et collante en journée sous les nuages en dessous de 1700m environ.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -154,8 +154,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 170,
-          "S": 120
+          "N": 175,
+          "S": 125
         }
       ],
       "icon_key": "snowpack",
