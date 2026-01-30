@@ -3155,7 +3155,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_bessans_carreley.jpg",
         "url_page": "http://www.haute-maurienne-vanoise.com/fr/info-live/webcam",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -3413,8 +3413,8 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 2034,
-        "hauteur": 1464
+        "largeur": 2677,
+        "hauteur": 1462
       }
     },
     {
@@ -3631,7 +3631,7 @@
         "url_image": "https://grandsespaces.com/webcams/DOME.jpg",
         "url_page": "https://grandsespaces.com/ecole-parapente-annecy/webcams-planfait/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -3799,14 +3799,14 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_grand-massif_samoens-1600.jpg",
         "url_page": "https://m.webcam-hd.com/grand-massif/grand-massif_samoens-1600",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 5630,
-        "hauteur": 2479
+        "largeur": 5089,
+        "hauteur": 2477
       }
     },
     {
@@ -3855,7 +3855,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_carroz.jpg",
         "url_page": "http://m.webcam-hd.com/lescarroz/carroz",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5563,7 +5563,7 @@
         "url_image": "https://trinum.com/ibox/ftpcam/mega_laye_front-de-neige.jpg",
         "url_page": "https://app.webcam-hd.com/laye/front-de-neige",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5821,7 +5821,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 3445,
+        "largeur": 2386,
         "hauteur": 600
       }
     },
@@ -6039,7 +6039,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/meribel_col-de-la-loze.jpg",
         "url_page": "https://app.webcam-hd.com/courchevel-meribel/courchevel-meribel_col-de-la-loze",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -6670,6 +6670,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          6.927016,
+          45.88378
+        ]
+      },
+      "properties": {
+        "id": 2991,
+        "name": "Refuge du Requin",
+        "lat": 45.88378,
+        "lon": 6.927016,
+        "altitude": 2593,
+        "url_image": "https://data.spotair.mobi/webcams/refugerequin/refugerequin.php",
+        "url_page": "https://www.fondation-eng.org/station-meteo/",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1280,
+        "hauteur": 992
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.83151986,
           45.56974876
         ]
@@ -6963,7 +6991,7 @@
         "url_image": "https://www.chooksprod.com/parapente-annecy-marlens-webcam.jpg",
         "url_page": "https://aerodream-parapente.com/webcam-decollage-parapente-marlens-annecy/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -7138,34 +7166,6 @@
         "fuseau_horaire": null,
         "code_locale": null,
         "largeur": 1037,
-        "hauteur": 180
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.45717,
-          45.956146
-        ]
-      },
-      "properties": {
-        "id": 3143,
-        "name": "Le Grand-Bornand - La Taverne - 1550 m",
-        "lat": 45.956146,
-        "lon": 6.45717,
-        "altitude": 1514,
-        "url_image": "https://api.skaping.com/YDnwI-fqtUr-FsfjN-CoJVy/media/latest/thumb.jpg",
-        "url_page": "https://www.skaping.com/le-grand-bornand/taverne",
-        "statut_enligne": "E",
-        "statut_variable": "F",
-        "periodicite": null,
-        "decalage_periodicite": 0,
-        "decalage_horloge": 0,
-        "fuseau_horaire": null,
-        "code_locale": null,
-        "largeur": 1019,
         "hauteur": 180
       }
     },
@@ -7355,7 +7355,7 @@
         "url_image": "https://api.skaping.com/EaS2-F076-lZVs-xPZN-Q3dO/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/avoriaz/pistes",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -7579,13 +7579,13 @@
         "url_image": "https://api.skaping.com/qS4eL-edIS6-ZtamD-fAJCL/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/valdisere/solaise",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 1043,
+        "largeur": 978,
         "hauteur": 180
       }
     },
@@ -8546,34 +8546,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.395782,
-          45.430402
-        ]
-      },
-      "properties": {
-        "id": 3621,
-        "name": "Saint François Longchamp - Le Frêne",
-        "lat": 45.430402,
-        "lon": 6.395782,
-        "altitude": 2184,
-        "url_image": "https://api.skaping.com/rDH4i-Aw6DQ-tOpyG-eps0Y/media/latest/thumb.jpg",
-        "url_page": "https://www.skaping.com/saint-francois-longchamp/le-frene",
-        "statut_enligne": "E",
-        "statut_variable": "F",
-        "periodicite": null,
-        "decalage_periodicite": 0,
-        "decalage_horloge": 0,
-        "fuseau_horaire": null,
-        "code_locale": null,
-        "largeur": 946,
-        "hauteur": 180
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           6.10841033,
           45.78177424
         ]
@@ -9181,7 +9153,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 1361,
+        "largeur": 1206,
         "hauteur": 600
       }
     },
@@ -9847,7 +9819,7 @@
         "url_image": "https://api.skaping.com/EOLUj-56xZ3-GeMiE-T7BsW/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/grenoble/col-de-porte",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -10323,7 +10295,7 @@
         "url_image": "https://api.skaping.com/om79u-0U3Ge-RuSoX-ymxMq/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/la-feclaz/orionde",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -10547,7 +10519,7 @@
         "url_image": "https://api.skaping.com/NDjZ1-GJ4ZO-DqtuE-KcJvM/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/lac-d-aiguebelette/st-alban",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -10631,7 +10603,7 @@
         "url_image": "https://api.skaping.com/TWYys-vfsKu-ZeRxz-0YTRq/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/le-grand-bornand/mont-lachat",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11163,7 +11135,7 @@
         "url_image": "https://api.skaping.com/0SiB-F022-AKkj-oD5h-xj6t/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/lesmenuires/croisette",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11527,7 +11499,7 @@
         "url_image": "https://api.skaping.com/Dtzos-7SYGO-tN6io-OiftA/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/montriond/village-des-lindarets",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11779,7 +11751,7 @@
         "url_image": "https://api.skaping.com/HX39i-d66ZL-okjQn-Qs2WZ/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/pra-loup/station",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11947,7 +11919,7 @@
         "url_image": "https://api.skaping.com/UZGGC-53hO1-l44tV-oLo4Y/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/tete-des-saix",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11975,7 +11947,7 @@
         "url_image": "https://api.skaping.com/iYXG8-sNNmk-JSTz7-TLPB6/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/sappey-en-chartreuse",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -12569,7 +12541,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 1025,
+        "largeur": 944,
         "hauteur": 180
       }
     },
@@ -12675,7 +12647,7 @@
         "url_image": "https://api.skaping.com/MaOwW-9Vyl8-aV1pE-p4FP0/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/villar-d-arene/arsine",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13289,8 +13261,8 @@
         "lon": 6.03720188,
         "altitude": 1994,
         "url_image": "https://api.skaping.com/5qAOc-FcKLB-a4MAp-6xfBU/media/latest/thumb.jpg",
-        "url_page": "https://www.skaping.com/les7laux/pleney/les-loups",
-        "statut_enligne": "E",
+        "url_page": "https://www.skaping.com/les7laux/pleynet/les-loups",
+        "statut_enligne": "H",
         "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
@@ -13851,7 +13823,7 @@
         "url_image": "https://api.skaping.com/1YrUi-UkOvn-wyjkH-LfE6q/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/lac-serre-poncon/crevoux/station",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
