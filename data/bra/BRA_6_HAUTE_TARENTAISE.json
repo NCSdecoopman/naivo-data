@@ -3,8 +3,8 @@
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
-    "issued_at": "2026-01-30T16:00:00",
-    "valid_until": "2026-01-31T18:00:00",
+    "issued_at": "2026-01-31T16:00:00",
+    "valid_until": "2026-02-01T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-01",
+        "date": "2026-02-02",
         "label": "Indice de risque marqué",
-        "comment": "Maintient du risque marqué en raison de la couche fragile persistante, baisse du risque en surface.",
+        "comment": "Beau temps lundi matin, puis le ciel s'ennuage et le foehn se lève fortement en deuxième partie de journée. De nouvelles plaques vont pouvoir se former dans la neige récente d'ici la fin de journée.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-26",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-27",
           "min_cm": 0,
           "max_cm": 5
@@ -116,36 +111,41 @@
         },
         {
           "date": "2026-01-31",
-          "min_cm": 1,
-          "max_cm": 2
+          "min_cm": 0,
+          "max_cm": 1
+        },
+        {
+          "date": "2026-02-01",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 4,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "COUCHE FRAGILE ENFOUIE : GRANDES AVALANCHES TOUJOURS POSSIBLES.",
-      "text": "COUCHE FRAGILE ENFOUIE : GRANDES AVALANCHES TOUJOURS POSSIBLES.\n\nDéclenchements provoqués :\nATTENTION : au-dessus de 1800 m, une couche fragile persistante reste enfouie (grains anguleux sans cohésion, semblables à du gros sel). Présente essentiellement dans les pentes Nord, Est et Ouest mais aussi en Sud à haute altitude, elle constitue, avec la couche qui la surplombe, une épaisse et ancienne plaque. Son déclenchement est possible, aussi bien localement qu'à distance, ou qu'en cascade. Les avalanches provoquées peuvent être grandes (taille 3), avec des cassures régulièrement autour d'1 m. \nDe plus, de nombreuses petites plaques friables de surface, formées par les variations de vent et les chutes de neige de cette semaine, sont en place en tous versants. On les trouve dans les zones d'accumulation, aussi bien près des crêtes qu'en pied de pente. Elles sont réactives et engendrent des avalanches de taille 1 à 2 (moyenne).\nObservables :  pour les plaques \"de surface\", le transport de neige par le vent est visible par moment mais mais la présence d'une petite couche de neige fraîche tombée sans vent ce vendredi peut les dissimuler. Pour les autres, seul un \"woumf\" ou une coupe du manteau peut mettre à jour la présence de couche fragile persistante.\n\nDéparts spontanés : \n - quelques départs petits ponctuels dans les pentes raides  (taille 1).",
+      "text": "COUCHE FRAGILE ENFOUIE : GRANDES AVALANCHES TOUJOURS POSSIBLES.\n\nDéclenchements provoqués :\nATTENTION, au-dessus de 1800 m, une couche fragile persistante reste enfouie (grains anguleux sans cohésion, semblables à du gros sel). Présente essentiellement dans les pentes Nord, Est et Ouest mais aussi en Sud à haute altitude, elle vient former une épaisse structure de plaque. Son déclenchement est possible, aussi bien localement qu'à distance, ou qu'en cascade. Les avalanches provoquées peuvent être grandes (taille 3), avec des cassures régulièrement autour d'1 m. \nDe plus, quelques petites plaques friables de surface sont en place en tous versants, localement nombreuses vers La Rosière. Elles se sont formées avec les petites chutes de neige et le vent tout au long de la semaine. On les trouve dans les zones d'accumulation, aussi bien près des crêtes qu'en pied de pente. Elles perdent en réactivité mais peuvent encore réagir au passage d'un skieur. Cassures 20/40 cm, tailles 1 à 2 (petites à moyennes).\nObservables :  pour les plaques \"de surface\", le transport de neige par le vent est visible par moment mais mais la présence d'une petite couche de neige fraîche tombée sans vent ce vendredi peut les dissimuler. Pour les autres, seul un \"woumf\" ou une coupe du manteau peut mettre à jour la présence de couche fragile persistante.\n\nDéparts spontanés : rares petits départs ponctuels, au soleil dans les adrets raides (taille 1, souvent de simples boulettes).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : désormais proche de la normale voire localement excédentaire avec les nouvelles chutes de neige récentes près de la frontière italienne. \n\nLimite skiable :  à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1500 m en N, 2000 m en Sud.\n\nQualité de la neige : Un peu de poudre légère sur fond dense (mais rarement dur) rendant le ski très agréable. La neige récente a souvent été redistribuée par le vent, en moyenne 15/25 cm mais parfois le triple dans les zones d’accumulation. Neige parfois lourde et collante en journée sous les nuages en dessous de 1700m environ.",
+      "text": "Enneigement : tout à fait correct pour la saison.\n\nLimite skiable : à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en-dessous de 1500 m en N, 2000 m en Sud.\n\nQualité de la neige : dans la plupart des secteurs, poudre légère sur fond dense (mais rarement dur) rendant le ski très agréable. La neige récente a souvent été redistribuée par le vent, en moyenne 15/25 cm mais parfois le triple dans les zones d’accumulation. Neige croutée puis humide en journée sous 1600/1800 m. L'humidification remonte un peu plus haut en adrets, ça peut \"botter\" en journée dans ces versants ensoleillés.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 800,
-        "south": 800
+        "south": 1100
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 65,
-          "S": 45
+          "N": 60,
+          "S": 40
         },
         {
           "alt_m": 2000,
@@ -154,8 +154,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 175,
-          "S": 125
+          "N": 160,
+          "S": 110
         }
       ],
       "icon_key": "snowpack",

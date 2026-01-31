@@ -3,8 +3,8 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-01-30T16:00:00",
-    "valid_until": "2026-01-31T18:00:00",
+    "issued_at": "2026-01-31T16:00:00",
+    "valid_until": "2026-02-01T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-02-01",
+        "date": "2026-02-02",
         "label": "Indice de risque limité",
-        "comment": "Le vent tourne au NW et ainsi de nouvelles plaques à vent se forment sur les points hauts du massif.",
+        "comment": "Lundi, le vent de sud forcit.\n⇒ risque en petite hausse, formation de quelques plaques à vent dans la neige récente.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-26",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-27",
           "min_cm": 10,
           "max_cm": 15
@@ -103,46 +98,51 @@
         },
         {
           "date": "2026-01-31",
-          "min_cm": 3,
-          "max_cm": 5
+          "min_cm": 0,
+          "max_cm": 2
+        },
+        {
+          "date": "2026-02-01",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 8,
-        "last_48h_max_cm": 15
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 2
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Faible épaisseur de neige fraîche. Instabilités dans la neige de surface.",
-      "text": "Faible épaisseur de neige fraîche. Instabilités dans la neige de surface.\n\nDéclenchements provoqués :\n* Plaques friables dans la neige fraîche. Ces plaques se forment sous le vent de SSW. Elles sont plus nombreuses au-dessus de 1800/2000 m, et sont plutôt d'aspect friable. Lorsqu'elles sont sollicitées, ces plaques viennent mobiliser les 30/40 cm de neige récente, et donne ainsi des avalanches de taille 1 à 2 (petite à moyenne). Ces plaques sont un peu plus nombreuses dans le secteur du cirque des \"Ars\" (Arcalod/Arclusaz/etc), et du Pécloz.\nObservables : transport de neige par le vent, fissures sous les skis, accumulations de neige récente.\n\nDéparts spontanés :* Petites purges et coulées possibles, notamment près des rochers et durant les chutes de neige",
+      "title": "",
+      "text": "Déclenchements provoqués :\n* rares plaques à vent, d’aspect friable, formées dans la neige récente avec le vent de sud-sud-ouest de vendredi. Assez facile à déclencher. Elles se situent essentiellement au-dessus de 1800 m, à proximité des crêtes. Taille 1 à 2 (petites à moyenne).  \nObservables : vaguelettes sur la neige de surface, fissures sous les skis, accumulations de neige récente. \n\nDéparts spontanés :\nRares petites avalanches dans les falaises ou près des rochers des pentes ensoleillés, sous les éclaircies. Taille 1 (petite).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire en dessous de 1800m et correct au-dessus. \nOn peut chausser les skis vers 1000/1200 m. Pas de sous-couche sous 1500 m, des cailloux peuvent affleurer la surface du manteau neigeux. \n\nQualité de la neige samedi :\n* Au matin, 5-10 cm de neige fraîche au-dessus de 1200m. Cette neige repose sur 20-30 cm de neige récente.\n* Au-dessus de 1800m, la neige est travaillée par le vent et on la retrouve souvent dure/matée.\n* Au fil de la journée, la neige se densifie sous les nuages.",
+      "text": "Enneigement : Pour la saison, l’enneigement est correct. \nOn peut chausser les skis vers 900/1000 m. Pas de sous-couche sous 1500 m ou sur les crêtes, des cailloux sont cachés sous la neige récente. \n\nQualité de la neige ce dimanche matin : \n20/30 cm de neige récente, froide et légère reposant sur un fond dur. Dans les versants sud/sud-ouest la neige est plus dense et s’humidifie au soleil sous les éclaircies. \nEn dessous de 1300 m, 10/20 cm de neige dense.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 800,
-        "south": 900
+        "south": 800
       },
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 20,
-          "S": 15
+          "N": 25,
+          "S": 20
         },
         {
           "alt_m": 1500,
-          "N": 55,
-          "S": 35
+          "N": 65,
+          "S": 45
         },
         {
           "alt_m": 2000,
-          "N": 95,
-          "S": 65
+          "N": 105,
+          "S": 75
         }
       ],
       "icon_key": "snowpack",

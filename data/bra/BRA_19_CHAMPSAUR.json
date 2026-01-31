@@ -3,37 +3,49 @@
   "massif": "Champsaur",
   "bulletin": {
     "id": 19,
-    "issued_at": "2026-01-30T16:00:00",
-    "valid_until": "2026-01-31T18:00:00",
+    "issued_at": "2026-01-31T16:00:00",
+    "valid_until": "2026-02-01T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1800,
+        "split_axis": "horizontal",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1800",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1800",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1800m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-01",
+        "date": "2026-02-02",
         "label": "Indice de risque marqué",
-        "comment": "Maintien d'un risque marqué. Peu de vent et pas de neige fraîche prévue.",
+        "comment": "Tendance à la hausse avec les chutes de neige débutant l'après-midi. \nMaintien a minima d'un risque marqué.",
         "trend": "steady"
       }
     },
@@ -54,7 +66,7 @@
         "NE": true,
         "E": true,
         "SE": true,
-        "S": true,
+        "S": false,
         "SW": true,
         "W": true,
         "NW": true
@@ -66,22 +78,16 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 3,
+      "primary": 3,
+      "secondary": null,
       "labels": {
-        "1": "Neige fraîche",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-26",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-27",
           "min_cm": 40,
@@ -94,8 +100,8 @@
         },
         {
           "date": "2026-01-29",
-          "min_cm": 0,
-          "max_cm": 0
+          "min_cm": 2,
+          "max_cm": 5
         },
         {
           "date": "2026-01-30",
@@ -104,24 +110,29 @@
         },
         {
           "date": "2026-01-31",
+          "min_cm": 1,
+          "max_cm": 1
+        },
+        {
+          "date": "2026-02-01",
           "min_cm": 0,
-          "max_cm": 2
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 12
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX ENCORE INSTABLE - ÉPAISSE CASSURE TOUJOURS POSSIBLE",
-      "text": "MANTEAU NEIGEUX ENCORE INSTABLE - ÉPAISSE CASSURE TOUJOURS POSSIBLE\n\nDéclenchements provoqués : le manteau neigeux reste très instable dans de nombreuses pentes au dessus de 2000/2200 m. Risque accidentel franchement marqué avec de nombreuses plaques en place, formées lors des fortes chutes de neige ventées du milieu de semaine. Elles sont très faciles à déclencher et peuvent générer des avalanches de taille moyenne à grande (taille 2 à 3). Une très grande avalanche de taille 4 n'est pas exclue en cas de sollicitation d'une couche fragile persistante plus profondément enfouie, notamment dans les versants ombragés (ouest, nord, est). Des traces ne sont pas signe de stabilité...\nSous 2000 m, risque moins marqué avec une neige récente qui a gagné en cohésion surtout en sud, sous l'effet des éclaircies.\n\nDéparts spontanés : peu probables. Les chutes de neige étant trop faibles pour générer de l'activité naturelle.",
+      "title": "INSTABILITÉS ENCORE ÉPAISSES ET DIFFICILEMENT IDENTIFIABLES",
+      "text": "INSTABILITÉS ENCORE ÉPAISSES ET DIFFICILEMENT IDENTIFIABLES\n\nDéclenchements provoqués : le manteau neigeux n'est que faiblement stabilisé dans de nombreuses pentes. Ces instabilités, plus larges et épaisses en altitude, se situent principalement en orientations ouest, nord et est, au-dessus de 1800 m d'altitude. Un seul skieur peut facilement les déclencher, parfois à distance, et générer des avalanches de taille moyenne (taille 2) à grande (taille 3). Elles restent souvent d'aspect friable, éventuellement plus dures dans les secteurs d’accumulation par le vent en altitude, notamment à proximité des crêtes. La neige récente repose sur une couche fragile régulièrement répartie au sein du manteau neigeux, difficilement identifiable depuis la surface.\nCes instabilités sont également possibles dans les secteurs réputés peu dangereux, comme les forêts clairsemées ; par ailleurs, en situation avalancheuse typique de couche fragile persistante, une pente déjà skiée n'est pas synonyme de stabilité.\nEn versants bien ensoleillés, et sous 1800 m, le risque est limité. La neige récente a pris de la cohésion et les couches fragiles persistantes sont moins fréquentes.  \n\nDéparts spontanés : ponctuels de neige humide au soleil, restant de taille petite à moyenne. La masse d'air relativement frais en altitude limite l'humidification de la neige récente.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigementest désormais proche des normales pour une fin janvier avec les récentes chutes de neige.\nDonnées observées ce mardi : 97 cm à la Nivôse d'Orcières à 2280 m, et 132 cm à Prapic à 2480 m.\n\nLimite d'enneigement skiable  : avec précaution sur terrain favorable vers 1200 m en ubacs, 1400/1500 m en adrets.\n\nÉtat de la neige de surface : épaisse couche de neige récente avec 40/50 cm en général. Cette neige est bien légère et poudreuse au-dessus de 2200 m, plus lourde en dessous et parfois croûtée en sud. Elle repose sur un manteau neigeux peu consolidé et profond ou sur un fond dur dans les orientations plus ensoleillées.",
+      "text": "L'enneigement est  excédentaire pour un début février en vallées, plus proche des normales au-dessus de 2000 m.\nDonnées observées : 47 cm au hameau des Portes dans le Valgaudemar à 1270 m, 92 cm à la Nivôse d'Orcières à 2280 m, et 130 cm au-dessus de Prapic à 2480 m.\n\nEnneigement skiable dès les fonds de vallées, avec précaution sous 1400/1500 m en adrets.\n\nÉtat de la neige de surface : neige récente meuble (40 à 50 cm à partir de 1800 m), encore légère et poudreuse en ubacs abrités du vent, bien densifiés par le redoux et superficiellement croûtés en adrets jusque 2200 m environ. Plus haut, neige plus travaillée par le vent. Crêtes bien chargées, congères dans les pentes.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +143,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 80,
-          "S": 60
+          "N": 45,
+          "S": 35
         },
         {
           "alt_m": 2000,
-          "N": 125,
-          "S": 115
+          "N": 130,
+          "S": 100
         },
         {
           "alt_m": 2500,
-          "N": 195,
-          "S": 165
+          "N": 180,
+          "S": 150
         }
       ],
       "icon_key": "snowpack",

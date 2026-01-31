@@ -3,8 +3,8 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-01-30T16:00:00",
-    "valid_until": "2026-01-31T18:00:00",
+    "issued_at": "2026-01-31T16:00:00",
+    "valid_until": "2026-02-01T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-02-01",
-        "label": "Indice de risque limité",
-        "comment": "Dimanche, le manteau se tasse et se stabilise. Aux heures chaudes, quelques coulées humides localement possibles.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-02-02",
+        "label": "Indice de risque marqué",
+        "comment": "Lundi, risque en hausse. Le vent de Sud se renforce très nettement en journée, devenant fort à tempêtueux en fin d'après-midi et le soir, transportant la neige récente et créant de nouvelles instabilités. Quelques chutes de neige ventées sont également attendues en soirée et nuit suivante.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -53,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": 1,
+      "primary": 1,
+      "secondary": 4,
       "labels": {
-        "4": "Neige humide",
-        "1": "Neige fraîche"
+        "1": "Neige fraîche",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-26",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-01-27",
           "min_cm": 7,
@@ -104,24 +99,29 @@
         },
         {
           "date": "2026-01-31",
+          "min_cm": 1,
+          "max_cm": 3
+        },
+        {
+          "date": "2026-02-01",
           "min_cm": 0,
-          "max_cm": 2
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 12
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 4
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES INSTABILITES DANS LA NEIGE RECENTE, PETITES COULEES SOUS L'HUMIDIFICATION",
-      "text": "QUELQUES INSTABILITES DANS LA NEIGE RECENTE, PETITES COULEES SOUS L'HUMIDIFICATION\n\nDéclenchements provoqués : Quelques instabilités peuvent être présentes dans les 30 à 50cm de neige récente, mais semblent être plus nombreuses dans les 15cm tombés vendredi. Le risque pourrait être un peu plus important en journée où l'humidification de la neige de surface peut créer de petites structures de plaques, avec une neige encore plus légère en profondeur. Ces instabilités restent peu nombreuses, et les plaques généralement peu larges. Le risque semble surtout de faire partir une coulée ponctuelle sous les skis.\nDéparts spontanés : En journée de samedi, des coulées de neige humide peuvent partir, emportant principalement les 30-50cm de neige récente. Elles seront surtout présentes sous les rochers, dans les versants chauds.",
+      "title": "QUELQUES INSTABILITÉS LOCALES EN VERSANT FROID D'ALTITUDE, ET RARES DÉPARTS HUMIDES EN PENTES RÉCHAUFFÉES",
+      "text": "QUELQUES INSTABILITÉS LOCALES EN VERSANT FROID D'ALTITUDE, ET RARES DÉPARTS HUMIDES EN PENTES RÉCHAUFFÉES\n\nDéclenchements provoqués : Dans les versants d'un large Nord d'altitude au-dessus de 1400/1600 m, quelques instabilités locales peuvent encore être présentes dans les zones d'accumulations de neige récente, restée un peu plus légère malgré un tassement progressif. Elles sont généralement peu épaisses et en voie de stabilisation, mais très ponctuellement un pratiquant pourrait déclencher une plaque friable plus facilement. Sinon, dans les autres versants et à basse altitude, le risque semble surtout de faire partir une coulée humide ponctuelle sous les skis dans une pente \"réchauffée\".\n\nDéparts spontanés : En journée de dimanche, de rares avalanches de neige humide de taille 1 à 2 (petites à moyennes) ne sont pas exclues dans la neige récente qui s'humidifie, notamment dans les pentes raides qui seront exposées au soleil et près des rochers.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est  récemment amélioré et devient correct  voire bon pour la saison, notamment en prairies/pistes forestières.\n\nLimites skiables : vers 900/1200 m, hors sapins.\n\nQualité de la neige samedi : Epaisse couche de neige récente peu ventée (30 à 40cm). Elle s'est allourdie en surface sous le redoux de vendredi, mais reste légère en profondeur. Au réveil, légère croûte possible, plus épaisse (mais non portante) en Sud. En journée, reprise de l'humidification, avec une neige lourde pénible à skier en Sud, restant plus légère en Nord.",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est récemment amélioré et est devenu correct voire bon pour la saison, notamment en prairies/pistes forestières.\n\nLimites skiables : vers 900/1200 m, hors sapins.\n\nQualité de la neige dimanche : Neige récente peu ventée en cours de tassement, encore un peu légère en pentes Nord d'altitude et s'étant alourdie/humidifiée sous 1400 m et dans les versants ensoleillés, où elle est parfois croûtée. En journée, l'humidification peut reprendre au soleil et sous les nuages d'altitude.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 35,
-          "S": 20
+          "N": 30,
+          "S": 15
         },
         {
           "alt_m": 1500,
-          "N": 130,
-          "S": 80
+          "N": 135,
+          "S": 85
         },
         {
           "alt_m": 2000,
-          "N": 180,
-          "S": 130
+          "N": 160,
+          "S": 120
         }
       ],
       "icon_key": "snowpack",

@@ -3,8 +3,8 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-01-30T16:00:00",
-    "valid_until": "2026-01-31T18:00:00",
+    "issued_at": "2026-01-31T16:00:00",
+    "valid_until": "2026-02-01T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-01",
+        "date": "2026-02-02",
         "label": "Indice de risque marqué",
-        "comment": "Maintient du risque marqué en raison de la couche fragile persistante, baisse du risque en surface.",
+        "comment": "Beau temps lundi matin, puis le ciel s'ennuage et le vent de Sud se lève fortement en deuxième partie de journée. De nouvelles plaques vont pouvoir se former dans la neige récente d'ici la fin de journée.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-26",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-27",
           "min_cm": 0,
           "max_cm": 3
@@ -111,51 +106,56 @@
         },
         {
           "date": "2026-01-30",
-          "min_cm": 10,
-          "max_cm": 15
+          "min_cm": 5,
+          "max_cm": 10
         },
         {
           "date": "2026-01-31",
-          "min_cm": 2,
-          "max_cm": 4
+          "min_cm": 0,
+          "max_cm": 1
+        },
+        {
+          "date": "2026-02-01",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 12,
-        "last_48h_max_cm": 19
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "PLAQUES À VENT, COUCHE FRAGILE ENFOUIE DANS LES VERSANTS FROIDS.",
-      "text": "PLAQUES À VENT, COUCHE FRAGILE ENFOUIE DANS LES VERSANTS FROIDS. \n\nDéclenchements provoqués :\nNombreuses plaques friables en surface, formées par les variations de vent et les nombreuses petites chutes de neige de cette semaine, en place en tous versants. On les trouve dans les zones d'accumulation, aussi bien près des crêtes qu'en pied de pente. Elles sont réactives et engendrent des avalanches souvent de petites taille en général (cassures de 10/20 cm) , parfois de taille 2 (moyenne)..\nSeconde problématique : au-dessus de 1800 m, une couche fragile persistante enfouie (grains anguleux sans cohésion, semblables à du gros sel) essentiellement dans les pentes Nord, Est et Ouest, engendre une autre structure de plaque plus ancienne. Les caractéristiques actuelles rendent son déclenchement difficile et aléatoire, plutôt en cascade mais parfois, un simple skieur peut suffire en fonction du terrain. Les avalanches provoquées peuvent être grandes (T2, parfois T3), avec des cassures moyennes allant de 40 cm à 1 m (localement plus). \nObservables :  pour les plaques \"de surface\", surveiller les signes de transport, les accumulation en neige raffermie mais elles peuvent être dissimulées par une petite couche de neige très légère tombée ce vendredi. Pour les autres, seul un \"woumf\" ou une coupe du manteau peut mettre à jour la présence de couche fragile persistante.\n\nDéparts spontanés : \n - quelques départs petits ponctuels dans les pentes raides (taille 1).",
+      "text": "PLAQUES À VENT, COUCHE FRAGILE ENFOUIE DANS LES VERSANTS FROIDS. \n\nDéclenchements provoqués : \nQuelques plaques friables en surface, en tous versants. Elles se sont formées avec les petites chutes de neige et le vent tout au long de la semaine. On les trouve dans les zones d'accumulation, aussi bien près des crêtes qu'en pied de pente. Elles perdent en réactivité mais peuvent encore réagir au passage d'un skieur. Cassures 20/40 cm, tailles 1 à 2 (petites à moyennes).\nSeconde problématique : au-dessus de 1800 m, essentiellement en Nord/Est/Ouest, une couche fragile persistante enfouie (grains anguleux sans cohésion, semblables à du gros sel) engendre une autre structure de plaque plus ancienne. Le déclenchement est aléatoire et généralement difficile, plutôt en cascade mais parfois, un simple skieur peut suffire en fonction du terrain. Les avalanches provoquées peuvent être grandes (taille 3), avec des cassures de 40 cm à 1 m (localement plus). \nObservables :  pour les plaques \"de surface\", surveiller les signes de transport, les accumulation en neige raffermie mais elles peuvent être dissimulées par une petite couche de neige très légère tombée ce vendredi. Pour les autres, seul un \"woumf\" ou une coupe du manteau peut mettre à jour la présence de couche fragile persistante.\n\nDéparts spontanés : rares petits départs ponctuels, au soleil dans les adrets raides (taille 1, souvent de simples boulettes).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : l'enneigement est désormais globalement normal. Les petites chutes de neige maintiennent l'enneigement dans la nome.\n\nLimite skiable : encore à basse altitude sur l'herbe en ubac, parfois dès 900 à 1000 m. Même si la plupart des pentes sont enneigées bas, sur terrain rocheux, il vaut mieux atteindre 1300 m en N, 1800 m en Sud pour trouver un terrain plus serein.\n\nQualité de la neige : poudre légère sur fond dense (mais rarement dur) rendant le ski très agréable. La neige récente a souvent été redistribuée par le vent, en moyenne 15/25 cm mais parfois le triple dans les zones d’accumulation. La couverture nuageuse et la hausse de l'isotherme 0 °C peut rendre la neige plus lourde et collante en dessous de 1700m environ.",
+      "text": "Enneigement : l'enneigement est désormais globalement normal. Les petites chutes de neige tout au long de la semaine ont maintenu l'enneigement dans la norme.\n\nLimite skiable : encore à basse altitude sur l'herbe en ubac, parfois dès 900 à 1000 m. Même si la plupart des pentes sont enneigées bas, sur terrain rocheux, il vaut mieux atteindre 1300 m en N, 1800 m en Sud pour trouver un terrain plus serein.\n\nQualité de la neige : dans la plupart des secteurs, poudre légère sur fond dense (mais rarement dur) rendant le ski très agréable. La neige récente a souvent été redistribuée par le vent, en moyenne 15/25 cm mais parfois le triple dans les zones d’accumulation. Neige croutée puis humide en journée sous 1600/1800 m. L'humidification remonte un peu plus haut en adrets, ça peut \"botter\" en journée dans ces versants ensoleillés.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 800,
-        "south": 800
+        "south": 1100
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 100,
+          "N": 90,
           "S": 70
         },
         {
           "alt_m": 2000,
-          "N": 165,
-          "S": 135
+          "N": 150,
+          "S": 120
         },
         {
           "alt_m": 2500,
-          "N": 205,
-          "S": 185
+          "N": 190,
+          "S": 170
         }
       ],
       "icon_key": "snowpack",
