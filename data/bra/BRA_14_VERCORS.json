@@ -3,49 +3,61 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-01-31T16:00:00",
-    "valid_until": "2026-02-01T18:00:00",
+    "issued_at": "2026-02-01T16:00:00",
+    "valid_until": "2026-02-02T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "max_level": 3,
+      "comment": "Au-dessus de 1500m indice de risque limité évoluant en marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1500,
+        "split_axis": "horizontal",
+        "split_label": "1500m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1500",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1500",
+            "risk": 2,
+            "evolution_to": 3,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1500m"
         },
         "zones": {
-          "center": {
+          "bottom": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
+          },
+          "top": {
+            "text": "2→3",
+            "risk": 2,
+            "evolution_to": 3
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-02",
+        "date": "2026-02-03",
         "label": "Indice de risque marqué",
-        "comment": "Lundi, risque en hausse. Le vent de Sud se renforce très nettement en journée, devenant fort à tempêtueux en fin d'après-midi et le soir, transportant la neige récente et créant de nouvelles instabilités. Des chutes de neige ventées sont également attendues en soirée et nuit suivante.",
-        "trend": "up"
+        "comment": "Mardi, risque restant de niveau marqué. Le vent de Sud et les chutes de neige auront formé et formeront de nombreuses instabilités réactives.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +78,16 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 4,
+      "primary": 2,
+      "secondary": null,
       "labels": {
-        "1": "Neige fraîche",
-        "4": "Neige humide"
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-27",
-          "min_cm": 10,
-          "max_cm": 20
-        },
         {
           "date": "2026-01-28",
           "min_cm": 10,
@@ -99,29 +105,34 @@
         },
         {
           "date": "2026-01-31",
-          "min_cm": 1,
-          "max_cm": 3
+          "min_cm": 0,
+          "max_cm": 1
         },
         {
           "date": "2026-02-01",
           "min_cm": 0,
           "max_cm": 1
+        },
+        {
+          "date": "2026-02-02",
+          "min_cm": 3,
+          "max_cm": 10
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 4
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 11
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES INSTABILITÉS LOCALES EN VERSANT FROID D'ALTITUDE, ET RARES DÉPARTS HUMIDES EN PENTES RÉCHAUFFÉES",
-      "text": "QUELQUES INSTABILITÉS LOCALES EN VERSANT FROID D'ALTITUDE, ET RARES DÉPARTS HUMIDES EN PENTES RÉCHAUFFÉES\n\nDéclenchements provoqués : Dans les versants d'un large Nord d'altitude au-dessus de 1400/1600 m, quelques instabilités locales peuvent encore être présentes dans les zones d'accumulations de neige récente, restée un peu plus légère malgré un tassement progressif. Elles sont généralement peu épaisses et en voie de stabilisation, mais très ponctuellement un pratiquant pourrait déclencher une plaque friable plus facilement. Sinon, dans les autres versants et à basse altitude, le risque semble surtout de faire partir une coulée humide ponctuelle sous les skis dans une pente \"réchauffée\".\n\nDéparts spontanés : En journée de dimanche, de rares avalanches de neige humide de taille 1 à 2 (petites à moyennes) ne sont pas exclues dans la neige récente qui s'humidifie, notamment dans les pentes raides qui seront exposées au soleil et près des rochers.",
+      "title": "FORMATION DE NOUVELLES INSTABILITÉS DANS LES VERSANTS FROIDS, SOUS LE VENT DE SUD QUI SE RENFORCE CE LUNDI.",
+      "text": "FORMATION DE NOUVELLES INSTABILITÉS DANS LES VERSANTS FROIDS, SOUS LE VENT DE SUD QUI SE RENFORCE CE LUNDI.\n\nDéclenchements provoqués : Risque en augmentation au fil de la journée de lundi. Dans les versants d'un large Nord, de nouvelles instabilités vont se former dans la neige récente restée légère, avec le vent de Sud qui se renforce en cours de journée. D'abord très locales et peu épaisses en première partie de journée, elles se font de plus en plus nombreuses au fil des heures et notamment dans l'après-midi. Ces nouvelles plaques sont situées dans les zones d'accumulation par le vent, à proximité des crêtes dans un premier temps, puis le risque augmente également dans les bas de pentes et plus loin des crêtes au fur et à mesure que le vent forcit. Elles peuvent être réactives et faciles à déclencher par un seul pratiquant. Sous 1400/1600 m environ, le risque devrait rester plus limité, la neige récente s'étant davantage alourdie/humidifiée.\n\nDéparts spontanés : En journée de lundi, de rares avalanches de neige humide de taille 1 à 2 (petites à moyennes) ne sont pas exclues dans la neige récente qui s'humidifie, notamment dans les pentes raides qui seront exposées au soleil et près des rochers.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est récemment amélioré et est redevenu correct  voire bon pour la saison, notamment en prairies/pistes forestières.\n\nLimites skiables : vers 900/1200 m, hors sapins.\n\nQualité de la neige dimanche : Neige récente peu ventée en cours de tassement, encore un peu légère en pentes Nord d'altitude et s'étant alourdie/humidifiée sous 1400 m et dans les versants ensoleillés, où elle est parfois croûtée. En journée, l'humidification peut reprendre au soleil et sous les nuages d'altitude.",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est récemment amélioré et est redevenu correct  voire bon pour la saison, notamment en prairies/pistes forestières. Le vent de Sud attendu va dégrader la situation aux basses altitudes.\n\nLimites skiables : vers 900/1200 m, hors sapins.\n\nQualité de la neige lundi : Neige récente en cours de tassement, encore un peu légère en pentes Nord d'altitude et s'étant alourdie/humidifiée sous 1400/1600 m et dans les versants ensoleillés, où elle est parfois croûtée. En journée, outre l'humidification qui peut reprendre au soleil, la neige récente subit de plus en plus les effets du vent de Sud, travaillée puis soufflée/arrachée vers les crêtes, dont certaines pourraient redevenir dégarnies. En toute fin de journée/soirée, des chutes de neige remontant du Sud peuvent commencer à déposer une petite couche de fraîche (de manière très irrégulière à cause du vent fort).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +148,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 120,
-          "S": 70
+          "N": 115,
+          "S": 65
         },
         {
           "alt_m": 2000,
-          "N": 160,
-          "S": 105
+          "N": 155,
+          "S": 100
         }
       ],
       "icon_key": "snowpack",

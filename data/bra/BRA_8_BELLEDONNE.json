@@ -3,30 +3,30 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-01-31T16:00:00",
-    "valid_until": "2026-02-01T18:00:00",
+    "issued_at": "2026-02-01T16:00:00",
+    "valid_until": "2026-02-02T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 1500m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 1800,
+        "threshold_m": 1500,
         "split_axis": "horizontal",
-        "split_label": "1800m",
+        "split_label": "1500m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1800",
+            "loc": "<1500",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">1800",
+            "loc": ">1500",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "1800m"
+          "label": "1500m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-02",
+        "date": "2026-02-03",
         "label": "Indice de risque marqué",
-        "comment": "Lundi, risque à nouveau en hausse relative. Le vent de Sud se renforce très nettement en journée, devenant fort à tempêtueux en fin d'après-midi et le soir, transportant la neige récente et créant de nouvelles instabilités. Quelques chutes de neige ventées sont attendues en soirée et nuit suivante.",
+        "comment": "Mardi, risque restant marqué sur le massif, en augmentation par rapport à la veille. Le vent de Sud et les chutes de neige auront formé et formeront de nombreuses instabilités réactives, qui pourront elles-même plus facilement solliciter les quelques sous-couches fragiles enfouies par endroits dans le manteau neigeux.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-27",
-          "min_cm": 7,
-          "max_cm": 15
-        },
-        {
           "date": "2026-01-28",
           "min_cm": 10,
           "max_cm": 20
@@ -111,51 +106,56 @@
         },
         {
           "date": "2026-01-31",
-          "min_cm": 1,
-          "max_cm": 2
+          "min_cm": 0,
+          "max_cm": 1
         },
         {
           "date": "2026-02-01",
           "min_cm": 0,
           "max_cm": 1
+        },
+        {
+          "date": "2026-02-02",
+          "min_cm": 3,
+          "max_cm": 8
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 3
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 9
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES INSTABILITÉS EN VERSANTS FROIDS D'ALTITUDE, AVEC LOCALEMENT DES COUCHES FRAGILES ENFOUIES.",
-      "text": "QUELQUES INSTABILITÉS EN VERSANTS FROIDS D'ALTITUDE, AVEC LOCALEMENT DES COUCHES FRAGILES ENFOUIES.\n\nDéclenchements provoqués : Principalement au-dessus de 1800/1900m et dans les versants froids d'un large Nord, quelques instabilités demeurent présentes dans la neige récente, pouvant encore être faciles à déclencher par un pratiquant. Elles sont surtout localisées en altitude, près des crêtes où le vent a donné un peu de cohésion à la neige de surface et créé quelques accumulations. Ces plaques sont généralement peu épaisses et peu larges, mais parfois suffisantes pour ensevelir un pratiquant. De plus, très ponctuellement, le départ d'une avalanche de surface pourrait également déclencher en cascade une avalanche de plus grande ampleur, en venant solliciter des couches fragiles persistantes enfouies dans le manteau. Ces couches fragiles pourraient être davantage présentes sur l'Est du massif, côté Maurienne, que plus à l'Ouest...\nPlus bas que 1800m, les instabilités sont plus rares, et les couches fragiles persistantes semblent absentes.\n\nDéparts spontanés : En journée de dimanche, de rares avalanches de neige humide de taille 1 à 2 (petites à moyennes) ne sont pas exclues dans la neige récente qui s'humidifie, notamment dans les pentes raides qui seront exposées au soleil et près des rochers. Très ponctuellement, un départ spontané linéaire (en plaque) atteignant la taille 3 ne peut toutefois être totalement exclu.",
+      "title": "NOUVELLES INSTABILITÉS EN FORMATION DANS LES VERSANTS FROIDS, AVEC LOCALEMENT DES COUCHES FRAGILES ENFOUIES.",
+      "text": "NOUVELLES INSTABILITÉS EN FORMATION DANS LES VERSANTS FROIDS, AVEC LOCALEMENT DES COUCHES FRAGILES ENFOUIES.\n\nDéclenchements provoqués : Risque devenant plus marqué au fil de la journée de lundi dans les versants froids d'un large Nord. De nouvelles instabilités vont se former dans la neige récente restée légère, avec le vent de Sud qui se renforce en cours de journée. D'abord assez locales et souvent peu épaisses en première partie de journée, elles se font de plus en plus nombreuses au fil des heures et notamment dans l'après-midi. Ces nouvelles plaques, souvent réactives et faciles à déclencher, sont situées dans les zones d'accumulation par le vent, à proximité des crêtes dans un premier temps, puis le risque augmente également dans les bas de pentes et plus loin des crêtes au fur et à mesure que le vent forcit. De plus, très ponctuellement au-dessus de 1800m environ, le départ d'une avalanche de surface pourrait également déclencher en cascade une avalanche de plus grande ampleur, en venant solliciter des couches fragiles persistantes enfouies dans le manteau. Ces couches fragiles pourraient être davantage présentes sur l'Est du massif, côté Maurienne, mais très localement on a pu également en observer plus à l'Ouest...\nSous 1400/1600 m environ, le risque devrait rester plus limité, la neige récente s'étant davantage alourdie/humidifiée.\n\nDéparts spontanés : En journée de lundi, de rares avalanches de neige humide de taille 1 à 2 (petites à moyennes) ne sont pas exclues dans la neige récente qui s'humidifie, notamment dans les pentes raides qui seront exposées au soleil et près des rochers. Très ponctuellement, un départ spontané linéaire (en plaque) atteignant la taille 3 ne peut être exclu.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement s'est bien amélioré cette semaine et est désormais typique d'une fin janvier sur le massif (quoi que légèrement déficitaire à basse altitude). Les crêtes sont toutefois assez peu enneigées ainsi que les pentes plein Sud, les chemins sous les sapins...\n\nLimites skiables : à partir de 1000/1300 m.\n\nQualité de la neige dimanche : Neige récente en cours de tassement, généralement encore assez légère, et parfois travaillée par le vent à l'abord des crêtes. Sous 1800/1900 m et dans les versants ensoleillés, la neige s'est davantage alourdie, et peut être parfois croûtée. En journée, l'humidification peut reprendre au soleil et sous les nuages d'altitude.",
+      "text": "Qualification de l’enneigement : L'enneigement s'est bien amélioré cette semaine et est désormais typique d'une fin janvier sur le massif (quoi que légèrement déficitaire à basse altitude). Les crêtes sont toutefois assez peu enneigées ainsi que les pentes plein Sud, les chemins sous les sapins...\n\nLimites skiables : à partir de 1000/1300 m.\n\nQualité de la neige lundi : Neige récente en cours de tassement, généralement encore assez légère, et parfois travaillée par le vent à l'abord des crêtes. Sous 1400/1600 m et dans les versants ensoleillés, la neige s'est davantage alourdie, et peut être parfois croûtée. En journée, outre l'humidification qui peut reprendre au soleil, la neige récente subit de plus en plus les effets du vent de Sud, travaillée puis soufflée/arrachée vers les crêtes, dont certaines pourraient redevenir dégarnies. En toute fin de journée/soirée, quelques chutes de neige remontant du Sud peuvent commencer à déposer une fine couche de fraîche (de manière très irrégulière à cause du vent fort).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 800,
-        "south": 900
+        "south": 1000
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 120,
-          "S": 75
+          "N": 115,
+          "S": 70
         },
         {
           "alt_m": 2000,
-          "N": 190,
-          "S": 125
+          "N": 185,
+          "S": 120
         },
         {
           "alt_m": 2500,
-          "N": 230,
-          "S": 195
+          "N": 225,
+          "S": 190
         }
       ],
       "icon_key": "snowpack",

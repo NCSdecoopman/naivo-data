@@ -3,8 +3,8 @@
   "massif": "Chablais",
   "bulletin": {
     "id": 1,
-    "issued_at": "2026-01-31T16:00:00",
-    "valid_until": "2026-02-01T18:00:00",
+    "issued_at": "2026-02-01T16:00:00",
+    "valid_until": "2026-02-02T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-02",
+        "date": "2026-02-03",
         "label": "Indice de risque marqué",
-        "comment": "Lundi, le vent de sud forcit.\n⇒ risque en petite hausse, formation de quelques plaques à vent dans la neige récente. Sous-couche fragile persistante toujours présente.",
+        "comment": "Risque marqué, le vent de sud-ouest forcit dans la nuit avec quelques chutes de neige, créant de nouvelles plaques à vent, même loin des crêtes.",
         "trend": "steady"
       }
     },
@@ -68,7 +68,7 @@
         "SE": false,
         "S": false,
         "SW": false,
-        "W": true,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -89,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-27",
-          "min_cm": 5,
-          "max_cm": 10
-        },
         {
           "date": "2026-01-28",
           "min_cm": 10,
@@ -116,24 +111,29 @@
         },
         {
           "date": "2026-02-01",
+          "min_cm": 1,
+          "max_cm": 1
+        },
+        {
+          "date": "2026-02-02",
           "min_cm": 0,
           "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 2
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "",
-      "text": "Déclenchements provoqués :\n* plaques à vent, d’aspect friable, formées dans la neige récente avec le vent de sud-sud-ouest de vendredi. Assez facile à déclencher. Elles sont rares sous 2200 m, un peu plus nombreuses au-dessus de 2200 m et à proximité des crêtes. Taille 1 à 2 (petites à moyenne).  \nObservables : vaguelettes sur la neige de surface, fissures sous les skis, accumulations de neige récente. \n* rares plaques sur sous-couche fragile persistante enfouie, dans les versants ouest/nord/est, au-dessus de 1800/2000 m. Difficile à déclencher par un.e skieur.e, mais possible avalanche en cascade (déclenchement par la plaque à vent décrite ci-dessus). Taille 2 (moyenne) avec des cassures de 60/80 cm d’épais.\nObservables : pas d’indice de surface, test CT, ECT. \n\nDéparts spontanés :\nRares petites avalanches dans les falaises ou près des rochers des pentes ensoleillés, sous les éclaircies. Taille 1 (petite).",
+      "text": "Déclenchements provoqués :\n* Plaques à vent, d'aspect friable. Elles sont de plus en plus nombreuses et épaisses en journée avec le renforcement du vent de sud-sud-ouest (elles se rajoutent à celles déjà formées vendredi sous ce même vent). Elles sont rares sous 2200 m, un peu plus nombreuses au-dessus de 2200 m et à proximité des crêtes. Taille 1 à 2 (petites à moyenne).\nObservables : vaguelettes sur la neige de surface, fissures sous les skis, accumulations de neige récente. \n* Rares plaques sur sous-couche fragile persistante enfouie, dans les versants ouest/nord/est, au-dessus de 1800/2000 m. Difficile à déclencher par un.e skieur.se, mais possible avalanche en cascade (déclenchement par la plaque à vent décrite ci-dessus). Taille 2 (moyenne) avec des cassures de 60/80 cm d’épais.\nObservables : pas d’indice de surface, test CT, ECT. \n\nDéparts spontanés :\n* Petites avalanches dans la neige récente, surtout dans les pentes raides, sous l'effet du couvert nuageux l'après-midi. Taille 1 (petite). \n* Rares plaques de fond dans les pentes herbeuses, à toute heure du jour et de la nuit, orientations E/S/O. Taille 1 (petite).\n\nAutres risques : attention aux ruptures de corniches.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire en dessous de 2500 et correct au-dessus. \nOn peut chausser les skis vers 900/1000 m. Pas de sous-couche sous 1500 m ou sur les crêtes, des cailloux sont cachés sous la neige récente. \n\nQualité de la neige ce dimanche matin : \n20/30 cm de neige récente froide et légère reposant sur un fond dur. Dans les versants sud/sud-ouest la neige est plus dense et s’humidifie au soleil sous les éclaircies. \nEn dessous de 1500 m, 10/20 cm de neige dense, voire crouté sous 1300 m.",
+      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire en dessous de 2500 et correct au-dessus. \nOn peut chausser les skis vers 900/1000 m. Pas de sous-couche sous 1500 m ou sur les crêtes, des cailloux sont cachés sous la neige récente. \n\nQualité de la neige ce lundi matin : \n20/30 cm de neige récente froide et légère reposant sur un fond dur. Dans les versants sud/sud-ouest la neige est plus dense et s’humidifie au soleil sous les éclaircies. Elle est parfois ventée vers les crêtes, surtout dans les versants N/NE.\nEn dessous de 1500 m, 10/20 cm de neige dense, voire crouté sous 1300 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

@@ -3,8 +3,8 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-01-31T16:00:00",
-    "valid_until": "2026-02-01T18:00:00",
+    "issued_at": "2026-02-01T17:00:00",
+    "valid_until": "2026-02-02T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-02",
-        "label": "Indice de risque marqué",
-        "comment": "Beau temps lundi matin, puis le ciel s'ennuage et la lombarde se lève fortement en deuxième partie de journée. De nouvelles plaques vont pouvoir se former dans la neige récente d'ici la fin de journée.",
-        "trend": "steady"
+        "max_level": 4,
+        "date": "2026-02-03",
+        "label": "Indice de risque fort",
+        "comment": "Tempête de lombarde dans la nuit de lundi à mardi : risque en hausse avec de nombreuses plaques réactives, et toujours le risque de déclencher \"un monstre\" en cas de départ en cascade...",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 3,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 3,
       "labels": {
-        "3": "Couche fragile persistante",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-3"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-27",
-          "min_cm": 3,
-          "max_cm": 7
-        },
         {
           "date": "2026-01-28",
           "min_cm": 3,
@@ -118,34 +113,39 @@
           "date": "2026-02-01",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-02",
+          "min_cm": 2,
+          "max_cm": 7
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 2,
+        "last_48h_max_cm": 7
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "COUCHE FRAGILE ENFOUIE : GRANDES AVALANCHES TOUJOURS POSSIBLES.",
-      "text": "COUCHE FRAGILE ENFOUIE : GRANDES AVALANCHES TOUJOURS POSSIBLES.\n\nDéclenchements provoqués :\nATTENTION, au-dessus de 1800 m, une couche fragile persistante reste enfouie (grains anguleux sans cohésion, semblables à du gros sel). Présente essentiellement dans les pentes Nord, Est et Ouest mais aussi en Sud à haute altitude, elle vient former une épaisse structure de plaque. Son déclenchement est possible, aussi bien localement qu'à distance, ou qu'en cascade. Les avalanches provoquées peuvent être grandes (taille 3), avec des cassures régulièrement autour d'1 m. \nDe plus, quelques petites plaques friables de surface sont en place en tous versants. Elles se sont formées avec les petites chutes de neige et le vent tout au long de la semaine. On les trouve dans les zones d'accumulation, aussi bien près des crêtes qu'en pied de pente. Elles perdent en réactivité mais peuvent encore réagir au passage d'un skieur. Cassures 20/40 cm, tailles 1 à 2 (petites à moyennes).\nObservables :  pour les plaques \"de surface\", le transport de neige par le vent est visible par moment mais mais la présence d'une petite couche de neige fraîche tombée sans vent ce vendredi peut les dissimuler. Pour les autres, seul un \"woumf\" ou une coupe du manteau peut mettre à jour la présence de couche fragile persistante.\n\nDéparts spontanés : rares petits départs ponctuels, au soleil dans les adrets raides (taille 1, souvent de simples boulettes).",
+      "title": "FORMATION DE NOUVELLES PLAQUES SUPERFICIELLES SOUS LE FOEHN QUI S'ÉTABLIT EN JOURNÉE. \nTOUJOURS UN RISQUE DE GROS DÉPART EN CAS DE MOBILISATION DE LA COUCHE FRAGILE ENFOUIE.",
+      "text": "FORMATION DE NOUVELLES PLAQUES SUPERFICIELLES SOUS LE FOEHN QUI S'ÉTABLIT EN JOURNÉE. \nTOUJOURS UN RISQUE DE GROS DÉPART EN CAS DE MOBILISATION DE LA COUCHE FRAGILE ENFOUIE.\n\nDéclenchements provoqués :\n(1) Quelques plaques friables en formation sous la lombarde qui forcit au fil de la journée. Ces plaques sont de plus en plus réactives et épaisses, et se retrouvent aussi bien près des crêtes qu'en pied de pentes. Tailles 2 (moyennes) avec cassures de 20/40 cm d'ici la fin de journée. Seules les pentes Sud raides sous 2000/2200 m d'altitude seront moins réactives car la neige y est transformée. Observables : indices de transport, neige un peu plus ferme sous les skis.\n(2) La couche fragile persistante (grains anguleux), enfouie depuis plusieurs semaine, reste généralisée dès 1800 m. Présente essentiellement dans les pentes Nord, Est et Ouest mais aussi en Sud à haute altitude, elle vient former une épaisse structure de plaque qui, en cas de déclenchement, entraîne l'ensemble du manteau neigeux. Déclenchement aléatoire, souvent difficile, encore parfois possible à distance, provoquant des avalanches de taille 3 (grandes), avec des cassures d'1 à 2 m. Observables : woumfs, tests CT/ECT.\nUne première avalanche dans la neige ventée (1) pourrait mobiliser en cascade la couche fragile enfouie (2).\n\nDéparts spontanés : au fil de la journée et du vent qui forcit, quelques petits départs linéaires peuvent se produire spontanément. Une rare taille 2 est possible, mais il n'est alors pas exclu que cette première avalanche moyenne vienne mobiliser en cascade les vieilles couches fragiles enfouies, engendrant alors une taille 3.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : tout à fait correct pour la saison.\n\nLimite skiable :  à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1500 m en N, 2000 m en Sud.\n\nQualité de la neige : dans la plupart des secteurs, poudre légère sur fond dense (mais rarement dur) rendant le ski très agréable. La neige récente a souvent été redistribuée par le vent, en moyenne 15/25 cm mais parfois le triple dans les zones d’accumulation. Neige croutée puis humide en journée sous 1600/1800 m. L'humidification remonte un peu plus haut en adrets, ça peut \"botter\" en journée dans ces versants ensoleillés.",
+      "text": "Enneigement : tout à fait correct pour la saison.\n\nLimite skiable :  à basse altitude sur l'herbe. Sur terrain rocheux, gare à l'absence de sous-couche en dessous de 1500 m en N, 2000 m en Sud.\n\nQualité de la neige : dans la plupart des secteurs, la neige encore d'aspect poudreuse au matin va commencer à se densifier au fil de la journée et du vent qui se lève. Il faut chercher les secteurs protégés par situation de foehn pour skier de la neige légère toute la journée. Enfin, en Sud raide sous 2000/2200 m, la neige est faiblement croutée, potentiellement pénible à skier.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1000,
-        "south": 1200
+        "south": 1300
       },
       "levels_cm": [
         {
           "alt_m": 1500,
           "N": 60,
-          "S": 30
+          "S": 20
         },
         {
           "alt_m": 2000,
@@ -154,7 +154,7 @@
         },
         {
           "alt_m": 2500,
-          "N": 150,
+          "N": 140,
           "S": 120
         }
       ],
