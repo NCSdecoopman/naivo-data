@@ -3,61 +3,49 @@
   "massif": "Haut-Var Haut-Verdon",
   "bulletin": {
     "id": 22,
-    "issued_at": "2026-02-01T16:00:00",
-    "valid_until": "2026-02-02T18:00:00",
+    "issued_at": "2026-02-02T16:00:00",
+    "valid_until": "2026-02-03T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "max_level": 4,
+      "comment": "Indice de risque fort.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2000,
-        "split_axis": "horizontal",
-        "split_label": "2000m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
-            "risk": 2,
+            "loc": null,
+            "risk": 4,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2000",
-            "risk": 3,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2000m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "3",
-            "risk": 3,
+          "center": {
+            "text": "4",
+            "risk": 4,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 4,
-        "date": "2026-02-03",
+        "date": "2026-02-04",
         "label": "Indice de risque fort",
-        "comment": "Risque devenant fort en cours de nuit de lundi à mardi avec les importantes chutes de neige. Nombreux départs spontanés volumineux attendus.",
-        "trend": "up"
+        "comment": "Maintien d'un risque accidentel fort avec des plaques encore instables et volumineuses dans la neige fraiche ventée.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -65,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -78,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 1,
       "secondary": 3,
       "labels": {
-        "2": "Neige ventée",
+        "1": "Neige fraîche",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-28",
-          "min_cm": 10,
-          "max_cm": 15
-        },
         {
           "date": "2026-01-29",
           "min_cm": 0,
@@ -118,22 +101,27 @@
           "date": "2026-02-02",
           "min_cm": 20,
           "max_cm": 40
+        },
+        {
+          "date": "2026-02-03",
+          "min_cm": 1,
+          "max_cm": 5
         }
       ],
       "totals": {
         "last_48h_min_cm": 21,
-        "last_48h_max_cm": 41
+        "last_48h_max_cm": 45
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RISQUE MARQUÉ DE DÉCLENCHEMENT ACCIDENTEL : QUELQUES PLAQUES VOLUMINEUSES ET LOCALEMENT INSTABLES",
-      "text": "RISQUE MARQUÉ DE DÉCLENCHEMENT ACCIDENTEL : QUELQUES PLAQUES VOLUMINEUSES ET LOCALEMENT INSTABLES\n\nDéclenchements provoqués :  \nQuelques plaques encore en place dans la neige récente. Possibles en toutes orientations, elles sont maintenant plutôt stabilisées, mais peuvent encore localement être faciles à déclencher au passage d'un skieur, notamment en fin de journée avec le retour des chutes de neige et le renforcement du vent. Le plus souvent d'aspect friable et difficiles à détecter, elles provoquent des avalanches de taille moyenne, parfois grande (taille 2 à 3). \n\nDans les versants est, nord et ouest au-dessus de 2000 m environ, une avalanche plus volumineuse est possible (taille 3, rare taille 4 non exclue) en cas de sollicitation de couches fragiles persistantes enfouies plus en profondeur dans le manteau neigeux. Déclenchement plus difficile mais possible au passage d'un skieur, notamment sur les croupes ou en bords de couloir où le manteau est moins épais, parfois à distance ; ou en cas de sur-avalanche après un premier départ dans la neige de surface. \n\nEn dessous de 2000 m les plaques sont moins nombreuses et moins volumineuses, mais leur présence reste possible en versants ombragés.\n\nDéparts spontanés : quelques boulettes au soleil en matinée. Rares départs de neige fraiche ventée en fin de journée, de taille petite à moyenne.",
+      "title": "NEIGE ABONDANTE, FORTE INSTABILITÉ DU MANTEAU NEIGEUX",
+      "text": "NEIGE ABONDANTE, FORTE INSTABILITÉ DU MANTEAU NEIGEUX\n\nDéparts spontanés : dans la nuit de lundi à mardi et mardi matin, nombreux départs ponctuels liés aux fortes chutes de neige, de taille moyenne à grande (taille 2 à 3) avec aérosol. Dans les zones de départ en versants est, nord et ouest d'altitude, un départ linéaire de très grande taille (taille 4) est possibles notamment sur le Haut-Var, s'approchant voir atteignant certains fonds de vallées. Cette activité naturelle faiblit en journée, mais des départs spontanés volumineux restent possibles avec le maintien d'un vent de sud modérée, favorisant le transport de la neige fraiche.\n\nDéclenchements provoqués :  \nNombreuses plaques en place dans la neige fraîche, principalement au-dessus de 1600/1800 m. Plaques dures/travaillées par le vent proche des crêtes, mais d'aspect friable dans les secteurs plus abrités, possibles même en forêt, et très facile à déclencher. Elles génèrent des avalanches de taille moyenne à grande (taille 2 à 3), notamment dans les zones de forte accumulation par le vent. En versant est, nord et ouest au-dessus de 1800/2000 des avalanches de très grande taille sont possibles par sollicitation de couches fragiles enfouies, emportant alors la totalité du manteau neigeux.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement excédentaire à basse altitude pour une fin janvier.\nDonnées observées à 2000 m en fond de vallon : 110 à 130 cm de hauteur totale de neige. \n\nEnneigement skiable dès 1200/1300 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface :  épaisse couche de neige récente : 20/30 cm à 1500 m, 40/50 cm à partir de 1800 m, localement 60 cm dans le Haut-Verdon. Cette neige est légèrement croutée en surface sous 1500/2000 m selon les orientations, souvent froide et légère au-dessus, localement travaillée par le vent en altitude. Corniches parfois volumineuses en place sur les crêtes.",
+      "text": "Enneigement excédentaire à basse altitude pour une fin janvier.\nDonnées observées à 2000 m en fond de vallon : 110 à 130 cm de hauteur totale de neige. \n\nEnneigement skiable dès 1200/1300 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface :  épaisse couche de neige récente : 5/10 cm à 1500 m, 20/40 cm à partir de 1800 m. Cette neige est humide à collante en toutes orientations sous 1800/2000 m, froide et légère au-dessus, mais fortement travaillée par le vent de sud-est en altitude et dans les secteurs exposés. Corniches parfois volumineuses en place sur les crêtes.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 55,
-          "S": 45
+          "N": 50,
+          "S": 40
         },
         {
           "alt_m": 2000,
-          "N": 150,
-          "S": 95
+          "N": 145,
+          "S": 90
         },
         {
           "alt_m": 2500,
-          "N": 195,
-          "S": 145
+          "N": 190,
+          "S": 140
         }
       ],
       "icon_key": "snowpack",

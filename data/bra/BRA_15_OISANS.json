@@ -3,49 +3,61 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-02-01T16:00:00",
-    "valid_until": "2026-02-02T18:00:00",
+    "issued_at": "2026-02-02T16:00:00",
+    "valid_until": "2026-02-03T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "max_level": 4,
+      "comment": "Au-dessus de 1800m indice de risque fort, plus bas indice marqué.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1800,
+        "split_axis": "horizontal",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1800",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1800",
+            "risk": 4,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1800m"
         },
         "zones": {
-          "center": {
+          "bottom": {
             "text": "3",
             "risk": 3,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "4",
+            "risk": 4,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 4,
-        "date": "2026-02-03",
+        "date": "2026-02-04",
         "label": "Indice de risque fort",
-        "comment": "Mardi, risque en hausse sur le massif. Le vent de Sud et les chutes de neige auront formé et formeront de nombreuses instabilités réactives, qui pourront elles-même plus facilement solliciter les sous-couches fragiles enfouies par endroits dans le manteau neigeux.",
-        "trend": "up"
+        "comment": "Manteau neigeux restant instable ce mercredi Vent de sud 40-50 km/h.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -53,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -77,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-28",
-          "min_cm": 5,
-          "max_cm": 10
-        },
         {
           "date": "2026-01-29",
           "min_cm": 3,
@@ -105,23 +112,28 @@
         {
           "date": "2026-02-02",
           "min_cm": 5,
-          "max_cm": 15
+          "max_cm": 10
+        },
+        {
+          "date": "2026-02-03",
+          "min_cm": 2,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 16
+        "last_48h_min_cm": 7,
+        "last_48h_max_cm": 15
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOUVELLES INSTABILITÉS EN FORMATION DANS LES VERSANTS FROIDS, REPOSANT PARFOIS SUR DES COUCHES FRAGILES PERSISTANTES.",
-      "text": "NOUVELLES INSTABILITÉS EN FORMATION DANS LES VERSANTS FROIDS, REPOSANT PARFOIS SUR DES COUCHES FRAGILES PERSISTANTES.\n\nDéclenchements provoqués : Risque devenant de plus en plus marqué au fil de la journée de lundi dans les versants froids d'un large Nord. De nouvelles instabilités vont se former dans la neige récente restée légère, avec le vent de Sud qui se renforce en cours de journée. D'abord assez locales et souvent peu épaisses en première partie de journée, elles se font de plus en plus nombreuses au fil des heures et notamment dans l'après-midi. Ces nouvelles plaques, souvent réactives et faciles à déclencher, sont situées dans les zones d'accumulation par le vent, à proximité des crêtes dans un premier temps, puis le risque augmente également dans les bas de pentes et plus loin des crêtes au fur et à mesure que le vent forcit. De plus, elles reposent par endroits sur des sous-couches fragiles persistantes plus enfouies qui pourraient localement favoriser des départs très volumineux par déclenchement à distance depuis un secteur moins enneigé, ou par déclenchement en cascade suite à la rupture d'une plaque de surface. Ces couches fragiles sont surtout présentes vers les Hautes Alpes (La Meije, les Ecrins, les Deux Alpes, l'Olan), et semblent plus rares vers le Taillefer. Dans ce contexte, une pente skiée n'est pas forcément un indice de stabilité. Sous 1400/1600 m environ, le risque devrait être un peu moins marqué, la neige récente s'étant davantage alourdie/humidifiée.\n\nDéparts spontanés : En journée de dimanche, de rares avalanches de neige humide de taille 1 à 2 (petites à moyennes) ne sont pas exclues dans la neige récente qui s'humidifie, notamment dans les pentes raides qui seront exposées au soleil et près des rochers. Très ponctuellement, un départ spontané linéaire (en plaque) atteignant la taille 3 ne peut toutefois être totalement exclu.",
+      "title": "NOUVELLES INSTABILITÉS EN FORMATION, REPOSANT PARFOIS SUR DES COUCHES FRAGILES PERSISTANTES DANS LES VERSANTS FROIDS.",
+      "text": "NOUVELLES INSTABILITÉS EN FORMATION, REPOSANT PARFOIS SUR DES COUCHES FRAGILES PERSISTANTES DANS LES VERSANTS FROIDS.\n\nDéclenchements provoqués :  le vent de sud à sud-ouest qui souffle depuis ce lundi et qui se renforce dans la nuit (100 km/h et plus), favorise et va favoriser la formation de nombreuses plaques, y compris loin des crêtes. Ruptures faciles au passage d'un skieur sur de nombreuses pentes, surtout en plaques dures, avec des épaisseurs de cassures importantes. La neige annoncée (très ventée) dans la nuit d'ici mardi matin, environ 20 à 30 cm vers les Ecrins plus haut que 2000 m et 10 cm vers le Taillefer, va amplifier le phénomène. De plus, ces nouvelles structures instables reposent elles mêmes par endroits sur des sous couches fragiles persistantes, bien enfouies dans le manteau, surtout vers les Hautes-Alpes (La Meije, les Ecrins, les Deux Alpes, l'Olan), mais plus locales vers le Taillefer. Certes enfouies, ça n'empêche pas à un skieur de les solliciter à distance depuis un secteur moins enneigé/pelé (typiquement sur un  bord de couloir), ou /et indirectement via un déclenchement en cascade depuis une plaque dure récente. S'attendre à une grande et épaisse plaque si déclenchement de ce type. Sous 1800/2000 m environ, le risque est marqué (3/5) avec des problématiques neige ventée là aussi favorisant des structures de plaques récentes, parfois épaisses. Ce risque décroît progressivement à mesure que l'on descend en altitude, surtout sous 1500 m.\n\nDéparts spontanés : des ruptures naturelles de plaques peuvent se produire sous l'action du vent et des chutes de neige, pouvant atteindre la taille 2 à 3. Mardi au fil de la journée, rares avalanches de neige humide de taille 1 à 2 (petites à moyennes) non exclues dans les pentes raides exposées au soleil et près des rochers.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement s'est amélioré et est redevenu correct à bon pour la saison dès les vallées et en combes d'altitude. Les crêtes sont toutefois assez peu enneigées ainsi que les pentes Sud raides...\n\nLimites skiables : à partir de 1100/1500 m.\n\nQualité de la neige lundi : Neige récente en cours de tassement, généralement encore assez légère, et parfois travaillée par le vent à l'abord des crêtes. Sous 1400/1600 m et dans les versants ensoleillés, la neige s'est davantage alourdie, et peut être parfois croûtée. En journée, outre l'humidification qui peut reprendre au soleil, la neige récente subit de plus en plus les effets du vent de Sud, travaillée puis soufflée/arrachée vers les crêtes, dont certaines pourraient redevenir dégarnies. En toute fin de journée/soirée, quelques chutes de neige remontant du Sud peuvent commencer à déposer une fine couche de fraîche (de manière très irrégulière à cause du vent fort).",
+      "text": "Qualification de l’enneigement : l'enneigement s'est amélioré et est redevenu correct à bon pour la saison dès les vallées et en combes d'altitude. Les crêtes sont toutefois assez peu enneigées ainsi que les pentes Sud raides...\n\nLimites skiables : à partir de 1100/1500 m.\n\nQualité de la neige mardi : neige récente en cours de tassement à l'abri du vent. Vers les crêtes, neige récente qui devient franchement plus dense, travaillée voire arrachée par le fort vent, parfois loin des crêtes. Sous 1600/1800 m, la neige s'est davantage alourdie, notamment avec la pluie de la nuit. Les 10-20 cm de neige prévus d'ici mardi matin, localement 30 cm vers les Ecrins au-dessus de 2000 m sont souvent non visibles à cause du vent...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
