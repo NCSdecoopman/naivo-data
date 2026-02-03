@@ -3,8 +3,8 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-02-02T16:00:00",
-    "valid_until": "2026-02-03T18:00:00",
+    "issued_at": "2026-02-03T16:00:00",
+    "valid_until": "2026-02-04T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-02-04",
-        "label": "Indice de risque fort",
-        "comment": "Manteau neigeux restant instable ce mercredi Vent de sud 40-50 km/h.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-02-05",
+        "label": "Indice de risque marqué",
+        "comment": "Jeudi, lente stabilisation dans les adrets. Par contre les versants ombragés resteront sensibles. Nouvelle chute de neige en soirée, augmentant de nouveau les risques.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-29",
-          "min_cm": 3,
-          "max_cm": 5
-        },
-        {
           "date": "2026-01-30",
           "min_cm": 5,
           "max_cm": 10
@@ -111,35 +106,40 @@
         },
         {
           "date": "2026-02-02",
-          "min_cm": 1,
-          "max_cm": 5
+          "min_cm": 10,
+          "max_cm": 15
         },
         {
           "date": "2026-02-03",
+          "min_cm": 1,
+          "max_cm": 3
+        },
+        {
+          "date": "2026-02-04",
           "min_cm": 1,
           "max_cm": 3
         }
       ],
       "totals": {
         "last_48h_min_cm": 2,
-        "last_48h_max_cm": 8
+        "last_48h_max_cm": 6
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOUVELLES INSTABILITÉS EN FORMATION, REPOSANT PARFOIS SUR DES COUCHES FRAGILES PERSISTANTES DANS LES VERSANTS FROIDS.",
-      "text": "NOUVELLES INSTABILITÉS EN FORMATION, REPOSANT PARFOIS SUR DES COUCHES FRAGILES PERSISTANTES DANS LES VERSANTS FROIDS.\n\nDéclenchements provoqués :  le vent de sud à sud-ouest qui souffle depuis ce lundi et qui se renforce dans la nuit (100 km/h et plus), favorise et va favoriser la formation de nombreuses plaques, y compris loin des crêtes. Ruptures faciles au passage d'un skieur sur de nombreuses pentes, surtout en plaques dures, avec des épaisseurs de cassures importantes. La neige annoncée (très ventée) d'ici mardi matin, environ 15-20 cm vers les Emparis plus haut que 2000 m, 5-10 cm vers Huez, va amplifier le phénomène. De plus, ces nouvelles structures instables reposent elles mêmes par endroits sur des sous couches fragiles persistantes, bien enfouies dans le manteau, surtout dans les secteurs Maurienne, Galibier ou Emparis. Certes enfouies, ça n'empêche pas à un skieur de les solliciter à distance depuis un secteur moins enneigé/pelé (typiquement sur un  bord de couloir), ou /et indirectement via un déclenchement en cascade depuis une plaque dure récente. S'attendre à une grande et épaisse plaque si déclenchement de ce type. Sous 1800/2000 m environ, le risque est marqué (3/5) avec des problématiques neige ventée favorisant des structures de plaques récentes, parfois épaisses. Ce risque décroît progressivement à mesure que l'on descend en altitude, surtout sous 1500 m.\n\nDéparts spontanés : des ruptures naturelles de plaques peuvent se produire sous l'action du vent et des chutes de neige, pouvant atteindre la taille 2 à 3. Mardi au fil de la journée, rares avalanches de neige humide de taille 1 à 2 (petites à moyennes) non exclues dans les pentes raides exposées au soleil et près des rochers.",
+      "title": "Nombreuses fragilités en place dans le manteau neigeux.",
+      "text": "Nombreuses fragilités en place dans le manteau neigeux.\n\nDéclenchements provoqués : l'instabilité du manteau neigeux est clairement mise en évidence par les tirs d'avalanche positifs réalisés dans les stations de ski. Il est fréquent que la facile mise en mouvement de la couche de neige récente, soufflée par le vent de sud, provoque des départs de plaques de plus grande ampleur, reposant sur des couches enfouies de neige sans cohésion en donnant alors des cassures approchant 1 m. En dessous de 1800 m, ce risque est moins prégnant.\nDéparts spontanés : quelques départs spontanés de plaques chargées par le vent de sud sont encore possibles jusqu'en mi-journée de mercredi. Méfiance également l'après-midi car la couverture nuageuse pourrait accélérer l'humidification superficielle du manteau neigeux et provoquer quelques purges de neige lourde dans les endroits restés à l'ombre.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement : L'enneigement s'est amélioré et est redevenu correct à bon pour la saison dès les vallées et en combes d'altitude. Les crêtes sont toutefois assez peu enneigées ainsi que les pentes Sud raides...\n\nLimites skiables : à partir de 1100/1500 m.\n\nQualité de la neige mardi : neige récente en cours de tassement à l'abri du vent. Vers les crêtes, neige récente qui devient franchement plus dense, travaillée voire arrachée par le fort vent, parfois loin des crêtes. Sous 1800/2000 m la neige s'est davantage alourdie avec la pluie de la nuit. Les 10-20 cm de neige prévus d'ici mardi matin sur le sud-est du massif à plus de 2000 m (plutôt 5 à 10 cm sur le nord Grandes Rousses) sont souvent non visibles à cause du vent...",
+      "text": "Qualification de l’enneigement :  l'enneigement est redevenu correct voire bon pour la saison, mais l'épisode de vent de Sud modifie beaucoup la répartition spatiale de la neige.\n\nLimites skiables : vers 1100/1500 m.\n\nQualité de la neige mercredi : neige poudreuse dans les pentes à l'ombre et à l'abri du vent. Neige croûtée puis lourde dans les versants au soleil jusqu'au moins 1800 m. Neige fortement soufflée et densifiée près des crêtes avec des cailloux qui ressortent par endroits.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1000,
-        "south": 1000
+        "south": 1300
       },
       "levels_cm": [
         {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 145,
-          "S": 85
+          "N": 155,
+          "S": 95
         },
         {
           "alt_m": 2500,
-          "N": 185,
-          "S": 155
+          "N": 200,
+          "S": 170
         }
       ],
       "icon_key": "snowpack",

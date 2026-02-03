@@ -3,37 +3,49 @@
   "massif": "Pelvoux",
   "bulletin": {
     "id": 16,
-    "issued_at": "2026-02-02T16:00:00",
-    "valid_until": "2026-02-03T18:00:00",
+    "issued_at": "2026-02-03T17:00:00",
+    "valid_until": "2026-02-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 4,
-      "comment": "Indice de risque fort.",
+      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice marqué.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
+            "risk": 3,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
             "risk": 4,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "3",
+            "risk": 3,
+            "evolution_to": null
+          },
+          "top": {
             "text": "4",
             "risk": 4,
             "evolution_to": null
@@ -41,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-02-04",
-        "label": "Indice de risque fort",
-        "comment": "La stabilisation du manteau neigeux est lente, le risque de déclenchement de plaque reste probablement fort.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-02-05",
+        "label": "Indice de risque marqué",
+        "comment": "Lente stabilisation du manteau neigeux. Encore des plaques pouvant céder au passage d'un seul skieur.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -67,21 +79,16 @@
     },
     "sat": {
       "primary": 1,
-      "secondary": 2,
+      "secondary": 3,
       "labels": {
         "1": "Neige fraîche",
-        "2": "Neige ventée"
+        "3": "Couche fragile persistante"
       },
       "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-29",
-          "min_cm": 0,
-          "max_cm": 1
-        },
         {
           "date": "2026-01-30",
           "min_cm": 0,
@@ -99,51 +106,56 @@
         },
         {
           "date": "2026-02-02",
-          "min_cm": 30,
-          "max_cm": 40
+          "min_cm": 20,
+          "max_cm": 30
         },
         {
           "date": "2026-02-03",
           "min_cm": 5,
           "max_cm": 10
+        },
+        {
+          "date": "2026-02-04",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 35,
-        "last_48h_max_cm": 50
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 11
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "FORTE INSTABILITÉ DU MANTEAU NEIGEUX - IMPORTANTS VOLUMES DE NEIGE MOBILISABLES",
-      "text": "FORTE INSTABILITÉ DU MANTEAU NEIGEUX - IMPORTANTS VOLUMES DE NEIGE MOBILISABLES\n\nDéclenchements provoqués : l'instabilité du manteau neigeux est à nouveau particulièrement importante ce mardi. Nombreuses plaques faciles à déclencher dans la neige fraîche, parfois à distance, et même en secteur forestier. Ces instabilités sont difficiles à détecter dans les pentes où le vent n'a pas soufflé très fort. Le passage d'un seul skieur suffit pour déclencher ces plaques et engendrer des avalanches moyennes à grandes (taille 2 à 3), avec parfois de larges cassures. Une très grande avalanche (taille 4) possible en cas de rupture sur une couche fragile persistante très enfouie, dans un secteur à la topographie favorable (large cirque par exemple). Le déclenchement d'une première plaque de surface peut favoriser le départ d'une de ces avalanches très volumineuses.\n\nDéparts spontanés : - fréquentes avalanches de plaques avec la surcharge de la neige fraîche et du transport par le vent (taille 2 à 3, voire ponctuellement 4).\n- Départs en poire dans les pentes/couloirs raides chargés par le vent de sud, ou avec les éclaircies l'après-midi. Avalanches taille 2, voire 3 si la topographie est favorable. Certaines de ces avalanches peuvent aussi déclencher des plaques en contrebas. \n- Quelques talus bien chargés peuvent se délester ponctuellement sur les portions de routes habituellement exposées.",
+      "title": "NOMBREUSES PLAQUES ENCORE FACILES À DÉCLENCHER",
+      "text": "NOMBREUSES PLAQUES ENCORE FACILES À DÉCLENCHER\n\nDéclenchements provoqués : le manteau neigeux est instable dans de nombreuses pentes, avec une double problématique de plaques :\n- des plaques dans la neige fraîche souvent ventée sont en place. Elles peuvent facilement céder au passage d'un seul skieur et engendrer des avalanches moyennes à grandes (taille 2 à 3). Cassures pouvant être larges quand la topographie de la pente s'y prête, en particulier au-dessus de 2000 m.\n- des plaques plus anciennes, masquées par la couche de neige récente, essentiellement dans les pentes ouest, nord à est, et même en forêt. Elles sont plus difficiles à déclencher, mais les cassures sont épaisses en cas de départ (potentiellement plus d'1 mètre). Avalanches moyennes à grandes (taille 2 à 3). Une première plaque de surface peut faciliter le départ d'une de ces plaques plus épaisses en contrebas.\n\nDéparts spontanés : - encore quelques départs de plaques possibles, dans les secteurs suffisamment ventés (chasse-neige visible). Avalanches moyennes (taille 2). Une grande (taille 3) possible en cas de déclenchement d'une couche fragile persistante enfouie, suite à un premier départ de surface.\n- Avalanches de neige récente humidifiée, départs près des rochers. Taille 1 à 2 en général.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est excédentaire pour un début février en vallées, plus proche des normales au-dessus de 2000 m.\nDonnées observées : 180 cm à la Nivôse de  Écrins vers 3000 m, 150 cm au Pré de Madame Carle à 1900 m, 100 cm au hameau de Dormillouse à 1730 m.\n\nLimite d'enneigement skiable : dès les fonds de vallées, mais avec une sous-couche un peu limite sous 1500/1600 m en adrets.\n\nÉtat de la neige de surface : mardi matin, neige fraîche en quantité, souvent travaillée par le vent de sud à sud-est. Elle se dépose sur un manteau neigeux encore meuble dans les versants ombragés, plus dense ou légèrement croûté dans les pentes sud.",
+      "text": "L'enneigement est désormais excédentaire pour un début février.\nDonnées observées : 177 cm à la Nivôse de  Écrins vers 3000 m soufflée par le vent, 178 cm au Pré de Madame Carle à 1900 m, 117 cm au hameau de Dormillouse à 1730 m.\n\nLimite d'enneigement skiable : dès les fonds de vallées, mais avec une sous-couche un peu limite sous 1500 m en adrets.\n\nÉtat de la neige de surface : 20/40 cm de neige récente, souvent densifiée ou durcie par le vent, mais encore poudreuse dans les pentes abritées. En sud suffisamment raide, fine croûte possible suite aux éclaircies de ce mardi.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 900,
-        "south": 1000
+        "south": 900
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 80,
-          "S": 55
+          "N": 100,
+          "S": 75
         },
         {
           "alt_m": 2000,
-          "N": 145,
-          "S": 115
+          "N": 175,
+          "S": 145
         },
         {
           "alt_m": 2500,
-          "N": 175,
-          "S": 135
+          "N": 195,
+          "S": 155
         }
       ],
       "icon_key": "snowpack",

@@ -3,8 +3,8 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-02-02T16:00:00",
-    "valid_until": "2026-02-03T18:00:00",
+    "issued_at": "2026-02-03T16:00:00",
+    "valid_until": "2026-02-04T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-02-04",
-        "label": "Indice de risque fort",
-        "comment": "Maintien d'un risque accidentel fort avec des plaques encore instables et volumineuses dans la neige fraiche ventée.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-02-05",
+        "label": "Indice de risque marqué",
+        "comment": "Risque marqué avec la persistance de plaques dans la neige récente, encore insuffisamment stabilisées.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-01-30",
           "min_cm": 0,
           "max_cm": 1
@@ -99,51 +94,56 @@
         },
         {
           "date": "2026-02-02",
-          "min_cm": 30,
-          "max_cm": 50
+          "min_cm": 20,
+          "max_cm": 40
         },
         {
           "date": "2026-02-03",
-          "min_cm": 1,
-          "max_cm": 5
+          "min_cm": 5,
+          "max_cm": 20
+        },
+        {
+          "date": "2026-02-04",
+          "min_cm": 0,
+          "max_cm": 3
         }
       ],
       "totals": {
-        "last_48h_min_cm": 31,
-        "last_48h_max_cm": 55
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 23
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NEIGE ABONDANTE, FORTE INSTABILITÉ DU MANTEAU NEIGEUX",
-      "text": "NEIGE ABONDANTE, FORTE INSTABILITÉ DU MANTEAU NEIGEUX\n\nDéparts spontanés : dans la nuit de lundi à mardi et mardi matin, nombreux départs ponctuels liés aux fortes chutes de neige, de taille moyenne à grande (taille 2 à 3) avec aérosol. Dans les zones de départ situées en versants est, nord et ouest d'altitude, des départs linéaires de très grande taille (taille 4) sont possibles, s'approchant voir atteignant certains fonds de vallées. Cette activité naturelle faiblit en journée, mais des départs spontanés volumineux restent possibles avec le maintien d'un vent de sud modérée, favorisant le transport de la neige fraiche.\n\nDéclenchements provoqués :  \nNombreuses plaques en place dans la neige fraîche, principalement au-dessus de 1600/1800 m. Plaques dures/travaillées par le vent proche des crêtes, mais d'aspect friable dans les secteurs plus abrités, possibles même en forêt, et très facile à déclencher. Elles génèrent des avalanches de taille moyenne à grande (taille 2 à 3) notamment dans les zones de forte accumulation par le vent. En versant est, nord et ouest au-dessus de 1800/2000 des avalanches de très grande taille sont possibles par sollicitation de couches fragiles enfouies, emportant alors la totalité du manteau neigeux.",
+      "title": "NOMBREUSES PLAQUES DANS LA NEIGE FRAICHE, LOCALEMENT VOLUMINEUSES",
+      "text": "NOMBREUSES PLAQUES DANS LA NEIGE FRAICHE, LOCALEMENT VOLUMINEUSES\n\nDéclenchements provoqués :  nombreuses instabilités en place, pouvant être déclenchées à distance dans de nombreuses pentes supérieures à 30 degrés, y compris en forêts.\nDe nombreuses plaques dans la neige fraiche sont en place, possibles en toutes orientations au dessus de 1700/1800 m environ. Elles sont généralement d'aspect friable et difficiles à détecter, sinon durcies par le vent dans les secteurs exposés. Leur déclenchement est possible au passage d'un seul skieur, et elles peuvent provoquer des avalanches de taille souvent moyenne, parfois grande dans les zones d'accumulation, en particulier des vallées de la Vésubie à la Roya où les cumuls de neige ont étés plus importants (taille 2 à 3).\n\nEn versants est, nord et ouest, la présence d'une couche fragile persistante au dessus de 1800/2000 m, peut occasionner des avalanches de plus grande taille (taille 3 à rarement 4), emportant une grande partie du manteau neigeux, parfois sur de grandes distances. Toutefois, leur déclenchement est généralement devenu difficile à cause des importantes accumulations de neige des derniers épisodes, qui isolent cette couche en profondeur, mais peut être rendu possible sous une forte contrainte comme le déclenchement d'une première avalanche en surface.\n\nDéparts spontanés : quelques départs de neige fraîche s'humidifiant en journée sont possibles. Départs ponctuels en pentes raides, de taille petite à moyenne (1 à 2)",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement excédentaire à basse altitude pour une fin janvier.\nDonnées observées : 111 cm à la nivôse de Millefonts à 2400 m, 106 à Isola 2000. \n\nEnneigement skiable dès 1200/1300 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface : épaisse couche de neige récente : 10/20 cm à 1500 m, 30/50 cm à partir de 1800 m. Cette neige est humide à collante en toutes orientations sous 1700/1800 m, froide et légère au-dessus, mais fortement travaillée par le vent de sud-est en altitude et dans les secteurs exposés. Corniches parfois volumineuses en place sur les crêtes.",
+      "text": "Enneigement bon voire excédentaire jusqu'à basse altitude pour un début février.\nDonnées observées : 125 cm à la nivôse de Millefonts à 2400 m.\n\nEnneigement skiable dès 1200/1300 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface : couche de neige fraiche atteignant 20/30 cm à partir de 1800 m, localement 50 à 60 cm sur l'est du massif entre la Vésubie et la Roya. Cette neige est plus lourde sous 1800/2000 m environ, mais encore froide et légère au-dessus, localement travaillée par le vent en altitude dans les secteurs exposés. Corniches et congères parfois volumineuses en place.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 900,
-        "south": 1100
+        "south": 900
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 45,
-          "S": 30
+          "N": 60,
+          "S": 45
         },
         {
           "alt_m": 2000,
-          "N": 120,
-          "S": 75
+          "N": 145,
+          "S": 100
         },
         {
           "alt_m": 2500,
-          "N": 170,
-          "S": 140
+          "N": 195,
+          "S": 165
         }
       ],
       "icon_key": "snowpack",

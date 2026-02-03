@@ -3,37 +3,49 @@
   "massif": "Ubaye",
   "bulletin": {
     "id": 21,
-    "issued_at": "2026-02-02T16:00:00",
-    "valid_until": "2026-02-03T18:00:00",
+    "issued_at": "2026-02-03T16:00:00",
+    "valid_until": "2026-02-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 4,
-      "comment": "Indice de risque fort.",
+      "comment": "Au-dessus de 1800m indice de risque fort, plus bas indice marqué.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1800,
+        "split_axis": "horizontal",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1800",
+            "risk": 3,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1800",
             "risk": 4,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1800m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "3",
+            "risk": 3,
+            "evolution_to": null
+          },
+          "top": {
             "text": "4",
             "risk": 4,
             "evolution_to": null
@@ -41,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-02-04",
-        "label": "Indice de risque fort",
-        "comment": "Maintien d'un risque accidentel fort avec des plaques encore très instables en versants ombragés, et parfois volumineuses.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-02-05",
+        "label": "Indice de risque marqué",
+        "comment": "Risque marqué avec la persistance de plaques dans la neige récente, encore insuffisamment stabilisées, et des couches fragiles enfouies localement sollicitables.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -78,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-29",
-          "min_cm": 0,
-          "max_cm": 1
-        },
-        {
           "date": "2026-01-30",
           "min_cm": 0,
           "max_cm": 1
@@ -100,28 +107,33 @@
         {
           "date": "2026-02-02",
           "min_cm": 15,
-          "max_cm": 30
+          "max_cm": 25
         },
         {
           "date": "2026-02-03",
           "min_cm": 1,
           "max_cm": 5
+        },
+        {
+          "date": "2026-02-04",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 16,
-        "last_48h_max_cm": 35
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 6
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES PLAQUES DANS LA NEIGE FRAICHE, VOLUMINEUSES EN VERSANTS OMBRAGÉS",
-      "text": "NOMBREUSES PLAQUES DANS LA NEIGE FRAICHE, VOLUMINEUSES EN VERSANTS OMBRAGÉS\n\nDéparts spontanés : dans la nuit de lundi à mardi et mardi matin, nombreux départs en altitude dans la neige fraiche ventée, de taille petite à moyenne (taille 1 à 2). En versants est, nord et ouest, les départs linéaires sont facilités par la présence de sous-couches fragiles peu enfouies, générant alors des avalanches de taille moyenne à grande (taille 2 à 3), avec aérosols. Cette activité naturelle faiblit en journée, mais des départs spontanés volumineux restent possibles avec le maintien d'un vent de sud modérée, favorisant le transport de la neige fraiche.\n\nDéclenchements provoqués :  nombreuses plaques sensibles en place dans la couche de neige fraiche, possibles en toutes orientations, mais plus large et épaisse en versant est, nord et ouest, au-dessus de 1800/2000, où elles reposent sur des sous-couches fragiles persistantes peu enfouies. Plaques dures/travaillées par le vent proche des crêtes, mais d'aspect friable dans les secteurs plus abrités et possibles dans toutes les pentes supérieures à 30 degrés, même en forêts. Déclenchables à distance par un seul skieur, elles génèrent des avalanches de taille moyenne à grande (taille 2 à 3) en versant ombragés.",
+      "title": "NOMBREUSES INSTABILITÉS DANS LA NEIGE FRAICHE, LOCALEMENT VOLUMINEUSES",
+      "text": "NOMBREUSES INSTABILITÉS DANS LA NEIGE FRAICHE, LOCALEMENT VOLUMINEUSES\n\nDéclenchements provoqués :  nombreuses instabilités en place, pouvant être déclenchées à distance dans de nombreuses pentes supérieures à 30 degrés, y compris en forêts.\nDes plaques dans la neige fraiche sont en place, possibles en toutes orientations surtout au dessus de 1800 m environ. Elles sont généralement d'aspect friable et difficiles à détecter, sinon durcies par le vent dans les secteurs exposés. Leur déclenchement est possible au passage d'un seul skieur, et elles peuvent provoquer des avalanches de taille petite à moyenne (taille 1 à 2).\n\nEn versants est, nord et ouest, la présence fréquente d'une couche fragile persistante au dessus de 1800/2000 m, parfois encore insuffisamment enfouie, peut occasionner des avalanches de taille moyenne à grande (2 à 3) en emportant une grande partie du manteau neigeux, parfois sur de grandes distances. \n\nEn dessous de 1800 m environ, les instabilités sont moins nombreuses, plus difficiles à déclencher, et les avalanches associées sont de taille plus petite, avec des cassures moins épaisses.\n\nDéparts spontanés : quelques départs de neige fraîche s'humidifiant en journée sont possibles. Départs ponctuels en pentes raides, de petite taille.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement globalement normale pour une fin janvier.\nDonnées observées : 82 cm au-dessus de Larche à 2270 m, 17 cm à Barcelonnette à 1200\n\nEnneigement skiable dès 1200/1300 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface : épaisse couche de neige fraiche : 5/10 cm à 1500 m, 15/20 cm à partir de 1800 m, localement 30 cm en bordure de la Tinée. Cette neige est humide à collante en toutes orientations sous 1800/2000 m, froide et légère au-dessus, mais fortement travaillée par le vent de sud-est en altitude et dans les secteurs exposés. Corniches parfois volumineuses en place sur les crêtes.",
+      "text": "Enneigement proche des normales pour un début février.\nDonnées observées : 98 cm au-dessus de Larche à 2270 m, 16 cm à Barcelonnette à 1200 m.\n\nEnneigement skiable dès 1200/1300 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface : couche de neige fraiche atteignant 15/20 cm à partir de 1800 m, localement 30 cm en bordure de la Tinée et du Haut-Var. Cette neige est plus lourde sous 1800/2000 m environ, mais encore froide et légère au-dessus, localement travaillée par le vent en altitude dans les secteurs exposés. Corniches et congères parfois volumineuses en place.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 30,
-          "S": 15
+          "N": 40,
+          "S": 25
         },
         {
           "alt_m": 2000,
-          "N": 100,
-          "S": 65
+          "N": 120,
+          "S": 85
         },
         {
           "alt_m": 2500,
-          "N": 140,
-          "S": 95
+          "N": 160,
+          "S": 115
         }
       ],
       "icon_key": "snowpack",
