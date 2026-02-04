@@ -3,14 +3,14 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-02-03T16:00:00",
-    "valid_until": "2026-02-04T18:00:00",
+    "issued_at": "2026-02-04T16:00:00",
+    "valid_until": "2026-02-05T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Indice de risque fort.",
+      "max_level": 3,
+      "comment": "Indice de risque marqué.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 4,
+            "risk": 3,
             "evolution_to": null,
             "position": null
           }
@@ -34,18 +34,18 @@
         },
         "zones": {
           "center": {
-            "text": "4",
-            "risk": 4,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-05",
-        "label": "Indice de risque marqué",
-        "comment": "Risque marqué avec la persistance de plaques dans la neige récente, encore insuffisamment stabilisées.",
-        "trend": "down"
+        "max_level": 4,
+        "date": "2026-02-06",
+        "label": "Indice de risque fort",
+        "comment": "risque en hausse avec de nouvelles chutes de neige modérément ventée dans la nuit de jeudi à vendredi.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-30",
-          "min_cm": 0,
-          "max_cm": 1
-        },
-        {
           "date": "2026-01-31",
           "min_cm": 0,
           "max_cm": 0
@@ -105,29 +100,34 @@
         {
           "date": "2026-02-04",
           "min_cm": 0,
-          "max_cm": 3
+          "max_cm": 2
+        },
+        {
+          "date": "2026-02-05",
+          "min_cm": 20,
+          "max_cm": 25
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 23
+        "last_48h_min_cm": 20,
+        "last_48h_max_cm": 27
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES PLAQUES DANS LA NEIGE FRAICHE, LOCALEMENT VOLUMINEUSES",
-      "text": "NOMBREUSES PLAQUES DANS LA NEIGE FRAICHE, LOCALEMENT VOLUMINEUSES\n\nDéclenchements provoqués :  nombreuses instabilités en place, pouvant être déclenchées à distance dans de nombreuses pentes supérieures à 30 degrés, y compris en forêts.\nDe nombreuses plaques dans la neige fraiche sont en place, possibles en toutes orientations au dessus de 1700/1800 m environ. Elles sont généralement d'aspect friable et difficiles à détecter, sinon durcies par le vent dans les secteurs exposés. Leur déclenchement est possible au passage d'un seul skieur, et elles peuvent provoquer des avalanches de taille souvent moyenne, parfois grande dans les zones d'accumulation, en particulier des vallées de la Vésubie à la Roya où les cumuls de neige ont étés plus importants (taille 2 à 3).\n\nEn versants est, nord et ouest, la présence d'une couche fragile persistante au dessus de 1800/2000 m, peut occasionner des avalanches de plus grande taille (taille 3 à rarement 4), emportant une grande partie du manteau neigeux, parfois sur de grandes distances. Toutefois, leur déclenchement est généralement devenu difficile à cause des importantes accumulations de neige des derniers épisodes, qui isolent cette couche en profondeur, mais peut être rendu possible sous une forte contrainte comme le déclenchement d'une première avalanche en surface.\n\nDéparts spontanés : quelques départs de neige fraîche s'humidifiant en journée sont possibles. Départs ponctuels en pentes raides, de taille petite à moyenne (1 à 2)",
+      "title": "PLAQUES PARFOIS VOLUMINEUSES DANS LA NEIGE RÉCENTE",
+      "text": "PLAQUES PARFOIS VOLUMINEUSES DANS LA NEIGE RÉCENTE\n\nDéclenchements provoqués :  \nDes plaques dans la neige récente sont en place, possibles en toutes orientations au dessus de 1800 m environ. Elles sont généralement d'aspect poudreux et difficiles à détecter, sinon durcies par le vent dans les secteurs exposés. Bien qu'étant en cours de stabilisation, leur déclenchement reste localement possible au passage d'un seul skieur, et elles peuvent provoquer des avalanches de taille souvent moyenne, parfois grande dans les zones d'accumulation, en particulier des vallées de la Vésubie à la Roya où les cumuls de neige ont étés plus importants (taille 2 à 3).\n\nEn versants est, nord et ouest, la présence d'une couche fragile persistante au dessus de 1800/2000 m, peut occasionner des avalanches de plus grande taille (taille 3), emportant une grande partie du manteau neigeux, parfois sur de grandes distances. Toutefois, leur déclenchement est généralement devenu difficile à cause des importantes accumulations de neige des derniers épisodes, qui isolent cette couche en profondeur, mais peut être rendu possible sous une forte contrainte comme le déclenchement d'une première avalanche en surface.\n\nEn dessous de 1800m environ, la neige récente s'est alourdie, et les instabilités sont moins nombreuses, de plus petite taille, et plus difficiles à déclencher.\n\nDéparts spontanés : quelques départs de neige récente s'humidifiant au soleil sont possibles. Départs ponctuels en pentes raides, de petite taille.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement bon voire excédentaire jusqu'à basse altitude pour un début février.\nDonnées observées : 125 cm à la nivôse de Millefonts à 2400 m.\n\nEnneigement skiable dès 1200/1300 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface : couche de neige fraiche atteignant 20/30 cm à partir de 1800 m, localement 50 à 60 cm sur l'est du massif entre la Vésubie et la Roya. Cette neige est plus lourde sous 1800/2000 m environ, mais encore froide et légère au-dessus, localement travaillée par le vent en altitude dans les secteurs exposés. Corniches et congères parfois volumineuses en place.",
+      "text": "Enneigement bon voire excédentaire jusqu'à basse altitude pour un début février.\nDonnées observées : 135 cm à la nivôse de Millefonts à 2400 m.\n\nEnneigement skiable dès 1200/1300 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface : couche de neige récente atteignant 20/30 cm à partir de 1800 m, localement 50 à 60 cm sur l'est du massif entre la Vésubie et la Roya. Cette neige est plus lourde sous 1800/2000 m environ, mais encore froide et légère au-dessus, localement travaillée par le vent en altitude dans les secteurs exposés. Corniches et congères parfois volumineuses en place.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 900,
-        "south": 900
+        "north": 1100,
+        "south": 1200
       },
       "levels_cm": [
         {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 145,
-          "S": 100
+          "N": 155,
+          "S": 110
         },
         {
           "alt_m": 2500,
-          "N": 195,
-          "S": 165
+          "N": 205,
+          "S": 175
         }
       ],
       "icon_key": "snowpack",

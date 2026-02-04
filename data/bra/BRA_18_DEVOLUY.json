@@ -3,8 +3,8 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-02-03T17:00:00",
-    "valid_until": "2026-02-04T18:00:00",
+    "issued_at": "2026-02-04T16:00:00",
+    "valid_until": "2026-02-05T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-05",
+        "date": "2026-02-06",
         "label": "Indice de risque marqué",
-        "comment": "Lente stabilisation du manteau neigeux. Encore des plaques pouvant céder au passage d'un seul skieur.",
+        "comment": "Nouvelles instabilité formées après la chute de neige de jeudi soir. Risque restant marqué",
         "trend": "steady"
       }
     },
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-30",
-          "min_cm": 5,
-          "max_cm": 10
-        },
-        {
           "date": "2026-01-31",
           "min_cm": 0,
           "max_cm": 0
@@ -116,24 +111,29 @@
         },
         {
           "date": "2026-02-04",
-          "min_cm": 1,
-          "max_cm": 3
+          "min_cm": 2,
+          "max_cm": 5
+        },
+        {
+          "date": "2026-02-05",
+          "min_cm": 10,
+          "max_cm": 20
         }
       ],
       "totals": {
-        "last_48h_min_cm": 6,
-        "last_48h_max_cm": 13
+        "last_48h_min_cm": 12,
+        "last_48h_max_cm": 25
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PLAQUES ENCORE FACILES À DÉCLENCHER SUITE AU TRANSPORT DE NEIGE PAR LE VENT",
-      "text": "PLAQUES ENCORE FACILES À DÉCLENCHER SUITE AU TRANSPORT DE NEIGE PAR LE VENT\n\nDéclenchements provoqués : au-dessus de 2000 m environ, des plaques sont en place dans les pentes où le vent fort a transporté et accumulé la neige récente. Elles peuvent céder au passage d'un seul skieur et engendrer des avalanches petites à moyennes (taille 1 à 2). Une grande avalanche (taille 3) non exclue, en cas de rupture sur une couche fragile persistante enfouie. Déclenchement plutôt difficile, mais pouvant être provoqué par le départ d'une première avalanche de surface.\n\nSous 2000 m, le manteau neigeux a souvent été en partie humidifié/regelé, limitant la probabilité de déclencher une plaque.\n\nDéparts spontanés : - quelques départs de plaques possibles, suite au transport de neige par le vent. Avalanches petites à moyennes (taille 1 à 2). Une grande (taille 3) non exclue en cas de déclenchement \"en cascade\", suite à un premier départ de surface.\n- quelques avalanches de neige récente humidifiée, départs près des rochers. Taille 1, voire 2 si la topographie est favorable.",
+      "title": "INSTABILITÉ ENCORE MARQUÉE DANS LA NEIGE VENTÉE",
+      "text": "INSTABILITÉ ENCORE MARQUÉE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : le manteau neigeux reste peu stabilisé en altitude. Ces instabilités se situent principalement en orientations ouest, nord et est d'altitude supérieure à 2000 m. Un seul skieur peut les déclencher, parfois à distance, et générer des avalanches de taille moyenne. Les instabilités se situent principalement dans la neige ventée en surface. Elles sont plutôt identifiables, et localisées dans les secteurs d'accumulation par le vent, parfois loin des crêtes. Le déclenchement de ces plaques plutôt dures peut cependant solliciter en cascade des couches fragiles persistantes enfouies et générer des avalanches de grande taille, avec large et épaisse cassure, quand la topographie s'y prête.\n\nDéparts spontanés : avalanches de plaques possibles en fin de journée sous l'effet du fort vent de secteur sud en altitude. Taille petite à moyenne, grande possible en soirée avec l'accumulation de neige fraîche. \nPar ailleurs, petits départs ponctuels en neige humide, taille petite à moyenne, en versants est à sud non encore purgés. Le retour provisoire du soleil jeudi matin s'effectue dans une masse d'air doux, qui favorise l'humidification du manteau neigeux, en versants raides ensoleillés.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est plutôt excédentaire pour un début février.\n\nLimite d'enneigement skiable : vers 1000/1200 m en ubacs. Sous-couche un peu limite en adrets sous 1400/1500 m.\n\nÉtat de la neige de surface : neige récente irrégulièrement répartie suite au vent fort, souvent densifiée ou durcie, mais encore poudreuse dans les pentes abritées. En sud suffisamment raide, fine croûte possible suite aux éclaircies de ce mardi.",
+      "text": "L'enneigement est plutôt excédentaire pour un début février.\n\nLimite d'enneigement skiable : vers 1000/1200 m en ubacs. Sous-couche un peu limite en adrets sous 1400/1500 m.\n\nÉtat de la neige de surface : neige récente irrégulièrement répartie suite au vent fort, souvent densifiée ou durcie, mais encore poudreuse dans les pentes abritées. En versants sud, croûte superficielle jusque 1800/2000 m le matin, l'humidification se poursuit avec le soleil et la remontée de l'iso 0 avant la neige.\nCrêtes bien chargées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 50,
-          "S": 40
+          "N": 40,
+          "S": 30
         },
         {
           "alt_m": 2000,
           "N": 120,
-          "S": 85
+          "S": 80
         },
         {
           "alt_m": 2500,
-          "N": 180,
-          "S": 145
+          "N": 185,
+          "S": 140
         }
       ],
       "icon_key": "snowpack",

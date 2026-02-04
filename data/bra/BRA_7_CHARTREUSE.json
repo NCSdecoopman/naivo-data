@@ -3,37 +3,49 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-02-03T16:00:00",
-    "valid_until": "2026-02-04T18:00:00",
+    "issued_at": "2026-02-04T16:00:00",
+    "valid_until": "2026-02-05T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 1700m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1700,
+        "split_axis": "horizontal",
+        "split_label": "1700m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1700",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1700",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1700m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-05",
+        "date": "2026-02-06",
         "label": "Indice de risque marqué",
-        "comment": "Jeudi, lente stabilisation dans les adrets. Par contre les versants ombragés resteront sensibles. Nouvelle chute de neige en soirée, augmentant de nouveau les risques.",
+        "comment": "La petite chute de neige attendue à partir de jeudi soir devrait augmenter temporairement les risques. De petites purges de neige fraîche se produiront spontanément vendredi.",
         "trend": "steady"
       }
     },
@@ -67,20 +79,16 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": null,
+      "secondary": 3,
       "labels": {
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "3": "Couche fragile persistante"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-30",
-          "min_cm": 5,
-          "max_cm": 10
-        },
         {
           "date": "2026-01-31",
           "min_cm": 0,
@@ -98,51 +106,56 @@
         },
         {
           "date": "2026-02-03",
-          "min_cm": 1,
-          "max_cm": 3
+          "min_cm": 0,
+          "max_cm": 1
         },
         {
           "date": "2026-02-04",
-          "min_cm": 2,
-          "max_cm": 4
+          "min_cm": 0,
+          "max_cm": 3
+        },
+        {
+          "date": "2026-02-05",
+          "min_cm": 8,
+          "max_cm": 15
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 7
+        "last_48h_min_cm": 8,
+        "last_48h_max_cm": 18
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "L'épisode de vent de sud augmente l'instabilité du manteau neigeux.",
-      "text": "L'épisode de vent de sud augmente l'instabilité du manteau neigeux.\n\nDéclenchements provoqués : la petite couche de neige récente (10/15 cm) a déjà subi un fort transport par le vent de sud, créant souvent des instabilités faciles à déclencher dans les ubacs. D'ampleur généralement limitée, ces plaques de neige en cours de densification peuvent être ponctuellement à l'origine de plus grosses avalanches quand des couches fragiles plus profondes viennent à être sollicitées sur leur trajet. Le risque est surtout présent au dessus de 1700 m environ.\nDéparts spontanés : quelques départs spontanés de plaques chargées par le vent de sud sont encore possibles jusqu'en mi-journée de mercredi. Méfiance également l'après-midi car la couverture nuageuse pourrait accélérer l'humidification superficielle du manteau neigeux et provoquer quelques purges de neige lourde dans les endroits restés à l'ombre.",
+      "title": "Présence d'instabilités en versants froids d'altitude.",
+      "text": "Présence d'instabilités en versants froids d'altitude.\n\nDéclenchements provoqués : Le manteau neigeux est en cours de stabilisation aux altitudes les plus basses et dans les versants bien ensoleillés suffisamment raides. Le transport de neige dû au vent d'un large secteur sud a favorisé la formation de plaques, plutôt dures et généralement détectables en observant le terrain, parfois loin des crêtes. Les zones les plus suspectes se situent en versants froids au dessus de 1700 m. Il n'est pas impossible que le déclenchement d'une plaque par un skieur puisse provoquer un départ plus conséquent sur le trajet de l'avalanche en sollicitant des couches fragiles anciennes, enfouies dans le manteau neigeux.\n\nDéparts spontanés : l'activité naturelle devrait être réduite jeudi à une éventuelle plaque se décrochant spontanément sous le poids de la neige rapportée par le vent de sud.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  l'enneigement est redevenu correct voire bon pour la saison, mais l'épisode de vent de Sud modifie beaucoup la répartition spatiale de la neige.\n\nLimites skiables : vers 1100/1400 m, hors sapins.\n\nQualité de la neige mercredi : neige poudreuse dans les pentes à l'ombre et à l'abri du vent. Neige croûtée puis lourde dans les versants au soleil jusqu'au moins 1800 m. Neige fortement soufflée et densifiée près des crêtes avec des cailloux qui ressortent par endroits.",
+      "text": "Qualification de l’enneigement :  l'enneigement est redevenu correct voire bon pour la saison, mais l'épisode de vent de Sud modifie beaucoup la répartition spatiale de la neige.\n\nLimites skiables : vers 1100/1400 m, hors sapins.\n\nQualité de la neige jeudi : neige poudreuse dans certaines pentes à l'ombre et à l'abri du vent. Neige croûtée puis lourde dans les versants au soleil jusqu'au moins 1800 m. Neige fortement soufflée et densifiée près des crêtes avec des cailloux qui ressortent par endroits.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 600,
+        "north": 900,
         "south": 1000
       },
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 25,
-          "S": 10
+          "N": 15,
+          "S": 5
         },
         {
           "alt_m": 1500,
-          "N": 130,
-          "S": 80
+          "N": 120,
+          "S": 70
         },
         {
           "alt_m": 2000,
-          "N": 165,
-          "S": 125
+          "N": 160,
+          "S": 120
         }
       ],
       "icon_key": "snowpack",

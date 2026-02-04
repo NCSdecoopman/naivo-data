@@ -3,30 +3,30 @@
   "massif": "Champsaur",
   "bulletin": {
     "id": 19,
-    "issued_at": "2026-02-03T17:00:00",
-    "valid_until": "2026-02-04T18:00:00",
+    "issued_at": "2026-02-04T16:00:00",
+    "valid_until": "2026-02-05T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 1800,
+        "threshold_m": 2000,
         "split_axis": "horizontal",
-        "split_label": "1800m",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1800",
+            "loc": "<2000",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">1800",
+            "loc": ">2000",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "1800m"
+          "label": "2000m"
         },
         "zones": {
           "bottom": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-05",
-        "label": "Indice de risque marqué",
-        "comment": "Lente stabilisation du manteau neigeux. Encore des plaques pouvant céder au passage d'un seul skieur.",
-        "trend": "steady"
+        "max_level": 4,
+        "date": "2026-02-06",
+        "label": "Indice de risque fort",
+        "comment": "En hausse. Nombreuses nouvelles instabilité formées après la chute de neige de jeudi soir. Risque fort.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -89,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-30",
-          "min_cm": 5,
-          "max_cm": 10
-        },
         {
           "date": "2026-01-31",
           "min_cm": 0,
@@ -118,22 +113,27 @@
           "date": "2026-02-04",
           "min_cm": 1,
           "max_cm": 3
+        },
+        {
+          "date": "2026-02-05",
+          "min_cm": 15,
+          "max_cm": 25
         }
       ],
       "totals": {
-        "last_48h_min_cm": 6,
-        "last_48h_max_cm": 13
+        "last_48h_min_cm": 16,
+        "last_48h_max_cm": 28
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PLAQUES ENCORE FACILES À DÉCLENCHER SUITE AU TRANSPORT DE NEIGE PAR LE VENT",
-      "text": "PLAQUES ENCORE FACILES À DÉCLENCHER SUITE AU TRANSPORT DE NEIGE PAR LE VENT\n\nDéclenchements provoqués : le manteau neigeux reste instable, avec une double problématique de plaques, principalement au-dessus de 1800/2000 m :\n- des plaques récentes sont en place dans les pentes où le vent fort a transporté et accumulé la neige récente. Elles peuvent céder au passage d'un seul skieur et engendrer des avalanches petites à moyennes (taille 1 à 2). Cassures pouvant être assez larges quand la topographie de la pente s'y prête.\n- des plaques plus anciennes, essentiellement dans les pentes ouest, nord à est, masquées par la couche de neige récente. Elles sont moins fréquentes et plus difficiles à déclencher, mais les cassures sont alors épaisses en cas de départ. Avalanches moyennes à grandes (taille 2 à 3). Une première plaque de surface peut faciliter le départ d'une de ces plaques plus épaisses en contrebas.\n\nSous 1800/2000 m, le manteau neigeux a souvent été en partie humidifié/regelé, limitant la probabilité de déclencher une plaque.\n\nDéparts spontanés : - quelques départs de plaques possibles, suite au transport de neige par le vent. Avalanches petites à moyennes (taille 1 à 2). Une grande (taille 3) non exclue en cas de déclenchement d'une couche fragile persistante enfouie, suite à un premier départ de surface.\n- Quelques avalanches de neige récente humidifiée, départs près des rochers. Taille 1, voire 2 si la topographie est favorable.",
+      "title": "INSTABILITÉ ENCORE MARQUÉE DANS LA NEIGE VENTÉE",
+      "text": "INSTABILITÉ ENCORE MARQUÉE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : le manteau neigeux reste peu stabilisé en altitude. Ces instabilités se situent principalement en orientations ouest, nord et est d'altitude supérieure à 2000 m. Un seul skieur peut les déclencher, parfois à distance, et générer des avalanches de taille moyenne. Les instabilités se situent principalement dans la neige ventée en surface. Elles sont plutôt identifiables, et localisées dans les secteurs d'accumulation par le vent, parfois loin des crêtes. Le déclenchement de ces plaques plutôt dures peut cependant solliciter en cascade des couches fragiles persistantes enfouies et générer des avalanches de grande taille, avec large et épaisse cassure, quand la topographie s'y prête.\n\nDéparts spontanés : avalanches de plaques possibles en fin de journée sous l'effet du fort vent de secteur sud en altitude. Taille petite à moyenne, grande possible en soirée avec l'accumulation de neige fraîche. \nPar ailleurs, petits départs ponctuels en neige humide, taille petite à moyenne, en versants est à sud non encore purgés. Le retour provisoire du soleil jeudi matin s'effectue dans une masse d'air doux, qui favorise l'humidification du manteau neigeux, en versants raides ensoleillés.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est légèrement excédentaire pour un début février.\nDonnées observées : 40 cm au hameau des Portes dans le Valgaudemar à 1270 m, 94 cm à la Nivôse d'Orcières à 2280 m, et 144 cm au-dessus de Prapic à 2480 m.\n\nLimite d'enneigement skiable : dès les fonds de vallées, mais avec une sous-couche un peu limite en adrets sous 1600 m.  \n\nÉtat de la neige de surface : 20/30 cm de neige récente au-dessus de 2000/2200 m, souvent densifiée ou durcie par le vent, mais encore poudreuse dans les pentes abritées. En sud suffisamment raide, fine croûte possible suite aux éclaircies de ce mardi.",
+      "text": "L'enneigement est légèrement excédentaire pour un début février.\nDonnées observées : 36 cm au hameau des Portes dans le Valgaudemar à 1270 m, 94 cm à la Nivôse d'Orcières à 2280 m, et 142 cm au-dessus de Prapic à 2480 m.\n\nLimite d'enneigement skiable : dès les fonds de vallées, mais avec une sous-couche un peu limite en adrets sous 1600 m.  \n\nÉtat de la neige de surface : 20/30 cm de neige récente au-dessus de 2000/2200 m, souvent densifiée ou durcie par le vent, mais parfois poudreuse dans les pentes abritées. En versants sud, croûte superficielle jusque 1800/2000 m le matin, l'humidification se poursuit avec le soleil et la remontée de l'iso 0 avant la neige.\nCrêtes bien chargées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,8 +144,8 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 50,
-          "S": 40
+          "N": 40,
+          "S": 30
         },
         {
           "alt_m": 2000,

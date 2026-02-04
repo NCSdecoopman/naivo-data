@@ -3,8 +3,8 @@
   "massif": "Aravis",
   "bulletin": {
     "id": 2,
-    "issued_at": "2026-02-03T16:00:00",
-    "valid_until": "2026-02-04T18:00:00",
+    "issued_at": "2026-02-04T16:00:00",
+    "valid_until": "2026-02-05T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-05",
+        "date": "2026-02-06",
         "label": "Indice de risque marqué",
-        "comment": "Lente stabilisation du manteau. Les plaques à vent sont un peu moins nombreuses, mais toujours réactives. Les couches fragiles persistantes semblent de moins en moins réactives au fil des jours, mais les avalanches en cascade sont toujours à craindre.",
+        "comment": "Risque en hausse dans la neige fraiche.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-01-30",
-          "min_cm": 7,
-          "max_cm": 15
-        },
-        {
           "date": "2026-01-31",
           "min_cm": 0,
           "max_cm": 2
@@ -118,22 +113,27 @@
           "date": "2026-02-04",
           "min_cm": 0,
           "max_cm": 1
+        },
+        {
+          "date": "2026-02-05",
+          "min_cm": 10,
+          "max_cm": 15
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 8
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 16
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "Nombreuses instabilités liées au fort vent de S/SW.",
-      "text": "Nombreuses instabilités liées au fort vent de S/SW.\n\nDéclenchements provoqués :\n* Nombreuses plaques à vent. On les retrouve principalement au-delà de 1800m, dans les accumulations, là où la neige est restée froide (et donc encore transportable). Elles sont formées par le vent de S/SW qui souffle depuis deux jours. Au vu du fort vent des jours passés, ces plaques sont plutôt d'aspect dur, et peuvent être présentes même loin des crêtes. Les cassures associées sont variables selon les accumulations. Taille 1 à 2 (petite à moyenne), rarement 3 (grande). Sur les secteurs Tournette/Bornes/Bargy, les cumuls de neige sont un peu plus importants et les plaques possiblement encore plus nombreuses.\nObservables : vaguelettes sur la neige de surface, fissures sous les skis, accumulations de neige récente, transport en cours, etc...\n* Facteur aggravant : Une couche fragile persistante est enfouie dans les ubacs au-dessus de 1800/2000 m. Cette couche fragile est difficilement déclenchable par un skieur, mais dans une configuration d'avalanche en cascade (liée à une plaque à vent, une rupture de corniche, ...), elle pourrait céder et entraîner le manteau neigeux sur 60/80 cm d'épaisseur. Taille 3 possible.\nObservables : pas d’indice de surface, test CT, ECT. \n\nDéparts spontanés : Probabilité de départs en baisse.\n* Rares ruptures de plaques liées à la surcharge due au vent. Départs linéaires possibles (mais de moins en moins probables) dans les pentes raides. Dans des configurations défavorables, la couche fragile pourrait être sollicitée.\n* Sur les terrains lisses sous 2000/2200m, possibles départs de plaques de fond à toute heure du jour et de la nuit. Taille 1 (petite).\n\nAutres :\n* Attention aux (rares) ruptures de corniches lors du transport.",
+      "text": "Nombreuses instabilités liées au fort vent de S/SW.\n\nDéclenchements provoqués :\n* Nombreuses plaques à vent. Principalement au-delà de 1800m, dans les accumulations en ubacs. Formées par le vent de S/SW qui souffle ces derniers jours. Elles peuvent être présentes même loin des crêtes. Taille 1 à 2 (petite à moyenne), rarement 3 (grande). \nObservables : vaguelettes sur la neige de surface, fissures sous les skis, accumulations de neige récente, transport en cours, etc...\n* Facteur aggravant : Une couche fragile persistante est enfouie dans les ubacs au-dessus de 1800/2000 m. Cette couche fragile est difficilement déclenchable par un skieur, mais dans une configuration d'avalanche en cascade (liée à une plaque à vent, une rupture de corniche, ...), elle pourrait céder et entraîner le manteau neigeux sur 60/80 cm d'épaisseur. Taille 3 possible.\n\nDéparts spontanés : Probabilité de départs en baisse.\n* Petits départs ponctuels (escargots, boulettes), surtout dans les pentes raides, près des rochers et des falaises. Taille 1.\n* Sur les terrains lisses sous 2000/2200m, possibles départs de plaques de fond à toute heure du jour et de la nuit. Taille 1 (petite).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire en dessous de 1600 m et correct au-dessus. \nOn peut chausser les skis vers 900/1000 m. Pas de sous-couche sous 1400 m ou sur les crêtes, des cailloux sont cachés sous la neige récente. \n\nQualité de la neige mercredi :\n- En dessous de 1500m, la neige est molle.\n- Entre 1500 et 1800 m, la neige est alourdie en ubacs, et dans les adrets, elle subit une évolution de printemps.\n- Au-dessus de 1800 m, 20/30 cm de neige froide cartonnée par le vent. Les crêtes sont décapées.",
+      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire en dessous de 1600 m et correct au-dessus. \nOn peut chausser les skis vers 900/1000 m. Pas de sous-couche sous 1400 m ou sur les crêtes, des cailloux sont cachés sous la neige récente. \n\nQualité de la neige jeudi :\n- En dessous de 1500m, la neige est croutée le matin puis rapidement humide.\n- Entre 1500 et 1800 m, la neige est alourdie en ubacs, et dans les adrets, elle subit une évolution de printemps.\n- Au-dessus de 1800 m, 20/30 cm de neige froide cartonnée par le vent. Les crêtes sont décapées. Dans les endroits les plus à l'abri du vent de sud, la neige est encore poudreuse dense.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,8 +144,8 @@
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 20,
-          "S": 20
+          "N": 15,
+          "S": 10
         },
         {
           "alt_m": 1500,
