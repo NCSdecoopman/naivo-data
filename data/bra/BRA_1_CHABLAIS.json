@@ -3,60 +3,48 @@
   "massif": "Chablais",
   "bulletin": {
     "id": 1,
-    "issued_at": "2026-02-04T16:00:00",
-    "valid_until": "2026-02-05T18:00:00",
+    "issued_at": "2026-02-05T16:00:00",
+    "valid_until": "2026-02-06T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice faible.",
+      "comment": "Indice de risque limité évoluant en marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 1800,
-        "split_axis": "horizontal",
-        "split_label": "1800m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1800",
-            "risk": 1,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">1800",
-            "risk": 3,
-            "evolution_to": null,
-            "position": "top"
+            "loc": null,
+            "risk": 2,
+            "evolution_to": 3,
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "1800m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "3",
+          "center": {
+            "text": "2→3",
             "risk": 3,
-            "evolution_to": null
+            "evolution_to": 3
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-06",
+        "date": "2026-02-07",
         "label": "Indice de risque marqué",
-        "comment": "Risque en hausse dans la neige fraiche.",
+        "comment": "Beau temps sur le massif. Risque stationnaire.",
         "trend": "steady"
       }
     },
@@ -65,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -89,11 +77,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-31",
-          "min_cm": 0,
-          "max_cm": 2
-        },
         {
           "date": "2026-02-01",
           "min_cm": 0,
@@ -118,22 +101,27 @@
           "date": "2026-02-05",
           "min_cm": 5,
           "max_cm": 10
+        },
+        {
+          "date": "2026-02-06",
+          "min_cm": 8,
+          "max_cm": 10
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 11
+        "last_48h_min_cm": 13,
+        "last_48h_max_cm": 20
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nombreuses instabilités liées au fort vent de S/SW.",
-      "text": "Nombreuses instabilités liées au fort vent de S/SW.\n\nDéclenchements provoqués :\n* Plaques à vent. Principalement au-delà de 1800m, dans les accumulations en ubacs. Formées par le vent de S/SW qui souffle ces derniers jours. Elles peuvent être présentes même loin des crêtes près du Haut Giffre/Grand Massif, plus proche des crêtes plus au nord. Taille 1 à 2 (petite à moyenne), rarement 3 (grande). \nObservables : vaguelettes sur la neige de surface, fissures sous les skis, accumulations de neige récente, transport en cours, etc...\n* Facteur aggravant : Une couche fragile persistante est enfouie dans les ubacs au-dessus de 1800/2000 m. Cette couche fragile est difficilement déclenchable par un skieur, mais dans une configuration d'avalanche en cascade (liée à une plaque à vent, une rupture de corniche, ...), elle pourrait céder et entraîner le manteau neigeux sur 60/80 cm d'épaisseur. Taille 3 possible.\n\nDéparts spontanés : Probabilité de départs en baisse.\n* Petits départs ponctuels (escargots, boulettes), surtout dans les pentes raides, près des rochers et des falaises. Taille 1.\n* Sur les terrains lisses sous 2000/2200m, possibles départs de plaques de fond à toute heure du jour et de la nuit. Taille 1 (petite).",
+      "title": "Instabilité dans la neige fraiche.",
+      "text": "Instabilité dans la neige fraiche.\n\nDéclenchements provoqués :\n* Plaques dans la neige fraiche. De plus en plus nombreuses et épaisses au fil des chutes de neige, des heures et en altitude. Taille 1 puis 2 (petite puis moyenne). \n* Encore de vieille plaque à vent près des crêtes dans  les accumulations en ubacs. Formées par le vent de S/SW. Taille 1 \n* Facteur aggravant : Une couche fragile persistante est enfouie dans les ubacs au-dessus de 1800/2000 m. Difficilement déclenchable par un skieur, mais dans une configuration d'avalanche en cascade (liée à une plaque à vent, une rupture de corniche, ...), elle pourrait céder et entraîner le manteau neigeux sur 70/90 cm d'épaisseur. Taille 3 possible.\n\nDéparts spontanés : \n* Petites purges dans la neige fraiche au cours des chutes de neige. Taille 1 rarement 2 (petite rarement moyenne)",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire en dessous de 1600 m et correct au-dessus. \nOn peut chausser les skis vers 900/1000 m. Pas de sous-couche sous 1400 m ou sur les crêtes, des cailloux sont cachés sous la neige récente. \n\nQualité de la neige jeudi :\n- En dessous de 1500m, la neige est croutée le matin puis rapidement humide.\n- Entre 1500 et 1800 m, la neige est alourdie en ubacs, et dans les adrets, elle subit une évolution de printemps.\n- Au-dessus de 1800 m, 20/30 cm de neige froide cartonnée par le vent coté grand massif/Haut Giffre. Les crêtes sont décapées. Dans les endroits les plus à l'abri du vent de sud, la neige est encore poudreuse dense.",
+      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire en dessous de 1600 m et correct au-dessus. \nOn peut chausser les skis vers 1000 m. Pas de sous-couche sous 1400 m ou sur les crêtes, des cailloux sont cachés sous la neige récente. \n\nQualité de la neige vendredi :\nFine couche de neige fraîche qui s’épaissit en cours de journées : de 7 à 15 cm en dessous de 1 800 m, 10/20 cm au-dessus. \nEn dessous de 2 000 m : cette neige fraîche repose sur un fond gelé en adret, plus souple ou ventée en ubacs. \nAu-dessus de 2 000 m : le fond est souvent dur/ventée et parfois plus souple dans les secteurs à l’abri du vent de S.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

@@ -3,49 +3,61 @@
   "massif": "Thabor",
   "bulletin": {
     "id": 13,
-    "issued_at": "2026-02-04T16:00:00",
-    "valid_until": "2026-02-05T18:00:00",
+    "issued_at": "2026-02-05T16:00:00",
+    "valid_until": "2026-02-06T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "max_level": 4,
+      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice marqué.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
+            "risk": 4,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
             "text": "3",
             "risk": 3,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "4",
+            "risk": 4,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 4,
-        "date": "2026-02-06",
+        "date": "2026-02-07",
         "label": "Indice de risque fort",
-        "comment": "En hausse. Nombreuses nouvelles instabilité formées après la chute de neige de jeudi soir. Risque fort.",
-        "trend": "up"
+        "comment": "Persistance de nombreuses instabilités, encore faciles à déclencher et volumineuses. Risque fort.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -53,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -66,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 3,
-      "secondary": 2,
+      "primary": 1,
+      "secondary": 3,
       "labels": {
-        "3": "Couche fragile persistante",
-        "2": "Neige ventée"
+        "1": "Neige fraîche",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-3"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-01-31",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-01",
           "min_cm": 0,
@@ -99,29 +106,34 @@
         },
         {
           "date": "2026-02-04",
-          "min_cm": 0,
-          "max_cm": 1
+          "min_cm": 1,
+          "max_cm": 3
         },
         {
           "date": "2026-02-05",
-          "min_cm": 10,
-          "max_cm": 20
+          "min_cm": 15,
+          "max_cm": 25
+        },
+        {
+          "date": "2026-02-06",
+          "min_cm": 1,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 10,
-        "last_48h_max_cm": 21
+        "last_48h_min_cm": 16,
+        "last_48h_max_cm": 30
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITÉ ENCORE MARQUÉE DANS LA NEIGE RÉCENTE ; MANTEAU NEIGEUX PIÉGEUX, PEU D'OBSERVABLES",
-      "text": "INSTABILITÉ ENCORE MARQUÉE DANS LA NEIGE RÉCENTE ; MANTEAU NEIGEUX PIÉGEUX, PEU D'OBSERVABLES\n\nDéclenchements provoqués : le manteau neigeux reste peu stabilisé dans de nombreuses pentes. Ces instabilités se situent principalement en orientations ouest, nord et est, y compris dans les pentes a priori peu dangereuses comme celles déjà skiées, ou en forêts clairsemées. Un seul skieur peut encore facilement les déclencher, parfois à distance, et générer des avalanches de plaques d'aspect poudreux de taille moyenne, parfois grande, avec large et épaisse cassure, quand la topographie s'y prête, notamment au-dessus de 2000 m. La chute de neige la nuit de lundi à mardi repose en effet sur un manteau neigeux instable, constitué d'un empilement de couches fragiles non détectables depuis la surface. \nDes instabilités plus facilement identifiables se sont formées  jusqu'à mercredi matin sous l'effet du vent de sud à est. De nouvelles se forment en cours de journée de jeudi. Localisées dans les secteurs d'accumulation par le vent, parfois loin des crêtes, le déclenchement de ces plaques plutôt dures peut cependant solliciter en cascade ces couches fragiles persistantes enfouies.  \n\nDéparts spontanés : avalanches de plaques possibles en fin de journée sous l'effet du vent de secteur sud en altitude, puis des chutes de neige en soirée. Taille petite à moyenne. \nPar ailleurs, petits départs ponctuels en neige humide, taille petite à moyenne, en versants est à sud non encore purgés. Le retour provisoire du soleil jeudi matin s'effectue dans une masse d'air doux, qui favorise l'humidification du manteau neigeux, en versants raides ensoleillés.",
+      "title": "NOUVELLE CHUTE DE NEIGE SUR UN MANTEAU A LA FOIS ÉPAIS ET FRAGILE : SITUATION TRÈS DÉFAVORABLE",
+      "text": "NOUVELLE CHUTE DE NEIGE SUR UN MANTEAU A LA FOIS ÉPAIS ET FRAGILE : SITUATION TRÈS DÉFAVORABLE\n\nDéclenchements provoqués : le manteau neigeux est instable dans la plupart des pentes. Au-dessus de 2000 m, ces instabilités, sous forme de plaques d'aspect poudreux, sont très nombreuses et concernent toutes les orientations. Un seul skieur isolé peut facilement les déclencher, même à distance, et générer des avalanches de taille moyenne à grande, et possiblement de très grande taille en large secteur nord de haute altitude, si la topographie s'y prête. Ce danger concerne également les pentes a priori peu dangereuses comme celles auparavant skiées, ou en forêts. \nLa nouvelle chute de neige la nuit de jeudi à vendredi repose sur un manteau neigeux instable, constitué d'un empilement de couches fragiles jusqu'au fond, et non détectables depuis la surface ; éventuellement avec un test du bâton, on observe un brusque enfoncement près du sol. Les épaisseurs de cassure peuvent ainsi dépasser 100 cm en versants peu ensoleillés d'altitude.\nSous 2000 m d'altitude, ces instabilités sont moins volumineuses et moins sensibles, mais un seul skieur peut encore les déclencher et générer des avalanches de taille moyenne, rarement grande.\n\nDéparts spontanés : activité marquée la nuit de jeudi à vendredi pendant les chutes ou peu après. Nombreuses avalanches de neige fraîche ventée, en départs linéaires, avec aérosol, atteignant des dimensions de taille moyenne à grande. Une avalanche de très grande taille n'est pas exclue en versant froid de haute altitude. Ces avalanches pourraient approcher certains secteurs routiers d'altitude, sans toutefois les atteindre.\nEn journée, activité limitée en neige humide, départs restants ponctuels et de taille petite à moyenne en adrets raides.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est plutôt excédentaire pour un début février, notamment en vallées, mais légèrement déficitaire sur la partie savoyarde du massif.\nDonnées observées vers 2500 m : 154 cm de neige dans le vallon du Chardonnet, 113 cm à la Nivôse du Galibier, 39 cm à celle des Rochilles.\n\nLimite d'enneigement skiable : beaucoup d'itinéraires skiables dès les fonds de vallées ; adrets peu enneigés (voire au terrain en Savoie) jusqu'à 1600/1700 m. \n\nÉtat de la neige de surface : le matin, 20/30 cm de neige récente, plutôt 10 cm à proximité de Valloire et Valmeinier. Elle a été parfois densifiée ou durcie par le vent, en particulier côté Savoie, encore légère et poudreuse dans les pentes abritées, notamment en forêts. En versants sud, croûte superficielle jusque 1800/2000 m le matin, l'humidification se poursuit avec le soleil et la remontée de l'iso 0 avant la neige.\nCrêtes bien chargées.",
+      "text": "L'enneigement est plutôt excédentaire pour un début février, notamment en vallées, mais légèrement déficitaire sur la partie savoyarde du massif.\nDonnées observées jeudi vers 2500 m : 150 cm de neige dans le vallon du Chardonnet, 113 cm à la Nivôse du Galibier, 39 cm à celle des Rochilles.\n\nLimite d'enneigement skiable : la plupart des itinéraires sont skiables dès les fonds de vallées vendredi matin.\n\nÉtat de la neige de surface : vendredi matin, on trouve partout de la neige fraîche : 15 à 20 cm en vallées, jusqu'à 30 cm en altitude. Elle est souvent légère et poudreuse, plus densifiée par le vent et parfois cartonnée près des crêtes d'altitude. Cette neige fraîche s'alourdit en adrets raides sous les éclaircies jusque 1800/2000 m environ.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 120,
-          "S": 100
+          "N": 110,
+          "S": 90
         },
         {
           "alt_m": 2500,
-          "N": 165,
-          "S": 125
+          "N": 160,
+          "S": 120
         }
       ],
       "icon_key": "snowpack",
