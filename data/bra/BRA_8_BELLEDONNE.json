@@ -3,37 +3,49 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-02-05T16:00:00",
-    "valid_until": "2026-02-06T18:00:00",
+    "issued_at": "2026-02-06T16:00:00",
+    "valid_until": "2026-02-07T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-07",
+        "date": "2026-02-08",
         "label": "Indice de risque marqué",
-        "comment": "Samedi, manteau neigeux en cours de stabilisation. Risque naturel en baisse, par contre les déclenchements resteront faciles..",
+        "comment": "Dimanche, poursuite de la stabilisation du manteau neigeux. Risques en baisse.",
         "trend": "steady"
       }
     },
@@ -66,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 3,
       "labels": {
-        "1": "Neige fraîche",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-01",
-          "min_cm": 0,
-          "max_cm": 1
-        },
         {
           "date": "2026-02-02",
           "min_cm": 10,
@@ -100,50 +107,55 @@
         {
           "date": "2026-02-05",
           "min_cm": 10,
-          "max_cm": 15
+          "max_cm": 20
         },
         {
           "date": "2026-02-06",
-          "min_cm": 2,
+          "min_cm": 1,
           "max_cm": 5
+        },
+        {
+          "date": "2026-02-07",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 12,
-        "last_48h_max_cm": 20
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Instabilités dans la neige de surface.",
-      "text": "Instabilités dans la neige de surface.\n\nDéclenchements provoqués : ils concerneront surtout la petite couche de neige prévue jusqu'en milieu de nuit de jeudi à vendredi et accompagnée d'un vent de sud soutenu. Les plaques d'aspect poudreux ainsi formées seront probablement faciles à déclencher vendredi, en particulier près des ruptures de pente, mais ne dépasseront pas la taille 2. Dans un nombre de cas restreint, le déclenchement d'une de ces plaques pourrait provoquer un départ plus important (taille 3 avec cassure atteignant jusqu'à 1 m) si les couches fragiles enfouies dans le manteau neigeux venaient à être sollicitées.\n\nDéparts spontanés : petites coulées de neige fraîche possibles dans les pentes le plus raides pendant les chutes. Quelques purges de taille modeste en journée de vendredi à la faveur des trouées de soleil, plutôt localisées près des rochers.",
+      "title": "Présence de plaques friables dans la neige récente.",
+      "text": "Présence de plaques friables dans la neige récente.\n\nLe manteau neigeux a subi une humidification significative et un tassement important en dessous de 2000/2200 m selon les versants, consolidant efficacement les dernières chutes de neige. A plus haute altitude, la neige sèche est encore insuffisamment stabilisée.\n\nDéclenchements provoqués : les plaques d'aspect poudreux formées très récemment sont en cours de stabilisation, mais restent encore réactives au passage d'un skieur. Plusieurs observations indiquent des déclenchements faciles de plaques d'ampleur limitée (taille 1 à 2  avec des cassures de 20/40 cm), mais avec des propagations à distance  Le risque est surtout présent en versants froids à plus de 2000 m. Ponctuellement, il est toujours possible qu'une avalanche sollicite une couche fragile enfouie plus profondément dans le manteau neigeux lors de son trajet, entraînant alors des volumes de neige bien plus conséquents.\n\nDéparts spontanés : de nombreuses purges de taille 1, plus rarement 2, se sont déjà produites ce vendredi. L'activité avalancheuse naturelle s'annonce plus modeste samedi avec seulement quelques départs spontanés de neige humide en pentes raides encore vierges.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  l'enneigement est bon pour la saison, sauf aux altitudes les plus basses.\n\nLimites skiables : vers 1100/1400 m.\n\nQualité de la neige vendredi : Petite couche de neige fraîche, parfois soufflée, surmontant un manteau neigeux très irrégulier.",
+      "text": "Qualification de l’enneigement :  l'enneigement est bon pour la saison, sauf aux altitudes les plus basses.\n\nLimites skiables : vers 1100/1500 m.\n\nQualité de la neige samedi : En dessous de 2000 m et dans les versants au soleil, neige humidifiée en surface, croûtée en début de journée. Dans les ubacs à plus de 2000 m, petite couche de neige récente, parfois soufflée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 900,
-        "south": 1200
+        "south": 1300
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 110,
+          "N": 120,
           "S": 50
         },
         {
           "alt_m": 2000,
-          "N": 190,
-          "S": 130
+          "N": 205,
+          "S": 145
         },
         {
           "alt_m": 2500,
-          "N": 240,
-          "S": 180
+          "N": 260,
+          "S": 200
         }
       ],
       "icon_key": "snowpack",

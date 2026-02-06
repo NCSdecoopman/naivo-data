@@ -3,49 +3,61 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-02-05T16:00:00",
-    "valid_until": "2026-02-06T18:00:00",
+    "issued_at": "2026-02-06T16:00:00",
+    "valid_until": "2026-02-07T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque limité évoluant en marqué.",
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
             "risk": 2,
-            "evolution_to": 3,
-            "position": null
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
+            "risk": 3,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
-            "text": "2→3",
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "3",
             "risk": 3,
-            "evolution_to": 3
+            "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-07",
-        "label": "Indice de risque marqué",
-        "comment": "Retour du beau  temps voilé, attention au risque accidentel qui va rester considérable dans un certain nombre de pentes surtout en large secteur Nord d'altitude si les cumuls attendus ce vendredi sont bien au rendez vous.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-02-08",
+        "label": "Indice de risque limité",
+        "comment": "Stabilisation des plaques \"de surface\". La couche fragile persistante enfouie est difficilement sollicitable.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -67,20 +79,16 @@
     },
     "sat": {
       "primary": 1,
-      "secondary": null,
+      "secondary": 3,
       "labels": {
-        "1": "Neige fraîche"
+        "1": "Neige fraîche",
+        "3": "Couche fragile persistante"
       },
       "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-01",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-02",
           "min_cm": 0,
@@ -103,24 +111,29 @@
         },
         {
           "date": "2026-02-06",
-          "min_cm": 7,
-          "max_cm": 15
+          "min_cm": 5,
+          "max_cm": 10
+        },
+        {
+          "date": "2026-02-07",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 17,
-        "last_48h_max_cm": 30
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 10
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nouvelle chute de neige venant apporter quelques nouvelles instabilités",
-      "text": "Nouvelle chute de neige venant apporter quelques nouvelles instabilités \n\nDéclenchements provoqués : Les quelques nouvelles plaques friables d'aspect poudreux qui vont se former au cours des chutes plus ou moins ventées attendues seront très faciles à déclencher par un seul skieur. Occasionnant généralement des départs de petites tailles cassure 30 le matin puis 50 cm en fin de journée. On pourra peu à peu en trouver dans les accumulations derrière les ruptures de pentes en toutes orientations.\n Au dessus de 1800m et en versants froids (Est/Nord/Ouest) des couches fragiles persistantes enfouies profondément dans le manteau pourront être très localement réactivées par ces  plaques de surface et alors engendrer de plus grandes et larges avalanches taille 3 \nObservables: neige fraiche un peu plus dense sur neige plus molle, fissures devant les skis \n\nDéparts spontanés : Nouvelles plaques en formation lors des chutes de neige ventées qui débutent ce jeudi soir ( cumul attendu vendredi fin de journée  25/30cm localement 35 cm). Ces plaques taille 1 puis taille 2  rarement taille 3 si une plaque de surface engendre en cascade une plaque plus profonde posée sur les couches fragiles persistantes enfouies. Premiers petits départs possibles dans les pentes les plus raides dès que le cumul de fraiche atteindra les 15/20cm.    \nSous 1500m possibles petites avalanches de neige humide au moment de la pluie.",
+      "title": "NOMBREUSES PLAQUES D'ASPECT POUDREUX.",
+      "text": "NOMBREUSES PLAQUES D'ASPECT POUDREUX. \n\nDéclenchements provoqués : de nombreuses plaques friables d'aspect poudreux sont en place près des crêtes comme dans les pentes. Elles restent réactives en journée dans les versants Est, Nord et Ouest, et vivent leur dernières heures dans les versants ensoleillés (Sud Est à Sud Ouest). Elles occasionnent des cassures de ~40 cm et des avalanches de taille 1 à 2 (petite à moyenne). Observables : accumulation de neige fraiche supérieure à la moyenne environnante, neige dense en surface et plus molle en dessous, fissures devant les skis.\nAu-dessus de 2000m et en versants froids (Est/Nord/Ouest) des couches fragiles persistantes enfouies profondément dans le manteau pourront être localement déclenchées, en cascade par ces plaques de surface et alors engendrer de plus grandes et larges avalanches taille 3. \n\nDéparts spontanés : au gré de la course du Soleil, des départs ponctuels (avalanches en poire) ou linéaires (cassures) s'observent dans les pentes raides d'altitude, au départ des rochers. Taille 1, au pire 2 si la topographie s'y prête.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Un peu en dessous des normales de saison mais les chutes à venir (dans la semaine ) devraient améliorer nettement l'enneigement\n\nLimite skiable :  Les versants froids voyant pas ou peu le soleil ont gardé de la neige à basse altitude, skiable sur l'herbe ou sur pistes forestières dès 700 à 900m. Sous bois skiables dès 1200m.  En versant sud skiable dès 1300/1400m en prairies pas trop raides,  1600/1700m en Sud raide.\n\nQualité de la neige : Demain vendredi , la neige fraiche le plus souvent poudreuse viendra recouvrir peu à peu un manteau souvent travaillé par le vent, surtout à haute altitude et sur les moindres crêtes ou croupes. Sous 1500/1600m la neige fraiche pourra être humide voir collante.",
+      "text": "Enneigement : Un peu en dessous des normales de saison mais les chutes à venir (dans la semaine ) devraient améliorer nettement l'enneigement\n\nLimite skiable :  Les versants froids voyant pas ou peu le soleil ont gardé de la neige à basse altitude, skiable sur l'herbe ou sur pistes forestières dès 700 à 900m. Sous bois skiables dès 1200m.  En versant sud skiable dès 1300/1400m en prairies pas trop raides,  1600/1700m en Sud raide.\n\nQualité de la neige : au réveil, la neige récente est croutée jusqu'à ~2000 m ? Plus haut dans certains secteurs ... Encore plus haut, elle est poudreuse, légèrement travaillée par le vent à l'approche des crêtes. Dans les versants \"chauds\" (Sud Est à Sud Ouest), elle chauffe au gré de la course du Soleil. A basse altitude, la croute ramollie. Plus haut, la neige se met à coller. Gare au bottage !",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -131,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 90,
-          "S": 50
+          "N": 100,
+          "S": 60
         },
         {
           "alt_m": 2000,
-          "N": 140,
-          "S": 110
+          "N": 155,
+          "S": 125
         },
         {
           "alt_m": 2500,
-          "N": 180,
-          "S": 150
+          "N": 190,
+          "S": 160
         }
       ],
       "icon_key": "snowpack",
