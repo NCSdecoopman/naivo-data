@@ -3,8 +3,8 @@
   "massif": "Vanoise",
   "bulletin": {
     "id": 10,
-    "issued_at": "2026-02-06T16:00:00",
-    "valid_until": "2026-02-07T18:00:00",
+    "issued_at": "2026-02-07T16:00:00",
+    "valid_until": "2026-02-08T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-08",
+        "date": "2026-02-09",
         "label": "Indice de risque marqué",
-        "comment": "Les plaques \"de surface\" se stabilisent. Les couches fragiles persistantes enfouies demeurent problématiques.",
+        "comment": "Manteau neigeux encore piégeux avec des plaques de neige récentes \"en surface\" et une couche fragile persistante enfouie qui engendre occasionnellement des départs plus gros.",
         "trend": "steady"
       }
     },
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 3,
       "labels": {
-        "1": "Neige fraîche",
+        "2": "Neige ventée",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-02",
-          "min_cm": 0,
-          "max_cm": 2
-        },
         {
           "date": "2026-02-03",
           "min_cm": 0,
@@ -111,24 +106,29 @@
         },
         {
           "date": "2026-02-06",
-          "min_cm": 3,
-          "max_cm": 7
+          "min_cm": 0,
+          "max_cm": 2
         },
         {
           "date": "2026-02-07",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-08",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 7
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES PLAQUES D'ASPECT POUDREUX. GRANDES AVALANCHES TOUJOURS POSSIBLES.",
-      "text": "NOMBREUSES PLAQUES D'ASPECT POUDREUX. GRANDES AVALANCHES TOUJOURS POSSIBLES. \n\nDéclenchements provoqués : de nombreuses plaques friables d'aspect poudreux sont en place près des crêtes comme dans les pentes. Elles restent réactives en journée dans les versants Est, Nord et Ouest, et vivent leur dernières heures dans les versants ensoleillés (Sud Est à Sud Ouest). Elles occasionnent des cassures de ~30 cm et des avalanches de taille 1 à 2 (petite à moyenne), plus épaisses et plus grosses en haute montagne. Observables : accumulation de neige fraiche supérieure à la moyenne environnante, neige dense en surface et plus molle en dessous, fissures devant les skis.\nFacteur aggravant, au dessus de 1800m et en versants froids (Est/Nord/Ouest) mais aussi en Sud à haute altitude, des couches fragiles persistantes enfouies dans le manteau pourront réagir au passage d'un skieur ou en cascade grâce aux plaques friables. Elles engendrent de plus grandes et larges avalanches : taille 3 \nObservables : woumfs en ce qui concerne les couches fragiles persistantes enfouies. \n\nDéparts spontanés : au gré de la course du Soleil, des départs ponctuels (avalanches en poire) ou linéaires (cassures) s'observent dans les pentes raides d'altitude, au départ des rochers. Taille 1, au pire 2 si la topographie s'y prête.",
+      "title": "QUELQUES PLAQUES D'ASPECT POUDREUX. RARES GRANDES AVALANCHES POSSIBLES.",
+      "text": "QUELQUES PLAQUES D'ASPECT POUDREUX. RARES GRANDES AVALANCHES POSSIBLES. \n\nDéclenchements provoqués : quelques plaques friables d'aspect poudreux sont en place près des crêtes. De rares nouvelles se forment là où le vent de Sud transporte la neige récente (secteur parc national). Elles restent réactives en journée dans les versants Est, Nord et Ouest. Elles occasionnent des cassures de ~20 cm et des avalanches de taille 1 à 2 (petite à moyenne). Observables : accumulation de neige fraiche supérieure à la moyenne environnante, transport de neige par le vent.\nFacteur aggravant, au dessus de 1800m et en versants froids (Est/Nord/Ouest) mais aussi en Sud à haute altitude, des couches fragiles persistantes sont enfouies dans le manteau pourront réagir au passage d'un skieur ou en cascade grâce aux plaques friables. Elles engendrent de plus grandes et larges avalanches : taille 3 possible.\nObservables : woumfs en ce qui concerne les couches fragiles persistantes enfouies. \n\nDéparts spontanés : là où le vent transporte la neige (en particulier secteur parc national), des plaques cèdent dans les pentes raides (taille 1). En l'absence de vent, l'activité naturelle est très faible.",
       "sections": null,
       "icon_key": "stability"
     },

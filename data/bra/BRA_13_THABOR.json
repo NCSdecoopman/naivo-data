@@ -3,14 +3,14 @@
   "massif": "Thabor",
   "bulletin": {
     "id": 13,
-    "issued_at": "2026-02-06T16:00:00",
-    "valid_until": "2026-02-07T18:00:00",
+    "issued_at": "2026-02-07T16:00:00",
+    "valid_until": "2026-02-08T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice marqué.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2000,
@@ -20,14 +20,14 @@
           {
             "id": "zone1",
             "loc": "<2000",
-            "risk": 3,
+            "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
             "loc": ">2000",
-            "risk": 4,
+            "risk": 3,
             "evolution_to": null,
             "position": "top"
           }
@@ -41,23 +41,23 @@
         },
         "zones": {
           "bottom": {
-            "text": "3",
-            "risk": 3,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           },
           "top": {
-            "text": "4",
-            "risk": 4,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-08",
+        "date": "2026-02-09",
         "label": "Indice de risque marqué",
-        "comment": "Lente stabilisation du manteau neigeux, avec encore des plaques pouvant céder au passage d'un skieur. Risque marqué.",
-        "trend": "down"
+        "comment": "Poursuite de la lente stabilisation du manteau neigeux, que les faibles chutes de neige dimanche soir n'influencent guère. Les couches fragiles persistantes restent sollicitables. Risque marqué en altitude.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 3,
+      "primary": 3,
+      "secondary": 1,
       "labels": {
-        "1": "Neige fraîche",
-        "3": "Couche fragile persistante"
+        "3": "Couche fragile persistante",
+        "1": "Neige fraîche"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-02",
-          "min_cm": 15,
-          "max_cm": 20
-        },
         {
           "date": "2026-02-03",
           "min_cm": 2,
@@ -111,29 +106,34 @@
         },
         {
           "date": "2026-02-06",
-          "min_cm": 2,
-          "max_cm": 5
+          "min_cm": 1,
+          "max_cm": 3
         },
         {
           "date": "2026-02-07",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-08",
+          "min_cm": 1,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 2,
+        "last_48h_min_cm": 1,
         "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "FORTE PROBABILITÉ DE DÉCLENCHEMENTS DE PLAQUES VOLUMINEUSES",
-      "text": "FORTE PROBABILITÉ DE DÉCLENCHEMENTS DE PLAQUES VOLUMINEUSES \n\nInvitation à la prudence en montagne (émission d'un communiqué spécial avalanche)\n\nDéclenchements provoqués : le manteau neigeux reste peu stabilisé dans de nombreuses pentes, en particulier au-dessus de 2000 m. Les plaques d'aspect poudreux sont fréquentes et souvent difficiles à identifier. Déclenchements faciles, parfois même à distance, suite à la présence de plusieurs couches fragiles dans le manteau neigeux. En cas de rupture, elles engendrent des avalanches moyennes à grandes (taille 2 à 3), avec des cassures pouvant dépasser la centaine de mètres de largeur quand la topographie s'y prête. \nDans les ubacs (pentes ouest, nord à est), des cassures épaisses (> 1 m) emportant la quasi-totalité du manteau neigeux peuvent être observées, en cas de rupture sur l'importante couche fragile persistante enfouie à la base du manteau neigeux (détectable avec un test du bâton quand l'épaisseur de neige n'est pas trop importante). Un premier départ de surface peut faciliter le déclenchement en contrebas de ces plaques volumineuses.\n\nDéparts spontanés : quelques départs de neige récente humidifiée dans les pentes raides au soleil près des rochers. Avalanches petites à moyennes (taille 1 à 2), en poire. \nCes départs ponctuels peuvent déclencher des avalanches de plaques sur leur trajet, avec les caractéristiques décrites au paragraphe des déclenchements provoqués.",
+      "title": "INSTABILITÉS ENCORE FACILES À DÉCLENCHER EN ALTITUDE, PARFOIS TRÈS VOLUMINEUSES",
+      "text": "INSTABILITÉS ENCORE FACILES À DÉCLENCHER EN ALTITUDE, PARFOIS TRÈS VOLUMINEUSES\n\nDéclenchements provoqués : le manteau neigeux reste faiblement à modérément stabilisé au-dessus de 2000 m. Ces instabilités se présentent souvent sous forme de plaques d'aspect poudreux, difficiles à identifier. Déclenchements faciles, parfois même à distance, engendrant des avalanches moyennes (taille 2) avec des cassures pouvant dépasser la centaine de mètres de largeur. Des avalanches de grande taille (taille 3) emportant la quasi-totalité du manteau neigeux sont possibles dans les orientations ouest, nord et est, notamment au-delà de 2300/2400 m. Un premier départ de surface peut faciliter le déclenchement en contrebas de ces plaques volumineuses.\nLe manteau neigeux est en effet constitué d'un empilement de couches fragiles : dans la neige récente, encore peu stabilisée, mais aussi à la base du manteau neigeux, détectable avec un test du bâton quand l'épaisseur de neige n'est pas trop importante.\nSous 2000 m, ainsi qu'en adrets raides d'altitude, l'instabilité est plus limitée. La neige récente a pris une bonne cohésion, avec la relative douceur humide ou au soleil, et les couches fragiles persistantes sont moins généralisées.\n\nDéparts spontanés : quelques départs de neige récente humidifiée dans les pentes raides au soleil près des rochers. Avalanches petites à moyennes (taille 1 à 2), en poire.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est plutôt excédentaire pour un début février, notamment en vallées, mais légèrement déficitaire sur la partie savoyarde du massif.\nDonnées observées vers 2500 m : 170 cm de neige dans le vallon du Chardonnet, 130 cm à la Nivôse du Galibier, 48 cm à celle des Rochilles.\n\nLimite d'enneigement skiable : la plupart des itinéraires sont skiables dès les fonds de vallées.\n\nÉtat de la neige de surface : 20/30 cm de neige fraîche en général. Elle est souvent légère et poudreuse, parfois densifiée ou cartonnée par le vent près des crêtes. Dans les adrets, fine croûte le matin sous 2000 m en général, s'humidifiant au soleil en journée.",
+      "text": "L'enneigement est plutôt excédentaire pour un début février, notamment en vallées, mais légèrement déficitaire sur la partie savoyarde du massif.\nDonnées observées vers 2500 m : 160 cm de neige dans le vallon du Chardonnet, 123 cm à la Nivôse du Galibier, 51 cm à celle des Rochilles.\n\nLimite d'enneigement skiable : la plupart des itinéraires sont skiables dès les fonds de vallées.\n\nÉtat de la neige de surface : 20/30 cm de neige récente, restée poudreuse et légère en versants froids, et parfois densifiée ou cartonnée par le vent près des crêtes. En versants ensoleillés, neige récente plus  tassée, avec un début de transformation sous 2000/2200 m environ : croûte superficielle le matin, s'humidifiant au soleil en journée. Faible chute de neige en fin de journée à proximité de l'Italie.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,8 +144,8 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 65,
-          "S": 50
+          "N": 70,
+          "S": 55
         },
         {
           "alt_m": 2000,
