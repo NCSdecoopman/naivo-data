@@ -3,30 +3,30 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-02-07T16:00:00",
-    "valid_until": "2026-02-08T18:00:00",
+    "issued_at": "2026-02-08T15:00:00",
+    "valid_until": "2026-02-09T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 2100m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 2100,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "2100m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<2100",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
+            "loc": ">2100",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "2100m"
         },
         "zones": {
           "bottom": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-09",
-        "label": "Indice de risque marqué",
-        "comment": "Lundi, Risque d'avalanche en légère hausse. Un peu de vent de Sud vers les hautes crêtes, possibles formations de nouvelles petites plaques (bien instables) en faces Nord...",
-        "trend": "steady"
+        "max_level": 4,
+        "date": "2026-02-10",
+        "label": "Indice de risque fort",
+        "comment": "Risque d'avalanche en hausse progressive mardi. \nIntempéries : Le matin vent et  chutes de neige dès la moyenne montagne puis de la pluie mardi soir jusque vers 2000/2200m + 40 cm ventés en altitude.  \nD'abord formations de plaques/ risque accidentel marqué mardi midi... puis mardi soir forte instabilité de la neige en altitude avec de nombreuses avalanches spontanées probables, quelques grandes avalanches humides arrivant en bas de couloirs...",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-03",
-          "min_cm": 0,
-          "max_cm": 1
-        },
-        {
           "date": "2026-02-04",
           "min_cm": 1,
           "max_cm": 3
@@ -117,6 +112,11 @@
         {
           "date": "2026-02-08",
           "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-02-09",
+          "min_cm": 0,
           "max_cm": 1
         }
       ],
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "ENCORE QUELQUES PLAQUES INSTABLES EN FACES NORD D'ALTITUDE, PARFOIS DIFFICILES A DECELER ; EPAISSES CASSURES NON EXCLUES...",
-      "text": "ENCORE QUELQUES PLAQUES INSTABLES EN FACES NORD D'ALTITUDE, PARFOIS DIFFICILES A DECELER ; EPAISSES CASSURES NON EXCLUES...\n\nEn faces ombragées d'altitude, des sous couches fragiles sont bien enfouies,  encore un risque de déclenchement à distance d'épaisse et large plaque (intérieur de l'Oisans surtout)... Sous 1900/2100m a priori, neige en partie tassée ou instabilités plus superficielles. \n\nDéclenchements provoqués : Risque de plaque sans doute encore localement marqué en faces ombragées d'altitude,  notamment plus haut que 2100/2300m. A l'abord des crêtes risque de rupture de plaque friable (en poudreuse dense), de 20/40 cm environ, voire 50 cm près des ecrins, de La Meije ? Dans un cas défavorable la rupture d'une plaque de surface (peu large) pourrait déstabiliser une couche fragile bien enfouie et dégénérer en épaisse et large avalanche... \nPeu d'indices de terrain si ce ne sont de rares récentes cassures spontanées. Des sous couches sans aucune cohésion sont plus régulièrement observées dans l'intérieur de l'Oisans, plutôt que vers le Taillefer...\nPlus bas que 2100m moins de neige mobilisable en général rt des sous-couches moins \"réactives\". \nEnfin à modeste altitude (sous 1700/1900m)  l'humidification de surface a crouté la neige, pas de risque de plaque a priori mais un ski assez délicat en terrain non tracé...\n\nDéparts spontanés :  Peu d'activité a priori ou si éclaircies une rare coulée/petite avalanche ponctuelle de neige humide près des rochers, aux altitudes modestes... En prairies/clairières raides, très rare départ de fond/glissement (de taille moyenne), plutôt l'après-midi?",
+      "title": "QUELQUES PLAQUES INSTABLES EN FACES NORD D'ALTITUDE, PARFOIS DIFFICILES A DECELER ; EPAISSES CASSURES NON EXCLUES...",
+      "text": "QUELQUES PLAQUES INSTABLES EN FACES NORD D'ALTITUDE, PARFOIS DIFFICILES A DECELER ; EPAISSES CASSURES NON EXCLUES...\n\nEn faces ombragées d'altitude, des sous couches fragiles sont bien enfouies,  encore un risque de déclenchement à distance d'épaisse et large plaque (intérieur de l'Oisans surtout)... Sous 1900/2100m a priori, neige en partie tassée ou instabilités plus superficielles. \n\nDéclenchements provoqués : Risque de plaque sans doute encore localement marqué en faces ombragées d'altitude,  notamment plus haut que 2100/2300m. A l'abord des crêtes risque de rupture de plaque friable (en poudreuse dense), de 20/40 cm environ, voire 50 cm près des ecrins, de La Meije ? Dans un cas défavorable la rupture d'une plaque de surface (peu large) pourrait déstabiliser une couche fragile bien enfouie et dégénérer en épaisse et large avalanche... \nPeu d'indices de terrain si ce ne sont de rares récentes cassures spontanées. Des sous couches sans aucune cohésion sont plus régulièrement observées dans l'intérieur de l'Oisans, plutôt que vers le Taillefer...\nPlus bas que 2100m moins de neige mobilisable en général et des sous-couches moins \"réactives\". \nEnfin à modeste altitude (sous 1700/1900m)  l'humidification de surface a crouté la neige, pas de risque de plaque a priori mais un ski assez délicat en terrain non tracé...\n\nDéparts spontanés :  Peu d'activité a priori ou si éclaircies une rare coulée/petite avalanche ponctuelle de neige humide près des rochers, aux altitudes modestes... En prairies/clairières raides, très rare départ de fond/glissement (de taille moyenne), plutôt l'après-midi?",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est correct à très bon pour la saison en altitude, dans les combes et médiocre en vallées et moyenne montagne...\nLimites skiables : vers 1100/1500 m.\n\nQualité de la neige Dimanche : En dessous de 1800/2200m suivant l'exposition au soleil, neige croutée en surface, s'humidifiant un peu lors d'éventuelles éclaircies... Dans les faces ombragées dès 1800/2000m, neige poudreuse peu ventée.\nCertaines pentes ont été striées par de récentes petites avalanches humides...",
+      "text": "Qualification de l’enneigement :  L'enneigement est correct à très bon pour la saison en altitude, notamment dans les combes et médiocre sous la moyenne montagne, en vallées...\nLimites skiables : vers 1100/1500 m.\n\nQualité de la neige lundi :  En dessous de 1700/2200m suivant l'exposition au soleil, neige croutée en surface, s'humidifiant un peu lors d'éventuelles éclaircies... Dans les faces ombragées dès 1700m, neige poudreuse peu ventée.\nCertaines pentes ont été striées par de récentes petites avalanches...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -145,7 +145,7 @@
         {
           "alt_m": 1500,
           "N": 85,
-          "S": 30
+          "S": 25
         },
         {
           "alt_m": 2000,

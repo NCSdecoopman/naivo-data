@@ -3,8 +3,8 @@
   "massif": "Ubaye",
   "bulletin": {
     "id": 21,
-    "issued_at": "2026-02-07T16:00:00",
-    "valid_until": "2026-02-08T18:00:00",
+    "issued_at": "2026-02-08T16:00:00",
+    "valid_until": "2026-02-09T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-09",
+        "date": "2026-02-10",
         "label": "Indice de risque marqué",
-        "comment": "Maintien d'un risque marqué. Des instabilités sont encore en place et localement facilement déclenchables. La situation météorologique évolue peu avec un ciel restant majoritairement nuageux, mais des précipitations faibles et éparses.",
+        "comment": "Risque en hausse avec la mise en place d'un temps perturbé en journée de mardi. Maintien d'un risque marqué, voire passage en risque fort en fin de journée avec l'intensification des chutes de neige en montagne.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-03",
-          "min_cm": 1,
-          "max_cm": 7
-        },
-        {
           "date": "2026-02-04",
           "min_cm": 0,
           "max_cm": 1
@@ -116,24 +111,29 @@
         },
         {
           "date": "2026-02-08",
-          "min_cm": 1,
-          "max_cm": 4
+          "min_cm": 0,
+          "max_cm": 1
+        },
+        {
+          "date": "2026-02-09",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 4
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 2
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITÉS MARQUÉES DANS LA NEIGE RÉCENTE, LOCALEMENT VOLUMINEUSES.",
-      "text": "INSTABILITÉS MARQUÉES DANS LA NEIGE RÉCENTE, LOCALEMENT VOLUMINEUSES. \n\nDéclenchements provoqués : le manteau neigeux est encore instable dans de nombreuses pentes au-dessus de 2000 m environ. Nombreuses instabilités en place facilement déclenchables par un skieur ou un randonneur. Elles peuvent encore être difficiles à déclencher car d’aspect poudreux, sinon durcies par le vent dans les secteurs exposés. Elles engendrent des avalanches de plaques de taille petite à moyenne (taille 1 à 2), emportant la totalité de la neige récente. Dans les orientations ouest, nord, et est au-dessus de 2000/2200 m, la présence d’une couche fragile persistante plus profondément enfouie rend possible des avalanches de taille moyenne à grande (taille 2 à 3). Une très grande avalanche (taille 4) n’est pas exclue, emportant une grande partie du manteau neige sur des largeurs significatives. \nSous 2000 m, le risque de déclenchement est plus limité.\n\nDéparts spontanés : peu probables. Un éventuel départ ponctuel de petite ampleur (taille 1) en neige humide n’est pas exclue en pentes raides.",
+      "title": "MANTEAU NEIGEUX PEU STABILISÉ. INSTABILITÉS MARQUÉES ET LOCALEMENT VOLUMINEUSES",
+      "text": "MANTEAU NEIGEUX PEU STABILISÉ. INSTABILITÉS MARQUÉES ET LOCALEMENT VOLUMINEUSES \n\nDéclenchements provoqués : le manteau neigeux reste peu stabilisé dans de nombreuses pentes au-dessus de 2000 m environ. Des instabilités sont encore en place et facilement déclenchables par un skieur ou un randonneur, même à distance. Elles sont difficilement identifiables, car d'aspect poudreux, sinon durcies par le vent dans les secteurs exposés. Elles engendrent des avalanches de plaques de taille petite à moyenne (taille 1 à 2), emportant la totalité de la neige récente. Dans les orientations ouest, nord et est au-dessus de 2000/2200 m environ, une grande avalanche (taille 3) est possible dans le cas de sollicitation d'une couche fragile persistante plus profondément enfouie, avec des cassures parfois larges et épaisses. Un premier départ de surface peut venir solliciter l'une de ces couches. \nSous 2000 m, ainsi qu'en adrets raides d'altitude, le risque de déclenchement est plus limité.\n\nDéparts spontanés : peu probables. Un éventuel départ ponctuel de petite ampleur (taille 1) en neige humide n’est pas exclu en pentes raides.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement bon voir excédentaire pour un début février.\nDonnées observées : 106 cm au-dessus de Larche à 2270 m, 12 cm à Barcelonnette à 1200 m.\n\nEnneigement skiable dès 1300/1400 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface : neige croutée en adrets jusque vers 2000/2200 m, plus bas en ubacs, s'humidifiant en journée. Sinon neige fraiche/récente en quantité, poudreuse, localement densifiée par le vent. Corniches et congères parfois volumineuses en place.",
+      "text": "Enneigement bon, voire excédentaire pour un début février.\nDonnées observées : 102 cm au-dessus de Larche à 2270 m, 12 cm à Barcelonnette à 1200 m.\n\nEnneigement skiable dès 1300/1400 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface : neige croutée en adrets jusque vers 2000/2200 m, plus bas en ubacs (1900/2000 m), s'humidifiant en journée. Sinon neige fraiche/récente en quantité, poudreuse, localement densifiée par le vent. Corniches et congères parfois volumineuses en place.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 35,
-          "S": 20
+          "N": 30,
+          "S": 15
         },
         {
           "alt_m": 2000,
-          "N": 130,
-          "S": 95
+          "N": 125,
+          "S": 90
         },
         {
           "alt_m": 2500,
-          "N": 170,
-          "S": 120
+          "N": 165,
+          "S": 115
         }
       ],
       "icon_key": "snowpack",
