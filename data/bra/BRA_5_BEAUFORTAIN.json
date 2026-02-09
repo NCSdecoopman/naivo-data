@@ -3,14 +3,14 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-02-08T16:00:00",
-    "valid_until": "2026-02-09T18:00:00",
+    "issued_at": "2026-02-09T16:00:00",
+    "valid_until": "2026-02-10T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "max_level": 3,
+      "comment": "Indice de risque limité évoluant en marqué.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 2,
-            "evolution_to": null,
+            "evolution_to": 3,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
+            "text": "2→3",
+            "risk": 3,
+            "evolution_to": 3
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-10",
-        "label": "Indice de risque marqué",
-        "comment": "Faible chute de neige en journée puis fortes pluies en soirée et nuit suivante avec une limite pluie neige temporairement vers 1000m en matinée puis rapidement 1500/1600m en journée puis 2000 voir un peu plus en soirée et nuit suivante. Le risque de départs spontanées sera en forte hausse dès qu'il va pleuvoir sur de la neige fraiche ( plutôt en soirée donc)",
+        "max_level": 4,
+        "date": "2026-02-11",
+        "label": "Indice de risque fort",
+        "comment": "Les fortes chutes de neige se poursuivent  au dessus de 1500/1600m (temporairement 2000m nuit suivante)  les cumuls de fraiche deviennent déjà critiques en fin de journée occasionnant un fort risque d' avalanches naturelles.",
         "trend": "up"
       }
     },
@@ -53,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -66,21 +66,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": null,
+      "primary": 1,
+      "secondary": 4,
       "labels": {
-        "2": "Neige ventée"
+        "1": "Neige fraîche",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-04",
-          "min_cm": 0,
-          "max_cm": 1
-        },
         {
           "date": "2026-02-05",
           "min_cm": 10,
@@ -103,24 +99,29 @@
         },
         {
           "date": "2026-02-09",
-          "min_cm": 0,
-          "max_cm": 0
+          "min_cm": 1,
+          "max_cm": 5
+        },
+        {
+          "date": "2026-02-10",
+          "min_cm": 20,
+          "max_cm": 30
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 21,
+        "last_48h_max_cm": 35
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES PLAQUES D'ASPECT POUDREUX.",
-      "text": "QUELQUES PLAQUES D'ASPECT POUDREUX. \n\nDéclenchements provoqués : quelques plaques friables d'aspect poudreux sont en place près des crêtes dans les versants Est, Nord et Ouest. Elles occasionnent des cassures de ~30 cm et des avalanches de taille 1 à 2 (petite à moyenne). Observables : accumulation de neige fraiche supérieure à la moyenne environnante, neige dense en surface et plus molle en dessous.\n\nDéparts spontanés : peu probable",
+      "title": "Les précipitations faibles et neigeuses le matin et surtout celles fortes et pluvieuses assez haut le soir vont radicalement changer et aggraver la situation nivologique",
+      "text": "Les précipitations faibles et neigeuses le matin et surtout celles fortes et pluvieuses assez haut le soir vont radicalement changer et aggraver la situation nivologique   \n\nEn journée de mardi:  le risque principal reste le déclenchement provoqué de plaques d'aspect poudreux reposant sur des couches fragiles,  enfouies plus ou moins profondément. De nouvelles petites plaques vont se former en journée lors des chutes de neige accompagnées de vent d'ouest, elles vont se rajouter à celles plus épaisse encore en place. Déclenchement possibles au passage d'un seul skieur, cassure 20/30 cm pour les plaques récentes pouvant dépasser les 50/60 cm pour les plus anciennes. Taille 2 voir 3 si départ en cascade. On les trouvera surtout au dessus de 1800m et plutôt en large secteur Nord (pour la présence de couche fragile persistante). En journée le cumul de précipitations semble encore trop faible pour générer des départs spontanés     \n\nEn fin de journée et surtout soirée de mardi :  Nombreuses avalanches de neige humide sous 1800/2000m engendrées par les fortes pluies ( 20/30mm attendues en 4h) qui vont remonter progressivement jusque vers 2000/2100m en milieu de nuit .  Départs possible en toutes orientations mais c'est en Nord là où la neige était encore poudreuse et mobilisable que ces avalanches pourront atteindre les plus gros volumes T2 rare T3 (cassure 30/40 cm). Des avalanches de talus pourraient ainsi toucher dans la nuit quelques routes d'altitude et plus surement des chemins forestiers et  pistes de skis. \nAu dessus de 2000m les cumuls de neige deviennent suffisant en fin de soirée pour occasionner les premières  avalanches naturelles en poudreuse dans les pentes les plus raides (départs ponctuel ou en plaque ) Taille 2 à taille 3  là où ces avalanches vont partir en activant les sous couches fragiles persistantes enfouies.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Un peu en dessous des normales de saison mais les chutes à venir (dans la semaine ) devraient améliorer nettement l'enneigement\n\nLimite skiable :  Les versants froids voyant pas ou peu le soleil ont gardé de la neige à basse altitude, skiable sur l'herbe ou sur pistes forestières dès 700 à 900m. Sous bois skiables dès 1200m.  En versant sud skiable dès 1300/1400m en prairies pas trop raides,  1600/1700m en Sud raide.\n\nQualité de la neige : en Est, Nord et Ouest, la neige est croutée jusqu'à 1500-1700 m. Plus haut, elle devient poudreuse (~20 cm), bonne à skier, jusqu'à l'approche des crêtes où elle est légèrement travaillée par le vent. \nEn Sud Est à Sud Ouest, elle est croutée le matin et ramollie doucement au fil des heures. Il faut monter au dessus de 2000m dans ces orientations pour trouver de la neige froide.",
+      "text": "Enneigement : Un peu en dessous des normales de saison mais les chutes qui débutent ce mardi vont améliorer nettement l'enneigement au dessus de 1600m, en dessous la pluie attendue va bien dégrader le manteau.     \n\nLimite skiable :  Les versants froids voyant pas ou peu le soleil ont gardé de la neige à basse altitude, skiable sur l'herbe ou sur pistes forestières dès 900/1000m. Sous bois skiables dès 1200m.  En versant sud skiable dès 1300/1400m en prairies pas trop raides,  1600/1700m en Sud raide.\n\nQualité de la neige : En Sud sous 2300m, en Est, Nord et Ouest,  sous 1700 m neige croutée mais déjà saupoudré au lever du jour et recouverte de 10cm de fraiche à la mi-journée. Plus haut, elle reste poudreuse (~20 puis 30 cm), bonne à skier, jusqu'à l'approche des crêtes où elle peut être cartonnée par le vent. \nA l'arrivée de la pluie cette belle neige poudreuse devient toute de suite collante, voir pourrie une fois qu'elle est bien arrosée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

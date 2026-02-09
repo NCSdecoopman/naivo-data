@@ -3,8 +3,8 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-02-08T16:00:00",
-    "valid_until": "2026-02-09T18:00:00",
+    "issued_at": "2026-02-09T16:00:00",
+    "valid_until": "2026-02-10T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-10",
+        "date": "2026-02-11",
         "label": "Indice de risque marqué",
-        "comment": "Retour de chutes de neige faible en journée bien plus fortes nuit suivante accompagnée d'un redoux et de vent fort. Le risque de départs spontanés sera en forte hausse là où il va pleuvoir sur de la neige fraiche ( plutôt sous 1800/1900m en soirée)",
+        "comment": "Les chutes de neige se poursuivent modérément sur ce massif  avec par contre des vents souvent très fort. La situation nivologique s'aggrave avec un risque en hausse .",
         "trend": "steady"
       }
     },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 3,
+      "primary": 3,
+      "secondary": 4,
       "labels": {
-        "2": "Neige ventée",
-        "3": "Couche fragile persistante"
+        "3": "Couche fragile persistante",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-04",
-          "min_cm": 1,
-          "max_cm": 3
-        },
         {
           "date": "2026-02-05",
           "min_cm": 3,
@@ -118,17 +113,22 @@
           "date": "2026-02-09",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-10",
+          "min_cm": 10,
+          "max_cm": 20
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 20
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "LES COUCHES FRAGILES PERSITANTES ENFOUIES MAINTIENNENT UN RISQUE CONSIDERABLE DANS LE MANTEAU",
-      "text": "LES COUCHES FRAGILES PERSITANTES ENFOUIES MAINTIENNENT UN RISQUE CONSIDERABLE DANS LE MANTEAU  \n\nDéclenchements provoqués : quelques plaques friables d'aspect poudreux sont en place près des crêtes. De nouvelles se forment là où le vent de Sud transporte la neige récente (secteur crête frontalière). Elles restent réactives en journée dans les versants Est, Nord et Ouest. Elles occasionnent des cassures de ~20 cm et des avalanches de taille 1 à 2 (petite à moyenne). Observables : accumulation de neige fraiche supérieure à la moyenne environnante, transport de neige par le vent.\nFacteur aggravant, au dessus de 1800m et en versants froids (Est/Nord/Ouest) mais aussi en Sud à haute altitude, des couches fragiles persistantes enfouies dans le manteau pourront réagir au passage d'un skieur ou en cascade grâce aux plaques friables. Elles engendrent de plus grandes et larges avalanches : taille 3 possible.\nObservables : woumfs en ce qui concerne les couches fragiles enfouies. \n\nDéparts spontanés : rare  dans les pentes très raides au soleil ,  départs sous rochers ou barres (taille 1 rare 2).",
+      "text": "LES COUCHES FRAGILES PERSITANTES ENFOUIES MAINTIENNENT UN RISQUE CONSIDERABLE DANS LE MANTEAU  \n\nDéclenchements provoqués : quelques plaques friables d'aspect poudreux sont en place. Elles restent réactives en journée dans les versants Est, Nord et Ouest. Elles occasionnent des cassures de ~20 /40 cm et des avalanches de taille 1 à 2 (petite à moyenne). Observables : accumulation de neige fraiche supérieure à la moyenne environnante, transport de neige par le vent.\nFacteur aggravant, au dessus de 1800m et en versants froids (Est/Nord/Ouest) mais aussi en Sud à haute altitude, des couches fragiles persistantes enfouies dans le manteau pourront réagir au passage d'un skieur ou en cascade grâce aux plaques friables. Elles engendrent alors de plus grandes et larges avalanches : taille 3 possible.\nObservables : woumfs en ce qui concerne les couches fragiles enfouies. \n\nDéparts spontanés : Peu probable en journée En, soirée et sous 1800m,  quelques avalanches de neige humide engendrées par la pluie qui va remonter progressivement jusque vers 1800/2000 en milieu de nuit .  Départs possible en toutes orientations mais c'est en Nord là où la neige était encore poudreuse et mobilisable que ces avalanches pourront atteindre les plus gros volumes Taille2 . Des avalanches de talus pourraient ainsi toucher dans la nuit quelques routes d'altitude et plus surement des chemins forestiers et  pistes de skis.",
       "sections": null,
       "icon_key": "stability"
     },

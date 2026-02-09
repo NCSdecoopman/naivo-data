@@ -3,8 +3,8 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-02-08T17:00:00",
-    "valid_until": "2026-02-09T18:00:00",
+    "issued_at": "2026-02-09T16:00:00",
+    "valid_until": "2026-02-10T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-10",
+        "date": "2026-02-11",
         "label": "Indice de risque marqué",
-        "comment": "Risque en hausse, devenant marqué avec les nouvelles chutes de neige.",
+        "comment": "Risque en hausse. Formation de nouvelles instabilités.",
         "trend": "up"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-04",
-          "min_cm": 1,
-          "max_cm": 2
-        },
-        {
           "date": "2026-02-05",
           "min_cm": 15,
           "max_cm": 25
@@ -104,24 +99,29 @@
         },
         {
           "date": "2026-02-09",
-          "min_cm": 1,
-          "max_cm": 3
+          "min_cm": 3,
+          "max_cm": 8
+        },
+        {
+          "date": "2026-02-10",
+          "min_cm": 20,
+          "max_cm": 30
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 3
+        "last_48h_min_cm": 23,
+        "last_48h_max_cm": 38
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "QUELQUES INSTABILITÉS VOLUMINEUSES EN UBACS D'ALTITUDE, DIFFICILES À DÉCLENCHER",
-      "text": "QUELQUES INSTABILITÉS VOLUMINEUSES EN UBACS D'ALTITUDE, DIFFICILES À DÉCLENCHER\n\nDéclenchements provoqués :\n-  quelques instabilités en place en versants est nord et ouest au-dessus de 1800/2000 m reposant sur des couches fragiles persistantes enfouies. Plaques généralement bien stabilisées et déclenchement difficile, mais encore possible localement sur les croupes et bords de couloirs où le manteau neigeux est moins épais. Elles engendrent des avalanches de taille moyennes à grande (taille 2 à 3), avec des cassures larges et épaisses.\n- quelques plaques superficielles sont en places en toutes orientations dans la neige récente ventée, plutôt à proximité des crêtes. Elles génèrent des avalanches de petites taille en généralement, mais peuvent dans de rares cas déclencher en cascades les plaques plus volumineuses décrites précédemment. \n\nDéparts spontanés : quelques départs de neige récente humidifiée dans les pentes raides au soleil près des rochers. Départs ponctuels de taille petite à moyenne (taille 1 à 2).",
+      "text": "QUELQUES INSTABILITÉS VOLUMINEUSES EN UBACS D'ALTITUDE, DIFFICILES À DÉCLENCHER\n\nDéclenchements provoqués : quelques instabilités en place en versants est / nord / ouest au-dessus de 2000 m environ. Plaques généralement bien stabilisées, déclenchement difficile, mais encore possible localement sur les croupes et bords de couloirs où le manteau neigeux est moins épais. Elles engendrent des avalanches de taille moyenne à grande (taille 2 à 3), avec des cassures larges et épaisses. En effet, présence d’une importante couche fragile enfouie à la base du manteau neigeux.\nPar ailleurs en altitude, quelques plaques plus superficielles en place en toute orientation dans la neige récente ventée, plutôt à proximité des crêtes. D'autres en formation avec les faibles chutes de neige plus ou moins ventée. Faciles à déclencher, générant des avalanches de petite taille, voire moyenne, mais peuvent déclencher en cascade les plaques plus volumineuses décrites précédemment. \nEn fin de journée de mardi, avec les nouvelles chutes de neige attendues en altitude et le vent, nouvelles plaques en formation.\n\nDéparts spontanés : départs ponctuels de neige humidifiée avec le redoux temporaire en journée. Taille petite, rarement moyenne. \nEn fin de journée, avec le renforcement des précipitations, l’activité naturelle est en nette augmentation. En neige humide jusqu’à 1800/2000 m, en neige sèche au-dessus.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est excédentaire pour un début février.\nDonnées observées : environ 100 cm vers 2000 m d'altitude. \n\nLimite d'enneigement skiable : vers 1200/1300 m sur la plupart des itinéraires.\n\nÉtat de la neige de surface : 10/20 cm de neige récente en altitude,restée poudreuse et légère en versants froids au-dessus de 1700/1800 m, et parfois densifiée ou cartonnée par le vent près des crêtes. En versants ensoleillés, neige récente plus tassée et croutée sous 2400/2500 m.",
+      "text": "L'enneigement est excédentaire pour un début février.\nDonnées observées : environ 100 cm vers 2000 m d'altitude. \n\nLimite d'enneigement skiable : vers 1200/1300 m sur la plupart des itinéraires.\n\nÉtat de la neige de surface : un peu de neige fraiche sur de la neige récente en altitude, restée poudreuse et légère en versants froids au-dessus de 1700/1800 m, et parfois densifiée ou cartonnée par le vent près des crêtes. En versants ensoleillés, sur de la neige récente plus tassée et croutée sous 2400/2500 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 50,
-          "S": 30
+          "N": 45,
+          "S": 25
         },
         {
           "alt_m": 2000,
-          "N": 115,
-          "S": 75
+          "N": 110,
+          "S": 70
         },
         {
           "alt_m": 2500,
-          "N": 195,
-          "S": 150
+          "N": 190,
+          "S": 145
         }
       ],
       "icon_key": "snowpack",

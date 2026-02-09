@@ -3,30 +3,30 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-02-08T16:00:00",
-    "valid_until": "2026-02-09T18:00:00",
+    "issued_at": "2026-02-09T16:00:00",
+    "valid_until": "2026-02-10T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 1700m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 1700,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "1700m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<1700",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
+            "loc": ">1700",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "1700m"
         },
         "zones": {
           "bottom": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-10",
-        "label": "Indice de risque marqué",
-        "comment": "Petites chutes de neige en altitude dans la journée de mardi (limite pluie-neige vers 1200 m remontant jusqu'à 1800 m). Le vent de Sud-Ouest se renforce. Des nouvelles plaques friables se forment dans la neige meuble en surface.",
-        "trend": "steady"
+        "max_level": 4,
+        "date": "2026-02-11",
+        "label": "Indice de risque fort",
+        "comment": "Mercredi, 30/40 cm de neige fraîche supplémentaires avec du vent de sud-ouest. \n⇒ risque en hausse, formation de plaques dans la neige récente. Sous-couche fragile persistante toujours présente. Activité spontanée de plus en plus importante en neige fraiche.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -79,21 +79,16 @@
     },
     "sat": {
       "primary": 3,
-      "secondary": 2,
+      "secondary": 4,
       "labels": {
         "3": "Couche fragile persistante",
-        "2": "Neige ventée"
+        "4": "Neige humide"
       },
       "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-04",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-05",
           "min_cm": 5,
@@ -116,24 +111,29 @@
         },
         {
           "date": "2026-02-09",
-          "min_cm": 0,
+          "min_cm": 1,
           "max_cm": 3
+        },
+        {
+          "date": "2026-02-10",
+          "min_cm": 20,
+          "max_cm": 30
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 3
+        "last_48h_min_cm": 21,
+        "last_48h_max_cm": 33
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "",
-      "text": "Déclenchements provoqués :\n* Au-dessus de 2000 m en versants E/N/W : Présence d'une couche fragile persistante enfouie. Difficilement déclenchable par un· skieur·euse. Risque d'avalanches en cascade (par exemple, déclenchement par la rupture d'une plaque à vent). Cassure épaisse (70-100 cm) et large. Taille 2 (moyenne), voire 3 (grande). \nObservables : peu d'observables directs, réalisation de tests CT et ECT.\n* Au-dessus de 2000/2200 m : plaques friables dans la neige récente. Formées par le vent de secteur Sud à Ouest. Rares mais plus nombreuses en haute-montagne. Cassure de 20-40 cm d'épaisseur. Taille 1 (petite) à 2 (moyenne).\nObservables : irrégularités d'épaisseur du manteau neigeux, zones d'accumulation, fissures devant les skis ... \n\nDéparts spontanés : \n* Petits départs ponctuels dans les pentes raides. Principalement près des rochers/falaises et au fil de l'ensoleillement. Taille 1 (petite) à 2 (moyenne). \n* En-dessous de 2000 m : Rares plaques de fond. Départs possibles à toute heure du jour et de la nuit. Départs plus probables dans les faces exposées au soleil, dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Taille 1 (petite) à 2 (moyenne). \n\nAutre :\nRisque de cassure de corniches.",
+      "title": "Début d'un long épisode neigeux, risque en hausse au fil de la semaine",
+      "text": "Début d'un long épisode neigeux, risque en hausse au fil de la semaine\n\nDéclenchements provoqués :\n* plaques friables dans la neige fraîche, de plus en plus nombreuses au fil de la journée, au-dessus de 1700 m. Facilement déclenchable. Elles se situent principalement dans les zones exposées au vent de sud-ouest (soufflant à partir de lundi soir). Taille 1 à 2 (petite à moyenne). \n* avalanche de neige humide (départ en poire), partant sous les skis, sous la pluie (sous 1300/1400 m le matin et 1600/1700 m l’après-midi). Facile à déclencher. Taille 1 (petite) le matin, voire 2 (moyenne) en fin de journée/soirée.\n* rares plaques sur sous-couche fragile persistante enfouie, dans les versants ouest/nord/est au-dessus de 1800 m. Difficile à déclencher par un.e skieur.e. Une petite avalanche (cf plaques ci-dessus) ou une chute de corniche peuvent les déclencher. Taille 2 à 3 (moyenne à grande) avec des cassures de 60/80 cm d’épais.\n\nDéparts spontanés :\n* avalanches de neige humide, sous la pluie (sous 1300/1400 m le matin et 1600/1700 m l’après-midi), de plus en plus nombreuses au fil de la journée. Taille 1 (petite) le matin, voire 2 (moyenne) en fin de journée/soirée.\n* avalanches de neige fraîche, pendant les chutes de neige, très rares le matin, un peu plus nombreuses en fin de journée/soirée. Tailles 1 à 2 (petites à moyenne). Une avalanche de taille 3 n’est pas exclue en fin de journée dans les versants ouest/nord/est au-dessus de 1800 m (due à une sous-couche fragile persistante enfouie).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : déficitaire pour la saison, même en haute montagne. On peut chausser les skis vers 1100/1300 m. Pas de sous-couche sous 1400 m (voire 1500/1600 m en versants S raides). \n\nQualité de la neige ce lundi : \n* En dessous de 1400 m : neige dure regelée le matin, qui décaille légèrement en surface dans la journée. \n* En-dessous de 1700m en versants Nord et 2200m en versants Sud : le matin, une petite croûte de regel non portante est présente en surface. Au fil de la journée, la neige se ramollit légèrement en surface, surtout dans les versants ensoleillés. \n* Au-dessus : couche de neige récente restée froide et assez légère (20-40 cm). Elle repose soit sur de la neige restée meuble (l'enfoncement piéton est alors important), soit sur une surface durcie par le travail du vent (notamment en haute-montagne ou vers les crêtes et arêtes).",
+      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire. \nOn peut chausser les skis vers 1200/1400 m. Pas de sous-couche sous 1500 m ou sur les crêtes, des cailloux sont cachés sous la neige récente. Les crêtes et les arêtes sont dégarnies de neige. Grosses corniches. \n\nQualité de la neige ce mardi matin : \nEn début de matinée, 1/3 cm de neige fraîche reposant sur :\n* de la neige dure, sous 1600/1700 m ;\n* une fine croûte de regel cassante sous la neige fraîche, dans les versants sud, sous 2300 m ;\n* sur 15/25 cm de neige encore froide et assez légère sur un fond dur, ailleurs. \nAu fil de la journée, la quantité et l’humidité de la neige fraîche augmentent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
