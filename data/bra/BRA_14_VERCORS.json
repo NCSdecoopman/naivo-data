@@ -3,49 +3,37 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-02-09T16:00:00",
-    "valid_until": "2026-02-10T18:00:00",
+    "issued_at": "2026-02-10T16:00:00",
+    "valid_until": "2026-02-11T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 1700m indice de risque marqué, plus bas indice limité.",
+      "comment": "Indice de risque marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 1700,
-        "split_axis": "horizontal",
-        "split_label": "1700m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1700",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">1700",
+            "loc": null,
             "risk": 3,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "1700m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
+          "center": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -53,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-11",
-        "label": "Indice de risque marqué",
-        "comment": "Mercredi, la neige s'abaisse à nouveau autour de 1500m. Nombreuses instabilités dans la neige fraîche. La pluie de la nuit continue de percoller dans le manteau neigeux, avec des avalanches de glissement encore possibles en journée.",
-        "trend": "steady"
+        "max_level": 4,
+        "date": "2026-02-12",
+        "label": "Indice de risque fort",
+        "comment": "Jeudi, chutes de neige abondantes s'abaissant vers 1200m sous un vent d'Ouest soutenu. Risque fort sur l'ensemble du massif.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -65,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -78,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": 1,
       "labels": {
-        "2": "Neige ventée",
-        "4": "Neige humide"
+        "4": "Neige humide",
+        "1": "Neige fraîche"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-05",
-          "min_cm": 10,
-          "max_cm": 20
-        },
         {
           "date": "2026-02-06",
           "min_cm": 1,
@@ -111,29 +94,34 @@
         },
         {
           "date": "2026-02-09",
-          "min_cm": 3,
-          "max_cm": 5
+          "min_cm": 5,
+          "max_cm": 10
         },
         {
           "date": "2026-02-10",
-          "min_cm": 2,
-          "max_cm": 6
+          "min_cm": 5,
+          "max_cm": 10
+        },
+        {
+          "date": "2026-02-11",
+          "min_cm": 10,
+          "max_cm": 20
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 11
+        "last_48h_min_cm": 15,
+        "last_48h_max_cm": 30
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PLAQUES A VENT EN VERSANTS FROIDS D'ALTITUDE. EN SOIREE, NOMBREUSES COULEES HUMIDES SOUS LA PLUIE",
-      "text": "PLAQUES A VENT EN VERSANTS FROIDS D'ALTITUDE. EN SOIREE, NOMBREUSES COULEES HUMIDES SOUS LA PLUIE\n\nEn journée : Faible passage perturbé dans la nuit et en matinée de mardi, avec 5 à 10cm dés 1500m. Formation de quelques plaques sous le vent d'Ouest / Sud-Ouest. \nDéclenchements provoqués : Au-dessus de 1700m environ et surtout dans les versants froids, de nouvelles plaques se forment sous le vent de Sud-Ouest. Ces plaques peuvent être assez réactives, mais resteraient d'épaisseurs et de largeurs modestes. Les petites chutes de neige de la nuit apportent toutefois un peu de neige transportable, favorisant la formation de ces plaques. Plaques parfois difficiles à identifier, pouvant être d'aspect poudreuse plus ou moins dense... \nObservables : Neige d'aspect ventée en surface, neige plus légère en profondeur, fissures sous les skis. \nDéparts spontanés : Sous 1300 puis 1500m, petites coulées humides possibles dans la nuit et en matinée sous la pluie. Quelques avalanches de fonds possibles sur les talus. Au-dessus de 1700m environ, petites coulées de neige fraîche possibles sous le vent de Sud-Ouest. \n\nSoirée: En soirée, des pluies soutenues s'invitent jusqu'à 2000 voire 2200m, alourdissant fortement le manteau. Sous ces pluies, de nombreuses avalanches de neige humides ou avalanches de fond sont possibles, souvent de tailles moyennes. Plus nombreuses et plus grosses en versants Nord où les quantités de neige sont plus importantes et où le manteau est resté plus froid.",
+      "title": "NOMBREUX DEPARTS SOUS LA PLUIE, INSTABILITES SOMMITALES EN NEIGE FRAICHE",
+      "text": "NOMBREUX DEPARTS SOUS LA PLUIE, INSTABILITES SOMMITALES EN NEIGE FRAICHE\n\nSous la pluie, de rares coulées de neige humide peuvent atteindre des routes, notamment sous les talus.\nMardi soir des pluies soutenues gagnent l'ensemble du massif avec une limite pluie-neige remontant vers 2000m. La neige s'abaisse à nouveau vers 1800 puis 1500m mercredi matin.\nDéparts spontanés : L'enneigement est encore correct sur le massif, et la pluie va fortement humidifier le manteau neigeux, faisant partir de nombreuses avalanches entre mardi soir et mercredi midi. Elles seront plus nombreuses dans les secteurs abrités du soleil, où la neige est restée froide ces derniers jours, tandis que les versants ensoleillés ont souvent déjà été purgés. Quelques avalanches de fond de petites tailles peuvent glisser sur les talus et atteindre les routes. \nAu-dessus de 1500/1600m environ, quelques départs sont possibles en deuxième partie de nuit et en matinée de mercredi dans la neige fraîche. Sous le vent d'Ouest, le risque sera un peu plus marqué dans les pentes de la barrière orientale du Vercors. \nDéclenchements provoqués : La neige s'abaisse à nouveau en cours de matinée sous 1800m puis 1500m, sous un vent de Nord-Ouest soutenu en altitude. Sur le haut du massif on peut attendre localement 20-30cm de neige. Cette couche de neige fraîche est peu stabilisée, avec des plaques généralement peu larges mais souvent très réactives. Elles sont difficiles à identifier, d'aspect poudreuse plus ou moins densifié par le vent. Les chutes de neige faiblissent l'après-midi mais le vent d'Ouest reste sensible et forme de nouvelles plaques l'après-midi.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est récemment dégradé aux basses altitudes, sous les sapins mais reste correct pour la saison dès la moyenne montagne et dans les combes Nord.\nLimites skiables : Vers 1100/1400 m, sur les pistes forestières/clairières...\n\nQualité de la neige mardi : Sous 1700/1800m et au Sud, neige croutée par regel , s'humidifiant lors de brèves éclaircies (ski parfois difficile en pentes peu tracées) . En faces Nord d'altitude reste un peu de neige poudreuse, reposant sur des sous couches plus ventées. Un peu de vent de Sud possible vers les sommets ?",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est récemment dégradé aux basses altitudes, sous les sapins mais reste correct pour la saison dès la moyenne montagne et dans les combes Nord.\nLimites skiables : Vers 1100/1400 m, sur les pistes forestières/clairières...\n\nQualité de la neige mercredi : La pluie remonte jusqu'à 2000m mardi soir. Neige devenant pourrie sur le bas du massif. Mercredi matin la neige s'abaisse à nouveau vers 1800m puis 1500m. Neige souvent humide sous 1700m, plus froide au-dessus où elle est souvent densifiée par le vent. Sous couche humide non regelée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +137,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 100,
-          "S": 30
+          "N": 110,
+          "S": 40
         },
         {
           "alt_m": 2000,
-          "N": 170,
-          "S": 100
+          "N": 180,
+          "S": 110
         }
       ],
       "icon_key": "snowpack",

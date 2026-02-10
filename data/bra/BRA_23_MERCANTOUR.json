@@ -3,8 +3,8 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-02-09T16:00:00",
-    "valid_until": "2026-02-10T18:00:00",
+    "issued_at": "2026-02-10T16:00:00",
+    "valid_until": "2026-02-11T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-11",
+        "date": "2026-02-12",
         "label": "Indice de risque marqué",
-        "comment": "Risque en hausse avec les petites chutes de neige ventée de la nuit de mardi à mercredi. Nouvelles plaques venant s'ajouter aux instabilités déjà en place.",
+        "comment": "Maintient d'un risque marqué : le vent de nord-ouest se renforce à nouveau et souffle toute la journée. Faibles chutes de neige en Haute-Tinée essentiellement.",
         "trend": "steady"
       }
     },
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-05",
-          "min_cm": 20,
-          "max_cm": 30
-        },
-        {
           "date": "2026-02-06",
           "min_cm": 0,
           "max_cm": 0
@@ -116,24 +111,29 @@
         },
         {
           "date": "2026-02-10",
-          "min_cm": 5,
+          "min_cm": 3,
           "max_cm": 10
+        },
+        {
+          "date": "2026-02-11",
+          "min_cm": 0,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 11
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 15
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PLAQUES EN SURFACE DU MANTEAU NEIGEUX, ET INSTABILITÉS ENFOUIES LOCALEMENT VOLUMINEUSES",
-      "text": "PLAQUES EN SURFACE DU MANTEAU NEIGEUX, ET INSTABILITÉS ENFOUIES LOCALEMENT VOLUMINEUSES \n\nDéclenchements provoqués : \n- Quelques instabilités de surface sont en place, liées à la présence de plaques résiduelles dans la neige récente. Elles peuvent se trouver en toutes orientations, plutôt au dessus de 2000 m. En cours de journée, quelques nouvelles plaques peuvent également se former dans les secteurs où la neige récente est encore légère, et transportable par le vent d'ouest à nord-ouest, plutôt au dessus de 2400 m environ. D'aspect poudreux ou légèrement travaillé par le vent, ces instabilités se trouvent généralement à proximité des crêtes et ruptures de pentes. En cas de rupture, elles occasionnent des avalanches de taille petite à parfois moyenne (1 à 2).\n- Dans de nombreuses pentes au-dessus de 2000 m environ, dans les orientations ouest, nord et est, une couche fragile persistante est présente plus en profondeur dans le manteau neigeux. Un déclenchement d'avalanche est plus difficile à provoquer car la couche est souvent suffisamment enfouie, mais reste possible, y compris à distance, dans les secteurs où le manteau neigeux est moins épais, ou en cas de forte surcharge comme une première avalanche de surface. Une avalanche de grande taille emportant la totalité du manteau neigeux (taille 3) est alors possible, avec des cassures parfois larges et épaisses.\n- Sous 2000 m, ainsi qu'en adrets raides d'altitude, le risque de déclenchement est plus limité avec un manteau neigeux humidifié en surface.\n\nDéparts spontanés : peu probables. Un éventuel départ ponctuel de petite ampleur (taille 1) en neige récente humidifiée n’est pas exclu en pentes raides. \n\nAutres : à partir de mardi soir, les chutes de neige ventée entrainent la formation de nombreuses nouvelles instabilités généralement peu épaisses, sous forme de plaques plus ou moins durcies par le vent. Sous la limite pluie-neige, initialement autour de 1800 m environ avant de s'abaisser dans la nuit, la pluie peut également faire partir des avalanches de neige humide généralement de petite taille. Plus de détails dans le prochain bulletin.",
+      "title": "NOUVELLES PLAQUES EN FORMATION DANS LA NEIGE FRAÎCHE",
+      "text": "NOUVELLES PLAQUES EN FORMATION DANS LA NEIGE FRAÎCHE\n\nDéclenchements provoqués : \n- nombreuses nouvelles plaques en formation pendant les chutes de neige ventée, ou en journée par transport de neige par le vent de nord-ouest. D'aspect souvent durci par le vent, ces nouvelles instabilités sont possibles en toutes orientations, surtout au dessus de 2000 m, même loin des crêtes et ruptures de pentes, mais plus nombreuses dans les pentes d'un large secteur est, où le vent de nord-ouest forme de plus importantes accumulations. Elles sont faciles à déclencher, sous forme de rupture linéaire, et peuvent provoquer des avalanches de petite taille, à localement moyenne en Haute-Tinée ou dans les zones de forte accumulation (1 à 2)\n \n- Dans de nombreuses pentes au-dessus de 2000 m environ, dans les orientations ouest, nord et est, une couche fragile persistante est souvent présente au sein du manteau neigeux. Bien qu'étant le plus souvent enfouie en profondeur, un premier départ d'avalanche en surface peut permettre de solliciter cette couche fragile, et provoquer une départ de grande ampleur emportant la totalité du manteau neigeux, y compris à distance.\n\n- Sous 2000 m, le risque est modéré, avec principalement une problématique de nouvelles plaques dans la neige fraîche, présentes en toutes orientations, parfois encore friables dans les secteurs moins exposés au vent. Elles sont un peu plus difficiles à déclencher avec une neige fraîche souvent plus lourde, et restent généralement de petite taille, parfois moyenne en Haute-Tinée ou dans les accumulations.\n\nDéparts spontanés : avalanches de neige fraîche pendant les chutes. Départs ponctuels ou parfois linéaires en pentes raides, généralement de petite taille, parfois moyenne dans les zones d'accumulation. Des départs linéaires sont possibles après l'arrêt des chutes par surcharge du manteau neigeux avec le transport de neige par le vent de nord-ouest.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement bon voire excédentaire jusqu'à basse altitude pour un début février.\nDonnées observées : 143 cm à la nivôse de Millefonts à 2400 m.\n\nEnneigement skiable dès 1200/1300 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface : mardi matin, localement léger saupoudrage de neige fraîche, tombée sur une neige croutée en adrets jusque vers 2000/2200 m, plus bas en ubacs (1900/2000 m). Sinon neige récente en quantité, encore souvent poudreuse, localement densifiée par le vent. Corniches et congères parfois volumineuses en place.",
+      "text": "Enneigement bon voire excédentaire jusqu'à basse altitude pour un début février.\nDonnées observées : 170 cm à la nivôse de Millefonts à 2400 m.\n\nEnneigement skiable dès 1200/1300 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface : mercredi, la neige fraîche est froide et légère au dessus de 2000 m environ, plus lourde en dessous. Elle est souvent densifiée par le vent. Elle repose sur de la neige récente restée encore poudreuse sur 20/30 cm, localement déjà densifiée par le vent . Corniches et congères parfois volumineuses en place.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

@@ -3,14 +3,14 @@
   "massif": "Champsaur",
   "bulletin": {
     "id": 19,
-    "issued_at": "2026-02-09T16:00:00",
-    "valid_until": "2026-02-10T18:00:00",
+    "issued_at": "2026-02-10T17:00:00",
+    "valid_until": "2026-02-11T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "max_level": 4,
+      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice marqué.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2000,
@@ -20,14 +20,14 @@
           {
             "id": "zone1",
             "loc": "<2000",
-            "risk": 2,
+            "risk": 3,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
             "loc": ">2000",
-            "risk": 3,
+            "risk": 4,
             "evolution_to": null,
             "position": "top"
           }
@@ -41,22 +41,22 @@
         },
         "zones": {
           "bottom": {
-            "text": "2",
-            "risk": 2,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           },
           "top": {
-            "text": "3",
-            "risk": 3,
+            "text": "4",
+            "risk": 4,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-11",
-        "label": "Indice de risque marqué",
-        "comment": "Risque en hausse. Formation de nouvelles instabilités.",
+        "max_level": 4,
+        "date": "2026-02-12",
+        "label": "Indice de risque fort",
+        "comment": "Risque fort, avec les nouvelles chutes et le vent. Instabilités faciles à déclencher.",
         "trend": "steady"
       }
     },
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 3,
-      "secondary": 2,
+      "primary": 1,
+      "secondary": 4,
       "labels": {
-        "3": "Couche fragile persistante",
-        "2": "Neige ventée"
+        "1": "Neige fraîche",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-3"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-05",
-          "min_cm": 15,
-          "max_cm": 30
-        },
         {
           "date": "2026-02-06",
           "min_cm": 1,
@@ -116,24 +111,29 @@
         },
         {
           "date": "2026-02-10",
-          "min_cm": 20,
-          "max_cm": 40
+          "min_cm": 25,
+          "max_cm": 35
+        },
+        {
+          "date": "2026-02-11",
+          "min_cm": 25,
+          "max_cm": 35
         }
       ],
       "totals": {
-        "last_48h_min_cm": 23,
-        "last_48h_max_cm": 48
+        "last_48h_min_cm": 50,
+        "last_48h_max_cm": 70
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITÉS ENCORE FACILES À DÉCLENCHER. EN UBACS D'ALTITUDE, SOUVENT VOLUMINEUSES",
-      "text": "INSTABILITÉS ENCORE FACILES À DÉCLENCHER. EN UBACS D'ALTITUDE, SOUVENT VOLUMINEUSES\n\nDéclenchements provoqués : instabilités en place en versants est / nord / ouest au-dessus de 2000 m environ. Elles peuvent être difficiles à identifier, car souvent d’aspect poudreux en surface. Déclenchement, parfois à distance, encore possible au passage d'un seul skieur, notamment sur les croupes et bords de couloir où le manteau neigeux est moins épais. Avalanches de plaque de taille moyenne à grande (taille 2 à 3), avec des cassures larges et épaisses, notamment au-delà de 2300/2400 m. En effet, présence d’une importante couche fragile enfouie à la base du manteau neigeux localement réactive.\nPar ailleurs en altitude, quelques plaques plus superficielles en place en toute orientation dans la neige récente ventée, plutôt à proximité des crêtes. D'autres en formation avec les faibles chutes de neige plus ou moins ventée. Faciles à déclencher, générant des avalanches de petite taille, voire moyenne, mais peuvent déclencher en cascade les plaques plus volumineuses décrites précédemment. \nSous 2000 m, ainsi qu'en adrets raides d'altitude, l'instabilité est plus limitée. La neige récente a pris une bonne cohésion, avec la récente humidification, et les couches fragiles persistantes sont moins généralisées.\nEn fin de journée de mardi, avec les nouvelles chutes de neige attendues en altitude et le vent, nouvelles plaques en formation.\n\nDéparts spontanés : départs ponctuels de neige humidifiée avec le redoux temporaire en journée. Taille petite, rarement moyenne. En haute altitude, rares plaques cédant spontanément sous l'effet de la neige transportée par le vent. Taille moyenne, grande non exclue.\nEn fin de journée, avec le renforcement des précipitations, l’activité naturelle est en nette augmentation. En neige humide jusqu’à 1800/2000 m, en neige sèche au-dessus.",
+      "title": "FORTE INSTABILITÉ. GROS VOLUMES DE NEIGE MOBILISABLES. ACTIVITÉ EN NEIGE HUMIDE A PLUS BASSE ALTITUDE",
+      "text": "FORTE INSTABILITÉ. GROS VOLUMES DE NEIGE MOBILISABLES. ACTIVITÉ EN NEIGE HUMIDE A PLUS BASSE ALTITUDE \n\nDéclenchements provoqués : nouvelles instabilités en formation, plus nombreuses et épaisses au fil des chutes, sous l’action du vent et au-dessus de 1800/2000m. Possiblement présentes en toute orientation. Plaques pouvant être d’aspect poudreux, faciles à déclencher, parfois à distance. Avalanches de taille moyenne, voire grande en zone d’accumulation (souvent large est).\nDans les ubacs (pentes ouest, nord, est), en cas de sollicitation de l’importante couche fragile enfouie au fond du manteau neigeux, les cassures peuvent être encore plus épaisses et larges, notamment au-delà de 2300/2400 m. Avalanche de grande taille, très grande non exclue. Déclenchement plus difficile et aléatoire, mais un premier départ peut faciliter en cascade le déclenchement de ces plaques très volumineuses.\n\nDéparts spontanés : avalanches de neige fraîche en pente raide d’altitude devenant plus nombreuses au fil des chutes de neige souvent ventées. Taille moyenne, voire grande dans une pente fortement chargée par le vent. Départ parfois en plaque en versants froids de grande taille, très grande non exclue. Mercredi après-midi, avec l’arrêt des chutes, l’activité naturelle est en baisse, mais encore possible avec la surcharge liée au transport de neige par le vent. \nSous 1800 m environ, départs ponctuels en toute orientation en neige humide. Taille petite, voire moyenne, avec la pluie ou la neige lourde humide.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est excédentaire pour un début février.\nDonnées observées : 34 cm au hameau des Portes dans le Valgaudemar à 1270 m, 103 cm à la Nivôse d'Orcières à 2280 m, et 146 cm au-dessus de Prapic à 2480 m.\n\nLimite d'enneigement skiable : la plupart des itinéraires sont skiables dès les fonds de vallées.\n\nÉtat de la neige de surface : Un peu de neige fraiche sur de la neige récente en altitude, restée poudreuse et légère en versants froids au-dessus de 1700/1800 m, et parfois densifiée ou cartonnée par le vent près des crêtes. En versants ensoleillés, sur neige récente plus tassée et croutée sous 2400/2500 m.",
+      "text": "L'enneigement est excédentaire pour un début février.\nDonnées observées : 34 cm au hameau des Portes dans le Valgaudemar à 1270 m, 106 cm à la Nivôse d'Orcières à 2280 m, et 153 cm au-dessus de Prapic à 2480 m.\n\nLimite d'enneigement skiable : la plupart des itinéraires sont skiables dès les fonds de vallées.\n\nÉtat de la neige de surface : neige fraiche en quantité plus ou moins travaillées par le vent, mais possiblement lourde/ humide sous 1800/2000 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 130,
-          "S": 100
+          "N": 120,
+          "S": 90
         },
         {
           "alt_m": 2500,
-          "N": 190,
-          "S": 160
+          "N": 180,
+          "S": 150
         }
       ],
       "icon_key": "snowpack",
