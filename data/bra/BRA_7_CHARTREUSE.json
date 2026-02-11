@@ -3,8 +3,8 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-02-10T16:00:00",
-    "valid_until": "2026-02-11T18:00:00",
+    "issued_at": "2026-02-11T16:00:00",
+    "valid_until": "2026-02-12T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-02-12",
-        "label": "Indice de risque fort",
-        "comment": "Jeudi, chutes de neige abondantes s'abaissant vers 1200m sous un vent d'Ouest soutenu. Risque fort sur l'ensemble du massif.",
-        "trend": "up"
+        "max_level": 3,
+        "date": "2026-02-13",
+        "label": "Indice de risque marqué",
+        "comment": "Vendredi, retour de conditions plus calmes et temporairement sèches.\nRisque d'avalanche stationnaire ou en légère baisse\nPlaques plus localisées vers les hautes crêtes, au soleil possible coulées/avalanches de neige fraîche...",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": 1,
+      "primary": 1,
+      "secondary": 5,
       "labels": {
-        "4": "Neige humide",
-        "1": "Neige fraîche"
+        "1": "Neige fraîche",
+        "5": "Avalanche de fond"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-06",
-          "min_cm": 2,
-          "max_cm": 5
-        },
         {
           "date": "2026-02-07",
           "min_cm": 0,
@@ -104,41 +99,46 @@
         },
         {
           "date": "2026-02-11",
-          "min_cm": 10,
-          "max_cm": 20
+          "min_cm": 5,
+          "max_cm": 10
+        },
+        {
+          "date": "2026-02-12",
+          "min_cm": 15,
+          "max_cm": 40
         }
       ],
       "totals": {
-        "last_48h_min_cm": 15,
-        "last_48h_max_cm": 30
+        "last_48h_min_cm": 20,
+        "last_48h_max_cm": 50
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUX DEPARTS SOUS LA PLUIE, INSTABILITES SOMMITALES EN NEIGE FRAICHE",
-      "text": "NOMBREUX DEPARTS SOUS LA PLUIE, INSTABILITES SOMMITALES EN NEIGE FRAICHE\n\nSous la pluie, de rares coulées de neige humide peuvent atteindre des routes, notamment sous les talus.\nMardi soir des pluies soutenues gagnent l'ensemble du massif avec une limite pluie-neige remontant vers 2000m. La neige s'abaisse à nouveau vers 1800 puis 1500m mercredi matin.\nDéparts spontanés : L'enneigement est encore correct sur le massif, et la pluie va fortement humidifier le manteau neigeux, faisant partir de nombreuses avalanches entre mardi soir et mercredi midi. Elles seront plus nombreuses dans les secteurs abrités du soleil, où la neige est restée froide ces derniers jours, tandis que les versants ensoleillés ont souvent déjà été purgés. Quelques avalanches de fond de petites tailles peuvent glisser sur les talus et atteindre les routes. \nDéclenchements provoqués : La neige s'abaisse à nouveau en cours de matinée sous 1800m puis 1500m, sous un vent de Nord-Ouest soutenu en altitude. Sur le haut du massif on peut attendre localement 30cm de neige. Cette couche de neige fraîche est peu stabilisée, avec des plaques généralement peu larges mais souvent très réactives. Elles sont difficiles à identifier, d'aspect poudreuse plus ou moins densifié par le vent. Les chutes de neige faiblissent l'après-midi mais le vent d'Ouest reste sensible et forme de nouvelles plaques l'après-midi.",
+      "title": "NEIGE FRAICHE S’ÉPAISSISSANT EN ALTITUDE, INSTABILITÉ DEVENANT MARQUÉE EN HAUT DU MASSIF...",
+      "text": "NEIGE FRAICHE S’ÉPAISSISSANT EN ALTITUDE, INSTABILITÉ DEVENANT MARQUÉE EN HAUT DU MASSIF... \n\nNouveau passage pluvieux mercredi soir, puis retour de la neige à partir de 1300m jeudi matin. Cumuls conséquents en altitude (20 puis 40 cm), avec un fort vent de Nord-Ouest. \nDéparts spontanés : Plus bas que 1500/1700m, quelques avalanches humides ou de fond/glissement peuvent partir, là où le manteau a été humidifié jusqu'à la base par la pluie des derniers jours. En altitude au-dessus de 1700m environ, on attend des avalanches de surface au fil des chutes de neige et du vent, parfois de taille moyenne. Elles seront plus fréquentes en faces Nord à Est, dans les couloirs chargés par le vent de Sud-Ouest puis Nord-Ouest... \nDéclenchements provoqués :  Au dessus de 1600/1700m environ le risque accidentel devrait s'accentuer jeudi au fil des chutes de neige plus ventées et froides...  Formation de plaques instables au passage d'un skieur, parfois dès les sorties de forêt, assez loin des crêtes, en pieds de barres par exemple. Cassures potentielles dépassant 50 cm l''après-midi. En contrebas (sous 1500m environ) neige plus humide, plutôt un risque de coulée ponctuelle sous les skis...",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est récemment dégradé aux basses altitudes, sous les sapins mais reste correct pour la saison dès la moyenne montagne et dans les combes Nord.\nLimites skiables : Vers 1100/1400 m, sur les pistes forestières/clairières...\n\nQualité de la neige mercredi : La pluie remonte jusqu'à 2000m mardi soir, humidifiant fortement la neige récente. Neige devenant pourrie sur le bas du massif. Mercredi matin la neige s'abaisse à nouveau vers 1800m puis 1500m. Neige souvent humide, plus froide au-dessus de 1700m où elle est souvent travaillée par le vent. Sous couche humide non regelée.",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est récemment dégradé aux basses altitudes, sous les sapins mais reste correct pour la saison dès la moyenne montagne et dans les combes Nord. Sur le haut du massif, l'enneigement s'améliore de manière hétérogène. Des combes se chargent généreusement, tandis que les pentes exposées au vent sont souvent pelées. \n\nLimites skiables : Vers 1200/1400 m, sur les pistes forestières/clairières...\n\nQualité de la neige jeudi : La pluie remonte à nouveau temporairement jusqu'à 2000m mercredi soir, avant de s'abaisser vers 1300m en journée de jeudi. Sous 1500 / 1600m environ, neige récente humide, reposant sur une neige détrempée. Plus haut, couche de neige fraîche de plus en plus importante au fil de la journée, avec 30 à 40cm en fin de journée. Neige souvent ventée, certaines pentes sont pelées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 900,
-        "south": 1300
+        "north": 1100,
+        "south": 1400
       },
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 10,
+          "N": 0,
           "S": 0
         },
         {
           "alt_m": 1500,
-          "N": 130,
-          "S": 40
+          "N": 120,
+          "S": 35
         },
         {
           "alt_m": 2000,

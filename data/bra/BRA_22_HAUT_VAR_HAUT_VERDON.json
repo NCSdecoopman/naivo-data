@@ -3,14 +3,14 @@
   "massif": "Haut-Var Haut-Verdon",
   "bulletin": {
     "id": 22,
-    "issued_at": "2026-02-10T16:00:00",
-    "valid_until": "2026-02-11T18:00:00",
+    "issued_at": "2026-02-11T16:00:00",
+    "valid_until": "2026-02-12T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "max_level": 4,
+      "comment": "Indice de risque fort à l'ouest du massif, marqué à l'est.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -19,8 +19,15 @@
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "E",
             "risk": 3,
+            "evolution_to": null,
+            "position": null
+          },
+          {
+            "id": "zone2",
+            "loc": "W",
+            "risk": 4,
             "evolution_to": null,
             "position": null
           }
@@ -34,18 +41,18 @@
         },
         "zones": {
           "center": {
-            "text": "3",
-            "risk": 3,
+            "text": "4",
+            "risk": 4,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-12",
+        "date": "2026-02-13",
         "label": "Indice de risque marqué",
-        "comment": "Maintient d'un risque marqué avec de nouvelles chutes de neige prévues dans la nuit de mercredi à jeudi sur le Haut-Verdon principalement. Le vent de nord-ouest se renforce à nouveau et souffle toute la journée.",
-        "trend": "steady"
+        "comment": "Tendance à la baisse. Risque marqué en altitude",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +73,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 3,
+      "primary": 1,
+      "secondary": 2,
       "labels": {
-        "2": "Neige ventée",
-        "3": "Couche fragile persistante"
+        "1": "Neige fraîche",
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-07",
           "min_cm": 0,
@@ -100,28 +102,33 @@
         {
           "date": "2026-02-10",
           "min_cm": 10,
-          "max_cm": 30
+          "max_cm": 20
         },
         {
           "date": "2026-02-11",
-          "min_cm": 3,
-          "max_cm": 20
+          "min_cm": 10,
+          "max_cm": 40
+        },
+        {
+          "date": "2026-02-12",
+          "min_cm": 0,
+          "max_cm": 15
         }
       ],
       "totals": {
-        "last_48h_min_cm": 13,
-        "last_48h_max_cm": 50
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 55
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOUVELLES PLAQUES EN FORMATION DANS LA NEIGE FRAÎCHE, VOLUMINEUSES EN HAUT-VERDON",
-      "text": "NOUVELLES PLAQUES EN FORMATION DANS LA NEIGE FRAÎCHE, VOLUMINEUSES EN HAUT-VERDON\n\nDéclenchements provoqués : \n- nombreuses nouvelles plaques en formation pendant les chutes de neige ventée, ou en journée par transport de neige par le vent de nord-ouest. D'aspect souvent durci par le vent, ces nouvelles instabilités sont possibles en toutes orientations, surtout au dessus de 2000 m, même loin des crêtes et ruptures de pentes, mais plus nombreuses dans les pentes d'un large secteur est, où le vent de nord-ouest forme de plus importantes accumulations. Elles sont faciles à déclencher, sous forme de rupture linéaire, et peuvent provoquer des avalanches de taille petite à moyenne (1 à 2), parfois grande (3) dans les zones d'importantes accumulations dans le Haut-Verdon uniquement.\n \n- Dans de nombreuses pentes au-dessus de 2000 m environ, dans les orientations ouest, nord et est, une couche fragile persistante est souvent présente au sein du manteau neigeux. Bien qu'étant le plus souvent enfouie en profondeur, un premier départ d'avalanche en surface peut permettre de solliciter cette couche fragile, et provoquer une départ de grande ampleur emportant la totalité du manteau neigeux, y compris à distance.\n\n- Sous 2000 m, problématique essentiellement liées à de nouvelles plaques dans la neige fraîche, présentes en toutes orientations, parfois encore friables dans les secteurs moins exposés au vent. Elles sont un peu plus difficiles à déclencher avec une neige fraîche souvent plus lourde, et restent généralement de petite taille dans le Haut-Var, à moyenne dans le Haut-Verdon. \n\nDéparts spontanés : avalanches de neige fraîche pendant les chutes. Départs ponctuels ou parfois linéaires de taille petite à moyenne en pentes raides. Des départs linéaires sont possibles après l'arrêt des chutes par surcharge du manteau neigeux avec le transport de neige par le vent de nord-ouest. Localement une rare grande taille est possible, en versants ouest, nord et est au dessus de 2000 m, si la surcharge liée à la neige fraiche provoque la rupture d'une couche fragile enfouie.",
+      "title": "NEIGE PLUS ABONDANTE EN HAUT VERDON, MANTEAU NEIGEUX TRÈS INSTABLE EN ALTITUDE",
+      "text": "NEIGE PLUS ABONDANTE EN HAUT VERDON, MANTEAU NEIGEUX TRÈS INSTABLE EN ALTITUDE\n\nDéclenchements provoqués : \nHaut Verdon : le manteau neigeux est faiblement stabilisé dans la plupart des pentes situées au-dessus de 2000 m d'altitude environ. Les abondantes chutes de neige entre mercredi soir et jeudi mi-journée entretiennent cette forte instabilité. Plaques souvent d'aspect poudreux, déclenchables par un seul skieur, mobilisant la neige tombée depuis mardi. Elles engendrent des avalanches de taille moyenne (taille 2), parfois grande et avec une cassure linéaire (taille 3) dans les zones de plus forte accumulation par le vent. En orientations ouest, nord et est d'altitude supérieure à 2200 m environ, des avalanches de grande taille sont plus probables, et une avalanche de très grande taille (taille 4) n'est pas exclue. \nL'épaisse couche de neige récente, fortement travaillée par le vent tempétueux de nord-ouest, repose en effet sur des couches fragiles persistantes, à la base du manteau neigeux. \nHaut Var :  manteau neigeux modérément stabilisé en altitude. Instabilités possibles en toute orientation sous forme de plaques plus souvent d'aspect dur, et identifiables. Elles mobilisent la neige récente fortement ventée et engendrent des avalanches de taille moyenne. Une avalanche de grande taille n'est pas exclue en orientation ouest, nord ou est d'altitude. Les quantités de neige récente sont beaucoup moins importantes que dans le Haut Verdon. Cette neige récente est en outre fortement travaillée par le vent, qui souffle en tempête au passage de la tempête Nils.\n\nDéparts spontanés : départs de neige fraîche de taille moyenne, parfois grande en altitude dans le Haut Verdon, pendant les chutes et peu après, sous l'effet du vent de nord-ouest. Une avalanche de très grande taille approchant les fonds de vallée n'est pas exclue dans le Haut Verdon. Départs également en neige récente humide sous les éclaircies l'après-midi, mais restant ponctuels et de taille petite à moyenne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement bon voire excédentaire jusqu'à basse altitude pour un début février.\nDonnées observées vers 2000 m en fond de vallon : 140 à 150 cm.\n\nEnneigement skiable dès 1300/1400 m en terrain favorable, mais peu de sous-couche sous 1600 m en général.  \n\nÉtat de la neige en surface : mercredi, la neige fraîche est froide et légère au dessus de 2000 m environ, plus lourde en dessous. Elle est souvent densifiée par le vent. Elle repose sur de la neige récente restée encore poudreuse sur 20/30 cm, localement déjà densifiée par le vent . Corniches et congères parfois volumineuses en place.",
+      "text": "Enneigement abondant, très excédentaire pour un mois de février. \nDonnées observées vers 2000 m en fond de vallon : 150 à 170 cm.\n\nEnneigement skiable dès 1400 m, parfois 1200 m.\n\nÉtat de la neige en surface : neige fraîche plus abondante sur le Haut Verdon à partir de 1600/1800 m. Elle est néanmoins tombée sur un manteau neigeux humide en surface en tout orientation jusque 2000 m au moins. Cette neige est fortement densifiée par le vent de nord-ouest à haute altitude, notamment dans le Haut Var.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +139,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 45,
-          "S": 35
+          "N": 55,
+          "S": 45
         },
         {
           "alt_m": 2000,
-          "N": 150,
-          "S": 100
+          "N": 160,
+          "S": 110
         },
         {
           "alt_m": 2500,
-          "N": 180,
-          "S": 150
+          "N": 200,
+          "S": 170
         }
       ],
       "icon_key": "snowpack",

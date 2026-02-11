@@ -3,8 +3,8 @@
   "massif": "Queyras",
   "bulletin": {
     "id": 17,
-    "issued_at": "2026-02-10T17:00:00",
-    "valid_until": "2026-02-11T18:00:00",
+    "issued_at": "2026-02-11T17:00:00",
+    "valid_until": "2026-02-12T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 4,
-        "date": "2026-02-12",
+        "date": "2026-02-13",
         "label": "Indice de risque fort",
-        "comment": "Risque fort, avec les nouvelles chutes et le vent. Instabilités faciles à déclencher.",
+        "comment": "Maintien d'un risque fort en raison de plaques faciles à déclencher au passage d'un skieur. Cassures épaisses possibles.",
         "trend": "steady"
       }
     },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 3,
-      "secondary": 1,
+      "primary": 1,
+      "secondary": 3,
       "labels": {
-        "3": "Couche fragile persistante",
-        "1": "Neige fraîche"
+        "1": "Neige fraîche",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-3"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-06",
-          "min_cm": 1,
-          "max_cm": 2
-        },
         {
           "date": "2026-02-07",
           "min_cm": 0,
@@ -112,50 +107,55 @@
         {
           "date": "2026-02-10",
           "min_cm": 5,
-          "max_cm": 10
+          "max_cm": 15
         },
         {
           "date": "2026-02-11",
-          "min_cm": 5,
-          "max_cm": 10
+          "min_cm": 10,
+          "max_cm": 20
+        },
+        {
+          "date": "2026-02-12",
+          "min_cm": 10,
+          "max_cm": 15
         }
       ],
       "totals": {
-        "last_48h_min_cm": 10,
-        "last_48h_max_cm": 20
+        "last_48h_min_cm": 20,
+        "last_48h_max_cm": 35
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "FORTE PROBABILITÉ DE DÉCLENCHEMENTS DE PLAQUES VOLUMINEUSES",
-      "text": "FORTE PROBABILITÉ DE DÉCLENCHEMENTS DE PLAQUES VOLUMINEUSES\n\nDéclenchements provoqués : instabilités en place en versants est / nord / ouest au-dessus de 2000 m environ. Difficiles à identifier. Déclenchement encore possible au passage d'un seul skieur, souvent à distance. Avalanches de plaque de taille moyenne à grande (taille 2 à 3), avec des cassures larges et épaisses, notamment au-delà de 2300/2400 m. En effet, présence d’une importante couche fragile enfouie à la base du manteau neigeux encore réactive.\nPar ailleurs, plaques en place ou en formation avec les chutes de neige et le vent. Possiblement présentes en toute orientation. Faciles à déclencher, générant des avalanches de petite taille à moyenne. Mais elles peuvent déclencher en cascade les plaques plus volumineuses décrites précédemment. \n\nDéparts spontanés : quelques avalanches de neige fraîche en pente raide d’altitude au fil des chutes de neige souvent ventées. Taille généralement petite, voire moyenne dans une pente fortement chargée par le vent. Evenuels départ en plaque en versants froids de taille moyenne à grande. Mercredi après-midi, avec l’arrêt des chutes, l’activité naturelle est en baisse, mais encore possible avec la surcharge liée au transport de neige par le vent.",
+      "title": "FORTE INSTABILITÉ PERSISTANTE - PLAQUES PARFOIS ÉPAISSES",
+      "text": "FORTE INSTABILITÉ PERSISTANTE - PLAQUES PARFOIS ÉPAISSES\n\nDéclenchements provoqués : manteau neigeux très instable, surtout au-dessus de 2000 m. Les plaques sont nombreuses et faciles à déclencher dans la neige fraîche ventée. Elles engendrent des avalanches moyennes à grandes (taille 2 à 3), avec souvent de larges cassures. \nDans les ubacs (pentes ouest, nord à est), des départs emportant la totalité du manteau neigeux en place sont envisagés, en cas de rupture sur l'épaisse couche fragile persistante enfouie. Grandes avalanches (taille 3) attendues, une très grande (taille 4) non exclue dans un secteur à la topographie habituellement favorable.\nSous 2000 m, quelques plaques aussi présentes, mais moins généralisées, car la neige fraîche s'est en partie humidifiée.\n\nDéparts spontanés : des avalanches de neige fraîche de plus en plus fréquentes à partir de mercredi soir et jeudi matin, puis au retour des quelques éclaircies jeudi après-midi. \nDéparts en poire ou linéaires, mobilisant ponctuellement des volumes de neige importants.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales dans les ubacs, voire excédentaire vers le Briançonnais, mais reste déficitaire dans les adrets d'altitude, notamment dans le Haut Guil.\nDonnées observées : 137 cm en versant nord du col Izoard à 2300 m, 60 cm à la Nivôse du Col Agnel à 2630 m, 61 cm à Ristolas à 1670 m. \n\nLimite d'enneigement skiable : dès 1000/1300 m en ubacs, plutôt 1500/1700 m en adrets avec peu de sous-couche jusqu'à haute altitude, notamment dans le Haut Guil.\n\nÉtat de la neige de surface : neige fraiche, souvent lourde sous 1800/2000 m. En versant froid, sur de la neige restée poudreuse et légère, parfois densifiée ou cartonnée par le vent près des crêtes. En versants ensoleillés, sur neige humide / croutée sous 2400/2500 m.",
+      "text": "L'enneigement est proche des normales dans les ubacs, voire excédentaire vers le Briançonnais, mais reste un peu déficitaire dans les adrets d'altitude, notamment dans le Haut Guil.\nHauteurs de neige observées : 150 cm en versant nord du col Izoard à 2300 m, 78 cm à la Nivôse du Col Agnel à 2630 m, 60 cm à Ristolas à 1670 m. \n\nLimite d'enneigement skiable : dès 1000/1300 m en ubacs, plutôt 1500/1600 m en adrets avec peu de sous-couche jusqu'à haute altitude, notamment dans le Haut Guil.\n\nÉtat de la neige de surface : en début de journée, neige fraiche plus ou moins travaillée par le vent, mais plus lourde/ humide sous 1800/2000 m. Elle tombe un peu plus froide ensuite, mais devient fortement soufflée l'après-midi.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1000,
-        "south": 1300
+        "south": 1200
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 40,
-          "S": 20
+          "N": 50,
+          "S": 30
         },
         {
           "alt_m": 2000,
-          "N": 80,
-          "S": 40
+          "N": 95,
+          "S": 55
         },
         {
           "alt_m": 2500,
-          "N": 120,
-          "S": 75
+          "N": 140,
+          "S": 95
         }
       ],
       "icon_key": "snowpack",

@@ -3,32 +3,32 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-02-10T17:00:00",
-    "valid_until": "2026-02-11T18:00:00",
+    "issued_at": "2026-02-11T16:00:00",
+    "valid_until": "2026-02-12T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Au-dessus de 1700m indice de risque fort, plus bas indice marqué.",
+      "max_level": 5,
+      "comment": "Au-dessus de 2000m indice de risque fort évoluant en très fort, plus bas indice fort.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 1700,
+        "threshold_m": 2000,
         "split_axis": "horizontal",
-        "split_label": "1700m",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1700",
-            "risk": 3,
+            "loc": "<2000",
+            "risk": 4,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">1700",
+            "loc": ">2000",
             "risk": 4,
-            "evolution_to": null,
+            "evolution_to": 5,
             "position": "top"
           }
         ]
@@ -37,27 +37,27 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "1700m"
+          "label": "2000m"
         },
         "zones": {
           "bottom": {
-            "text": "3",
-            "risk": 3,
-            "evolution_to": null
-          },
-          "top": {
             "text": "4",
             "risk": 4,
             "evolution_to": null
+          },
+          "top": {
+            "text": "4→5",
+            "risk": 4,
+            "evolution_to": 5
           }
         }
       },
       "j2": {
-        "max_level": 5,
-        "date": "2026-02-12",
-        "label": "Indice de risque très fort",
-        "comment": "Nouvelle perturbation jeudi, apportant 50 à 70cm de neige supplémentaire, sous un vent d'Ouest tempétueux. Risque devenant très fort sur le massif. Nombreuses avalanches de grandes tailles. Avalanches de très grandes tailles possibles, pouvant atteindre quelques routes exposées...",
-        "trend": "up"
+        "max_level": 4,
+        "date": "2026-02-13",
+        "label": "Indice de risque fort",
+        "comment": "Risque d'avalanche en  légère baisse (fin de la \"crue\" avalancheuse).\nVendredi temporairement plus calme et sec, des éclaircies.\nAu soleil, vers les rochers, des avalanches de neige récente ; en altitude risque accidentel de plaque encore fort ...",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -79,21 +79,16 @@
     },
     "sat": {
       "primary": 1,
-      "secondary": 4,
+      "secondary": 3,
       "labels": {
         "1": "Neige fraîche",
-        "4": "Neige humide"
+        "3": "Couche fragile persistante"
       },
       "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-06",
-          "min_cm": 1,
-          "max_cm": 5
-        },
         {
           "date": "2026-02-07",
           "min_cm": 0,
@@ -116,30 +111,35 @@
         },
         {
           "date": "2026-02-11",
-          "min_cm": 15,
-          "max_cm": 30
+          "min_cm": 10,
+          "max_cm": 20
+        },
+        {
+          "date": "2026-02-12",
+          "min_cm": 20,
+          "max_cm": 40
         }
       ],
       "totals": {
-        "last_48h_min_cm": 25,
-        "last_48h_max_cm": 50
+        "last_48h_min_cm": 30,
+        "last_48h_max_cm": 60
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "FORTES CHUTES DE NEIGE, MANTEAU TRES INSTABLE, NOMBREUSES AVALANCHES DE GRANDES TAILLES, PARFOIS TRES GRANDES",
-      "text": "FORTES CHUTES DE NEIGE, MANTEAU TRES INSTABLE, NOMBREUSES AVALANCHES DE GRANDES TAILLES, PARFOIS TRES GRANDES\n\nNombreuses instabilités. Fortes chutes de neige, 20 à 30cm dés 1700m, 30 à 50cm au-dessus de 2000m. Fort vent d'Ouest / Nord-Ouest. Pluie jusqu'à 2000m côté Taillefer, 1800/1700m vers les Ecrins. \nDéparts spontanés : \nSous 1800m principalement : Nombreuses avalanches de tailles petites à moyennes sous la pluie, notamment dans les versants où la neige est restée froide jusqu'ici (les pentes au soleil ont souvent déjà été purgées). Petites coulées sur les talus pouvant très localement atteindre une route ... \nAu-dessus de 1800m, de nombreuses avalanches partent spontanément sous les chutes de neige. Elles sont plus nombreuses et plus grandes en altitude, avec des cassures linéaires pouvant être larges et épaisses. L'après-midi, des départs de grande taille restent possibles sous le vent d'Ouest / Nord-Ouest. \nAu-dessus de 2000 / 2200m dans un large secteur Nord, la présence de couches fragiles persistantes enfouies dans le manteau rend possible le départ de grandes voire très grandes avalanches. \nDéclenchements provoqués : Au-dessus de 1700m environ et en tout versants, de nombreuses plaques se forment sous les chutes de neige ventées. Elles sont très réactives et parfois épaisses, avec des cassures pouvant atteindre 50cm à 1m. Risque de départ en cascade de grande ampleur dans un large secteur Nord où une avalanche de neige récente peut venir solliciter des couches fragiles enfouies.",
+      "title": "FORTES CHUTES DE NEIGE ATTENDUES D'ICIJEUDI...  DE TRES GRANDES AVALANCHES POSSIBLES, ARRIVANT PARFOIS EN VALLEES...",
+      "text": "FORTES CHUTES DE NEIGE ATTENDUES D'ICIJEUDI...  DE TRES GRANDES AVALANCHES POSSIBLES, ARRIVANT PARFOIS EN VALLEES...\n\nConditions très perturbées, ventées, neigeuses dès la moyenne montagne... Situation nivologique évoluant défavorablement, particulièrement à haute altitude et dans tous les couloirs. Vers 3000m, on attend jusqu'à 1m de neige récente ventée...\nCes derniers jours la neige a été légèrement humidifiée/tassée seulement sous 1800m, 2200m vers le Taillefer. On observe de fréquentes sous couches sans cohésion ( enfouies) en versants froids d'altitude...\nDéparts spontanés :  \nEn altitude, dès mercredi soir, on s'attend à de possibles grandes avalanches sous le vent de Sud-Ouest, parfois à quelques larges et épaisses cassures spontanées (présence de sous couche fragiles enfouies au dessus de 2000/2200m environ). Plus bas que 1800m, coulées de talus possibles lors d'un bref redoux... Jeudi en journée, l'épaisseur de neige récente atteindrait 40 voire 60 cm vers 1800m (un peu moins en Taillefer) et plus d'1m vers 2500m avec du vent d'Ouest puis Nord-Ouest.... De nombreuses grandes voire très grandes avalanches sont attendues, balayant couloirs et pentes raides. Celles ci peuvent parfois arriver en vallées/moyenne montagne en dépôts plus humides (route de Rochetaillée, Ornon, St Christophe, La Grave par exemple ?).  En Haute Romanche déjà quelques avalanches signalées mercredi jusque vers 1800m.\nEn haute montagne, la présence de sous couche fragile persistante pourrait faciliter quelques avalanches de très grande ampleur empruntant des trajectoires peu habituelles... Cassures potentielles larges dépassant 2m...\nDéclenchements provoqués :    \nHaute montagne infréquentable. Ruptures très faciles au passage du moindre skieur. Risque accidentel fort même loin des crêtes, vu l'intensité de la chute de neige et le vent sensible à fort...\nEn moyenne montagne, éviter bas de couloirs... et clairières raides (risque de coulées humides).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'améliore fortement en haute-montagne où il devient excellent pour la saison. Il est en revanche médiocre à basse altitude, et se dégrade encore sous 1700m.\n\nLimites skiables : vers 1100/1500 m.\n\nQualité de la neige mercredi : Neige pourrie par la pluie sous 1500m. Entre 1500 et 1800m, 10-20cm de neige récente humide. Au-dessus de 1800m, 20 à 30cm de neige fraîche, 30 à 50cm au-delà de 2000m. Neige parfois très ventée, notamment en altitude, et vers les croupes. Plus poudreuses en bas de pentes où l'on peut retrouver de fortes accumulations.",
+      "text": "Qualification de l’enneigement :  L'enneigement s'améliore encore en altitude, dans les combes, où il devient excellent pour la saison. Il est en revanche médiocre plus bas que 1400m...\nLimites skiables : vers 1200/1400 m...\nQualité de la neige jeudi :  Plus bas que 1300m, neige dense très humide. Entre 1300 et 1600m neige fraîche collante... Au dessus couche de neige de plus en plus importante au fil des heures, bien ventée en altitude.\nFortes épaisseurs au dessus de 2200/2500m environ avec plus d'1m de neige récente vers 2500m, de grosses congères/corniches, des secteurs plus dégarnis...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1000,
-        "south": 1300
+        "north": 1100,
+        "south": 1400
       },
       "levels_cm": [
         {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 160,
-          "S": 110
+          "N": 170,
+          "S": 120
         },
         {
           "alt_m": 2500,
-          "N": 230,
-          "S": 190
+          "N": 250,
+          "S": 210
         }
       ],
       "icon_key": "snowpack",

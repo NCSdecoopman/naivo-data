@@ -3,8 +3,8 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-02-10T17:00:00",
-    "valid_until": "2026-02-11T18:00:00",
+    "issued_at": "2026-02-11T17:00:00",
+    "valid_until": "2026-02-12T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-02-12",
-        "label": "Indice de risque fort",
-        "comment": "Risque en hausse, avec les nouvelles chutes et le vent. Instabilités faciles à déclencher.",
-        "trend": "up"
+        "max_level": 3,
+        "date": "2026-02-13",
+        "label": "Indice de risque marqué",
+        "comment": "Activité naturelle en nette baisse. Maintien d'un risque marqué en raison de plaques faciles à déclencher au passage d'un skieur.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -67,21 +67,16 @@
     },
     "sat": {
       "primary": 1,
-      "secondary": 4,
+      "secondary": 3,
       "labels": {
         "1": "Neige fraîche",
-        "4": "Neige humide"
+        "3": "Couche fragile persistante"
       },
       "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-06",
-          "min_cm": 2,
-          "max_cm": 5
-        },
         {
           "date": "2026-02-07",
           "min_cm": 0,
@@ -104,24 +99,29 @@
         },
         {
           "date": "2026-02-11",
-          "min_cm": 10,
+          "min_cm": 15,
+          "max_cm": 20
+        },
+        {
+          "date": "2026-02-12",
+          "min_cm": 15,
           "max_cm": 20
         }
       ],
       "totals": {
-        "last_48h_min_cm": 25,
-        "last_48h_max_cm": 45
+        "last_48h_min_cm": 30,
+        "last_48h_max_cm": 40
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITÉ MARQUÉE EN NEIGE SÈCHE EN ALTITUDE, EN NEIGE HUMIDE PLUS BAS.",
-      "text": "INSTABILITÉ MARQUÉE EN NEIGE SÈCHE EN ALTITUDE, EN NEIGE HUMIDE PLUS BAS. \n\nDéclenchements provoqués : nouvelles instabilités en formation, plus épaisses au fil des chutes, sous l’action du vent et au-dessus de 1800/2000m. Possiblement présentes en toute orientation. Plaques pouvant être d’aspect poudreux, faciles à déclencher, parfois à distance. Avalanches de taille petite à moyenne. Grande non exclue en zone de forte d’accumulation (souvent large est) ou dans les ubacs (pentes ouest, nord, est) en cas de sollicitation de l’importante couche fragile enfouie au fond du manteau neigeux, mais le déclenchement semble difficile. Mais un premier départ peut faciliter en cascade le déclenchement de ces plaques très volumineuses.\n\nDéparts spontanés : avalanches de neige fraîche en pente raide d’altitude devenant plus nombreuses au fil des chutes de neige souvent ventées. Taille petite à moyenne, voire grande dans une pente fortement chargée par le vent. Départ parfois en plaque en versants froids de taille moyenne, voire grande. Mercredi après-midi, avec l’arrêt des chutes, l’activité naturelle est en baisse, mais encore possible avec la surcharge liée au transport de neige par le vent. \nSous 1800 m environ, départs ponctuels en toute orientation en neige humide. Taille petite, voire moyenne, avec la pluie ou la neige lourde humide.",
+      "title": "MANTEAU NEIGEUX INSTABLE AVEC LES CHUTES DE NEIGE QUI SE SUCCÈDENT",
+      "text": "MANTEAU NEIGEUX INSTABLE AVEC LES CHUTES DE NEIGE QUI SE SUCCÈDENT\n\nDéclenchements provoqués : manteau neigeux peu stabilisé dans de nombreuses pentes. Les plaques dans la neige fraîche ventée sont fréquentes et faciles à déclencher. Elles engendrent des avalanches moyennes (taille 2), voire grandes (taille 3) quand la topographie est favorable, emportant toute la couche de neige récente des derniers jours. Ponctuellement, une cassure emportant la totalité du manteau neigeux n'est pas exclue, mobilisant alors un important volume de neige.\n\nDéparts spontanés : avalanches de neige fraîche de plus en plus nombreuses à partir de mercredi soir et toute la journée de jeudi. Départs en poire ou linéaires, emportant toute la couche de neige récente, parfois sur de grandes largeurs. Avalanches moyennes à grandes (taille 2 à 3). Une très grande avalanche (taille 4) non exclu, en cas de rupture sur une couche fragile persistante enfouie dans un secteur habituellement favorable.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est excédentaire pour un début février.\nDonnées observées : environ 110 cm vers 2000 m d'altitude. \n\nLimite d'enneigement skiable : vers 1200/1300 m sur la plupart des itinéraires.\n\nÉtat de la neige de surface : neige fraiche en quantité plus ou moins travaillées par le vent, mais possiblement lourde/ humide sous 1800/2000 m.",
+      "text": "L'enneigement est excédentaire pour un mois de février.\nHauteurs de neige observées : environ 100 cm vers 2000 m d'altitude. \n\nLimite d'enneigement skiable : vers 1200/1300 m sur la plupart des itinéraires en ubacs, 1400/1500 m en adrets.\n\nÉtat de la neige de surface : en début de journée, neige fraiche en quantité plus ou moins travaillée par le vent, mais plus lourde/ humide sous 2000 m environ. Elle tombe un peu plus froide ensuite, mais devient fortement soufflée l'après-midi.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 45,
-          "S": 25
+          "N": 50,
+          "S": 30
         },
         {
           "alt_m": 2000,
-          "N": 110,
-          "S": 70
+          "N": 130,
+          "S": 90
         },
         {
           "alt_m": 2500,
-          "N": 190,
-          "S": 145
+          "N": 210,
+          "S": 165
         }
       ],
       "icon_key": "snowpack",

@@ -3,8 +3,8 @@
   "massif": "Embrunais Parpaillon",
   "bulletin": {
     "id": 20,
-    "issued_at": "2026-02-10T17:00:00",
-    "valid_until": "2026-02-11T18:00:00",
+    "issued_at": "2026-02-11T17:00:00",
+    "valid_until": "2026-02-12T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 4,
-        "date": "2026-02-12",
+        "date": "2026-02-13",
         "label": "Indice de risque fort",
-        "comment": "Risque fort, avec les nouvelles chutes et le vent. Instabilités faciles à déclencher.",
+        "comment": "Maintien d'un risque fort en raison de plaques faciles à déclencher au passage d'un skieur. Cassures épaisses possibles.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-06",
-          "min_cm": 1,
-          "max_cm": 3
-        },
-        {
           "date": "2026-02-07",
           "min_cm": 0,
           "max_cm": 0
@@ -116,6 +111,11 @@
         },
         {
           "date": "2026-02-11",
+          "min_cm": 15,
+          "max_cm": 25
+        },
+        {
+          "date": "2026-02-12",
           "min_cm": 10,
           "max_cm": 20
         }
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "FORTE INSTABILITÉ. LOCALEMENT GROS VOLUMES DE NEIGE MOBILISABLES",
-      "text": "FORTE INSTABILITÉ. LOCALEMENT GROS VOLUMES DE NEIGE MOBILISABLES\n\nDéclenchements provoqués : nouvelles instabilités en formation, plus nombreuses et épaisses au fil des chutes, sous l’action du vent et au-dessus de 1800/2000m. Possiblement présentes en toute orientation. Plaques pouvant être d’aspect poudreux, faciles à déclencher, parfois à distance. Avalanches de taille petite à moyenne, voire grande en zone d’accumulation (souvent large est).\nDans les ubacs (pentes ouest, nord, est), en cas de sollicitation de l’importante couche fragile enfouie au fond du manteau neigeux, les cassures peuvent être encore plus épaisses et larges, notamment au-delà de 2300/2400 m. Avalanche de grande taille, très grande non exclue. Déclenchement plus ou moins difficile. Un premier départ peut aussi faciliter aussi en cascade le déclenchement de ces plaques très volumineuses.\n\nDéparts spontanés : avalanches de neige fraîche en pente raide d’altitude devenant plus nombreuses au fil des chutes de neige souvent ventées. Taille petite à moyenne, grande non exclue dans une pente fortement chargée par le vent. Départ parfois en plaque en versants froids de taille moyenne à grande. Mercredi après-midi, avec l’arrêt des chutes, l’activité naturelle est en baisse, mais encore possible avec la surcharge liée au transport de neige par le vent.",
+      "title": "FORTE INSTABILITÉ PERSISTANTE - PLAQUES PARFOIS ÉPAISSES",
+      "text": "FORTE INSTABILITÉ PERSISTANTE - PLAQUES PARFOIS ÉPAISSES\n\nDéclenchements provoqués : manteau neigeux très instable, surtout au-dessus de 2000 m. Les plaques sont nombreuses et faciles à déclencher dans la neige fraîche ventée. Elles engendrent des avalanches moyennes à grandes (taille 2 à 3), avec souvent de larges cassures. \nDans les ubacs (pentes ouest, nord à est), des départs emportant la totalité du manteau neigeux en place sont envisagés, en cas de rupture sur l'épaisse couche fragile persistante enfouie. Grandes avalanches (taille 3) attendues, une très grande (taille 4) non exclue dans un secteur à la topographie habituellement favorable.\nSous 2000 m, quelques plaques aussi présentes, mais moins généralisées, car la neige fraîche s'est en partie humidifiée.\n\nDéparts spontanés : des avalanches de neige fraîche de plus en plus fréquentes à partir de mercredi soir et jeudi matin, puis au retour des quelques éclaircies jeudi après-midi (avalanches moyennes à grandes). Ponctuellement, certaines peuvent approcher des enjeux routiers dans le secteur du col de Vars. Départs en poire ou linéaires, mobilisant ponctuellement des volumes de neige importants.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est légèrement excédentaire pour un début février.\nDonnées observées : 77 cm à la Nivôse du Parpaillon à 2550 m, secteur soufflé par le vent.\n\nLimite d'enneigement skiable : dès 1200/1400 m sur la plupart des itinéraires, peu de sous-couche en adrets à cette altitude.\n\nÉtat de la neige de surface : neige fraiche en quantité plus ou moins travaillées par le vent, mais possiblement lourde/ humide sous 1800/2000 m.",
+      "text": "L'enneigement est plutôt excédentaire pour un mois de février.\nHauteurs de neige observées : 80 cm à la Nivôse du Parpaillon à 2550 m, secteur soufflé par le vent.\n\nLimite d'enneigement skiable : dès 1200/1400 m en ubacs sur la plupart des itinéraires, plutôt 1400/1500 m en adrets.\n\nÉtat de la neige de surface : en début de journée, neige fraiche plus ou moins travaillée par le vent, mais plus lourde/ humide sous 1800/2000 m. Elle tombe un peu plus froide ensuite, mais devient fortement soufflée l'après-midi.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 40,
-          "S": 25
+          "N": 50,
+          "S": 35
         },
         {
           "alt_m": 2000,
-          "N": 100,
-          "S": 60
+          "N": 120,
+          "S": 80
         },
         {
           "alt_m": 2500,
-          "N": 140,
-          "S": 95
+          "N": 160,
+          "S": 115
         }
       ],
       "icon_key": "snowpack",
