@@ -3,14 +3,14 @@
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
-    "issued_at": "2026-02-11T17:00:00",
-    "valid_until": "2026-02-12T18:00:00",
+    "issued_at": "2026-02-12T17:00:00",
+    "valid_until": "2026-02-13T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 5,
-      "comment": "Indice de risque très fort.",
+      "comment": "Indice de risque très fort évoluant en fort.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 5,
-            "evolution_to": null,
+            "evolution_to": 4,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "5",
+            "text": "5→4",
             "risk": 5,
-            "evolution_to": null
+            "evolution_to": 4
           }
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-02-13",
-        "label": "Indice de risque fort",
-        "comment": "Risque accidentel demeurant maximal : l'épaisse couche de neige récente n'est pas stabilisé. Les départs spontanés deviennent plus rares. Grandes avalanches possibles, même à distance.",
+        "max_level": 3,
+        "date": "2026-02-14",
+        "label": "Indice de risque marqué",
+        "comment": "La stabilisation de la neige récente est en partie retardée par le vent de sud (foehn) dans la nuit de vendredi à samedi, le risque reste a minima marqué.",
         "trend": "down"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-02-08",
           "min_cm": 0,
           "max_cm": 0
@@ -99,29 +94,34 @@
         },
         {
           "date": "2026-02-11",
-          "min_cm": 22,
+          "min_cm": 20,
           "max_cm": 35
         },
         {
           "date": "2026-02-12",
-          "min_cm": 40,
-          "max_cm": 60
+          "min_cm": 25,
+          "max_cm": 40
+        },
+        {
+          "date": "2026-02-13",
+          "min_cm": 0,
+          "max_cm": 2
         }
       ],
       "totals": {
-        "last_48h_min_cm": 62,
-        "last_48h_max_cm": 95
+        "last_48h_min_cm": 25,
+        "last_48h_max_cm": 42
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "SITUATION EXCEPTIONNELLE ! TRÈS GRANDES AVALANCHES POUVANT TOUCHER DES HABITATIONS.",
-      "text": "SITUATION EXCEPTIONNELLE ! TRÈS GRANDES AVALANCHES POUVANT TOUCHER DES HABITATIONS.\n\nDéparts spontanés  : AVALANCHES EXCEPTIONNELLES. Déclenchement possible autant dans la nuit de mercredi à jeudi que JEUDI TOUTE LA JOURNEE. Secteurs privilégiés : TIGNES/VAL D'ISÈRE et versant Gurraz/Savinaz. Elles parcourent de grands dénivelés avec un risque d'aérosols jusque dans les zones habitées. GROS VOLUMES MOBLISÉS, AVALANCHES pouvant atteindre LEUR EMPRISE MAXIMALE CONNUE. \n\nDéclenchements provoqués  : RISQUE MAXIMAL. Plaques nombreuses et épaisses, très réactives déclenchables localement comme même à distance. Risque généralisé dans tous les versants.",
+      "title": "TRÈS GRANDES AVALANCHES POUVANT TOUCHER DES HABITATIONS JUSQU'EN DÉBUT DE MATINÉE. AMÉLIORATION ENSUITE.",
+      "text": "TRÈS GRANDES AVALANCHES POUVANT TOUCHER DES HABITATIONS JUSQU'EN DÉBUT DE MATINÉE. AMÉLIORATION ENSUITE.\n\nDéparts spontanés  : AVALANCHES D'AMPLEUR EXCEPTIONNELLES possibles jusqu'en début de matinée. \nLes volumes mobilisés sont conséquents et les avalanches peuvent atteindre leur emprise maximale connue. Elles parcourent de grands dénivelés avec un risque d'aérosols jusque dans les zones habitées. Secteurs privilégiés : TIGNES/VAL D'ISÈRE et versant Gurraz/Savinaz.\nAvec l'arrêt des précipitations dans la nuit, puis l'arrêt du vent au plus tard en début de matinée, les départs spontanés vont se faire de plus en plus rares ensuite en journée de vendredi.\n\nDéclenchements provoqués  : plaques nombreuses et parfois très épaisses dans la neige récente et ventée, fortement réactives et déclenchables localement comme à distance. Risque généralisé dans tous les versants, dès 1800 m d'altitude. Cassures pouvant dépasser 1 m. \nFacteur aggravant : la couche fragile persistante, enfouie de plus en plus profondément, pourrait encore localement être sollicitée par un skieur ou déclenchée en cascade après un premier départ dans la neige récente. Les avalanches ainsi engendrées pourront être très volumineuses (taille 3, grande avalanche possible).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Un peu en dessous des normales de saison mais les chutes qui débutent ce mardi vont améliorer nettement l'enneigement au dessus de 1500m, en dessous la pluie attendue va bien dégrader le manteau.     \n\nLimite skiable :  Les versants froids voyant pas ou peu le soleil ont gardé de la neige à basse altitude, skiable sur l'herbe ou sur pistes forestières dès 1000m. Sous bois skiables dès 1200m.  En versant sud skiable dès 1300/1400m en prairies pas trop raides,  1800m en Sud raide.\n\nQualité de la neige : en basse montagne, la neige est trempée, en moyenne montagne, la neige est humide jusqu'à ~1800 m. Plus haut, gros cumuls de neige fraîche avec 1 m atteint d'ici la fin de l'épisode.",
+      "text": "Enneigement : le bilan des chutes de neige est largement positif dès 1500 m d'altitude, les hauteurs sont à nouveau excédentaires au-delà. Il est tombé en moyenne 80/100 cm de neige au-dessus de 2000 m, sur les dernières 48 h.\n\nLimite skiable : en nord, skiable sur l'herbe ou sur pistes forestières dès 1000 m, dans les sous-bois dès 1200 m.  En sud, skiable dès 1200 m en prairies pas trop raides, 1600 m en Sud raide.\n\nQualité de la neige : très gros cumuls de neige ventée en haute montagne, avec plus d'1 m dans les zones d'accumulations tandis que les croupes ont cumulé difficilement voire sont pelées dans les secteurs les plus ventés. Sous 1500/1700 m, 20/40 cm de neige froide recouvrent un manteau au moins partiellement humidifié, en cours de regel. Enfin, sous 1200 m, la neige est humide.\nEn journée, humidification en surface jusque vers 2000 m en sud/sud-est (bottage).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 80,
-          "S": 50
+          "N": 100,
+          "S": 70
         },
         {
           "alt_m": 2000,
-          "N": 140,
-          "S": 130
+          "N": 170,
+          "S": 160
         },
         {
           "alt_m": 2500,
-          "N": 300,
-          "S": 160
+          "N": 210,
+          "S": 170
         }
       ],
       "icon_key": "snowpack",

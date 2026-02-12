@@ -3,8 +3,8 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-02-11T16:00:00",
-    "valid_until": "2026-02-12T18:00:00",
+    "issued_at": "2026-02-12T16:00:00",
+    "valid_until": "2026-02-13T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-13",
+        "date": "2026-02-14",
         "label": "Indice de risque marqué",
-        "comment": "Vendredi, retour de conditions plus calmes et temporairement sèches.\nRisque d'avalanche stationnaire ou en légère baisse\nPlaques plus localisées vers les hautes crêtes, au soleil possible coulées/avalanches de neige fraîche...",
+        "comment": "Peu d'évolution. Vent de Nord se renforçant l'après-midi/le soir avec des giboulées de neige en vue jusqu'à assez basse altitude (quantité plus conséquente sur l'Ouest du Vercors). Risque de plaques marqué à l'approche des crêtes.",
         "trend": "steady"
       }
     },
@@ -56,8 +56,8 @@
         "SE": true,
         "S": true,
         "SW": true,
-        "W": false,
-        "NW": false
+        "W": true,
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 5,
       "labels": {
-        "1": "Neige fraîche",
+        "2": "Neige ventée",
         "5": "Avalanche de fond"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-08",
           "min_cm": 0,
@@ -105,23 +100,28 @@
         {
           "date": "2026-02-12",
           "min_cm": 15,
-          "max_cm": 30
+          "max_cm": 25
+        },
+        {
+          "date": "2026-02-13",
+          "min_cm": 6,
+          "max_cm": 10
         }
       ],
       "totals": {
-        "last_48h_min_cm": 20,
-        "last_48h_max_cm": 40
+        "last_48h_min_cm": 21,
+        "last_48h_max_cm": 35
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NEIGE FRAICHE S’ÉPAISSISSANT EN ALTITUDE, INSTABILITÉ DEVENANT MARQUÉE EN HAUT DU MASSIF...",
-      "text": "NEIGE FRAICHE S’ÉPAISSISSANT EN ALTITUDE, INSTABILITÉ DEVENANT MARQUÉE EN HAUT DU MASSIF... \n\nNouveau passage pluvieux mercredi soir, puis retour de la neige à partir de 1300m jeudi matin. Cumuls conséquents en altitude (15 puis 30 cm), avec un fort vent de Nord-Ouest. \nDéparts spontanés : Plus bas que 1500/1700m, quelques avalanches humides ou de fond/glissement peuvent partir, là où le manteau a été humidifié jusqu'à la base par la pluie des derniers jours. En altitude au-dessus de 1700m environ, on attend des avalanches de surface au fil des chutes de neige et du vent, parfois de taille moyenne. Elles seront plus fréquentes en faces Nord à Est, vers la barrière orientale dans les couloirs chargés par le vent de Sud-Ouest puis Nord-Ouest... \nDéclenchements provoqués :  Au dessus de 1600/1700m environ le risque accidentel devrait s'accentuer jeudi au fil des chutes de neige plus ventées et froides...  Formation de plaques instables au passage d'un skieur, parfois dès les sorties de forêt, assez loin des crêtes, en pieds de barres par exemple. Cassures potentielles dépassant 40 cm l''après-midi. En contrebas (sous 1500m environ) neige plus humide, plutôt un risque de coulée ponctuelle sous les skis...",
+      "title": "IMPORTANTES QUANTITES DE NEIGE FRAICHE SOUFFLEE EN ALTITUDE, ENCORE BIEN INSTABLE JEUDI SOIR... VENDREDI ENCORE UN RISQUE DE PLAQUES VERS LES CRETES...",
+      "text": "IMPORTANTES QUANTITES DE NEIGE FRAICHE SOUFFLEE EN ALTITUDE, ENCORE BIEN INSTABLE JEUDI SOIR... VENDREDI ENCORE UN RISQUE DE PLAQUES VERS LES CRETES...\n\nJeudi soir encore neigeux sous le vent de Nord-Ouest, des avalanches possibles en altitude. Vendredi plus calme et sec, mais risque accidentel de plaque encore localement marqué à l'abord des crêtes et sommets...\nDéparts spontanés : \nJeudi en soirée/début de nuit, encore des chutes de neige sous le vent de Nord-Ouest avec jusque 30/40 cm de fraîche en altitude. On attend quelques avalanches spontanées en pentes/couloirs d'altitude (barrière orientale), parfois de taille plus conséquente (ruptures linéaires).\nVendredi a priori moins d'activité. Néanmoins lors de brèves éclaircies on s'attend à des avalanches de surface en pentes \"réchauffées\", près des rochers...\nNoter qu'en pentes herbeuses raides (sous 1600 voire 1800m), la neige est assez humide en profondeur, on s'attend à quelques avalanches de fond avec glissement possible jusqu'au terrain.\n\nDéclenchements provoqués :  Vendredi,  encore un risque accidentel  de plaques, notamment à proximité des crêtes et sommets, parfois en pieds de barres.\nUn seul skieur peut parfois déclencher une plaque assez conséquente. (Sous couche plus poudreuse représentant une couche fragile temporaire)... A modeste altitude, en neige plus humide, plutôt un risque de coulée ponctuelle sous les skis...",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est récemment dégradé aux basses altitudes, sous les sapins mais reste correct pour la saison dès la moyenne montagne et dans les combes Nord. Sur le haut du massif, l'enneigement s'améliore de manière hétérogène. Des combes se chargent, tandis que les pentes exposées au vent sont souvent pelées. \n\nLimites skiables : Vers 1200/1400 m, sur les pistes forestières/clairières...\n\nQualité de la neige jeudi : La pluie remonte à nouveau temporairement jusqu'à 2000m mercredi soir, avant de s'abaisser vers 1300m en journée de jeudi. Sous 1500 / 1600m environ, neige récente humide, reposant sur une neige détrempée. Plus haut, couche de neige fraîche de plus en plus importante au fil de la journée, avec 30 à 40cm en fin de journée. Neige souvent ventée, certaines pentes sont pelées.",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est récemment dégradé aux basses altitudes, sous les sapins mais reste correct  à bon pour la saison dès la moyenne montagne et dans les combes sommitales... Crêtes plus dégarnies alternant avec congères et corniches...\nLimites skiables : Vers 1200/1400 m, sur les pistes forestières/clairières...\n\nQualité de la neige vendredi : A basse altitude, regel au matin, plaques de glace... dès la moyenne montagne neige poudreuse, plus conséquente au dessus de 1500/1700m : 20/40 cm environ. Souvent ventée vers les hautes crêtes et sommets/ durcie, sculptée parfois.  Lors de timides éclaircies, neige s'humidifiant au soleil, plutôt sous 1500/1800m...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -142,8 +142,8 @@
         },
         {
           "alt_m": 2000,
-          "N": 180,
-          "S": 120
+          "N": 190,
+          "S": 130
         }
       ],
       "icon_key": "snowpack",

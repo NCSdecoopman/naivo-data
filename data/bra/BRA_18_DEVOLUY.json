@@ -3,8 +3,8 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-02-11T17:00:00",
-    "valid_until": "2026-02-12T18:00:00",
+    "issued_at": "2026-02-12T16:00:00",
+    "valid_until": "2026-02-13T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-13",
+        "date": "2026-02-14",
         "label": "Indice de risque marqué",
-        "comment": "Activité naturelle en nette baisse. Maintien d'un risque marqué en raison de plaques faciles à déclencher au passage d'un skieur.",
+        "comment": "Maintien d'un risque marqué avec des plaques encore faciles à déclencher au passage d'un skieur dans la neige récente.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-02-08",
           "min_cm": 0,
           "max_cm": 0
@@ -106,17 +101,22 @@
           "date": "2026-02-12",
           "min_cm": 15,
           "max_cm": 20
+        },
+        {
+          "date": "2026-02-13",
+          "min_cm": 5,
+          "max_cm": 10
         }
       ],
       "totals": {
-        "last_48h_min_cm": 30,
-        "last_48h_max_cm": 40
+        "last_48h_min_cm": 20,
+        "last_48h_max_cm": 30
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX INSTABLE AVEC LES CHUTES DE NEIGE QUI SE SUCCÈDENT",
-      "text": "MANTEAU NEIGEUX INSTABLE AVEC LES CHUTES DE NEIGE QUI SE SUCCÈDENT\n\nDéclenchements provoqués : manteau neigeux peu stabilisé dans de nombreuses pentes. Les plaques dans la neige fraîche ventée sont fréquentes et faciles à déclencher. Elles engendrent des avalanches moyennes (taille 2), voire grandes (taille 3) quand la topographie est favorable, emportant toute la couche de neige récente des derniers jours. Ponctuellement, une cassure emportant la totalité du manteau neigeux n'est pas exclue, mobilisant alors un important volume de neige.\n\nDéparts spontanés : avalanches de neige fraîche de plus en plus nombreuses à partir de mercredi soir et toute la journée de jeudi. Départs en poire ou linéaires, emportant toute la couche de neige récente, parfois sur de grandes largeurs. Avalanches moyennes à grandes (taille 2 à 3). Une très grande avalanche (taille 4) non exclu, en cas de rupture sur une couche fragile persistante enfouie dans un secteur habituellement favorable.",
+      "title": "MANTEAU NEIGEUX RESTANT INSTABLE",
+      "text": "MANTEAU NEIGEUX RESTANT INSTABLE \n\nDéclenchements provoqués : manteau neigeux encore peu stabilisé dans de nombreuses pentes. Fréquentes plaques dans la neige fraîche ventée, faciles à déclencher. Elles engendrent des avalanches moyennes (taille 2), voire grandes (taille 3) quand la topographie est favorable, emportant toute la couche de neige récente des derniers jours. Ponctuellement, une cassure emportant la totalité du manteau neigeux n'est pas exclue, mobilisant alors un important volume de neige.\n\nDéparts spontanés : jusqu'en seconde partie de nuit de jeudi à vendredi, avalanches de neige fraîche. Départs en poire ou linéaires, emportant toute la couche de neige récente, parfois sur de grandes largeurs. Avalanches moyennes à grandes (taille 2 à 3). Une très grande avalanche (taille 4) non exclue, en cas de rupture sur une couche fragile persistante enfouie, dans un secteur à la topographie habituellement favorable.\n\nVendredi, en pente raide, de nouvelles avalanches de neige fraîche s’humidifiant avec le soleil / redoux temporaire. Départs en poire ou linéaires, de taille petite à moyenne, grande non exclue.",
       "sections": null,
       "icon_key": "stability"
     },
@@ -126,24 +126,24 @@
     },
     "snowpack": {
       "limits_m": {
-        "north": 1000,
-        "south": 1200
+        "north": 900,
+        "south": 900
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 50,
-          "S": 30
+          "N": 55,
+          "S": 35
         },
         {
           "alt_m": 2000,
-          "N": 130,
-          "S": 90
+          "N": 135,
+          "S": 95
         },
         {
           "alt_m": 2500,
-          "N": 210,
-          "S": 165
+          "N": 215,
+          "S": 170
         }
       ],
       "icon_key": "snowpack",

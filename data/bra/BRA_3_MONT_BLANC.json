@@ -3,49 +3,61 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-02-11T16:00:00",
-    "valid_until": "2026-02-12T18:00:00",
+    "issued_at": "2026-02-12T16:00:00",
+    "valid_until": "2026-02-13T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 5,
-      "comment": "Indice de risque très fort.",
+      "comment": "Au-dessus de 1800m indice de risque très fort évoluant en fort, plus bas indice fort.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1800,
+        "split_axis": "horizontal",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
-            "risk": 5,
+            "loc": "<1800",
+            "risk": 4,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1800",
+            "risk": 5,
+            "evolution_to": 4,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1800m"
         },
         "zones": {
-          "center": {
-            "text": "5",
-            "risk": 5,
+          "bottom": {
+            "text": "4",
+            "risk": 4,
             "evolution_to": null
+          },
+          "top": {
+            "text": "5→4",
+            "risk": 5,
+            "evolution_to": 4
           }
         }
       },
       "j2": {
-        "max_level": 5,
-        "date": "2026-02-13",
-        "label": "Indice de risque très fort",
-        "comment": "Risque spontané en nette baisse, mais risque accidentel encore fort.",
-        "trend": "steady"
+        "max_level": 4,
+        "date": "2026-02-14",
+        "label": "Indice de risque fort",
+        "comment": "Stabilisation du manteau neigeux en cours.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -78,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-02-08",
           "min_cm": 0,
           "max_cm": 0
@@ -104,24 +111,29 @@
         },
         {
           "date": "2026-02-12",
-          "min_cm": 60,
-          "max_cm": 80
+          "min_cm": 50,
+          "max_cm": 70
+        },
+        {
+          "date": "2026-02-13",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 100,
-        "last_48h_max_cm": 140
+        "last_48h_min_cm": 50,
+        "last_48h_max_cm": 70
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "ÉPISODE D'AMPLEUR EXCEPTIONNEL",
-      "text": "ÉPISODE D'AMPLEUR EXCEPTIONNEL \n\nSituation exceptionnelle avec des cumuls de neige fraiche en fin de journée jeudi entre 1 m à 1.50 m à 2000 m.\n\nDéparts spontanés :\n* Risque fort en soirée de mercredi évoluant en risque maximal jeudi avec les cumuls exceptionnels. Les épaisseurs de neige fraiche sont de plus en plus conséquentes (cf qualité de la neige). De très nombreuses avalanches de neige fraiche de taille 3/4 (grande à très grande) sont possibles et parcourront de très grandes dénivellations. Une avalanche d'ampleur exceptionnelle n'est pas exclue dans les versants ouest/nord/est avec un départ en cascade qui irait chercher la sous-couche fragile persistante.\n\nDéclenchements provoqués :\n* risque accidentel maximal ! Sur tous les versants et à toutes altitudes : nombreuses plaques très réactives et très épaisses dans la neige fraîche. Cassure très importante, 1 à 2 m.",
+      "title": "Fin d'un gros épisode neigeux",
+      "text": "Fin d'un gros épisode neigeux \n\nDéparts spontanés :\n* Risque encore maximale en soirée de jeudi avec la poursuite des chutes de neige. Les épaisseurs de neige fraiche sont de plus en plus conséquentes. De très nombreuses avalanches de neige fraiche de taille 3/4 (grande et très grande) sont possibles et parcourront de grandes dénivellations. Une avalanche d'ampleur exceptionnelle n'est pas exclue dans les versants ouest/nord/est avec un départ en cascade qui irait chercher la sous-couche fragile persistante.\n* En journée de vendredi, l'activité spontanée est en nette baisse. Quelques départs dans les pentes raides dans les versants ensoleillés et sous 2000 m tous versants. Taille 1 à 2 (petite à moyenne). Une très grande avalanche est possible avec une chute de corniche ou sérac en départ en cascade. Taille 4.\n\nDéclenchements provoqués :\n* risque accidentel maximal, les plaques sont très réactives sur tous les versants. En-dessous de 1800 m : nombreuses plaques friables de taille 2 voir taille 3. Au-dessus de 1800 m : très nombreuses plaques friables/dures de taille 2 et 3. Une plaque de taille 4 (très grande) est possible dans les versants O/N/E avec un départ en cascade qui irait chercher la sous-couche fragile persistante (cassure de 1 à 2m).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Pour la saison, l’enneigement est correct. On peut chausser les skis vers 1300/1400 m.\nNombreuses congères et grosses corniches. \n\nQualité de la neige ce jeudi matin : \nEn début de matinée :\n* 70 / 100 cm de neige fraîche au-dessus 2200 m. \n* 50 /80  cm de neige fraîche vers 1800/2000 m,\n* 5/15 cm de neige fraîche humide vers 1600 m. \n* neige mouillée sous 1500 m. \nAu fil de la journée, les quantités de neige fraîche augmentent (30/50 cm supplémentaires en journée au-dessus de 1800 m).",
+      "text": "Enneigement : Pour la saison, l’enneigement est dans la normale sous 2500 et excédentaire au-dessus. On peut chausser les skis vers 1300/1400 m. Nombreuses congères et grosses corniches. \n\nQualité de la neige ce vendredi matin : \nEn début de matinée :\n- au-dessus de 1800 m : 1m/1m50 cm de neige récente, ventée et grosses accumulations. \n- en dessous de 1800 m : 30/80 cm de neige récente et humide.\nLa neige fraiche se tasse rapidement et elle s'humidifie en journée sous 2000 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 180,
-          "S": 140
+          "N": 210,
+          "S": 170
         },
         {
           "alt_m": 2500,
-          "N": 300,
-          "S": 260
+          "N": 340,
+          "S": 300
         }
       ],
       "icon_key": "snowpack",

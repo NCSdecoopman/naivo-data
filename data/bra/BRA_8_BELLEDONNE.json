@@ -3,14 +3,14 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-02-11T16:00:00",
-    "valid_until": "2026-02-12T18:00:00",
+    "issued_at": "2026-02-12T16:00:00",
+    "valid_until": "2026-02-13T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 4,
-      "comment": "Au-dessus de 2200m indice de risque fort, plus bas indice marqué évoluant en fort.",
+      "comment": "Au-dessus de 2200m indice de risque fort, plus bas indice fort évoluant en marqué.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2200,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": "<2200",
-            "risk": 3,
-            "evolution_to": 4,
+            "risk": 4,
+            "evolution_to": 3,
             "position": "bottom"
           },
           {
@@ -41,9 +41,9 @@
         },
         "zones": {
           "bottom": {
-            "text": "3→4",
-            "risk": 3,
-            "evolution_to": 4
+            "text": "4→3",
+            "risk": 4,
+            "evolution_to": 3
           },
           "top": {
             "text": "4",
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-13",
-        "label": "Indice de risque marqué",
-        "comment": "Risque d'avalanche en très légère baisse (pause de la \"crue\" avalancheuse)\nVendredi temporairement plus calme et sec, des éclaircies.\nAu soleil/près des rochers des avalanches de neige récente ; en altitude risque accidentel de plaque encore marqué, voire fort ...",
-        "trend": "down"
+        "max_level": 4,
+        "date": "2026-02-14",
+        "label": "Indice de risque fort",
+        "comment": "Risque d'avalanche  stationnaire ou en légère baisse samedi matin (saupoudrage neigeux et vent faible). Mais samedi après-midi le vent de Nord pourra devenir sensible et former de nouvelles plaques instables...",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 3,
       "labels": {
-        "1": "Neige fraîche",
+        "2": "Neige ventée",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-08",
           "min_cm": 0,
@@ -112,28 +107,33 @@
         {
           "date": "2026-02-11",
           "min_cm": 7,
-          "max_cm": 15
+          "max_cm": 20
         },
         {
           "date": "2026-02-12",
-          "min_cm": 20,
+          "min_cm": 30,
           "max_cm": 40
+        },
+        {
+          "date": "2026-02-13",
+          "min_cm": 2,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 27,
-        "last_48h_max_cm": 55
+        "last_48h_min_cm": 32,
+        "last_48h_max_cm": 45
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "FORTES CHUTES DE NEIGE ATTENDUES EN JOURNEE DE JEUDI...  DE NOMBREUSES NOMBREUSES GRANDES AVALANCHES, ARRIVANT PARFOIS EN MOYENNE MONTAGNE...",
-      "text": "FORTES CHUTES DE NEIGE ATTENDUES EN JOURNEE DE JEUDI...  DE NOMBREUSES NOMBREUSES GRANDES AVALANCHES, ARRIVANT PARFOIS EN MOYENNE MONTAGNE...\n\nConditions très perturbées, ventées, neigeuses en altitude puis en moyenne montagne... Situation nivologique évoluant défavorablement, particulièrement à haute altitude et dans tous les couloirs. Vers 2500m, on attend jusqu'à 1m de neige récente ventée...\nDéparts spontanés :  \nEn altitude, dès mercredi soir, on s'attend à de possibles grandes avalanches sous le vent de Sud-Ouest, parfois à quelques larges et épaisses cassures spontanées (présence de sous couche fragiles enfouies au dessus de 2200m environ).\nJeudi en journée, l'épaisseur de neige récente atteindrait 40/60 cm vers 1800m et plus d'1m vers 2500m avec du vent d'Ouest puis Nord-Ouest.... De nombreuses grandes avalanches sont attendues, balayant couloirs et pentes raides. Celles ci peuvent parfois atteindre la moyenne montagne en dépôts plus humides (route du Rivier par exemple ?). En haute montagne, la présence de sous couche fragile enfouie pourrait faciliter une avalanche d'ampleur et trajectoire peu habituelle.\nDéclenchements provoqués :    \nHaute montagne infréquentable. Ruptures très faciles au passage du moindre skieur. Sous 2000/2200m, risque accidentel marqué puis fort même loin des crêtes, vu l'intensité de la chute de neige et le vent sensible à fort...\nEn moyenne montagne, éviter bas de couloirs et clairières raides (risque de coulée humide).",
+      "title": "JEUDI SOIR ENCORE QUELQUES GRANDES AVALANCHES DEVALANT LES COULOIRS... VENDREDI EN ALTITUDE INSTABILITE (ACCIDENTELLE) TOUJOURS FORTE AU PASSAGE DE SKIEURS...",
+      "text": "JEUDI SOIR ENCORE QUELQUES GRANDES AVALANCHES DEVALANT LES COULOIRS... VENDREDI EN ALTITUDE INSTABILITE (ACCIDENTELLE) TOUJOURS FORTE AU PASSAGE DE SKIEURS...\n\nJeudi soir il neige encore, avec 80 cm à 1m20 de neige récente en altitude (en Nord Belledonne notamment), situation avalancheuse encore critique. \nVendredi temps plus calme, amorce de stabilisation ... mais encore un fort risque accidentel, notamment au dessus de 2200m environ  (risque de ruptures en \"cascade\")...\nDéparts spontanés :  \n    Jeudi soir/en début de nuit : Neige encore et vent de Nord-Ouest, puis les précipitations vont s'atténuer. Avec des cumuls critiques en altitude (dépassant 1m voire 1m50 parfois), on peut s'attendre encore à de grandes avalanches, balayant couloirs et pentes raides. Celles ci peuvent parfois s'écouler jusqu'en bas de couloirs, en moyenne montagne (dépôts plus humides). En haute montagne, la présence de sous couche fragile persistante pourrait faciliter une avalanche de très grande ampleur...\n    Vendredi en journée temps plus calme et sec. Fin attendue de la \"crue\" avalancheuse. Lors de brèves éclaircies, coulées ou avalanches poudreuses possibles, près des rochers notamment. Aux altitudes modestes (sous 1600/1800m environ), la neige est assez humide en profondeur, on peut avoir quelques avalanches en pentes herbeuses, parfois de fond (glissement au terrain)\nDéclenchements provoqués :    \nHaute montagne encore peu fréquentable vendredi... Nombreuses plaques potentiellement instables, parfois loin des crêtes. Le vent a soufflé en diverses orientations. Noter qu'en large faces Nord des sous couches fragiles sont enfouies. Une première rupture pourrait entrainer une épaisse et large cassure en contrebas, entrainant un volume de neige très conséquent (larges cassures observées récemment en faces Nord de Belle Etoile)... \nPlus bas que 2100/2200m environ, les sous couches sont un peu mieux stabilisées. Risque de plaques surtout à proximité des crêtes (cassure parfois conséquente, réactive au passage d'une personne). Travail du vent/congères sont assez visibles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'améliore encore en haute-montagne, dans les combes, où il devient excellent pour la saison. Il est en revanche médiocre à basse altitude, et plus bas que 1500/1700m...\nLimites skiables : vers 1200/1500 m (hors sapins).\nQualité de la neige jeudi :  Plus bas que 1300m, neige dense très humide. Entre 1300 et 1500/1600m neige fraîche collante... Au dessus couche de neige de plus importante au fil des heures et sèche, bien ventée en altitude.\nFortes épaisseurs au dessus de 2200m environ avec plus d'1m de neige récente vers 2500m, de grosses congères/corniches, des croupes plus dégarnies...",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est encore amélioré en altitude, dans les combes, où il devient excellent pour la saison, notamment versant Eau d'Olle/Villards. Il est en revanche médiocre plus bas que 1400m...\nLimites skiables : vers 1200/1400 m...\nQualité de la neige vendredi :  \nNeige fraîche poudreuse plus épaisse en altitude et souvent soufflée/chahutée à l'abord des croupes et crêtes.\nFortes épaisseurs au dessus de 2200/2400m environ avec plus d'1m de neige récente vers 2500m, de grosses congères/corniches, des secteurs plus dégarnis...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -145,17 +145,17 @@
         {
           "alt_m": 1500,
           "N": 110,
-          "S": 25
+          "S": 30
         },
         {
           "alt_m": 2000,
-          "N": 200,
-          "S": 140
+          "N": 220,
+          "S": 150
         },
         {
           "alt_m": 2500,
-          "N": 290,
-          "S": 230
+          "N": 330,
+          "S": 260
         }
       ],
       "icon_key": "snowpack",
