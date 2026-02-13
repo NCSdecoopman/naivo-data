@@ -3,49 +3,61 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-02-12T16:00:00",
-    "valid_until": "2026-02-13T18:00:00",
+    "issued_at": "2026-02-13T16:00:00",
+    "valid_until": "2026-02-14T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Indice de risque fort évoluant en marqué.",
+      "max_level": 3,
+      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1800,
+        "split_axis": "horizontal",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
-            "risk": 4,
-            "evolution_to": 3,
-            "position": null
+            "loc": "<1800",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1800",
+            "risk": 3,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1800m"
         },
         "zones": {
-          "center": {
-            "text": "4→3",
-            "risk": 4,
-            "evolution_to": 3
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "3",
+            "risk": 3,
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-14",
+        "date": "2026-02-15",
         "label": "Indice de risque marqué",
-        "comment": "Peu d'évolution. Vent de Nord se renforçant l'après-midi/le soir avec des giboulées de neige en vue jusqu'à assez basse altitude (Ouest Chartreuse notamment). Risque de plaques marqué à l'approche des crêtes.",
-        "trend": "down"
+        "comment": "Tendance à la stabilisation avec un temps plus calme à venir.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 5,
+      "primary": 2,
+      "secondary": 1,
       "labels": {
-        "1": "Neige fraîche",
-        "5": "Avalanche de fond"
+        "2": "Neige ventée",
+        "1": "Neige fraîche"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-08",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-09",
           "min_cm": 7,
@@ -104,30 +111,35 @@
         },
         {
           "date": "2026-02-13",
-          "min_cm": 3,
-          "max_cm": 7
+          "min_cm": 2,
+          "max_cm": 5
+        },
+        {
+          "date": "2026-02-14",
+          "min_cm": 20,
+          "max_cm": 30
         }
       ],
       "totals": {
-        "last_48h_min_cm": 33,
-        "last_48h_max_cm": 57
+        "last_48h_min_cm": 22,
+        "last_48h_max_cm": 35
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "IMPORTANTES QUANTITES DE NEIGE FRAICHE SOUFFLEE EN ALTITUDE, ENCORE BIEN INSTABLE JEUDI SOIR... VENDREDI ENCORE UN RISQUE DE PLAQUES VERS LES CRETES...",
-      "text": "IMPORTANTES QUANTITES DE NEIGE FRAICHE SOUFFLEE EN ALTITUDE, ENCORE BIEN INSTABLE JEUDI SOIR... VENDREDI ENCORE UN RISQUE DE PLAQUES VERS LES CRETES...\n\nJeudi soir encore neigeux sous le vent de Nord-Ouest, quelques grandes avalanches possibles en altitude. Vendredi plus calme et sec, mais risque accidentel de plaque encore localement marqué à l'abord des crêtes et sommets...\nDéparts spontanés : \nJeudi en soirée/début de nuit, encore des chutes de neige sous le vent de Nord-Ouest avec jusque 40/60 cm de fraîche en altitude. On attend quelques avalanches spontanées en pentes/couloirs d'altitude, parfois de taille moyenne à grandes (ruptures linéaires).\nVendredi a priori moins d'activité. Néanmoins lors de brèves éclaircies on s'attend à des avalanches de surface en pentes \"réchauffées\", près des rochers...\nNoter qu'en pentes herbeuses raides (sous 1600 voire 1800m), la neige est assez humide en profondeur, on s'attend à quelques avalanches de fond avec glissement possible jusqu'au terrain.\n\nDéclenchements provoqués :  Vendredi,  encore un risque accidentel  de plaques, notamment à proximité des crêtes et sommets, parfois en pieds de barres.\nUn seul skieur peut parfois déclencher une plaque assez conséquente. (Sous couche plus poudreuse représentant une couche fragile temporaire)... A modeste altitude, en neige plus humide, plutôt un risque de coulée ponctuelle sous les skis...",
+      "title": "NEIGE FRAICHE SOUFFLÉE EN ALTITUDE",
+      "text": "NEIGE FRAICHE SOUFFLÉE EN ALTITUDE\n\nDéparts spontanés : \nActivité en nette baisse pour samedi. Néanmoins lors de brèves éclaircies on s'attend à des avalanches de surface en pentes \"réchauffées\", près des rochers...\nNoter qu'en pentes herbeuses raides (sous 1600 voire 1800m), la neige est assez humide en profondeur, on s'attend à quelques avalanches de fond avec glissement possible jusqu'au terrain.\n\nDéclenchements provoqués :  Vendredi,  encore un risque accidentel  de plaques, notamment à proximité des crêtes et sommets, parfois en pieds de barres.\nUn seul skieur peut parfois déclencher une plaque assez conséquente. (Sous couche plus poudreuse représentant une couche fragile temporaire)... A modeste altitude, en neige plus humide, plutôt un risque de coulée ponctuelle sous les skis...",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est récemment dégradé aux basses altitudes, sous les sapins mais il est bon pour la saison dès la moyenne montagne et dans les combes sommitales... Crêtes parfois dégarnies/ congères et corniches...\nLimites skiables : Vers 1200/1400 m, sur les pistes forestières/clairières...\n\nQualité de la neige vendredi : A basse altitude, regel au matin, plaques de glace... dès la moyenne montagne neige poudreuse, plus conséquente au dessus de 1500/1700m : 40/60 cm environ. Souvent ventée vers les hautes crêtes et sommets/ durcie, sculptée parfois.  Lors de timides éclaircies, neige s'humidifiant au soleil, plutôt sous 1500/1800m...",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est récemment dégradé aux basses altitudes, sous les sapins mais il est bon pour la saison dès la moyenne montagne et dans les combes sommitales... Crêtes parfois dégarnies/ congères et corniches...\nLimites skiables : Vers 1100/1300 m, sur les pistes forestières/clairières...\n\nQualité de la neige samedi : Fine couche de neige fraiche au matin dès 1200/1300m. A basse altitude, regel au matin, plaques de glace... dès la moyenne montagne neige poudreuse, plus conséquente au dessus de 1500/1700m : 40/60 cm environ. Souvent ventée vers les hautes crêtes et sommets/ durcie, sculptée parfois.  Lors de timides éclaircies, neige s'humidifiant au soleil, plutôt sous 1500/1800m...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1100,
-        "south": 1400
+        "south": 1100
       },
       "levels_cm": [
         {
@@ -137,13 +149,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 130,
-          "S": 40
+          "N": 160,
+          "S": 70
         },
         {
           "alt_m": 2000,
-          "N": 200,
-          "S": 140
+          "N": 230,
+          "S": 170
         }
       ],
       "icon_key": "snowpack",

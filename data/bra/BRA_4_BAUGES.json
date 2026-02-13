@@ -3,49 +3,61 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-02-12T16:00:00",
-    "valid_until": "2026-02-13T18:00:00",
+    "issued_at": "2026-02-13T16:00:00",
+    "valid_until": "2026-02-14T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Indice de risque fort évoluant en marqué.",
+      "max_level": 3,
+      "comment": "Au-dessus de 1600m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1600,
+        "split_axis": "horizontal",
+        "split_label": "1600m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
-            "risk": 4,
-            "evolution_to": 3,
-            "position": null
+            "loc": "<1600",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1600",
+            "risk": 3,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1600m"
         },
         "zones": {
-          "center": {
-            "text": "4→3",
-            "risk": 4,
-            "evolution_to": 3
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "3",
+            "risk": 3,
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-14",
+        "date": "2026-02-15",
         "label": "Indice de risque marqué",
-        "comment": "Stabilisation du manteau neigeux en cours.",
-        "trend": "down"
+        "comment": "Risque stationnaire ou en légère baisse.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -66,21 +78,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": null,
+      "primary": 2,
+      "secondary": 5,
       "labels": {
-        "1": "Neige fraîche"
+        "2": "Neige ventée",
+        "5": "Avalanche de fond"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-08",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-09",
           "min_cm": 7,
@@ -93,34 +101,39 @@
         },
         {
           "date": "2026-02-11",
-          "min_cm": 35,
-          "max_cm": 60
+          "min_cm": 30,
+          "max_cm": 40
         },
         {
           "date": "2026-02-12",
-          "min_cm": 40,
-          "max_cm": 50
+          "min_cm": 30,
+          "max_cm": 40
         },
         {
           "date": "2026-02-13",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-14",
+          "min_cm": 7,
+          "max_cm": 10
         }
       ],
       "totals": {
-        "last_48h_min_cm": 40,
-        "last_48h_max_cm": 50
+        "last_48h_min_cm": 7,
+        "last_48h_max_cm": 10
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Fin d'un gros épisode neigeux",
-      "text": "Fin d'un gros épisode neigeux \n\nDéparts spontanés :\n* très nombreuses avalanches de neige fraîche, risque fort encore en soirée de jeudi . Taille 2 à 3 (moyenne à grande), rarement 4 (très grande). Ces très grandes avalanches pourraient parcourir d'importante dénivellation.\n* En journée de vendredi, l'activité spontanée est en nette baisse. Quelques départs dans les pentes raides dans les versants ensoleillés et sous 2000 m tous versants. Taille 1 à 2 (petite à moyenne). Au-dessus de 1800/2000 m : une grande avalanche est possible avec une chute de corniche ou en départ en cascade. Taille 3.\n\nDéclenchements provoqués :\n* nombreuses plaques friables encore présentes dans la neige fraîche. Très facilement déclenchables. Généralisées à toutes les pentes. Taille 2 à 3 (moyenne à grande), plus rarement 4 (très grande) proche des plus hauts sommets.",
+      "title": "",
+      "text": "Déclenchements provoqués :\n* plaques friables nouvelles, formées dans la couche de neige récente. Surtout dans les zones travaillées et/ou accumulées. Le vent a soufflé de SW/W ce vendredi, puis de N samedi après-midi. La plupart de ces plaques sont friables, mais certaines peuvent aussi être dures, notamment en altitude au voisinage des crêtes. Les orientations NW, N, NE et E sont les plus concernées. Cassure épaisse possible, 20/40 cm en moyenne, mais 60/80 cm dans une accumulation, pas forcément visible. Taille 2 (moyenne) voire 3 (grande).\nObservables : fissures devant les skis, neige un peu \"mâte\", changement de qualité de neige sur une courte distance. \n* attention aux corniches récentes, fragiles\n\nDéparts spontanés :\n* plaques de fond. Possibles à toute heure, en pentes très raides et lisses, en herbe ou dalles rocheuses. Taille 2, éventuellement 3 avec un départ au-dessus de 1800 m.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Pour la saison, l’enneigement est dans la normale. On peut chausser les skis vers 1300/1400 m. Nombreuses congères et grosses corniches. \n\nQualité de la neige ce vendredi matin : \nAu-dessus de 1500 m : neige fraiche, par endroit très ventée. En dessous, la neige est très humide. En journée, elle s'humidifie en surface sous 2000 m.",
+      "text": "Enneigement : bon. On peut chausser les skis vers 1200/1400 m. Nombreuses congères et grosses corniches. \n\nQualité de la neige ce samedi : \nEn dessous de 1500/1800 m : neige récente poudreuse ou finement croûtée. On touche un fond encore un peu humide des dernières pluies, gardant les skis.\nAu-dessus de 1800 m : poudreuse ou travaillée par le vent de SW/W. Un peu croûtée en adrets.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,17 +145,17 @@
         {
           "alt_m": 1000,
           "N": 10,
-          "S": 1
+          "S": 5
         },
         {
           "alt_m": 1500,
-          "N": 100,
-          "S": 80
+          "N": 120,
+          "S": 90
         },
         {
           "alt_m": 2000,
-          "N": 160,
-          "S": 130
+          "N": 180,
+          "S": 150
         }
       ],
       "icon_key": "snowpack",

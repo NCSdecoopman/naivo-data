@@ -3,37 +3,49 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-02-12T17:00:00",
-    "valid_until": "2026-02-13T18:00:00",
+    "issued_at": "2026-02-13T17:00:00",
+    "valid_until": "2026-02-14T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 4,
-      "comment": "Indice de risque fort.",
+      "comment": "Au-dessus de 1800m indice de risque fort, plus bas indice marqué.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1800,
+        "split_axis": "horizontal",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1800",
+            "risk": 3,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1800",
             "risk": 4,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1800m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "3",
+            "risk": 3,
+            "evolution_to": null
+          },
+          "top": {
             "text": "4",
             "risk": 4,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-14",
+        "date": "2026-02-15",
         "label": "Indice de risque marqué",
-        "comment": "La stabilisation de la neige récente est en partie retardée par le vent de sud (foehn) dans la nuit de vendredi à samedi, le risque reste a minima marqué.",
+        "comment": "Temps calme et couvert avant l'arrivée d'une nouvelle perturbation en soirée. Risque marqué avec encore des plaques ventées dans la neige récente.",
         "trend": "down"
       }
     },
@@ -66,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 3,
       "labels": {
-        "1": "Neige fraîche",
+        "2": "Neige ventée",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-08",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-09",
           "min_cm": 1,
@@ -106,22 +113,27 @@
           "date": "2026-02-13",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-14",
+          "min_cm": 3,
+          "max_cm": 8
         }
       ],
       "totals": {
-        "last_48h_min_cm": 40,
-        "last_48h_max_cm": 50
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 8
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "FORTS CUMULS DE NEIGE : GRANDES AVALANCHES SPONTANÉES POSSIBLES JUSQU'EN DÉBUT DE MATINÉE.\nRISQUE ACCIDENTEL MAXIMAL TOUTE LA JOURNÉE.",
-      "text": "FORTS CUMULS DE NEIGE : GRANDES AVALANCHES SPONTANÉES POSSIBLES JUSQU'EN DÉBUT DE MATINÉE.\nRISQUE ACCIDENTEL MAXIMAL TOUTE LA JOURNÉE.\n\nDéparts spontanés : GRANDES AVALANCHES (TAILLE 3) possibles jusqu'en début de matinée.\nCumuls de neige fraiche très élevés avec entre 100 et 130 cm accumulés depuis le début de la séquence. Cassures linéaires épaisses avec des volumes mobilisés parfois conséquents.\nAvec l'arrêt des précipitations dans la nuit, puis l'arrêt du vent au plus tard en début de matinée, les départs spontanés vont se faire de plus en plus rares ensuite en journée de vendredi.\n\nDéclenchements provoqués  : plaques nombreuses et parfois très épaisses dans la neige récente et ventée, fortement réactives et déclenchables localement comme à distance. Risque généralisé dans tous les versants, dès 1800 m d'altitude. Cassures pouvant dépasser 1 m. \nFacteur aggravant : la couche fragile persistante, enfouie de plus en plus profondément, pourrait encore localement être sollicitée par un skieur ou déclenchée en cascade après un premier départ dans la neige récente. Les avalanches ainsi engendrées pourront être très volumineuses (taille 3, grande avalanche possible).",
+      "title": "Nombreuses plaques entretenues par l'épisode de foehn : fort risque accidentel.",
+      "text": "Nombreuses plaques entretenues par l'épisode de foehn : fort risque accidentel.\n\nDéclenchements provoqués : nombreuses plaques friables dans la neige récente ventée. Plaques épaisses et fortement réactives au passage d’un seul skieur. Déclenchements possibles en tous versants, essentiellement au-dessus de 1800 m. Avalanches de taille moyenne (2).\nFacteur aggravant : possible déclenchement en cascade si un premier départ sollicite une couche fragile persistante enfouie plus profondément. Ces avalanches peuvent alors mobiliser de grands volumes (taille 3, grande avalanche possible).\n\nDéparts spontanés : dans les secteurs soumis au foehn dans la nuit de vendredi à samedi, des départs linéaires (plaques) sont possibles dans la neige récente. Quelques avalanches d'ampleur généralement limitée, mais toujours potentiellement des grandes tailles en cas de départ en cascade. Ces avalanches s’arrêtent le matin, une fois le foehn tombé.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : le bilan des chutes de neige est largement positif dès 1500 m d'altitude, les hauteurs sont à nouveau excédentaires au-delà. Il est tombé en moyenne 100/130 cm de neige au-dessus de 2000 m, sur les dernières 48 h.\n\nLimite skiable : en nord, skiable sur l'herbe ou sur pistes forestières dès 1000 m, dans les sous-bois dès 1200 m.  En sud, skiable dès 1200 m en prairies pas trop raides, 1600 m en Sud raide.\n\nQualité de la neige : très gros cumuls de neige ventée en haute montagne, avec plus d'1 m dans les zones d'accumulations tandis que les croupes ont cumulé difficilement voire sont pelées dans les secteurs les plus ventés. Sous 1500/1700 m, 20/40 cm de neige froide recouvrent un manteau au moins partiellement humidifié, en cours de regel. Enfin, sous 1200 m, la neige est humide.\nEn journée, humidification en surface jusque vers 2000 m en sud/sud-est (bottage).",
+      "text": "Enneigement : le bilan des chutes de neige est largement positif dès 1500 m d'altitude, les hauteurs sont à nouveau excédentaires au-delà. Il est tombé en moyenne 100/130 cm de neige au-dessus de 2000 m depuis mardi.\n\nLimite skiable : en nord, skiable sur l'herbe ou sur pistes forestières dès 1000 m, dans les sous-bois dès 1200 m.  En sud, skiable dès 1200 m en prairies pas trop raides, 1600 m en Sud raide.\n\nQualité de la neige : très gros cumuls de neige ventée en haute montagne, avec plus d'1 m dans les zones d'accumulations tandis que les croupes sont moins chargées. \nLa neige s'est humidifiée vendredi en sud/sud-est jusque vers 2000/2200 m, ces orientation pourront être croutées et désagréables à skier ce samedi.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 180,
-          "S": 160
+          "N": 190,
+          "S": 170
         },
         {
           "alt_m": 2500,
-          "N": 240,
-          "S": 200
+          "N": 250,
+          "S": 210
         }
       ],
       "icon_key": "snowpack",

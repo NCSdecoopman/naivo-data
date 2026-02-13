@@ -3,8 +3,8 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-02-12T16:00:00",
-    "valid_until": "2026-02-13T18:00:00",
+    "issued_at": "2026-02-13T17:00:00",
+    "valid_until": "2026-02-14T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-14",
+        "date": "2026-02-15",
         "label": "Indice de risque marqué",
-        "comment": "Maintien d'un risque marqué avec des plaques encore faciles à déclencher au passage d'un skieur dans la neige récente.",
+        "comment": "Risque marqué avec des plaques encore réactives, pouvant être volumineuses.",
         "trend": "steady"
       }
     },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 3,
+      "primary": 2,
+      "secondary": 1,
       "labels": {
-        "1": "Neige fraîche",
-        "3": "Couche fragile persistante"
+        "2": "Neige ventée",
+        "1": "Neige fraîche"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-08",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-09",
           "min_cm": 3,
@@ -100,45 +95,50 @@
         {
           "date": "2026-02-12",
           "min_cm": 15,
-          "max_cm": 20
+          "max_cm": 25
         },
         {
           "date": "2026-02-13",
-          "min_cm": 5,
-          "max_cm": 10
+          "min_cm": 2,
+          "max_cm": 5
+        },
+        {
+          "date": "2026-02-14",
+          "min_cm": 0,
+          "max_cm": 2
         }
       ],
       "totals": {
-        "last_48h_min_cm": 20,
-        "last_48h_max_cm": 30
+        "last_48h_min_cm": 2,
+        "last_48h_max_cm": 7
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "MANTEAU NEIGEUX RESTANT INSTABLE",
-      "text": "MANTEAU NEIGEUX RESTANT INSTABLE \n\nDéclenchements provoqués : manteau neigeux encore peu stabilisé dans de nombreuses pentes. Fréquentes plaques dans la neige fraîche ventée, faciles à déclencher. Elles engendrent des avalanches moyennes (taille 2), voire grandes (taille 3) quand la topographie est favorable, emportant toute la couche de neige récente des derniers jours. Ponctuellement, une cassure emportant la totalité du manteau neigeux n'est pas exclue, mobilisant alors un important volume de neige.\n\nDéparts spontanés : jusqu'en seconde partie de nuit de jeudi à vendredi, avalanches de neige fraîche. Départs en poire ou linéaires, emportant toute la couche de neige récente, parfois sur de grandes largeurs. Avalanches moyennes à grandes (taille 2 à 3). Une très grande avalanche (taille 4) non exclue, en cas de rupture sur une couche fragile persistante enfouie, dans un secteur à la topographie habituellement favorable.\n\nVendredi, en pente raide, de nouvelles avalanches de neige fraîche s’humidifiant avec le soleil / redoux temporaire. Départs en poire ou linéaires, de taille petite à moyenne, grande non exclue.",
+      "text": "MANTEAU NEIGEUX RESTANT INSTABLE \n\nDéclenchements provoqués : manteau neigeux encore peu stabilisé dans de nombreuses pentes. Plaques dans la neige récente ventée, d'autres en formation avec le transport de la neige par le vent. Instabilités plus ou moins faciles à déclencher. Avalanches moyennes (taille 2), voire grandes (taille 3) dans les pentes fortement chargées, pouvant emporter toute la couche de neige récente des derniers jours. \n\nDéparts spontanés : éventuelles avalanches de plaque de taille moyenne, voire grande. Activité surtout en lien avec le transport de la neige par le vent.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est excédentaire pour un mois de février.\nHauteurs de neige observées : environ 100 cm vers 2000 m d'altitude. \n\nLimite d'enneigement skiable : vers 1200/1300 m sur la plupart des itinéraires en ubacs, 1400/1500 m en adrets.\n\nÉtat de la neige de surface : en début de journée, neige fraiche en quantité plus ou moins travaillée par le vent, mais plus lourde/ humide sous 2000 m environ. Elle tombe un peu plus froide ensuite, mais devient fortement soufflée l'après-midi.",
+      "text": "L'enneigement est excédentaire pour un mois de février, avec les chutes de neige qui s'enchainent. \nHauteurs de neige observées : environ 100 cm vers 2000 m d'altitude. \n\nLimite d'enneigement skiable : vers 1200/1300 m sur la plupart des itinéraires en ubacs, 1400/1500 m en adrets.\n\nÉtat de la neige de surface : neige fraiche/récente abondante souvent travaillée par le vent en altitude. Plus lourde, voire humide sous 1800/2000 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 900,
-        "south": 900
+        "north": 1000,
+        "south": 1000
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 55,
-          "S": 35
+          "N": 60,
+          "S": 40
         },
         {
           "alt_m": 2000,
-          "N": 135,
-          "S": 95
+          "N": 150,
+          "S": 110
         },
         {
           "alt_m": 2500,

@@ -3,14 +3,14 @@
   "massif": "Aravis",
   "bulletin": {
     "id": 2,
-    "issued_at": "2026-02-12T16:00:00",
-    "valid_until": "2026-02-13T18:00:00",
+    "issued_at": "2026-02-13T16:00:00",
+    "valid_until": "2026-02-14T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Indice de risque fort.",
+      "max_level": 3,
+      "comment": "Indice de risque marqué.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 4,
+            "risk": 3,
             "evolution_to": null,
             "position": null
           }
@@ -34,18 +34,18 @@
         },
         "zones": {
           "center": {
-            "text": "4",
-            "risk": 4,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-14",
+        "date": "2026-02-15",
         "label": "Indice de risque marqué",
-        "comment": "Stabilisation du manteau neigeux en cours.",
-        "trend": "down"
+        "comment": "Risque stationnaire ou en légère baisse. Encore des plaques friables ou dures.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 3,
       "labels": {
-        "1": "Neige fraîche",
+        "2": "Neige ventée",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-08",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-09",
           "min_cm": 1,
@@ -94,56 +89,61 @@
         },
         {
           "date": "2026-02-11",
-          "min_cm": 35,
-          "max_cm": 60
+          "min_cm": 30,
+          "max_cm": 50
         },
         {
           "date": "2026-02-12",
-          "min_cm": 40,
-          "max_cm": 60
+          "min_cm": 30,
+          "max_cm": 50
         },
         {
           "date": "2026-02-13",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-14",
+          "min_cm": 6,
+          "max_cm": 12
         }
       ],
       "totals": {
-        "last_48h_min_cm": 40,
-        "last_48h_max_cm": 60
+        "last_48h_min_cm": 6,
+        "last_48h_max_cm": 12
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Fin d'un gros épisode neigeux",
-      "text": "Fin d'un gros épisode neigeux \n\nDéparts spontanés :\n* Risque encore fort en soirée de jeudi avec la poursuite des chutes de neige. Les épaisseurs de neige fraiche sont très conséquentes. De très nombreuses avalanches de neige fraiche de taille 3 voire taille 4 (grande / très grande) sont possibles et parcourront de grandes dénivellations. Au-dessus de 1800m : une avalanche d'ampleur exceptionnelle n'est pas exclue (taille 5) dans les versants ouest/nord/est avec un départ en cascade qui irait chercher la sous-couche fragile persistante.\n* En journée de vendredi, l'activité spontanée est en nette baisse. Quelques départs dans les pentes raides dans les versants ensoleillés et sous 2000 m tous versants. Taille 1 à 2 (petite à moyenne). Une grande avalanche est possible avec une chute de corniche ou en départ en cascade. Taille 3.\n\nDéclenchements provoqués :\n* risque accidentel maximal, les plaques sont très réactives sur tous les versants. En-dessous de 1800 m : nombreuses plaques friables de taille 2 voir taille 3. Au-dessus de 1800 m : très nombreuses plaques friables/dures de taille 2 et 3. Une plaque de taille 4 (très grande) est possible dans les versants O/N/E avec un départ en cascade qui irait chercher la sous-couche fragile persistante (cassure de 1 à 2m).",
+      "title": "",
+      "text": "Déclenchements provoqués :\n* encore des plaques friables à dures dans l'épaisse couche de neige récente. Plaques possibles toutes orientations, surtout NW, N, NE, E, à fortiori au-dessus de 1800/2000 m et aux endroits propices au transport par le vent. Le vent a soufflé de SW puis S jeudi-vendredi, puis de SE la nuit de vendredi à samedi, puis tourne N samedi en journée. Cassures d'épaisseur variable 40/90 cm. Taille 2 à 3 (moyenne à grande). Dépôt en blocs.\n* facteur aggravant : en versants NW/N/NE/E, au-dessus de 2000 m, possibles départs en cascade : une première avalanche de surface peut solliciter l'ancienne couche fragile persistante enfouie et décrocher une plaque épaisse en blocs (cassure 1m à 1,50m, taille 3+).\n* attention aux corniches formées récemment, grosses et fragiles.\n\nDéparts spontanés :\n* quelques plaques de fond possibles à toute heure en dessous de 2000 m. Sur pentes très raides, lisses, herbeuses ou vires. Taille 2, voire 3.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Pour la saison, l’enneigement est dans la normale sous 2500 et excédentaire au-dessus. On peut chausser les skis vers 1300/1400 m. Nombreuses congères et grosses corniches. \n\nQualité de la neige ce vendredi matin : \nEn début de matinée :\n- au-dessus de 1800 m : 50/100 cm de neige récente, ventée et grosses accumulations. \n- en dessous de 1800 m :  30/50 cm de neige récente et humide.\nLa neige fraiche se tasse rapidement et elle s'humidifie en journée sous 2000 m.",
+      "text": "Enneigement : bon. On peut chausser les skis vers 1200/1400 m. Nombreuses congères et grosses corniches. \n\nQualité de la neige ce samedi : \n- épaisse couche de neige récente, 40/60 cm en cours de tassement. Elle est restée assez froide en versants N, mais a déjà pris un petit coup de chaud en adrets ce vendredi matin, fine croûte probable. Neige travaillée vendredi par le vent de SW en altitude, s'engouffrant dans les combes. Des zones cartonnées. Vent tournant N samedi en journée. \n- en dessous de 1500/1800 m, le fond est encore lourd suite aux pluies de mardi/mercredi.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1000,
-        "south": 1000
+        "north": 800,
+        "south": 800
       },
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 5,
-          "S": 1
+          "N": 15,
+          "S": 10
         },
         {
           "alt_m": 1500,
-          "N": 110,
-          "S": 80
+          "N": 120,
+          "S": 90
         },
         {
           "alt_m": 2000,
-          "N": 210,
-          "S": 180
+          "N": 220,
+          "S": 190
         }
       ],
       "icon_key": "snowpack",

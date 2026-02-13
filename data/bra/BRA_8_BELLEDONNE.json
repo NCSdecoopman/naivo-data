@@ -3,60 +3,48 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-02-12T16:00:00",
-    "valid_until": "2026-02-13T18:00:00",
+    "issued_at": "2026-02-13T16:00:00",
+    "valid_until": "2026-02-14T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Au-dessus de 2200m indice de risque fort, plus bas indice fort évoluant en marqué.",
+      "max_level": 3,
+      "comment": "Indice de risque marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2200,
-        "split_axis": "horizontal",
-        "split_label": "2200m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
-            "risk": 4,
-            "evolution_to": 3,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2200",
-            "risk": 4,
+            "loc": null,
+            "risk": 3,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2200m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "4→3",
-            "risk": 4,
-            "evolution_to": 3
-          },
-          "top": {
-            "text": "4",
-            "risk": 4,
+          "center": {
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-02-14",
-        "label": "Indice de risque fort",
-        "comment": "Risque d'avalanche  stationnaire ou en légère baisse samedi matin (saupoudrage neigeux et vent faible). Mais samedi après-midi le vent de Nord pourra devenir sensible et former de nouvelles plaques instables...",
+        "max_level": 3,
+        "date": "2026-02-15",
+        "label": "Indice de risque marqué",
+        "comment": "Tendance à la stabilisation avec un temps plus calme à venir.",
         "trend": "steady"
       }
     },
@@ -90,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-08",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-02-09",
           "min_cm": 7,
           "max_cm": 15
@@ -117,45 +100,50 @@
         {
           "date": "2026-02-13",
           "min_cm": 2,
-          "max_cm": 5
+          "max_cm": 3
+        },
+        {
+          "date": "2026-02-14",
+          "min_cm": 10,
+          "max_cm": 20
         }
       ],
       "totals": {
-        "last_48h_min_cm": 32,
-        "last_48h_max_cm": 45
+        "last_48h_min_cm": 12,
+        "last_48h_max_cm": 23
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "JEUDI SOIR ENCORE QUELQUES GRANDES AVALANCHES DEVALANT LES COULOIRS... VENDREDI EN ALTITUDE INSTABILITE (ACCIDENTELLE) TOUJOURS FORTE AU PASSAGE DE SKIEURS...",
-      "text": "JEUDI SOIR ENCORE QUELQUES GRANDES AVALANCHES DEVALANT LES COULOIRS... VENDREDI EN ALTITUDE INSTABILITE (ACCIDENTELLE) TOUJOURS FORTE AU PASSAGE DE SKIEURS...\n\nJeudi soir il neige encore, avec 80 cm à 1m20 de neige récente en altitude (en Nord Belledonne notamment), situation avalancheuse encore critique. \nVendredi temps plus calme, amorce de stabilisation ... mais encore un fort risque accidentel, notamment au dessus de 2200m environ  (risque de ruptures en \"cascade\")...\nDéparts spontanés :  \n    Jeudi soir/en début de nuit : Neige encore et vent de Nord-Ouest, puis les précipitations vont s'atténuer. Avec des cumuls critiques en altitude (dépassant 1m voire 1m50 parfois), on peut s'attendre encore à de grandes avalanches, balayant couloirs et pentes raides. Celles ci peuvent parfois s'écouler jusqu'en bas de couloirs, en moyenne montagne (dépôts plus humides). En haute montagne, la présence de sous couche fragile persistante pourrait faciliter une avalanche de très grande ampleur...\n    Vendredi en journée temps plus calme et sec. Fin attendue de la \"crue\" avalancheuse. Lors de brèves éclaircies, coulées ou avalanches poudreuses possibles, près des rochers notamment. Aux altitudes modestes (sous 1600/1800m environ), la neige est assez humide en profondeur, on peut avoir quelques avalanches en pentes herbeuses, parfois de fond (glissement au terrain)\nDéclenchements provoqués :    \nHaute montagne encore peu fréquentable vendredi... Nombreuses plaques potentiellement instables, parfois loin des crêtes. Le vent a soufflé en diverses orientations. Noter qu'en large faces Nord des sous couches fragiles sont enfouies. Une première rupture pourrait entrainer une épaisse et large cassure en contrebas, entrainant un volume de neige très conséquent (larges cassures observées récemment en faces Nord de Belle Etoile)... \nPlus bas que 2100/2200m environ, les sous couches sont un peu mieux stabilisées. Risque de plaques surtout à proximité des crêtes (cassure parfois conséquente, réactive au passage d'une personne). Travail du vent/congères sont assez visibles.",
+      "title": "RISQUE ACCIDENTEL ENCORE BIEN MARQUE SURTOUT EN ALTITUDE",
+      "text": "RISQUE ACCIDENTEL ENCORE BIEN MARQUE SURTOUT EN ALTITUDE \n\n\nDéparts spontanés :  \n Samedi, lors de brèves éclaircies, coulées ou avalanches poudreuses possibles, près des rochers notamment. Aux altitudes modestes (sous 1600/1800m environ), la neige est assez humide en profondeur, on peut avoir quelques avalanches en pentes herbeuses, parfois de fond (glissement au terrain). Ailleurs le risque est plus limité.\n\nDéclenchements provoqués :    \nLe risque reste encore conséquent en altitude, particulièrement au-dessus de 1800/2000m. Nombreuses plaques potentiellement instables, parfois loin des crêtes. Le vent a soufflé en diverses orientations et passe d'une tendance Sud à une tendance plus Nord pour samedi, accentuant le transport de neige. En secteur Nord des sous couches fragiles sont encore enfouies et une première rupture de plauqe peut entrainer une épaisse et large cassure en contrebas, entrainant un volume de neige très conséquent (larges cassures observées récemment en faces Nord de Belle Etoile)... \nPlus bas que 2000/2200m environ, les sous couches sont un peu mieux stabilisées. Risque de plaques surtout à proximité des crêtes avec départs possibles au passage d'un unique skieur mais avec une épaisseur mobilisable plus limitée. Travail du vent/congères sont assez visibles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est encore amélioré en altitude, dans les combes, où il devient excellent pour la saison, notamment versant Eau d'Olle/Villards. Il est en revanche médiocre plus bas que 1400m...\nLimites skiables : vers 1200/1400 m...\nQualité de la neige vendredi :  \nNeige fraîche poudreuse plus épaisse en altitude et souvent soufflée/chahutée à l'abord des croupes et crêtes.\nFortes épaisseurs au dessus de 2200/2400m environ avec plus d'1m de neige récente vers 2500m, de grosses congères/corniches, des secteurs plus dégarnis...",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est encore amélioré en altitude, dans les combes, où il devient excellent pour la saison. Il est en revanche médiocre plus bas que 1300/1400m...\nLimites skiables : vers 1100/1300 m.\n\n\nQualité de la neige samedi :  \nNeige fraîche poudreuse plus épaisse en altitude et souvent soufflée/chahutée à l'abord des croupes et crêtes. A 1100/1300m, fine couche de 5/10cm au matin.\nFortes épaisseurs au dessus de 2200/2400m environ avec plus d'1m de neige récente vers 2500m, de grosses congères/corniches, des secteurs plus dégarnis...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1100,
-        "south": 1400
+        "south": 1100
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 110,
-          "S": 30
+          "N": 140,
+          "S": 60
         },
         {
           "alt_m": 2000,
-          "N": 220,
-          "S": 150
+          "N": 250,
+          "S": 180
         },
         {
           "alt_m": 2500,
-          "N": 330,
-          "S": 260
+          "N": 360,
+          "S": 290
         }
       ],
       "icon_key": "snowpack",
