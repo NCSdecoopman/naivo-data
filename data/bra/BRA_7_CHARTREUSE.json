@@ -3,8 +3,8 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-02-13T16:00:00",
-    "valid_until": "2026-02-14T18:00:00",
+    "issued_at": "2026-02-14T17:00:00",
+    "valid_until": "2026-02-15T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-15",
+        "date": "2026-02-16",
         "label": "Indice de risque marqué",
-        "comment": "Tendance à la stabilisation avec un temps plus calme à venir.",
+        "comment": "Risque en hausse progressive avec de nouvelles chutes de neige conséquentes prévues.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-09",
-          "min_cm": 7,
-          "max_cm": 15
-        },
-        {
           "date": "2026-02-10",
           "min_cm": 5,
           "max_cm": 10
@@ -116,24 +111,29 @@
         },
         {
           "date": "2026-02-14",
+          "min_cm": 10,
+          "max_cm": 15
+        },
+        {
+          "date": "2026-02-15",
           "min_cm": 20,
           "max_cm": 30
         }
       ],
       "totals": {
-        "last_48h_min_cm": 22,
-        "last_48h_max_cm": 35
+        "last_48h_min_cm": 30,
+        "last_48h_max_cm": 45
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "NEIGE FRAICHE SOUFFLÉE EN ALTITUDE",
-      "text": "NEIGE FRAICHE SOUFFLÉE EN ALTITUDE\n\nDéparts spontanés : \nActivité en nette baisse pour samedi. Néanmoins lors de brèves éclaircies on s'attend à des avalanches de surface en pentes \"réchauffées\", près des rochers...\nNoter qu'en pentes herbeuses raides (sous 1600 voire 1800m), la neige est assez humide en profondeur, on s'attend à quelques avalanches de fond avec glissement possible jusqu'au terrain.\n\nDéclenchements provoqués :  Vendredi,  encore un risque accidentel  de plaques, notamment à proximité des crêtes et sommets, parfois en pieds de barres.\nUn seul skieur peut parfois déclencher une plaque assez conséquente. (Sous couche plus poudreuse représentant une couche fragile temporaire)... A modeste altitude, en neige plus humide, plutôt un risque de coulée ponctuelle sous les skis...",
+      "text": "NEIGE FRAICHE SOUFFLÉE EN ALTITUDE\n\nDéparts spontanés : \nActivité plus limitée pour dimanche. Néanmoins lors de brèves éclaircies on s'attend à des avalanches de surface en pentes \"réchauffées\", près des rochers...\nNoter qu'en pentes herbeuses raides (sous 1600 voire 1800m), la neige est assez humide en profondeur, on s'attend à quelques avalanches de fond avec glissement possible jusqu'au terrain.\n\nDéclenchements provoqués :  Vendredi,  encore un risque accidentel  de plaques, notamment à proximité des crêtes et sommets, parfois en pieds de barres.\nUn seul skieur peut parfois déclencher une plaque assez conséquente. (Sous couche plus poudreuse représentant une couche fragile temporaire)... A modeste altitude, en neige plus humide, plutôt un risque de coulée ponctuelle sous les skis...",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est récemment dégradé aux basses altitudes, sous les sapins mais il est bon pour la saison dès la moyenne montagne et dans les combes sommitales... Crêtes parfois dégarnies/ congères et corniches...\nLimites skiables : Vers 1100/1300 m, sur les pistes forestières/clairières...\n\nQualité de la neige samedi : Fine couche de neige fraiche au matin dès 1200/1300m. A basse altitude, regel au matin, plaques de glace... dès la moyenne montagne neige poudreuse, plus conséquente au dessus de 1500/1700m : 40/60 cm environ. Souvent ventée vers les hautes crêtes et sommets/ durcie, sculptée parfois.  Lors de timides éclaircies, neige s'humidifiant au soleil, plutôt sous 1500/1800m...",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est récemment dégradé aux basses altitudes, sous les sapins mais il est bon pour la saison dès la moyenne montagne et dans les combes sommitales... Crêtes parfois dégarnies/ congères et corniches...\nLimites skiables : Vers 1100 m, sur les pistes forestières/clairières...\n\nQualité de la neige dimanche : Fine couche de neige fraiche au matin dès 800/1000m. A basse altitude, regel au matin, plaques de glace parfois présentes et dès la moyenne montagne neige poudreuse, plus conséquente au dessus de 1200/1300m : 50/70 cm environ. Souvent ventée vers les hautes crêtes et sommets/ durcie, sculptée parfois.  Lors de timides éclaircies, neige s'humidifiant au soleil, plutôt sous 1500/1800m...",
       "icon_key": "snow-quality"
     },
     "snowpack": {

@@ -3,61 +3,49 @@
   "massif": "Thabor",
   "bulletin": {
     "id": 13,
-    "issued_at": "2026-02-13T17:00:00",
-    "valid_until": "2026-02-14T18:00:00",
+    "issued_at": "2026-02-14T16:00:00",
+    "valid_until": "2026-02-15T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice marqué.",
+      "max_level": 3,
+      "comment": "Indice de risque marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2000,
-        "split_axis": "horizontal",
-        "split_label": "2000m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": null,
             "risk": 3,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2000",
-            "risk": 4,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2000m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "3",
             "risk": 3,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "4",
-            "risk": 4,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-15",
-        "label": "Indice de risque marqué",
-        "comment": "Risque marqué avec des plaques encore réactives, pouvant être volumineuses.",
-        "trend": "down"
+        "max_level": 4,
+        "date": "2026-02-16",
+        "label": "Indice de risque fort",
+        "comment": "Risque d'avalanche en hausse, avec de fortes chutes de neige accompagnées d'un vent d'ouest à nord-ouest particulièrement tempétueux dès la mi-journée (rafales 100/130 km/h en altitude, 70 km/h jusqu'en vallées). \nAvalanches naturelles de plus en plus nombreuses au fil de la journée, grandes, voire ponctuellement très grandes.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -78,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 3,
       "labels": {
-        "1": "Neige fraîche",
+        "2": "Neige ventée",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-09",
-          "min_cm": 1,
-          "max_cm": 3
-        },
         {
           "date": "2026-02-10",
           "min_cm": 10,
@@ -111,29 +94,34 @@
         },
         {
           "date": "2026-02-13",
-          "min_cm": 3,
-          "max_cm": 10
+          "min_cm": 2,
+          "max_cm": 5
         },
         {
           "date": "2026-02-14",
-          "min_cm": 0,
+          "min_cm": 1,
           "max_cm": 5
+        },
+        {
+          "date": "2026-02-15",
+          "min_cm": 15,
+          "max_cm": 30
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 15
+        "last_48h_min_cm": 16,
+        "last_48h_max_cm": 35
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "FORTE INSTABILITÉ PERSISTANTE - PLAQUES POTENTIELLEMENT ÉPAISSES, FACILES À DÉCLENCHER",
-      "text": "FORTE INSTABILITÉ PERSISTANTE - PLAQUES POTENTIELLEMENT ÉPAISSES, FACILES À DÉCLENCHER\n\nInvitation à la prudence en montagne (émission d'un communiqué spécial avalanche) \n\nDéclenchements provoqués : manteau neigeux restant instable. Au-dessus 1800/2000 m, plaques en place dans de nombreuses orientations, d’autres en formation en altitude avec un peu de neige fraîche et le transport par le vent. Faciles à déclencher par le passage d'un seul skieur, pouvant mobiliser de très importants volumes de neige dans les pentes les plus chargées. Un premier départ plus superficiel peut aussi favoriser une rupture en cascade. Cassures épaisses, sur de grandes largeurs et distances, notamment en cas de sollicitation de la couche fragile persistante enfouie.\nPlus bas, le risque de déclencher une plaque est moins fort, car la neige récente est en partie humidifiée. \n\nDéparts spontanés : possibles avalanches de plaque de taille moyenne, voire grande. Activité surtout en lien avec le transport de la neige par le vent.",
+      "title": "MANTEAU NEIGEUX INSTABLE - AVALANCHES DE PLAQUES MOBILISANT DE GRANDES QUANTITÉS DE NEIGE",
+      "text": "MANTEAU NEIGEUX INSTABLE - AVALANCHES DE PLAQUES MOBILISANT DE GRANDES QUANTITÉS DE NEIGE\n\nDéclenchements provoqués : le manteau neigeux reste instable dans de nombreuses pentes. Les plaques dans la neige récente ventée sont fréquentes et le passage d'un seul skieur suffit souvent à les déclencher. Elles sont présentes dans toutes les orientations, suite au vent qui a soufflé dans des directions très différentes ces derniers jours. Déclenchement possible dans les accumulations derrière les crêtes, les bosses, mais aussi parfois en milieu de pente. Avalanches de taille moyenne à grande en général (taille 2 à 3).\nDe façon isolée, une très grande avalanche (taille 4) reste envisageable, en cas de rupture très large emportant une grande partie du manteau neigeux en place. Un départ de cette ampleur est plutôt rare, mais il peut être initié par la surcharge d'une première avalanche de surface suffisamment volumineuse.\n\nDéparts spontanés : - quelques départs de plaque, suite à la surcharge liée au transport de neige par le vent. Avalanches reprenant les caractéristiques mentionnées au paragraphe des déclenchements provoqués.\n- Quelques départs de neige récente humidifiée, au soleil près des rochers. Avalanches petites en général, ponctuellement moyennes (taille 1 à 2).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est excédentaire pour un mois de février, avec les chutes de neige qui s'enchainent. \nHauteurs de neige observées vers 2500 m : 189 cm dans le vallon du Chardonnet, 103 cm à la Nivôse du Galibier, 111 cm à celle des Rochilles.\n\nLimite d'enneigement skiable : la plupart des itinéraires sont skiables dès les fonds de vallées.\n\nÉtat de la neige de surface : neige fraiche/récente abondante souvent travaillée par le vent en altitude. Plus lourde, voire humide sous 1800/2000 m.",
+      "text": "L'enneigement est excédentaire pour un mois de février. Les chutes de neige se succèdent depuis le début du mois de janvier.\nHauteurs de neige observées vers 2500 m : 185 cm dans le vallon du Chardonnet, 105 cm à la Nivôse du Galibier, 95 cm à celle des Rochilles.\n\nLimite d'enneigement skiable en fond de vallées.\n\nÉtat de la neige de surface : manteau neigeux très travaillé par le vent de sud ou d'est, puis de nord à nord-ouest. La neige est souvent cartonnée ou durcie par le vent en altitude ; présence de corniches. Il reste quelques secteurs en neige plus légère, comme les forêts, ou les combes et pentes abritées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

@@ -3,8 +3,8 @@
   "massif": "Chablais",
   "bulletin": {
     "id": 1,
-    "issued_at": "2026-02-13T16:00:00",
-    "valid_until": "2026-02-14T18:00:00",
+    "issued_at": "2026-02-14T16:00:00",
+    "valid_until": "2026-02-15T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-15",
-        "label": "Indice de risque marqué",
-        "comment": "Risque stationnaire ou en légère baisse. Encore des plaques friables.",
-        "trend": "steady"
+        "max_level": 4,
+        "date": "2026-02-16",
+        "label": "Indice de risque fort",
+        "comment": "À partir de la nuit de dimanche à lundi et jusqu'à lundi, on attend 60/80 cm de neige fraîche. Cette neige est ventée et ainsi les plaques sont présentes dans tout le massif, et peuvent, dans les accumulations, faire des cassures de plus d'1m.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 3,
       "labels": {
-        "1": "Neige fraîche",
+        "2": "Neige ventée",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-09",
-          "min_cm": 1,
-          "max_cm": 5
-        },
         {
           "date": "2026-02-10",
           "min_cm": 15,
@@ -104,24 +99,29 @@
         },
         {
           "date": "2026-02-14",
-          "min_cm": 7,
-          "max_cm": 10
+          "min_cm": 5,
+          "max_cm": 15
+        },
+        {
+          "date": "2026-02-15",
+          "min_cm": 20,
+          "max_cm": 30
         }
       ],
       "totals": {
-        "last_48h_min_cm": 7,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 25,
+        "last_48h_max_cm": 45
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "",
-      "text": "Déclenchements provoqués :\n* encore des plaques friables dans l'épaisse couche de neige récente. Plaques possibles toutes orientations, surtout NW, N, NE, E, à fortiori au-dessus de 1800 m et aux endroits propices au transport par le vent. Le vent a soufflé d'W à S jeudi-vendredi, puis de SE la nuit de vendredi à samedi, puis tournant N samedi en journée. Taille 2 à 3 (moyenne à grande). Distinctions géographiques : plutôt des plaques à vent (semi-dures) sur les secteurs frontière suisse et Cornettes de Bise. Plutôt des plaques friables de neige récente sur le reste du Chablais et Haut-Giffre.\n* facteur aggravant : en versants NW/N/NE/E, au-dessus de 2000 m, possibles départs en cascade : une première avalanche de surface peut solliciter l'ancienne couche fragile persistante enfouie et décrocher une plaque épaisse en blocs (cassure 1m à 1,50m, taille 3+).\n* attention aux corniches formées récemment, grosses et fragiles.\n\nDéparts spontanés :\n* quelques plaques de fond possibles à toute heure en dessous de 2000 m. Sur pentes très raides, lisses, herbeuses. Taille 2, voire 3.",
+      "title": "Stabilisation à grande échelle. Nouvelles plaques à vent.",
+      "text": "Stabilisation à grande échelle. Nouvelles plaques à vent.\n\nDéclenchements provoqués :\n* De nombreuses plaques à vent continuent de se former dans la neige fraîche. Selon les secteurs, ces plaques sont d'aspects friables ou dures. Elles se situent dans les zones travaillées par la Bise (vent de NE). Les secteurs les plus concernés sont le nord du massif et le Haut Giffre, principalement là où la neige est encore la plus froide et légère.\nObservables : Zones d'accumulation, fissures devant les skis, neige travaillée par le vent, ...\n* Une couche fragile persistante est encore enfouie dans les ubacs (de NW à E en passant par le N) au-dessus de 2000m. Cette couche fragile ne semble pas facilement sollicitable par un skieur au vu de sa profondeur (1m / 1m50 par endroits). Attention aux avalanches en cascades / chutes de pierre qui pourraient finir par solliciter cette couche fragile. Cassure de 1 à 2 m encore possible. Taille 3, voire 4 si la topographie le permet.\n\nDéparts spontanés :\n* Ruptures de plaques ou de corniches possibles sous la Bise, notamment dans les pentes raides et les couloirs chargés. Taille 2, très rarement 3 possible.\n* Rares plaques de fond sous 2200m. Départs possibles à toute heure du jour et de la nuit sur un fond lisse (herbes/vires). Taille 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : bon. On peut chausser les skis vers 1200/1400 m. Nombreuses congères et grosses corniches. \n\nQualité de la neige ce samedi : \n- épaisse couche de neige récente, 40/60 cm en cours de tassement. Elle est restée assez froide en versants N, mais a déjà pris un petit coup de chaud en adrets ce vendredi matin, fine croûte probable. Neige travaillée par le vent de SW en altitude (tournant N samedi en journée). \n- en dessous de 1500/1800 m, le fond est encore lourd suite aux pluies de mardi/mercredi.",
+      "text": "Enneigement : Les chutes de neige ont permis d'épaissir le manteau et de donner un bon enneigement pour la saison. On peut chausser les skis vers 1200 m. Au-delà de 1400/1500 m, on retrouve les sous-couches. Nombreuses congères et grosses corniches.\n\nQualité de la neige ce samedi : \n- épaisse couche de neige récente (50/100 cm). Elle est restée froide en ubacs. En adrets, cette neige est légèrement matée, voire croutée sous 1800m. Neige travaillée par la Bise durant la nuit de samedi à dimanche, surtout au-dessus de 2000/2200 m.\n- Sous 1800 m, on retrouve un fond lourd humide en cours de regel.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 120,
-          "S": 110
+          "N": 110,
+          "S": 100
         },
         {
           "alt_m": 2000,
-          "N": 220,
-          "S": 190
+          "N": 210,
+          "S": 180
         }
       ],
       "icon_key": "snowpack",
