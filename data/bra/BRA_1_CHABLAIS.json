@@ -3,14 +3,14 @@
   "massif": "Chablais",
   "bulletin": {
     "id": 1,
-    "issued_at": "2026-02-14T16:00:00",
-    "valid_until": "2026-02-15T18:00:00",
+    "issued_at": "2026-02-15T16:00:00",
+    "valid_until": "2026-02-16T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "max_level": 4,
+      "comment": "Indice de risque fort.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 3,
+            "risk": 4,
             "evolution_to": null,
             "position": null
           }
@@ -34,18 +34,18 @@
         },
         "zones": {
           "center": {
-            "text": "3",
-            "risk": 3,
+            "text": "4",
+            "risk": 4,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 4,
-        "date": "2026-02-16",
+        "date": "2026-02-17",
         "label": "Indice de risque fort",
-        "comment": "À partir de la nuit de dimanche à lundi et jusqu'à lundi, on attend 60/80 cm de neige fraîche. Cette neige est ventée et ainsi les plaques sont présentes dans tout le massif, et peuvent, dans les accumulations, faire des cassures de plus d'1m.",
-        "trend": "up"
+        "comment": "Les chutes de neige se poursuivent et les quantités de neige attendues sont encore très importantes. Le risque est toujours fort. Les plaques sont encore très réactives.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 1,
       "secondary": 3,
       "labels": {
-        "2": "Neige ventée",
+        "1": "Neige fraîche",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-10",
-          "min_cm": 15,
-          "max_cm": 30
-        },
         {
           "date": "2026-02-11",
           "min_cm": 30,
@@ -106,22 +101,27 @@
           "date": "2026-02-15",
           "min_cm": 20,
           "max_cm": 30
+        },
+        {
+          "date": "2026-02-16",
+          "min_cm": 40,
+          "max_cm": 50
         }
       ],
       "totals": {
-        "last_48h_min_cm": 25,
-        "last_48h_max_cm": 45
+        "last_48h_min_cm": 60,
+        "last_48h_max_cm": 80
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Stabilisation à grande échelle. Nouvelles plaques à vent.",
-      "text": "Stabilisation à grande échelle. Nouvelles plaques à vent.\n\nDéclenchements provoqués :\n* De nombreuses plaques à vent continuent de se former dans la neige fraîche. Selon les secteurs, ces plaques sont d'aspects friables ou dures. Elles se situent dans les zones travaillées par la Bise (vent de NE). Les secteurs les plus concernés sont le nord du massif et le Haut Giffre, principalement là où la neige est encore la plus froide et légère.\nObservables : Zones d'accumulation, fissures devant les skis, neige travaillée par le vent, ...\n* Une couche fragile persistante est encore enfouie dans les ubacs (de NW à E en passant par le N) au-dessus de 2000m. Cette couche fragile ne semble pas facilement sollicitable par un skieur au vu de sa profondeur (1m / 1m50 par endroits). Attention aux avalanches en cascades / chutes de pierre qui pourraient finir par solliciter cette couche fragile. Cassure de 1 à 2 m encore possible. Taille 3, voire 4 si la topographie le permet.\n\nDéparts spontanés :\n* Ruptures de plaques ou de corniches possibles sous la Bise, notamment dans les pentes raides et les couloirs chargés. Taille 2, très rarement 3 possible.\n* Rares plaques de fond sous 2200m. Départs possibles à toute heure du jour et de la nuit sur un fond lisse (herbes/vires). Taille 2.",
+      "title": "Nombreuses instabilités dans la neige fraîche. De plus en plus nombreuses au fil des heures.",
+      "text": "Nombreuses instabilités dans la neige fraîche. De plus en plus nombreuses au fil des heures.\n\nDéparts spontanés :\n* Instabilités très marquées dans la neige fraîche. Au fil des chutes de neige, l'activité spontanée est en hausse, avec des quantités de neige de plus en plus importantes. Sous les plus fortes intensités, les départs sont les plus probables. Nombreuses avalanches de taille 2 à 3 (moyenne à grande). Une très grande avalanche (taille 4) est possible au-dessus de 1800/2000 m, et pourrait parcourir de très grandes dénivellations, notamment dans les couloirs remplis par les avalanches de la semaine dernière. Une couche fragile persistante est enfouie dans le manteau neigeux (en ubac au-delà de 2000m) et pourrait être sollicitée par de très fortes surcharges (avalanche en cascade/chute de sérac/chute de pierre), et ainsi engendrer une avalanche d'ampleur.\n\nDéclenchements provoqués :\n* Nombreuses plaques dans l'épaisse couche de neige fraîche. Ces plaques très réactives et sont de plus en plus épaisses au fil des chutes de neige. Ces plaques sont formées par le fort vent de W/NW et donne ainsi des plaques d'aspect plutôt dures. Au vu des quantités de neige fraîche, il n'est pas toujours facile de distinguer les signes du vent. Le déclenchement des plaques est assez aléatoire. Les cassures peuvent dépasser 1m et ainsi engendrer de grandes avalanches. Dans des configurations défavorables, la couche fragile peut être sollicitée et ainsi donner une avalanche de plus grande ampleur.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Les chutes de neige ont permis d'épaissir le manteau et de donner un bon enneigement pour la saison. On peut chausser les skis vers 1200 m. Au-delà de 1400/1500 m, on retrouve les sous-couches. Nombreuses congères et grosses corniches.\n\nQualité de la neige ce samedi : \n- épaisse couche de neige récente (50/100 cm). Elle est restée froide en ubacs. En adrets, cette neige est légèrement matée, voire croutée sous 1800m. Neige travaillée par la Bise durant la nuit de samedi à dimanche, surtout au-dessus de 2000/2200 m.\n- Sous 1800 m, on retrouve un fond lourd humide en cours de regel.",
+      "text": "Enneigement : Les chutes de neige ont permis d'épaissir le manteau et de donner un bon enneigement pour la saison. On peut chausser les skis vers 1200 m. Nombreuses congères et grosses corniches.\n\nQualité de la neige ce lundi :\n* Durant la nuit de dimanche à lundi, 20/30 cm de neige froide. Sous 1800 m, elle est un peu plus humide.\n* En journée, les cumuls de neige continuent de grossir, on attend encore environ 30/40 cm de neige.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,8 +132,8 @@
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 15,
-          "S": 10
+          "N": 10,
+          "S": 5
         },
         {
           "alt_m": 1500,

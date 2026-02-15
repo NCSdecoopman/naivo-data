@@ -3,14 +3,14 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-02-14T16:00:00",
-    "valid_until": "2026-02-15T18:00:00",
+    "issued_at": "2026-02-15T16:00:00",
+    "valid_until": "2026-02-16T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "max_level": 4,
+      "comment": "Indice de risque fort.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 3,
+            "risk": 4,
             "evolution_to": null,
             "position": null
           }
@@ -34,18 +34,18 @@
         },
         "zones": {
           "center": {
-            "text": "3",
-            "risk": 3,
+            "text": "4",
+            "risk": 4,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 4,
-        "date": "2026-02-16",
+        "date": "2026-02-17",
         "label": "Indice de risque fort",
-        "comment": "Risque devenant fort. Fortes chutes de neige. Nombreux départs spontanés attendues. Avalanches spontanées de grande ampleur possibles.",
-        "trend": "up"
+        "comment": "Risque accidentel fort, les épaisses chutes de neige malmenées par le vent ne sont pas encore stabilisées.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 1,
       "secondary": 3,
       "labels": {
-        "2": "Neige ventée",
+        "1": "Neige fraîche",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-10",
-          "min_cm": 15,
-          "max_cm": 25
-        },
         {
           "date": "2026-02-11",
           "min_cm": 20,
@@ -99,29 +94,34 @@
         },
         {
           "date": "2026-02-14",
-          "min_cm": 2,
-          "max_cm": 7
+          "min_cm": 0,
+          "max_cm": 3
         },
         {
           "date": "2026-02-15",
           "min_cm": 20,
           "max_cm": 30
+        },
+        {
+          "date": "2026-02-16",
+          "min_cm": 30,
+          "max_cm": 40
         }
       ],
       "totals": {
-        "last_48h_min_cm": 22,
-        "last_48h_max_cm": 37
+        "last_48h_min_cm": 50,
+        "last_48h_max_cm": 70
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU INSTABLE : RISQUE ACCIDENTEL MARQUÉ (3/4) - POSSIBLES GRANDES AVALANCHES",
-      "text": "MANTEAU INSTABLE : RISQUE ACCIDENTEL MARQUÉ (3/4) - POSSIBLES GRANDES AVALANCHES\n\nDéclenchements provoqués : \n - Quelques plaques, formées par les récentes variations de vent, sont hébergées dans la neige récente. Elles sont particulièrement réactives sous le vent de Nord à Nord-Ouest, et de manière générale plus sensibles en montant en altitude. Avalanches de taille 2 (moyenne) majoritaires, taille 3 (grande) si la topographie le permet.\nFacteur aggravant : possible déclenchement en cascade si un premier départ sollicite une couche fragile persistante enfouie plus profondément (plutôt dans les pentes Ouest, Nord et Est). Ces avalanches peuvent alors mobiliser de grands volumes (taille 3, grande avalanche possible).\n\nDéparts spontanés : quelques départs linéaires possibles sous le vent de Nord à Nord-Ouest, plutôt d'ampleur limitée (taille 1 à 2) mais un départ en cascade plus grand reste possible (taille 3).",
+      "title": "TEMPÊTE EN MONTAGNE : NOMBREUSES AVALANCHES SPONTANÉES, PARFOIS DE GRANDE AMPLEUR",
+      "text": "TEMPÊTE EN MONTAGNE : NOMBREUSES AVALANCHES SPONTANÉES, PARFOIS DE GRANDE AMPLEUR\n\nDéparts spontanés : \nAu fil des heures, avec les fortes chutes de neiges très ventées, les déclenchements spontanés deviennent de plus en plus nombreux et volumineux. Dès le milieu de matinée, de grandes avalanches, voire très grandes au-dessus de ~1800 m, sont possibles, particulièrement dans les larges versants sous le vent d'Ouest-Nord-Ouest. Leur écoulement rapide peut parcourir de grandes dénivellations et localement atteindre les fonds de vallée, ainsi que les routes et infrastructures de montagne exposées.\n\nDéclenchements provoqués : \nRISQUE ACCIDENTEL MAXIMAL, nombreuses plaques épaisses et très réactives avec forte propagation. Risque généralisé dans tous les versants.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : le bilan des chutes de neige est largement positif dès 1500 m d'altitude, les hauteurs sont à nouveau excédentaires au-delà. Il est tombé en moyenne 100/130 cm de neige au-dessus de 2000 m depuis mardi.\n\nLimite skiable : en nord, skiable sur l'herbe ou sur pistes forestières dès 1000 m, dans les sous-bois dès 1200 m.  En sud, skiable dès 1200 m en prairies pas trop raides, 1600 m en Sud raide.\n\nQualité de la neige : très gros cumuls de neige ventée en haute montagne, avec plus d'1 m dans les zones d'accumulations tandis que les croupes sont moins chargées. \nLa neige s'est humidifiée en sud/sud-est jusque vers 2000/2200 m et quelle que soit l'orientation sous 1600 m , ces zones pourront être croutées et désagréables à skier.",
+      "text": "Enneigement : déjà très correcte dès la moyenne montagne, il va encore s'améliorer avec les chutes de ce lundi.\n\nLimite skiable :  les récentes chutes de neige dont celle en cours permettent de skier dès 1300 m sans trop se préoccuper de la sous-couche, parfois plus bas en Nord.\n\nQualité de la neige : très gros cumuls de neige ventée en haute montagne, avec plus d'1 m dans les zones d'accumulations tandis que les croupes sont moins chargées. Plus bas, la couche en cours de formation est moins ventée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 125,
-          "S": 75
+          "N": 120,
+          "S": 70
         },
         {
           "alt_m": 2000,
-          "N": 180,
-          "S": 160
+          "N": 170,
+          "S": 150
         },
         {
           "alt_m": 2500,
-          "N": 240,
-          "S": 200
+          "N": 230,
+          "S": 190
         }
       ],
       "icon_key": "snowpack",

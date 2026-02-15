@@ -3,49 +3,61 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-02-14T17:00:00",
-    "valid_until": "2026-02-15T18:00:00",
+    "issued_at": "2026-02-15T17:00:00",
+    "valid_until": "2026-02-16T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "max_level": 4,
+      "comment": "Au-dessus de 1800m indice de risque fort, plus bas indice marqué.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1800,
+        "split_axis": "horizontal",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1800",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1800",
+            "risk": 4,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1800m"
         },
         "zones": {
-          "center": {
+          "bottom": {
             "text": "3",
             "risk": 3,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "4",
+            "risk": 4,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 4,
-        "date": "2026-02-16",
+        "date": "2026-02-17",
         "label": "Indice de risque fort",
-        "comment": "Risque en hausse progressive avec de nouvelles chutes de neige conséquentes prévues.",
-        "trend": "up"
+        "comment": "Le risque reste fort pour les prochains jours avec de nouvelles chutes de neige conséquentes avec du vent fort.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 3,
+      "primary": 1,
+      "secondary": 2,
       "labels": {
-        "2": "Neige ventée",
-        "3": "Couche fragile persistante"
+        "1": "Neige fraîche",
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-10",
-          "min_cm": 5,
-          "max_cm": 10
-        },
         {
           "date": "2026-02-11",
           "min_cm": 7,
@@ -106,22 +113,27 @@
           "date": "2026-02-15",
           "min_cm": 20,
           "max_cm": 40
+        },
+        {
+          "date": "2026-02-16",
+          "min_cm": 30,
+          "max_cm": 50
         }
       ],
       "totals": {
-        "last_48h_min_cm": 30,
-        "last_48h_max_cm": 55
+        "last_48h_min_cm": 50,
+        "last_48h_max_cm": 90
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RISQUE ACCIDENTEL ENCORE BIEN MARQUE SURTOUT EN ALTITUDE",
-      "text": "RISQUE ACCIDENTEL ENCORE BIEN MARQUE SURTOUT EN ALTITUDE \n\n\nDéparts spontanés :  \nDimanche, lors de brèves éclaircies, coulées de surface possibles, près des rochers notamment. Aux altitudes modestes (sous 1500m environ), la neige est assez humide en profondeur, on peut avoir quelques avalanches en pentes herbeuses, parfois de fond (glissement au terrain). Ailleurs le risque est plus limité.\n\nDéclenchements provoqués :    \nLe risque reste encore conséquent en altitude, particulièrement au-dessus de 1600/1800m. Nombreuses plaques potentiellement instables, parfois loin des crêtes. Le vent a soufflé en diverses orientations accentuant le transport de neige. En secteur Nord des sous couches fragiles sont encore enfouies et une première rupture de plauqe peut entrainer une épaisse et large cassure en contrebas, entrainant un volume de neige très conséquent (larges cassures observées récemment en faces Nord de Belle Etoile)... \nPlus bas que 2000m environ, les sous couches sont un peu mieux stabilisées. Risque de plaques surtout à proximité des crêtes avec départs possibles au passage d'un unique skieur mais avec une épaisseur mobilisable plus limitée. Travail du vent/congères sont assez visibles.",
+      "title": "IMPORTANTES CHUTES DE NEIGE VENTÉE EN ALTITUDE",
+      "text": "IMPORTANTES CHUTES DE NEIGE VENTÉE EN ALTITUDE\n\nUne perturbation active va concerner le massif de Belledonne pour les prochains jours avec des cumuls de neige conséquents (40 à 60cm sur les prochaines 24h au-dessus de 2000m).\n\nDéparts spontanés :  \nLe risque est en nette hausse par rapport à ce week-end avec des départs spontanés de grande taille possibles dès lundi matin.\nAu fil de la journée et des chutes de neige le risque s'accroit et on observe de grandes avalanches de neige fraiche en tous versants.\nSur les zones d'accumulation par le vent de Nord-ouest qui souffle très fort pendant cette épisode, on peut s'attendre à quelques départs de très grande taille.\n De plus, en haute montagne (au-dessus de 2200/2400m), on note la présence de sous couche fragile persistante qui pourrait accentuer le risque de départ de ces avalanches de très grande ampleur.\n\nDéclenchements provoqués :    \nLe risque accidentel redevient fort surtout en haute montagne et dès 1800/2000m, de nombreuses plaques très instables sont présentes parfois loin des crêtes (départs à distance probable).\nLes nouvelles chutes de neige sont accompagnées d'un vent de Nord-ouest fort favorisant la formation de nouvelles plaques. Ces plaques sont très sensibles et facilement déclenchables au passage d'un unique skieur.\nDans un large secteur Nord, des sous couches fragiles sont encore enfouies et une première rupture de plaque pourrait entrainer une épaisse et large cassure en contrebas, entrainant un volume de neige conséquent. \nPlus bas que 1800m environ, les sous couches sont un peu mieux stabilisées, et le risque de présence de plaques est surtout à proximité des crêtes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est encore amélioré en altitude, dans les combes, où il devient excellent pour la saison. Il est en revanche médiocre plus bas que 1300m.\n\nLimites skiables : vers 1100/1300 m.\n\nQualité de la neige dimanche :  \nNeige fraîche poudreuse plus épaisse en altitude et souvent soufflée/chahutée à l'abord des croupes et crêtes. A 800/1000m, fine couche de 10/15cm au matin.\nFortes épaisseurs au dessus de 2000m environ avec plus d'1m de neige récente, de grosses congères/corniches, des secteurs plus dégarnis...",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est encore amélioré en altitude, dans les combes, où il devient excellent pour la saison sur l'ensemble du massif. Seules les zones de crêtes et cols soufflés sont moins enneigés.\n\nLimites skiables : vers 1100/1300 m.\n\nQualité de la neige lundi  :  \nNeige fraîche poudreuse parfois très épaisse en altitude et souvent soufflée/chahutée à l'abord des croupes et crêtes.\nCette poudreuse est présente dès 1500/1600m mais très rapidement travaillée par le vent.\nFortes épaisseurs au dessus de 2000m environ avec plus d'1m50 de neige récente vers 2500m, de très grosses congères/corniches et des secteurs plus dégarnis/ englacés...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 140,
-          "S": 60
+          "N": 130,
+          "S": 50
         },
         {
           "alt_m": 2000,
-          "N": 250,
-          "S": 180
+          "N": 240,
+          "S": 170
         },
         {
           "alt_m": 2500,
-          "N": 360,
-          "S": 290
+          "N": 350,
+          "S": 280
         }
       ],
       "icon_key": "snowpack",
