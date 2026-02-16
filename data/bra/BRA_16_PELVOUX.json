@@ -3,8 +3,8 @@
   "massif": "Pelvoux",
   "bulletin": {
     "id": 16,
-    "issued_at": "2026-02-15T17:00:00",
-    "valid_until": "2026-02-16T18:00:00",
+    "issued_at": "2026-02-16T16:00:00",
+    "valid_until": "2026-02-17T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-02-17",
-        "label": "Indice de risque fort",
-        "comment": "Maintien probable d'un fort risque d'avalanches. Encore un peu de neige notamment près de l'Oisans, avec du vent fort en altitude.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-02-18",
+        "label": "Indice de risque marqué",
+        "comment": "Risque en baisse mais restant marqué avec la stabilisation progressive des plaques en place dans la neige récente.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-11",
-          "min_cm": 20,
-          "max_cm": 30
-        },
-        {
           "date": "2026-02-12",
           "min_cm": 10,
           "max_cm": 20
@@ -99,51 +94,56 @@
         },
         {
           "date": "2026-02-15",
-          "min_cm": 5,
-          "max_cm": 15
+          "min_cm": 10,
+          "max_cm": 20
         },
         {
           "date": "2026-02-16",
-          "min_cm": 20,
+          "min_cm": 15,
           "max_cm": 30
+        },
+        {
+          "date": "2026-02-17",
+          "min_cm": 5,
+          "max_cm": 10
         }
       ],
       "totals": {
-        "last_48h_min_cm": 25,
-        "last_48h_max_cm": 45
+        "last_48h_min_cm": 20,
+        "last_48h_max_cm": 40
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "MANTEAU NEIGEUX TRÈS INSTABLE - CHUTES DE NEIGE ACCOMPAGNÉES D'UN VENT TEMPÉTUEUX",
-      "text": "MANTEAU NEIGEUX TRÈS INSTABLE - CHUTES DE NEIGE ACCOMPAGNÉES D'UN VENT TEMPÉTUEUX\n\nDéclenchements provoqués : nombreuses plaques faciles à déclencher dans la neige fraîche fortement travaillée par le vent jusqu'à basse altitude. Ces plaques se forment en grand nombre dans les secteurs de moyenne altitude, même ceux plutôt abrités des vents habituellement (forêts peu denses par exemple). Près des crêtes et sommets, les plaques ont une répartition plus hétérogène et se rencontrent dans des accumulations épaisses, qui alternent avec des zones ravagées et décapées par le vent tempétueux. \nGrandes avalanches fréquentes (taille 3), avec des cassures larges même à des altitudes moins habituelles. Une très grande avalanche (taille 4) possible, en cas de cassure très épaisse emportant une grande partie du manteau neigeux en place. Ce type de départ peut être initié par la surcharge liée au passage d'une première avalanche de surface.\n\nDéparts spontanés : l'activité avalancheuse augmente au fil de la journée. Avalanches de poudreuse de plus en plus nombreuses et mobilisant des volumes de neige parfois conséquents. Départs ponctuels ou linéaires. Une très grande avalanche (taille 4) non exclue, plutôt au coeur du massif.",
+      "text": "MANTEAU NEIGEUX TRÈS INSTABLE - CHUTES DE NEIGE ACCOMPAGNÉES D'UN VENT TEMPÉTUEUX\n\nDéclenchements provoqués : de nombreuses plaques très instables sont en place et en formation dans la neige fraîche, fortement ventées jusqu'en basse montagne. Ces instabilités sont plus fréquentes à moyenne altitude, même dans des secteurs plutôt abrités des vents habituellement (forêts peu denses par exemple). Près des crêtes et sommets, ces plaques sont réparties de façon plus hétérogène. Elles sont situées dans des accumulations localement épaisses qui côtoient des secteurs décapés par le vent tempétueux. Avalanches généralement de grande taille (taille 3), une très grande avalanche (taille 4) non exclue, en cas sollicitation d'une couche fragile persistante enfouie en ubac, emportant une grande partie du manteau neigeux en place. Ce type de départ peut être initié par la surcharge liée au passage d'une première avalanche de surface.\n\nDéparts spontanés : nombreux départs en cours de nuit de lundi à mardi dans la neige fraîche ventée, générant des avalanches moyennes (taille 2), voire grandes (taille 3) dans les pentes les plus chargées par le vent. Une rare très grande avalanche possible (taille 4) en ubacs d'altitudes. Les départs sont moins fréquents en journée de mardi avec l'affaiblissement du vent et des chutes de neige.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est excédentaire pour un mois de février. Les chutes de neige se succèdent depuis le début du mois de janvier.\nHauteurs de neige observées : 280 cm à la Nivôse de  Écrins vers 3000 m,  220 cm au Pré de Mme Carle à 1900 m, 145 cm au hameau de Dormillouse à 1730 m.\n\nLimite d'enneigement skiable : la plupart des itinéraires sont skiables dès les fonds de vallées.\n\nÉtat de la neige de surface : lundi, le manteau neigeux est fortement travaillé par le vent jusqu'à basse altitude. La neige fraîche est soufflée dans la plupart des pentes, parfois même en forêt. En altitude, alternance d'accumulations très importantes et de zones pelées.\nLa neige est plus froide et légère dans les quelques secteurs abrités au-dessus de 1800 m.",
+      "text": "L'enneigement est excédentaire pour un mois de février. Les chutes de neige se succèdent depuis le début du mois de janvier.\nHauteurs de neige observées : 282 cm à la Nivôse de  Écrins vers 3000 m,  252 cm au Pré de Mme Carle à 1900 m, 145 cm au hameau de Dormillouse à 1730 m.\n\nLimite d'enneigement skiable : la plupart des itinéraires sont skiables dès les fonds de vallées.\nÉtat de la neige de surface : couche de neige fraiche en surface fortement travaillée par le vent dans la plupart des pentes au dessus de 1800/2000. Crêtes décapées par le vent de nord-ouest, et grosses accumulations/corniches en formation. Neige restant localement plus légère et froide en toutes orientations dans les secteurs bien abrités du vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1000,
-        "south": 1100
+        "south": 1000
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 115,
-          "S": 85
+          "N": 130,
+          "S": 100
         },
         {
           "alt_m": 2000,
-          "N": 185,
-          "S": 135
+          "N": 205,
+          "S": 155
         },
         {
           "alt_m": 2500,
-          "N": 230,
-          "S": 170
+          "N": 250,
+          "S": 190
         }
       ],
       "icon_key": "snowpack",

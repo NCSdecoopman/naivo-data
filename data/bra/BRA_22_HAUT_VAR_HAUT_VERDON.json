@@ -3,37 +3,49 @@
   "massif": "Haut-Var Haut-Verdon",
   "bulletin": {
     "id": 22,
-    "issued_at": "2026-02-15T16:00:00",
-    "valid_until": "2026-02-16T18:00:00",
+    "issued_at": "2026-02-16T16:00:00",
+    "valid_until": "2026-02-17T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-17",
+        "date": "2026-02-18",
         "label": "Indice de risque marqué",
-        "comment": "Risque restant marqué. Le fort vent de nord-ouest entretient la formation de nouvelles plaques encore sensibles au passage d'un skieur.",
+        "comment": "Temps sec en journée, vent de nord-ouest encore fort en altitude, maintenant une instabilité marquée dans la neige récente",
         "trend": "steady"
       }
     },
@@ -78,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-11",
-          "min_cm": 10,
-          "max_cm": 30
-        },
-        {
           "date": "2026-02-12",
           "min_cm": 0,
           "max_cm": 15
@@ -99,29 +106,34 @@
         },
         {
           "date": "2026-02-15",
-          "min_cm": 1,
-          "max_cm": 5
+          "min_cm": 0,
+          "max_cm": 3
         },
         {
           "date": "2026-02-16",
           "min_cm": 10,
-          "max_cm": 20
+          "max_cm": 30
+        },
+        {
+          "date": "2026-02-17",
+          "min_cm": 0,
+          "max_cm": 10
         }
       ],
       "totals": {
-        "last_48h_min_cm": 11,
-        "last_48h_max_cm": 25
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 40
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PLAQUES EN FORMATION LORS DES CHUTES DE NEIGE FORTEMENT VENTÉES, PLUS NOMBREUSES ET ÉPAISSES SUR LE HAUT-VERDON",
-      "text": "PLAQUES EN FORMATION LORS DES CHUTES DE NEIGE FORTEMENT VENTÉES, PLUS NOMBREUSES ET ÉPAISSES SUR LE HAUT-VERDON\n\nDéclenchements provoqués : nombreuses plaques en formation au-dessus de 1800/2000 m avec les chutes de neige fortement ventées. Ces plaques sont très souvent durcies par le vent et facilement identifiables, localisées même loin des crêtes et ruptures de pentes, en toute orientation. Des plaques d'aspect poudreux, plus difficilement identifiables, peuvent persister dans les rares pentes abritées du vent. Ces plaques sont facilement déclenchables par un seul skieur et engendrent des avalanches de taille petite à moyenne (taille 1 à 2), voire grande (taille 3) dans une zone de forte accumulation par le vent. Dans les orientations ouest, nord et est au-dessus de 2000 m environ sur le Haut-Verdon, des couches fragiles persistantes enfouies sont en place et peuvent engendrer des plaques plus volumineuses avec des cassures larges et épaisses. Elles sont difficiles à solliciter par un skieur isolé, mais peuvent l'être par une première avalanche de surface (départ en cascade). Des avalanches de grande taille (taille 3) sont alors possibles, une très grande (taille 4) non exclue sur le Haut-Verdon. \n\nDéparts spontanés : avalanches de neige fraîche dans les pentes raides lors des chutes de neige fortement ventées. De plus, des départs par surcharge dû au vent deviennent nombreux au fil de la journée, notamment sur le Haut-Verdon où les quantités attendues sont plus importantes. Avalanche de taille petite à moyenne (taille 1 à 2), voire grande (taille 3) dans les zones de forte accumulation par le vent ou en cas de déstabilisation d'une plaque plus ancienne, notamment en versant ouest, nord et est d'altitude. Dans ce dernier cas, une très grande avalanche (taille 4) n'est pas exclue sur le Haut-Verdon.",
+      "title": "NOMBREUSES INSTABILITÉS DANS LA NEIGE RÉCENTE",
+      "text": "NOMBREUSES INSTABILITÉS DANS LA NEIGE RÉCENTE \n\nDéclenchements provoqués : manteau neigeux faiblement à modérément stabilisé dans de nombreuses pentes d'altitude supérieure à 2000 m environ. Instabilités possibles en toutes orientations, déclenchables par un seul skieur, et engendrant des avalanches de taille petite à moyenne (taille 1 à 2). \nLe fort vent d'ouest continue de souffler à haute altitude, favorisant un important transport de neige, et la formation de nombreuses instabilités, même loin des crêtes. Généralement d'aspect dur et plutôt bien identifiables, plus rarement d'aspect poudreux, ces instabilités mobilisent le plus souvent la neige tombée depuis une semaine. Épaisseurs de cassure de l'ordre de 40 à 60 cm en altitude, localement plus dans les zones de forte accumulation par le vent. \nEn orientation ouest, nord ou est d'altitude supérieure à 2000/2200 m environ, grandes avalanches (taille 3) sont possibles, très grande (taille 4) non exclue dans les pentes d'un large secteur nord de haute altitude du Haut Verdon. La couche fragile persistante enfouie à la base du manteau neigeux est encore localement sollicitable et peut engendrer des départs linéaires de grande largeur. Déclenchement direct peu probable (mais aléatoire) par un skieur isolé, souvent rendu possible, en cascade, par une première avalanche de surface.  \n\nDéparts spontanés : avalanches de neige fraîche / ventée. Départs parfois linéaires et de taille 2, plus rarement de taille 3 principalement en Haut Verdon, notamment en cas de rupture de corniche en versant froid d'altitude.  \nL'après-midi, avec le retour du soleil, petits départs ponctuels en neige humide, restant superficiels et de taille 1 à 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement abondant, très excédentaire pour un mois de février. \nDonnées observées vers 2000 m en fond de vallon : 150 à 180 cm.\n\nEnneigement skiable dès 1200/1400 m sur terrains favorables.\n\nÉtat de la neige en surface : lundi matin, les chutes de neige en cours apportent entre 10 et 20 cm de neige fortement ventée au-dessus de 1800 m environ. Cette neige est souvent durcie par le vent et repose sur une sous-couche généralement dure ou regelée, mais localement poudreuse en ubacs abrités du vent.",
+      "text": "Enneigement abondant, très excédentaire pour un mois de février. \nDonnées observées : en ubacs, 1 m dès 1600/1700 m, 1m 30 à 1m 90 vers 2000 m, 2 m à 2m 50 vers 2400 m.\n\nEnneigement skiable dès 1200 m en terrains favorables et 1500 m en adrets\n\nÉtat de la neige en surface : 20/40 cm de neige récente souvent fortement travaillée par le vent en altitude, et reposant sur une sous-couche dure, parfois regelée sous 1800 m, et légère et poudreuse en ubacs abrités du vent, notamment en forêts de moyenne altitude.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 45,
-          "S": 35
+          "N": 55,
+          "S": 45
         },
         {
           "alt_m": 2000,
-          "N": 170,
-          "S": 120
+          "N": 180,
+          "S": 125
         },
         {
           "alt_m": 2500,
-          "N": 210,
-          "S": 180
+          "N": 230,
+          "S": 190
         }
       ],
       "icon_key": "snowpack",

@@ -3,8 +3,8 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-02-15T16:00:00",
-    "valid_until": "2026-02-16T18:00:00",
+    "issued_at": "2026-02-16T16:00:00",
+    "valid_until": "2026-02-17T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 4,
-        "date": "2026-02-17",
+        "date": "2026-02-18",
         "label": "Indice de risque fort",
-        "comment": "Les chutes de neige se poursuivent et les quantités de neige attendues sont encore très importantes. Le risque est toujours fort. Les plaques sont encore très réactives.",
+        "comment": "En journée de mercredi, les chutes de neige se poursuivent mais les températures remontent et ainsi, les plaques temporaires sont généralisées dans tout le massif.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-11",
-          "min_cm": 40,
-          "max_cm": 60
-        },
-        {
           "date": "2026-02-12",
           "min_cm": 40,
           "max_cm": 70
@@ -106,6 +101,11 @@
           "date": "2026-02-16",
           "min_cm": 40,
           "max_cm": 60
+        },
+        {
+          "date": "2026-02-17",
+          "min_cm": 20,
+          "max_cm": 30
         }
       ],
       "totals": {
@@ -116,12 +116,12 @@
     },
     "stability": {
       "title": "Nombreuses instabilités dans la neige fraîche. De plus en plus nombreuses au fil des heures.",
-      "text": "Nombreuses instabilités dans la neige fraîche. De plus en plus nombreuses au fil des heures.\n\nDéparts spontanés :\n* Instabilités très marquées dans la neige fraîche. Au fil des chutes de neige, l'activité spontanée est en hausse, avec des quantités de neige de plus en plus importantes. Sous les plus fortes intensités, les départs sont les plus probables. Nombreuses avalanches de taille 2 à 3 (moyenne à grande). Une très grande avalanche (taille 4) est possible au-dessus de 1800/2000 m, et pourrait parcourir de très grandes dénivellations, notamment dans les couloirs remplis par les avalanches de la semaine dernière. Une couche fragile persistante est enfouie dans le manteau neigeux (en ubac au-delà de 2000m) et pourrait être sollicitée par de très fortes surcharges (avalanche en cascade/chute de sérac/chute de pierre), et ainsi engendrer une avalanche d'ampleur.\n\nDéclenchements provoqués :\n* Nombreuses plaques dans l'épaisse couche de neige fraîche. Ces plaques très réactives et sont de plus en plus épaisses au fil des chutes de neige. Ces plaques sont formées par le fort vent de W/NW et donne ainsi des plaques d'aspect plutôt dures. Au vu des quantités de neige fraîche, il n'est pas toujours facile de distinguer les signes du vent. Le déclenchement des plaques est assez aléatoire. Les cassures peuvent dépasser 1m et ainsi engendrer de grandes avalanches. Dans des configurations défavorables, la couche fragile peut être sollicitée et ainsi donner une avalanche de plus grande ampleur.",
+      "text": "Nombreuses instabilités dans la neige fraîche. De plus en plus nombreuses au fil des heures.\n\nDéparts spontanés :\n* Instabilités très marquées dans la neige fraîche. Au fil des chutes de neige, les quantités de neige mobilisables sont de plus importantes. Sous les averses les plus intenses, l'activité naturelle est à son paroxysme. Nombreuses avalanches de taille 2 à 3 (moyenne à grande). Une très grande avalanche (taille 4) est possible au-dessus de 1800/2000 m, et pourrait parcourir de très grandes dénivellations, notamment dans les couloirs remplis par les avalanches de la semaine dernière. Une couche fragile persistante est enfouie dans le manteau neigeux (en ubac au-delà de 2000m) et pourrait être sollicitée par de très fortes surcharges (avalanche en cascade/chute de sérac/chute de pierre), et ainsi engendrer une avalanche d'ampleur.\n\nDéclenchements provoqués :\n* RISQUE ACCIDENTEL MAXIMAL.\n* Nombreuses plaques dans l'épaisse couche de neige fraîche. Ces plaques sont très réactives et sont de plus en plus épaisses au fil des chutes de neige. Ces plaques sont formées par le fort vent de W/NW et donne ainsi des plaques d'aspect plutôt dures. Au vu des quantités de neige fraîche, il n'est pas toujours facile de distinguer les signes du vent. Le déclenchement des plaques est assez aléatoire, et les cassures peuvent dépasser 1m et ainsi engendrer de grandes avalanches (propagation importante).\n* Dans des configurations défavorables, la couche fragile peut être sollicitée et ainsi donner une avalanche de plus grande ampleur.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Les chutes de neige ont permis d'épaissir le manteau et de donner un bon enneigement pour la saison. On peut chausser les skis vers 1200 m. Nombreuses congères et grosses corniches.\n\nQualité de la neige ce lundi :\n* Durant la nuit de dimanche à lundi, 20/30 cm de neige froide. Sous 1800 m, elle est un peu plus humide.\n* En journée, les cumuls de neige continuent de grossir, on attend encore environ 40/50 cm de neige.",
+      "text": "Enneigement : Les chutes de neige ont permis d'épaissir le manteau et de donner un bon enneigement pour la saison, légèrement excédentaire en haute-montagne. On peut chausser les skis vers 1200 m. Nombreuses congères et grosses corniches.\n\nQualité de la neige ce mardi :\n* Mardi matin, on retrouve 70/80 cm de neige froide. Sous 1800 m, elle est un peu plus humide.\n* Le travail du vent est efficace et ainsi, les cumuls de neige sont parfois très variable selon la topographie (combes chargés/croupes dégarnies).\n* En journée, les cumuls de neige continuent de grossir, on attend encore environ 20 cm de neige.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 110,
-          "S": 90
+          "N": 130,
+          "S": 110
         },
         {
           "alt_m": 2000,
-          "N": 210,
-          "S": 170
+          "N": 240,
+          "S": 210
         },
         {
           "alt_m": 2500,
-          "N": 330,
-          "S": 280
+          "N": 350,
+          "S": 300
         }
       ],
       "icon_key": "snowpack",

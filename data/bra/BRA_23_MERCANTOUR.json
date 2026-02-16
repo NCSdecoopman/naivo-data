@@ -3,37 +3,49 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-02-15T16:00:00",
-    "valid_until": "2026-02-16T18:00:00",
+    "issued_at": "2026-02-16T16:00:00",
+    "valid_until": "2026-02-17T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 2400m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2400,
+        "split_axis": "horizontal",
+        "split_label": "2400m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2400",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2400",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2400m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-17",
+        "date": "2026-02-18",
         "label": "Indice de risque marqué",
-        "comment": "Maintien d'un risque marqué. Le fort vent de nord-ouest entretient la formation de plaques encore sensibles au passage d'un seul skieur.",
+        "comment": "Temps sec en journée, vent de nord-ouest encore fort en altitude, maintenant une instabilité marquée",
         "trend": "steady"
       }
     },
@@ -54,8 +66,8 @@
         "NE": true,
         "E": true,
         "SE": true,
-        "S": true,
-        "SW": true,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -67,21 +79,15 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 1,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
-        "1": "Neige fraîche"
+        "2": "Neige ventée"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-11",
-          "min_cm": 1,
-          "max_cm": 15
-        },
         {
           "date": "2026-02-12",
           "min_cm": 0,
@@ -100,28 +106,33 @@
         {
           "date": "2026-02-15",
           "min_cm": 0,
-          "max_cm": 0
+          "max_cm": 1
         },
         {
           "date": "2026-02-16",
           "min_cm": 0,
           "max_cm": 10
+        },
+        {
+          "date": "2026-02-17",
+          "min_cm": 0,
+          "max_cm": 5
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 10
+        "last_48h_max_cm": 15
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES PLAQUES EN FORMATION",
-      "text": "NOMBREUSES PLAQUES EN FORMATION \n\nDéclenchements provoqués : nombreuses plaques en formation au-dessus de 1800/2000 m, avec le fort vent de nord-ouest ainsi que les chutes de neiges sur la Haute-Tinée. Ces plaques sont très souvent durcies par le vent et facilement identifiables, localisées même loin des crêtes et ruptures de pentes, en toute orientation. Dans de rares secteurs abrités du vent, quelques plaques d'aspect poudreux et difficilement identifiables peuvent encore persister, notamment vers la Roya où les quantités de neige récente sont plus importantes. Elles sont facilement déclenchables par un seul skieur, et engendrent des avalanches de taille petite à moyenne (taille 1 à 2). Une grande avalanche (taille 3) n'est pas exclue dans une zone de forte accumulation par le vent ou en cas de déstabilisation de vieilles plaques plus épaisses encore très localement présentes en orientations ouest, nord et est au-dessus de 2000/2200 m environ. \n\nDéparts spontanés : avalanches de neige fraîche dans les pentes raides lors des chutes de neige fortement ventées sur la Haute-Tinée. De plus, des départs par surcharge dû au vent deviennent nombreux au fil de la journée sur l'ensemble du massif. Avalanche de taille petite à moyenne (taille 1 à 2), voire grande (taille 3) dans les zones de forte accumulation par le vent ou en cas de déstabilisation d'une plaque plus ancienne, notamment en versant ouest, nord et est d'altitude.",
+      "title": "NOMBREUSES INSTABILITÉS DANS LA NEIGE FORTEMENT VENTÉE",
+      "text": "NOMBREUSES INSTABILITÉS DANS LA NEIGE FORTEMENT VENTÉE\n\nDéclenchements provoqués : manteau neigeux faiblement à modérément stabilisé dans de nombreuses pentes de haute altitude, généralement au-dessus de 2400 m. Instabilités possibles en toutes orientations, plutôt disséminées en orientations ouest et nord, parfois très épaisses loin des crêtes d'un large secteur est, elles sont plus rares en orientations sud. Parfois déclenchables par un seul skieur, elles engendrent des avalanches de taille petite à moyenne (taille 1 à 2), rarement grandes (taille 3). Le fort vent de nord-ouest continue de souffler à haute altitude, favorisant un important transport de neige, et la formation de nombreuses instabilités, même loin des crêtes. Généralement d'aspect dur et plutôt bien identifiables, plus rarement d'aspect poudreux, ces instabilités mobilisent surtout la neige tombée depuis vendredi soir. Épaisseurs de cassure de l'ordre de 30 à 50 cm en altitude, localement plus dans les zones de forte accumulation par le vent. Le déclenchement des couches fragiles persistantes situées à la base de l'épais manteau neigeux est très peu probable par un seul skieur ; on ne peut cependant l'exclure en cascade, par une avalanche de neige ventée particulièrement volumineuse, ce qui peut engendrer alors une avalanche de très grande taille (taille 4).\n\nDéparts spontanés : avalanches de neige ventée. Départs parfois linéaires et de taille 2, plus rarement de taille 3, notamment en cas de rupture de corniche en versant froid d'altitude.  \nL'après-midi, avec le retour du soleil,rares départs ponctuels en neige humide, restant superficiels et de taille 1.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement abondant, très excédentaire pour un mois de février. \nDonnées observées récentes : au-dessus de Valdeblore à 2500 m, 210 cm en versant nord, 170 cm en versant sud. Vers Castérino : 200 cm à 2000 m, 90 cm à 1500 m. Vers Isola 2000 : 143 cm à 1900 m.\n\nEnneigement skiable ès 1200/1400 m sur terrains favorables.\n\nÉtat de la neige en surface : lundi matin, les chutes de neige en cours apportent entre 5 et 10 cm en Haute-Tinée uniquement, un saupoudrage plus à l'est. Cette neige tombe fortement venté et est donc souvent d'aspect durcie. Elle repose sur une sous-couche généralement dure ou regelée, mais encore localement poudreuse en ubacs abrités du vent. En Vésubie / Roya, neige souvent travaillée par le vent dans les secteurs exposés, encore poudreuse dans les pentes nord bien abrités du vent.",
+      "text": "Enneigement abondant, excédentaire pour un mois de février. \nDonnées observées : 156 cm à la nivôse de Millefonts, 127 cm à Isola 2000. \n\nEnneigement skiable dès 1200 m en terrains favorables et 1500 m en adrets\n\nÉtat de la neige en surface : fortement durcie par le vent en altitude, y compris en Haute Tinée vers la Bonette où il est tombé 10/20 cm de neige lundi. Encore meuble en ubacs forestiers de moyenne altitude, s'humidifiant au soleil ce mardi.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +143,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 35,
-          "S": 15
+          "N": 45,
+          "S": 25
         },
         {
           "alt_m": 2000,
-          "N": 140,
-          "S": 100
+          "N": 150,
+          "S": 110
         },
         {
           "alt_m": 2500,
-          "N": 190,
-          "S": 160
+          "N": 210,
+          "S": 180
         }
       ],
       "icon_key": "snowpack",
