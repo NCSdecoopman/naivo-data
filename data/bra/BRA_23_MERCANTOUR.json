@@ -3,8 +3,8 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-02-16T16:00:00",
-    "valid_until": "2026-02-17T18:00:00",
+    "issued_at": "2026-02-17T16:00:00",
+    "valid_until": "2026-02-18T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-18",
-        "label": "Indice de risque marqué",
-        "comment": "Temps sec en journée, vent de nord-ouest encore fort en altitude, maintenant une instabilité marquée",
-        "trend": "steady"
+        "max_level": 4,
+        "date": "2026-02-19",
+        "label": "Indice de risque fort",
+        "comment": "Risque en hausse. Passage perturbé très actif jeudi matin : chutes de neige peu ventées ~30/40 cm, suivies d'un renforcement du vent de nord-ouest. Nombreuses instabilités facilement déclenchables, mobilisant encore d'importants volumes de neige en altitude. Risque fort.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -66,8 +66,8 @@
         "NE": true,
         "E": true,
         "SE": true,
-        "S": false,
-        "SW": false,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -79,20 +79,16 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": null,
+      "secondary": 4,
       "labels": {
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-12",
-          "min_cm": 0,
-          "max_cm": 3
-        },
         {
           "date": "2026-02-13",
           "min_cm": 15,
@@ -111,28 +107,33 @@
         {
           "date": "2026-02-16",
           "min_cm": 0,
-          "max_cm": 10
+          "max_cm": 15
         },
         {
           "date": "2026-02-17",
           "min_cm": 0,
-          "max_cm": 5
+          "max_cm": 1
+        },
+        {
+          "date": "2026-02-18",
+          "min_cm": 10,
+          "max_cm": 20
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 15
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 21
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES INSTABILITÉS DANS LA NEIGE FORTEMENT VENTÉE",
-      "text": "NOMBREUSES INSTABILITÉS DANS LA NEIGE FORTEMENT VENTÉE\n\nDéclenchements provoqués : manteau neigeux faiblement à modérément stabilisé dans de nombreuses pentes de haute altitude, généralement au-dessus de 2400 m. Instabilités possibles en toutes orientations, plutôt disséminées en orientations ouest et nord, parfois très épaisses loin des crêtes d'un large secteur est, elles sont plus rares en orientations sud. Parfois déclenchables par un seul skieur, elles engendrent des avalanches de taille petite à moyenne (taille 1 à 2), rarement grandes (taille 3). Le fort vent de nord-ouest continue de souffler à haute altitude, favorisant un important transport de neige, et la formation de nombreuses instabilités, même loin des crêtes. Généralement d'aspect dur et plutôt bien identifiables, plus rarement d'aspect poudreux, ces instabilités mobilisent surtout la neige tombée depuis vendredi soir. Épaisseurs de cassure de l'ordre de 30 à 50 cm en altitude, localement plus dans les zones de forte accumulation par le vent. Le déclenchement des couches fragiles persistantes situées à la base de l'épais manteau neigeux est très peu probable par un seul skieur ; on ne peut cependant l'exclure en cascade, par une avalanche de neige ventée particulièrement volumineuse, ce qui peut engendrer alors une avalanche de très grande taille (taille 4).\n\nDéparts spontanés : avalanches de neige ventée. Départs parfois linéaires et de taille 2, plus rarement de taille 3, notamment en cas de rupture de corniche en versant froid d'altitude.  \nL'après-midi, avec le retour du soleil,rares départs ponctuels en neige humide, restant superficiels et de taille 1.",
+      "title": "INSTABILITÉS PERSISTANT DANS LA NEIGE FORTEMENT VENTÉE",
+      "text": "INSTABILITÉS PERSISTANT DANS LA NEIGE FORTEMENT VENTÉE\n\nDéclenchements provoqués : manteau neigeux localement instable en altitude, au-dessus de 2200 m. Instabilités possibles en toutes orientations, plutôt disséminées en orientations ouest à nord, plus fréquentes et parfois épaisses loin des crêtes d'un large secteur est, et sud au-delà de 2600/2700 m. Parfois déclenchables par un seul skieur, elles engendrent des avalanches de taille petite à moyenne (taille 1 à 2), rarement grandes (taille 3) dans les zones de forte accumulation par le vent. Généralement d'aspect dur et plutôt bien identifiables, ces instabilités mobilisent surtout la neige tombée depuis vendredi soir. Le déclenchement des couches fragiles persistantes situées à la base de l'épais manteau neigeux est très peu probable par un seul skieur ; on ne peut cependant l'exclure en cascade, par une avalanche de neige ventée particulièrement volumineuse, ce qui peut engendrer alors une avalanche de très grande taille (taille 4).\n\nDéparts spontanés : surtout en neige humide. Nombreux départs ponctuels au soleil, restant superficiels et généralement de taille 1 à 2. Une grande avalanche n'est cependant pas exclue, notamment en Vésubie / Roya; l'ensoleillement accompagné d'un net réchauffement de la masse d'air entraîne une humidification dans les pentes sud raides où l'enneigement est particulièrement abondant. Une grande avalanche par départ de plaque à vent en large versant nord de haute altitude n'est pas exclue à haute altitude en fin de journée, avec le net renforcement du vent de secteur sud.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement abondant, excédentaire pour un mois de février. \nDonnées observées : 156 cm à la nivôse de Millefonts, 127 cm à Isola 2000. \n\nEnneigement skiable dès 1200 m en terrains favorables et 1500 m en adrets\n\nÉtat de la neige en surface : fortement durcie par le vent en altitude, y compris en Haute Tinée vers la Bonette où il est tombé 10/20 cm de neige lundi. Encore meuble en ubacs forestiers de moyenne altitude, s'humidifiant au soleil ce mardi.",
+      "text": "Enneigement très excédentaire pour un mois de février. Il faut remonter à 2015 pour trouver un enneigement encore plus abondant à cette période de l'année.\nDonnées observées : 154 cm à la nivôse de Millefonts, 126 cm à Isola 2000. \n\nEnneigement skiable dès 1300 m en ubacs en terrains favorables et 1600 m en adrets\n\nÉtat de la neige en surface : fortement durcie par le vent en altitude, y compris en Haute Tinée vers la Bonette où il est tombé 10/20 cm de neige lundi. Encore meuble en ubacs forestiers de moyenne altitude, localement profonde en Vésubie et Roya. Poursuite de l'humidification au soleil en adrets, s'humidifiant au soleil ce mardi : superficiellement jusque 2200/2400 m, en profondeur sous 1800 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

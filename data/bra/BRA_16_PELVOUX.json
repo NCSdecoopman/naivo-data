@@ -3,8 +3,8 @@
   "massif": "Pelvoux",
   "bulletin": {
     "id": 16,
-    "issued_at": "2026-02-16T16:00:00",
-    "valid_until": "2026-02-17T18:00:00",
+    "issued_at": "2026-02-17T16:00:00",
+    "valid_until": "2026-02-18T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-18",
-        "label": "Indice de risque marqué",
-        "comment": "Risque en baisse mais restant marqué avec la stabilisation progressive des plaques en place dans la neige récente.",
-        "trend": "down"
+        "max_level": 4,
+        "date": "2026-02-19",
+        "label": "Indice de risque fort",
+        "comment": "Risque en hausse, restant fort, avec l'arrivée de nouvelles chutes de neige parfois intenses dans la nuit de mercredi à jeudi. Nombreux départs spontanés attendus, pouvant être de grande ampleur.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-12",
-          "min_cm": 10,
-          "max_cm": 20
-        },
-        {
           "date": "2026-02-13",
           "min_cm": 5,
           "max_cm": 15
@@ -94,34 +89,39 @@
         },
         {
           "date": "2026-02-15",
-          "min_cm": 10,
-          "max_cm": 20
+          "min_cm": 20,
+          "max_cm": 30
         },
         {
           "date": "2026-02-16",
-          "min_cm": 15,
+          "min_cm": 20,
           "max_cm": 30
         },
         {
           "date": "2026-02-17",
           "min_cm": 5,
           "max_cm": 10
+        },
+        {
+          "date": "2026-02-18",
+          "min_cm": 10,
+          "max_cm": 20
         }
       ],
       "totals": {
-        "last_48h_min_cm": 20,
-        "last_48h_max_cm": 40
+        "last_48h_min_cm": 15,
+        "last_48h_max_cm": 30
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX TRÈS INSTABLE - CHUTES DE NEIGE ACCOMPAGNÉES D'UN VENT TEMPÉTUEUX",
-      "text": "MANTEAU NEIGEUX TRÈS INSTABLE - CHUTES DE NEIGE ACCOMPAGNÉES D'UN VENT TEMPÉTUEUX\n\nDéclenchements provoqués : de nombreuses plaques très instables sont en place et en formation dans la neige fraîche, fortement ventées jusqu'en basse montagne. Ces instabilités sont plus fréquentes à moyenne altitude, même dans des secteurs plutôt abrités des vents habituellement (forêts peu denses par exemple). Près des crêtes et sommets, ces plaques sont réparties de façon plus hétérogène. Elles sont situées dans des accumulations localement épaisses qui côtoient des secteurs décapés par le vent tempétueux. Avalanches généralement de grande taille (taille 3), une très grande avalanche (taille 4) non exclue, en cas sollicitation d'une couche fragile persistante enfouie en ubac, emportant une grande partie du manteau neigeux en place. Ce type de départ peut être initié par la surcharge liée au passage d'une première avalanche de surface.\n\nDéparts spontanés : nombreux départs en cours de nuit de lundi à mardi dans la neige fraîche ventée, générant des avalanches moyennes (taille 2), voire grandes (taille 3) dans les pentes les plus chargées par le vent. Une rare très grande avalanche possible (taille 4) en ubacs d'altitudes. Les départs sont moins fréquents en journée de mardi avec l'affaiblissement du vent et des chutes de neige.",
+      "title": "NOMBREUSES INSTABILITÉS DANS LA NEIGE FRAICHE FORTEMENT VENTÉE - DÉPARTS LOCALEMENT VOLUMINEUX AU SOLEIL",
+      "text": "NOMBREUSES INSTABILITÉS DANS LA NEIGE FRAICHE FORTEMENT VENTÉE - DÉPARTS LOCALEMENT VOLUMINEUX AU SOLEIL\n\nDéclenchements provoqués : de nombreuses plaques encore sensibles sont en place en toutes orientations dans la neige fraîche, fortement ventées jusqu'en basse montagne. Ces instabilités sont plus fréquentes à moyenne altitude, notamment dans des secteurs plutôt abrités du vent habituellement (forêts peu denses par exemple), et généralement d'aspect friable. Près des crêtes et sommets, ces plaques sont plus dures et difficiles à déclencher, et sont réparties de façon plus hétérogène, avec des accumulations localement épaisses qui côtoient des secteurs décapés par le vent tempétueux. Avalanches généralement de taille moyenne à grande (taille 2 à 3). Une très grande avalanche (taille 4) non exclue, en cas de sollicitation d'une couche fragile persistante enfouie en ubac, emportant une grande partie du manteau neigeux en place. Ce type de départ peut être initié par la surcharge liée au passage d'une première avalanche de surface.\n\nDéparts spontanés : Départs ponctuels en neige fraiche s'humidifiant, rares au levé du jour, puis de plus en plus nombreux en fil de l'ensoleillement. Avalanche de taille moyenne à grande (taille 2 à 3) plutôt en versant ensoleillés, mais possible aussi dans les ubacs noyés dans les nuages bas, pouvant descendre assez bas en altitude. Des départs linéaires de grande taille (taille 3) sont aussi possibles en cas de déstabilisation d'une plaque en place.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est excédentaire pour un mois de février. Les chutes de neige se succèdent depuis le début du mois de janvier.\nHauteurs de neige observées : 282 cm à la Nivôse de  Écrins vers 3000 m,  252 cm au Pré de Mme Carle à 1900 m, 145 cm au hameau de Dormillouse à 1730 m.\n\nLimite d'enneigement skiable : la plupart des itinéraires sont skiables dès les fonds de vallées.\nÉtat de la neige de surface : couche de neige fraiche en surface fortement travaillée par le vent dans la plupart des pentes au dessus de 1800/2000. Crêtes décapées par le vent de nord-ouest, et grosses accumulations/corniches en formation. Neige restant localement plus légère et froide en toutes orientations dans les secteurs bien abrités du vent.",
+      "text": "L'enneigement est excédentaire pour un mois de février, notamment à basse altitude. Les chutes de neige se succèdent depuis le début du mois de janvier.\nHauteurs de neige observées : 327 cm à la Nivôse de  Écrins vers 3000 m,  262 cm au Pré de Mme Carle à 1900 m, 155 cm au hameau de Dormillouse à 1730 m.\n\nLimite d'enneigement skiable : la plupart des itinéraires sont skiables dès les fonds de vallées.\nÉtat de la neige de surface : épaisse couche de neige fraiche en surface fortement travaillée par le vent dans la plupart des pentes au-dessus de 1800/2000. Crêtes décapées par le vent de nord-ouest alternant avec de grosses accumulations/corniches. Neige restant localement plus légère et froide le matin en toutes orientations dans les secteurs bien abrités du vent. Elle devient humide à collante au soleil en journée en dessous de 2000/2200 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 130,
-          "S": 100
+          "N": 140,
+          "S": 110
         },
         {
           "alt_m": 2000,
-          "N": 205,
-          "S": 155
+          "N": 220,
+          "S": 170
         },
         {
           "alt_m": 2500,
-          "N": 250,
-          "S": 190
+          "N": 270,
+          "S": 210
         }
       ],
       "icon_key": "snowpack",

@@ -3,8 +3,8 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-02-16T16:00:00",
-    "valid_until": "2026-02-17T18:00:00",
+    "issued_at": "2026-02-17T16:00:00",
+    "valid_until": "2026-02-18T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-02-18",
-        "label": "Indice de risque fort",
-        "comment": "En journée de mercredi, les chutes de neige se poursuivent mais les températures remontent et ainsi, les plaques temporaires sont généralisées dans tout le massif.",
-        "trend": "steady"
+        "max_level": 5,
+        "date": "2026-02-19",
+        "label": "Indice de risque très fort",
+        "comment": "Des importantes chutes s'installent dans la nuit de mercredi à jeudi et sur la journée de jeudi : 20-40 cm de neige attendus au-dessus de 1500 m (limite pluie-neige vers 1000 m). De nombreuses instabilités se forment encore au fil des chutes pouvant provoquer de très grandes avalanches spontanées.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 3,
       "labels": {
-        "1": "Neige fraîche",
+        "2": "Neige ventée",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-12",
-          "min_cm": 40,
-          "max_cm": 70
-        },
         {
           "date": "2026-02-13",
           "min_cm": 0,
@@ -104,24 +99,29 @@
         },
         {
           "date": "2026-02-17",
-          "min_cm": 20,
-          "max_cm": 30
+          "min_cm": 7,
+          "max_cm": 15
+        },
+        {
+          "date": "2026-02-18",
+          "min_cm": 15,
+          "max_cm": 20
         }
       ],
       "totals": {
-        "last_48h_min_cm": 60,
-        "last_48h_max_cm": 90
+        "last_48h_min_cm": 22,
+        "last_48h_max_cm": 35
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nombreuses instabilités dans la neige fraîche. De plus en plus nombreuses au fil des heures.",
-      "text": "Nombreuses instabilités dans la neige fraîche. De plus en plus nombreuses au fil des heures.\n\nDéparts spontanés :\n* Instabilités très marquées dans la neige fraîche. Au fil des chutes de neige, les quantités de neige mobilisables sont de plus importantes. Sous les averses les plus intenses, l'activité naturelle est à son paroxysme. Nombreuses avalanches de taille 2 à 3 (moyenne à grande). Une très grande avalanche (taille 4) est possible au-dessus de 1800/2000 m, et pourrait parcourir de très grandes dénivellations, notamment dans les couloirs remplis par les avalanches de la semaine dernière. Une couche fragile persistante est enfouie dans le manteau neigeux (en ubac au-delà de 2000m) et pourrait être sollicitée par de très fortes surcharges (avalanche en cascade/chute de sérac/chute de pierre), et ainsi engendrer une avalanche d'ampleur.\n\nDéclenchements provoqués :\n* RISQUE ACCIDENTEL MAXIMAL.\n* Nombreuses plaques dans l'épaisse couche de neige fraîche. Ces plaques sont très réactives et sont de plus en plus épaisses au fil des chutes de neige. Ces plaques sont formées par le fort vent de W/NW et donne ainsi des plaques d'aspect plutôt dures. Au vu des quantités de neige fraîche, il n'est pas toujours facile de distinguer les signes du vent. Le déclenchement des plaques est assez aléatoire, et les cassures peuvent dépasser 1m et ainsi engendrer de grandes avalanches (propagation importante).\n* Dans des configurations défavorables, la couche fragile peut être sollicitée et ainsi donner une avalanche de plus grande ampleur.",
+      "title": "Instabilités formées par le vent de Nord-Ouest à Sud-Ouest. Formation de nombreuses accumulations/congères et départs spontanés possibles.",
+      "text": "Instabilités formées par le vent de Nord-Ouest à Sud-Ouest. Formation de nombreuses accumulations/congères et départs spontanés possibles. \n\nDéclenchements provoqués :\n* Nombreuses plaques dans la neige récente. Formées et en cours de formation par le vent de Nord-Ouest à Sud-Ouest de ces deniers jours. Ces plaques sont plus épaisses et plus dures en montant en altitude. Bien réactives sous les skis/raquettes. Taille 2 (moyenne) à 3 (grande). Cassures possibles de 30cm à 1m selon les pentes. \nObservables : fissures devant les skis, zones d'accumulation, transport de neige par le vent ...\n* Facteur aggravant au-dessus de 1800/2000 m en versants E/N/O : une couche fragile persistante enfouie peut être sollicitée dans des conditions défavorables, notamment dans le cas d'avalanche en cascade, et donner une avalanche de plus grande ampleur. \n\nDéparts spontanés :\n* Instabilités dans l'épaisse couche de neige récente. Rares départs par surcharge lors de transport de neige par le vent de Nord-Ouest à Sud-Ouest dans les pentes. Taille 2 (moyenne) à 3 (grande) ; une taille 4 (très grande) n'est pas à exclure au-dessus de 1800/2000 m. \n* En-dessous de 1800/2000 m : départs dans la neige récente au fil du réchauffement, surtout l'après-midi. Départs plus probables sous les éclaircies dans les pentes au soleil.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Les chutes de neige ont permis d'épaissir le manteau et de donner un bon enneigement pour la saison, légèrement excédentaire en haute-montagne. On peut chausser les skis vers 1200 m. Nombreuses congères et grosses corniches.\n\nQualité de la neige ce mardi :\n* Mardi matin, on retrouve 70/80 cm de neige froide. Sous 1800 m, elle est un peu plus humide.\n* Le travail du vent est efficace et ainsi, les cumuls de neige sont parfois très variable selon la topographie (combes chargés/croupes dégarnies).\n* En journée, les cumuls de neige continuent de grossir, on attend encore environ 20 cm de neige.",
+      "text": "Enneigement : Bon pour la saison à toutes altitudes grâce aux fréquentes chutes de neige du mois de février. On peut chausser les skis vers 1200 m dans tous les versants. L'épaisseur du manteau neigeux varie : nombreuses congères et corniches. \n\nQualité de la neige ce mercredi :\n* Le matin, quelques cm de neige fraîche en surface, tombés la journée de mardi. \n* Neige froide et légère dans le pentes peu soumises au vent de NO à SO. L'enfoncement piéton est très important (jusqu'à 1m au-dessus de 2000 m d'altitude). Dans les pentes exposées au vent de NO à SO, neige durcie/travaillée en surface. \n* L'après-midi, le redoux transforme la surface de la neige et l'alourdit sous 1800/2000 m.\n* Manteau neigeux irrégulier, dépendant de la topographie : combes chargées, crêtes et arêtes décapées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 130,
-          "S": 110
+          "N": 150,
+          "S": 130
         },
         {
           "alt_m": 2000,
-          "N": 240,
-          "S": 210
+          "N": 260,
+          "S": 230
         },
         {
           "alt_m": 2500,
-          "N": 350,
-          "S": 300
+          "N": 380,
+          "S": 330
         }
       ],
       "icon_key": "snowpack",

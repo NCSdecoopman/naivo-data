@@ -3,8 +3,8 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-02-16T16:00:00",
-    "valid_until": "2026-02-17T18:00:00",
+    "issued_at": "2026-02-17T16:00:00",
+    "valid_until": "2026-02-18T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-18",
-        "label": "Indice de risque marqué",
-        "comment": "Accalmie ce mercredi avant nouvelle dégradation la nuit suivante. Peut-être un risque en lente diminution, mais vers les sommets du massif il semblerait qu'un risque marqué soit toujours d'actualité.",
-        "trend": "steady"
+        "max_level": 4,
+        "date": "2026-02-19",
+        "label": "Indice de risque fort",
+        "comment": "Risque d'avalanche en hausse progressive. \nJeudi 20 cm de fraîche le matin, 40 voire 50 cm le soir sous le vent de Nord Ouest. En altitude vers de nombreuses plaques et avalanches spontanées, risque de rupture de corniche...",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
-        "1": "Neige fraîche",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-12",
-          "min_cm": 30,
-          "max_cm": 50
-        },
         {
           "date": "2026-02-13",
           "min_cm": 2,
@@ -104,46 +99,51 @@
         },
         {
           "date": "2026-02-17",
+          "min_cm": 15,
+          "max_cm": 20
+        },
+        {
+          "date": "2026-02-18",
           "min_cm": 10,
-          "max_cm": 15
+          "max_cm": 20
         }
       ],
       "totals": {
-        "last_48h_min_cm": 30,
-        "last_48h_max_cm": 55
+        "last_48h_min_cm": 25,
+        "last_48h_max_cm": 40
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOUVELLES CHUTES DE NEIGE, VENTÉES EN ALTITUDE.",
-      "text": "NOUVELLES CHUTES DE NEIGE, VENTÉES EN ALTITUDE.\n\nDéparts spontanés : des chutes de neige sont encore attendues sur le massif avec environ 15 à 30 cm entre lundi soir et mardi soir plus haut que 1600 m environ, un peu moins plus bas. Ces chutes de neige sont accompagnées d'un vent de nord-ouest soutenu sur les hautes crêtes jusque mardi midi environ.\n- Des avalanches naturelles peuvent partir sous les chutes de neige, de taille moyenne à grande (2 à 3), surtout vers les hauts sommets du massif. \n- Corniches ou accumulations peuvent céder sous l'effet du vent vers les crêtes, pouvant occasionner des départs assez significatifs. \n\nDéclenchements provoqués : manteau neigeux instable, surtout dans la neige récente et en altitude, vers les hautes crêtes et sommets du massif.\n- Déclenchement facile au passage d'un skieur dans divers versants, sous forme de plaque dure pouvant être épaisse et assez large, et parfois en plaque friable en secteurs à l'abri du vent.\nLes chutes de neige annoncées sont accompagnées d'un vent de nord-ouest fort favorisant la formation de nouvelles plaques. \nLe risque est moins marqué sous 1500 m environ.",
+      "title": "DES AVALANCHES SPONTANEES AU SOLEIL, VERS LES HAUTES CRETES ENCORE UN RISQUE DE PLAQUES...",
+      "text": "DES AVALANCHES SPONTANEES AU SOLEIL, VERS LES HAUTES CRETES ENCORE UN RISQUE DE PLAQUES...\n\nPas mal de neige fraîche/récente peu stabilisée, plus un redoux probable lors d'éclaircies, risque d'avalanche encore marqué mercredi...\nDéparts spontanés : \nMercredi avec un redoux possible en mi-journée, l'après-midi, on peut s'attendre à de nombreuses coulées ponctuelles/avalanches de surface.\nLocalement ces avalanches pourraient prendre de l'ampleur (de taille moyenne à grandes) dans les couloirs récemment chargées par le vent de Nord-Ouest ?\nEnfin dans certaines pentes herbeuses, on peut redouter une avalanche de fond (glissement au terrain)\nDéclenchements provoqués : \nEn pentes ensoleillées, risque de départ humide ponctuel sous les skis... Sinon en altitude les récentes plaques formées ne sont pas toutes stabilisées. Risque encore localement présent, notamment au passage de skieurs groupés. Une épaisse cassure accidentelle n'est pas exclue.\nVigilance aussi à l'abord des corniches...  En pieds de barres rocheuses la neige est également plus cohésive, le risque accidentel n'est pas exclu. Mercredi soir le vent de Sud-Sud-Ouest va se lever et formera de nouvelles plaques.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  l'enneigement s'est récemment dégradé aux basses altitudes, sous les sapins mais il est bon pour la saison dès la moyenne altitude et dans les combes sommitales... Crêtes parfois dégarnies/ congères et corniches...\n\nLimites skiables : vers 1100/1300 m, sur les pistes forestières/clairières...\n\nQualité de la neige mardi : neige fraîche poudreuse parfois très épaisse en altitude mais souvent soufflée/chahutée vers les hautes crêtes et sommets/ durcie, sculptée parfois. Neige fraîche assez lourde/humide sous 1200/1300 m environ, plus légère au-dessus à l'abri du vent.",
+      "text": "Qualification de l’enneigement :  L'enneigement est faible aux basses altitudes, sous les sapins mais il est très bon pour la saison dès la moyenne altitude et dans les combes sommitales... Crêtes parfois dégarnies/ grosses congères et corniches sommitales...\nLimites skiables : vers 1200/1300 m... sur les pistes forestières/clairières...\nQualité de la neige mercredi :  Le matin neige fraîche poudreuse (plus conséquente et soufflée en altitude, jusque 40/70 cm).\nLors des éclaircies, neige collante puis humide en surface. Vers les hautes crêtes neige très chahutée, irrégulière, des corniches...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1000,
-        "south": 1000
+        "north": 800,
+        "south": 900
       },
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 2,
-          "S": 2
+          "N": 15,
+          "S": 15
         },
         {
           "alt_m": 1500,
-          "N": 165,
-          "S": 75
+          "N": 180,
+          "S": 90
         },
         {
           "alt_m": 2000,
-          "N": 235,
-          "S": 180
+          "N": 250,
+          "S": 200
         }
       ],
       "icon_key": "snowpack",
