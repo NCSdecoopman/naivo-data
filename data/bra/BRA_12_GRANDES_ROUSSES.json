@@ -3,14 +3,14 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-02-17T16:00:00",
-    "valid_until": "2026-02-18T18:00:00",
+    "issued_at": "2026-02-18T16:00:00",
+    "valid_until": "2026-02-19T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Indice de risque fort.",
+      "max_level": 5,
+      "comment": "Indice de risque fort évoluant en très fort.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 4,
-            "evolution_to": null,
+            "evolution_to": 5,
             "position": null
           }
         ]
@@ -34,18 +34,18 @@
         },
         "zones": {
           "center": {
-            "text": "4",
-            "risk": 4,
-            "evolution_to": null
+            "text": "4→5",
+            "risk": 5,
+            "evolution_to": 5
           }
         }
       },
       "j2": {
-        "max_level": 5,
-        "date": "2026-02-19",
-        "label": "Indice de risque très fort",
-        "comment": "Risque d'avalanche en hausse, devenant très fort jeudi soir ou vendredi matin ?\nJeudi 20 cm de fraîche le matin, 50 voire 60 cm le soir sous le vent de Nord Ouest.\nRisque de rupture de corniches/épaisses plaques. Nombreux couloirs impactés/voire certaines routes.",
-        "trend": "up"
+        "max_level": 4,
+        "date": "2026-02-20",
+        "label": "Indice de risque fort",
+        "comment": "Vendredi matin, risque d'avalanche encore temporairement très fort sur les Grandes Rousses. Faible neige mais vent de Nord chassant la neige poudreuse...\nVendredi après-midi atténuation du risque d'avalanche spontanées, mais encore un fort risque accidentel envisagé...",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 1,
       "secondary": 3,
       "labels": {
-        "2": "Neige ventée",
+        "1": "Neige fraîche",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-13",
-          "min_cm": 3,
-          "max_cm": 3
-        },
         {
           "date": "2026-02-14",
           "min_cm": 5,
@@ -99,29 +94,34 @@
         },
         {
           "date": "2026-02-17",
-          "min_cm": 20,
-          "max_cm": 30
+          "min_cm": 5,
+          "max_cm": 10
         },
         {
           "date": "2026-02-18",
-          "min_cm": 10,
+          "min_cm": 15,
           "max_cm": 20
+        },
+        {
+          "date": "2026-02-19",
+          "min_cm": 40,
+          "max_cm": 60
         }
       ],
       "totals": {
-        "last_48h_min_cm": 30,
-        "last_48h_max_cm": 50
+        "last_48h_min_cm": 55,
+        "last_48h_max_cm": 80
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "ENCORE UN FORT RISQUE ACCIDENTEL EN ALTITUDE, PARFOIS A DISTANCE DE PENTES RAIDES. LOCALEMENT, DES AVALANCHES SPONTANEES AU SOLEIL, DEVALANT DE LONGS COULOIRS...",
-      "text": "ENCORE UN FORT RISQUE ACCIDENTEL EN ALTITUDE, PARFOIS A DISTANCE DE PENTES RAIDES. LOCALEMENT, DES AVALANCHES SPONTANEES AU SOLEIL, DEVALANT DE LONGS COULOIRS...\n\nGrosses quantités de neige fraîche/récente très peu stabilisée en altitude avec risque de déclenchement à distance. Noter aussi un redoux probable lors d'éclaircies, risque d'avalanche spontanée aussi vers les rochers, dans les couloirs...\nEn résumé la  haute montagne à peine pentue et les couloirs sont infréquentables...\nDéparts spontanés : \nMercredi avec un redoux relatif en mi-journée/l'après-midi, on peut s'attendre à de nombreuses avalanches de surface de taille moyenne, notamment près des rochers. Localement ces avalanches peuvent prendre de l'ampleur (pentes récemment chargées par le vent de Nord-Ouest). Une avalanche pourrait dévaler un long couloir avec de gros dépôts jusqu'en moyenne montagne, près des routes (vers Vaujany par exemple ?)...  Enfin dans certaines pentes herbeuses de modeste altitude, on peut redouter une avalanche de fond (glissement au terrain), plutôt le soir.\nDéclenchements provoqués : \nEn haute montagne, les récentes épaisses plaques (formées par flux de Nord-Ouest) ne sont pas bien stabilisées. Ce risque accidentel est aussi présent loin des crêtes, au passage d'une personne... Par déclenchement en cascade une énorme avalanche n'est pas exclue en contrebas (configuration aggravante : présence de couches fragiles enfouies en versants froids). Mardi une large cassure accidentelle a été déclenchée à distance en Oisans.\nSous 1800m environ les sous couches se sont un peu tassées, risque accidentel a priori plus localisé, près des crêtes. En pentes ensoleillées, risque de départ humide ponctuel sous les skis...\nMercredi soir le vent de Sud-Sud-Ouest va se lever en altitude et formera de nouvelles plaques bien instables !",
+      "title": "MANTEAU NEIGEUX LOCALEMENT BIEN INSTABLE DES JEUDI MATIN... A PARTIR DE JEUDI SOIR, SITUATION PLUS PREOCCUPANTE :  AVALANCHES DE GRANDE AMPLEUR...",
+      "text": "MANTEAU NEIGEUX LOCALEMENT BIEN INSTABLE DES JEUDI MATIN... A PARTIR DE JEUDI SOIR, SITUATION PLUS PREOCCUPANTE :  AVALANCHES DE GRANDE AMPLEUR...\n\nVers d'abondantes quantités de fraîche, de plus en plus ventées... Risque d'avalanche devenant localement très fort en soirée et nuit de jeudi à vendredi.\nVigilance à terme en bas des longs couloirs...\nDéparts spontanés : \nJeudi matin avec 20 cm de fraîche tombés en peu de temps, on peut s'attendre à quelques avalanches poudreuses en altitude (notamment en faces Nord à Est). Très localement un départ spontané de plaque pourrait donner une grande avalanche qui arriverait en moyenne montagne ?\nJeudi au fil de l'après-midi et surtout le soir il va davantage neiger avec un vent de plus en plus soutenu, tournant au Nord-Ouest. Cumul de fraîche jusque 50/60 cm jeudi soir en altitude (puis 80/90 cm vendredi matin versant Vaujany)\nEn altitude probables cassures spontanées de plaques (voire ruptures de corniches), dégénérant en très grande avalanches :  Ruptures en cascades avec des sous couches parfois sans cohésion : facteur aggravant!\nA terme (plutôt en fin d'échéance de ce bulletin), possibles avalanches de grande ampleur... De nombreux couloirs d'avalanches seraient impactés jusqu'en moyenne montagne, voire sur les routes de Vaujany, Sardonne, Clavans ?\nDéclenchements provoqués : \nLe jeudi matin, risque localisé de plaques, surtout vers les hautes crêtes, sous le vent de Sud puis Ouest (plaques peu volumineuses en général, mais une cassure plus épaisse est possible en contrebas).\nAu fil de l'après-midi, davantage de plaques en formations sous le vent turbulent et forcissant de Nord-Ouest : Risque accidentel devenant fort,  et ce dès modeste altitude !",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est très bon pour la saison dès la moyenne altitude puis abondant dès 1600/1800m et dans toutes les combes...  Hautes crêtes parfois dégarnies/ grosses congères et corniches...\nLimites skiables : vers 1100/1300 m...\nQualité de la neige mercredi :  Le matin neige fraîche poudreuse en combes abritées, épaisse en altitude.\nLors des éclaircies, sous 2000/2200m environ neige collante puis humide en surface. A l'abord des croupes/crêtes d'altitude neige très chahutée, irrégulière, de grosses corniches...",
+      "text": "Qualification de l’enneigement :  L'enneigement devient bon pour la saison dès 1200m, puis abondant au dessus de 1500/1700m , notamment dans les combes... Crêtes parfois dégarnies/ grosses congères et corniches sommitales...\nLimites skiables : vers 1100/1300 m... \nQualité de la neige jeudi :  Dès le matin neige fraîche (20 cm) plus poudreuse au dessus de 1500m environ, assez peu ventée vers les crêtes. Sous couche un peu croutée sous 2000m En altitude présence de récentes grosses congères/corniches... D'ici jeudi soir 50 voire 60 cm de neige fraîche attendue, davantage soufflés par vents d'Ouest puis Nord-Ouest (quantités encore plus conséquentes vendredi matin, versant Vaujany notamment)...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,12 +137,12 @@
         },
         {
           "alt_m": 2000,
-          "N": 280,
+          "N": 285,
           "S": 210
         },
         {
           "alt_m": 2500,
-          "N": 370,
+          "N": 385,
           "S": 340
         }
       ],
