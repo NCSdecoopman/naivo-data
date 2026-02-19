@@ -3,14 +3,14 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-02-18T16:00:00",
-    "valid_until": "2026-02-19T18:00:00",
+    "issued_at": "2026-02-19T17:00:00",
+    "valid_until": "2026-02-20T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 5,
-      "comment": "Indice de risque fort évoluant en très fort.",
+      "comment": "Indice de risque très fort évoluant en fort.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 4,
-            "evolution_to": 5,
+            "risk": 5,
+            "evolution_to": 4,
             "position": null
           }
         ]
@@ -34,18 +34,18 @@
         },
         "zones": {
           "center": {
-            "text": "4→5",
+            "text": "5→4",
             "risk": 5,
-            "evolution_to": 5
+            "evolution_to": 4
           }
         }
       },
       "j2": {
-        "max_level": 5,
-        "date": "2026-02-20",
-        "label": "Indice de risque très fort",
-        "comment": "Le vent de NO soutenu dans la nuit de jeudi à vendredi entretient un risque de déclenchement de grandes avalanches. Le risque 5 reste envisagé sur ce créneau. Puis, le risque naturel baissera.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-02-21",
+        "label": "Indice de risque marqué",
+        "comment": "Bonne stabilisation du manteau en altitude. En Sud et plus bas, les pentes ensoleillées continues de s'humidifier et de glisser.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-14",
-          "min_cm": 0,
-          "max_cm": 3
-        },
-        {
           "date": "2026-02-15",
           "min_cm": 20,
           "max_cm": 30
@@ -104,24 +99,29 @@
         },
         {
           "date": "2026-02-19",
-          "min_cm": 20,
-          "max_cm": 30
+          "min_cm": 30,
+          "max_cm": 40
+        },
+        {
+          "date": "2026-02-20",
+          "min_cm": 3,
+          "max_cm": 7
         }
       ],
       "totals": {
-        "last_48h_min_cm": 35,
-        "last_48h_max_cm": 50
+        "last_48h_min_cm": 33,
+        "last_48h_max_cm": 47
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES AVALANCHES, PARFOIS DE GRANDE AMPLEUR, POUVANT METTRE EN PÉRIL LES INFRASTRUCTURES EXPOSÉES.",
-      "text": "NOMBREUSES AVALANCHES, PARFOIS DE GRANDE AMPLEUR, POUVANT METTRE EN PÉRIL LES INFRASTRUCTURES EXPOSÉES. \n\nDéparts spontanés : activité avalancheuse potentiellement remarquable en fin nuit de mercredi à jeudi, et surtout jeudi en fin de journée/soirée avec les cumuls de neige fraîche qui augmentent au fil des heures. D'ici jeudi soir, 30-50 cm supplémentaires tombent sur un manteau déjà surchargé. De grandes (taille 3) à très grandes (taille 4) avalanches sont possibles. Elles peuvent aller loin avec un fort potentiel destructeur en mettant en péril les infrastructures de montagne. Atteignant leur emprise maximale connue, évoluer en fond de vallon/vallée n'est pas gage de sécurité.\n\nDéclenchements provoqués :\nRISQUE ACCIDENTEL MAXIMAL, nombreuses plaques épaisses et très réactives avec forte propagation. Plaques présentes aussi près de crêtes qu'en bas de pente. Risque généralisé dans tous les versants.",
+      "title": "AVALANCHE DE GRANDE AMPLEUR POSSIBLE DANS LA NUIT DE JEUDI A VENDREDI, amorce de la stabilisation globale du manteau en journée.",
+      "text": "AVALANCHE DE GRANDE AMPLEUR POSSIBLE DANS LA NUIT DE JEUDI A VENDREDI, amorce de la stabilisation globale du manteau en journée.\n\nDans la nuit de jeudi à vendredi : poursuite du risque maximal (5/5) tant que la neige tombe dans un contexte venté. De grandes à très grandes avalanches (taille 3 à 4) sont possibles. Elles peuvent aller loin avec un fort potentiel destructeur en mettant en péril les infrastructures de montagne, atteignant leur emprise maximale connue. Evoluer en fond de vallon/vallée n'est pas gage de sécurité.\n\nVendredi en journée : 4/5\nDéclenchements provoqués : la dernière chute de neige (30-50 cm) ventée a créée de nombreuses plaques dissimulées sous une fine couche de neige fraîche. On les trouve en tous versants, généralement au-dessus de la forêt (~1800 m). Elles sont facilement déclenchables et engendrent généralement des avalanches de taille 2 (moyenne). Au vu de la séquence perturbée passée, il est envisageable de déclencher une plaque plus épaisse et générer une grande avalanche (taille 3). \n\nDéparts spontanés : baisse de l'activité avalancheuse naturelle par rapport aux jours précédents. \nPlaques de fond et glissements de talus sont de retour. Le tout commencent à se décrocher plutôt l'après-midi, dans les pentes raides et herbeuses de basse montagne. Les épaisseurs sont notables (100-150 cm) et mobilisent des volumes conséquents. \nAussi, le retour des éclaircies peut favoriser quelques coulées et avalanches dans les pentes ensoleillés de moyenne/haute montagne. Des avalanches de taille 1 à 2 sont possibles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :  Les chutes de neige récentes ont permis de repasser dans un enneigement  excédentaire dès 1200m en Nord et 1400m en sud.  En dessous les épisodes de pluies fortes sont trop nombreux pour permettre un enneigement durable même si ce mardi les sols sont blancs  dès la basse altitude (800m). \n\nLimite skiable :  Skiable dès 1000m en Nord, plutôt 1200m en Sud pas trop raide.  \n\nQualité de la neige : très gros cumuls de neige dès la moyenne montagne, avec plus d'1m50 dans les zones d'accumulations tandis que les croupes et crêtes exposées sont bien moins chargées voir glacées. Plus bas et à l'abri du vent, la couche de poudreuse plus homogène. La nouvelle chute en cours dépose une neige froide jusqu'en moyenne montagne.",
+      "text": "Enneigement :  excédentaire à toutes les altitudes et dans tous les versants. Les départs classiques de ski de randonnée sont désormais copieusement enneigés. La semaine remarquable qui vient de s'écoulée a permis d'épaissir le manteau d'environs 150 cm à partir de 2000 m. \n\nLimite skiable :  skiable dès 900/1000m en Nord, plutôt 1000/1200m en Sud pas trop raide.  \n\nQualité de la neige : une couche de neige fraîche légère est présente de la basse montagne à la sortie de la forêt. Elle gagne en fermeté plus haut et l'épaisseur de neige meuble devient variable à cause du vent de la nuit. L'enfoncement à pied est remarquable (jusqu'aux hanches) grâce aux très forts cumuls des jours précédents. Dans l'après-midi, la neige s'alourdit à la faveur des éclaircies et de \"l'effet cocote minute\".",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 170,
-          "S": 110
+          "N": 180,
+          "S": 120
         },
         {
           "alt_m": 2000,
-          "N": 240,
-          "S": 200
+          "N": 255,
+          "S": 215
         },
         {
           "alt_m": 2500,
-          "N": 300,
-          "S": 250
+          "N": 315,
+          "S": 265
         }
       ],
       "icon_key": "snowpack",

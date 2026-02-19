@@ -3,8 +3,8 @@
   "massif": "Thabor",
   "bulletin": {
     "id": 13,
-    "issued_at": "2026-02-18T16:00:00",
-    "valid_until": "2026-02-19T18:00:00",
+    "issued_at": "2026-02-19T16:00:00",
+    "valid_until": "2026-02-20T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-02-20",
-        "label": "Indice de risque fort",
-        "comment": "Maintien d'un risque fort d'avalanches. Le fort vent de nord entraine la formation de nouvelles plaques faciles à déclencher.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-02-21",
+        "label": "Indice de risque marqué",
+        "comment": "Risque orienté à la baisse, mais restant bien marqué. Présence de plaques encore facilement déclenchables.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-14",
-          "min_cm": 0,
-          "max_cm": 3
-        },
-        {
           "date": "2026-02-15",
           "min_cm": 20,
           "max_cm": 30
@@ -104,24 +99,29 @@
         },
         {
           "date": "2026-02-19",
-          "min_cm": 5,
-          "max_cm": 25
+          "min_cm": 10,
+          "max_cm": 30
+        },
+        {
+          "date": "2026-02-20",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 20,
-        "last_48h_max_cm": 45
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 31
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX TRÈS INSTABLE. FORMATION DE NOMBREUSES INSTABILITÉS DANS LA NEIGE FRAÎCHE VENTÉE - VIGILANCE ORANGE AVALANCHES",
-      "text": "MANTEAU NEIGEUX TRÈS INSTABLE. FORMATION DE NOMBREUSES INSTABILITÉS DANS LA NEIGE FRAÎCHE VENTÉE - VIGILANCE ORANGE AVALANCHES\n\nDéclenchements provoqués : très nombreuses plaques dans la neige fraîche ventée. Elles sont présentes en toutes orientations, même jusqu'à basse altitude, et peuvent être facilement déclenchées par le passage d'un seul skieur. D'aspect poudreux dans les combes bien abritées du vent, elles sont difficilement identifiables. À proximité des crêtes et sommets, ces plaques sont plutôt durcies par le vent et réparties de manière plus hétérogène, avec des accumulations localement épaisses. Cassures épaisses, parfois sur de grandes largeurs, engendrant des avalanches de taille moyenne à grande (taille 2 à 3). Une très grande avalanche (taille 4) est possible en cas de sollicitation d'une couche fragile persistante enfouie en ubacs, emportant une grande partie du manteau neigeux en place. Ce type de départ peut être initié par la surcharge liée au passage d'une première avalanche de surface.\n\nDéparts spontanés : très nombreuses avalanches de neige fraîche au fil des chutes de neige ventées qui se déposent sur un manteau neigeux encore peu stabilisé. Avalanches de taille moyenne (taille 2) ou grande (taille 3) en cas de déstabilisation d'une plaque en place. Certaines avalanches peuvent être de grande ampleur et menacer des infrastructures de montagne ou atteindre certains fonds de vallées à plus basse altitude (vallée de la Clarée notamment). Avalanches de très grande taille (taille 4) dans ce cas.",
+      "title": "MANTEAU NEIGEUX TRÈS INSTABLE. NOMBREUSES INSTABILITÉS DANS LA NEIGE RÉCENTE VENTÉE - VIGILANCE ORANGE AVALANCHES",
+      "text": "MANTEAU NEIGEUX TRÈS INSTABLE. NOMBREUSES INSTABILITÉS DANS LA NEIGE RÉCENTE VENTÉE - VIGILANCE ORANGE AVALANCHES\n\nDéclenchements provoqués : très nombreuses plaques dans la neige récente ventée, formées par les récentes chutes de neige et le fort vent. Elles sont présentes en toutes orientations, même si plus sensibles en orientations nord-est, est et sud-est, et sont encore facilement déclenchables au passage d'un seul skieur. Dans les combes bien abritées du vent, ces plaques sont encore d'aspect poudreux et donc difficilement identifiables. En revanche, à proximité des crêtes et sommets, ces plaques sont plutôt durcies par le vent et réparties de manière hétérogène, avec des accumulations localement épaisses. Cassures épaisses sur de grandes largeurs, engendrant des avalanches de taille moyenne à grande (taille 2 à 3). Une très grande avalanche (taille 4) est possible en cas de sollicitation d'une couche fragile persistante enfouie en ubacs, emportant une grande partie du manteau neigeux en place. Ce type de départ peut être initié par la surcharge liée au passage d'une première avalanche de surface.\n\nDéparts spontanés : avalanches de neige récente ventée. Départs ponctuels et superficiels au fil de l'ensoleillement : avalanches de taille petite à rarement moyenne. Départs parfois linéaires sous l'effet du transport par le vent de nord-ouest. Avalanches de taille moyenne (taille 2) ou grande (taille 3) en cas de déstabilisation d'une plaque en place. Une très grande avalanche (taille 4) n'est pas exclue.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est excédentaire pour un mois de février, notamment à basse altitude. Les chutes de neige se succèdent depuis le début du mois de janvier.\nHauteurs de neige observées vers 2500 m : 202 cm dans le vallon du Chardonnet, 131 à la nivôse des Rochilles.\n\nLimite d'enneigement skiable en fond de vallées.\n\nÉtat de la neige de surface : jeudi matin, les chutes de neige de la nuit ont apporté entre 15 et 20 cm et se poursuivent en journée. Cette neige tombe froide et légère dans les endroits bien abrités du vent, mais est plus travaillée par le vent dans les endroits exposés. Crêtes souvent décapées par le vent de nord-ouest fort des derniers jours, alternant avec de grosses accumulations / corniches.",
+      "text": "L'enneigement est excédentaire pour un mois de février, notamment à basse altitude. Les chutes de neige se succèdent depuis le début du mois de janvier.\nHauteurs de neige observées vers 2500 m : 215 cm dans le vallon du Chardonnet, 135 à la nivôse des Rochilles.\n\nLimite d'enneigement skiable en fond de vallées.\n\nÉtat de la neige de surface : épaisse couche de neige récente tombée entre jeudi et vendredi (localement jusqu'à 30/50 cm). Neige froide et légère dans les pentes bien abritées du vent, mais plus travaillée par le vent à proximité des crêtes et sommets. Manteau neigeux hétérogène sur les crêtes parfois décapées ou avec de grosses accumulations (corniches).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 105,
-          "S": 85
+          "N": 120,
+          "S": 100
         },
         {
           "alt_m": 2000,
-          "N": 165,
-          "S": 135
+          "N": 180,
+          "S": 150
         },
         {
           "alt_m": 2500,
-          "N": 230,
-          "S": 180
+          "N": 250,
+          "S": 200
         }
       ],
       "icon_key": "snowpack",

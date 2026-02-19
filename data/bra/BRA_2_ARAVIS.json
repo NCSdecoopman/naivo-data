@@ -3,14 +3,14 @@
   "massif": "Aravis",
   "bulletin": {
     "id": 2,
-    "issued_at": "2026-02-18T16:00:00",
-    "valid_until": "2026-02-19T18:00:00",
+    "issued_at": "2026-02-19T16:00:00",
+    "valid_until": "2026-02-20T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 5,
-      "comment": "Indice de risque fort évoluant en très fort.",
+      "comment": "Indice de risque très fort évoluant en fort.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 4,
-            "evolution_to": 5,
+            "risk": 5,
+            "evolution_to": 4,
             "position": null
           }
         ]
@@ -34,18 +34,18 @@
         },
         "zones": {
           "center": {
-            "text": "4→5",
+            "text": "5→4",
             "risk": 5,
-            "evolution_to": 5
+            "evolution_to": 4
           }
         }
       },
       "j2": {
-        "max_level": 5,
-        "date": "2026-02-20",
-        "label": "Indice de risque très fort",
-        "comment": "Les instabilités du manteau neigeux sont toujours très nombreuses. Les chutes de neige continuent la nuit de jeudi à vendredi et plus faiblement en journée de vendredi, créant de nouvelles instabilités. Redoux en journée de vendredi.",
-        "trend": "steady"
+        "max_level": 4,
+        "date": "2026-02-21",
+        "label": "Indice de risque fort",
+        "comment": "De nouvelles instabilités se forment dans le manteau neigeux avec le réchauffement qui s'installe. Possibles départs en surface ou au sol.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-14",
-          "min_cm": 2,
-          "max_cm": 5
-        },
-        {
           "date": "2026-02-15",
           "min_cm": 15,
           "max_cm": 20
@@ -104,24 +99,29 @@
         },
         {
           "date": "2026-02-19",
-          "min_cm": 20,
-          "max_cm": 30
+          "min_cm": 30,
+          "max_cm": 40
+        },
+        {
+          "date": "2026-02-20",
+          "min_cm": 0,
+          "max_cm": 3
         }
       ],
       "totals": {
-        "last_48h_min_cm": 35,
-        "last_48h_max_cm": 50
+        "last_48h_min_cm": 30,
+        "last_48h_max_cm": 43
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITÉ DU MANTEAU NEIGEUX DE PLUS EN PLUS PRONONCÉE",
-      "text": "INSTABILITÉ DU MANTEAU NEIGEUX DE PLUS EN PLUS PRONONCÉE\n\nDéparts spontanés :\nActivité avalancheuse en augmentation au fil des heures. Départs de plus en plus nombreux de grandes (taille 3) à très grandes (taille 4) avalanches. Départs de plaques épaisses, sur de grandes largeurs, au-dessus d’environ 1800 m. Ces avalanches peuvent parcourir de grandes dénivellations. \nFacteur aggravant :\n     - en versants Est/Nord/Ouest : une couche fragile persistante enfouie peut être sollicitée, pouvant donner une cassure de plus grosse épaisseur. \n     - plaques à vent épaisses formées par le vent de Nord-Ouest à Sud-Ouest ces derniers jours. Elles peuvent être déclenchées par surcharge des nouvelles chutes de neige. \nUne avalanche peut aussi partir au sol. \n\nDéclenchements provoqués : \nRisque accidentel maximal. Nombreuses plaques à vent formées dans la neige récente par le vent de Nord-Ouest à Sud-Ouest. Plus nombreuses au-dessus de 1800 m ou à proximité des crêtes/arêtes. De nouvelles plaques à vent se forment dans la neige fraîche. Cassures épaisses. Taille 3 (grande). \nFacteur aggravant au dessus de 1800/2000 m en versants Est/Nord/Ouest : une couche fragile persistante enfouie peut être sollicitée et donner une avalanche de plus grande ampleur (possible taille 4 (très grande)).",
+      "title": "NOMBREUX GROS DÉPARTS SPONTANÉS PENDANT LES CHUTES DE NEIGE, EN BAISSE DANS LA MATINÉE",
+      "text": "NOMBREUX GROS DÉPARTS SPONTANÉS PENDANT LES CHUTES DE NEIGE, EN BAISSE DANS LA MATINÉE\n\nDéparts spontanés :\nForte activité avalancheuse dans la nuit de jeudi à vendredi, en baisse après la fin des chutes de neige, dans la matinée de vendredi. \n* Pendant les chutes de neige : nombreux départs de grandes (taille 3) à très grandes (taille 4) avalanches. Départs de plaques épaisses, possibles sur de grandes largeurs, majoritairement au-dessus de 1800 m. Ces avalanches, et notamment leur aérosol, peuvent parcourir de grandes dénivellations. \nFacteur aggravant :\n     - au-dessus de 1800/2000 m, en versants Est/Nord/Ouest : une couche fragile persistante enfouie peut être sollicitée, pouvant donner une cassure de plus grosse épaisseur. \n    - des plaques à vent épaisses ont été formées par le vent de Nord-Ouest à Sud-Ouest ces derniers jours. Elles peuvent être déclenchées par surcharge des nouvelles chutes de neige. \n* Au fil de la journée de vendredi : l'activité avalancheuse reste possible. \n      - Quelques départs d'avalanches de plaques friables dans la neige fraîche/récente. Départs dus au redoux qui s'installe. Taille 2 (moyenne).\n     - En-dessous de 1800/2000 m : Rares plaques de fond. Tous versants, mais départs plus nombreux dans les pentes sud. Départs dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses).Taille 2 (moyenne) à 3 (grande). \n\nDéclenchements provoqués : \n* Plaques à vent dans la neige récente, formées par le vent de Sud-Ouest à Nord-Ouest. Plus nombreuses au-dessus de 1800 m ou à proximité des crêtes/arêtes. Cassures épaisses, pouvant facilement dépasser 1 m, et larges. Taille 2 (moyenne) à 3 (grande). \nFacteur aggravant au dessus de 1800/2000 m en versants Est/Nord/Ouest : une couche fragile persistante enfouie peut être sollicitée et donner une avalanche de plus grande ampleur.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Bon pour la saison à toutes altitudes grâce aux fréquentes chutes de neige du mois de février. On peut chausser les skis vers 1200 m dans tous les versants. L'épaisseur du manteau neigeux varie : nombreuses congères et corniches. \n\nQualité de la neige ce jeudi :\n* Cumuls de neige fraîche observés le matin : \n     - 5-10 cm vers 1000 m. \n     - 10-15 cm vers 1500 m. \n     - 15-25 cm au-dessus de 2000 m.\nAu fil de la journée, l'épaisseur de neige fraîche augmente. \n* Cette neige fraîche, ainsi que le manteau neigeux sur lequel elle tombe est travaillé par le vent de Nord-Ouest à Sud-Ouest : formations de congères et corniches, remplissage des combes.\n* La sous-couche de neige est très meuble, l'enfoncement piéton est très important : supérieur à 1 m vers 2000 m d'altitude.",
+      "text": "Enneigement : Bon pour la saison à toutes altitudes grâce aux fréquentes chutes de neige du mois de février. On peut chausser les skis vers 1200 m dans tous les versants. L'épaisseur du manteau neigeux varie : nombreuses congères et corniches. \n\nQualité de la neige ce vendredi :\n* Cumuls de neige fraîche le matin : \n     - 10-20 cm vers 1000 m. \n     - 25-35 cm vers 1500 m. \n     - 30-40 cm au-dessus de 2000 m.\n* Cette neige fraîche tombe :\n     - au-dessus de 1800 m : sur de la neige restée froide et légère, aillant formée des congères. Fort enfoncement piéton (souvent supérieur à 1 m). La sous-couche est parfois durcie par le vent. \n     - en dessous de 1800 m : sur de la neige plus tassée mais encore meuble. \n* De nombreuses corniches sont présentes sur les crêtes/arêtes et peuvent céder.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 140,
-          "S": 120
+          "N": 150,
+          "S": 130
         },
         {
           "alt_m": 2000,
-          "N": 250,
-          "S": 220
+          "N": 260,
+          "S": 230
         }
       ],
       "icon_key": "snowpack",

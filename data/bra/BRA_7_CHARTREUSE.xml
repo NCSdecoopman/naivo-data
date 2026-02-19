@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="7" MASSIF="Chartreuse" DATEBULLETIN="2026-02-18T16:00:00" DATEECHEANCE="2026-02-19T18:00:00" DATEVALIDITE="2026-02-19T18:00:00" DATEDIFFUSION="2026-02-18T15:43:00" AMENDEMENT="false">
-  <DateValidite>2026-02-19T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="7" MASSIF="Chartreuse" DATEBULLETIN="2026-02-19T16:00:00" DATEECHEANCE="2026-02-20T18:00:00" DATEVALIDITE="2026-02-20T18:00:00" DATEDIFFUSION="2026-02-19T15:43:00" AMENDEMENT="false">
+  <DateValidite>2026-02-20T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="3" EVOLURISQUE1="4" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="4" COMMENTAIRE="Indice de risque marqué évoluant en fort." RISQUEMAXIJ2="4" DATE_RISQUE_J2="2026-02-20T00:00:00"/>
+    <RISQUE RISQUE1="4" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="4" COMMENTAIRE="Indice de risque fort." RISQUEMAXIJ2="4" DATE_RISQUE_J2="2026-02-21T00:00:00"/>
     <PENTE NE="true" E="true" SE="true" S="true" SW="true" W="true" NW="true" N="true" COMMENTAIRE="Altitude et couloirs"/>
-    <ACCIDENTEL><![CDATA[Le matin risque cantonné vers les hautes crêtes (faces Nord à Est), en cours d'après-midi /soirée risque accidentel devenant marqué puis fort en altitude...]]></ACCIDENTEL>
-    <NATUREL><![CDATA[Coulées poudreuses en altitude/petites avalanches dès jeudi matin. Jeudi soir, plus nombreuses et grandes avalanches sous le vent de Nord-Ouest...]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : Coulées poudreuses en altitude/petites avalanches dès jeudi matin. Jeudi soir, plus nombreuses et grandes avalanches sous le vent de Nord-Ouest...
-Déclenchements skieurs : Le matin risque cantonné vers les hautes crêtes (faces Nord à Est), en cours d'après-midi /soirée risque accidentel devenant marqué puis fort en altitude...]]></RESUME>
+    <ACCIDENTEL><![CDATA[formations de nombreuses plaques avec la nouvelle neige et le vent, faciles à rompre des sommets aux forêts, parfois dans les clairières...]]></ACCIDENTEL>
+    <NATUREL><![CDATA[nombreuses avalanches, pouvant être de grande taille sous les chutes de neige. Ruptures de corniches..]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : nombreuses avalanches, pouvant être de grande taille sous les chutes de neige. Ruptures de corniches..
+Déclenchements skieurs : formations de nombreuses plaques avec la nouvelle neige et le vent, faciles à rompre des sommets aux forêts, parfois dans les clairières...]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque fort]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Surtout vendredi matin, risque d'avalanche encore temporairement fort en haut du Massif.
-Neige résiduelle et vent de Nord chassant la neige poudreuse...
-L'après-midi encore un risque de rupture accidentelle important...]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Le manteau reste instable vers les sommets ce samedi sur le massif malgré une météo qui s'améliore progressivement (anticyclone en formation). De plus un redoux s'amorce : iso 0°C à 2500 m samedi après-midi...
+]]></CommentaireRisqueJ2>
     <AVIS>FORT RISQUE D'AVALANCHE</AVIS>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_7.png</ImageRisque>
@@ -20,60 +19,48 @@ L'après-midi encore un risque de rupture accidentelle important...]]></Commenta
   </CARTOUCHERISQUE>
   <STABILITE>
     <SitAvalTyp SAT1="1" SAT2="2"/>
-    <TITRE><![CDATA[EVOLUTION DEFAVORABLE : FORTES CHUTES DE NEIGE VENTEES A PARTIR DE JEUDI APRES-MIDI/SOIREE...]]></TITRE>
-    <TEXTESANSTITRE><![CDATA[Vers d'importantes quantités de neige fraîche, de plus en plus ventées : Risque d'avalanche évoluant défavorablement en fin d'après-midi et surtout nuit de jeudi à vendredi.
-Départs spontanés : 
-Jeudi matin avec jusque 20 cm de fraîche tombés en peu de temps, on peut s'attendre à des coulées ponctuelles voire de petites avalanches poudreuses en altitude.
-Jeudi au fil de l'après-midi et surtout le soir il va davantage neiger avec un vent de plus en plus soutenu, tournant au Nord-Ouest. Cumul de fraîche jusque 40 cm jeudi soir (puis 60/70 cm vendredi matin, voire 80 cm vers la Dent de Crolles).
-Possibles cassures spontanées de plaques (voire ruptures de corniches), dégénérant en grande avalanches. Localement des couloirs d'avalanches seraient impactées jusqu'en forêts, à assez basse altitude ?
-Déclenchements provoqués : 
-Le jeudi matin, risque localisé de plaques, vers les hautes crêtes, sous le vent de Sud puis Ouest (plaques peu volumineuses en général, mais une cassure plus épaisse non exclue en contrebas)
-Au fil de l'après-midi, davantage de plaques en formations sous le vent turbulent et forcissant de Nord-Ouest, : Risque accidentel devenant fort le soir, dès modeste altitude...]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[EVOLUTION DEFAVORABLE : FORTES CHUTES DE NEIGE VENTEES A PARTIR DE JEUDI APRES-MIDI/SOIREE...
+    <TITRE><![CDATA[FORTES CHUTES DE NEIGE VENTEES CETTE NUIT JUSQUE VENDREDI MATIN]]></TITRE>
+    <TEXTESANSTITRE><![CDATA[Départs spontanés : nombreuses avalanches dans la nuit jusqu'à vendredi matin sur le massif pendant les chutes de neige ventées (cumul d'ici vendredi matin de 30 à 50 cm à partir de 1600/1700 m, localement plus à 2000 m). Ces avalanches pourraient être de grande taille et atteindre certains couloirs forestiers, jusqu'à assez basse altitude, prudence... A la fin des chutes de neige en matinée de vendredi, l'activité naturelle devrait progressivement décroitre mais de grosses corniches pourraient céder naturellement sous le vent de nord (actif jusque vendredi soir).
 
-Vers d'importantes quantités de neige fraîche, de plus en plus ventées : Risque d'avalanche évoluant défavorablement en fin d'après-midi et surtout nuit de jeudi à vendredi.
-Départs spontanés : 
-Jeudi matin avec jusque 20 cm de fraîche tombés en peu de temps, on peut s'attendre à des coulées ponctuelles voire de petites avalanches poudreuses en altitude.
-Jeudi au fil de l'après-midi et surtout le soir il va davantage neiger avec un vent de plus en plus soutenu, tournant au Nord-Ouest. Cumul de fraîche jusque 40 cm jeudi soir (puis 60/70 cm vendredi matin, voire 80 cm vers la Dent de Crolles).
-Possibles cassures spontanées de plaques (voire ruptures de corniches), dégénérant en grande avalanches. Localement des couloirs d'avalanches seraient impactées jusqu'en forêts, à assez basse altitude ?
-Déclenchements provoqués : 
-Le jeudi matin, risque localisé de plaques, vers les hautes crêtes, sous le vent de Sud puis Ouest (plaques peu volumineuses en général, mais une cassure plus épaisse non exclue en contrebas)
-Au fil de l'après-midi, davantage de plaques en formations sous le vent turbulent et forcissant de Nord-Ouest, : Risque accidentel devenant fort le soir, dès modeste altitude...]]></TEXTE>
+Déclenchements provoqués : de nouvelles plaques se forment sous les chutes de neige ventées jusque vendredi matin, puis sous le vent de nord ensuite. Plaques instables pouvant partir au passage d'un skieur/randonneur, avec une épaisseur de cassure pouvant être de 50 cm voire plus d'un 1m d'épaisseur, sur des largeurs non négligeables. Risque surtout des hauts sommets jusqu'en limite de forêt, mais elles peuvent descendre plus bas dans les couloirs en forêt. Rupture accidentelle non exclue en clairière de modeste altitude, suffisamment pentue.]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[FORTES CHUTES DE NEIGE VENTEES CETTE NUIT JUSQUE VENDREDI MATIN
+
+Départs spontanés : nombreuses avalanches dans la nuit jusqu'à vendredi matin sur le massif pendant les chutes de neige ventées (cumul d'ici vendredi matin de 30 à 50 cm à partir de 1600/1700 m, localement plus à 2000 m). Ces avalanches pourraient être de grande taille et atteindre certains couloirs forestiers, jusqu'à assez basse altitude, prudence... A la fin des chutes de neige en matinée de vendredi, l'activité naturelle devrait progressivement décroitre mais de grosses corniches pourraient céder naturellement sous le vent de nord (actif jusque vendredi soir).
+
+Déclenchements provoqués : de nouvelles plaques se forment sous les chutes de neige ventées jusque vendredi matin, puis sous le vent de nord ensuite. Plaques instables pouvant partir au passage d'un skieur/randonneur, avec une épaisseur de cassure pouvant être de 50 cm voire plus d'un 1m d'épaisseur, sur des largeurs non négligeables. Risque surtout des hauts sommets jusqu'en limite de forêt, mais elles peuvent descendre plus bas dans les couloirs en forêt. Rupture accidentelle non exclue en clairière de modeste altitude, suffisamment pentue.]]></TEXTE>
   </STABILITE>
   <QUALITE>
-    <TEXTE><![CDATA[Qualification de l’enneigement :  L'enneigement devient bon pour la saison dès 1200m, puis abondant au dessus de 1500m environ, notamment dans les combes d'altitude... Crêtes parfois dégarnies/ grosses congères et corniches sommitales...
+    <TEXTE><![CDATA[Qualification de l’enneigement :  l'enneigement devient bon pour la saison dès 1200m, puis abondant au dessus de 1500 m environ, notamment dans les combes d'altitude... Crêtes parfois dégarnies/ grosses congères et corniches sommitales...
+
 Limites skiables : vers 1100/1300 m... sur les pistes forestières/clairières...
-Qualité de la neige jeudi :  Dès le matin neige fraîche (15/20 cm) plus poudreuse au dessus de 1500m environ, assez peu ventée vers les crêtes. D'anciennes grosses congères/corniches sont visibles. D'ci jeudi soir 30/40 cm de neige fraîche attendue, davantage soufflés par vents d'Ouest puis Nord-Ouest (quantités plus conséquentes vendredi matin)...]]></TEXTE>
+
+Qualité de la neige vendredi :  au matin, entre 30 et 50 cm de neige fraîche ventée au-dessus de 1600/1700 m environ mais souvent très irrégulière vers les crêtes et sommets du massif, et humide sous 1300/1400 m environ. D'anciennes grosses congères/corniches sont visibles, tandis que de nouvelles se forment d'ici vendredi soir sous le vent de nord. ]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-02-18T00:00:00" LimiteSud="900" LimiteNord="800">
+  <ENNEIGEMENT DATE="2026-02-19T00:00:00" LimiteSud="900" LimiteNord="800">
     <NIVEAU ALTI="1000" N="20" S="10"/>
-    <NIVEAU ALTI="1500" N="180" S="90"/>
-    <NIVEAU ALTI="2000" N="250" S="200"/>
+    <NIVEAU ALTI="1500" N="195" S="105"/>
+    <NIVEAU ALTI="2000" N="265" S="215"/>
     <ImageEnneigement>montagne_enneigement_7.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-02-14T00:00:00" SS24Min="10" SS24Max="15"/>
     <NEIGE24H DATE="2026-02-15T00:00:00" SS24Min="10" SS24Max="20"/>
     <NEIGE24H DATE="2026-02-16T00:00:00" SS24Min="20" SS24Max="40"/>
     <NEIGE24H DATE="2026-02-17T00:00:00" SS24Min="10" SS24Max="20"/>
-    <NEIGE24H DATE="2026-02-18T00:00:00" SS24Min="12" SS24Max="20"/>
-    <NEIGE24H DATE="2026-02-19T00:00:00" SS24Min="30" SS24Max="50"/>
+    <NEIGE24H DATE="2026-02-18T00:00:00" SS24Min="10" SS24Max="20"/>
+    <NEIGE24H DATE="2026-02-19T00:00:00" SS24Min="20" SS24Max="50"/>
+    <NEIGE24H DATE="2026-02-20T00:00:00" SS24Min="5" SS24Max="10"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_7.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="1500" ALTITUDEVENT2="2000">
-    <COMMENTAIRE>Bref front neigeux actif avant jeudi matin. Jeudi neige intermittente, devenant plus soutenue/ventée en fin d'après-midi et jusque vendredi matin !</COMMENTAIRE>
-    <ECHEANCE DATE="2026-02-19T06:00:00" FF1="45" DD1="S" FF2="75" DD2="S" ISO0="1600" PLUIENEIGE="1200" TEMPSSENSIBLE="63" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-02-19T12:00:00" FF1="25" DD1="SO" FF2="50" DD2="O" ISO0="1400" PLUIENEIGE="1200" TEMPSSENSIBLE="61" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-02-19T18:00:00" FF1="25" DD1="O" FF2="50" DD2="NO" ISO0="1400" PLUIENEIGE="1100" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-02-20T00:00:00" FF1="25" DD1="NO" FF2="65" DD2="NO" ISO0="1300" PLUIENEIGE="1000" TEMPSSENSIBLE="63" MERNUAGES="-1"/>
+    <COMMENTAIRE>Chutes de neige toute la nuit, faiblissantes au fil de la matinée de vendredi. Le vent de nord, lui, reste sensible toute la journée.</COMMENTAIRE>
+    <ECHEANCE DATE="2026-02-20T06:00:00" FF1="40" DD1="O" FF2="65" DD2="N" ISO0="1300" PLUIENEIGE="1100" TEMPSSENSIBLE="63" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-02-20T12:00:00" FF1="35" DD1="N" FF2="60" DD2="N" ISO0="1300" PLUIENEIGE="900" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-02-20T18:00:00" FF1="35" DD1="N" FF2="60" DD2="N" ISO0="1400" PLUIENEIGE="1000" TEMPSSENSIBLE="3" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-02-21T00:00:00" FF1="30" DD1="N" FF2="60" DD2="N" ISO0="1500" PLUIENEIGE="-1" TEMPSSENSIBLE="2" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_7.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-02-12T06:00:00" FF1="70" DD1="SO" FF2="85" DD2="SO" ISO0="2100" PLUIENEIGE="1800" TEMPSSENSIBLE="80"/>
-      <ECHEANCE DATE="2026-02-12T12:00:00" FF1="50" DD1="O" FF2="70" DD2="O" ISO0="1700" PLUIENEIGE="1400" TEMPSSENSIBLE="63"/>
-      <ECHEANCE DATE="2026-02-12T18:00:00" FF1="45" DD1="NO" FF2="70" DD2="NO" ISO0="1600" PLUIENEIGE="1300" TEMPSSENSIBLE="63"/>
-      <ECHEANCE DATE="2026-02-13T00:00:00" FF1="15" DD1="O" FF2="35" DD2="NO" ISO0="1500" PLUIENEIGE="1200" TEMPSSENSIBLE="80"/>
       <ECHEANCE DATE="2026-02-13T06:00:00" FF1="15" DD1="O" FF2="35" DD2="NO" ISO0="1400" PLUIENEIGE="1100" TEMPSSENSIBLE="71"/>
       <ECHEANCE DATE="2026-02-13T12:00:00" FF1="20" DD1="SO" FF2="20" DD2="SO" ISO0="1900" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
       <ECHEANCE DATE="2026-02-13T18:00:00" FF1="25" DD1="SO" FF2="15" DD2="S" ISO0="1700" PLUIENEIGE="1300" TEMPSSENSIBLE="71"/>
@@ -98,13 +85,12 @@ Qualité de la neige jeudi :  Dès le matin neige fraîche (15/20 cm) plus poudr
       <ECHEANCE DATE="2026-02-18T12:00:00" FF1="15" DD1="S" FF2="20" DD2="O" ISO0="1800" PLUIENEIGE="1100" TEMPSSENSIBLE="61"/>
       <ECHEANCE DATE="2026-02-18T18:00:00" FF1="25" DD1="S" FF2="45" DD2="SO" ISO0="2000" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
       <ECHEANCE DATE="2026-02-19T00:00:00" FF1="75" DD1="S" FF2="90" DD2="S" ISO0="2300" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
+      <ECHEANCE DATE="2026-02-19T06:00:00" FF1="45" DD1="S" FF2="75" DD2="S" ISO0="1600" PLUIENEIGE="1200" TEMPSSENSIBLE="63"/>
+      <ECHEANCE DATE="2026-02-19T12:00:00" FF1="25" DD1="SO" FF2="50" DD2="O" ISO0="1400" PLUIENEIGE="1200" TEMPSSENSIBLE="61"/>
+      <ECHEANCE DATE="2026-02-19T18:00:00" FF1="25" DD1="O" FF2="55" DD2="NO" ISO0="1400" PLUIENEIGE="1100" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2026-02-20T00:00:00" FF1="25" DD1="NO" FF2="70" DD2="NO" ISO0="1300" PLUIENEIGE="1000" TEMPSSENSIBLE="63"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-02-12T00:00:00" LimiteSud="1400" LimiteNord="1100">
-        <NIVEAU ALTI="1000" N="0" S="0"/>
-        <NIVEAU ALTI="1500" N="130" S="40"/>
-        <NIVEAU ALTI="2000" N="200" S="140"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-02-13T00:00:00" LimiteSud="1100" LimiteNord="1100">
         <NIVEAU ALTI="1000" N="0" S="0"/>
         <NIVEAU ALTI="1500" N="160" S="70"/>
@@ -135,23 +121,28 @@ Qualité de la neige jeudi :  Dès le matin neige fraîche (15/20 cm) plus poudr
         <NIVEAU ALTI="1500" N="180" S="90"/>
         <NIVEAU ALTI="2000" N="250" S="200"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-02-19T00:00:00" LimiteSud="900" LimiteNord="800">
+        <NIVEAU ALTI="1000" N="20" S="10"/>
+        <NIVEAU ALTI="1500" N="195" S="105"/>
+        <NIVEAU ALTI="2000" N="265" S="215"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-02-13T00:00:00" SS24Min="30" SS24Max="50"/>
       <NEIGE24H DATE="2026-02-14T00:00:00" SS24Min="2" SS24Max="5"/>
       <NEIGE24H DATE="2026-02-15T00:00:00" SS24Min="10" SS24Max="15"/>
       <NEIGE24H DATE="2026-02-16T00:00:00" SS24Min="10" SS24Max="20"/>
       <NEIGE24H DATE="2026-02-17T00:00:00" SS24Min="20" SS24Max="40"/>
       <NEIGE24H DATE="2026-02-18T00:00:00" SS24Min="10" SS24Max="20"/>
+      <NEIGE24H DATE="2026-02-19T00:00:00" SS24Min="10" SS24Max="20"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-02-12T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-02-13T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-02-14T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-02-15T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-02-16T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-02-17T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-02-18T00:00:00" RISQUEMAXI="3"/>
+      <RISQUE DATE="2026-02-19T00:00:00" RISQUEMAXI="4"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_7.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_7.png</Image7derniersjours_portrait>
