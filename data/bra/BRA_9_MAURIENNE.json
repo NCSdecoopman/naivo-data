@@ -3,48 +3,60 @@
   "massif": "Maurienne",
   "bulletin": {
     "id": 9,
-    "issued_at": "2026-02-19T17:00:00",
-    "valid_until": "2026-02-20T18:00:00",
+    "issued_at": "2026-02-20T17:00:00",
+    "valid_until": "2026-02-21T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 5,
-      "comment": "Indice de risque très fort évoluant en fort.",
+      "max_level": 4,
+      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice marqué.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
-            "risk": 5,
-            "evolution_to": 4,
-            "position": null
+            "loc": "<2000",
+            "risk": 3,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
+            "risk": 4,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
-            "text": "5→4",
-            "risk": 5,
-            "evolution_to": 4
+          "bottom": {
+            "text": "3",
+            "risk": 3,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "4",
+            "risk": 4,
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-21",
+        "date": "2026-02-22",
         "label": "Indice de risque marqué",
-        "comment": "Bonne stabilisation du manteau \"de surface\". A l'Est du massif, les instabilités profondes liées à la couche fragile persistante nécessiteront plus de temps pour perdre en réactivité.",
+        "comment": "Les instabilités temporaires évoluent favorablement grâce aux conditions calme et au redoux. Des départs spontanés sont attendus en journée, ils pourront être nombreux au soleil ou aux basses altitudes. Le risque est marqué.",
         "trend": "down"
       }
     },
@@ -78,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-15",
-          "min_cm": 15,
-          "max_cm": 25
-        },
-        {
           "date": "2026-02-16",
           "min_cm": 30,
           "max_cm": 40
@@ -104,46 +111,51 @@
         },
         {
           "date": "2026-02-20",
+          "min_cm": 1,
+          "max_cm": 5
+        },
+        {
+          "date": "2026-02-21",
           "min_cm": 0,
-          "max_cm": 3
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 20,
-        "last_48h_max_cm": 43
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "AVALANCHE DE GRANDE AMPLEUR POSSIBLE DANS LA NUIT DE JEUDI A VENDREDI, amorce de la stabilisation globale du manteau en journée.",
-      "text": "AVALANCHE DE GRANDE AMPLEUR POSSIBLE DANS LA NUIT DE JEUDI A VENDREDI, amorce de la stabilisation globale du manteau en journée.\n\nDans la nuit de jeudi à vendredi : poursuite du risque maximal (5/5) tant que la neige tombe dans un contexte venté. De grandes à très grandes avalanches (taille 3 à 4) sont possibles. Elles peuvent aller loin avec un fort potentiel destructeur en mettant en péril les infrastructures de montagne, atteignant leur emprise maximale connue. Evoluer en fond de vallon/vallée n'est pas gage de sécurité.\n\nVendredi en journée : 4/5\nDéclenchements provoqués : la dernière chute de neige (20-40 cm) ventée a créée de nombreuses plaques dissimulées sous une fine couche de neige fraîche. On les trouve en tous versants, généralement au-dessus de la forêt (~1800 m). Elles sont facilement déclenchables et engendrent généralement des avalanches de taille 2 (moyenne). Facteur aggravant, au dessus de 2000m et en versants froids (Est/Nord/Ouest), des couches fragiles persistantes enfouies dans le manteau pourront réagir au passage d'un skieur ou en cascade grâce aux plaques friables. Elles engendrent alors de plus grandes et larges avalanches : taille 3, exceptionnellement 4.\n\nDéparts spontanés : à l'approche de la crête avec l'Isère, la baisse tardive du vent de Nord peut être à l'origine d'une dernière avalanche d'ampleur. (Taille 3, au pire 4). \nPlaques de fond et glissements de talus sont de retour. Le tout commencent à se décrocher plutôt l'après-midi, dans les pentes raides et herbeuses de basse montagne. Les épaisseurs sont notables (50-100 cm) et mobilisent des volumes conséquents. \nAussi, le retour des éclaircies peut favoriser quelques coulées et avalanches dans les pentes ensoleillés de moyenne/haute montagne. Des avalanches de taille 1 à 2 sont possibles.",
+      "title": "MANTEAU NEIGEUX TRÈS PEU STABILISÉ : NOMBREUSES PLAQUES ENCORE TRÈS RÉACTIVES.\nAVEC LE REDOUX EN JOURNÉE, NOMBREUX DÉPARTS NATURELS EN MOYENNE MONTAGNE.",
+      "text": "MANTEAU NEIGEUX TRÈS PEU STABILISÉ : NOMBREUSES PLAQUES ENCORE TRÈS RÉACTIVES.\nAVEC LE REDOUX EN JOURNÉE, NOMBREUX DÉPARTS NATURELS EN MOYENNE MONTAGNE.\n\nÉmission d'un communiqué spécial avalanches (CSA).\n\nDéclenchements provoqués : nombreuses plaques encore très sensibles au passage d'un skieur. Le vent de nord-ouest a contribué à former ces plaques, friables en pied et bas de pentes avec parfois peu d'indices visuels, parfois déjà dures en approchant des crêtes où le vent a localement été très fort. Au vu des forts cumuls de neige récente, les cassures peuvent être très épaisses donnant généralement des avalanches de taille 2 (moyennes). On retrouve ces plaques en tous versants, plutôt au-dessus de 2000/2200 m. Facteur aggravant, au-dessus de 2000 m et en versants froids (Est/Nord/Ouest), les couches fragiles persistantes enfouies dans le manteau pourront encore réagir au passage d'un skieur ou en cascade à la suite d'une première plaque : elles engendrent alors de plus grandes et larges avalanches (taille 3).\n\nDéparts spontanés : avec le retour du soleil et le redoux relatif (isotherme 0 °C vers 2000 m l'après-midi), on s'attend à :\n(1) En tous versants sous 1800/2300 m, nombreuses plaques de fond et glissements de talus, surtout dans les pentes raides et herbeuses. Les épaisseurs de neige étant notables dès ces moyennes altitudes (100-150 cm), les volumes mobilisés sont conséquents et les avalanches de taille 1 à 2 ainsi engendrées pourraient concerner les routes ou parkings d'altitude.\n(2) En Sud jusqu'à haute altitude, quelques départs ponctuels dans la neige fraîche s'humidifiant. Généralement des tailles 1 (petites) à 2, mais une exceptionnelle avalanche de taille 3 mobilisant en cascade la couche fragile persistante enfouie n'est pas exclue.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :  excédentaire à toutes les altitudes et dans tous les versants. Les départs classiques de ski de randonnée sont désormais copieusement enneigés. . \n\nLimite skiable :  skiable dès 1000m en Nord, plutôt 1200m en Sud pas trop raide.  \n\nQualité de la neige : une couche de neige fraîche légère est présente de la basse montagne à la sortie de la forêt. Elle gagne en fermeté plus haut et l'épaisseur de neige meuble devient variable à cause du vent de la nuit. L'enfoncement à pied est remarquable (jusqu'aux hanches) grâce aux très forts cumuls des jours précédents. Dans l'après-midi, la neige s'alourdit à la faveur des éclaircies et de \"l'effet cocote minute\".",
+      "text": "Enneigement : excédentaire à toutes les altitudes et dans tous les versants. Les départs classiques de ski de randonnée sont désormais copieusement enneigés. . \n\nLimite skiable :  skiable dès 800/1000 m dans les prairies orientées Nord, plutôt 1000/1200 m en Sud pas trop raide.\n\nQualité de la neige : sous 1800/2100 m, la neige a déjà pris un coup de chaud et pourrait être croutée au matin (difficile à skier) puis collante en journée. \nAu-dessus, grandes quantités de neige récente meuble, très profonde en sortie de forêt puis gagnant en fermeté lorsqu'on approche la haute montagne ou les secteurs exposés au vent (l'épaisseur de neige y est alors hétérogène). Au fil de la journée, les versants Sud s'humidifient en surface jusqu'à haute altitude (bottage).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 900,
-        "south": 900
+        "north": 800,
+        "south": 800
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 120,
-          "S": 90
+          "N": 150,
+          "S": 120
         },
         {
           "alt_m": 2000,
           "N": 210,
-          "S": 150
+          "S": 160
         },
         {
           "alt_m": 2500,
-          "N": 230,
-          "S": 170
+          "N": 240,
+          "S": 200
         }
       ],
       "icon_key": "snowpack",

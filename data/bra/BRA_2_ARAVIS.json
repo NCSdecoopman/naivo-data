@@ -3,48 +3,60 @@
   "massif": "Aravis",
   "bulletin": {
     "id": 2,
-    "issued_at": "2026-02-19T16:00:00",
-    "valid_until": "2026-02-20T18:00:00",
+    "issued_at": "2026-02-20T16:00:00",
+    "valid_until": "2026-02-21T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 5,
-      "comment": "Indice de risque très fort évoluant en fort.",
+      "max_level": 4,
+      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice marqué.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
-            "risk": 5,
-            "evolution_to": 4,
-            "position": null
+            "loc": "<2000",
+            "risk": 3,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
+            "risk": 4,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
-            "text": "5→4",
-            "risk": 5,
-            "evolution_to": 4
+          "bottom": {
+            "text": "3",
+            "risk": 3,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "4",
+            "risk": 4,
+            "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-02-21",
-        "label": "Indice de risque fort",
-        "comment": "De nouvelles instabilités se forment dans le manteau neigeux avec le réchauffement qui s'installe. Possibles départs en surface ou au sol.",
+        "max_level": 3,
+        "date": "2026-02-22",
+        "label": "Indice de risque marqué",
+        "comment": "Le manteau neigeux se stabilise. Belle journée ensoleillée et douce.",
         "trend": "down"
       }
     },
@@ -66,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 3,
+      "primary": 1,
+      "secondary": 5,
       "labels": {
-        "2": "Neige ventée",
-        "3": "Couche fragile persistante"
+        "1": "Neige fraîche",
+        "5": "Avalanche de fond"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-15",
-          "min_cm": 15,
-          "max_cm": 20
-        },
         {
           "date": "2026-02-16",
           "min_cm": 30,
@@ -100,34 +107,39 @@
         {
           "date": "2026-02-19",
           "min_cm": 30,
-          "max_cm": 40
+          "max_cm": 50
         },
         {
           "date": "2026-02-20",
           "min_cm": 0,
           "max_cm": 3
+        },
+        {
+          "date": "2026-02-21",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 30,
-        "last_48h_max_cm": 43
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 3
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUX GROS DÉPARTS SPONTANÉS PENDANT LES CHUTES DE NEIGE, EN BAISSE DANS LA MATINÉE",
-      "text": "NOMBREUX GROS DÉPARTS SPONTANÉS PENDANT LES CHUTES DE NEIGE, EN BAISSE DANS LA MATINÉE\n\nDéparts spontanés :\nForte activité avalancheuse dans la nuit de jeudi à vendredi, en baisse après la fin des chutes de neige, dans la matinée de vendredi. \n* Pendant les chutes de neige : nombreux départs de grandes (taille 3) à très grandes (taille 4) avalanches. Départs de plaques épaisses, possibles sur de grandes largeurs, majoritairement au-dessus de 1800 m. Ces avalanches, et notamment leur aérosol, peuvent parcourir de grandes dénivellations. \nFacteur aggravant :\n     - au-dessus de 1800/2000 m, en versants Est/Nord/Ouest : une couche fragile persistante enfouie peut être sollicitée, pouvant donner une cassure de plus grosse épaisseur. \n    - des plaques à vent épaisses ont été formées par le vent de Nord-Ouest à Sud-Ouest ces derniers jours. Elles peuvent être déclenchées par surcharge des nouvelles chutes de neige. \n* Au fil de la journée de vendredi : l'activité avalancheuse reste possible. \n      - Quelques départs d'avalanches de plaques friables dans la neige fraîche/récente. Départs dus au redoux qui s'installe. Taille 2 (moyenne).\n     - En-dessous de 1800/2000 m : Rares plaques de fond. Tous versants, mais départs plus nombreux dans les pentes sud. Départs dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses).Taille 2 (moyenne) à 3 (grande). \n\nDéclenchements provoqués : \n* Plaques à vent dans la neige récente, formées par le vent de Sud-Ouest à Nord-Ouest. Plus nombreuses au-dessus de 1800 m ou à proximité des crêtes/arêtes. Cassures épaisses, pouvant facilement dépasser 1 m, et larges. Taille 2 (moyenne) à 3 (grande). \nFacteur aggravant au dessus de 1800/2000 m en versants Est/Nord/Ouest : une couche fragile persistante enfouie peut être sollicitée et donner une avalanche de plus grande ampleur.",
+      "title": "Nombreuses instabilités en altitude.",
+      "text": "Nombreuses instabilités en altitude.\n\nDéclenchements provoqués : \n* Au-dessus de 2000 m : nombreuses plaques friables dans la neige fraîche. Plaques généralisées, très sensibles, épaisses : cassure pouvant facilement dépasser 1/1.5 m  dans les accumulations, et larges. Taille 2 (moyenne) à 3 (grandes), plus rarement 4 (très grandes). \nFacteur aggravant :\n - en versants Est/Nord/Ouest : une couche fragile persistante enfouie peut être sollicitée en cascade et donner de très grandes avalanches.\n- dans les adrets: au soleil les plaques pourront être temporairement plus sensible.\n* Entre 1600/1800 m et 2000 m : quelques plaques dans la neige récente humide. Moins sensibles et épaisses qu'en altitude, ces plaques seront temporairement plus sensibles au soleil l'après-midi. Taille 1 à 2 (petite à moyenne).\n\nDéparts spontanés :\n* En dessous de 2200 m :  plaques de fond. Tous versants, mais départs plus nombreux dans les pentes sud. Départs dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Taille 2 (moyenne) à 3 (grande).\n* Chutes de corniches, épaisses et volumineuses, pouvant solliciter de très larges plaques friables.\n* Au fil de l'ensoleillement, départ en poire dans la neige récente humidifié. Taille 1 à 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Bon pour la saison à toutes altitudes grâce aux fréquentes chutes de neige du mois de février. On peut chausser les skis vers 1200 m dans tous les versants. L'épaisseur du manteau neigeux varie : nombreuses congères et corniches. \n\nQualité de la neige ce vendredi :\n* Cumuls de neige fraîche le matin : \n     - 10-20 cm vers 1000 m. \n     - 25-35 cm vers 1500 m. \n     - 30-40 cm au-dessus de 2000 m.\n* Cette neige fraîche tombe :\n     - au-dessus de 1800 m : sur de la neige restée froide et légère, aillant formée des congères. Fort enfoncement piéton (souvent supérieur à 1 m). La sous-couche est parfois durcie par le vent. \n     - en dessous de 1800 m : sur de la neige plus tassée mais encore meuble. \n* De nombreuses corniches sont présentes sur les crêtes/arêtes et peuvent céder.",
+      "text": "Enneigement : Bon pour la saison à toutes altitudes grâce aux fréquentes chutes de neige du mois de février. On peut chausser les skis vers 1200 m dans tous les versants. L'épaisseur du manteau neigeux varie : nombreuses congères et corniches. \n\nQualité de la neige samedi :\nEn dessous de 1400/1600 m : neige humide et très lourde.\nEntre 1600/1800 m et 2000 m : neige fraiche matée/ légèrement humidifiée, dense et lourde sous les skis.\nAu-dessus de 2000 m : Neige fraiche, restée légère, elle peut être légèrement travaillée par le vent proche des plus hauts sommets.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 800,
-        "south": 800
+        "north": 1000,
+        "south": 1000
       },
       "levels_cm": [
         {
@@ -137,13 +149,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 150,
-          "S": 130
+          "N": 180,
+          "S": 150
         },
         {
           "alt_m": 2000,
-          "N": 260,
-          "S": 230
+          "N": 270,
+          "S": 250
         }
       ],
       "icon_key": "snowpack",

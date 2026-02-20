@@ -3,8 +3,8 @@
   "massif": "Queyras",
   "bulletin": {
     "id": 17,
-    "issued_at": "2026-02-19T16:00:00",
-    "valid_until": "2026-02-20T18:00:00",
+    "issued_at": "2026-02-20T16:00:00",
+    "valid_until": "2026-02-21T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-21",
+        "date": "2026-02-22",
         "label": "Indice de risque marqué",
-        "comment": "Risque restant marqué. Des plaques sont en plaques, encore facilement déclenchables.",
+        "comment": "Risque restant marqué. Des plaques sont en places, mais deviennent de plus en difficiles à déclencher. Le vent faiblit, mais l'isotherme 0 degré remonte jusqu'à 3000 m. Le manteau neigeux s'humidifie progressivement.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-15",
-          "min_cm": 5,
-          "max_cm": 15
-        },
-        {
           "date": "2026-02-16",
           "min_cm": 20,
           "max_cm": 30
@@ -106,34 +101,39 @@
           "date": "2026-02-20",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-21",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 7
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "NOMBREUSES INSTABILITÉS DANS LA NEIGE RÉCENTE VENTÉE",
-      "text": "NOMBREUSES INSTABILITÉS DANS LA NEIGE RÉCENTE VENTÉE \n\nDéclenchements provoqués : nombreuses plaques dans la neige récente ventée, formées par les récentes chutes de neige et le fort vent. Elles sont présentes en toutes orientations, même si plus sensibles en orientations nord-est, est et sud-est, et sont encore facilement déclenchables au passage d'un seul skieur. Dans les combes bien abritées du vent, ces plaques sont encore d'aspect poudreux et donc difficilement identifiables. En revanche, à proximité des crêtes et sommets, ces plaques sont plutôt durcies par le vent et réparties de manière hétérogène, avec des accumulations localement épaisses. Ces plaques engendrent généralement des avalanches de taille petite à moyenne (taille 1 à 2). Une grande avalanche (taille 3), voire exceptionnellement une très grande (T4) est possible en cas de sollicitation d'une couche fragile persistante enfouie en ubacs, emportant une grande partie du manteau neigeux en place. Ce type de départ peut être initié par la surcharge liée au passage d'une première avalanche de surface.\n\nDéparts spontanés : avalanches de neige récente ventée. Départs ponctuels et superficiels au fil de l'ensoleillement : avalanches de taille petite à rarement moyenne. Départs parfois linéaires sous l'effet du transport par le vent de nord-ouest. Avalanches de taille moyenne (taille 2) ou grande (taille 3) en cas de déstabilisation d'une plaque en place.",
+      "text": "NOMBREUSES INSTABILITÉS DANS LA NEIGE RÉCENTE VENTÉE \n\nDéclenchements provoqués : des plaques sont en place dans la neige récente ventée et d'autres en formation avec le fort vent de nord-ouest à nord en altitude ce samedi. Elles sont présentes en toutes orientations, même si plus nombreuses et sensibles en orientations nord-est, est et sud-est, et sont encore facilement déclenchables au passage d'un seul skieur. Dans les pentes abritées du vent, ces plaques sont encore d'aspect poudreux et donc difficilement identifiables, mais ont tendance à se stabiliser. En revanche, à proximité des crêtes et sommets, ces plaques sont plutôt durcies par le vent et réparties de manière hétérogène, avec des accumulations localement épaisses. Ces plaques engendrent généralement des avalanches de taille petite à moyenne (taille 1 à 2). Une grande avalanche (taille 3), voire exceptionnellement une très grande (taille 4) est possible en cas de sollicitation d'une couche fragile persistante enfouie en ubacs, emportant une grande partie du manteau neigeux en place. Ce type de départ peut être initié par la surcharge liée au passage d'une première avalanche de surface.\n\nDéparts spontanés : avalanches de neige récente en pentes raides ensoleillées. Avec le redoux en journée, nombreux départs superficiels attendus dans les versants les plus ensoleillés (est, sud, ouest). Avalanches de taille petite, voire de taille moyenne. Au-dessus de 2000/2200 m, départs parfois linéaires sous l'effet du fort transport par le vent de nord à nord-ouest. Avalanches de taille moyenne (taille 2) ou grande (taille 3) dans le cas de déstabilisation d'une plaque en place.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales voir excédentaire vers le Briançonnais.\nHauteurs de neige observées : 187 cm en versant nord du col Izoard à 2300 m, 110 cm à Cervières à 1610, 98 cm à la Nivôse du Col Agnel à 2630 m, 72 cm à Ristolas à 1670 m. \n\nLimite d'enneigement skiable : dès 1000/1300 m en ubacs, plutôt 1400/1500 m en adrets.\n\nÉtat de la neige de surface : vendredi matin, on retrouve 20 à 30 cm de neige récente. Neige froide et légère dans les pentes bien abritées du vent, mais plus travaillée par le vent à proximité des crêtes et sommets. Manteau neigeux hétérogène sur les crêtes parfois décapées ou avec de grosses accumulations (corniches).",
+      "text": "L'enneigement est proche des normales voir excédentaire vers le Briançonnais.\nHauteurs de neige observées : 186 cm en versant nord du col Izoard à 2300 m, 113 cm à Cervières à 1610, 96 cm à la Nivôse du Col Agnel à 2630 m, 67 cm à Ristolas à 1670 m. \n\nLimite d'enneigement skiable : dès 1000/1300 m en ubacs, plutôt 1400/1500 m en adrets.\n\nÉtat de la neige de surface : couche de neige récente tombée entre jeudi et vendredi (localement jusqu'à 20/30 cm en altitude). Neige froide et légère dans les pentes bien abritées du vent, mais plus travaillée par le vent à proximité des crêtes et sommets. Manteau neigeux hétérogène sur les crêtes parfois décapées ou avec de grosses accumulations (corniches). Neige devenant plus lourde en dessous de 2000 m environ en ubacs, et s'humidifiant en surface jusqu'à 2500/2600 m en adrets.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1100,
-        "south": 1200
+        "north": 1000,
+        "south": 1000
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 65,
-          "S": 45
+          "N": 60,
+          "S": 40
         },
         {
           "alt_m": 2000,

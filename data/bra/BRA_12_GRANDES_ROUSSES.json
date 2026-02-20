@@ -3,48 +3,60 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-02-19T16:00:00",
-    "valid_until": "2026-02-20T18:00:00",
+    "issued_at": "2026-02-20T16:00:00",
+    "valid_until": "2026-02-21T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 5,
-      "comment": "Indice de risque très fort évoluant en fort.",
+      "max_level": 4,
+      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice marqué.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
-            "risk": 5,
-            "evolution_to": 4,
-            "position": null
+            "loc": "<2000",
+            "risk": 3,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
+            "risk": 4,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
-            "text": "5→4",
-            "risk": 5,
-            "evolution_to": 4
+          "bottom": {
+            "text": "3",
+            "risk": 3,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "4",
+            "risk": 4,
+            "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-02-21",
-        "label": "Indice de risque fort",
-        "comment": "Manteau neigeux non stabilisé dans de nombreuses pentes. De plus, un redoux intervient ce samedi : iso 0°C passant à 2500 m l'après-midi. En revanche la météo s'annonce enfin plus calme (anticyclone en formation).",
+        "max_level": 3,
+        "date": "2026-02-22",
+        "label": "Indice de risque marqué",
+        "comment": "Le fort redoux attendu dimanche pourrait déstabiliser les pentes ensoleillées, jusqu'à des altitudes plus élevées que samedi. Dans les versants à l'ombre, l'instabilité du manteau neigeux restera encore très présente.",
         "trend": "down"
       }
     },
@@ -67,21 +79,16 @@
     },
     "sat": {
       "primary": 1,
-      "secondary": 3,
+      "secondary": 2,
       "labels": {
         "1": "Neige fraîche",
-        "3": "Couche fragile persistante"
+        "2": "Neige ventée"
       },
       "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-15",
-          "min_cm": 15,
-          "max_cm": 30
-        },
         {
           "date": "2026-02-16",
           "min_cm": 20,
@@ -99,29 +106,34 @@
         },
         {
           "date": "2026-02-19",
-          "min_cm": 20,
+          "min_cm": 40,
           "max_cm": 60
         },
         {
           "date": "2026-02-20",
-          "min_cm": 3,
-          "max_cm": 7
+          "min_cm": 1,
+          "max_cm": 4
+        },
+        {
+          "date": "2026-02-21",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 23,
-        "last_48h_max_cm": 67
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 4
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "ABONDANTES CHUTES DE NEIGE VENTEES D'ICI VENDREDI MATIN : RISQUE D'AVALANCHE TRES FORT.",
-      "text": "ABONDANTES CHUTES DE NEIGE VENTEES D'ICI VENDREDI MATIN : RISQUE D'AVALANCHE TRES FORT.\n\nDéparts spontanés : risque très fort (5/5) évoluant en 4/5 vendredi dans la matinée. Nombreuses grandes à très grandes avalanches naturelles au fil des chutes de neige prévues entre cette nuit et vendredi matin (+30 à 50 cm ventés prévus dès 1600/1700 m, voire plus vers Vaujany ?). Avec le vent, d'abord de nord-ouest puis de nord, de nombreuses accumulations et grosses congères se forment et peuvent se rompre. Certaines peuvent solliciter des sous couches fragiles enfouies dans le manteau et engendrer des avalanches de grande ampleur.. Certaines routes et infrastructures peuvent être impactées par ces très grandes avalanches jusqu'en vallées, notamment vers Vaujany, Sardonne, Clavans par exemple.\n\nDéclenchements provoqués : la nouvelle neige ventée prévue d'ici vendredi matin se dépose sur un manteau neigeux déjà instable en diverses pentes et altitudes.De nouvelles et nombreuses structures de plaques vont se former et seront facilement déclenchables au passage d'un skieur/randonneur, y compris aux modestes altitudes. Ce risque accidentel reste fort (risque maximal pour les déclenchements provoqués) toute la journée de vendredi, d'autant que le vent reste actif jusqu'à vendredi soir. Grandes à très avalanches possibles si la rupture d'une plaque récente sollicite en contre bas des sous couches fragile persistantes, ou si le pratiquant parvient à les solliciter directement. Le volume de neige mobilisable serait alors très conséquent en cas de déclenchements.",
+      "title": "Forte instabilité du manteau neigeux en altitude.",
+      "text": "Forte instabilité du manteau neigeux en altitude.\n\nLes dernières chutes de neige ont été de l'ordre de 40/50 cm, s'ajoutant à des cumuls déjà importants depuis plusieurs jours. Un vent de nord soutenu entraîne le transport de grosses quantités de neige meuble en altitude.\nDéclenchements provoqués : les éclaircies ensoleillées de ce vendredi ont favorisé le tassement de la neige récente sur la partie basse du massif. Par contre, au dessus de 2000 m environ, la neige récente n'est pas stabilisée, ce à quoi s'ajoutent de grosses accumulations dues au vent de nord. Les plaques, friables ou dures selon le travail du vent, sont très réactives. Les déclenchements préventifs effectués en station mettent en mouvement de gros volumes de neige et l'instabilité est encore plus sensible au dessus de 2300/2500 m.\nDéparts spontanés : ils peuvent être de différentes nature : soit des coulées de neige récente (taille 1 à 2) dans les pentes raides exposées au soleil pour la première fois depuis les dernières chutes, soit des plaques de neige sèche surchargées par le vent de nord dans les secteurs à plus de 2000/2400 m, soit des avalanches de glissement emportant la totalité du manteau neigeux jusqu'au terrain, notamment dans les pentes herbeuses raides et ensoleillées en dessous de 1800/2000 m.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  l'enneigement devient bon pour la saison dès 1200 m, puis abondant au-dessus de 1500-1700 m , notamment dans les combes... Crêtes parfois dégarnies/ grosses congères et corniches sommitales...\n\nLimites skiables : vers 1100/1300 m... sur les pistes forestières/clairières...\n\nQualité de la neige vendredi : 30 à 50 cm de neige fraîche dès 1700 m sur le massif au matin (voire plus secteur Vaujany ?), mais souvent pas homogène à cause du vent de nord-ouest puis nord, crêtes souvent soufflées. Neige fraîche plus humide sous 1300/1400 m environ. En altitude présence de récentes grosses congères/corniches...",
+      "text": "Qualification de l’enneigement :  l'enneigement est bon pour la saison dès 1200 m, puis abondant au dessus de 1500 m environ, notamment dans les combes d'altitude. Les crêtes sont parfois dégarnies ou parfois fortement cornichées.\n\nLimites skiables : vers 1100/1300 m.\n\nQualité de la neige samedi :  alourdie et légèrement croûtée en début de journée jusqu'à 1600/2000 m selon les versants. Dans les ubacs d'altitude, la neige sera souvent soufflée. Dans les combes abritées du vent, on trouvera de grosses quantités de neige profonde.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 175,
-          "S": 115
+          "N": 180,
+          "S": 120
         },
         {
           "alt_m": 2000,
-          "N": 300,
-          "S": 225
+          "N": 320,
+          "S": 250
         },
         {
           "alt_m": 2500,
-          "N": 400,
-          "S": 355
+          "N": 420,
+          "S": 370
         }
       ],
       "icon_key": "snowpack",
