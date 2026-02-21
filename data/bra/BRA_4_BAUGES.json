@@ -3,61 +3,49 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-02-20T16:00:00",
-    "valid_until": "2026-02-21T18:00:00",
+    "issued_at": "2026-02-21T16:00:00",
+    "valid_until": "2026-02-22T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice marqué.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2000,
-        "split_axis": "horizontal",
-        "split_label": "2000m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
-            "risk": 3,
+            "loc": null,
+            "risk": 2,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2000",
-            "risk": 4,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2000m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "3",
-            "risk": 3,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "4",
-            "risk": 4,
+          "center": {
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-22",
-        "label": "Indice de risque marqué",
-        "comment": "Le manteau neigeux se stabilise. Belle journée ensoleillée et douce.",
-        "trend": "down"
+        "max_level": 2,
+        "date": "2026-02-23",
+        "label": "Indice de risque limité",
+        "comment": "Risque stationnaire. Un peu plus nuageux.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -78,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 5,
+      "primary": 5,
+      "secondary": 4,
       "labels": {
-        "1": "Neige fraîche",
-        "5": "Avalanche de fond"
+        "5": "Avalanche de fond",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-5"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-16",
-          "min_cm": 30,
-          "max_cm": 40
-        },
         {
           "date": "2026-02-17",
           "min_cm": 5,
@@ -117,23 +100,28 @@
         {
           "date": "2026-02-21",
           "min_cm": 0,
+          "max_cm": 1
+        },
+        {
+          "date": "2026-02-22",
+          "min_cm": 0,
           "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 2
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nombreuses instabilités en altitude.",
-      "text": "Nombreuses instabilités en altitude.\n\nDéclenchements provoqués : \n* Au-dessus de 2000 m : nombreuses plaques friables dans la neige fraîche. Plaques généralisées, très sensibles, épaisses : cassure pouvant facilement dépasser 1 m  dans les accumulations, et larges. Au soleil, les plaques pourront être temporairement plus sensibles. Taille 2 (moyenne) à 3 (grandes). \n* Entre 1600/1800 m et 2000 m : quelques plaques dans la neige récente humide. Moins sensibles et épaisses qu'en altitude, ces plaques seront temporairement plus sensibles au soleil l'après-midi. Taille 1 à 2 (petite à moyenne).\n\nDéparts spontanés :\n* En dessous de 2200 m :  plaques de fond. Tous versants, mais départs plus nombreux dans les pentes sud. Départs dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Taille 2 (moyenne) à 3 (grande).\n* Chutes de corniches, épaisses et volumineuses, pouvant solliciter de très larges plaques friables.\n* Au fil de l'ensoleillement, départ en poire dans la neige récente humidifié. Taille 1 à 2.",
+      "title": "Redoux : plaques de fond et neige humide",
+      "text": "Redoux : plaques de fond et neige humide\n\nDéparts spontanés :\n* En dessous de 2200 m :  plaques de fond. Tous versants, mais départs plus nombreux dans les pentes sud. Départs dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Taille 2 (moyenne) à 3 (grande).\n* Chutes de corniches, épaisses et volumineuses, pouvant solliciter de très larges plaques friables.\n* Au fil de l'ensoleillement, départ en poire dans la neige récente humidifiée. Taille 1 à 2. \n\nDéclenchements provoqués : \n* Au-dessus de 1800 m : quelques plaques dans la neige récente humide. Un peu plus sensible dans les ubacs proches des plus hauts sommets. Taille 1 à 2 (petite à moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Bon pour la saison à toutes altitudes grâce aux fréquentes chutes de neige du mois de février. On peut chausser les skis vers 1200 m dans tous les versants. L'épaisseur du manteau neigeux varie : nombreuses congères et corniches. \n\nQualité de la neige samedi :\nEn dessous de 1400/1600 m : neige humide et très lourde.\nEntre 1600/1800 m et 2000 m : neige fraiche matée/ légèrement humidifiée, dense et lourde sous les skis.\nSur les plus hauts sommets : neige fraiche, restée légère. Parfois légèrement travaillée par le vent.",
+      "text": "Enneigement : Bon pour la saison à toutes altitudes grâce aux fréquentes chutes de neige du mois de février. On peut chausser les skis vers 1200 m dans tous les versants. L'épaisseur du manteau neigeux varie : nombreuses congères et corniches. \n\nQualité de la neige dimanche :\n- En dessous de 1600/1800 m : crouté le matin, puis neige humide et très lourde.\n- Au-dessus de 1800 m : finement crouté le matin qui s'humidifie en journée. En ubacs, proche des plus hauts sommets, neige encore froide et souple qui se densifie en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 15,
-          "S": 10
+          "N": 5,
+          "S": 5
         },
         {
           "alt_m": 1500,
-          "N": 170,
-          "S": 150
+          "N": 150,
+          "S": 130
         },
         {
           "alt_m": 2000,
-          "N": 240,
-          "S": 200
+          "N": 220,
+          "S": 180
         }
       ],
       "icon_key": "snowpack",
