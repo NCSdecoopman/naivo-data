@@ -3,37 +3,49 @@
   "massif": "Thabor",
   "bulletin": {
     "id": 13,
-    "issued_at": "2026-02-21T16:00:00",
-    "valid_until": "2026-02-22T18:00:00",
+    "issued_at": "2026-02-22T16:00:00",
+    "valid_until": "2026-02-23T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité évoluant en marqué.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
+            "risk": 2,
+            "evolution_to": 3,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2→3",
+            "risk": 2,
+            "evolution_to": 3
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-23",
+        "date": "2026-02-24",
         "label": "Indice de risque marqué",
-        "comment": "Le manteau neigeux reste encore assez instable : présence de plaques pouvant être épaisses + activité naturelle en neige humide à des altitudes de plus en plus élevées.",
+        "comment": "Encore quelques plaques en altitude. Hausse de l'activité en neige humide au soleil et gagnant des altitudes plus élevées, avec la douceur encore plus marquée. Départ volumineux possible. \nMaintien probable d'un risque marqué.",
         "trend": "steady"
       }
     },
@@ -67,21 +79,16 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 3,
+      "secondary": 4,
       "labels": {
         "2": "Neige ventée",
-        "3": "Couche fragile persistante"
+        "4": "Neige humide"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-17",
-          "min_cm": 5,
-          "max_cm": 15
-        },
         {
           "date": "2026-02-18",
           "min_cm": 15,
@@ -106,6 +113,11 @@
           "date": "2026-02-22",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-23",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "SITUATION ENCORE DÉLICATE : PLAQUES POUVANT ÊTRE ÉPAISSES ET ACTIVITÉ NATURELLE EN NEIGE HUMIDE AU SOLEIL",
-      "text": "SITUATION ENCORE DÉLICATE : PLAQUES POUVANT ÊTRE ÉPAISSES ET ACTIVITÉ NATURELLE EN NEIGE HUMIDE AU SOLEIL\n\nDéclenchements provoqués : les plaques formées par le vent de nord-ouest des derniers jours sont encore faciles à déclencher. Elles se trouvent dans les accumulations derrière les bosses, les ruptures de pentes, même loin en contrebas des crêtes là où le vent a soufflé fort. Avalanches petites à moyennes (taille 1 à 2). \nParfois, les cassures sont nettement plus épaisses et emportent la quasi-totalité du manteau neigeux en place, engendrant alors des grandes avalanches (taille 3). Propagation possible de la cassure sur une grande largeur, essentiellement en ubacs. Le départ d'une première avalanche de surface augmente fortement la probabilité de déclencher une plaque volumineuse de ce type, reposant sur des couches fragiles persistantes présentes à la base du manteau neigeux.\n\nDéparts spontanés : - dans les pentes ensoleillées, avalanches de neige humide de plus en plus fréquentes au fil de la journée, départs essentiellement près des rochers. Plutôt superficielles à haute altitude, ces avalanches peuvent finir par mobiliser des volumes de neige plus conséquents sous 2000/2200 m. Avalanches moyennes voire grandes (taille 2 à 3) si topographie favorable, et pouvant descendre à basse altitude dans les couloirs habituels.\n- près des crêtes/sommets, encore quelques départs de plaques suite au transport de neige par le vent, au passage de boulettes/avalanches superficielles de neige humide, ou à la chute d'une corniche.",
+      "title": "MANTEAU NEIGEUX HÉBERGEANT ENCORE DES INSTABILITÉS SOUS FORME DE PLAQUES OU EN NEIGE HUMIDE AU SOLEIL",
+      "text": "MANTEAU NEIGEUX HÉBERGEANT ENCORE DES INSTABILITÉS SOUS FORME DE PLAQUES OU EN NEIGE HUMIDE AU SOLEIL\n\nDéclenchements provoqués : au-dessus de 2000 m environ, quelques plaques peuvent encore céder au passage d'un seul skieur, entretenues par le vent de nord-ouest qui se renforce à nouveau et transporte de la neige en altitude. Avalanches petites à moyennes (taille 1 à 2) quand elles ne mobilisent que la neige ventée, mais la probabilité de déclencher une plaque épaisse et large (taille 3) reste malheureusement encore d'actualité, en cas de rupture sur la couche fragile persistante enfouie à la base du manteau neigeux. Déclenchement de ces plaques volumineuses plus probable sur les bords des pentes près des rochers, à proximité des croupes, là où l'épaisseur de neige est moins importante, mais aussi suite au départ d'une première avalanche de surface.\n\nDéparts spontanés :  * Dans les pentes raides ensoleillées, l'activité en neige humide est à nouveau en hausse au fil de la journée sur la partie sud du massif. Départs essentiellement près des rochers ou des barres. Plutôt superficielles à haute altitude, ces avalanches peuvent finir par mobiliser des volumes de neige plus conséquents sous 2000/2200 m. Avalanches moyennes, voire grandes (taille 2 à 3) si topographie favorable, et pouvant descendre ponctuellement à basse altitude dans les couloirs habituels.\n* Quelques départs de plaques suite au transport de neige par le vent, au passage d'une première petite avalanche de surface (boulettes, neige humidifiée), ou à la chute d'une corniche.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est excédentaire pour un mois de février. \nHauteurs de neige observées vers 2500 m : 210 cm dans le vallon du Chardonnet, 150 cm à la Nivôse des Rochilles, 95 cm à la Nivôse du Galibier.\n\nLimite d'enneigement skiable en fond de vallées.\n\nÉtat de la neige de surface : manteau neigeux fortement travaillé par le vent de nord-ouest qui a cartonné ou durci de nombreuses pentes. Enneigement hétérogène près des hautes crêtes avec d'importantes accumulations et corniches qui côtoient des secteurs décapés par le vent. \nLa neige de surface reste froide et plus légère dans les ubacs abrités du vent, elle est souvent en cycle printanier dans les adrets (croûtée le matin, puis humidification au soleil en journée).",
+      "text": "L'enneigement est excédentaire pour un mois de février. \nHauteurs de neige observées vers 2500 m : 205 cm dans le vallon du Chardonnet, 145 cm à la Nivôse des Rochilles, 95 cm à la Nivôse du Galibier (secteur venté).\n\nLimite d'enneigement skiable en fond de vallées.\n\nÉtat de la neige de surface : manteau neigeux fortement travaillé par le vent qui a cartonné ou durci de nombreuses pentes. Enneigement hétérogène près des hautes crêtes avec d'importantes accumulations et corniches qui côtoient des secteurs décapés par le vent. \nLa neige de surface reste froide et plus légère dans les ubacs d'altitude abrités du vent. Elle est en cycle printanier dans les adrets jusqu'à haute altitude, ou dans les ubacs sous 1800/2000 m (croûtée le matin, puis humidification en journée).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 120,
-          "S": 100
+          "N": 110,
+          "S": 80
         },
         {
           "alt_m": 2000,
-          "N": 180,
+          "N": 170,
           "S": 150
         },
         {
           "alt_m": 2500,
-          "N": 250,
-          "S": 200
+          "N": 230,
+          "S": 180
         }
       ],
       "icon_key": "snowpack",

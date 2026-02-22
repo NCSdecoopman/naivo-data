@@ -3,14 +3,14 @@
   "massif": "Maurienne",
   "bulletin": {
     "id": 9,
-    "issued_at": "2026-02-21T16:00:00",
-    "valid_until": "2026-02-22T18:00:00",
+    "issued_at": "2026-02-22T16:00:00",
+    "valid_until": "2026-02-23T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 3,
+            "risk": 2,
             "evolution_to": null,
             "position": null
           }
@@ -34,18 +34,18 @@
         },
         "zones": {
           "center": {
-            "text": "3",
-            "risk": 3,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-02-23",
+        "date": "2026-02-24",
         "label": "Indice de risque limité",
-        "comment": "La stabilisation se poursuit efficacement, le risque est \"limité\" : quelques plaques encore localement réactives en altitude, poursuite de l'humidification au soleil et plaques de fond en moyenne montagne.",
-        "trend": "down"
+        "comment": "Bon regel nocturne grâce au ciel clair et forte chaleur en journée. L'humidification du manteau va, en journée, gagner en profondeur dans les pentes ensoleillées engendrant de nouvelles et parfois grandes avalanches de neige humide. Le risque de plaque se cantonne lui peu à peu aux pentes froides de haute altitude.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 5,
       "secondary": 3,
       "labels": {
-        "2": "Neige ventée",
+        "5": "Avalanche de fond",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-5"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-17",
-          "min_cm": 10,
-          "max_cm": 15
-        },
         {
           "date": "2026-02-18",
           "min_cm": 15,
@@ -106,6 +101,11 @@
           "date": "2026-02-22",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-23",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,19 +115,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES PLAQUES ENCORE PARFOIS TRÈS RÉACTIVES DANS UN MANTEAU PEU STABILISÉ.\nREDOUX MARQUÉ CAUSANT DE NOMBREUX DÉPARTS NATURELS EN MOYENNE MONTAGNE.",
-      "text": "QUELQUES PLAQUES ENCORE PARFOIS TRÈS RÉACTIVES DANS UN MANTEAU PEU STABILISÉ.\nREDOUX MARQUÉ CAUSANT DE NOMBREUX DÉPARTS NATURELS EN MOYENNE MONTAGNE.\n\nDéclenchements provoqués : on trouve encore quelques plaques très sensibles au passage d'un skieur. Ces plaques sont friables à dures, avec parfois peu d'indices visuels pour les distinguer, le vent de nord-ouest ayant plus ou moins contribué à leur formation selon les secteurs. Au vu des forts cumuls de neige récente, les cassures peuvent être très épaisses donnant généralement des avalanches de taille 2 (moyennes). On retrouve ces plaques dès 2000/2200 m en nord, beaucoup plus haut et de façon limitée en sud. \nFacteur aggravant, au-dessus de 2000 m et en versants froids (Est/Nord/Ouest), les couches fragiles persistantes enfouies dans le manteau pourront encore réagir au passage d'un skieur ou en cascade à la suite d'une première plaque : elles engendrent alors de plus grandes et larges avalanches (taille 3).\n\nDéparts spontanés : le redoux se poursuit, avec un isotherme 0 °C qui atteint 2800 m. On s'attend à : \n(1) En tous versants sous 2000/2400 m, de nombreuses plaques de fond et glissements de talus, surtout dans les pentes raides et herbeuses. Les épaisseurs de neige étant notables dès ces moyennes altitudes (100-150 cm), les volumes mobilisés sont conséquents et les avalanches de taille 1 à 2 ainsi engendrées peuvent concerner les routes ou parkings d'altitude.\n(2) En Sud jusqu'à haute altitude, quelques départs ponctuels dans la neige fraîche s'humidifiant : les falaises et couloirs raides se purgent sous le soleil. Généralement des tailles 1 (petites) à 2, mais une exceptionnelle avalanche de taille 3 mobilisant en cascade la couche fragile persistante enfouie n'est pas exclue.",
+      "title": "LE MANTEAU SE TASSE ET S'HUMIDIFIE BEAUCOUP SOUS  2300M ET SE STABILISE LENTEMENT AU DESSUS",
+      "text": "LE MANTEAU SE TASSE ET S'HUMIDIFIE BEAUCOUP SOUS  2300M ET SE STABILISE LENTEMENT AU DESSUS\n\nDéparts spontanés :  Plaques de fond et glissement de talus possible en tous versants sous 2300/2400 m, avec des températures positives sous un ciel attendu couvert le réchauffement du manteau neigeux en cours va se poursuivre ce lundi.  Départ possible, surtout dans les pentes raides et herbeuses, les épaisseurs de neige étant notables dès ces moyennes altitudes (100-150 cm), les volumes mobilisés sont conséquents et les avalanches de taille 2 voir rare  3  pouvant localement toucher une route d'altitude.\nDéclenchements provoqués : rares plaques friables ou dures  encore sensibles au passage d'un ou plusieurs skieurs. On retrouve ces plaques dans la neige restée froide/poudreuse (non croutée ) donc dès 2100/2300 m en Nord et Nord-Est, beaucoup plus haut et de façon localisé dans les autres orientations. La probabilité de déclenchement baisse de jour en jour. Ces  plaques  restent toutefois sensible là où elle reposent sur des couches fragiles persistantes pas trop profondément enfouies: donc plutôt dans les secteurs moins enneigés comme les abords des crêtes ou croupes ventées. Se méfiez aussi des zones où des départs ont déjà eu lieu et qui ne sont maintenant recouvert que par la dernière chute.   Au vu des forts cumuls de neige récente encore moyennement stabilisés, les cassures peuvent être très épaisses  (jusqu'à 2m) donnant des avalanches de taille 2 (moyennes)voir exceptionnellement  3 (grande avalanche).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : excédentaire à toutes les altitudes et dans tous les versants. Les départs classiques de ski de randonnée sont désormais copieusement enneigés. Les trois perturbations qui se sont succédé ont permis d'épaissir le manteau d'en moyenne 1 m vers 2000 m. \n\nLimite skiable :  skiable dès 900/1000 m dans les prairies orientées Nord, plutôt 1200/1400 m en Sud pas trop raide.\n\nQualité de la neige : la neige a subi une humidification superficielle en tous versants sous 2000 m, et même bien plus haut en sud. La neige y est croutée infâme le matin suite au bon regel, puis lourde voire collante en journée. Cette humidification va se poursuivre en sud jusqu'à haute altitude en journée, avec le soleil qui sort pleinement pour la première fois (bottage probable).\nEn versants ombragés, la neige est globalement très travaillée par le vent, avec des quantités certes importantes mais rendues très hétérogènes (certaines croupes sont quasiment dégarnies).",
+      "text": "Enneigement :  excédentaire à toutes les altitudes et dans tous les versants. Les départs classiques de ski de randonnée sont copieusement enneigés. Les trois perturbations qui se sont succédé ont permis d'épaissir le manteau d'au moins 150 cm à partir de 2000 m. \n\nLimite skiable :  skiable dès 900 m dans les prairies orientées Nord, plutôt 1100/1200 m en Sud pas trop raide.\n\nQualité de la neige : Sous 2200/2300m  en toute orientation neige croutée non portante le matin devenant humide et toujours assez lourde une fois la croute de surface ramollie.\nAu dessus croutée en sud toute la journée avec un localement  léger saupoudrage en matinée. \nIl faut monter au dessus de 2300m en Nord pour trouver une neige encore froide le matin, celle ci pourrait s'humidifier et botter en journée sous les nuages qui font réchauffer la neige jusque vers 2500m. La neige ne restera poudreuse ou durcie par le vent qu'au dessus de 2500m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 800,
-        "south": 800
+        "south": 1000
       },
       "levels_cm": [
         {

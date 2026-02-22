@@ -3,8 +3,8 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-02-21T16:00:00",
-    "valid_until": "2026-02-22T18:00:00",
+    "issued_at": "2026-02-22T16:00:00",
+    "valid_until": "2026-02-23T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-23",
+        "date": "2026-02-24",
         "label": "Indice de risque marqué",
-        "comment": "Lundi, poursuite du temps ensoleillé et doux entraînant humidification et tassement en moyenne montagne et dans les adrets.  Par contre en haute montagne, la stabilisation reste lente et le risque accidentel encore marqué.",
+        "comment": "Mardi, temps ensoleillé et très doux, accélérant l'humidification du manteau neigeux dans les adrets. Dans les versants ombragés, toujours une problématique de plaque dure en haute montagne.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-17",
-          "min_cm": 5,
-          "max_cm": 10
-        },
-        {
           "date": "2026-02-18",
           "min_cm": 20,
           "max_cm": 25
@@ -118,6 +113,11 @@
           "date": "2026-02-22",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-23",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Grosses quantités de neige récente soufflée et mal stabilisée en altitude.",
-      "text": "Grosses quantités de neige récente soufflée et mal stabilisée en altitude.\n\nDéclenchements provoqués : Dans les zones abritées du vent à plus de 2200 m, la neige récente est encore insuffisamment stabilisée et reste sensible au passage d'un skieur (plaques friables de taille 2 en général). D'autre part, le vent de nord a transporté d'importantes quantités de neige meuble récemment tombée  et de grosses accumulations sont en place. Elles sont plus difficiles à mettre en mouvement par un randonneur, mais en cas de déclenchement, la cassure peut très souvent dépasser 1 mètre.\nDéparts spontanés : Jusqu'en milieu de nuit de samedi à dimanche, il n'est pas exclu qu'une plaque chargée par la neige rapportée par le vent de nord puisse céder sur la partie haute du massif. En journée de dimanche, le risque concerne surtout la recrudescence des avalanches de fond dans les versants ensoleillés jusqu'à 1800/2200 m, emportant toute la neige jusqu'au sol (taille 1 et 2, rarement 3). Dans les adrets de plus haute altitude, le fort redoux pourrait provoquer des départs spontanés de neige humide.",
+      "title": "Plaques dures en haut et neige lourde en bas.",
+      "text": "Plaques dures en haut et neige lourde en bas.\n\nLe soleil et le fort redoux ont humidifié et considérablement densifié le manteau neigeux dans la quasi totalité des pentes de moyenne montagne et dans les versants ensoleillés jusqu'à plus de 2400 m. Par contre, dans les versants ombragés de haute montagne, les conditions sont plus hivernales.\nDéclenchements provoqués : le vent de nord de ces deux derniers jours a déplacé de grandes quantités de neige meuble et formé de grosses accumulations en altitude. Elles sont devenues plus difficiles à déclencher au passage d'un skieur, mais si une plaque dure vient à céder, les volumes de neige peuvent être importants avec des cassures de plus d'un mètre.\nDéparts spontanés : ils concernent surtout les reptations observées depuis deux jours, cédant de manière aléatoire en emportant toute la neige jusqu'au sol. Les versants au soleil en dessous de 2000/2200 m sont les plus propices pour ces avalanches dont l'ampleur ne devrait pas excéder.la taille 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  l'enneigement est bon pour la saison dès 1200 m, puis abondant au dessus de 1500 m environ, notamment dans les combes d'altitude. Les crêtes sont parfois dégarnies ou parfois fortement cornichées.\n\nLimites skiables : vers 1100/1300 m.\n\nQualité de la neige dimanche :  Neige lourde au moins jusqu'à 1800 m, croûtée en début de journée et s'humidifiant rapidement et plus profondément dans les versants ensoleillés. Dans les ubacs d'altitude, la neige est souvent soufflée. Dans les combes abritées du vent, on trouve de grosses quantités de neige profonde.",
+      "text": "Qualification de l’enneigement :  l'enneigement est bon pour la saison dès 1200 m, puis abondant au dessus de 1500 m environ, notamment dans les combes d'altitude. Les crêtes sont parfois dégarnies ou parfois fortement cornichées.\n\nLimites skiables : vers 1100/1300 m.\n\nQualité de la neige lundi :  Neige lourde au moins jusqu'à 2000 m, croûtée en début de journée et s'humidifiant dans les versants ensoleillés. Dans les ubacs d'altitude, la neige est souvent soufflée. Dans les combes abritées du vent, on trouve de grosses quantités de neige profonde.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 180,
-          "S": 120
+          "N": 170,
+          "S": 110
         },
         {
           "alt_m": 2000,
-          "N": 280,
-          "S": 240
+          "N": 270,
+          "S": 230
         },
         {
           "alt_m": 2500,
-          "N": 400,
-          "S": 360
+          "N": 390,
+          "S": 350
         }
       ],
       "icon_key": "snowpack",
