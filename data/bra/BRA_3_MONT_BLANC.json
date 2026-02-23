@@ -3,32 +3,32 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-02-22T16:00:00",
-    "valid_until": "2026-02-23T18:00:00",
+    "issued_at": "2026-02-23T16:00:00",
+    "valid_until": "2026-02-24T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2500m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 2200m indice de risque limité évoluant en marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2500,
+        "threshold_m": 2200,
         "split_axis": "horizontal",
-        "split_label": "2500m",
+        "split_label": "2200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2500",
+            "loc": "<2200",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2500",
-            "risk": 3,
-            "evolution_to": null,
+            "loc": ">2200",
+            "risk": 2,
+            "evolution_to": 3,
             "position": "top"
           }
         ]
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2500m"
+          "label": "2200m"
         },
         "zones": {
           "bottom": {
@@ -46,30 +46,30 @@
             "evolution_to": null
           },
           "top": {
-            "text": "3",
-            "risk": 3,
-            "evolution_to": null
+            "text": "2→3",
+            "risk": 2,
+            "evolution_to": 3
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-24",
+        "date": "2026-02-25",
         "label": "Indice de risque marqué",
-        "comment": "Risque stationnaire. Ensoleillé et températures en hausse.",
+        "comment": "Le risque reste marqué en journée de mercredi au vu des températures encore bien chaudes pour la saison.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
+        "N": false,
+        "NE": false,
         "E": true,
         "SE": true,
         "S": true,
         "SW": true,
         "W": true,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 4,
       "secondary": 5,
       "labels": {
-        "2": "Neige ventée",
+        "4": "Neige humide",
         "5": "Avalanche de fond"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-18",
-          "min_cm": 10,
-          "max_cm": 15
-        },
         {
           "date": "2026-02-19",
           "min_cm": 30,
@@ -118,6 +113,11 @@
           "date": "2026-02-23",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-24",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Encore des instabilités en altitude.",
-      "text": "Encore des instabilités en altitude.\n\nDéclenchements provoqués : \n* Au-dessus de 2400/2500 m : plaques à vent dans la neige restée froide. Formés par le vent d'un large secteur Sud-Ouest à Nord. Plus nombreuses en altitude et dans les ubacs. Taille 1 à 2 (petite à moyenne)\nFacteur aggravant :\n - en versants Est/Nord/Ouest : une couche fragile persistante enfouie peut être sollicitée en cascade et donner de grandes, voire très grandes avalanches.\nObservables : accumulations, vaguelettes...\n\nDéparts spontanés :\n* En dessous de 2200 m :  plaques de fond. Tous versants, mais départs plus nombreux dans les pentes sud. Départs dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Taille 2 (moyenne) à 3 (grande).\n* Chutes de corniches, épaisses et volumineuses, pouvant solliciter de très larges plaques friables.",
+      "title": "Forte humidification du manteau neigeux, marqué en adrets.",
+      "text": "Forte humidification du manteau neigeux, marqué en adrets.\n\nDéparts spontanés :\n* Nombreuses avalanches de neige humide attendues sous la forte hausse des températures. Ces avalanches sont plus nombreuses dans les adrets, mais les ubacs  bas ne semblent pas être épargnés. Au fil de la journée, les départs sont de plus en plus probables. Au-dessus de 2000/2200m, les volumes mobilisables sont importants et ainsi des avalanches de taille 2 à 3 sont possibles. Plus bas, les volumes sont plus faibles, mais les départs potentiellement plus nombreux. Taille 1 à 2.\n* Sous 2200m, nombreuses plaques de fond en tous versants, avec des départs un peu plus nombreux dans un très large secteur sud (E/S/W). Départs dans les pentes raides et lisses. Taille 2, possiblement 3.\n\nDéclenchements provoqués : \n* Au-dessus de 2200m, il reste encore des plaques à vent dans la neige restée froide. Ces dernières ont été formées par le vent d'W/NW et sont plus nombreuses en altitude et dans les ubacs. Taille 1 à 2. Temporairement au soleil, ces plaques sont plus sensibles au skieur.\n* Dans les versants E/N/W de haute-montagne, une couche fragile persistante est encore présente (mais très enfouie), et pourrait engendrer en cascade de (très) grandes avalanches.\n* Coulées humides sous les skis dans les pentes raides.\n\nAutres :\n* Chutes de corniches, épaisses et volumineuses, pouvant solliciter de très larges plaques friables.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Bon pour la saison à toutes altitudes grâce aux fréquentes chutes de neige du mois de février. On peut chausser les skis vers 1200 m dans tous les versants. L'épaisseur du manteau neigeux varie : nombreuses congères et corniches. \n\nQualité de la neige lundi :\n- En dessous de 2200/2400 m : finement crouté le matin qui s'humidifie en journée. \n- Entre  2200/2400 m et 2500/2700 m :\n- en adrets : finement crouté \n- en ubacs : neige récente dense plus ou moins ventée.\n - au-dessus de 2500/2700 m : neige récente encore légère. Plus ou moins ventée en fonction de l'exposition au vent de W/SW.",
+      "text": "Enneigement : Bon pour la saison à toutes altitudes grâce aux fréquentes chutes de neige du mois de février. On peut chausser les skis vers 1200 m dans tous les versants. L'épaisseur du manteau neigeux varie : nombreuses congères, corniches et accumulations.\n\nQualité de la neige mardi :\n* Sous 1800m, évolution de printemps.\n* Entre 1800 et 2200/2400, fine croûte en matinée s'humidifiant rapidement et laissant une neige plutôt mate.\n* Au-dessus de 2400/2500 m : Neige récente encore légère. Plus ou moins ventée en fonction de l'exposition au vent de W/SW. Elle se densifie légèrement en cours de journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

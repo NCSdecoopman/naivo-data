@@ -3,30 +3,30 @@
   "massif": "Vanoise",
   "bulletin": {
     "id": 10,
-    "issued_at": "2026-02-22T16:00:00",
-    "valid_until": "2026-02-23T18:00:00",
+    "issued_at": "2026-02-23T16:00:00",
+    "valid_until": "2026-02-24T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2300m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 2500m indice de risque marqué, plus bas indice limité évoluant en marqué.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2300,
+        "threshold_m": 2500,
         "split_axis": "horizontal",
-        "split_label": "2300m",
+        "split_label": "2500m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2300",
+            "loc": "<2500",
             "risk": 2,
-            "evolution_to": null,
+            "evolution_to": 3,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2300",
+            "loc": ">2500",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,13 +37,13 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2300m"
+          "label": "2500m"
         },
         "zones": {
           "bottom": {
-            "text": "2",
+            "text": "2→3",
             "risk": 2,
-            "evolution_to": null
+            "evolution_to": 3
           },
           "top": {
             "text": "3",
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-24",
+        "date": "2026-02-25",
         "label": "Indice de risque marqué",
-        "comment": "Bon regel nocturne grâce au ciel clair et forte chaleur en journée. L'humidification du manteau va, en journée, gagner en profondeur dans les pentes ensoleillées engendrant de nouvelles et parfois grandes avalanches de neige humide. Le risque de plaque se cantonne lui peu à peu aux pentes froides de haute altitude.",
+        "comment": "Poursuite des conditions très chaudes en ciel clair et donc bon regel nocturne. Les conditions de printemps gagnent ainsi peu à peu du terrain avec toujours un risque de quelques gros départs en neige humide au fil du réchauffement de la journée.",
         "trend": "steady"
       }
     },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 5,
+      "primary": 4,
       "secondary": 3,
       "labels": {
-        "5": "Avalanche de fond",
+        "4": "Neige humide",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-5"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-18",
-          "min_cm": 10,
-          "max_cm": 20
-        },
         {
           "date": "2026-02-19",
           "min_cm": 25,
@@ -118,6 +113,11 @@
           "date": "2026-02-23",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-24",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,35 +127,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "LE MANTEAU SE TASSE ET S'HUMIDIFIE BEAUCOUP SOUS  2300M ET SE STABILISE LENTEMENT AU DESSUS",
-      "text": "LE MANTEAU SE TASSE ET S'HUMIDIFIE BEAUCOUP SOUS  2300M ET SE STABILISE LENTEMENT AU DESSUS\n\nDéparts spontanés :  Plaques de fond et glissement de talus possible en tous versants sous 2300/2400 m, avec des températures positives sous un ciel attendu couvert le réchauffement du manteau neigeux en cours va se poursuivre ce lundi.  Départ possible, surtout dans les pentes raides et herbeuses, les épaisseurs de neige étant notables dès ces moyennes altitudes (100-150 cm), les volumes mobilisés sont conséquents et les avalanches de taille 2 voir 3  ainsi engendrées peuvent concerner localement les routes ou parkings d'altitude.\n\nDéclenchements provoqués : Quelques plaques friables ou dures  encore sensibles au passage d'un ou plusieurs skieurs. On retrouve ces plaques dans la neige restée froide/poudreuse (non croutée ) donc dès 2200/2300 m en Nord et Nord-Est, beaucoup plus haut et de façon localisé dans les autres orientations. La probabilité de déclenchement baisse de jour en jour. Ces  plaques  restent toutefois sensible là où elle reposent sur des couches fragiles persistantes pas trop profondément enfouies: donc plutôt dans les secteurs moins enneigés comme les abords des crêtes ou croupes ventées. Se méfiez aussi des zones où des départs ont déjà eu lieu et qui ne sont maintenant recouvert que par la dernière chute.   Au vu des forts cumuls de neige récente encore moyennement stabilisés, les cassures peuvent être très épaisses  (jusqu'à 2m) donnant des avalanches de taille 2 (moyennes) à 3 (grande avalanche). Si ça part ça peut partir très gros",
+      "title": "PLAQUES A VENT SENSIBLES EN ALTITUDE ET FORT REDOUX EN JOURNEE ENGENDRANT UNE ASSEZ FORTE ACTIVITEE EN NEIGE HUMIDE PLUS BAS",
+      "text": "PLAQUES A VENT SENSIBLES EN ALTITUDE ET FORT REDOUX EN JOURNEE ENGENDRANT UNE ASSEZ FORTE ACTIVITEE EN NEIGE HUMIDE PLUS BAS\n\nDéparts spontanés :   - Quelques plaques de fond encore possible plutôt sous 2300m à toutes heures et en toutes orientations taille 2 à 3.  Départs  surtout dans les pentes raides et herbeuses ou dalles rocheuses, les épaisseurs de neige étant notables, les volumes mobilisés sont conséquents et peuvent localement atteindre fonds des hautes vallées et routes d'altitude.\n- Avec le redoux qui s'accentue encore, plaques en neige humide  devenant possible jusqu'à 2800m en cours de journée en versant sud et ouest surtout , la plupart en taille2 mais là aussi les volumes mobilisables peuvent engendrer de rares grandes avalanche de taille 3  \n\nDéclenchements provoqués : Quelques plaques friables ou dures  encore sensibles au passage d'un ou plusieurs skieurs. On retrouve ces plaques dans la neige restée froide en poudreuse  dense donc maintenant au dessus de 2500 m en Nord et Est, et beaucoup plus haut ailleurs ( vers 2800m ) La probabilité de déclenchement baisse de jour en jour. Mais ces  plaques  restent toutefois sensible là où elles reposent sur des couches fragiles persistantes pas trop profondément enfouies: donc plutôt dans les secteurs moins enneigés comme les abords des crêtes ou croupes ventées. Se méfiez aussi des zones où des départs ont déjà eu lieu et qui ne sont maintenant recouvert que par la dernière chute.   Ca ne part plus facilement mais ça peut partir gros avec des cassures pouvant aller jusqu'à 2m.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :  excédentaire à toutes les altitudes et dans tous les versants. Les trois perturbations qui se sont succédé ont permis d'épaissir le manteau d'au moins 150 cm à partir de 2000 m. Le tassement est très rapide depuis 3 jours mais il reste encore de la matière première.   \nLimite skiable :  skiable dès 900 m dans les prairies orientées Nord, plutôt 1100/1200 m en Sud pas trop raide.\nQualité de la neige : Sous 2200/2300m  en toute orientation neige croutée non portante le matin devenant humide et toujours assez lourde une fois la croute de surface ramollie.\nAu dessus croutée en sud toute la journée avec un localement  léger saupoudrage en matinée. \nIl faut monter au dessus de 2300m en Nord pour trouver une neige encore froide le matin, celle ci pourrait s'humidifier et botter en journée sous les nuages qui font réchauffer la neige jusque vers 2500m. La neige ne restera poudreuse ou durcie par le vent qu'au dessus de 2500m.",
+      "text": "Enneigement :   Heureusement les fortes chutes de la semaine dernière ont permis d'atteindre un enneigement  excédentaire à toutes altitudes.  Le fort réchauffement en cours engendre un fort tassement et une fonte accélérée aux plus basses altitudes qui ne vont pas rester bien enneigées longtemps à ce rythme .   \n\nLimite skiable :  Elle remonte assez vite: encore skiable ce mardi dès 1000 m dans les prairies orientées Nord, plutôt 1200 m en Sud pas trop raide.\n\nQualité de la neige : Ce mardi après un bon regel nocturne, neige croutée souvent portante le matin en sud devenant moquette à la bonne heure  puis assez pourrie en cours de journée. \nEn nord neige croutée souvent non portante jusqu'à 2300/2500m, la croute ramollie en cours de journée sans parfois disparaitre. \nAu dessus et toujours en Nord on pourra encore trouver de la neige froide, poudreuse dense à l'abri du vent ou très hétérogène entre carton et dure  dans les secteurs ventés.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 800,
-        "south": 1000
+        "north": 900,
+        "south": 1100
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 150,
-          "S": 120
+          "N": 130,
+          "S": 100
         },
         {
           "alt_m": 2000,
-          "N": 210,
-          "S": 150
+          "N": 180,
+          "S": 130
         },
         {
           "alt_m": 2500,
-          "N": 230,
-          "S": 200
+          "N": 210,
+          "S": 180
         }
       ],
       "icon_key": "snowpack",

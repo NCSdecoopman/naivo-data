@@ -3,8 +3,8 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-02-22T16:00:00",
-    "valid_until": "2026-02-23T18:00:00",
+    "issued_at": "2026-02-23T16:00:00",
+    "valid_until": "2026-02-24T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,22 +42,22 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-02-24",
+        "date": "2026-02-25",
         "label": "Indice de risque limité",
-        "comment": "Risque stationnaire. Ensoleillé et températures en hausse.",
+        "comment": "Le risque est stationnaire en journée de mercredi au vu des températures encore bien chaudes pour la saison.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
+        "N": false,
+        "NE": false,
         "E": true,
         "SE": true,
         "S": true,
         "SW": true,
         "W": true,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -66,21 +66,17 @@
       }
     },
     "sat": {
-      "primary": 5,
-      "secondary": null,
+      "primary": 4,
+      "secondary": 5,
       "labels": {
+        "4": "Neige humide",
         "5": "Avalanche de fond"
       },
-      "icon_key": "sat-5"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-18",
-          "min_cm": 10,
-          "max_cm": 15
-        },
         {
           "date": "2026-02-19",
           "min_cm": 30,
@@ -105,6 +101,11 @@
           "date": "2026-02-23",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-24",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Redoux et plaques de fond",
-      "text": "Redoux et plaques de fond\n\nDéparts spontanés :\n* A toutes altitudes :  plaques de fond. Tous versants, mais départs plus nombreux dans les pentes sud. Départs dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Taille 2 (moyenne) à 3 (grande).\n* Chutes de corniches, épaisses et volumineuses, pouvant solliciter de très larges plaques friables.\n\nDéclenchements provoqués : \n* Au-dessus de 1800 m : quelques plaques dans la neige récente. Surtout dans les ubacs des plus hauts sommets. Taille 1 à 2 (petite à moyenne).",
+      "title": "Forte humidification du manteau neigeux, marqué en adrets.",
+      "text": "Forte humidification du manteau neigeux, marqué en adrets.\n\nDéparts spontanés :\n* Nombreuses avalanches de neige humide attendues sous la forte hausse des températures. Ces avalanches sont plus nombreuses dans les adrets, mais les ubacs  bas ne semblent pas être épargnés. Au fil de la journée, les départs sont de plus en plus probables. Taille 2.\n* Nombreuses plaques de fond en tous versants, avec des départs un peu plus nombreux dans un très large secteur sud (E/S/W). Départs dans les pentes raides et lisses. Taille 2, possiblement 3.\n\nDéclenchements provoqués : \n* Sur les plus hauts sommets, il reste encore des plaques à vent dans la neige restée froide. Ces dernières ont été formées par le vent d'W/NW et sont plus nombreuses dans les ubacs. Taille 1 à 2. Temporairement au soleil, ces plaques sont plus sensibles au skieur.\n* Coulées humides sous les skis dans les pentes raides.\n\nAutres :\n* Chutes de corniches, épaisses et volumineuses, pouvant solliciter de très larges plaques friables.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Bon pour la saison à toutes altitudes grâce aux fréquentes chutes de neige du mois de février. On peut chausser les skis vers 1200 m dans tous les versants. L'épaisseur du manteau neigeux varie : nombreuses congères et corniches. \n\nQualité de la neige lundi :\n- En dessous de 1800 m : crouté le matin, puis neige humide et très lourde.\n- Au-dessus de 1800 m : finement crouté le matin qui s'humidifie en journée. En ubacs, proche des plus hauts sommets, neige encore froides et denses",
+      "text": "Enneigement : Bon pour la saison à toutes altitudes grâce aux fréquentes chutes de neige du mois de février. On peut chausser les skis vers 1200 m dans tous les versants. L'épaisseur du manteau neigeux varie : nombreuses congères, corniches et accumulations.\n\nQualité de la neige mardi :\n* Sous 1800m, évolution de printemps.\n* Au-dessus de 1800m, fine croûte en matinée s'humidifiant rapidement et laissant une neige plutôt mate.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
