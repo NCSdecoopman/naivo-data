@@ -3,14 +3,14 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-02-23T15:00:00",
-    "valid_until": "2026-02-24T18:00:00",
+    "issued_at": "2026-02-24T16:00:00",
+    "valid_until": "2026-02-25T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2300m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 2300m indice de risque marqué, plus bas indice limité évoluant en marqué.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2300,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": "<2300",
             "risk": 2,
-            "evolution_to": null,
+            "evolution_to": 3,
             "position": "bottom"
           },
           {
@@ -41,9 +41,9 @@
         },
         "zones": {
           "bottom": {
-            "text": "2",
+            "text": "2→3",
             "risk": 2,
-            "evolution_to": null
+            "evolution_to": 3
           },
           "top": {
             "text": "3",
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-02-25",
-        "label": "Indice de risque limité",
-        "comment": "Mercredi, temps ensoleillé et très doux, accélérant l'humidification du manteau neigeux en profondeur. Le risque prépondérant restera celui des avalanches de glissement dans les adrets de moyenne montagne et le risque de plaque en haute montagne..",
-        "trend": "down"
+        "max_level": 3,
+        "date": "2026-02-26",
+        "label": "Indice de risque marqué",
+        "comment": "Jeudi, le risque devrait peu évoluer, avec le maintien de conditions \"printanières\", un temps sec et ensoleillé, associé à un isotherme 0°C vers 3000 m.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -66,7 +66,7 @@
         "NE": true,
         "E": true,
         "SE": true,
-        "S": true,
+        "S": false,
         "SW": true,
         "W": true,
         "NW": true
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 5,
-      "secondary": 3,
+      "primary": 3,
+      "secondary": 4,
       "labels": {
-        "5": "Avalanche de fond",
-        "3": "Couche fragile persistante"
+        "3": "Couche fragile persistante",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-5"
+      "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-19",
-          "min_cm": 30,
-          "max_cm": 40
-        },
         {
           "date": "2026-02-20",
           "min_cm": 0,
@@ -118,6 +113,11 @@
           "date": "2026-02-24",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-25",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Déstabilisation de la neige humide en moyenne montagne et stabilisation de la neige sèche en altitude.",
-      "text": "Déstabilisation de la neige humide en moyenne montagne et stabilisation de la neige sèche en altitude.\n\nLe soleil et le fort redoux ont humidifié et considérablement densifié le manteau neigeux dans la quasi totalité des pentes de moyenne montagne et dans les versants ensoleillés jusqu'à plus de 2400 m. Par contre, dans les versants ombragés de haute montagne, les conditions restent plus hivernales.\nDéclenchements provoqués : le vent de nord a déplacé de grandes quantités de neige meuble et formé de grosses accumulations en altitude. Elles sont devenues plus difficiles à déclencher, mais si une plaque dure vient à céder, notamment en cas de couches fragiles insuffisamment enfouies,, les volumes de neige peuvent être importants avec des cassures de plus d'un mètre.\nDéparts spontanés : ils concernent surtout les reptations observées depuis plusieurs jours, cédant de manière aléatoire en emportant toute la neige jusqu'au sol. Les versants au soleil en dessous de 2000/2200 m sont les plus propices pour ces avalanches dont l'ampleur ne devrait pas excéder.la taille 2. L'humidification du manteau neigeux gagne en profondeur et le risque d'avalanches de neige humide augmente également au fil des jours.",
+      "title": "MAINTIEN DE QUELQUES INSTABILITÉS PROBLÉMATIQUES EN ALTITUDE, ET POURSUITE DE LA FORTE HUMIDIFICATION DE LA NEIGE RÉCENTE.",
+      "text": "MAINTIEN DE QUELQUES INSTABILITÉS PROBLÉMATIQUES EN ALTITUDE, ET POURSUITE DE LA FORTE HUMIDIFICATION DE LA NEIGE RÉCENTE.\n\nDéclenchements provoqués : Quelques instabilités restent dissimulées sous les importantes quantités de neige récente tombée la semaine dernière, encore possibles dans de nombreuses orientations à l'exception peut-être du plein Sud. Des plaques, parfois très épaisses dans les zones d'accumulations, reposent sur des couches fragiles persistantes enfouies. Leur stabilisation est assez lente, en particulier dans les versants ombragés d'altitude au-dessus de 2200/2400 m, moins impactées par le redoux. Bien que se faisant moins nombreuses au fil des jours et plus difficiles à déclencher, on ne peut exclure qu'un skieur isolé ou un groupe de skieurs puisse les solliciter localement. Par exemple, dans les secteurs où l'épaisseur du manteau neigeux est un peu moins importante, permettant de les atteindre plus facilement : en bord de zone d'accumulation, à proximité des rochers, ou dans des ruptures de pentes. Les volumes mobilisés peuvent être importants, avec des cassures potentiellement supérieures au mètre. Plus bas que 2200 m en revanche, le risque principal est plutôt de faire couler de la neige humide sous les skis en évoluant à un horaire inadapté dans une pente réchauffée.\n\nDéparts spontanés : Avec la période de grande douceur qui se prolonge, et l'humidification qui gagne en profondeur, des avalanches de neige humide restent possibles, plus probables en cours de journée dans les pentes réchauffées par le soleil. Localement en terrain herbeux / secteur de reptation de moyenne altitude, un départ d'une avalanche de fond reste possible à toute heure du jour ou de la nuit. De taille 1 à 2, avec quelques tailles 3 possibles au vu des volumes de neige récente. A signaler également un risque de rupture de corniche près des crêtes sommitales, pouvant déclencher une avalanche en contrebas. Plus bas que 1600/1800 m et en plein Sud, le risque semble être un peu plus limité, la neige s'y étant davantage transformée avec le redoux.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  l'enneigement est bon pour la saison dès 1200 m, puis abondant au dessus de 1500 m environ, notamment dans les combes d'altitude. On trouve des crêtes dégarnies par le vent ou au contraire fortement cornichées.\n\nLimites skiables : vers 1100/1300 m.\n\nQualité de la neige lundi :  Neige lourde au moins jusqu'à 2000/2400 m selon l'orientation, croûtée en début de journée et s'humidifiant dans les versants ensoleillés. Dans les ubacs d'altitude, la neige est souvent soufflée. Dans les combes abritées du vent, on trouve de grosses quantités de neige récente.",
+      "text": "Qualification de l’enneigement :  l'enneigement commence à régresser tout en bas, mais est bon pour la saison dès 1200 m, voire abondant au dessus de 1500 m environ, notamment dans les combes d'altitude. On trouve des crêtes un peu dégarnies par le vent, ou au contraire des corniches assez conséquentes.\n\nLimites skiables : vers 1100/1300 m.\n\nQualité de la neige mercredi :  Sous 2000/2400 m voire plus haut en Sud, neige humide avec un cycle de printemps, parfois croûtée en début de journée (regel pouvant être correct en l'absence de vent et sous ciel dégagé). L'humidification reprend en journée, plus marquée au soleil et gagnant en profondeur. Dans les versants ombragés au-dessus de 2000/2400 m, neige restée davantage poudreuse, bien que de plus en plus tassée/densifiée au fil des jours. A proximité des crêtes, neige parfois soufflée ou travaillée par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 160,
-          "S": 100
+          "N": 150,
+          "S": 90
         },
         {
           "alt_m": 2000,
-          "N": 260,
-          "S": 220
+          "N": 230,
+          "S": 170
         },
         {
           "alt_m": 2500,
-          "N": 380,
-          "S": 340
+          "N": 320,
+          "S": 280
         }
       ],
       "icon_key": "snowpack",
