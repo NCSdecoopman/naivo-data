@@ -3,8 +3,8 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-02-24T16:00:00",
-    "valid_until": "2026-02-25T18:00:00",
+    "issued_at": "2026-02-25T16:00:00",
+    "valid_until": "2026-02-26T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,7 +42,7 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-26",
+        "date": "2026-02-27",
         "label": "Indice de risque marqué",
         "comment": "L'activité en neige humide est à nouveau en hausse en cours de journée. Avalanches moyennes à grandes attendues. Maintien probable d'un risque marqué.",
         "trend": "steady"
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-20",
-          "min_cm": 0,
-          "max_cm": 1
-        },
-        {
           "date": "2026-02-21",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-02-25",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-26",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "ACTIVITÉ NATURELLE EN NEIGE HUMIDE AU SOLEIL MOBILISANT PARFOIS DE GRANDES QUANTITÉS DE NEIGE - RARES PLAQUES MAIS POTENTIELLEMENT ÉPAISSES",
-      "text": "ACTIVITÉ NATURELLE EN NEIGE HUMIDE AU SOLEIL MOBILISANT PARFOIS DE GRANDES QUANTITÉS DE NEIGE - RARES PLAQUES MAIS POTENTIELLEMENT ÉPAISSES\n\nDéparts spontanés : * Activité naturelle en neige humide en hausse au fil de la journée, influencée par la course du soleil. Départs initiés souvent près des rochers ou des barres, pouvant mobiliser des volumes de neige importants sous 2200/2400 m, en emportant parfois une grande partie du manteau neigeux en place. Avalanches moyennes à grandes (taille 2 à 3), descendant parfois à basse altitude dans les couloirs habituels. Départ linéaire possible.\n* Quelques plaques de fond peuvent céder spontanément à toute heure du jour ou de la nuit en terrain favorable (dalles lisses, sols herbeux). Avalanches moyennes à grandes (taille 2 à 3).\n* Une première petite avalanche superficielle de neige humide ou la chute d'une corniche peut engendrer un départ de plaque en contrebas.\n\nDéclenchements provoqués : * Les plaques de surfaces formées lors des derniers épisodes de vent sont pour la plupart stabilisées. Déclenchement désormais plus rare et pouvant engendrer une avalanche petite à moyenne (taille 1 à 2). \n* Dans les ubacs au-dessus de 2200/2300 m, le déclenchement d'une plaque plus large et plus épaisse ne peut être exclu, en cas de sollicitation de la couche fragile persistante enfouie à la base du manteau neigeux. Probabilité de déclenchement faible en général, concentrée au niveau des discontinuités de terrain (croupes, rochers affleurants, etc.), là où les épaisseurs de neige sont moins importantes et isolent un peu moins la couche fragile enfouie à la base du manteau neigeux.",
+      "title": "AVALANCHES DE NEIGE HUMIDE AU SOLEIL, PARFOIS GRANDES - RARES PLAQUES EN UBACS D'ALTITUDE",
+      "text": "AVALANCHES DE NEIGE HUMIDE AU SOLEIL, PARFOIS GRANDES - RARES PLAQUES EN UBACS D'ALTITUDE\n\nDéparts spontanés : * Activité naturelle en neige humide en hausse au fil de la journée, influencée par la course du soleil. Avalanches partant souvent près des rochers ou des barres, départs ponctuels ou linéaires, pouvant mobiliser des volumes de neige importants, en emportant une grande partie du manteau neigeux en place. Avalanches moyennes à grandes (taille 2 à 3), descendant parfois à basse altitude dans les couloirs habituels.\n* Quelques plaques de fond peuvent céder spontanément à toute heure du jour ou de la nuit en terrain favorable (dalles lisses, sols herbeux). Avalanches moyennes en général (taille 2).\n* Une première petite avalanche superficielle de neige humide ou la chute d'une corniche peut provoquer un départ de plaque en contrebas.\n\nDéclenchements provoqués : dans les ubacs au-dessus de 2200/2300 m, le déclenchement d'une plaque assez large et épaisse ne peut être exclu, en cas de sollicitation de la couche fragile persistante enfouie à la base du manteau neigeux. Probabilité de déclenchement faible en général, concentrée au niveau des discontinuités de terrain (croupes, rochers affleurants, etc.), là où les épaisseurs de neige moins importantes isolent moins bien la couche fragile enfouie.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est très excédentaire pour un mois de février.\n\nLimite d'enneigement skiable dès 1100/1200 m  sur terrain favorable, mais la neige fond rapidement en adrets raides et devient un peu juste sous 1600 m.\n\nÉtat de la neige de surface : * En adrets, manteau neigeux désormais bien printanier jusqu'à très haute altitude, petite croûte le matin, puis humidification au soleil l'après-midi, sur une grande épaisseur dans les pentes raides bien exposées.\n* En ubacs (nord-ouest à nord-est), croûte de quelques cm le matin sous 2200 m environ sur les zones peu pentues, s'humidifiant en cours de journée. Ailleurs, la neige est soit cartonnée/durcie par les épisodes de vent passés, ou en poudreuse dense dans les combes ou pentes abritées.",
+      "text": "L'enneigement est excédentaire pour un mois de février.\n\nLimite d'enneigement skiable dès 1100/1200 m  sur terrain favorable, mais la neige fond rapidement en adrets raides et devient un peu juste sous 1600 m.\n\nÉtat de la neige de surface : * En adrets, manteau neigeux désormais bien printanier jusqu'à très haute altitude, petite croûte le matin, puis humidification au soleil l'après-midi, sur une grande épaisseur dans les pentes bien exposées.\n* En ubacs (nord-ouest à nord-est), croûte de quelques cm le matin sous 2200 m environ sur les zones peu pentues, s'humidifiant en cours de journée. Ailleurs, la neige est soit cartonnée/durcie par les épisodes de vent passés, ou en poudreuse dense dans les combes ou pentes abritées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -131,18 +131,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 100,
-          "S": 60
+          "N": 70,
+          "S": 50
         },
         {
           "alt_m": 2000,
-          "N": 185,
-          "S": 145
+          "N": 180,
+          "S": 140
         },
         {
           "alt_m": 2500,
-          "N": 250,
-          "S": 185
+          "N": 230,
+          "S": 170
         }
       ],
       "icon_key": "snowpack",

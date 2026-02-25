@@ -3,8 +3,8 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-02-24T17:00:00",
-    "valid_until": "2026-02-25T18:00:00",
+    "issued_at": "2026-02-25T17:00:00",
+    "valid_until": "2026-02-26T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,7 +54,7 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-02-26",
+        "date": "2026-02-27",
         "label": "Indice de risque marqué",
         "comment": "Poursuite des conditions excessivement douces et de l'activité avalancheuse naturelle associée. Lente stabilisation des plaques en versants froids.",
         "trend": "steady"
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-20",
-          "min_cm": 0,
-          "max_cm": 2
-        },
-        {
           "date": "2026-02-21",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +113,11 @@
           "date": "2026-02-25",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-26",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -128,34 +128,34 @@
     },
     "stability": {
       "title": "FORTE ACTIVITE AVALANCHEUSE NATURELLE EN NEIGE HUMIDE (REDOUX). PLAQUES EN ALTITUDE.",
-      "text": "FORTE ACTIVITE AVALANCHEUSE NATURELLE EN NEIGE HUMIDE (REDOUX). PLAQUES EN ALTITUDE.  \n\nDéparts spontanés :   - Quelques plaques de fond encore possible plutôt sous 2300m à toutes heures et en toutes orientations taille 2 à 3.  Départs  surtout dans les pentes raides et herbeuses ou dalles rocheuses, les épaisseurs de neige étant notables, les volumes mobilisés sont conséquents et peuvent localement atteindre fonds des hautes vallées et routes d'altitude.\n- Avec le redoux qui s'accentue encore, plaques en neige humide  devenant possible jusqu'à 2800m en cours de journée en versant sud et ouest surtout , la plupart en taille2 mais là aussi les volumes mobilisables peuvent engendrer de rares grandes avalanche de taille 3  \n\nDéclenchements provoqués : Quelques plaques friables ou dures  encore sensibles au passage d'un skieur. Suite au vent de ces derniers jours on retrouve ces plaques dans la neige restée froide en poudreuse  dense donc maintenant plutôt au dessus de 2400/2500 m en Nord et Est, et beaucoup plus haut ailleurs ( vers 2800m ). Ces plaques restent sensible surtout là où elles reposent sur des couches fragiles persistantes pas trop profondément enfouies: donc plutôt dans les vallons les plus soufflées et secteurs moins enneigés comme les abords des crêtes ou croupes ventées. Se méfiez aussi des zones où des départs ont déjà eu lieu et qui ne sont maintenant recouvert que par la dernière chute.  Cassures de 5Ocm à largement plus de 1m Taille 2 à 3 .",
+      "text": "FORTE ACTIVITE AVALANCHEUSE NATURELLE EN NEIGE HUMIDE (REDOUX). PLAQUES EN ALTITUDE.  \n\nDéparts spontanés :  \n(1) après plusieurs heures au Soleil, la neige trop humide coule dans les pentes raides, au départ des barres rocheuses. Dans les versants Est à Ouest en passant par le Sud, l'avalanche peut prendre un aspect de plaque (par exemple : déclenchement en cascade) et engendrer une plus grande avalanche, jusqu'à la taille 3 (grande avalanche). Situation atypique avec de gros volumes mobilisables et des écoulements qui prennent rapidement de la vitesse.\n(2) des plaques de fond dans les pentes raides en herbe ou en dalle rocheuse à toutes heures et en toutes orientations, plutôt sous 2500 m. Le manteau neigeux actuel étant épais, les volumes mobilisés sont plus conséquents que d'habitude. Moyennes à grandes avalanches possibles (taille 2 à 3).\n\nDéclenchements provoqués : au-dessus de 2000 m, dans les versants Est à Ouest en passant par le Nord, de rares \"plaque à vent\" subsistent. Elles génèrent des avalanches de taille 1 à 2 (petite à moyenne). \nFacteur aggravant : dans ces mêmes versants mais aussi en Sud à haute altitude, des couches fragiles persistantes sont en place. Même si dans l'ensemble elles commencent à être profondément enfouies, les pentes les moins enneigées (abords d'une crête ou d'une croupe ventée) restent propices à un déclenchement à ski. Grande avalanche (taille 3) possible. Se méfiez aussi des anciennes plaques faiblement recouvertes de neige qui peuvent être facilement redéclenchées (gobelet faiblement enfouie).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : grâce aux chutes de neige de mi février, l'enneigement est actuellement excédentaire à toutes altitudes. Les températures anormalement douces engendrent une fonte marquée en Sud de moyenne et basse montagne. La limite d'enneigement dans ces pentes va vite remonter. Ailleurs le manteau se tasse considérablement. \n\nLimite skiable : encore skiable ce mardi dès 1000 m dans les prairies orientées Nord, plutôt 1200 m en Sud pas trop raide.\n\nQualité de la neige :  \nEn Sud, véritable ski de printemps. Croûte portante au réveil qui ramollie rapidement au soleil.\nEn Nord, neige croutée souvent non portante jusqu'à 2000/2300 qui chauffe doucement là où elle prend le Soleil. Plus haut, la neige est froide, poudreuse dense à l'abri du vent et très hétérogène entre carton et dure dans les secteurs ventés (à l'approche des crêtes).",
+      "text": "Enneigement : grâce aux chutes de neige de mi février, l'enneigement est actuellement excédentaire à toutes altitudes. Les températures anormalement douces engendrent une fonte marquée en Sud de moyenne et basse montagne. La limite d'enneigement dans ces pentes va vite remonter. Ailleurs le manteau se tasse considérablement. \n\nLimite skiable : encore skiable ce mardi dès 1000 m dans les prairies orientées Nord, plutôt 1200 m en Sud pas trop raide.\n\nQualité de la neige :  \nEn Sud, véritable ski de printemps. Croûte portante au réveil qui ramollie rapidement au soleil.\nEn Nord, neige croutée souvent non portante jusqu'à 1800/2000 qui chauffe doucement là où elle prend le Soleil. Plus haut, la neige est froide, poudreuse dense à l'abri du vent et très hétérogène entre carton et dure dans les secteurs ventés (à l'approche des crêtes).   \nEn Est et Ouest, la croûte peu portante monte jusqu'en haute montagne. Elle ramollie rapidement au Soleil.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1000,
-        "south": 1100
+        "south": 1200
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 125,
-          "S": 85
+          "N": 120,
+          "S": 75
         },
         {
           "alt_m": 2000,
-          "N": 155,
-          "S": 115
+          "N": 150,
+          "S": 105
         },
         {
           "alt_m": 2500,
-          "N": 215,
-          "S": 175
+          "N": 210,
+          "S": 165
         }
       ],
       "icon_key": "snowpack",

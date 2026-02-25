@@ -3,49 +3,37 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-02-24T16:00:00",
-    "valid_until": "2026-02-25T18:00:00",
+    "issued_at": "2026-02-25T16:00:00",
+    "valid_until": "2026-02-26T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 1600m indice de risque limité, plus bas indice faible évoluant en limité.",
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 1600,
-        "split_axis": "horizontal",
-        "split_label": "1600m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1600",
-            "risk": 1,
-            "evolution_to": 2,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">1600",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "1600m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
-          },
-          "top": {
+          "center": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -54,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-02-26",
+        "date": "2026-02-27",
         "label": "Indice de risque limité",
-        "comment": "Jeudi, le risque devrait peu évoluer, avec le maintien de conditions \"printanières\", un temps sec et ensoleillé, associé à un isotherme 0°C vers 3000 m.",
+        "comment": "Vendredi, le risque évolue peu. Maintien d'un temps ensoleillé et doux. Isotherme 0°C vers 3000 m.",
         "trend": "steady"
       }
     },
@@ -66,7 +54,7 @@
         "NE": false,
         "E": true,
         "SE": true,
-        "S": false,
+        "S": true,
         "SW": true,
         "W": true,
         "NW": false
@@ -89,11 +77,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-20",
-          "min_cm": 0,
-          "max_cm": 3
-        },
         {
           "date": "2026-02-21",
           "min_cm": 0,
@@ -118,6 +101,11 @@
           "date": "2026-02-25",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-26",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,35 +115,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "POURSUITE DE L'HUMIDIFICATION DE LA NEIGE RÉCENTE.",
-      "text": "POURSUITE DE L'HUMIDIFICATION DE LA NEIGE RÉCENTE.\n\nDéparts spontanés : Avec la période de grande douceur qui se prolonge, et l'humidification qui gagne en profondeur, quelques avalanches de neige humide restent possibles, plus probables en cours de journée dans les pentes réchauffées par le soleil. Localement en terrain herbeux / secteur de reptation, un départ d'une avalanche de fond reste possible à toute heure du jour ou de la nuit. De taille 1 à 2, même si une rare taille 3 ne peut être totalement exclue au vu des volumes de neige récente en altitude. A signaler également un risque de rupture de corniche près des crêtes sommitales. Plus bas que 1600/1800 m et en plein Sud, le risque semble être encore un peu plus limité, la neige s'y étant davantage transformée.\n\nDéclenchements provoqués : Peu probables. Les (très) rares plaques encore présentes surtout dans les versants Nord d'altitude sont devenues difficiles à déclencher. Le risque principal est plutôt de faire couler de la neige humide sous les skis en évoluant à un horaire inadapté dans une pente réchauffée.",
+      "title": "ACTIVITÉ PRINTANIÈRE DANS LA NEIGE RÉCENTE.",
+      "text": "ACTIVITÉ PRINTANIÈRE DANS LA NEIGE RÉCENTE.\n\nDéparts spontanés : Avec la période de grande douceur qui se prolonge, et l'humidification qui gagne en profondeur, quelques avalanches de neige humide restent possibles, plus probables en cours de journée dans les pentes réchauffées par le soleil. Localement en terrain herbeux / secteur de reptation, un départ d'une avalanche de fond reste possible à toute heure du jour ou de la nuit. De taille 1 à 2, même si une rare taille 3 ne peut être totalement exclue au vu des volumes de neige récente en altitude. A signaler également un risque de rupture de corniche près des crêtes sommitales. Plus bas que 1600/1800 m et en plein Sud, le risque semble être encore un peu plus limité, la neige s'y étant davantage transformée.\n\nDéclenchements provoqués : Les (très) rares plaques encore présentes surtout dans les versants Nord d'altitude sont devenues difficiles à déclencher. Le risque principal est plutôt de faire couler de la neige humide sous les skis en évoluant à un horaire inadapté dans une pente réchauffée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement commence à régresser tout en bas, mais il est bon pour la saison dès 1200 m, voire abondant au dessus de 1500 m environ, notamment dans les combes d'altitude. On trouve des crêtes un peu dégarnies par le vent, ou au contraire des corniches assez conséquentes.\n\nLimites skiables : vers 1100/1300 m.\n\nQualité de la neige mercredi :  Neige humide avec un cycle de printemps dans la plupart des versants, parfois croûtée en début de journée (regel pouvant être correct en l'absence de vent et sous ciel dégagé). L'humidification reprend en journée, plus marquée au soleil. Dans les versants ombragés d'altitude, la neige est plus mate, également densifiée, quelques croûtes plus fines y sont également possibles.",
+      "text": "Qualification de l’enneigement :  L'enneigement commence à régresser tout en bas, mais il est bon pour la saison dès 1200 m, voire abondant au dessus de 1500 m environ, notamment dans les combes d'altitude. On trouve des crêtes un peu dégarnies par le vent, ou au contraire des corniches assez conséquentes.\n\nLimites skiables : vers 1100/1300 m.\n\nQualité de la neige jeudi :  Neige humide avec un cycle de printemps dans la plupart des versants, parfois croûtée en début de journée (regel pouvant être correct en l'absence de vent et sous ciel dégagé). L'humidification reprend en journée, plus marquée au soleil. Dans les versants ombragés d'altitude, la neige est plus mate, également densifiée, quelques croûtes plus fines y sont possibles.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1000,
-        "south": 1200
+        "south": 1300
       },
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 5,
+          "N": 2,
           "S": 0
         },
         {
           "alt_m": 1500,
-          "N": 170,
-          "S": 80
+          "N": 160,
+          "S": 60
         },
         {
           "alt_m": 2000,
-          "N": 250,
-          "S": 180
+          "N": 230,
+          "S": 160
         }
       ],
       "icon_key": "snowpack",
