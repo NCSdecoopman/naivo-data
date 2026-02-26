@@ -3,8 +3,8 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-02-25T15:00:00",
-    "valid_until": "2026-02-26T18:00:00",
+    "issued_at": "2026-02-26T16:00:00",
+    "valid_until": "2026-02-27T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-27",
-        "label": "Indice de risque marqué",
-        "comment": "Encore de l'activité en neige humide et avalanches de fond. Risque stationnaire.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-02-28",
+        "label": "Indice de risque limité",
+        "comment": "Un peu plus frais, risque en légère baisse.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-21",
-          "min_cm": 0,
-          "max_cm": 1
-        },
-        {
           "date": "2026-02-22",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-02-26",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-27",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "manteau neigeux réactif sous l'effet de la douceur persistante",
-      "text": "manteau neigeux réactif sous l'effet de la douceur persistante\n\nDéparts spontanés :\n* avalanches de neige humide, dès la fin de matinée, toutes orientations en suivant la course du soleil. La plupart en forme de poire, mais localement pouvant s'élargir nettement voire entraîner une plaque en contrebas. Taille 2 (moyenne), voire 3 (grande) en cas de grande pente pas encore purgée. Ces avalanches partent spontanément au réchauffement, mais aussi au passage d'un skieur. Observables : escargots, départs souvent près des rochers/falaises réchauffés, enfoncement piéton pour estimer le volume mobilisable.\n* plaques de fond. Surtout l'après-midi, mais possibles à n'importe quelle heure. Sur terrains raides et lisses en herbes, vires, dalles rocheuses. Taille 2, rarement 3.\n\nDéclenchements provoqués :\n* coulées ponctuelles de neige humide sous les skis. En pentes raides réchauffées. Pouvant pousser une plaque en contrebas, taille 2.\n\nAutres :\n* chutes de corniches, épaisses et volumineuses, pouvant entraîner une plaque en contrebas.",
+      "title": "manteau neigeux réactif au réchauffement",
+      "text": "manteau neigeux réactif au réchauffement\n\nDéparts spontanés :\n* la plupart des versants S ont déjà bien purgé, mais l'humidification gagne à présent vers les orientations E et W.\n* avalanches de neige humide. Au réchauffement, diverses orientations en suivant la course du soleil. La plupart en forme de poire, mais localement pouvant s'élargir et entraîner une plaque en contrebas. Taille 2 (moyenne), voire 3 (grande) en cas de grande pente pas encore purgée, notamment versants W. Observables : escargots, départs souvent près des rochers/falaises réchauffés, enfoncement piéton pour estimer le volume humidifié mobilisable.\n* plaques de fond. Surtout l'après-midi, mais possibles à n'importe quelle heure y compris la nuit. Sur terrains raides et lisses en herbe, vires, dalles rocheuses. Taille 2, éventuellement 3.\n\nDéclenchements provoqués :\n* coulées ponctuelles de neige humide sous les skis. En pentes raides réchauffées. Taille 2.\n\nAutres :\n* chutes de corniches, épaisses et volumineuses, pouvant entraîner une plaque en contrebas.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : bon pour une fin février, à toutes altitudes. On peut chausser les skis vers 1200/1300 m. Épaisseur du manteau neigeux hétérogène : fort tassement sous l'effet de la douceur, grosses corniches et accumulations, crêtes érodées par les forts vents pendant et depuis les perturbations (de SW puis de N).\n\nQualité de la neige jeudi :\n* neige très dense, croûte plutôt portante en début de matinée, puis s'humidifiant rapidement. Tendance à l'humidification en profondeur.\n* versants N : neige dense, croûtée le matin, puis lourde. Cartonnée près des crêtes exposées au vent de N.",
+      "text": "Enneigement : bon pour une fin février. On peut chausser les skis vers 1200/1400 m. Poursuite du tassement sous l'effet de la douceur, grosses corniches, crêtes érodées par les forts vents pendant et après les perturbations (de SW puis de N).\n\nQualité de la neige vendredi :\n* neige très dense, croûte plutôt portante en début de matinée, puis s'humidifiant rapidement. Tendance à l'humidification en profondeur.\n* versants N : neige dense, croûtée le matin, puis lourde. Cartonnée près des crêtes exposées au vent de N.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -142,8 +142,8 @@
         },
         {
           "alt_m": 2000,
-          "N": 180,
-          "S": 140
+          "N": 170,
+          "S": 120
         }
       ],
       "icon_key": "snowpack",

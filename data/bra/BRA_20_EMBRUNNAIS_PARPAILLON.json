@@ -3,14 +3,14 @@
   "massif": "Embrunais Parpaillon",
   "bulletin": {
     "id": 20,
-    "issued_at": "2026-02-25T16:00:00",
-    "valid_until": "2026-02-26T18:00:00",
+    "issued_at": "2026-02-26T16:00:00",
+    "valid_until": "2026-02-27T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque limité évoluant en marqué.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 2,
-            "evolution_to": 3,
+            "evolution_to": null,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "2→3",
-            "risk": 3,
-            "evolution_to": 3
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-27",
-        "label": "Indice de risque marqué",
-        "comment": "Maintien probable d'un risque marqué, avec les mêmes problématiques : neige humide et plaques épaisses difficiles à solliciter en ubacs d'altitude.",
+        "max_level": 2,
+        "date": "2026-02-28",
+        "label": "Indice de risque limité",
+        "comment": "Risque en baisse pour la neige humide, avec le léger rafraîchissement de la masse d'air et la nébulosité. Maintien d'un risque limité en altitude en raison de la persistance des couches fragiles.",
         "trend": "steady"
       }
     },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": 3,
+      "primary": 3,
+      "secondary": 4,
       "labels": {
-        "4": "Neige humide",
-        "3": "Couche fragile persistante"
+        "3": "Couche fragile persistante",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-21",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-22",
           "min_cm": 0,
@@ -106,6 +101,11 @@
           "date": "2026-02-26",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-27",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,35 +115,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "AVALANCHES DE NEIGE HUMIDE AU SOLEIL, PARFOIS GRANDES - RARES PLAQUES EN UBACS D'ALTITUDE, MAIS GROS VOLUME EN CAS DE DÉPART",
-      "text": "AVALANCHES DE NEIGE HUMIDE AU SOLEIL, PARFOIS GRANDES - RARES PLAQUES EN UBACS D'ALTITUDE, MAIS GROS VOLUME EN CAS DE DÉPART\n\nDéparts spontanés : * Activité en neige humide en hausse selon la course du soleil, départs en poire ou linéaires, souvent près des rochers ou des barres. Ces avalanches mobilisent des volumes de neige parfois conséquents, en emportant une grande partie du manteau neigeux en place. Avalanches moyennes à grandes (taille 2 à 3), pouvant descendre à basse altitude dans les couloirs habituels.\n* Quelques plaques de fond peuvent céder spontanément à toute heure du jour ou de la nuit en terrain favorable (dalles lisses, sols herbeux). Avalanches moyennes en général (taille 2).\n* Une première petite avalanche superficielle de neige humide ou la chute d'une corniche peuvent engendrer un départ de plaque en contrebas.\n\nDéclenchements provoqués : * Dans les ubacs au-dessus de 2200/2300 m environ, un skieur peut encore déclencher de façon isolée une plaque épaisse et large qui emporte la quasi-totalité du manteau neigeux en place et provoque une grande avalanche (taille 3). Déclenchements peu probables dans les grandes pentes homogènes, mais parfois possibles au niveau des discontinuités de terrain (croupes, rochers affleurants, transitions entre zones très enneigées et moins enneigées), là où les épaisseurs de neige plus faibles isolent moins la couche fragile enfouie. Depuis ces zones moins enneigées, un pratiquant peut déclencher à distance les grandes pentes nettement plus chargées situées à proximité. Une lecture attentive et précise du terrain est ainsi nécessaire pour éviter les zones de danger potentiel.\n* Dans une pente raide ayant trop chauffé au soleil, un skieur peut initier une avalanche de neige humide avec départ ponctuel, voire linéaire.",
+      "title": "INSTABILITÉS RAREMENT DÉCLENCHABLES, MAIS POUVANT ÊTRE ÉPAISSES. ACTIVITÉ NATURELLE LIMITÉE AU SOLEIL",
+      "text": "INSTABILITÉS RAREMENT DÉCLENCHABLES, MAIS POUVANT ÊTRE ÉPAISSES. ACTIVITÉ NATURELLE LIMITÉE AU SOLEIL\n\nDéclenchements provoqués : \nDes instabilités persistent au-dessus de 2200/2300 m d'altitude. Elles sont plus nombreuses en versant ouest, nord et est. La plupart sont difficilement déclenchables par un seul skieur, mais elles peuvent générer des avalanches de taille moyenne à grande (taille 2 à 3), avec cassure épaisse et large, éventuellement à distance.\nLe danger principal demeure la couche fragile persistante, enfouie dans la partie inférieure du manteau neigeux, voire au sol. La nette densification du manteau neigeux depuis les abondantes chutes de neige à la mi-février la rend nettement moins sollicitable. Les déclenchements, peu probables en milieu de pente, sont encore possibles dans les zones de plus faible enneigement, au niveau des discontinuités de terrain (croupes, rochers affleurants, transitions entre zones plus enneigées et moins enneigées), notamment dans la partie sud et est du massif.\nEn versants bien réchauffés par le soleil, notamment entre 2400 et 2800 m environ, un skieur peut également initier une avalanche de neige humide avec départ linéaire.\n \nDéparts spontanés : peu probables au petit matin, à l'exception de rares avalanches de glissement de taille 2 sur terrain favorable : sols herbeux, rochers lisses en versants sud raides. Activité en neige humide en hausse selon la course du soleil, mais probablement moins marquée que les jours précédents. Les départs, le plus souvent ponctuels près des rochers ou des barres et de taille 1 à 2, peuvent, plus rarement, engendrer des avalanches linéaires et jusqu'au sol de taille 2 à 3.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est excédentaire pour un mois de février. \nHauteurs de neige observées : environ 100 cm à la Nivôse du Parpaillon à 2550 m, secteur soufflé par le vent.\n\nLimite d'enneigement skiable vers 1200/1300 m en ubacs, plutôt 1600/1800 m en adrets.  \n\nÉtat de la neige de surface : * En adrets, manteau neigeux désormais bien printanier jusqu'à très haute altitude, petite croûte le matin, puis humidification au soleil l'après-midi, sur une grande épaisseur dans les pentes bien exposées.\n* En ubacs (nord-ouest à nord-est), croûte de quelques cm le matin sous 2100/2200 m environ sur les zones peu pentues, s'humidifiant en cours de journée. Ailleurs, la neige est soit cartonnée/durcie par les épisodes de vent passés, ou en poudreuse dense dans les combes ou pentes abritées.",
+      "text": "L'enneigement est excédentaire pour un mois de février. En moyenne montagne, il faut remonter à 2018 (et localement 2014) pour trouver un enneigement encore plus abondant à cette période de l'année.\nHauteurs de neige observées : environ 100 cm à la Nivôse du Parpaillon à 2550 m, secteur soufflé par le vent.\n\nLimite d'enneigement skiable vers 1200/1300 m en ubacs, plutôt 1600/1800 m en adrets.  \n\nÉtat de la neige de surface: manteau neigeux printanier en adrets, bien regelé le matin, s'humifiant au soleil l'après-midi, sur une grande épaisseur en versants raides. En versants nord-est, nord et nord-ouest, le manteau neigeux est resté froid, ou humidifié / regelé seulement en surface sous 2000/2200 m. Plus haut, neige dense, souvent cartonnée ou durcie par les épisodes de vent passés. Neige encore d'aspect poudreux dense en limite supérieure de forêt ou dans les combes abritées du vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1200,
-        "south": 1400
+        "south": 1500
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 40,
-          "S": 30
+          "N": 50,
+          "S": 15
         },
         {
           "alt_m": 2000,
           "N": 125,
-          "S": 90
+          "S": 85
         },
         {
           "alt_m": 2500,
           "N": 180,
-          "S": 105
+          "S": 95
         }
       ],
       "icon_key": "snowpack",

@@ -3,61 +3,73 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-02-25T17:00:00",
-    "valid_until": "2026-02-26T18:00:00",
+    "issued_at": "2026-02-26T16:00:00",
+    "valid_until": "2026-02-27T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque limité évoluant en marqué.",
+      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice limité évoluant en marqué.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2500,
+        "split_axis": "horizontal",
+        "split_label": "2500m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2500",
             "risk": 2,
             "evolution_to": 3,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2500",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2500m"
         },
         "zones": {
-          "center": {
+          "bottom": {
             "text": "2→3",
-            "risk": 3,
+            "risk": 2,
             "evolution_to": 3
+          },
+          "top": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-02-27",
-        "label": "Indice de risque marqué",
-        "comment": "Poursuite des conditions excessivement douces et de l'activité avalancheuse naturelle associée. Lente stabilisation des plaques en versants froids.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-02-28",
+        "label": "Indice de risque limité",
+        "comment": "Baisse des températures qui devraient progressivement faire diminuer  le risque naturel d'avalanche de neige humide.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
+        "N": false,
+        "NE": false,
         "E": true,
         "SE": true,
         "S": true,
         "SW": true,
         "W": true,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -67,21 +79,16 @@
     },
     "sat": {
       "primary": 4,
-      "secondary": 5,
+      "secondary": 3,
       "labels": {
         "4": "Neige humide",
-        "5": "Avalanche de fond"
+        "3": "Couche fragile persistante"
       },
       "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-21",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-22",
           "min_cm": 0,
@@ -106,6 +113,11 @@
           "date": "2026-02-26",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-27",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "FORT REDOUX EN JOURNEE ENGENDRANT UNE FORTE ACTIVITEE EN NEIGE HUMIDE",
-      "text": "FORT REDOUX EN JOURNEE ENGENDRANT UNE FORTE ACTIVITEE EN NEIGE HUMIDE\n\nDéparts spontanés :  \n(1) après plusieurs heures au Soleil, la neige trop humide coule dans les pentes raides, au départ des barres rocheuses. Dans les versants Est à Ouest en passant par le Sud, l'avalanche peut prendre un aspect de plaque (par exemple : déclenchement en cascade) et engendrer une plus grande avalanche, jusqu'à la taille 3 (grande avalanche). Situation atypique avec de gros volumes mobilisables et des écoulements qui prennent rapidement de la vitesse.\n(2) des plaques de fond dans les pentes raides en herbe ou en dalle rocheuse à toutes heures et en toutes orientations, plutôt sous 2500 m. Le manteau neigeux actuel étant épais, les volumes mobilisés sont plus conséquents que d'habitude. Moyennes à grandes avalanches possibles (taille 2 à 3).\n\nDéclenchements provoqués : la couche fragile persistante enfouie laisse planer le risque de déclencher une plaque en versant NO à NE, au-dessus de 2000 m. La probabilité est faible. Elle augmente dans une pente moins enneigée comme aux abords d'une crête ou d'une croupe ventée. Avalanche de taille 2 à 3 alors possible.",
+      "title": "FORT REDOUX EN JOURNEE ENGENDRANT ENCORE QUELQUES AVALANCHES EN NEIGE HUMIDE",
+      "text": "FORT REDOUX EN JOURNEE ENGENDRANT ENCORE QUELQUES AVALANCHES EN NEIGE HUMIDE\n\nDéparts spontanés :  \n(1) Après plusieurs heures au Soleil dans les versants E/S/W,  , la neige trop humide coule  dans les pentes raides , non encore purgées, souvent au départ des barres rocheuses. Au dessus de 2500m, avalanche de surface taille 1 à 2 rare 3 .  En dessous de 2500m la couche de neige humide est plus importante et les épaisseurs de neige encore conséquentes ce qui peut  engendrer (parfois en cascade et en plaque)  quelques grandes avalanches de  taille 3 qui prennent rapidement de la vitesse et peuvent descendre assez bas.\n(2) rares plaques de fond dans les pentes habituelles raides en herbe ou en dalle rocheuse à toutes heures et en toutes orientations, plutôt sous 2000/2200 m. Le manteau neigeux actuel étant épais, les volumes mobilisés peuvent être  plus conséquents que d'habitude. \n\nDéclenchements provoqués : \n Rares plaques dures sur couche fragile persistante en versants W/N/E, au-dessus de 2000/2200 m. le risque est toujours bien présent  dans une pente moins enneigée comme aux abords d'une crête ou d'une croupe ventée avec des couches fragiles plus près de la surface. Avalanche de taille 2 à 3 alors possible. Ailleurs déclenchement maintenant peu probable, car cette couche fragile est généralement profondément  enfouie et souvent hors d'atteinte par un skieur. . Observables : Test du bâton, tests d'instabilité.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : grâce aux chutes de neige de mi février, l'enneigement est actuellement excédentaire à toutes altitudes. Les températures anormalement douces engendrent une fonte marquée en Sud de moyenne et basse montagne. La limite d'enneigement dans ces pentes va vite remonter. Ailleurs le manteau se tasse considérablement. \n\nLimite skiable : encore skiable dès 1000 m dans les prairies orientées Nord, plutôt 1200 m en Sud pas trop raide.\n\nQualité de la neige : \nEn Sud, véritable ski de printemps. Croûte portante au réveil qui ramollie rapidement au soleil.\nEn Nord, neige croutée souvent non portante jusqu'à 1800/2000 qui chauffe doucement là où elle prend le Soleil. Plus haut, la neige est froide,  poudreuse dense à l'abri du vent et très hétérogène entre carton et dure dans les secteurs ventés (à l'approche des crêtes).   \nEn Est et Ouest, la croûte peu portante monte jusqu'aux sommets. Elle ramollie rapidement au Soleil.",
+      "text": "Enneigement : grâce aux chutes de neige de mi février, l'enneigement est actuellement excédentaire à toutes altitudes. Les températures anormalement douces engendrent une fonte marquée en Sud de moyenne et basse montagne. La limite d'enneigement dans ces pentes remonte vite. Ailleurs le manteau se tasse considérablement. \n\nLimite skiable : encore skiable dès 1000 m dans les prairies orientées Nord, plutôt 1200 m en Sud pas trop raide.\n\nQualité de la neige : \nEn Sud, véritable ski de printemps. Croûte portante au réveil qui ramollie rapidement au soleil, neige pourrie ensuite \nEn Nord, neige croutée souvent non portante jusqu'à 1800/2000 qui chauffe doucement là où elle prend le Soleil. Plus haut, la neige est froide,  poudreuse dense à l'abri du vent et très hétérogène entre carton et dure dans les secteurs ventés (à l'approche des crêtes).   \nEn Est et Ouest, la croûte peu portante monte jusqu'aux sommets. Elle ramollie rapidement au Soleil.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -133,17 +145,17 @@
         {
           "alt_m": 1500,
           "N": 160,
-          "S": 105
+          "S": 90
         },
         {
           "alt_m": 2000,
           "N": 220,
-          "S": 185
+          "S": 170
         },
         {
           "alt_m": 2500,
           "N": 270,
-          "S": 205
+          "S": 200
         }
       ],
       "icon_key": "snowpack",
