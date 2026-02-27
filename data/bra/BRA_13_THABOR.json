@@ -3,8 +3,8 @@
   "massif": "Thabor",
   "bulletin": {
     "id": 13,
-    "issued_at": "2026-02-26T16:00:00",
-    "valid_until": "2026-02-27T18:00:00",
+    "issued_at": "2026-02-27T16:00:00",
+    "valid_until": "2026-02-28T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-02-28",
+        "date": "2026-03-01",
         "label": "Indice de risque limité",
-        "comment": "Risque en baisse pour la neige humide, avec le léger rafraîchissement de la masse d'air et la nébulosité. Maintien d'un risque limité en altitude en raison de la persistance des couches fragiles.",
+        "comment": "Encore des plaques difficiles à déclencher en altitude. Activité en neige humide plus faible. \nLes quelques averses attendues ont peu d'influence sur la stabilité du manteau neigeux. \nMaintien probable d'un risque limité.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-22",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-02-23",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-02-27",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-28",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITÉS RAREMENT DÉCLENCHABLES, MAIS POUVANT ÊTRE ÉPAISSES. ACTIVITÉ NATURELLE LIMITÉE AU SOLEIL",
-      "text": "INSTABILITÉS RAREMENT DÉCLENCHABLES, MAIS POUVANT ÊTRE ÉPAISSES. ACTIVITÉ NATURELLE LIMITÉE AU SOLEIL\n\nDéclenchements provoqués : \nDes instabilités persistent au-dessus de 2200/2300 m d'altitude. Elles sont plus nombreuses en versant ouest, nord et est. La plupart sont difficilement déclenchables par un seul skieur, mais elles peuvent générer des avalanches de taille moyenne à grande (taille 2 à 3), avec cassure épaisse et large, éventuellement à distance.\nLe danger principal demeure la couche fragile persistante, enfouie dans la partie inférieure du manteau neigeux, voire au sol. La nette densification du manteau neigeux depuis les abondantes chutes de neige à la mi-février la rend nettement moins sollicitable. Les déclenchements, peu probables en milieu de pente, sont encore possibles dans les zones de plus faible enneigement, au niveau des discontinuités de terrain (croupes, rochers affleurants, transitions entre zones plus enneigées et moins enneigées), notamment dans la partie sud et est du massif.\nEn versants bien réchauffés par le soleil, notamment entre 2400 et 2800 m environ, un skieur peut également initier une avalanche de neige humide avec départ linéaire.\n \nDéparts spontanés : peu probables au petit matin, à l'exception de rares avalanches de glissement de taille 2 sur terrain favorable : sols herbeux, rochers lisses en versants sud raides. Activité en neige humide en hausse selon la course du soleil, mais probablement moins marquée que les jours précédents. Les départs, le plus souvent ponctuels près des rochers ou des barres et de taille 1 à 2, peuvent, plus rarement, engendrer des avalanches linéaires et jusqu'au sol de taille 2 à 3.",
+      "title": "PLAQUES EN ALTITUDE, DIFFICILES À SOLLICITER - ACTIVITÉ NATURELLE AU SOLEIL LIMITÉE",
+      "text": "PLAQUES EN ALTITUDE, DIFFICILES À SOLLICITER - ACTIVITÉ NATURELLE AU SOLEIL LIMITÉE\n\nDéclenchements provoqués : * Au-dessus de 2200 m environ, dans les pentes où la neige n'est pas croûtée, des plaques difficiles à déclencher reposent sur des couches fragiles persistantes enfouies à la base du manteau neigeux. Déclenchement peu probable en milieu de pente, mais possible dans les endroits peu enneigés, ou dans les transitions entre secteurs très enneigés et peu enneigés (abords des croupes, bords des couloirs, à proximité des rochers, etc.). Cassures épaisses, parfois larges en ubacs, et pouvant se propager dans les grandes pentes très enneigées, emportant la quasi-totalité du manteau neigeux en place.\n* Le passage d'un skieur dans une pente raide ayant trop chauffé peut favoriser un départ en neige humide.\n\nDéparts spontanés : * L'activité en neige humide au soleil reste limitée. Rares avalanches petites à moyennes dans les pentes raides ensoleillées près des rochers, au fil de la journée (taille 1 à 2). Départ linéaire possible.\n* Quelques avalanches de fond peuvent céder spontanément à toute heure du jour ou de la nuit sur terrain favorable (pentes herbeuses, dalles rocheuses). Avalanches moyennes (taille 2).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est excédentaire pour un mois de février . En moyenne montagne, il faut remonter à 2018 pour trouver un enneigement encore plus abondant à cette période de l'année.\nHauteurs de neige observées vers 2500 m : 190 cm dans le vallon du Chardonnet, 133 cm à la Nivôse des Rochilles, 88 cm à la Nivôse du Galibier (secteur venté).\n\nLimite d'enneigement skiable en fond de vallées en ubacs, désormais 1400/1600 m en adrets pas trop raides.\n\nÉtat de la neige de surface : manteau neigeux printanier en adrets, bien regelé le matin, s'humifiant au soleil l'après-midi, sur une grande épaisseur en versants raides. En versants nord-est, nord et nord-ouest, le manteau neigeux est resté froid, ou humidifié / regelé seulement en surface sous 2000/2200 m. Plus haut, neige dense, souvent cartonnée ou durcie par les épisodes de vent passés. Neige encore d'aspect poudreux dense en limite supérieure de forêt ou dans les rares combes bien abritées du vent.",
+      "text": "L'enneigement est excédentaire pour un mois de février. Avec la grande douceur des derniers jours, les limites d'enneigement remontent dans les pentes bien exposées au soleil.\nHauteurs de neige observées vers 2500 m : 190 cm dans le vallon du Chardonnet, 130 cm à la Nivôse des Rochilles, 85 cm à la Nivôse du Galibier (secteur venté).\n\nLimite d'enneigement skiable en fond de vallées en ubacs, désormais 1500/1600 m en adrets pas trop raides.\n\nÉtat de la neige de surface : manteau neigeux printanier en adrets, croûté le matin, s'humifiant au soleil, mais à des altitudes moins élevées que les jours précédents. En versants nord-est, nord et nord-ouest, le manteau neigeux reste froid, ou humidifié / regelé seulement en surface sous 2000 m. Plus haut, la neige est plus ou moins cartonnée ou durcie par les épisodes de vent passés, mais évolue de plus en plus en vieille neige meuble dans les pentes ou combes plutôt abritées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

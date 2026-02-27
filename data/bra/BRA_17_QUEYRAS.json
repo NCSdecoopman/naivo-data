@@ -3,30 +3,30 @@
   "massif": "Queyras",
   "bulletin": {
     "id": 17,
-    "issued_at": "2026-02-26T16:00:00",
-    "valid_until": "2026-02-27T18:00:00",
+    "issued_at": "2026-02-27T16:00:00",
+    "valid_until": "2026-02-28T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2400m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2400,
+        "threshold_m": 2200,
         "split_axis": "horizontal",
-        "split_label": "2400m",
+        "split_label": "2200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2400",
+            "loc": "<2200",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2400",
+            "loc": ">2200",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2400m"
+          "label": "2200m"
         },
         "zones": {
           "bottom": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-02-28",
-        "label": "Indice de risque limité",
-        "comment": "Poursuite de la stabilisation progressive du manteau neigeux. Risque limité",
-        "trend": "down"
+        "max_level": 3,
+        "date": "2026-03-01",
+        "label": "Indice de risque marqué",
+        "comment": "Les plaques présentes en altitude continuent de se stabiliser lentement, mais peuvent encore céder au passage d'un seul skieur. Activité en neige humide à nouveau en baisse.\nMaintien possible d'un risque marqué.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -89,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-22",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-23",
           "min_cm": 0,
@@ -118,6 +113,11 @@
           "date": "2026-02-27",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-28",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITÉS ENCORE DÉCLENCHABLES PAR UN SEUL SKIEUR ;  GRANDES AVALANCHES POSSIBLES",
-      "text": "INSTABILITÉS ENCORE DÉCLENCHABLES PAR UN SEUL SKIEUR ;  GRANDES AVALANCHES POSSIBLES\n\nDéclenchements provoqués : \nDes instabilités persistent au-dessus de 2000 m d'altitude. Elles sont plus nombreuses en versant ouest, nord et est au-dessus de 2400 m d'altitude. Un seul skieur peut encore déclencher, parfois à distance, une avalanche de taille moyenne à grande (taille 2 à 3), avec cassure épaisse et large.\nLa couche fragile persistante en partie inférieure, voire à la base du manteau neigeux, demeure le danger principal. Elle est encore sollicitable dans un nombre significatif de pentes, car les chutes de neige de la mi-février ont été moins abondantes dans ce massif. Déclenchements surtout possibles dans les zones de plus faible enneigement, au niveau des discontinuités de terrain (croupes, rochers affleurants, transitions entre zones plus enneigées et moins enneigées).\nEn versants bien réchauffés par le soleil, notamment entre 2400 et 2800 m environ, un skieur peut également initier une avalanche de neige humide avec départ linéaire, avec largeur de cassure cependant plus modeste qu'en versants froids.\n \nDéparts spontanés : peu probables au petit matin, à l'exception de rares avalanches de glissement de taille 1 à 2 sur terrain favorable : sols herbeux, rochers lisses en versants sud raides. Activité en neige humide en hausse selon la course du soleil, mais probablement moins marquée que les jours précédents. Les départs, le plus souvent ponctuels près des rochers ou des barres et de taille 1 à 2, peuvent, plus rarement, engendrer des avalanches linéaires et jusqu'au sol de taille 2 à 3.",
+      "title": "ENCORE DES PLAQUES DÉCLENCHABLES PAR UN SEUL SKIEUR EN ALTITUDE - ACTIVITÉ NATURELLE AU SOLEIL LIMITÉE",
+      "text": "ENCORE DES PLAQUES DÉCLENCHABLES PAR UN SEUL SKIEUR EN ALTITUDE - ACTIVITÉ NATURELLE AU SOLEIL LIMITÉE\n\nDéclenchements provoqués : * Au-dessus de 2200 m environ, des plaques reposent sur des couches fragiles persistantes très développées enfouies dans le manteau neigeux. Ces plaques peuvent encore céder au passage d'un skieur, compte tenu de l'enneigement moins abondant que sur les autres massifs. Déclenchement non exclu même en milieu de pente, mais plus probable là où les épaisseurs de neige sont plus faibles, ainsi que dans les transitions entre secteurs bien enneigés et peu enneigés (bords des couloirs, près des croupes, à proximité des rochers, etc.). Cassure épaisse pouvant emporter la quasi-totalité du manteau neigeux en place même en pentes ensoleillées, et parfois sur une grande largeur dans les ubacs d'altitude. Danger présent même dans les pentes humidifiées de façon plus ou moins superficielle, s'il n'y a pas de croute suffisamment importante sous la neige humidifiée.\n* Le passage d'un skieur dans une pente raide ayant trop chauffé peut favoriser un départ en neige humide.\n\nDéparts spontanés : * L'activité en neige humide au soleil reste limitée. Rares avalanches petites à moyennes dans les pentes raides ensoleillées près des rochers, au fil de la journée (taille 1 à 2). Départ linéaire possible.\n* Quelques avalanches de fond peuvent céder spontanément à toute heure du jour ou de la nuit sur terrain favorable (pentes herbeuses, dalles rocheuses). Avalanches moyennes (taille 2).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est plutôt excédentaire  vers le Briançonnais et le Guillestrois, plus proche des normales sur la majeure partie du massif.  \nHauteurs de neige observées : 162 cm en versant nord du col Izoard à 2300 m, 90 cm à Cervières à 1610 m, 88 cm à la Nivôse du Col Agnel à 2630 m, 59 cm à Ristolas à 1670 m. \n\nLimite d'enneigement skiable vers 1200/1300 m en ubacs, plutôt 1800/2000 m en adrets.  \n\nÉtat de la neige de surface : manteau neigeux printanier en adrets, bien regelé le matin, s'humifiant au soleil l'après-midi, sur une grande épaisseur en versants raides. En versants nord-est, nord et nord-ouest, le manteau neigeux est resté froid, ou humidifié / regelé seulement en surface sous 2000/2200 m. Plus haut, neige dense, souvent cartonnée ou durcie par les épisodes de vent passés. Neige encore d'aspect poudreux dense en limite supérieure de forêt ou dans les rares combes bien abritées du vent.",
+      "text": "L'enneigement est plutôt excédentaire vers le Briançonnais et le Guillestrois, plus proche des normales sur la majeure partie du massif, voire déficitaire en adrets. Avec la grande douceur des derniers jours, les limites d'enneigement remontent dans les pentes bien exposées au soleil.\nHauteurs de neige observées : 160 cm en versant nord du col Izoard à 2300 m, 90 cm à Cervières à 1610 m, 85 cm à la Nivôse du Col Agnel à 2630 m, 55 cm à Ristolas à 1670 m. \n\nLimite d'enneigement skiable vers 1200/1300 m en ubacs, plutôt 1800/2000 m en adrets.  \n\nÉtat de la neige de surface : manteau neigeux printanier en adrets, croûté le matin, s'humifiant au soleil l'après-midi, mais à des altitudes nettement moins élevées que les jours précédents. En versants nord-est, nord et nord-ouest, le manteau neigeux est resté froid, ou humidifié / regelé seulement en surface sous 2000 m. Plus haut, la neige est plus ou moins cartonnée ou durcie par les épisodes de vent passés, mais évolue de plus en plus en vieille neige meuble, dans les pentes ou combes abritées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 80,
+          "N": 70,
           "S": 45
         },
         {
           "alt_m": 2500,
-          "N": 140,
-          "S": 75
+          "N": 130,
+          "S": 65
         }
       ],
       "icon_key": "snowpack",

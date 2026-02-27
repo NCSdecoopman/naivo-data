@@ -3,8 +3,8 @@
   "massif": "Ubaye",
   "bulletin": {
     "id": 21,
-    "issued_at": "2026-02-26T16:00:00",
-    "valid_until": "2026-02-27T18:00:00",
+    "issued_at": "2026-02-27T16:00:00",
+    "valid_until": "2026-02-28T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-02-28",
+        "date": "2026-03-01",
         "label": "Indice de risque limité",
-        "comment": "Encore un peu d'activité en neige humide, malgré la légère baisse des températures. Toujours de rares plaques épaisses en ubacs d'altitude.",
+        "comment": "Encore un peu d'activité en neige humide malgré la baisse des températures, possible en versant nord avec la couverture nuageuse. Toujours de rares plaques épaisses en ubacs d'altitude.",
         "trend": "steady"
       }
     },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": 3,
+      "primary": 3,
+      "secondary": 5,
       "labels": {
-        "4": "Neige humide",
-        "3": "Couche fragile persistante"
+        "3": "Couche fragile persistante",
+        "5": "Avalanche de fond"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-22",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-23",
           "min_cm": 0,
@@ -106,6 +101,11 @@
           "date": "2026-02-27",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-02-28",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,35 +115,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MAINTIEN DE L'ACTIVITÉ EN NEIGE HUMIDE EN VERSANTS ENSOLEILLÉS, PARFOIS VOLUMINEUSE. EN UBACS, PLAQUES ÉPAISSES DIFFICILES À DÉCLENCHER.",
-      "text": "MAINTIEN DE L'ACTIVITÉ EN NEIGE HUMIDE EN VERSANTS ENSOLEILLÉS, PARFOIS VOLUMINEUSE. EN UBACS, PLAQUES ÉPAISSES DIFFICILES À DÉCLENCHER. \n\nDéparts spontanés : \n- avalanches de neige humide, peu probables au levé du jour, puis devenant fréquentes au soleil en fil de la journée, affectant surtout les orientations est / sud / ouest. Départs ponctuels de taille petite à moyenne en général, mais de rares grand départs linéaires sont possibles en cas d’humidification d’une couche fragile persistante enfouie, notamment en versant est et ouest. \n- quelques avalanches de fond suite à la rupture de reptations (gueules de baleine). Taille moyenne, voire grande. Possibles à n’importe quel moment du jour et de la nuit. En versant sud, plutôt au-dessous de 2500/2700 m. En versant nord, plutôt au-dessous de 2000 m.\n\nDéclenchements provoqués : \n- plaques dures épaisses sur couche fragile persistante enfouie encore présentes dans les orientations ouest / nord / est au-dessus de 2000/2200 m. Déclenchement difficile au passage d'un skieur, mais restant localement possible là où le manteau neigeux est moins épais (croupes, bords de couloir), ou en cascade après un premier départ en surface. Avalanche de grande taille, cassure épaisse et large. Danger difficile à détecter.\n- en neige humide. Un skieur peut également favoriser un départ superficiel en neige fortement humidifiée en pente raide ensoleillée, généralement de taille petite à moyenne.",
+      "title": "PLAQUES ÉPAISSES DIFFICILES À DÉCLENCHER EN UBACS D'ALTITUDE, QUELQUES DÉPARTS EN NEIGE HUMIDE, RAREMENT VOLUMINEUX.",
+      "text": "PLAQUES ÉPAISSES DIFFICILES À DÉCLENCHER EN UBACS D'ALTITUDE, QUELQUES DÉPARTS EN NEIGE HUMIDE, RAREMENT VOLUMINEUX. \n\nDéclenchements provoqués : \n- plaques dures épaisses sur couche fragile persistante enfouie encore présentes dans les orientations ouest / nord / est au-dessus de 2000/2200 m. Déclenchement difficile au passage d'un skieur, mais restant possible là où le manteau neigeux est moins épais (croupes, bords de couloir), notamment en Haute-Ubaye. Avalanche de grande taille, cassure épaisse et large. Danger difficile à détecter.\n- en neige humide. Un skieur peut favoriser un départ superficiel en neige fortement humidifiée en pente raide ensoleillée, généralement de petite taille.\n\nDéparts spontanés : \n- quelques avalanches de fond suite à la rupture de reptations (gueules de baleine). Taille moyenne, voire grande. Possibles à n’importe quel moment du jour et de la nuit. En versant sud, plutôt au-dessous de 2500/2700 m. En versant nord, plutôt au-dessous de 2000 m.\n- avalanches de neige humide, peu probables au levé du jour, puis quelques départs superficiels au soleil au fil de la journée, affectant surtout les orientations est / sud / ouest. Départs ponctuels de petite taille, rarement moyenne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement excédentaire pour un mois de février, en particulier dans la tranche entre 1400 et 2200 m. Il faut remonter à 2018 pour trouver un enneigement encore plus abondant à cette période de l'année.\nDonnées observées : 96 cm au-dessus de Larche à 2270 m en adret. \n\nEnneigement skiable dès 1300/1500 m en terrains favorables, 1600/1800 m en adrets.\n\nÉtat de la neige en surface : croute souvent portante le matin après un bon regel nocturne, s'humidifiant en journée au fil de l'ensoleillement. En ubacs au-dessus de 2000/2200 m environ, neige froide, souvent travaillée/durcie par le vent de nord. Zones dégarnies proches des crêtes, alternant avec des corniches parfois épaisses.",
+      "text": "Enneigement légèrement excédentaire pour une fin février. \nDonnées observées : 94 cm au-dessus de Larche à 2270 m en adret. \n\nEnneigement skiable dès 1400/1500 m en terrains favorables, 1600/1800 m en adrets, voir plus haut en Haute-Ubaye. \n\nÉtat de la neige en surface : croute souvent portante le matin après un bon regel nocturne, s'humidifiant progressivement en journée au fil de l'ensoleillement. En ubacs au-dessus de 2000/2200 m environ, neige froide, souvent travaillée/durcie par le vent de nord. Zones dégarnies proches des crêtes, alternant avec des corniches parfois épaisses.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1300,
-        "south": 1500
+        "south": 1600
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 25,
-          "S": 10
+          "N": 20,
+          "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 130,
-          "S": 85
+          "N": 120,
+          "S": 80
         },
         {
           "alt_m": 2500,
           "N": 175,
-          "S": 125
+          "S": 120
         }
       ],
       "icon_key": "snowpack",
