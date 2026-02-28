@@ -3,14 +3,14 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-02-27T16:00:00",
-    "valid_until": "2026-02-28T18:00:00",
+    "issued_at": "2026-02-28T16:00:00",
+    "valid_until": "2026-03-01T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "max_level": 3,
+      "comment": "Indice de risque limité évoluant en marqué.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 2,
-            "evolution_to": null,
+            "evolution_to": 3,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
+            "text": "2→3",
+            "risk": 3,
+            "evolution_to": 3
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-03-01",
-        "label": "Indice de risque limité",
-        "comment": "Risque stationnaire. Temps couvert avec quelques anecdotiques flocons. L'humidification est moins marquée que les jours précédents.",
+        "max_level": 3,
+        "date": "2026-03-02",
+        "label": "Indice de risque marqué",
+        "comment": "Retour du soleil et de la douceur en journée après les quelques flocons de la nuit  Risque stationnaire",
         "trend": "steady"
       }
     },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 5,
-      "secondary": 3,
+      "primary": 3,
+      "secondary": 4,
       "labels": {
-        "5": "Avalanche de fond",
-        "3": "Couche fragile persistante"
+        "3": "Couche fragile persistante",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-5"
+      "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-23",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-24",
           "min_cm": 0,
@@ -106,34 +101,39 @@
           "date": "2026-02-28",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-01",
+          "min_cm": 1,
+          "max_cm": 2
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 2
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Épais manteau stabilisé dans de nombreuses pentes. Risque résiduel de plaque de fond.",
-      "text": "Épais manteau stabilisé dans de nombreuses pentes. Risque résiduel de plaque de fond.\n\nDéparts spontanés :\n - De rares mais épaisses plaques de fond peuvent descendre spontanément, quelles que soient l'heure et l'orientation. Plutôt sous 2200/2400 m et dans les pentes habituelles (herbe, dalle rocheuse). Le manteau neigeux actuel étant épais, les volumes mobilisés peuvent être plus conséquents que d'habitude. Lourdes avalanches de taille 2 à 3 (moyenne à grande).\n - Sous 2400 m, la poursuite de l’humidification cause quelques départs humides dans les pentes raides non purgées, parfois en larges plaques. Plutôt de taille 1 à 2. Rare taille 3 possible lorsque l'humidification atteint des couches fragiles (plutôt en O/N/E).\n\nDéclenchements provoqués : \n - Au-dessus de 2000 m, en versants O/N/E, rares plaques formée par le vent. Facteur aggravant : dans ces mêmes versants mais aussi en Sud à haute altitude, des couches fragiles persistantes sont en place. Le déclenchement est plus facile dans les zones moins enneigées (abords de crête, etc) car la couche fragile est plus près de la surface. Grande avalanche (taille 3) possible. D'anciennes plaques faiblement recouvertes de neige peuvent être facilement re-déclenchées (couche fragile persistante faiblement ré-enfouie). \n - Ailleurs, le déclenchement est peu probable car la couche fragile est généralement profondément enfouie (donc très difficilement sollicitable par un skieur).",
+      "title": "L'HUMIDIFICATION EN COURS REACTIVE LES COUCHES FRAGILES ENFOUIES.",
+      "text": "L'HUMIDIFICATION EN COURS REACTIVE LES COUCHES FRAGILES ENFOUIES. \n\nDéparts spontanés : Peu probable le matin tant qu'il y a une croute de regel assez épaisse, devenant possible au fil des heures en Est, Sud et Ouest dans une pente ayant assez chauffée. L'humidification en cours pénètre un peu plus profondément chaque jour, atteignant maintenant dans les secteurs les moins enneigés les couches fragiles persistantes présentes à la base du manteau et provoquant ainsi de nouvelles plaques de neige humide.  Taille 2 rare taille 3 si terrain propice. \nDéclenchements provoqués : Un skieur passant au mauvais moment peut faciliter le départ de ces plaques en neige humide indiquées ci dessus. \nEn Nord au-dessus de 2000 m, en versants O/N/E, rares plaques formée par le vent encore active dans les zones les  moins enneigées ; abords de crête, croupes ventées, zones d'anciennes plaques de nouveau faiblement recouverte .. Dans ces secteurs  la couche fragile est là aussi plus près de la surface et encore déclenchable par un skieur. Cassure 50/70cm pouvant aller jusqu'à 1m . Ailleurs, le déclenchement est peu probable car la couche fragile est généralement profondément enfouie  et donc difficilement sollicitable par un skieur.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : après les chutes de neige de mi février, l'enneigement était devenu excédentaire à toutes altitudes. Les températures anormalement douces et le tassement font renter l'enneigement dans la normale, surtout en Sud et en basse montagne où la limite d'enneigement dans ces pentes remonte vite. Ailleurs le manteau se tasse considérablement.\n\nLimite skiable : encore skiable dès 1100 m dans les prairies orientées Nord, plutôt 1400 m en Sud.\n\nQualité de la neige : \nEn Sud, croûte portante au réveil qui ramollie plus ou moins bien en fonction de l'épaisseur de la couche nuageuse et de l'altitude.\nEn Nord, neige croutée sous 1800/2000 m, s'humidifiant doucement. Plus haut, neige encore froide, poudreuse dense à l'abri du vent, cartonnée voire dure dans les secteurs ventés (à l'approche des crêtes). Elle tend à s’humidifier jusque vers 2400 m en cours de journée.",
+      "text": "Enneigement : après les chutes de neige de mi février, l'enneigement était devenu excédentaire à toutes altitudes. Les températures anormalement douces et le tassement font renter l'enneigement dans la normale, surtout en Sud et en basse montagne où la limite d'enneigement dans ces pentes remonte vite. Ailleurs le manteau se tasse considérablement.\n\nLimite skiable : encore skiable dès 1100 m dans les prairies orientées Nord, plutôt 1400 m en Sud.\n\nQualité de la neige : \nEn Sud, croûte portante au réveil qui ramollie plus ou moins bien en fonction de l'épaisseur de la couche nuageuse et de l'altitude.\nEn Nord, neige croutée sous 1900 m Plus haut, neige encore froide, poudreuse dense à l'abri du vent, cartonnée voire dure dans les secteurs ventés (à l'approche des crêtes). Elle tend à s’humidifier et devenir collante jusque vers 2300 m en cours de journée à cause des nuages plus présents que les jours précédents .",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1000,
+        "north": 1100,
         "south": 1300
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 110,
-          "S": 50
+          "N": 100,
+          "S": 40
         },
         {
           "alt_m": 2000,

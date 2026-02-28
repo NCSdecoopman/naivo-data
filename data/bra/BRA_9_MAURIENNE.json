@@ -3,8 +3,8 @@
   "massif": "Maurienne",
   "bulletin": {
     "id": 9,
-    "issued_at": "2026-02-27T16:00:00",
-    "valid_until": "2026-02-28T18:00:00",
+    "issued_at": "2026-02-28T16:00:00",
+    "valid_until": "2026-03-01T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-01",
+        "date": "2026-03-02",
         "label": "Indice de risque limité",
-        "comment": "Risque stationnaire. Temps couvert avec quelques anecdotiques flocons. L'humidification est moins marquée que les jours précédents.",
+        "comment": "Bon regel la nuit et beau temps doux en journée. Fonte en versant ensoleillé, peu de changement ailleurs. Risque stationnaire",
         "trend": "steady"
       }
     },
@@ -53,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 5,
-      "secondary": 3,
+      "primary": 3,
+      "secondary": 4,
       "labels": {
-        "5": "Avalanche de fond",
-        "3": "Couche fragile persistante"
+        "3": "Couche fragile persistante",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-5"
+      "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-23",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-24",
           "min_cm": 0,
@@ -115,13 +110,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Épais manteau stabilisé dans de nombreuses pentes. Risque résiduel de plaque de fond.",
-      "text": "Épais manteau stabilisé dans de nombreuses pentes. Risque résiduel de plaque de fond.\n\nDéparts spontanés :\n - De rares mais épaisses plaques de fond peuvent descendre spontanément, quelles que soient l'heure et l'orientation. Plutôt sous 2200/2400 m et dans les pentes habituelles (herbe, dalle rocheuse). Le manteau neigeux actuel étant épais, les volumes mobilisés peuvent être plus conséquents que d'habitude. Lourdes avalanches de taille 2 à 3 (moyenne à grande).\n - Sous 2400 m, la poursuite de l’humidification cause quelques départs humides dans les pentes raides non purgées, parfois en larges plaques. Plutôt de taille 1 à 2. Rare taille 3 possible lorsque l'humidification atteint des couches fragiles (plutôt en O/N/E).\n\nDéclenchements provoqués : \n - Au-dessus de 2000/2200 m, en versants O/N/E, rares plaques dures sur couche fragile persistante. Le déclenchement est plus facile dans les zones moins enneigées (abords de crête, etc) car la couche fragile est plus près de la surface. Avalanches de taille 2 à 3 possibles.\n - Ailleurs, le déclenchement est peu probable car la couche fragile est généralement profondément enfouie (donc très difficilement sollicitable par un skieur).",
+      "title": "MANTEAU GLOBALEMENT ASSEZ BIEN STABILISE",
+      "text": "MANTEAU GLOBALEMENT ASSEZ BIEN STABILISE\n\nDéclenchements provoqués : \n - Au-dessus de 2000/2200 m, en versants O/N/E, rares plaques dures sur couche fragile persistante. Le déclenchement est encore possible dans les zones moins enneigées (abords de crête, croupes dégarnis) car la couche fragile est alors plus près de la surface. Cassure 50/70cm pouvant aller jusqu'à 1m . Ailleurs, le déclenchement est peu probable car la couche fragile est généralement profondément enfouie  et donc très difficilement sollicitable par un skieur.\n\nDéparts spontanés :\n - De rares mais épaisses plaques de fond peuvent descendre spontanément, quelles que soient l'heure et l'orientation. Plutôt sous 2200/2400 m et dans les pentes habituelles (herbe, dalle rocheuse). Le manteau neigeux actuel étant épais, les volumes mobilisés peuvent être plus conséquents que d'habitude. taille 2 (moyenne ).\n- Rare avalanche de neige humide dans l'après midi dans une pente de basse altitude revenue en neige pourrie",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : après les chutes de neige de mi février, l'enneigement était devenu excédentaire à toutes altitudes. Les températures anormalement douces et le tassement font renter l'enneigement dans la normale, surtout en Sud et en basse montagne où la limite d'enneigement dans ces pentes remonte vite. Ailleurs le manteau se tasse considérablement.\n\nLimite skiable : encore skiable dès 1100 m dans les prairies orientées Nord, plutôt 1400 m en Sud.\n\nQualité de la neige : \nEn Sud, croûte portante au réveil qui ramollie plus ou moins bien en fonction de l'épaisseur de la couche nuageuse et de l'altitude.\nEn Nord, neige croutée sous 1800/2000 m, s'humidifiant doucement. Plus haut, neige encore froide, poudreuse dense à l'abri du vent, cartonnée voire dure dans les secteurs ventés (à l'approche des crêtes). Elle tend à s’humidifier jusque vers 2400 m en cours de journée.",
+      "text": "Enneigement : après les chutes de neige de mi février, l'enneigement était devenu excédentaire à toutes altitudes. Les températures anormalement douces et le tassement font renter l'enneigement dans la normale, surtout en Sud et en basse montagne où la limite d'enneigement dans ces pentes remonte vite. Ailleurs le manteau se tasse considérablement.\n\nLimite skiable : encore skiable dès 1100 m dans les prairies orientées Nord, plutôt 1400 m en Sud.\n\nQualité de la neige : \nEn Sud, croûte portante au réveil qui ramollie plus ou moins bien en fonction de l'épaisseur de la couche nuageuse et de l'altitude.\nEn Nord, neige croutée sous 1900 m Plus haut, neige encore froide, poudreuse dense à l'abri du vent, cartonnée voire dure dans les secteurs ventés (à l'approche des crêtes). Elle tend à s’humidifier et devenir collante jusque vers 2300 m en cours de journée à cause des nuages plus présents que les jours précédents .",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,8 +127,8 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 100,
-          "S": 60
+          "N": 90,
+          "S": 50
         },
         {
           "alt_m": 2000,

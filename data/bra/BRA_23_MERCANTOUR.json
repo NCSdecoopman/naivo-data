@@ -3,8 +3,8 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-02-27T16:00:00",
-    "valid_until": "2026-02-28T18:00:00",
+    "issued_at": "2026-02-28T16:00:00",
+    "valid_until": "2026-03-01T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-01",
+        "date": "2026-03-02",
         "label": "Indice de risque limité",
-        "comment": "Encore un peu d'activité en neige humide malgré la baisse des températures, possible en versant nord avec la couverture nuageuse.",
+        "comment": "Maintien d'un risque limité en l'absence de chutes de neige.",
         "trend": "steady"
       }
     },
@@ -67,21 +67,16 @@
     },
     "sat": {
       "primary": 5,
-      "secondary": 4,
+      "secondary": 6,
       "labels": {
         "5": "Avalanche de fond",
-        "4": "Neige humide"
+        "6": "Aucune prédominente"
       },
       "icon_key": "sat-5"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-23",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-24",
           "min_cm": 0,
@@ -106,22 +101,27 @@
           "date": "2026-02-28",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-01",
+          "min_cm": 0,
+          "max_cm": 5
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES DÉPARTS EN NEIGE HUMIDE, RAREMENT VOLUMINEUX.",
-      "text": "QUELQUES DÉPARTS EN NEIGE HUMIDE, RAREMENT VOLUMINEUX. \n\nDéparts spontanés : \n- quelques avalanches de fond suite à la rupture de reptations (gueules de baleine). Taille moyenne, voire grande. Possibles à n’importe quel moment du jour et de la nuit. En versant sud, plutôt au-dessous de 2500/2700 m. En versant nord, plutôt au-dessous de 2000 m.\n- avalanches de neige humide, peu probables au levé du jour, puis quelques départs superficiels au soleil au fil de la journée, affectant surtout les orientations est / sud / ouest. Départs ponctuels de petite taille, rarement moyenne. \n\nDéclenchements provoqués : \n- en neige humide. Un skieur peut favoriser un départ superficiel en neige fortement humidifiée en pente raide ensoleillée, généralement de petite taille.\n- rares plaques de résiduelles au-dessus de 2000 m plus particulièrement en orientation nord-ouest à est, formées par le vent du week-end dernier et lundi, restant difficiles à déclencher. Taille petite à moyenne.",
+      "title": "RARES DÉPARTS EN NEIGE HUMIDE",
+      "text": "RARES DÉPARTS EN NEIGE HUMIDE\n\nDéparts spontanés : \n- quelques avalanches de fond suite à la rupture de reptations (gueules de baleine). Taille moyenne, voire grande. Possibles à n’importe quel moment du jour et de la nuit. En versant sud, plutôt en dessous de 2500/2700 m. En versant nord, plutôt en dessous de 2000 m.\n- un rare départ en neige humide reste possible, mais devient rare et reste superficiel. Départs ponctuels de petite taille, rarement moyenne, dans les orientations est / sud / ouest. \n- les averses de pluie ou de neige n'ont généralement pas d'incidence sur le manteau neigeux. \n\nDéclenchements provoqués : \n- un rare départ en neige humide reste possible, mais devient rare et reste superficiel. Départs ponctuels de petite taille, rarement moyenne, dans les orientations est / sud / ouest.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement excédentaire pour une fin février.\nDonnées observées : 138 cm à la nivôse de Millefonts à 2430 m, 112 cm à Isola 2000 à 1912 m. \n\nEnneigement skiable dès 1400/1500 m en ubacs en terrains favorables et 1600/1800 m en adrets\n\nÉtat de la neige en surface : croute souvent portante le matin après un bon regel nocturne, s'humidifiant progressivement en journée au fil de l'ensoleillement. En ubacs au-dessus de 2000/2200 m environ, neige froide souvent travaillée/durcie par le vent de nord. Zones dégarnies proches des crêtes, alternant avec des corniches parfois épaisses.",
+      "text": "Enneigement excédentaire pour début mars. \nDonnées observées : 138 cm à la nivôse de Millefonts à 2430 m, 111 cm à Isola 2000 à 1912 m. \n\nEnneigement skiable dès 1400/1500 m en ubacs en terrains favorables et 1600/1800 m en adrets\n\nÉtat de la neige en surface : croute souvent portante le matin après un bon regel nocturne, s'humidifiant faiblement en journée. En ubacs au-dessus de 2000/2200 m environ, neige froide souvent travaillée/durcie par le vent de nord. Zones dégarnies proches des crêtes, alternant avec des corniches parfois épaisses.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

@@ -3,8 +3,8 @@
   "massif": "Queyras",
   "bulletin": {
     "id": 17,
-    "issued_at": "2026-02-27T16:00:00",
-    "valid_until": "2026-02-28T18:00:00",
+    "issued_at": "2026-02-28T16:00:00",
+    "valid_until": "2026-03-01T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-03-01",
+        "date": "2026-03-02",
         "label": "Indice de risque marqué",
-        "comment": "Les plaques présentes en altitude continuent de se stabiliser lentement, mais peuvent encore céder au passage d'un seul skieur. Activité en neige humide à nouveau en baisse.\nMaintien possible d'un risque marqué.",
+        "comment": "Les plaques présentes en altitude continuent de se stabiliser lentement, mais peuvent encore céder au passage d'un seul skieur. Activité en neige humide en légère hausse.\nMaintien possible d'un risque marqué.",
         "trend": "steady"
       }
     },
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -79,21 +79,16 @@
     },
     "sat": {
       "primary": 3,
-      "secondary": 4,
+      "secondary": 5,
       "labels": {
         "3": "Couche fragile persistante",
-        "4": "Neige humide"
+        "5": "Avalanche de fond"
       },
       "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-23",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-24",
           "min_cm": 0,
@@ -118,22 +113,27 @@
           "date": "2026-02-28",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-01",
+          "min_cm": 0,
+          "max_cm": 3
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_max_cm": 3
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "ENCORE DES PLAQUES DÉCLENCHABLES PAR UN SEUL SKIEUR EN ALTITUDE - ACTIVITÉ NATURELLE AU SOLEIL LIMITÉE",
-      "text": "ENCORE DES PLAQUES DÉCLENCHABLES PAR UN SEUL SKIEUR EN ALTITUDE - ACTIVITÉ NATURELLE AU SOLEIL LIMITÉE\n\nDéclenchements provoqués : * Au-dessus de 2200 m environ, des plaques reposent sur des couches fragiles persistantes très développées enfouies dans le manteau neigeux. Ces plaques peuvent encore céder au passage d'un skieur, compte tenu de l'enneigement moins abondant que sur les autres massifs. Déclenchement non exclu même en milieu de pente, mais plus probable là où les épaisseurs de neige sont plus faibles, ainsi que dans les transitions entre secteurs bien enneigés et peu enneigés (bords des couloirs, près des croupes, à proximité des rochers, etc.). Cassure épaisse pouvant emporter la quasi-totalité du manteau neigeux en place même en pentes ensoleillées, et parfois sur une grande largeur dans les ubacs d'altitude. Danger présent même dans les pentes humidifiées de façon plus ou moins superficielle, s'il n'y a pas de croute suffisamment importante sous la neige humidifiée.\n* Le passage d'un skieur dans une pente raide ayant trop chauffé peut favoriser un départ en neige humide.\n\nDéparts spontanés : * L'activité en neige humide au soleil reste limitée. Rares avalanches petites à moyennes dans les pentes raides ensoleillées près des rochers, au fil de la journée (taille 1 à 2). Départ linéaire possible.\n* Quelques avalanches de fond peuvent céder spontanément à toute heure du jour ou de la nuit sur terrain favorable (pentes herbeuses, dalles rocheuses). Avalanches moyennes (taille 2).",
+      "title": "ENCORE DES PLAQUES DÉCLENCHABLES PAR UN SEUL SKIEUR EN ALTITUDE - RARES AVALANCHES DE FOND",
+      "text": "ENCORE DES PLAQUES DÉCLENCHABLES PAR UN SEUL SKIEUR EN ALTITUDE - RARES AVALANCHES DE FOND\n\nDéclenchements provoqués : au-dessus de 2200 m environ où la neige n'est pas croutée / portante, des plaques reposent sur des couches fragiles persistantes très développées enfouies dans le manteau neigeux. Ces plaques peuvent encore céder au passage d'un skieur, compte tenu de l'enneigement moins abondant que sur les autres massifs. Déclenchement non exclu même en milieu de pente, mais plus probable là où les épaisseurs de neige sont plus faibles, ainsi que dans les transitions entre secteurs bien enneigés et peu enneigés (bords des couloirs, près des croupes, à proximité des rochers, etc.). Cassure épaisse pouvant emporter la quasi-totalité du manteau neigeux en place, et parfois sur une grande largeur dans les ubacs d'altitude. \n\nDéparts spontanés : une avalanche de fond emportant la totalité du manteau neigeux en place jusqu’au sol peut encore céder spontanément à toute heure du jour ou de la nuit sur terrain favorable (pentes herbeuses, dalles rocheuses). Avalanche de taille moyenne.\n\nLes quelques averses de pluie ou de neige en seconde partie de journée n'ont pas d'incidence sur la stabilité du manteau neigeux.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est plutôt excédentaire vers le Briançonnais et le Guillestrois, plus proche des normales sur la majeure partie du massif, voire déficitaire en adrets. Avec la grande douceur des derniers jours, les limites d'enneigement remontent dans les pentes bien exposées au soleil.\nHauteurs de neige observées : 160 cm en versant nord du col Izoard à 2300 m, 90 cm à Cervières à 1610 m, 85 cm à la Nivôse du Col Agnel à 2630 m, 55 cm à Ristolas à 1670 m. \n\nLimite d'enneigement skiable vers 1200/1300 m en ubacs, plutôt 1800/2000 m en adrets.  \n\nÉtat de la neige de surface : manteau neigeux printanier en adrets, croûté le matin, s'humifiant au soleil l'après-midi, mais à des altitudes nettement moins élevées que les jours précédents. En versants nord-est, nord et nord-ouest, le manteau neigeux est resté froid, ou humidifié / regelé seulement en surface sous 2000 m. Plus haut, la neige est plus ou moins cartonnée ou durcie par les épisodes de vent passés, mais évolue de plus en plus en vieille neige meuble, dans les pentes ou combes abritées.",
+      "text": "L'enneigement est plutôt excédentaire vers le Briançonnais et le Guillestrois, plus proche des normales sur la majeure partie du massif, voire déficitaire en adrets. Avec la grande douceur des derniers jours, les limites d'enneigement remontent dans les pentes bien exposées au soleil.\nHauteurs de neige observées : 162 cm en versant nord du col Izoard à 2300 m, 87 cm à Cervières à 1610 m, 87 cm à la nivose du Col Agnel à 2630 m, 56 cm à Ristolas à 1670 m. \n\nLimite d'enneigement skiable vers 1200/1300 m en ubacs, plutôt 1800/2000 m en adrets.  \n\nÉtat de la neige de surface : après un regel correct, manteau neigeux en adrets, croûté, humidification limitée en journée en dessous de 2100/2400 m. En versants nord-est, nord et nord-ouest, le manteau neigeux reste froid, ou humidifié / regelé seulement en surface sous 2000 m. Plus haut, la neige est plus ou moins cartonnée ou durcie par les épisodes de vent passés, mais évolue de plus en plus en vieille neige meuble dans les pentes ou combes plutôt abritées.\nFaibles averses de neige en seconde partie de journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
