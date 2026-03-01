@@ -3,14 +3,14 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-02-28T16:00:00",
-    "valid_until": "2026-03-01T18:00:00",
+    "issued_at": "2026-03-01T16:00:00",
+    "valid_until": "2026-03-02T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 1,
-      "comment": "Indice de risque faible.",
+      "max_level": 2,
+      "comment": "Indice de risque faible évoluant en limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 1,
-            "evolution_to": null,
+            "evolution_to": 2,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
+            "text": "1→2",
+            "risk": 2,
+            "evolution_to": 2
           }
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-03-02",
-        "label": "Indice de risque faible",
-        "comment": "Lundi, pas d'évolution significative des conditions nivologiques.",
+        "max_level": 2,
+        "date": "2026-03-03",
+        "label": "Indice de risque limité",
+        "comment": "Mardi, importante humidification et augmentation du risque d'avalanches de neige lourde en cours de journée.",
         "trend": "steady"
       }
     },
@@ -52,11 +52,11 @@
       "aspects": {
         "N": false,
         "NE": false,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": false
       },
       "icon_key": "rose-aspects",
@@ -66,21 +66,17 @@
       }
     },
     "sat": {
-      "primary": 6,
-      "secondary": null,
+      "primary": 4,
+      "secondary": 5,
       "labels": {
-        "6": "Aucune prédominente"
+        "4": "Neige humide",
+        "5": "Avalanche de fond"
       },
-      "icon_key": "sat-6"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-24",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-25",
           "min_cm": 0,
@@ -104,29 +100,34 @@
         {
           "date": "2026-03-01",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
+        },
+        {
+          "date": "2026-03-02",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 2
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux bien stabilisé dans la plupart des pentes.",
-      "text": "Manteau neigeux bien stabilisé dans la plupart des pentes.\n\nSous l'effet d'une semaine de soleil et de grande douceur, le manteau neigeux s'est considérablement tassé et il est maintenant bien consolidé.\nDéparts spontanés : la baisse des températures et de l'ensoleillement limite l'humidification en journée et diminue le risque d'avalanche. La probabilité qu'une fissure de reptation vienne à céder spontanément sera faible dimanche.\nDéclenchements provoqués : très difficiles.",
+      "title": "Nouvelle déstabilisation possible au soleil.",
+      "text": "Nouvelle déstabilisation possible au soleil.\n\nSous l'effet de plus d'une semaine de soleil et de douceur, le manteau neigeux s'est considérablement tassé et il est bien consolidé grâce à un regel nocturne efficace.\nDéparts spontanés : l'humidification du manteau neigeux reprend lundi dès les premières heures de soleil en augmentant significativement le risque de départ spontané d'avalanches de neige lourde pouvant emmener des volumes de neige conséquents. Dans les versants sud-est à sud-ouest , on peut s'attendre à une déstabilisation de la totalité de la neige en place, gorgée d'eau du haut en bas du manteau.\nDéclenchements provoqués : en neige lourde en cas d'horaire inadapté.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement régresse en partie basse, mais il est toujours bon pour la saison dès 1300 m, voire abondant au dessus de 1500 m environ, notamment dans les combes d'altitude. On trouve des crêtes un peu dégarnies par le vent, ou au contraire des corniches assez conséquentes.\n\nLimites skiables : vers 1200/1500 m.\n\nQualité de la neige dimanche :  Manteau neigeux de type printanier avec une neige croûtée par le regel nocturne, ne s'humidifiant que superficiellement  en journée . Dans les versants ombragés sommitaux, la neige est dense, mais moins humidifiée que dans les adrets.",
+      "text": "Qualification de l’enneigement :  L'enneigement régresse en partie basse, mais il est toujours bon pour la saison dès 1300 m, voire abondant au dessus de 1500 m environ, notamment dans les combes d'altitude. On trouve des crêtes un peu dégarnies par le vent, ou au contraire des corniches assez conséquentes.\n\nLimites skiables : vers 1200/1600 m.\n\nQualité de la neige lundi :  Manteau neigeux de type printanier avec une neige croûtée par le regel nocturne, s'humidifiant en journée, parfois profondément selon l'orientation.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1200,
-        "south": 1400
+        "south": 1500
       },
       "levels_cm": [
         {
@@ -136,13 +137,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 110,
-          "S": 30
+          "N": 100,
+          "S": 20
         },
         {
           "alt_m": 2000,
-          "N": 200,
-          "S": 160
+          "N": 190,
+          "S": 150
         }
       ],
       "icon_key": "snowpack",

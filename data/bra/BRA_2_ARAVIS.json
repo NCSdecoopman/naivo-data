@@ -3,37 +3,49 @@
   "massif": "Aravis",
   "bulletin": {
     "id": 2,
-    "issued_at": "2026-02-28T16:00:00",
-    "valid_until": "2026-03-01T18:00:00",
+    "issued_at": "2026-03-01T16:00:00",
+    "valid_until": "2026-03-02T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible évoluant en limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
+            "risk": 1,
+            "evolution_to": 2,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "1→2",
+            "risk": 1,
+            "evolution_to": 2
+          },
+          "top": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-02",
+        "date": "2026-03-03",
         "label": "Indice de risque limité",
-        "comment": "Bon regel nocturne en surface et humidification en journée à toute altitude, surtout dans les versants au soleil. La journée est ensoleillée et douce. L'isotherme 0°C remonte vers 2300 m.",
+        "comment": "Bon regel nocturne. La surface de la neige se réchauffe et se ramollit rapidement au soleil. La journée est ensoleillée et douce. Isotherme 0°C vers 2300 m.",
         "trend": "steady"
       }
     },
@@ -66,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 5,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": 5,
       "labels": {
-        "5": "Avalanche de fond",
-        "4": "Neige humide"
+        "4": "Neige humide",
+        "5": "Avalanche de fond"
       },
-      "icon_key": "sat-5"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-24",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-25",
           "min_cm": 0,
@@ -100,28 +107,33 @@
         {
           "date": "2026-02-28",
           "min_cm": 0,
-          "max_cm": 2
+          "max_cm": 0
         },
         {
           "date": "2026-03-01",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-03-02",
           "min_cm": 0,
           "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 2
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux ramollit par le réchauffement.",
-      "text": "Manteau neigeux ramollit par le réchauffement. \n\nDéparts spontanés :\n* En dessous de 2200 m, en tous versants : plaques de fond. Départs possible à toute heure du jour et de la nuit dans les pentes raides et lisses (dalles rocheuses, pentes herbeuses) mais plus nombreux au fil du réchauffement diurne. Taille 2 (moyenne), rarement 3 (grande).\n* En dessous de 2200 m, en tous versants : départs en neige humide. Plus nombreux au fil du réchauffement diurne. Départs ponctuels souvent dans les pentes raides et vers les rochers/falaises. Une plaque peut aussi être déclenchée en cascade. Taille 2 (moyenne), rarement 3 (grande).\n* Chute de corniches, épaisse et volumineuse. Leur chute peut déclencher une plaque en contrebas. \n\nDéclenchements provoqués :\n* En dessous de 2200 m : de la neige humide peut couler sous les skis au fil du réchauffement diurne. Taille 1 (petite) à 2 (moyenne)\n* Au-dessus de 2000 m en versants E/N/O : Présence d'une couche fragile persistante enfouie. Difficile à déclencher mais elle peut être sollicitée en cascade et donner une avalanche de plus grande ampleur (cassure de 60cm/1m). La profondeur de l'enfouissement de la couche fragile varie énormément, même dans une même pente. Taille 3 (grande).",
+      "title": "Manteau neigeux qui se réchauffe au fil de la journée.",
+      "text": "Manteau neigeux qui se réchauffe au fil de la journée. \n\nDéparts spontanés :\n* Au fil du réchauffement diurne : de plus en plus de départs dans la neige humide. Possibles en tous versants et à toute altitude, mais majoritairement dans les pentes ensoleillées. Départs ponctuels souvent dans les pentes raides et vers les rochers/falaises. Départs en plaques possibles en cascade. Taille 2 (moyenne), rarement 3 (grande). \n* En tous versants : plaques de fond. Départs dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Départs possibles à toute heure du jour ou de la nuit. Taille 2 (moyenne), rarement 3 (grande). Plus nombreuses au fil du réchauffement.  \n* Chutes de corniches, épaisses et volumineuses. Leurs chutes peuvent déclencher une plaque en contrebas. \n\nDéclenchements provoqués :\n* En tous versants mais principalement dans les versants au soleil : de la neige humide peut couler sous les skis au fil du réchauffement diurne. Taille 1 (petite) à 2 (moyenne). \n* Au-dessus de 2000 m en versants E/N/O : Présence d'une couche fragile persistante enfouie. Difficile à déclencher mais elle peut être sollicitée en cascade et donner une avalanche de plus grande ampleur (cassure de 60cm/1m). La profondeur de l'enfouissement de la couche fragile varie énormément, même dans une même pente. Taille 3 (grande).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : bon à excédentaire pour la période. On peut chausser les skis vers 1200/1300 m en versants E/N/O et 1400/1500 m en versants Sud. Les corniches sont volumineuses et menaçantes. Les arêtes et les crêtes de moyenne montagne sont érodées par le vent de SW à NW. \n\nQualité de la neige dimanche :\n* regel nocturne peu efficace. \n* En dessous de 1600/1800 m : neige lourde et humide. \n* Au-dessus de 1600/1800 m : dans les versants E/S/O, croûte de regel fine, rarement portante à skis le matin. Elle se ramollit rapidement au fil de la journée. Dans les versants N, la neige est restée assez froide mais elle est tassée.",
+      "text": "Enneigement : bon pour la période. On peut chausser les skis vers 1200/1300 m en versants E/N/O et 1400/1500 m en versants Sud. Les corniches sont volumineuses et menaçantes. Les arêtes et les crêtes sont érodées par le vent de SW à NW. \n\nQualité de la neige lundi :\n* Regel nocturne efficace. \n* En dessous de 2000 m : Le matin, la neige est dure regelée. Au fil du réchauffement diurne, elle devient lourde et humide. Enfoncement piéton important.  \n* Au-dessus de 2000 m : dans les versants E/S/O, croûte de regel en surface, peu portante, même à ski. Elle se ramollit rapidement au fil de la journée. Dans les versants N, la neige est restée assez froide mais elle est tassée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

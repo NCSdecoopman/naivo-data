@@ -3,8 +3,8 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-02-28T16:00:00",
-    "valid_until": "2026-03-01T18:00:00",
+    "issued_at": "2026-03-01T16:00:00",
+    "valid_until": "2026-03-02T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-02",
+        "date": "2026-03-03",
         "label": "Indice de risque limité",
-        "comment": "Risque limité. Encore de rares plaques difficiles à déclencher en altitude. Activité en neige humide en légère hausse.",
+        "comment": "Risque limité. Encore de rares plaques difficiles à déclencher en altitude. Activité en neige humide limitée.",
         "trend": "steady"
       }
     },
@@ -53,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 5,
-      "secondary": 6,
+      "primary": 4,
+      "secondary": 5,
       "labels": {
-        "5": "Avalanche de fond",
-        "6": "Aucune prédominente"
+        "4": "Neige humide",
+        "5": "Avalanche de fond"
       },
-      "icon_key": "sat-5"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-24",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-25",
           "min_cm": 0,
@@ -105,23 +100,28 @@
         {
           "date": "2026-03-01",
           "min_cm": 0,
-          "max_cm": 2
+          "max_cm": 5
+        },
+        {
+          "date": "2026-03-02",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 2
+        "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RARES PLAQUES EN ALTITUDE, DIFFICILES À SOLLICITER - RARES AVALANCHES DE FOND",
-      "text": "RARES PLAQUES EN ALTITUDE, DIFFICILES À SOLLICITER - RARES AVALANCHES DE FOND\n\nDéclenchements provoqués : au-dessus de 2200 m environ, dans les pentes où la neige n'est pas croûtée / portante, de rares plaques difficiles à solliciter sont encore en place. Déclenchement très peu probable en milieu de pente, mais non exclu dans les endroits peu enneigés, ou dans les transitions entre secteurs très enneigés et peu enneigés (abords des croupes, bords des couloirs, à proximité des rochers, etc.). Cassure souvent épaisse en cas de départ.\n\nDéparts spontanés : une avalanche de fond emportant la totalité du manteau neigeux en place jusqu’au sol peut encore céder spontanément à toute heure du jour ou de la nuit sur terrain favorable (pentes herbeuses, dalles rocheuses). Avalanche de taille moyenne.\n\nLes quelques averses de pluie ou de neige dès la fin de matinée n'ont pas d'incidence sur la stabilité du manteau neigeux.",
+      "title": "RARES PLAQUES EN ALTITUDE, DIFFICILES À SOLLICITER - FAIBLE ACTIVITÉ EN NEIGE HUMIDE",
+      "text": "RARES PLAQUES EN ALTITUDE, DIFFICILES À SOLLICITER - FAIBLE ACTIVITÉ EN NEIGE HUMIDE \n\nDéclenchements provoqués : au-dessus de 2200 m environ, dans les pentes où la neige est restée froide (large nord) ou présente un aspect humide (versants ensoleillés humidifiés), de rares plaques difficiles à solliciter sont encore en place. Déclenchement très peu probable en milieu de pente, mais non exclu dans les endroits peu enneigés, ou dans les transitions entre secteurs très enneigés et peu enneigés (abords des croupes, bords des couloirs, à proximité des rochers, etc.). Cassure souvent épaisse en cas de départ.\n\nDéparts spontanés : - l’activité en neige humide au soleil reste limitée. Rares avalanches de taille petite à moyenne dans les pentes raides très ensoleillées, au fil de la journée plutôt près des rochers, parfois jusqu’au sol en neige pourrie.\n- une avalanche de fond ou une reptation emportant la totalité du manteau neigeux en place jusqu’au sol peut céder spontanément à toute heure du jour ou de la nuit sur terrain favorable (pentes herbeuses, dalles rocheuses). Avalanche de taille moyenne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est très excédentaire. Avec la douceur des derniers jours, les limites d'enneigement remontent dans les pentes bien exposées au soleil.\n\nLimite d'enneigement skiable à partir de 1100/1200 m en ubacs, désormais 1500/1600 m en adrets pas trop raides.\n\nÉtat de la neige de surface : après un regel correct, manteau neigeux en adrets, croûté, humidification limitée en journée aux basses altitudes. En versants nord-est, nord et nord-ouest, le manteau neigeux reste froid, ou humidifié / regelé seulement en surface sous 2100 m. Plus haut, la neige est plus ou moins cartonnée ou durcie par les épisodes de vent passés, mais évolue de plus en plus en vieille neige meuble dans les pentes ou combes plutôt abritées.\nFaibles averses de neige  dès la fin de matinée.",
+      "text": "L'enneigement est très excédentaire. Les limites d'enneigement remontent dans les pentes bien exposées au soleil.\n\nLimite d'enneigement skiable : 1200/1300 m en ubacs, 1500/1700 m en adrets pas trop raides.\n\nÉtat de la neige de surface :  rares cm de neige fraiche. Après un regel correct, manteau neigeux en adrets, croûté, humidification en journée plus marquée aux basses altitudes. En versants nord-est, nord et nord-ouest, la neige reste sèche, ou humidifiée / regelée seulement en surface sous 2100/2200 m. Plus haut, la neige est plus ou moins durcie, mais évolue de plus en plus en vieille neige meuble dans les pentes ou combes plutôt abritées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 75,
-          "S": 35
+          "N": 70,
+          "S": 25
         },
         {
           "alt_m": 2000,
-          "N": 180,
-          "S": 130
+          "N": 175,
+          "S": 125
         },
         {
           "alt_m": 2500,
-          "N": 230,
-          "S": 170
+          "N": 225,
+          "S": 165
         }
       ],
       "icon_key": "snowpack",

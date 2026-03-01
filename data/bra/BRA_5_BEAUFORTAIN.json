@@ -3,37 +3,49 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-02-28T16:00:00",
-    "valid_until": "2026-03-01T18:00:00",
+    "issued_at": "2026-03-01T16:00:00",
+    "valid_until": "2026-03-02T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible évoluant en limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
+            "risk": 1,
+            "evolution_to": 2,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "1→2",
+            "risk": 1,
+            "evolution_to": 2
+          },
+          "top": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-02",
+        "date": "2026-03-03",
         "label": "Indice de risque limité",
-        "comment": "Bon regel la nuit et beau temps doux en journée. Fonte en versant ensoleillé, peu de changement ailleurs. Risque stationnaire",
+        "comment": "Risque stationnaire. Bon regel le matin puis humidification marquée induisant rapidement un risque d’avalanche humide.",
         "trend": "steady"
       }
     },
@@ -53,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -66,22 +78,16 @@
       }
     },
     "sat": {
-      "primary": 3,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": null,
       "labels": {
-        "3": "Couche fragile persistante",
         "4": "Neige humide"
       },
-      "icon_key": "sat-3"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-24",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-25",
           "min_cm": 0,
@@ -106,6 +112,11 @@
           "date": "2026-03-01",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-02",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,35 +126,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU GLOBALEMENT ASSEZ BIEN STABILISE",
-      "text": "MANTEAU GLOBALEMENT ASSEZ BIEN STABILISE\n\nDéclenchements provoqués : \n - Au-dessus de 2000/2200 m, en versants O/N/E, rares plaques dures sur couche fragile persistante. Le déclenchement est encore possible dans les zones moins enneigées (abords de crête, croupes dégarnis) car la couche fragile est alors plus près de la surface. Cassure 50/70cm pouvant aller jusqu'à 1m . Ailleurs, le déclenchement est peu probable car la couche fragile est généralement profondément enfouie  et donc très difficilement sollicitable par un skieur.\n\nDéparts spontanés :\n - De rares mais épaisses plaques de fond peuvent descendre spontanément, quelles que soient l'heure et l'orientation. Plutôt sous 2200/2400 m et dans les pentes habituelles (herbe, dalle rocheuse). Le manteau neigeux actuel étant épais, les volumes mobilisés peuvent être plus conséquents que d'habitude. taille 2 (moyenne ).\n- Rare avalanche de neige humide dans l'après midi dans une pente de basse altitude revenue en neige pourrie",
+      "title": "ÉPAIS MANTEAU STABILISÉ DANS LA MAJORITÉ DES PENTES.",
+      "text": "ÉPAIS MANTEAU STABILISÉ DANS LA MAJORITÉ DES PENTES.\n\nDéclenchements provoqués : \n - Au-dessus de 2000/2200 m, en versants ombragés (NO/N/NE), rares plaques dures sur couche fragile persistante. Le déclenchement est encore possible dans les zones moins enneigées (abords de crête, croupes dégarnis) car la couche fragile est plus près de la surface. Taille 1 à 2 (petite à moyenne). Ailleurs, le déclenchement est peu probable car la couche fragile est généralement profondément enfouie et donc très difficilement sollicitable par un skieur.\n\nDéparts spontanés :\n - Rare avalanche de neige humide dans les pentes ayant chauffées plusieurs heures. Taille 1 à 2.\n - Rares mais épaisses plaques de fond pouvant descendre spontanément, quelles que soient l'heure et l'orientation. Plutôt sous 2200/2400 m et dans les pentes habituelles (herbe, dalle rocheuse). Le manteau neigeux actuel étant épais, les volumes mobilisés peuvent être plus conséquents que d'habitude. Taille 2 (moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : après les chutes de neige de mi février, l'enneigement était devenu excédentaire à toutes altitudes. Les températures anormalement douces et le tassement font renter l'enneigement dans la normale, surtout en Sud et en basse montagne où la limite d'enneigement dans ces pentes remonte vite. Ailleurs le manteau se tasse considérablement.\n\nLimite skiable : encore skiable dès 1100 m dans les prairies orientées Nord, plutôt 1400 m en Sud.\n\nQualité de la neige : \nEn Sud, croûte portante au réveil qui ramollie plus ou moins bien en fonction de l'épaisseur de la couche nuageuse et de l'altitude.\nEn Nord, neige croutée sous 1900 m Plus haut, neige encore froide, poudreuse dense à l'abri du vent, cartonnée voire dure dans les secteurs ventés (à l'approche des crêtes). Elle tend à s’humidifier et devenir collante jusque vers 2300 m en cours de journée à cause des nuages plus présents que les jours précédents .",
+      "text": "Enneigement : Les températures anormalement douces et le tassement font rentrer l'enneigement dans la normale, surtout en Sud et en basse montagne où la limite d'enneigement dans ces pentes remonte vite. Ailleurs le manteau se tasse considérablement.\nLimite skiable : encore skiable dès 1100 m dans les prairies orientées Nord, plutôt 1500 m en Sud.\nQualité de la neige : En Sud, Est, Ouest, conditions de printemps idéales avec bon regel le matin et \"décaillage\" suivant la course du soleil. En Nord, neige croutée sous 2000 m (parfois plus haut). Au-dessus, neige encore froide, poudreuse dense à l'abri du vent, cartonnée voire dure dans les secteurs ventés (à l'approche des crêtes).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1000,
-        "south": 1300
+        "south": 1400
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 140,
-          "S": 70
+          "N": 135,
+          "S": 60
         },
         {
           "alt_m": 2000,
           "N": 210,
-          "S": 160
+          "S": 155
         },
         {
           "alt_m": 2500,
           "N": 260,
-          "S": 190
+          "S": 185
         }
       ],
       "icon_key": "snowpack",

@@ -3,8 +3,8 @@
   "massif": "Embrunais Parpaillon",
   "bulletin": {
     "id": 20,
-    "issued_at": "2026-02-28T16:00:00",
-    "valid_until": "2026-03-01T18:00:00",
+    "issued_at": "2026-03-01T16:00:00",
+    "valid_until": "2026-03-02T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-02",
+        "date": "2026-03-03",
         "label": "Indice de risque limité",
-        "comment": "Risque limité. Encore des plaques difficiles à déclencher en altitude. Activité en neige humide en légère hausse.",
+        "comment": "Risque limité. Encore des plaques difficiles à déclencher en altitude. Activité en neige humide limitée.",
         "trend": "steady"
       }
     },
@@ -53,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -67,21 +67,16 @@
     },
     "sat": {
       "primary": 3,
-      "secondary": 5,
+      "secondary": 4,
       "labels": {
         "3": "Couche fragile persistante",
-        "5": "Avalanche de fond"
+        "4": "Neige humide"
       },
       "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-24",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-02-25",
           "min_cm": 0,
@@ -105,23 +100,28 @@
         {
           "date": "2026-03-01",
           "min_cm": 0,
-          "max_cm": 3
+          "max_cm": 5
+        },
+        {
+          "date": "2026-03-02",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 3
+        "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PLAQUES EN ALTITUDE, DIFFICILES À SOLLICITER - RARES AVALANCHES DE FOND",
-      "text": "PLAQUES EN ALTITUDE, DIFFICILES À SOLLICITER - RARES AVALANCHES DE FOND\n\nDéclenchements provoqués : même si le déclenchement semble difficile, une avalanche de plaque reste encore possible au-dessus de 2200 m environ, dans les pentes où la neige n'est pas croûtée / portante. Sollicitation peu probable en milieu de pente, mais possible dans les endroits peu enneigés ou dans les transitions entre secteurs très enneigés et peu enneigés (abords des croupes, bords des couloirs, à proximité des rochers, etc...). Cassures épaisses, parfois larges en ubacs, pouvant se propager dans les grandes pentes très enneigées, emportant la quasi-totalité du manteau neigeux en place par la présence des couches fragiles persistantes enfouies à la base du manteau neigeux. \n\nDéparts spontanés : une avalanche de fond emportant la totalité du manteau neigeux en place jusqu’au sol peut encore céder spontanément à toute heure du jour ou de la nuit sur terrain favorable (pentes herbeuses, dalles rocheuses). Avalanche de taille moyenne.\n\nLes quelques averses de pluie ou de neige en seconde partie de journée n'ont pas d'incidence sur la stabilité du manteau neigeux.",
+      "title": "PLAQUES EN ALTITUDE, DIFFICILES À SOLLICITER - FAIBLE ACTIVITÉ EN NEIGE HUMIDE",
+      "text": "PLAQUES EN ALTITUDE, DIFFICILES À SOLLICITER - FAIBLE ACTIVITÉ EN NEIGE HUMIDE \n\nDéclenchements provoqués : - même si le déclenchement semble difficile, une avalanche de plaque reste encore possible au-dessus de 2200 m environ, dans les pentes où la neige est restée froide (large nord) ou présente un aspect humide (versants ensoleillés humidifiés). Sollicitation peu probable en milieu de pente, mais possible dans les endroits peu enneigés ou dans les transitions entre secteurs très enneigés et peu enneigés (abords des croupes, bords des couloirs, à proximité des rochers, etc...). Cassures épaisses, parfois larges en ubacs, pouvant se propager dans les grandes pentes très enneigées, emportant la quasi-totalité du manteau neigeux en place (présence des couches fragiles persistantes enfouies à la base du manteau neigeux). \n- le passage d'un skieur dans une pente raide ayant trop chauffé peut aussi favoriser un départ ponctuel en neige humide.\n\nDéparts spontanés : - l’activité en neige humide au soleil reste limitée. Rares avalanches de taille petite à moyenne dans les pentes raides très ensoleillées, au fil de la journée plutôt près des rochers, parfois jusqu’au sol en neige pourrie.\n- une avalanche de fond ou une reptation emportant la totalité du manteau neigeux en place jusqu’au sol peut céder spontanément à toute heure du jour ou de la nuit sur terrain favorable (pentes herbeuses, dalles rocheuses). Avalanche de taille moyenne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est excédentaire. Avec la grande douceur des derniers jours, les limites d'enneigement remontent dans les pentes bien exposées au soleil.\nHauteurs de neige observées : environ 100 cm à la nivose du Parpaillon à 2550 m, secteur soufflé par le vent.\n\nLimite d'enneigement skiable vers 1200/1300 m en ubacs, plutôt 1600/1800 m en adrets.  \n\nÉtat de la neige de surface : après un regel correct, manteau neigeux en adrets, croûté, humidification limitée en journée aux basses altitudes. En versants nord-est, nord et nord-ouest, le manteau neigeux reste froid, ou humidifié / regelé seulement en surface sous 2000 m. Plus haut, la neige est plus ou moins cartonnée ou durcie par les épisodes de vent passés, mais évolue de plus en plus en vieille neige meuble dans les pentes ou combes plutôt abritées.\nFaibles averses de neige en seconde partie de journée.",
+      "text": "L'enneigement est excédentaire. Les limites d'enneigement remontent dans les pentes bien exposées au soleil.\nHauteurs de neige observées : environ 100 cm à la nivose du Parpaillon à 2550 m, secteur soufflé par le vent.\n\nLimite d'enneigement skiable : 1300/1400 m en ubacs, plutôt 1600/1800 m en adrets.  \n\nÉtat de la neige de surface :  rares cm de neige fraiche. Après un regel correct, manteau neigeux en adrets, croûté, humidification en journée plus marquée aux basses altitudes. En versants nord-est, nord et nord-ouest, la neige reste sèche, ou humidifiée / regelée seulement en surface sous 2000/2200 m. Plus haut, la neige est plus ou moins durcie, mais évolue de plus en plus en vieille neige meuble dans les pentes ou combes plutôt abritées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,13 +132,13 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 50,
-          "S": 15
+          "N": 45,
+          "S": 5
         },
         {
           "alt_m": 2000,
-          "N": 125,
-          "S": 85
+          "N": 120,
+          "S": 80
         },
         {
           "alt_m": 2500,
