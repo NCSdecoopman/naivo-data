@@ -3,49 +3,37 @@
   "massif": "Pelvoux",
   "bulletin": {
     "id": 16,
-    "issued_at": "2026-03-02T15:00:00",
-    "valid_until": "2026-03-03T18:00:00",
+    "issued_at": "2026-03-03T16:00:00",
+    "valid_until": "2026-03-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible évoluant en limité.",
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2200,
-        "split_axis": "horizontal",
-        "split_label": "2200m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
-            "risk": 1,
-            "evolution_to": 2,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2200",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2200m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
-          },
-          "top": {
+          "center": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -54,7 +42,7 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-04",
+        "date": "2026-03-05",
         "label": "Indice de risque limité",
         "comment": "Risque limité. Encore des plaques difficiles à déclencher en altitude. Activité en neige humide limitée en journée.",
         "trend": "steady"
@@ -90,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-02-26",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-02-27",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +101,11 @@
           "date": "2026-03-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,25 +115,25 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PLAQUES EN ALTITUDE, DIFFICILES À SOLLICITER - FAIBLE ACTIVITÉ EN NEIGE HUMIDE",
-      "text": "PLAQUES EN ALTITUDE, DIFFICILES À SOLLICITER - FAIBLE ACTIVITÉ EN NEIGE HUMIDE \n\nDéclenchements provoqués :\n - plaques épaisses sur couche fragile persistante enfouie encore présentes dans les orientations ouest / nord / est au-dessus de 2000/2200 m, voir en versant sud au-dessus de 2500/2700 m.  Déclenchement difficile au passage d'un skieur, mais restant possible là où le manteau neigeux est moins épais (croupes, bords de couloir). Avalanche de grande taille en ubac avec des cassures épaisses et large, plutôt de taille moyenne en adret d'altitude. Danger difficile à détecter, neige pouvant être en vielle poudreuse ou en neige humide en surface. \n - en neige humide. Un skieur peut favoriser un départ superficiel de neige fortement humidifiée en pente raide ensoleillée, généralement de petite taille.\n\nDéparts spontanés :\n - avalanches de neige humide, peu probables au levé du jour, puis quelques départs superficiels au soleil au fil de la journée en orientations est / sud / ouest. Départs ponctuels de petite taille, rarement moyenne.\n - rares avalanches de fond suite à la rupture de reptations (gueules de baleine). Avalanches de taille moyenne, voire grande, possibles à n’importe quel moment du jour et de la nuit.",
+      "title": "PLAQUES EN ALTITUDE, DIFFICILES À SOLLICITER - ÉVENTUELLE ACTIVITÉ EN NEIGE HUMIDE",
+      "text": "PLAQUES EN ALTITUDE, DIFFICILES À SOLLICITER - ÉVENTUELLE ACTIVITÉ EN NEIGE HUMIDE \n\nDéclenchements provoqués :\n- même si le déclenchement semble difficile, une avalanche de plaque reste encore possible (structure de plaque sur couche fragile persistante enfouie). Sollicitation dans les endroits moins enneigés ou les abords de croupes et bords des couloirs, dans les versants de large nord au-dessus de 2000/2200 m, plus haut dans les orientations plus ensoleillées. Avalanche de grande taille en ubac avec des cassures épaisses et larges, plutôt de taille moyenne en adret d'altitude. Danger difficile à détecter, la neige en surface présentant un aspect sec plus ou moins meuble, ou un aspect humidifié.\n- un skieur évoluant dans une pente raide ayant trop réchauffé peut aussi favoriser un départ ponctuel en neige humide.\n\nDéparts spontanés :\n- éventuelles avalanches de neige humide dans les pentes ensoleillées, parfois jusqu’au sol en neige pourrie l'après-midi. Départ linéaire non exclu. Taille petite à moyenne. Même si dans ces versants la neige présente un aspect printanier, l’humidification augmente par rapport à ces derniers jours. Le regel peut être aussi plus aléatoire en lien avec l’incertitude sur la couverture nuageuse nocturne.\n- une avalanche de fond ou une reptation emportant la totalité du manteau neigeux en place jusqu’au sol peut céder spontanément à n’importe quel moment du jour ou de la nuit sur terrain favorable (pentes herbeuses, dalles rocheuses). Avalanche de taille moyenne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est excédentaire. Avec la douceur des derniers jours, les limites d'enneigement remontent dans les pentes bien exposées au soleil.\nHauteurs de neige observées : 299 cm à la Nivôse des Écrins vers 3000 m, 217 cm au Pré de Mme Carle à 1900 m, 104 cm au hameau de Dormillouse à 1730 m.\n\nLimite d'enneigement skiable en fond de vallées en ubacs, 1500/1600 m en adrets pas trop raides.\n\nÉtat de la neige de surface : croute souvent portante le matin après un bon regel nocturne, s'humidifiant en journée au fil de l'ensoleillement. En versants nord-est à nord-ouest au-dessus de 2100/2200 m, vieille poudreuse encore meuble, plus travaillée par le vent proche des crêtes.",
+      "text": "L'enneigement encore souvent excédentaire malgré le tassement.\nHauteurs de neige observées : 298 cm à la Nivôse des Écrins vers 3000 m, 210 cm au Pré de Mme Carle à 1900 m, 104 cm au hameau de Dormillouse à 1730 m.\n\nLimite d'enneigement skiable en fond de vallées en ubacs, 1500/1600 m en adrets pas trop raides, sinon plus haut.\n\nÉtat de la neige de surface : croute plus ou moins portante le matin avec le regel plus aléatoire et une humidification plus rapide au soleil en journée. En versants nord-est à nord-ouest au-dessus de 2100/2200 m, vieille poudreuse encore meuble, plus travaillée par le vent proche des crêtes.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1100,
-        "south": 1400
+        "north": 1200,
+        "south": 1500
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 105,
-          "S": 40
+          "N": 100,
+          "S": 15
         },
         {
           "alt_m": 2000,
