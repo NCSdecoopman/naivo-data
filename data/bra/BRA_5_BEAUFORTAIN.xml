@@ -1,76 +1,67 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="5" MASSIF="Beaufortain" DATEBULLETIN="2026-03-03T16:00:00" DATEECHEANCE="2026-03-04T18:00:00" DATEVALIDITE="2026-03-04T18:00:00" DATEDIFFUSION="2026-03-03T15:33:00" AMENDEMENT="false">
-  <DateValidite>2026-03-04T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="5" MASSIF="Beaufortain" DATEBULLETIN="2026-03-05T16:00:00" DATEECHEANCE="2026-03-06T18:00:00" DATEVALIDITE="2026-03-06T18:00:00" DATEDIFFUSION="2026-03-05T16:15:00" AMENDEMENT="false">
+  <DateValidite>2026-03-06T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="1" EVOLURISQUE1="2" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="2" COMMENTAIRE="Indice de risque faible évoluant en limité." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-03-05T00:00:00"/>
-    <PENTE NE="false" E="true" SE="true" S="true" SW="true" W="true" NW="false" N="false" COMMENTAIRE=""/>
-    <ACCIDENTEL><![CDATA[rares plaques dans les versants ombragés.]]></ACCIDENTEL>
-    <NATUREL><![CDATA[rares départs humides l'après-midi, rares plaques de fond.]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : rares départs humides l'après-midi, rares plaques de fond.
-Déclenchements skieurs : rares plaques dans les versants ombragés.]]></RESUME>
+    <RISQUE RISQUE1="2" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="2" COMMENTAIRE="Indice de risque limité." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-03-07T00:00:00"/>
+    <PENTE NE="true" E="true" SE="true" S="true" SW="true" W="true" NW="true" N="true" COMMENTAIRE=""/>
+    <ACCIDENTEL><![CDATA[rares petites plaques en formation sous le foehn.]]></ACCIDENTEL>
+    <NATUREL><![CDATA[rares avalanches de glissement.]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : rares avalanches de glissement.
+Déclenchements skieurs : rares petites plaques en formation sous le foehn.]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque limité]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Conditions printanières. Risque équivalent. Bon regel le matin puis humidification superficielle en journée.]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Peu d'évolution. Le ciel est dégagé en journée, ce qui devrait permettre une humidification à nouveau efficace dans les versants ensoleillés. Le risque reste limité le temps que les petites plaques à vent se stabilisent.]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_5.png</ImageRisque>
     <ImagePente>rose_pentes_5.png</ImagePente>
   </CARTOUCHERISQUE>
   <STABILITE>
-    <SitAvalTyp SAT1="4" SAT2=""/>
-    <TITRE><![CDATA[ÉPAIS MANTEAU STABILISÉ DANS LA MAJORITÉ DES PENTES.]]></TITRE>
-    <TEXTESANSTITRE><![CDATA[Départs spontanés :
- - Rare avalanche de neige humide dans les pentes ayant chauffées plusieurs heures. Taille 1.
- - Rares mais épaisses plaques de fond pouvant descendre spontanément, quelles que soient l'heure et l'orientation. Plutôt sous 2400 m et dans les pentes habituelles (herbe, dalle rocheuse). Le manteau neigeux actuel étant épais, les volumes mobilisés peuvent être plus conséquents que d'habitude. Taille 2 (moyenne).
+    <SitAvalTyp SAT1="5" SAT2="2"/>
+    <TITRE><![CDATA[MANTEAU PLUTÔT STABLE, RARES AVALANCHES DE GLISSEMENT ET FORMATION DE PLAQUES SOUS LE FOEHN.]]></TITRE>
+    <TEXTESANSTITRE><![CDATA[Déclenchements provoqués : rares petites plaques à vent en formation sous le foehn. Elles sont localisées au-dessus de 2000 m dans les versants froids (nord) où la neige était restée poudreuse jusqu'à présent. Déclenchement parfois facile mais cassures 10-20 cm maximum.
 
-Déclenchements provoqués : peu probable. Petites plaques localisées aux abords des crêtes, en versants ombragés (NO/N/NE) dans les pentes très raides.]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[ÉPAIS MANTEAU STABILISÉ DANS LA MAJORITÉ DES PENTES.
+Départs spontanés : rares avalanches de glissement (plaques de fond), plutôt sous 2400 m mais parfois plus haut sur des terrains très propices (dalles rocheuses raides notamment). Les versants est, sud et ouest sont les principaux concernés. Le manteau neigeux actuel étant épais, les volumes mobilisés peuvent être conséquents : tailles généralement moyennes mais une grande avalanche n'est pas exclue.]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[MANTEAU PLUTÔT STABLE, RARES AVALANCHES DE GLISSEMENT ET FORMATION DE PLAQUES SOUS LE FOEHN.
 
-Départs spontanés :
- - Rare avalanche de neige humide dans les pentes ayant chauffées plusieurs heures. Taille 1.
- - Rares mais épaisses plaques de fond pouvant descendre spontanément, quelles que soient l'heure et l'orientation. Plutôt sous 2400 m et dans les pentes habituelles (herbe, dalle rocheuse). Le manteau neigeux actuel étant épais, les volumes mobilisés peuvent être plus conséquents que d'habitude. Taille 2 (moyenne).
+Déclenchements provoqués : rares petites plaques à vent en formation sous le foehn. Elles sont localisées au-dessus de 2000 m dans les versants froids (nord) où la neige était restée poudreuse jusqu'à présent. Déclenchement parfois facile mais cassures 10-20 cm maximum.
 
-Déclenchements provoqués : peu probable. Petites plaques localisées aux abords des crêtes, en versants ombragés (NO/N/NE) dans les pentes très raides.]]></TEXTE>
+Départs spontanés : rares avalanches de glissement (plaques de fond), plutôt sous 2400 m mais parfois plus haut sur des terrains très propices (dalles rocheuses raides notamment). Les versants est, sud et ouest sont les principaux concernés. Le manteau neigeux actuel étant épais, les volumes mobilisés peuvent être conséquents : tailles généralement moyennes mais une grande avalanche n'est pas exclue.]]></TEXTE>
   </STABILITE>
   <QUALITE>
-    <TEXTE><![CDATA[Enneigement : les températures anormalement douces et le tassement font entrer l'enneigement dans la normale, surtout en Sud et en basse montagne où la limite d'enneigement dans ces pentes remonte vite. Ailleurs le manteau se tasse considérablement.
-Limite skiable : encore skiable dès 1100 m dans les prairies orientées Nord, plutôt 1500 m en Sud.
-Qualité de la neige : 
-En Sud, Est, Ouest, conditions de printemps idéales avec bon regel le matin et "décaillage" suivant la course du soleil. En Nord, neige croutée sous 2000 m. Au-dessus, neige encore froide, poudreuse dense ou frisette (vieille poudre).]]></TEXTE>
+    <TEXTE><![CDATA[Enneigement : fonte rapide de la neige en sud et aux basses altitudes sous les assauts du soleil, de la douceur puis désormais du foehn. Ailleurs, malgré le tassement, l'enneigement reste très bon pour la saison.
+
+Limite skiable : encore skiable dès 1100 m dans les prairies orientées nord, plutôt 1400/1500 m en sud pas trop raide.
+
+Qualité de la neige : mauvais regel sous 1800/2000 m avec potentiellement une fine croute désagréable sous cette altitude. Au-dessus, 
+- en nord, neige encore froide, poudreuse dense dans les vallons soumis au foehn, ou frisette (vieille poudre) agréable à skier.
+- en sud/est/ouest, neige dure qui ramollit très difficilement en journée (voile dense).]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-03-03T00:00:00" LimiteSud="1400" LimiteNord="1000">
+  <ENNEIGEMENT DATE="2026-03-05T00:00:00" LimiteSud="1400" LimiteNord="1000">
     <NIVEAU ALTI="1500" N="130" S="50"/>
-    <NIVEAU ALTI="2000" N="210" S="150"/>
-    <NIVEAU ALTI="2500" N="260" S="180"/>
+    <NIVEAU ALTI="2000" N="190" S="140"/>
+    <NIVEAU ALTI="2500" N="250" S="180"/>
     <ImageEnneigement>montagne_enneigement_5.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-02-27T00:00:00" SS24Min="0" SS24Max="0"/>
-    <NEIGE24H DATE="2026-02-28T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-03-01T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-03-02T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-03-03T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-03-04T00:00:00" SS24Min="0" SS24Max="0"/>
+    <NEIGE24H DATE="2026-03-05T00:00:00" SS24Min="0" SS24Max="0"/>
+    <NEIGE24H DATE="2026-03-06T00:00:00" SS24Min="0" SS24Max="0"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_5.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="2000" ALTITUDEVENT2="3000">
-    <COMMENTAIRE>Journée printanière. Très faiblement voilée. </COMMENTAIRE>
-    <ECHEANCE DATE="2026-03-04T06:00:00" FF1="5" DD1="SE" FF2="15" DD2="SO" ISO0="2300" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-03-04T12:00:00" FF1="5" DD1="SE" FF2="5" DD2="O" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-03-04T18:00:00" FF1="10" DD1="O" FF2="5" DD2="SO" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-03-05T00:00:00" FF1="10" DD1="Vrb" FF2="15" DD2="S" ISO0="2500" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
+    <COMMENTAIRE>Ciel très voilé, accompagné de poussières sahariennes abaissant fortement la visibilité. Foehn modéré dans les vallons exposés.</COMMENTAIRE>
+    <ECHEANCE DATE="2026-03-06T06:00:00" FF1="30" DD1="E" FF2="30" DD2="SE" ISO0="2700" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-03-06T12:00:00" FF1="30" DD1="E" FF2="30" DD2="SE" ISO0="2600" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-03-06T18:00:00" FF1="25" DD1="E" FF2="30" DD2="SE" ISO0="2600" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-03-07T00:00:00" FF1="20" DD1="E" FF2="30" DD2="SE" ISO0="2600" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_5.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-02-25T06:00:00" FF1="5" DD1="E" FF2="15" DD2="SO" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-02-25T12:00:00" FF1="5" DD1="SE" FF2="15" DD2="S" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
-      <ECHEANCE DATE="2026-02-25T18:00:00" FF1="5" DD1="SE" FF2="15" DD2="S" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
-      <ECHEANCE DATE="2026-02-26T00:00:00" FF1="5" DD1="S" FF2="15" DD2="S" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-02-26T06:00:00" FF1="5" DD1="SE" FF2="15" DD2="SO" ISO0="3100" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-02-26T12:00:00" FF1="5" DD1="SE" FF2="15" DD2="SO" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-02-26T18:00:00" FF1="5" DD1="O" FF2="15" DD2="SO" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
-      <ECHEANCE DATE="2026-02-27T00:00:00" FF1="5" DD1="SE" FF2="15" DD2="SO" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-02-27T06:00:00" FF1="5" DD1="SE" FF2="15" DD2="SO" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-02-27T12:00:00" FF1="5" DD1="SE" FF2="15" DD2="O" ISO0="2900" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-02-27T18:00:00" FF1="10" DD1="O" FF2="20" DD2="SO" ISO0="2800" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
@@ -91,18 +82,16 @@ En Sud, Est, Ouest, conditions de printemps idéales avec bon regel le matin et 
       <ECHEANCE DATE="2026-03-03T12:00:00" FF1="5" DD1="O" FF2="15" DD2="SO" ISO0="2300" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-03-03T18:00:00" FF1="5" DD1="NO" FF2="10" DD2="O" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-03-04T00:00:00" FF1="5" DD1="O" FF2="10" DD2="SO" ISO0="2300" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
+      <ECHEANCE DATE="2026-03-04T06:00:00" FF1="5" DD1="SE" FF2="15" DD2="SO" ISO0="2300" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
+      <ECHEANCE DATE="2026-03-04T12:00:00" FF1="5" DD1="SE" FF2="15" DD2="SO" ISO0="2300" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
+      <ECHEANCE DATE="2026-03-04T18:00:00" FF1="10" DD1="O" FF2="20" DD2="SO" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-03-05T00:00:00" FF1="15" DD1="SO" FF2="20" DD2="S" ISO0="2500" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-03-05T06:00:00" FF1="15" DD1="SO" FF2="20" DD2="S" ISO0="2500" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-03-05T12:00:00" FF1="20" DD1="E" FF2="25" DD2="S" ISO0="2600" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-03-05T18:00:00" FF1="25" DD1="E" FF2="30" DD2="S" ISO0="2700" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-03-06T00:00:00" FF1="30" DD1="E" FF2="30" DD2="S" ISO0="2700" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-02-25T00:00:00" LimiteSud="1200" LimiteNord="1000">
-        <NIVEAU ALTI="1500" N="160" S="105"/>
-        <NIVEAU ALTI="2000" N="220" S="185"/>
-        <NIVEAU ALTI="2500" N="270" S="205"/>
-      </ENNEIGEMENT>
-      <ENNEIGEMENT DATE="2026-02-26T00:00:00" LimiteSud="1200" LimiteNord="1000">
-        <NIVEAU ALTI="1500" N="160" S="90"/>
-        <NIVEAU ALTI="2000" N="220" S="170"/>
-        <NIVEAU ALTI="2500" N="270" S="200"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-02-27T00:00:00" LimiteSud="1300" LimiteNord="1000">
         <NIVEAU ALTI="1500" N="150" S="80"/>
         <NIVEAU ALTI="2000" N="210" S="160"/>
@@ -128,23 +117,33 @@ En Sud, Est, Ouest, conditions de printemps idéales avec bon regel le matin et 
         <NIVEAU ALTI="2000" N="210" S="150"/>
         <NIVEAU ALTI="2500" N="260" S="180"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-03-04T00:00:00" LimiteSud="1400" LimiteNord="1000">
+        <NIVEAU ALTI="1500" N="130" S="50"/>
+        <NIVEAU ALTI="2000" N="200" S="150"/>
+        <NIVEAU ALTI="2500" N="250" S="180"/>
+      </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-03-05T00:00:00" LimiteSud="1400" LimiteNord="1000">
+        <NIVEAU ALTI="1500" N="130" S="50"/>
+        <NIVEAU ALTI="2000" N="190" S="140"/>
+        <NIVEAU ALTI="2500" N="250" S="180"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-02-26T00:00:00" SS24Min="0" SS24Max="0"/>
-      <NEIGE24H DATE="2026-02-27T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-02-28T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-03-01T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-03-02T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-03-03T00:00:00" SS24Min="0" SS24Max="0"/>
+      <NEIGE24H DATE="2026-03-04T00:00:00" SS24Min="0" SS24Max="0"/>
+      <NEIGE24H DATE="2026-03-05T00:00:00" SS24Min="0" SS24Max="0"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-02-25T00:00:00" RISQUEMAXI="3"/>
-      <RISQUE DATE="2026-02-26T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-02-27T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-02-28T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-03-01T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-03-02T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-03-03T00:00:00" RISQUEMAXI="2"/>
+      <RISQUE DATE="2026-03-04T00:00:00" RISQUEMAXI="2"/>
+      <RISQUE DATE="2026-03-05T00:00:00" RISQUEMAXI="2"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_5.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_5.png</Image7derniersjours_portrait>

@@ -3,58 +3,46 @@
   "massif": "Chablais",
   "bulletin": {
     "id": 1,
-    "issued_at": "2026-03-03T16:00:00",
-    "valid_until": "2026-03-04T18:00:00",
+    "issued_at": "2026-03-05T16:00:00",
+    "valid_until": "2026-03-06T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible évoluant en limité.",
+      "comment": "Indice de risque faible évoluant en limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2200,
-        "split_axis": "horizontal",
-        "split_label": "2200m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
+            "loc": null,
             "risk": 1,
             "evolution_to": 2,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2200",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2200m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
-          },
-          "top": {
-            "text": "2",
             "risk": 2,
-            "evolution_to": null
+            "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-05",
+        "date": "2026-03-07",
         "label": "Indice de risque limité",
         "comment": "Risque stationnaire.",
         "trend": "steady"
@@ -78,27 +66,17 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": 5,
+      "primary": 5,
+      "secondary": 4,
       "labels": {
-        "4": "Neige humide",
-        "5": "Avalanche de fond"
+        "5": "Avalanche de fond",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-5"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-02-27",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-02-28",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-01",
           "min_cm": 0,
@@ -118,6 +96,16 @@
           "date": "2026-03-04",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-05",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-03-06",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux qui se réchauffe au fil de la journée.",
-      "text": "Manteau neigeux qui se réchauffe au fil de la journée. \n\nDéclenchements provoqués :\n* Au fil de l'ensoleillement, départs ponctuels sous les skis. Taille 1 à 2 (petite à moyenne).\n* Au-dessus de 2200 m en versants E/N/O : rares plaques en présence d'une couche fragile persistante enfouie. Difficile à déclencher mais départ possible en cascade. La profondeur de l'enfouissement de la couche fragile varie énormément, même dans une même pente (abords de crêtes, près des rochers). Cette couche fragile est rarement présente en Sud en altitude et peut être sollicitée par un enfoncement important dans la neige humide. Une avalanche en plaque (même d'aspect humide en surface) avec une bonne propagation est possible. Taille 2, et rarement 3 en Sud (moyenne, rarement grande). \n\nDéparts spontanés :\n* Avalanche de neige humide au fil du réchauffement. Très rare départ en plaque si humidification de la couche fragile persistante. Taille 1 à 2, rarement 3. \n* En tous versant, principalement sous 2400 m : plaques de fond. Départs dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Départs possibles à toute heure du jour ou de la nuit. Taille 2 (moyenne).\n* Chutes de corniches, épaisses et volumineuses. Leurs chutes peuvent déclencher une plaque en contrebas.",
+      "title": "",
+      "text": "Départs spontanés :\n* Plaques de fond. En adrets en dessous de 2200 m, éventuellement versant NW sous 1800 m aux endroits habituels (pentes lisses, raides en herbe ou dalle) possible à toute heure. Taille 2 (moyenne). Observables : fissures/gueules de baleine.\n* Quelques petites avalanches de neige humide. Elle se produisent dans les adrets après quelques heures de soleil. Départ ponctuel, écoulement en forme de poire. Observables : escargots, enfoncement piéton important.\n* Chutes de corniches (volumineuse), pouvant éventuellement déclencher une plaque en contrebas.\n\nDéclenchements provoqués :\n* Plaque dure, très peu probable mais pas impossible. En tout versants au-dessus de 2200 m. Cassure épaisse, taille 2 (moyenne), exceptionnellement 3 (grande). Difficilement déclenchable à skis, mais pouvant être sollicitée par la chute d'une corniche ou une première avalanche de neige humide.\n* Départs ponctuels sous les skis de neige humide, au fil de l'ensoleillement. Taille 1 (petite).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : bon pour la période. On peut chausser les skis vers 1200/1300 m en versants E/N/O et 1400/1500 m en versants Sud. Les corniches sont volumineuses et menaçantes. Les arêtes et les crêtes sont érodées par le vent de SW à NW. \n\nQualité de la neige mercredi :\n* Regel inégal, qui dépendra du voile de la fin de nuit. \n* Conditions printanières tous versants (regel le matin et décaille avec le soleil). Enfoncement piéton important.\n* En Nord dès 2000 m dans les secteurs préservés neige froide dure, vielle poudre. Croutée en dessous.",
+      "text": "Enneigement : bon pour la période. On peut chausser les skis vers 1200/1300 m en versants E/N/W et 1400/1500 m en S. Corniches volumineuses.\n\nQualité de la neige vendredi :\n* Regel nocturne assez efficace. \n* Manteau neigeux très dense, la croute ramollit et s'humidifie suivant la course du soleil, en dessous de 2200/2300 m, voir 2500 m en S raide.\n* En N au-dessus de 2100/2300 m, neige froide, plutôt dure, rares endroits abrités du vent en vielle poudre.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +137,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 110,
-          "S": 90
+          "N": 100,
+          "S": 80
         },
         {
           "alt_m": 2000,
-          "N": 210,
-          "S": 150
+          "N": 200,
+          "S": 140
         }
       ],
       "icon_key": "snowpack",
