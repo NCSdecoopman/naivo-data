@@ -333,6 +333,7 @@
         ]
       },
       "properties": {
+        "code": "1",
         "massif": "Chablais",
         "departement": "Haute-Savoie",
         "insee": "74",
@@ -575,6 +576,7 @@
         ]
       },
       "properties": {
+        "code": "2",
         "massif": "Aravis",
         "departement": "Haute-Savoie",
         "insee": "74",
@@ -841,6 +843,7 @@
         ]
       },
       "properties": {
+        "code": "3",
         "massif": "Mont-Blanc",
         "departement": "Haute-Savoie",
         "insee": "74",
@@ -1031,6 +1034,7 @@
         ]
       },
       "properties": {
+        "code": "4",
         "massif": "Bauges",
         "departement": "Savoie",
         "insee": "73",
@@ -1257,6 +1261,7 @@
         ]
       },
       "properties": {
+        "code": "5",
         "massif": "Beaufortain",
         "departement": "Savoie",
         "insee": "73",
@@ -1539,6 +1544,7 @@
         ]
       },
       "properties": {
+        "code": "6",
         "massif": "Haute-Tarentaise",
         "departement": "Savoie",
         "insee": "73",
@@ -1717,6 +1723,7 @@
         ]
       },
       "properties": {
+        "code": "7",
         "massif": "Chartreuse",
         "departement": "Isère",
         "insee": "38",
@@ -2019,6 +2026,7 @@
         ]
       },
       "properties": {
+        "code": "8",
         "massif": "Belledonne",
         "departement": "Isère",
         "insee": "38",
@@ -2369,6 +2377,7 @@
         ]
       },
       "properties": {
+        "code": "9",
         "massif": "Maurienne",
         "departement": "Savoie",
         "insee": "73",
@@ -2675,6 +2684,7 @@
         ]
       },
       "properties": {
+        "code": "10",
         "massif": "Vanoise",
         "departement": "Savoie",
         "insee": "73",
@@ -2957,6 +2967,7 @@
         ]
       },
       "properties": {
+        "code": "11",
         "massif": "Haute-Maurienne",
         "departement": "Savoie",
         "insee": "73",
@@ -3231,6 +3242,7 @@
         ]
       },
       "properties": {
+        "code": "12",
         "massif": "Grandes-Rousses",
         "departement": "Isère",
         "insee": "38",
@@ -3469,6 +3481,7 @@
         ]
       },
       "properties": {
+        "code": "13",
         "massif": "Thabor",
         "departement": "Hautes-Alpes",
         "insee": "05",
@@ -3771,6 +3784,7 @@
         ]
       },
       "properties": {
+        "code": "14",
         "massif": "Vercors",
         "departement": "Isère",
         "insee": "38",
@@ -4089,6 +4103,7 @@
         ]
       },
       "properties": {
+        "code": "15",
         "massif": "Oisans",
         "departement": "Isère",
         "insee": "38",
@@ -4339,6 +4354,7 @@
         ]
       },
       "properties": {
+        "code": "16",
         "massif": "Pelvoux",
         "departement": "Hautes-Alpes",
         "insee": "05",
@@ -4645,6 +4661,7 @@
         ]
       },
       "properties": {
+        "code": "17",
         "massif": "Queyras",
         "departement": "Hautes-Alpes",
         "insee": "05",
@@ -4879,6 +4896,7 @@
         ]
       },
       "properties": {
+        "code": "18",
         "massif": "Devoluy",
         "departement": "Hautes-Alpes",
         "insee": "05",
@@ -5065,6 +5083,7 @@
         ]
       },
       "properties": {
+        "code": "19",
         "massif": "Champsaur",
         "departement": "Hautes-Alpes",
         "insee": "05",
@@ -5367,6 +5386,7 @@
         ]
       },
       "properties": {
+        "code": "20",
         "massif": "Embrunnais Parpaillon",
         "departement": "Hautes-Alpes",
         "insee": "05",
@@ -5673,6 +5693,7 @@
         ]
       },
       "properties": {
+        "code": "21",
         "massif": "Ubaye",
         "departement": "Alpes de Haute-Provence",
         "insee": "04",
@@ -5943,6 +5964,7 @@
         ]
       },
       "properties": {
+        "code": "22",
         "massif": "Haut-Var Haut-Verdon",
         "departement": "Alpes Maritimes",
         "insee": "06",
@@ -6245,6 +6267,7 @@
         ]
       },
       "properties": {
+        "code": "23",
         "massif": "Mercantour",
         "departement": "Alpes Maritimes",
         "insee": "06",
@@ -6559,6 +6582,7 @@
         ]
       },
       "properties": {
+        "code": "64",
         "massif": "Pays-Basque",
         "departement": "Pyrenees-Atlantiques",
         "insee": "64",
@@ -6941,6 +6965,7 @@
         ]
       },
       "properties": {
+        "code": "65",
         "massif": "Aspe Ossau",
         "departement": "Pyrenees-Atlantiques",
         "insee": "64",
@@ -7411,6 +7436,7 @@
         ]
       },
       "properties": {
+        "code": "66",
         "massif": "Haute-Bigorre",
         "departement": "Hautes-Pyrenees",
         "insee": "65",
@@ -7873,6 +7899,7 @@
         ]
       },
       "properties": {
+        "code": "67",
         "massif": "Aure Louron",
         "departement": "Hautes-Pyrenees",
         "insee": "65",
@@ -8311,6 +8338,7 @@
         ]
       },
       "properties": {
+        "code": "68",
         "massif": "Luchonnais",
         "departement": "Haute-Garonne",
         "insee": "31",
@@ -8773,6 +8801,7 @@
         ]
       },
       "properties": {
+        "code": "69",
         "massif": "Couserans",
         "departement": "Ariege",
         "insee": "09",
@@ -9067,6 +9096,7 @@
         ]
       },
       "properties": {
+        "code": "70",
         "massif": "Haute-Ariege",
         "departement": "Ariege",
         "insee": "09",
@@ -9405,6 +9435,7 @@
         ]
       },
       "properties": {
+        "code": "72",
         "massif": "Orlu St-Barthelemy",
         "departement": "Ariege",
         "insee": "09",
@@ -9819,6 +9850,7 @@
         ]
       },
       "properties": {
+        "code": "73",
         "massif": "Capcir Puymorens",
         "departement": "Pyrenees-Orientales",
         "insee": "66",
@@ -10249,6 +10281,7 @@
         ]
       },
       "properties": {
+        "code": "74",
         "massif": "Cerdagne Canigou",
         "departement": "Pyrenees-Orientales",
         "insee": "66",
