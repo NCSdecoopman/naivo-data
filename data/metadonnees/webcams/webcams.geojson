@@ -47,7 +47,7 @@
         "url_image": "https://prevol.com/prevolwebcam/upload/prevol3decos.jpg",
         "url_page": "https://www.prevol.com/webcam",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -75,7 +75,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/autrans_tremplin.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -131,7 +131,7 @@
         "url_image": "http://www.lescontamines.net/camera/tkchoton.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -159,7 +159,7 @@
         "url_image": "http://www.chalet-les-fayards.com/web_cam/w0000.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -271,7 +271,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_Autrans_tsf-la-quoi.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -327,7 +327,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/meaudre_front.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -411,7 +411,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/karellis_vinouve.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -438,7 +438,7 @@
         "altitude": 1550,
         "url_image": "https://storage.roundshot.com/543bd2287c28d7.17038128/{yyyy}-{mm}-{dd}/{hh}-{ii}-00/{yyyy}-{mm}-{dd}-{hh}-{ii}-00_default.jpg",
         "url_page": "https://tignes.roundshot.com/brevieres/",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V",
         "periodicite": 10,
         "decalage_periodicite": 0,
@@ -466,7 +466,7 @@
         "altitude": 3032,
         "url_image": "https://storage.roundshot.com/543bcff0838721.46900857/{yyyy}-{mm}-{dd}/{hh}-{ii}-00/{yyyy}-{mm}-{dd}-{hh}-{ii}-00_default.jpg",
         "url_page": "https://tignes.roundshot.com/grande-motte/",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V",
         "periodicite": 10,
         "decalage_periodicite": 0,
@@ -550,7 +550,7 @@
         "altitude": 2107,
         "url_image": "https://storage.roundshot.com/543bcf8f4a8106.82703695/{yyyy}-{mm}-{dd}/{hh}-{ii}-00/{yyyy}-{mm}-{dd}-{hh}-{ii}-00_half.jpg",
         "url_page": "https://www.tignes.net/webcams",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V",
         "periodicite": 10,
         "decalage_periodicite": 0,
@@ -635,7 +635,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_la-plagne_bergerie.jpg",
         "url_page": "http://m.webcam-hd.com/webcam-station-la-plagne/bergerie",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -671,34 +671,6 @@
         "code_locale": null,
         "largeur": 23131,
         "hauteur": 2750
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.7358799,
-          45.24860001
-        ]
-      },
-      "properties": {
-        "id": 460,
-        "name": "Aussois - Grand jeu",
-        "lat": 45.24860001,
-        "lon": 6.7358799,
-        "altitude": 2150,
-        "url_image": "http://www.trinum.com/ibox/ftpcam/mega_aussois_grand-jeu.jpg",
-        "url_page": "http://www.aussois.com/webcams",
-        "statut_enligne": "E",
-        "statut_variable": "F",
-        "periodicite": null,
-        "decalage_periodicite": 0,
-        "decalage_horloge": 0,
-        "fuseau_horaire": null,
-        "code_locale": null,
-        "largeur": 1918,
-        "hauteur": 1055
       }
     },
     {
@@ -802,7 +774,7 @@
         "altitude": 1828,
         "url_image": "https://storage.roundshot.com/581c64c16ab941.38509337/{yyyy}-{mm}-{dd}/{hh}-{ii}-00/{yyyy}-{mm}-{dd}-{hh}-{ii}-00_default.jpg",
         "url_page": "https://www.valdisere.com/webcam/village/",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V",
         "periodicite": 60,
         "decalage_periodicite": 0,
@@ -830,7 +802,7 @@
         "altitude": 2679,
         "url_image": "http://storage.roundshot.com/543beaa2239680.94544000/{yyyy}-{mm}-{dd}/{hh}-{ii}-00/{yyyy}-{mm}-{dd}-{hh}-{ii}-00_half.jpg",
         "url_page": "https://www.valdisere.com/webcam/bellevarde/",
-        "statut_enligne": "E",
+        "statut_enligne": "H",
         "statut_variable": "V",
         "periodicite": 60,
         "decalage_periodicite": 0,
@@ -887,7 +859,7 @@
         "url_image": "http://webcams.lecollet.com/imageSC.jpg",
         "url_page": "http://www.lecollet.com",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -943,7 +915,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_st_jean_montclar_la-breche.jpg",
         "url_page": "http://m.webcam-hd.com/st-jean-montclar/la-breche",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -971,7 +943,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/reallon_chabrieres.jpg",
         "url_page": "https://www.reallon-ski.com/webcams-meteo-bulletin-neige-reallon/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -999,7 +971,7 @@
         "url_image": "http://www.lescontamines.net/camera/belleville.jpg",
         "url_page": "http://www.lescontamines.net/webcam.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": 15,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -1027,7 +999,7 @@
         "url_image": "http://www.lescontamines.net/camera/cambuche.jpg",
         "url_page": "http://www.lescontamines.net/webcam.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -1055,7 +1027,7 @@
         "url_image": "http://www.lescontamines.net/camera/lay.jpg",
         "url_page": "http://www.lescontamines.net/webcam.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -1083,7 +1055,7 @@
         "url_image": "http://www.lescontamines.net/camera/camaiguille.jpg",
         "url_page": "http://www.lescontamines.net/webcam.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -1111,7 +1083,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_alpe-du-grand-serre_sommet-serriou.jpg",
         "url_page": "http://www.alpedugrandserre.info",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -1363,7 +1335,7 @@
         "url_image": "http://www.compagniedumontblanc.fr/webcam/blm1vuedomaine.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -1447,7 +1419,7 @@
         "url_image": "http://www.moutiers.meteoamikuze.com/Webcam/webcam.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -1574,20 +1546,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.73576069,
-          45.26246199
+          6.732832,
+          45.251309
         ]
       },
       "properties": {
         "id": 647,
-        "name": "Aussois - Armoise",
-        "lat": 45.26246199,
-        "lon": 6.73576069,
-        "altitude": 2582,
+        "name": "Aussois - Eterlou",
+        "lat": 45.251309,
+        "lon": 6.732832,
+        "altitude": 2251,
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_aussois_armoise.jpg",
-        "url_page": "http://www.aussois.com/webcams",
+        "url_page": "https://www.aussois.com/webcam",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -1643,7 +1615,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/1280_valmorel_lanchettes.jpg",
         "url_page": "http://m.webcam-hd.com/valmorel/lanchettes",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -1699,7 +1671,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/montalbert_fornelet.jpg",
         "url_page": "http://m.webcam-hd.com/webcam-station-la-plagne/webcam-montalbert-fornelet",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -1895,7 +1867,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/1280_st-pierre-de-chartreuse_le-planolet.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -1950,7 +1922,7 @@
         "altitude": 2247,
         "url_image": "https://storage.roundshot.com/543beaf5b6cb04.66204435/{yyyy}-{mm}-{dd}/{hh}-{ii}-00/{yyyy}-{mm}-{dd}-{hh}-{ii}-00_half.jpg",
         "url_page": "https://valloire.roundshot.com/setaz/",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V",
         "periodicite": 10,
         "decalage_periodicite": 0,
@@ -1978,7 +1950,7 @@
         "altitude": 2514,
         "url_image": "https://storage.roundshot.com/543bebb87632e7.31748493/{yyyy}-{mm}-{dd}/{hh}-{ii}-{ss}/{yyyy}-{mm}-{dd}-{hh}-{ii}-{ss}_half.jpg",
         "url_page": "https://valloire.roundshot.com/",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V",
         "periodicite": 10,
         "decalage_periodicite": 0,
@@ -2034,7 +2006,7 @@
         "altitude": 2440,
         "url_image": "https://storage.roundshot.com/54526824ac78b8.19268277/{yyyy}-{mm}-{dd}/{hh}-{ii}-{ss}/{yyyy}-{mm}-{dd}-{hh}-{ii}-{ss}_half.jpg",
         "url_page": "https://valmeinier.roundshot.com/moneul-creyduquart/",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V",
         "periodicite": 20,
         "decalage_periodicite": 0,
@@ -2091,7 +2063,7 @@
         "url_image": "https://images.webcam-hd.com/mega_les_saisies_bisanne-panoramique-2000.jpg",
         "url_page": "http://www.lessaisies.com",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -2287,7 +2259,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_gdbornand_maroly.jpg",
         "url_page": "http://m.webcam-hd.com/grand-bornand/maroly",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -2315,7 +2287,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_la-clusaz_bergerie.jpg",
         "url_page": "http://m.webcam-hd.com/la-clusaz/la-bergerie",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -2399,7 +2371,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/la-clusaz_massif-de-l-etale.jpg",
         "url_page": "http://m.webcam-hd.com/la-clusaz/massif-etale",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -2455,7 +2427,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_la-clusaz_cret-du-loup.jpg",
         "url_page": "http://m.webcam-hd.com/la-clusaz/cret-du-loup",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -2511,7 +2483,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_bernex_front-de-neige.jpg",
         "url_page": "http://m.webcam-hd.com/bernex/front-de-neige",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -2554,6 +2526,62 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          2.1191436,
+          42.5426726
+        ]
+      },
+      "properties": {
+        "id": 930,
+        "name": "La_Llagonne - LFNQ",
+        "lat": 42.5426726,
+        "lon": 2.1191436,
+        "altitude": null,
+        "url_image": "https://cam-aero.eu/raspicamaero/LFNQ_La_Llagonne",
+        "url_page": "http://cam-aero.eu/raspicamaero/",
+        "statut_enligne": "H",
+        "statut_variable": "F",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1024,
+        "hauteur": 768
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1187896,
+          42.5431014
+        ]
+      },
+      "properties": {
+        "id": 931,
+        "name": "La_Llagonne2 - LFNQ",
+        "lat": 42.5431014,
+        "lon": 2.1187896,
+        "altitude": null,
+        "url_image": "https://cam-aero.eu/raspicamaero/LFNQ_La_Llagonne2",
+        "url_page": "http://cam-aero.eu/raspicamaero/",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1024,
+        "hauteur": 768
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.92640781,
           45.49601848
         ]
@@ -2566,7 +2594,7 @@
         "altitude": 1798,
         "url_image": "https://storage.roundshot.com/543bd2924fdf25.37737232/{yyyy}-{mm}-{dd}/{hh}-{ii}-00/{yyyy}-{mm}-{dd}-{hh}-{ii}-00_default.jpg",
         "url_page": "https://tignes.roundshot.com/1800/",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V",
         "periodicite": 10,
         "decalage_periodicite": 0,
@@ -2575,6 +2603,34 @@
         "code_locale": null,
         "largeur": 6136,
         "hauteur": 800
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1427778,
+          42.93638889
+        ]
+      },
+      "properties": {
+        "id": 979,
+        "name": "Pic du Midi",
+        "lat": 42.93638889,
+        "lon": 0.1427778,
+        "altitude": null,
+        "url_image": "http://www.fripon.org/IMG/jpg/stations/RT_FRMP01.jpg",
+        "url_page": "https://www.fripon.org",
+        "statut_enligne": "E",
+        "statut_variable": "F",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1280,
+        "hauteur": 960
       }
     },
     {
@@ -2621,6 +2677,62 @@
         "lon": 6.6422167,
         "altitude": null,
         "url_image": "http://www.fripon.org/IMG/jpg/stations/RT_FRPA04.jpg",
+        "url_page": "https://www.fripon.org",
+        "statut_enligne": "E",
+        "statut_variable": "F",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1296,
+        "hauteur": 966
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.300216,
+          42.787796
+        ]
+      },
+      "properties": {
+        "id": 1026,
+        "name": "Guzet Neige",
+        "lat": 42.787796,
+        "lon": 1.300216,
+        "altitude": null,
+        "url_image": "http://www.fripon.org/IMG/jpg/stations/RT_FRMP03.jpg",
+        "url_page": "https://www.fripon.org",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1280,
+        "hauteur": 960
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.306967,
+          42.47969
+        ]
+      },
+      "properties": {
+        "id": 1027,
+        "name": "Mantet",
+        "lat": 42.47969,
+        "lon": 2.306967,
+        "altitude": null,
+        "url_image": "http://www.fripon.org/IMG/jpg/stations/RT_FRLR06.jpg",
         "url_page": "https://www.fripon.org",
         "statut_enligne": "E",
         "statut_variable": "F",
@@ -2763,7 +2875,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_montchavin_les-coches.jpg",
         "url_page": "http://m.webcam-hd.com/webcam-station-la-plagne/montchavin-telebuffette",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -2825,8 +2937,8 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 12552,
-        "hauteur": 3942
+        "largeur": 13032,
+        "hauteur": 3472
       }
     },
     {
@@ -3086,34 +3198,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.74103498,
-          45.23073983
-        ]
-      },
-      "properties": {
-        "id": 1127,
-        "name": "Aussois - Village",
-        "lat": 45.23073983,
-        "lon": 6.74103498,
-        "altitude": 1497,
-        "url_image": "http://www.trinum.com/ibox/ftpcam/mega_aussois_village.jpg",
-        "url_page": "http://www.aussois.com/webcams",
-        "statut_enligne": "E",
-        "statut_variable": "F",
-        "periodicite": null,
-        "decalage_periodicite": 0,
-        "decalage_horloge": 0,
-        "fuseau_horaire": null,
-        "code_locale": null,
-        "largeur": 1920,
-        "hauteur": 1050
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           6.93065643,
           45.26602211
         ]
@@ -3183,7 +3267,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_bessans_la-bessannaise.jpg",
         "url_page": "http://www.haute-maurienne-vanoise.com/fr/info-live/webcam",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -3238,7 +3322,7 @@
         "altitude": 2064,
         "url_image": "http://films.viewsurf.com/bonneval2/panoramique_hq/bonneval2_{yyyy}{mm}{dd}_{hh}{ii}.jpg",
         "url_page": "http://www.haute-maurienne-vanoise.com/fr/info-live/webcam",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V",
         "periodicite": 60,
         "decalage_periodicite": 43,
@@ -3351,7 +3435,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_coeur-de-savoie_la-rochette.jpg",
         "url_page": "http://m.webcam-hd.com/coeur-de-savoie/la-rochette",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -3394,6 +3478,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.742004,
+          42.974579
+        ]
+      },
+      "properties": {
+        "id": 1174,
+        "name": "Arette - Pierre Saint Martin",
+        "lat": 42.974579,
+        "lon": -0.742004,
+        "altitude": null,
+        "url_image": "https://www.fripon.org/IMG/jpg/stations/RT_FRAQ05.jpg",
+        "url_page": "https://www.fripon.org",
+        "statut_enligne": "E",
+        "statut_variable": "F",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1280,
+        "hauteur": 960
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           5.33058875,
           44.90709558
         ]
@@ -3407,7 +3519,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_la-drome_front-de-neige-font-d-urle.jpg",
         "url_page": "http://www.ladromemontagne.fr/fr/hiver/webcams.htm",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -3435,7 +3547,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_la-drome_font-d-urle.jpg",
         "url_page": "http://www.ladromemontagne.fr/fr/hiver/webcams.htm",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -3491,7 +3603,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_la-drome_front-de-neige-rousset.jpg",
         "url_page": "http://www.ladromemontagne.fr/fr/hiver/webcams.htm",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -3519,7 +3631,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_la-drome_lus-la-jarjatte.jpg",
         "url_page": "http://www.ladromemontagne.fr/fr/hiver/webcams.htm",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -3547,7 +3659,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_Orcieres_Front.jpg",
         "url_page": "http://orcieres.labellemontagne.com/hiver/webcam/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -3575,14 +3687,14 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_orcieres-croze.jpg",
         "url_page": "http://orcieres.labellemontagne.com/hiver/webcam/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 9578,
-        "hauteur": 2154
+        "largeur": 14284,
+        "hauteur": 2697
       }
     },
     {
@@ -3603,7 +3715,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_orcieres_1850_sommet-estaris.jpg",
         "url_page": "https://app.webcam-hd.com/orcieres-1850/sommet-estaris",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -3659,7 +3771,7 @@
         "url_image": "https://grandsespaces.com/webcams/FIXE.jpg",
         "url_page": "https://grandsespaces.com/ecole-parapente-annecy/webcams-planfait/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -3687,7 +3799,7 @@
         "url_image": "http://transalpair.eu/smm/731/lastPicture.jpg",
         "url_page": "http://transalpair.eu/smm/731/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -3715,7 +3827,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_valdallos_front-de-neige.jpg",
         "url_page": "https://www.valdallos.com/webcams.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -3743,7 +3855,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_valdallos_village.jpg",
         "url_page": "https://www.valdallos.com/webcams.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -3827,7 +3939,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_grand-massif_feulatiere.jpg",
         "url_page": "http://m.webcam-hd.com/grand-massif/feulatiere",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -4051,7 +4163,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_praz_lys_sommand_veran.jpg",
         "url_page": "http://www.prazdelys-sommand.com/ete/webcams-1.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -4079,7 +4191,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_praz_lys_sommand_chevally.jpg",
         "url_page": "http://www.prazdelys-sommand.com/ete/webcams-1.html",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -4107,7 +4219,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_lans-en-vercors_les-allieres.jpg",
         "url_page": "https://www.lansenvercors.com/webcams-vercors-isere-rhone-alpes.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -4135,7 +4247,7 @@
         "url_image": "https://coulmes-vercors.com/wp-content/uploads/webcam-belvedere/webcam-belvedere.jpg",
         "url_page": "https://coulmes-vercors.com/#WEBCAMS",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -4163,7 +4275,7 @@
         "url_image": "https://api.holfuy.com/cam/s874.jpg",
         "url_page": "https://holfuy.com/en/camera/874",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -4471,7 +4583,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_les_saisies_bellasta.jpg",
         "url_page": "https://m.webcam-hd.com/les-saisies/bellasta",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -4583,7 +4695,7 @@
         "url_image": "https://www.lescontamines.net/camera/signalhd.jpg",
         "url_page": "https://www.lescontamines.net/panorama/signalhd.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -4611,7 +4723,7 @@
         "url_image": "https://www.lescontamines.net/camera/panocol.jpg",
         "url_page": "https://www.lescontamines.net/panorama/col.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -4639,7 +4751,7 @@
         "url_image": "https://www.lescontamines.net/camera/ruellehd.jpg",
         "url_page": "https://www.lescontamines.net/panorama/ruellehd.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -4667,7 +4779,7 @@
         "url_image": "https://www.lescontamines.net/camera/tcgorge.jpg",
         "url_page": "http://www.lescontamines.net/webcam.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -4695,7 +4807,7 @@
         "url_image": "https://www.lescontamines.net/camera/parapente.jpg",
         "url_page": "http://www.lescontamines.net/webcam.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -4723,7 +4835,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_la-clusaz_col-de-balme.jpg",
         "url_page": "https://app.webcam-hd.com/la-clusaz/col-de-balme",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -4751,7 +4863,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_chatel_morclan.jpg",
         "url_page": "https://www.chatel.com/webcams.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -4835,7 +4947,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_st-gervais_epaule.jpg",
         "url_page": "https://www.saintgervais.com/la-station/infos-pratiques/webcams",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5115,7 +5227,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_st-christophe-en-oisans_la-ville.jpg",
         "url_page": "http://m.webcam-hd.com/st-christophe-en-oisans/la-ville",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5326,6 +5438,62 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.435556,
+          42.796902
+        ]
+      },
+      "properties": {
+        "id": 2393,
+        "name": "PeyresourdeBalestas_NordEst - LFIP",
+        "lat": 42.796902,
+        "lon": 0.435556,
+        "altitude": null,
+        "url_image": "https://cam-aero.eu/raspicamaero/LFIP_PeyresourdeBalestas_NordEst",
+        "url_page": "http://cam-aero.eu/raspicamaero/",
+        "statut_enligne": "H",
+        "statut_variable": "F",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1024,
+        "hauteur": 768
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.435556,
+          42.796902
+        ]
+      },
+      "properties": {
+        "id": 2394,
+        "name": "PeyresourdeBalestas_NordOuest - LFIP",
+        "lat": 42.796902,
+        "lon": 0.435556,
+        "altitude": null,
+        "url_image": "https://cam-aero.eu/raspicamaero/LFIP_PeyresourdeBalestas_NordOuest",
+        "url_page": "http://cam-aero.eu/raspicamaero/",
+        "statut_enligne": "E",
+        "statut_variable": "F",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1024,
+        "hauteur": 768
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.44150358,
           45.89662393
         ]
@@ -5339,7 +5507,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_snow-park.jpg",
         "url_page": "https://app.webcam-hd.com/la-clusaz/snow-park",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5367,7 +5535,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_la-clusaz_etale.jpg",
         "url_page": "https://www.laclusaz.com/webcams-laclusaz.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5401,7 +5569,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 3670,
+        "largeur": 3755,
         "hauteur": 600
       }
     },
@@ -5423,7 +5591,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_sevrier_base-nautique.jpg",
         "url_page": "http://m.webcam-hd.com/sevrier/base-nautique",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5451,7 +5619,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_hotel-acacias_acacias.jpg",
         "url_page": "http://m.webcam-hd.com/hotel-acacias/webcam-acacias-annecy",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5515,6 +5683,34 @@
         "code_locale": null,
         "largeur": 1640,
         "hauteur": 1232
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.57715589,
+          42.76747756
+        ]
+      },
+      "properties": {
+        "id": 2512,
+        "name": "Luchon-Superbagnères - Plateau",
+        "lat": 42.76747756,
+        "lon": 0.57715589,
+        "altitude": 1793,
+        "url_image": "https://live.neos360.com/luchon/plateau/panojavascript/pano_PV.jpg",
+        "url_page": "https://live.neos360.com/luchon/plateau/",
+        "statut_enligne": "E",
+        "statut_variable": "F",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 4067,
+        "hauteur": 800
       }
     },
     {
@@ -5591,7 +5787,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_la_rosiere_mont-valaisan.jpg",
         "url_page": "https://www.larosiere.net/webcam/webcam-mont-valaisan-la-rosiere-espace-san-bernardo/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5619,7 +5815,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_la_rosiere_maison-du-ski.jpg",
         "url_page": "https://www.larosiere.net/webcam/la-maison-du-ski/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5647,7 +5843,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_ste-foy-tarentaise_sommet-aiguille.jpg",
         "url_page": "https://m.webcam-hd.com/ste-foy-tarentaise/sommet-aiguille",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5675,7 +5871,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_ste-foy-tarentaise_ts-de-la-marquise.jpg",
         "url_page": "https://m.webcam-hd.com/ste-foy-tarentaise/ts-de-la-marquise",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5731,7 +5927,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_rosiere-planica_hotel.jpg",
         "url_page": "https://www.larosiere.net/webcam/chalet-planica/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5787,7 +5983,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_station-d-orange_bob-luge.jpg",
         "url_page": "http://m.webcam-hd.com/station-d-orange/base-de-loisirs",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5815,7 +6011,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/areches-beaufort_planay.jpg",
         "url_page": "https://app.webcam-hd.com/areches-beaufort/planay",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5927,7 +6123,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/la-drome_piste-du-lievre-blanc.jpg",
         "url_page": "https://app.webcam-hd.com/la-drome/piste-lievre-blanc",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5955,7 +6151,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/la-drome_herbouilly.jpg",
         "url_page": "https://app.webcam-hd.com/la-drome/la-drome_herbouilly",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -6039,7 +6235,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/meribel_col-de-la-loze.jpg",
         "url_page": "https://app.webcam-hd.com/courchevel-meribel/courchevel-meribel_col-de-la-loze",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -6082,6 +6278,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          2.03292242,
+          42.52064656
+        ]
+      },
+      "properties": {
+        "id": 2719,
+        "name": "Font-Romeu - Les Airelles",
+        "lat": 42.52064656,
+        "lon": 2.03292242,
+        "altitude": 1947,
+        "url_image": "https://www.trinum.com/ibox/ftpcam/font-romeu_les-airelles.jpg",
+        "url_page": "https://app.webcam-hd.com/font-romeu/pied-de-piste",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1218,
+        "hauteur": 600
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           5.31945516,
           45.00826258
         ]
@@ -6095,7 +6319,7 @@
         "url_image": "http://jean-max.fr//webcams/EEECam.jpg",
         "url_page": "https://www.acrv.org/webcams/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -6185,8 +6409,8 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 2682,
-        "hauteur": 1362
+        "largeur": 2688,
+        "hauteur": 1520
       }
     },
     {
@@ -6207,7 +6431,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_villard-de-lans-correncon-en-vercors_colline-des-bains.jpg",
         "url_page": "https://www.villarddelans-correnconenvercors.com/live/webcams/",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -6235,7 +6459,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_correncon_plateau.jpg",
         "url_page": "https://www.villarddelans-correnconenvercors.com/live/webcams/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -6347,7 +6571,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_geve.jpg",
         "url_page": "https://station.autrans-meaudre.fr/fr/webcams/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -6375,7 +6599,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_meaudre_fond.jpg",
         "url_page": "https://station.autrans-meaudre.fr/fr/webcams/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -6403,7 +6627,7 @@
         "url_image": "http://www.fertito.net/webcam/capt.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -6515,7 +6739,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/mega_les-rhodos_col-des-aravis.jpg",
         "url_page": "http://m.webcam-hd.com/les-rhodos/col-des-aravis",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -6739,7 +6963,7 @@
         "url_image": "https://static.seetheworld.com/image_uploader/webcam/medium/lesarcs_1800_pistes_panoramic.jpg",
         "url_page": "https://www.seelesarcs.com/webcams/arc-1800-webcam-les-arcs-1800-731454",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -6907,7 +7131,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/la-chapelle_braitaz.jpg",
         "url_page": "https://app.webcam-hd.com/la-chapelle/braitaz",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -6935,7 +7159,7 @@
         "url_image": "http://lists.duckparapente.fr:8080/snapshots/jlg/cam_latest.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -6962,7 +7186,7 @@
         "altitude": 2685,
         "url_image": "https://static.st-martin-belleville.com/medias/webcam/1080/roc-des-3-marches-{yyyy}{mm}{dd}{hh}{ii}.jpg",
         "url_page": "https://st-martin-belleville.com/fr/webcam-roc-des-3-marches",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V",
         "periodicite": 10,
         "decalage_periodicite": 0,
@@ -6991,7 +7215,7 @@
         "url_image": "https://www.chooksprod.com/parapente-annecy-marlens-webcam.jpg",
         "url_page": "https://aerodream-parapente.com/webcam-decollage-parapente-marlens-annecy/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -7019,7 +7243,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/pralognan_newbochor.jpg",
         "url_page": "https://app.webcam-hd.com/pralognan/mont-bochor",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -7047,13 +7271,41 @@
         "url_image": "https://api.skaping.com/igESl-UDKJP-5ATS5-0H6VY/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/sambuy",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
         "largeur": 917,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.103108,
+          42.903455
+        ]
+      },
+      "properties": {
+        "id": 3106,
+        "name": "Barèges Tournaboup 1450M",
+        "lat": 42.903455,
+        "lon": 0.103108,
+        "altitude": 1460,
+        "url_image": "https://api.skaping.com/CI1HP-55kjI-nLqpH-JUrsP/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/grandtourmalet/baregestournaboup",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 360,
         "hauteur": 180
       }
     },
@@ -7082,6 +7334,34 @@
         "fuseau_horaire": null,
         "code_locale": null,
         "largeur": 961,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.163049,
+          42.905889
+        ]
+      },
+      "properties": {
+        "id": 3110,
+        "name": "La Mongie Tourmalet 1800m",
+        "lat": 42.905889,
+        "lon": 0.163049,
+        "altitude": 1797,
+        "url_image": "https://api.skaping.com/iAskl-Hkvmk-5dT91-GKAti/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/grandtourmalet/lamongietourmalet",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1130,
         "hauteur": 180
       }
     },
@@ -7174,6 +7454,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.091591,
+          42.895751
+        ]
+      },
+      "properties": {
+        "id": 3141,
+        "name": "Barèges La Laquette 1700M",
+        "lat": 42.895751,
+        "lon": 0.091591,
+        "altitude": 1740,
+        "url_image": "https://api.skaping.com/bHmJO-Atb4S-efbrN-6wmDI/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/grandtourmalet/laquette",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1030,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.45717,
           45.956146
         ]
@@ -7222,34 +7530,6 @@
         "fuseau_horaire": null,
         "code_locale": null,
         "largeur": 918,
-        "hauteur": 180
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.974553,
-          45.681983
-        ]
-      },
-      "properties": {
-        "id": 3179,
-        "name": "Belvédère du Revard",
-        "lat": 45.681983,
-        "lon": 5.974553,
-        "altitude": 1495,
-        "url_image": "https://api.skaping.com/Q5rbB-UKxD7-TCToP-855mL/media/latest/thumb.jpg",
-        "url_page": "https://www.skaping.com/grandlac/revard",
-        "statut_enligne": "E",
-        "statut_variable": "F",
-        "periodicite": null,
-        "decalage_periodicite": 0,
-        "decalage_horloge": 0,
-        "fuseau_horaire": null,
-        "code_locale": null,
-        "largeur": 946,
         "hauteur": 180
       }
     },
@@ -7314,6 +7594,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.164609,
+          42.894946
+        ]
+      },
+      "properties": {
+        "id": 3191,
+        "name": "La Mongie 4 Termes 2250M",
+        "lat": 42.894946,
+        "lon": 0.164609,
+        "altitude": 2240,
+        "url_image": "https://api.skaping.com/95lYD-TNMoZ-9dAii-qfG4D/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/grandtourmalet/lamongie4termes",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 976,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.085124,
           45.067667
         ]
@@ -7327,7 +7635,7 @@
         "url_image": "https://api.skaping.com/3MhdR-NcGOW-t70O6-Jqo1M/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/alpedhuez/auris",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -7370,6 +7678,62 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.16401,
+          42.895241
+        ]
+      },
+      "properties": {
+        "id": 3208,
+        "name": "La Mongie Pourteilh 2250M",
+        "lat": 42.895241,
+        "lon": 0.16401,
+        "altitude": 0,
+        "url_image": "https://api.skaping.com/Ls1VF-QVqJi-QElA6-YC2pH/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/grandtourmalet/lamongiepourteilh/video",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.078683,
+          42.894907
+        ]
+      },
+      "properties": {
+        "id": 3209,
+        "name": "Barèges Lienz 1500M",
+        "lat": 42.894907,
+        "lon": 0.078683,
+        "altitude": 1502,
+        "url_image": "https://api.skaping.com/QYWLQ-bygom-QYTgi-BU3Ax/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/grandtourmalet/baregeslienz/video",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.773177,
           46.193548
         ]
@@ -7390,6 +7754,62 @@
         "fuseau_horaire": null,
         "code_locale": null,
         "largeur": 270,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.16401,
+          42.895241
+        ]
+      },
+      "properties": {
+        "id": 3251,
+        "name": "La Mongie Pourteilh 2250M",
+        "lat": 42.895241,
+        "lon": 0.16401,
+        "altitude": 0,
+        "url_image": "https://api.skaping.com/2biJD-Eyyc9-Fz8jE-6CJT3/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/grandtourmalet/lamongiepourteilh",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 320,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.078683,
+          42.894907
+        ]
+      },
+      "properties": {
+        "id": 3252,
+        "name": "Barèges Lienz 1500M",
+        "lat": 42.894907,
+        "lon": 0.078683,
+        "altitude": 1502,
+        "url_image": "https://api.skaping.com/aHmPZ-NwkvA-qDsbw-5LsQI/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/grandtourmalet/baregeslienz",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 320,
         "hauteur": 180
       }
     },
@@ -7426,6 +7846,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.17635,
+          42.91032
+        ]
+      },
+      "properties": {
+        "id": 3278,
+        "name": "La Mongie Village 1750M",
+        "lat": 42.91032,
+        "lon": 0.17635,
+        "altitude": 1758,
+        "url_image": "https://api.skaping.com/BeQVD-xA1ff-qVmwF-c6Ktx/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/grandtourmalet/lamongievillage",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 592,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.665216,
           45.157049
         ]
@@ -7439,7 +7887,7 @@
         "url_image": "https://api.skaping.com/pWaMg-P42A4-vaEO4-cjADA/media/latest/thumb.mp4",
         "url_page": "https://www.skaping.com/valfrejus/arrondaz",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -7607,13 +8055,69 @@
         "url_image": "https://api.skaping.com/qS4eL-edIS6-ZtamD-fAJCL/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/valdisere/solaise",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
         "largeur": 978,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.477495,
+          42.787159
+        ]
+      },
+      "properties": {
+        "id": 3336,
+        "name": "Peyragudes - Les Agudes",
+        "lat": 42.787159,
+        "lon": 0.477495,
+        "altitude": 1571,
+        "url_image": "https://api.skaping.com/DH4YZ-7L3Tb-txNuv-MDtBP/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/peyragudes/les-agudes",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 622,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.45604527,
+          42.77529851
+        ]
+      },
+      "properties": {
+        "id": 3337,
+        "name": "Peyragudes - Cap De Pales",
+        "lat": 42.77529851,
+        "lon": 0.45604527,
+        "altitude": 2203,
+        "url_image": "https://api.skaping.com/r9dnW-Cm6D7-tlbUn-Y87wZ/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/peyragudes/cap-de-pales",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1408,
         "hauteur": 180
       }
     },
@@ -7635,7 +8139,7 @@
         "url_image": "https://api.skaping.com/I1rwn-sAA3s-Qcsnp-IwOmx/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/valthorens/boismint",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -8027,7 +8531,7 @@
         "url_image": "https://api.skaping.com/S8Gyk-GBGoI-OoxCG-dIOJD/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/valdisere/borsat",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -8335,7 +8839,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/autrans-meaudre_auberge-poya.jpg",
         "url_page": "https://webcams-vercors.com/destination/autrans/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -8363,7 +8867,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_autran-village.jpg",
         "url_page": "https://webcams-vercors.com/destination/autrans/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -8371,6 +8875,34 @@
         "code_locale": null,
         "largeur": 1731,
         "hauteur": 1026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.60558994,
+          42.97733128
+        ]
+      },
+      "properties": {
+        "id": 3540,
+        "name": "Accous",
+        "lat": 42.97733128,
+        "lon": -0.60558994,
+        "altitude": 445,
+        "url_image": "https://lon.rtsp.me/pQr2cN74D1ekgIgXNTqXlg/1724599943/poster/FKnH5bin.jpg",
+        "url_page": "https://rtsp.me/embed/FKnH5bin/",
+        "statut_enligne": "E",
+        "statut_variable": "F",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1920,
+        "hauteur": 1080
       }
     },
     {
@@ -8419,7 +8951,7 @@
         "url_image": "https://www.lescontamines.net/camera/uhd-vorachere.jpg",
         "url_page": "https://www.lescontamines.net/webcam-91.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -8447,7 +8979,7 @@
         "url_image": "https://www.lescontamines.net/camera/filebuche.jpg",
         "url_page": "https://www.lescontamines.net/webcam-135.html",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -8546,6 +9078,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.147325,
+          42.905652
+        ]
+      },
+      "properties": {
+        "id": 3580,
+        "name": "LIAISON BAREGES-LA MONGIE 2100M",
+        "lat": 42.905652,
+        "lon": 0.147325,
+        "altitude": 2103,
+        "url_image": "https://api.skaping.com/d1hXy-xcVnI-o2DiA-ZfZzU/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/grandtourmalet/liaison/video",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.597998,
           45.870904
         ]
@@ -8587,7 +9147,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/semnoz_parking-sud-versant-bauges.jpg",
         "url_page": "https://app.webcam-hd.com/semnoz/sud_bauges",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -8615,7 +9175,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/areches-beaufort_sommet-combettes.jpg",
         "url_page": "https://app.webcam-hd.com/areches-beaufort/sommet-combettes",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -8783,7 +9343,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/st-dalmas-le-selvage_mairie.jpg",
         "url_page": "https://www.stationsnicecotedazur.com/fr/webcam/st-dalmas/mairie/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -9007,7 +9567,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/risoul_sommet-razis.jpg",
         "url_page": "https://app.webcam-hd.com/risoul/sommet-razis",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -9181,7 +9741,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 1361,
+        "largeur": 1206,
         "hauteur": 600
       }
     },
@@ -9315,7 +9875,7 @@
         "url_image": "https://api.skaping.com/wJzwH-jJsqC-tI17x-YCYwq/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/alpedhuez/herpie",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -9414,6 +9974,90 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.147325,
+          42.905652
+        ]
+      },
+      "properties": {
+        "id": 3764,
+        "name": "LIAISON BAREGES-LA MONGIE 2100M",
+        "lat": 42.905652,
+        "lon": 0.147325,
+        "altitude": 2103,
+        "url_image": "https://api.skaping.com/XA225-7WCDh-mL0m5-ZuFgC/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/grandtourmalet/liaison",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 320,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.130288,
+          42.905623
+        ]
+      },
+      "properties": {
+        "id": 3765,
+        "name": "Barèges - Tourmalet 1750M",
+        "lat": 42.905623,
+        "lon": 0.130288,
+        "altitude": 1742,
+        "url_image": "https://api.skaping.com/kOWOK-sCcF8-vVu0G-lUGyI/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/grandtourmalet/baregestourmalet",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 919,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.103108,
+          42.903455
+        ]
+      },
+      "properties": {
+        "id": 3766,
+        "name": "Barèges Tournaboup 1450M",
+        "lat": 42.903455,
+        "lon": 0.103108,
+        "altitude": 1460,
+        "url_image": "https://api.skaping.com/macRP-hmnUw-7NntG-6fVf7/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/grandtourmalet/baregestournaboup/video",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.030006,
           45.052341
         ]
@@ -9462,6 +10106,230 @@
         "fuseau_horaire": null,
         "code_locale": null,
         "largeur": 1252,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.104862,
+          42.472723
+        ]
+      },
+      "properties": {
+        "id": 3820,
+        "name": "Cambre d'Aze - Eyne",
+        "lat": 42.472723,
+        "lon": 2.104862,
+        "altitude": 1863,
+        "url_image": "https://api.skaping.com/3wWm9-NZ8Ou-vO9ni-5893T/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/cambredaze/eyne",
+        "statut_enligne": "E",
+        "statut_variable": "F",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 604,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.139698,
+          42.85111
+        ]
+      },
+      "properties": {
+        "id": 3823,
+        "name": "Cascade du Pont d'Espagne",
+        "lat": 42.85111,
+        "lon": -0.139698,
+        "altitude": 1496,
+        "url_image": "https://api.skaping.com/v79Fk-7cyZn-KdIOC-FKhHL/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/cauterets/pontdespagne",
+        "statut_enligne": "E",
+        "statut_variable": "F",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 320,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.139698,
+          42.85111
+        ]
+      },
+      "properties": {
+        "id": 3824,
+        "name": "Cascade du Pont d'Espagne",
+        "lat": 42.85111,
+        "lon": -0.139698,
+        "altitude": 1496,
+        "url_image": "https://api.skaping.com/AmmKk-Umd2K-Ei0yB-cld3q/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/cauterets/pontdespagne/video",
+        "statut_enligne": "E",
+        "statut_variable": "F",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.155865,
+          42.882414
+        ]
+      },
+      "properties": {
+        "id": 3825,
+        "name": "Terrasse du Lys à 1850 m.",
+        "lat": 42.882414,
+        "lon": -0.155865,
+        "altitude": 1844,
+        "url_image": "https://api.skaping.com/GZvYn-rwE3m-qa6KQ-cFJMq/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/cauterets/cirque-du-lys/panorama",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 414,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.136372,
+          42.852171
+        ]
+      },
+      "properties": {
+        "id": 3826,
+        "name": "Puntas vidéo",
+        "lat": 42.852171,
+        "lon": -0.136372,
+        "altitude": 1463,
+        "url_image": "https://api.skaping.com/zVPDP-7gbyo-I4jan-gpJDm/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/cauterets/puntas/video",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.113511,
+          42.890988
+        ]
+      },
+      "properties": {
+        "id": 3827,
+        "name": "Place de la mairie",
+        "lat": 42.890988,
+        "lon": -0.113511,
+        "altitude": 918,
+        "url_image": "https://api.skaping.com/djESk-xcbP0-etdOk-yfipd/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/cauterets/village",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 320,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11454105,
+          42.88690366
+        ]
+      },
+      "properties": {
+        "id": 3828,
+        "name": "Cauterets - Village",
+        "lat": 42.88690366,
+        "lon": -0.11454105,
+        "altitude": 937,
+        "url_image": "https://api.skaping.com/btG4t-ApkIx-YcHcI-1LFzb/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/cauterets/village/casino",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 288,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.025942,
+          43.040374
+        ]
+      },
+      "properties": {
+        "id": 3829,
+        "name": "Chalets d'Iraty",
+        "lat": 43.040374,
+        "lon": -1.025942,
+        "altitude": 1343,
+        "url_image": "https://api.skaping.com/vy2NM-IcxHn-SIMO1-5EndM/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/chalets-iraty/",
+        "statut_enligne": "E",
+        "statut_variable": "F",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 500,
         "hauteur": 180
       }
     },
@@ -9903,7 +10771,7 @@
         "url_image": "https://api.skaping.com/nmhpc-emfZH-99hV8-B8wwM/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/valloire/galibier/",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -10015,7 +10883,7 @@
         "url_image": "https://api.skaping.com/emFwM-UGPxx-DlCtf-fGzaQ/media/latest/thumb.mp4",
         "url_page": "https://www.skaping.com/courchevel/la-croisette/video",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -10323,41 +11191,13 @@
         "url_image": "https://api.skaping.com/om79u-0U3Ge-RuSoX-ymxMq/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/la-feclaz/orionde",
         "statut_enligne": "E",
-        "statut_variable": "V",
-        "periodicite": null,
-        "decalage_periodicite": 0,
-        "decalage_horloge": 0,
-        "fuseau_horaire": null,
-        "code_locale": null,
-        "largeur": 965,
-        "hauteur": 180
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.984711,
-          45.649794
-        ]
-      },
-      "properties": {
-        "id": 3948,
-        "name": "La Féclaz - Stade de biathlon",
-        "lat": 45.649794,
-        "lon": 5.984711,
-        "altitude": 1336,
-        "url_image": "https://api.skaping.com/xLhbF-lUfOs-ltf7i-m7wJG/media/latest/thumb.jpg",
-        "url_page": "https://www.skaping.com/la-feclaz/stade-de-biathlon",
-        "statut_enligne": "E",
         "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 923,
+        "largeur": 965,
         "hauteur": 180
       }
     },
@@ -10386,6 +11226,34 @@
         "fuseau_horaire": null,
         "code_locale": null,
         "largeur": 320,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.147407,
+          42.908366
+        ]
+      },
+      "properties": {
+        "id": 3951,
+        "name": "LA MONGIE COL DU TOURMALET 2115M",
+        "lat": 42.908366,
+        "lon": 0.147407,
+        "altitude": 2085,
+        "url_image": "https://api.skaping.com/j8F8y-05Vmm-Dvjix-wY9BI/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/grandtourmalet/coldutourmalet",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 977,
         "hauteur": 180
       }
     },
@@ -10463,7 +11331,7 @@
         "url_image": "https://api.skaping.com/emLwg-rWQoz-R2i5p-eUfRQ/media/latest/thumb.mp4",
         "url_page": "https://www.skaping.com/la-norma/fontaine-aux-oiseaux/video",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11374,6 +12242,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.404974,
+          42.809565
+        ]
+      },
+      "properties": {
+        "id": 4040,
+        "name": "Loudenvielle - Tour de Génos",
+        "lat": 42.809565,
+        "lon": 0.404974,
+        "altitude": 975,
+        "url_image": "https://api.skaping.com/HT9wi-VT62w-U4t7n-wejIv/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/loudenvielle/tour-de-genos",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1016,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.401314,
           45.875535
         ]
@@ -11682,6 +12578,314 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.28465748,
+          42.9426012
+        ]
+      },
+      "properties": {
+        "id": 4105,
+        "name": "Payolle - Carriere",
+        "lat": 42.9426012,
+        "lon": 0.28465748,
+        "altitude": 1093,
+        "url_image": "https://api.skaping.com/CNCyP-yYfrV-FLkgP-QnrRn/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/campan/payolle/carriere",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.28465748,
+          42.9426012
+        ]
+      },
+      "properties": {
+        "id": 4106,
+        "name": "Payolle - Pumptrack",
+        "lat": 42.9426012,
+        "lon": 0.28465748,
+        "altitude": 1093,
+        "url_image": "https://api.skaping.com/y9WWr-8D3In-5Wj0Z-n7ctb/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/campan/payolle/pumptrack",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.28465748,
+          42.9426012
+        ]
+      },
+      "properties": {
+        "id": 4107,
+        "name": "Payolle - Pic du Midi",
+        "lat": 42.9426012,
+        "lon": 0.28465748,
+        "altitude": 1093,
+        "url_image": "https://api.skaping.com/UfGwk-6cxS0-j4CbP-LOGtI/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/campan/payolle/pic-du-midi",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.28465748,
+          42.9426012
+        ]
+      },
+      "properties": {
+        "id": 4108,
+        "name": "Payolle - Piste",
+        "lat": 42.9426012,
+        "lon": 0.28465748,
+        "altitude": 1093,
+        "url_image": "https://api.skaping.com/TIvKs-KmV9s-qcLAk-nondq/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/campan/payolle/piste",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.47035217,
+          42.77505388
+        ]
+      },
+      "properties": {
+        "id": 4113,
+        "name": "Serre-Doumenge",
+        "lat": 42.77505388,
+        "lon": 0.47035217,
+        "altitude": 1793,
+        "url_image": "https://api.skaping.com/U6GGo-vsgZG-B4AwP-pO1X9/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/peyragudes/serre-doumenge",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.45630813,
+          42.77449511
+        ]
+      },
+      "properties": {
+        "id": 4114,
+        "name": "Peyragudes - Belvédère",
+        "lat": 42.77449511,
+        "lon": 0.45630813,
+        "altitude": 2187,
+        "url_image": "https://api.skaping.com/ZIVpH-EUtf7-KWICZ-n3JcL/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/peyragudes/belvedere",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 606,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.448279,
+          42.789696
+        ]
+      },
+      "properties": {
+        "id": 4115,
+        "name": "Peyragudes - Peyresourde",
+        "lat": 42.789696,
+        "lon": 0.448279,
+        "altitude": 1641,
+        "url_image": "https://api.skaping.com/KQWcy-UQ6Od-fkMUd-bsJkK/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/peyragudes/peyresourde",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.44653416,
+          42.79042887
+        ]
+      },
+      "properties": {
+        "id": 4116,
+        "name": "Peyragudes - Privilège",
+        "lat": 42.79042887,
+        "lon": 0.44653416,
+        "altitude": 1604,
+        "url_image": "https://api.skaping.com/UFGG9-7KUZh-R4hKH-isKRi/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/peyragudes/privilege",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.44767678,
+          42.79090514
+        ]
+      },
+      "properties": {
+        "id": 4117,
+        "name": "Peyragudes - Serias",
+        "lat": 42.79090514,
+        "lon": 0.44767678,
+        "altitude": 1610,
+        "url_image": "https://api.skaping.com/YIuTn-agjJk-QuMX7-L5Jtb/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/peyragudes/serias",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.169017,
+          42.827165
+        ]
+      },
+      "properties": {
+        "id": 4118,
+        "name": "Lac d'Orédon",
+        "lat": 42.827165,
+        "lon": 0.169017,
+        "altitude": 1853,
+        "url_image": "https://api.skaping.com/dR9Mi-xcbQC-0jeyK-EfsEh/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/neouvielle/lac-oredon",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 310,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.14247651,
+          42.93631504
+        ]
+      },
+      "properties": {
+        "id": 4119,
+        "name": "Pic du Midi",
+        "lat": 42.93631504,
+        "lon": 0.14247651,
+        "altitude": 2811,
+        "url_image": "https://api.skaping.com/AmWBD-4Wwof-5URy5-crkIU/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/pic-du-midi",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 724,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.71167016,
           46.15740999
         ]
@@ -11723,7 +12927,7 @@
         "url_image": "https://api.skaping.com/mDABy-dwlHp-l22uH-5f2up/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/pra-loup/molanes",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11878,6 +13082,90 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.26519537,
+          42.81369006
+        ]
+      },
+      "properties": {
+        "id": 4176,
+        "name": "Saint Lary - Bouleaux",
+        "lat": 42.81369006,
+        "lon": 0.26519537,
+        "altitude": 2204,
+        "url_image": "https://api.skaping.com/IIfTZ-AzZtO-zVlup-xO1h2/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/saint-lary/bouleaux/live",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 320,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.23747206,
+          42.82880292
+        ]
+      },
+      "properties": {
+        "id": 4177,
+        "name": "Saint Lary Tourette C3",
+        "lat": 42.82880292,
+        "lon": 0.23747206,
+        "altitude": 2312,
+        "url_image": "https://api.skaping.com/ihyAK-UcR6C-hKT9j-ZOABI/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/saint-lary/tourette/live/",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 320,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.23747206,
+          42.82880292
+        ]
+      },
+      "properties": {
+        "id": 4178,
+        "name": "Saint-Lary - Tourette",
+        "lat": 42.82880292,
+        "lon": 0.23747206,
+        "altitude": 2312,
+        "url_image": "https://api.skaping.com/CH7Jw-7Ef09-dLCAE-wHkIh/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/saint-lary/tourette",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 865,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.67612016,
           45.84624714
         ]
@@ -11898,6 +13186,202 @@
         "fuseau_horaire": null,
         "code_locale": null,
         "largeur": 1211,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.22058487,
+          42.82837815
+        ]
+      },
+      "properties": {
+        "id": 4184,
+        "name": "Saint-Lary - Les Merlans",
+        "lat": 42.82837815,
+        "lon": 0.22058487,
+        "altitude": 2041,
+        "url_image": "https://api.skaping.com/I9DTW-sJxTB-ECcip-POZXL/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/saint-lary/les-merlans/live/",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 320,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.22058487,
+          42.82837815
+        ]
+      },
+      "properties": {
+        "id": 4185,
+        "name": "Saint-Lary - Les Merlans",
+        "lat": 42.82837815,
+        "lon": 0.22058487,
+        "altitude": 2041,
+        "url_image": "https://api.skaping.com/nmLBM-QWfIT-RphTC-PYJJV/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/saint-lary/les-merlans/",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 702,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.29245734,
+          42.81178928
+        ]
+      },
+      "properties": {
+        "id": 4186,
+        "name": "Saint-Lary - Pla d'Adet",
+        "lat": 42.81178928,
+        "lon": 0.29245734,
+        "altitude": 1704,
+        "url_image": "https://api.skaping.com/NNS2a-9PaxO-Q0UOE-etJcC/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/saint-lary/pla-adet/live/",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 320,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.29245734,
+          42.81178928
+        ]
+      },
+      "properties": {
+        "id": 4187,
+        "name": "Saint-Lary - Pla d'Adet",
+        "lat": 42.81178928,
+        "lon": 0.29245734,
+        "altitude": 1704,
+        "url_image": "https://api.skaping.com/SmGlg-IJ6yt-MvxKE-F00Lx/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/saint-lary/pla-d-adet/",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 403,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.32246776,
+          42.81685033
+        ]
+      },
+      "properties": {
+        "id": 4188,
+        "name": "Saint-Lary Village",
+        "lat": 42.81685033,
+        "lon": 0.32246776,
+        "altitude": 800,
+        "url_image": "https://api.skaping.com/WD7Di-5HaOv-ASsAp-10fv4/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/saint-lary/village",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.32246776,
+          42.81685033
+        ]
+      },
+      "properties": {
+        "id": 4189,
+        "name": "Saint-Lary Pic de Tramezaïgues",
+        "lat": 42.81685033,
+        "lon": 0.32246776,
+        "altitude": 800,
+        "url_image": "https://api.skaping.com/uHJxM-svcfc-kLE9V-tuOBE/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/saint-lary/pic-d-aret",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 320,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.32246776,
+          42.81685033
+        ]
+      },
+      "properties": {
+        "id": 4190,
+        "name": "Saint-Lary - Fontaine",
+        "lat": 42.81685033,
+        "lon": 0.32246776,
+        "altitude": 800,
+        "url_image": "https://api.skaping.com/5dzQu-qmkjG-5Twmp-YEyB3/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/saint-lary/fontaine",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 320,
         "hauteur": 180
       }
     },
@@ -11947,7 +13431,7 @@
         "url_image": "https://api.skaping.com/UZGGC-53hO1-l44tV-oLo4Y/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/tete-des-saix",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -12151,6 +13635,90 @@
         "code_locale": null,
         "largeur": 1247,
         "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.20308614,
+          42.99113866
+        ]
+      },
+      "properties": {
+        "id": 4230,
+        "name": "Val d'Azun - Col de Couraduque",
+        "lat": 42.99113866,
+        "lon": -0.20308614,
+        "altitude": 1366,
+        "url_image": "https://api.skaping.com/9NGRi-egIZl-XWvmG-7f9zS/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/val-d-azun/col-de-couraduque",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 558,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.20308614,
+          42.99113866
+        ]
+      },
+      "properties": {
+        "id": 4231,
+        "name": "Val d'Azun - Nordic -  Vidéo ",
+        "lat": 42.99113866,
+        "lon": -0.20308614,
+        "altitude": 1366,
+        "url_image": "https://api.skaping.com/gKF1y-CW8gd-23jn8-cIky2/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/val-d-azun/col-de-couraduque/video-nordic",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.20308614,
+          42.99113866
+        ]
+      },
+      "properties": {
+        "id": 4232,
+        "name": "Val d'Azun - Nordic Park",
+        "lat": 42.99113866,
+        "lon": -0.20308614,
+        "altitude": 1366,
+        "url_image": "https://api.skaping.com/fZLD6-vSLOj-mcxVG-eMte6/media/latest/thumb.mp4",
+        "url_page": "https://www.skaping.com/val-d-azun/col-de-couraduque/video-nordicpark",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 960,
+        "hauteur": 540
       }
     },
     {
@@ -12507,7 +14075,7 @@
         "url_image": "https://api.skaping.com/SdG4s-4vkBV-Ti6rE-nOFaz/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/vars/chabrieres",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -12718,6 +14286,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.39134,
+          42.81103
+        ]
+      },
+      "properties": {
+        "id": 4287,
+        "name": "Le Port de Lers - Kymaya Parapente",
+        "lat": 42.81103,
+        "lon": 1.39134,
+        "altitude": 1430,
+        "url_image": "https://www.kymaya.com/portdelers/webcam/image.jpg",
+        "url_page": "https://www.kymaya.com/carte-sites-parapente-sud-ouest-occitanie-nouvelle-aquitaine/le-site-de-parapente-du-port-de-lers-en-ariege/#webcam",
+        "statut_enligne": "E",
+        "statut_variable": "F",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1920,
+        "hauteur": 1080
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.5598464,
           45.26356982
         ]
@@ -12738,6 +14334,34 @@
         "fuseau_horaire": null,
         "code_locale": null,
         "largeur": 964,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.29975345,
+          42.93527974
+        ]
+      },
+      "properties": {
+        "id": 4313,
+        "name": "Lac de Payolle",
+        "lat": 42.93527974,
+        "lon": 0.29975345,
+        "altitude": 1138,
+        "url_image": "https://api.skaping.com/kMLGv-7FaIn-etINH-ashUI/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/campan/lac-de-payolle",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 432,
         "hauteur": 180
       }
     },
@@ -12787,7 +14411,7 @@
         "url_image": "https://api.skaping.com/VlzTW-WE7Gn-ekTyH-uS8Ja/media/latest/thumb.mp4",
         "url_page": "https://www.skaping.com/les-menuires/bruyeres/video",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -12795,6 +14419,90 @@
         "code_locale": null,
         "largeur": 960,
         "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5996722,
+          42.8006471
+        ]
+      },
+      "properties": {
+        "id": 4344,
+        "name": "Luchon Aérodrome",
+        "lat": 42.8006471,
+        "lon": 0.5996722,
+        "altitude": 618,
+        "url_image": "https://s9.ipcamlive.com/streams/09hrxpmjlcweilcju/snapshot.jpg",
+        "url_page": "https://ipcamlive.com/player/player.php?alias=643593006e8d6",
+        "statut_enligne": "H",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1920,
+        "hauteur": 1080
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5776187,
+          42.7679003
+        ]
+      },
+      "properties": {
+        "id": 4345,
+        "name": "Luchon - Superbagnères - Secteur cabane",
+        "lat": 42.7679003,
+        "lon": 0.5776187,
+        "altitude": 1795,
+        "url_image": "https://live.neos360.com/luchon/fixes/img/upload/plateau_cabane/plateau_cabane.jpg",
+        "url_page": "https://live.neos360.com/luchon/fixes/img/upload/plateau_cabane/plateau_cabane.mp4",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 3840,
+        "hauteur": 2160
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.26519537,
+          42.81369006
+        ]
+      },
+      "properties": {
+        "id": 4348,
+        "name": "Saint Lary - Bouleaux",
+        "lat": 42.81369006,
+        "lon": 0.26519537,
+        "altitude": 2204,
+        "url_image": "https://api.skaping.com/J93TQ-bsBSG-pVqcq-5KJx5/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/saint-lary/bouleaux/panoramique",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 733,
+        "hauteur": 180
       }
     },
     {
@@ -12942,6 +14650,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.17417192,
+          42.88170732
+        ]
+      },
+      "properties": {
+        "id": 4397,
+        "name": "Cauterets - Les Crêtes",
+        "lat": 42.88170732,
+        "lon": -0.17417192,
+        "altitude": 2310,
+        "url_image": "https://api.skaping.com/5idX3-JcGaO-FBNAp-phSBs/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/cauterets/les-cretes/panoramique",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 759,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.6229105,
           45.81727022
         ]
@@ -12955,7 +14691,7 @@
         "url_image": "https://api.skaping.com/H0W8i-Ou6DP-32cpE-oNcxr/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/megeve/fontaine",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -12983,7 +14719,7 @@
         "url_image": "https://api.skaping.com/xIWKN-fWfOQ-9jI6d-LVpQD/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/megeve/mont-d-arbois",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13011,7 +14747,7 @@
         "url_image": "https://api.skaping.com/QKjRp-8iiJQ-A8ToG-gJzZL/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/megeve/lac-d-arbois",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13039,7 +14775,7 @@
         "url_image": "https://api.skaping.com/ZHUZ4-rmgEI-Ia45X-i3Jgq/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/megeve/rochebrune",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13075,6 +14811,34 @@
         "code_locale": null,
         "largeur": 3632,
         "hauteur": 1632
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.26121497,
+          42.96112445
+        ]
+      },
+      "properties": {
+        "id": 4414,
+        "name": "Arbéost - Col du Soulor",
+        "lat": 42.96112445,
+        "lon": -0.26121497,
+        "altitude": 1473,
+        "url_image": "https://api.skaping.com/Ym7TO-MVdck-Ndc51-nwJBF/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/arbeost/col-du-soulor/",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 378,
+        "hauteur": 180
       }
     },
     {
@@ -13179,7 +14943,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_lescarroz_pointe-de-cupoire.jpg",
         "url_page": "https://app.webcam-hd.com/lescarroz/pointe-de-cupoire",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13290,8 +15054,8 @@
         "altitude": 1994,
         "url_image": "https://api.skaping.com/5qAOc-FcKLB-a4MAp-6xfBU/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/les7laux/pleynet/les-loups",
-        "statut_enligne": "H",
-        "statut_variable": "F",
+        "statut_enligne": "E",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13319,13 +15083,69 @@
         "url_image": "https://api.skaping.com/mthSm-fEMKa-44SOG-5ftpG/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/megeve/cote-2000",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
         "largeur": 963,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.06073058,
+          42.88499144
+        ]
+      },
+      "properties": {
+        "id": 4431,
+        "name": "Luz Ardiden - Aulian",
+        "lat": 42.88499144,
+        "lon": -0.06073058,
+        "altitude": 1719,
+        "url_image": "https://api.skaping.com/emLTM-Emqb9-QpjE4-Yo2Uk/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/luz-ardiden/aulian/",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 401,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.06181955,
+          42.8834683
+        ]
+      },
+      "properties": {
+        "id": 4432,
+        "name": "Luz Ardiden - Snowpark",
+        "lat": 42.8834683,
+        "lon": -0.06181955,
+        "altitude": 1735,
+        "url_image": "https://api.skaping.com/ERcTH-OD3Jc-UhqiE-T4xc1/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/luz-ardiden/snowpark",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 572,
         "hauteur": 180
       }
     },
@@ -13390,6 +15210,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          2.118214,
+          42.472654
+        ]
+      },
+      "properties": {
+        "id": 4450,
+        "name": "Cambre d'Aze - Pla",
+        "lat": 42.472654,
+        "lon": 2.118214,
+        "altitude": 1942,
+        "url_image": "https://api.skaping.com/2Ki9M-pPchc-eXIzi-5sJ0t/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/cambredaze/pla",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 416,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.49383187,
           45.17436627
         ]
@@ -13431,7 +15279,7 @@
         "url_image": "https://api.skaping.com/CtW9u-dhf2b-9L6bG-hfyRX/media/latest/thumb.mp4",
         "url_page": "https://www.skaping.com/valmeinier/front-de-neige/video",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13439,6 +15287,34 @@
         "code_locale": null,
         "largeur": 960,
         "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.06018877,
+          42.87845643
+        ]
+      },
+      "properties": {
+        "id": 4454,
+        "name": "Luz Ardiden - Pourtere",
+        "lat": 42.87845643,
+        "lon": -0.06018877,
+        "altitude": 1924,
+        "url_image": "https://api.skaping.com/NtMp7-nDnSO-y7x2E-WvJ16/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/luz-ardiden/pourtere/",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 826,
+        "hauteur": 180
       }
     },
     {
@@ -13487,7 +15363,7 @@
         "url_image": "https://api.skaping.com/NtQmA-QcZSb-RaeWE-XgJX6/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/aussois/domaine-nordique-du-monolithe",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13515,7 +15391,7 @@
         "url_image": "https://api.skaping.com/nmFJ3-1cfsC-7JEuG-oVMw6/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/aussois/sommet-grand-jeu",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13543,7 +15419,7 @@
         "url_image": "https://api.skaping.com/JmZT4-Wp0gd-z49AE-5bJo9/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/passy-plaine-joux/station",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13655,7 +15531,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_valdallos_seignus-bas.jpg",
         "url_page": "https://app.webcam-hd.com/valdallos/seignus-bas",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13683,7 +15559,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_valdallos_seignus-haut.jpg",
         "url_page": "https://app.webcam-hd.com/valdallos/seignus-haut",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13711,7 +15587,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_valdallos_observatoire.jpg",
         "url_page": "https://app.webcam-hd.com/valdallos/observatoire",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13739,7 +15615,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_valdallos_sommet-marin-pascal.jpg",
         "url_page": "https://app.webcam-hd.com/valdallos/sommet-marin-pascal",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13823,7 +15699,7 @@
         "url_image": "https://api.skaping.com/XwerD-qctJo-vLArp-ttnsg/media/latest/thumb.mp4",
         "url_page": "https://www.skaping.com/serre-chevalier/mea/video",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13831,6 +15707,34 @@
         "code_locale": null,
         "largeur": 960,
         "hauteur": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07091761,
+          42.87948242
+        ]
+      },
+      "properties": {
+        "id": 4498,
+        "name": "Luz Ardiden - Caperette - 1950m",
+        "lat": 42.87948242,
+        "lon": -0.07091761,
+        "altitude": 1951,
+        "url_image": "https://api.skaping.com/qWDp7-GK9DV-IOVyf-47JtC/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/luz-ardiden/caperette",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 352,
+        "hauteur": 180
       }
     },
     {
@@ -13935,7 +15839,7 @@
         "url_image": "http://lists.duckparapente.fr:8080/snapshots/manz/cam_latest.jpg",
         "url_page": null,
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -14047,7 +15951,7 @@
         "url_image": "https://api.skaping.com/bt7zl-AUfjk-VbATq-Ffnjc/media/latest/thumb.mp4",
         "url_page": "https://www.skaping.com/vars/les-claux/video",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
