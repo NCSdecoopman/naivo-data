@@ -6,6 +6,231 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          5.669,
+          46.278167
+        ]
+      },
+      "properties": {
+        "id": "01014002",
+        "nom": "ARBENT",
+        "altitude": 534.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.106667,
+          45.833
+        ]
+      },
+      "properties": {
+        "id": "01027003",
+        "nom": "BALAN_AERO",
+        "altitude": 196.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.688,
+          45.769333
+        ]
+      },
+      "properties": {
+        "id": "01034004",
+        "nom": "BELLEY",
+        "altitude": 330.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.487167,
+          45.777167
+        ]
+      },
+      "properties": {
+        "id": "01064001",
+        "nom": "VERIZIEU",
+        "altitude": 281.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.080333,
+          46.310333
+        ]
+      },
+      "properties": {
+        "id": "01071001",
+        "nom": "CESSY",
+        "altitude": 507.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.287667,
+          46.204333
+        ]
+      },
+      "properties": {
+        "id": "01072001",
+        "nom": "CEYZERIAT_SAPC",
+        "altitude": 260.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.329333,
+          45.9765
+        ]
+      },
+      "properties": {
+        "id": "01089001",
+        "nom": "AMBERIEU",
+        "altitude": 250.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.139667,
+          46.3415
+        ]
+      },
+      "properties": {
+        "id": "01143002",
+        "nom": "DIVONNE ZA",
+        "altitude": 467.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.482,
+          46.09
+        ]
+      },
+      "properties": {
+        "id": "01200002",
+        "nom": "LA BALME SUR CERDON_SAPC",
+        "altitude": 596.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.044333,
+          46.0385
+        ]
+      },
+      "properties": {
+        "id": "01235001",
+        "nom": "MARLIEUX",
+        "altitude": 280.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.019333,
+          46.378833
+        ]
+      },
+      "properties": {
+        "id": "01247003",
+        "nom": "MIJOUX",
+        "altitude": 1002.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.607333,
+          46.148167
+        ]
+      },
+      "properties": {
+        "id": "01269001",
+        "nom": "NANTUA",
+        "altitude": 483.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.109833,
+          46.403167
+        ]
+      },
+      "properties": {
+        "id": "01367002",
+        "nom": "SAINT JULIEN SUR REYSSOUZE",
+        "altitude": 189.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.461,
+          45.950333
+        ]
+      },
+      "properties": {
+        "id": "01384003",
+        "nom": "ST RAMBERT CG01",
+        "altitude": 296.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.624667,
+          45.916167
+        ]
+      },
+      "properties": {
+        "id": "01414001",
+        "nom": "SUTRIEU",
+        "altitude": 878.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.625333,
           44.2425
         ]
@@ -1491,6 +1716,366 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          2.937667,
+          45.232
+        ]
+      },
+      "properties": {
+        "id": "15001003",
+        "nom": "ALLANCHE",
+        "altitude": 1010.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.438333,
+          44.935833
+        ]
+      },
+      "properties": {
+        "id": "15014001",
+        "nom": "AURILLAC - VILL",
+        "altitude": 707.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.419167,
+          44.8915
+        ]
+      },
+      "properties": {
+        "id": "15014004",
+        "nom": "AURILLAC",
+        "altitude": 632.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.792,
+          45.0525
+        ]
+      },
+      "properties": {
+        "id": "15025001",
+        "nom": "PRAT DE BOUC",
+        "altitude": 1405.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7105,
+          45.1725
+        ]
+      },
+      "properties": {
+        "id": "15050001",
+        "nom": "LE CLAUX",
+        "altitude": 1033.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.990667,
+          45.074667
+        ]
+      },
+      "properties": {
+        "id": "15053001",
+        "nom": "COLTINES",
+        "altitude": 979.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.012667,
+          44.8015
+        ]
+      },
+      "properties": {
+        "id": "15060002",
+        "nom": "DEUX-VERGES",
+        "altitude": 1080.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.540667,
+          44.855333
+        ]
+      },
+      "properties": {
+        "id": "15085001",
+        "nom": "LABROUSSE",
+        "altitude": 800.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.747667,
+          45.080833
+        ]
+      },
+      "properties": {
+        "id": "15101004",
+        "nom": "LE LIORAN_SAPC",
+        "altitude": 1236.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.1455,
+          44.933167
+        ]
+      },
+      "properties": {
+        "id": "15108003",
+        "nom": "FAVEROLLES-STADE",
+        "altitude": 989.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.833,
+          45.302667
+        ]
+      },
+      "properties": {
+        "id": "15114002",
+        "nom": "MARCENAT",
+        "altitude": 1075.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4745,
+          45.002833
+        ]
+      },
+      "properties": {
+        "id": "15118002",
+        "nom": "MARMANHAC",
+        "altitude": 644.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.197833,
+          45.263333
+        ]
+      },
+      "properties": {
+        "id": "15119001",
+        "nom": "MASSIAC",
+        "altitude": 533.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.293167,
+          45.222167
+        ]
+      },
+      "properties": {
+        "id": "15120005",
+        "nom": "MAURIAC",
+        "altitude": 674.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166,
+          44.734167
+        ]
+      },
+      "properties": {
+        "id": "15122002",
+        "nom": "MAURS",
+        "altitude": 480.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.862167,
+          45.1095
+        ]
+      },
+      "properties": {
+        "id": "15138001",
+        "nom": "MURAT",
+        "altitude": 904.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.664667,
+          45.280167
+        ]
+      },
+      "properties": {
+        "id": "15162003",
+        "nom": "RIOM-MONTAGNES",
+        "altitude": 837.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.067333,
+          45.024333
+        ]
+      },
+      "properties": {
+        "id": "15187006",
+        "nom": "ST FLOUR",
+        "altitude": 909.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.303833,
+          45.064
+        ]
+      },
+      "properties": {
+        "id": "15191001",
+        "nom": "ST ILLIDE",
+        "altitude": 635.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.310667,
+          44.858833
+        ]
+      },
+      "properties": {
+        "id": "15196001",
+        "nom": "ST MAMET",
+        "altitude": 740.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.174167,
+          45.178333
+        ]
+      },
+      "properties": {
+        "id": "15207002",
+        "nom": "ST- PONCY_SAPC",
+        "altitude": 805.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.428167,
+          44.704
+        ]
+      },
+      "properties": {
+        "id": "15226001",
+        "nom": "SENEZERGUES",
+        "altitude": 530.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.001833,
+          44.992833
+        ]
+      },
+      "properties": {
+        "id": "15235002",
+        "nom": "LES TERNES",
+        "altitude": 1007.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.612167,
+          44.965833
+        ]
+      },
+      "properties": {
+        "id": "15258004",
+        "nom": "VIC SUR CERE",
+        "altitude": 657.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           0.906667,
           42.996833
         ]
@@ -2369,6 +2954,711 @@
         "id": "38567002",
         "nom": "CHAMROUSSE",
         "altitude": 1730.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.740167,
+          46.896
+        ]
+      },
+      "properties": {
+        "id": "39013004",
+        "nom": "ARBOIS_SAPC",
+        "altitude": 313.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.886,
+          46.756833
+        ]
+      },
+      "properties": {
+        "id": "39097003",
+        "nom": "CHAMPAGNOLE",
+        "altitude": 537.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.865,
+          46.509
+        ]
+      },
+      "properties": {
+        "id": "39130002",
+        "nom": "CHAUX-DES-PRES-INRAE",
+        "altitude": 854.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.764667,
+          46.5815
+        ]
+      },
+      "properties": {
+        "id": "39156001",
+        "nom": "COGNA",
+        "altitude": 577.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.572167,
+          46.867667
+        ]
+      },
+      "properties": {
+        "id": "39159002",
+        "nom": "COLONNE",
+        "altitude": 244.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.659,
+          46.690167
+        ]
+      },
+      "properties": {
+        "id": "39177001",
+        "nom": "CRANCOT",
+        "altitude": 509.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.496,
+          47.063667
+        ]
+      },
+      "properties": {
+        "id": "39198001",
+        "nom": "DOLE",
+        "altitude": 212.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.717333,
+          46.768167
+        ]
+      },
+      "properties": {
+        "id": "39225002",
+        "nom": "LE FIED_SAPC",
+        "altitude": 522.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.768333,
+          47.148667
+        ]
+      },
+      "properties": {
+        "id": "39235001",
+        "nom": "FRAISANS",
+        "altitude": 254.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.895167,
+          46.634333
+        ]
+      },
+      "properties": {
+        "id": "39240001",
+        "nom": "LE FRASNOIS",
+        "altitude": 773.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.517667,
+          46.692833
+        ]
+      },
+      "properties": {
+        "id": "39362001",
+        "nom": "LONS LE SAUNIER",
+        "altitude": 298.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.843,
+          46.302833
+        ]
+      },
+      "properties": {
+        "id": "39413001",
+        "nom": "LA PESSE",
+        "altitude": 1133.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.448,
+          46.385167
+        ]
+      },
+      "properties": {
+        "id": "39485002",
+        "nom": "ST JULIEN - SA",
+        "altitude": 361.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.427333,
+          47.043833
+        ]
+      },
+      "properties": {
+        "id": "39526003",
+        "nom": "TAVAUX SA",
+        "altitude": 195.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.742667,
+          45.516833
+        ]
+      },
+      "properties": {
+        "id": "63003004",
+        "nom": "AMBERT",
+        "altitude": 555.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.016,
+          45.320167
+        ]
+      },
+      "properties": {
+        "id": "63006002",
+        "nom": "ANZAT-LE-LUGUET_SAPC",
+        "altitude": 1270.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.865833,
+          45.501667
+        ]
+      },
+      "properties": {
+        "id": "63038002",
+        "nom": "SUPERBESSE",
+        "altitude": 1287.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.897,
+          45.572667
+        ]
+      },
+      "properties": {
+        "id": "63077001",
+        "nom": "CHAMBON-SUR-LAC",
+        "altitude": 897.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.214333,
+          45.860667
+        ]
+      },
+      "properties": {
+        "id": "63089001",
+        "nom": "CHAPPES",
+        "altitude": 315.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7745,
+          45.533
+        ]
+      },
+      "properties": {
+        "id": "63098001",
+        "nom": "CHASTREIX",
+        "altitude": 1385.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.149333,
+          45.786833
+        ]
+      },
+      "properties": {
+        "id": "63113001",
+        "nom": "CLERMONT-FD",
+        "altitude": 331.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.572333,
+          45.754
+        ]
+      },
+      "properties": {
+        "id": "63125002",
+        "nom": "COURPIERE",
+        "altitude": 455.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.595,
+          45.472
+        ]
+      },
+      "properties": {
+        "id": "63129001",
+        "nom": "CROS",
+        "altitude": 790.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.557667,
+          45.6345
+        ]
+      },
+      "properties": {
+        "id": "63132002",
+        "nom": "CUNLHAT",
+        "altitude": 700.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.429167,
+          45.696667
+        ]
+      },
+      "properties": {
+        "id": "63157001",
+        "nom": "FAYET-LE-CHATEA",
+        "altitude": 585.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.799333,
+          45.7535
+        ]
+      },
+      "properties": {
+        "id": "63163001",
+        "nom": "GELLES",
+        "altitude": 784.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.262333,
+          45.535333
+        ]
+      },
+      "properties": {
+        "id": "63178001",
+        "nom": "ISSOIRE",
+        "altitude": 372.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.744667,
+          45.636
+        ]
+      },
+      "properties": {
+        "id": "63189005",
+        "nom": "LAQUEUILLE-INRAE",
+        "altitude": 1095.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.164333,
+          45.543667
+        ]
+      },
+      "properties": {
+        "id": "63222001",
+        "nom": "MEILHAUD",
+        "altitude": 448.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.91,
+          46.105167
+        ]
+      },
+      "properties": {
+        "id": "63223001",
+        "nom": "MENAT",
+        "altitude": 410.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8125,
+          45.551833
+        ]
+      },
+      "properties": {
+        "id": "63236003",
+        "nom": "LE MONT-DORE_SAPC",
+        "altitude": 1220.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.991667,
+          45.7995
+        ]
+      },
+      "properties": {
+        "id": "63263005",
+        "nom": "FONTAINE-DU-BER_SAPC",
+        "altitude": 971.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.687833,
+          46.104833
+        ]
+      },
+      "properties": {
+        "id": "63281001",
+        "nom": "PIONSAT",
+        "altitude": 524.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.133,
+          45.620167
+        ]
+      },
+      "properties": {
+        "id": "63282001",
+        "nom": "PLAUZAT_SAPC",
+        "altitude": 495.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.354167,
+          46.012167
+        ]
+      },
+      "properties": {
+        "id": "63295001",
+        "nom": "RANDAN",
+        "altitude": 394.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.6925,
+          45.737
+        ]
+      },
+      "properties": {
+        "id": "63298001",
+        "nom": "LA RENAUDIE",
+        "altitude": 805.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.886167,
+          45.575833
+        ]
+      },
+      "properties": {
+        "id": "63319002",
+        "nom": "ST-ANTHEME",
+        "altitude": 1263.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5265,
+          45.872833
+        ]
+      },
+      "properties": {
+        "id": "63320001",
+        "nom": "SAINT AVIT_SAPC",
+        "altitude": 724.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.019333,
+          45.723
+        ]
+      },
+      "properties": {
+        "id": "63345002",
+        "nom": "ST-GENES-CHPLLE-INRAE",
+        "altitude": 893.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.532667,
+          45.461
+        ]
+      },
+      "properties": {
+        "id": "63353003",
+        "nom": "ST-GERMAIN-L HE",
+        "altitude": 1070.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.803833,
+          46.032667
+        ]
+      },
+      "properties": {
+        "id": "63354004",
+        "nom": "ST-GERVAIS-D AU",
+        "altitude": 705.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.008833,
+          46.041167
+        ]
+      },
+      "properties": {
+        "id": "63382001",
+        "nom": "ST-PARDOUX",
+        "altitude": 602.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.599167,
+          45.890333
+        ]
+      },
+      "properties": {
+        "id": "63393001",
+        "nom": "ST-REMY-SUR-DUR",
+        "altitude": 665.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.598333,
+          45.6465
+        ]
+      },
+      "properties": {
+        "id": "63399002",
+        "nom": "ST-SULPICE",
+        "altitude": 851.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.045167,
+          45.839667
+        ]
+      },
+      "properties": {
+        "id": "63417001",
+        "nom": "SAYAT_SAPC",
+        "altitude": 550.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.595667,
+          45.544667
+        ]
+      },
+      "properties": {
+        "id": "63426001",
+        "nom": "TAUVES",
+        "altitude": 851.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.888333,
+          45.669
+        ]
+      },
+      "properties": {
+        "id": "63451001",
+        "nom": "VERNINES",
+        "altitude": 1045.0
       }
     },
     {
@@ -3464,6 +4754,306 @@
         "id": "66233001",
         "nom": "VIVES",
         "altitude": 261.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.345833,
+          48.216333
+        ]
+      },
+      "properties": {
+        "id": "68028001",
+        "nom": "BERGHEIM-INRAE",
+        "altitude": 309.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.212833,
+          47.632
+        ]
+      },
+      "properties": {
+        "id": "68062001",
+        "nom": "CARSPACH",
+        "altitude": 332.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.33,
+          48.063333
+        ]
+      },
+      "properties": {
+        "id": "68066001",
+        "nom": "COLMAR-INRAE",
+        "altitude": 202.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.056833,
+          47.875333
+        ]
+      },
+      "properties": {
+        "id": "68102001",
+        "nom": "GEISHOUSE_SAPC",
+        "altitude": 618.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.225833,
+          47.903667
+        ]
+      },
+      "properties": {
+        "id": "68112005",
+        "nom": "GUEBWILLER",
+        "altitude": 273.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.355667,
+          47.438
+        ]
+      },
+      "properties": {
+        "id": "68165001",
+        "nom": "KIFFIS",
+        "altitude": 576.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.955,
+          47.944167
+        ]
+      },
+      "properties": {
+        "id": "68171002",
+        "nom": "KRUTH_SAPC",
+        "altitude": 512.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.114,
+          47.9415
+        ]
+      },
+      "properties": {
+        "id": "68188002",
+        "nom": "LINTHAL_SAPC",
+        "altitude": 488.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.268167,
+          47.438333
+        ]
+      },
+      "properties": {
+        "id": "68190001",
+        "nom": "LUCELLE_SAPC",
+        "altitude": 690.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.407667,
+          47.928667
+        ]
+      },
+      "properties": {
+        "id": "68205001",
+        "nom": "COLMAR-MEYENHEIM",
+        "altitude": 207.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.288833,
+          47.75
+        ]
+      },
+      "properties": {
+        "id": "68224006",
+        "nom": "MULHOUSE",
+        "altitude": 245.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.117333,
+          48.047167
+        ]
+      },
+      "properties": {
+        "id": "68226005",
+        "nom": "MUNSTER_SAPC",
+        "altitude": 420.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.574667,
+          48.026167
+        ]
+      },
+      "properties": {
+        "id": "68231001",
+        "nom": "NEUF-BRISACH",
+        "altitude": 195.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.970333,
+          47.909667
+        ]
+      },
+      "properties": {
+        "id": "68247001",
+        "nom": "ODEREN - VALLEE",
+        "altitude": 457.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.031667,
+          47.923
+        ]
+      },
+      "properties": {
+        "id": "68247003",
+        "nom": "MARKSTEIN CRETE",
+        "altitude": 1184.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.103833,
+          48.135833
+        ]
+      },
+      "properties": {
+        "id": "68249002",
+        "nom": "ORBEY LAC BLANC_SAPC",
+        "altitude": 1080.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.291667,
+          47.954
+        ]
+      },
+      "properties": {
+        "id": "68287001",
+        "nom": "ROUFFACH - CHS",
+        "altitude": 208.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.51,
+          47.614333
+        ]
+      },
+      "properties": {
+        "id": "68297001",
+        "nom": "BALE-MULHOUSE",
+        "altitude": 263.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.873833,
+          47.8155
+        ]
+      },
+      "properties": {
+        "id": "68307001",
+        "nom": "SEWEN - LAC ALFELD_SAPC",
+        "altitude": 620.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.231,
+          48.1015
+        ]
+      },
+      "properties": {
+        "id": "68338001",
+        "nom": "TROIS-EPIS_SAPC",
+        "altitude": 656.0
       }
     },
     {
@@ -4724,6 +6314,321 @@
         "id": "74290003",
         "nom": "VALLORCINE",
         "altitude": 1326.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.991833,
+          48.345833
+        ]
+      },
+      "properties": {
+        "id": "88033002",
+        "nom": "BAN-DE-SAPT",
+        "altitude": 590.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9415,
+          48.007667
+        ]
+      },
+      "properties": {
+        "id": "88075005",
+        "nom": "LA_BRESSE_SAPC",
+        "altitude": 772.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.868,
+          47.892167
+        ]
+      },
+      "properties": {
+        "id": "88081004",
+        "nom": "BUSSANG",
+        "altitude": 615.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.834333,
+          48.309
+        ]
+      },
+      "properties": {
+        "id": "88095003",
+        "nom": "CHATENOIS",
+        "altitude": 330.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.451667,
+          48.210833
+        ]
+      },
+      "properties": {
+        "id": "88136001",
+        "nom": "EPINAL",
+        "altitude": 317.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.280167,
+          48.160667
+        ]
+      },
+      "properties": {
+        "id": "88147001",
+        "nom": "DOMMARTIN-AUX-BOIS_SAPC",
+        "altitude": 396.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.209167,
+          47.981333
+        ]
+      },
+      "properties": {
+        "id": "88176003",
+        "nom": "FONTENOY_SAPC",
+        "altitude": 314.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.834,
+          48.072167
+        ]
+      },
+      "properties": {
+        "id": "88196009",
+        "nom": "GERARDMER",
+        "altitude": 669.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3235,
+          48.138
+        ]
+      },
+      "properties": {
+        "id": "88201003",
+        "nom": "GIRANCOURT",
+        "altitude": 355.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8175,
+          48.016667
+        ]
+      },
+      "properties": {
+        "id": "88248001",
+        "nom": "ISCHES_SAPC",
+        "altitude": 342.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.961167,
+          48.160833
+        ]
+      },
+      "properties": {
+        "id": "88271001",
+        "nom": "LIGNEVILLE",
+        "altitude": 433.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.123333,
+          48.301667
+        ]
+      },
+      "properties": {
+        "id": "88304006",
+        "nom": "MIRECOURT-INRAE",
+        "altitude": 289.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.583667,
+          48.275833
+        ]
+      },
+      "properties": {
+        "id": "88340001",
+        "nom": "PADOUX",
+        "altitude": 342.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.596667,
+          48.019667
+        ]
+      },
+      "properties": {
+        "id": "88383001",
+        "nom": "REMIREMONT",
+        "altitude": 384.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.716667,
+          48.359167
+        ]
+      },
+      "properties": {
+        "id": "88393003",
+        "nom": "ROLLAINVILLE",
+        "altitude": 372.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6255,
+          48.168
+        ]
+      },
+      "properties": {
+        "id": "88399001",
+        "nom": "LE ROULIER_SAPC",
+        "altitude": 449.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.608167,
+          48.383
+        ]
+      },
+      "properties": {
+        "id": "88402002",
+        "nom": "ROVILLE",
+        "altitude": 278.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.663,
+          47.918167
+        ]
+      },
+      "properties": {
+        "id": "88408002",
+        "nom": "RUPT-SUR-MOSELLE",
+        "altitude": 427.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7745,
+          48.188833
+        ]
+      },
+      "properties": {
+        "id": "88430001",
+        "nom": "ST OUEN-LES-PAREY_SAPC",
+        "altitude": 329.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.750333,
+          48.042333
+        ]
+      },
+      "properties": {
+        "id": "88486003",
+        "nom": "VAGNEY",
+        "altitude": 805.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.462667,
+          47.955167
+        ]
+      },
+      "properties": {
+        "id": "88487003",
+        "nom": "LE VAL-D'AJOL",
+        "altitude": 544.0
       }
     }
   ]
