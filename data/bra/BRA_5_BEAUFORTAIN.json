@@ -3,14 +3,14 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-03-05T16:00:00",
-    "valid_until": "2026-03-06T18:00:00",
+    "issued_at": "2026-03-06T16:00:00",
+    "valid_until": "2026-03-07T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Indice de risque faible évoluant en limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 2,
-            "evolution_to": null,
+            "risk": 1,
+            "evolution_to": 2,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "2",
+            "text": "1→2",
             "risk": 2,
-            "evolution_to": null
+            "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-07",
+        "date": "2026-03-08",
         "label": "Indice de risque limité",
-        "comment": "Peu d'évolution. Le ciel est dégagé en journée, ce qui devrait permettre une humidification à nouveau efficace dans les versants ensoleillés. Le risque reste limité le temps que les petites plaques à vent se stabilisent.",
+        "comment": "Persistance de conditions bien pritannières.",
         "trend": "steady"
       }
     },
@@ -66,22 +66,16 @@
       }
     },
     "sat": {
-      "primary": 5,
-      "secondary": 2,
+      "primary": 4,
+      "secondary": null,
       "labels": {
-        "5": "Avalanche de fond",
-        "2": "Neige ventée"
+        "4": "Neige humide"
       },
-      "icon_key": "sat-5"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-01",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-02",
           "min_cm": 0,
@@ -106,6 +100,11 @@
           "date": "2026-03-06",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-07",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU PLUTÔT STABLE, RARES AVALANCHES DE GLISSEMENT ET FORMATION DE PLAQUES SOUS LE FOEHN.",
-      "text": "MANTEAU PLUTÔT STABLE, RARES AVALANCHES DE GLISSEMENT ET FORMATION DE PLAQUES SOUS LE FOEHN.\n\nDéclenchements provoqués : rares petites plaques à vent en formation sous le foehn. Elles sont localisées au-dessus de 2000 m dans les versants froids (nord) où la neige était restée poudreuse jusqu'à présent. Déclenchement parfois facile mais cassures 10-20 cm maximum.\n\nDéparts spontanés : rares avalanches de glissement (plaques de fond), plutôt sous 2400 m mais parfois plus haut sur des terrains très propices (dalles rocheuses raides notamment). Les versants est, sud et ouest sont les principaux concernés. Le manteau neigeux actuel étant épais, les volumes mobilisés peuvent être conséquents : tailles généralement moyennes mais une grande avalanche n'est pas exclue.",
+      "title": "MANTEAU PLUTÔT STABLE, RARES AVALANCHES DE GLISSEMENT, NEIGE HUMIDE ET PLAQUES SOUS LE FOEHN.",
+      "text": "MANTEAU PLUTÔT STABLE, RARES AVALANCHES DE GLISSEMENT, NEIGE HUMIDE ET PLAQUES SOUS LE FOEHN.\n\nDéclenchements provoqués : Rares petites plaques à vent en versant froids dans la neige restée poudreuse transportée par le foehn. De petite à moyenne avalanche avec petites cassures (10-20cm), plus souvent près des crêtes où elles sont parfois réactives. \n\nDéparts spontanés : - Rares avalanches de glissement (plaques de fond), généralement de taille moyenne au vu de l'épaisseur du manteau neigeux. Départs préférentiellement en versants ensoleillés E, S et O et majoritairement sous les 2400m mais la méfiance reste de mise plus haut sur les dalles et pentes herbeuses raides. \n- Rares avalanches de neige humide dans un large secteur sud, après quelques heures de chauffage, l'eau de fonte peut humidifier en profondeur le manteau jusqu'à atteindre de vielles couches de grains anguleux, cassure alors linéaire occasionnant alors une avalanche moyenne à exceptionnellement grande.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : fonte rapide de la neige en sud et aux basses altitudes sous les assauts du soleil, de la douceur puis désormais du foehn. Ailleurs, malgré le tassement, l'enneigement reste très bon pour la saison.\n\nLimite skiable : encore skiable dès 1100 m dans les prairies orientées nord, plutôt 1400/1500 m en sud pas trop raide.\n\nQualité de la neige : mauvais regel sous 1800/2000 m avec potentiellement une fine croute désagréable sous cette altitude. Au-dessus, \n- en nord, neige encore froide, poudreuse dense dans les vallons soumis au foehn, ou frisette (vieille poudre) agréable à skier.\n- en sud/est/ouest, neige dure qui ramollit très difficilement en journée (voile dense).",
+      "text": "Enneigement : fonte de la neige en sud et aux basses altitudes sous l'action combinée du soleil, la douceur et du foehn. Ailleurs, le manteau s'est tassé mais l'enneigement reste très bon pour la saison.\n\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1400/1500 m en sud pas trop raide.\n\nQualité de la neige : - En nord, neige encore froide au dessus de 2000/2100 m, poudreuse dense dans les vallons soumis au foehn, ou frisette (vieille poudre) agréable à skier.\n- En sud/est/ouest, bon regel au dessus de 1800/2000 m, plus aléatoire en dessous. la neige ramollit bien en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

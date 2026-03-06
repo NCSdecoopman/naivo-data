@@ -1,0 +1,156 @@
+{
+  "schema_version": 3,
+  "massif": "Capcir Puymorens",
+  "bulletin": {
+    "id": 73,
+    "issued_at": "2026-03-06T16:00:00",
+    "valid_until": "2026-03-07T18:00:00",
+    "amended": false
+  },
+  "evalbra": {
+    "risk": {
+      "max_level": 3,
+      "comment": "Indice de risque marqué.",
+      "localization": {
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
+        "zones": [
+          {
+            "id": "zone1",
+            "loc": null,
+            "risk": 3,
+            "evolution_to": null,
+            "position": null
+          }
+        ]
+      },
+      "pictogram": {
+        "template": "mf_mountain_risk_v1",
+        "split": {
+          "axis": null,
+          "label": null
+        },
+        "zones": {
+          "center": {
+            "text": "3",
+            "risk": 3,
+            "evolution_to": null
+          }
+        }
+      },
+      "j2": {
+        "max_level": 3,
+        "date": "2026-03-08",
+        "label": "Indice de risque marqué",
+        "comment": "Maintien probable d'un risque marqué en haute-montagne malgré un début de stabilisation",
+        "trend": "steady"
+      }
+    },
+    "dangerous_aspects": {
+      "aspects": {
+        "N": true,
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": true
+      },
+      "icon_key": "rose-aspects",
+      "image": {
+        "filename": "BRA_73_CAPCIR_PUYMORENS_rose-pentes.png",
+        "content_type": "image/png"
+      }
+    },
+    "sat": {
+      "primary": 1,
+      "secondary": 4,
+      "labels": {
+        "1": "Neige fraîche",
+        "4": "Neige humide"
+      },
+      "icon_key": "sat-1"
+    },
+    "precip_cumulated": {
+      "reference_altitude_m": 1800,
+      "fresh_snow_24h": [
+        {
+          "date": "2026-03-02",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-03-03",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-03-04",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-03-05",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-03-06",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-03-07",
+          "min_cm": 0,
+          "max_cm": 1
+        }
+      ],
+      "totals": {
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 1
+      },
+      "icon_key": "snowfall"
+    },
+    "stability": {
+      "title": "Manteau neigeux instable du fait des cumuls de neige fraîche conséquents en altitude et d'un manteau profondément humidifié aux altitudes inférieures",
+      "text": "Manteau neigeux instable du fait des cumuls de neige fraîche conséquents en altitude et d'un manteau profondément humidifié aux altitudes inférieures\n\nDéclenchements provoqués :  \nEn tous versants, mais surtout sous le vent d'Est à Sud-Est, au-dessus de 2200/2300m, des déclenchements d'avalanches sont possibles au passage d’un skieur. Les avalanches sont plutôt de taille moyenne ou grande selon les cumuls de neige fraîche disponibles. En effet, des structures de plaques se sont formées pendant les chutes de neige et continuent de se former. Ces plaques sont difficilement détectables.\nEn tous versants sous 2200/2300m un skieur peut facilement provoquer des coulées de neige humide sous les skis dans la neige récente gorgée d'eau sans cohésion, pouvant provoquer la chute du skieur. Selon la configuration du terrain, un skieur peut se retrouver enseveli.\nObservables: en altitude quantités critiques de neige fraiche (30/50 cm et localement plus), fissures sous les skis, avalanche dans la neige récente en pente raide ; plus bas neige humide sans cohésion partant sous les skis\n\nDéparts spontanés : \n- Avalanches de neige humide attendues sous 2100 m, moyenne à grande, du fait d'une humidification toujours plus en profondeur notamment dans les pentes raides de secteur Nord-Est où les quantités de neige en place sont conséquentes.\n- Avalanches de neige sèche  possibles en altitude avec les averses par surcharge des plaques présentes dans la neige récente. Ces avalanches pourront alors emporter l’ensemble de la neige récente d'où de possibles grandes avalanches dans les secteurs d'accumulation de haute-montagne notamment des Péric au Madres.",
+      "sections": null,
+      "icon_key": "stability"
+    },
+    "snow_quality": {
+      "text": "Enneigement :  \nL’enneigement est excédentaire dès la moyenne montagne après les nombreuses perturbations neigeuses depuis le début de l'année avec plutôt sur l'est du massif 50 cm à 1m de neige fraîche en haute-montagne. Les vallons ombragés sont encore bien enneigés notamment en versant Est et nord.\nLa limite skiable remonte autour de 1600m. A haute altitude, les pentes Ouest ont souvent été rabotées par le vent.\n\nQualité de la neige : \nNeige humide sous 2100m. Plus haut, au-dessus de 2400 m, on trouvera une couche de neige fraiche conséquente en allant vers l'est du massif.",
+      "icon_key": "snow-quality"
+    },
+    "snowpack": {
+      "limits_m": {
+        "north": 1500,
+        "south": 1600
+      },
+      "levels_cm": [
+        {
+          "alt_m": 1500,
+          "N": 5,
+          "S": 0
+        },
+        {
+          "alt_m": 2000,
+          "N": 180,
+          "S": 120
+        },
+        {
+          "alt_m": 2500,
+          "N": 300,
+          "S": 240
+        }
+      ],
+      "icon_key": "snowpack",
+      "image": {
+        "filename": "BRA_73_CAPCIR_PUYMORENS_montagne-enneigement.png",
+        "content_type": "image/png"
+      }
+    }
+  }
+}

@@ -3,14 +3,14 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-03-05T16:00:00",
-    "valid_until": "2026-03-06T18:00:00",
+    "issued_at": "2026-03-06T16:00:00",
+    "valid_until": "2026-03-07T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible évoluant en limité.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2000,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": "<2000",
             "risk": 1,
-            "evolution_to": null,
+            "evolution_to": 2,
             "position": "bottom"
           },
           {
@@ -41,9 +41,9 @@
         },
         "zones": {
           "bottom": {
-            "text": "1",
+            "text": "1→2",
             "risk": 1,
-            "evolution_to": null
+            "evolution_to": 2
           },
           "top": {
             "text": "2",
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-07",
+        "date": "2026-03-08",
         "label": "Indice de risque limité",
-        "comment": "Peu d'évolution. Le ciel est dégagé en journée, ce qui devrait permettre une humidification à nouveau efficace dans les versants ensoleillés. Le risque reste limité à cause des couches fragiles persistantes.",
+        "comment": "Persistance de conditions bien pritannières.",
         "trend": "steady"
       }
     },
@@ -79,20 +79,16 @@
     },
     "sat": {
       "primary": 3,
-      "secondary": null,
+      "secondary": 4,
       "labels": {
-        "3": "Couche fragile persistante"
+        "3": "Couche fragile persistante",
+        "4": "Neige humide"
       },
       "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-01",
-          "min_cm": 0,
-          "max_cm": 3
-        },
         {
           "date": "2026-03-02",
           "min_cm": 0,
@@ -117,6 +113,11 @@
           "date": "2026-03-06",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-07",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU PLUTÔT BIEN STABILISÉ, LES GRAINS ANGULEUX ENFOUIS SEMBLENT DÉSORMAIS TRÈS PEU RÉACTIFS.",
-      "text": "MANTEAU PLUTÔT BIEN STABILISÉ, LES GRAINS ANGULEUX ENFOUIS SEMBLENT DÉSORMAIS TRÈS PEU RÉACTIFS.\n\nDéclenchements provoqués : il subsiste de rares instabilités liées à la présence de couches fragiles persistantes (grains anguleux) enfouies dans le manteau. Ces instabilités sont présentes en tous versants :\n(1) dès 2200 m en nord (neige froide en surface) où il convient de se méfier des zones les moins enneigées (abords de crête, croupes dégarnis) car la couche fragile est alors plus proche de la surface.\n(2) plutôt au-dessus de 2500/2600 m en versants ensoleillés (neige humide en surface) où, après plusieurs heures de soleil, l'enfoncement dans la neige humide rend à nouveau possible la sollicitation d'une couche fragile enfouie.\nQuel que soit l'aspect de la plaque en surface, des avalanches d'ampleur peuvent alors être déclenchées : généralement des tailles moyennes, exceptionnellement une grande.\n\nDéparts spontanés : peu probables. Rare petite avalanche de glissement sur terrain favorable.",
+      "title": "MANTEAU PLUTÔT BIEN STABILISÉ, RARES AVALANCHES DE NEIGE HUMIDE, LES GRAINS ANGULEUX ENFOUIS SEMBLENT DÉSORMAIS TRÈS PEU RÉACTIFS.",
+      "text": "MANTEAU PLUTÔT BIEN STABILISÉ, RARES AVALANCHES DE NEIGE HUMIDE, LES GRAINS ANGULEUX ENFOUIS SEMBLENT DÉSORMAIS TRÈS PEU RÉACTIFS.\n\nDéclenchements provoqués : il subsiste de rares instabilités liées à la présence de couches fragiles persistantes (grains anguleux) enfouies dans le manteau. Ces instabilités sont présentes en tous versants :\n(1) dès 2000 m en nord (neige froide en surface) où il convient de se méfier des zones les moins enneigées (abords de crête, croupes dégarnis) car la couche fragile est alors plus proche de la surface.\n(2) plutôt au-dessus de 2500/2600 m en versants ensoleillés (neige humide en surface) où, après plusieurs heures de soleil, l'enfoncement dans la neige humide rend à nouveau possible la sollicitation d'une couche fragile enfouie.\nQuel que soit l'aspect de la plaque en surface, des avalanches d'ampleur peuvent alors être déclenchées : généralement des tailles moyennes, exceptionnellement une grande.\n\nDéparts spontanés : Rares avalanches de taille moyenne en neige humide. Humidification du manteau marquée en secteurs déventés. Exceptionnellement une grande taille avec cassure linéaire après plusieurs heures d'action du soleil si l'humidification atteint, en profondeur, une couche de grains anguleux.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : fonte rapide de la neige en sud et aux basses altitudes sous les assauts du soleil, de la douceur puis désormais de la lombarde. Ailleurs, malgré le tassement, l'enneigement reste très bon pour la saison. En haute montagne près de la crête frontalière, l'enneigement est déficitaire voire carrément absent de certains cols ou faces très exposées au vent.\n\nLimite skiable : encore skiable dès 1100 m dans les prairies orientées Nord, plutôt 1500/1700 m en Sud.\n\nQualité de la neige : mauvais regel sous 1800/2000 m avec potentiellement une fine croute désagréable sous cette altitude. Au-dessus, \n- en nord, neige encore froide, poudreuse et légère dans les secteurs à l'abri du vent (plutôt aux \"moyennes\" altitudes). Par contre, le vent a fortement travaillé le manteau en haute montagne, tout particulièrement dans les secteurs frontaliers où la neige est dure (glissante) et les rochers affleurent souvent.\n- en sud/est/ouest, neige dure qui ramollit très difficilement en journée (pas ou peu de soleil).",
+      "text": "Enneigement : fonte rapide de la neige en sud et aux basses altitudes sous les assauts du soleil, de la douceur puis désormais de la lombarde. Ailleurs, malgré le tassement, l'enneigement reste très bon pour la saison. En haute montagne près de la crête frontalière, l'enneigement est déficitaire voire carrément absent de certains cols ou faces très exposées au vent.\n\nLimite skiable : encore skiable dès 1100 m dans les prairies orientées Nord, plutôt 1500/1700 m en Sud.\n\nQualité de la neige : - En nord, neige encore froide au dessus de 2000/2100 m, poudreuse et légère, agréable à skier dans les secteurs à l'abri du vent (plutôt aux \"moyennes\" altitudes). Par contre, le vent a fortement travaillé le manteau en haute montagne, tout particulièrement dans les secteurs frontaliers où la neige est dure (glissante) et les rochers affleurent souvent.\n- En sud/est/ouest, bon regel au dessus de 1800/2000 m, plus aléatoire en dessous. la neige ramollit bien en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
