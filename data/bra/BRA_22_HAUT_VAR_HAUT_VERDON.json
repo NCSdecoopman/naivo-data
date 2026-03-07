@@ -3,8 +3,8 @@
   "massif": "Haut-Var Haut-Verdon",
   "bulletin": {
     "id": 22,
-    "issued_at": "2026-03-06T15:00:00",
-    "valid_until": "2026-03-07T18:00:00",
+    "issued_at": "2026-03-07T16:00:00",
+    "valid_until": "2026-03-08T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-08",
+        "date": "2026-03-09",
         "label": "Indice de risque limité",
-        "comment": "Peu d'évolution de la situation nivologique. Risque limité aux ubacs de haute altitude.",
+        "comment": "Peu d'évolution de la situation nivologique. Risque de plaques limité aux ubacs de haute altitude.",
         "trend": "steady"
       }
     },
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-03",
           "min_cm": 0,
           "max_cm": 0
@@ -117,22 +112,27 @@
           "date": "2026-03-07",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-08",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "MANTEAU NEIGEUX BIEN STABILISÉ, SAUF ÉVENTUELLEMENT EN UBACS D'ALTITUDE",
-      "text": "MANTEAU NEIGEUX BIEN STABILISÉ, SAUF ÉVENTUELLEMENT EN UBACS D'ALTITUDE \n\nDéclenchements provoqués : le manteau neigeux est bien stabilisé. Les instabilités se cantonnent à de rares pentes d'altitude supérieure à 2200 m environ, en orientations nord-ouest, nord et nord-est. Elles se présentent sous forme de plaques dures. Difficilement déclenchables par un seul skieur, elles peuvent cependant mobiliser d'importants volumes en cas de départ (taille 2, voire 3, grande, non exclue), car elles reposent sur une couche fragile persistante vers la base du manteau neigeux qui peut conduire à des cassures épaisses et larges.\n\nDéparts spontanés : peu probables, sauf éventuellement une avalanche de glissement de taille 2  en pentes d'un large secteur sud, en terrain favorable (pentes herbeuses, dalles rocheuses).",
+      "text": "MANTEAU NEIGEUX BIEN STABILISÉ, SAUF ÉVENTUELLEMENT EN UBACS D'ALTITUDE \n\nDéclenchements provoqués : le manteau neigeux est bien stabilisé. Les instabilités se cantonnent à de rares plaques épaisses reposant sur des couches fragiles persistantes enfouies en orientations nord-ouest, nord ou nord-est au-dessus de 2200 m, surtout sur le Haut-Verdon. Difficilement déclenchables par un seul skieur, elles peuvent cependant mobiliser d'importants volumes de neige en cas de départ (taille moyenne, voire grande non exclue). Des petits départs superficiels sont possibles sous les skis dans les pentes fortement humidifiées. \n\nDéparts spontanés : peu probables, sauf éventuellement une avalanche de glissement de taille 2  en pentes d'un large secteur sud, en terrain favorable (pentes herbeuses, dalles rocheuses).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement plutôt excédentaire pour un début mars en général, notamment dans le Haut-Verdon.\nDonnées observées : vers 2000 m, 170 cm dans le vallon de Rougnouse en Haut Verdon, 112 cm dans le vallon de Sanguinière en Haut Var. \n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1800/1900 m en adrets peu pentus.\n\nÉtat de la neige en surface :  manteau neigeux printanier dense en adrets, ainsi qu'en ubacs de basse altitude. Samedi matin, le regel reste inexistant ou médiocre sous 2000/2200 m, et l'absence d'ensoleillement empêche l'humidification en adrets. Neige sèche  fortement durcie par le vent en ubacs de haute altitude, au-dessus de 2200/2300 m, plus rarement en vieille neige d'aspect poudreux dans les pentes et combes abritées. Sur les crêtes, d'anciennes corniches épaisses côtoient des zones dégarnies par le vent. La neige est parfois légèrement colorée en ocre par le dépôt de poussières désertiques sahariennes.",
+      "text": "Enneigement plutôt excédentaire pour un début mars en général, notamment dans le Haut-Verdon.\nDonnées observées : vers 2000 m, 165 cm dans le vallon de Valdemars en Haut Verdon, 111 cm dans le vallon de Sanguinière en Haut Var. \n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1800/1900 m en adrets peu pentus.\n\nÉtat de la neige en surface :  manteau neigeux printanier dense avec un regel médiocre le matin sous 1800/2000 m. Humidification superficielle en journée dans les pentes ensoleillées. On trouve encore localement de la neige froide en ubacs au dessus de 2200/2300 m, souvent densifiée par le vent. Sur les crêtes, d'anciennes corniches épaisses côtoient des zones dégarnies par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -154,7 +154,7 @@
         {
           "alt_m": 2500,
           "N": 200,
-          "S": 130
+          "S": 125
         }
       ],
       "icon_key": "snowpack",

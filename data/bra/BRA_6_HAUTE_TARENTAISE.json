@@ -3,8 +3,8 @@
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
-    "issued_at": "2026-03-06T16:00:00",
-    "valid_until": "2026-03-07T18:00:00",
+    "issued_at": "2026-03-07T16:00:00",
+    "valid_until": "2026-03-08T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-08",
+        "date": "2026-03-09",
         "label": "Indice de risque limité",
-        "comment": "Persistance de conditions bien pritannières.",
+        "comment": "Risque stationnaire. Poursuite des conditions printanières.",
         "trend": "steady"
       }
     },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 3,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": 3,
       "labels": {
-        "3": "Couche fragile persistante",
-        "4": "Neige humide"
+        "4": "Neige humide",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-3"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-03",
           "min_cm": 0,
@@ -118,6 +113,11 @@
           "date": "2026-03-07",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-08",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,30 +127,30 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU PLUTÔT BIEN STABILISÉ, RARES AVALANCHES EN NEIGE HUMIDE, LES GRAINS ANGULEUX ENFOUIS SEMBLENT DÉSORMAIS TRÈS PEU RÉACTIFS.",
-      "text": "MANTEAU PLUTÔT BIEN STABILISÉ, RARES AVALANCHES EN NEIGE HUMIDE, LES GRAINS ANGULEUX ENFOUIS SEMBLENT DÉSORMAIS TRÈS PEU RÉACTIFS.\n\nDéclenchements provoqués : il subsiste de rares instabilités liées à la présence de couches fragiles persistantes (grains anguleux) enfouies dans le manteau. Ces instabilités sont présentes en tous versants :\n(1) dès 2000 m en nord (neige froide en surface) où il convient de se méfier des zones les moins enneigées (abords de crête, croupes dégarnis) car la couche fragile est alors plus proche de la surface.\n(2) plutôt au-dessus de 2500/2600 m en versants ensoleillés (neige humide en surface) où, après plusieurs heures de soleil, l'enfoncement dans la neige humide rend à nouveau possible la sollicitation d'une couche fragile enfouie.\nQuel que soit l'aspect de la plaque en surface, des avalanches d'ampleur peuvent alors être déclenchées : généralement des tailles moyennes, exceptionnellement une grande.\n\nDéparts spontanés : Rares avalanches de taille moyenne en neige humide. Humidification du manteau marquée en secteurs déventés. Exceptionnellement une grande taille avec cassure linéaire après plusieurs heures d'action du soleil si l'humidification atteint, en profondeur, une couche de grains anguleux.",
+      "title": "MANTEAU PRINTANIER : PLUTÔT STABLE LE MATIN, HUMIDIFICATION MARQUÉE ENSUITE FACILITANT UN DÉPART",
+      "text": "MANTEAU PRINTANIER : PLUTÔT STABLE LE MATIN, HUMIDIFICATION MARQUÉE ENSUITE FACILITANT UN DÉPART\n\nDéclenchements provoqués : des couches fragiles persistantes (grains anguleux) sont enfouies de manière généralisée dans le manteau (en tous versants, même en Sud de haute altitude). Leur sollicitation est très peu probable la majorité du temps mais devient possible :\n - en NW/N/NE, au-dessus de 2000 m (neige froide en surface), dans quelques unes des zones moins enneigées (abords de crête/col, croupes dégarnis) car la couche fragile est alors plus proche de la surface. Taille 1 à 2 (petite à moyenne).\n - en E à S à W, après plusieurs heures de soleil, lorsque l'enfoncement dans la neige humide devient important, facilitant la sollicitation d'une couche fragile enfouie. Taille 2 (moyenne), plus rarement 3 (grande).\n\nDéparts spontanés : Rare avalanche de neige humide dans les pentes ayant chauffées plusieurs heures au soleil. Avalanche de taille 1 à 2 (petite à moyenne), rarement 3 (grande) avec cassure linéaire si l'humidification atteint une vielle couche fragile de grains anguleux (plutôt en E/O mais aussi en S de haute altitude).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : fonte rapide de la neige en sud et aux basses altitudes sous les assauts du soleil, de la douceur puis désormais du foehn. Ailleurs, malgré le tassement, l'enneigement reste très bon pour la saison.\n\nLimite skiable : encore skiable dès 1100 m dans les prairies orientées nord, plutôt 1500/1600 m en sud.\n\nQualité de la neige : mauvais regel sous 1800/2000 m avec potentiellement une fine croute désagréable sous cette altitude. Au-dessus, \n- en nord, neige encore froide, poudreuse dense à l'abri du vent, cartonnée voire dure dans les secteurs ventés (à l'approche des crêtes).\n- en sud/est/ouest, neige dure qui ramollit très difficilement en journée (voile dense).",
+      "text": "Enneigement : en général légèrement excédentaire pour la saison, mais en train de devenir déficitaire en basse montagne et en versant Sud.\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1500/1600 m en sud pas trop raide.\nQualité de la neige :\n - Sud/Est/Ouest : conditions de printemps avec un bon regel le matin, ensuite la neige \"décaille\" vite en suivant la course du soleil (moins rapidement à cause du vent près des cols frontaliers), offrant du bon ski lorsque l'horaire est adapté à l'orientation.\n - Nord suffisamment haut ou pentu (à partir de 2000/2100 m) : on peut trouver de la vieille poudre (grain à face plane) agréable à skier, parfois densifiée voire localement cartonnée par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1100,
-        "south": 1400
+        "north": 1200,
+        "south": 1500
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 70,
-          "S": 30
+          "N": 65,
+          "S": 25
         },
         {
           "alt_m": 2000,
           "N": 160,
-          "S": 110
+          "S": 105
         },
         {
           "alt_m": 2500,

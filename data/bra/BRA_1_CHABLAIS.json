@@ -3,8 +3,8 @@
   "massif": "Chablais",
   "bulletin": {
     "id": 1,
-    "issued_at": "2026-03-06T16:00:00",
-    "valid_until": "2026-03-07T18:00:00",
+    "issued_at": "2026-03-07T16:00:00",
+    "valid_until": "2026-03-08T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-08",
+        "date": "2026-03-09",
         "label": "Indice de risque limité",
-        "comment": "Encore des problématiques de neige humide et avalanches de fond.",
+        "comment": "Lundi, ensoleillé avec peu de vent et un isotherme 0°C vers 2200 m.\n⇒ risque stationnaire, peu d’évolution sur le manteau neigeux.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-03",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-03-07",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-08",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "",
-      "text": "Départs spontanés :\n* Plaques de fond. En adrets en dessous de 2300 m et en versants NW en dessous 2000 m (pentes lisses, raides en herbe ou dalle) possibles à toute heure. Taille 2 (moyenne). Observables : avec ou sans gueule de baleine préalable.\n* Quelques petites avalanches de neige humide. Elle se produisent dans les adrets après quelques heures de soleil. Départ ponctuel, écoulement en forme de poire. Observables : escargots, enfoncement piéton important.\n* Chutes de corniches (volumineuse), pouvant éventuellement déclencher une plaque en contrebas.\n\nDéclenchements provoqués :\n* Plaque dure, très peu probable mais pas impossible. En tout versants au-dessus de 2200 m. Cassure épaisse, taille 2 (moyenne), exceptionnellement 3 (grande). Difficilement déclenchable à skis, mais pouvant être sollicitée par la chute d'une corniche ou une première avalanche de neige humide.\n* Départs ponctuels de neige humide sous les skis, au fil de l'ensoleillement, majoritairement dans les pentes raides SE/S/SW. Taille 1 (petite).",
+      "title": "Manteau neigeux printanier sous 2200m, voire plus haut en sud",
+      "text": "Manteau neigeux printanier sous 2200m, voire plus haut en sud\n\nDéparts spontanés :\n* quelques plaques de fond, de jour comme de nuit, dans les pentes lisses et raides (zones herbeuses, dalles rocheuses). Présentes dans les versants sud sous 2300 m et dans les versants nord sous 2000 m. Taille 2 (moyenne).\n* avalanches de neige humide, dans les versants ensoleillés (ouest, sud, est), très rares en début de matinée et plus nombreuses au fil de la course du soleil. Taille 1 à 2 (petite à moyenne).\nObservables : enfoncement piéton important, escargots. \n* Une chute de grosse corniche est possible pouvant déclencher une plaque en contrebas. \n\nDéclenchements provoqués :\n* des avalanches de neige humide peuvent partir sous les skis aux heures les plus chaudes, dans les versants ensoleillés. Taille 1 (petite).\n* très rares plaques dures sur sous-couche fragile persistante enfouie, au-dessus de 2200 m. Difficile à déclencher. Départ possible par chutes de corniches ou avalanches en cascade. Taille 2 (moyenne) avec d’épaisses cassures.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : bon pour la période. On peut chausser les skis vers 1200/1300 m en versants E/N/W et 1400/1700 m en S. Corniches volumineuses.\n\nQualité de la neige vendredi :\n* Légèrement saupoudrée de poussière de sable\n* Regel nocturne assez efficace. \n* Manteau neigeux très dense, la croute ramollit et s'humidifie suivant la course du soleil, en dessous de 2200/2300 m, voir 2500 m en S raide.\n* En N au-dessus de 2100/2300 m, neige froide, plutôt dure, rares endroits abrités du vent en vielle poudre.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis vers 1200/1300 m en nord, est et ouest et 1400/1700 m en sud.\nGrosses corniches encore présentes.\nFaible dépôt de poussières désertiques en surface du manteau neigeux. \n\nQualité de la neige ce dimanche : \n* Sous 1800 m, faible regel, neige rapidement lourde. \n* Vers 1800/2200 en versant nord et au-dessus de 1800 m en sud : en début de matinée, croûte de regel portante à ski. Au cours de la journée, le manteau neigeux s’humidifie en surface.\n* Au-dessus de 2200/2300 m en nord, nord-est, nord-ouest : neige froide, dense et majoritairement travaillée par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 100,
-          "S": 80
+          "N": 90,
+          "S": 70
         },
         {
           "alt_m": 2000,
-          "N": 200,
-          "S": 140
+          "N": 190,
+          "S": 130
         }
       ],
       "icon_key": "snowpack",

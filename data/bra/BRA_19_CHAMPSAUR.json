@@ -3,30 +3,30 @@
   "massif": "Champsaur",
   "bulletin": {
     "id": 19,
-    "issued_at": "2026-03-06T16:00:00",
-    "valid_until": "2026-03-07T18:00:00",
+    "issued_at": "2026-03-07T16:00:00",
+    "valid_until": "2026-03-08T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible évoluant en limité.",
+      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2200,
+        "threshold_m": 2000,
         "split_axis": "horizontal",
-        "split_label": "2200m",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
+            "loc": "<2000",
             "risk": 1,
-            "evolution_to": 2,
+            "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2200",
+            "loc": ">2000",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,13 +37,13 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2200m"
+          "label": "2000m"
         },
         "zones": {
           "bottom": {
-            "text": "1→2",
+            "text": "1",
             "risk": 1,
-            "evolution_to": 2
+            "evolution_to": null
           },
           "top": {
             "text": "2",
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-08",
+        "date": "2026-03-09",
         "label": "Indice de risque limité",
-        "comment": "Maintient d'un risque limité, avec peu d'évolution des conditions météorologiques.",
+        "comment": "Situation nivologique similaire. Maintien d'un risque limité, avec les mêmes problématiques.",
         "trend": "steady"
       }
     },
@@ -79,21 +79,16 @@
     },
     "sat": {
       "primary": 3,
-      "secondary": 4,
+      "secondary": 5,
       "labels": {
         "3": "Couche fragile persistante",
-        "4": "Neige humide"
+        "5": "Avalanche de fond"
       },
       "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-03",
           "min_cm": 0,
@@ -118,6 +113,11 @@
           "date": "2026-03-07",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-08",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "COUCHES FRAGILES DIFFICILES À SOLLICITER, RARES DÉPARTS EN NEIGE HUMIDE",
-      "text": "COUCHES FRAGILES DIFFICILES À SOLLICITER, RARES DÉPARTS EN NEIGE HUMIDE\n\nDéclenchements provoqués :\n- une avalanche de plaque reste encore envisageable dans les versants ouest, nord et est au-dessus de 2000/2200 m. Même si leur déclenchement est généralement difficile, une couche fragile persistante insuffisamment enfouie à la base du manteau neigeux peut localement être sollicitée dans les secteurs peu enneigés, abords de croupes et bords des couloirs. Avalanche pouvant être de grande taille, avec cassure épaisse et propagation à distance.\n- un skieur évoluant tardivement en pente raide ensoleillée peut provoquer un départ superficiel en neige humide sous les skis.\n\nDéparts spontanés :\n- rares départs en neige humide. Peu probables en tout début de journée, puis devenant possibles à partir de la fin de matinée en pentes raides ensoleillées. Avalanche de taille petite en général, rarement moyenne (taille 1 à 2).\n- une rare avalanche de fond emportant la totalité du manteau neigeux jusqu’au sol peut céder spontanément à n’importe quel moment du jour ou de la nuit sur terrain favorable (pentes herbeuses, dalles rocheuses), parfois précédée par l’ouverture d'une reptation (ou gueule de baleine). Avalanche de taille moyenne.",
+      "title": "QUELQUES INSTABILITÉS EN ALTITUDE, DIFFICILES À SOLLICITER - MAINTIEN D'UN PEU D'ACTIVITÉ EN AVALANCHES DE FOND / NEIGE HUMIDE",
+      "text": "QUELQUES INSTABILITÉS EN ALTITUDE, DIFFICILES À SOLLICITER - MAINTIEN D'UN PEU D'ACTIVITÉ EN AVALANCHES DE FOND / NEIGE HUMIDE\n\nDéclenchements provoqués : * Quelques plaques sont encore en place dans le manteau neigeux, mais elles sont difficiles à solliciter. Déclenchement non exclu au passage d'un skieur, surtout dans les ubacs à partir de 2200 m, dans les zones où les épaisseurs de neige sont moins importantes (près des croupes, bords des couloirs etc.). Cassure épaisse en cas de départ, car les couches fragiles persistantes sont enfouies près du sol.\n* Un skieur peut favoriser un départ superficiel de neige humide, dans une pente raide ayant bien chauffé au soleil.\n\nDéparts spontanés : * Quelques avalanches de fond à toute heure du jour ou de la nuit, essentiellement au-dessus de 2000 m, de taille moyenne en général (taille 2). Départ plutôt dans les pentes ouest, sud à est avec terrain favorable (pentes herbeuses, dalles rocheuses).\n* Activité en neige humide selon la course du soleil, mais restant limitée. Avalanches généralement petites (taille 1).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est encore excédentaire ou se rapproche des normales avec le tassement.\nHauteurs de neige observées : 45 cm au hameau des Portes dans le Valgaudemar à 1270 m, 135 cm à la nivose d'Orcières à 2280 m, et 177 cm au-dessus de Prapic à 2480 m.\n\nLimite d'enneigement skiable à partir de 1200/1300 m en ubacs, 1500/1700 m en adrets pas trop raides.\n\n\nÉtat de la neige de surface : en versants ensoleillés, croute souvent modérément portante le matin en dessous de 2000/2200 m, puis reprise de l'humidification en surface au fil de la journée. En versants nord-est à nord-ouest au-dessus de 2200/2300 m, vieille poudreuse encore meuble, souvent plus durcie par le vent proche des crêtes et sommets.",
+      "text": "L'enneigement est encore excédentaire ou se rapproche des normales selon les secteurs. Les limites d'enneigement remontent dans les pentes bien exposées au soleil.\nHauteurs de neige observées : 44 cm au hameau des Portes dans le Valgaudemar à 1270 m, 135 cm à la nivose d'Orcières à 2280 m, et 176 cm au-dessus de Prapic à 2480 m.\n\nLimite d'enneigement skiable : vers 1300 m en ubacs, 1600/1700 m en adrets pas trop raides.\n\nÉtat de la neige de surface : en début de journée, manteau neigeux croûté dans les adrets, et en ubacs sous 2000/2200 m. Humidification superficielle en cours de journée au soleil. \nDans les pentes nord-ouest à nord-est au-dessus de 2200 m environ, neige encore froide, travaillée par les épisodes de vent passés, ou en vieille poudreuse meuble dans les secteurs abrités.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 55,
-          "S": 15
+          "N": 50,
+          "S": 10
         },
         {
           "alt_m": 2000,
-          "N": 165,
-          "S": 105
+          "N": 155,
+          "S": 95
         },
         {
           "alt_m": 2500,
-          "N": 205,
-          "S": 145
+          "N": 195,
+          "S": 135
         }
       ],
       "icon_key": "snowpack",

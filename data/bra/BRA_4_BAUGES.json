@@ -3,8 +3,8 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-03-06T16:00:00",
-    "valid_until": "2026-03-07T18:00:00",
+    "issued_at": "2026-03-07T16:00:00",
+    "valid_until": "2026-03-08T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-08",
+        "date": "2026-03-09",
         "label": "Indice de risque limité",
-        "comment": "Encore des problématiques de neige humide et avalanches de fond.",
+        "comment": "Lundi, ensoleillé avec peu de vent et un isotherme 0°C vers 2200 m.\n⇒ risque stationnaire, peu d’évolution sur le manteau neigeux.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-03",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-03-07",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-08",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "",
-      "text": "Départs spontanés :\n* Plaques de fond. En adrets en dessous de 2300 m et en versants NW en dessous 2000 m (pentes lisses, raides en herbe ou dalle) possibles à toute heure. Taille 2 (moyenne). Observables : avec ou sans gueule de baleine préalable.\n* Quelques petites avalanches de neige humide. Elle se produisent dans les adrets après quelques heures de soleil. Départ ponctuel, écoulement en forme de poire. Observables : escargots, enfoncement piéton important.\n* Chutes de corniches (volumineuse).\n\nDéclenchements provoqués :\n* Départs ponctuels de neige humide sous les skis, au fil de l'ensoleillement, majoritairement dans les pentes raides SE/S/SW. Taille 1 (petite).",
+      "title": "Manteau neigeux printanier",
+      "text": "Manteau neigeux printanier\n\nDéparts spontanés :\n* quelques plaques de fond, de jour comme de nuit, dans les pentes lisses et raides (zones herbeuses, dalles rocheuses). Présentes dans les versants sud et dans les versants nord sous 2000 m. Taille 2 (moyenne).\n* avalanches de neige humide, dans les versants ensoleillés (ouest, sud, est), très rares en début de matinée et plus nombreuses au fil de la course du soleil. Taille 1 à 2 (petite à moyenne).\nObservables : enfoncement piéton important, escargots. \n* Une chute de grosse corniche est possible. \n\nDéclenchements provoqués :\n* des avalanches de neige humide peuvent partir sous les skis aux heures les plus chaudes, dans les versants ensoleillés. Taille 1 (petite).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : bon pour la période. On peut chausser les skis vers 1200/1300 m en versants E/N/W et 1400/1700 m en S. Corniches volumineuses.\n\nQualité de la neige vendredi :\n* Légèrement saupoudrée de poussière de sable\n* Regel nocturne assez efficace. \n* Manteau neigeux très dense, la croute ramollit et s'humidifie suivant la course du soleil, en dessous de 2200/2300 m, voir 2500 m en S raide.\n* En N au-dessus de 2100/2300 m, neige froide, plutôt dure, rares endroits abrités du vent en vielle poudre.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis vers 1200/1300 m en nord, est et ouest et 1400/1700 m en sud.\nFaible dépôt de poussières désertiques en surface du manteau neigeux. \nGrosses corniches encore présentes.\n\nQualité de la neige ce dimanche : \n* Sous 1800 m, faible regel, neige rapidement lourde. \n* Au-dessus de 1800 m : en début de matinée, croûte de regel portante à ski. Au cours de la journée, le manteau neigeux s’humidifie en surface.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 90,
-          "S": 60
+          "N": 80,
+          "S": 50
         },
         {
           "alt_m": 2000,
-          "N": 150,
-          "S": 90
+          "N": 140,
+          "S": 80
         }
       ],
       "icon_key": "snowpack",
