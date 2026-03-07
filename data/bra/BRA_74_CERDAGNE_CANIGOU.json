@@ -3,37 +3,49 @@
   "massif": "Cerdagne Canigou",
   "bulletin": {
     "id": 74,
-    "issued_at": "2026-03-06T17:00:00",
-    "valid_until": "2026-03-07T18:00:00",
+    "issued_at": "2026-03-07T16:00:00",
+    "valid_until": "2026-03-08T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2200,
+        "split_axis": "horizontal",
+        "split_label": "2200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2200",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2200",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2200m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-03-08",
+        "date": "2026-03-09",
         "label": "Indice de risque marqué",
-        "comment": "Maintien probable d'un risque marqué en haute-montagne malgré un début de stabilisation",
+        "comment": "Stabilisation progressive du manteau neigeux en altitude",
         "trend": "steady"
       }
     },
@@ -78,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-03",
           "min_cm": 0,
           "max_cm": 0
@@ -104,24 +111,29 @@
         },
         {
           "date": "2026-03-07",
-          "min_cm": 3,
-          "max_cm": 5
+          "min_cm": 0,
+          "max_cm": 3
+        },
+        {
+          "date": "2026-03-08",
+          "min_cm": 0,
+          "max_cm": 7
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 5
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 10
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "Manteau neigeux instable du fait des cumuls de neige fraîche conséquents en altitude et d'un manteau profondément humidifié aux altitudes inférieures",
-      "text": "Manteau neigeux instable du fait des cumuls de neige fraîche conséquents en altitude et d'un manteau profondément humidifié aux altitudes inférieures\n\nCumuls de neige fraîche conséquents en haute-montagne avec plus d'un mètre sur l'ensemble de l'épisode vers le Canigou, un peu moins vers le Puigmal\n\nDéclenchements provoqués :  \nEn tous versants, mais surtout sous le vent d'Est à Sud-Est, au-dessus de 2200/2300m, des déclenchements d'avalanches sont possibles au passage d’un skieur. Les avalanches sont plutôt de taille moyenne ou grande vu les cumuls de neige fraîche disponibles, voire très grande du massif du Canigou au Roca Colom. En effet, des structures de plaques se sont formées pendant les chutes de neige et continuent de se former. Ces plaques sont difficilement détectables.\nEn tous versants sous 2200/2300m un skieur peut facilement provoquer des coulées de neige humide sous les skis dans la neige récente gorgée d'eau sans cohésion, pouvant provoquer la chute du skieur. Selon la configuration du terrain, un skieur peut se retrouver enseveli.\nObservables: en altitude quantités critiques de neige fraiche (30/50 cm et localement plus), fissures sous les skis, avalanche dans la neige récente en pente raide ; plus bas neige humide sans cohésion partant sous les skis\n\nDéparts spontanés : \n- Avalanches de neige humide attendues sous 2100 m, moyenne à grande, du fait d'une humidification toujours plus en profondeur notamment dans les pentes raides de secteur Nord-Est où les quantités de neige en place sont conséquentes.\n- Avalanches de neige sèche  possibles en altitude avec les averses par surcharge des plaques présentes dans la neige récente. Ces avalanches pourront alors emporter l’ensemble de la neige récente d'où de possibles grandes avalanches, parfois très grandes dans les secteurs d'accumulation de haute-montagne.",
+      "text": "Manteau neigeux instable du fait des cumuls de neige fraîche conséquents en altitude et d'un manteau profondément humidifié aux altitudes inférieures\n\nCumuls de neige fraîche conséquents en haute-montagne avec 50 cm à 1m sur l'ensemble de l'épisode vers le Canigou, un peu moins vers le Puigmal\n\nDéclenchements provoqués :  \n* En tous versants, mais surtout sous le vent d'est à sud-est au-dessus de 2200/2300m, des déclenchements d'avalanches sont possibles au passage d’un pratiquant. Les avalanches sont de taille moyenne à grande, selon l'épaisseur de neige fraîche. En effet, des structures de plaques se sont formées pendant les fortes chutes de neige de jeudi et vendredi qui se sont produites sous un vent d'est à sud-est. Ces plaques sont difficilement détectables.\n* Sous 2200/2300m un skieur peut facilement provoquer des coulées de neige humide sous les skis dans la neige récente gorgée d'eau sans cohésion, pouvant provoquer la chute du skieur. Selon la configuration du terrain, un skieur peut se retrouver enseveli.\nObservables: en altitude quantités critiques de neige fraiche (30/50 cm et localement plus), fissures sous les skis, observation alentours d'avalanche dans la neige récente en pente raide ; plus bas neige humide sans cohésion partant sous les skis\n\nDéparts spontanés : \nDu fait des éclaircies, des avalanches de neige humide de taille petite à moyenne sont à attendre sous 2200m dans les secteurs ensoleillés, voire un peu plus haut si les éclaircies se révèlent généreuses demain. De plus, des avalanches de fond en neige humide en dessous de 2000m sont susceptibles de se produire d'ici demain soir. Enfin, une chute de corniche reste une éventualité.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :  \nL'enneigement en altitude est largement supérieur à celui des cinq dernières années et se situe au plus haut par rapport aux statistiques plus anciennes. Malgré la douceur il est en général possible de chausser dès 1600m d'altitude. La limite skiable remonte toutefois dans les pentes ensoleillées. Le manteau neigeux atteint rapidement 1m d'épaisseur et dépasse encore les 2m au-dessus de 2200m avec localement en haute-montagne plus d'un mètre de neige fraîche notamment sur le massif du Canigou.\n\nQualité de la neige : \nNeige lourde et très humide en tous versants sous 2000/2200m, dense aux altitudes les plus basses. Plus haut, plutôt à partir de 2400 m, on trouvera une épaisse couche de neige fraîche.",
+      "text": "Enneigement :  \nL’enneigement est nettement excédentaire dès la moyenne montagne grâce à la succession de nombreuses perturbations neigeuses depuis le début de l'année, avec un nouvel apport jeudi et vendredi de l'ordre de 50 cm à 1m de neige fraîche en haute-montagne. Les vallons ombragés sont encore bien enneigés notamment en versant est et nord.\nMalgré la relative douceur, il est en général possible de chausser dès 1600m d'altitude. La limite skiable remonte toutefois dans les pentes ensoleillées. Le manteau neigeux atteint rapidement 1m d'épaisseur et dépasse encore les 2m au-dessus de 2200m avec localement en haute-montagne plus d'un mètre de neige fraîche notamment sur le massif du Canigou.\n\nQualité de la neige : \nAu petit matin, dès 1600/1800m, on pourra trouver une fine couche de neige aux quelques endroits où les averses de ce samedi se seront produites. Elle repose sur une couche de neige humidifiée en profondeur jusqu'à 2000/2200m en nord et encore plus haut en secteurs ensoleillés. Là où cette couche humidifiée est directement en surface, le regel est assez incertain, dépendant des éclaircies qui pourraient se produire en cours de nuit. Plus haut, on trouvera une couche de neige fraiche importante, notamment dans les secteurs à l'abri du vent d'est à sud-est.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -142,8 +154,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 240,
-          "S": 190
+          "N": 280,
+          "S": 220
         }
       ],
       "icon_key": "snowpack",
