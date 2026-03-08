@@ -3,8 +3,8 @@
   "massif": "Cerdagne Canigou",
   "bulletin": {
     "id": 74,
-    "issued_at": "2026-03-07T16:00:00",
-    "valid_until": "2026-03-08T18:00:00",
+    "issued_at": "2026-03-08T16:00:00",
+    "valid_until": "2026-03-09T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-03-09",
-        "label": "Indice de risque marqué",
-        "comment": "Stabilisation progressive du manteau neigeux en altitude",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-03-10",
+        "label": "Indice de risque limité",
+        "comment": "Baisse probable du risque avalancheux avec la stabilisation du manteau neigeux en altitude",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-04",
           "min_cm": 0,
           "max_cm": 0
@@ -112,34 +107,39 @@
         {
           "date": "2026-03-07",
           "min_cm": 0,
-          "max_cm": 3
+          "max_cm": 6
         },
         {
           "date": "2026-03-08",
           "min_cm": 0,
-          "max_cm": 7
+          "max_cm": 3
+        },
+        {
+          "date": "2026-03-09",
+          "min_cm": 0,
+          "max_cm": 2
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 10
+        "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "Manteau neigeux instable du fait des cumuls de neige fraîche conséquents en altitude et d'un manteau profondément humidifié aux altitudes inférieures",
-      "text": "Manteau neigeux instable du fait des cumuls de neige fraîche conséquents en altitude et d'un manteau profondément humidifié aux altitudes inférieures\n\nCumuls de neige fraîche conséquents en haute-montagne avec 50 cm à 1m sur l'ensemble de l'épisode vers le Canigou, un peu moins vers le Puigmal\n\nDéclenchements provoqués :  \n* En tous versants, mais surtout sous le vent d'est à sud-est au-dessus de 2200/2300m, des déclenchements d'avalanches sont possibles au passage d’un pratiquant. Les avalanches sont de taille moyenne à grande, selon l'épaisseur de neige fraîche. En effet, des structures de plaques se sont formées pendant les fortes chutes de neige de jeudi et vendredi qui se sont produites sous un vent d'est à sud-est. Ces plaques sont difficilement détectables.\n* Sous 2200/2300m un skieur peut facilement provoquer des coulées de neige humide sous les skis dans la neige récente gorgée d'eau sans cohésion, pouvant provoquer la chute du skieur. Selon la configuration du terrain, un skieur peut se retrouver enseveli.\nObservables: en altitude quantités critiques de neige fraiche (30/50 cm et localement plus), fissures sous les skis, observation alentours d'avalanche dans la neige récente en pente raide ; plus bas neige humide sans cohésion partant sous les skis\n\nDéparts spontanés : \nDu fait des éclaircies, des avalanches de neige humide de taille petite à moyenne sont à attendre sous 2200m dans les secteurs ensoleillés, voire un peu plus haut si les éclaircies se révèlent généreuses demain. De plus, des avalanches de fond en neige humide en dessous de 2000m sont susceptibles de se produire d'ici demain soir. Enfin, une chute de corniche reste une éventualité.",
+      "text": "Manteau neigeux instable du fait des cumuls de neige fraîche conséquents en altitude et d'un manteau profondément humidifié aux altitudes inférieures\n\nDéclenchements provoqués :  \n* En tous versants, mais surtout sous le vent d'est à sud-est au-dessus de 2200/2300m, des déclenchements d'avalanches sont encore possibles au passage d’un pratiquant. Les avalanches sont de taille moyenne à grande, selon l'épaisseur de neige fraîche. En effet, des structures de plaques se sont formées pendant les fortes chutes de neige de jeudi et vendredi qui se sont produites sous un vent d'est à sud-est. Ces plaques sont en cours de stabilisation. Elles sont difficilement détectables.\n* Sous 2200/2300m un skieur peut facilement provoquer des coulées de neige humide sous les skis dans la neige récente gorgée d'eau sans cohésion, pouvant provoquer la chute du skieur. Selon la configuration du terrain, un skieur peut se retrouver enseveli.\nObservables: en altitude quantités critiques de neige fraiche (30/50 cm et localement plus), fissures sous les skis, observation alentours d'avalanche dans la neige récente en pente raide ; plus bas neige humide sans cohésion partant sous les skis\n\nDéparts spontanés : \nDu fait des éclaircies, des avalanches de neige humide de taille petite à moyenne sont à attendre sous 2200m dans les secteurs ensoleillés, voire un peu plus haut si les éclaircies se révèlent généreuses demain. De plus, des avalanches de fond en neige humide en dessous de 2000m sont susceptibles de se produire d'ici demain soir. Enfin, une chute de corniche reste une éventualité.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :  \nL’enneigement est nettement excédentaire dès la moyenne montagne grâce à la succession de nombreuses perturbations neigeuses depuis le début de l'année, avec un nouvel apport jeudi et vendredi de l'ordre de 50 cm à 1m de neige fraîche en haute-montagne. Les vallons ombragés sont encore bien enneigés notamment en versant est et nord.\nMalgré la relative douceur, il est en général possible de chausser dès 1600m d'altitude. La limite skiable remonte toutefois dans les pentes ensoleillées. Le manteau neigeux atteint rapidement 1m d'épaisseur et dépasse encore les 2m au-dessus de 2200m avec localement en haute-montagne plus d'un mètre de neige fraîche notamment sur le massif du Canigou.\n\nQualité de la neige : \nAu petit matin, dès 1600/1800m, on pourra trouver une fine couche de neige aux quelques endroits où les averses de ce samedi se seront produites. Elle repose sur une couche de neige humidifiée en profondeur jusqu'à 2000/2200m en nord et encore plus haut en secteurs ensoleillés. Là où cette couche humidifiée est directement en surface, le regel est assez incertain, dépendant des éclaircies qui pourraient se produire en cours de nuit. Plus haut, on trouvera une couche de neige fraiche importante, notamment dans les secteurs à l'abri du vent d'est à sud-est.",
+      "text": "Enneigement :  \nL’enneigement est nettement excédentaire dès la moyenne montagne grâce à la succession de nombreuses perturbations neigeuses depuis le début de l'année, avec un nouvel apport jeudi et vendredi de l'ordre de 50 cm à 1m de neige fraîche en haute-montagne. Les vallons ombragés sont encore bien enneigés notamment en versant est et nord.\nMalgré la relative douceur, il est en général possible de chausser dès 1600/1800m d'altitude. La limite skiable remonte toutefois dans les pentes ensoleillées. Le manteau neigeux atteint rapidement 1m d'épaisseur et dépasse encore les 2m au-dessus de 2200m avec localement en haute-montagne plus d'un mètre de neige fraîche notamment sur le massif du Canigou.\n\nQualité de la neige : \nAu petit matin, dès 1600/1800m, on pourra trouver une fine couche de neige aux quelques endroits où les averses de ce dimanche se seront produites. Elle repose sur une couche de neige humidifiée en profondeur jusqu'à 2000/2200m en nord et encore plus haut en secteurs ensoleillés. Là où cette couche humidifiée est directement en surface, le regel devrait être assez bon à la faveur des éclaircies nocturnes. Plus haut, on trouvera une couche de neige fraiche importante, notamment dans les secteurs à l'abri du vent d'est à sud-est.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1500,
-        "south": 1600
+        "south": 1700
       },
       "levels_cm": [
         {
@@ -149,8 +149,8 @@
         },
         {
           "alt_m": 2000,
-          "N": 120,
-          "S": 65
+          "N": 115,
+          "S": 60
         },
         {
           "alt_m": 2500,

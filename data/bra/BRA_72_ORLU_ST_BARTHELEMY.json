@@ -3,61 +3,49 @@
   "massif": "Orlu St-Barthelemy",
   "bulletin": {
     "id": 72,
-    "issued_at": "2026-03-07T16:00:00",
-    "valid_until": "2026-03-08T18:00:00",
+    "issued_at": "2026-03-08T16:00:00",
+    "valid_until": "2026-03-09T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2200,
-        "split_axis": "horizontal",
-        "split_label": "2200m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2200",
-            "risk": 3,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2200m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "2",
             "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "3",
-            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-09",
+        "date": "2026-03-10",
         "label": "Indice de risque limité",
-        "comment": "Risque a priori à la baisse avec la stabilisation progressive du manteau neigeux en altitude",
-        "trend": "down"
+        "comment": "Même type de temps prévu mardi : peu d'évolution des conditions nivologiques donc à attendre.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -78,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": 5,
       "labels": {
-        "1": "Neige fraîche",
-        "4": "Neige humide"
+        "4": "Neige humide",
+        "5": "Avalanche de fond"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-04",
           "min_cm": 0,
@@ -111,29 +94,34 @@
         },
         {
           "date": "2026-03-07",
-          "min_cm": 0,
-          "max_cm": 3
+          "min_cm": 2,
+          "max_cm": 6
         },
         {
           "date": "2026-03-08",
           "min_cm": 0,
-          "max_cm": 4
+          "max_cm": 3
+        },
+        {
+          "date": "2026-03-09",
+          "min_cm": 0,
+          "max_cm": 2
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 7
+        "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "Manteau neigeux instable du fait des cumuls de neige fraîche conséquents en altitude côté Donezan et Orlu, et d'un manteau profondément humidifié aux altitudes inférieures",
-      "text": "Manteau neigeux instable du fait des cumuls de neige fraîche conséquents en altitude côté Donezan et Orlu, et d'un manteau profondément humidifié aux altitudes inférieures\n\nDéclenchements provoqués :  \nPeu probable sur le massif de Tabe. \nSecteur Orlu et Donezan : en tous versants, mais surtout sous le vent d'est à sud-est au-dessus de 2200/2300m, des déclenchements d'avalanches sont possibles au passage d’un pratiquant. Les avalanches sont de taille moyenne, voire grande en s'approchant des Pyrénées Orientales. En effet, des structures de plaques se sont formées pendant les chutes de neige marquées de jeudi et vendredi par vent d'est à sud-est. Ces plaques sont difficilement détectables.\nObservables: en altitude quantités critiques de neige fraiche (30/50 cm et localement plus), fissures sous les skis, observation alentours d'avalanche dans la neige récente en pente raide.\n\nDéparts spontanés : \nDu fait des éclaircies, des avalanches de neige humide de taille petite à moyenne sont à attendre sous 2200m dans les secteurs ensoleillés, voire un peu plus haut si les éclaircies se révèlent généreuses demain. De plus, des avalanches de fond en neige humide en dessous de 2000m, ainsi que leur signe précurseur que sont les gueules de baleine, ont été signalées et sont à nouveau susceptibles de se produire d'ici demain soir. Enfin, une chute de corniche reste une éventualité.",
+      "text": "Manteau neigeux instable du fait des cumuls de neige fraîche conséquents en altitude côté Donezan et Orlu, et d'un manteau profondément humidifié aux altitudes inférieures\n\nDéparts spontanés : \nDu fait des éclaircies, des avalanches de neige humide de taille petite à moyenne sont à attendre dans les secteurs ensoleillés. De plus, des avalanches de fond en neige humide en dessous de 2000m, ainsi que leur signe précurseur que sont les gueules de baleine, ont été signalées et sont à nouveau susceptibles de se produire d'ici demain soir. Enfin, une chute de corniche reste une éventualité.\n\nDéclenchements provoqués :  \n* Sur l'ensemble du massif, dans les secteurs restés froids au-dessus de 1800/2000m en matinée puis en tous secteurs l'après-midi, des avalanches de plaques facilement déclenchables sont possibles dans la couche de neige récente. Ces plaques ont pu se former au cours des averses qui se produisent parfois sous forme de neige roulée et accompagnées de rafales de vent. Ces déclenchements sont généralement de petite taille au vu de l'épaisseur le plus souvent modeste de ces plaques. On trouve aussi localement des couches fragiles plus enfouies dans les secteurs nord d'altitude, mais sont difficilement déclenchables.\n* De surcroît, dans les secteur Orlu et Donezan : en tous versants, mais surtout sous le vent d'est à sud-est au-dessus de 2200/2300m, les plaques qui se sont formées au cours des chutes de jeudi à vendredi devraient être presque toutes stabilisées. Cependant, dans de rares configurations particulières, il n'est pas exclu qu'elles puissent encore être sollicitations, un déclenchement d'avalanche alors de taille moyenne voire grande n'est pas impossible.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :  \nL’enneigement est encore excédentaire dès la moyenne montagne grâce aux perturbations neigeuses qui se sont succédé depuis le début de l'année.\nLa limite skiable se situe vers 1600m plein sud alors que certaines vallées ombragées sont encore enneigées dès 1300/1400m. Sur les parties hautes du massif, les pentes ouest ont souvent été rabotées par le vent.\n\nQualité de la neige : \nAu petit matin, dès 1600/1800m, on pourra trouver une fine couche de neige aux quelques endroits où les averses de ce samedi se seront produites. Elle repose sur une couche de neige humidifiée en profondeur jusqu'à 2000/2200m en nord et encore plus haut en secteurs ensoleillés. Là où cette couche humidifiée est directement en surface, le regel est assez incertain, dépendant des éclaircies qui pourraient se produire en cours de nuit. Plus haut, on trouvera une couche de neige fraîche de plus en plus conséquente en allant vers l'est du massif.",
+      "text": "Enneigement :  \nL’enneigement est encore excédentaire dès la moyenne montagne grâce aux perturbations neigeuses qui se sont succédé depuis le début de l'année, notamment dans le massif d'Orlu.\nLa limite skiable se situe vers 1700/1800m plein sud alors que certaines vallées ombragées sont encore enneigées dès 1300/1400m. Sur les parties hautes du massif, les pentes ouest ont souvent été rabotées par le vent.\n\nQualité de la neige : \nAu petit matin, dès 1600/1800m, on pourra trouver une fine couche de neige aux endroits où les averses de ce dimanche se seront produites. Elle repose sur une couche de neige humidifiée en profondeur jusqu'à 2000/2200m en nord et encore plus haut en secteurs ensoleillés. Là où cette couche humidifiée est directement en surface, le regel devrait être assez bon à la faveur des éclaircies nocturnes. Plus haut, on trouvera une petite couche de neige récente, fréquemment compacte sous 2500 m, plus froide en altitude et restant poudreuse dans les combes abritées de haute montagne.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,13 +132,13 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 35,
+          "N": 15,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 200,
-          "S": 140
+          "N": 195,
+          "S": 35
         },
         {
           "alt_m": 2500,
