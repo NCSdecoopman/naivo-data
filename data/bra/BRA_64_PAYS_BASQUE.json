@@ -3,8 +3,8 @@
   "massif": "Pays-Basque",
   "bulletin": {
     "id": 64,
-    "issued_at": "2026-03-07T16:00:00",
-    "valid_until": "2026-03-08T18:00:00",
+    "issued_at": "2026-03-08T16:00:00",
+    "valid_until": "2026-03-09T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-03-09",
-        "label": "Indice de risque limité",
-        "comment": "Même type de temps attendu mardi, le risque restera limité (activité naturelle essentiellement).",
-        "trend": "steady"
+        "max_level": 1,
+        "date": "2026-03-10",
+        "label": "Indice de risque faible",
+        "comment": "Cycle gel/dégel plus efficace dans la nuit de lundi à mardi, beau mardi matin, rares averses mardi après-midi : le niveau de risque devrait décroître.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-04",
           "min_cm": 0,
           "max_cm": 0
@@ -99,35 +94,40 @@
         },
         {
           "date": "2026-03-07",
-          "min_cm": 5,
-          "max_cm": 10
+          "min_cm": 10,
+          "max_cm": 15
         },
         {
           "date": "2026-03-08",
+          "min_cm": 7,
+          "max_cm": 15
+        },
+        {
+          "date": "2026-03-09",
           "min_cm": 3,
-          "max_cm": 7
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 8,
-        "last_48h_max_cm": 17
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 20
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "LEGEREMENT PLUS FRAIS, ASSEZ BEAU LE MATIN, AVERSES L'APRES-MIDI.",
-      "text": "LEGEREMENT PLUS FRAIS, ASSEZ BEAU LE MATIN, AVERSES L'APRES-MIDI.\n\nDéparts spontanés : en neige humide et souvent sous forme de départs ponctuels près des rochers de la vieille neige lourde en place, et de la neige récente tombée samedi au-dessus de 1900/2000m s'humidifiant rapidement sous les éclaircies de la matinée en pentes sud. Avalanches généralement de taille 1 à 2, très localement et plus rarement une avalanche de taille 3 possible avec le départ d'une avalanche de fond partant d'une accumulation présente en altitude, emportant la totalité du manteau neigeux humide et lourd encore en place en contrebas, notamment près des ruptures de pentes ou au niveau d'une fissure.\n\nDéclenchements provoqués : \n- déclenchement aisé pour un skieur ou randonneur d'une coulée ou petite avalanche (taille 1) en neige humide dans les pentes raides au soleil au-dessus de 1800/1900m en matinée; très localement et plutôt sur le haut du massif, avalanche de taille 2 possible au niveau d'une accumulation encore en place.\n- à tout moment de la journée dans les autres secteurs en dessous de 1800/1900m, sans regel ou timide et en surface d'un manteau en neige pourrie en profondeur, déclenchement facile à skis ou en raquettes d'une avalanche de taille 1 au vu de l'épaisseur du manteau neigeux encore en place.\n\nAutres : ponts de neige fragiles. Les corniches encore présentes sur le haut du massif le sont également en matinée sous les éclaircies.",
+      "title": "CONJUGAISON DE NEIGE HUMIDE ET DE NEIGE RECENTE.",
+      "text": "CONJUGAISON DE NEIGE HUMIDE ET DE NEIGE RECENTE.\n\nDéparts spontanés : \n- en neige récente : départs ponctuels près des rochers de coulées ou petites avalanches en pentes raides, en neige récente tombée ce dimanche et celle attendue lundi après-midi.\n- en neige humide et souvent sous forme de départs ponctuels près des rochers de la vieille neige lourde en place, et de la neige récente tombée dimanche s'humidifiant rapidement dans les pentes ensoleillées de la matinée. Avalanches généralement de taille 1 à 2.\nPlus rares et très localisée, une avalanche de taille 2 à 3 possible avec le départ d'une avalanche de fond partant d'une accumulation présente en altitude, emportant la totalité du manteau neigeux humide et lourd encore en place en contrebas, notamment près des ruptures de pentes ou au niveau d'une fissure.\n\nDéclenchements provoqués : déclenchement aisé pour un skieur ou randonneur de coulée ou petite avalanche :\n- de neige récente en pentes raides, plutôt versants ombragés en matinée, tous versants l'après-midi avec les nouvelles averses de neige, \n- de la neige récente s'alourdissant dans les pentes raides ensoleillées de la matinée.\nTrès localement et sur le haut du massif (secteur Pic d'Anie notamment), déclenchement possible d'une avalanche de taille 2 au niveau d'une accumulation encore en place (combe encore chargée par exemple).\n\nAutres : ponts de neige et corniches encore en place fragiles au soleil de la matinée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : faible sous 1600m, bon plus haut, mais hétérogène près des sommets, cols et crêtes, dégarnis en particulier en versants Ouest. Combes plus chargées et corniches encore en place.\nLimites skiables : à partir de 1500/1600m en versants froids.\nÉtat de la neige : quelques centimètres de neige fraîche, tombée sans vent, au-dessus de 1700/1800m au petit matin ce dimanche, s'humidifiant au soleil, restant en l'état à l'ombre. Quelques centimètres de neige fraîche se rajouteront progressivement l'après-midi, s'humidifiant par la base de cette nouvelle couche entre 1700 et 1900m, restant meuble au-dessus. Sous 1900m, la neige est pourrie en profondeur, mais légèrement ressaisie en surface au petit matin, restant en l'état à l'ombre, ramollissant au soleil.",
+      "text": "Enneigement : aspect hivernal ce lundi matin sur l'ensemble du massif, avec un saupoudrage dès 1400/1500m, plus épais au-dessus, mais restant hétérogène près des sommets, cols et crêtes, dégarnis en particulier en versants Ouest. Combes plus chargées et corniches encore en place.\nLimites skiables : à partir de 1500/1600m en versants froids, plutôt 1700m en versants Sud, mais sans sous-couche en dessous de 1800/1900m.\nÉtat de la neige : couche de neige fraîche au petit matin, tombée sans vent au-dessus de 1400/1500m ce dimanche, s'humidifiant au soleil, restant sèche et meuble à l'ombre.\nQuelques centimètres de neige fraîche, restant sèche et meuble, se rajouteront sous les averses de l'après-midi à partir de 1700m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1500,
-        "south": 1800
+        "south": 1700
       },
       "levels_cm": [
         {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 3,
+          "N": 10,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 155,
-          "S": 90
+          "N": 165,
+          "S": 105
         }
       ],
       "icon_key": "snowpack",

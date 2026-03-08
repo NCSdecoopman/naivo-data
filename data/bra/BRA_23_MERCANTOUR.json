@@ -3,8 +3,8 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-03-07T16:00:00",
-    "valid_until": "2026-03-08T18:00:00",
+    "issued_at": "2026-03-08T15:00:00",
+    "valid_until": "2026-03-09T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-03-09",
-        "label": "Indice de risque faible",
-        "comment": "Peu d'évolution de la situation nivologique. Risque faible.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-03-10",
+        "label": "Indice de risque limité",
+        "comment": "Risque en hausse avec les chutes de neige dans la nuit de lundi à mardi, qui donneront 10 à 20 centimètres au-dessus de 1500/1600 m.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-04",
           "min_cm": 0,
           "max_cm": 0
@@ -105,22 +100,27 @@
           "date": "2026-03-08",
           "min_cm": 0,
           "max_cm": 3
+        },
+        {
+          "date": "2026-03-09",
+          "min_cm": 10,
+          "max_cm": 20
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 3
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 23
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "MANTEAU NEIGEUX BIEN STABILISÉ",
-      "text": "MANTEAU NEIGEUX BIEN STABILISÉ\n\nDéclenchements provoqués : le manteau neigeux est bien stabilisé. Les instabilités se cantonnent à de très rares plaques épaisses reposant sur des couches fragiles persistantes enfouies en orientations nord-ouest, nord ou nord-est au-dessus de 2200 m, essentiellement en Haute-Tinée. Plaques très difficiles à déclencher. Des petits départs superficiels sont possibles sous les skis dans les pentes fortement humidifiées. \n\nDéparts spontanés : peu probables, sauf éventuellement une avalanche de glissement  en pentes d'un large secteur sud, en terrain favorable (pentes herbeuses, dalles rocheuses).",
+      "text": "MANTEAU NEIGEUX BIEN STABILISÉ\n\nDéclenchements provoqués : le manteau neigeux est bien stabilisé. Les instabilités se cantonnent à de très rares plaques épaisses reposant sur des couches fragiles persistantes enfouies en orientations nord-ouest, nord ou nord-est au-dessus de 2200 m, essentiellement en Haute-Tinée. Plaques très difficiles à déclencher. \n\nDéparts spontanés : peu probables, sauf éventuellement une avalanche de glissement  en pentes d'un large secteur sud, en terrain favorable (pentes herbeuses, dalles rocheuses).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement proche des normales pour un début mars.\nDonnées observées : 134 cm à la nivôse de Millefonts à 2430 m.\n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1800/1900 m en adrets peu pentus.\n\nÉtat de la neige en surface :  manteau neigeux printanier dense avec un regel médiocre le matin sous 1800/2000 m. Humidification superficielle en journée dans les pentes ensoleillées. On trouve encore localement de la neige froide en ubacs de haute altitude, souvent densifiée par le vent. Sur les crêtes, d'anciennes corniches épaisses côtoient des zones dégarnies par le vent.",
+      "text": "Enneigement proche des normales pour un début mars.\nDonnées observées : 132 cm à la nivôse de Millefonts à 2430 m.\n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1800/1900 m en adrets peu pentus.\n\nÉtat de la neige en surface :  manteau neigeux printanier dense avec un bon regel nocturne en général. Humidification superficielle en journée dans les pentes ensoleillées. On trouve encore localement de la neige froide en ubacs au-dessus de 2200/2300 m, parfois densifiée par le vent. Sur les crêtes, d'anciennes corniches épaisses côtoient des zones dégarnies par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -141,8 +141,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 170,
-          "S": 120
+          "N": 165,
+          "S": 115
         }
       ],
       "icon_key": "snowpack",

@@ -3,30 +3,30 @@
   "massif": "Queyras",
   "bulletin": {
     "id": 17,
-    "issued_at": "2026-03-07T16:00:00",
-    "valid_until": "2026-03-08T18:00:00",
+    "issued_at": "2026-03-08T16:00:00",
+    "valid_until": "2026-03-09T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 1600m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 1600,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "1600m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<1600",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
+            "loc": ">1600",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "1600m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-09",
+        "date": "2026-03-10",
         "label": "Indice de risque limité",
-        "comment": "Situation nivologique similaire. Maintien d'un risque limité, avec les mêmes problématiques.",
+        "comment": "- Quelques plaques dans la neige fraîche faciles à déclencher dans les ubacs d'altitude, mais de dimensions limitées.\n- La probabilité d'un départ \"en cascade\" suite à une première avalanche superficielle, et sollicitant la couche fragile persistante enfouie à la base du manteau neigeux, est en légère hausse.\n- Départs spontanés de neige fraîche s'humidifiant au soleil, avec le retour des éclaircies.",
         "trend": "steady"
       }
     },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 3,
-      "secondary": 5,
+      "primary": 5,
+      "secondary": 3,
       "labels": {
-        "3": "Couche fragile persistante",
-        "5": "Avalanche de fond"
+        "5": "Avalanche de fond",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-3"
+      "icon_key": "sat-5"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-04",
           "min_cm": 0,
@@ -118,22 +113,27 @@
           "date": "2026-03-08",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-09",
+          "min_cm": 5,
+          "max_cm": 10
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 10
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES INSTABILITÉS EN ALTITUDE, DIFFICILES À SOLLICITER - MAINTIEN D'UN PEU D'ACTIVITÉ EN AVALANCHES DE FOND / NEIGE HUMIDE",
-      "text": "QUELQUES INSTABILITÉS EN ALTITUDE, DIFFICILES À SOLLICITER - MAINTIEN D'UN PEU D'ACTIVITÉ EN AVALANCHES DE FOND / NEIGE HUMIDE\n\nDéclenchements provoqués : * Quelques plaques sont encore en place dans le manteau neigeux, mais elles sont difficiles à solliciter. Déclenchement non exclu au passage d'un skieur, surtout dans les ubacs à partir de 2200 m, dans les zones où les épaisseurs de neige sont moins importantes (près des croupes, bords des couloirs etc.). Cassure épaisse en cas de départ, car les couches fragiles persistantes sont enfouies près du sol.\n* Un skieur peut favoriser un départ superficiel de neige humide, dans une pente raide ayant bien chauffé au soleil.\n\nDéparts spontanés : * Quelques avalanches de fond à toute heure du jour ou de la nuit, essentiellement au-dessus de 2000 m, de taille moyenne en général (taille 2). Départ plutôt dans les pentes ouest, sud à est avec terrain favorable (pentes herbeuses, dalles rocheuses).\n* Activité en neige humide selon la course du soleil, mais restant limitée. Avalanches généralement petites (taille 1).",
+      "title": "MAINTIEN D'UN PEU D'ACTIVITÉ NATURELLE EN AVALANCHES DE FOND / NEIGE HUMIDE - QUELQUES INSTABILITÉS EN ALTITUDE, DIFFICILES À SOLLICITER",
+      "text": "MAINTIEN D'UN PEU D'ACTIVITÉ NATURELLE EN AVALANCHES DE FOND / NEIGE HUMIDE - QUELQUES INSTABILITÉS EN ALTITUDE, DIFFICILES À SOLLICITER\n\nDéparts spontanés : * Quelques avalanches de fond à toute heure du jour ou de la nuit, sur les secteurs avec un sol favorable (pentes herbeuses, dalles rocheuses). Départ en général sous 1800/2000 m en ubacs, sous 2400/2500 m en adrets. Avalanches souvent de taille moyenne (taille 2), avec un dépôt souvent épais.\n* Activité naturelle en neige humide selon la course du soleil, mais restant limitée. Avalanches généralement petites (taille 1).\n\nDéclenchements provoqués : * Quelques plaques reposant sur des couches fragiles persistantes sont encore en place dans le manteau neigeux, mais elles sont difficiles à solliciter. Déclenchement non exclu au passage d'un skieur, plutôt dans les ubacs au-dessus de 2200 m, dans les secteurs où les épaisseurs de neige sont moins importantes (près des croupes, bords des couloirs etc.). Cassure épaisse en cas de départ, emportant une grande partie du manteau neigeux.\n* Un skieur peut favoriser un départ superficiel de neige humide, dans une pente très raide ayant suffisamment chauffé au soleil.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales en ubacs, mais déficitaire en adrets. Les limites d'enneigement remontent dans les pentes bien exposées au soleil.\nHauteurs de neige observées : 150 cm en versant nord du col Izoard à 2300 m, 76 cm à Cervières à 1610 m, 89 cm à le Nivôse du Col Agnel à 2630 m, 50 cm à Ristolas à 1670 m. \n\nLimite d'enneigement skiable : 1400 m en ubacs, mais au mieux 1900/2000 m en adrets.\n\nÉtat de la neige de surface : en début de journée, manteau neigeux croûté dans les adrets, et en ubacs sous 2000/2200 m. Humidification superficielle en cours de journée au soleil. \nDans les pentes nord-ouest à nord-est au-dessus de 2200 m environ, neige encore froide, travaillée par les épisodes de vent passés, ou en vieille poudreuse meuble dans les secteurs abrités.",
+      "text": "L'enneigement est proche des normales en ubacs, mais déficitaire en adrets. Les limites d'enneigement remontent dans les pentes bien exposées au soleil.\nHauteurs de neige observées : 150 cm en versant nord du col Izoard à 2300 m, 73 cm à Cervières à 1610 m, 85 cm à le Nivôse du Col Agnel à 2630 m, 45 cm à Ristolas à 1670 m. \n\nLimite d'enneigement skiable : 1400 m en ubacs, mais au mieux 1900/2000 m en adrets.\n\nÉtat de la neige de surface : en début de journée, manteau neigeux croûté dans les adrets, ainsi qu'en ubacs sous 2000/2200 m. Humidification au soleil en cours de journée.\nDans les pentes nord-ouest à nord-est au-dessus de 2200 m environ, neige encore froide, travaillée par les épisodes de vent passés, ou en neige ancienne meuble dans les secteurs abrités.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -155,7 +155,7 @@
         {
           "alt_m": 2500,
           "N": 135,
-          "S": 60
+          "S": 55
         }
       ],
       "icon_key": "snowpack",
