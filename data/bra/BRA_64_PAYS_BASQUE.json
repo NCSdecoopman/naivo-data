@@ -146,11 +146,7 @@
           "S": 105
         }
       ],
-      "icon_key": "snowpack",
-      "image": {
-        "filename": "BRA_64_PAYS_BASQUE_montagne-enneigement.png",
-        "content_type": "image/png"
-      }
+      "icon_key": "snowpack"
     }
   }
 }
