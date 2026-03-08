@@ -1,0 +1,6 @@
+{
+  "code": "2",
+  "massif": "Aravis",
+  "error": "OAuth2 MF échec 500: {\"code\":\"101508\",\"type\":\"Status report\",\"message\":\"Runtime Error\",\"description\":\"Error in Sender\"}",
+  "ts_utc": "2026-03-08T13:40:28.842754+00:00"
+}
