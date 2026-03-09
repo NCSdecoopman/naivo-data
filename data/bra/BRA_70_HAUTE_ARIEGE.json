@@ -3,37 +3,49 @@
   "massif": "Haute-Ariege",
   "bulletin": {
     "id": 70,
-    "issued_at": "2026-03-08T16:00:00",
-    "valid_until": "2026-03-09T18:00:00",
+    "issued_at": "2026-03-09T16:00:00",
+    "valid_until": "2026-03-10T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
+            "risk": 1,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
+          },
+          "top": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-10",
+        "date": "2026-03-11",
         "label": "Indice de risque limité",
-        "comment": "Même type de temps prévu mardi : peu d'évolution des conditions nivologiques donc à attendre.",
+        "comment": "Peu d'évolution nivologique avant une perturbation attendue mercredi soir.",
         "trend": "steady"
       }
     },
@@ -66,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": 5,
+      "primary": 5,
+      "secondary": 4,
       "labels": {
-        "4": "Neige humide",
-        "5": "Avalanche de fond"
+        "5": "Avalanche de fond",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-5"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-04",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-05",
           "min_cm": 0,
@@ -100,28 +107,33 @@
         {
           "date": "2026-03-08",
           "min_cm": 0,
-          "max_cm": 3
+          "max_cm": 2
         },
         {
           "date": "2026-03-09",
+          "min_cm": 0,
+          "max_cm": 1
+        },
+        {
+          "date": "2026-03-10",
           "min_cm": 0,
           "max_cm": 2
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 5
+        "last_48h_max_cm": 3
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Poursuite de l'humidification en secteurs ensoleillés; possibles nouvelles fines structures de plaques en altitude",
-      "text": "Poursuite de l'humidification en secteurs ensoleillés; possibles nouvelles fines structures de plaques en altitude\n\nDéparts spontanés : \nDu fait des éclaircies, des avalanches de neige humide de taille petite à moyenne sont à attendre dans les secteurs ensoleillés. De plus, des avalanches de fond en neige humide en dessous de 2000m, ainsi que leur signe précurseur que sont les gueules de baleine, ont été signalées et sont à nouveau susceptibles de se produire d'ici demain soir. Enfin, une chute de corniche reste une éventualité.\n\nDéclenchements provoqués :  \nDans les secteurs restés froids au-dessus de 1800/2000m en matinée puis en tous secteurs l'après-midi, des avalanches de plaques facilement déclenchables sont possibles dans la couche de neige récente. Ces plaques ont pu se former au cours des averses qui se produisent parfois sous forme de neige roulée et accompagnées de rafales de vent. Ces déclenchements sont généralement de petite taille au vu de l'épaisseur le plus souvent modeste de ces plaques. On trouve aussi localement des couches fragiles plus enfouies dans les secteurs nord d'altitude, mais sont difficilement déclenchables.\nObservables : neige travaillée par le vent en surface, corniches surplombant la pente.",
+      "title": "Activité en neige humide avec d'éventuelles épaisses avalanches de fond emportant tout le manteau neigeux",
+      "text": "Activité en neige humide avec d'éventuelles épaisses avalanches de fond emportant tout le manteau neigeux\n\nDéparts spontanés : \nAvalanches de fond, sur les pentes raides favorables (pentes herbeuses ou dalles rocheuses) possibles en toutes orientations, et jusqu'à 2400/2500 m sur les versants ensoleillés. Cassures souvent plus épaisses et conséquentes au-dessus de 2000m avec actuellement de nombreuses fissures ou gueules de baleines, signes précurseurs de telles avalanches, fréquemment observables dans les pentes concernées. \nActivité en neige humide également avec des avalanches de taille souvent petites au fil de la journée dans les pentes raides des secteurs ensoleillés. \n\nDéclenchements provoqués :  \nAvalanches de plaques possibles peu épaisses dans les secteurs restés froids au-dessus de 2000/2200 m dans la neige récente avec les fréquentes averses des derniers jours. Ces déclenchements sont généralement de petite taille au vu des faibles cumuls de neige. Des plaques plus épaisses peuvent encore être présentes localement en nord d'altitude,  elles sont désormais déclenchables seulement par forte surcharge mais pourraient donner des avalanches de plus grande taille.\nSinon, une personne pourra toujours favoriser des départs superficiels en neige humide en traversant une pente raide déjà bien transformée. \n\nAutre : Des ruptures de corniches parfois larges et épaisses sont toujours possibles à proximité des crêtes et sommets, même à basse altitude.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :  \nL’enneigement est encore excédentaire dès la moyenne montagne grâce aux perturbations neigeuses qui se sont succédé depuis le début de l'année.\nLa limite skiable se situe vers 1700/1800m plein sud alors que certaines vallées ombragées sont encore enneigées dès 1400m. Sur les parties hautes du massif, les pentes ouest ont souvent été rabotées par le vent.\n\nQualité de la neige : \nAu petit matin, dès 1600/1800m, on pourra trouver une fine couche de neige aux endroits où les averses de ce dimanche se seront produites. Elle repose sur une couche de neige humidifiée en profondeur jusqu'à 2000/2200m en nord et encore plus haut en secteurs ensoleillés. Là où cette couche humidifiée est directement en surface, le regel devrait être assez bon à la faveur des éclaircies nocturnes. Plus haut, on trouvera une petite couche de neige récente, fréquemment compacte sous 2500 m, plus froide en altitude et restant poudreuse dans les combes abritées de haute montagne.",
+      "text": "Enneigement :  \nL’enneigement est excédentaire dès la moyenne montagne grâce aux perturbations neigeuses qui se sont succédé depuis le début de l'année. On peut souvent chausser les skis entre 1500 et 1600 mdans les secteurs orientés sud alors que certaines vallées bien ombragées sont encore enneigées dès 1400 m. On trouve ensuite des quantités de neige plus conséquentes à partir de 1800 m en toutes orientations.\n\nQualité de la neige : \nMardi matin, on devrait trouver un manteau bien regelé en surface après une nuit claire. Dès 1700/1900m, on pourra également trouver une fine couche de neige fraiche des averses récentes. En journée, la neige s'humidifie assez vite dès le matin dans les versants prenant le soleil puis poursuit son humidification en journée dans les nuages. Plus haut en altitude, on trouvera une neige fréquemment dense et compacte sous 2500 m avec quelques secteurs restant poudreux dans les combes abritées de haute montagne.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

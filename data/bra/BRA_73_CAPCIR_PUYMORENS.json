@@ -3,61 +3,49 @@
   "massif": "Capcir Puymorens",
   "bulletin": {
     "id": 73,
-    "issued_at": "2026-03-08T16:00:00",
-    "valid_until": "2026-03-09T18:00:00",
+    "issued_at": "2026-03-09T16:00:00",
+    "valid_until": "2026-03-10T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2200,
-        "split_axis": "horizontal",
-        "split_label": "2200m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2200",
-            "risk": 3,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2200m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "2",
             "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "3",
-            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-10",
+        "date": "2026-03-11",
         "label": "Indice de risque limité",
-        "comment": "Baisse probable du risque avalancheux avec la stabilisation du manteau neigeux en altitude",
-        "trend": "down"
+        "comment": "Peu d'évolution nivologiques en journée de mercredi avant une perturbation qui devrait nous concerner mercredi soir",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -78,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": 5,
       "labels": {
-        "1": "Neige fraîche",
-        "4": "Neige humide"
+        "4": "Neige humide",
+        "5": "Avalanche de fond"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-04",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-05",
           "min_cm": 0,
@@ -117,23 +100,28 @@
         {
           "date": "2026-03-09",
           "min_cm": 0,
-          "max_cm": 2
+          "max_cm": 1
+        },
+        {
+          "date": "2026-03-10",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 5
+        "last_48h_max_cm": 2
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux instable du fait des cumuls de neige fraîche conséquents en altitude et d'un manteau profondément humidifié aux altitudes inférieures",
-      "text": "Manteau neigeux instable du fait des cumuls de neige fraîche conséquents en altitude et d'un manteau profondément humidifié aux altitudes inférieures\n\nDéclenchements provoqués :  \n* En tous versants, mais surtout sous le vent d'est à sud-est au-dessus de 2200/2300m, des déclenchements d'avalanches sont encore possibles au passage d’un pratiquant. Les avalanches sont de taille moyenne à grande, selon l'épaisseur de neige fraîche. En effet, des structures de plaques se sont formées pendant les fortes chutes de neige de jeudi et vendredi qui se sont produites sous un vent d'est à sud-est. Ces plaques sont en cours de stabilisation. Elles sont difficilement détectables.\n* Sous 2200/2300m un skieur peut facilement provoquer des coulées de neige humide sous les skis dans la neige récente gorgée d'eau sans cohésion, pouvant provoquer la chute du skieur. Selon la configuration du terrain, un skieur peut se retrouver enseveli.\nObservables: en altitude quantités critiques de neige fraiche (30/50 cm et localement plus), fissures sous les skis, observation alentours d'avalanche dans la neige récente en pente raide ; plus bas neige humide sans cohésion partant sous les skis\n\nDéparts spontanés : \nDu fait des éclaircies, des avalanches de neige humide de taille petite à moyenne sont à attendre sous 2200m dans les secteurs ensoleillés, voire un peu plus haut si les éclaircies se révèlent généreuses demain. De plus, des avalanches de fond en neige humide en dessous de 2000m sont susceptibles de se produire d'ici demain soir. Enfin, une chute de corniche reste une éventualité.",
+      "title": "Stabilisation des récentes chutes de neige en altitude; humidification en journée au soleil",
+      "text": "Stabilisation des récentes chutes de neige en altitude; humidification en journée au soleil\n\nDéparts spontanés : \nAvalanches de fond, sur les pentes raides favorables (pentes herbeuses ou dalles rocheuses) possibles en toutes orientations, et jusqu'à 2400/2500 m sur les versants ensoleillés. Cassures souvent plus épaisses et conséquentes au-dessus de 20000 à 2200m avec actuellement de nombreuses fissures ou gueules de baleines, signes précurseurs de telles avalanches, observables dans les pentes concernées. \nActivité en neige humide également avec des avalanches petites à moyennes au fil de la journée dans les pentes raides des secteurs ensoleillés.\n\nDéclenchements provoqués :  \nLes structures de plaques formées lors des dernières chutes de neige sont désormais difficilement déclenchables. Les plaques formées en fin de semaine dernière devraient maintenant être bien stabilisées mais dans de rares configurations, il n'est pas exclu qu'elles puissent encore être sollicitées, avec une avalanche de taille moyenne, voire grande. \nSinon, une personne pourra toujours favoriser des départs superficiels en neige humide en traversant une pente raide déjà bien humidifiée avec le risque d'être déséquilibré. \n\nAutre: Des chutes de corniches, parfois larges et épaisses, sont encore possibles et peuvent être à l'origine de départs d'avalanches.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :  \nL’enneigement est excédentaire dès la moyenne montagne après les nombreuses perturbations neigeuses depuis le début de l'année, avec un nouvel apport jeudi et vendredi sur l'est du massif de l'ordre de 50 cm à 1m de neige fraîche en haute-montagne. Les vallons ombragés sont encore bien enneigés notamment en versant est et nord.\nLa limite skiable remonte autour de 1600/1700m. À haute altitude, les pentes ouest ont souvent été rabotées par le vent.\n\nQualité de la neige : \nAu petit matin, dès 1600/1800m, on pourra trouver une fine couche de neige aux quelques endroits où les averses de ce dimanche se seront produites. Elle repose sur une couche de neige humidifiée en profondeur jusqu'à 2000/2200m en nord et encore plus haut en secteurs ensoleillés. Là où cette couche humidifiée est directement en surface, le regel devrait être assez bon à la faveur des éclaircies nocturnes. Plus haut, on trouvera une couche de neige fraiche conséquente en allant vers l'est du massif, notamment dans les secteurs à l'abri du vent d'est à sud-est.",
+      "text": "Enneigement :  \nL’enneigement est nettement excédentaire dès la moyenne montagne grâce à la succession de nombreuses perturbations neigeuses depuis le début de l'année, avec un nouvel apport conséquent et récent, de 50 cm à 1m, en haute-montagne. Les vallons ombragés sont encore bien enneigés notamment en versant est et nord.\nIl est en général possible de chausser dès 1600/1800m d'altitude. La limite skiable remonte toutefois dans les pentes ensoleillées.\n\nQualité de la neige : \nMardi matin, on trouvera le plus souvent un manteau neigeux bien regelé, sauf dans les zones forestières où le regel peu être moins efficace. On pourra trouver localement dès 1700/1800m une fine couche de neige aux endroits concernés par les averses de ce lundi après-midi. En journée, la neige est à nouveau humidifiée au soleil, avec une humidification en profondeur sous 2000/2200 m et de la neige collante et lourde. Plus haut, on trouvera une couche de neige récente importante, notamment dans les secteurs à l'abri du vent d'est à sud-est, pouvant encore être poudreuse dans les combes ombragées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

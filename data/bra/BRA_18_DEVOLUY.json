@@ -3,30 +3,30 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-03-08T16:00:00",
-    "valid_until": "2026-03-09T18:00:00",
+    "issued_at": "2026-03-09T16:00:00",
+    "valid_until": "2026-03-10T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 1600m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 1600,
+        "threshold_m": 2000,
         "split_axis": "horizontal",
-        "split_label": "1600m",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1600",
+            "loc": "<2000",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">1600",
+            "loc": ">2000",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "1600m"
+          "label": "2000m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-10",
+        "date": "2026-03-11",
         "label": "Indice de risque limité",
-        "comment": "- Quelques plaques dans la neige fraîche faciles à déclencher dans les ubacs d'altitude, mais de dimensions limitées.\n- Départs spontanés de neige fraîche s'humidifiant au soleil, avec le retour des éclaircies.",
+        "comment": "Maintien d'un risque limité. Retour à un temps calme en journée de mercredi avant de nouvelles chutes de neige dans la nuit de mercredi à jeudi.",
         "trend": "steady"
       }
     },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 5,
+      "primary": 2,
       "secondary": 4,
       "labels": {
-        "5": "Avalanche de fond",
+        "2": "Neige ventée",
         "4": "Neige humide"
       },
-      "icon_key": "sat-5"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-04",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-05",
           "min_cm": 0,
@@ -116,24 +111,29 @@
         },
         {
           "date": "2026-03-09",
-          "min_cm": 10,
-          "max_cm": 15
+          "min_cm": 1,
+          "max_cm": 5
+        },
+        {
+          "date": "2026-03-10",
+          "min_cm": 1,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 10,
-        "last_48h_max_cm": 15
+        "last_48h_min_cm": 2,
+        "last_48h_max_cm": 10
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MAINTIEN D'UN PEU D'ACTIVITÉ NATURELLE EN AVALANCHES DE FOND / NEIGE HUMIDE - RARES INSTABILITÉS EN ALTITUDE, DIFFICILES À SOLLICITER",
-      "text": "MAINTIEN D'UN PEU D'ACTIVITÉ NATURELLE EN AVALANCHES DE FOND / NEIGE HUMIDE - RARES INSTABILITÉS EN ALTITUDE, DIFFICILES À SOLLICITER\n\nDéparts spontanés : * Quelques avalanches de fond à toute heure du jour ou de la nuit, sur les secteurs avec un sol favorable (pentes herbeuses, dalles rocheuses). Départ en général sous 1800/2000 m en ubacs, sous 2400/2500 m en adrets. Avalanches souvent de taille moyenne (taille 2), avec un dépôt souvent épais.\n* Activité naturelle en neige humide selon la course du soleil, mais restant limitée. Avalanches généralement petites (taille 1).\n\nDéclenchements provoqués : * Très rares plaques résiduelles dans les ubacs au-dessus de 2200 m, difficiles à déclencher. Départ non exclu dans les zones d'enneigement moins important (près des croupes, bords des couloirs etc.).\n* Un skieur peut favoriser un départ superficiel de neige humide, dans une pente très raide ayant bien chauffé au soleil.",
+      "title": "NOUVELLES PLAQUES SUPERFICIELLES EN FORMATION",
+      "text": "NOUVELLES PLAQUES SUPERFICIELLES EN FORMATION \n\nDéparts spontanés : - Quelques avalanches de neige récente lors des averses de neige ou éclaircies en journée de mardi. Elles se produisent en pentes raides à proximité des rochers et sont de petite taille uniquement (taille 1). \n- Quelques avalanches de fond à toute heure du jour ou de la nuit, sur les secteurs avec un sol favorable (pentes herbeuses, dalles rocheuses). Départ en général sous 1800/2000 m en ubacs, sous 2400/2500 m en adrets. Avalanches souvent de taille moyenne (taille 2), avec un dépôt souvent épais.\n\nDéclenchements provoqués : - Quelques plaques en formation dans la neige fraîche lors des faibles chutes de neige. Elles sont souvent difficiles à identifier, car d'aspect poudreux. Elles peuvent être faciles à déclencher puisqu'elles reposent parfois sur de la neige sans cohésion notamment en ubacs au-dessus de 2000/2200 m environ. Elles engendrent des avalanches de petite taille uniquement (taille 1). Des départs plus volumineux sont possibles en cas de sollicitation d'une couche fragile plus profondément enfouie. Avalanches de taille moyenne dans ce cas (taille 2).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est encore excédentaire ou se rapproche des normales selon les secteurs. Les limites d'enneigement remontent dans les pentes bien exposées au soleil.\n\nLimite d'enneigement skiable : vers 1300 m en ubacs, 1500/1600 m en adrets pas trop raides.\n\nÉtat de la neige de surface : en début de journée, manteau neigeux croûté dans les adrets, ainsi qu'en ubacs sous 2000/2200 m. Humidification au soleil en cours de journée.\nDans les pentes nord-ouest à nord-est au-dessus de 2200 m environ, neige encore froide, travaillée par les épisodes de vent passés, ou en neige ancienne meuble dans les secteurs abrités.",
+      "text": "L'enneigement est encore excédentaire ou se rapproche des normales selon les secteurs. Les limites d'enneigement remontent dans les pentes bien exposées au soleil.\n\nLimite d'enneigement skiable : vers 1300 m en ubacs, 1500/1600 m en adrets pas trop raides.\n\nÉtat de la neige de surface : mardi matin, quelques cm de neige fraîche se sont déposés au cours des faibles chutes de neige dans la nuit. De nouvelles averses apportent quelques cm en cours de journée. Cette neige repose sur un manteau neigeux croûté dans les adrets, ainsi qu'en ubacs sous 2000/2200 m. Dans les pentes nord-ouest à nord-est au-dessus de 2200 m environ, neige encore froide, travaillée par les épisodes de vent passés, ou en neige ancienne meuble dans les secteurs abrités.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,17 +144,17 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 55,
+          "N": 50,
           "S": 15
         },
         {
           "alt_m": 2000,
-          "N": 155,
+          "N": 150,
           "S": 95
         },
         {
           "alt_m": 2500,
-          "N": 195,
+          "N": 190,
           "S": 135
         }
       ],
