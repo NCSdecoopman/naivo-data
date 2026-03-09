@@ -1,0 +1,6 @@
+{
+  "code": "69",
+  "massif": "Couserans",
+  "error": "HTTPSConnectionPool(host='public-api.meteofrance.fr', port=443): Max retries exceeded with url: /public/DPBRA/v1/massif/BRA?id-massif=69&format=xml (Caused by NewConnectionError(\"HTTPSConnection(host='public-api.meteofrance.fr', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "ts_utc": "2026-03-09T11:37:15.160144+00:00"
+}

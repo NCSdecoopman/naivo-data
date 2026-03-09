@@ -146,11 +146,7 @@
           "S": 130
         }
       ],
-      "icon_key": "snowpack",
-      "image": {
-        "filename": "BRA_1_CHABLAIS_montagne-enneigement.png",
-        "content_type": "image/png"
-      }
+      "icon_key": "snowpack"
     }
   }
 }
