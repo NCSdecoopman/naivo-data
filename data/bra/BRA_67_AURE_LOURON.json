@@ -59,7 +59,11 @@
         "W": true,
         "NW": true
       },
-      "icon_key": "rose-aspects"
+      "icon_key": "rose-aspects",
+      "image": {
+        "filename": "BRA_67_AURE_LOURON_rose-pentes.png",
+        "content_type": "image/png"
+      }
     },
     "sat": {
       "primary": 4,
