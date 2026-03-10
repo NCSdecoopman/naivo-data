@@ -3,8 +3,8 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-03-09T16:00:00",
-    "valid_until": "2026-03-10T18:00:00",
+    "issued_at": "2026-03-10T16:00:00",
+    "valid_until": "2026-03-11T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-11",
+        "date": "2026-03-12",
         "label": "Indice de risque limité",
-        "comment": "Plutôt beau en première partie de journée avant le retour progressif des nuages en journée. Risque stationnaire.",
+        "comment": "Risque en hausse. 10/15 cm de neige fraiche dans la nuit de mercredi à jeudi.",
         "trend": "steady"
       }
     },
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -89,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-05",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-06",
           "min_cm": 0,
@@ -117,23 +112,28 @@
         {
           "date": "2026-03-10",
           "min_cm": 0,
-          "max_cm": 3
+          "max_cm": 1
+        },
+        {
+          "date": "2026-03-11",
+          "min_cm": 10,
+          "max_cm": 15
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 3
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 16
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "Manteau neigeux stable à basse altitude, encore de rares instabilités en altitude.",
-      "text": "Manteau neigeux stable à basse altitude, encore de rares instabilités en altitude.\n\nDéparts spontanés :\n* quelques plaques de fond, de jour comme de nuit, dans les pentes lisses et raides (zones herbeuses, dalles rocheuses). Présentes dans les versants sud sous 2300 m et dans les versants nord sous 2000 m. Taille 2 (moyenne).\n* Une chute de grosse corniche est possible pouvant déclencher une plaque en contrebas. \n\nDéclenchements provoqués :\n* rares plaques dures sur sous-couche fragile persistante enfouie, au-dessus de 2200 m. Difficile à déclencher. Départ possible par chutes de corniches, séracs ou avalanches en cascade. Taille 2 (moyenne) et rarement 3 (grande) avec d’épaisses cassures.",
+      "text": "Manteau neigeux stable à basse altitude, encore de rares instabilités en altitude.\n\nDéparts spontanés :\n* Rares plaques de fond, de jour comme de nuit, dans les pentes lisses et raides (zones herbeuses, dalles rocheuses). Présentes dans les versants sud sous 2300 m et dans les versants nord sous 2000 m. Taille 2 (moyenne).\n* Une chute de grosse corniche est possible pouvant déclencher une plaque en contrebas. \n\nDéclenchements provoqués :\n* Rares plaques dures sur sous-couche fragile persistante enfouie, au-dessus de 2200 m. Difficile à déclencher. Départ possible par chutes de corniches, séracs ou avalanches en cascade. Taille 2 (moyenne) et rarement 3 (grande) avec d’épaisses cassures.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis vers 1200/1300 m en nord, est et ouest et 1400/1700 m en sud.\nGrosses corniches encore présentes.\nFaible dépôt de poussières désertiques en surface du manteau neigeux. \n\nQualité de la neige mardi : \n* En dessous de 3000 m : dans les versants sud et sous 2100/2200 m en versant nord : neige regelée. La neige s'humidifie légèrement au soleil en surface le matin.\n* Au-dessus de 2100/2200 m en nord, nord-est, nord-ouest et 3000 m dans les autres versants : neige froide, dense et dure. Dans de rares zones abritées du vent, il reste un peu de vieille poudreuse.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis vers 1200/1300 m en nord, est et ouest et 1400/1700 m en sud.\nGrosses corniches encore présentes.\nFaible dépôt de poussières désertiques en surface du manteau neigeux. \n\nQualité de la neige mercredi : \n* En dessous de 2100/2200 m : neige regelée. Dans les versants Sud et Est, la neige s'humidifie légèrement au soleil en surface le matin.\n* Au-dessus de 2100/2200 m en Nord, Nord-Est, Nord-Ouest : neige froide, dense et dure. Dans de rares zones abritées du vent, il reste un peu de vieille poudreuse. Localement une fine pellicule de neige fraiche de 1 à 3 cm recouvre ce manteau neigeux.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

@@ -3,8 +3,8 @@
   "massif": "Cerdagne Canigou",
   "bulletin": {
     "id": 74,
-    "issued_at": "2026-03-09T16:00:00",
-    "valid_until": "2026-03-10T18:00:00",
+    "issued_at": "2026-03-10T17:00:00",
+    "valid_until": "2026-03-11T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-11",
+        "date": "2026-03-12",
         "label": "Indice de risque limité",
-        "comment": "Peu d'évolution nivologiques avant une perturbation qui devrait nous concerner mercredi soir et jeudi.",
+        "comment": "Maintien du risque du fait de nouvelles structures de plaques en altitude, et des avalanches en neige humide au soleil et aux altitudes basses",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-05",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-06",
           "min_cm": 0,
           "max_cm": 0
@@ -105,23 +100,28 @@
         {
           "date": "2026-03-10",
           "min_cm": 0,
-          "max_cm": 3
+          "max_cm": 0
+        },
+        {
+          "date": "2026-03-11",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 7
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Stabilisation des récentes chutes de neige en altitude; humidification en journée au soleil",
-      "text": "Stabilisation des récentes chutes de neige en altitude; humidification en journée au soleil\n\nDéparts spontanés : \nAvec l'ensoleillement et les quantités importantes de neige récentes, des avalanches de neige humide de taille petite à moyenne, voire grande sont à attendre, jusqu'à 2400/2500 m dans les secteurs ensoleillés avec les éclaircies du matin. Les départs pourront parfois se faire jusqu'au sol avec une avalanche de fond entrainant alors tout le manteau neigeux. \nDéclenchements provoqués :  \nLes structures de plaques formées lors des dernières chutes de neige sont désormais difficilement déclenchables. Les plaques formées en fin de semaine dernière devraient maintenant être bien stabilisées mais dans de rares configurations, il n'est pas exclu qu'elles puissent encore être sollicitées, avec une avalanche de taille moyenne, voire grande. \nSinon, une personne pourra toujours favoriser des départs superficiels en neige humide en traversant une pente raide déjà bien humidifiée avec alors le risque d'être déséquilibré. \nAutre: Des chutes de corniches, parfois larges et épaisses, ont encore été reportées récemment et peuvent être à l'origine de départs d'avalanches.",
+      "title": "Avalanches de neige humide, plaques en altitude",
+      "text": "Avalanches de neige humide, plaques en altitude\n\nDéparts spontanés : \nAvec l'ensoleillement et les quantités importantes de neige récente, des avalanches de neige humide avec cassure linéaire, parfois jusqu'au sol, de taille moyenne voire grande sont à attendre jusqu'à 2400/2500m dans les secteurs ensoleillés. L'ouverture de fissures est un signe précurseur d'avalanche pouvant partir jusqu'au sol (avalanche de fonds), à surveiller y compris dans les secteurs pas ou peu ensoleillés.\nDes coulées en neige humide avec départs ponctuels sont également à attendre au fil de la journée dans les pentes raides des secteurs ensoleillés.\n\nDéclenchements provoqués :  \nLes plaques formées en fin de semaine dernière devraient maintenant être bien stabilisées mais dans de rares configurations, il n'est pas exclu qu'elles puissent encore être sollicitées, avec une avalanche de taille moyenne, voire grande. \nSuite aux averses de lundi à mercredi compris des avalanches de plaques sont possibles dans les secteurs restés froids au-dessus de 2000/2200m. Ces plaques sont généralement assez fines au vu des faibles cumuls de neige mais leur déclenchement est parfois possible même par faible surcharge.\nEnfin, une personne pourra toujours favoriser des départs superficiels en neige humide en traversant une pente raide déjà bien humidifiée avec alors le risque d'être déséquilibré. \n\nAutre: Des chutes de corniches, parfois larges et épaisses, ont encore été reportées récemment et peuvent être à l'origine de départs d'avalanches.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :  \nL’enneigement est nettement excédentaire dès la moyenne montagne grâce à la succession de nombreuses perturbations neigeuses depuis le début de l'année, avec un nouvel apport conséquent et récent, de 50 cm à 1m, en haute-montagne. Les vallons ombragés sont encore bien enneigés notamment en versant est et nord.\nIl est en général possible de chausser dès 1600/1800m d'altitude. La limite skiable remonte toutefois dans les pentes ensoleillées. Le manteau neigeux atteint rapidement 1m d'épaisseur et dépasse encore les 2m au-dessus de 2200m. \n\nQualité de la neige : \nMardi matin, on trouvera le plus souvent un manteau neigeux bien regelé, sauf dans les zones forestières où le regel peu être moins efficace. On pourra trouver localement dès 1700/1800m une fine couche de neige aux endroits concernés par les averses de ce lundi après-midi. En journée, la neige est à nouveau humidifiée au soleil, avec une humidification en profondeur sous 2000/2200 m et de la neige collante et lourde. Plus haut, on trouvera une couche de neige récente importante, notamment dans les secteurs à l'abri du vent d'est à sud-est, pouvant encore être poudreuse dans les combes ombragées.",
+      "text": "Enneigement :  \nL’enneigement est excédentaire dès la moyenne montagne grâce à la succession de nombreuses perturbations neigeuses depuis le début de l'année. Il est en général possible de chausser dès 1600/1800m d'altitude. La limite skiable remonte toutefois dans les pentes ensoleillées. Le manteau neigeux atteint rapidement 1m d'épaisseur et dépasse encore les 2m au-dessus de 2200m. \n\nQualité de la neige : \nMercredi matin, on trouvera le plus souvent un manteau neigeux plus ou moins bien regelé sous 2000m sous le voile nuageux. On pourra trouver localement dès 1800m une petite couche de neige fraîche aux endroits concernés par les averses des jours précédents. En journée, la neige est à nouveau humidifiée au soleil, avec une humidification en profondeur sous 2000/2200 m et de la neige collante et lourde. Plus haut, on trouvera une couche de neige récente importante, notamment dans les secteurs à l'abri du vent d'est à sud-est, pouvant encore être poudreuse dans les combes ombragées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,7 +132,7 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 5,
+          "N": 3,
           "S": 0
         },
         {
