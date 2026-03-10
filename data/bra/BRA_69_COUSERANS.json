@@ -158,7 +158,11 @@
           "S": 260
         }
       ],
-      "icon_key": "snowpack"
+      "icon_key": "snowpack",
+      "image": {
+        "filename": "BRA_69_COUSERANS_montagne-enneigement.png",
+        "content_type": "image/png"
+      }
     }
   }
 }
