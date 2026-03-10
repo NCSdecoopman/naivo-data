@@ -1,0 +1,6 @@
+{
+  "code": "16",
+  "massif": "Pelvoux",
+  "error": "HTTPSConnectionPool(host='public-api.meteofrance.fr', port=443): Max retries exceeded with url: /public/DPBRA/v1/massif/BRA?id-massif=16&format=xml (Caused by NewConnectionError(\"HTTPSConnection(host='public-api.meteofrance.fr', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "ts_utc": "2026-03-10T11:34:03.121696+00:00"
+}
