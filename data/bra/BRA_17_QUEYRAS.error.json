@@ -1,0 +1,6 @@
+{
+  "code": "17",
+  "massif": "Queyras",
+  "error": "OAuth2 MF échec 500: {\"code\":\"101508\",\"type\":\"Status report\",\"message\":\"Runtime Error\",\"description\":\"Error in Sender\"}",
+  "ts_utc": "2026-03-11T17:50:32.584211+00:00"
+}

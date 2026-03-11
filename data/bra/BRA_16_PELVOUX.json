@@ -71,11 +71,7 @@
         "W": true,
         "NW": true
       },
-      "icon_key": "rose-aspects",
-      "image": {
-        "filename": "BRA_16_PELVOUX_rose-pentes.png",
-        "content_type": "image/png"
-      }
+      "icon_key": "rose-aspects"
     },
     "sat": {
       "primary": 3,
