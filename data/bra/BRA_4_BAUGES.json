@@ -3,61 +3,73 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-03-10T16:00:00",
-    "valid_until": "2026-03-11T18:00:00",
+    "issued_at": "2026-03-11T16:00:00",
+    "valid_until": "2026-03-12T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 1,
-      "comment": "Indice de risque faible.",
+      "max_level": 2,
+      "comment": "Au-dessus de 1800m indice de risque limité, plus bas indice faible.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1800,
+        "split_axis": "horizontal",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1800",
             "risk": 1,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1800",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1800m"
         },
         "zones": {
-          "center": {
+          "bottom": {
             "text": "1",
             "risk": 1,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-12",
+        "date": "2026-03-13",
         "label": "Indice de risque limité",
-        "comment": "Risque en hausse. 10/15 cm de neige fraiche dans la nuit de mercredi à jeudi.",
-        "trend": "up"
+        "comment": "Risque stationnaire. Encore quelques instabilités dans la neige fraiche.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
-        "NE": false,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
-        "NW": false
+        "N": true,
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -66,21 +78,17 @@
       }
     },
     "sat": {
-      "primary": 5,
-      "secondary": null,
+      "primary": 1,
+      "secondary": 4,
       "labels": {
-        "5": "Avalanche de fond"
+        "1": "Neige fraîche",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-5"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-07",
           "min_cm": 0,
@@ -104,23 +112,28 @@
         {
           "date": "2026-03-11",
           "min_cm": 10,
-          "max_cm": 15
+          "max_cm": 20
+        },
+        {
+          "date": "2026-03-12",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 10,
-        "last_48h_max_cm": 16
+        "last_48h_max_cm": 20
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux stable",
-      "text": "Manteau neigeux stable\n\nDéparts spontanés :\n* Rares plaques de fond, de jour comme de nuit, dans les pentes lisses et raides (zones herbeuses, dalles rocheuses). Présentes dans les versants sud et dans les versants nord sous 2000 m. Taille 1 à 2 (petite à moyenne).\n* Une chute de grosse corniche est possible. \n\nDéclenchements provoqués :\nPeu probables.",
+      "title": "Petites instabilités dans la neige fraiche",
+      "text": "Petites instabilités dans la neige fraiche \n\nDéclenchements provoqués :\n* Quelques plaques friables dans la neige fraiche, en tous versants au-dessus de 1800 m, facilement déclenchables par un skieur. Taille 1 (petite) à 2 (moyenne).\n\nDéparts spontanés :\n* Quelques avalanches de neige fraiche pendant les chutes, en tous versants. Taille 1 (petite).\n* Départs ponctuels de neige humide dans les versants sud-est à ouest, suivant la course du soleil. Taille 1 (petite).\n* Rares plaques de fond, de jour comme de nuit, dans les pentes lisses et raides (zones herbeuses, dalles rocheuses). Taille 1 à 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis vers 1200/1300 m en nord, est et ouest et 1400/1700 m en sud.\nFaible dépôt de poussières désertiques en surface du manteau neigeux. \nGrosses corniches encore présentes.\n\nQualité de la neige mercredi : \n* En versants Sud et Est : la neige s'humidifie légèrement au soleil en surface le matin.\n* Ailleurs, la neige est croutée au-dessus de 1600 m, humide en dessous.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis vers 1200/1300 m en nord, est et ouest et 1400/1700 m en sud.\nGrosses corniches encore présentes.\n\nQualité de la neige jeudi : \n* En dessous de 1600 m : Manteau neigeux de type printanier recouvert d'une couche de neige fraiche humide dès 1300 m. 5-10 cm de nouvelle neige à 1500 m.\n* Au-dessus de 1600 m :15-20 cm de neige fraiche reposant sur un manteau neigeux le plus souvent compacté. Cette neige est le plus souvent d'aspect poudreux, plus rarement travaillé par le vent proche des crêtes au-dessus de 2000 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -136,13 +149,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 80,
-          "S": 50
+          "N": 90,
+          "S": 60
         },
         {
           "alt_m": 2000,
-          "N": 140,
-          "S": 80
+          "N": 130,
+          "S": 70
         }
       ],
       "icon_key": "snowpack",

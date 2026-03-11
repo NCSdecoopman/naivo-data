@@ -3,14 +3,14 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-03-10T15:00:00",
-    "valid_until": "2026-03-11T18:00:00",
+    "issued_at": "2026-03-11T16:00:00",
+    "valid_until": "2026-03-12T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 1,
-      "comment": "Indice de risque faible.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 1,
+            "risk": 2,
             "evolution_to": null,
             "position": null
           }
@@ -34,30 +34,30 @@
         },
         "zones": {
           "center": {
-            "text": "1",
-            "risk": 1,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-03-12",
-        "label": "Indice de risque faible",
-        "comment": "La petite couche de neige attendue en fin de journée/soirée de mercredi ne va pas modifier sensiblement la stabilité du manteau neigeux.",
+        "max_level": 2,
+        "date": "2026-03-13",
+        "label": "Indice de risque limité",
+        "comment": "Risque d'avalanche en légère baisse vendredi. Regel au matin, vent de Sud-Sud-Ouest doux se renforçant vendredi soir, précédant un nouveau front neigeux... Samedi pas mal de neige fraîche attendue (30 cm), la situation nivologique va évoluer...",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
-        "NE": false,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
-        "NW": false
+        "N": true,
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -66,21 +66,17 @@
       }
     },
     "sat": {
-      "primary": 5,
-      "secondary": null,
+      "primary": 1,
+      "secondary": 5,
       "labels": {
+        "1": "Neige fraîche",
         "5": "Avalanche de fond"
       },
-      "icon_key": "sat-5"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-07",
           "min_cm": 0,
@@ -103,24 +99,29 @@
         },
         {
           "date": "2026-03-11",
-          "min_cm": 5,
-          "max_cm": 10
+          "min_cm": 10,
+          "max_cm": 15
+        },
+        {
+          "date": "2026-03-12",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 16
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux bien stabilisé.",
-      "text": "Manteau neigeux bien stabilisé.\n\nLes quelques cm de neige tombée sur la partie sommitale du massif ce mardi n'ont pas d'incidence sur la solidité du manteau neigeux.\nDéparts spontanés : peu probables mais on ne peut pas totalement exclure le risque qu'une fissure de reptation vienne à céder, emportant toute la neige en place jusqu'au sol (avalanche de taille 1 à 2).\nDéclenchements provoqués : Peu probables.",
+      "title": "NEIGE FRAICHE (10/15 cm) LOCALEMENT SOUFFLEE VERS LES HAUTES CRETES + COULEES SUPERFICIELLES LORS D'ECLAIRCIES...",
+      "text": "NEIGE FRAICHE (10/15 cm) LOCALEMENT SOUFFLEE VERS LES HAUTES CRETES + COULEES SUPERFICIELLES LORS D'ECLAIRCIES...\n\nNeige fraîche localement soufflée à l'abord des hautes crêtes et sommets,  petites plaques temporairement instables au passage de skieur...  Sinon sous couches denses, stables...\nDéclenchements provoqués : \nPetites plaques temporairement fragiles au passage de skieurs, surtout en matinée à l'abord des hautes crêtes. Plaques peu volumineuses mais parfois suffisantes pour déstabiliser un skieur.\n10 à 15 cm attendus en altitude, parfois soufflés (vent d'Ouest puis de Nord jeudi matin).\nL'après-midi, humidification possible au soleil, tassement de cette neige récente avec plutôt un risque de coulée humide ponctuelle sous les skis (glissant sur la veille neige dense).\nDéparts spontanés : \nEn matinée lors d'éclaircies, puis l'après-midi en tous versants : des coulées ponctuelles de surface et  escargots de neige fraîche humidifiée.\nEnfin dans une très rare pente herbeuse/secteur de reptation, une avalanche de fond, glissant au terrain reste possible (de taille moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est très bon dans les versants ombragés au dessus de 1600 m\n\nLimites skiables : vers 1300/1700 m.\n\nQualité de la neige mercredi : Manteau neigeux de type printanier recouvert d'une fine couche de neige fraîche au dessus de 1700 m environ, devenant collante avec les premiers rayons du soleil..",
+      "text": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1500 m, il a bien régressé en faces Sud, vers les crêtes. Amélioration du paysage jeudi. \nLimites skiables : Vers 1200/1600m hors sapins, guère de sous couche plus bas. \n\nQualité de la neige jeudi :  Fraîche encore poudreuse au petit matin, à l'ombre. En matinée humidification en pentes favorisées, au soleil. L'après-midi humidification se généralisant à tous versants (redoux et cumulus)...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -142,7 +143,7 @@
         {
           "alt_m": 2000,
           "N": 180,
-          "S": 130
+          "S": 125
         }
       ],
       "icon_key": "snowpack",

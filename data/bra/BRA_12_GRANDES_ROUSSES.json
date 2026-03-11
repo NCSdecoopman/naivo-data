@@ -3,49 +3,37 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-03-10T15:00:00",
-    "valid_until": "2026-03-11T18:00:00",
+    "issued_at": "2026-03-11T16:00:00",
+    "valid_until": "2026-03-12T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2400m indice de risque limité, plus bas indice faible.",
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2400,
-        "split_axis": "horizontal",
-        "split_label": "2400m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2400",
-            "risk": 1,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2400",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2400m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
+          "center": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -54,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-12",
+        "date": "2026-03-13",
         "label": "Indice de risque limité",
-        "comment": "La petite couche de neige attendue en fin de journée/soirée de mercredi ne va pas modifier sensiblement la stabilité du manteau neigeux.",
+        "comment": "Risque d'avalanche en légère hausse vendredi après-midi ou soir : Vent de Sud-Sud-Ouest se renforçant, chassant parfois la neige... \nSamedi perturbé/froid pas mal de neige fraîche attendue (30 cm), la situation nivologique évolue défavorablement...",
         "trend": "steady"
       }
     },
@@ -64,11 +52,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
+        "E": true,
         "SE": false,
         "S": false,
         "SW": false,
-        "W": false,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -78,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 3,
+      "primary": 1,
       "secondary": 5,
       "labels": {
-        "3": "Couche fragile persistante",
+        "1": "Neige fraîche",
         "5": "Avalanche de fond"
       },
-      "icon_key": "sat-3"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-07",
           "min_cm": 0,
@@ -116,30 +99,35 @@
         },
         {
           "date": "2026-03-11",
-          "min_cm": 4,
-          "max_cm": 10
+          "min_cm": 7,
+          "max_cm": 12
+        },
+        {
+          "date": "2026-03-12",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 4,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 7,
+        "last_48h_max_cm": 12
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux généralement solide.",
-      "text": "Manteau neigeux généralement solide.\n\nLes quelques cm de neige tombée au dessus de 1700 m ce mardi n'ont pas d'incidence sur la solidité du manteau neigeux.\nDéparts spontanés : peu probables mais on ne peut pas totalement exclure le risque qu'une fissure de reptation vienne à céder, emportant toute la neige en place jusqu'au sol (avalanche de taille 1 à 2).\nDéclenchements provoqués : dans les ubacs de haute montagne, les plaques sont très rares et difficiles à solliciter. Le risque reste éventuellement présent dans le cas où la couche fragile est insuffisamment enfouie.",
+      "title": "UN PEU DE  FRAICHE (10 voire 15 cm sur Ouest du massif) LOCALEMENT SOUFFLEE VERS LES HAUTES CRETES ...",
+      "text": "UN PEU DE  FRAICHE (10 voire 15 cm sur Ouest du massif) LOCALEMENT SOUFFLEE VERS LES HAUTES CRETES ...\n\nUn peu de neige fraîche localement soufflée à l'abord des hautes crêtes et sommets,  petites plaques temporairement instables au passage de skieur...  Sinon sous couches denses,  souvent stabilisée....\nDéclenchements provoqués : \nPetites plaques temporairement fragiles au passage de skieurs, surtout en matinée à l'abord des hautes crêtes. Plaques peu volumineuses mais parfois suffisantes pour déstabiliser un skieur. \nNoter qu'en faces Nord des sous couches à moindre cohésion sont parfois observées, risque de rupture accidentelle plus large?\nIndices observables : 10/15 cm attendus en altitude versant Vaujany, parfois soufflés (vent d'Ouest puis de Nord jeudi matin). En faces Nord, possibles fissures sous les skis ?  Vers Emparis moins de neige fraîche attendue...\nL'après-midi, humidification locale attendue, tassement de cette neige récente...\nDéparts spontanés : \nEn matinée lors d'éclaircies, puis l'après-midi en tous versants : des coulées ponctuelles de surface/escargots de neige fraîche humidifiée.\nEnfin dans une très rare pente herbeuse/secteur de reptation, une avalanche de fond, glissant au terrain reste possible (de taille moyenne/ rarement grande).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est très bon dans les versants ombragés au dessus de 1600 m\n\nLimites skiables : vers 1300/1700 m.\n\nQualité de la neige mercredi : Manteau neigeux de type printanier recouvert d'une fine couche de neige fraîche au dessus de 1700 m environ, devenant collante avec les premiers rayons du soleil. En versant froid de haute montagne, le saupoudrage recouvre une neige de type \"vieille poudre dense\".",
+      "text": "Qualification de l’enneigement :  L'enneigement est bon pour la saison au dessus de 1600/2000m. Il a récemment régressé en faces Sud, vers les crêtes. \nLimites skiables : Vers 1200/1700m hors forêts, guère de sous couche plus bas. \n\nQualité de la neige jeudi :  Petite couche de fraîche encore poudreuse en début de journée, à l'ombre. En journée humidification en pentes favorisées, au soleil, notamment sous 2500m environ...  Sous couche en neige de printemps dure ou vieille poudreuse dense.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1300,
-        "south": 1700
+        "north": 1200,
+        "south": 1600
       },
       "levels_cm": [
         {
@@ -150,7 +138,7 @@
         {
           "alt_m": 2000,
           "N": 210,
-          "S": 120
+          "S": 115
         },
         {
           "alt_m": 2500,

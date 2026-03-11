@@ -3,14 +3,14 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-03-10T16:00:00",
-    "valid_until": "2026-03-11T18:00:00",
+    "issued_at": "2026-03-11T16:00:00",
+    "valid_until": "2026-03-12T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 1,
-      "comment": "Indice de risque faible.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 1,
+            "risk": 2,
             "evolution_to": null,
             "position": null
           }
@@ -34,30 +34,30 @@
         },
         "zones": {
           "center": {
-            "text": "1",
-            "risk": 1,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-12",
+        "date": "2026-03-13",
         "label": "Indice de risque limité",
-        "comment": "Chute de neige apportant 10/20 cm dans la nuit de mercredi à jeudi. Quelques petites instabilités temporaires dans la neige récente.",
-        "trend": "up"
+        "comment": "La neige fraîchement tombée se tasse rapidement. L'activité naturelle en versant ensoleillé est en forte baisse.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
-        "NE": false,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
-        "NW": false
+        "N": true,
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -66,21 +66,17 @@
       }
     },
     "sat": {
-      "primary": 5,
-      "secondary": null,
+      "primary": 1,
+      "secondary": 4,
       "labels": {
-        "5": "Avalanche de fond"
+        "1": "Neige fraîche",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-5"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-07",
           "min_cm": 0,
@@ -104,23 +100,28 @@
         {
           "date": "2026-03-11",
           "min_cm": 10,
-          "max_cm": 15
+          "max_cm": 20
+        },
+        {
+          "date": "2026-03-12",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 10,
-        "last_48h_max_cm": 18
+        "last_48h_max_cm": 20
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "SITUATION ASSEZ STABLE, RARES PLAQUES DURES EN SECTEURS FROIDS. RARES AVALANCHES DE GLISSEMENT.",
-      "text": "SITUATION ASSEZ STABLE, RARES PLAQUES DURES EN SECTEURS FROIDS. RARES AVALANCHES DE GLISSEMENT.\n\nDéclenchement provoqués : rares plaques dures difficiles à déclencher dans les secteurs NE, Nord et NO d'altitude. On les trouve préférentiellement près des crêtes et des bosses soufflées dans la neige encore froide. Petite à moyenne avalanche.   \n\nDéparts spontanés :  rares avalanches de glissement, allant jusqu'à la taille moyenne car le manteau neigeux est épais. Plutôt sous les 2400m et sur terrains propices de type pentes herbeuses et dalles rocheuses.",
+      "title": "NOUVELLES AVALANCHES DE PLAQUE POSSIBLES SUITE AUX CHUTES DE NEIGE DE LA NUIT.",
+      "text": "NOUVELLES AVALANCHES DE PLAQUE POSSIBLES SUITE AUX CHUTES DE NEIGE DE LA NUIT. \n\nDéclenchement provoqués : les chutes de neige de la nuit de mercredi à jeudi crées des plaques d'aspect poudreux en tous versants. Elles gagnent en épaisseur au-delà de 1800/2000 m avec des cumuls de neige fraîche dépassant 10/15 cm. Les plaques installées en versant ombragé (NE, N et NO) au-delà de 2400 m sont particulièrement réactives car elles reposent sur des grains anguleux (face plane). Avalanche de taille moyenne (taille 2) à prévoir. \n\nDéparts spontanés : nombreux départs en poire (départs ponctuels) aux abords des cailloux dans les pentes raides, au gré de la course du Soleil (taille 1 à 2). Aussi, rares avalanches de glissement, allant jusqu'à la taille moyenne car le manteau neigeux est épais. Plutôt sous les 2400m et sur terrains propices de type pentes herbeuses et dalles rocheuses.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : en général légèrement excédentaire pour la saison, mais en train de devenir déficitaire en basse montagne et en versants sud.\n\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1400/1500 m en sud pas trop raide.\n\nQualité de la neige : sous ~2000 m, neige de printemps avec regel incertain (croute potentiellement cassante le matin).\nPlus haut, on trouve en nord une neige croutée sous 2500 m le matin (difficile à skier), encore froide au-dessus avec certains secteurs en vieille poudre agréable. En versants O/S/E, neige de printemps qui \"décaille\" lentement en journée à cause des nuages.",
+      "text": "Enneigement : en général légèrement excédentaire pour la saison, mais en train de devenir déficitaire en basse montagne et en versants sud.\n\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1400/1500 m en sud pas trop raide.\n\nQualité de la neige : nouvelle couche de neige fraîche en montagne. Il faut monter au-delà de 1800/2000 m pour observer un cumul de 10/15 cm. En coeur de massif, le cumul monte à 15/20 cm. Elle est poudreuse et faiblement travaillée par le vent dans toutes les orientations au réveil. \nCependant, au gré de la course du Soleil, cette neige fraîche s'humidifie rapidement. Gare au \"bottage\" à la montée !",
       "icon_key": "snow-quality"
     },
     "snowpack": {

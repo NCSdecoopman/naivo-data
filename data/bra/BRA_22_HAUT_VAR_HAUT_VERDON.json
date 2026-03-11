@@ -3,30 +3,30 @@
   "massif": "Haut-Var Haut-Verdon",
   "bulletin": {
     "id": 22,
-    "issued_at": "2026-03-10T16:00:00",
-    "valid_until": "2026-03-11T18:00:00",
+    "issued_at": "2026-03-11T16:00:00",
+    "valid_until": "2026-03-12T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2200,
+        "threshold_m": 2000,
         "split_axis": "horizontal",
-        "split_label": "2200m",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
+            "loc": "<2000",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2200",
+            "loc": ">2000",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2200m"
+          "label": "2000m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-12",
+        "date": "2026-03-13",
         "label": "Indice de risque limité",
-        "comment": "Risque restant limité, avec de nouvelles instabilités superficielles dans la neige fraîche après la perturbation de la nuit, et un peu d'humidification en journée.",
+        "comment": "Maintient d'un risque limité, avec poursuite d'une humidification superficielle, et de rares plaques en altitude, avant une dégradation des conditions dans la nuit de vendredi à samedi.",
         "trend": "steady"
       }
     },
@@ -64,11 +64,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -78,21 +78,16 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": null,
       "labels": {
-        "1": "Neige fraîche"
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-07",
           "min_cm": 0,
@@ -111,45 +106,50 @@
         {
           "date": "2026-03-10",
           "min_cm": 3,
-          "max_cm": 7
+          "max_cm": 10
         },
         {
           "date": "2026-03-11",
-          "min_cm": 1,
-          "max_cm": 5
+          "min_cm": 3,
+          "max_cm": 10
+        },
+        {
+          "date": "2026-03-12",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 4,
-        "last_48h_max_cm": 12
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 10
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE, FAIBLE HUMIDIFICATION",
-      "text": "QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE, FAIBLE HUMIDIFICATION\n\nDéclenchements provoqués : \n- Quelques plaques sont possibles dans la neige récente : présentes principalement au dessus de 2200 m en versants nord-ouest à nord-est, elles sont le plus souvent d'aspect poudreux et peuvent être localement faciles à déclencher, elles sont de petite taille, ou parfois moyenne surtout dans le Haut-Var où les dernières chutes de neige ont étés un peu plus importantes.\n\nDéparts spontanés : \n- rares départs ponctuels en neige récente humidifiée, possibles en pentes raides au fil de la course du soleil, généralement de petite taille, rarement moyenne.\n- éventuellement une avalanche de glissement de taille moyenne,  en pentes d'un large secteur sud, en terrain favorable (pentes herbeuses, dalles rocheuses).",
+      "title": "QUELQUES PLAQUES DE NEIGE FRAÎCHE EN ALTITUDE, HUMIDIFICATION SUPERFICIELLE",
+      "text": "QUELQUES PLAQUES DE NEIGE FRAÎCHE EN ALTITUDE, HUMIDIFICATION SUPERFICIELLE\n\nDéclenchements provoqués :  \n- quelques plaques sont possibles dans la neige fraîche, présentes au dessus de 1800/2000 m, principalement côté Haut-Verdon. Elles sont le plus souvent d'aspect poudreux, parfois travaillées par le vent de nord, et peuvent être localement faciles à déclencher, mais restent de petite taille.\n\nDéparts spontanés : \n- quelques départs ponctuels de petite taille dans le Haut-Verdon, en neige fraîche s'humidifiant en pentes raides au fil de la course du soleil.\n- éventuellement une avalanche de glissement de taille moyenne est toujours possible,  en pentes d'un large secteur sud, en terrain favorable (pentes herbeuses, dalles rocheuses).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement plutôt excédentaire pour un début mars en général, notamment dans le Haut-Verdon.\nDonnées observées : vers 2000 m, 170 cm en fond de vallon dans le Haut Verdon, 130 cm dans le Haut Var.  \n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1800/1900 m en adrets peu pentus.\n\nÉtat de la neige en surface : petite couche de neige récente (autour de 15 cm, voire localement jusqu'à 25 cm dans le Haut-Var) restée sèche au dessus de 2200 m environ, voire plus haut en versants sud. En dessous, regel nocturne limité, avec reprise d'une humidification superficielle en cours de journée. Sur les crêtes, d'anciennes corniches épaisses côtoient des zones dégarnies.",
+      "text": "Enneigement plutôt excédentaire pour un début mars en général, notamment dans le Haut-Verdon.\nDonnées observées : vers 2000 m, 170 cm en fond de vallon dans le Haut Verdon, 120 cm dans le Haut Var.  \n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1800/1900 m en adrets peu pentus.\n\nÉtat de la neige en surface : jeudi matin, petite couche de neige récente en Haut-Verdon (entre 5 et 10 cm). Elle repose sur une neige encore froide en ubacs au dessus de 2200 m, croutée en dessous ainsi que dans les adrets. Reprise de l'humidification au soleil en cours de journée. Sur les crêtes, d'anciennes corniches épaisses côtoient des zones dégarnies.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1300,
-        "south": 1300
+        "south": 1500
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 35,
-          "S": 5
+          "N": 30,
+          "S": 1
         },
         {
           "alt_m": 2000,
-          "N": 150,
-          "S": 75
+          "N": 145,
+          "S": 70
         },
         {
           "alt_m": 2500,
