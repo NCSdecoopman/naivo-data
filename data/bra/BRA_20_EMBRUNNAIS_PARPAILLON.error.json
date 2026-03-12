@@ -1,0 +1,6 @@
+{
+  "code": "20",
+  "massif": "Embrunnais Parpaillon",
+  "error": "500 Server Error: Internal Server Error for url: https://public-api.meteofrance.fr/public/DPBRA/v1/massif/BRA?id-massif=20&format=xml",
+  "ts_utc": "2026-03-12T09:43:44.526573+00:00"
+}
