@@ -3,48 +3,60 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-03-11T16:00:00",
-    "valid_until": "2026-03-12T18:00:00",
+    "issued_at": "2026-03-12T16:00:00",
+    "valid_until": "2026-03-13T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2300m indice de risque limité évoluant en marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2300,
+        "split_axis": "horizontal",
+        "split_label": "2300m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2300",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2300",
+            "risk": 2,
+            "evolution_to": 3,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2300m"
         },
         "zones": {
-          "center": {
+          "bottom": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
+          },
+          "top": {
+            "text": "2→3",
+            "risk": 2,
+            "evolution_to": 3
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-03-13",
-        "label": "Indice de risque limité",
-        "comment": "Risque d'avalanche en légère hausse vendredi après-midi ou soir : Vent de Sud-Sud-Ouest se renforçant, chassant parfois la neige... \nSamedi perturbé/froid pas mal de neige fraîche attendue (40 voire 50 cm vers Olan/Meije), la situation nivologique évoluera défavorablement !",
+        "max_level": 3,
+        "date": "2026-03-14",
+        "label": "Indice de risque marqué",
+        "comment": "Samedi, temps neigeux du matin à l'après-midi donnant jusque 30 cm en peu de temps.\nRisque d'avalanche devenant franchement marqué en cours de journée, dans la plupart des pentes...",
         "trend": "steady"
       }
     },
@@ -66,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 5,
+      "primary": 2,
+      "secondary": 3,
       "labels": {
-        "1": "Neige fraîche",
-        "5": "Avalanche de fond"
+        "2": "Neige ventée",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-08",
           "min_cm": 0,
@@ -106,44 +113,49 @@
           "date": "2026-03-12",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-13",
+          "min_cm": 1,
+          "max_cm": 4
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 4
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "UN PEU DE  FRAICHE (10 voire 15 cm vers Taillefer) LOCALEMENT SOUFFLEE VERS LES HAUTES CRETES ...",
-      "text": "UN PEU DE  FRAICHE (10 voire 15 cm vers Taillefer) LOCALEMENT SOUFFLEE VERS LES HAUTES CRETES ...\n\nUn peu de neige fraîche localement soufflée à l'abord des hautes crêtes et sommets,  petites plaques temporairement instables au passage de skieur...  Sinon sous couches denses,  souvent stabilisée....\nDéclenchements provoqués : \nPetites plaques temporairement fragiles au passage de skieurs, surtout en matinée à l'abord des hautes crêtes. Plaques peu volumineuses mais parfois suffisantes pour déstabiliser un skieur. \nNoter qu'en faces Nord d'altitude des sous couches à moindre cohésion sont parfois observées, risque de rupture accidentelle plus large?\nIndices observables : 10/15 cm attendus en altitude versant Taillefer, moins vers Est-Oisans, parfois soufflés (vent d'Ouest puis de Nord jeudi matin). En faces Nord, possibles fissures sous les skis ? \nL'après-midi, humidification locale attendue, tassement de cette neige récente...\nDéparts spontanés : \nEn matinée lors d'éclaircies, puis l'après-midi en tous versants : des coulées ponctuelles de surface/escargots de neige fraîche humidifiée.\nEnfin dans une très rare pente herbeuse/secteur de reptation, une avalanche de fond, glissant au terrain reste possible (de taille moyenne ou rarement grande)...",
+      "title": "EN FIN D'APRES-MIDI/SOIREE, POSSIBLE FORMATION DE NOUVELLES PLAQUES  INSTABLES EN VERSANTS FROIDS D'ALTITUDE...",
+      "text": "EN FIN D'APRES-MIDI/SOIREE, POSSIBLE FORMATION DE NOUVELLES PLAQUES  INSTABLES EN VERSANTS FROIDS D'ALTITUDE...\n\nNeige récente mieux stabilisée vendredi matin (rares plaques en nord d'altitude). En fin d'après-midi,  renforcement du vent de Sud à Sud-Ouest qui pourra former quelques plaques instables en faces Nord d'altitude (là où la neige est restée poudreuse).\nVent plus soutenu dès 2000/2300m en Taillefer, 2500/2800m en Oisans\nDéclenchements provoqués : \nVendredi matin/midi peu de risque de plaque ou de rares instabilités vers les hautes crêtes en faces Nord ? Plaques plutôt friables, localement encore 15/20  cm mobilisables sur l'Ouest du massif, en Taillefer et vers les Ecrins, la Grande Ruine.\nEn fin d'après-midi/soirée le vent de Sud à Sud-Ouest va se lever et pourra former quelques nouvelles plaques instables, là où la neige est restée poudreuse, surtout en Nord à Est d'altitude (vent plus soutenu assez bas en Taillefer, et plutôt au dessus de 2500/2800m en Est Oisans ?)...\nNoter qu'une sous-couche plus fragile est parfois enfouie en pentes \"froides\", favorisant une cassure plus large, voire à distance. Signes observables : Transports de neige, fissures sous les skis.\nEn faces ensoleillées peu de risque de plaque. A la faveur du redoux diurne, plutôt un risque (limité) de coulée ponctuelle de neige humide sous les skis (glissant sur l'ancienne couche)\nDéparts spontanés : \nPeu d'activité attendue vendredi. Le matin, bon regel, neige croutée. Pas mal de pentes ont déjà bougées.\nPuis à la faveur du doux soleil, quelques nouvelles petites coulées (superficielles seraient possibles en pentes humidifiées.\nDans une très rare pente herbeuse fissurée/secteur de reptation, une avalanche de fond, glissant au terrain n'est pas exclue (de taille moyenne), plutôt le soir ?",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est bon pour la saison notamment au dessus de 1600/2000m. Il a récemment régressé en faces Sud, vers les crêtes. \nLimites skiables : Vers 1200/1700m hors forêts, guère de sous couche plus bas. \n\nQualité de la neige jeudi :  Petite couche de fraîche encore poudreuse en début de journée, à l'ombre. En journée humidification en pentes favorisées, au soleil, notamment sous 2500m environ...  Sous couche en neige de printemps dure ou vieille poudreuse dense.",
+      "text": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1600 m, voire abondant en combes d'altitude. En Sud l'enneigement a régressé mais demeure correct.\nLimites skiables : Vers 1300/1700m hors forêts, guère de sous couche plus bas. \n\nQualité de la neige vendredi :  En faces ensoleillées et sous 2200/2500m environ : neige récente croutée  (en surface) par regel, des restes de coulées dans les pentes raides... Humidification assez rapide au soleil. \nVers les sommets neige plus soufflée, encore poudreuse en Nord d'altitude...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1200,
-        "south": 1600
+        "south": 1500
       },
       "levels_cm": [
         {
           "alt_m": 1500,
           "N": 80,
-          "S": 0
+          "S": 2
         },
         {
           "alt_m": 2000,
-          "N": 190,
-          "S": 105
+          "N": 200,
+          "S": 110
         },
         {
           "alt_m": 2500,
-          "N": 280,
-          "S": 190
+          "N": 290,
+          "S": 200
         }
       ],
       "icon_key": "snowpack",

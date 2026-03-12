@@ -3,30 +3,30 @@
   "massif": "Cerdagne Canigou",
   "bulletin": {
     "id": 74,
-    "issued_at": "2026-03-11T16:00:00",
-    "valid_until": "2026-03-12T18:00:00",
+    "issued_at": "2026-03-12T16:00:00",
+    "valid_until": "2026-03-13T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2300m indice de risque limité, plus bas indice faible évoluant en limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 2300,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "2300m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<2300",
             "risk": 1,
-            "evolution_to": null,
+            "evolution_to": 2,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
+            "loc": ">2300",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,13 +37,13 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "2300m"
         },
         "zones": {
           "bottom": {
-            "text": "1",
+            "text": "1→2",
             "risk": 1,
-            "evolution_to": null
+            "evolution_to": 2
           },
           "top": {
             "text": "2",
@@ -53,23 +53,23 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-03-13",
-        "label": "Indice de risque limité",
-        "comment": "Maintien du risque avant l'arrivée d'une perturbation à partir de la nuit de vendredi à samedi.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-03-14",
+        "label": "Indice de risque marqué",
+        "comment": "Hausse du risque accidentel dès la moyenne montagne avec les chutes de neige attendues la nuit suivante puis en journée de samedi.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
+        "E": false,
         "SE": false,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": false
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 4,
+      "primary": 5,
+      "secondary": 2,
       "labels": {
-        "2": "Neige ventée",
-        "4": "Neige humide"
+        "5": "Avalanche de fond",
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-5"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-07",
-          "min_cm": 0,
-          "max_cm": 6
-        },
         {
           "date": "2026-03-08",
           "min_cm": 0,
@@ -118,22 +113,27 @@
           "date": "2026-03-12",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-13",
+          "min_cm": 1,
+          "max_cm": 4
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 4
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nouvelles plaques en formation à partir de mercredi soir en altitude; humidification qui reprend en journée au soleil",
-      "text": "Nouvelles plaques en formation à partir de mercredi soir en altitude; humidification qui reprend en journée au soleil\n\nDéclenchements provoqués :  \nNouvelles avalanches de plaques facilement déclenchables par un skieur, dans les versants Nord à Est encore froids au-dessus de 2000/2200 m. Sous l'action du vent de Nord-Ouest qui se renforce dès mercredi soir, de nouvelles structures de plaques, plutôt dures et proches des crêtes, sont attendues sous le vent de Nord-Ouest. Les volumes de neige transportables en altitude sont encore conséquents avec l'épisode de la fin de la semaine dernière et pourraient mener à des avalanches de taille moyenne.\nObservables : fissures devant les skis, neige de surface changeante et travaillée par le vent, transport de neige par le vent.\n\nDéparts spontanés : \nDes coulées en neige humide avec départs ponctuels sont à attendre au fil de la journée dans les pentes raides des secteurs ensoleillés avec la douceur générale. De plus, avec les quantités importantes de neige récente, des avalanches de neige humide avec cassure linéaire, parfois jusqu'au sol, de taille moyenne voire grande sont à attendre jusqu'à 2400/2500m dans les secteurs ensoleillés. L'ouverture de fissures est un signe précurseur d'avalanche pouvant partir jusqu'au sol (avalanche de fond), à surveiller y compris dans les secteurs pas ou peu ensoleillés.\n\nAutre: Des chutes de corniches, parfois larges et épaisses, ont encore été reportées récemment et peuvent être à l'origine de départs d'avalanches.",
+      "title": "Quelques plaques en altitude, avalanche de neige humide en journée.",
+      "text": "Quelques plaques en altitude, avalanche de neige humide en journée.\n\nDéclenchements provoqués :  \nPlaques à vent peu épaisses, mais facilement déclenchables, dans les versants nord bien raides au-dessus de 2300 m, surtout sous les corniches près des crêtes. \nLe vent d'ouest à nord-ouest à en effet par endroits bien chargé les pentes sommitales. \nLes déclenchements éventuels génèrent des avalanches de taille petite à moyenne, pouvant aller jusqu'en bas des pentes très redressées. \nObservables : fissures devant les skis, neige de surface changeante et travaillée par le vent, transport de neige par le vent.\n\nDéparts spontanés : \nActivité faible avec le bon regel du petit matin, puis reprenant au fil de la journée avec le soleil et la hausse du mercure. Rares avalanches de neige humide avec cassure linéaire, souvent de fond sur les pentes raides favorables (pentes herbeuses ou dalles rocheuses) possibles en toutes orientations, et à toute altitude plein sud. Avalanches de taille moyenne, rarement grande au-dessus de 2000m.\nDe nombreuses fissures ou gueules de baleines, signes précurseurs de telles avalanches, sont fréquemment observables dans les pentes concernées. \nDes coulées en neige humide avec départs ponctuels sont également à attendre au fil de la journée dans les pentes raides des secteurs ensoleillés.\n\nAutre : Des ruptures de corniches parfois larges et épaisses sont toujours possibles à proximité des crêtes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :  \nL’enneigement est excédentaire dès la moyenne montagne grâce à la succession de nombreuses perturbations neigeuses depuis le début de l'année. Il est en général possible de chausser dès 1600/1800m d'altitude. La limite skiable remonte au fil des jours dans les pentes ensoleillées. Le manteau neigeux atteint rapidement 1m d'épaisseur et dépasse encore les 2m au-dessus de 2200m. \n\nQualité de la neige : \nJeudi matin,  on trouvera un manteau neigeux plus ou moins bien regelé sous 2000/2100 m avec les nuages. Plus haut, on trouvera toujours une couche de neige récente importante, notamment dans les secteurs à l'abri du vent d'est à sud-est, pouvant encore être poudreuse dans les combes ombragées, mais aussi travaillée par le vent de la nuit prochaine proche des crêtes et sommets. En journée, la neige est à nouveau humidifiée au soleil, avec une humidification en profondeur sous 2000/2200 m et de la neige collante et lourde.",
+      "text": "Enneigement :  \nL’enneigement est excédentaire dès la moyenne montagne grâce à la succession de nombreuses perturbations neigeuses en janvier/février. Il est en général possible de chausser dès 1600/1800m d'altitude. La limite skiable remonte au fil des jours dans les pentes ensoleillées. Le manteau neigeux atteint rapidement 1m d'épaisseur et dépasse encore les 2m au-dessus de 2200m. \n\nQualité de la neige : \nConditions printanières, avec toutefois un peu de neige poudreuse en surface résistant dans les combes très ombragées ou orientées nord au-delà de 1900/2000 m. \nA plus basse altitude et dans les autres versants, très bon regel nocturne et neige dure au petit matin, devenant meuble et humide en journée, voire très humide ou pourrie au soleil en dessous de 2000 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -155,7 +155,7 @@
         {
           "alt_m": 2500,
           "N": 280,
-          "S": 220
+          "S": 210
         }
       ],
       "icon_key": "snowpack",
