@@ -3,72 +3,60 @@
   "massif": "Couserans",
   "bulletin": {
     "id": 69,
-    "issued_at": "2026-03-12T16:00:00",
-    "valid_until": "2026-03-13T18:00:00",
+    "issued_at": "2026-03-13T16:00:00",
+    "valid_until": "2026-03-14T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2300m indice de risque limité, plus bas indice faible évoluant en limité.",
+      "max_level": 3,
+      "comment": "Indice de risque marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2300,
-        "split_axis": "horizontal",
-        "split_label": "2300m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2300",
-            "risk": 1,
-            "evolution_to": 2,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2300",
-            "risk": 2,
+            "loc": null,
+            "risk": 3,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2300m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
+          "center": {
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-03-14",
+        "date": "2026-03-15",
         "label": "Indice de risque marqué",
-        "comment": "Hausse du risque accidentel dès la moyenne montagne avec les chutes de neige attendues la nuit suivante puis en journée de samedi.",
-        "trend": "up"
+        "comment": "Maintien d'un risque avalancheux marqué par la persistance d'un fort vent de nord dimanche",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -78,22 +66,16 @@
       }
     },
     "sat": {
-      "primary": 5,
-      "secondary": 2,
+      "primary": 1,
+      "secondary": null,
       "labels": {
-        "5": "Avalanche de fond",
-        "2": "Neige ventée"
+        "1": "Neige fraîche"
       },
-      "icon_key": "sat-5"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-08",
-          "min_cm": 0,
-          "max_cm": 4
-        },
         {
           "date": "2026-03-09",
           "min_cm": 0,
@@ -107,7 +89,7 @@
         {
           "date": "2026-03-11",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
         },
         {
           "date": "2026-03-12",
@@ -116,24 +98,29 @@
         },
         {
           "date": "2026-03-13",
-          "min_cm": 5,
-          "max_cm": 10
+          "min_cm": 3,
+          "max_cm": 7
+        },
+        {
+          "date": "2026-03-14",
+          "min_cm": 12,
+          "max_cm": 30
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 15,
+        "last_48h_max_cm": 37
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Quelques plaques en altitude, avalanche de neige humide en journée.",
-      "text": "Quelques plaques en altitude, avalanche de neige humide en journée.\n\nDéclenchements provoqués :  \nPlaques à vent peu épaisses, mais facilement déclenchables, dans les versants nord bien raides au-dessus de 2300 m, surtout sous les corniches près des crêtes. \nLes déclenchements éventuels sont généralement de taille petite à moyenne.\nObservables : fissures devant les skis, neige de surface changeante et travaillée par le vent, transport de neige par le vent.\n\nDéparts spontanés : \nActivité faible avec le bon regel du petit matin, puis reprenant au fil de la journée avec le soleil et la hausse du mercure. Rares avalanches de neige humide avec cassure linéaire, souvent de fond sur les pentes raides favorables (pentes herbeuses ou dalles rocheuses) possibles en toutes orientations, et à toute altitude plein sud. Avalanches de taille moyenne, rarement grande au-dessus de 2000m.\nDe nombreuses fissures ou gueules de baleines, signes précurseurs de telles avalanches, sont fréquemment observables dans les pentes concernées. \nDes coulées en neige humide avec départs ponctuels sont également à attendre au fil de la journée dans les pentes raides des secteurs ensoleillés.\n\nAutre : Des ruptures de corniches parfois larges et épaisses sont toujours possibles à proximité des crêtes.",
+      "title": "Structures de plaque en cours de formation au fil des chutes de neige de la journée de samedi",
+      "text": "Structures de plaque en cours de formation au fil des chutes de neige de la journée de samedi\n\nDéclenchements provoqués :\nDans de nombreuses pentes, plutôt dans les secteurs à l'abri du vent de nord-ouest mais pas seulement, des structures de plaque se forment au fil des chutes de neige de ce samedi et sont facilement déclenchables au passage d'un pratiquant. Elles engendrent des avalanches de taille moyenne avec cassure linéaire. En effet, des instabilités temporaires peuvent effectivement être présentes au sein des accumulations de neige fraîche, plutôt peu ventée dans un premier temps puis de plus en plus dense et cohésive par le travail du vent. Par ailleurs, il est possible que les nuits claires de cette semaine aient favorisé dans les secteurs ombragés d'altitude la formation de grains facettés en surface sur laquelle va reposer la couche de neige fraîche. \n\nDéparts spontanés : Au fil des chutes de neige de ce samedi, des départs spontanés de taille petite à moyenne se produisent dans les pentes raides par surcharge.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :  \nL’enneigement est encore excédentaire dès la moyenne montagne grâce aux abondantes chutes de neige de janvier/février. On peut souvent chausser les skis entre 1500 et 1800m en fonction des endroits en versants sud alors que certaines vallées ombragées sont enneigées dès 1400m. On trouve ensuite des quantités de neige plus conséquentes à partir de 2000 m en toutes orientations.\n\nQualité de la neige : \nConditions printanières, avec toutefois un peu de neige poudreuse en surface résistant dans les combes très ombragées ou orientées nord au-delà de 1900/2000 m. \nA plus basse altitude et dans les autres versants, très bon regel nocturne et neige dure au petit matin, devenant meuble et humide en journée, voire très humide ou pourrie au soleil en dessous de 2000 m.",
+      "text": "Enneigement :  \nLa montagne va retrouver un bel aspect hivernal ce samedi avec les chutes de neige qui se produisent à relativement basse altitude. L’enneigement est excédentaire dès la moyenne montagne. On peut souvent trouver une sous-couche suffisante entre 1500 et 1800m en fonction des endroits en versants sud alors que certaines vallées ombragées sont déjà bien enneigées dès 1400m. On trouve ensuite des quantités de neige plus conséquentes à partir de 2000 m en toutes orientations.\n\nQualité de la neige : \nLa couche de neige fraîche va s'épaissir au fil de la journée, rendue hétérogène en altitude par le vent de secteur nord-ouest de plus en plus fort. La neige sera frittée au vent, mais légère en altitude dans les endroits déventés avec le net refroidissement.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +136,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 195,
-          "S": 125
+          "N": 190,
+          "S": 120
         },
         {
           "alt_m": 2500,
-          "N": 300,
-          "S": 250
+          "N": 295,
+          "S": 245
         }
       ],
       "icon_key": "snowpack",

@@ -3,31 +3,31 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-03-12T16:00:00",
-    "valid_until": "2026-03-13T18:00:00",
+    "issued_at": "2026-03-13T16:00:00",
+    "valid_until": "2026-03-14T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2200,
+        "threshold_m": 2000,
         "split_axis": "horizontal",
-        "split_label": "2200m",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
-            "risk": 1,
+            "loc": "<2000",
+            "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2200",
-            "risk": 2,
+            "loc": ">2000",
+            "risk": 3,
             "evolution_to": null,
             "position": "top"
           }
@@ -37,27 +37,27 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2200m"
+          "label": "2000m"
         },
         "zones": {
           "bottom": {
-            "text": "1",
-            "risk": 1,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           },
           "top": {
-            "text": "2",
-            "risk": 2,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-03-14",
+        "date": "2026-03-15",
         "label": "Indice de risque marqué",
-        "comment": "Risque en hausse. Formation de nouvelles instabilités avec les chutes de neige conséquentes ventées.",
-        "trend": "up"
+        "comment": "Maintien d'un risque marqué. Nouvelles plaques avec les chutes de neige et le transport de la neige par le fort vent d'est + activité naturelle.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -78,21 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": null,
+      "primary": 1,
+      "secondary": 3,
       "labels": {
-        "2": "Neige ventée"
+        "1": "Neige fraîche",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-08",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-09",
           "min_cm": 5,
@@ -110,29 +106,34 @@
         },
         {
           "date": "2026-03-12",
-          "min_cm": 2,
-          "max_cm": 10
+          "min_cm": 0,
+          "max_cm": 3
         },
         {
           "date": "2026-03-13",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
+        },
+        {
+          "date": "2026-03-14",
+          "min_cm": 30,
+          "max_cm": 50
         }
       ],
       "totals": {
-        "last_48h_min_cm": 2,
-        "last_48h_max_cm": 11
+        "last_48h_min_cm": 30,
+        "last_48h_max_cm": 50
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES INSTABILITÉS EN ALTITUDE. HUMIDIFICATION SUPERFICIELLE",
-      "text": "QUELQUES INSTABILITÉS EN ALTITUDE. HUMIDIFICATION SUPERFICIELLE\n\nDéclenchements provoqués : \n- quelques plaques dans la neige fraiche/récente ventée, essentiellement en ubac au-dessus de 2000/2200 m. Ces instabilités peuvent être déclenchées au passage d’un skieur, mais sont en général de petite taille, plus rarement moyenne. \n\nDéparts spontanés : \n- quelques départs ponctuels de petite taille, en neige récente s'humidifiant en pentes raides, près des rochers, au fil de la course du soleil.",
+      "title": "INSTABILITÉ EN HAUSSE DANS LA NEIGE FRAICHE. DÉPARTS ET DÉCLENCHEMENTS PLUS NOMBREUX ET VOLUMINEUX EN UBACS D'ALTITUDE",
+      "text": "INSTABILITÉ EN HAUSSE DANS LA NEIGE FRAICHE. DÉPARTS ET DÉCLENCHEMENTS PLUS NOMBREUX ET VOLUMINEUX EN UBACS D'ALTITUDE\n\nDéclenchements provoqués : \n- quelques plaques dans la neige récente ventée, essentiellement en ubac au-dessus de 2000/2200 m. Ces instabilités peuvent être déclenchées au passage d’un skieur, mais sont en général de petite taille, plus rarement moyenne.\n- Samedi, nouvelles plaques en formation, conséquences des chutes de neige ventées. Possibles dans de multiples pentes, mais plus nombreuses et volumineuses dès 2000/2200 m environ notamment dans les orientations nord-est / nord / nord-ouest (où avant la chute, on retrouve de la neige récente encore poudreuse faisant office de couche fragile). Toutes ces instabilités sont facilement déclenchables et peuvent être d’aspect poudreux. Avalanches de plaque de taille petite à moyenne, rare grande en ubac d’altitude.\nDéparts spontanés : \n- Jusqu’en fin de nuit de vendredi à samedi, peu probables.\n- Samedi, avalanches de neige fraîche devenant plus nombreuses et volumineuses au fil des chutes dans les pentes raides. Taille petite à moyenne, le plus souvent en départ ponctuel. Rare grande avalanche possible en orientation de large nord d’altitude plus chargée, rupture linéaire.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement excédentaire sur le Roya, sinon dans les normales.\nDonnées observées : 143 cm à la nivôse de Millefonts à 2430 m, 109 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1800/1900 m en adrets peu pentus.\n\nÉtat de la neige en surface : neige récente, plus ou moins ventée, en ubacs au-dessus de 2000/2200 m, croutée en dessous ainsi que dans les adrets. Humidification au soleil en cours de journée.",
+      "text": "Enneigement excédentaire sur le Roya, sinon dans les normales.\nDonnées observées : 144 cm à la nivôse de Millefonts à 2430 m, 107 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1800/1900 m en adrets peu pentus.\n\nÉtat de la neige en surface : neige fraiche en quantité attendue ce samedi en journée se déposant sur de la neige récente poudreuse ou densifiée par le vent en ubacs au-dessus de 2000/2200 m, croutée en dessous ainsi que dans les adrets.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

@@ -3,61 +3,49 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-03-12T16:00:00",
-    "valid_until": "2026-03-13T18:00:00",
+    "issued_at": "2026-03-13T16:00:00",
+    "valid_until": "2026-03-14T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
+      "max_level": 3,
+      "comment": "Indice de risque marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2000,
-        "split_axis": "horizontal",
-        "split_label": "2000m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
-            "risk": 1,
+            "loc": null,
+            "risk": 3,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2000",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2000m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
+          "center": {
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-03-14",
+        "date": "2026-03-15",
         "label": "Indice de risque marqué",
-        "comment": "Coup de vent de Sud et précipitations neigeuses jusqu'à basse altitude. Forte augmentation du risque en montagne.",
-        "trend": "up"
+        "comment": "Le vent et les chutes associées au retour d'Est alimentent les instabilités. Risque restant marqué.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -78,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 1,
       "secondary": 3,
       "labels": {
-        "2": "Neige ventée",
+        "1": "Neige fraîche",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-08",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-09",
           "min_cm": 0,
@@ -118,22 +101,27 @@
           "date": "2026-03-13",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-14",
+          "min_cm": 15,
+          "max_cm": 30
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 15,
+        "last_48h_max_cm": 30
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Quelques plaques en altitude. COUCHES FRAGILES ENFOUIES GÉNÉRALISÉES MAIS PEU RÉACTIVES.",
-      "text": "Quelques plaques en altitude. COUCHES FRAGILES ENFOUIES GÉNÉRALISÉES MAIS PEU RÉACTIVES.\n\nDéclenchements provoqués : \n(1) quelques plaques sont en place dans la neige récente, plutôt en versant NO à E au-dessus de 2400 m. Généralement de 10-15 cm, les cassures gagnent en épaisseur en haute montagne. Les plaques peuvent être réactives car elles reposent sur des grains anguleux (face plane). De dimension assez modeste, elle engendrent des avalanches petites à moyenne (taille 1 à 2).\n(2) des couches fragiles persistantes (grains anguleux) sont enfouies de manière généralisée dans le manteau au-dessus de 2000 m en large Nord et même en sud de haute altitude (en tous versants). Leur sollicitation est très peu probable mais elles engendrent des avalanches de taille 2 à 3 (moyenne à grande). Le déclenchement est plus probable dans les pentes peu enneigées.\n\nDéparts spontanés : rares départs en poire (départs ponctuels) aux abords des cailloux dans les pentes raides, plutôt en versant E/SE d'altitude le matin (taille 1 à 2 = petite à moyenne avalanche).",
+      "title": "Chute de neige en cours : nouvelles instabilités de plus en plus réactives.",
+      "text": "Chute de neige en cours : nouvelles instabilités de plus en plus réactives.\n\nDéclenchement provoqués : quelques plaques de neige friable facilement déclenchables. Elles sont de plus en plus nombreuses et épaisses au fil des heures. Elles sont plus réactives en ubac où la neige était restée poudreuse (grains parfois anguleux), mais également en toute orientation en fin d'après-midi avec le renforcement du vent. Avalanche de taille petite à moyenne le matin, moyenne à rarement grande l'après-midi, surtout en ubac d'altitude. Cassures de 30 à 60 cm.\nAu-dessus de 2400 m en ubac, plus haut en adret, près des crêtes ou des croupes dégarnies (là où d’anciennes couches fragiles persistantes sont moins profondément enfouie) une grande avalanche est possible. Cassure pouvant dépasser 1 m.\n\nDéparts spontanés : Quelques petits départs dans les pentes raides au cours des chutes (départs ponctuels), puis à nouveau en fin d'après-midi avec le renforcement du vent (départs linéaires). Petites à moyennes avalanches. Exceptionnellement une grande avalanche en cas de départ en cascade sur la couche fragile persistante en altitude et en versants froids.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : légèrement excédentaire pour la saison en moyenne montagne, mais en train de devenir déficitaire en basse montagne et en versants sud. Et très déficitaire en haute montagne près de la crête frontalière, voire carrément absent de certains cols ou faces très exposées au vent.\n\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1500/1600 m en sud pas trop raide.\n\nQualité de la neige : \nOn trouve une neige croutée en nord jusqu'à 2300/2500 m, recouverte d'une petite couche de neige récente. La croute disparait plus haut, remplacée par des hétérogénéités liées à l'action du vent. En versants O/S/E, neige croutée qui ramollie puis col au gré de l'ensoleillement.",
+      "text": "Enneigement : légèrement excédentaire pour la saison en moyenne montagne, mais en train de devenir déficitaire en basse montagne et en versants sud. Et très déficitaire en haute montagne près de la crête frontalière, voire carrément absent de certains cols ou faces très exposées au vent.\n\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1500/1600 m en sud pas trop raide.\n\nQualité de la neige : couche de neige fraîche peu ventée s’épaississant en cours de journée. La sous-couche est dure ou croutée en adret mais elle sera de moins en moins perceptible au fil des heures. Sous-couche très dure ou absente à haute altitude, près des crêtes.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -145,7 +133,7 @@
         {
           "alt_m": 1500,
           "N": 70,
-          "S": 10
+          "S": 5
         },
         {
           "alt_m": 2000,

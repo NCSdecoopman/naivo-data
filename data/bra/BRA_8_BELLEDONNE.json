@@ -3,60 +3,48 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-03-12T16:00:00",
-    "valid_until": "2026-03-13T18:00:00",
+    "issued_at": "2026-03-13T16:00:00",
+    "valid_until": "2026-03-14T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2300m indice de risque limité évoluant en marqué, plus bas indice limité.",
+      "comment": "Indice de risque marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2300,
-        "split_axis": "horizontal",
-        "split_label": "2300m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2300",
-            "risk": 2,
+            "loc": null,
+            "risk": 3,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2300",
-            "risk": 2,
-            "evolution_to": 3,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2300m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "2",
-            "risk": 2,
+          "center": {
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
-          },
-          "top": {
-            "text": "2→3",
-            "risk": 2,
-            "evolution_to": 3
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-03-14",
+        "date": "2026-03-15",
         "label": "Indice de risque marqué",
-        "comment": "Samedi, temps neigeux du matin à l'après-midi donnant jusque 30 voire 40 cm en peu de temps. Risque d'avalanche devenant franchement marqué en cours de journée, dans la plupart des pentes...",
+        "comment": "Dimanche, risque marqué. Le vent de Nord souffle fort dans la nuit de samedi à dimanche, formant de nombreuses nouvelles plaques dans la neige récente.",
         "trend": "steady"
       }
     },
@@ -65,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -78,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 3,
+      "primary": 1,
+      "secondary": 2,
       "labels": {
-        "2": "Neige ventée",
-        "3": "Couche fragile persistante"
+        "1": "Neige fraîche",
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-08",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-09",
           "min_cm": 1,
@@ -116,46 +99,51 @@
         },
         {
           "date": "2026-03-13",
-          "min_cm": 2,
-          "max_cm": 5
+          "min_cm": 1,
+          "max_cm": 3
+        },
+        {
+          "date": "2026-03-14",
+          "min_cm": 15,
+          "max_cm": 25
         }
       ],
       "totals": {
-        "last_48h_min_cm": 2,
-        "last_48h_max_cm": 5
+        "last_48h_min_cm": 16,
+        "last_48h_max_cm": 28
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "EN COURS D'APRES-MIDI, POSSIBLE FORMATION DE NOUVELLES PLAQUES  INSTABLES EN VERSANTS FROIDS D'ALTITUDE...",
-      "text": "EN COURS D'APRES-MIDI, POSSIBLE FORMATION DE NOUVELLES PLAQUES  INSTABLES EN VERSANTS FROIDS D'ALTITUDE...\n\nNeige récente mieux stabilisée vendredi matin (rares plaques en nord d'altitude). En cours d'après-midi,  renforcement du vent de Sud à Sud-Ouest qui pourra former quelques plaques instables en faces Nord sommitales (là où la neige est restée poudreuse, au dessus de 2300m environ).\nDéclenchements provoqués : \nVendredi matin peu de risque de plaque ou de rares instabilités vers les hautes crêtes en faces Nord ? Plaques plutôt friables, localement encore 20/30  cm mobilisables.\nEn cours d'après-midi/soirée le vent de Sud à Sud-Ouest va se lever et pourra forme quelques nouvelles plaques instables, où la neige est restée poudreuse, en Nord à Nord-Est d'altitude (au dessus de 2200/2400m environ)...\nNoter qu'une sous-couche plus fragile est parfois enfouie, favorisant une cassure plus large, voire à distance. Signes observables : Transports de neige, fissure sous les skis.\nEn faces ensoleillées peu de risque de plaque. A la faveur du redoux diurne, plutôt un risque (limité) de coulée ponctuelle de neige humide sous les skis (glissant sur l'ancienne couche)\nDéparts spontanés : \nPeu d'activité attendue vendredi. Le matin, bon regel, neige croutée. Pas mal de pentes ont déjà coulées.\nPuis à la faveur du doux soleil, quelques nouvelles petites coulées (superficielles, sur 10/20 cm) seraient possibles en pentes humidifiées.\nDans une très rare pente herbeuse fissurée/secteur de reptation, une avalanche de fond, glissant au terrain n'est pas exclue (de taille moyenne), plutôt le soir ?",
+      "title": "INSTABILITES DANS LA NEIGE RECENTE, DE PLUS EN PLUS REACTIVES AU FIL DE LA JOURNEE. QUELQUES DEPARTS SPONTANES SOUS LES CHUTES DE NEIGE",
+      "text": "INSTABILITES DANS LA NEIGE RECENTE, DE PLUS EN PLUS REACTIVES AU FIL DE LA JOURNEE. QUELQUES DEPARTS SPONTANES SOUS LES CHUTES DE NEIGE\n\nDéclenchements provoqués : En versants Nord au-dessus de 2000 / 2200m environ (là où de la vieille poudre était encore présente ce vendredi soir) des plaques se forment sous le vent de Sud marqué dans la nuit de vendredi à samedi. Elles peuvent parfois se retrouver loin des crêtes, et sont sensibles au passage d'un skieur. Samedi matin, une perturbation apporte 20 à 30cm de neige fraîche sur le massif. Cette neige se dépose avec peu de vent, et repose sur un manteau généralement sain (hormis là où de petites plaques se sont formées dans la nuit). De petites instabilités seront toutefois présentes là où ces chutes s'accompagnent d'un léger vent de Nord-Ouest, à priori surtout vers les crêtes. En revanche, le vent de Nord se lève en journée et le manteau deviendra alors rapidement instable, avec la formation de nouvelles plaques en tout versants, très réactives et difficilement identifiables, car souvent d'aspect poudreuses. \nObservables : Transport en cours, neige densifiée par le vent en surface, fissures devant les skis. \nDéparts spontanés : Quelques avalanches de petites tailles ou de tailles moyennes peuvent partir spontanément sous les chutes de neige en matinée de samedi. Le risque deviendra moins marqué l'après-midi avec l'affaiblissement des chutes de neige.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1600 m, voire abondant en combes d'altitude. En Sud l'enneigement a régressé mais demeure correct.\nLimites skiables : Vers 1200/1600m hors sapins, guère de sous couche plus bas. \n\nQualité de la neige vendredi :  En faces ensoleillées et sous 2200/2400m environ : neige récente croutée  (en surface) par regel, des restes de coulées dans les pentes raides... Humidification assez rapide au soleil. \nVers les sommets neige plus soufflée, encore poudreuse en Nord d'altitude...",
+      "text": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1300 m. Il est correct en Sud mais les sous-couches sont rares sous 1700 / 1800m. \nLimites skiables : Vers 1100/1500m hors sapins. \n\nQualité de la neige samedi :  Fortes chutes de neige samedi matin, donnant 10cm de neige fraîche dés 1000m, 15cm vers 1500m, et 20 à 30cm sur le haut du massif. Neige légère, peu ventée, s'alourdissant un peu l'après-midi dans les nuages sous 1800m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1200,
-        "south": 1400
+        "south": 1600
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 80,
-          "S": 5
+          "N": 75,
+          "S": 0
         },
         {
           "alt_m": 2000,
           "N": 235,
-          "S": 130
+          "S": 120
         },
         {
           "alt_m": 2500,
           "N": 340,
-          "S": 230
+          "S": 220
         }
       ],
       "icon_key": "snowpack",
