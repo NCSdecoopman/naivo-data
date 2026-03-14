@@ -3,37 +3,49 @@
   "massif": "Chablais",
   "bulletin": {
     "id": 1,
-    "issued_at": "2026-03-13T16:00:00",
-    "valid_until": "2026-03-14T18:00:00",
+    "issued_at": "2026-03-14T16:00:00",
+    "valid_until": "2026-03-15T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1800,
+        "split_axis": "horizontal",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1800",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1800",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1800m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-03-15",
+        "date": "2026-03-16",
         "label": "Indice de risque marqué",
-        "comment": "De nouveau du fort vent dans la nuit de samedi à dimanche ⇒ nouvelles plaques à vent dans la neige récente.",
+        "comment": "Les instabilités temporaires se stabilisent. Avec le retour du soleil, des coulées au fil de l'ensoleillement sont attendues.",
         "trend": "steady"
       }
     },
@@ -78,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-09",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-10",
           "min_cm": 0,
           "max_cm": 1
@@ -99,29 +106,34 @@
         },
         {
           "date": "2026-03-13",
-          "min_cm": 3,
-          "max_cm": 5
+          "min_cm": 5,
+          "max_cm": 10
         },
         {
           "date": "2026-03-14",
-          "min_cm": 15,
-          "max_cm": 20
+          "min_cm": 20,
+          "max_cm": 30
+        },
+        {
+          "date": "2026-03-15",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 18,
-        "last_48h_max_cm": 25
+        "last_48h_min_cm": 20,
+        "last_48h_max_cm": 30
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "De nouvelles instabilités dans la neige fraiche",
-      "text": "De nouvelles instabilités dans la neige fraiche\n\nDéclenchements provoqués : \n* Plaques friables dans la neige récente, un peu plus nombreuses au fil des chutes, facilement déclenchables par un skieur. Taille 1 puis 2. Dans les versants NO/N/NE, au-dessus de 1800 m, la présence d’une couche fragile persistante facilite le déclenchement et augmente la taille des plaques. Taille 2 à 3, avec des cassures pouvant atteindre 1 m.\n* Plaques à vent formées dans la nuit de vendredi à samedi par le vent de sud-ouest, facilement déclenchables par un skieur, mais recouvertes par la neige fraîche en journée. Taille 2.\n\nDéparts spontanés :\nDéparts majoritairement ponctuels, quelques fois en plaques dans les versants froids, en tous versants, pendant les chutes. Taille 1 puis 2. Dans de rares cas, ces départs peuvent provoquer une avalanche en cascade sollicitant la couche fragile persistante, taille 2 rarement 3.",
+      "title": "Instabilités dans la neige de surface.",
+      "text": "Instabilités dans la neige de surface.\n\nDéclenchements provoqués :\n* Plaques friables temporaires dans la neige fraîche. Elles sont facilement déclenchables au passage d'un skieur. Principalement de taille 1 et 2 (petites et moyennes) avec des cassures de 25/30 cm. On les retrouve en toutes orientations, car elles sont liées aux chutes de neige de la veille. Attention, des plaques à vent peuvent se cacher dans les zones d'accumulation, mais elles sont cachées sous la neige fraîche.\n* Au-dessus de 1800m en NW/N/NE et 2500m ailleurs, une couche fragile est encore présente sous 50/60 cm de neige, mais très difficilement sollicitable. Dans le cas d'une avalanche en cascade, elle pourrait être sollicitée et engendrer des avalanches de taille 3 (grandes).\n\nDéparts spontanés :\n* Quelques avalanches de neige humide sont attendues en matinée sous le soleil, principalement sous 1800/2000 m. Taille 1 à 2.\n* Au fil de la journée, des reptations peuvent s'ouvrir et ainsi, des avalanches de fond sont possibles à toute heure et en tout versant. Taille 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nCorrect pour la saison.\nNeige fraîche à partir de 900 m, mais avec une vraie sous couche uniquement au-dessus de 1200/1300 m en nord et 1400/1700 m en sud. \n\nQualité de la neige de samedi : \nQuelques centimètres de neige fraîche en début de la journée, qui s’épaississent en cours de journée. Neige légère d’aspect poudreux. En face nord au-dessus de 1800 m et dans les versants ensoleillés au-dessus de 2500 m, cette neige repose sur de la vieille neige encore froide. Ailleurs, elle repose sur une croûte.",
+      "text": "Enneigement :\nIl est correct pour la saison. En matinée, on retrouve de la neige dès 800m, pas vraiment skiable et qui fondra très rapidement en matinée. On retrouve un manteau réellement skiable à partir de 1200m en Nord et 1500m en Sud.\n\nQualité de la neige ce dimanche : \n- On retrouve une couche de neige fraîche présente en surface (20/25 cm à 2000m). Cette neige est d'aspect léger et poudreux, et s'humidifie rapidement en sud sous 1800m. En versant nord, elle a tendance à rester froide plus longtemps. Elle repose sur un manteau encore froid en ubac et en altitude, et sur un manteau humide en sud sous 2500 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -142,8 +154,8 @@
         },
         {
           "alt_m": 2000,
-          "N": 190,
-          "S": 130
+          "N": 200,
+          "S": 140
         }
       ],
       "icon_key": "snowpack",

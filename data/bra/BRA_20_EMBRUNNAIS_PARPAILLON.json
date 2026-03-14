@@ -3,30 +3,30 @@
   "massif": "Embrunais Parpaillon",
   "bulletin": {
     "id": 20,
-    "issued_at": "2026-03-13T15:00:00",
-    "valid_until": "2026-03-14T18:00:00",
+    "issued_at": "2026-03-14T16:00:00",
+    "valid_until": "2026-03-15T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 2200,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "2200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<2200",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
+            "loc": ">2200",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "2200m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-03-15",
+        "date": "2026-03-16",
         "label": "Indice de risque marqué",
-        "comment": "Nouvelles plaques en formation dans la neige fraiche avec le renforcement du vent de nord-est. Départs parfois volumineux en versant nord.",
+        "comment": "Stabilisation progressive des plaques formées ce week-end. Maintien d'un risque marqué en altitude.",
         "trend": "steady"
       }
     },
@@ -64,11 +64,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 3,
       "labels": {
-        "1": "Neige fraîche",
+        "2": "Neige ventée",
         "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-09",
-          "min_cm": 1,
-          "max_cm": 2
-        },
         {
           "date": "2026-03-10",
           "min_cm": 3,
@@ -111,41 +106,46 @@
         },
         {
           "date": "2026-03-13",
-          "min_cm": 1,
+          "min_cm": 0,
           "max_cm": 1
         },
         {
           "date": "2026-03-14",
           "min_cm": 15,
           "max_cm": 20
+        },
+        {
+          "date": "2026-03-15",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 16,
-        "last_48h_max_cm": 21
+        "last_48h_min_cm": 15,
+        "last_48h_max_cm": 20
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOUVELLES PLAQUES EN FORMATION AVEC LES CHUTES DE NEIGE, PARFOIS GRANDES EN VERSANTS NORD D'ALTITUDE.",
-      "text": "NOUVELLES PLAQUES EN FORMATION AVEC LES CHUTES DE NEIGE, PARFOIS GRANDES EN VERSANTS NORD D'ALTITUDE. \n\nDéclenchements provoqués :  plaques en formation dans la neige fraiche, plus nombreuses et épaisses en journée au fil des chutes de neige. Plaques faciles à déclencher, possibles en toutes orientations et générant des avalanches de taille petite à moyenne (taille 1 à 2). Elles sont plus sensibles et volumineuses en ubacs au-dessus de 1800/2000 m où la neige fraiche se dépose sur des couches fragiles persistantes peu enfouies, générant des avalanches de taille moyenne, rarement grande (taille 2 à 3) avec des cassures parfois larges. \nUn départ très volumineux emportant la totalité du manteau neigeux reste non exclu suite à un premier départ de surface, par sollicitation de couches fragiles présentes à la base du manteau neigeux en versant est, nord et ouest au-dessus de 2000/2200 m. \n\nDéparts spontanés : peu probables dans la nuit de vendredi à samedi, puis devenant de plus en plus fréquent dès la matinée au fil des chutes de neige. Départs ponctuels de taille petite à moyenne en général (taille 1 à 2), rarement grand (taille 3) avec cassure linéaire en ubacs au-dessus de 2000/2200 m, en cas de sollicitation d'une couche fragile persistante enfouie.",
+      "title": "NOMBREUSES INSTABILITÉS SUPERFICIELLES DANS LA NEIGE RÉCENTE VENTÉE",
+      "text": "NOMBREUSES INSTABILITÉS SUPERFICIELLES DANS LA NEIGE RÉCENTE VENTÉE\n\nDéclenchements provoqués : instabilités plus nombreuses au-dessus de 2200 m environ. Possibles en toute orientation, plutôt dans les zones d'accumulation par le vent. Facilement déclenchables par un seul skieur, ces plaques restent parfois d'aspect poudreux et difficilement identifiables. Elles ne mobilisent généralement que la chute de neige de samedi, et génèrent des avalanches de taille petite (taille 1) à moyenne (taille 2) dans les zones de plus forte accumulation par le vent.\nUne grande avalanche (taille 3) emportant la totalité du manteau neigeux n'est pas exclue dans ces orientations nord d'altitude : la surcharge par une avalanche superficielle peut très localement solliciter les couches fragiles persistantes enfouies.   \nSous 2200 m, les instabilités, également déclenchables par un seul skieur, sont moins nombreuses et restent superficielles (taille 1). \n\nDéparts spontanés : nombreux de taille petite à moyenne par surcharge sous l'effet du transport de la neige par le vent, de la couche récente de neige fraîche. Un départ de grande taille (taille 3) avec épaisse cassure linéaire n'est pas exclu en ubacs d'altitude supérieure à 2200 m environ, si un premier départ de surface vient solliciter en cascade la couche fragile persistante enfouie près du sol. Petits départs ponctuels de neige récente humide sous les éclaircies en journée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales. Les limites d'enneigement remontent dans les pentes bien exposées au soleil.\nHauteurs de neige observées : 99 cm à la Nivôse du Parpaillon à 2550 m, secteur soufflé par le vent.\n\nLimite d'enneigement skiable : 1400 m en ubacs, plutôt 1700/1800 m en adrets pas trop raides.  \n\nÉtat de la neige de surface : on retrouve en surface une couche de neige fraiche à toute altitude, de plus en plus épaisse en fil de la journée. Elle se dépose sur un manteau neigeux croûté dans les adrets, ainsi qu'en ubacs sous 1800/2000 m, mais sur de la neige plus froide et meuble au-dessus. Neige travaillée par le vent proche des crêtes.",
+      "text": "L'enneigement est proche des normales. La montagne a temporairement retrouvé un aspect hivernal entre 1000 et 1500 m suite à chute ce samedi.  \nHauteurs de neige observées : 110 cm à la Nivôse du Parpaillon à 2550 m.\n\nLimite d'enneigement skiable : vers 1400 m en ubacs, 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface :  neige fraîche encore légère dans les endroits abrités du vent, tombée humide sous 1800/2000 m. Manteau neigeux densifié par le vent près des crêtes. Cette neige repose généralement sur un fond dur, printanier ou durci par le vent, sauf en ubacs d'altitude supérieure à 2300 m environ et abrités du vent, où la précédente chute est restée meuble.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1300,
-        "south": 1600
+        "north": 1000,
+        "south": 1000
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 25,
-          "S": 0
+          "N": 30,
+          "S": 5
         },
         {
           "alt_m": 2000,
