@@ -3,8 +3,8 @@
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
-    "issued_at": "2026-03-13T16:00:00",
-    "valid_until": "2026-03-14T18:00:00",
+    "issued_at": "2026-03-14T16:00:00",
+    "valid_until": "2026-03-15T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-03-15",
-        "label": "Indice de risque marqué",
-        "comment": "Le vent alimente les instabilités. Risque restant marqué.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-03-16",
+        "label": "Indice de risque limité",
+        "comment": "Risque en baisse. Les instabilités issues de la neige récente est du vent se dissipent. Un peu d'activité attendue avec le retour du soleil.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 3,
+      "primary": 2,
+      "secondary": 1,
       "labels": {
-        "1": "Neige fraîche",
-        "3": "Couche fragile persistante"
+        "2": "Neige ventée",
+        "1": "Neige fraîche"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-09",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-10",
           "min_cm": 0,
@@ -104,24 +99,29 @@
         },
         {
           "date": "2026-03-14",
-          "min_cm": 15,
+          "min_cm": 10,
           "max_cm": 25
+        },
+        {
+          "date": "2026-03-15",
+          "min_cm": 0,
+          "max_cm": 3
         }
       ],
       "totals": {
-        "last_48h_min_cm": 15,
-        "last_48h_max_cm": 25
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 28
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Chute de neige en cours : nouvelles instabilités de plus en plus réactives.",
-      "text": "Chute de neige en cours : nouvelles instabilités de plus en plus réactives.\n\nDéclenchement provoqués : quelques plaques de neige friable facilement déclenchables. Elles sont de plus en plus nombreuses et épaisses au fil des heures. Elles sont plus réactives en ubac où la neige était restée poudreuse (grains parfois anguleux), mais également en toute orientation en fin d'après-midi avec le renforcement du vent. Avalanche de taille petite à moyenne le matin, moyenne à rarement grande l'après-midi, surtout en ubac d'altitude. Cassures de 30 à 60 cm.\nAu-dessus de 2400 m en ubac, plus haut en adret, près des crêtes ou des croupes dégarnies (là où d’anciennes couches fragiles persistantes sont moins profondément enfouie) une grande avalanche est possible. Cassure pouvant dépasser 1 m.\n\nDéparts spontanés : Quelques petits départs dans les pentes raides au cours des chutes (départs ponctuels), puis à nouveau en fin d'après-midi avec le renforcement du vent (départs linéaires). Petites à moyennes avalanches. Exceptionnellement une grande avalanche en cas de départ en cascade sur la couche fragile persistante en altitude et en versants froids.",
+      "title": "Variation de vent et neige récente : quelques instabilités réactives.",
+      "text": "Variation de vent et neige récente : quelques instabilités réactives.\n\nDéclenchement provoqués : quelques plaques facilement déclenchables sont en place suite aux multiples variations de vent (encore en cours en matinée) sur la neige récente. Elles sont d'aspect poudreux dans les pentes et plutôt dure près des crêtes. Elles sont plus réactives et épaisses en ubac où la neige était restée poudreuse (grains parfois anguleux). Avalanche de taille petite à moyenne, rarement grande en ubac d'altitude.\nAu-dessus de 2400 m, préférentiellement en ubacs, ainsi que près des crêtes ou des croupes dégarnies (là où d’anciennes couches fragiles persistantes sont présentes et moins profondément enfouies), une grande avalanche est plus probable. Cassure pouvant dépasser 1 m.\n\nDéparts spontanés :\n- Quelques petites purges dans les pentes raides, près des rochers, avec le retour du soleil à la mi-journée. Taille 1.\n- Sous le vent des hautes crêtes, une rare plaque peut céder spontanément par surcharge par le transport de neige par le vent (jusqu'à la mi-journée). Taille 1 à 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : en général légèrement excédentaire pour la saison, mais en train de devenir déficitaire en basse montagne et en versant sud.\n\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1500/1600 m en sud pas trop raide.\n\nQualité de la neige : couche de neige fraîche peu ventée s’épaississant en cours de journée. La sous-couche est dure ou croutée en adret mais elle sera de moins en moins perceptible au fil des heures. En fin d’après-midi, le vent modéré de nord-ouest densifie un peu la neige.",
+      "text": "Enneigement : en général légèrement excédentaire pour la saison, mais en train de devenir déficitaire en basse montagne et en versant sud.\n\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1500/1600 m en sud pas trop raide.\n\nQualité de la neige : couche de neige fraîche légère de plus en plus conséquente avec l'altitude (15/25 cm vers 2500 m), parfois redistribuée (épaisseur hétérogène), cartonnée ou densifiée par le vent (risque de plaque!). Sous-couche dure en adret. Épaisseur de neige meuble parfois importante en altitude.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -133,7 +133,7 @@
         {
           "alt_m": 1500,
           "N": 70,
-          "S": 20
+          "S": 15
         },
         {
           "alt_m": 2000,

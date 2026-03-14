@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="19" MASSIF="Champsaur" DATEBULLETIN="2026-03-14T16:00:00" DATEECHEANCE="2026-03-15T18:00:00" DATEVALIDITE="2026-03-15T18:00:00" DATEDIFFUSION="2026-03-14T16:00:00" AMENDEMENT="false">
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="19" MASSIF="Champsaur" DATEBULLETIN="2026-03-14T17:00:00" DATEECHEANCE="2026-03-15T18:00:00" DATEVALIDITE="2026-03-15T18:00:00" DATEDIFFUSION="2026-03-14T17:01:00" AMENDEMENT="false">
   <DateValidite>2026-03-15T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
     <RISQUE RISQUE1="2" EVOLURISQUE1="" LOC1="&lt;2200" ALTITUDE="2200" RISQUE2="3" EVOLURISQUE2="" LOC2="&gt;2200" RISQUEMAXI="3" COMMENTAIRE="Au-dessus de 2200m indice de risque marqué, plus bas indice limité." RISQUEMAXIJ2="3" DATE_RISQUE_J2="2026-03-16T00:00:00"/>
@@ -32,7 +32,7 @@ Départs spontanés : plaques à vent de taille petite à moyenne. Un départ de
   </STABILITE>
   <QUALITE>
     <TEXTE><![CDATA[L'enneigement est proche des normales. Les fonds de vallée ont temporairement retrouvé un aspect hivernal suite à la chute ce samedi.  
-Hauteurs de neige observées vers 2500 m : 185 cm dans le vallon du Chardonnet, 122 cm à la nivôse des Rochilles, 95 cm à la Nivôse du Galibier.
+Hauteurs de neige observées vers 2500 m : 30 cm au hameau des Portes dans le Valgaudemar à 1270 m, 148 cm à la Nivôse d'Orcières à 2280 m, et 195 cm au-dessus de Prapic à 2480 m.
 
 Limite d'enneigement skiable : vers 1400 m en ubacs, 1700/1800 m en adrets pas trop raides.
 

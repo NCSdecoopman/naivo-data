@@ -3,7 +3,7 @@
   "massif": "Champsaur",
   "bulletin": {
     "id": 19,
-    "issued_at": "2026-03-14T16:00:00",
+    "issued_at": "2026-03-14T17:00:00",
     "valid_until": "2026-03-15T18:00:00",
     "amended": false
   },
@@ -133,7 +133,7 @@
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales. Les fonds de vallée ont temporairement retrouvé un aspect hivernal suite à la chute ce samedi.  \nHauteurs de neige observées vers 2500 m : 185 cm dans le vallon du Chardonnet, 122 cm à la nivôse des Rochilles, 95 cm à la Nivôse du Galibier.\n\nLimite d'enneigement skiable : vers 1400 m en ubacs, 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface :  neige fraîche tombée légère au-dessus de 1800/2000 m, humide en dessous, puis rapidement cartonnée voire fortement durcie par le fort vent d'est . Cette neige repose généralement sur un fond dur, printanier ou durci par le vent, sauf en ubacs d'altitude supérieure à 2300 m environ et abrités du vent, où la précédente chute est restée meuble.",
+      "text": "L'enneigement est proche des normales. Les fonds de vallée ont temporairement retrouvé un aspect hivernal suite à la chute ce samedi.  \nHauteurs de neige observées vers 2500 m : 30 cm au hameau des Portes dans le Valgaudemar à 1270 m, 148 cm à la Nivôse d'Orcières à 2280 m, et 195 cm au-dessus de Prapic à 2480 m.\n\nLimite d'enneigement skiable : vers 1400 m en ubacs, 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface :  neige fraîche tombée légère au-dessus de 1800/2000 m, humide en dessous, puis rapidement cartonnée voire fortement durcie par le fort vent d'est . Cette neige repose généralement sur un fond dur, printanier ou durci par le vent, sauf en ubacs d'altitude supérieure à 2300 m environ et abrités du vent, où la précédente chute est restée meuble.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
