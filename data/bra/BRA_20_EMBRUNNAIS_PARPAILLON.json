@@ -3,8 +3,8 @@
   "massif": "Embrunais Parpaillon",
   "bulletin": {
     "id": 20,
-    "issued_at": "2026-03-14T16:00:00",
-    "valid_until": "2026-03-15T18:00:00",
+    "issued_at": "2026-03-15T16:00:00",
+    "valid_until": "2026-03-16T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-03-16",
-        "label": "Indice de risque marqué",
-        "comment": "Stabilisation progressive des plaques formées ce week-end. Maintien d'un risque marqué en altitude.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-03-17",
+        "label": "Indice de risque limité",
+        "comment": "Poursuite de la stabilisation du manteau neigeux. Risque limité.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -79,21 +79,15 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 3,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
-        "3": "Couche fragile persistante"
+        "2": "Neige ventée"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-10",
-          "min_cm": 3,
-          "max_cm": 5
-        },
         {
           "date": "2026-03-11",
           "min_cm": 2,
@@ -111,51 +105,56 @@
         },
         {
           "date": "2026-03-14",
-          "min_cm": 15,
+          "min_cm": 10,
           "max_cm": 20
         },
         {
           "date": "2026-03-15",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-16",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 15,
-        "last_48h_max_cm": 20
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES INSTABILITÉS SUPERFICIELLES DANS LA NEIGE RÉCENTE VENTÉE",
-      "text": "NOMBREUSES INSTABILITÉS SUPERFICIELLES DANS LA NEIGE RÉCENTE VENTÉE\n\nDéclenchements provoqués : instabilités plus nombreuses au-dessus de 2200 m environ. Possibles en toute orientation, plutôt dans les zones d'accumulation par le vent. Facilement déclenchables par un seul skieur, ces plaques restent parfois d'aspect poudreux et difficilement identifiables. Elles ne mobilisent généralement que la chute de neige de samedi, et génèrent des avalanches de taille petite (taille 1) à moyenne (taille 2) dans les zones de plus forte accumulation par le vent.\nUne grande avalanche (taille 3) emportant la totalité du manteau neigeux n'est pas exclue dans ces orientations nord d'altitude : la surcharge par une avalanche superficielle peut très localement solliciter les couches fragiles persistantes enfouies.   \nSous 2200 m, les instabilités, également déclenchables par un seul skieur, sont moins nombreuses et restent superficielles (taille 1). \n\nDéparts spontanés : nombreux de taille petite à moyenne par surcharge sous l'effet du transport de la neige par le vent, de la couche récente de neige fraîche. Un départ de grande taille (taille 3) avec épaisse cassure linéaire n'est pas exclu en ubacs d'altitude supérieure à 2200 m environ, si un premier départ de surface vient solliciter en cascade la couche fragile persistante enfouie près du sol. Petits départs ponctuels de neige récente humide sous les éclaircies en journée.",
+      "title": "INSTABILITÉS EN ALTITUDE DANS LA NEIGE RÉCENTE VENTÉE",
+      "text": "INSTABILITÉS EN ALTITUDE DANS LA NEIGE RÉCENTE VENTÉE\n\nDéclenchements provoqués : instabilités encore fréquentes au-dessus de 2200 m environ. Possibles en toute orientation dans les zones d'accumulation par le vent, même loin des crêtes, elles sont facilement déclenchables par un seul skieur. Elles se présentent sous forme de plaques parfois d'aspect poudreux et difficilement identifiables et génèrent des avalanches de taille petite (taille 1) à moyenne (taille 2) dans les zones de plus forte accumulation par le vent. Ces instabilités se sont formées suite à l'action du vent sur la couche de neige récente tombée légère. \nSous 2200 m, les instabilités, également déclenchables par un seul skieur, sont moins nombreuses et restent superficielles et peu volumineuses (taille 1). \n\nDéparts spontanés : rares en plaques à vent, de taille petite à moyenne, dans les zones d'accumulation par le vent près des crêtes de haute altitude. Départs ponctuels de neige récente humide sous les éclaircies en journée, taille 1.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales. La montagne a temporairement retrouvé un aspect hivernal entre 1000 et 1500 m suite à chute ce samedi.  \nHauteurs de neige observées : 110 cm à la Nivôse du Parpaillon à 2550 m.\n\nLimite d'enneigement skiable : vers 1400 m en ubacs, 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface :  neige fraîche encore légère dans les endroits abrités du vent, tombée humide sous 1800/2000 m. Manteau neigeux densifié par le vent près des crêtes. Cette neige repose généralement sur un fond dur, printanier ou durci par le vent, sauf en ubacs d'altitude supérieure à 2300 m environ et abrités du vent, où la précédente chute est restée meuble.",
+      "text": "L'enneigement est proche des normales pour une mi-mars.\nHauteurs de neige observées : 110 cm à la Nivôse du Parpaillon à 2550 m.\n\nLimite d'enneigement skiable : vers 1400 m en ubacs, 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface :  neige récente (10/20 cm) souvent densifiée par le vent en altitude et déjà alourdie sous 2200 m.  En journée, nette humidification au soleil jusqu'à haute altitude en adrets abrités du vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1000,
-        "south": 1000
+        "north": 1300,
+        "south": 1500
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 30,
-          "S": 5
+          "N": 40,
+          "S": 10
         },
         {
           "alt_m": 2000,
-          "N": 95,
-          "S": 55
+          "N": 110,
+          "S": 70
         },
         {
           "alt_m": 2500,
-          "N": 150,
-          "S": 80
+          "N": 170,
+          "S": 100
         }
       ],
       "icon_key": "snowpack",

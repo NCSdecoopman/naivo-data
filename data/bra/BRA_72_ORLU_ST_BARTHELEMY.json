@@ -3,8 +3,8 @@
   "massif": "Orlu St-Barthelemy",
   "bulletin": {
     "id": 72,
-    "issued_at": "2026-03-14T16:00:00",
-    "valid_until": "2026-03-15T18:00:00",
+    "issued_at": "2026-03-15T16:00:00",
+    "valid_until": "2026-03-16T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-03-16",
+        "date": "2026-03-17",
         "label": "Indice de risque marqué",
-        "comment": "Stabilisation lente des structures de plaque, transport encore actif en altitude",
+        "comment": "Maintien d'un risque marqué avec le redoux prévu et l'accentuation de l'humidification du manteau.",
         "trend": "steady"
       }
     },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
-        "1": "Neige fraîche",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-10",
-          "min_cm": 0,
-          "max_cm": 1
-        },
         {
           "date": "2026-03-11",
           "min_cm": 1,
@@ -99,51 +94,56 @@
         },
         {
           "date": "2026-03-14",
-          "min_cm": 20,
-          "max_cm": 25
+          "min_cm": 10,
+          "max_cm": 20
         },
         {
           "date": "2026-03-15",
           "min_cm": 1,
           "max_cm": 1
+        },
+        {
+          "date": "2026-03-16",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 21,
-        "last_48h_max_cm": 26
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nombreuses instabilités dans la neige récente",
-      "text": "Nombreuses instabilités dans la neige récente\n\nDéclenchements provoqués :\nNombreuses structures de plaques facilement déclenchables dans la neige récente. Elles donneront principalement des avalanches de taille 1 à 2. Dans un large secteur sud, elles pourront localement donner des avalanches de taille 3 avec des accumulations plus importantes dues au transport qui perdure toute la journée. Ces plaques seront plutôt dures dans les zones ventées, plutôt friables dans des zones un peu plus protégées. La couche fragile est majoritairement constituée de neige fraiche moins ventée. Localement, il est possible que des grains facettés ou du givre de surface formés lors des nuits claires du début de semaine puissent aussi jouer ce rôle.\n(Observables : traces d'avalanches récentes, fissures sous les skis, affaissement accompagné de 'whoomf', signes de transport par le vent)\nDéparts spontanés :\n- Départs spontanés linéaires attendus par surcharge d'une couche fragile présente au sein ou à la base de la couche de neige fraîche. En effet, malgré l'arrêt des précipitations dans la matinée, le transport par le vent restera efficace dans une neige qui reste froide et légère. Ces départs pourront conduire à des avalanches de taille 2, voire 3 (grande) dans les accumulations les plus importantes (cf déclenchements provoqués).\n(Observables : transport de neige par le vent)\n- Départs ponctuels possibles en pente raide ensoleillée avec le retour des éclaircies. Avalanches de surface de taille 1 à 2, emportant la neige récente. \nAutres : \nTempératures froides accentuées par le vent de nord-ouest à nord.",
+      "title": "Nombreuses plaques et redoux",
+      "text": "Nombreuses plaques et redoux\n\nDéclenchements provoqués :\nNombreuses structures de plaques facilement déclenchables dans la neige récente. Elles donneront principalement des avalanches de taille 1 à 2. En altitude, avec un vent turbulent qui a soufflé très fort dimanche proche de la frontière, elles pourront localement donner des avalanches de taille 3. A noter que ces plaque sont parfois situées loin des crêtes. Elles sont plutôt dures dans les zones ventées, plutôt friables dans des zones un peu plus protégées. La couche fragile est majoritairement constituée de neige fraiche moins ventée. Localement, dans les secteurs froids d'altitude (typiquement au dessus de 2400m dans un large secteur nord),  il est possible que des grains facettés ou du givre de surface formés lors des nuits claires de la semaine dernière puissent aussi jouer ce rôle.\n(Observables : traces d'avalanches récentes, fissures sous les skis, affaissement accompagné de 'whoomf', signes de transport par le vent)\nDéparts spontanés :\n- Départs ponctuels ou linéaires possibles au soleil avec avec un manteau qui s'humidifie progressivement en dessous de 2400m environ. Avalanches de surface de taille 1 à 2 attendues, emportant la neige récente.\n- Avalanches de fond possible en terrain herbeux ou sur des roches lisses préalablement découvertes avant les chutes du week-end (taille 1 à 2). (Observable : fissures, reptations récentes)\n- Principalement en matinée et au dessus de 2000m, départs spontanés linéaires attendus par surcharge d'une couche fragile présente au sein ou à la base de la couche de neige fraîche. Le transport par le vent est en effet encore un peu actif en début de journée là où la neige est restée froide et légère. Ces départs pourront conduire à des avalanches de taille 2, voire 3 (grande) dans les accumulations les plus importantes (cf déclenchements provoqués).  \n(Observables : accumulations, transport de neige par le vent)",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nAprès plusieurs hivers déficitaires, l'enneigement sur le massif est cette année largement excédentaire.\nLes chutes de neige de la nuit ont donné une dizaine de cm dès 1000m d'altitude. Sur le total de l'épisode qui a débuté dans la nuit de vendredi à samedi, une trentaine de cm sont tombés en altitude, mais les cumuls sont très hétérogènes à cause du vent. \nLimites skiables : \nDimanche matin, on pourra envisager de chausser les skis dès 1000m, voir un peu moins en terrain herbeux, mais sans véritable sous-couche en dessous de 1500m en versants froids, 1700/1800m en versants Sud.\nÉtat de la neige : \nNeige froide, déposée sur un fond souvent dur là où de la neige était présente avant les chutes. En surface, cette neige sera frittée à cartonnée près des crêtes, cols et sommets, restant meuble à l'abri du vent (clairières et combes déventées notamment). Elle s'humidifiera avec le soleil en journée, mais uniquement à basse altitude, et dans les pentes raides.",
+      "text": "Enneigement : \nAprès plusieurs hivers déficitaires, l'enneigement sur le massif est cette année largement excédentaire.\nUne trentaine de cm sont tombé en altitude ce week-end, assez hétérogènes à cause du vent. La fonte débute avec le redoux prévu ce jour.\nLimites skiables : \nLundi matin, on pourra envisager de chausser les skis vers 1200m en terrain herbeux, mais sans véritable sous-couche en dessous de 1500m en versants froids, 1800/1900m en versants sud.\nÉtat de la neige : \nNeige restée froide et légère à l'ombre et en altitude. Bon regel matinal là où le soleil avait commencé à l'humidifier en surface dimanche. En altitude, la neige sera frittée à cartonnée près des crêtes, cols et sommets, restant meuble à l'abri du vent (clairières et combes déventées notamment). Elle s'humidifiera en surface avec le soleil en journée dans les pentes en dessous de 2400m environ.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1300,
-        "south": 1300
+        "north": 800,
+        "south": 800
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 25,
-          "S": 10
+          "N": 30,
+          "S": 15
         },
         {
           "alt_m": 2000,
-          "N": 200,
-          "S": 135
+          "N": 215,
+          "S": 150
         },
         {
           "alt_m": 2500,
-          "N": 330,
-          "S": 270
+          "N": 350,
+          "S": 290
         }
       ],
       "icon_key": "snowpack",

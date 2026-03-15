@@ -3,8 +3,8 @@
   "massif": "Chablais",
   "bulletin": {
     "id": 1,
-    "issued_at": "2026-03-14T16:00:00",
-    "valid_until": "2026-03-15T18:00:00",
+    "issued_at": "2026-03-15T16:00:00",
+    "valid_until": "2026-03-16T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-03-16",
-        "label": "Indice de risque marqué",
-        "comment": "Les instabilités temporaires se stabilisent. Avec le retour du soleil, des coulées au fil de l'ensoleillement sont attendues.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-03-17",
+        "label": "Indice de risque limité",
+        "comment": "Les instabilités temporaires de la neige de samedi se stabilisent lentement, mais au vu des quantités de neige, le risque reste encore marqué. Les températures remontent nettement en journée de mardi, engendrant ainsi un risque de nombreuses coulées en adrets.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -79,21 +79,16 @@
     },
     "sat": {
       "primary": 1,
-      "secondary": 3,
+      "secondary": 4,
       "labels": {
         "1": "Neige fraîche",
-        "3": "Couche fragile persistante"
+        "4": "Neige humide"
       },
       "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-10",
-          "min_cm": 0,
-          "max_cm": 1
-        },
         {
           "date": "2026-03-11",
           "min_cm": 10,
@@ -118,44 +113,49 @@
           "date": "2026-03-15",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-16",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 20,
-        "last_48h_max_cm": 30
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Instabilités dans la neige de surface.",
-      "text": "Instabilités dans la neige de surface.\n\nDéclenchements provoqués :\n* Plaques friables temporaires dans la neige fraîche. Elles sont facilement déclenchables au passage d'un skieur. Principalement de taille 1 et 2 (petites et moyennes) avec des cassures de 25/30 cm. On les retrouve en toutes orientations, car elles sont liées aux chutes de neige de la veille. Attention, des plaques à vent peuvent se cacher dans les zones d'accumulation, mais elles sont cachées sous la neige fraîche.\n* Au-dessus de 1800m en NW/N/NE et 2500m ailleurs, une couche fragile est encore présente sous 50/60 cm de neige, mais très difficilement sollicitable. Dans le cas d'une avalanche en cascade, elle pourrait être sollicitée et engendrer des avalanches de taille 3 (grandes).\n\nDéparts spontanés :\n* Quelques avalanches de neige humide sont attendues en matinée sous le soleil, principalement sous 1800/2000 m. Taille 1 à 2.\n* Au fil de la journée, des reptations peuvent s'ouvrir et ainsi, des avalanches de fond sont possibles à toute heure et en tout versant. Taille 2.",
+      "title": "Instabilités ventées dans la neige de surface.",
+      "text": "Instabilités ventées dans la neige de surface.\n\nDéclenchements provoqués :\n* Plaques temporaires dans la neige fraîche. Elles sont facilement déclenchables au passage d'un skieur. Principalement de taille 1 et 2 (petites et moyennes) avec des cassures de 30/40 cm. On les retrouve en toutes orientations, car elles sont liées aux chutes de neige de la veille. Attention, des plaques à vent peuvent se cacher dans les zones d'accumulation, mais elles sont cachées sous la neige fraîche. Ces plaques sont principalement d'aspect poudreux, mais peuvent être d'aspect dur à cause du vent en étant également plus rarement déclenchables.\n* Au-dessus de 1800m en NW/N/NE et 2500m ailleurs, une couche fragile est encore présente sous environ 1m de neige, mais très difficilement sollicitable. Dans le cas d'une avalanche en cascade, elle pourrait être sollicitée et engendrer des avalanches de taille 3 (grandes).\n\nDéparts spontanés :\n* Quelques avalanches de neige humide sont attendues en matinée sous le soleil, principalement sous 1800/2000 m. Taille 1 à 2.\n* Au fil de la journée, des reptations peuvent s'ouvrir et ainsi, des avalanches de fond sont possibles à toute heure et en tout versant. Taille 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nIl est correct pour la saison. En matinée, on retrouve de la neige dès 800m, pas vraiment skiable et qui fondra très rapidement en matinée. On retrouve un manteau réellement skiable à partir de 1200m en Nord et 1500m en Sud.\n\nQualité de la neige ce dimanche : \n- On retrouve une couche de neige fraîche présente en surface (20/25 cm à 2000m). Cette neige est d'aspect léger et poudreux, et s'humidifie rapidement en sud sous 1800m. En versant nord, elle a tendance à rester froide plus longtemps. Elle repose sur un manteau encore froid en ubac et en altitude, et sur un manteau humide en sud sous 2500 m.",
+      "text": "Enneigement :\nIl est correct pour la saison. En matinée, on retrouve de la neige dès 1000/1200 m. On retrouve un manteau réellement skiable à partir de 1200m en Nord et 1500m en Sud.\n\nQualité de la neige ce lundi : \n- On retrouve une couche de neige fraîche présente en surface (30/40 cm). Cette neige est d'aspect léger et poudreux, et s'humidifie rapidement en sud sous 1800m. En versant nord, elle a tendance à rester froide plus longtemps. Elle repose sur un manteau encore froid en ubac et en altitude, et sur un manteau humide en sud sous 2500 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1100,
-        "south": 1400
+        "north": 700,
+        "south": 700
       },
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 0,
-          "S": 0
+          "N": 5,
+          "S": 5
         },
         {
           "alt_m": 1500,
-          "N": 80,
-          "S": 60
+          "N": 90,
+          "S": 70
         },
         {
           "alt_m": 2000,
-          "N": 200,
-          "S": 140
+          "N": 230,
+          "S": 170
         }
       ],
       "icon_key": "snowpack",

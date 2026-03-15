@@ -3,37 +3,49 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-03-14T16:00:00",
-    "valid_until": "2026-03-15T18:00:00",
+    "issued_at": "2026-03-15T16:00:00",
+    "valid_until": "2026-03-16T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1800,
+        "split_axis": "horizontal",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1800",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1800",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1800m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-16",
+        "date": "2026-03-17",
         "label": "Indice de risque limité",
-        "comment": "Risque en baisse. Les instabilités issues de la neige récente est du vent se dissipent. Un peu d'activité attendue avec le retour du soleil.",
+        "comment": "La neige récente se stabilise rapidement avec le retour du temps calme. Le risque est \"limité\".",
         "trend": "down"
       }
     },
@@ -66,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 1,
+      "primary": 1,
+      "secondary": 4,
       "labels": {
-        "2": "Neige ventée",
-        "1": "Neige fraîche"
+        "1": "Neige fraîche",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-10",
-          "min_cm": 0,
-          "max_cm": 3
-        },
         {
           "date": "2026-03-11",
           "min_cm": 10,
@@ -104,46 +111,51 @@
         },
         {
           "date": "2026-03-15",
+          "min_cm": 1,
+          "max_cm": 2
+        },
+        {
+          "date": "2026-03-16",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 20,
-        "last_48h_max_cm": 31
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 2
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Variation de vent et neige récente : quelques instabilités réactives.",
-      "text": "Variation de vent et neige récente : quelques instabilités réactives.\n\nDéclenchement provoqués : quelques plaques facilement déclenchables sont en place suite aux multiples variations de vent (encore en cours en matinée) sur la neige récente. Elles sont d'aspect poudreux dans les pentes et plutôt dure près des crêtes. Elles sont plus réactives et épaisses en ubac où la neige était restée poudreuse (grains parfois anguleux). Avalanche de taille petite à moyenne, rarement grande en ubac d'altitude.\n\nDéparts spontanés :\n- Quelques petites purges dans les pentes raides, près des rochers, avec le retour du soleil à la mi-journée. Taille 1.\n- Sous le vent des hautes crêtes, une rare plaque peut céder spontanément par surcharge par le transport de neige par le vent (jusqu'à la mi-journée). Taille 1 à 2.",
+      "title": "MANTEAU NEIGEUX ENCORE INSTABLE SUITE A LA RÉCENTE CHUTE DE NEIGE.",
+      "text": "MANTEAU NEIGEUX ENCORE INSTABLE SUITE A LA RÉCENTE CHUTE DE NEIGE.\n\nDéclenchements provoqués : encore quelques plaques faciles à déclencher dans la neige récente, en tous versants mais plutôt au-dessus de 1800/2200 m selon l'orientation. Ces plaques, d'aspect généralement poudreux, sont plus fréquentes près des crêtes où le vent a localement soufflé (la neige est alors ferme sous les skis). Cassures généralement 20-40 cm, avalanches de taille moyenne. Facteur aggravant : la dernière chute de neige s'est localement déposée sur une fine couche de grains anguleux, ce qui rend les plaques particulièrement réactives dans les versants ombragés : un déclenchement à distance est alors possible.\n\nDéparts spontanés : quelques départs ponctuels en neige humide dans les versants ensoleillés (est, sud puis ouest au fil de la journée). En particulier, les couloirs raides \"se purgent\". Petites à moyennes avalanches.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : dans la normale pour la saison, mais en train de devenir déficitaire en basse montagne et en versants sud.\n\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1400/1500 m en sud pas trop raide.\n\nQualité de la neige : couche de neige fraîche légère de plus en plus conséquente avec l'altitude (20/30 cm vers 2500 m), parfois redistribuée (épaisseur hétérogène), cartonnée ou densifiée par le vent (risque de plaque!). Sous-couche dure en adret. Épaisseur de neige meuble parfois importante en altitude.",
+      "text": "Enneigement : généralement très bon, sauf aux basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1400/1500 m en sud pas trop raide.\n\nQualité de la neige : \n- en versants ombragés, crouté sous 1600/1800 m puis couche de neige fraîche légère de plus en plus conséquente avec l'altitude (20/30 cm vers 2500 m), parfois redistribuée ou densifiée par le vent (risque de plaque!). Épaisseur de neige meuble parfois importante en altitude.\n- en versants ensoleillés, neige encore froide en altitude à l'aube (mais déjà finement croutée et désagréable aux basses altitudes). En journée, humidification et bottage jusqu'à haute altitude.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1100,
-        "south": 1400
+        "north": 800,
+        "south": 1000
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 130,
-          "S": 45
+          "N": 150,
+          "S": 60
         },
         {
           "alt_m": 2000,
-          "N": 200,
-          "S": 140
+          "N": 210,
+          "S": 150
         },
         {
           "alt_m": 2500,
-          "N": 260,
-          "S": 190
+          "N": 280,
+          "S": 210
         }
       ],
       "icon_key": "snowpack",
