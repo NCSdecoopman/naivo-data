@@ -3,14 +3,14 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-03-14T16:00:00",
+    "issued_at": "2026-03-15T08:00:00",
     "valid_until": "2026-03-15T18:00:00",
-    "amended": false
+    "amended": true
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "max_level": 4,
+      "comment": "Indice de risque fort.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 3,
+            "risk": 4,
             "evolution_to": null,
             "position": null
           }
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "3",
-            "risk": 3,
+            "text": "4",
+            "risk": 4,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 2,
+        "max_level": 3,
         "date": "2026-03-16",
-        "label": "Indice de risque limité",
-        "comment": "Risque en baisse. Les instabilités issues de la neige récente est du vent se dissipent. Un peu d'activité attendue avec le retour du soleil.",
+        "label": "Indice de risque marqué",
+        "comment": "Risque en baisse, le manteau se tasse rapidement. Le vent reste présent et contribue à former quelques nouvelles plaques faciles à déclencher. Un peu d'activité attendue avec le retour du soleil.",
         "trend": "down"
       }
     },
@@ -66,13 +66,12 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 1,
+      "primary": 1,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
         "1": "Neige fraîche"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
@@ -115,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Variation de vent et neige récente : quelques instabilités réactives.",
-      "text": "Variation de vent et neige récente : quelques instabilités réactives.\n\nDéclenchement provoqués : quelques plaques facilement déclenchables sont en place suite aux multiples variations de vent (encore en cours en matinée) sur la neige récente. Elles sont plus nombreuses et épaisses en allant vers la frontière Italienne. Elles sont d'aspect poudreux dans les pentes et plutôt dure près des crêtes. Elles sont plus réactives et épaisses en ubac où la neige était restée poudreuse (grains parfois anguleux). Avalanche de taille petite à moyenne, rarement grande en ubac d'altitude.\nAu-dessus de 2400 m, préférentiellement en ubacs, ainsi que près des crêtes ou des croupes dégarnies (là où d’anciennes couches fragiles persistantes sont présentes et moins profondément enfouies), une grande avalanche est plus probable. Cassure pouvant dépasser 1 m.\n\nDéparts spontanés :\n- Quelques petites purges dans les pentes raides, près des rochers, avec le retour du soleil à la mi-journée. Taille 1.\n- Sous le vent des hautes crêtes, une rare plaque peut céder spontanément par surcharge par le transport de neige par le vent (jusqu'à la mi-journée). Taille 1 à 2.",
+      "title": "RETOUR D'EST : TRÈS FORTS CUMULS DE NEIGE FRAICHE PRÈS DE LA FRONTIÈRE ITALIENNE DONNANT UN MANTEAU TEMPORAIREMENT TRÈS INSTABLE.",
+      "text": "RETOUR D'EST : TRÈS FORTS CUMULS DE NEIGE FRAICHE PRÈS DE LA FRONTIÈRE ITALIENNE DONNANT UN MANTEAU TEMPORAIREMENT TRÈS INSTABLE.\n\nDéclenchement provoqués : \n- Secteurs frontaliers, d'Avérole jusqu'au Carro en passant par Bonneval : NOMBREUSES PLAQUES poudreuses, très facilement déclenchables en tous versants dans la neige fraîche. Au vu des forts cumuls, approchant par endroits 1 mètre de neige fraîche, des cassures considérables sont possibles. Avalanches de grande taille, pouvant mobiliser en cascade d'anciennes couches fragiles persistantes.\n- Dans les autres secteurs, quelques plaques faciles à déclencher sont en place suite aux multiples variations de vent (encore en cours en matinée) sur la neige récente. Tailles 1 à 2.\n\nDéparts spontanés :\n- Près de la frontière italienne, nombreux départs ponctuels dans la neige fraîche, donnant des avalanches petites à moyennes. Occasionnellement, notamment sous le vent des hautes crêtes, des départs en plaque (linéaire) pourront occasionner une grande avalanche. \n- Dans les autres secteurs, quelques petites purges dans les pentes raides, près des rochers, avec le retour du soleil à la mi-journée. Taille 1.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : légèrement excédentaire pour la saison en moyenne montagne, mais en train de devenir déficitaire en basse montagne et en versants sud. Et très déficitaire en haute montagne près de la crête frontalière, voire carrément absent de certains cols ou faces très exposées au vent.\n\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1500/1600 m en sud pas trop raide.\n\nQualité de la neige : couche de neige fraîche légère de plus en plus conséquente avec l'altitude (20/30 cm vers 2500 m), parfois densifiée par le vent en surface ventée (risque de plaque!). Sous-couche dure en adret, voire très dure ou absente à haute altitude, près des crêtes. Épaisseur de neige meuble parfois importante en altitude.",
+      "text": "Enneigement : légèrement excédentaire pour la saison en moyenne montagne, mais en train de devenir déficitaire en basse montagne et en versants sud.\n\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1500/1600 m en sud pas trop raide.\n\nQualité de la neige : couche de neige fraîche conséquente en altitude (> 50 cm dès 2000 m dans les secteurs frontaliers), parfois densifiée par le vent en surface ventée (risque de plaque!). Sous-couche dure en adret, voire très dure ou absente à haute altitude, près des crêtes. Épaisseur de neige meuble parfois importante en altitude.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

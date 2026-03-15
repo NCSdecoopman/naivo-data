@@ -1,45 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="11" MASSIF="Haute-Maurienne" DATEBULLETIN="2026-03-14T16:00:00" DATEECHEANCE="2026-03-15T18:00:00" DATEVALIDITE="2026-03-15T18:00:00" DATEDIFFUSION="2026-03-14T16:23:00" AMENDEMENT="false">
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="AMENDEMENT" ID="11" MASSIF="Haute-Maurienne" DATEBULLETIN="2026-03-15T08:00:00" DATEECHEANCE="2026-03-15T18:00:00" DATEVALIDITE="2026-03-15T18:00:00" DATEDIFFUSION="2026-03-15T08:13:00" AMENDEMENT="true">
   <DateValidite>2026-03-15T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="3" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="3" COMMENTAIRE="Indice de risque marqué." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-03-16T00:00:00"/>
+    <RISQUE RISQUE1="4" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="4" COMMENTAIRE="Indice de risque fort." RISQUEMAXIJ2="3" DATE_RISQUE_J2="2026-03-16T00:00:00"/>
     <PENTE NE="true" E="true" SE="true" S="true" SW="true" W="true" NW="true" N="true" COMMENTAIRE=""/>
-    <ACCIDENTEL><![CDATA[quelques plaques réactives, d'aspect poudreux.]]></ACCIDENTEL>
-    <NATUREL><![CDATA[purges avec les éclaircies, plaques sous le vent.]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : purges avec les éclaircies, plaques sous le vent.
-Déclenchements skieurs : quelques plaques réactives, d'aspect poudreux.]]></RESUME>
-    <RisqueJ2><![CDATA[Indice de risque limité]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Risque en baisse. Les instabilités issues de la neige récente est du vent se dissipent. Un peu d'activité attendue avec le retour du soleil.]]></CommentaireRisqueJ2>
-    <AVIS/>
+    <ACCIDENTEL><![CDATA[nombreuses plaques d'aspect poudreux.]]></ACCIDENTEL>
+    <NATUREL><![CDATA[nombreux départs dans la neige fraîche.]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : nombreux départs dans la neige fraîche.
+Déclenchements skieurs : nombreuses plaques d'aspect poudreux.]]></RESUME>
+    <RisqueJ2><![CDATA[Indice de risque marqué]]></RisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Risque en baisse, le manteau se tasse rapidement. Le vent reste présent et contribue à former quelques nouvelles plaques faciles à déclencher. Un peu d'activité attendue avec le retour du soleil.]]></CommentaireRisqueJ2>
+    <AVIS>FORT RISQUE D'AVALANCHE</AVIS>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_11.png</ImageRisque>
     <ImagePente>rose_pentes_11.png</ImagePente>
   </CARTOUCHERISQUE>
   <STABILITE>
-    <SitAvalTyp SAT1="2" SAT2="1"/>
-    <TITRE><![CDATA[Variation de vent et neige récente : quelques instabilités réactives.]]></TITRE>
-    <TEXTESANSTITRE><![CDATA[Déclenchement provoqués : quelques plaques facilement déclenchables sont en place suite aux multiples variations de vent (encore en cours en matinée) sur la neige récente. Elles sont plus nombreuses et épaisses en allant vers la frontière Italienne. Elles sont d'aspect poudreux dans les pentes et plutôt dure près des crêtes. Elles sont plus réactives et épaisses en ubac où la neige était restée poudreuse (grains parfois anguleux). Avalanche de taille petite à moyenne, rarement grande en ubac d'altitude.
-Au-dessus de 2400 m, préférentiellement en ubacs, ainsi que près des crêtes ou des croupes dégarnies (là où d’anciennes couches fragiles persistantes sont présentes et moins profondément enfouies), une grande avalanche est plus probable. Cassure pouvant dépasser 1 m.
+    <SitAvalTyp SAT1="1" SAT2=""/>
+    <TITRE><![CDATA[RETOUR D'EST : TRÈS FORTS CUMULS DE NEIGE FRAICHE PRÈS DE LA FRONTIÈRE ITALIENNE DONNANT UN MANTEAU TEMPORAIREMENT TRÈS INSTABLE.]]></TITRE>
+    <TEXTESANSTITRE><![CDATA[Déclenchement provoqués : 
+- Secteurs frontaliers, d'Avérole jusqu'au Carro en passant par Bonneval : NOMBREUSES PLAQUES poudreuses, très facilement déclenchables en tous versants dans la neige fraîche. Au vu des forts cumuls, approchant par endroits 1 mètre de neige fraîche, des cassures considérables sont possibles. Avalanches de grande taille, pouvant mobiliser en cascade d'anciennes couches fragiles persistantes.
+- Dans les autres secteurs, quelques plaques faciles à déclencher sont en place suite aux multiples variations de vent (encore en cours en matinée) sur la neige récente. Tailles 1 à 2.
 
 Départs spontanés :
-- Quelques petites purges dans les pentes raides, près des rochers, avec le retour du soleil à la mi-journée. Taille 1.
-- Sous le vent des hautes crêtes, une rare plaque peut céder spontanément par surcharge par le transport de neige par le vent (jusqu'à la mi-journée). Taille 1 à 2.]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[Variation de vent et neige récente : quelques instabilités réactives.
+- Près de la frontière italienne, nombreux départs ponctuels dans la neige fraîche, donnant des avalanches petites à moyennes. Occasionnellement, notamment sous le vent des hautes crêtes, des départs en plaque (linéaire) pourront occasionner une grande avalanche. 
+- Dans les autres secteurs, quelques petites purges dans les pentes raides, près des rochers, avec le retour du soleil à la mi-journée. Taille 1.]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[RETOUR D'EST : TRÈS FORTS CUMULS DE NEIGE FRAICHE PRÈS DE LA FRONTIÈRE ITALIENNE DONNANT UN MANTEAU TEMPORAIREMENT TRÈS INSTABLE.
 
-Déclenchement provoqués : quelques plaques facilement déclenchables sont en place suite aux multiples variations de vent (encore en cours en matinée) sur la neige récente. Elles sont plus nombreuses et épaisses en allant vers la frontière Italienne. Elles sont d'aspect poudreux dans les pentes et plutôt dure près des crêtes. Elles sont plus réactives et épaisses en ubac où la neige était restée poudreuse (grains parfois anguleux). Avalanche de taille petite à moyenne, rarement grande en ubac d'altitude.
-Au-dessus de 2400 m, préférentiellement en ubacs, ainsi que près des crêtes ou des croupes dégarnies (là où d’anciennes couches fragiles persistantes sont présentes et moins profondément enfouies), une grande avalanche est plus probable. Cassure pouvant dépasser 1 m.
+Déclenchement provoqués : 
+- Secteurs frontaliers, d'Avérole jusqu'au Carro en passant par Bonneval : NOMBREUSES PLAQUES poudreuses, très facilement déclenchables en tous versants dans la neige fraîche. Au vu des forts cumuls, approchant par endroits 1 mètre de neige fraîche, des cassures considérables sont possibles. Avalanches de grande taille, pouvant mobiliser en cascade d'anciennes couches fragiles persistantes.
+- Dans les autres secteurs, quelques plaques faciles à déclencher sont en place suite aux multiples variations de vent (encore en cours en matinée) sur la neige récente. Tailles 1 à 2.
 
 Départs spontanés :
-- Quelques petites purges dans les pentes raides, près des rochers, avec le retour du soleil à la mi-journée. Taille 1.
-- Sous le vent des hautes crêtes, une rare plaque peut céder spontanément par surcharge par le transport de neige par le vent (jusqu'à la mi-journée). Taille 1 à 2.]]></TEXTE>
+- Près de la frontière italienne, nombreux départs ponctuels dans la neige fraîche, donnant des avalanches petites à moyennes. Occasionnellement, notamment sous le vent des hautes crêtes, des départs en plaque (linéaire) pourront occasionner une grande avalanche. 
+- Dans les autres secteurs, quelques petites purges dans les pentes raides, près des rochers, avec le retour du soleil à la mi-journée. Taille 1.]]></TEXTE>
   </STABILITE>
   <QUALITE>
-    <TEXTE><![CDATA[Enneigement : légèrement excédentaire pour la saison en moyenne montagne, mais en train de devenir déficitaire en basse montagne et en versants sud. Et très déficitaire en haute montagne près de la crête frontalière, voire carrément absent de certains cols ou faces très exposées au vent.
+    <TEXTE><![CDATA[Enneigement : légèrement excédentaire pour la saison en moyenne montagne, mais en train de devenir déficitaire en basse montagne et en versants sud.
 
 Limite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1500/1600 m en sud pas trop raide.
 
-Qualité de la neige : couche de neige fraîche légère de plus en plus conséquente avec l'altitude (20/30 cm vers 2500 m), parfois densifiée par le vent en surface ventée (risque de plaque!). Sous-couche dure en adret, voire très dure ou absente à haute altitude, près des crêtes. Épaisseur de neige meuble parfois importante en altitude. ]]></TEXTE>
+Qualité de la neige : couche de neige fraîche conséquente en altitude (> 50 cm dès 2000 m dans les secteurs frontaliers), parfois densifiée par le vent en surface ventée (risque de plaque!). Sous-couche dure en adret, voire très dure ou absente à haute altitude, près des crêtes. Épaisseur de neige meuble parfois importante en altitude. ]]></TEXTE>
   </QUALITE>
   <ENNEIGEMENT DATE="2026-03-14T00:00:00" LimiteSud="1500" LimiteNord="1200">
     <NIVEAU ALTI="1500" N="70" S="2"/>
@@ -57,7 +59,7 @@ Qualité de la neige : couche de neige fraîche légère de plus en plus conséq
     <ImageNeigeFraiche>graphe_neige_fraiche_11.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="2500" ALTITUDEVENT2="3500">
-    <COMMENTAIRE>Retour d'Est à l'agonie, très nuageux et neige faible. Rares éclaircies vers la mi-journée.</COMMENTAIRE>
+    <COMMENTAIRE>Fin du retour d'Est : très nuageux et neige faible. Rares éclaircies vers la mi-journée.</COMMENTAIRE>
     <ECHEANCE DATE="2026-03-15T06:00:00" FF1="20" DD1="NO" FF2="25" DD2="E" ISO0="900" PLUIENEIGE="500" TEMPSSENSIBLE="61" MERNUAGES="-1"/>
     <ECHEANCE DATE="2026-03-15T12:00:00" FF1="25" DD1="E" FF2="40" DD2="E" ISO0="1300" PLUIENEIGE="900" TEMPSSENSIBLE="61" MERNUAGES="-1"/>
     <ECHEANCE DATE="2026-03-15T18:00:00" FF1="15" DD1="SE" FF2="20" DD2="SE" ISO0="1700" PLUIENEIGE="1200" TEMPSSENSIBLE="81" MERNUAGES="-1"/>
@@ -141,7 +143,7 @@ Qualité de la neige : couche de neige fraîche légère de plus en plus conséq
       <NEIGE24H DATE="2026-03-14T00:00:00" SS24Min="0" SS24Max="0"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-03-08T00:00:00" RISQUEMAXI="2"/>
+      <RISQUE DATE="2026-03-08T00:00:00" RISQUEMAXI=""/>
       <RISQUE DATE="2026-03-09T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-03-10T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-03-11T00:00:00" RISQUEMAXI="2"/>
