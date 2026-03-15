@@ -3,14 +3,14 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-03-14T16:00:00",
+    "issued_at": "2026-03-15T10:00:00",
     "valid_until": "2026-03-15T18:00:00",
-    "amended": false
+    "amended": true
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "max_level": 4,
+      "comment": "Indice de risque fort.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 3,
+            "risk": 4,
             "evolution_to": null,
             "position": null
           }
@@ -34,8 +34,8 @@
         },
         "zones": {
           "center": {
-            "text": "3",
-            "risk": 3,
+            "text": "4",
+            "risk": 4,
             "evolution_to": null
           }
         }
@@ -45,7 +45,7 @@
         "date": "2026-03-16",
         "label": "Indice de risque marqué",
         "comment": "Lundi, la tendance générale est à la stabilisation du manteau, mais des plaques demeurent réactives en Nord. En journée, avec le retour du soleil et le redoux, de nombreuses purges sont à attendre dans la neige récente.",
-        "trend": "steady"
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES PLAQUES A VENT DANS LA NEIGE RECENTE",
-      "text": "NOMBREUSES PLAQUES A VENT DANS LA NEIGE RECENTE \n\nDéclenchements provoqués : De nombreuses plaques se forment dans la neige récente sous l'effet du vent de Nord / Nord-Est. Elles sont d'épaisseurs limitées mais sont particulièrement réactives, et peuvent être présentes en tout versants, même loin des crêtes. Elles sont parfois bien identifiables ( neige travaillée par le vent sur une neige plus meuble), mais sont parfois dure à repérer, d'aspect poudreuse, dans les secteurs où le vent est moins fort. \nObservables : Transport en cours, neige travaillée par le vent, fissures devant les skis. Test du bâton éventuellement (neige plus dense en surface, plus meuble en profondeur) \nDéparts spontanés : Quelques avalanches de petites taille, voire une de taille moyenne pourraient partir spontanément dans les pentes chargées par le vent de Nord / Nord-Est. En journée de dimanche, quelques coulées humides pourraient partir dans la neige de surface sous l'effet du soleil, principalement sous les rochers sous 1800 / 2000m.",
+      "title": "NOMBREUSES PLAQUES A VENT TRES REACTIVES DANS LA NEIGE RECENTE",
+      "text": "NOMBREUSES PLAQUES A VENT TRES REACTIVES DANS LA NEIGE RECENTE \n\nDéclenchements provoqués : De nombreuses plaques se sont formées dans les 30 à 50cm de neige récente sous l'effet du vent de Nord / Nord-Est. Elles sont très réactives, et se retrouvent en tout versants, même loin des crêtes. Elles sont parfois bien identifiables (neige travaillée par le vent sur une neige plus meuble), mais sont parfois dure à repérer, d'aspect poudreuse, dans les secteurs où le vent a soufflé moins fort. \nObservables : Transport en cours, neige travaillée par le vent, fissures devant les skis. Test du bâton éventuellement (neige plus dense en surface, plus meuble en profondeur) \nDéparts spontanés : Quelques avalanches de petites taille, voire une de taille moyenne pourraient partir spontanément dans les pentes chargées par le vent de Nord / Nord-Est. En journée de dimanche, quelques coulées humides pourraient partir dans la neige de surface sous l'effet du soleil, principalement sous les rochers sous 1800 / 2000m.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1300 m. Il est correct en Sud mais les sous-couches sont rares sous 1700 / 1800m. \nLimites skiables : Vers 1100/1500m hors sapins. \n\nQualité de la neige dimanche :  15 à 30cm de neige récente, parfois encore en poudreuse légère en bas de pentes / combes abritées, mais plus souvent densifiée par le vent, voire cartonnée à l'approche des crêtes. En journée, la neige s'allourdie à basse altitude au gré des éclaircies.",
+      "text": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1300 m. Il est correct en Sud mais les sous-couches sont rares sous 1700 / 1800m. \nLimites skiables : Vers 1100/1500m hors sapins. \n\nQualité de la neige dimanche :  30 à 50cm de neige récente peu stabilisée, parfois encore en poudreuse légère en bas de pentes / combes abritées, mais plus souvent densifiée par le vent, voire cartonnée à l'approche des crêtes. En journée, la neige s'allourdie à basse altitude au gré des éclaircies.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
