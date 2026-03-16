@@ -3,14 +3,14 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-03-15T16:00:00",
-    "valid_until": "2026-03-16T18:00:00",
+    "issued_at": "2026-03-16T16:00:00",
+    "valid_until": "2026-03-17T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 3,
+            "risk": 2,
             "evolution_to": null,
             "position": null
           }
@@ -34,29 +34,29 @@
         },
         "zones": {
           "center": {
-            "text": "3",
-            "risk": 3,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-17",
+        "date": "2026-03-18",
         "label": "Indice de risque limité",
-        "comment": "Mardi, le redoux s'intensifie et les plaques présentes en versant froid se stabilisent. Au soleil, encore quelques purges. Quelques plaques de fond également possibles.",
-        "trend": "down"
+        "comment": "Poursuite de la stabilisation du manteau neigeux mercredi. Risques probablement en légère baisse.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
-        "W": true,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -67,21 +67,15 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 4,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
-        "4": "Neige humide"
+        "2": "Neige ventée"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-11",
-          "min_cm": 20,
-          "max_cm": 35
-        },
         {
           "date": "2026-03-12",
           "min_cm": 0,
@@ -99,50 +93,55 @@
         },
         {
           "date": "2026-03-15",
-          "min_cm": 1,
+          "min_cm": 0,
           "max_cm": 2
         },
         {
           "date": "2026-03-16",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-17",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 2
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES PLAQUES A VENT ENCORE FACILES A DECLENCHER, NOMBREUSES PURGES EN PENTES ENSOLEILLEES",
-      "text": "NOMBREUSES PLAQUES A VENT ENCORE FACILES A DECLENCHER, NOMBREUSES PURGES EN PENTES ENSOLEILLEES\n\nDéclenchements provoqués : De nombreuses plaques se sont formées dans la neige récente sous l'effet du vent de Nord. Elles sont encore réactives en tout versants au lever du jour, mais se stabilisent dans les pentes ensoleillées au fil de la journée. On peut les retrouver près des crêtes ( plutôt en neige dure) comme en milieu / bas de pente (en poudreuse plus ou moins dense). \nObservables : Neige travaillée par le vent, fissures devant les skis. Test du bâton éventuellement (neige plus dense en surface, plus meuble en profondeur) \nDéparts spontanés :Au fil de la journée de nombreux départs en poire ( tailles petites, parfois moyennes) sont à attendre au soleil, principalement sous les rochers.",
+      "title": "Quelques instabilités en versant froid.",
+      "text": "Quelques instabilités en versant froid.\n\nDéclenchements provoqués : la neige récente est en cours de tassement, mais la stabilisation est plus lente dans les versants froids où le vent a créé des accumulations de neige soufflée qui peuvent être mises en mouvement même par un skieur isolé.\n\nDéparts spontanés : l'essentiel des avalanches naturelles s'est déjà produit. Mardi, les coulées seront beaucoup moins fréquentes que ces dernières 48 heures, même si un départ spontané de neige humide sera encore possible localement (taille 1 à 2).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1300 m. Il est correct en Sud mais les sous-couches sont rares sous 1700 / 1800m. \nLimites skiables : Vers 1100/1500m hors sapins. \n\nQualité de la neige lundi : Très variable. Encore poudreux en forêts / combes abritées. Ailleurs, souvent densifié par le vent voire cartonnée. Les crêtes sont mêmes pelées, en neige très dure / croûtées. En journée, le manteau s'allourdit puis s'humidifie rapidement au soleil.",
+      "text": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1300 m. Il est correct en Sud mais les sous-couches sont rares sous 1700/1800 m. \nLimites skiables : Vers 1200/1600 m selon les versants. \n\nQualité de la neige mardi : Neige croûtée puis humide et lourde en journée de mardi dans les versants au soleil. Neige froide souvent travaillée par le vent dans les ubacs.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 800,
-        "south": 800
+        "north": 1000,
+        "south": 1100
       },
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 5,
-          "S": 5
+          "N": 0,
+          "S": 0
         },
         {
           "alt_m": 1500,
-          "N": 110,
-          "S": 15
+          "N": 100,
+          "S": 10
         },
         {
           "alt_m": 2000,
-          "N": 220,
+          "N": 210,
           "S": 140
         }
       ],

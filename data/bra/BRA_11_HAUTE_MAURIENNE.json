@@ -3,37 +3,49 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-03-15T16:00:00",
-    "valid_until": "2026-03-16T18:00:00",
+    "issued_at": "2026-03-16T16:00:00",
+    "valid_until": "2026-03-17T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -41,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-03-17",
-        "label": "Indice de risque marqué",
-        "comment": "Stabilisation progressive du manteau, quelques plaques à vent bien réactives persistent encore en journée de mardi : le risque reste \"marqué\".",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-03-18",
+        "label": "Indice de risque limité",
+        "comment": "Temps calme et peu venté, souvent nuageux en journée. Manteau neigeux en voie de stabilisation, le risque diminue et devient \"limité\".",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 4,
       "labels": {
-        "1": "Neige fraîche",
+        "2": "Neige ventée",
         "4": "Neige humide"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-11",
-          "min_cm": 1,
-          "max_cm": 3
-        },
         {
           "date": "2026-03-12",
           "min_cm": 0,
@@ -106,44 +113,49 @@
           "date": "2026-03-16",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-17",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "GRANDES QUANTITÉS DE NEIGE RÉCENTE, SURTOUT PRÈS DE LA FRONTIÈRE ITALIENNE : MANTEAU NEIGEUX INSTABLE.",
-      "text": "GRANDES QUANTITÉS DE NEIGE RÉCENTE, SURTOUT PRÈS DE LA FRONTIÈRE ITALIENNE : MANTEAU NEIGEUX INSTABLE.\n\nDéclenchements provoqués : quelques plaques faciles à déclencher dans la neige récente, entretenues par le léger vent de nord-ouest qui se lève ce lundi. Ces plaques, d'aspect poudreux, sont très épaisses dans les secteurs frontaliers (notamment secteurs Avérole/Evettes/Carro/Bonneval) : les cassures peuvent ici atteindre 1 m à 1 m 50 et engendrer de grandes avalanches (taille 3). Dans les autres secteurs, les plaques sont moins épaisses : cassures max 50 à 80 cm. A noter qu'en facteur aggravant, cette chute de neige conséquente s'est localement déposée sur une fine couche de grains anguleux, ce qui rend les plaques particulièrement réactives dans les versants ombragés : un déclenchement à distance est alors possible.\nEnfin, en journée dans les versants ensoleillés, il sera possible de déclencher une avalanche de neige humide en coupant une pente surchauffée.\n\nDéparts spontanés :\n- nombreux départs ponctuels en neige humide dans les versants ensoleillés (est, sud puis ouest au fil de la journée). En particulier, les couloirs raides \"se purgent\". Petites à moyennes avalanches, exceptionnellement une taille 3 si une plaque est ensuite mobilisée en cascade.\n- rares avalanches de plaque près des crêtes ou au pied des barres rocheuses, sous le vent qui tourne au nord-ouest et se renforce en journée. Une taille 3 est alors possible.",
+      "title": "MANTEAU NEIGEUX ENCORE LOCALEMENT INSTABLE EN ALTITUDE, QUELQUES PLAQUES ÉPAISSES ET RÉACTIVES.",
+      "text": "MANTEAU NEIGEUX ENCORE LOCALEMENT INSTABLE EN ALTITUDE, QUELQUES PLAQUES ÉPAISSES ET RÉACTIVES.\n\nDéclenchements provoqués : il subsiste quelques plaques faciles à déclencher dans la neige récente, entretenues par le vent modéré des derniers jours. C'est notamment au-dessus de 2000 m que ces plaques sont les plus réactives. Généralement d'aspect poudreux, ou légèrement densifiées en approchant les crêtes, ces plaques sont surtout très épaisses dans les secteurs frontaliers (Avérole/Evettes/Carro/Bonneval) : les cassures peuvent alors atteindre 1 m à 1 m 20 et engendrer de grandes avalanches (taille 3). Dans les autres secteurs, les plaques sont moins épaisses et perdent en réactivité : cassures max 40 à 70 cm. Facteur aggravant : la dernière chute de neige s'est localement déposée sur une fine couche de grains anguleux, ce qui tend à ralentir la stabilisation de ces plaques.\nEnfin, en journée dans les versants ensoleillés, il sera possible de déclencher une avalanche de neige humide en coupant une pente surchauffée.\n\nDéparts spontanés : quelques départs ponctuels sont possibles dans la neige humide en versants ensoleillés. Les couloirs raides finissent de se purger. Petites à moyennes avalanches, exceptionnellement une taille 3 si une plaque est ensuite mobilisée en cascade.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : globalement très bon pour la saison.\n\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1400/1500 m en sud pas trop raide.\n\nQualité de la neige : \n- en versants ombragés, grandes quantités de neige récente poudreuse, surtout dans les secteurs frontaliers (Carro/Evettes/Avérole), parfois légèrement densifiée près des crêtes (signe de plaque!)\n- en versants ensoleillés, neige encore froide à l'aube qui va rapidement s'humidifier en journée (bottage jusqu'à haute altitude).",
+      "text": "Enneigement : globalement très bon pour la saison.\n\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1400/1500 m en sud pas trop raide.\n\nQualité de la neige : \n- en versants ombragés, grandes quantités de neige récente poudreuse, surtout dans les secteurs frontaliers (Carro/Evettes/Avérole), parfois légèrement densifiée près des crêtes (signe de plaque!)\n- en versants ensoleillés, mauvais printemps n'ayant pas encore subi suffisamment de cycles gel/dégel (sauf aux très basses altitudes). Croute, colle, bottage... on y verra tout !",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1000,
-        "south": 1000
+        "south": 1400
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 90,
-          "S": 20
+          "N": 80,
+          "S": 10
         },
         {
           "alt_m": 2000,
-          "N": 140,
-          "S": 90
+          "N": 130,
+          "S": 80
         },
         {
           "alt_m": 2500,
-          "N": 220,
-          "S": 170
+          "N": 210,
+          "S": 160
         }
       ],
       "icon_key": "snowpack",

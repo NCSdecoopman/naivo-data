@@ -3,37 +3,49 @@
   "massif": "Capcir Puymorens",
   "bulletin": {
     "id": 73,
-    "issued_at": "2026-03-15T16:00:00",
-    "valid_until": "2026-03-16T18:00:00",
+    "issued_at": "2026-03-16T17:00:00",
+    "valid_until": "2026-03-17T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1800,
+        "split_axis": "horizontal",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1800",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1800",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1800m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-03-17",
+        "date": "2026-03-18",
         "label": "Indice de risque marqué",
-        "comment": "Maintien d'un risque marqué avec le redoux prévu et l'accentuation de l'humidification du manteau.",
+        "comment": "Persistance de structures de plaques, en cours de stabilisation",
         "trend": "steady"
       }
     },
@@ -53,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -77,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-11",
-          "min_cm": 0,
-          "max_cm": 3
-        },
         {
           "date": "2026-03-12",
           "min_cm": 0,
@@ -106,6 +113,11 @@
           "date": "2026-03-16",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-17",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,30 +127,30 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nombreuses plaques et redoux",
-      "text": "Nombreuses plaques et redoux\n\nDéclenchements provoqués :\nNombreuses structures de plaques facilement déclenchables dans la neige récente. Elles donneront principalement des avalanches de taille 1 à 2. En altitude, avec un vent turbulent qui a soufflé très fort dimanche proche de la frontière, elles pourront localement donner des avalanches de taille 3. A noter que ces plaque sont parfois situées loin des crêtes. Elles sont plutôt dures dans les zones ventées, plutôt friables dans des zones un peu plus protégées. La couche fragile est majoritairement constituée de neige fraiche moins ventée. Localement, dans les secteurs froids d'altitude (typiquement au dessus de 2400m dans un large secteur nord),  il est possible que des grains facettés ou du givre de surface formés lors des nuits claires de la semaine dernière puissent aussi jouer ce rôle.\n(Observables : traces d'avalanches récentes, fissures sous les skis, affaissement accompagné de 'whoomf', signes de transport par le vent)\nDéparts spontanés :\n- Départs ponctuels ou linéaires possibles au soleil avec avec un manteau qui s'humidifie progressivement en dessous de 2400m environ. Avalanches de surface de taille 1 à 2 attendues, emportant la neige récente.\n- Avalanches de fond possible en terrain herbeux ou sur des roches lisses préalablement découvertes avant les chutes du week-end (taille 1 à 2). (Observable : fissures, reptations récentes)\n- Principalement en matinée et au dessus de 2000m, départs spontanés linéaires attendus par surcharge d'une couche fragile présente au sein ou à la base de la couche de neige fraîche. Le transport par le vent est en effet encore un peu actif en début de journée là où la neige est restée froide et légère. Ces départs pourront conduire à des avalanches de taille 2, voire 3 (grande) dans les accumulations les plus importantes (cf déclenchements provoqués).  \n(Observables : accumulations, transport de neige par le vent)",
+      "title": "Nombreuses plaques en altitude dans les secteurs ombragés; humidification au soleil",
+      "text": "Nombreuses plaques en altitude dans les secteurs ombragés; humidification au soleil\n\nDéclenchements provoqués :\nDans les secteurs ombragés, au-dessus de 1800m, de nombreuses structures de plaques facilement déclenchables dans la neige récente sont encore présentes. Elles sont en cours de stabilisation mais sont encore susceptibles de produire des avalanches de taille 1 à 2. Elles se sont formées ce week-end par un vent violent et tourbillonnant. Ces plaques se situent parfois loin des crêtes, sont plutôt dures dans les zones ventées, plutôt friables dans des zones un peu plus protégées. La couche fragile est majoritairement constituée de neige fraiche moins ventée, voire de neige roulée tombée par endroits en abondance dans la nuit de samedi à dimanche. Localement, il est possible que des grains facettés ou du givre de surface formés lors des nuits claires de la semaine dernière puissent aussi jouer ce rôle. Dans les secteurs ensoleillés ainsi qu'en toute orientation sous 1800m, le risque de déclenchement est moindre par le tassement de la couche de neige.\n(Observables : traces d'avalanches récentes, fissures sous les skis, affaissement accompagné de 'whoomf', signes de transport par le vent)\n\nDéparts spontanés :\nDans les pentes est, sud puis ouest chauffées par le soleil de mars, des départs ponctuels sont possibles, causés par la poursuite de l'humidification de la couche de neige récente. Avalanches de surface de taille 1 à 2 attendues. Un départ linéaire causé par l'humidification d'une sous-couche fragile est possible. Une rare avalanche de taille 3 est alors possible.\n(Observables : neige très humide, gorgée d'eau; enfoncement important)\n\nAutres : \nLes fissures ou gueules de baleine reportées la semaine passée en bon nombre d'endroits, parfois de profondeur imposante, peuvent être masquées sans être complètement comblées par les chutes de neige de ce week-end.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nAprès plusieurs hivers déficitaires, l'enneigement sur le massif est cette année largement excédentaire.\nUne trentaine de cm sont tombé en altitude ce week-end, assez hétérogènes à cause du vent. La fonte débute avec le redoux prévu ce jour.\nLimites skiables : \nDimanche matin, on pourra envisager de chausser les skis dès 1400m en terrain herbeux, mais sans véritable sous-couche en dessous de 1500m en versants froids, 1700/1800m en versants sud.\nÉtat de la neige : \nNeige restée froide et légère à l'ombre et en altitude. Bon regel matinal là où le soleil avait commencé à l'humidifier en surface dimanche. En altitude, la neige sera frittée à cartonnée près des crêtes, cols et sommets, restant meuble à l'abri du vent (clairières et combes déventées notamment). Elle s'humidifiera en surface avec le soleil en journée dans les pentes en dessous de 2400m environ.",
+      "text": "Enneigement : \nAprès plusieurs hivers déficitaires, l'enneigement sur le massif est cette année largement excédentaire. Une trentaine de centimètres sont tombés en altitude ce week-end, très hétérogènes à cause du vent. La fonte débute avec le redoux en cours.\n\nLimites skiables : \nMardi matin, on pourra envisager de chausser les skis vers 1200/1300m en terrain herbeux en nord, mais sans véritable sous-couche en dessous de 1500m en versants froids, 1800/1900m en versants sud.\n\nÉtat de la neige : \nNeige restée froide et légère à l'ombre et en altitude. Bon regel matinal là où le soleil de ce lundi a chauffé et sous 1800m. Dans les secteurs ombragés ou peu pentus, la neige sera frittée à cartonnée près des crêtes, cols et sommets, restant meuble à l'abri du vent (clairières et combes déventées notamment). Elle s'humidifiera en surface avec le soleil en journée dans les pentes voyant le soleil ainsi qu'en toute orientation sous 1800/2000m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1400,
-        "south": 1400
+        "south": 1500
       },
       "levels_cm": [
         {
           "alt_m": 1500,
           "N": 25,
-          "S": 15
+          "S": 5
         },
         {
           "alt_m": 2000,
           "N": 195,
-          "S": 125
+          "S": 120
         },
         {
           "alt_m": 2500,

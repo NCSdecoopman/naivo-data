@@ -3,8 +3,8 @@
   "massif": "Queyras",
   "bulletin": {
     "id": 17,
-    "issued_at": "2026-03-15T16:00:00",
-    "valid_until": "2026-03-16T18:00:00",
+    "issued_at": "2026-03-16T16:00:00",
+    "valid_until": "2026-03-17T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-17",
+        "date": "2026-03-18",
         "label": "Indice de risque limité",
-        "comment": "Poursuite de la stabilisation du manteau neigeux. Risque limité.",
+        "comment": "Risque stable ou en baisse. Poursuite de la stabilisation du manteau neigeux, même si quelques nouvelles instabilités peuvent se former avec le renforcement du vent d'est associé à de faibles chutes de neige.",
         "trend": "down"
       }
     },
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
-        "1": "Neige fraîche",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-11",
-          "min_cm": 1,
-          "max_cm": 3
-        },
         {
           "date": "2026-03-12",
           "min_cm": 0,
@@ -118,22 +113,27 @@
           "date": "2026-03-16",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-17",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 15
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITÉS EN ALTITUDE, PLUS ÉPAISSES DANS LE HAUT GUIL",
-      "text": "INSTABILITÉS EN ALTITUDE, PLUS ÉPAISSES DANS LE HAUT GUIL\n\nDéclenchements provoqués : instabilités encore fréquentes au-dessus de 2200 m environ. Possibles en toute orientation, même loin des crêtes, elles sont facilement déclenchables par un seul skieur. Elles se situent encore dans l'épaisse couche de neige récente dans le Haut Guil. Sur le reste du massif, elles sont un peu plus identifiables, même si parfois encore d'aspect poudreux. Avalanches de taille petite (taille 1) à moyenne (taille 2) Dans le Haut Guil, vers Abriès-Ristolas, déclenchement d'avalanches de taille 2 plus probables, une grande avalanche (taille 3) non exclue à haute altitude. Ces instabilités se situent dans la couche de neige récente, tombée légère et ensuite alourdie sous l'effet du vent ou du début de redoux.  \nSous 2200 m, la neige récente s'est déjà bien tassée et les instabilités sont plus rares et moins volumineuses (taille 1, rarement 2).\n\nDéparts spontanés : départs le plus souvent ponctuels de neige récente humide au soleil, taille 1, parfois 2 en adrets raides dans le Haut Guil.",
+      "title": "INSTABILITÉS EN UBACS D'ALTITUDE DANS LA NEIGE RÉCENTE VENTÉE, PLUS ÉPAISSES DANS LE HAUT GUIL. QUELQUES DÉPARTS EN NEIGE HUMIDE AU SOLEIL",
+      "text": "INSTABILITÉS EN UBACS D'ALTITUDE DANS LA NEIGE RÉCENTE VENTÉE, PLUS ÉPAISSES DANS LE HAUT GUIL. QUELQUES DÉPARTS EN NEIGE HUMIDE AU SOLEIL\n\nDéclenchements provoqués : \n- Plaques à vent encore fréquentes au-dessus de 2200/2400 m dans les orientations ouest / nord / est ou à très haute altitude dans les adrets. Ces instabilités restent facilement déclenchables par un skieur. Avalanche mobilisant la neige récente de taille petite à moyenne. Dans le Haut Guil, vers Abries-Ristolas, taille moyenne, grande non exclue à haute altitude. Par ailleurs, on ne peut pas exclure dans ces mêmes orientations, le déclenchement en cascade d'une instabilité plus enfouie, large cassure, emportant la quasi-totalité du manteau en place. \n- À plus basses altitudes ou en adrets d’altitude, les instabilités sont en cours de stabilisation. Un déclenchement semble plus difficile. \nDéparts spontanés : \n- Jusqu’en cours de nuit de lundi à mardi, rares départs sous forme de plaque par la surcharge liée au transport de la neige par le vent de nord. Plutôt haute altitude, taille petite à moyenne.\n- Mardi en journée, possibles départs ponctuels de neige humide en pente raide, près des rochers, suivant la course du soleil. Taille petite à moyenne. L’humidification de la neige récente gagne ce mardi en altitude et en profondeur.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales pour une mi-mars, et il s'est bien amélioré dans le Haut Guil suite au petit retour d'est.\nHauteurs de neige observées : 167 cm en versant nord du col Izoard à 2300 m, 100 cm à la Nivôse du Col Agnel à 2630 m, 85 cm à Ristolas à 1670 m.\n\nLimite d'enneigement skiable : vers 1600/1800 m selon les secteurs et orientations.\n\nÉtat de la neige de surface :  neige récente (10/20 cm à l'ouest du massif, jusqu'à 40/50 cm dans le Haut Guil) déjà alourdie par le /redoux jusque 2000/2200 m. En journée, humidification superficielle au soleil jusqu'à haute altitude.",
+      "text": "L'enneigement est proche des normales pour une mi-mars, et il s'est bien amélioré dans le Haut Guil suite au petit retour d'est.\nHauteurs de neige observées : 166 cm en versant nord du col Izoard à 2300 m, 101 cm à la Nivôse du Col Agnel à 2630 m, 79 cm à Ristolas à 1670 m.\n\nLimite d'enneigement skiable : vers 1600/1800 m selon les secteurs et orientations.\n\nÉtat de la neige de surface :  neige récente (10/20 cm à l'ouest du massif, jusqu'à 40/50 cm dans le Haut Guil) déjà alourdie par le /redoux jusque 2000/2200 m. En adrets, neige déjà humidifiée en altitude croutée après un bon regel nocturne. L'humidification se poursuit ce mardi au soleil gagnant en profondeur et en altitude.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
