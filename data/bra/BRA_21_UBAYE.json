@@ -3,31 +3,31 @@
   "massif": "Ubaye",
   "bulletin": {
     "id": 21,
-    "issued_at": "2026-03-16T16:00:00",
-    "valid_until": "2026-03-17T18:00:00",
+    "issued_at": "2026-03-17T16:00:00",
+    "valid_until": "2026-03-18T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 2200,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "2200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
-            "risk": 1,
+            "loc": "<2200",
+            "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
-            "risk": 2,
+            "loc": ">2200",
+            "risk": 3,
             "evolution_to": null,
             "position": "top"
           }
@@ -37,26 +37,26 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "2200m"
         },
         "zones": {
           "bottom": {
-            "text": "1",
-            "risk": 1,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           },
           "top": {
-            "text": "2",
-            "risk": 2,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-03-18",
-        "label": "Indice de risque limité",
-        "comment": "Plaques encore localement sensibles en ubacs d'altitude, entretenues par la lombarde qui se renforce de nouveau. Pas d'activité en neige humide.",
+        "max_level": 3,
+        "date": "2026-03-19",
+        "label": "Indice de risque marqué",
+        "comment": "Persistance de la problématique de neige ventée, avec le vent d'est qui reste encore assez fort en altitude le matin. \nRisque marqué probable.",
         "trend": "steady"
       }
     },
@@ -64,11 +64,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -79,21 +79,15 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 3,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
-        "3": "Couche fragile persistante"
+        "2": "Neige ventée"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-12",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-13",
           "min_cm": 0,
@@ -118,44 +112,49 @@
           "date": "2026-03-17",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-18",
+          "min_cm": 1,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES PLAQUES EN DANS LA NEIGE RÉCENTE VENTÉE EN ALTITUDE - QUELQUES DÉPARTS NATURELS EN NEIGE HUMIDE.",
-      "text": "QUELQUES PLAQUES EN DANS LA NEIGE RÉCENTE VENTÉE EN ALTITUDE - QUELQUES DÉPARTS NATURELS EN NEIGE HUMIDE.\n\nDéclenchements provoqués : \nplaques en place dans la neige récente ventée, principalement dans les ubacs au-dessus de 2000/2200 m, où la neige est restée froide. Ces plaques peuvent encore céder au passage d’un skieur malgré leur stabilisation progressive, et génèrent des avalanches de taille petite à moyenne. (taille 1 à 2).  Plaques généralement durcies par le vent, mais parfois d'aspect poudreux dans les combes nord plus abrités.\nUne rare grande avalanche est possible en ubacs, ou en haute altitude dans les autres orientations, si la surcharge d'une avalanche de surface provoque la rupture d'une couche fragile persistante enfouie en profondeur du manteau neigeux.\nÀ plus basse altitude et en versant sud, manteau neigeux regelé et stable au levé du jour. Quelques départs sous les skis sont possibles au soleil dans les pentes fortement humidifiées, restants de petite taille. \n\nDéparts spontanés : \nPeu probables en début de journée après un bon regel nocturne, puis avalanches de neige récente s'humidifiant au soleil au fil de la journée. Départs ponctuels de petite taille en pentes raides ensoleillées, rarement de taille moyenne en cas de cassure linéaire à proximité des crêtes.",
+      "title": "DES INSTABILITÉS DANS LA NEIGE VENTÉE",
+      "text": "DES INSTABILITÉS DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : de nouvelles plaques se forment progressivement en journée de mercredi, même loin des crêtes, avec le renforcement du vent d'est attendu. Au-dessus de 2200 m, ces plaques sont faciles à déclencher et assez fréquentes en contrebas des crêtes, derrière les ruptures de pente ou les bosses. Ces instabilités se trouvent plus fréquemment dans les ubacs où le manteau neigeux n'est pas printanier, mais des plaques se forment aussi derrière les crêtes en adrets, avec la neige rapportée depuis les versants ombragés. Avalanches souvent moyennes (taille 2), une rare grande (taille 3) non exclue en cas de sollicitation de la couche fragile persistante enfouie (suite au départ d'une première plaque de surface par exemple). \nSous 2200 m, la probabilité de déclencher une plaque est plus limitée.\n\nDéparts spontanés : quelques plaques cèdent spontanément suite au transport de neige par le vent. Avalanches souvent moyennes (taille 2), rarement grandes (taille 3).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement proche des normales.\nDonnées observées : 81 cm à la Nivôse de Restefond à 2550 m (secteur venté), 96 cm au-dessus de Larche à 2270 m en adret. \n\nEnneigement skiable : vers 1500 m en ubacs, 1700/1900 m en adrets peu pentus. \n\nÉtat de la neige en surface : neige généralement croutée au levé du jour après un bon regel nocturne, s'humidifiant rapidement en journée au fil de l'ensoleillement. On retrouve de la neige froide encore légère ou densifiée par le vent en ubacs au-dessus de 2000/2200 m. Sur les crêtes, des corniches épaisses côtoient des zones dégarnies par le vent.",
+      "text": "Enneigement proche des normales.\nHauteurs de neige observées : 80 cm à la Nivôse de Restefond à 2550 m (secteur venté), 90 cm au-dessus de Larche à 2270 m en adret. \n\nEnneigement skiable : vers 1500 m en ubacs, 1800/1900 m en adrets peu pentus. \n\nÉtat de la neige en surface : dans les adrets, neige souvent croûtée, parfois recouverte par un peu de neige fraîche ou par des accumulations de neige rapportée par le vent.\nDans les ubacs, la neige reste froide au-dessus de 2000/2100 m environ, encore assez légère à l'abri du vent, mais de plus en plus travaillée ou durcie par le vent dans les secteurs exposés.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1300,
-        "south": 1600
+        "north": 1400,
+        "south": 1800
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 5,
+          "N": 10,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 105,
-          "S": 50
+          "N": 100,
+          "S": 45
         },
         {
           "alt_m": 2500,
-          "N": 150,
-          "S": 90
+          "N": 140,
+          "S": 85
         }
       ],
       "icon_key": "snowpack",

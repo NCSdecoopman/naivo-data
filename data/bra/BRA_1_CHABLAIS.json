@@ -3,48 +3,60 @@
   "massif": "Chablais",
   "bulletin": {
     "id": 1,
-    "issued_at": "2026-03-16T16:00:00",
-    "valid_until": "2026-03-17T18:00:00",
+    "issued_at": "2026-03-17T16:00:00",
+    "valid_until": "2026-03-18T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
+            "risk": 3,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
             "text": "2",
             "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-03-18",
-        "label": "Indice de risque limité",
-        "comment": "Risque stationnaire. Encore des instabilités dans les secteurs exposés à la Bise en ubacs. Grand soleil.",
+        "max_level": 3,
+        "date": "2026-03-19",
+        "label": "Indice de risque marqué",
+        "comment": "Risque en baisse. Temps anticyclonique.",
         "trend": "steady"
       }
     },
@@ -52,10 +64,10 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -67,21 +79,16 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 4,
+      "secondary": 5,
       "labels": {
         "2": "Neige ventée",
-        "4": "Neige humide"
+        "5": "Avalanche de fond"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-12",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-13",
           "min_cm": 5,
@@ -106,6 +113,11 @@
           "date": "2026-03-17",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-18",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,19 +127,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Instabilités dans la neige tombée ce weekend",
-      "text": "Instabilités dans la neige tombée ce weekend\n\nDéclenchements provoqués :\n* Au-dessus de 1800/2000 m : Plaques à vent. Formés par le vent de N/NW des derniers jours et en cours de formation en journée par la Bise (NE). Elles se situent principalement dans les ubacs d’altitude. Elles sont assez nombreuses près des crêtes, mais elles sont aussi présentes plus loin des crêtes dans les secteurs les plus exposés au vent de N. Assez facile à déclencher. Taille 1 à 2 (petite à moyenne).\nObservables : vaguelettes, fissures devant les skis, zones d'accumulations…\n* Au-dessus de 1800m en NW/N/NE et 2500m ailleurs, une couche fragile est encore présente sous environ 1m de neige, mais très difficilement sollicitable. Dans le cas d'une avalanche en cascade, elle pourrait être sollicitée et engendrer des avalanches de taille 3 (grandes).\n* L’après-midi : dans les adrets raides, de la neige humide peut partir sous les skis. Ces coulées peuvent prendre de l'ampleur en fonction de la pente.\n\nDéparts spontanés :\n* Avalanches de neige humide dans les adrets. De plus en plus nombreuses au fil de l’ensoleillement. Taille 1 à 2 dans les adrets les plus raides.\n* En dessous de 2200/2400 m : rares avalanches de fond, dans les zones herbeuses ou les dalles rocheuses. Taille 1 à 2 (petite à moyenne).",
+      "title": "Instabilités dans la neige ventée en ubacs et en altitude.",
+      "text": "Instabilités dans la neige ventée en ubacs et en altitude.\n\nDéclenchements provoqués :\n* Au-dessus de 2000 m : Nombreuses plaques à vent. Formés par le vent de N/NW/NE et en cours de formation en journée par le vent de NE puis SE. Elles se situent dans les ubacs au-dessus de 2000 m. Elles sont plus nombreuses en altitude. Assez facile à déclencher. Taille 1 à 2 (petite à moyenne).\nObservables : vaguelettes, fissures devant les skis, zones d'accumulations…\n* Au-dessus de 1800m en NW/N/NE et 2500m ailleurs, une couche fragile est encore présente sous environ 1m de neige, mais très difficilement sollicitable. Dans le cas d'une avalanche en cascade, elle pourrait être sollicitée et engendrer des avalanches de taille 3 (grandes).\n\nDéparts spontanés :\n* En dessous de 2200/2400 m : rares avalanches de fond, dans les zones herbeuses ou les dalles rocheuses. Taille 1 à 2.\n* En dessous de 2000 m : petites avalanches de neige humide dans les adrets. De plus en plus nombreuses au fil de l’ensoleillement. Taille 1.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nIl est correct pour la saison. En matinée, on retrouve de la neige dès 1000/1200 m. On retrouve un manteau réellement skiable à partir de 1200/1300 m en Nord et 1500/1600m en Sud.\n\nQualité de la neige mardi : \n* Neige ventée près des crêtes d’un large secteur nord. La neige reste plus souple loin des crêtes en ubacs au-dessus de 1800/2000 m. \n* En adrets neige regelée le matin qui transforme de plus en plus au fil de la course du soleil.",
+      "text": "Enneigement :\nIl est correct pour la saison. En matinée, on retrouve de la neige dès 1000/1200 m. On retrouve un manteau réellement skiable à partir de 1200/1300 m en Nord et 1500/1600m en Sud.\n\nQualité de la neige mercredi : \n* En dessous de 1800 m : neige regelée le matin sur un fond humide. La croute s'humidifie au fil des heures.\n* Au-dessus de 1800 m :\n- versant Nord : Soufflé près des crêtes, plus poudreux dense loin des secteurs exposés au vent de N\n- versant E/S/W :  La neige reste légèrement croutée en journée et a du mal à décailler sous l’effet du vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1000,
-        "south": 1200
+        "south": 1300
       },
       "levels_cm": [
         {
@@ -142,8 +154,8 @@
         },
         {
           "alt_m": 2000,
-          "N": 230,
-          "S": 170
+          "N": 220,
+          "S": 160
         }
       ],
       "icon_key": "snowpack",
