@@ -3,48 +3,60 @@
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
-    "issued_at": "2026-03-16T16:00:00",
-    "valid_until": "2026-03-17T18:00:00",
+    "issued_at": "2026-03-17T16:00:00",
+    "valid_until": "2026-03-18T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2000m indice de risque limité évoluant en marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
+            "risk": 2,
+            "evolution_to": 3,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
+          },
+          "top": {
+            "text": "2→3",
+            "risk": 2,
+            "evolution_to": 3
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-03-18",
-        "label": "Indice de risque limité",
-        "comment": "Encore du beau temps, un poil plus frais que les jours précédents : la stabilisation se poursuit, les plaques sont généralement difficiles à déclencher... Encore probablement un risque \"limité\".",
+        "max_level": 3,
+        "date": "2026-03-19",
+        "label": "Indice de risque marqué",
+        "comment": "Les structures de plaque récemment formées entament leur stabilisation. En fonction de la sévérité de l'épisode de vent de ce mercredi, le risque marqué s'envisage un jour de plus.",
         "trend": "steady"
       }
     },
@@ -55,8 +67,8 @@
         "E": false,
         "SE": false,
         "S": false,
-        "SW": false,
-        "W": false,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -67,21 +79,15 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 4,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
-        "4": "Neige humide"
+        "2": "Neige ventée"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-12",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-13",
           "min_cm": 0,
@@ -106,27 +112,32 @@
           "date": "2026-03-17",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-18",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "STABILISATION DU MANTEAU NEIGEUX EN COURS, ENCORE QUELQUES PLAQUES EN PERTE DE RÉACTIVITÉ.",
-      "text": "STABILISATION DU MANTEAU NEIGEUX EN COURS, ENCORE QUELQUES PLAQUES EN PERTE DE RÉACTIVITÉ.\n\nDéclenchements provoqués : encore quelques plaques en perte de réactivité, plutôt au-dessus de 2000 m et dans les versants ombragés. Ces plaques résident principalement près des crêtes où le vent a fortement travaillé le manteau, elles sont alors dures et identifiables (neige ferme voire dure sous les skis). A l'inverse, en milieu et bas de pentes, les plaques se font rares mais revêtent encore un aspect poudreux. Cassures généralement 10-30 cm, avalanches de taille moyenne (localement secteur Val d'Isère/Pisaillas : cassures pouvant atteindre 50-70 cm et donnant une grande avalanche). Facteur aggravant : la dernière chute de neige s'est localement déposée sur une fine couche de grains anguleux, ce qui tend à ralentir la stabilisation de ces plaques.\n\nDéparts spontanés : comme la veille, quelques départs ponctuels sont possibles dans la neige humide en versants ensoleillés. Les couloirs raides finissent de se purger. Petites à moyennes avalanches.",
+      "title": "COUP DE VENT ET NOUVELLES PLAQUES DES LA FIN DE MATINEE.",
+      "text": "COUP DE VENT ET NOUVELLES PLAQUES DES LA FIN DE MATINEE. \n\nDéclenchements provoqués : à partir de la fin de matinée, le franc coup de vent d'Est va former des plaques là où la neige récente est transportée. On les trouve autant aux abords des crêtes qu'en pied de pente/en fond de vallon. Etant en cours de formation, elles sont très réactives au passage d'un skieur, surtout haute montagne et dans les versants NO, N et NE qui conservent un manteau hivernal. Elles gagnent en épaisseur au fil des heures. Avalanches moyennes (taille 2) possibles. Observable : le transport de neige en cours. Facteur aggravant : la dernière chute de neige s'est localement déposée sur une fine couche de grains anguleux, en versant NO, N et NE au-delà de 2400 m, ce qui tend à augmenter le volume de neige mobilisable, et donc la taille des avalanches. \n\n- Secteur Val d'Isère/Pisaillas : les volumes de neige mobilisables sont plus importants. La problématique y est exacerbée. \n\nDéparts spontanés : à partir de la mi-journée, le transport de la neige par le vent d'Est engendre des départs de plaques dans les pentes raides, aux abords des crêtes, derrière les bosses... là où la neige se dépose. Moyennes avalanches possibles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : globalement bon pour la saison.\n\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1500/1600 m en sud pas trop raide.\n\nQualité de la neige : \n- en versants ombragés, crouté sous 1700/1900 m puis couche de neige récente meuble de plus en plus conséquente avec l'altitude (15/20 cm vers 2500 m, loc 40/60 vers le Pisaillas), souvent redistribuée ou densifiée par le vent (neige dure sur les crêtes).\n- en versants ensoleillés, mauvais printemps n'ayant pas encore subi suffisamment de cycles gel/dégel (sauf aux très basses altitudes). Croute, colle, bottage... on y verra tout !",
+      "text": "Enneigement : globalement bon pour la saison.\n\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1500/1600 m en sud pas trop raide.\n\nQualité de la neige : \n- en versants ombragés, crouté sous 1700/1900 m puis couche de neige récente meuble de plus en plus conséquente avec l'altitude (20/30 cm à partir de 2000 m, loc 50/70 vers le Pisaillas), souvent redistribuée ou densifiée par le vent (neige dure sur les crêtes).\n- en versants ensoleillés, neige croutée le matin qui décaille en Est et Sud, tant que le vent ne souffle pas trop fort. L'après-midi, les versants SO et O d'altitude soumis au vent ne décaillent pas.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1000,
+        "north": 1200,
         "south": 1300
       },
       "levels_cm": [
