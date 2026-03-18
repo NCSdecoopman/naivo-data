@@ -3,30 +3,30 @@
   "massif": "Thabor",
   "bulletin": {
     "id": 13,
-    "issued_at": "2026-03-17T16:00:00",
-    "valid_until": "2026-03-18T18:00:00",
+    "issued_at": "2026-03-18T16:00:00",
+    "valid_until": "2026-03-19T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 2300m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2200,
+        "threshold_m": 2300,
         "split_axis": "horizontal",
-        "split_label": "2200m",
+        "split_label": "2300m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
+            "loc": "<2300",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2200",
+            "loc": ">2300",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2200m"
+          "label": "2300m"
         },
         "zones": {
           "bottom": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-03-19",
-        "label": "Indice de risque marqué",
-        "comment": "Risque stable ou en baisse. Plaques encore localement réactives.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-03-20",
+        "label": "Indice de risque limité",
+        "comment": "risque en baisse avec des conditions météorologiques calmes et ensoleillées, favorisant la stabilisation des plaques en place.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -79,21 +79,15 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 3,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
-        "3": "Couche fragile persistante"
+        "2": "Neige ventée"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-13",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-14",
           "min_cm": 15,
@@ -118,6 +112,11 @@
           "date": "2026-03-18",
           "min_cm": 0,
           "max_cm": 2
+        },
+        {
+          "date": "2026-03-19",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +126,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITÉ ENCORE MARQUÉE DANS NEIGE RÉCENTE SÈCHE VENTÉE",
-      "text": "INSTABILITÉ ENCORE MARQUÉE DANS NEIGE RÉCENTE SÈCHE VENTÉE\n\nDéclenchements provoqués : plaques à vent récentes, quelques autres en formation (transport par le vent de la neige restée sèche / mobilisable). Instabilités surtout présentes au-dessus de 2200/2400 m dans les orientations ouest / nord / est ou vers les plus hauts sommets dans les adrets. Ces instabilités restent facilement déclenchables par un skieur. Avalanches de taille petite à moyenne, mobilisant la neige récente. Par ailleurs, on ne peut pas exclure dans ces mêmes orientations, le déclenchement en cascade d'une instabilité plus enfouie (couche fragile persistante), possiblement de grande taille, large cassure, emportant la quasi-totalité du manteau en place. \n- À plus basses altitudes ou en adrets d’altitude, les instabilités se stabilisent. Un déclenchement semble plus difficile.\n\nDéparts spontanés :  peu probables ou rares départs sous forme de plaque par la surcharge liée au transport de la neige par le vent. Plutôt haute altitude, taille petite à moyenne.",
+      "title": "PLAQUES DANS LA NEIGE RÉCENTE VENTÉE",
+      "text": "PLAQUES DANS LA NEIGE RÉCENTE VENTÉE\n\nDéclenchements provoqués : plaques à vent en place, de rares nouvelles en formation en début de journée avec le vent d'est encore sensible. Ces instabilités se situent dans les zones d'accumulation de neige, souvent derrière les crêtes et ruptures de pentes, parfois assez loin. Elles sont présentes principalement au dessus de 2300 m environ, possibles en toutes orientations mais plus fréquentes en versants est, nord et ouest. Elles peuvent être déclenchées facilement au passage d'un skieur, et provoquer des avalanches de taille petite à moyenne (1 à 2) en général. \nBien que difficile à déclencher, une rare grande avalanche n'est pas exclue, par exemple si la surcharge d'une avalanche de surface vient déstabiliser une couche fragile persistante enfouie en profondeur dans le manteau neigeux.\nEn dessous de 2300 m, quelques plaques peu volumineuses sont toutefois possibles.\n\nDéparts spontanés : \n- Rares départs en plaques encore possibles en début de journée, par surcharge liée au transport de la neige par le vent d'est. Devenant peu probables en cours de journée avec l'affaiblissement du vent. De taille petite à moyenne.\n- Rares départs ponctuels de neige s'humidifiant en pentes raides ensoleillées au fil de la journée. Départs généralement de petite taille.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales pour une mi-mars.\nHauteurs de neige observées vers 2500 m : 174 cm dans le vallon du Chardonnet, 127 cm à la nivôse des Rochilles, 83 cm à la Nivôse du Galibier.\n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs, 1700/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface :  après un bon regel, neige croutée en adrets. Peu ou pas d'humidification en journée. En ubacs au-dessus de 2000/2400 m, neige récente souvent densifiée / travaillée par le vent. Quelques giboulées en journée donnant localement quelques cm de neige.",
+      "text": "L'enneigement est proche des normales pour une mi-mars.\nHauteurs de neige observées vers 2500 m : 175 cm dans le vallon du Chardonnet, 125 cm à la nivôse des Rochilles, 83 cm à la Nivôse du Galibier.\n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs, 1700/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : après un bon regel nocturne en versants ensoleillés, reprise d'une humidification superficielle en journée. Au-dessus de 2300/2400 m, neige récente souvent travaillée par le vent, encore localement poudreuse en ubacs restés abrités.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +143,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 50,
+          "N": 45,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 125,
-          "S": 70
+          "N": 120,
+          "S": 60
         },
         {
           "alt_m": 2500,
           "N": 170,
-          "S": 110
+          "S": 105
         }
       ],
       "icon_key": "snowpack",

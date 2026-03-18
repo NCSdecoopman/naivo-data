@@ -3,14 +3,14 @@
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
-    "issued_at": "2026-03-17T16:00:00",
-    "valid_until": "2026-03-18T18:00:00",
+    "issued_at": "2026-03-18T16:00:00",
+    "valid_until": "2026-03-19T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque limité évoluant en marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2000,
@@ -27,8 +27,8 @@
           {
             "id": "zone2",
             "loc": ">2000",
-            "risk": 2,
-            "evolution_to": 3,
+            "risk": 3,
+            "evolution_to": null,
             "position": "top"
           }
         ]
@@ -46,25 +46,25 @@
             "evolution_to": null
           },
           "top": {
-            "text": "2→3",
-            "risk": 2,
-            "evolution_to": 3
+            "text": "3",
+            "risk": 3,
+            "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-03-19",
-        "label": "Indice de risque marqué",
-        "comment": "Les structures de plaque récemment formées entament leur stabilisation. En fonction de la sévérité de l'épisode de vent de ce mercredi, le risque marqué s'envisage un jour de plus.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-03-20",
+        "label": "Indice de risque limité",
+        "comment": "Grâce à une stabilisation relativement efficace, le nombre de plaques déclenchables à l'échelle du massif baisse rapidement. Un risque limité s'envisage pour vendredi.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
+        "E": true,
         "SE": false,
         "S": false,
         "SW": true,
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-13",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-14",
           "min_cm": 10,
           "max_cm": 25
@@ -116,29 +111,34 @@
         {
           "date": "2026-03-18",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
+        },
+        {
+          "date": "2026-03-19",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 1
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "COUP DE VENT ET NOUVELLES PLAQUES DES LA FIN DE MATINEE.",
-      "text": "COUP DE VENT ET NOUVELLES PLAQUES DES LA FIN DE MATINEE. \n\nDéclenchements provoqués : à partir de la fin de matinée, le franc coup de vent d'Est va former des plaques là où la neige récente est transportée. On les trouve autant aux abords des crêtes qu'en pied de pente/en fond de vallon. Etant en cours de formation, elles sont très réactives au passage d'un skieur, surtout haute montagne et dans les versants NO, N et NE qui conservent un manteau hivernal. Elles gagnent en épaisseur au fil des heures. Avalanches moyennes (taille 2) possibles. Observable : le transport de neige en cours. Facteur aggravant : la dernière chute de neige s'est localement déposée sur une fine couche de grains anguleux, en versant NO, N et NE au-delà de 2400 m, ce qui tend à augmenter le volume de neige mobilisable, et donc la taille des avalanches. \n\n- Secteur Val d'Isère/Pisaillas : les volumes de neige mobilisables sont plus importants. La problématique y est exacerbée. \n\nDéparts spontanés : à partir de la mi-journée, le transport de la neige par le vent d'Est engendre des départs de plaques dans les pentes raides, aux abords des crêtes, derrière les bosses... là où la neige se dépose. Moyennes avalanches possibles.",
+      "title": "NOMBREUSES STRUCTURES DE PLAQUE DANS LA NEIGE VENTEE.",
+      "text": "NOMBREUSES STRUCTURES DE PLAQUE DANS LA NEIGE VENTEE. \n\nDéclenchements provoqués : des plaques sont en place suite au coup de vent d'Est de mercredi. On les trouve autant aux abords des crêtes qu'en pied de pente/fond de vallon. Les cassures sont irrégulières mais peuvent aisément dépasser les 50 cm. Avalanches de taille 2 (moyenne) fréquentes. Facteur aggravant : en versant NO, N et NE au-delà de 2400 m, la neige récente s'est localement déposée sur une fine couche de grains anguleux, ce qui tend à augmenter le volume de neige mobilisable, et donc la taille des avalanches. \nObservables : accumulations identifiables visuellement, test du bâton (neige ferme surmontant de la neige meuble). \n\n- Secteur Val d'Isère/Pisaillas : les volumes de neige mobilisables sont plus importants. La problématique y est exacerbée. \n\nDéparts spontanés : rares. Le retour du Soleil favorise les coulées de neige humide dans les versants raides qui auraient \"trop chauffés\". Dans de rares cas, une boulette peut déclencher en cascade une plaque à vent installée en contrebas, avalanche moyenne (taille 2) alors possible.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : globalement bon pour la saison.\n\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1500/1600 m en sud pas trop raide.\n\nQualité de la neige : \n- en versants ombragés, crouté sous 1700/1900 m puis couche de neige récente meuble de plus en plus conséquente avec l'altitude (20/30 cm à partir de 2000 m, loc 50/70 vers le Pisaillas), souvent redistribuée ou densifiée par le vent (neige dure sur les crêtes).\n- en versants ensoleillés, neige croutée le matin qui décaille en Est et Sud, tant que le vent ne souffle pas trop fort. L'après-midi, les versants SO et O d'altitude soumis au vent ne décaillent pas.",
+      "text": "Enneigement : globalement bon pour la saison.\n\nLimite skiable : encore skiable dès 1100/1200 m dans les prairies orientées nord, plutôt 1500/1600 m en sud pas trop raide.\n\nQualité de la neige : \n- en versants ombragés, crouté sous 1800/2000 m. Au-dessus, la neige a été très travaillée par le vent. Les champs de poudre se font rares. Elle est souvent densifiée, cartonnée voire carrément dure près des crêtes.\n- en versants ensoleillés, très bon regel au réveil. Neige croutée le matin qui décaille tranquillement au fil des heures. La neige devient alors lourde et collante. Il n'y a qu'en plein Sud que les conditions se rapprochent de celles de printemps.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1200,
-        "south": 1300
+        "south": 1400
       },
       "levels_cm": [
         {

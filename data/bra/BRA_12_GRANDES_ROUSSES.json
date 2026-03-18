@@ -3,30 +3,30 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-03-17T16:00:00",
-    "valid_until": "2026-03-18T18:00:00",
+    "issued_at": "2026-03-18T16:00:00",
+    "valid_until": "2026-03-19T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 2400m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2200,
+        "threshold_m": 2400,
         "split_axis": "horizontal",
-        "split_label": "2200m",
+        "split_label": "2400m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
+            "loc": "<2400",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2200",
+            "loc": ">2400",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2200m"
+          "label": "2400m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-19",
+        "date": "2026-03-20",
         "label": "Indice de risque limité",
-        "comment": "Poursuite de la stabilisation du manteau neigeux jeudi. Risques probablement en baisse.",
+        "comment": "Reprise de l'humidification en journée de vendredi. Risques stationnaires.",
         "trend": "down"
       }
     },
@@ -68,7 +68,7 @@
         "SE": false,
         "S": false,
         "SW": false,
-        "W": false,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -88,11 +88,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-13",
-          "min_cm": 0,
-          "max_cm": 1
-        },
         {
           "date": "2026-03-14",
           "min_cm": 15,
@@ -117,6 +112,11 @@
           "date": "2026-03-18",
           "min_cm": 0,
           "max_cm": 1
+        },
+        {
+          "date": "2026-03-19",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,35 +126,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux modérément stabilisé en versants ombragés.",
-      "text": "Manteau neigeux modérément stabilisé en versants ombragés.\n\nDéclenchements provoqués : sous l'effet du soleil, le manteau neigeux s'est déjà bien consolidé dans les adrets. Cependant, il reste des plaques formées récemment par le vent de nord, essentiellement dans les versants froids à plus de 2200 m. Ces plaques sont constituées de neige plus ou moins compacte suivant l'action du vent, et les cassures ne dépassent généralement pas 20/40 cm. De nouvelles plaques, plus fines, pourraient se former en fin de journée sous l'effet du vent d'est.\n\nDéparts spontanés : Après un bon regel nocturne, l'humidification du manteau neigeux sera assez faible mercredi. Très peu d'activité avalancheuse naturelle à redouter.",
+      "title": "Manteau neigeux modérément stabilisé en versants ombragés de haute montagne.",
+      "text": "Manteau neigeux modérément stabilisé en versants ombragés de haute montagne.\n\nDéclenchements provoqués : sous l'effet du soleil, le manteau neigeux s'est déjà bien consolidé dans les adrets. Les plaques formées par le vent de nord, essentiellement dans les versants froids à plus de 2400 m, se raréfient. Ces plaques sont constituées de neige plus ou moins compacte suivant l'action du vent, et les cassures ne dépassent généralement pas 20/40 cm. De nouvelles plaques, plus fines mais plus réactives, se sont probablement formées durant cet après-midi de mercredi sous l'effet du vent d'est.\n\nDéparts spontanés : Après un bon regel nocturne, l'humidification du manteau neigeux reprend grâce au soleil. Ponctuellement, une avalanche de neige lourde (taille 1 à 2) reste possible jeudi dans une pente surchauffée qui n'aurait pas déjà purgé depuis les dernières chutes de neige.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1300 m. Il est correct en Sud mais les sous-couches sont rares sous 1700/1800 m. \nLimites skiables : Vers 1200/1600 m selon les versants. \n\nQualité de la neige mercredi : Neige croûtée, s'humidifiant superficiellement en journée de mercredi dans les versants au soleil. Neige froide souvent travaillée par le vent dans les ubacs. Très léger saupoudrage possible l'après-midi.",
+      "text": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1300 m. Il est correct en Sud mais les sous-couches sont rares sous 1700/1800 m. \nLimites skiables : Vers 1200/1600 m selon les versants. \nQualité de la neige jeudi : Neige croûtée, s'humidifiant dans les versants au soleil. Neige froide souvent travaillée par le vent dans les ubacs.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1000,
-        "south": 1200
+        "north": 1100,
+        "south": 1500
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 70,
-          "S": 10
+          "N": 60,
+          "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 240,
-          "S": 140
+          "N": 230,
+          "S": 130
         },
         {
           "alt_m": 2500,
-          "N": 330,
-          "S": 230
+          "N": 320,
+          "S": 220
         }
       ],
       "icon_key": "snowpack",

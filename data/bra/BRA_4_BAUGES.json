@@ -3,8 +3,8 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-03-17T16:00:00",
-    "valid_until": "2026-03-18T18:00:00",
+    "issued_at": "2026-03-18T16:00:00",
+    "valid_until": "2026-03-19T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-19",
+        "date": "2026-03-20",
         "label": "Indice de risque limité",
-        "comment": "Risque en baisse. Vent en baisse, grand soleil.",
+        "comment": "Vendredi, ensoleillé avec peu de vent et un isotherme 0°C vers 2000 m.\n⇒ stabilisation progressive des plaques à vent, quelques petites avalanches de neige humide au soleil.",
         "trend": "steady"
       }
     },
@@ -53,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -67,21 +67,15 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 5,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
-        "5": "Avalanche de fond"
+        "2": "Neige ventée"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-13",
-          "min_cm": 5,
-          "max_cm": 10
-        },
         {
           "date": "2026-03-14",
           "min_cm": 10,
@@ -106,6 +100,11 @@
           "date": "2026-03-18",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-19",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,35 +114,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Encore de rares instabilités en ubacs d'altitude.",
-      "text": "Encore de rares instabilités en ubacs d'altitude.\n\nDéparts spontanés :\n* Rares avalanches de fond, dans les zones herbeuses ou les dalles rocheuses. Taille 1 à 2 (petite à moyenne).\n* Avalanches de neige humide dans les adrets. De plus en plus nombreuses au fil de l’ensoleillement. Taille 1 à 2 dans les adrets les plus raides.\n\nDéclenchements provoqués :\n* Au-dessus de 1800 m : quelques plaques à vent. Formés par le vent de N/NW/NE des derniers jours et en cours de formation en journée par le vent de S/SE. Elles sont situées surtout près des crêtes en ubacs. Assez facile à déclencher. Taille 1 à 2 (petite à moyenne).\nObservables : vaguelettes, fissures devant les skis, zones d'accumulations…",
+      "title": "",
+      "text": "Déclenchements provoqués :\n* plaques à vent, principalement dans les versants nord-est, nord et nord-ouest au-dessus de 1800 m, plus rares en dessous. Elles sont dures. Facile à déclencher. Elles ont été formées par le vent de sud-est, mercredi après-midi. Taille 1 à 2 (petite à moyenne).\nObservables : accumulation de neige, vaguelettes, fissures sous les skis. \n* un peu de neige humide peut couler sous les skis dans les versants ensoleillés aux heures les plus chaudes. Taille 1 (petite)\n\nDéparts spontanés :\n* rares plaques de fond, de jour comme de nuit, dans les pentes lisses et raides (zones herbeuses, dalles rocheuses).Taille 2 (moyenne).\n* rares avalanches de neige humide, dans les versants ensoleillés, très rares en début de matinée et plus nombreuses au fil de la course du soleil. Taille 1 rarement 2.\nObservables : enfoncement piéton important, escargots.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nIl est correct pour la saison. En matinée, on retrouve de la neige dès 1000/1200 m. On retrouve un manteau réellement skiable à partir de 1200/1300 m en Nord et 1500/1600m en Sud.\n\nQualité de la neige mercredi : \n* En dessous de 1600/1800 m : neige regelée le matin sur un fond humide. La croute s'humidifie au fil des heures.\n* Au-dessus de 1600/1800 m :\n- versant nord : Soufflé près des crêtes, plus poudreux dense loin des secteurs exposés au vent de N\n- versant E/SE :  la neige décaille légèrement en début de matinée avant de durcir de nouveau sous l’effet du vent de SE.\n- W/SW : La neige reste légèrement croutée en journée et a du mal à décailler sous l’effet du vent.",
+      "text": "Enneigement : Pour la saison, l’enneigement est correct. \nOn peut chausser les skis vers 1200/1300 m en nord et 1400/1500 m en sud.\nGrosses corniches présentes.\n\nQualité de la neige ce jeudi matin : \n* en versant sud et nord sous 1600/1800 m, fine croûte de regel non portante, s'humidifiant en journée.\n* en versant nord au-dessus de 1600/1800 m, neige froide fortement travaillée par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1000,
+        "north": 1100,
         "south": 1300
       },
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 1,
+          "N": 0,
           "S": 0
         },
         {
           "alt_m": 1500,
-          "N": 90,
-          "S": 60
+          "N": 85,
+          "S": 55
         },
         {
           "alt_m": 2000,
-          "N": 130,
-          "S": 70
+          "N": 125,
+          "S": 65
         }
       ],
       "icon_key": "snowpack",
