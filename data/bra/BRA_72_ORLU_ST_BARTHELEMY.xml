@@ -1,96 +1,73 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="72" MASSIF="Orlu St-Barthelemy" DATEBULLETIN="2026-03-18T15:00:00" DATEECHEANCE="2026-03-19T18:00:00" DATEVALIDITE="2026-03-19T18:00:00" DATEDIFFUSION="2026-03-18T15:16:00" AMENDEMENT="false">
-  <DateValidite>2026-03-19T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="72" MASSIF="Orlu St-Barthelemy" DATEBULLETIN="2026-03-19T16:00:00" DATEECHEANCE="2026-03-20T18:00:00" DATEVALIDITE="2026-03-20T18:00:00" DATEDIFFUSION="2026-03-19T16:06:00" AMENDEMENT="false">
+  <DateValidite>2026-03-20T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="2" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="2" COMMENTAIRE="Indice de risque limité." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-03-20T00:00:00"/>
-    <PENTE NE="true" E="false" SE="false" S="false" SW="false" W="false" NW="true" N="true" COMMENTAIRE=""/>
-    <ACCIDENTEL><![CDATA[Quelques plaques à vent en haute montagne. ]]></ACCIDENTEL>
-    <NATUREL><![CDATA[ Plaques de fond en moyenne montagne ou coulées en neige humide, y compris en versants nord.]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés :  Plaques de fond en moyenne montagne ou coulées en neige humide, y compris en versants nord.
-Déclenchements skieurs : Quelques plaques à vent en haute montagne. ]]></RESUME>
+    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="&lt;2100" ALTITUDE="2100" RISQUE2="2" EVOLURISQUE2="" LOC2="&gt;2100" RISQUEMAXI="2" COMMENTAIRE="Au-dessus de 2100m indice de risque limité, plus bas indice faible." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-03-21T00:00:00"/>
+    <PENTE NE="true" E="false" SE="false" S="false" SW="false" W="false" NW="true" N="true" COMMENTAIRE="Plaques en altitude"/>
+    <ACCIDENTEL><![CDATA[Encore quelques plaques à vent en haute montagne, plutôt sur Orlu]]></ACCIDENTEL>
+    <NATUREL><![CDATA[Activité en neige humide en cours de journée, au gré de l'ensoleillement]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : Activité en neige humide en cours de journée, au gré de l'ensoleillement
+Déclenchements skieurs : Encore quelques plaques à vent en haute montagne, plutôt sur Orlu]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque limité]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Stationnaires, voire en légère baisse le matin.]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Peu d'évolution nivo-météorologiques avec des conditions encore calmes]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_72.png</ImageRisque>
     <ImagePente>rose_pentes_72.png</ImagePente>
   </CARTOUCHERISQUE>
   <STABILITE>
-    <SitAvalTyp SAT1="4" SAT2="5"/>
-    <TITRE><![CDATA[Un peu d'instabilité en haute montagne. ]]></TITRE>
+    <SitAvalTyp SAT1="2" SAT2="4"/>
+    <TITRE><![CDATA[Quelques structures de plaques encore présentes sur Orlu ; reprise de l'humidification au soleil en journée.]]></TITRE>
     <TEXTESANSTITRE><![CDATA[Déclenchements provoqués :
-Quelques structures de plaques potentiellement encore en place dans quelques pentes sommitales raides orientées nord, dans les secteurs ayant résisté à l'humidification ( au-delà  de 2400/2500 m secteur Orlu/Est, Beys/Bésines ).  Des accumulations en neige sèche sont encore susceptibles de reposer sur du givre de surface ou de la neige roulée. 
-Cassures de 30/40 cm localement possibles, mais avalanches difficiles à déclencher.  En deçà de cette altitude, l'humidification a gagné une bonne partie des pentes, le risque de départ diminue significativement.
-Les secteurs les plus froids avec configuration particulière (goulet, verrous) peuvent éventuellement conserver un risque de déclenchement de plaques dans les pentes très raides. 
-(Observables : traces d'avalanches récentes, fissures sous les skis, affaissement accompagné de 'whoomf', signes de transport par le vent). 
+Avalanches de plus en plus difficiles à déclencher. Il reste encore des structures de plaques en versants Nord au-dessus de 2100/2200 m, dans les secteurs ayant résisté à l'humidification (secteur Orlu, En Beys, Bésines). Des accumulations en neige sèche sont encore susceptibles de reposer sur du givre de surface ou de la neige roulée avec des cassures typiques de 30/40 cm. Plus bas, l'humidification a gagné une bonne partie des pentes et les possibilités de déclenchements provoqués diminuent significativement.
+Observables : neige travaillée par le vent en surface, fissures sous les skis, affaissement accompagné de 'whoomf'.
 
 Départs spontanés :
-Avalanches de fond de taille petite ou moyenne possible dès la matinée, y compris en versant nord. Quelques coulées ponctuelles en neige humide dans les pentes ou couloirs raides en dessous de 2100/2200 m. 
- En effet, le regel s'annonce incertain en dessous de cette altitude en raison de la couche nuageuse de la fin de nuit.
-Une humidification un peu plus prononcée et profonde que les journées précédentes est attendue en journée dans les versants nord de moyenne montagne. 
-(Observables : neige très humide, gorgée d'eau; enfoncement important)
-
-
-]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[Un peu d'instabilité en haute montagne. 
+Avalanches de taille petite à moyenne en neige humide, emportant parfois toute l'épaisseur de neige, dès la matinée dans les versants Est, puis dans les versants s'humidifiant progressivement avec l'ensoleillement. Les accumulations dans les versants Est à Sud-Est sont encore conséquentes et peuvent mobiliser des volumes de neige importants au-dessus de 2100/2200m. Plus bas, rares coulées ponctuelles en neige humide dans les pentes ou couloirs raides. En effet, après le bon regel nocturne, l'humidification devrait être moins prononcée que les jours précédents.]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[Quelques structures de plaques encore présentes sur Orlu ; reprise de l'humidification au soleil en journée.
 
 Déclenchements provoqués :
-Quelques structures de plaques potentiellement encore en place dans quelques pentes sommitales raides orientées nord, dans les secteurs ayant résisté à l'humidification ( au-delà  de 2400/2500 m secteur Orlu/Est, Beys/Bésines ).  Des accumulations en neige sèche sont encore susceptibles de reposer sur du givre de surface ou de la neige roulée. 
-Cassures de 30/40 cm localement possibles, mais avalanches difficiles à déclencher.  En deçà de cette altitude, l'humidification a gagné une bonne partie des pentes, le risque de départ diminue significativement.
-Les secteurs les plus froids avec configuration particulière (goulet, verrous) peuvent éventuellement conserver un risque de déclenchement de plaques dans les pentes très raides. 
-(Observables : traces d'avalanches récentes, fissures sous les skis, affaissement accompagné de 'whoomf', signes de transport par le vent). 
+Avalanches de plus en plus difficiles à déclencher. Il reste encore des structures de plaques en versants Nord au-dessus de 2100/2200 m, dans les secteurs ayant résisté à l'humidification (secteur Orlu, En Beys, Bésines). Des accumulations en neige sèche sont encore susceptibles de reposer sur du givre de surface ou de la neige roulée avec des cassures typiques de 30/40 cm. Plus bas, l'humidification a gagné une bonne partie des pentes et les possibilités de déclenchements provoqués diminuent significativement.
+Observables : neige travaillée par le vent en surface, fissures sous les skis, affaissement accompagné de 'whoomf'.
 
 Départs spontanés :
-Avalanches de fond de taille petite ou moyenne possible dès la matinée, y compris en versant nord. Quelques coulées ponctuelles en neige humide dans les pentes ou couloirs raides en dessous de 2100/2200 m. 
- En effet, le regel s'annonce incertain en dessous de cette altitude en raison de la couche nuageuse de la fin de nuit.
-Une humidification un peu plus prononcée et profonde que les journées précédentes est attendue en journée dans les versants nord de moyenne montagne. 
-(Observables : neige très humide, gorgée d'eau; enfoncement important)
-
-
-]]></TEXTE>
+Avalanches de taille petite à moyenne en neige humide, emportant parfois toute l'épaisseur de neige, dès la matinée dans les versants Est, puis dans les versants s'humidifiant progressivement avec l'ensoleillement. Les accumulations dans les versants Est à Sud-Est sont encore conséquentes et peuvent mobiliser des volumes de neige importants au-dessus de 2100/2200m. Plus bas, rares coulées ponctuelles en neige humide dans les pentes ou couloirs raides. En effet, après le bon regel nocturne, l'humidification devrait être moins prononcée que les jours précédents.]]></TEXTE>
   </STABILITE>
   <QUALITE>
     <TEXTE><![CDATA[Enneigement : 
-Malgré le redoux de ces derniers jours, l'enneigement reste excellent pour la saison, après plusieurs hivers déficitaires.
-Fonte conséquente au soleil et en moyenne montagne depuis lundi après-midi et à fortiori mardi. 
+Malgré le redoux de ces derniers jours, l'enneigement reste excellent pour la saison, après plusieurs hivers déficitaires. La fonte est tout de même importante au soleil et en moyenne montagne notamment en versants sud. 
+La limite skiable évolue peu avec des quantités de neige encore importantes dès 1500/1700m. On peut souvent chausser les skis vers 1300/1400 m dans les meilleures configurations en versants nord, plus surement au-dessus de 1500 m en versants froids, 1700/1800m en versants sud.
 
-Limites skiables : 
-On peut encore envisager de chausser les skis vers 1300/1400 m dans les meilleures configurations en versants nord, plus surement au-dessus de 1500m en versants froids, 1800/1900m en versants sud.
-
-État de la neige : 
-Neige souvent dure et regelée en matinée au-delà de 2100/2200 m. Regel incertain en dessous de cette altitude avec les nuages plus nombreux.
-Dans l'après-midi, humidification moins prononcée que les jours précédents en versants ensoleillés, neige de printemps meuble dans tous les versants en dessous de 2300/2400 m. Quelques combes de poudreuses résistent au-delà de 2500 m. ]]></TEXTE>
+Qualité de la neige : 
+Vendredi matin, la neige devrait être bien dure et regelée en matinée après une nuit claire sauf en forêt où le regel sera mauvais. Sur Orlu, au-dessus de 2000/2100 m, on pourra trouver une fine couche de neige fraiche de quelques cm avec les averses de jeudi. 
+En cours de journée, la neige s'humidifie progressivement sous 2100 m en tous versants et jusqu'à haute altitude dans les versants ensoleillés. On trouve alors une neige de printemps meuble en dessous de 2500/2600 m, devenant lourde et collante l'après-midi en Sud. Quelques combes bien ombragées devraient encore être poudreuses à partir de 2200/2400 m.]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-03-18T00:00:00" LimiteSud="1800" LimiteNord="1500">
+  <ENNEIGEMENT DATE="2026-03-19T00:00:00" LimiteSud="1800" LimiteNord="1500">
     <NIVEAU ALTI="1500" N="40" S="0"/>
     <NIVEAU ALTI="2000" N="210" S="115"/>
     <NIVEAU ALTI="2500" N="350" S="260"/>
     <ImageEnneigement>montagne_enneigement_72.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-03-14T00:00:00" SS24Min="10" SS24Max="20"/>
     <NEIGE24H DATE="2026-03-15T00:00:00" SS24Min="1" SS24Max="1"/>
     <NEIGE24H DATE="2026-03-16T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-03-17T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-03-18T00:00:00" SS24Min="0" SS24Max="0"/>
-    <NEIGE24H DATE="2026-03-19T00:00:00" SS24Min="0" SS24Max="0"/>
+    <NEIGE24H DATE="2026-03-19T00:00:00" SS24Min="0" SS24Max="1"/>
+    <NEIGE24H DATE="2026-03-20T00:00:00" SS24Min="0" SS24Max="0"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_72.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="2000" ALTITUDEVENT2="3000">
-    <COMMENTAIRE>Nuageux à couvent en matinée, rares ondées. </COMMENTAIRE>
-    <ECHEANCE DATE="2026-03-19T06:00:00" FF1="25" DD1="S" FF2="40" DD2="NO" ISO0="2900" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-03-19T12:00:00" FF1="20" DD1="S" FF2="20" DD2="NO" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="3" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-03-19T18:00:00" FF1="15" DD1="SE" FF2="10" DD2="E" ISO0="2300" PLUIENEIGE="-1" TEMPSSENSIBLE="3" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-03-20T00:00:00" FF1="10" DD1="SO" FF2="15" DD2="NE" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
+    <COMMENTAIRE>Belle journée douce et ensoleillée.</COMMENTAIRE>
+    <ECHEANCE DATE="2026-03-20T06:00:00" FF1="15" DD1="S" FF2="25" DD2="E" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-03-20T12:00:00" FF1="10" DD1="S" FF2="20" DD2="E" ISO0="2500" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-03-20T18:00:00" FF1="10" DD1="NO" FF2="15" DD2="E" ISO0="2600" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-03-21T00:00:00" FF1="10" DD1="S" FF2="15" DD2="NE" ISO0="2600" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_72.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-03-12T06:00:00" FF1="30" DD1="NO" FF2="40" DD2="NO" ISO0="2000" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
-      <ECHEANCE DATE="2026-03-12T12:00:00" FF1="20" DD1="NO" FF2="30" DD2="NO" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
-      <ECHEANCE DATE="2026-03-12T18:00:00" FF1="15" DD1="NO" FF2="25" DD2="NO" ISO0="2500" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-03-13T00:00:00" FF1="15" DD1="NE" FF2="25" DD2="NO" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-03-13T06:00:00" FF1="15" DD1="N" FF2="25" DD2="N" ISO0="2600" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-03-13T12:00:00" FF1="15" DD1="O" FF2="25" DD2="O" ISO0="2600" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-03-13T18:00:00" FF1="15" DD1="O" FF2="30" DD2="O" ISO0="2600" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
@@ -115,13 +92,12 @@ Dans l'après-midi, humidification moins prononcée que les jours précédents e
       <ECHEANCE DATE="2026-03-18T12:00:00" FF1="10" DD1="SO" FF2="15" DD2="N" ISO0="3300" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-03-18T18:00:00" FF1="10" DD1="SO" FF2="20" DD2="NO" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-03-19T00:00:00" FF1="15" DD1="S" FF2="30" DD2="NO" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
+      <ECHEANCE DATE="2026-03-19T06:00:00" FF1="25" DD1="S" FF2="40" DD2="NO" ISO0="2900" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
+      <ECHEANCE DATE="2026-03-19T12:00:00" FF1="15" DD1="S" FF2="25" DD2="NO" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
+      <ECHEANCE DATE="2026-03-19T18:00:00" FF1="10" DD1="SE" FF2="20" DD2="E" ISO0="2300" PLUIENEIGE="1800" TEMPSSENSIBLE="71"/>
+      <ECHEANCE DATE="2026-03-20T00:00:00" FF1="10" DD1="SO" FF2="20" DD2="NE" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-03-12T00:00:00" LimiteSud="1600" LimiteNord="1400">
-        <NIVEAU ALTI="1500" N="15" S="0"/>
-        <NIVEAU ALTI="2000" N="195" S="130"/>
-        <NIVEAU ALTI="2500" N="320" S="260"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-03-13T00:00:00" LimiteSud="1600" LimiteNord="1400">
         <NIVEAU ALTI="1500" N="15" S="0"/>
         <NIVEAU ALTI="2000" N="190" S="125"/>
@@ -152,23 +128,28 @@ Dans l'après-midi, humidification moins prononcée que les jours précédents e
         <NIVEAU ALTI="2000" N="210" S="115"/>
         <NIVEAU ALTI="2500" N="350" S="260"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-03-19T00:00:00" LimiteSud="1800" LimiteNord="1500">
+        <NIVEAU ALTI="1500" N="40" S="0"/>
+        <NIVEAU ALTI="2000" N="210" S="115"/>
+        <NIVEAU ALTI="2500" N="350" S="260"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-03-13T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-03-14T00:00:00" SS24Min="7" SS24Max="10"/>
       <NEIGE24H DATE="2026-03-15T00:00:00" SS24Min="10" SS24Max="20"/>
       <NEIGE24H DATE="2026-03-16T00:00:00" SS24Min="1" SS24Max="1"/>
       <NEIGE24H DATE="2026-03-17T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-03-18T00:00:00" SS24Min="0" SS24Max="0"/>
+      <NEIGE24H DATE="2026-03-19T00:00:00" SS24Min="0" SS24Max="0"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-03-12T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-03-13T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-03-14T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-03-15T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-03-16T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-03-17T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-03-18T00:00:00" RISQUEMAXI="3"/>
+      <RISQUE DATE="2026-03-19T00:00:00" RISQUEMAXI="2"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_72.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_72.png</Image7derniersjours_portrait>

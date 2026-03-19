@@ -3,31 +3,31 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-03-18T16:00:00",
-    "valid_until": "2026-03-19T18:00:00",
+    "issued_at": "2026-03-19T16:00:00",
+    "valid_until": "2026-03-20T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "max_level": 2,
+      "comment": "Au-dessus de 1700m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 1700,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "1700m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
-            "risk": 2,
+            "loc": "<1700",
+            "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
-            "risk": 3,
+            "loc": ">1700",
+            "risk": 2,
             "evolution_to": null,
             "position": "top"
           }
@@ -37,27 +37,27 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "1700m"
         },
         "zones": {
           "bottom": {
-            "text": "2",
-            "risk": 2,
+            "text": "1",
+            "risk": 1,
             "evolution_to": null
           },
           "top": {
-            "text": "3",
-            "risk": 3,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-20",
+        "date": "2026-03-21",
         "label": "Indice de risque limité",
-        "comment": "Vendredi, ensoleillé avec peu de vent et un isotherme 0°C vers 2000 m.\n⇒ stabilisation progressive des plaques à vent, quelques petites avalanches de neige humide au soleil.",
-        "trend": "down"
+        "comment": "Samedi, un peu plus nuageux avec du vent faible et un isotherme 0°C vers 1800/2000 m.\n⇒ peu d’évolution, poursuite de la stabilisation du manteau neigeux.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -88,11 +88,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-14",
-          "min_cm": 30,
-          "max_cm": 40
-        },
         {
           "date": "2026-03-15",
           "min_cm": 0,
@@ -117,6 +112,11 @@
           "date": "2026-03-19",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-20",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,12 +127,12 @@
     },
     "stability": {
       "title": "",
-      "text": "Déclenchements provoqués :\n* nombreuses plaques à vent, principalement dans les versants est, nord et ouest au-dessus de 2000 m et sud au-dessus de 3000 m, rares en dessous. Elles sont dures. Facile à déclencher. Elles ont été formées par le fort Foehn mercredi après-midi. Taille 2 (moyenne).\nObservables : accumulation de neige, vaguelettes, fissures sous les skis. \n* rares plaques dures sur sous-couche fragile persistante enfouies, au-dessus de 2200 m. Difficile à déclencher. Départ possible par chutes de corniches, séracs ou avalanches en cascade. Taille 2 (moyenne) et rarement 3 (grande) avec d’épaisses cassures.\n* un peu de neige humide peut couler sous les skis dans les versants ensoleillés aux heures les plus chaudes. Taille 1 (petite)\n\nDéparts spontanés :\n* rares plaques de fond, de jour comme de nuit, dans les pentes lisses et raides (zones herbeuses, dalles rocheuses). Présentes dans les versants sud sous 2200 m et dans les versants nord sous 2000 m. Taille 2 (moyenne).\n* rares avalanches de neige humide, dans les versants ensoleillés sous 2500 m, très rares en début de matinée et un peu plus nombreuses au fil de la course du soleil. Taille 1 rarement 2.\nObservables : enfoncement piéton important, escargots.",
+      "text": "Déclenchements provoqués :\n* quelques plaques à vent, dans les versants est, nord et ouest au-dessus de 2000 m. Elles sont plus nombreuses en montant en altitude. Elles sont dures. Assez difficile à déclencher. Elles ont été formées par le Foehn mercredi après-midi et en haute montagne aussi jeudi matin. Taille 1 à 2 (petite à moyenne).\nObservables : accumulation de neige, vaguelettes, fissures sous les skis. \n* un peu de neige humide peut couler sous les skis dans les versants ensoleillés aux heures les plus chaudes, sous 2500 m. Taille 1 (petite)\n* rares plaques dures sur sous-couche fragile persistante enfouies, au-dessus de 2200 m. Très difficile à déclencher par un skieur. Départ possible par chutes de corniches, séracs ou avalanches en cascade. Taille 2 (moyenne) et rarement 3 (grande) avec d’épaisses cassures.\n\nDéparts spontanés :\n* rares avalanches de neige humide, dans les versants ensoleillés sous 2500 m, très rares en début de matinée et un peu plus nombreuses au fil de la course du soleil. Taille 1 rarement 2.\nObservables : enfoncement piéton important, escargots. \n* rares plaques de fond, de jour comme de nuit, dans les pentes lisses et raides (zones herbeuses, dalles rocheuses). Dans les versants sud sous 2200 m et dans les versants nord sous 2000 m. Taille 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Pour la saison, l’enneigement est correct. \nOn peut chausser les skis vers 1200/1300 m en nord et 1400/1500 m en sud.\nGrosses corniches présentes.\n\nQualité de la neige ce jeudi matin : \n* en versant sud sous 2800 m et nord sous 1600/1800 m, fine croûte de regel non portante, s'humidifiant en journée.\n* en versant nord au-dessus de 1600/1800 m et sud au-dessus de 2800 m, neige froide fortement travaillée par le vent.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis vers 1200/1300 m en nord et 1400/1500 m en sud.\nGrosses corniches présentes. \n\nQualité de la neige ce vendredi matin : \n* Dans les adrets sous 2000 m, neige de printemps avec un bon regel nocturne\n* Dans les adrets vers 2000/2800 m et les ubacs sous 2000 m : petite croûte de regel non portante reposant sur de la neige dense. Humidification de surface en journée. \n* Dans les ubacs au-dessus de 2000 m, neige dure et froide, fortement travaillée par le vent. Des vielles traces de skis ressortent par endroits. \n* En haute montagne, neige très hétérogène soit très dure (la glace ressort dans certaines zones) ou grosses accumulations de neige froide avec un enfoncement piéton important.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
