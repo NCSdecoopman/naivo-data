@@ -3,73 +3,61 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-03-19T16:00:00",
-    "valid_until": "2026-03-20T18:00:00",
+    "issued_at": "2026-03-20T16:00:00",
+    "valid_until": "2026-03-21T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 1700m indice de risque limité, plus bas indice faible.",
+      "max_level": 1,
+      "comment": "Indice de risque faible.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 1700,
-        "split_axis": "horizontal",
-        "split_label": "1700m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1700",
+            "loc": null,
             "risk": 1,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">1700",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "1700m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "1",
             "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-03-21",
-        "label": "Indice de risque limité",
-        "comment": "Samedi, un peu plus nuageux avec du vent faible et un isotherme 0°C vers 1800/2000 m.\n⇒ peu d’évolution, poursuite de la stabilisation du manteau neigeux.",
+        "max_level": 1,
+        "date": "2026-03-22",
+        "label": "Indice de risque faible",
+        "comment": "Dimanche, faibles chutes de neige en journée (5 cm), venant créer de petites instabilités.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
-        "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
-        "W": true,
-        "NW": true
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -78,21 +66,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": null,
+      "primary": 5,
+      "secondary": 2,
       "labels": {
+        "5": "Avalanche de fond",
         "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-5"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-15",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-16",
           "min_cm": 0,
@@ -117,22 +101,27 @@
           "date": "2026-03-20",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-21",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "",
-      "text": "Déclenchements provoqués :\n* quelques plaques à vent, dans la neige froide (versants est, nord et ouest au-dessus de 1800 m). Elles sont dures. Assez difficile à déclencher. Elles ont été formées par le vent d'est de mercredi après-midi. Taille 1 à 2 (petite à moyenne).\nObservables : accumulation de neige, vaguelettes, fissures sous les skis, sous 2500 m. \n* un peu de neige humide peut couler sous les skis dans les versants ensoleillés aux heures les plus chaudes. Taille 1 (petite)\n\nDéparts spontanés :\n* rares avalanches de neige humide, dans les versants ensoleillés, très rares en début de matinée et un peu plus nombreuses au fil de la course du soleil. Taille 1 rarement 2.\nObservables : enfoncement piéton important, escargots. \n* rares plaques de fond, de jour comme de nuit, dans les pentes lisses et raides (zones herbeuses, dalles rocheuses). Taille 2.",
+      "title": "Petites instabilités sur les plus hauts sommets.",
+      "text": "Petites instabilités sur les plus hauts sommets.\n\nDéparts spontanés :\n* Des plaques de fond sont toujours possibles, en tous versants, à toute heure du jour et de la nuit, dans les pentes lisses et raides (zones herbeuses, dalles, vires). Taille 2 (moyenne).\n* Rares coulées en neige humide toujours possibles au fil de l'ensoleillement. Ces petites avalanches (taille 1) sont un peu plus probables au fil de la journée. Taille 1, rarement 2.\n\nDéclenchements provoqués :\n* Rares plaques à vent, dans la neige froide au-dessus de 1800 m. Elles sont plutôt d'aspect dur et assez difficile à déclencher. Elles ont été formées par le vent d'est de mercredi après-midi. Taille 1 à 2 (petite à moyenne).\nObservables : accumulation de neige, vaguelettes, fissures sous les skis.\n* un peu de neige humide peut couler sous les skis dans les versants ensoleillés aux heures les plus chaudes. Taille 1 (petite).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis vers 1200/1300 m en nord et 1400/1500 m en sud.\nGrosses corniches présentes. \n\nQualité de la neige ce vendredi matin : \n* Dans les adrets sous 2000 m, neige de printemps avec un bon regel nocturne\n* Dans les adrets au-dessus de 2000 m et les ubacs sous 1800 m : petite croûte de regel non portante reposant sur de la neige dense. Humidification de surface en journée. \n* Dans les ubacs au-dessus de 1800 m, neige dure et froide, fortement travaillée par le vent.",
+      "text": "Enneigement : \nL'enneigement passe d'inexistant à relativement bon une fois la limite d'enneigement atteinte.\nOn peut chausser les skis vers 1200/1300 m en nord et 1400/1500 m en sud.\nGrosses corniches présentes. \n\nQualité de la neige ce samedi : \n* Dans les adrets (et les ubacs sous 1800 m), neige de printemps avec un bon regel nocturne. L'humidification est plus lente en nord.\n* Dans les ubacs d'altitude, neige froide souvent travaillée par le vent. Dans les couloirs/secteurs encaissés, la neige est restée légère.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
