@@ -3,8 +3,8 @@
   "massif": "Pays-Basque",
   "bulletin": {
     "id": 64,
-    "issued_at": "2026-03-20T16:00:00",
-    "valid_until": "2026-03-21T18:00:00",
+    "issued_at": "2026-03-21T17:00:00",
+    "valid_until": "2026-03-22T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,22 +42,22 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-22",
+        "date": "2026-03-23",
         "label": "Indice de risque limité",
-        "comment": "Neige humide.",
+        "comment": "Risque stationnaire",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
+        "N": false,
+        "NE": false,
         "E": true,
         "SE": true,
         "S": true,
         "SW": true,
-        "W": true,
-        "NW": true
+        "W": false,
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -76,11 +76,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-16",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-17",
           "min_cm": 0,
@@ -105,22 +100,27 @@
           "date": "2026-03-21",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-22",
+          "min_cm": 1,
+          "max_cm": 3
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 3
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Rares plaques au plus haut du massif, poursuite de l'humidification ailleurs.",
-      "text": "Rares plaques au plus haut du massif, poursuite de l'humidification ailleurs.\n\nDéclenchements provoqués :\n- Au plus haut du massif, dans les pentes raides allant du Nord-Ouest au Nord-Est, de rares plaques peu épaisses peuvent encore persister. Elles sont maintenant difficilement déclenchables mais leur sollicitation peut encore libérer des cassures linéaires petites à moyennes (taille 1 à 2).\nAilleurs neige humide en journée glissant sous les skis.\n\nDéparts spontanés : \nDes départs ponctuels dans la neige humide sont attendus dans les pentes raides en toutes orientations devenant plus fréquentes au fil de la journée. Un regel efficace cette nuit devrait limiter cette activité avalancheuse tôt le matin. Les avalanches sont généralement petites à moyennes (taille 1 à 2). Des avalanches de fond sont aussi possibles dans les pentes raides des versants au fil de la journée, engendrant des avalanches généralement moyennes (taille 2), rarement grande.\n\nAutres : Pont de neige et corniches encore en place.",
+      "title": "Conditions de printemps",
+      "text": "Conditions de printemps\n\nDéparts spontanés : \nPeu ou pas d'activité en tout début de journée grâce à un regel efficace, puis des départs ponctuels dans la neige humide sont attendus dans les pentes raides au fil de l'ensoleillement (d'abord en est, puis sud, puis ouest), devenant plus fréquentes au fil de la journée. Les avalanches sont généralement petites à moyennes. Des avalanches de fond sont aussi possibles dans les pentes raides des versants au fil de la journée, engendrant des avalanches généralement moyennes, rarement grande, partant en général de fissures déjà ouvertes. L'activité devrait cesser en milieu d'après-midi avec l'arrivée des nuages et d'une masse d'air plus fraîche.\n\nDéclenchements provoqués :\nLe passage d'un skieur dans une pente raide ensoleillée peut favoriser un petit départ ponctuel. Les plaques formées en fin de semaine dernière se sont stabilisées par humidification.\n\nAutres : Ponts de neige et corniches encore en place, devenant fragiles en milieu de journée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Correct pour la saison au-dessus de 1800/2000 m, mais reste assez maigre en versants exposés au vent d'ouest. maigre et hétérogèneplus bas, skiable à partir de 1800 m en nord, plutôt 2000 m en sud, faute de sous-couche.\nÉtat de la neige : Au petit matin, la neige reste encore sèche au plus haut du massif dans les pentes Nord. Neige regelée plus bas et partout ailleurs en cours de nuit. En journée, la neige poursuit son humidification et se ramollie vite, en restant lourde.",
+      "text": "Enneigement : Correct pour la saison au-dessus de 1800/2000 m, mais reste assez maigre en versants exposés au vent d'ouest. maigre et hétérogène plus bas, skiable à partir de 1700 m en nord, plutôt 2000 m en sud, faute de sous-couche.\nÉtat de la neige : Au petit matin, neige regelée en toutes expositions, se ramollissant dans les versants ensoleillés, restant dure ou croutée à l'ombre.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

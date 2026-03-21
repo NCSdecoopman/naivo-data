@@ -3,49 +3,37 @@
   "massif": "Embrunais Parpaillon",
   "bulletin": {
     "id": 20,
-    "issued_at": "2026-03-20T15:00:00",
-    "valid_until": "2026-03-21T18:00:00",
+    "issued_at": "2026-03-21T16:00:00",
+    "valid_until": "2026-03-22T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2200,
-        "split_axis": "horizontal",
-        "split_label": "2200m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
-            "risk": 1,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2200",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2200m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
+          "center": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -54,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-22",
+        "date": "2026-03-23",
         "label": "Indice de risque limité",
-        "comment": "Risque en légère hausse. Neige en faible quantité, tombant froide et peu ventée en altitude, limitant le nombre de nouvelles instabilités. Risque restant limité dimanche.",
+        "comment": "Maintien probable d'un risque limité en altitude avec la présence de plaques dans la neige récente. Avec le retour du soleil, activité en neige humide en sud.",
         "trend": "steady"
       }
     },
@@ -68,7 +56,7 @@
         "SE": false,
         "S": false,
         "SW": false,
-        "W": false,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -88,11 +76,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-16",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-17",
           "min_cm": 0,
@@ -115,24 +98,29 @@
         },
         {
           "date": "2026-03-21",
-          "min_cm": 0,
-          "max_cm": 0
+          "min_cm": 1,
+          "max_cm": 2
+        },
+        {
+          "date": "2026-03-22",
+          "min_cm": 10,
+          "max_cm": 15
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 11,
+        "last_48h_max_cm": 17
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RARES INSTABILITÉS EN UBACS D'ALTITUDE",
-      "text": "RARES INSTABILITÉS EN UBACS D'ALTITUDE\n\nDéclenchements provoqués : le manteau neigeux est plutôt bien stabilisé. Les instabilités sont plutôt rares, et localisées en orientations nord-ouest, nord et nord-est d'altitude supérieure à 2200 m environ, plutôt à proximité des crêtes et ruptures de pente. Elles peuvent être déclenchées par un seul skieur et générer des avalanches de taille petite à moyenne (taille 1 à 2). Ces instabilités se présentent sous la forme de plaques de neige ventée, encore parfois d'aspect poudreux. Elles se sont formées lors du transport de neige ventée en début de semaine, mais sont en cours de stabilisation avec le temps calme et ensoleillé.    \n\nDéparts spontanés : rares et peu volumineux en neige humide. Départs ponctuels, près des rochers. Taille 1.",
+      "title": "NOUVELLES PLAQUES EN FORMATION AVEC LES CHUTES DE NEIGE",
+      "text": "NOUVELLES PLAQUES EN FORMATION AVEC LES CHUTES DE NEIGE\n\nDéclenchements provoqués : plaques en formation dans la neige fraîche sous l'action de chutes de neige peu ventées. Plaques souvent peu épaisses mais facilement déclenchables dans un large secteur nord d'altitude supérieure à 2200 m environ, plutôt à proximité des crêtes et ruptures de pente. Elles peuvent générer des avalanches de taille petite à moyenne (taille 1 à 2) en général, rarement grande (taille 3) en cas de rupture d'une couche fragile persistante plus profondément enfouie, suite à un premier départ en surface par exemple. \n\nDéparts spontanés : petites avalanches (taille 1) de neige fraîche en pentes raides au fil des chutes de neige. En fin de journée, des avalanches moyennes (taille 2 ) deviennent possibles dans un couloir chargé.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées : 107 cm à la Nivôse du Parpaillon à 2550 m.\n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs, 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige de printemps en versants ensoleillés avec un très bon regel nocturne. En large versant nord au-dessus de 2200/2300 m, neige restée sèche, travaillée par le vent ou encore d'aspect poudreux.",
+      "text": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées : 105 cm à la Nivôse du Parpaillon à 2550 m.\n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs, 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : on retrouve en surface 10/15 cm de neige froide, qui repose sur un manteau neigeux printanier bien croûté en sud. En large versant nord au-dessus de 2200/2300 m, elle repose sur une neige plus sèche, travaillée par le vent ou encore d'aspect poudreux.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

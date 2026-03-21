@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="22" MASSIF="Haut-Var Haut-Verdon" DATEBULLETIN="2026-03-20T16:00:00" DATEECHEANCE="2026-03-21T18:00:00" DATEVALIDITE="2026-03-21T18:00:00" DATEDIFFUSION="2026-03-20T16:00:00" AMENDEMENT="false">
-  <DateValidite>2026-03-21T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="22" MASSIF="Haut-Var Haut-Verdon" DATEBULLETIN="2026-03-21T16:00:00" DATEECHEANCE="2026-03-22T18:00:00" DATEVALIDITE="2026-03-22T18:00:00" DATEDIFFUSION="2026-03-21T16:00:00" AMENDEMENT="false">
+  <DateValidite>2026-03-22T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="&lt;2200" ALTITUDE="2200" RISQUE2="2" EVOLURISQUE2="" LOC2="&gt;2200" RISQUEMAXI="2" COMMENTAIRE="Au-dessus de 2200m indice de risque limité, plus bas indice faible." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-03-22T00:00:00"/>
-    <PENTE NE="true" E="false" SE="false" S="false" SW="false" W="false" NW="true" N="true" COMMENTAIRE=""/>
-    <ACCIDENTEL><![CDATA[plaques résiduelles dans la neige ventée.]]></ACCIDENTEL>
-    <NATUREL><![CDATA[rares départs de neige humide, de faible ampleur.]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : rares départs de neige humide, de faible ampleur.
-Déclenchements skieurs : plaques résiduelles dans la neige ventée.]]></RESUME>
-    <RisqueJ2><![CDATA[Indice de risque limité]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Risque en légère hausse avec la mise en place de chutes de neige pouvant entrainer la formation de quelques plaques de faible épaisseur. Maintien probable d'un risque limité. ]]></CommentaireRisqueJ2>
+    <RISQUE RISQUE1="2" EVOLURISQUE1="3" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="3" COMMENTAIRE="Indice de risque limité évoluant en marqué." RISQUEMAXIJ2="3" DATE_RISQUE_J2="2026-03-23T00:00:00"/>
+    <PENTE NE="false" E="false" SE="true" S="true" SW="true" W="true" NW="true" N="true" COMMENTAIRE=""/>
+    <ACCIDENTEL><![CDATA[rares plaques en journée, devenant nombreuses en fin de journée vers les crêtes avec la levé du vent de nord-est. ]]></ACCIDENTEL>
+    <NATUREL><![CDATA[rares départs superficiels de neige fraiche, plus fréquents en fin de journée.]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : rares départs superficiels de neige fraiche, plus fréquents en fin de journée.
+Déclenchements skieurs : rares plaques en journée, devenant nombreuses en fin de journée vers les crêtes avec la levé du vent de nord-est. ]]></RESUME>
+    <RisqueJ2><![CDATA[Indice de risque marqué]]></RisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Nombreuses plaques superficielles encore sensibles dans la neige fraiche, formées avec le transport de neige par le vent de nord-est en cours de nuit de dimanche à lundi. ]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_22.png</ImageRisque>
@@ -18,54 +18,51 @@ Déclenchements skieurs : plaques résiduelles dans la neige ventée.]]></RESUME
   </CARTOUCHERISQUE>
   <STABILITE>
     <SitAvalTyp SAT1="2" SAT2=""/>
-    <TITRE><![CDATA[RARES INSTABILITÉS DANS LA NEIGE VENTÉE]]></TITRE>
-    <TEXTESANSTITRE><![CDATA[Déclenchements provoqués : plaques résiduelles encore en place en altitude suite au transport de neige par le vent des derniers jours. Elles sont plus fréquentes dans les ubacs au-dessus de 2200/2400 m environ, là où le manteau neigeux n'est pas encore printanier. Elles deviennent progressivement difficiles à déclencher, mais peuvent encore céder au passage d'un skieur. Elles sont facilement identifiables, présentes dans les zones d'accumulation, en contrebas ou derrière les crêtes, les ruptures de pente ou les bosses. Elles provoquent des avalanches de taille petite  à moyenne (taille 1 à 2). Une très rare grande avalanche (taille 3) n'est pas exclue en cas de rupture d'une couche fragile persistante plus profondément enfouie, suite à un premier départ de surface par exemple. 
+    <TITRE><![CDATA[PLAQUES EN FORMATION DANS LA NEIGE FRAICHE VENTÉE EN FIN DE JOURNÉE]]></TITRE>
+    <TEXTESANSTITRE><![CDATA[Déclenchements provoqués : rares plaques en place en ubacs d'altitude en journée, puis de nouvelles plaques à vent se forment en fin d'après-midi avec la poursuite des chutes de neige et la levée du vent de nord-est. Plaques très facile à déclencher au passage d'un skieur, présentes plutôt aux abords des crêtes dans un large versant nord-ouest à sud-est, et générant des avalanches de taille petites à moyenne (taille 1 à 2).
+En versant nord au-dessus de 2200 m environ, des départs un peu plus volumineux sont possibles au passage d'un skieur par déstabilisation d'une plaque plus ancienne et épaisse, restant généralement de taille moyenne (taille 2).
 
-Départs spontanés : l'activité en neige humide reste limitée, mais quelques départs sont possibles dans les pentes raides bien ensoleillées. Avalanches petites en général, plus rarement moyennes (taille 1, voire 2).]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[RARES INSTABILITÉS DANS LA NEIGE VENTÉE
+Départs spontanés : rares départs superficiels de neige fraiche, devenant un peu plus fréquent en fin de journée avec la levée du vent de nord-est. Avalanches de taille petites à moyenne (taille 1 à 2). ]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[PLAQUES EN FORMATION DANS LA NEIGE FRAICHE VENTÉE EN FIN DE JOURNÉE
 
-Déclenchements provoqués : plaques résiduelles encore en place en altitude suite au transport de neige par le vent des derniers jours. Elles sont plus fréquentes dans les ubacs au-dessus de 2200/2400 m environ, là où le manteau neigeux n'est pas encore printanier. Elles deviennent progressivement difficiles à déclencher, mais peuvent encore céder au passage d'un skieur. Elles sont facilement identifiables, présentes dans les zones d'accumulation, en contrebas ou derrière les crêtes, les ruptures de pente ou les bosses. Elles provoquent des avalanches de taille petite  à moyenne (taille 1 à 2). Une très rare grande avalanche (taille 3) n'est pas exclue en cas de rupture d'une couche fragile persistante plus profondément enfouie, suite à un premier départ de surface par exemple. 
+Déclenchements provoqués : rares plaques en place en ubacs d'altitude en journée, puis de nouvelles plaques à vent se forment en fin d'après-midi avec la poursuite des chutes de neige et la levée du vent de nord-est. Plaques très facile à déclencher au passage d'un skieur, présentes plutôt aux abords des crêtes dans un large versant nord-ouest à sud-est, et générant des avalanches de taille petites à moyenne (taille 1 à 2).
+En versant nord au-dessus de 2200 m environ, des départs un peu plus volumineux sont possibles au passage d'un skieur par déstabilisation d'une plaque plus ancienne et épaisse, restant généralement de taille moyenne (taille 2).
 
-Départs spontanés : l'activité en neige humide reste limitée, mais quelques départs sont possibles dans les pentes raides bien ensoleillées. Avalanches petites en général, plus rarement moyennes (taille 1, voire 2).]]></TEXTE>
+Départs spontanés : rares départs superficiels de neige fraiche, devenant un peu plus fréquent en fin de journée avec la levée du vent de nord-est. Avalanches de taille petites à moyenne (taille 1 à 2). ]]></TEXTE>
   </STABILITE>
   <QUALITE>
     <TEXTE><![CDATA[Enneigement plutôt excédentaire dans le Haut-Verdon, proche des normales dans le Haut Var.
-Hauteurs de neige observées : vers 2000 m, 175 cm dans un fond de vallon du Haut-Verdon, 116 cm dans le Haut Var.  
+Hauteurs de neige observées : vers 2000 m, 175 cm dans le vallon de Valdemars, 115 cm dans le Haut Var.  
 
 Enneigement skiable : vers 1400/1500 m en ubacs, 1700/1800 m en adrets peu pentus.
 
-État de la neige en surface : manteau neigeux printanier dans les adrets, croûté en début de matinée, s'humidifiant au soleil en cours de journée. Des accumulations de neige rapportée par le vent en altitude.
-Dans les ubacs, la neige reste froide au-dessus de 2000 m environ, encore assez légère dans les combes ou forêts d'altitude abritées, mais souvent très travaillée ou durcie par le vent dans les secteurs exposés.]]></TEXTE>
+État de la neige en surface : on retrouve le matin une petite couche de neige fraiche peu ventée, reposant sur un manteau neigeux généralement dure/regelé, excepté en ubacs au-dessus de 2000/2200 m environ, où la couche de neige légère peut être plus importante dans les combes abritées du vent. Couche de neige fraiche s'épaississant en journée et devenant légèrement soufflé par le vent proche des crêtes. ]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-03-20T00:00:00" LimiteSud="1700" LimiteNord="1400">
+  <ENNEIGEMENT DATE="2026-03-21T00:00:00" LimiteSud="1700" LimiteNord="1400">
     <NIVEAU ALTI="1500" N="20" S="0"/>
     <NIVEAU ALTI="2000" N="135" S="70"/>
     <NIVEAU ALTI="2500" N="195" S="130"/>
     <ImageEnneigement>montagne_enneigement_22.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-03-16T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-03-17T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-03-18T00:00:00" SS24Min="0" SS24Max="3"/>
     <NEIGE24H DATE="2026-03-19T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-03-20T00:00:00" SS24Min="0" SS24Max="0"/>
-    <NEIGE24H DATE="2026-03-21T00:00:00" SS24Min="1" SS24Max="5"/>
+    <NEIGE24H DATE="2026-03-21T00:00:00" SS24Min="5" SS24Max="10"/>
+    <NEIGE24H DATE="2026-03-22T00:00:00" SS24Min="5" SS24Max="15"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_22.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="2000" ALTITUDEVENT2="3000">
-    <COMMENTAIRE>Ensoleillé le matin puis s'ennuageant. Développement d'averses en cours d'après-midi donnant un peu de neige au-dessus de 1500/1700 m. </COMMENTAIRE>
-    <ECHEANCE DATE="2026-03-21T06:00:00" FF1="5" DD1="NO" FF2="10" DD2="N" ISO0="2000" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-03-21T12:00:00" FF1="10" DD1="S" FF2="15" DD2="SO" ISO0="2000" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-03-21T18:00:00" FF1="20" DD1="O" FF2="20" DD2="O" ISO0="2000" PLUIENEIGE="1600" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-03-22T00:00:00" FF1="10" DD1="NO" FF2="15" DD2="O" ISO0="1800" PLUIENEIGE="1500" TEMPSSENSIBLE="81" MERNUAGES="-1"/>
+    <COMMENTAIRE>Chutes de neige en journée, donnant 10 à 20 cm au dessus de 1300/1400 m. </COMMENTAIRE>
+    <ECHEANCE DATE="2026-03-22T06:00:00" FF1="10" DD1="O" FF2="20" DD2="O" ISO0="1500" PLUIENEIGE="1100" TEMPSSENSIBLE="61" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-03-22T12:00:00" FF1="10" DD1="SO" FF2="20" DD2="SE" ISO0="1400" PLUIENEIGE="1000" TEMPSSENSIBLE="61" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-03-22T18:00:00" FF1="25" DD1="S" FF2="35" DD2="E" ISO0="1500" PLUIENEIGE="1200" TEMPSSENSIBLE="61" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-03-23T00:00:00" FF1="30" DD1="NE" FF2="45" DD2="E" ISO0="1500" PLUIENEIGE="-1" TEMPSSENSIBLE="4" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_22.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-03-14T06:00:00" FF1="15" DD1="S" FF2="40" DD2="SE" ISO0="1800" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
-      <ECHEANCE DATE="2026-03-14T12:00:00" FF1="25" DD1="SO" FF2="50" DD2="S" ISO0="1600" PLUIENEIGE="1000" TEMPSSENSIBLE="63"/>
-      <ECHEANCE DATE="2026-03-14T18:00:00" FF1="20" DD1="NO" FF2="30" DD2="S" ISO0="1700" PLUIENEIGE="1300" TEMPSSENSIBLE="61"/>
-      <ECHEANCE DATE="2026-03-15T00:00:00" FF1="15" DD1="N" FF2="20" DD2="E" ISO0="1400" PLUIENEIGE="1000" TEMPSSENSIBLE="61"/>
       <ECHEANCE DATE="2026-03-15T06:00:00" FF1="20" DD1="NO" FF2="60" DD2="NE" ISO0="1600" PLUIENEIGE="1200" TEMPSSENSIBLE="80"/>
       <ECHEANCE DATE="2026-03-15T12:00:00" FF1="55" DD1="NE" FF2="75" DD2="NE" ISO0="1700" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
       <ECHEANCE DATE="2026-03-15T18:00:00" FF1="25" DD1="N" FF2="45" DD2="NE" ISO0="2200" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
@@ -90,13 +87,12 @@ Dans les ubacs, la neige reste froide au-dessus de 2000 m environ, encore assez 
       <ECHEANCE DATE="2026-03-20T12:00:00" FF1="10" DD1="S" FF2="15" DD2="N" ISO0="2000" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-03-20T18:00:00" FF1="15" DD1="O" FF2="15" DD2="NO" ISO0="2100" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-03-21T00:00:00" FF1="5" DD1="NE" FF2="15" DD2="N" ISO0="2200" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-03-21T06:00:00" FF1="5" DD1="NO" FF2="10" DD2="N" ISO0="1500" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
+      <ECHEANCE DATE="2026-03-21T12:00:00" FF1="10" DD1="S" FF2="15" DD2="SO" ISO0="1700" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
+      <ECHEANCE DATE="2026-03-21T18:00:00" FF1="20" DD1="O" FF2="20" DD2="O" ISO0="2000" PLUIENEIGE="1600" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2026-03-22T00:00:00" FF1="10" DD1="NO" FF2="15" DD2="O" ISO0="1800" PLUIENEIGE="1400" TEMPSSENSIBLE="81"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-03-14T00:00:00" LimiteSud="1300" LimiteNord="1300">
-        <NIVEAU ALTI="1500" N="40" S="10"/>
-        <NIVEAU ALTI="2000" N="150" S="80"/>
-        <NIVEAU ALTI="2500" N="210" S="140"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-03-15T00:00:00" LimiteSud="1300" LimiteNord="1300">
         <NIVEAU ALTI="1500" N="40" S="10"/>
         <NIVEAU ALTI="2000" N="160" S="90"/>
@@ -127,23 +123,28 @@ Dans les ubacs, la neige reste froide au-dessus de 2000 m environ, encore assez 
         <NIVEAU ALTI="2000" N="135" S="70"/>
         <NIVEAU ALTI="2500" N="195" S="130"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-03-21T00:00:00" LimiteSud="1700" LimiteNord="1400">
+        <NIVEAU ALTI="1500" N="20" S="0"/>
+        <NIVEAU ALTI="2000" N="135" S="70"/>
+        <NIVEAU ALTI="2500" N="195" S="130"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-03-15T00:00:00" SS24Min="15" SS24Max="25"/>
       <NEIGE24H DATE="2026-03-16T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-03-17T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-03-18T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-03-19T00:00:00" SS24Min="0" SS24Max="3"/>
       <NEIGE24H DATE="2026-03-20T00:00:00" SS24Min="0" SS24Max="0"/>
+      <NEIGE24H DATE="2026-03-21T00:00:00" SS24Min="0" SS24Max="0"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-03-14T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-03-15T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-03-16T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-03-17T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-03-18T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-03-19T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-03-20T00:00:00" RISQUEMAXI="2"/>
+      <RISQUE DATE="2026-03-21T00:00:00" RISQUEMAXI="2"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_22.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_22.png</Image7derniersjours_portrait>

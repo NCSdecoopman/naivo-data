@@ -3,72 +3,60 @@
   "massif": "Ubaye",
   "bulletin": {
     "id": 21,
-    "issued_at": "2026-03-20T16:00:00",
-    "valid_until": "2026-03-21T18:00:00",
+    "issued_at": "2026-03-21T16:00:00",
+    "valid_until": "2026-03-22T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
+      "max_level": 3,
+      "comment": "Indice de risque limité évoluant en marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2200,
-        "split_axis": "horizontal",
-        "split_label": "2200m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
-            "risk": 1,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2200",
+            "loc": null,
             "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "evolution_to": 3,
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2200m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
+          "center": {
+            "text": "2→3",
+            "risk": 3,
+            "evolution_to": 3
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-03-22",
-        "label": "Indice de risque limité",
-        "comment": "Risque en légère hausse avec la mise en place de chutes de neige pouvant entrainer la formation de quelques plaques de faible épaisseur. Maintien probable d'un risque limité.",
+        "max_level": 3,
+        "date": "2026-03-23",
+        "label": "Indice de risque marqué",
+        "comment": "Nombreuses plaques superficielles encore sensibles dans la neige fraiche, formées avec le transport de neige par le vent de nord-est en cours de nuit de dimanche à lundi.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
-        "NE": true,
+        "NE": false,
         "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -88,11 +76,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-16",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-17",
           "min_cm": 0,
@@ -115,29 +98,34 @@
         },
         {
           "date": "2026-03-21",
-          "min_cm": 1,
-          "max_cm": 5
+          "min_cm": 3,
+          "max_cm": 7
+        },
+        {
+          "date": "2026-03-22",
+          "min_cm": 5,
+          "max_cm": 10
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 5
+        "last_48h_min_cm": 8,
+        "last_48h_max_cm": 17
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RARES INSTABILITÉS DANS LA NEIGE VENTÉE",
-      "text": "RARES INSTABILITÉS DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : plaques résiduelles encore en place en altitude suite au transport de neige par le vent des derniers jours. Elles sont plus fréquentes dans les ubacs au-dessus de 2200/2400 m environ, là où le manteau neigeux n'est pas encore printanier. Elles deviennent progressivement difficiles à déclencher, mais peuvent encore céder au passage d'un skieur. Elles sont facilement identifiables, présentes dans les zones d'accumulation, en contrebas ou derrière les crêtes, les ruptures de pente ou les bosses. Elles provoquent des avalanches de taille petite  à moyenne (taille 1 à 2). Une très rare grande avalanche (taille 3) n'est pas exclue en cas de rupture d'une couche fragile persistante plus profondément enfouie, suite à un premier départ de surface par exemple. \n\nDéparts spontanés : l'activité en neige humide reste limitée, mais quelques départs sont possibles dans les pentes raides bien ensoleillées. Avalanches petites en général, plus rarement moyennes (taille 1, voire 2).",
+      "title": "PLAQUES EN FORMATION DANS LA NEIGE FRAICHE VENTÉE EN FIN DE JOURNÉE",
+      "text": "PLAQUES EN FORMATION DANS LA NEIGE FRAICHE VENTÉE EN FIN DE JOURNÉE\n\nDéclenchements provoqués : rares plaques en place en ubacs d'altitude en journée. De nouvelles plaques à vent se forment en fin d'après-midi avec la poursuite des chutes de neige et la levée du vent de nord-est. Plaques très faciles à déclencher au passage d'un skieur, présentes plutôt aux abords des crêtes dans un large versant nord-ouest à sud-est, et générant des avalanches de taille petites à moyenne (taille 1 à 2).\nEn versant nord au-dessus de 2200 m environ, des départs plus volumineux sont possibles au passage d'un skieur par déstabilisation d'une plaque plus ancienne et épaisse. Avalanche de taille moyenne (taille 2), rarement grande (taille 3).\n\nDéparts spontanés : rares départs superficiels de neige fraiche, devenant un peu plus fréquent en fin de journée avec la levée du vent de nord-est. Avalanches de taille petites à moyenne (taille 1 à 2).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement proche des normales.\nHauteurs de neige observées : 74 cm à la Nivôse de Restefond à 2550 m (secteur venté), 86 cm au-dessus de Larche à 2270 m en adret. \n\nEnneigement skiable : vers 1500 m en ubacs, 1800/1900 m en adrets peu pentus. \n\nÉtat de la neige en surface : manteau neigeux printanier dans les adrets, croûté en début de matinée, s'humidifiant au soleil en cours de journée. Des accumulations de neige rapportée par le vent en altitude.\nDans les ubacs, la neige reste froide au-dessus de 2000 m environ, encore assez légère dans les combes ou forêts d'altitude abritées, mais souvent très travaillée ou durcie par le vent dans les secteurs exposés.",
+      "text": "Enneigement proche des normales.\nHauteurs de neige observées : 77 cm à la Nivôse de Restefond à 2550 m (secteur venté), 85 cm au-dessus de Larche à 2270 m en adret. \n\nEnneigement skiable : vers 1500 m en ubacs, 1800/1900 m en adrets peu pentus. \n\nÉtat de la neige en surface : on retrouve le matin une petite couche de neige fraiche peu ventée, reposant sur un manteau neigeux généralement dure/regelé, excepté en ubacs au-dessus de 2000/2200 m environ, où la couche de neige légère peut être plus importante dans les combes abritées du vent. Couche de neige fraiche s'épaississant en journée et devenant légèrement soufflé par le vent proche des crêtes.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1400,
+        "north": 1500,
         "south": 1800
       },
       "levels_cm": [

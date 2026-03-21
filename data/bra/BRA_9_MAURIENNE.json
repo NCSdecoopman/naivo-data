@@ -3,30 +3,30 @@
   "massif": "Maurienne",
   "bulletin": {
     "id": 9,
-    "issued_at": "2026-03-20T16:00:00",
-    "valid_until": "2026-03-21T18:00:00",
+    "issued_at": "2026-03-21T15:00:00",
+    "valid_until": "2026-03-22T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 1600m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 1600,
+        "threshold_m": 2000,
         "split_axis": "horizontal",
-        "split_label": "1600m",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1600",
+            "loc": "<2000",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">1600",
+            "loc": ">2000",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "1600m"
+          "label": "2000m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-22",
+        "date": "2026-03-23",
         "label": "Indice de risque limité",
-        "comment": "Plus nuageux avec de faibles chutes de neige. Cumuls modestes avec peu de nouvelles instabilités.",
+        "comment": "Belle journée ensoleillée. Purges de neige fraiche s'humidifiant dans les faces raides au soleil,  rares plaques toujours en place en versant ombragé.",
         "trend": "steady"
       }
     },
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-16",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-17",
           "min_cm": 0,
           "max_cm": 0
@@ -116,23 +111,28 @@
         {
           "date": "2026-03-21",
           "min_cm": 0,
-          "max_cm": 0
+          "max_cm": 2
+        },
+        {
+          "date": "2026-03-22",
+          "min_cm": 3,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 7
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "Manteau printanier en Sud, très travaillé par le vent en Nord avec quelques instabilités",
-      "text": "Manteau printanier en Sud, très travaillé par le vent en Nord avec quelques instabilités \n\nDéclenchements provoqués : Quelques plaques à vent en versant Nord au-dessus de 1600 m, quelques fois facilement déclenchable par un skieur. Elles sont souvent d'aspect dure et se retrouvent proche des crêtes, quelques fois jusqu'en milieu de pentes. \nObservables : accumulation de neige ventée derrière une rupture de pente, test de stabilité, fissures devant les skis, éventuellement encore quelques woumfs possible.  \n\nDéparts spontanés : Rares départs ponctuels en neige humide dans les versants raides ensoleillés, en dessous de 2000 m. Ces départs se retrouvent souvent aux pieds des rochers ou falaises surchauffés par le soleil. Taille 1.",
+      "text": "Manteau printanier en Sud, très travaillé par le vent en Nord avec quelques instabilités \n\nDéclenchements provoqués : Quelques plaques à vent en versant Nord au-dessus de 1600 m, quelques fois facilement déclenchable par un skieur. Elles sont souvent d'aspect dure et se retrouvent proche des crêtes, quelques fois jusqu'en milieu de pentes. \nObservables : accumulation de neige ventée derrière une rupture de pente, test de stabilité, fissures devant les skis.\n\nDéparts spontanés : Peu probable",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : En Sud, neige de printemps, regelée en matinée puis humide l'après-midi.\nEn Nord au-dessus de 1600 m, neige sèche travaillée par le vent ou cartonnée proche des crêtes. Dans les secteurs peu ventés, la neige est encore poudreuse.\nEn versant Ouest et Est, neige croutée en matinée devenant humide sous l'effet du soleil. Il manque encore quelques cycles de gel/dégel pour arriver à une parfaite neige de printemps.",
+      "text": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : En Sud, neige de printemps, restant dure toute la journée.\nEn Nord au-dessus de 1600 m, neige sèche travaillée par le vent ou cartonnée proche des crêtes. Dans les secteurs peu ventés, la neige est encore poudreuse.\nEn versant Ouest et Est, neige croutée cassante.\n\nCe manteau plutôt dur/crouté sera légèrement saupoudré de quelques cm de fraiche en cours de journée avec les petites chutes attendues.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
