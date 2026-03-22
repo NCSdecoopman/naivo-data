@@ -3,8 +3,8 @@
   "massif": "Chablais",
   "bulletin": {
     "id": 1,
-    "issued_at": "2026-03-21T16:00:00",
-    "valid_until": "2026-03-22T18:00:00",
+    "issued_at": "2026-03-22T16:00:00",
+    "valid_until": "2026-03-23T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-23",
+        "date": "2026-03-24",
         "label": "Indice de risque limité",
-        "comment": "Journée ensoleillée, encore quelques instabilités dans la neige récente et coulées de neige humide.",
+        "comment": "Les plaques formées sous le vent de nord-est sont encore présentes en altitude, en cours de stabilisation.",
         "trend": "steady"
       }
     },
@@ -65,10 +65,10 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-17",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-18",
           "min_cm": 0,
           "max_cm": 0
@@ -111,29 +106,34 @@
         },
         {
           "date": "2026-03-21",
-          "min_cm": 1,
-          "max_cm": 4
+          "min_cm": 5,
+          "max_cm": 12
         },
         {
           "date": "2026-03-22",
-          "min_cm": 1,
-          "max_cm": 7
+          "min_cm": 0,
+          "max_cm": 8
+        },
+        {
+          "date": "2026-03-23",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 2,
-        "last_48h_max_cm": 11
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 8
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nouvelles instabilités dans la neige fraiche",
-      "text": "Nouvelles instabilités dans la neige fraiche\n\nDéclenchements provoqués :\n* Quelques instabilités dans la neige fraiche dès 18002000 m. Elles se forment dans la nuit de samedi à dimanche et dimanche en matinée. Elles sont plus nombreuses sous le vent de ouest-sud-ouest puis de sud-est, et peuvent être réactives au passage d'un skieur. D'anciennes plaques, souvent dures sont encore présentes sur un large secteur nord (formée par l'épisode de foehn mercredi dernier), elles sont parfois loin des crêtes, dans les pentes Taille 1 à 2 (petite à moyenne).\nObservables : accumulation de neige, vaguelettes, fissures sous les skis.\n* Dans les adrets d'altitude et en ubacs au-dessus de 2100 m, une couche fragile persistante est encore enfouie, mais ne semble pas vraiment déclenchable par un skieur. Toutefois, par une forte surcharge (avalanche en cascade, chutes de corniches, chutes de séracs), elle pourrait être sollicitée et engendrer une avalanche de taille 2 à 3 (moyenne à grande).\n\nDéparts spontanés :\n* Départs dans la neige fraiche au cours des chutes ou à cause du vent en journée. Taille 1 à 2.\n* Peu probable, plaques de fond, en tous versants, à toute heure du jour et de la nuit, dans les pentes lisses et raides (zones herbeuses, dalles, vires). Taille 2.",
+      "title": "Instabilités dans la neige récente, nouvelles plaques à vent",
+      "text": "Instabilités dans la neige récente, nouvelles plaques à vent \n\nDéclenchements provoqués :\n* Quelques instabilités dans la neige fraiche au-dessus de 1800 m sont encore présentes, réactives au passage d'un skieur. Les cumuls sont plus importants côté Chablais que Haut-Giffre, les plaques sont plus épaisses (cassure 15/20 cm). Taille 1 à 2 (petite à moyenne).\n* Plaques à vent formées sous le vent de SO/SE dimanche, de nouvelles plaques se forment sous le vent de NE lundi en journée. Elles sont d'aspect friable, voir dur plus en altitude, facilement déclenchables au passage d'un skieur. On les retrouve au voisinage des crêtes. Taille 1 à 2. \nObservables : accumulation de neige, vaguelettes, fissures sous les skis.\n* Dans les adrets d'altitude et en ubacs au-dessus de 2100 m, une couche fragile persistante est encore enfouie, mais ne semble pas vraiment déclenchable par un skieur. Toutefois, par une forte surcharge (avalanche en cascade, chutes de corniches), elle pourrait être sollicitée et engendrer une avalanche de taille 2 à 3 (moyenne à grande).\n\nDéparts spontanés :\n* Départs dans la neige récente à cause du vent de NE en journée. Taille 1 à 2.\n* Sous 2000 m, quelques coulées de neige humide dans les versants ensoleillés au fil du réchauffement (secteur sans vent). Taille 1. \n* Peu probable, plaques de fond, en tous versants, à toute heure du jour et de la nuit, dans les pentes lisses et raides (zones herbeuses, dalles, vires). Taille 1 à 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nL'enneigement passe d'inexistant à relativement bon une fois la limite d'enneigement atteinte.\nOn peut chausser les skis vers 1200/1300 m en nord et 1400/1500 m en sud.\nGrosses corniches présentes. \n\nQualité de la neige ce dimanche : \n* Dans les adrets sous 2000 m (et les ubacs sous 1800 m), 5/10 cm (localement) de neige fraiche reposant sur une neige de printemps.\n* Plus haut en altitude, de même, 5/10 cm de neige fraiche localement reposant sur une neige froide souvent travaillée par le vent. Dans les couloirs/secteurs encaissés, la neige est restée légère. Plus on monte en altitude, plus la neige est dure.",
+      "text": "Enneigement : \nL'enneigement passe d'inexistant à relativement bon une fois la limite d'enneigement atteinte.\nOn peut chausser les skis vers 1200/1300 m en nord et 1400/1500 m en sud.\nGrosses corniches présentes. \n\nQualité de la neige ce lundi  : \n* 5/15 localement 20 cm de neige récente, ventée près des crêtes. Elle s'humidifie en surface dans les versants ensoleillés et reste froide à l'ombre. Elle repose sur un fond dur : croute en versant S/E/O et sur de la neige froide souvent cartonnée en Nord (ou de la vielle poudre dans les secteurs abrités en altitude).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 75,
-          "S": 55
+          "N": 85,
+          "S": 65
         },
         {
           "alt_m": 2000,
-          "N": 210,
-          "S": 150
+          "N": 230,
+          "S": 170
         }
       ],
       "icon_key": "snowpack",

@@ -3,8 +3,8 @@
   "massif": "Embrunais Parpaillon",
   "bulletin": {
     "id": 20,
-    "issued_at": "2026-03-21T16:00:00",
-    "valid_until": "2026-03-22T18:00:00",
+    "issued_at": "2026-03-22T16:00:00",
+    "valid_until": "2026-03-23T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-23",
+        "date": "2026-03-24",
         "label": "Indice de risque limité",
-        "comment": "Maintien probable d'un risque limité en altitude avec la présence de plaques dans la neige récente. Avec le retour du soleil, activité en neige humide en sud.",
+        "comment": "Maintien d'un risque limité avec la poursuite d'un temps sec et doux. Un peu d'activité naturelle au soleil.",
         "trend": "steady"
       }
     },
@@ -52,10 +52,10 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
-        "SE": false,
+        "E": true,
+        "SE": true,
         "S": false,
-        "SW": false,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-17",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-18",
           "min_cm": 0,
           "max_cm": 2
@@ -98,41 +93,46 @@
         },
         {
           "date": "2026-03-21",
-          "min_cm": 1,
-          "max_cm": 2
+          "min_cm": 3,
+          "max_cm": 5
         },
         {
           "date": "2026-03-22",
-          "min_cm": 10,
-          "max_cm": 15
+          "min_cm": 5,
+          "max_cm": 10
+        },
+        {
+          "date": "2026-03-23",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 11,
-        "last_48h_max_cm": 17
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 10
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOUVELLES PLAQUES EN FORMATION AVEC LES CHUTES DE NEIGE",
-      "text": "NOUVELLES PLAQUES EN FORMATION AVEC LES CHUTES DE NEIGE\n\nDéclenchements provoqués : plaques en formation dans la neige fraîche sous l'action de chutes de neige peu ventées. Plaques souvent peu épaisses mais facilement déclenchables dans un large secteur nord d'altitude supérieure à 2200 m environ, plutôt à proximité des crêtes et ruptures de pente. Elles peuvent générer des avalanches de taille petite à moyenne (taille 1 à 2) en général, rarement grande (taille 3) en cas de rupture d'une couche fragile persistante plus profondément enfouie, suite à un premier départ en surface par exemple. \n\nDéparts spontanés : petites avalanches (taille 1) de neige fraîche en pentes raides au fil des chutes de neige. En fin de journée, des avalanches moyennes (taille 2 ) deviennent possibles dans un couloir chargé.",
+      "title": "PETITES PLAQUES EN PLACE DANS LA NEIGE RÉCENTE, UN PEU D’ACTIVITÉ NATURELLE AU SOLEIL",
+      "text": "PETITES PLAQUES EN PLACE DANS LA NEIGE RÉCENTE, UN PEU D’ACTIVITÉ NATURELLE AU SOLEIL\n\nDéclenchements provoqués : plaques en place dans la neige fraîche tombée ce dimanche. Plaques souvent peu épaisses mais facilement déclenchables dans un large secteur nord d'altitude supérieure à 2200 m environ. En sud, le soleil détruit rapidement les structures de plaques. Elles peuvent générer des avalanches de taille petite à moyenne (taille 1 à 2) en général. \n\nDéparts spontanés : en journée, quelques départs sont attendus avec le soleil et le redoux qui viennent déstabiliser la neige récente. Avalanches de petite taille (taille 1).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées : 105 cm à la Nivôse du Parpaillon à 2550 m.\n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs, 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : on retrouve en surface 10/15 cm de neige froide, qui repose sur un manteau neigeux printanier bien croûté en sud. En large versant nord au-dessus de 2200/2300 m, elle repose sur une neige plus sèche, travaillée par le vent ou encore d'aspect poudreux.",
+      "text": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées : 112 cm à la Nivôse du Parpaillon à 2550 m.\n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs, 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : on retrouve en surface 10/15 cm de neige froide, qui repose sur un manteau neigeux printanier bien dense en sud. En large versant nord au-dessus de 2200/2300 m, elle repose sur une neige plus sèche, travaillée par le vent ou encore d'aspect poudreux.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1500,
-        "south": 1900
+        "north": 1400,
+        "south": 1400
       },
       "levels_cm": [
         {
           "alt_m": 1500,
           "N": 25,
-          "S": 0
+          "S": 5
         },
         {
           "alt_m": 2000,

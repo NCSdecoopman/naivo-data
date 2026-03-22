@@ -3,72 +3,60 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-03-21T15:00:00",
-    "valid_until": "2026-03-22T18:00:00",
+    "issued_at": "2026-03-22T16:00:00",
+    "valid_until": "2026-03-23T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
+      "max_level": 3,
+      "comment": "Indice de risque marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2000,
-        "split_axis": "horizontal",
-        "split_label": "2000m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
-            "risk": 1,
+            "loc": null,
+            "risk": 3,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2000",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2000m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
+          "center": {
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-23",
+        "date": "2026-03-24",
         "label": "Indice de risque limité",
-        "comment": "Belle journée ensoleillée. Purges de neige fraiche s'humidifiant dans les faces raides au soleil,  rares plaques toujours en place en versant ombragé.",
-        "trend": "steady"
+        "comment": "Risque en baisse. Météo calme permettant la neutralisation des instabilités.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -79,20 +67,16 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": null,
+      "secondary": 1,
       "labels": {
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "1": "Neige fraîche"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-17",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-18",
           "min_cm": 0,
@@ -110,51 +94,56 @@
         },
         {
           "date": "2026-03-21",
-          "min_cm": 2,
-          "max_cm": 6
+          "min_cm": 10,
+          "max_cm": 20
         },
         {
           "date": "2026-03-22",
           "min_cm": 3,
-          "max_cm": 5
+          "max_cm": 7
+        },
+        {
+          "date": "2026-03-23",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 11
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 7
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Petite chute de neige sur un manteau globalement bien stabilisé",
-      "text": "Petite chute de neige sur un manteau globalement bien stabilisé\n\nDéclenchements provoqués :  Quelques plaques restent  présentes  en versant Nord au-dessus de 2000 m, elles sont très localement encore facilement déclenchable par un skieur. Elles sont souvent dures et se retrouvent derrière les ruptures de terrain, en milieu, voire aux pieds des pentes. Le haut des pentes étant souvent décapé par le vent. \nObservables : accumulation de neige ventée derrière une rupture de pente, test de stabilité, fissures devant les skis.\n\nLes 5/10 cm de fraiche attendus en cours de journée le plus souvent sans vent ne viendront à priori pas créer de nouvelles instabilités.  Sauf éventuellement en cours d'après midi avec le vent d'est qui va se lever et qui pourrait créer de nouvelles petites plaques peu épaisses  \n\nDéparts spontanés : Peu probable hormis quelques rares petites purges de neige fraiche l'après midi dans les rares pentes très raides et rocheuses qui verront assez de soleil pour chauffer suffisamment la neige fraiche.",
+      "title": "Instabilités temporairement réactives formées par le vent dans la neige légère.",
+      "text": "Instabilités temporairement réactives formées par le vent dans la neige légère.\n\nDéclenchements provoqués : Quelques plaques sont en place suite à l'épisode transport de neige par le vent d'Est à Sud de ce dimanche. Elles sont globalement en perte de réactivité mais encore sensible : en Nord là où il restait un peu de poudre, derrière les ruptures de pente et près des crêtes, en altitude (où elles sont aussi plus nombreuses). Taille 1 à 2 avec des cassures de 20 à 30 cm, localement 50/80 cm vers l'Italie et en altitude (cumul plus important et transport plus efficace).\nObservables : accumulation de neige derrière une rupture de pente, test de stabilité, fissures devant les skis.\n\nDéparts spontanés : Quelques petits départs en poire sont possibles dans les pentes raides qui chauffent au soleil. Taille 1, rarement 2 si la pente le permet.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : \n3/5 cm de saupoudrage dimanche matin devenant un peu plus conséquent (5/10cm) en fin de matinée. \nCes quelques cm de fraiche reposant sur un manteau souvent dur: croute de regel portante en Sud, croute  parfois cassante en Est et Ouest et neige venté le plus souvent cartonnée en Nord.",
+      "text": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : 10/20 cm de neige fraîche vers 1800 m localement 20/30 cm en allant vers l'Italie. Le vent a redistribué la neige : on peut trouver des zones pelées et d'autres avec le double d’épaisseur. Cette neige est croutée sous 1500/1700 m. Elle s’alourdit par humidification en journée. Sous-couche souvent dure : croute de regel en Sud, Est et Ouest (sauf très haut) et souvent cartonnée par le vent en Nord.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1300,
-        "south": 1600
+        "south": 1300
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 60,
-          "S": 0
+          "N": 65,
+          "S": 5
         },
         {
           "alt_m": 2000,
-          "N": 130,
-          "S": 70
+          "N": 145,
+          "S": 85
         },
         {
           "alt_m": 2500,
-          "N": 210,
-          "S": 160
+          "N": 230,
+          "S": 180
         }
       ],
       "icon_key": "snowpack",
