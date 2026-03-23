@@ -3,8 +3,8 @@
   "massif": "Haute-Bigorre",
   "bulletin": {
     "id": 66,
-    "issued_at": "2026-03-22T16:00:00",
-    "valid_until": "2026-03-23T18:00:00",
+    "issued_at": "2026-03-23T16:00:00",
+    "valid_until": "2026-03-24T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-24",
+        "date": "2026-03-25",
         "label": "Indice de risque limité",
-        "comment": "Peu d'évolution du risque, humidification un peu plus marquée au soleil.",
+        "comment": "Risques maintenus, avant l'arrivée de la neige mercredi soir.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-18",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-19",
           "min_cm": 0,
           "max_cm": 0
@@ -112,28 +107,33 @@
         {
           "date": "2026-03-22",
           "min_cm": 0,
-          "max_cm": 2
+          "max_cm": 0
         },
         {
           "date": "2026-03-23",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-03-24",
           "min_cm": 0,
           "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 2
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "Rares plaques encore déclenchables au-dessus de 2200 m, manteau printanier ailleurs.",
-      "text": "Rares plaques encore déclenchables au-dessus de 2200 m, manteau printanier ailleurs.\n\nDéclenchements provoqués : \n- Au-dessus de 2200 m, dans les pentes raides plein nord, dans un secteur un peu plus large au-dessus de 2500m, des plaques à vent et des couches fragiles sont présentes. Elles sont le plus souvent devenues difficilement déclenchables, recouvertes par une croûte et détruites par les nuits claires, ou en partie humidifiées. Rarement, certaines peuvent encore être plus facilement sollicitées au passage d'un skieur, là où la croûte est cassante et où les plaques sont plus épaisses (en zones d'accumulations), l'épaisseur ralentissant la métamorphose des plaques.\n- Ailleurs, en versants ensoleillés, le passage d'un skieur dans une pente raide en neige très humide peut favoriser un petit départ ponctuel.\n\nDéparts spontanés : \nPeu ou pas d'activité en tout début de journée grâce à un regel efficace, puis des départs ponctuels dans la neige humide sont attendus dans les pentes raides au fil de l'ensoleillement (d'abord en est, puis sud, puis ouest), devenant plus fréquents au fil de la journée. Les avalanches sont généralement petites à moyennes, quelques avalanches de fond sont possibles, parfois annoncées par l'ouverture de fissures, atteignant (rarement) une grande taille surtout dans les expositions sud-est où des accumulations sont présentes.\n\nAutres : Pont de neige et corniches encore en place, devenant fragiles au fil de l'humidification.",
+      "text": "Rares plaques encore déclenchables au-dessus de 2200 m, manteau printanier ailleurs.\n\nDéclenchements provoqués : \n- Au-dessus de 2200 m, dans les pentes raides plein nord, dans un secteur un peu plus large au-dessus de 2500 m, des plaques à vent et des couches fragiles sont présentes dans les 30 à 60 premiers centimètres. Elles sont le plus souvent devenues difficilement déclenchables, recouvertes par une croûte, détruites par les nuits claires ou en partie humidifiées. Rarement, certaines peuvent encore être plus facilement sollicitées au passage d'un skieur, là où la croûte est cassante et où les plaques sont plus épaisses (en zones d'accumulations), l'épaisseur ralentissant la métamorphose des plaques. \n- Ailleurs, en versants ensoleillés, le passage d'un skieur dans une pente raide en neige très humide peut favoriser un petit départ ponctuel. \n\nDéparts spontanés : \nPeu ou pas d'activité en tout début de journée grâce à un regel efficace, puis des départs ponctuels dans la neige humide sont attendus dans les pentes raides au fil de l'ensoleillement (d'abord en est, puis sud, puis ouest), devenant plus fréquents au fil de la journée. Les avalanches sont généralement petites à moyennes, quelques avalanches de fond sont possibles, parfois annoncées par l'ouverture de fissures, avalanches atteignant (rarement) une grande taille surtout dans les expositions Sud-Est où des accumulations sont présentes.\n\nAutres : Pont de neige et corniches encore en place, devenant fragiles au fil de l'humidification, fissures même en nord.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Correct pour la saison au-dessus de 1800 à 2000 m, mais reste assez maigre en versants exposés au vent d'ouest. Manteau skiable à partir de 1600 m en nord, plutôt 1900 à 2000m en sud.\nÉtat de la neige : Neige croutée en versants nord, cassante au-dessus de 2000m, n'évoluant pas en journée. Ailleurs, elle est regelée et portante au petit jour. Neige rapidement dégelée en surface, mais lentement en profondeur au-dessus de 2000m, donnant de bonnes conditions de ski de printemps au soleil.",
+      "text": "Enneigement : Correct pour la saison au-dessus de 1800 à 2000 m, mais reste assez maigre en versants exposés aux vents d'ouest passés. Manteau skiable à partir de 1600 m en nord, plutôt 1900/2000 m en sud.\nÉtat de la neige : Neige croûtée en versants nord, cassante au-dessus de 2000 m, n'évoluant que peu en journée mais pouvant présenter des fissures cependant. Ailleurs, elle est regelée et portante au petit jour. Neige rapidement dégelée en surface au soleil, mais s'humidifie lentement en profondeur au-dessus de 2000/2200 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

@@ -3,37 +3,49 @@
   "massif": "Orlu St-Barthelemy",
   "bulletin": {
     "id": 72,
-    "issued_at": "2026-03-22T16:00:00",
-    "valid_until": "2026-03-23T18:00:00",
+    "issued_at": "2026-03-23T16:00:00",
+    "valid_until": "2026-03-24T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2200,
+        "split_axis": "horizontal",
+        "split_label": "2200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2200",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2200",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2200m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-24",
+        "date": "2026-03-25",
         "label": "Indice de risque limité",
-        "comment": "Stabilisation assez rapide de la neige récente.",
+        "comment": "Risque en baisse avec la poursuite provisoire du beau temps ensoleillé.",
         "trend": "down"
       }
     },
@@ -52,11 +64,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
-        "W": true,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -66,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 4,
       "labels": {
-        "1": "Neige fraîche",
+        "2": "Neige ventée",
         "4": "Neige humide"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-18",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-19",
           "min_cm": 0,
@@ -99,46 +106,51 @@
         },
         {
           "date": "2026-03-22",
-          "min_cm": 15,
-          "max_cm": 25
+          "min_cm": 10,
+          "max_cm": 20
         },
         {
           "date": "2026-03-23",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-24",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 15,
-        "last_48h_max_cm": 25
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Risque marqué suivant l'activité neigeuse de dimanche soir.",
-      "text": "Risque marqué suivant l'activité neigeuse de dimanche soir.\n\nDéclenchements provoqués :\n- Les chutes de neige attendues ce dimanche soir forment une nouvelle couche irrégulière de 10 à 20 cm d'épaisseur en général mais localement plus. Cette neige parfois ventée peut reposer soit sur un peu de givre de surface dans les pentes Nord soit sur de la neige fraîche sans cohésion et peut ainsi constituer des structures très fragiles, pouvant céder au passage d'un simple randonneur. Il s'agit essentiellement de petites avalanches (taille 1) mais, suivant les accumulation localisées, des cassures de 20 à 40 cm sont possibles et une avalanche moyenne est alors envisageable (taille 2). \nObservables : neige récente travaillée par le vent, enfoncement des bâtons supérieur à 20/30 cm, fissures devant les skis.\nDéparts spontanés :\n- Nombreuses avalanches de neige fraiche. Avec le retour matinal du soleil, de nombreuses petites avalanches vont se produire dans les pentes raides (purges) emportant souvent l'ensemble de la neige tombée la veille. D'abord en orientation Est puis Sud et enfin Ouest. Seules les pentes Nord en altitude (>2300m) devraient être moins concernées. La taille de ces avalanches devraient rester modestes (1 à 2). \nAutre :",
+      "title": "Quelques plaques à vent dans la neige récente, neige humide en seconde partie de journée surtout.",
+      "text": "Quelques plaques à vent dans la neige récente, neige humide en seconde partie de journée surtout. \n\nDéclenchements provoqués :\n- Quelques structures de plaques ont pu se former durant le bref épisode perturbé de dimanche soir.\nAu-delà de 2100/2200 m, une instabilité demeure localement dans les 30/40 cm de neige récente accumulée localement sous certaines crêtes au cours de l'épisode, plutôt dans une large secteur nord, déclenchable par un skieur. \nCassure pouvant atteindre 40/50 cm et avalanche de taille moyenne en case de déclenchements. \n\nEn haute montagne ( > 2500 m ), les conditions sont demeurées hivernales dans les versants froids, et des plaques reposant sur d'anciennes sous-couches fragiles persistantes sont toujours à envisager. \nElles sont localisées dans les pentes sommitales des sommets frontaliers dans un large secteur nord. \n\nObservables : neige récente travaillée par le vent, enfoncement des bâtons supérieur à 20/30 cm, fissures devant les skis.\nDéparts spontanés :\nAvec le soleil et la hausse du mercure, l'humidification reprend jusqu'à haute altitude dans les pentes ensoleillées. Petite activité avalancheuse  mobilisant la petite couche de neige récente possible  en matinée taille 1 ou 2 ( couloirs raides ensoleillés ).\nPonctuellement dans les pentes très raides, possibilité d'une avalanche ( éventuellement de fond) de plus grande taille dans un versant surchauffé par le soleil, préférentiellement après la mi-journée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nEnneigement reste très correct pour la saison, après plusieurs hivers déficitaires. \nUne nouvelle couche de neige fraîche est présente lundi matin dès 1200/1300m mais il faut atteindre 1500m en Nord et 1800m en Sud pour trouver une sous-couche qui prend rapidement de l'épaisseur. \n En altitude, les cumuls sont souvent conséquents mais les crêtes et sommets exposés au vent d'Ouest à Nord-ouest sont parfois complètement déneigés.\n\nQualité de la neige : \nLundi matin, on trouve en surface une jolie couche de neige fraîche, un peu humide entre 1200 et 1500m puis rapidement poudreuse de 15 à 25 cm d'épaisseur vers 2000m. Cette neige a pu être un peu travaillée par le vent et on pourra aussi trouver quelques accumulations de neige roulée (averses). Cette neige reste froide en altitude et à l'ombre mais elle s'humidifie au soleil en surface la rendant collante en dessous de 2200m.",
+      "text": "Enneigement : \nEnneigement reste très bon, voire excellent pour la saison, après plusieurs hivers déficitaires. \nEn altitude, les accumulations sont très conséquentes, mais les crêtes et sommets exposés au vent d'ouest à Nord-ouest sont parfois complètement déneigés.\nOn peut encore chausser les skis dans les secteurs ombragés vers 1500/1600 m. \n\nQualité de la neige : \n15/20 centimètres de neige récente sont tombés ici et là dans la nuit de dimanche à lundi, et devraient encore être d'aspect froid et poudreux dans les pentes au-delà de 2000 m ou le soleil est demeuré rasant ou caché la veille. \nPartout ailleurs, après un bon et fort regel matinal, reprise de l'humidification en surface et neige ramollie plus ou moins en profondeur suivant l'altitude et les expositions.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1500,
-        "south": 1800
+        "north": 1300,
+        "south": 1300
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 25,
-          "S": 0
+          "N": 35,
+          "S": 10
         },
         {
           "alt_m": 2000,
-          "N": 210,
-          "S": 110
+          "N": 225,
+          "S": 125
         },
         {
           "alt_m": 2500,

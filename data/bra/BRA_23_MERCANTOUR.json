@@ -3,14 +3,14 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-03-22T16:00:00",
-    "valid_until": "2026-03-23T18:00:00",
+    "issued_at": "2026-03-23T16:00:00",
+    "valid_until": "2026-03-24T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "max_level": 2,
+      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2000,
@@ -20,14 +20,14 @@
           {
             "id": "zone1",
             "loc": "<2000",
-            "risk": 2,
+            "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
             "loc": ">2000",
-            "risk": 3,
+            "risk": 2,
             "evolution_to": null,
             "position": "top"
           }
@@ -41,34 +41,34 @@
         },
         "zones": {
           "bottom": {
-            "text": "2",
-            "risk": 2,
+            "text": "1",
+            "risk": 1,
             "evolution_to": null
           },
           "top": {
-            "text": "3",
-            "risk": 3,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-24",
+        "date": "2026-03-25",
         "label": "Indice de risque limité",
-        "comment": "Stabilisation rapide des plaques dans la neige fraîche au soleil, elles persistent un peu plus longtemps en versants ombragés.",
-        "trend": "down"
+        "comment": "Maintien d'un risque limité en journée. Le renforcement du vent de nord-ouest en fin d'après-midi entraine la formation de nouvelles plaques sensibles au passage d'un skieur, aux plus hautes altitudes du massif.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
-        "NE": false,
+        "NE": true,
         "E": false,
-        "SE": true,
-        "S": true,
-        "SW": true,
-        "W": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -89,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-18",
-          "min_cm": 1,
-          "max_cm": 15
-        },
         {
           "date": "2026-03-19",
           "min_cm": 0,
@@ -118,22 +113,27 @@
           "date": "2026-03-23",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-24",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES PETITES PLAQUES DANS LA NEIGE FRAICHE VENTÉE - QUELQUES DÉPARTS AU SOLEIL",
-      "text": "NOMBREUSES PETITES PLAQUES DANS LA NEIGE FRAICHE VENTÉE - QUELQUES DÉPARTS AU SOLEIL\n\nDéclenchements provoqués :  nombreuses plaques superficielles dans la neige fraiches en lien avec le transport de neige par le vent de nord-est, possibles en toutes orientations, mais plus fréquentes dans un large versant nord-ouest à sud-est au-dessus de 2000 m. Plaques très faciles à déclencher au passage d'un skieur, présentes plutôt aux abords des crêtes et générant des avalanches de petite taille, rarement moyenne (taille 1 à 2).\nEn versant nord au-dessus de 2200 m environ, des départs un peu plus volumineux sont possibles au passage d'un skieur par déstabilisation d'une plaque plus ancienne et épaisse, restant généralement de taille moyenne (taille 2).\n\nDéparts spontanés : peu probable au levé du jour, puis départs superficiels de neige fraiche s'humidifiant au soleil, devenant fréquents au fil de la journée. Avalanches de petite taille, rarement moyenne (taille 1 à 2).",
+      "title": "QUELQUES PLAQUES DANS LA NEIGE RÉCENTE VENTÉE - QUELQUES DÉPARTS SUPERFICIELS EN NEIGE HUMIDE",
+      "text": "QUELQUES PLAQUES DANS LA NEIGE RÉCENTE VENTÉE - QUELQUES DÉPARTS SUPERFICIELS EN NEIGE HUMIDE\n\nDéclenchements provoqués :  quelques plaques sont encore en place dans la neige récente, principalement dans les orientations nord-ouest, nord et nord-est au-dessus de 2000/2200 m environ, là où la neige récente ne s'est pas encore humidifiée. Elles deviennent progressivement difficiles à déclencher, mais peuvent encore céder au passage d'un skieur. Elles sont facilement identifiables, présentes notamment dans les zones d'accumulation, à proximité des crêtes et ruptures de pente. Elles génèrent des avalanches de taille petite à moyenne (taille 1 à 2). En versant nord de haute altitude, des départs un peu plus volumineux sont possibles en cas de rupture d'une couche fragile persistante plus profondément enfouie, suite à un premier départ de surface par exemple. Dans ce cas, avalanche restant généralement de taille moyenne. \n\nDéparts spontanés : peu probables au lever du jour puis rares départs de neige récente dans les pentes raides bien ensoleillées. Avalanches petites en général, plus rarement moyennes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement excédentaire dans la Roya, proche des normales sur le reste du massif.\nDonnées observées : 170 cm à la Nivôse de Millefonts à 2430 m, 120 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : on retrouve le matin 10 à 15 cm de neige fraiche, travaillée par le vent de nord-est proche des crêtes, et s'humidifiant au soleil en journée. Elle repose en général sur un fond dure/regelé, excepté en ubacs au-dessus de 2000/2200 m environ, où la couche de neige légère peut être plus importante dans les combes abritées du vent.",
+      "text": "Enneigement excédentaire dans la Roya, proche des normales sur le reste du massif.\nDonnées observées : 167 cm à la Nivôse de Millefonts à 2430 m, 116 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : on retrouve encore la couche de neige récente (10 à 15 cm), travaillée par le vent de nord-est proche des crêtes, et déjà fortement humidifiée jusqu'à haute altitude dans les versants bien ensoleillés. Elle peut rester froide et légère dans les versants nord-ouest, nord et nord-est au-dessus de 2000/2200 m. Elle repose en général sur un fond dur/regelé, excepté en ubacs au-dessus de 2000/2200 m, où la couche de neige légère peut être plus importante dans les combes abritées du vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 20,
-          "S": 10
+          "N": 15,
+          "S": 7
         },
         {
           "alt_m": 2000,
-          "N": 120,
-          "S": 70
+          "N": 110,
+          "S": 60
         },
         {
           "alt_m": 2500,
-          "N": 190,
-          "S": 140
+          "N": 180,
+          "S": 130
         }
       ],
       "icon_key": "snowpack",

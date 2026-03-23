@@ -3,61 +3,49 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-03-22T16:00:00",
-    "valid_until": "2026-03-23T18:00:00",
+    "issued_at": "2026-03-23T16:00:00",
+    "valid_until": "2026-03-24T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 2500m indice de risque marqué, plus bas indice limité.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2500,
-        "split_axis": "horizontal",
-        "split_label": "2500m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2500",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2500",
-            "risk": 3,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2500m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "2",
             "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "3",
-            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-03-24",
+        "date": "2026-03-25",
         "label": "Indice de risque marqué",
-        "comment": "Les plaques formées sous le vent de nord-est sont encore bien présentes en altitude.",
-        "trend": "steady"
+        "comment": "De nouvelles chutes de neige s'installent et le vent de Nord-Ouest à Nord se renforce. Formation de nouvelles instabilités dans cette neige fraîche, de plus en plus nombreuses au fil des chutes.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -78,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
-        "1": "Neige fraîche",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-18",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-19",
           "min_cm": 0,
@@ -118,22 +101,27 @@
           "date": "2026-03-23",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-24",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 3
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nombreuses plaques à vent en haute montagne, instabilités encore présentes dans la neige récente plus bas",
-      "text": "Nombreuses plaques à vent en haute montagne, instabilités encore présentes dans la neige récente plus bas\n\nDéclenchements provoqués :\n* Au-dessus de 2500 m :  nombreuses plaques à vent formées sous le vent de SO/SE dimanche, de nouvelles plaques se forment sous le vent de NE lundi en journée. Elles sont d'aspect friable, voir dur plus en altitude, facilement déclenchables au passage d'un skieur. On les retrouve au voisinage des crêtes. Taille 1 à 2 (petite à moyenne). \nObservables : accumulation de neige, vaguelettes, fissures sous les skis.\n* Quelques instabilités dans la neige fraiche entre 2000 et 2500 m sont encore présentes. Elles sont plus nombreuses sous le vent de SO et SE, les plaques sont facilement déclenchables par un skieur. Taille 1 à 2 (petite à moyenne).\n* Dans les adrets d'altitude et en ubacs au-dessus de 2100 m, une couche fragile persistante est encore enfouie, mais ne semble pas vraiment déclenchable par un skieur. Toutefois, par une forte surcharge (avalanche en cascade, chutes de corniches, chutes de séracs), elle pourrait être sollicitée et engendrer une avalanche de taille 2 à 3 (moyenne à grande).\n\nDéparts spontanés :\n* Départs dans la neige récente à cause du vent de NE en journée. Taille 1 à 2.\n* Sous 2000 m, quelques coulées de neige humide dans les versants ensoleillés au fil du réchauffement (secteur sans vent). Taille 1. \n* Peu probable, plaques de fond, en tous versants, à toute heure du jour et de la nuit, dans les pentes lisses et raides (zones herbeuses, dalles, vires). Taille 1 à 2.",
+      "title": "Manteau neigeux venté en altitude et plus printanier sous 2200/2400 m.",
+      "text": "Manteau neigeux venté en altitude et plus printanier sous 2200/2400 m. \n\nDéclenchements provoqués :\n* Au-dessus de 2500/2700 m : plaques à vent. Formées par le vent de SO/SE de dimanche puis de NE de lundi. Les plaques sont d'aspect friables en moyenne montagne et plus dures en haute montagne. Déclenchables par un·e skieur·euse. Plus nombreuses vers les crêtes et arêtes. Taille 1 à 2 (petite à moyenne). \nObservables : accumulation de neige, vaguelettes, fissures sous les skis.\n* Facteur aggravant : au-dessus de 2100 m en versants E/N/O : une couche fragile persistante enfouie est présente localement. Très difficilement déclenchable à skis mais elle peut être sollicitée par une forte surcharge (avalanche en cascade, chute de corniche/sérac ...) et engendrer une avalanche de plus grande ampleur. Taille 2 (moyenne) à 3 (grande). \n* En-dessous de 2500 m : de la neige humide peut couler sous les skis. Taille 1 (petite), rarement 2 (moyenne). \n\nDéparts spontanés :\n* En-dessous de 2500 m : petits départs en neige humide. Principalement dans les pentes raides au soleil et dans les rochers/falaises. Taille 1 (petite) rarement 2 (moyenne).\n* Très rares plaques de fond : possibles en tous versants, à toute heure du jour comme de la nuit. Principalement dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Taille 1 à 2 (petite à moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nL'enneigement passe d'inexistant à relativement bon une fois la limite d'enneigement atteinte.\nOn peut chausser les skis vers 1200/1300 m en nord et 1400/1500 m en sud.\nGrosses corniches présentes. \n\nQualité de la neige ce lundi  : \n* 5/10 cm de neige récente, ventée près des crêtes. Elle s'humidifie en surface dans les versants ensoleillés et reste froide à l'ombre. Elle repose sur un fond dur : croute en versant S/E/O et sur de la neige froide souvent cartonnée en Nord (ou de la vielle poudre dans les secteurs abrités en altitude).\n* Plus haut en altitude, neige récente plus souvent travaillée par le vent. Dans les couloirs/secteurs encaissés, la neige reste légère. Plus on monte en altitude, plus la neige est dure.",
+      "text": "Enneigement : Enneigement correct pour la saison. En-dessous de 1100/1300 m, la neige est presque inexistante.\nOn peut chausser les skis vers 1200/1300 m en versants peu ensoleillés et vers 1400/1500 m ailleurs. \nDes grosses corniches sont présentes. \n\nQualité de la neige ce mardi : \n* En-dessous de 2200/2400 m : croûte plus ou moins portante le matin qui décaille rapidement avec la course du soleil et le réchauffement diurne. La neige devient alors molle à humide. \n* Entre 2200 m et la haute montagne : fine couche de poudreuse (3/7 cm) sur un fond dur. \n* En haute montagne : neige globalement dure, travaillée par le vent de SO/SE puis de NE de ces derniers jours. Elle reste encore légère et poudreuse dans quelques pentes abritées du vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

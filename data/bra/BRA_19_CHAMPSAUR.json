@@ -3,37 +3,49 @@
   "massif": "Champsaur",
   "bulletin": {
     "id": 19,
-    "issued_at": "2026-03-22T16:00:00",
-    "valid_until": "2026-03-23T18:00:00",
+    "issued_at": "2026-03-23T16:00:00",
+    "valid_until": "2026-03-24T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible évoluant en limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
+            "risk": 1,
+            "evolution_to": 2,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "1→2",
+            "risk": 1,
+            "evolution_to": 2
+          },
+          "top": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-24",
+        "date": "2026-03-25",
         "label": "Indice de risque limité",
-        "comment": "Maintien d'un risque limité avec la poursuite d'un temps sec et doux. Un peu d'activité naturelle au soleil.",
+        "comment": "Risque limité. Rares plaques résiduelles, mais d'autres en formation en haute altitude avec le vent. Activité naturelle limitée.",
         "trend": "steady"
       }
     },
@@ -52,10 +64,10 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
-        "SE": true,
+        "E": false,
+        "SE": false,
         "S": false,
-        "SW": true,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -67,20 +79,16 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": null,
+      "secondary": 4,
       "labels": {
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-18",
-          "min_cm": 0,
-          "max_cm": 2
-        },
         {
           "date": "2026-03-19",
           "min_cm": 0,
@@ -98,51 +106,56 @@
         },
         {
           "date": "2026-03-22",
-          "min_cm": 10,
+          "min_cm": 5,
           "max_cm": 15
         },
         {
           "date": "2026-03-23",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-24",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 10,
-        "last_48h_max_cm": 15
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PETITES PLAQUES EN PLACE DANS LA NEIGE RÉCENTE, UN PEU D’ACTIVITÉ NATURELLE AU SOLEIL",
-      "text": "PETITES PLAQUES EN PLACE DANS LA NEIGE RÉCENTE, UN PEU D’ACTIVITÉ NATURELLE AU SOLEIL\n\nDéclenchements provoqués : plaques en place dans la neige fraîche tombée ce dimanche. Plaques souvent peu épaisses mais facilement déclenchables dans un large secteur nord d'altitude supérieure à 2200 m environ. En sud, le soleil détruit rapidement les structures de plaques. Elles peuvent générer des avalanches de taille petite à moyenne (taille 1 à 2) en général. \n\nDéparts spontanés : en journée, quelques départs sont attendus avec le soleil et le redoux qui viennent déstabiliser la neige récente. Avalanches de petite taille (taille 1).",
+      "title": "ENCORE QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE. UN PEU D’ACTIVITÉ NATURELLE AU SOLEIL.",
+      "text": "ENCORE QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE. UN PEU D’ACTIVITÉ NATURELLE AU SOLEIL.\n\nDéclenchements provoqués :  quelques plaques à vent dans la neige récente, encore déclenchables par un skieur. Principalement présentes dans les orientations de large nord à ouest au-dessus de 2000/2200 m, plutôt aux abords des ruptures de pente et des crêtes. Avalanches de taille petite à moyenne.\nPar ailleurs, un skieur évoluant tardivement en pente raide ensoleillée peut provoquer un départ ponctuel en neige humide.  \n\nDéparts spontanés : quelques départs ponctuels en neige humide. Peu probables en début de journée, puis devenant possibles dès la fin de matinée en pentes raides ensoleillées. Avalanches de petite taille à moyenne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales pour une fin mars, à légèrement excédentaire en altitude.\nHauteurs de neige observées : 22 cm au hameau des Portes dans le Valgaudemar à 1270 m, 132 cm à la Nivôse d'Orcières à 2280 m, et 186 cm au-dessus de Prapic à 2480 m.\n\nLimite d'enneigement skiable : vers 1400 m en ubacs, 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface : on retrouve en surface 10/15 cm de neige froide, qui repose sur un manteau neigeux printanier bien dense en sud. En large versant nord au-dessus de 2200/2300 m, elle repose sur une neige plus sèche, travaillée par le vent ou encore d'aspect poudreux.",
+      "text": "L'enneigement est proche des normales ou excédentaire pour une fin mars.\nHauteurs de neige observées : 25 cm au hameau des Portes dans le Valgaudemar à 1270 m, 138 cm à la Nivôse d'Orcières à 2280 m, et 194 cm au-dessus de Prapic à 2480 m.\n\nLimite d'enneigement skiable : vers 1400 m en ubacs, 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface : 10/25 cm de neige récente reposant généralement sur un fond dur/regelé, mais en ubacs au-dessus de 2200/2300 m sur de la neige sèche. Regelée en surface sous 1800/2100 m, s'humidifiant au soleil jusqu'à haute altitude en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1400,
-        "south": 1800
+        "south": 1400
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 50,
-          "S": 0
+          "N": 55,
+          "S": 5
         },
         {
           "alt_m": 2000,
-          "N": 150,
-          "S": 90
+          "N": 155,
+          "S": 95
         },
         {
           "alt_m": 2500,
-          "N": 200,
-          "S": 130
+          "N": 205,
+          "S": 135
         }
       ],
       "icon_key": "snowpack",
