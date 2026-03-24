@@ -3,8 +3,8 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-03-23T16:00:00",
-    "valid_until": "2026-03-24T18:00:00",
+    "issued_at": "2026-03-24T16:00:00",
+    "valid_until": "2026-03-25T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -53,18 +53,18 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-03-25",
-        "label": "Indice de risque limité",
-        "comment": "Risque limité. Rares plaques résiduelles, mais d'autres en formation vers les hauts sommets avec le vent. Activité naturelle limitée.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-03-26",
+        "label": "Indice de risque marqué",
+        "comment": "Risque en hausse. Nouvelles instabilités avec les chutes de neige et le vent fort.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
+        "E": true,
         "SE": false,
         "S": false,
         "SW": false,
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-19",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-20",
           "min_cm": 0,
           "max_cm": 0
@@ -118,44 +113,49 @@
           "date": "2026-03-24",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-25",
+          "min_cm": 5,
+          "max_cm": 20
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 20
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "ENCORE QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE. UN PEU D’ACTIVITÉ NATURELLE AU SOLEIL.",
-      "text": "ENCORE QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE. UN PEU D’ACTIVITÉ NATURELLE AU SOLEIL.\n\nDéclenchements provoqués :  quelques plaques à vent dans la neige récente, encore déclenchables par un skieur. Principalement présentes dans les orientations de large nord à ouest au-dessus de 2000/2200 m, plutôt aux abords des ruptures de pente et des crêtes. Avalanches de taille petite à moyenne.\nPar ailleurs, un skieur évoluant tardivement en pente raide ensoleillée peut provoquer un départ ponctuel en neige humide.  \n\nDéparts spontanés : quelques départs ponctuels en neige humide. Peu probables en début de journée, puis devenant possibles dès la fin de matinée en pentes raides ensoleillées. Avalanches de petite taille à moyenne.",
+      "title": "EN ALTITUDE, INSTABILITÉS RÉSIDUELLES DANS LA NEIGE RÉCENTE, D'AUTRES EN FORMATION AVEC LE VENT. UN PEU D’ACTIVITÉ NATURELLE AU SOLEIL.",
+      "text": "EN ALTITUDE, INSTABILITÉS RÉSIDUELLES DANS LA NEIGE RÉCENTE, D'AUTRES EN FORMATION AVEC LE VENT. UN PEU D’ACTIVITÉ NATURELLE AU SOLEIL.\n\nDéclenchements provoqués : - rares plaques à vent dans la neige récente, encore déclenchables par un skieur. Principalement présentes dans les orientations de large nord au-dessus de 2000/2200 m, plutôt aux abords des ruptures de pente et des crêtes. Avalanches de taille petite à moyenne.\n- Mercredi, quelques nouvelles plaques en formation avec le transport de la neige sèche par le vent, en haute altitude le matin, plus bas l’après-midi. Nouvelles instabilités, même loin des crêtes et sommets, faciles à déclencher et de taille limitée.\n- Par ailleurs, un skieur évoluant tardivement en pente raide ensoleillée peut provoquer un départ ponctuel en neige humide, ou un départ linéaire alors qu’il évolue dans de la neige humidifiée en surface.\n\nDéparts spontanés : éventuels départs ponctuels en neige humide, rarement linéaire. Peu probables en début de journée, puis devenant possibles dès la fin de matinée en pentes raides ensoleillées. Avalanches de petite taille à moyenne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est excédentaire pour une fin mars.\n\nLimite d'enneigement skiable : vers 1400 m en ubacs, 1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface : 15/30 cm de neige récente reposant généralement sur un fond dur/regelé, mais en ubacs au-dessus de 2200/2300 m sur de la neige sèche. Regelée en surface sous 1800/2100 m, s'humidifiant au soleil jusqu'à haute altitude en journée.",
+      "text": "L'enneigement est excédentaire pour une fin mars.\n\nLimite d'enneigement skiable : vers 1400 m en ubacs, 1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface : après un bon regel nocturne, neige croutée en adrets mais aussi en ubac sous 2000 m environ, humidification au soleil. En ubac d'altitude, neige récente restée sèche.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 900,
-        "south": 900
+        "north": 1400,
+        "south": 1500
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 65,
-          "S": 15
+          "N": 50,
+          "S": 5
         },
         {
           "alt_m": 2000,
-          "N": 180,
-          "S": 120
+          "N": 175,
+          "S": 110
         },
         {
           "alt_m": 2500,
-          "N": 230,
-          "S": 160
+          "N": 220,
+          "S": 150
         }
       ],
       "icon_key": "snowpack",

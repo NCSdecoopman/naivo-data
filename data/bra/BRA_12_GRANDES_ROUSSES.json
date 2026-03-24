@@ -3,61 +3,49 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-03-23T15:00:00",
-    "valid_until": "2026-03-24T18:00:00",
+    "issued_at": "2026-03-24T15:00:00",
+    "valid_until": "2026-03-25T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2300m indice de risque limité, plus bas indice faible évoluant en limité.",
+      "max_level": 3,
+      "comment": "Indice de risque limité évoluant en marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2300,
-        "split_axis": "horizontal",
-        "split_label": "2300m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2300",
-            "risk": 1,
-            "evolution_to": 2,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2300",
+            "loc": null,
             "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "evolution_to": 3,
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2300m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
+          "center": {
+            "text": "2→3",
+            "risk": 3,
+            "evolution_to": 3
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-03-25",
+        "date": "2026-03-26",
         "label": "Indice de risque marqué",
-        "comment": "Risque  d'avalanche en hausse mercredi après-midi/soir, en altitude : Vent d'Ouest puis Nord-Ouest chassant la neige en altitude et  averses de neige prévues, 5 puis 10 cm de fraîche... De nouvelles plaques en formation...",
-        "trend": "up"
+        "comment": "Jeudi risque d'avalanche marqué sur les Grandes Rousses avec jusque 30 puis 40 cm de neige froide très soufflée. Des avalanches spontanées en couloirs/faces chargées par le vent de Nord-Nord-Ouest et un risque de plaques dès assez basse altitude.\nEn haute montagne alternance de plaques dures et zones décapées, risque plus localisé ?",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -66,8 +54,8 @@
         "NE": true,
         "E": true,
         "SE": true,
-        "S": true,
-        "SW": true,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -78,22 +66,16 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": null,
       "labels": {
-        "4": "Neige humide",
         "2": "Neige ventée"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-19",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-20",
           "min_cm": 0,
@@ -118,44 +100,49 @@
           "date": "2026-03-24",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-25",
+          "min_cm": 20,
+          "max_cm": 30
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 20,
+        "last_48h_max_cm": 30
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RARES MINCES PLAQUES EN NORD D'ALTITUDE... EN FACES ENSOLEILLEES, RARES COULES OU PETITES AVALANCHES DE SURFACE...",
-      "text": "RARES MINCES PLAQUES EN NORD D'ALTITUDE... EN FACES ENSOLEILLEES, RARES COULES OU PETITES AVALANCHES DE SURFACE...\n\nLes 15/20 cm tombés dimanche tendent à se stabiliser. Rares instabilités mardi et souvent superficielles...\nDéclenchements provoqués :\nRares plaques vers les hautes crêtes, en versant froid. Le récent vent de Nord-Est a pu former de petites accumulations en altitude, parfois instables au passage de skieur ? Indices : manteau ridé, quelques congères ? Cassures 10/20 cm environ, peu larges.\nEn pentes bien ensoleillées, humidifiées, la neige récente peut éventuellement glisser sous les skis.\nDéparts spontanés :\nDes coulées de surface se sont déjà produites. Mardi la douceur gagne plus en altitude... Suivant la course du soleil, en pentes raides, près des rochers, on s'attend à de rares nouvelles coulées voire une avalanche de surface (de taille 1 à 2).\n\nAutres :  Neige localement et temporairement croutée/cassante, ski parfois délicat.",
+      "title": "LE MATIN FORMATION DE QUELQUES PLAQUES EN FACES NORD D'ALTITUDE ;  L'APRES-MIDI CHUTES DE NEIGE ET VENT PLUS FORT : PLAQUES PLUS NOMBREUSES AU FIL DES HEURES...",
+      "text": "LE MATIN FORMATION DE QUELQUES PLAQUES EN FACES NORD D'ALTITUDE ;  L'APRES-MIDI CHUTES DE NEIGE ET VENT PLUS FORT : PLAQUES PLUS NOMBREUSES AU FIL DES HEURES...\n\nEn matinée risque localisé de plaques (bien instables) en faces Nord d'altitude, sous l'action du vent d'Ouest. Dégradation l'après-midi et le soir avec un peu de fraîche attendue, bien soufflée par Nord-Ouest...\nDéparts spontanés :\nRisque accidentel évoluant au fil de la journée de mercredi.\nLe matin, vent d'Ouest à haute altitude soufflant la neige poudreuse en place dans les faces Nord d'altitude (15 cm environ). Cette neige a peu de cohésion, plaque a priori très localisée mais bien instable/réactive avec larges cassures possibles au passage d'une personne.\nEn cours d''après-midi, neige attendue (10 puis 15 cm) et vent de Nord-Ouest très fort/turbulent. De nouvelles (petites) plaques se forment au fil des intempéries, dans pas mal de pentes, et parfois loin des crêtes. Risque accru en faces Nord où le fond est resté poudreux...\n\nDéclenchements provoqués :\nEn matinée, rares ruptures de plaques en faces Nord à Nord-Est d'altitude, sous le vent d'Ouest (pentes bien raides, pieds de parois). Celles ci seraient de taille petites à moyenne (1, rarement 2)\nL'après-midi et le soir au fil des intempéries, du vent : Nombreuses coulées de surface de neige fraîche, parfois une avalanche de taille moyenne (notamment en couloirs chargés ou faces Nord d'altitude ?).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1300/1500 m, voire abondant en combes d'altitude. En Sud il est moins bon mais correct dès 1700 m environ. \nLimites skiables : Vers 1300/1700 m selon les versants. \n\nQualité de la neige mardi : Neige récente parfois croutée par le soleil de la veille, délicate à skier avant le dégel.\nEn faces Nord d'altitude, neige encore poudreuse au dessus de 2000/2300m, avec jusque 20 cm de neige récente sur le Nord-Ouest du massif... Petite couche assez légère, agréable à skier avec du givre en surface et parfois un peu ventée vers les hautes crêtes ?...",
+      "text": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1400/1600 m, voire abondant en combes d'altitude. Vers les crêtes et sommets il est en revanche plus médiocre. En Sud il est juste correct au dessus de 1700 m. \nLimites skiables : Vers 1300/1700 m selon les versants. \n\nQualité de la neige mercredi : En pentes ensoleillées et sous 2000/2200m neige croutée ou durcie par regel nocturne.\nEn faces Nord d'altitude, neige poudreuse sans cohésion devenant localement  soufflée/plaquée par vent d'Ouest en matinée.\nEn cours d'après-midi on attend du fort vent de Nord-Ouest et jusque 10 puis 15 cm de neige fraîche sur l'Ouest du massif vers Rissiou/Vaujany, formation de nouvelles congères/plaques jusque assez loin des crêtes...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1000,
-        "south": 1100
+        "north": 1200,
+        "south": 1500
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 65,
-          "S": 15
+          "N": 55,
+          "S": 5
         },
         {
           "alt_m": 2000,
-          "N": 240,
-          "S": 140
+          "N": 230,
+          "S": 130
         },
         {
           "alt_m": 2500,
           "N": 330,
-          "S": 230
+          "S": 220
         }
       ],
       "icon_key": "snowpack",

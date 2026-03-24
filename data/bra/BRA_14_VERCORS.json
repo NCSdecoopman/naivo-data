@@ -3,8 +3,8 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-03-23T15:00:00",
-    "valid_until": "2026-03-24T18:00:00",
+    "issued_at": "2026-03-24T15:00:00",
+    "valid_until": "2026-03-25T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,22 +41,22 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-03-25",
-        "label": "Indice de risque limité",
-        "comment": "Risque  d'avalanche faible mercredi matin, puis en légère hausse mercredi après-midi/soir :  jusque 5/10 cm attendus en altitude, sous le vent de Nord-Ouest.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-03-26",
+        "label": "Indice de risque marqué",
+        "comment": "Jeudi risque d'avalanche probablement marqué en Vercors avec jusque 30 puis 50 cm de neige froide très soufflée. Risque de plaques instables dès modeste altitude, sous le vent de Nord + au fil des heures des avalanches spontanées en couloirs/pentes chargées...",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
-        "NE": false,
+        "N": true,
+        "NE": true,
         "E": true,
         "SE": true,
         "S": true,
-        "SW": true,
-        "W": true,
+        "SW": false,
+        "W": false,
         "NW": false
       },
       "icon_key": "rose-aspects",
@@ -66,21 +66,16 @@
       }
     },
     "sat": {
-      "primary": 4,
+      "primary": 2,
       "secondary": null,
       "labels": {
-        "4": "Neige humide"
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-19",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-20",
           "min_cm": 0,
@@ -105,44 +100,49 @@
           "date": "2026-03-24",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-25",
+          "min_cm": 20,
+          "max_cm": 30
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 1
+        "last_48h_min_cm": 20,
+        "last_48h_max_cm": 30
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NEIGE SOUVENT STABLE, QUELQUES COULEES OU PETITES AVALANCHES POSSIBLES EN PENTES ENSOLEILLEES...",
-      "text": "NEIGE SOUVENT STABLE, QUELQUES COULEES OU PETITES AVALANCHES POSSIBLES EN PENTES ENSOLEILLEES...\n\nPeu de neige mobilisable en général (10/15 cm en moyenne), mais avec le redoux au soleil, quelques nouvelles coulées voire petites avalanches au fil de la journée...\nDéclenchements provoqués :\nPeu probable ou en neige réchauffée/humidifiée, possible coulée ponctuelle sous les skis, en pentes raides... Les quelques plaques formées dimanche se sont probablement stabilisées.\nDéparts spontanés :\nAu fil du réchauffement solaire, quelques nouvelles coulées, voire petites avalanches en pentes raides d'altitude (qui ne se sont pas encore purgées). Très rare avalanche de glissement en pente herbeuse/fissurée.",
+      "title": "INTEMPERIES A PARTIR DE MERCREDI APRES-MIDI, NEIGE FRAICHE TRES SOUFFLEE ;  PETITES PLAQUES EN FORMATION...",
+      "text": "INTEMPERIES A PARTIR DE MERCREDI APRES-MIDI, NEIGE FRAICHE TRES SOUFFLEE ;  PETITES PLAQUES EN FORMATION...\n\nEn matinée, neige souvent stable et encore consolidée par regel nocturne. L'après-midi et le soir on attend 5/10 cm sur les hauts du massifs, bien soufflés par le vent de Nord-Ouest...\n\nDéparts spontanés :\nPeu probables le matin, neige dense, encore parfois tendue par regel.\nPuis en cours d'après-midi/ mercredi soir des coulées superficielles sont possibles en pentes raides, notamment en secteur chargé par le vent...\nDéclenchements provoqués :\nPlutôt en fin d'après-midi ou soirée, le fort vent de Nord-Ouest forme quelques accumulations et petites plaques temporairement instables, parfois loin des crêtes...",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est assez  bon pour la saison, dès la moyenne montagne (hors sapins où la neige manque).  Peu de sous couche en plein Sud, anciens secteurs de reptation... \nLimites skiables : Vers 1200/1700m.\n\nQualité de la neige mardi :    Neige récente peut-être encore poudreuse en faces Nord d'altitude. Sinon neige puis croutée en surface partout ailleurs, davantage tassée au Sud (coulées récentes). Bon regel mardi matin (et sous couche dense/dure), puis assez rapide humidification en faces ensoleillées...",
+      "text": "Qualification de l’enneigement :  L'enneigement est bon pour la saison, notamment en faces Nord, dès la moyenne montagne (hors sapins où la neige manque). Peu de sous couche en plein Sud, anciens secteurs de reptation (herbes à nu localement)... \nLimites skiables : Vers 1200/1700m.\n\nQualité de la neige mercredi :    Neige dense croutée ou durcie par regel nocturne. En Nord neige moins transformée... Puis humidification locale au soleil du mercredi matin...  L'après-midi coup de frais en vue. Averses de neige dès 1400 puis 1100m, 900m le soir. Rapide formation d'une petite couche de fraîche, très ventée... En altitude alternance de secteurs dénudés et congères...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 900,
-        "south": 1100
+        "north": 1100,
+        "south": 1500
       },
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 5,
+          "N": 0,
           "S": 0
         },
         {
           "alt_m": 1500,
-          "N": 70,
-          "S": 10
+          "N": 65,
+          "S": 5
         },
         {
           "alt_m": 2000,
-          "N": 215,
-          "S": 130
+          "N": 210,
+          "S": 120
         }
       ],
       "icon_key": "snowpack",

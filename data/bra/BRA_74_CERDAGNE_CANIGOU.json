@@ -3,8 +3,8 @@
   "massif": "Cerdagne Canigou",
   "bulletin": {
     "id": 74,
-    "issued_at": "2026-03-23T16:00:00",
-    "valid_until": "2026-03-24T18:00:00",
+    "issued_at": "2026-03-24T16:00:00",
+    "valid_until": "2026-03-25T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-25",
+        "date": "2026-03-26",
         "label": "Indice de risque limité",
-        "comment": "Stationnaires.",
+        "comment": "Risque en hausse avec de nouvelles chutes de neige ventée.  Diminution du risque en neige humide avec le fort refroidissement.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-19",
-          "min_cm": 0,
-          "max_cm": 1
-        },
-        {
           "date": "2026-03-20",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-03-24",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-25",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Plaques en haute montagne, neige humide en seconde partie de journée surtout.",
-      "text": "Plaques en haute montagne, neige humide en seconde partie de journée surtout. \n\nDéclenchements provoqués :\n- Quelques structures de plaques de faible épaisseur ont pu se former durant le bref épisode perturbé de dimanche soir.\nAu delà de 2100/2200 m, une instabilité demeure localement dans les 10/20 cm de neige récente accumulée localement sous certaines crêtes, plutôt dans une large secteur nord, déclenchable par un skieur. \n\nEn haute montagne (> 2500 m), les conditions demeurent hivernales dans les versants froids, et des plaques reposant sur d'anciennes sous-couches fragiles persistantes sont toujours à envisager (neige roulée ou givre de surface). \nElles sont localisées dans les pentes sommitales des crêtes frontalières.  Cassures de 30/40 cm éventuellement possibles en cas de déclenchement. \n\nObservables : neige récente travaillée par le vent, enfoncement des bâtons supérieur à 20/30 cm, fissures devant les skis.\n\nDéparts spontanés :\nAvec le soleil et la hausse du mercure, l'humidification reprend jusqu'à haute altitude dans les pentes ensoleillées. Petite activité avalancheuse  mobilisant la petite couche de neige récente possible  en matinée taille 1  ( couloirs raides ensoleillés ).\nPonctuellement dans les pentes très raides, possibilité d'une avalanche ( éventuellement de fond) de plus grande taille dans un versant surchauffé par le soleil, préférentiellement après la mi-journée.",
+      "title": "Plaques en haute montagne, manteau printanier ailleurs",
+      "text": "Plaques en haute montagne, manteau printanier ailleurs\n\nDéclenchements provoqués :\n- Quelques structures de plaques remontant à plus d'une semaine sont possiblement présentes au-delà de 2400/2500 m, reposant sur des couches fragiles persistantes ( givres de surface ou neige roulée ). \nElles sont localisées dans les pentes sommitales du massif et peuvent être masquées par les chutes de neige de la nuit de dimanche à lundi. Avalanches de taille 1 à 2 attendues.\n - Les quelques structures de plaques qui ont pu se former durant le bref épisode perturbé de dimanche soir dans un large secteur nord sont en voie de stabilisation et deviennnent plus difficilement déclenchables.\nObservables : neige récente travaillée par le vent, enfoncement des bâtons supérieur à 20/30 cm, fissures devant les skis.\n-- Ailleurs, en versants ensoleillés, le passage d'un skieur dans une pente raide en neige très humide peut favoriser un petit départ ponctuel. \n\nDéparts spontanés :\n- Peu ou pas d'activité en tout début de journée grâce à un regel efficace, puis des départs ponctuels dans la neige humide sont attendus dans les pentes raides au fil de l'ensoleillement (d'abord en est, puis sud, puis ouest), devenant plus fréquents au fil de la journée. Les avalanches sont généralement petites à moyennes (taille 1 à 2). \n- Quelques avalanches de fond sont possibles, préférentiellement après la mi-journée, parfois annoncées par l'ouverture de fissures. Ces avalanches sont petites à moyennes.\n\nAutres : \nPonts de neige et corniches encore en place, devenant plus fragiles au fil de l'humidification.\nFissures présentes localement.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nEnneigement reste très bon pour la saison, après plusieurs hivers déficitaires. \nEn altitude, les cumuls sont très conséquents mais les crêtes et sommets exposés au vent d'Ouest à Nord-ouest sont parfois complètement déneigés.\nOn peut encore chausser les skis dans les secteurs ombragés vers 1700/1800 m en configuration très favorable. \n\nQualité de la neige : \n7/15  centimètres de neige récente sont tombés ici et là dans la nuit de dimanche à lundi, et devraient encore être présents dans les pentes au-delà de 2000 m ou le soleil demeure rasant. \nPartout ailleurs, après un bon et fort regel matinal, reprise de l'humidification en surface et neige ramollie plus ou moins en profondeur suivant l'altitude et les expositions.",
+      "text": "Enneigement : \nL'enneigement est excellent pour la saison, après plusieurs hivers déficitaires. \nEn altitude, les cumuls sont très conséquents mais les crêtes et sommets exposés au vent d'Ouest à Nord-ouest sont parfois complètement déneigés.\nOn peut encore chausser les skis dans les secteurs ombragés vers 1700/1800 m. \n\nQualité de la neige : \nLes 7-15 centimètres de neige récente tombés dans la nuit de dimanche à lundi devraient encore être présents dans les pentes ombragées d'altitude. \nPartout ailleurs, après un bon et fort regel matinal, reprise de l'humidification en surface et neige ramollie plus ou moins en profondeur suivant l'altitude et les expositions.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -133,7 +133,7 @@
         {
           "alt_m": 1500,
           "N": 5,
-          "S": 5
+          "S": 2
         },
         {
           "alt_m": 2000,
