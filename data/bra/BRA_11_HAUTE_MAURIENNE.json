@@ -3,14 +3,14 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-03-24T16:00:00",
-    "valid_until": "2026-03-25T18:00:00",
+    "issued_at": "2026-03-25T16:00:00",
+    "valid_until": "2026-03-26T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque limité évoluant en marqué.",
+      "comment": "Indice de risque marqué.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 2,
-            "evolution_to": 3,
+            "risk": 3,
+            "evolution_to": null,
             "position": null
           }
         ]
@@ -34,18 +34,18 @@
         },
         "zones": {
           "center": {
-            "text": "2→3",
+            "text": "3",
             "risk": 3,
-            "evolution_to": 3
+            "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-03-26",
-        "label": "Indice de risque marqué",
-        "comment": "Poursuite des chutes de neige et du vent : risque en hausse.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-03-27",
+        "label": "Indice de risque limité",
+        "comment": "Stabilisation rapide des plaques à vent récemment formées.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -55,8 +55,8 @@
         "E": true,
         "SE": true,
         "S": true,
-        "SW": false,
-        "W": false,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -67,21 +67,15 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 1,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
-        "1": "Neige fraîche"
+        "2": "Neige ventée"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-20",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-21",
           "min_cm": 10,
@@ -106,22 +100,27 @@
           "date": "2026-03-25",
           "min_cm": 5,
           "max_cm": 10
+        },
+        {
+          "date": "2026-03-26",
+          "min_cm": 2,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 7,
+        "last_48h_max_cm": 15
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Vent et chutes de neige : nouvelles instabilités, de plus en plus nombreuses et réactives.",
-      "text": "Vent et chutes de neige : nouvelles instabilités, de plus en plus nombreuses et réactives.\n\nDéclenchements provoqués :\nLe matin, quelques plaques sont alimentées par le vent d'Ouest, essentiellement en ubacs (où la neige était restée poudreuse et transportable). Taille 1 à 2 avec des cassures de 20 à 30 cm, localement 50/80 cm vers l'Italie et en altitude (rare taille 3, grande).\nL'après-midi, avec les chutes de neige et le renforcement du vent de Nord-Ouest, les plaques deviennent plus nombreuses, plus épaisses et plus réactives au fil des heures, le risque devient marqué en fin d'après-midi. On les trouve jusqu'en bas des versants sous le vent, souvent derrière les ruptures de pente. Taille 1 à 2 (petite à moyenne) avec des cassures de 25 à 40 cm, localement 1 m en ubac vers l'Italie (rare taille 3, grande).\nObservables : accumulation, test de stabilité, fissures devant les skis.\n\nDéparts spontanés :\nLe matin sous le vent d'ouest, rares départs de petites plaques en secteur NO, Nord et NE d'altitude. Avec les chutes de neige ventées l'après midi, quelques départs, parfois linéaires, de petites à moyennes avalanches sous les crêtes et rupture de pentes.",
+      "title": "TEMPETE EN MONTANGE. VENT TRES FORT.",
+      "text": "TEMPETE EN MONTANGE. VENT TRES FORT.\n\nDéclenchements provoqués : le vent tempétueux créer des plaques dures partout où la neige arrive à se déposer. On le trouve en tous versants, aussi bien aux abords des crêtes qu'en bas de pentes. Elles sont réactives car en cours de formation (vent de Nord soutenu en cours) et d'épaisseur très variable. Les avalanches engendrées sont de taille petite à moyenne (taille 2).\nObservables : transport de neige en cours, accumulation, fissures devant les skis.\n\nDéparts spontanés : tant que le vent transporte la neige, des plaques se décrochent dans les pentes/talus raides (sous le vent). Activité possible toute la journée. Avalanches petites à moyennes (taille 1 à 2).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : Le matin, en adrets, neige dure ou croutée, qui peine à ramollir en journée là où le vent souffle; en ubacs, on peut encore trouver de la poudreuse (10 à 20 cm, localement 30 cm vers l'Italie), parfois un peu densifiée et redistribué par le vent : on peut trouver des zones pelées et d'autres avec le double d’épaisseur. Chute de neige l'après-midi : couche de fraîche s'épaississant, nombreuses accumulations par le vent.",
+      "text": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : \nEn ubac, la neige est très travaillée par le vent. Cartonnée, irrégulière, durcie... tout y est. La poudre est en voie de disparition. \nEn adret, la neige de printemps se fait recouvrir localement par de la neige transportée depuis les ubacs. Le vent glacial empêche la neige de ramollir en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

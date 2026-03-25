@@ -3,31 +3,31 @@
   "massif": "Ubaye",
   "bulletin": {
     "id": 21,
-    "issued_at": "2026-03-24T16:00:00",
-    "valid_until": "2026-03-25T18:00:00",
+    "issued_at": "2026-03-25T16:00:00",
+    "valid_until": "2026-03-26T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2300m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 2300,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "2300m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
-            "risk": 1,
+            "loc": "<2300",
+            "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
-            "risk": 2,
+            "loc": ">2300",
+            "risk": 3,
             "evolution_to": null,
             "position": "top"
           }
@@ -37,27 +37,27 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "2300m"
         },
         "zones": {
           "bottom": {
-            "text": "1",
-            "risk": 1,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           },
           "top": {
-            "text": "2",
-            "risk": 2,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-26",
+        "date": "2026-03-27",
         "label": "Indice de risque limité",
-        "comment": "Risque en hausse mais restant à priori limité. Plaques en formation vers les hauts sommets avec le fort vent de nord-ouest qui se poursuit.",
-        "trend": "steady"
+        "comment": "Risque en baisse redevenant limité avec la stabilisation rapide des plaques dans la neige ventée au soleil. Ces instabilités persistent un peu plus longtemps en versants ombragés.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -65,10 +65,10 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -79,21 +79,15 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 4,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
-        "4": "Neige humide"
+        "2": "Neige ventée"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-20",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-21",
           "min_cm": 8,
@@ -118,6 +112,11 @@
           "date": "2026-03-25",
           "min_cm": 0,
           "max_cm": 1
+        },
+        {
+          "date": "2026-03-26",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,19 +126,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES PLAQUES DANS LA NEIGE RÉCENTE VENTÉE - UN PEU D’ACTIVITÉ NATURELLE AU SOLEIL",
-      "text": "QUELQUES PLAQUES DANS LA NEIGE RÉCENTE VENTÉE - UN PEU D’ACTIVITÉ NATURELLE AU SOLEIL\n\nDéclenchements provoqués :  quelques plaques en place en versants froids d'altitude formées lors des chutes ventées de dimanche dernier, d'autres en formation sous l'action du vent de nord-ouest qui se renforce mercredi après-midi, devenant tempétueux en fin de journée. Ces plaques sont facilement déclenchables et présentes notamment dans les zones d'accumulation, à proximité des crêtes et ruptures de pente. Elles génèrent des avalanches de taille petite à moyenne (taille 1 à 2). En versant nord de haute altitude, un départ un peu plus volumineux n'est pas à exclure. \n\nDéparts spontanés : rares départs ponctuels de neige récente dans les pentes raides bien ensoleillées. Avalanches de taille 1, rarement 2. Ces départs cessent en fin de journée avec le net refroidissement de la masse d'air.",
+      "title": "NOMBREUSES PLAQUES EN FORMATION DANS LA NEIGE VENTÉE",
+      "text": "NOMBREUSES PLAQUES EN FORMATION DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : plaques en place et nombreuses en formation au dessus de 2300 m environ, même loin des crêtes, entretenues par un fort vent de nord à nord-ouest. Ces plaques sont facilement déclenchables, surtout dans les versants froids où le manteau neigeux n'est pas encore printanier. Elles génèrent des avalanches souvent de taille moyenne (taille 2), une rare grande (taille 3) non exclue dans les zones de forte accumulation de neige ou couloirs chargés.\nSous 2300 m, la probabilité de déclencher une plaque est plus limitée.\n\nDéparts spontanés : quelques plaques cèdent spontanément en pentes raides sous le fort vent de nord à nord-ouest. Avalanches de taille 1 à 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement proche des normales.\nHauteurs de neige observées : 78 cm à la Nivôse de Restefond à 2550 m (secteur venté), 94 cm au-dessus de Larche à 2270 m en adret. \n\nEnneigement skiable : vers 1500 m en ubacs, 1800/1900 m en adrets peu pentus. \n\nÉtat de la neige en surface : on retrouve encore la couche de neige récente (15 à 30 cm), travaillée par le vent de nord-est proche des crêtes, et déjà fortement densifiée jusqu'à haute altitude en sud. Elle peut rester froide et légère dans les versants nord-ouest, nord et nord-est au-dessus de 2000/2200 m. Elle repose en général sur un fond dur/regelé, excepté en ubacs au-dessus de 2000/2200 m, où la couche de neige légère peut être plus importante dans les combes abritées du vent.",
+      "text": "Enneigement proche des normales.\nHauteurs de neige observées : 77 cm à la Nivôse de Restefond à 2550 m (secteur venté), 90 cm au-dessus de Larche à 2270 m en adret. \n\nEnneigement skiable : vers 1500 m en ubacs, 1800/1900 m en adrets peu pentus. \n\nÉtat de la neige en surface : en sud, neige souvent croûtée, parfois recouverte par des accumulations de neige rapportée par le fort vent de nord. Dans les versants froids, la neige reste froide au dessus de 2000/2200 m environ, encore assez légère dans les combes abritées du vent, mais de plus en plus travaillée et durcie par le vent dans les secteurs exposés.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1500,
-        "south": 1800
+        "south": 2000
       },
       "levels_cm": [
         {
@@ -149,13 +148,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 95,
-          "S": 40
+          "N": 90,
+          "S": 30
         },
         {
           "alt_m": 2500,
           "N": 140,
-          "S": 85
+          "S": 80
         }
       ],
       "icon_key": "snowpack",

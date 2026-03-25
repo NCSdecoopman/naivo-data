@@ -3,14 +3,14 @@
   "massif": "Chablais",
   "bulletin": {
     "id": 1,
-    "issued_at": "2026-03-24T16:00:00",
-    "valid_until": "2026-03-25T18:00:00",
+    "issued_at": "2026-03-25T16:00:00",
+    "valid_until": "2026-03-26T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque limité évoluant en marqué.",
+      "comment": "Indice de risque marqué.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 2,
-            "evolution_to": 3,
+            "risk": 3,
+            "evolution_to": null,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "2→3",
+            "text": "3",
             "risk": 3,
-            "evolution_to": 3
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-03-26",
+        "date": "2026-03-27",
         "label": "Indice de risque marqué",
-        "comment": "Averses de neige et vent fort en altitude, formant de nouvelles instabilités dans la neige fraiche. Le risque se maintient toute la journée.",
+        "comment": "Les chutes de neige cessent en fin de nuit de jeudi à vendredi (3/5 cm). Amélioration au fil de la journée de vendredi. \n⇒ nombreuses plaques dans la neige fraîche. Encore quelques départs spontanés dans la nuit de jeudi à vendredi.",
         "trend": "steady"
       }
     },
@@ -66,21 +66,16 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 1,
       "secondary": null,
       "labels": {
-        "2": "Neige ventée"
+        "1": "Neige fraîche"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-20",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-21",
           "min_cm": 5,
@@ -103,24 +98,29 @@
         },
         {
           "date": "2026-03-25",
-          "min_cm": 10,
+          "min_cm": 20,
+          "max_cm": 25
+        },
+        {
+          "date": "2026-03-26",
+          "min_cm": 15,
           "max_cm": 20
         }
       ],
       "totals": {
-        "last_48h_min_cm": 10,
-        "last_48h_max_cm": 20
+        "last_48h_min_cm": 35,
+        "last_48h_max_cm": 45
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nouvelles instabilités formées par le vent dans la neige fraiche.",
-      "text": "Nouvelles instabilités formées par le vent dans la neige fraiche.\n\nDéclenchements provoqués :\n* De nombreuses plaques à vent se forment en journée de mercredi. Dès la matinée, le vent de sud-ouest souffle mais ne vient créer que de petites instabilités, plutôt d'aspect dur. En cours d’après-midi, des chutes de neige ventées se mettent en place et ainsi, sous le vent d’W, de nombreuses plaques à vent sont en train de se créer, et deviennent un peu plus épaisses. Taille 1 à 2 (petites à moyennes). Ces plaques sont facilement déclenchables au passage d’un skieur et sont un peu plus nombreuses près des crêtes et des arêtes. Elles sont plutôt d'aspect friable. Le secteur Haut-Giffre / Grand Massif prend un peu plus de neige et ainsi, les plaques y sont potentiellement un peu plus épaisses.\nObservables : accumulation de neige, vaguelettes, fissures sous les skis.\n* Dans les secteurs concernés par les averses, une fine couche de neige roulée peut servir de couche fragile temporaire et ainsi favoriser la propagation d’une rupture. Localement une avalanche de taille 3 (grande) n'est pas exclue.\n\nDéparts spontanés :\n* En matinée, rares avalanches de neige humide dans les versants sud à est sous le soleil matinal, en dessous de 2200 m. Taille 1.\n* L'après-midi, rares avalanches de neige fraiche durant les chutes, en tous versants, au-dessus de 1800 m. Taille 1, rarement 2.",
+      "title": "Retour de l'hiver",
+      "text": "Retour de l'hiver\n\nDéclenchements provoqués :\nPlaques dans la neige fraîche, avec petit aérosol possible. Dans tous les versants et particulièrement au-dessus de 2000 m. Vers la frontière suisse et le Haut Giffre (secteurs prenant le plus de neige fraîche), ces plaques sont plus nombreuses. Facile à déclencher. La taille des plaques augmente au fil des chutes de neige. Taille 2 (moyenne) et rarement 3 (grande), au-dessus de 2000 m. \nFacteur aggravant : accumulations de neige formées par le fort vent d’ouest puis nord, zones propices aux plaques. \n\nDéparts spontanés :\nAvalanches de neige fraîche, avec petit aérosol possible. Rares dans la nuit de mercredi à jeudi, plus nombreuses au fil des chutes de neige de jeudi. Taille 2 (moyenne) puis rarement 3 (grande) en fin de journée, au-dessus de 2000 m.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Enneigement correct pour la saison. La neige est présente au plus bas dès 1100/1300 m.\nEn début d'après-midi de mercredi, la neige tombe et tient au sol dès 1000m mais vient seulement cacher le sol nu.\nOn retrouve les sous-couches vers 1300 m en versants peu ensoleillés et vers 1500 m ailleurs.\n\nQualité de la neige ce mercredi :\n* En matinée sous 2100/2200m, la neige croutée se transforme et subit une évolution de printemps dans les orientations sud à est, jusqu’à devenir molle. Dans les autres orientations et altitudes, la neige est travaillée par le vent, et reste parfois encore légère (en nord au-dessus de 1800m notamment) et n’a pas vraiment le temps de se transformer avant les chutes de neige de la mi-journée.\n* En fin de matinée dès 1000m, les chutes de neige commencent et viennent se poser sur ce fond dur/transformé selon les orientations. On attend environ 15cm de neige fraîche (un peu plus sur le Haut-Giffre/Grand Massif), qui peuvent tomber de façon assez intense sous une averse. Ces chutes de neige sont ventées, et ainsi les croupes sont décapées rapidement et dans certains secteurs, le travail du vent se fait ressentir.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est correct. \nJeudi matin, faible enneigement dès 800 m. Néanmoins, on retrouve un manteau neigeux skiable vers 1200/1300 m en nord et 1500/1600 m en sud.\nFormation de corniches dans la nuit et en journée. \n\nQualité de la neige ce jeudi matin : \nVers 1800/2000 m, 20/30 cm de neige fraîche ventée reposant :\n* en sud, sur un fond dur (croûte de regel) \n* en nord, sur 10/15 cm de vielle neige froide ventée",
       "icon_key": "snow-quality"
     },
     "snowpack": {

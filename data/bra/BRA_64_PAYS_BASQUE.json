@@ -3,60 +3,72 @@
   "massif": "Pays-Basque",
   "bulletin": {
     "id": 64,
-    "issued_at": "2026-03-24T16:00:00",
-    "valid_until": "2026-03-25T18:00:00",
+    "issued_at": "2026-03-25T16:00:00",
+    "valid_until": "2026-03-26T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque faible évoluant en limité.",
+      "comment": "Au-dessus de 1800m indice de risque limité, plus bas indice faible.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1800,
+        "split_axis": "horizontal",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1800",
             "risk": 1,
-            "evolution_to": 2,
-            "position": null
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1800",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1800m"
         },
         "zones": {
-          "center": {
-            "text": "1→2",
+          "bottom": {
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "2",
             "risk": 2,
-            "evolution_to": 2
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-26",
+        "date": "2026-03-27",
         "label": "Indice de risque limité",
-        "comment": "Rares petites plaques possibles dans la neige récente, pas d'activité en neige humide.",
+        "comment": "Temps froid mais plus sec alternant entre nuages et éclaircies : le risque restera limité.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": false,
-        "NE": false,
+        "NE": true,
         "E": true,
         "SE": true,
         "S": true,
-        "SW": true,
-        "W": true,
+        "SW": false,
+        "W": false,
         "NW": false
       },
       "icon_key": "rose-aspects",
@@ -66,21 +78,16 @@
       }
     },
     "sat": {
-      "primary": 4,
+      "primary": 2,
       "secondary": null,
       "labels": {
-        "4": "Neige humide"
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-20",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-21",
           "min_cm": 0,
@@ -103,24 +110,29 @@
         },
         {
           "date": "2026-03-25",
-          "min_cm": 5,
-          "max_cm": 10
+          "min_cm": 8,
+          "max_cm": 12
+        },
+        {
+          "date": "2026-03-26",
+          "min_cm": 2,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 17
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Conditions de printemps, faibles chutes de neige en soirée.",
-      "text": "Conditions de printemps, faibles chutes de neige en soirée.\n\nDéparts spontanés : \nPeu ou pas d'activité en tout début de journée grâce à un regel efficace par nuit claire, puis des départs ponctuels dans la neige humide sont attendus dans les pentes raides au fil de l'ensoleillement (d'abord en est, puis sud, puis ouest), devenant plus fréquents au fil de la journée. Les avalanches sont généralement petites, quelques avalanches de fond sont possibles, parfois annoncées par l'ouverture de fissures, atteignant une taille moyenne surtout dans les expositions est à sud-est où des accumulations sont présentes.\nL'activité devrait diminuer l'après-midi avec l'arrivée d'une masse d'air fraîche et nuageuse.\n\nDéclenchements provoqués :\nLe passage d'un skieur dans une pente raide ensoleillée peut favoriser un petit départ ponctuel. Les plaques formées en fin de semaine dernière se sont stabilisées par humidification.\n\nAutres : Ponts de neige et corniches encore en place, devenant fragiles en milieu de journée.",
+      "title": "FROID, FAIBLES CHUTES DE NEIGE, VENT DE NORD;",
+      "text": "FROID, FAIBLES CHUTES DE NEIGE, VENT DE NORD;\n\nDéclenchements provoqués : possibles par faible sollicitation des plaques en formation au-dessus de 1800m.\nLes chutes de neige attendues, faibles en quantités, sont accompagnées de vent de nord soutenu : formation de plaques peu épaisses et sensibles au passage d'un skieur ou randonneur, bien frittées et identifiables en nord-ouest à nord, plus meuble et d'aspect poudreux partout ailleurs à l'abri du vent (du Nord-Est au Sud). Petites avalanches possiblement déclenchables, très localement moyennes dans l'après-midi en sollicitant une accumulation constituée à l'abri du vent.\n- au-dessus de 1800m, les premières chutes dans la nuit de mercredi à jeudi se font sous un vent irrégulier, constituant une couche plus fragile pour les chutes plus ventées de la journée de jeudi.\n- en dessous de 1800m, neige fraîche plus ou moins travaillée par le vent en journée de jeudi, se posant sur un manteau neigeux regelé, durci et stable.\n\nDéparts spontanés : rares, en départs ponctuels dans les pentes raides à l'abri du vent de nord-ouest à nord où se font de petites accumulations au cours de la journée.\n\nAutres : peu de neige fraîche sur un manteau neigeux regelé, dur et glissant. Refroidissement éolien important.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Correct pour la saison au-dessus de 1800/2000 m, mais reste assez maigre en versants exposés au vent d'ouest. Maigre et hétérogène plus bas, skiable à partir de 1700 m en nord, plutôt par endroits au-dessus de 1800-1900m en sud.\nÉtat de la neige : Au petit matin, neige regelée en toutes expositions, se ramollissant lentement dans les versants ensoleillés (bonnes conditions de ski de printemps), restant dure ou croutée à l'ombre. Quelques centimètres en fin de journée ne changeant pas fondamentalement la qualité de la neige de surface.",
+      "text": "Enneigement : correct pour la saison au-dessus de 1800m, mais restant assez maigre en versants exposés au vent d'ouest. Maigre et hétérogène plus bas, débutant entre 1500 et 1600m en Nord, mais skiable à partir de 1700m, plutôt 1800 à 1900m en Sud.\nÉtat de la neige : au petit matin, un peu de neige fraîche légère posée sur un manteau regelé, dur et glissant. Au fil de la journée, quelques centimètres de neige fraîche supplémentaires, de plus en plus travaillée par le vent en gagnant en altitude.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -142,7 +154,7 @@
         {
           "alt_m": 2000,
           "N": 140,
-          "S": 70
+          "S": 65
         }
       ],
       "icon_key": "snowpack",

@@ -3,14 +3,14 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-03-24T15:00:00",
-    "valid_until": "2026-03-25T18:00:00",
+    "issued_at": "2026-03-25T16:00:00",
+    "valid_until": "2026-03-26T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque faible évoluant en limité.",
+      "max_level": 4,
+      "comment": "Indice de risque fort.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 1,
-            "evolution_to": 2,
+            "risk": 4,
+            "evolution_to": null,
             "position": null
           }
         ]
@@ -34,18 +34,18 @@
         },
         "zones": {
           "center": {
-            "text": "1→2",
-            "risk": 2,
-            "evolution_to": 2
+            "text": "4",
+            "risk": 4,
+            "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-03-26",
-        "label": "Indice de risque marqué",
-        "comment": "Jeudi risque d'avalanche probablement marqué en Chartreuse avec jusque 40 puis 50/60 cm de neige froide très soufflée. Risque de plaques instables dès modeste altitude, sous le vent de Nord + au fil des heures des avalanches spontanées en couloirs/pentes chargées...",
-        "trend": "up"
+        "max_level": 4,
+        "date": "2026-03-27",
+        "label": "Indice de risque fort",
+        "comment": "Vendredi, risque fort avec encore de nombreuses plaques qui se forment sous le vent en matinée. Légère stabilisation en journée, notamment en cas d'éclaircies.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -55,9 +55,9 @@
         "E": true,
         "SE": true,
         "S": true,
-        "SW": false,
-        "W": false,
-        "NW": false
+        "SW": true,
+        "W": true,
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -66,21 +66,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": null,
+      "primary": 1,
+      "secondary": 2,
       "labels": {
+        "1": "Neige fraîche",
         "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-20",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-21",
           "min_cm": 2,
@@ -103,24 +99,29 @@
         },
         {
           "date": "2026-03-25",
-          "min_cm": 20,
-          "max_cm": 30
+          "min_cm": 15,
+          "max_cm": 25
+        },
+        {
+          "date": "2026-03-26",
+          "min_cm": 10,
+          "max_cm": 20
         }
       ],
       "totals": {
-        "last_48h_min_cm": 20,
-        "last_48h_max_cm": 30
+        "last_48h_min_cm": 25,
+        "last_48h_max_cm": 45
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INTEMPERIES A PARTIR DE MERCREDI APRES-MIDI, NEIGE FRAICHE TRES SOUFFLEE ;  PETITES PLAQUES EN FORMATION...",
-      "text": "INTEMPERIES A PARTIR DE MERCREDI APRES-MIDI, NEIGE FRAICHE TRES SOUFFLEE ;  PETITES PLAQUES EN FORMATION...\n\nEn matinée, neige souvent stable et encore consolidée par regel nocturne. L'après-midi on attend jusque 10 puis 15 cm sur les hauts du massifs, bien soufflés par le vent de Nord-Ouest...\n\nDéparts spontanés :\nPeu probables le matin, neige dense, encore parfois tendue par regel.\nPuis en cours d'après-midi/ mercredi soir des coulées superficielles sont possibles en pentes raides, notamment en secteur chargé par le vent...\nDéclenchements provoqués :\nPlutôt en fin d'après-midi ou soirée, le fort vent de Nord-Ouest forme quelques accumulations et plaques temporairement instables, parfois loin des crêtes...",
+      "title": "FORMATION DE NOMBREUSES PLAQUES SOUS LES CHUTES DE NEIGE VENTEES",
+      "text": "FORMATION DE NOMBREUSES PLAQUES SOUS LES CHUTES DE NEIGE VENTEES\n\nConditions hivernales en montagne, avec des cumuls de neige importants jusqu'à basse altitude, sous un vent de Nord sensible. D'ici jeudi soir : 30 cm possibles dés 800m, localement 50-60cm en altitude. \nDéclenchements provoqués : De nombreuses plaques se forment sous les chutes de neige ventées. Elles sont présentes en tout versants, parfois loin des crêtes et sont difficiles à identifier car de tout aspect (en neige poudreuse ou dure). Elles sont souvent faciles à déclencher, avec des cassures pouvant être épaisses en secteurs d'accumulations. Toutefois d'éventuelles éclaircies dans la journée pourraient rendre le manteau neigeux moins instable par tassement de la neige fraîche. \nDéparts spontanés : Au fil de la journée et des chutes de neige, des avalanches (souvent de tailles moyennes, parfois de grandes tailles) pourraient partir spontannément. Elle sont plus nombreuses et plus épaisses dans les pentes chargées par le vent.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est bon pour la saison, notamment en faces Nord, dès la moyenne montagne (hors sapins où la neige manque). Peu de sous couche en plein Sud, anciens secteurs de reptation (herbes à nu localement)... \nLimites skiables : Vers 1200/1600m.\n\nQualité de la neige mercredi :    Neige dense croutée ou durcie par regel nocturne. Puis humidification locale au soleil du mercredi matin...  L'après-midi coup de frais en vue. Averses de neige dès 1400 puis 1100m, 900m le soir.\nRapide formation d'une petite couche de fraîche, très ventée... En altitude alternance de secteurs dénudés et congères...",
+      "text": "Qualification de l’enneigement :  L'enneigement est bon pour la saison, même à basse altitude avec les nouvelles chutes de neige. Peu de sous couche en plein Sud et sous les sapins. \nLimites skiables : Vers 1200/1600m, s'abaissant vers 1000m avec les nouveaux cumuls.\n\nQualité de la neige jeudi : Neige fraîche souvent déjà densifiée par le vent. Sous-couche humide dans la plupart des versants, n'ayant parfois pas encore eu le temps de regeler. En altitude, crêtes dégarnies par le vent, formations de corniches.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,12 +138,12 @@
         {
           "alt_m": 1500,
           "N": 85,
-          "S": 10
+          "S": 5
         },
         {
           "alt_m": 2000,
           "N": 230,
-          "S": 150
+          "S": 140
         }
       ],
       "icon_key": "snowpack",

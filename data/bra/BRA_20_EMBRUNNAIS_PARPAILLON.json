@@ -3,14 +3,14 @@
   "massif": "Embrunais Parpaillon",
   "bulletin": {
     "id": 20,
-    "issued_at": "2026-03-24T16:00:00",
-    "valid_until": "2026-03-25T18:00:00",
+    "issued_at": "2026-03-25T16:00:00",
+    "valid_until": "2026-03-26T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible évoluant en limité.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2200,
@@ -20,14 +20,14 @@
           {
             "id": "zone1",
             "loc": "<2200",
-            "risk": 1,
-            "evolution_to": 2,
+            "risk": 2,
+            "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
             "loc": ">2200",
-            "risk": 2,
+            "risk": 3,
             "evolution_to": null,
             "position": "top"
           }
@@ -41,23 +41,23 @@
         },
         "zones": {
           "bottom": {
-            "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
-          },
-          "top": {
             "text": "2",
             "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-26",
+        "date": "2026-03-27",
         "label": "Indice de risque limité",
-        "comment": "Risque en hausse. Nouvelles instabilités le transport par le fort vent et de petites chutes de neige.",
-        "trend": "steady"
+        "comment": "Instabilités résiduelles dans la neige ventée. Risque limité en altitude",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -79,21 +79,15 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 4,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
-        "4": "Neige humide"
+        "2": "Neige ventée"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-20",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-21",
           "min_cm": 3,
@@ -116,46 +110,51 @@
         },
         {
           "date": "2026-03-25",
-          "min_cm": 1,
-          "max_cm": 5
+          "min_cm": 0,
+          "max_cm": 1
+        },
+        {
+          "date": "2026-03-26",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 5
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "EN ALTITUDE, INSTABILITÉS RÉSIDUELLES DANS LA NEIGE RÉCENTE, D'AUTRES EN FORMATION AVEC LE VENT. UN PEU D’ACTIVITÉ NATURELLE AU SOLEIL.",
-      "text": "EN ALTITUDE, INSTABILITÉS RÉSIDUELLES DANS LA NEIGE RÉCENTE, D'AUTRES EN FORMATION AVEC LE VENT. UN PEU D’ACTIVITÉ NATURELLE AU SOLEIL.\n\nDéclenchements provoqués : - rares plaques à vent dans la neige récente, encore déclenchables par un skieur. Principalement présentes dans les orientations de large nord au-dessus de 2200/2400 m, plutôt aux abords des ruptures de pente et des crêtes. Avalanches de taille petite à moyenne.\n- Mercredi, quelques nouvelles plaques en formation avec le transport de la neige sèche par le vent, en haute altitude le matin, plus bas l’après-midi. Nouvelles instabilités, même loin des crêtes et sommets, faciles à déclencher et de taille limitée.\n- Par ailleurs, un skieur évoluant tardivement en pente raide ensoleillée peut provoquer un départ ponctuel en neige humide, ou un départ linéaire alors qu’il évolue dans de la neige humidifiée en surface.\n\nDéparts spontanés : éventuels départs ponctuels en neige humide, rarement linéaire. Peu probables en début de journée, puis devenant possibles dès la fin de matinée en pentes raides ensoleillées. Avalanches de petite taille à moyenne.",
+      "title": "NOUVELLES INSTABILITÉS DANS LA NEIGE FORTEMENT VENTÉE",
+      "text": "NOUVELLES INSTABILITÉS DANS LA NEIGE FORTEMENT VENTÉE\n\nDéclenchements provoqués : instabilités sur de nombreuses pentes d'altitude, surtout au-dessus de 2200 m. Possibles en toute orientation, même loin des crêtes, elles sont facilement déclenchables par un seul skieur et génèrent des avalanches de taille petite à moyenne (taille 1 à 2). Ces instabilités dans la neige récente fortement ventée se multiplient et deviennent localement épaisses au fil des heures.\nSous 2200 m, instabilité plus limitée, sous forme de plaques plus minces et localisées, car les quantités de neige mobilisable par le vent sont moindres.\n\nDéparts spontanés : nombreux sous l'effet du vent, taille petite à moyenne, grande avalanche possible dans les secteurs de plus forte accumulation par le vent à haute altitude",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées : 112 cm à la Nivôse du Parpaillon à 2550 m.\n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs, 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : après un bon regel nocturne, neige croutée en adrets mais aussi en ubac sous 2000 m environ, humidification au soleil. En ubac d'altitude, neige récente restée sèche.",
+      "text": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées : 113 cm à la Nivôse du Parpaillon à 2550 m.\n\nLimite d'enneigement skiable : au plus bas à 1400/1500 m en ubacs bien protégés ou sur pistes forestières, plutôt 1900/2000 m en adrets.\n\nÉtat de la neige de surface : neige fortement travaillée par le vent, crêtes parfois décapées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1400,
-        "south": 1600
+        "north": 1500,
+        "south": 2000
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 20,
+          "N": 15,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 100,
-          "S": 40
+          "N": 90,
+          "S": 20
         },
         {
           "alt_m": 2500,
-          "N": 165,
-          "S": 85
+          "N": 160,
+          "S": 80
         }
       ],
       "icon_key": "snowpack",
