@@ -3,30 +3,30 @@
   "massif": "Pelvoux",
   "bulletin": {
     "id": 16,
-    "issued_at": "2026-03-25T16:00:00",
-    "valid_until": "2026-03-26T18:00:00",
+    "issued_at": "2026-03-26T15:00:00",
+    "valid_until": "2026-03-27T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 2200,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "2200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<2200",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
+            "loc": ">2200",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "2200m"
         },
         "zones": {
           "bottom": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-03-27",
-        "label": "Indice de risque marqué",
-        "comment": "Lente stabilisation des nombreuses plaques formées jeudi. Risque restant marqué en altitude",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-03-28",
+        "label": "Indice de risque limité",
+        "comment": "Risque en baisse. Instabilités résiduelles dans la neige ventée. Risque limité.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -78,22 +78,16 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": null,
       "labels": {
-        "1": "Neige fraîche",
         "2": "Neige ventée"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-21",
-          "min_cm": 3,
-          "max_cm": 5
-        },
         {
           "date": "2026-03-22",
           "min_cm": 5,
@@ -111,29 +105,34 @@
         },
         {
           "date": "2026-03-25",
-          "min_cm": 2,
-          "max_cm": 10
+          "min_cm": 1,
+          "max_cm": 7
         },
         {
           "date": "2026-03-26",
-          "min_cm": 1,
+          "min_cm": 0,
           "max_cm": 5
+        },
+        {
+          "date": "2026-03-27",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 15
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES NOUVELLES INSTABILITÉS DIFFICILEMENT IDENTIFIABLES EN ALTITUDE",
-      "text": "NOMBREUSES NOUVELLES INSTABILITÉS DIFFICILEMENT IDENTIFIABLES EN ALTITUDE\n\nDéclenchements provoqués : instabilités sur de nombreuses pentes d'altitude, surtout au-dessus de 2000/2200 m. Possibles en toute orientation, même loin des crêtes, elles sont facilement déclenchables par un seul skieur et génèrent des avalanches de taille petite à moyenne (taille 1 à 2), parfois grande (taille 3) dans les secteurs d'accumulation par le vent de haute altitude. Ces instabilités dans la neige ventée se multiplient et deviennent localement très épaisses au fil des heures, notamment sur le secteur des Ecrins, des Combeynots et des Agneaux, plus abondamment enneigés. Elles sont en outre rendues difficilement identifiables par la visibilité quasi-nulle.\nEn allant vers le sud du massif, ces instabilités sont un peu moins épaisses, et plutôt identifiables, d'aspect fortement durci dans les zones d'accumulation par le vent.\nSous 2200 m, instabilité plus limitée, sous forme de plaques plus minces et localisées, car les quantités de neige mobilisable par le vent sont moindres.\n\nDéparts spontanés : nombreux sous les chutes de neige ventée, taille petite à moyenne, grande avalanche possible dans les secteurs de plus forte accumulation par le vent à haute altitude",
+      "title": "NOMBREUSES INSTABILITÉS FORMÉES PAR LE VENT DE NORD",
+      "text": "NOMBREUSES INSTABILITÉS FORMÉES PAR LE VENT DE NORD\n\nDéclenchements provoqués : instabilités sur de nombreuses pentes. Possibles en toute orientation, même loin des crêtes, elles sont déclenchables par un seul skieur et peuvent générer des avalanches de taille petite à moyenne (taille 1 à 2). Ces instabilités formées sous l'effet du fort vent de nord jeudi sont généralement d'aspect dur, avec cassure peu large mais localement épaisse, notamment sur le secteur des Ecrins, des Agneaux et des Combeynots.  \nEn allant vers le sud du massif et sous 2000 m d'altitude environ, ces instabilités sont un peu moins épaisses, généralement de taille 1.\n\nDéparts spontanés :avalanche de taille moyenne encore possible jeudi soir dans les secteurs de plus forte accumulation par le vent à haute altitude. Peu probables vendredi en journée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales ou excédentaire pour une fin mars.\nHauteurs de neige observées : 289 cm à la Nivôse des Écrins vers 3000 m, 195 cm au Pré de Mme Carle à 1900 m, 71 cm au hameau de Dormillouse à 1730 m.\n\nLimite d'enneigement skiable : dès 1400 m en ubacs favorables (terrains herbeux, pistes forestières), 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige fraîche fortement travaillée par le vent. Formation de congères en pleine pente et d'épaisses corniches sur les crêtes, côtoyant des zones durcies voire décapées.",
+      "text": "L'enneigement est proche des normales ou excédentaire pour une fin mars.\nHauteurs de neige observées : 297 cm à la Nivôse des Écrins vers 3000 m, 193 cm au Pré de Mme Carle à 1900 m.\n\nLimite d'enneigement skiable : dès 1400 m en ubacs favorables (terrains herbeux, pistes forestières), 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige récente fortement travaillée par le vent. Nombreuses congères dans les pentes. Sur les crêtes, d'épaisses corniches côtoient des zones dégarnies voire pelées par le vent.  \nPetite humidification de surface au soleil jusqu'à 2200/2400 m environ.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

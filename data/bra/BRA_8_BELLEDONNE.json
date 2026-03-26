@@ -3,14 +3,14 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-03-25T16:00:00",
-    "valid_until": "2026-03-26T18:00:00",
+    "issued_at": "2026-03-26T16:00:00",
+    "valid_until": "2026-03-27T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Indice de risque fort.",
+      "max_level": 3,
+      "comment": "Indice de risque marqué.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 4,
+            "risk": 3,
             "evolution_to": null,
             "position": null
           }
@@ -34,18 +34,18 @@
         },
         "zones": {
           "center": {
-            "text": "4",
-            "risk": 4,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-03-27",
-        "label": "Indice de risque fort",
-        "comment": "Vendredi, risque fort avec encore de nombreuses plaques qui se forment sous le vent en matinée. Légère stabilisation en journée, notamment en cas d'éclaircies.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-03-28",
+        "label": "Indice de risque limité",
+        "comment": "Samedi, le vent faiblit nettement et la matinée est bien ensoleillée, avant le retour de nuages en journée. Le manteau se stabilise rapidement au soleil, plus lentement dans les ubacs.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
-        "1": "Neige fraîche",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-21",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-22",
           "min_cm": 20,
@@ -104,46 +99,51 @@
         },
         {
           "date": "2026-03-26",
-          "min_cm": 15,
-          "max_cm": 30
+          "min_cm": 10,
+          "max_cm": 20
+        },
+        {
+          "date": "2026-03-27",
+          "min_cm": 1,
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 30,
-        "last_48h_max_cm": 60
+        "last_48h_min_cm": 11,
+        "last_48h_max_cm": 21
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "FORMATION DE NOMBREUSES PLAQUES SOUS LES CHUTES DE NEIGE VENTEES",
-      "text": "FORMATION DE NOMBREUSES PLAQUES SOUS LES CHUTES DE NEIGE VENTEES\n\nConditions hivernales en montagne, avec des cumuls de neige importants jusqu'à basse altitude, sous un vent de Nord sensible. D'ici jeudi soir : 20-30 cm possibles dés 1000m, localement 40-50cm en altitude, voire 60-70cm sur le Nord du massif. \nDéclenchements provoqués : De nombreuses plaques se forment sous les chutes de neige ventées. Elles sont présentes en tout versants, parfois loin des crêtes et sont difficiles à identifier car de tout aspect (en neige poudreuse ou dure). Elles sont souvent faciles à déclencher, avec des cassures pouvant être très épaisses en secteurs d'accumulations. Toutefois d'éventuelles éclaircies dans la journée pourraient rendre le manteau neigeux moins instable par tassement de la neige fraîche. \nDéparts spontanés : Au fil de la journée et des chutes de neige, des avalanches (de tailles moyennes à grandes en général) pourraient partir spontanément. Elle sont plus nombreuses et plus épaisses dans les pentes chargées par le vent. Localement sur le Nord du massif (et plutôt dans les versants Est) des avalanches de très grandes tailles sont possibles. Dans les couloirs déjà chargés par les avalanches de février, une coulée pourrait éventuellement approcher une route (vers Allemond notamment).",
+      "title": "NOMBREUSES PLAQUES SUITE AUX CHUTES DE NEIGE RECENTES FORTEMENT VENTEES",
+      "text": "NOMBREUSES PLAQUES SUITE AUX CHUTES DE NEIGE RECENTES FORTEMENT VENTEES\n\nDepuis mercredi soir, les chutes de neige ont été abondantes, avec 20 à 50cm de neige fraîche, voire plus de 60cm sur le Nord du massif. Le vent tempétueux a toutefois fortement travaillé le manteau, avec alternance de zones dégarnies et zones d'accumulation. \nDéclenchements provoqués : De nombreuses plaques se sont formées et se forment encore en journée sous l'effet du vent. Elles se retrouvent en tout versant, mais peuvent être de plus grandes ampleurs en versants Est et Sud, qui sont généralement plus chargés (notamment secteur Belle Etoile / Cabottes / vallée des Villards / Allemond où les cumuls sont les plus importants). Les plaques se retrouvent souvent loin des crêtes, jusqu'en bas de pentes (les croûpes et sommets sont souvent dégarnis). Elles sont d'aspect variables, souvent en neige ferme / dure, parfois en neige plus poudreuse en secteurs abrités. Dans les secteurs où le vent tombe, le manteau se stabilise assez rapidement au soleil. \nObservables : Transport en cours, zones d'accumulations, fissures devant les skis, test du bâton éventuellement (neige soufflée en surface, reposant sur une neige plus meuble). \nDéclenchements spontanés : Principalement en versants Sud d'altitude, quelques ruptures de plaques ( de tailles petites à moyennes en général) sont possibles dans les pentes chargées par le vent. Le risque diminue l'après-midi avec l'affaiblissement du vent. Le retour du soleil engendre des coulées dans les pentes raides ayant trop chauffées, sous les rôchers / corniches, plutôt en fin de journée, donc dans les pentes Sud à Ouest.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est bon à basse altitude avec les nouvelles chutes de neige, et même excellent dés 1800 / 2000m. Peu de sous couche sous 1700m en plein Sud.\nLimites skiables : Vers 1200/1600m, s'abaissant vers 1000m avec les nouveaux cumuls ( mais ski délicat sous les sapins).\n\nQualité de la neige jeudi : Neige fraîche souvent déjà densifiée par le vent. Sous-couche humide dans la plupart des versants, n'ayant parfois pas encore eu le temps de regeler. En altitude, crêtes dégarnies par le vent, formations de corniches.",
+      "text": "Qualification de l’enneigement :  L'enneigement est bon à basse altitude, et même excellent dés 1800 / 2000m. Peu de sous couche sous 1700m en plein Sud.\nLimites skiables : Vers 1000 / 1200m, avec prudence en Sud / sous les sapins \n\nQualité de la neige vendredi : Manteau très hétérogène. La neige récente a été fortement travaillée par le vent, de qualité irrégulière / souvent cartonnée. Certains secteurs ont été totalement dégarnis et on ski sur la vieille croûte de regel. On peut toutefois retrouver des secteurs en neige poudreuse agréable, notamment en bas de pentes / dans les arbres (souvent en neige roulée).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1000,
-        "south": 1400
+        "south": 1000
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 85,
-          "S": 5
+          "N": 90,
+          "S": 10
         },
         {
           "alt_m": 2000,
-          "N": 255,
-          "S": 135
+          "N": 270,
+          "S": 150
         },
         {
           "alt_m": 2500,
-          "N": 360,
-          "S": 240
+          "N": 370,
+          "S": 250
         }
       ],
       "icon_key": "snowpack",

@@ -3,8 +3,8 @@
   "massif": "Capcir Puymorens",
   "bulletin": {
     "id": 73,
-    "issued_at": "2026-03-25T16:00:00",
-    "valid_until": "2026-03-26T18:00:00",
+    "issued_at": "2026-03-26T16:00:00",
+    "valid_until": "2026-03-27T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-27",
+        "date": "2026-03-28",
         "label": "Indice de risque limité",
-        "comment": "Risque stationnaire.",
+        "comment": "Risque en augmentation avec de nouvelles précipitations ventées plus significatives qui débutent samedi après-midi.",
         "trend": "steady"
       }
     },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 3,
+      "primary": 3,
+      "secondary": 2,
       "labels": {
-        "2": "Neige ventée",
-        "3": "Couche fragile persistante"
+        "3": "Couche fragile persistante",
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-21",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-22",
           "min_cm": 10,
@@ -118,27 +113,32 @@
           "date": "2026-03-26",
           "min_cm": 1,
           "max_cm": 2
+        },
+        {
+          "date": "2026-03-27",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 2,
-        "last_48h_max_cm": 7
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 2
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Très hivernal en altitude, quelques plaques à vent anciennes près des sommets.",
-      "text": "Très hivernal en altitude, quelques plaques à vent anciennes près des sommets. \n\nDéclenchements provoqués :\n- Quelques structures de plaques remontant à plus d'une semaine sont possiblement présentes, surtout au-delà de 2400/2500 m, reposant sur des couches fragiles persistantes (givres de surface ou neige roulée).  \nBien qu'assez ancienne, ces structures sont encore potentiellement bien réactives.  \nElles sont localisées dans les pentes sommitales des sommets frontaliers dans un large secteur nord et peuvent être masquées par les petites chutes de neige de la nuit précédente. Elles donnent des avalanches de taille 1 à 2, avec des cassures de 40/50 cm éventuellement possibles.\nLa quantité de neige mobilisable peut être aggravé par le fort vent de nord-ouest attendu ces prochaines heures. \nA plus basse altitude, l'ancien manteau neigeux est humidifié assez profondément en surface, et les quelques centimètres de neige récente attendus, même très ventés, pourront tout au plus former quelques fines plaques à vent insuffisamment épaisses pour  constituer un danger majeur. \nObservables : neige récente travaillée par le vent, enfoncement des bâtons supérieur à 20/30 cm, fissures devant les skis.\n\nDéparts spontanés :\nAvec le net refroidissement effectif depuis la nuit précédente, l'activité avalancheuse s'annonce faible. Éventuellement quelques petites avalanches ou coulées mobilisant les 10/15 cm de neige récente accumulés dans des couloirs très raides.",
+      "title": "Hivernal, quelques plaques à vent plus épaisses en altitude.",
+      "text": "Hivernal, quelques plaques à vent plus épaisses en altitude. \n\nDéclenchements provoqués :\n- Quelques structures de plaques remontant à plus d'une semaine sont possiblement présentes, au plus bas vers 2200/2300 m, mais surtout au-delà de 2400/2500 m, reposant sur des couches fragiles persistantes (givres de surface ou neige roulée).  \nElles sont localisées dans les pentes sommitales des sommets frontaliers dans un large secteur nord et peuvent être masquées par les petites chutes de neige récente. Elles donnent des avalanches de taille 1 à 2, avec des cassures de 30/40 cm éventuellement possibles. \nObservables : neige récente travaillée par le vent, enfoncement des bâtons supérieur à 20/30 cm, fissures devant les skis.\n- Le vent associé aux petites chutes de neige récentes a déjà formé et va continuer de former quelques accumulations instables atteignant au maximum 15/20 cm par endroits. Déclenchables dans les pentes raides par un skieur elles donnent des avalanche de taille 1 (pouvant potentiellement entrainer un randonneur sur quelques mètres ou le faire glisser sur l'ancienne neige dure, sans l'ensevelir).\n\nDéparts spontanés :\nAvec le net refroidissement effectif depuis jeudi, l'activité avalancheuse spontanée s'annonce faible. Tout au plus quelques petites avalanches ou coulées mobilisant les 10/15 cm de neige récente accumulés dans des couloirs très raides.\n\nAutre :\nPeu de neige fraîche sur un manteau neigeux regelé, dur et glissant sous 2200m. \nRefroidissement éolien important.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nL'enneigement reste  excellent pour la saison, après plusieurs hivers déficitaires. \nEn altitude, les cumuls sont très conséquents, mais les crêtes et sommets exposés au vent d'ouest à nord-ouest sont parfois complètement déneigés.\nOn peut encore chausser les skis dans les secteurs ombragés au mieux vers 1600/1700 m. \n\nQualité de la neige : \nEncore un peu de neige dans la nuit de mercredi  à jeudi, jusqu'à 5/10 cm de neige légère à proximité de l'Ariège, pouvant toutefois être facilement balayés par le vent et s'accumuler contre les obstacles. \n- Avec le fort refroidissement, bon regel de l'ancien manteau neigeux perdurant toute la journée dans les secteurs protégés des quelques rayons de soleil. Neige très dure, voire glacée dans les secteurs balayés par le vent.",
+      "text": "Enneigement : \nL'enneigement est excellent pour la saison, après plusieurs hivers déficitaires. \nEn altitude, les cumuls sont très conséquents, mais les crêtes et sommets exposés au vent d'ouest à nord-ouest sont parfois complètement déneigés.\nOn peut encore chausser les skis dans les secteurs ombragés au mieux vers 1500/1600 m sur des pentes herbeuses.\n\nQualité de la neige : \nEncore un peu de neige dans la nuit de jeudi à vendredi, quelques cm tout au plus, venant s'ajouter aux quelques cm de la veille. C'est une neige légère, pouvant être facilement balayée par le vent et s'accumuler contre les obstacles. \nEn surface, la neige récente reste froide, légère dans les secteurs protégés du vent. Neige très dure, voire glacée dans les secteurs balayés par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1600,
+        "north": 1700,
         "south": 1900
       },
       "levels_cm": [
