@@ -3,14 +3,14 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-03-26T17:00:00",
-    "valid_until": "2026-03-27T18:00:00",
+    "issued_at": "2026-03-27T16:00:00",
+    "valid_until": "2026-03-28T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 3,
+            "risk": 2,
             "evolution_to": null,
             "position": null
           }
@@ -34,18 +34,18 @@
         },
         "zones": {
           "center": {
-            "text": "3",
-            "risk": 3,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-28",
+        "date": "2026-03-29",
         "label": "Indice de risque limité",
-        "comment": "Stabilisation rapide du manteau neigeux.",
-        "trend": "down"
+        "comment": "Vent faible et chute de neige négligeable la nuit précédente, temps calme plus ou moins nuageux en journée => poursuite de la stabilisation, risque stationnaire.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 1,
       "labels": {
-        "1": "Neige fraîche",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "1": "Neige fraîche"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-22",
-          "min_cm": 0,
-          "max_cm": 3
-        },
         {
           "date": "2026-03-23",
           "min_cm": 0,
@@ -99,35 +94,40 @@
         },
         {
           "date": "2026-03-26",
-          "min_cm": 5,
-          "max_cm": 15
+          "min_cm": 3,
+          "max_cm": 10
         },
         {
           "date": "2026-03-27",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-28",
+          "min_cm": 2,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 15
+        "last_48h_min_cm": 2,
+        "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Conditions hivernales en montagne. Nombreuses plaques poudreuses.",
-      "text": "Conditions hivernales en montagne. Nombreuses plaques poudreuses. \n\nDéclenchements provoqués : nombreuses plaques en place en tous versants et à toutes altitudes. Elles sont réactives au matin avec une tendance à la stabilisation au fil des heures. Elles engendrent des avalanches de taille 1 à 2 (petit à moyenne). D’aspect poudreux, leur identification visuelle n’est pas forcément possible. Observables : neige densifiée par le vent, fissures devant les skis, accumulation de neige fraîche. \n\nDéparts spontanés : la baisse du vent en matinée met fin au risque de départs naturels de plaques dans les zones d’accumulations sous le vent. Le retour du Soleil engendre des coulées dans les pentes raides ayant trop chauffées, au départ des rochers/des corniches, plutôt en fin de journée donc dans les pentes Sud à Ouest. Taille 1 à 2.",
+      "title": "STABILISATION RAPIDE DE LA NEIGE RÉCENTE, ENCORE QUELQUES PLAQUES EN PERTE DE RÉACTIVITÉ.",
+      "text": "STABILISATION RAPIDE DE LA NEIGE RÉCENTE, ENCORE QUELQUES PLAQUES EN PERTE DE RÉACTIVITÉ.\n\nDéclenchement provoqués : quelques plaques en perte de réactivité, encore un peu entretenues par le vent de nord en altitude. On les trouve en tout versant, plaques dures près des crêtes, plutôt d'aspect poudreux et difficilement identifiables dans les pentes. Épaisseurs des cassures hétérogènes, 30 à 50 cm en moyenne. Elles occasionnent de petites à moyennes avalanches.\nObservables : accumulation de neige, localement plus dense voire dure près des crêtes.\n \nDéparts spontanés :\nQuelques avalanches de neige humide dans les versants qui auront bien chauffé avant que le ciel se couvre à la mi-journée, plutôt dans les pentes raides. Généralement de petites avalanches.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1100 m au mieux en Nord. Plutôt 1400/1500 m en sud pas trop raide.\n\nQualité de la neige : 20 cm de neige fraîche à 1500 m, 30 à 50 cm au-dessus de 2000 m. La répartition est variable avec de belles accumulations possibles mais la neige reste dans l’ensemble poudreuse. La qualité se dégrade à l’approche des crêtes. D’ailleurs ces dernières, ainsi que les croupes exposées au vent sont « sèches » et laissent ressortir la vieille neige dure, la glace, les rochers… \nEn journée, les pentes très exposées au Soleil chauffent. La neige botte et devient lourde/collante après plusieurs heures d’ensoleillement. En haute montagne ensoleillée, le vent de Nord ralentie le réchauffement dans les pentes ensoleillées.",
+      "text": "Enneigement : encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1100 m au mieux en Nord. Plutôt 1400/1500 m en sud pas trop raide.\n\nQualité de la neige : Bonne neige au global, la neige récente est encore poudreuse bien que souvent densifiée et inégalement répartie par le vent. Les crêtes et les bosses d'altitude sont soufflées.\nDans les versants ensoleillés, notamment Sud à Est, la neige s'humidifie en surface (ça botte). Toutefois en altitude, le vent du nord bien frais concurrence l'action du soleil, limitant le ramollissement de la neige.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 700,
-        "south": 700
+        "north": 900,
+        "south": 1000
       },
       "levels_cm": [
         {

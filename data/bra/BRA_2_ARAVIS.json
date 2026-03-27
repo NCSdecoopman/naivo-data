@@ -3,14 +3,14 @@
   "massif": "Aravis",
   "bulletin": {
     "id": 2,
-    "issued_at": "2026-03-26T16:00:00",
-    "valid_until": "2026-03-27T18:00:00",
+    "issued_at": "2026-03-27T16:00:00",
+    "valid_until": "2026-03-28T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 3,
+            "risk": 2,
             "evolution_to": null,
             "position": null
           }
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "3",
-            "risk": 3,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-03-28",
-        "label": "Indice de risque marqué",
-        "comment": "Samedi : journée calme avec peu de vent et des températures froides. \n⇒ risque en baisse, poursuite de la stabilisation du manteau neigeux.",
+        "max_level": 2,
+        "date": "2026-03-29",
+        "label": "Indice de risque limité",
+        "comment": "Faibles chutes de neige dans la nuit de samedi à dimanche, ne créant pas de nouvelles instabilités. Plaques à vent dans la neige récente toujours présente.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-22",
-          "min_cm": 1,
-          "max_cm": 3
-        },
-        {
           "date": "2026-03-23",
           "min_cm": 0,
           "max_cm": 0
@@ -105,44 +100,49 @@
           "date": "2026-03-27",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-28",
+          "min_cm": 3,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 10,
-        "last_48h_max_cm": 15
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "",
-      "text": "Déclenchements provoqués :\nPlaques à vent dans la neige fraîche. Facile à déclencher. Formées par le fort vent de nord/nord-est de jeudi et vendredi matin.  Situées particulièrement au-dessus de 2000 m et parfois loin des crêtes. Taille 1 à 2 (petite à moyenne), cassures de 40/60 cm. \nObservables : accumulations de neige, fissures sous les skis, transport de neige par le vent. \n\nDéparts spontanés :\nQuelques avalanches de neige fraiche, avec petit aérosol, durant les chutes de neige (nuit de jeudi à vendredi) ou les plus fortes rafales de vent (vendredi matin). Dans toutes les orientations. Taille 1 à 2 (petite à moyenne).",
+      "title": "Plaques à vent en perte de réactivité",
+      "text": "Plaques à vent en perte de réactivité\n\nDéclenchements provoqués :\n* Plaques à vent dans la neige récente, majoritairement au-dessus de 1700 m, formées par le vent de Nord-Ouest à Nord-Est, facilement déclenchables par un skieur. Elles sont souvent friables mais peuvent être dures à proximité des crêtes. Taille 1 à 2 (petite à moyenne). Cassures de 30/50 cm.\n Observables : accumulations de neige, fissures sous les skis, transport de neige par le vent. \n\nDéparts spontanés :\nPeu probables.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est correct. \nVendredi matin, les sols sont blancs au-dessus de 800 m, mais il n’y a pas de sous-couches en dessous de 1200/1300 m en nord et 1500/1600 m en sud.\n\nQualité de la neige ce jeudi matin : \n20/30 cm de neige fraîche ventée. \nNombreuses corniches, accumulations et congères en toutes orientations.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est correct. \nSamedi matin, les sols sont blancs au-dessus de 900 m, mais il n’y a pas de sous-couches en dessous de 1200/1300 m en nord et 1500/1600 m en sud.\n\nQualité de la neige ce samedi matin :\n20/30 cm de neige fraîche ventée. Souvent poudreuse dans les secteurs abrités du vent de Nord, ventée ailleurs, voire cartonnée ou glacée proche des crêtes ou dans certaines pentes Nord.\nNombreuses corniches, accumulations et congères en toutes orientations.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 600,
-        "south": 600
+        "north": 900,
+        "south": 900
       },
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 15,
-          "S": 15
+          "N": 10,
+          "S": 5
         },
         {
           "alt_m": 1500,
-          "N": 110,
-          "S": 80
+          "N": 100,
+          "S": 75
         },
         {
           "alt_m": 2000,
-          "N": 210,
-          "S": 170
+          "N": 200,
+          "S": 160
         }
       ],
       "icon_key": "snowpack",

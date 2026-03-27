@@ -3,61 +3,49 @@
   "massif": "Thabor",
   "bulletin": {
     "id": 13,
-    "issued_at": "2026-03-26T15:00:00",
-    "valid_until": "2026-03-27T18:00:00",
+    "issued_at": "2026-03-27T15:00:00",
+    "valid_until": "2026-03-28T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2000,
-        "split_axis": "horizontal",
-        "split_label": "2000m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2000",
-            "risk": 3,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2000m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "2",
             "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "3",
-            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-28",
+        "date": "2026-03-29",
         "label": "Indice de risque limité",
-        "comment": "Risque en baisse. Instabilités résiduelles dans la neige ventée. Risque limité.",
-        "trend": "down"
+        "comment": "Plaques résiduelles en places dans la neige récentes.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -89,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-22",
-          "min_cm": 1,
-          "max_cm": 5
-        },
-        {
           "date": "2026-03-23",
           "min_cm": 0,
           "max_cm": 0
@@ -117,44 +100,49 @@
           "date": "2026-03-27",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-28",
+          "min_cm": 0,
+          "max_cm": 3
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 5
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 3
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES INSTABILITÉS FORMÉES PAR LE VENT DE NORD",
-      "text": "NOMBREUSES INSTABILITÉS FORMÉES PAR LE VENT DE NORD\n\nDéclenchements provoqués : instabilités sur de nombreuses pentes. Possibles en toute orientation, même loin des crêtes, elles sont déclenchables par un seul skieur et peuvent générer des avalanches de taille petite à moyenne (taille 1 à 2). Ces instabilités formées sous l'effet du fort vent de nord jeudi sont généralement d'aspect dur, avec cassure peu large mais localement épaisse, notamment sur le secteur des Cerces, du Galibier et du Thabor.\nEn allant vers le sud du massif et sous 2000 m d'altitude environ, ces instabilités sont un peu moins épaisses, généralement de taille 1.\n\nDéparts spontanés :avalanche de taille moyenne encore possible jeudi soir dans les secteurs de plus forte accumulation par le vent à haute altitude. Peu probables vendredi en journée.",
+      "title": "PLAQUES EN PLACE DANS LA NEIGE RÉCENTE, FORMÉES JEUDI PAR LE VENT DE NORD",
+      "text": "PLAQUES EN PLACE DANS LA NEIGE RÉCENTE, FORMÉES JEUDI PAR LE VENT DE NORD\n\nDéclenchements provoqués : instabilités en place dans la neige fraiche ventée, à toutes altitude en versants froids, et à partir de 2000/2200 m dans les versants ensoleillés du sud du massif. Formées jeudi par le vent tempétueux de nord, ces instabilités restent possibles en toutes orientations, même loin des crêtes, et sont encore déclenchables par un seul skieur. Plaques généralement en neige dure faciles à identifier, générant des avalanches de petite taille (taille 1), voir moyenne (taille 2) en allant vers la Savoie.   \n\nDéparts spontanés : Peu probables, quelques boulettes au soleil en journée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées vers 2500 m : 186 cm dans le vallon du Chardonnet, 116 cm à la nivôse des Rochilles, 83 cm à la Nivôse du Galibier (secteurs fortement ventés).\n\nLimite d'enneigement skiable : dès 1400 m en ubacs favorables (terrains herbeux, pistes forestières), 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige récente fortement travaillée par le vent. Nombreuses congères dans les pentes. Sur les crêtes, d'épaisses corniches côtoient des zones dégarnies voire pelées par le vent.  \nPetite humidification de surface au soleil jusqu'à 2200/2400 m environ.",
+      "text": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées vers 2500 m : 182 cm dans le vallon du Chardonnet, 115 cm à la nivôse des Rochilles, 84 cm à la Nivôse du Galibier (secteurs fortement ventés).\n\nLimite d'enneigement skiable : dès 1400 m en ubacs favorables (terrains herbeux, pistes forestières), 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige fraiche fortement travaillée par le vent, mais localement encore légère dans les secteurs bien abrités. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.  \nEn versant sud, neige croutée sous 2200/2400, s'humidifiant en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1300,
-        "south": 1300
+        "south": 1600
       },
       "levels_cm": [
         {
           "alt_m": 1500,
           "N": 45,
-          "S": 3
+          "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 125,
+          "N": 120,
           "S": 50
         },
         {
           "alt_m": 2500,
-          "N": 185,
-          "S": 95
+          "N": 180,
+          "S": 90
         }
       ],
       "icon_key": "snowpack",

@@ -3,14 +3,14 @@
   "massif": "Vanoise",
   "bulletin": {
     "id": 10,
-    "issued_at": "2026-03-26T17:00:00",
-    "valid_until": "2026-03-27T18:00:00",
+    "issued_at": "2026-03-27T16:00:00",
+    "valid_until": "2026-03-28T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 3,
+            "risk": 2,
             "evolution_to": null,
             "position": null
           }
@@ -34,30 +34,30 @@
         },
         "zones": {
           "center": {
-            "text": "3",
-            "risk": 3,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-28",
+        "date": "2026-03-29",
         "label": "Indice de risque limité",
-        "comment": "Stabilisation rapide du manteau neigeux.",
-        "trend": "down"
+        "comment": "Vent faible et chute de neige négligeable la nuit précédente, temps calme plus ou moins nuageux en journée => poursuite de la stabilisation, risque stationnaire.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
-        "NE": false,
+        "N": true,
+        "NE": true,
         "E": true,
         "SE": true,
         "S": true,
         "SW": true,
         "W": true,
-        "NW": false
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-22",
-          "min_cm": 1,
-          "max_cm": 3
-        },
-        {
           "date": "2026-03-23",
           "min_cm": 0,
           "max_cm": 0
@@ -93,40 +88,45 @@
         },
         {
           "date": "2026-03-25",
-          "min_cm": 10,
+          "min_cm": 15,
           "max_cm": 20
         },
         {
           "date": "2026-03-26",
-          "min_cm": 5,
+          "min_cm": 3,
           "max_cm": 10
         },
         {
           "date": "2026-03-27",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
+        },
+        {
+          "date": "2026-03-28",
+          "min_cm": 1,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 11
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux hivernal, très venté.",
-      "text": "Manteau neigeux hivernal, très venté. \n\nDéclenchements provoqués : nombreuses plaques dans ce contexte venté. On les trouve en tous versants, plutôt loin des crêtes, jusqu'en bas de pentes, derrières les bosses et les croupes. Elles sont réactives au matin avec une tendance à la stabilisation au fil des heures. D'épaisseur très variable, les plaques sont souvent en neige ferme/dure et engendrent des avalanches moyennes (taille 2). \nSecteur Lauzière : les cumuls de neige sont plus importants qu'ailleurs, les avalanches sont plus nombreuses et généralement de plus grandes tailles.  \nObservables : accumulations visibles derrière les ruptures de pente.  \n\nDéparts spontanés : la baisse du vent en matinée met fin au risque de départs naturels de plaques dans les zones d’accumulations sous le vent. Le retour du Soleil engendre des coulées dans les pentes raides ayant trop chauffées, au départ des rochers/des corniches, plutôt en fin de journée donc dans les pentes Sud à Ouest. Taille 1 à 2.",
+      "title": "ENCORE QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE VENTÉE.",
+      "text": "ENCORE QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE VENTÉE.\n\nDéclenchement provoqués : quelques plaques en perte de réactivité, encore un peu entretenues par le vent de nord en altitude. On les trouve en tout versant, plaques dures près des crêtes, parfois encore d'aspect poudreux dans les pentes. Épaisseur des cassures hétérogènes, 20 à 40 cm en moyenne. Elles occasionnent de petites à moyennes avalanches.\nA l'ouest du massif, les cassures et les volumes mobilisables peuvent être plus importants. \nObservables : accumulation de neige, généralement plus dense voire dure.\n \nDéparts spontanés :\nQuelques avalanches de neige humide dans les versants qui auront bien chauffé avant que le ciel se couvre à la mi-journée, plutôt dans les pentes raides. Généralement de petites avalanches.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : c'est en forêt qu'il y a le plus de neige poudreuse. Au-dessus, le vent a fait du grabuge. La neige est au mieux densifiée, sinon elle est cartonnée, irrégulière, dure. Les crêtes et les croupes face au vent de Nord sont pelées, glacées bétonnées. \nLes pentes très exposées au Soleil chauffent. La neige botte et devient lourde/collante après plusieurs heures d’ensoleillement. En haute montagne ensoleillée, le vent de Nord ralentie le réchauffement dans les pentes ensoleillées.",
+      "text": "Enneigement : encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : les secteurs d'altitude, notamment les versants nord, sont soufflés par le vent : la neige est inégalement répartie entre zones dégarnies décapées et accumulations sous le vent.\nPour trouver de la poudreuse, viser plutôt les moyennes/basses altitudes et la forêt.\nDans les versants ensoleillés, notamment Sud à Est, la neige s'humidifie en surface (ça botte). Toutefois en altitude, le vent du nord bien frais concurrence l'action du soleil, limitant le ramollissement de la neige.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 800,
-        "south": 800
+        "north": 900,
+        "south": 1100
       },
       "levels_cm": [
         {
@@ -136,7 +136,7 @@
         },
         {
           "alt_m": 2000,
-          "N": 165,
+          "N": 160,
           "S": 80
         },
         {
