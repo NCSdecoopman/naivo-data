@@ -3,49 +3,37 @@
   "massif": "Haut-Var Haut-Verdon",
   "bulletin": {
     "id": 22,
-    "issued_at": "2026-03-27T16:00:00",
-    "valid_until": "2026-03-28T18:00:00",
+    "issued_at": "2026-03-28T16:00:00",
+    "valid_until": "2026-03-29T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2000,
-        "split_axis": "horizontal",
-        "split_label": "2000m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
-            "risk": 1,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2000",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2000m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
+          "center": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -54,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-29",
+        "date": "2026-03-30",
         "label": "Indice de risque limité",
-        "comment": "Maintien d'un risque limité avec quelques plaques en place, et de rares nouvelles possibles dans la neige fraîche modérément ventée.",
+        "comment": "Risque en hausse mais restant à priori limité. Quelques instabilités localisées, mais de nouvelles en formation en cours de journée de lundi avec le transport de la neige mobilisable par le vent de nord qui devient fort.",
         "trend": "steady"
       }
     },
@@ -67,8 +55,8 @@
         "E": false,
         "SE": false,
         "S": false,
-        "SW": false,
-        "W": false,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -88,11 +76,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-23",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-24",
           "min_cm": 0,
@@ -115,35 +98,40 @@
         },
         {
           "date": "2026-03-28",
+          "min_cm": 3,
+          "max_cm": 10
+        },
+        {
+          "date": "2026-03-29",
           "min_cm": 0,
-          "max_cm": 5
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 5
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 10
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES PLAQUES EN PLACE DANS LA NEIGE VENTÉE",
-      "text": "QUELQUES PLAQUES EN PLACE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : quelques plaques en place, formées jeudi par le transport de neige restée légère en versants ombragés, sous l'action du fort vent de nord. Elles sont présentes essentiellement au dessus de 2000/2200 m, surtout en versants nord, où elles peuvent localement être encore faciles à déclencher au passage d'un skieur. Dans les autres orientations et à plus basse altitude, elles sont rares et généralement difficiles à déclencher, car elles se stabilisent sous l'action du soleil et du redoux. Ces plaques sont généralement d'aspect durci par le vent, et en cas de rupture, peuvent provoquer des avalanches peu étendues, de taille petite à moyenne (taille 1 à 2).\n\nDéparts spontanés : peu probables en début de journée après un bon regel nocturne, puis rares départs de petite taille en neige humide. Départs ponctuels en pentes raides ensoleillées, généralement près des rochers.",
+      "title": "NOUVELLES INSTABILITÉS DE TAILLE LIMITÉE DANS LA NEIGE VENTÉE",
+      "text": "NOUVELLES INSTABILITÉS DE TAILLE LIMITÉE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : nouvelles instabilités en formation avec les chutes de neige attendues et le vent. Plaques à vent de taille limitée, plus fréquentes en versants d’altitude de large nord à ouest, même loin de des crêtes et sommets. Elles peuvent céder facilement au passage d’un skieur, mobilisant surtout la neige tombée dans la nuit de samedi à dimanche. \n\nDéparts spontanés : en pente raide d'altitude, éventuels départs ponctuels, voire en plaque, avec le transport de la neige par le vent de nord-est à est. Taille petite, plus rarement moyenne.  \nDimanche après-midi avec le retour des éclaircies, départs superficiels en pentes raides ensoleillées, près des rochers de la neige fraiche s’humidifiant.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement plutôt excédentaire dans le Haut-Verdon, proche des normales dans le Haut Var.\nHauteurs de neige observées : vers 2000 m, 182 cm dans le vallon de Valdemars, 121 cm dans le Haut Var.  \n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : très bon regel nocturne. En versants ensoleillés, neige souvent croûtée. Dans les versants ombragés, la neige reste froide au dessus de 2000/2200 m environ, encore assez légère dans les combes abritées du vent, mais de plus en plus travaillée et durcie par le vent de nord dans les secteurs exposés.",
+      "text": "Enneigement plutôt excédentaire dans le Haut-Verdon, proche des normales dans le Haut Var.\nHauteurs de neige observées : vers 2000 m, 182 cm dans le vallon de Valdemars, 119 cm dans le Haut Var.  \n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : 5/15 cm de neige fraiche reposant sur de la neige souvent regelée / croutée. En ubacs d'altitude, sur de la neige sèche souvent durcie par le vent, plus rarement poudreuse dans les combes abritées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1500,
-        "south": 1800
+        "south": 1900
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 15,
+          "N": 10,
           "S": 0
         },
         {

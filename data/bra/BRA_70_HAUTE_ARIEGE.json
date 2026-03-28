@@ -3,31 +3,31 @@
   "massif": "Haute-Ariege",
   "bulletin": {
     "id": 70,
-    "issued_at": "2026-03-27T16:00:00",
-    "valid_until": "2026-03-28T18:00:00",
+    "issued_at": "2026-03-28T16:00:00",
+    "valid_until": "2026-03-29T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 1800m indice de risque limité, plus bas indice faible.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 1800,
+        "threshold_m": 2000,
         "split_axis": "horizontal",
-        "split_label": "1800m",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1800",
-            "risk": 1,
+            "loc": "<2000",
+            "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">1800",
-            "risk": 2,
+            "loc": ">2000",
+            "risk": 3,
             "evolution_to": null,
             "position": "top"
           }
@@ -37,27 +37,27 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "1800m"
+          "label": "2000m"
         },
         "zones": {
           "bottom": {
-            "text": "1",
-            "risk": 1,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           },
           "top": {
-            "text": "2",
-            "risk": 2,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-03-29",
+        "date": "2026-03-30",
         "label": "Indice de risque marqué",
-        "comment": "La poursuite des chutes de neige dans la nuit de samedi à dimanche va conduire à une probable augmentation du risque avalancheux dimanche.",
-        "trend": "up"
+        "comment": "Stationnaire avec encore du vent et du transport de neige à prévoir.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 3,
-      "secondary": 2,
+      "primary": 1,
+      "secondary": 3,
       "labels": {
-        "3": "Couche fragile persistante",
-        "2": "Neige ventée"
+        "1": "Neige fraîche",
+        "3": "Couche fragile persistante"
       },
-      "icon_key": "sat-3"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-23",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-24",
           "min_cm": 0,
@@ -116,24 +111,29 @@
         },
         {
           "date": "2026-03-28",
-          "min_cm": 10,
-          "max_cm": 20
+          "min_cm": 15,
+          "max_cm": 25
+        },
+        {
+          "date": "2026-03-29",
+          "min_cm": 8,
+          "max_cm": 12
         }
       ],
       "totals": {
-        "last_48h_min_cm": 10,
-        "last_48h_max_cm": 20
+        "last_48h_min_cm": 23,
+        "last_48h_max_cm": 37
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Présence de quelques plaques à vent en altitude; formation en fin de journée de nouvelles plaques",
-      "text": "Présence de quelques plaques à vent en altitude; formation en fin de journée de nouvelles plaques\n\nDéclenchements provoqués :\n\n- Dans un large secteur nord, quelques structures de plaques sont actuellement présentes, au plus bas vers 2000/2200 m, mais surtout au-delà de 2300/2400 m, contenant des couches fragiles persistantes (givre de surface ou neige roulée). Elles peuvent être masquées par les petites chutes de neige de mercredi/jeudi. Elles peuvent donner lieu au passage d'un pratiquant à des déclenchements d'avalanches de taille 1 à 2, avec des cassures de 20/30 cm voire 40 cm. \n\n- En fin de journée, les chutes de neige attendues ce samedi se produisent sous un vent de nord de plus en plus virulent. Des plaques de plus en plus épaisses se forment, plutôt dans les versants sud mais pas seulement. On les trouve dans un premier temps plutôt à proximité des crêtes. Le déclenchement de ces plaques est donc possible avec des cassures de plus en plus importantes. D'ici le début de nuit de samedi à dimanche, au vu des cumuls attendus, les avalanches induites sont généralement de taille 1 (pouvant potentiellement entrainer un randonneur sur quelques mètres ou le faire glisser sur l'ancienne neige dure, sans l'ensevelir).\nFacteur aggravant : ces plaques peuvent reposer sur de la neige roulée tombée par endroits dans la nuit de mercredi à jeudi, ou sur une couche de givre voire de grains anguleux qui auraient pu se former dans la nuit de vendredi à samedi.\n\nObservables : neige en surface travaillée par le vent, fissures devant les skis, \"woomfs\".\n\nDéparts spontanés :\n\n- Le matin, d'éventuels départs de coulées spontanés en neige humide sont possibles si le relatif et temporaire redoux samedi matin s'accompagne d'éclaircies un peu durables permettant une humidification de la neige en surface dans les secteurs est puis sud.\n- En fin de journée, des départs spontanés en neige sèche de taille 1 à 2 sont possibles par surcharge dans les couloirs raides, pouvant éventuellement mobiliser en cascade les couches fragiles mentionnées plus haut.\n\nAutre :\nTrès net refroidissement samedi soir accompagné d'un renforcement du vent.",
+      "title": "Nouvelles instabilités avec les chutes de neige ventées et structures de plaques plus épaisses en altitude",
+      "text": "Nouvelles instabilités avec les chutes de neige ventées et structures de plaques plus épaisses en altitude\n\nDéclenchements provoqués :\nAvalanches de plaques facilement déclenchables au passage d'un skieur : de nouvelles structures de plaques, parfois loin des crêtes, sont en formation dans les chutes de neige ventée de Nord commençant samedi soir et qui se poursuivent en journée de dimanche. Les accumulations sont plutôt à attendre dans les versants d'un large Sud, mais pas seulement. De plus, au-dessus de 2000/2200m, des couches fragiles (grains anguleux, givre de surface voire neige roulée) peuvent être enfouies, et sont encore présentes, donnant des cassures plus épaisses et des avalanches de taille plus importante (taille 2 à rare 3). L'aspect des plaques sera plutôt dure en altitude et à proximités des crêtes et ruptures de pentes, parfois plus friables et plus difficilement identifiables à plus basse altitude et dans les endroits abrités du vent.\nObservables : Quantité de neige fraiche (15/25 cm dès le matin à partir de 1800/2000 m et 10 cm supplémentaires en journée), neige travaillée par le vent en surface, fissures devant les skis, \"woomfs\".\n\nDéparts spontanés :\nDes départs spontanés en neige sèche de taille petite à moyenne sont possibles dans les pentes raides. Le départ peut être par surcharge par le vent ou au gré des cumuls devenant plus importants en journée de dimanche. Ces avalanches pourront éventuellement mobiliser les couches fragiles mentionnées plus haut et donner alors un départ linéaire.\n\nAutre : Ambiance hivernale avec un très net refroidissement dès ce samedi soir accompagné d'un fort renforcement du vent.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nL'enneigement reste très bon pour la saison, après plusieurs hivers déficitaires. \nEn altitude, les cumuls sont très conséquents, mais les crêtes et sommets exposés au vent d'ouest à nord-ouest sont parfois complètement déneigés.\nOn peut encore chausser les skis dans les secteurs ombragés vers 1500/1600 m, voire un peu plus bas dans les endroits les plus froids.\n\nQualité de la neige : \nSamedi matin, on trouvera une neige souvent croûtée en versants sud jusque vers 2200m. En revanche, dans les pentes d'altitude en sud et jusqu'assez bas en nord, la neige devrait être restée légère, avec souvent de multiples couches relativement fines plus ou moins cohésives entre elles. En s'approchant des crêtes, on trouvera des zones de neige très dure voire glacée dans les secteurs balayés par le vent.",
+      "text": "Enneigement : \nL'enneigement reste très bon pour la saison, après plusieurs hivers déficitaires. En altitude, les cumuls sont très conséquents, mais les crêtes et sommets exposés au vent d'ouest à nord-ouest sont souvent dégarnis. \nAvec les nouvelles chutes de neige à basse altitude dès samedi après-midi, on pourra à nouveau chausser sur de la neige fraîche vers 1200/1300 m mais plutôt vers 1500/1600 m pour trouver une réelle sous-couche permettant de skier plus sereinement.\n\nQualité de la neige : \nDimanche matin, la montagne retrouve un aspect hivernal avec un saupoudrage dès 500/600m d’altitude, plusieurs cm de neige fraiche dès 1000m et déjà 10/20 cm à partir de 1500m. Vers le haut du massif, l’enneigement sera très hétérogène sous l’action du vent, avec des zones d’accumulations et des crêtes Ouest à Nord-Ouest pelées ou en neige dure voire glacée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,7 +149,7 @@
         },
         {
           "alt_m": 2000,
-          "N": 220,
+          "N": 210,
           "S": 100
         },
         {
