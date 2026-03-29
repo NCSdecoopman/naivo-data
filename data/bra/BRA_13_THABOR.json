@@ -3,8 +3,8 @@
   "massif": "Thabor",
   "bulletin": {
     "id": 13,
-    "issued_at": "2026-03-28T16:00:00",
-    "valid_until": "2026-03-29T18:00:00",
+    "issued_at": "2026-03-29T16:00:00",
+    "valid_until": "2026-03-30T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-30",
+        "date": "2026-03-31",
         "label": "Indice de risque limité",
-        "comment": "Risque en hausse mais restant a priori limité. Formation de nouvelles plaques avec le vent de nord-ouest qui devient tempétueux en montagne au fil de l'après-midi de lundi.",
+        "comment": "Maintien d'un risque limité. Les températures fraîches limitent l'activité en neige humide et le fort vent a de moins en moins d'influence sur un manteau neigeux déjà bien durci.",
         "trend": "steady"
       }
     },
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-24",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-25",
           "min_cm": 1,
           "max_cm": 10
@@ -117,6 +112,11 @@
           "date": "2026-03-29",
           "min_cm": 0,
           "max_cm": 1
+        },
+        {
+          "date": "2026-03-30",
+          "min_cm": 1,
+          "max_cm": 10
         }
       ],
       "totals": {
@@ -126,13 +126,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PLAQUES EN PLACE DANS LA NEIGE VENTÉE - DE NOUVELLES PEU ÉPAISSES EN FORMATION VERS LA SAVOIE",
-      "text": "PLAQUES EN PLACE DANS LA NEIGE VENTÉE - DE NOUVELLES PEU ÉPAISSES EN FORMATION VERS LA SAVOIE\n\nDéclenchements provoqués : à proximité de la Savoie uniquement, de rares plaques minces se forment avec les faibles chutes de neige dans la nuit de samedi à dimanche. Présentes en toutes orientations, elles peuvent être faciles à déclencher par le passage d'un skieur, mais engendrent des avalanches de taille petite uniquement (taille 1). \nDe plus et sur l'ensemble du massif, des instabilités sont encore en place dans la neige récente ventée. Elles sont présentes en toutes orientations au-dessus de 2000/2200 m environ. Sous forme de plaques dures, elles sont facilement identifiables, localisées même loin des crêtes et ruptures de pente, et encore facilement déclenchables par un seul skieur. Elles génèrent des avalanches de petite taille (taille 1), voire moyenne (taille 2) en allant vers la Savoie. \n\nDéparts spontanés : peu probables le matin. À proximité de la Savoie, quelques avalanches de neige récente l'après-midi au fil des éclaircies qui se développent. Petite taille uniquement.",
+      "title": "PLAQUES EN PLACE DANS LA NEIGE RÉCENTE VENTÉE",
+      "text": "PLAQUES EN PLACE DANS LA NEIGE RÉCENTE VENTÉE \n\nDéclenchements provoqués : des instabilités sont en place dans la neige ventée, de rares en formation par le fort vent de nord-ouest là où il reste éventuellement encore de la neige légère et transportable. Présentes en toutes orientations au-dessus de 2000/2200 m environ, elles sont néanmoins plus nombreuses et sensibles dans les orientations d'un large secteur nord (nord-ouest, nord et nord-est) ainsi que vers la Savoie où les quantités de neige récente sont un peu plus importantes. Elles sont facilement identifiables, d'aspect durcie par le vent et localisées même loin des crêtes et ruptures de pentes. Elles peuvent encore être déclenchables par le passage d'un skieur et génèrent des avalanches de taille petite à moyenne (taille 1 à 2). \n\nDéparts spontanés : avalanches de petite taille ou sous forme de boulettes dans les pentes raides ensoleillées. Un départ par surcharge du au vent (rupture de corniche par exemple) est également possibles : avalanche petite à moyenne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées vers 2500 m : 173 cm dans le vallon du Chardonnet, 115 cm à la nivôse des Rochilles, 82 cm à la Nivôse du Galibier (secteurs fortement ventés).\n\nLimite d'enneigement skiable : dès 1400 m en ubacs favorables (terrains herbeux, pistes forestières), 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : 5/10 cm de neige fraîche à proximité de la Savoie. Sinon, neige récente fortement travaillée par le vent, mais localement encore légère dans les secteurs bien abrités. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.  \nEn versant sud, neige croutée sous 2200/2400, s'humidifiant en journée.",
+      "text": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées vers 2500 m : 172 cm dans le vallon du Chardonnet, 127 cm à la nivôse des Rochilles, 82 cm à la Nivôse du Galibier (secteurs fortement ventés).\n\nLimite d'enneigement skiable : dès 1400 m en ubacs favorables (terrains herbeux, pistes forestières), 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : 5/10 cm de neige récente à proximité de la Savoie, fortement durcie et travaillée par le fort vent ou encore localement légère dans les secteurs bien abrités. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent. En versant sud, neige croutée sous 2200/2400, s'humidifiant en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

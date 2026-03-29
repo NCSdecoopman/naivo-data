@@ -3,37 +3,49 @@
   "massif": "Haut-Var Haut-Verdon",
   "bulletin": {
     "id": 22,
-    "issued_at": "2026-03-28T16:00:00",
-    "valid_until": "2026-03-29T18:00:00",
+    "issued_at": "2026-03-29T15:00:00",
+    "valid_until": "2026-03-30T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Au-dessus de 2400m indice de risque limité, plus bas indice faible.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2400,
+        "split_axis": "horizontal",
+        "split_label": "2400m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2400",
+            "risk": 1,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2400",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2400m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
+          },
+          "top": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-30",
+        "date": "2026-03-31",
         "label": "Indice de risque limité",
-        "comment": "Risque en hausse mais restant à priori limité. Quelques instabilités localisées, mais de nouvelles en formation en cours de journée de lundi avec le transport de la neige mobilisable par le vent de nord qui devient fort.",
+        "comment": "Peu d'évolution de la situation nivologique. De rares instabilités persistent en altitude dans la neige ventée. Risque limité.",
         "trend": "steady"
       }
     },
@@ -55,8 +67,8 @@
         "E": false,
         "SE": false,
         "S": false,
-        "SW": true,
-        "W": true,
+        "SW": false,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -77,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-24",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-25",
           "min_cm": 0,
           "max_cm": 0
@@ -98,29 +105,34 @@
         },
         {
           "date": "2026-03-28",
-          "min_cm": 3,
-          "max_cm": 10
+          "min_cm": 0,
+          "max_cm": 1
         },
         {
           "date": "2026-03-29",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-03-30",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOUVELLES INSTABILITÉS DE TAILLE LIMITÉE DANS LA NEIGE VENTÉE",
-      "text": "NOUVELLES INSTABILITÉS DE TAILLE LIMITÉE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : nouvelles instabilités en formation avec les chutes de neige attendues et le vent. Plaques à vent de taille limitée, plus fréquentes en versants d’altitude de large nord à ouest, même loin de des crêtes et sommets. Elles peuvent céder facilement au passage d’un skieur, mobilisant surtout la neige tombée dans la nuit de samedi à dimanche. \n\nDéparts spontanés : en pente raide d'altitude, éventuels départs ponctuels, voire en plaque, avec le transport de la neige par le vent de nord-est à est. Taille petite, plus rarement moyenne.  \nDimanche après-midi avec le retour des éclaircies, départs superficiels en pentes raides ensoleillées, près des rochers de la neige fraiche s’humidifiant.",
+      "title": "RARES INSTABILITÉS EN ALTITUDE, DANS LA NEIGE VENTÉE",
+      "text": "RARES INSTABILITÉS EN ALTITUDE, DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : instabilités limitées à de rares pentes d'altitude. Possibles surtout en large orientation nord au-dessus de 2400 m environ, parfois à distance des crêtes, ces instabilités sont plutôt bien identifiables dans la neige ventée. Un seul skieur peut parfois les déclencher, générant une avalanche de petite taille. Le vent souffle de plus en plus fort au fil des heures, mais ne mobilise  que de faibles quantités de neige.  \n\nDéparts spontanés : rares et restant peu volumineux dans les secteurs d'accumulation par le vent en altitude. Taille généralement petite.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement plutôt excédentaire dans le Haut-Verdon, proche des normales dans le Haut Var.\nHauteurs de neige observées : vers 2000 m, 182 cm dans le vallon de Valdemars, 119 cm dans le Haut Var.  \n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : 5/15 cm de neige fraiche reposant sur de la neige souvent regelée / croutée. En ubacs d'altitude, sur de la neige sèche souvent durcie par le vent, plus rarement poudreuse dans les combes abritées.",
+      "text": "Enneigement plutôt excédentaire pour une fin mars.\nHauteurs de neige observées : vers 2000 m, 183 cm dans le vallon de Valdemars, 119 cm dans le Haut Var.  \n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1800/1900 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux printanier en adrets, durcis par le vent en ubacs d'altitude. En journée de lundi, humidification restant superficielle avec le redoux temporaire et les éclaircies.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -136,13 +148,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 130,
+          "N": 140,
           "S": 70
         },
         {
           "alt_m": 2500,
-          "N": 190,
-          "S": 130
+          "N": 200,
+          "S": 140
         }
       ],
       "icon_key": "snowpack",

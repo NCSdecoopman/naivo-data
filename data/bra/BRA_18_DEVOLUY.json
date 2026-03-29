@@ -3,30 +3,30 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-03-28T16:00:00",
-    "valid_until": "2026-03-29T18:00:00",
+    "issued_at": "2026-03-29T16:00:00",
+    "valid_until": "2026-03-30T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 2200,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "2200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<2200",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
+            "loc": ">2200",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "2200m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-30",
+        "date": "2026-03-31",
         "label": "Indice de risque limité",
-        "comment": "Risque en hausse mais restant a priori limité. Formation de nouvelles plaques avec le vent de nord-ouest qui devient tempétueux en montagne au fil de l'après-midi de lundi.",
+        "comment": "Maintien d'un risque limité. Les températures fraîches limitent l'activité en neige humide et le fort vent a de moins en moins d'influence sur un manteau neigeux déjà bien durci.",
         "trend": "steady"
       }
     },
@@ -64,11 +64,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
-        "W": true,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -88,11 +88,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-24",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-25",
           "min_cm": 10,
@@ -115,19 +110,24 @@
         },
         {
           "date": "2026-03-29",
-          "min_cm": 1,
+          "min_cm": 0,
           "max_cm": 1
+        },
+        {
+          "date": "2026-03-30",
+          "min_cm": 1,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 2,
-        "last_48h_max_cm": 3
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 6
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PLAQUES EN PLACE DANS LA NEIGE RÉCENTE VENTÉE",
-      "text": "PLAQUES EN PLACE DANS LA NEIGE RÉCENTE VENTÉE \n\nDéclenchements provoqués : instabilités en place dans la neige fraiche ventée, plutôt à partir de 1500/1600 m en versants froids, et 2000/2200 m dans les versants ensoleillés du sud du massif. Formées jeudi par le vent tempétueux de nord, ces instabilités restent possibles en toutes orientations, même loin des crêtes, et sont encore déclenchables par un seul skieur. Plaques généralement en neige dure faciles à identifier, générant des avalanches de taille petite à moyenne (taille 1 à 2). \nLes faibles chutes de neige ne modifient guère la stabilité du manteau neigeux. \n\nDéparts spontanés : peu probables, quelques boulettes au soleil au fil des éclaircies se développant l'après-midi.",
+      "title": "PLAQUES EN PLACE DANS LA NEIGE VENTÉE",
+      "text": "PLAQUES EN PLACE DANS LA NEIGE VENTÉE \n\nDéclenchements provoqués : des instabilités sont en place dans la neige ventée, de rares en formation par le fort vent de nord-ouest là où il reste éventuellement encore de la neige légère et transportable. Elles sont présentes plutôt au-dessus de 2000/2200 m en versants froids, et en toutes orientations aux plus hautes altitudes du massif. Elles sont facilement identifiables, d'aspect durcie par le vent et localisées même loin des crêtes et ruptures de pentes. Elles peuvent encore être déclenchables par le passage d'un skieur et génèrent des avalanches de taille petite (taille 1), voire moyenne (taille 2) aux plus hautes altitudes du massif. \n\nDéparts spontanés : avalanches de petite taille ou sous forme de boulettes dans les pentes raides ensoleillées. Un départ par surcharge du au vent (rupture de corniche par exemple) est également possibles : avalanche petite à moyenne.",
       "sections": null,
       "icon_key": "stability"
     },

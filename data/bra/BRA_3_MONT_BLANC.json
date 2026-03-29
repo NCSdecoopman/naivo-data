@@ -3,8 +3,8 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-03-28T16:00:00",
-    "valid_until": "2026-03-29T18:00:00",
+    "issued_at": "2026-03-29T16:00:00",
+    "valid_until": "2026-03-30T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-03-30",
-        "label": "Indice de risque marqué",
-        "comment": "Danger en hausse. Plaques à vent nouvelles en haute-montagne dès le matin. Petite chute de neige l'après-midi.",
-        "trend": "up"
+        "max_level": 2,
+        "date": "2026-03-31",
+        "label": "Indice de risque limité",
+        "comment": "Petite chute de neige la nuit de lundi à mardi, formant de nouvelles plaques friables. Tempête et plaques à vent en haute-montagne.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-24",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-25",
           "min_cm": 30,
           "max_cm": 45
@@ -98,51 +93,56 @@
         },
         {
           "date": "2026-03-28",
-          "min_cm": 8,
-          "max_cm": 15
+          "min_cm": 3,
+          "max_cm": 10
         },
         {
           "date": "2026-03-29",
           "min_cm": 0,
-          "max_cm": 2
+          "max_cm": 0
+        },
+        {
+          "date": "2026-03-30",
+          "min_cm": 8,
+          "max_cm": 12
         }
       ],
       "totals": {
         "last_48h_min_cm": 8,
-        "last_48h_max_cm": 17
+        "last_48h_max_cm": 12
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "",
-      "text": "Déclenchements provoqués :\nPlaques à vent nouvelles dans la neige récente : 10/15 cm de fraîche, sur 20/40 cm tombés en milieu de semaine, en cours de tassement. Plaques friables pour la plupart, éventuellement dures en secteurs très ventés. Formation sous l'effet du vent de N/NE la nuit de samedi à dimanche, voire dimanche matin. Plaques pas très nombreuses, mais disséminées un peu partout dans et autour du massif. Petite prudence dans les Aiguilles Rouges, soumises à un coup de Bise en seconde partie de nuit et matinée. Plaques pas très larges, cassure 30/50 cm, localement réactives. Taille 1 à 2 (petite à moyenne).\nObservables : accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance. \n* Facteur aggravant : ces plaques reposent localement sur une couche fragile persistante enfouie. En versants N, au-dessus de 2200 m. Déclenchement par skieur très peu probable, mais départ possible en cascade (un première avalanche, ou une chute de corniche, déclenche une plaque épaisse). Taille 2 à 3 (moyenne à grande).\n\nDéparts spontanés :\nQuelques accumulations de neige récente peuvent céder dans des pentes très raides, ou des entrées de couloirs chargés par le vent de N/NE. Départs ponctuels ou en plaques peu larges. Taille 1, éventuellement 2.",
+      "text": "Déclenchements provoqués :\n* Plaques à vent dans la neige récente. Plaques friables pour la plupart, éventuellement dures en secteurs très ventés. Formées sous l'effet du vent de N/NE ce week-end. Petite prudence dans les Aiguilles Rouges, ainsi que de Balme au glacier d'Argentière, où le vent de NE a soufflé fort (au moins une plaque à vent signalée ce dimanche, déclenchée par des randonneurs vers 2600 m).\n* Formation de nouvelles plaques ce lundi sous l'effet du vent de NW (40/60 km/h au-dessus de 2800/3000 m). Plaques pas très larges, cassure 30/50 cm, localement réactives. Taille 1 à 2 (petite à moyenne).\nObservables : accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance. \n* Anecdotique mais pas impossible : ces plaques reposent localement sur une couche fragile persistante enfouie. En versants N, au-dessus de 2200 m. Déclenchement par skieur très peu probable, mais départ possible en cascade (un première avalanche, ou une chute de corniche, déclenche une plaque épaisse). Taille 2 à 3 (moyenne à grande).\n\nDéparts spontanés :\nQuelques accumulations de neige récente peuvent céder dans des pentes très raides, ou des entrées de couloirs chargés par le vent de NW, surtout au-dessus de 2800 m. Départs ponctuels ou en plaques peu larges. Taille 1, éventuellement 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nBon pour une fin mars. On peut chausser skis ou raquettes dès 1200 m environ. Attention, absence de sous-couches sous 1500/1600 m en versants S.\n\nQualité de la neige ce dimanche :\n10/15 cm de neige fraîche en surface, irrégulièrement soufflée. Sous-couche hétérogène : froide meuble sur 20/30 cm en versants N abrités des vents, compacte dans les autres orientations, dure ou glacée près des crêtes.\nNombreuses corniches et accumulations.",
+      "text": "Enneigement : \nBon pour une fin mars. On peut chausser skis ou raquettes dès 1200/1300 m. Attention, absence de sous-couches sous 1500/1600 m en versants S.\n\nQualité de la neige ce lundi :\nNeige majoritairement froide, dense, souple, sauf en versants S sous 2200 m où elle est déjà un peu croûtée. Neige soufflée dans les secteurs soumis à la Bise (Aiguilles Rouges, Balme, Autannes) ou au vent de NW. Arêtes dures, longues portions en glace en haute-montagne.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 900,
-        "south": 1100
+        "north": 1000,
+        "south": 1300
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 110,
-          "S": 70
+          "N": 100,
+          "S": 60
         },
         {
           "alt_m": 2000,
-          "N": 250,
-          "S": 180
+          "N": 240,
+          "S": 170
         },
         {
           "alt_m": 2500,
-          "N": 360,
-          "S": 290
+          "N": 350,
+          "S": 280
         }
       ],
       "icon_key": "snowpack",

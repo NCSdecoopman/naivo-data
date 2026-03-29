@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="17" MASSIF="Queyras" DATEBULLETIN="2026-03-28T16:00:00" DATEECHEANCE="2026-03-29T18:00:00" DATEVALIDITE="2026-03-29T18:00:00" DATEDIFFUSION="2026-03-28T16:06:00" AMENDEMENT="false">
-  <DateValidite>2026-03-29T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="17" MASSIF="Queyras" DATEBULLETIN="2026-03-29T16:00:00" DATEECHEANCE="2026-03-30T18:00:00" DATEVALIDITE="2026-03-30T18:00:00" DATEDIFFUSION="2026-03-29T15:54:00" AMENDEMENT="false">
+  <DateValidite>2026-03-30T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="2" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="2" COMMENTAIRE="Indice de risque limité." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-03-30T00:00:00"/>
+    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="&lt;2000" ALTITUDE="2000" RISQUE2="2" EVOLURISQUE2="" LOC2="&gt;2000" RISQUEMAXI="2" COMMENTAIRE="Au-dessus de 2000m indice de risque limité, plus bas indice faible." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-03-31T00:00:00"/>
     <PENTE NE="true" E="true" SE="true" S="true" SW="true" W="true" NW="true" N="true" COMMENTAIRE=""/>
-    <ACCIDENTEL><![CDATA[nouvelles plaques en formation, principalement à l'est du massif. ]]></ACCIDENTEL>
-    <NATUREL><![CDATA[avalanches de neige fraîche, petites à moyennes. ]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : avalanches de neige fraîche, petites à moyennes. 
-Déclenchements skieurs : nouvelles plaques en formation, principalement à l'est du massif. ]]></RESUME>
+    <ACCIDENTEL><![CDATA[instabilités dans la neige ventée, principalement à l'est du massif. ]]></ACCIDENTEL>
+    <NATUREL><![CDATA[départs superficiels au soleil ou par surcharge du au vent. ]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : départs superficiels au soleil ou par surcharge du au vent. 
+Déclenchements skieurs : instabilités dans la neige ventée, principalement à l'est du massif. ]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque limité]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Risque en hausse mais restant a priori limité. Formation de nouvelles plaques avec le vent de nord-ouest qui devient tempétueux en montagne au fil de l'après-midi de lundi. ]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Maintien d'un risque limité. Les températures fraîches limitent l'activité en neige humide et le fort vent a de moins en moins d'influence sur un manteau neigeux déjà bien durci. ]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_17.png</ImageRisque>
@@ -19,54 +19,48 @@ Déclenchements skieurs : nouvelles plaques en formation, principalement à l'es
   <STABILITE>
     <SitAvalTyp SAT1="2" SAT2=""/>
     <TITRE><![CDATA[PLAQUES EN PLACE DANS LA NEIGE RÉCENTE, PLUS NOMBREUSES ET ÉPAISSES SUR LE HAUT-GUIL]]></TITRE>
-    <TEXTESANSTITRE><![CDATA[Déclenchements provoqués : de nouvelles plaques sont en formation avec les chutes de neige dans la nuit de samedi à dimanche et le vent de nord-est modéré dimanche matin. Elles sont présentes en toutes orientations au-dessus de 1800/2000 m environ, plus nombreuses et épaisses sur le Haut-Guil (Abriès / Ristolas). Elles sont d'aspect durcies dans les zones exposées au vent, mais encore d'aspect poudreux dans les combes bien abritées. Elles sont facilement déclenchables par un skieur et engendrent des avalanches de taille petite (taille 1) à moyenne (taille 2) vers les crêtes frontalières du Haut-Guil. 
-De plus, des instabilités sont encore en place dans la neige récente ventée. Elles sont présentes en toutes orientations au-dessus de 2000/2200 m environ. Sous forme de plaques dures, elles sont facilement identifiables, localisées même loin des crêtes et ruptures de pente, et encore facilement déclenchables par un seul skieur. Elles génèrent des avalanches de petite taille (taille 1), voire moyenne (taille 2) autour de Ceillac ou sur le Haut-Guil. 
+    <TEXTESANSTITRE><![CDATA[Déclenchements provoqués : des instabilités sont en place dans la neige ventée, de rares en formation par le fort vent de nord-ouest là où il reste éventuellement encore de la neige légère et transportable. Présentes en toutes orientations au-dessus de 2000/2200 m environ, elles sont néanmoins plus nombreuses et sensibles dans les orientations d'un large secteur nord (nord-ouest, nord et nord-est) ainsi que sur l'est du massif (secteur Abriès/Ristolas) où les quantités de neige récente sont un plus importantes. Elles sont facilement identifiables, d'aspect durcie par le vent et localisées même loin des crêtes et ruptures de pentes. Elles peuvent encore être déclenchables par le passage d'un skieur et génèrent des avalanches de taille petite (taille 1), voire moyenne (taille 2) vers les crêtes frontalières avec l'Italie. 
 
-Départs spontanés : avalanches de neige récente l'après-midi au fil des éclaircies qui se développent ou par surcharge du au vent de nord-est qui se renforce en matinée. Petite taille, voire moyenne sur le Haut-Guil. ]]></TEXTESANSTITRE>
+Départs spontanés : avalanches de petite taille ou sous forme de boulettes dans les pentes raides ensoleillées. Un départ par surcharge du au vent (rupture de corniche par exemple) est également possibles : avalanche petite à moyenne. ]]></TEXTESANSTITRE>
     <TEXTE><![CDATA[PLAQUES EN PLACE DANS LA NEIGE RÉCENTE, PLUS NOMBREUSES ET ÉPAISSES SUR LE HAUT-GUIL
 
-Déclenchements provoqués : de nouvelles plaques sont en formation avec les chutes de neige dans la nuit de samedi à dimanche et le vent de nord-est modéré dimanche matin. Elles sont présentes en toutes orientations au-dessus de 1800/2000 m environ, plus nombreuses et épaisses sur le Haut-Guil (Abriès / Ristolas). Elles sont d'aspect durcies dans les zones exposées au vent, mais encore d'aspect poudreux dans les combes bien abritées. Elles sont facilement déclenchables par un skieur et engendrent des avalanches de taille petite (taille 1) à moyenne (taille 2) vers les crêtes frontalières du Haut-Guil. 
-De plus, des instabilités sont encore en place dans la neige récente ventée. Elles sont présentes en toutes orientations au-dessus de 2000/2200 m environ. Sous forme de plaques dures, elles sont facilement identifiables, localisées même loin des crêtes et ruptures de pente, et encore facilement déclenchables par un seul skieur. Elles génèrent des avalanches de petite taille (taille 1), voire moyenne (taille 2) autour de Ceillac ou sur le Haut-Guil. 
+Déclenchements provoqués : des instabilités sont en place dans la neige ventée, de rares en formation par le fort vent de nord-ouest là où il reste éventuellement encore de la neige légère et transportable. Présentes en toutes orientations au-dessus de 2000/2200 m environ, elles sont néanmoins plus nombreuses et sensibles dans les orientations d'un large secteur nord (nord-ouest, nord et nord-est) ainsi que sur l'est du massif (secteur Abriès/Ristolas) où les quantités de neige récente sont un plus importantes. Elles sont facilement identifiables, d'aspect durcie par le vent et localisées même loin des crêtes et ruptures de pentes. Elles peuvent encore être déclenchables par le passage d'un skieur et génèrent des avalanches de taille petite (taille 1), voire moyenne (taille 2) vers les crêtes frontalières avec l'Italie. 
 
-Départs spontanés : avalanches de neige récente l'après-midi au fil des éclaircies qui se développent ou par surcharge du au vent de nord-est qui se renforce en matinée. Petite taille, voire moyenne sur le Haut-Guil. ]]></TEXTE>
+Départs spontanés : avalanches de petite taille ou sous forme de boulettes dans les pentes raides ensoleillées. Un départ par surcharge du au vent (rupture de corniche par exemple) est également possibles : avalanche petite à moyenne. ]]></TEXTE>
   </STABILITE>
   <QUALITE>
     <TEXTE><![CDATA[L'enneigement est proche des normales pour une fin mars.
-Hauteurs de neige observées : 152 cm en versant nord du col Izoard à 2300 m, 142 cm au-dessus de St Véran à 2700 m, 94 cm à la Nivôse du Col Agnel à 2630 m 
+Hauteurs de neige observées : 154 cm en versant nord du col Izoard à 2300 m, 159 cm au-dessus de St Véran à 2700 m, 104 cm à la Nivôse du Col Agnel à 2630 m 
 
 Limite d'enneigement skiable : au plus bas à 1400/1500 m en ubacs bien protégés ou sur pistes forestières, plutôt 2000/2100 m en adrets.
 
-État de la neige de surface : 15 à 20 cm de neige fraîche, plutôt 5/10 cm vers les Fonts de Cervières ou entre Ceillac et Saint-Véran. Cette neige tombe peu ventée et est donc légère. Neige localement durcie par le vent qui se lève en matinée de dimanche. Sur l'ouest du massif, neige récente fortement travaillée par le vent, mais localement encore légère dans les secteurs bien abrités. Crêtes parfois décapées. En versant sud, neige croutée sous 2200/2400 m, s'humidifiant en journée.]]></TEXTE>
+État de la neige de surface : 15 à 20 cm de neige récente, plutôt 5/10 cm vers les Fonts de Cervières ou entre Ceillac et Saint-Véran. Cette neige tombe peu ventée et est donc légère. Neige localement durcie par le vent qui se lève en matinée de dimanche. Sur l'ouest du massif, neige récente fortement travaillée par le vent, mais localement encore légère dans les secteurs bien abrités. Crêtes parfois décapées. En versant sud, neige croutée sous 2200/2400 m, s'humidifiant en journée.]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-03-28T00:00:00" LimiteSud="2100" LimiteNord="1600">
-    <NIVEAU ALTI="1500" N="0" S="0"/>
-    <NIVEAU ALTI="2000" N="90" S="0"/>
-    <NIVEAU ALTI="2500" N="140" S="70"/>
+  <ENNEIGEMENT DATE="2026-03-29T00:00:00" LimiteSud="1400" LimiteNord="1400">
+    <NIVEAU ALTI="1500" N="5" S="5"/>
+    <NIVEAU ALTI="2000" N="100" S="10"/>
+    <NIVEAU ALTI="2500" N="150" S="80"/>
     <ImageEnneigement>montagne_enneigement_17.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-03-24T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-03-25T00:00:00" SS24Min="1" SS24Max="2"/>
     <NEIGE24H DATE="2026-03-26T00:00:00" SS24Min="0" SS24Max="1"/>
     <NEIGE24H DATE="2026-03-27T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-03-28T00:00:00" SS24Min="5" SS24Max="10"/>
-    <NEIGE24H DATE="2026-03-29T00:00:00" SS24Min="0" SS24Max="5"/>
+    <NEIGE24H DATE="2026-03-29T00:00:00" SS24Min="1" SS24Max="3"/>
+    <NEIGE24H DATE="2026-03-30T00:00:00" SS24Min="0" SS24Max="0"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_17.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="2000" ALTITUDEVENT2="3000">
-    <COMMENTAIRE>Chutes de neige dans la nuit de samedi à dimanche, plus importantes sur l'est du massif. Retour de belles éclaircies en cours de journée. </COMMENTAIRE>
-    <ECHEANCE DATE="2026-03-29T06:00:00" FF1="20" DD1="N" FF2="25" DD2="NO" ISO0="1300" PLUIENEIGE="900" TEMPSSENSIBLE="61" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-03-29T12:00:00" FF1="25" DD1="N" FF2="30" DD2="E" ISO0="1500" PLUIENEIGE="900" TEMPSSENSIBLE="61" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-03-29T18:00:00" FF1="25" DD1="N" FF2="25" DD2="NE" ISO0="2000" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-03-30T00:00:00" FF1="15" DD1="NE" FF2="15" DD2="NO" ISO0="2000" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
+    <COMMENTAIRE>Bien ensoleillé en journée. Vent de nord devenant tempétueux l'après-midi. Passages nuageux en soirée.</COMMENTAIRE>
+    <ECHEANCE DATE="2026-03-30T06:00:00" FF1="15" DD1="N" FF2="30" DD2="NO" ISO0="2000" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-03-30T12:00:00" FF1="40" DD1="NE" FF2="70" DD2="NO" ISO0="2200" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-03-30T18:00:00" FF1="60" DD1="N" FF2="90" DD2="O" ISO0="2200" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-03-31T00:00:00" FF1="60" DD1="N" FF2="100" DD2="NO" ISO0="1800" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_17.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-03-22T06:00:00" FF1="15" DD1="E" FF2="20" DD2="O" ISO0="1800" PLUIENEIGE="1400" TEMPSSENSIBLE="63"/>
-      <ECHEANCE DATE="2026-03-22T12:00:00" FF1="25" DD1="E" FF2="30" DD2="E" ISO0="1500" PLUIENEIGE="1200" TEMPSSENSIBLE="63"/>
-      <ECHEANCE DATE="2026-03-22T18:00:00" FF1="30" DD1="NE" FF2="40" DD2="E" ISO0="1500" PLUIENEIGE="1100" TEMPSSENSIBLE="61"/>
-      <ECHEANCE DATE="2026-03-23T00:00:00" FF1="30" DD1="NE" FF2="35" DD2="E" ISO0="1400" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
       <ECHEANCE DATE="2026-03-23T06:00:00" FF1="20" DD1="NE" FF2="25" DD2="E" ISO0="1400" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
       <ECHEANCE DATE="2026-03-23T12:00:00" FF1="15" DD1="NE" FF2="20" DD2="NE" ISO0="1500" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-03-23T18:00:00" FF1="20" DD1="E" FF2="20" DD2="NE" ISO0="2200" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
@@ -91,13 +85,12 @@ Limite d'enneigement skiable : au plus bas à 1400/1500 m en ubacs bien protég�
       <ECHEANCE DATE="2026-03-28T12:00:00" FF1="15" DD1="N" FF2="20" DD2="NO" ISO0="2300" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-03-28T18:00:00" FF1="25" DD1="N" FF2="30" DD2="NO" ISO0="2000" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
       <ECHEANCE DATE="2026-03-29T00:00:00" FF1="20" DD1="N" FF2="25" DD2="NO" ISO0="1500" PLUIENEIGE="1000" TEMPSSENSIBLE="61"/>
+      <ECHEANCE DATE="2026-03-29T06:00:00" FF1="20" DD1="N" FF2="25" DD2="NO" ISO0="1300" PLUIENEIGE="900" TEMPSSENSIBLE="61"/>
+      <ECHEANCE DATE="2026-03-29T12:00:00" FF1="25" DD1="N" FF2="30" DD2="E" ISO0="1500" PLUIENEIGE="900" TEMPSSENSIBLE="61"/>
+      <ECHEANCE DATE="2026-03-29T18:00:00" FF1="25" DD1="N" FF2="25" DD2="NE" ISO0="2000" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
+      <ECHEANCE DATE="2026-03-30T00:00:00" FF1="15" DD1="NE" FF2="15" DD2="NO" ISO0="2000" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-03-22T00:00:00" LimiteSud="1300" LimiteNord="1300">
-        <NIVEAU ALTI="1500" N="25" S="10"/>
-        <NIVEAU ALTI="2000" N="100" S="40"/>
-        <NIVEAU ALTI="2500" N="140" S="90"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-03-23T00:00:00" LimiteSud="1400" LimiteNord="1400">
         <NIVEAU ALTI="1500" N="25" S="15"/>
         <NIVEAU ALTI="2000" N="100" S="30"/>
@@ -128,23 +121,28 @@ Limite d'enneigement skiable : au plus bas à 1400/1500 m en ubacs bien protég�
         <NIVEAU ALTI="2000" N="90" S="0"/>
         <NIVEAU ALTI="2500" N="140" S="70"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-03-29T00:00:00" LimiteSud="1400" LimiteNord="1400">
+        <NIVEAU ALTI="1500" N="5" S="5"/>
+        <NIVEAU ALTI="2000" N="100" S="10"/>
+        <NIVEAU ALTI="2500" N="150" S="80"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-03-23T00:00:00" SS24Min="1" SS24Max="10"/>
       <NEIGE24H DATE="2026-03-24T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-03-25T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-03-26T00:00:00" SS24Min="1" SS24Max="2"/>
       <NEIGE24H DATE="2026-03-27T00:00:00" SS24Min="0" SS24Max="1"/>
       <NEIGE24H DATE="2026-03-28T00:00:00" SS24Min="0" SS24Max="0"/>
+      <NEIGE24H DATE="2026-03-29T00:00:00" SS24Min="5" SS24Max="10"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-03-22T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-03-23T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-03-24T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-03-25T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-03-26T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-03-27T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-03-28T00:00:00" RISQUEMAXI="2"/>
+      <RISQUE DATE="2026-03-29T00:00:00" RISQUEMAXI="2"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_17.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_17.png</Image7derniersjours_portrait>
