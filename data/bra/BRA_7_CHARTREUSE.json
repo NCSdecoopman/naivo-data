@@ -3,8 +3,8 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-03-29T16:00:00",
-    "valid_until": "2026-03-30T18:00:00",
+    "issued_at": "2026-03-30T17:00:00",
+    "valid_until": "2026-03-31T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-31",
+        "date": "2026-04-01",
         "label": "Indice de risque limité",
-        "comment": "Mardi, le risque devrait peu évoluer. La bise de Nord souffle fort en altitude, notamment vers les crêtes Temps plus ou moins nuageux avec quelques éclaircies par moments. Atmosphère toujours fraîche avec un isotherme 0°C vers 900 m le matin, 1300 m l'après-midi.",
+        "comment": "Mercredi, le risque évolue peu. Le vent, encore fort en matinée, faiblit en journée. Temps toujours assez nuageux, même si de belles éclaircies sont possibles par moment. L'atmosphère est toujours fraîche.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-25",
-          "min_cm": 15,
-          "max_cm": 30
-        },
-        {
           "date": "2026-03-26",
           "min_cm": 10,
           "max_cm": 20
@@ -99,28 +94,33 @@
         {
           "date": "2026-03-29",
           "min_cm": 0,
-          "max_cm": 2
+          "max_cm": 0
         },
         {
           "date": "2026-03-30",
-          "min_cm": 2,
-          "max_cm": 8
+          "min_cm": 5,
+          "max_cm": 10
+        },
+        {
+          "date": "2026-03-31",
+          "min_cm": 0,
+          "max_cm": 2
         }
       ],
       "totals": {
-        "last_48h_min_cm": 2,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 12
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES NOUVELLES INSTABILITÉS DANS LA NEIGE VENTÉE, LOCALEMENT RÉACTIVES.",
-      "text": "QUELQUES NOUVELLES INSTABILITÉS DANS LA NEIGE VENTÉE, LOCALEMENT RÉACTIVES.\n\nDéclenchements provoqués : Quelques nouvelles plaques à vent se forment ce lundi, avec le renforcement du vent de Nord qui peut à nouveau transporter de la neige récente. Plus le vent est fort, plus elles ont tendance à être situées loin des crêtes et en bas de pente. Elles peuvent se retrouver en tout versant. Le plus souvent, elles sont difficiles à déclencher et d'aspect dur, mais localement il n'est pas exclu que de rares plaques présentent un aspect un peu plus friable, tout en étant plus réactives au passage d'un pratiquant. La petite couche de neige fraîche attendue en fin de journée et soirée de lundi (2 à 8 cm) tombe très ventée et ne vient pas fondamentalement changer la donne. Observables : zones d'accumulations, congères, signes du travail par le vent...\n\nDéparts spontanés : - Lundi en cours de journée et soirée, une rare rupture de corniche et/ou de plaque, engendrant une avalanche de taille 1 à 2, est possible dans les pentes chargées par le vent de Nord, qui se renforce à nouveau nettement en altitude.\n- Surtout lundi matin, rares coulées humides de taille 1 dans les pentes ensoleillées en cas d'éclaircies, dans la neige récente qui peut s'humidifier au soleil et près des rochers.\n\nAutres : Les surfaces décapées par le vent près des crêtes sont parfois en glace, et peuvent être très glissantes.",
+      "title": "NOUVELLES INSTABILITES DANS LA NEIGE FRAICHE VENTEE, SURTOUT EN LARGE SUD",
+      "text": "NOUVELLES INSTABILITES DANS LA NEIGE FRAICHE VENTEE, SURTOUT EN LARGE SUD \n\nNouveau passage perturbé apportant 5 à 15cm de neige fraîche sur le massif d'ici mardi matin. Ces chutes de neige s'accompagnent d'un vent de secteur Nord parfois tempétueux. \nDéclenchements provoqués : De nouvelles plaques se forment sous ces chutes de neige nocturnes, puis sous le vent de Nord en journée de mardi. Elles peuvent se retrouver en tout versant, mais sont généralement plus nombreuses et plus épaisses en large Sud où la neige s'accumule, tandis que les versants Nord sont plus régulièrement dégarnis par le vent. Les plaques sont généralement de petites tailles, parfois moyennes ( 15-30cm d'épais, faibles largeurs), mais peuvent être localement assez réactives, notamment là où elles sont d'aspect friables. \nObservables : transport en cours, zones d'accumulations, congères, signes du travail par le vent...\n\nDéparts spontanés : Principalement en versants Sud, des ruptures de plaques (de tailles petites, rarement moyennes) sont possibles dans les pentes qui se chargent sous le vent de Nord. Le vent étant particulièrement fort, ces ruptures peuvent se produire même loin des crêtes. Sous les éclaircies en journée, quelques coulées de petites tailles sont possibles en pentes raides ensoleillées. Départs seulement sous les rochers, en secteurs peu ventés (donc plutôt à basse altitude). \n\nAutres : Suite au faible épisode de pluie vitrifiante de lundi, des surfaces verglacées peuvent apparaître près des crêtes et dans les pentes exposées au vent de Nord, rendant la progression délicate sans équipement adapté.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  LL'enneigement est bon à basse altitude, et même très bon en haut du massif, mais avec des répartitions assez hétérogènes à cause du vent.  Peu de sous couche sous 1700m en plein Sud.\nLimites skiables : Vers 1000 / 1200m selon le versant, avec prudence en Sud / sous les sapins \n\nQualité de la neige lundi : Neige récente souvent travaillée ou soufflée par le vent dans de nombreux endroits. Le manteau neigeux est parfois très irrégulier. Présence de congères et de corniches. Certaines crêtes et pentes les plus ventées, où la neige a été arrachée, peuvent être dégarnies et le ski se fait parfois sur la vieille croûte de regel. Toutefois, on retrouve des secteurs en neige poudreuse plus agréable, surtout loin des crêtes /en bas de pentes / dans les arbres. A noter que dans certaines pentes ayant été exposées au soleil, la neige récente s'est parfois humidifiée, on peut alors y retrouver des surfaces croûtées glissantes. L'après-midi et le soir, une petite couche de neige fraîche peut se déposer, mais elle est souvent ventée.",
+      "text": "Qualification de l’enneigement :  L'enneigement est bon à basse altitude, et même très bon dés 1800 / 2000m mais avec des répartitions assez hétérogènes à cause du vent. Peu de sous couche sous 1700m en plein Sud.\nLimites skiables : Vers 1000 / 1200m selon le versant, avec prudence en Sud / sous les sapins \n\nQualité de la neige mardi : Neige de qualité très variable sur le massif. La plupart du temps, neige récente fraîche travaillée ou cartonnée par le vent dans de nombreux endroits (notamment versants Sud). Les crêtes et pentes exposées au vent de Nord sont souvent pelés, et présentent parfois une couche de glace vive, formée par un épisode de pluie vitrifiante ce lundi après-midi. On peut encore retrouver quelques combes en poudreuse, à priori plutôt celles abritées du vent de Nord ( où la neige aura été soufflée, ou parfois croûtée par la pluie). \nEn journée, la neige de surface s'humidifie au soleil, dans les pentes protégées du vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

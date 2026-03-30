@@ -3,49 +3,61 @@
   "massif": "Vanoise",
   "bulletin": {
     "id": 10,
-    "issued_at": "2026-03-29T16:00:00",
-    "valid_until": "2026-03-30T18:00:00",
+    "issued_at": "2026-03-30T16:00:00",
+    "valid_until": "2026-03-31T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2200,
+        "split_axis": "horizontal",
+        "split_label": "2200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2200",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2200",
+            "risk": 3,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2200m"
         },
         "zones": {
-          "center": {
+          "bottom": {
             "text": "2",
             "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-31",
+        "date": "2026-04-01",
         "label": "Indice de risque limité",
-        "comment": "Temps calme encore assez nuageux sauf haute altitude. Risque stationnaire si la chute de neige attendue ce lundi reste dans la fourchette de prévision.",
-        "trend": "steady"
+        "comment": "Retour du soleil, stabilisation rapide des quelques plaques formées ce lundi et mardi. Humidification de surface au soleil même si l'air reste  encore frais pour la saison.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -55,9 +67,9 @@
         "E": true,
         "SE": true,
         "S": true,
-        "SW": true,
-        "W": true,
-        "NW": true
+        "SW": false,
+        "W": false,
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -66,21 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": null,
+      "primary": 1,
+      "secondary": 2,
       "labels": {
+        "1": "Neige fraîche",
         "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-25",
-          "min_cm": 15,
-          "max_cm": 20
-        },
         {
           "date": "2026-03-26",
           "min_cm": 3,
@@ -103,29 +111,34 @@
         },
         {
           "date": "2026-03-30",
-          "min_cm": 5,
+          "min_cm": 3,
           "max_cm": 10
+        },
+        {
+          "date": "2026-03-31",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 11
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOUVEAU EPISODE DE NEIGE ET VENT FORT SUR UN MANTEAU GLOBALEMENT ASSEZ BIEN STABILISÉ.",
-      "text": "NOUVEAU EPISODE DE NEIGE ET VENT FORT SUR UN MANTEAU GLOBALEMENT ASSEZ BIEN STABILISÉ.\n\nDéclenchements provoqués : Quelques plaques en neige ventée, très localisées mais possible un peu en tous versants. D'une part, il subsiste d'anciennes plaques datant des épisodes de la semaine dernière, elles sont plutôt dures et désormais assez  peu réactives au passage d'un skieur.  D'autre part, la petite chute de neige attendu ce lundi après midi et l'épisode  de vent fort, vont créer quelques  nouvelles  instabilités sous le vent de Nord et souvent loin des crêtes pelées par les nombreux épisodes de vent. Les cassures sont limitées, généralement 20-30 cm, jusqu'à 50 cm si une plaque dure un peu plus ancienne est déclenchée, donnant alors une avalanche de taille moyenne. \nObservables : fissures sous les skis, accumulation de neige un peu plus dense derrière une rupture de pente  loin des crêtes.\n\nDéparts spontanés : peu probable. En fin de journée et soirée le transport de neige par le vent pourrait finir par faire se décrocher spontanément  une plaque dans un secteur de dépot sous le vent de Nord à Nord-ouest",
+      "title": "L'hiver fait de la résistance avec du vent fort en altitude,  du froid pour la saison  et quelques chutes de neige attendues dans la nuit de lundi à mardi. Nouvelles plaques en formation dans ces conditions.",
+      "text": "L'hiver fait de la résistance avec du vent fort en altitude,  du froid pour la saison  et quelques chutes de neige attendues dans la nuit de lundi à mardi. Nouvelles plaques en formation dans ces conditions.  \n\nDéclenchements provoqués : Quelques nouvelles plaques en formation avec la neige fraiche ventée attendue ce lundi soir.  Avec 10/15 cm attendu au mieux à l'ouest et sud du massif,  ces nouvelles plaques ne devraient pas être bien épaisses en général  mais attention toutefois aux zones d'accumulations sous le vent . Vent de Nord qui va d'ailleurs  continuer de souffler demain mardi sur les crêtes  faisant peu à peu grossir ces nouvelles plaques. Ce mardi elles seront temporairement  sensible au passage d'un skieur, généralement peu étendu avec cassure de 30 à 50 cm possible. taille 1 à 2.  Elles seront présentes  surtout au dessus de 2200m ( limite haute des arbres) et plus fréquentes en Est et Sud souvent loin des crêtes qui sont elles souvent décapés par le vent.  On pourra aussi en trouver quelques unes en nord derrière une rupture de pente là aussi loin des crêtes.   \nDéparts spontanés : Peu probable, à part quelques petites purges de neige fraiche s'humidifiant au soleil dans les rares pentes ouest raides qui verront suffisamment de soleil pour chauffer en fin de journée.  Escargots,  boulettes partant sous les rochers et au plus une taille 1.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige :  En Nord,  neige poudreuse peu épaisse 5/10cm en général 15/20 au mieux , légère, sur un fond généralement plus ferme . \nEn sud la neige fraiche s'est alourdi et est maintenant souvent croutée avec juste le léger saupoudrage  de ce samedi par dessus.  \nEn cours de journée de lundi, dans les secteurs qui vont prendre le vent,  les conditions de ski vont se dégrader avec du carton/ neige dure en remplacement progressif de la petite couche de poudre.",
+      "text": "Enneigement : Encore un peu au dessus de la moyenne grâce à cette petite séquence hivernale retardant depuis quelques  jours l'inéluctable fonte printanière.  \nLimite skiable : vers 1200/1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige :  neige poudreuse à l'abri du vent donc essentiellement à basse altitude dans les zones boisées ou au moins avec quelques arbres isolés.  Au dessus de la ligne des arbres neige le plus souvent cartonnée à durcie par le vent, aspect poudreux à l'abri du vent seulement.  \nCrêtes et cols en neige ventée très dure, ou en glace notamment en Lauzière suite petit épisode de pluie verglaçante de ce lundi après midi.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1000,
+        "north": 1200,
         "south": 1600
       },
       "levels_cm": [

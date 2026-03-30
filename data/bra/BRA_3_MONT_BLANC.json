@@ -3,49 +3,61 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-03-29T16:00:00",
-    "valid_until": "2026-03-30T18:00:00",
+    "issued_at": "2026-03-30T16:00:00",
+    "valid_until": "2026-03-31T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
+            "risk": 3,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
             "text": "2",
             "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-03-31",
+        "date": "2026-04-01",
         "label": "Indice de risque limité",
-        "comment": "Petite chute de neige la nuit de lundi à mardi, formant de nouvelles plaques friables. Tempête et plaques à vent en haute-montagne.",
-        "trend": "steady"
+        "comment": "Le soleil contribue à stabiliser les plaques, les plaques à vent restent sensibles en altitude.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -77,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-25",
-          "min_cm": 30,
-          "max_cm": 45
-        },
-        {
           "date": "2026-03-26",
           "min_cm": 15,
           "max_cm": 20
@@ -93,34 +100,39 @@
         },
         {
           "date": "2026-03-28",
-          "min_cm": 3,
-          "max_cm": 10
+          "min_cm": 8,
+          "max_cm": 15
         },
         {
           "date": "2026-03-29",
-          "min_cm": 0,
-          "max_cm": 0
+          "min_cm": 1,
+          "max_cm": 1
         },
         {
           "date": "2026-03-30",
-          "min_cm": 8,
-          "max_cm": 12
+          "min_cm": 5,
+          "max_cm": 20
+        },
+        {
+          "date": "2026-03-31",
+          "min_cm": 2,
+          "max_cm": 3
         }
       ],
       "totals": {
-        "last_48h_min_cm": 8,
-        "last_48h_max_cm": 12
+        "last_48h_min_cm": 7,
+        "last_48h_max_cm": 23
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "",
-      "text": "Déclenchements provoqués :\n* Plaques à vent dans la neige récente. Plaques friables pour la plupart, éventuellement dures en secteurs très ventés. Formées sous l'effet du vent de N/NE ce week-end. Petite prudence dans les Aiguilles Rouges, ainsi que de Balme au glacier d'Argentière, où le vent de NE a soufflé fort (au moins une plaque à vent signalée ce dimanche, déclenchée par des randonneurs vers 2600 m).\n* Formation de nouvelles plaques ce lundi sous l'effet du vent de NW (40/60 km/h au-dessus de 2800/3000 m). Plaques pas très larges, cassure 30/50 cm, localement réactives. Taille 1 à 2 (petite à moyenne).\nObservables : accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance. \n* Anecdotique mais pas impossible : ces plaques reposent localement sur une couche fragile persistante enfouie. En versants N, au-dessus de 2200 m. Déclenchement par skieur très peu probable, mais départ possible en cascade (un première avalanche, ou une chute de corniche, déclenche une plaque épaisse). Taille 2 à 3 (moyenne à grande).\n\nDéparts spontanés :\nQuelques accumulations de neige récente peuvent céder dans des pentes très raides, ou des entrées de couloirs chargés par le vent de NW, surtout au-dessus de 2800 m. Départs ponctuels ou en plaques peu larges. Taille 1, éventuellement 2.",
+      "title": "Nouvelles plaques à vent sous la forte Bise de NNE.",
+      "text": "Nouvelles plaques à vent sous la forte Bise de NNE. \n\nDéclenchements provoqués :\nPlaques à vent dans la neige récente subsistent encore mais sont désormais moins réactives. De nouvelles plaques se forment dans la neige fraiche sous le vent de NNE dans la nuit de lundi à mardi et continuent de se former mardi en journée. Elles sont plus nombreuses et plus épaisses au-dessus de 2000 m. La Bise de NNE souffle fort, les plaques se trouvent jusqu'en milieu des pentes, parfois loin des crêtes. Elles sont souvent dures (parfois encore friables), très réactives au passage d'un skieur. Les cassures sont entre 20/30 cm et parfois 50/60 cm. Taille 1 à 2, rarement 3 (petite à moyenne, rarement 3).\nObservables : accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance. \n* Anecdotique mais pas impossible : ces plaques reposent localement sur une couche fragile persistante enfouie. En versants N, au-dessus de 2200 m. Déclenchement par skieur très peu probable, mais départ possible en cascade (une première avalanche, ou une chute de corniche, déclenche une plaque épaisse). Taille 2 à 3 (moyenne à grande).\n\nDéparts spontanés :\nQuelques accumulations de neige récente peuvent céder dans des pentes très raides, ou des entrées de couloirs chargés par le vent de NO puis de NE en journée mardi, surtout au-dessus de 2800 m. Départs ponctuels ou en plaques peu larges. Taille 1, éventuellement 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nBon pour une fin mars. On peut chausser skis ou raquettes dès 1200/1300 m. Attention, absence de sous-couches sous 1500/1600 m en versants S.\n\nQualité de la neige ce lundi :\nNeige majoritairement froide, dense, souple, sauf en versants S sous 2200 m où elle est déjà un peu croûtée. Neige soufflée dans les secteurs soumis à la Bise (Aiguilles Rouges, Balme, Autannes) ou au vent de NW. Arêtes dures, longues portions en glace en haute-montagne.",
+      "text": "Enneigement : \nBon pour une fin mars. On peut chausser skis ou raquettes dès 1200/1300 m. Attention, absence de sous-couches sous 1500/1600 m en versants S.\n\nQualité de la neige ce mardi :\n5/15 cm de neige fraiche reposant sur une neige encore froide, dense, souple, sauf en versants S sous 2000 m où elle est déjà un peu croûtée. Neige soufflée dans les secteurs soumis à la Bise. Dure ou glacée près des crêtes.\nNombreuses corniches et accumulations/congères. Arêtes dures, longues portions en glace en haute-montagne.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
