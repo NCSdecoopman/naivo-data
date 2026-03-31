@@ -3,73 +3,61 @@
   "massif": "Aure Louron",
   "bulletin": {
     "id": 67,
-    "issued_at": "2026-03-30T17:00:00",
-    "valid_until": "2026-03-31T18:00:00",
+    "issued_at": "2026-03-31T16:00:00",
+    "valid_until": "2026-04-01T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
+      "max_level": 4,
+      "comment": "Indice de risque marqué évoluant en fort.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2200,
-        "split_axis": "horizontal",
-        "split_label": "2200m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2200",
+            "loc": null,
             "risk": 3,
-            "evolution_to": null,
-            "position": "top"
+            "evolution_to": 4,
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2200m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "3",
-            "risk": 3,
-            "evolution_to": null
+          "center": {
+            "text": "3→4",
+            "risk": 4,
+            "evolution_to": 4
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-04-01",
-        "label": "Indice de risque marqué",
-        "comment": "Risque en hausse : chutes de neige en journée de mercredi, cumuls possiblement importants",
+        "max_level": 4,
+        "date": "2026-04-02",
+        "label": "Indice de risque fort",
+        "comment": "Maintien d'un risque fort dans une ambiance encore ventée de Nord. Nouvelles chutes de neige à venir.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
+        "N": true,
         "NE": true,
         "E": true,
         "SE": true,
         "S": true,
         "SW": true,
-        "W": false,
-        "NW": false
+        "W": true,
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -78,21 +66,16 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 1,
       "secondary": null,
       "labels": {
-        "2": "Neige ventée"
+        "1": "Neige fraîche"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-26",
-          "min_cm": 0,
-          "max_cm": 3
-        },
         {
           "date": "2026-03-27",
           "min_cm": 0,
@@ -115,24 +98,29 @@
         },
         {
           "date": "2026-03-31",
-          "min_cm": 7,
-          "max_cm": 12
+          "min_cm": 13,
+          "max_cm": 20
+        },
+        {
+          "date": "2026-04-01",
+          "min_cm": 24,
+          "max_cm": 38
         }
       ],
       "totals": {
-        "last_48h_min_cm": 9,
-        "last_48h_max_cm": 17
+        "last_48h_min_cm": 37,
+        "last_48h_max_cm": 58
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Formation de nouvelles plaques, reposant sur un manteau pas encore stabilisé en altitude",
-      "text": "Formation de nouvelles plaques, reposant sur un manteau pas encore stabilisé en altitude\n\nDéclenchements provoqués : \nDes plaques se forment dans les expositions à l'abri du vent de nord à nord-ouest. Elles se situent plutôt à proximité des cols et crêtes, formées par un vent modéré. Elles sont probablement moins fréquentes vers le fond de chaîne où les quantités de neige attendues sont moins importantes\n- Sous 2200m, elles se forment sur un manteau humidifié puis regelé, et engendrent des avalanches de petite taille en général, des moyennes deviennent possibles en journée au fil des chutes de neige. \n- Au-dessus de 2200m, les plaques sont plus épaisses et plus facilement déclenchables, reposant dans les zones déventées sur des accumulations encore instables formées par le vent fort de dimanche, qu'elles ont tendance à masquer visuellement. Les nouvelles plaques étant encore assez peu épaisses, il est possible de détecter les accumulations de dimanche par le changement de sous-couche, passant de très dure à plus meuble où le déclenchement devient plus facile.\n\nDéparts spontanés : \nPrincipalement des départs ponctuels au fil des chutes de neige, dans les pentes raides, préférentiellement dans les versants sous le vent. En général de petite taille, des moyennes sont possibles au-dessus de 2300m.",
+      "title": "Chutes de neige marquées, formation de plaques épaisses en altitude reposant sur un manteau neigeux instable.",
+      "text": "Chutes de neige marquées, formation de plaques épaisses en altitude reposant sur un manteau neigeux instable.\n\nDéclenchements provoqués : \nAu-dessus de 2200m, des plaques à vent se forment au fil des chutes de neige de ce mercredi dans les pentes raides préférentiellement à l'abri du vent de Nord à Nord-Est (large secteur Sud, en y ajoutant l'Ouest et l'Est). Ces plaques à vent sont de plus en plus épaisses au fil de chutes de neige et sont aussi susceptibles de se trouver dans les autres versants avec du vent fort de Nord à Nord-Est. Elles viennent reposer sur des plaques déjà formées la veille et en place mercredi matin, masquant elles-mêmes les accumulations du week-end qui ne sont pas encore totalement stabilisées. Un simple skieur peut ainsi facilement solliciter ces plaques, et ainsi engendrer des avalanches moyennes à grandes dès la matinée (taille 2 à 3), parfois même de très grandes avalanches (taille 4) au fil des chutes de neige de la journée et dans les zones d'accumulation importantes.\nSous 2200m, les plaques en cours de formation viennent reposer sur les plaques de la veille déjà en place le matin, elles-mêmes reposant sur un manteau dur à regelé. Elles sont aussi facilement déclenchables par un simple skieur, engendrant des cassures linéaires moyennes à grandes (taille 2 à 3) au fil des chutes de neige et de la journée.\n\nDéparts spontanés : \nAvec les chutes de neige attendues, des avalanches moyennes à grandes sont attendues dès mercredi matin en tous versants raides. Au fur et à mesure des chutes de neige de la journée, les cumuls de neige augmentent nettement, donnant lieu à de nombreuses avalanches de tailles moyennes à grandes (taille 2 à 3), voire de très grandes avalanches (taille 4), notamment en partant de couloirs très chargés ou de zones d'accumulation raides à l'abri du vent de Nord, donc plutôt des secteurs Nord-Est à Sud-Ouest.\nIl est aussi possible d'avoir des départs ponctuels des plaques décrites ci-dessus, au-dessus de 2200m, par surcharge par le vent, engendrant des avalanches moyennes à grandes (taille 2 à 3), parfois même de très grandes avalanches (taille 4) au fil des chutes de neige de la journée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Correct pour la saison au-dessus de 1800m, mais restant assez maigre en versants exposés aux vents de nord à ouest. Les nouvelles chutes de neige blanchissent les sols vers 1300m mardi matin\nÉtat de la neige : Mardi matin, quelques centimètres de neige fraîche, peu ventée, couche s'épaississant en journée,  recouvrant un manteau en général printanier sous 2200m, assez bien regelé. Plus haut, la neige fraîche recouvre un manteau irrégulier alternant surfaces dures pelées par le vent et accumulations plus meubles.",
+      "text": "Enneigement : Correct pour la saison au-dessus de 1800m, mais restant assez maigre en versants exposés aux vents de nord à ouest. Chutes de neige importantes attendues ce mercredi, poursuivant celles de mardi, les cumuls de neige vont nettement augmenter au fil de la journée. Des centimètres de neige supplémentaires sont attendues dès 1300m ce mercredi.\nÉtat de la neige : Mercredi matin, plusieurs centimètres de neige fraîche datant de la veille et de la nuit. Cette couche de neige s'épaissit considérablement au fil des chutes de neige de la journée, recouvrant un manteau neigeux en général printanier sous 2000m, bien regelé. Plus haut, la neige fraîche est de plus en plus travaillée par le vent de Nord, alternant surface dures pelées par le vent et accumulations plus meubles.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -143,18 +131,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 10,
-          "S": 10
+          "N": 15,
+          "S": 15
         },
         {
           "alt_m": 2000,
-          "N": 170,
-          "S": 50
+          "N": 180,
+          "S": 60
         },
         {
           "alt_m": 2500,
-          "N": 280,
-          "S": 185
+          "N": 290,
+          "S": 195
         }
       ],
       "icon_key": "snowpack",

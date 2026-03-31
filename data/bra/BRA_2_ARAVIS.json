@@ -3,8 +3,8 @@
   "massif": "Aravis",
   "bulletin": {
     "id": 2,
-    "issued_at": "2026-03-30T16:00:00",
-    "valid_until": "2026-03-31T18:00:00",
+    "issued_at": "2026-03-31T16:00:00",
+    "valid_until": "2026-04-01T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-01",
+        "date": "2026-04-02",
         "label": "Indice de risque limité",
-        "comment": "Le soleil contribue à stabiliser les plaques, les plaques à vent restent sensibles en altitude.",
+        "comment": "Les instabilités temporaires dues au vent diminuent rapidement avec la nette baisse du vent en soirée de mercredi.",
         "trend": "down"
       }
     },
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-26",
-          "min_cm": 10,
-          "max_cm": 15
-        },
-        {
           "date": "2026-03-27",
           "min_cm": 0,
           "max_cm": 0
@@ -115,24 +110,29 @@
         },
         {
           "date": "2026-03-31",
-          "min_cm": 1,
-          "max_cm": 1
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-04-01",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 6,
-        "last_48h_max_cm": 16
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nouvelles plaques à vent sous la forte Bise de NNE.",
-      "text": "Nouvelles plaques à vent sous la forte Bise de NNE. \n\nDéclenchements provoqués :\nPlaques à vent dans la neige récente subsistent encore mais sont désormais moins réactives. De nouvelles plaques se forment dans la neige fraiche sous le vent de NNE dans la nuit de lundi à mardi et continuent de se former mardi en journée. Elles sont plus nombreuses et plus épaisses au-dessus de 2000 m. La Bise de NNE souffle fort, les plaques se trouvent jusqu'en milieu des pentes, parfois loin des crêtes. Elles sont souvent dures (parfois encore friables), très réactives au passage d'un skieur. Les cassures sont entre 20/30 cm et parfois 50/60 cm. Taille 1 à 2, rarement 3 (petite à moyenne, rarement 3).\nObservables : accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance. \n\nDéparts spontanés :\nQuelques départs spontanés à cause du vent sont possibles. Taille 1 et rarement 2.",
+      "title": "Nouvelles plaques à vent sous la Bise de NNE.",
+      "text": "Nouvelles plaques à vent sous la Bise de NNE. \n\nDéclenchements provoqués :\nQuelques plaques à vent dans la neige récente, elles continuent de se former mercredi en journée sous le vent de NNE.  Elles sont friables voir dures, réactives au passage d'un skieur. Elles sont proches des crêtes (qui auront moins pris le vent) ou derrière les ruptures de pente. La Bise de NNE a soufflé fort ce lundi, les plaques peuvent aussi localement se trouver jusqu'en milieu des pentes, loin des crêtes (souvent décapées). Les cassures sont entre 20/30 cm et parfois 50/60 cm dans les accumulations. Taille 1 à 2, rarement 3 (petite à moyenne, rarement 3).\nObservables : accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance. \n\nDéparts spontanés :\nRares voir quelques départs spontanés à cause du vent sont encore possibles. Taille 1.\nRares coulées de neige humide sous une éclaircie dans les versants ensoleillés (sous les rochers), mais très limité à cause du vent. Taille 1.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nBon pour une fin mars. On peut chausser skis ou raquettes dès 1200/1300 m. Attention, absence de sous-couches sous 1500/1600 m en versants S.\n\nQualité de la neige ce mardi :\n5/15 cm de neige fraiche reposant sur une neige encore froide, dense, souple, sauf en versants S sous 2000 m où elle est déjà un peu croûtée. Neige soufflée dans les secteurs soumis à la Bise. Dure ou glacée près des crêtes.\nNombreuses corniches et accumulations/congères.",
+      "text": "Enneigement : \nBon pour une fin mars. On peut chausser skis ou raquettes dès 1200/1300 m. Attention, absence de sous-couches sous 1500/1600 m en versants S.\n\nQualité de la neige ce mercredi :\nSous 2000 m : 5/15 cm de neige récente reposant sur une neige encore froide, présence d'une croute en profondeur sauf en Nord. Dans les versants ensoleillés, la neige s'humidifie en surface. \nAu-dessus de 2000 m : 5/20 cm de neige récente, soufflée dans les secteurs soumis à la Bise. Dure ou glacée près des crêtes.\nNombreuses corniches et accumulations/congères.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -148,13 +148,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 90,
-          "S": 60
+          "N": 95,
+          "S": 65
         },
         {
           "alt_m": 2000,
-          "N": 200,
-          "S": 150
+          "N": 210,
+          "S": 160
         }
       ],
       "icon_key": "snowpack",

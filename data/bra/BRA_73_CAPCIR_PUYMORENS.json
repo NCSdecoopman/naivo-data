@@ -3,49 +3,37 @@
   "massif": "Capcir Puymorens",
   "bulletin": {
     "id": 73,
-    "issued_at": "2026-03-30T17:00:00",
-    "valid_until": "2026-03-31T18:00:00",
+    "issued_at": "2026-03-31T16:00:00",
+    "valid_until": "2026-04-01T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
+      "comment": "Indice de risque marqué.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2200,
-        "split_axis": "horizontal",
-        "split_label": "2200m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2200",
+            "loc": null,
             "risk": 3,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2200m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
+          "center": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -53,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 4,
-        "date": "2026-04-01",
-        "label": "Indice de risque fort",
-        "comment": "Risque marqué pouvant devenir fort du fait des fortes chutes de neige attendues jusque dans la nuit de mercredi à jeudi",
-        "trend": "up"
+        "max_level": 3,
+        "date": "2026-04-02",
+        "label": "Indice de risque marqué",
+        "comment": "Maintien d'un risque marqué avec de nouvelles chutes de neige et un manteau encore peu stabilisé",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -78,21 +66,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": null,
+      "primary": 1,
+      "secondary": 2,
       "labels": {
+        "1": "Neige fraîche",
         "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-26",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-27",
           "min_cm": 0,
@@ -115,24 +99,29 @@
         },
         {
           "date": "2026-03-31",
-          "min_cm": 7,
-          "max_cm": 15
+          "min_cm": 5,
+          "max_cm": 10
+        },
+        {
+          "date": "2026-04-01",
+          "min_cm": 15,
+          "max_cm": 30
         }
       ],
       "totals": {
-        "last_48h_min_cm": 8,
-        "last_48h_max_cm": 20
+        "last_48h_min_cm": 20,
+        "last_48h_max_cm": 40
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Instabilités dans les chutes de neige ventée récentes ou en cours",
-      "text": "Instabilités dans les chutes de neige ventée récentes ou en cours\n\nDéclenchements provoqués :\nAvalanches de plaques déclenchables au passage d'un skieur : de nouvelles structures de plaques, parfois loin des crêtes, sont présentes et se forment par transport de la neige par un vent turbulent et de direction variable. Les accumulations sont plutôt à attendre dans les versants d'un large Sud à Est, mais pas seulement. Les secteurs proches de l'Ariège sont les plus concernés (Nord du Capcir, vallée du Galbe). Au-dessous de 2200m le déclenchement d'une avalanche de plaques semble plus difficile.\nObservables : Quantité de neige fraiche, surface hétérogène travaillée par le vent, fissures devant les skis, \"woomfs\".\n\nDéparts spontanés :\nDes départs spontanés en neige sèche sont possibles, par surcharge pendant les chutes de neige et/ou par transport de neige par le vent. Les départs sont le plus souvent ponctuels générant de petites avalanches, mais quelques cassures linéaires sont également possibles occasionnant des avalanches de taille moyenne, rarement grandes.",
+      "title": "Instabilités dans la neige fraiche",
+      "text": "Instabilités dans la neige fraiche \n\nDéparts spontanés :\nDes départs ponctuels ou linéaires d'avalanches de neige fraiche sont attendus dans les pentes raides en toutes orientations.  Ces avalanches seront de plus en plus nombreuses et volumineuses au fil des heures et en prenant de l'altitude : de taille petite à moyenne en matinée, moyenne à grande en fin d'échéance avec des précipitations qui se renforcent en fin d'après-midi et soirée. \nFacteurs aggravants : le vent turbulent qui souffle encore fort et qui formera des accumulations parfois loin des crêtes, créant localement des surcharges additionnelles.   \n\nDéclenchements provoqués :\nDe nombreuses structures de plaques facilement déclenchables sont présentes dans la neige récente et continuent de se former avec les nouvelles chutes et le vent turbulent. Les plus épaisses sont situées préférentiellement dans un large versant sud, mais pas uniquement. Elles sont parfois difficilement détectables, masquées par les chutes récentes.  Elles donnent des avalanches de taille petite à moyenne, plus rarement grande en fin de journée.\nObservables : Quantité de neige fraiche, surface hétérogène travaillée par le vent, fissures devant les skis, \"woomfs\".\n\nAutre :\nFaible visibilité pendant les chutes et avec le transport, froid sensible avec le vent, corniches volumineuses sous les crêtes",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nL'enneigement est excellent et parmi les meilleurs de ces 20 dernières années. En altitude, les cumuls sont très conséquents, mais les crêtes et sommets exposés au vent d'ouest à nord-ouest sont parfois complètement déneigés. Les nouvelles chutes de neige redonne un aspect blanc dès 1300/1500 m sans changer vraiment l'altitude de skiabilité qui est plutôt vers 1600/1700 m avec une sous-couche permettant de skier plus sereinement.\n\nQualité de la neige : \nMardi matin on trouvera une petite couche de neige fraîche au-dessus d'une neige récente qui aura commencé à s'humidifier sous 2200m. En altitude, l’enneigement et la qualité de la neige seront assez hétérogènes sous l’action du vent soufflant depuis samedi, avec des zones d’accumulations où la neige fraîche et/ou récente reste localement légère et des crêtes Ouest à Nord-Ouest pelées ou en neige dure, voire glacée.",
+      "text": "Enneigement : \nL'enneigement est excellent et parmi les meilleurs de ces 20 dernières années. En altitude, les cumuls sont très conséquents, même si les crêtes et sommets exposés au vent d'ouest à nord-ouest sont souvent dégarnis. \nIl est envisageable de chausser les skis vers 1300m mais on retrouvera une sous-couche permettant de progresser plus sereinement plutôt à partir de 1600 m.\nQualité de la neige : \nMercredi matin on trouvera une petite couche de neige fraîche au-dessus d'une neige récente qui aura commencé à s'humidifier sous 1700m/1800m. En altitude, l’enneigement et la qualité de la neige seront hétérogènes sous l’action du vent soufflant depuis samedi, avec des zones d’accumulations où la neige fraîche et/ou récente reste localement légère et des zones proches des crêtes Ouest à Nord-Ouest pelées ou en neige dure, voire glacée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -148,13 +137,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 210,
-          "S": 90
+          "N": 215,
+          "S": 95
         },
         {
           "alt_m": 2500,
-          "N": 320,
-          "S": 210
+          "N": 325,
+          "S": 215
         }
       ],
       "icon_key": "snowpack",

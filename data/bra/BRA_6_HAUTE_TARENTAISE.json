@@ -3,61 +3,49 @@
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
-    "issued_at": "2026-03-30T16:00:00",
-    "valid_until": "2026-03-31T18:00:00",
+    "issued_at": "2026-03-31T16:00:00",
+    "valid_until": "2026-04-01T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2200,
-        "split_axis": "horizontal",
-        "split_label": "2200m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2200",
-            "risk": 3,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2200m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "2",
             "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "3",
-            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-01",
+        "date": "2026-04-02",
         "label": "Indice de risque limité",
-        "comment": "Stabilisation assez rapide des quelques plaques formées ce lundi et mardi.",
-        "trend": "down"
+        "comment": "Le temps reste frais et calme, permettant la neutralisation progressive des instabilités.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -89,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-26",
-          "min_cm": 1,
-          "max_cm": 3
-        },
-        {
           "date": "2026-03-27",
           "min_cm": 0,
           "max_cm": 0
@@ -110,46 +93,51 @@
         },
         {
           "date": "2026-03-30",
-          "min_cm": 2,
-          "max_cm": 6
+          "min_cm": 5,
+          "max_cm": 10
         },
         {
           "date": "2026-03-31",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-01",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 2,
-        "last_48h_max_cm": 6
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "L'hiver fait de la résistance avec du vent fort en altitude,  du froid pour la saison  et quelques chutes de neige attendues dans la nuit de lundi à mardi. Nouvelles plaques en formation dans ces conditions.",
-      "text": "L'hiver fait de la résistance avec du vent fort en altitude,  du froid pour la saison  et quelques chutes de neige attendues dans la nuit de lundi à mardi. Nouvelles plaques en formation dans ces conditions.  \n\nDéclenchements provoqués : Plaques friables à dures présentes dans les pentes en neige récentes travaillées par le vent. Au dessus de 2200m et en Nord les volumes mobilisables sont encore conséquents et le transport en cours ce lundi est efficace.  Demain mardi le passage d'un skieur dans une pente raide pourra alors suffire à déclencher une belle plaque récemment formée avec une cassure pouvant  facilement dépasser les 50 cm, taille 2. Ces plaques se trouveront possiblement un peu en tous versants de haute altitude ( au dessus de 2400m environ)  dès que l'on rencontre des zones d'accumulations de neige récente (  donc souvent loin des crêtes qui sont elles le plus souvent complètement gelées car décapées par le vent en cours ce lundi ). \nSous 2400m moins de neige mobilisable ce lundi  plaque possible mardi dans une accumulation mais beaucoup plus petite et localisée, taille 1.      \nDéparts spontanés :  Rares et petites purges de neige fraiche s'humidifiant au soleil dans les pentes rocheuses raides qui auront accumulées suffisamment de neige fraiche. Escargots,  boulettes partant sous les rochers et au plus une taille 1.",
+      "title": "Manteau encore hivernal, portant les stigmates du vent.",
+      "text": "Manteau encore hivernal, portant les stigmates du vent.\n\nDéclenchements provoqués : Quelques plaques sont en place, formées par le vent de secteur Nord-Ouest à Nord-Est ces dernier jours. Leur neutralisation est en cours mais elles sont encore localement réactives, surtout là où le vent a tardé à se calmer. On les trouve dans les zones d'accumulation sous le vent (croupes, ruptures de pente), plutôt loin des crêtes et jusqu'en bas des versants. Elles sont plus fréquentes entre ~2200 m (limite haute des arbres) et ~3200 m (la haute montagne est souvent pelée mais on peut trouver de profondes accumulations), ainsi que dans les versants Sud-Ouest à Est (et Nord dans une moindre mesure). Les cassures atteignent 30 à 50 cm (localement 80 cm en altitude), pour des avalanches peu larges, de taille 1 à 2 (petite à moyenne).\n\nDéparts spontanés : Quelques petites coulées sont attendues dans les pentes raides avec l'humidification de la neige fraîche par le soleil. Taille 1.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : encore un peu au dessus de la moyenne. , sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\nLimite skiable : vers 1300 m en Nord, 1700 m en Sud.\nQualité de la neige :  neige poudreuse à l'abri du vent donc essentiellement à basse altitude dans les zones boisées ou au moins avec quelques arbres isolés.  Au dessus de la ligne des arbres neige le plus souvent cartonnée à durci par le vent, aspect poudreux à l'abri du vent.  Crêtes et cols en neige ventée très dure, ou en glace avec beaucoup de cailloux.    \nL'après midi, humidification de surface au soleil (pente ouest surtout )  même si l'air reste  encore frais pour la saison.",
+      "text": "Enneigement : un peu au dessus de la moyenne, ces derniers jours hivernaux retardent quelques peu l'inéluctable fonte printanière.\n\nLimite skiable : vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige : couche de neige fraîche rendue très hétérogène par le vent : en moyenne ~10/15 cm vers 2000 m, parfois rien et l'ancienne neige est en surface, parfois plus du double dans les trous, qu'il faut viser pour faire du bon ski. Généralement densifiée par le vent, et même cartonnée à durcie près des crêtes (où les cailloux ressortent). Seules les zones très abritées ou boisées sont encore en poudre légère. Une croute peut-être présente en Sud à Ouest.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1200,
-        "south": 1400
+        "south": 1200
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 80,
-          "S": 30
+          "N": 85,
+          "S": 35
         },
         {
           "alt_m": 2000,
-          "N": 170,
-          "S": 110
+          "N": 180,
+          "S": 120
         },
         {
           "alt_m": 2500,

@@ -3,61 +3,49 @@
   "massif": "Vanoise",
   "bulletin": {
     "id": 10,
-    "issued_at": "2026-03-30T16:00:00",
-    "valid_until": "2026-03-31T18:00:00",
+    "issued_at": "2026-03-31T16:00:00",
+    "valid_until": "2026-04-01T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2200,
-        "split_axis": "horizontal",
-        "split_label": "2200m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2200",
-            "risk": 3,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2200m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "2",
             "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "3",
-            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-01",
+        "date": "2026-04-02",
         "label": "Indice de risque limité",
-        "comment": "Retour du soleil, stabilisation rapide des quelques plaques formées ce lundi et mardi. Humidification de surface au soleil même si l'air reste  encore frais pour la saison.",
-        "trend": "down"
+        "comment": "Le temps reste frais et calme, permettant la neutralisation progressive des instabilités.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -67,9 +55,9 @@
         "E": true,
         "SE": true,
         "S": true,
-        "SW": false,
-        "W": false,
-        "NW": false
+        "SW": true,
+        "W": true,
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -78,22 +66,16 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": null,
       "labels": {
-        "1": "Neige fraîche",
         "2": "Neige ventée"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-26",
-          "min_cm": 3,
-          "max_cm": 10
-        },
         {
           "date": "2026-03-27",
           "min_cm": 0,
@@ -111,46 +93,51 @@
         },
         {
           "date": "2026-03-30",
-          "min_cm": 3,
-          "max_cm": 10
+          "min_cm": 5,
+          "max_cm": 15
         },
         {
           "date": "2026-03-31",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
+        },
+        {
+          "date": "2026-04-01",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 11
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "L'hiver fait de la résistance avec du vent fort en altitude,  du froid pour la saison  et quelques chutes de neige attendues dans la nuit de lundi à mardi. Nouvelles plaques en formation dans ces conditions.",
-      "text": "L'hiver fait de la résistance avec du vent fort en altitude,  du froid pour la saison  et quelques chutes de neige attendues dans la nuit de lundi à mardi. Nouvelles plaques en formation dans ces conditions.  \n\nDéclenchements provoqués : Quelques nouvelles plaques en formation avec la neige fraiche ventée attendue ce lundi soir.  Avec 10/15 cm attendu au mieux à l'ouest et sud du massif,  ces nouvelles plaques ne devraient pas être bien épaisses en général  mais attention toutefois aux zones d'accumulations sous le vent . Vent de Nord qui va d'ailleurs  continuer de souffler demain mardi sur les crêtes  faisant peu à peu grossir ces nouvelles plaques. Ce mardi elles seront temporairement  sensible au passage d'un skieur, généralement peu étendu avec cassure de 30 à 50 cm possible. taille 1 à 2.  Elles seront présentes  surtout au dessus de 2200m ( limite haute des arbres) et plus fréquentes en Est et Sud souvent loin des crêtes qui sont elles souvent décapés par le vent.  On pourra aussi en trouver quelques unes en nord derrière une rupture de pente là aussi loin des crêtes.   \nDéparts spontanés : Peu probable, à part quelques petites purges de neige fraiche s'humidifiant au soleil dans les rares pentes ouest raides qui verront suffisamment de soleil pour chauffer en fin de journée.  Escargots,  boulettes partant sous les rochers et au plus une taille 1.",
+      "title": "Manteau encore hivernal, portant les stigmates du vent.",
+      "text": "Manteau encore hivernal, portant les stigmates du vent.\n\nDéclenchements provoqués : Quelques plaques sont en place, formées par le vent de secteur Nord-Ouest à Nord-Est ces dernier jours. Leur neutralisation est en cours mais elles sont encore localement réactives, surtout là où le vent a tardé à se calmer (notamment en Lauzière). On les trouve dans les zones d'accumulation sous le vent (croupes, ruptures de pente), plutôt loin des crêtes et jusqu'en bas des versants. Elles sont plus fréquentes entre ~2200 m (limite haute des arbres) et ~3200 m (la haute montagne est souvent pelée mais on peut trouver de profondes accumulations), ainsi que dans les versants Sud-Ouest à Est (et Nord dans une moindre mesure). Les cassures atteignent 30 à 50 cm (localement 80 cm en altitude), pour des avalanches peu larges, de taille 1 à 2 (petite à moyenne).\n\nDéparts spontanés :\n - Quelques petites coulées sont attendues dans les pentes raides avec l'humidification de la neige fraîche par le soleil. Taille 1.\n - En Lauzière, un petit départ linéaire sous le vent de Nord à Nord-Est reste possible le matin. Taille 1 à 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Encore un peu au dessus de la moyenne grâce à cette petite séquence hivernale retardant depuis quelques  jours l'inéluctable fonte printanière.  \nLimite skiable : vers 1200/1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige :  neige poudreuse à l'abri du vent donc essentiellement à basse altitude dans les zones boisées ou au moins avec quelques arbres isolés.  Au dessus de la ligne des arbres neige le plus souvent cartonnée à durcie par le vent, aspect poudreux à l'abri du vent seulement.  \nCrêtes et cols en neige ventée très dure, ou en glace notamment en Lauzière suite petit épisode de pluie verglaçante de ce lundi après midi.",
+      "text": "Enneigement : un peu au dessus de la moyenne, ces derniers jours hivernaux retardent quelques peu l'inéluctable fonte printanière.\n\nLimite skiable : vers 1200 m en Nord, 1600 m en Sud.\n\nQualité de la neige : couche de neige fraîche rendue très hétérogène par le vent : en moyenne ~10/15 cm vers 2000 m, parfois rien et l'ancienne neige est en surface, parfois plus du double dans les trous, qu'il faut viser pour faire du bon ski. Généralement densifiée par le vent, et même cartonnée à durcie près des crêtes, qui sont parfois en glace en Lauzière. Seules les zones très abritées ou boisées sont encore en poudre légère. Une croute peut-être présente en Sud à Ouest.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1200,
-        "south": 1600
+        "south": 1200
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 80,
-          "S": 0
+          "N": 85,
+          "S": 5
         },
         {
           "alt_m": 2000,
-          "N": 160,
-          "S": 70
+          "N": 170,
+          "S": 80
         },
         {
           "alt_m": 2500,

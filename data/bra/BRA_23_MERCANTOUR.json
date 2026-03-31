@@ -3,8 +3,8 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-03-30T16:00:00",
-    "valid_until": "2026-03-31T18:00:00",
+    "issued_at": "2026-03-31T16:00:00",
+    "valid_until": "2026-04-01T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,7 +54,7 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-01",
+        "date": "2026-04-02",
         "label": "Indice de risque limité",
         "comment": "Peu d'évolution de la situation nivologique. De rares instabilités persistent en altitude dans la neige ventée.",
         "trend": "steady"
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-26",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-27",
           "min_cm": 0,
           "max_cm": 0
@@ -111,34 +106,39 @@
         {
           "date": "2026-03-30",
           "min_cm": 0,
-          "max_cm": 3
+          "max_cm": 1
         },
         {
           "date": "2026-03-31",
+          "min_cm": 0,
+          "max_cm": 1
+        },
+        {
+          "date": "2026-04-01",
           "min_cm": 0,
           "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 3
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "RARES INSTABILITÉS EN ALTITUDE DANS LA NEIGE VENTÉE",
-      "text": "RARES INSTABILITÉS EN ALTITUDE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : instabilités limitées à de rares pentes d'altitude dans la neige récente ventée. Généralement en neige dure bien identifiable, ces plaques sont possibles surtout en large orientation nord au-dessus de 2200/2400 m environ, plutôt à distance des crêtes. Départs possibles au passage d'un seul skieur et générant des avalanches de petite taille.\n\nDéparts spontanés : rares et restants peu volumineux dans les secteurs d'accumulation par le vent en altitude. Taille généralement petite.",
+      "text": "RARES INSTABILITÉS EN ALTITUDE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : instabilités limitées à de rares pentes d'altitude, entretenues par le transport de la neige encore mobilisable par le vent. Possibles surtout en versants de large nord au-dessus de 2200/2400 m environ, plutôt loin des crêtes. Ces plaques à vent sont généralement bien identifiables. Un skieur peut encore les déclencher, générant une avalanche de petite taille, rarement moyenne.\n\nDéparts spontanés : rares départs spontanés, restants peu volumineux, en pente raide dans les secteurs d'accumulation de la neige par le vent en altitude. Taille généralement petite.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement plutôt excédentaire pour une fin mars.\nHauteurs de neige observées : 152 cm à la Nivôse de Millefonts à 2430 m, 106 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400/1500 m en terrain favorable en ubacs, 1800/1900 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux souvent dur/regelé en adrets, durcis par le vent en ubacs d'altitude. Pas ou peu d'humidification au soleil en journée.",
+      "text": "Enneigement plutôt excédentaire pour une fin mars.\nHauteurs de neige observées : 152 cm à la nivose de Millefonts à 2430 m, 103 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400/1500 m en terrain favorable en ubacs, 1800/1900 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux souvent dur/regelé en adrets, durcis par le vent en ubacs d'altitude. On retrouve localement un peu de neige légère en surface dans les combes nord bien abritées du vent. Pas ou peu d'humidification au soleil en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1500,
-        "south": 1800
+        "south": 1900
       },
       "levels_cm": [
         {
@@ -149,7 +149,7 @@
         {
           "alt_m": 2000,
           "N": 115,
-          "S": 75
+          "S": 70
         },
         {
           "alt_m": 2500,
