@@ -3,73 +3,61 @@
   "massif": "Haut-Var Haut-Verdon",
   "bulletin": {
     "id": 22,
-    "issued_at": "2026-03-31T16:00:00",
-    "valid_until": "2026-04-01T18:00:00",
+    "issued_at": "2026-04-01T15:00:00",
+    "valid_until": "2026-04-02T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
+      "max_level": 1,
+      "comment": "Indice de risque faible.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2200,
-        "split_axis": "horizontal",
-        "split_label": "2200m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
+            "loc": null,
             "risk": 1,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2200",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2200m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "1",
             "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-04-02",
-        "label": "Indice de risque limité",
-        "comment": "Peu d'évolution de la situation nivologique. De rares instabilités persistent en altitude dans la neige ventée.",
+        "max_level": 1,
+        "date": "2026-04-03",
+        "label": "Indice de risque faible",
+        "comment": "Peu d'évolution de la situation nivologique. Maintien d'un risque faible",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
+        "N": false,
+        "NE": false,
         "E": false,
         "SE": false,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -78,21 +66,16 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 6,
       "secondary": null,
       "labels": {
-        "2": "Neige ventée"
+        "6": "Aucune prédominente"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-6"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-27",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-28",
           "min_cm": 0,
@@ -117,6 +100,11 @@
           "date": "2026-04-01",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-02",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,24 +114,24 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RARES INSTABILITÉS EN ALTITUDE DANS LA NEIGE VENTÉE",
-      "text": "RARES INSTABILITÉS EN ALTITUDE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : instabilités limitées à de rares pentes d'altitude. Possibles surtout en versants de large nord au-dessus de 2200/2400 m environ, plutôt loin des crêtes. Ces plaques à vent sont généralement bien identifiables. Un skieur peut encore les déclencher, générant une avalanche de petite taille, rarement moyenne.\n\nDéparts spontanés : rares départs spontanés, restants peu volumineux, en pente raide dans les secteurs d'accumulation de la neige par le vent en altitude. Taille généralement petite.",
+      "title": "MANTEAU NEIGEUX BIEN STABILISÉ",
+      "text": "MANTEAU NEIGEUX BIEN STABILISÉ\n\nDéclenchements provoqués : le manteau neigeux est bien stable. Les instabilités ne concernent éventuellement que de rares pentes de haute altitude, elles sont bien identifiables et restent de petite taille.  \n\nDéparts spontanés : peu probables. Le vent faible et la masse d'air frais en altitude limitent l'activité naturelle.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement plutôt excédentaire pour une fin mars.\nHauteurs de neige observées : vers 2000 m, 179 cm dans le vallon de Valdemars, 115 cm dans le Haut Var.  \n\nEnneigement skiable : vers 1500 m en ubacs, 1900/2000 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux souvent dur/regelé en adrets, durcis par le vent en ubacs d'altitude. On retrouve localement un peu de neige légère en surface dans les combes nord bien abritées du vent. Pas ou peu d'humidification au soleil en journée.",
+      "text": "Enneigement plutôt excédentaire pour une fin mars.\nHauteurs de neige observées : vers 2000 m, 175 cm dans le vallon de Valdemars, 114 cm à la Sanguinière dans le Haut Var.  \n\nEnneigement skiable : vers 1500 m en terrain favorable en ubacs, 1900/2000 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux printanier bien regelé en adrets, fortement durci par le vent en  altitude. Humidification superficielle au soleil en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1500,
+        "north": 1600,
         "south": 1900
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 5,
+          "N": 0,
           "S": 0
         },
         {
@@ -153,8 +141,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 190,
-          "S": 135
+          "N": 180,
+          "S": 130
         }
       ],
       "icon_key": "snowpack",

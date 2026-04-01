@@ -1,83 +1,87 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="73" MASSIF="Capcir Puymorens" DATEBULLETIN="2026-03-31T16:00:00" DATEECHEANCE="2026-04-01T18:00:00" DATEVALIDITE="2026-04-01T18:00:00" DATEDIFFUSION="2026-03-31T16:19:00" AMENDEMENT="false">
-  <DateValidite>2026-04-01T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="73" MASSIF="Capcir Puymorens" DATEBULLETIN="2026-04-01T16:00:00" DATEECHEANCE="2026-04-02T18:00:00" DATEVALIDITE="2026-04-02T18:00:00" DATEDIFFUSION="2026-04-01T16:14:00" AMENDEMENT="false">
+  <DateValidite>2026-04-02T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="3" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="3" COMMENTAIRE="Indice de risque marqué." RISQUEMAXIJ2="3" DATE_RISQUE_J2="2026-04-02T00:00:00"/>
+    <RISQUE RISQUE1="4" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="4" COMMENTAIRE="Indice de risque fort." RISQUEMAXIJ2="4" DATE_RISQUE_J2="2026-04-03T00:00:00"/>
     <PENTE NE="true" E="true" SE="true" S="true" SW="true" W="true" NW="true" N="true" COMMENTAIRE=""/>
-    <ACCIDENTEL><![CDATA[Nombreuses plaques facilement déclenchables]]></ACCIDENTEL>
-    <NATUREL><![CDATA[En pentes raides au fur et à mesure des chutes et du transport]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : En pentes raides au fur et à mesure des chutes et du transport
-Déclenchements skieurs : Nombreuses plaques facilement déclenchables]]></RESUME>
-    <RisqueJ2><![CDATA[Indice de risque marqué]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Maintien d'un risque marqué avec de nouvelles chutes de neige et un manteau encore peu stabilisé]]></CommentaireRisqueJ2>
-    <AVIS/>
+    <ACCIDENTEL><![CDATA[Dans toutes les pentes raides, plaques à vent avec neige roulée en sous couche fragile potentielle.]]></ACCIDENTEL>
+    <NATUREL><![CDATA[Avalanches de neige récente dans les couloirs chargés par le vent,  dans la nuit et en matinée surtout, cumuls à surveiller. ]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : Avalanches de neige récente dans les couloirs chargés par le vent,  dans la nuit et en matinée surtout, cumuls à surveiller. 
+Déclenchements skieurs : Dans toutes les pentes raides, plaques à vent avec neige roulée en sous couche fragile potentielle.]]></RESUME>
+    <RisqueJ2><![CDATA[Indice de risque fort]]></RisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Maintien probable d'un risque fort ( accident en matinée ) avec éventuellement des départs en neige humide en fin de période. ]]></CommentaireRisqueJ2>
+    <AVIS>FORT RISQUE D'AVALANCHE</AVIS>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_73.png</ImageRisque>
     <ImagePente>rose_pentes_73.png</ImagePente>
   </CARTOUCHERISQUE>
   <STABILITE>
-    <SitAvalTyp SAT1="1" SAT2="2"/>
-    <TITRE><![CDATA[Instabilités dans la neige fraiche ]]></TITRE>
+    <SitAvalTyp SAT1="1" SAT2="3"/>
+    <TITRE><![CDATA[Épisode neigeux conséquent et risque de déclenchement skieur en nette hausse. ]]></TITRE>
     <TEXTESANSTITRE><![CDATA[Départs spontanés :
-Des départs ponctuels ou linéaires d'avalanches de neige fraiche sont attendus dans les pentes raides en toutes orientations.  Ces avalanches seront de plus en plus nombreuses et volumineuses au fil des heures et en prenant de l'altitude : de taille petite à moyenne en matinée, moyenne à grande en fin d'échéance avec des précipitations qui se renforcent en fin d'après-midi et soirée. 
-Facteurs aggravants : le vent turbulent qui souffle encore fort et qui formera des accumulations parfois loin des crêtes, créant localement des surcharges additionnelles.   
+Sur les crêtes frontières avec l'ariège : Des départs ponctuels ou linéaires d'avalanches de neige fraiche sont attendus dans les pentes très raides en toutes orientations. Avalanches moyenne à grande, voire très grande en cas de cumuls dépassant les 60/70 cm.
+Danger moindre secteur pic de Madres ou sur les secteurs plus proches de la Cerdagne. 
+Justification : Le vent de nord/nord ouest soutenu continue de former de grosses accumulations parfois loin des crêtes, et les chutes de neige conséquentes perdurent tout au long de la journée. Le danger concerne tous les versants (pas de stabilisation) et en particulier les pentes Est à Sud-Est. 
 
 Déclenchements provoqués :
-De nombreuses structures de plaques facilement déclenchables sont présentes dans la neige récente et continuent de se former avec les nouvelles chutes et le vent turbulent. Les plus épaisses sont situées préférentiellement dans un large versant sud, mais pas uniquement. Elles sont parfois difficilement détectables, masquées par les chutes récentes.  Elles donnent des avalanches de taille petite à moyenne, plus rarement grande en fin de journée.
+De nombreuses structures de plaques facilement déclenchables sont présentes dans la neige récente et continuent de se former avec les nouvelles chutes et le vent turbulent. 
+Justification : manteau neigeux provisoirement très instable avec des sous-couches en neige roulée très répandues, notamment dans les versants froids. 
+Les accumulations les plus épaisses sont situées préférentiellement dans un large versant sud, mais pas uniquement. Elles sont difficilement détectables et en neige poudreuse tassée.  Avalanches de taille moyenne ou grande en cas de déclenchements. 
 Observables : Quantité de neige fraiche, surface hétérogène travaillée par le vent, fissures devant les skis, "woomfs".
 
 Autre :
-Faible visibilité pendant les chutes et avec le transport, froid sensible avec le vent, corniches volumineuses sous les crêtes ]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[Instabilités dans la neige fraiche 
+Toujours une faible visibilité avec le mauvais temps qui perdure, froid sensible avec le vent, corniches très imposantes pour la saison sous les crêtes. ]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[Épisode neigeux conséquent et risque de déclenchement skieur en nette hausse. 
 
 Départs spontanés :
-Des départs ponctuels ou linéaires d'avalanches de neige fraiche sont attendus dans les pentes raides en toutes orientations.  Ces avalanches seront de plus en plus nombreuses et volumineuses au fil des heures et en prenant de l'altitude : de taille petite à moyenne en matinée, moyenne à grande en fin d'échéance avec des précipitations qui se renforcent en fin d'après-midi et soirée. 
-Facteurs aggravants : le vent turbulent qui souffle encore fort et qui formera des accumulations parfois loin des crêtes, créant localement des surcharges additionnelles.   
+Sur les crêtes frontières avec l'ariège : Des départs ponctuels ou linéaires d'avalanches de neige fraiche sont attendus dans les pentes très raides en toutes orientations. Avalanches moyenne à grande, voire très grande en cas de cumuls dépassant les 60/70 cm.
+Danger moindre secteur pic de Madres ou sur les secteurs plus proches de la Cerdagne. 
+Justification : Le vent de nord/nord ouest soutenu continue de former de grosses accumulations parfois loin des crêtes, et les chutes de neige conséquentes perdurent tout au long de la journée. Le danger concerne tous les versants (pas de stabilisation) et en particulier les pentes Est à Sud-Est. 
 
 Déclenchements provoqués :
-De nombreuses structures de plaques facilement déclenchables sont présentes dans la neige récente et continuent de se former avec les nouvelles chutes et le vent turbulent. Les plus épaisses sont situées préférentiellement dans un large versant sud, mais pas uniquement. Elles sont parfois difficilement détectables, masquées par les chutes récentes.  Elles donnent des avalanches de taille petite à moyenne, plus rarement grande en fin de journée.
+De nombreuses structures de plaques facilement déclenchables sont présentes dans la neige récente et continuent de se former avec les nouvelles chutes et le vent turbulent. 
+Justification : manteau neigeux provisoirement très instable avec des sous-couches en neige roulée très répandues, notamment dans les versants froids. 
+Les accumulations les plus épaisses sont situées préférentiellement dans un large versant sud, mais pas uniquement. Elles sont difficilement détectables et en neige poudreuse tassée.  Avalanches de taille moyenne ou grande en cas de déclenchements. 
 Observables : Quantité de neige fraiche, surface hétérogène travaillée par le vent, fissures devant les skis, "woomfs".
 
 Autre :
-Faible visibilité pendant les chutes et avec le transport, froid sensible avec le vent, corniches volumineuses sous les crêtes ]]></TEXTE>
+Toujours une faible visibilité avec le mauvais temps qui perdure, froid sensible avec le vent, corniches très imposantes pour la saison sous les crêtes. ]]></TEXTE>
   </STABILITE>
   <QUALITE>
     <TEXTE><![CDATA[Enneigement : 
-L'enneigement est excellent et parmi les meilleurs de ces 20 dernières années. En altitude, les cumuls sont très conséquents, même si les crêtes et sommets exposés au vent d'ouest à nord-ouest sont souvent dégarnis. 
-Il est envisageable de chausser les skis vers 1300m mais on retrouvera une sous-couche permettant de progresser plus sereinement plutôt à partir de 1600 m.
+L'enneigement est excellent pour la saison. En altitude, les cumuls sont conséquents, mais les crêtes et sommets exposés au vent d'ouest à nord-ouest sont un peu plus dégarnis. 
+La tramontane qui souffle fort depuis déjà plusieurs jours a formé de grosses accumulations dans les versants Est. 
+Il est envisageable de chausser les skis vers 1400/1500 m mais on retrouvera une sous-couche permettant de progresser plus sereinement plutôt à partir de 1700/1800 m. 
 Qualité de la neige : 
-Mercredi matin on trouvera une petite couche de neige fraîche au-dessus d'une neige récente qui aura commencé à s'humidifier sous 1700m/1800m. En altitude, l’enneigement et la qualité de la neige seront hétérogènes sous l’action du vent soufflant depuis samedi, avec des zones d’accumulations où la neige fraîche et/ou récente reste localement légère et des zones proches des crêtes Ouest à Nord-Ouest pelées ou en neige dure, voire glacée.]]></TEXTE>
+Jeudi matin, on devrait retrouver 20/30 cm de neige récente sur les secteurs du Puymorens ou vers le fond de la vallée du galbe, au-delà de 1800 m, 30/50 cm au-delà de 2000 m, et parfois 50/70 cm dans les quelques vallons d'altitude les plus exposés de haute montagne. Apport de 10/15 cm en journée jeudi. 
+En altitude, l’enneigement et la qualité de la neige seront hétérogènes sous l’action du vent soufflant depuis samedi, avec des zones d’accumulations où la neige fraîche et/ou récente reste localement légère et des zones proches des crêtes Ouest à Nord-Ouest pelées ou en neige dure, voire glacée.]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-03-31T00:00:00" LimiteSud="1500" LimiteNord="1500">
-    <NIVEAU ALTI="1500" N="5" S="1"/>
+  <ENNEIGEMENT DATE="2026-04-01T00:00:00" LimiteSud="1600" LimiteNord="1600">
+    <NIVEAU ALTI="1500" N="0" S="0"/>
     <NIVEAU ALTI="2000" N="215" S="95"/>
     <NIVEAU ALTI="2500" N="325" S="215"/>
     <ImageEnneigement>montagne_enneigement_73.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-03-27T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-03-28T00:00:00" SS24Min="6" SS24Max="20"/>
     <NEIGE24H DATE="2026-03-29T00:00:00" SS24Min="0" SS24Max="5"/>
     <NEIGE24H DATE="2026-03-30T00:00:00" SS24Min="1" SS24Max="5"/>
     <NEIGE24H DATE="2026-03-31T00:00:00" SS24Min="5" SS24Max="10"/>
-    <NEIGE24H DATE="2026-04-01T00:00:00" SS24Min="15" SS24Max="30"/>
+    <NEIGE24H DATE="2026-04-01T00:00:00" SS24Min="20" SS24Max="40"/>
+    <NEIGE24H DATE="2026-04-02T00:00:00" SS24Min="7" SS24Max="20"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_73.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="2000" ALTITUDEVENT2="3000">
-    <COMMENTAIRE>Temps hivernal</COMMENTAIRE>
-    <ECHEANCE DATE="2026-04-01T06:00:00" FF1="80" DD1="N" FF2="90" DD2="NO" ISO0="1600" PLUIENEIGE="1200" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-04-01T12:00:00" FF1="75" DD1="NO" FF2="85" DD2="NO" ISO0="1700" PLUIENEIGE="1100" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-04-01T18:00:00" FF1="85" DD1="NO" FF2="90" DD2="NO" ISO0="1900" PLUIENEIGE="1400" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-04-02T00:00:00" FF1="85" DD1="N" FF2="95" DD2="NO" ISO0="1700" PLUIENEIGE="1400" TEMPSSENSIBLE="63" MERNUAGES="-1"/>
+    <COMMENTAIRE>Neige significative dans la nuit et en matinée, perdurant dans l'après-midi et au cours de la nuit suivante en faiblissant nettement. </COMMENTAIRE>
+    <ECHEANCE DATE="2026-04-02T06:00:00" FF1="75" DD1="NO" FF2="90" DD2="NO" ISO0="1800" PLUIENEIGE="1500" TEMPSSENSIBLE="63" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-04-02T12:00:00" FF1="75" DD1="NO" FF2="90" DD2="NO" ISO0="1900" PLUIENEIGE="1300" TEMPSSENSIBLE="61" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-04-02T18:00:00" FF1="80" DD1="O" FF2="95" DD2="NO" ISO0="2100" PLUIENEIGE="1400" TEMPSSENSIBLE="61" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-04-03T00:00:00" FF1="80" DD1="N" FF2="85" DD2="NO" ISO0="1900" PLUIENEIGE="1400" TEMPSSENSIBLE="61" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_73.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-03-25T06:00:00" FF1="15" DD1="O" FF2="30" DD2="NO" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-03-25T12:00:00" FF1="35" DD1="NO" FF2="55" DD2="NO" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-03-25T18:00:00" FF1="50" DD1="NO" FF2="75" DD2="NO" ISO0="1800" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-03-26T00:00:00" FF1="70" DD1="NO" FF2="90" DD2="NO" ISO0="1300" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
       <ECHEANCE DATE="2026-03-26T06:00:00" FF1="75" DD1="NO" FF2="90" DD2="NO" ISO0="1000" PLUIENEIGE="700" TEMPSSENSIBLE="80"/>
       <ECHEANCE DATE="2026-03-26T12:00:00" FF1="80" DD1="NO" FF2="100" DD2="NO" ISO0="1000" PLUIENEIGE="700" TEMPSSENSIBLE="80"/>
       <ECHEANCE DATE="2026-03-26T18:00:00" FF1="80" DD1="NO" FF2="95" DD2="NO" ISO0="1200" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
@@ -102,13 +106,12 @@ Mercredi matin on trouvera une petite couche de neige fraîche au-dessus d'une n
       <ECHEANCE DATE="2026-03-31T12:00:00" FF1="80" DD1="NO" FF2="85" DD2="NO" ISO0="1700" PLUIENEIGE="1300" TEMPSSENSIBLE="80"/>
       <ECHEANCE DATE="2026-03-31T18:00:00" FF1="80" DD1="NO" FF2="95" DD2="NO" ISO0="1800" PLUIENEIGE="1400" TEMPSSENSIBLE="80"/>
       <ECHEANCE DATE="2026-04-01T00:00:00" FF1="80" DD1="N" FF2="95" DD2="NO" ISO0="1800" PLUIENEIGE="1200" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2026-04-01T06:00:00" FF1="80" DD1="N" FF2="90" DD2="NO" ISO0="1600" PLUIENEIGE="1200" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2026-04-01T12:00:00" FF1="75" DD1="NO" FF2="85" DD2="NO" ISO0="1700" PLUIENEIGE="1100" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2026-04-01T18:00:00" FF1="85" DD1="NO" FF2="90" DD2="NO" ISO0="1900" PLUIENEIGE="1400" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2026-04-02T00:00:00" FF1="85" DD1="N" FF2="95" DD2="NO" ISO0="1700" PLUIENEIGE="1400" TEMPSSENSIBLE="63"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-03-25T00:00:00" LimiteSud="1900" LimiteNord="1600">
-        <NIVEAU ALTI="1500" N="0" S="0"/>
-        <NIVEAU ALTI="2000" N="210" S="80"/>
-        <NIVEAU ALTI="2500" N="340" S="220"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-03-26T00:00:00" LimiteSud="1900" LimiteNord="1700">
         <NIVEAU ALTI="1500" N="0" S="0"/>
         <NIVEAU ALTI="2000" N="210" S="80"/>
@@ -139,23 +142,28 @@ Mercredi matin on trouvera une petite couche de neige fraîche au-dessus d'une n
         <NIVEAU ALTI="2000" N="215" S="95"/>
         <NIVEAU ALTI="2500" N="325" S="215"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-04-01T00:00:00" LimiteSud="1600" LimiteNord="1600">
+        <NIVEAU ALTI="1500" N="0" S="0"/>
+        <NIVEAU ALTI="2000" N="215" S="95"/>
+        <NIVEAU ALTI="2500" N="325" S="215"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-03-26T00:00:00" SS24Min="1" SS24Max="5"/>
       <NEIGE24H DATE="2026-03-27T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-03-28T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-03-29T00:00:00" SS24Min="6" SS24Max="20"/>
       <NEIGE24H DATE="2026-03-30T00:00:00" SS24Min="0" SS24Max="5"/>
       <NEIGE24H DATE="2026-03-31T00:00:00" SS24Min="1" SS24Max="5"/>
+      <NEIGE24H DATE="2026-04-01T00:00:00" SS24Min="5" SS24Max="10"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-03-25T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-03-26T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-03-27T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-03-28T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-03-29T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-03-30T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-03-31T00:00:00" RISQUEMAXI="3"/>
+      <RISQUE DATE="2026-04-01T00:00:00" RISQUEMAXI="3"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_73.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_73.png</Image7derniersjours_portrait>
