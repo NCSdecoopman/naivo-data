@@ -3,30 +3,30 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-04-01T16:00:00",
-    "valid_until": "2026-04-02T18:00:00",
+    "issued_at": "2026-04-02T16:00:00",
+    "valid_until": "2026-04-03T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 2200,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "2200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<2200",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
+            "loc": ">2200",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "2200m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-03",
+        "date": "2026-04-04",
         "label": "Indice de risque limité",
-        "comment": "Maintient d'un risque limité, avec de possibles rares plaques encore présentes.",
+        "comment": "risque limité, avec une activité naturelle en neige humide en hausse sous l'effet du redoux et du bon ensoleillement.",
         "trend": "steady"
       }
     },
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-28",
-          "min_cm": 1,
-          "max_cm": 2
-        },
-        {
           "date": "2026-03-29",
           "min_cm": 0,
           "max_cm": 0
@@ -117,6 +112,11 @@
           "date": "2026-04-02",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-03",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,12 +127,12 @@
     },
     "stability": {
       "title": "QUELQUES PLAQUES EN ALTITUDE DANS LA NEIGE VENTÉE",
-      "text": "QUELQUES PLAQUES EN ALTITUDE DANS LA NEIGE VENTÉE \n\nDéclenchements provoqués : des plaques sont encore présentes dans quelques pentes d'altitude, formées par transport de neige récente par le vent de nord de ces derniers jours. Elles se situent au dessus de 2000/2200 m, possibles en tous versants mais plutôt en un large secteur nord, généralement loin des crêtes. Elles sont le plus souvent d'aspect durci par le vent, et bien identifiables. En cas de déclenchement par un skieur, elles provoquent des avalanches de taille petite à parfois moyenne.\n\nDéparts spontanés : peu probables. De rares départs superficiels de neige humide sont possibles l'après-midi, par départ ponctuel à proximité des rochers en pentes raides ensoleillées.",
+      "text": "QUELQUES PLAQUES EN ALTITUDE DANS LA NEIGE VENTÉE \n\nDéclenchements provoqués : des plaques sont encore localement présentes dans quelques pentes d'altitude, formées par transport de neige récente par le vent de nord des jours précédents. Elles se situent au dessus de 2200 m, plutôt en un large secteur nord, généralement loin des crêtes. Elles sont le plus souvent d'aspect durci par le vent, et bien identifiables. Elles sont généralement peu étendues, et peuvent provoquer des avalanches de taille petite à parfois moyenne, mais sont en cours de stabilisation et deviennent plus difficiles à déclencher au passage d'un seul skieur.\n\nDéparts spontanés : peu probables en début de journée après un bon regel nocturne, puis de rares départs superficiels de neige humide sont ensuite possibles, par départ ponctuel à proximité des rochers en pentes raides ensoleillées.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est excédentaire pour un début avril.\n \nLimite d'enneigement skiable : dès 1300 m en ubacs favorables (terrains herbeux, pistes forestières), 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige souvent fortement durcie et travaillée par le vent, encore localement légère dans les secteurs bien abrités en versants nord. En versants sud, manteau neigeux souvent regelé sous 2500 m, s'humidifiant superficiellement en journée. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
+      "text": "L'enneigement est excédentaire pour un début avril.\n \nLimite d'enneigement skiable : dès 1300 m en ubacs favorables (terrains herbeux, pistes forestières), 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige souvent fortement durcie et travaillée par le vent, encore localement légère dans les secteurs bien abrités en versants nord. En versants sud, manteau neigeux souvent regelé, s'humidifiant superficiellement en journée. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

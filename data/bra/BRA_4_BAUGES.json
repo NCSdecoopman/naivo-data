@@ -3,37 +3,49 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-04-01T16:00:00",
-    "valid_until": "2026-04-02T18:00:00",
+    "issued_at": "2026-04-02T16:00:00",
+    "valid_until": "2026-04-03T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Au-dessus de 1800m indice de risque limité, plus bas indice faible.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1800,
+        "split_axis": "horizontal",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1800",
+            "risk": 1,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1800",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1800m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
+          },
+          "top": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-03",
+        "date": "2026-04-04",
         "label": "Indice de risque limité",
-        "comment": "encore quelques quelques plaques à vent locales, en cours de stabilisation",
+        "comment": "Plaques à vent de plus en plus rares. Petite  humidification en adrets.",
         "trend": "steady"
       }
     },
@@ -53,8 +65,8 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
+        "SE": false,
+        "S": false,
         "SW": true,
         "W": true,
         "NW": true
@@ -76,11 +88,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-28",
-          "min_cm": 4,
-          "max_cm": 7
-        },
         {
           "date": "2026-03-29",
           "min_cm": 0,
@@ -105,6 +112,11 @@
           "date": "2026-04-02",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-03",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,29 +127,29 @@
     },
     "stability": {
       "title": "",
-      "text": "Déclenchements provoqués :\nQuelques plaques à vent dans la neige récente, elles continuent de se former jeudi sous l'effet du vent de N. Plaques friables la plupart, dures en secteurs très ventés. Pas uniquement près des crêtes (souvent dures ravagées), mais aussi bien en contrebas car le vent a soufflé fort.. Cassure 15/30 cm, localement 40 cm dans une accumulation. Taille 1 à 2 (petite à moyenne).\nObservables : alternance érosions/accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance.\n\nDéparts spontanés :\nPeu probables.",
+      "text": "Déclenchements provoqués :\nQuelques plaques à vent dans la neige récente, formées ces derniers jours par le vent de N. Plaques friables la plupart, dures en secteurs très ventés. Pas uniquement près des crêtes (souvent dures ravagées), mais aussi plus loin en contrebas. Pas très larges ni épaisses, cassure 15/30 cm, localement 40 cm. Taille 1 à 2 (petite à moyenne).\nObservables : alternance érosions/accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance.\n\nDéparts spontanés :\nPeu probables. Rares boules humides ou petites coulées en versants S raides et réchauffés .",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nBon pour une fin mars. On peut chausser skis ou raquettes dès 1200/1300 m environ. Attention, absence de sous-couches sous 1500/1600 m en versants S.\n\nQualité de la neige ce jeudi :\nVariable selon l'exposition au vent de N. 5/15 cm de neige récente, froide et meuble, reposant sur un fond dense. Dure ou glacée près des crêtes. Nombreuses corniches et accumulations/congères.\nLégère humidification en surface dans les versants S/SW, en début d'après-midi, sans importance.",
+      "text": "Enneigement :\nBon pour un début avril. On peut chausser skis ou raquettes dès 1200/1300 m en versants N, 1400/1600 m en S.\n\nQualité de la neige ce vendredi :\nVariable selon l'exposition au vent de N. 5/15 cm de neige récente, encore froide, dense à meuble. Elle repose sur un fond dense voire dur. Neige dure ou glacée près des crêtes. Nombreuses corniches et accumulations/congères récentes.\nFine humidification dans les versants SE/S/SW, sans grande importance.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1000,
-        "south": 1200
+        "north": 1100,
+        "south": 1400
       },
       "levels_cm": [
         {
           "alt_m": 1000,
-          "N": 5,
+          "N": 0,
           "S": 0
         },
         {
           "alt_m": 1500,
-          "N": 80,
-          "S": 50
+          "N": 70,
+          "S": 40
         },
         {
           "alt_m": 2000,
