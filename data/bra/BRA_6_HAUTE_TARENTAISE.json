@@ -3,37 +3,49 @@
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
-    "issued_at": "2026-04-02T16:00:00",
-    "valid_until": "2026-04-03T18:00:00",
+    "issued_at": "2026-04-03T16:00:00",
+    "valid_until": "2026-04-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible évoluant en limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
+            "risk": 1,
+            "evolution_to": 2,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "1→2",
+            "risk": 1,
+            "evolution_to": 2
+          },
+          "top": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-04",
+        "date": "2026-04-05",
         "label": "Indice de risque limité",
-        "comment": "Temps calme et redoux. La stabilisation se poursuit dans la neige récente ventée, il subsiste seulement de rares plaques, et uniquement en versants froids. Par contre, l'activité en neige humide reprend plus sérieusement en journée. Risque stationnaire.",
+        "comment": "Évolution rapide vers une situation de neige humide printanière avec un risque faible le matin, devenant limité en journée. Les rares plaques en neige froide deviennent anecdotiques.",
         "trend": "steady"
       }
     },
@@ -66,21 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": null,
+      "primary": 4,
+      "secondary": 2,
       "labels": {
+        "4": "Neige humide",
         "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-30",
           "min_cm": 5,
@@ -105,6 +113,11 @@
           "date": "2026-04-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "ENCORE QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE ET VENTÉE DES DERNIERS JOURS. REDOUX TIMIDE POUR L'INSTANT.",
-      "text": "ENCORE QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE ET VENTÉE DES DERNIERS JOURS. REDOUX TIMIDE POUR L'INSTANT.\n\nDéclenchements provoqués : quelques plaques sont encore en place dans la neige ventée. Avec l'affaiblissement du vent, elles perdent en réactivité au fil des jours, mais le déclenchement par un skieur reste possible en tous versants dans les zones d'accumulation. Ces plaques se trouvent plutôt loin des crêtes, parfois jusqu'en bas de pentes. Cassures moyennes 20 à 40 cm, avalanches peu larges (taille petite à moyenne). A noter que dans les secteurs très ventés, lorsque l'ancienne neige (souvent dure/croutée) ré-apparaît en surface, le risque est bien moindre (et le ski moins bon...).\nObservables : test du bâton, fissures sous les skis.\n\nDéparts spontanés : quelques petits départs en neige humide dans les versants ensoleillés, qui subissent un premier coup de chaud superficiel jusqu'à assez haute altitude. Exceptionnellement une avalanche moyenne dans une pente raide.",
+      "title": "GRANDE DOUCEUR : ÉVOLUTION RAPIDE VERS UN MANTEAU PRINTANIER. RARES INSTABILITÉS EN NEIGE FROIDE EN NORD.",
+      "text": "GRANDE DOUCEUR : ÉVOLUTION RAPIDE VERS UN MANTEAU PRINTANIER. RARES INSTABILITÉS EN NEIGE FROIDE EN NORD.\n\nDéparts spontanés : nombreux départs en neige humide dans les versants ensoleillés, au fil de la journée. Généralement des petites avalanches, mais quelques tailles moyennes sont aussi attendues (notamment couloirs et pentes raides qui se \"purgent\"). Attention car à cette période de l'année le soleil commence à être haut et atteint aussi les pentes NE/NO.\n\nDéclenchements provoqués : il subsiste de rares plaques en neige ventée dans les versants Nord au-dessus de 2000/2200 m. Elles sont encore localement réactives, notamment dans les zones d'accumulation en pente raide. Ces plaques sont constituées  d'une neige fortement densifiée voire durcie par le vent en surface, ce qui permet dans la plupart des cas de les identifier. Cassures modestes, 15 à 30 cm donnant des avalanches petites à moyennes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : un peu au dessus de la moyenne, le \"petit hiver\" des derniers jours a retardé quelque peu l'inéluctable fonte printanière.\n\nLimite skiable : vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige : manteau hétérogène d'un secteur à l'autre. Dans les zones très sensibles à la bise, la neige récente a été fortement redistribuée, et l'ancienne neige dure voire le sol ressort régulièrement près des croupes, crêtes et cols tandis que la neige s'est accumulée dans les trous. A l'inverse, dans les zones relativement abritées, on trouve une poudreuse dense, répartie plutôt uniformément et agréable à skier. Petite croute dans un large secteur sud et/ou à basse altitude le matin, puis en journée tous les versants ensoleillés subissent une première humidification superficielle jusqu'à haute altitude (bottage).",
+      "text": "Enneigement : un peu au dessus de la moyenne, mais les prochains jours de chaleur vont bien attaquer le manteau.\n\nLimite skiable : vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige : encore une neige froide dans les versants Nord, dès 2000/2200 m, avec une poudre tassée agréable sauf dans les secteurs ayant subi la bise et alors parfois très hétérogènes (croupes/crêtes pelées).\nDans tous les autres versants, manteau en cours de \"printanisation\" : neige n'ayant pas encore subi suffisamment de cycles gel/dégel pour assurer une portance dans tous les secteurs au matin (sauf en Sud où ça devrait déjà être bon jusqu'à ~2500 m). Puis bottage/collante l'après-midi :-(",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,11 +145,11 @@
         {
           "alt_m": 1500,
           "N": 80,
-          "S": 20
+          "S": 15
         },
         {
           "alt_m": 2000,
-          "N": 170,
+          "N": 160,
           "S": 110
         },
         {

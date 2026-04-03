@@ -3,14 +3,14 @@
   "massif": "Haut-Var Haut-Verdon",
   "bulletin": {
     "id": 22,
-    "issued_at": "2026-04-02T16:00:00",
-    "valid_until": "2026-04-03T18:00:00",
+    "issued_at": "2026-04-03T16:00:00",
+    "valid_until": "2026-04-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 1,
-      "comment": "Indice de risque faible.",
+      "max_level": 2,
+      "comment": "Indice de risque faible évoluant en limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 1,
-            "evolution_to": null,
+            "evolution_to": 2,
             "position": null
           }
         ]
@@ -34,30 +34,30 @@
         },
         "zones": {
           "center": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
+            "text": "1→2",
+            "risk": 2,
+            "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-04",
+        "date": "2026-04-05",
         "label": "Indice de risque limité",
-        "comment": "Risque en légère hausse. Le radoucissement de la masse d'air devrait engendrer une augmentation des départs de neige humide, qui devraient néanmoins rester superficiels.",
-        "trend": "up"
+        "comment": "Maintien d'un risque limité. L'humidification du manteau neigeux se poursuit lentement.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
-        "NE": false,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
-        "NW": false
+        "N": true,
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -66,21 +66,16 @@
       }
     },
     "sat": {
-      "primary": 6,
+      "primary": 4,
       "secondary": null,
       "labels": {
-        "6": "Aucune prédominente"
+        "4": "Neige humide"
       },
-      "icon_key": "sat-6"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-30",
           "min_cm": 0,
@@ -105,6 +100,11 @@
           "date": "2026-04-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX BIEN STABILISÉ",
-      "text": "MANTEAU NEIGEUX BIEN STABILISÉ\n\nDéclenchements provoqués : le manteau neigeux est bien stable. Les instabilités ne concernent éventuellement que de rares pentes de haute altitude, elles sont bien identifiables et restent de petite taille.  \n\nDéparts spontanés : généralement peu probables. Le radoucissement de la masse d'air l'après-midi peut engendrer de rares et petits départs en pentes raides. Départs en boulettes.",
+      "title": "DÉPARTS SUPERFICIELS EN NEIGE HUMIDE",
+      "text": "DÉPARTS SUPERFICIELS EN NEIGE HUMIDE\n\nDéparts spontanés : peu probables le matin avec le regel nocturne. Puis des avalanches de neige humide se produisent dans les pentes raides, au fil de l'ensoleillement. Départs superficiels générant principalement des avalanches de petite taille (taille 1), très rarement moyenne (taille 2). \n\nDéclenchements provoqués : le manteau neigeux est bien stable. Les instabilités ne concernent éventuellement que de rares pentes de haute altitude, elles sont bien identifiables et restent de petite taille.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement plutôt excédentaire pour un début avril.\nHauteurs de neige observées : vers 2000 m, 174 cm dans le vallon de Valdemars, 113 cm à la Sanguinière dans le Haut Var.  \n\nEnneigement skiable : vers 1500 m en terrain favorable en ubacs, 1900/2000 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux printanier bien regelé en adrets, fortement durci par le vent en  altitude. Humidification superficielle au soleil en journée.",
+      "text": "Enneigement plutôt excédentaire pour un début avril.\nHauteurs de neige observées : vers 2000 m, 171 cm dans le vallon de Valdemars, 110 cm à la Sanguinière dans le Haut Var.  \n\nEnneigement skiable : vers 1500 m en terrain favorable en ubacs, 1900/2000 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux printanier bien regelé en adrets, fortement durci par le vent en  altitude. Humidification superficielle au soleil en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

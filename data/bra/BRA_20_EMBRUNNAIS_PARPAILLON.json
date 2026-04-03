@@ -3,14 +3,14 @@
   "massif": "Embrunais Parpaillon",
   "bulletin": {
     "id": 20,
-    "issued_at": "2026-04-02T16:00:00",
-    "valid_until": "2026-04-03T18:00:00",
+    "issued_at": "2026-04-03T16:00:00",
+    "valid_until": "2026-04-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 1,
-      "comment": "Indice de risque faible.",
+      "max_level": 2,
+      "comment": "Indice de risque faible évoluant en limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 1,
-            "evolution_to": null,
+            "evolution_to": 2,
             "position": null
           }
         ]
@@ -34,30 +34,30 @@
         },
         "zones": {
           "center": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
+            "text": "1→2",
+            "risk": 2,
+            "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-04",
+        "date": "2026-04-05",
         "label": "Indice de risque limité",
-        "comment": "risque limité, avec une activité naturelle en neige humide en hausse sous l'effet du redoux et du bon ensoleillement.",
-        "trend": "up"
+        "comment": "Risque limité. Plaques résiduelles en ubac d'altitude et activité naturelle en neige humide.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
-        "NE": false,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
-        "NW": false
+        "N": true,
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -66,21 +66,16 @@
       }
     },
     "sat": {
-      "primary": 6,
+      "primary": 4,
       "secondary": null,
       "labels": {
-        "6": "Aucune prédominente"
+        "4": "Neige humide"
       },
-      "icon_key": "sat-6"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-30",
           "min_cm": 0,
@@ -105,6 +100,11 @@
           "date": "2026-04-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,12 +115,12 @@
     },
     "stability": {
       "title": "MANTEAU NEIGEUX GÉNÉRALEMENT STABILISÉ",
-      "text": "MANTEAU NEIGEUX GÉNÉRALEMENT STABILISÉ\n\nDéclenchements provoqués : de rares plaques sont encore localement présentes dans quelques pentes d'altitude au dessus de 2200 m, plutôt en un large secteur nord, généralement loin des crêtes. Elles sont le plus souvent peu étendues, d'aspect durci par le vent, et bien identifiables, et deviennent difficiles à déclencher par un seul skieur. Elles peuvent provoquer des avalanches de taille petite, à parfois moyenne.\n\nDéparts spontanés : peu probables en début de journée après un bon regel nocturne, puis de rares départs superficiels de neige humide sont ensuite possibles, par départ ponctuel à proximité des rochers en pentes raides ensoleillées.",
+      "text": "MANTEAU NEIGEUX GÉNÉRALEMENT STABILISÉ\n\nDéparts spontanés : peu probables en début de journée après un bon regel nocturne, puis possibles départs de neige humide en pentes raides au soleil. Départs ponctuels en poire, plus rarement linéaires. Petite taille, moyenne non exclue.\n\nDéclenchements provoqués : rares plaques résiduelles dans quelques pentes d'altitude au-dessus de 2200 m environ, plutôt en large secteur nord, généralement loin des crêtes. Elles sont le plus souvent d'aspect durci par le vent, et bien identifiables. Déclenchement encore possible par un skieur, engendrant une avalanche peu étendue de taille petite à parfois moyenne. \nPar ailleurs, un skieur, évoluant tardivement en pentes raides ensoleillées, peut provoquer un départ ponctuel en neige humide sous les skis.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales pour un début avril.\nHauteurs de neige observées : 101 cm à la nivôse du Parpaillon à 2500 m.\n\nLimite d'enneigement skiable : au plus bas à 1500 m en ubacs bien protégés ou sur pistes forestières, plutôt 2000/2100 m en adrets.\n\nÉtat de la neige de surface : neige souvent durcie et travaillée par le vent, encore localement légère dans des secteurs bien abrités en versants nord. En versants ensoleillés, manteau neigeux souvent regelé sous 2500/2800 m, s'humidifiant en journée. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
+      "text": "L'enneigement est proche des normales pour un début avril.\nHauteurs de neige observées : 102 cm à la nivôse du Parpaillon à 2500 m.\n\nLimite d'enneigement skiable : au plus bas à 1500 m en ubacs bien protégés ou sur pistes forestières, plutôt 2000/2100 m en adrets.\n\nÉtat de la neige de surface : en adrets, manteau printanier, dur/ regelé, s'humidifiant en journée. En ubacs sous 2000/2200 m neige souvent croutée, plus haut neige durcie, travaillée par le vent, encore localement légère dans des secteurs bien abrités. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -131,7 +131,7 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 10,
+          "N": 5,
           "S": 0
         },
         {

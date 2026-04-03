@@ -3,14 +3,14 @@
   "massif": "Haute-Bigorre",
   "bulletin": {
     "id": 66,
-    "issued_at": "2026-04-02T16:00:00",
-    "valid_until": "2026-04-03T18:00:00",
+    "issued_at": "2026-04-03T17:00:00",
+    "valid_until": "2026-04-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 4,
-      "comment": "Au-dessus de 2000m indice de risque fort, plus bas indice marqué.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2000,
@@ -20,14 +20,14 @@
           {
             "id": "zone1",
             "loc": "<2000",
-            "risk": 3,
+            "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
             "loc": ">2000",
-            "risk": 4,
+            "risk": 3,
             "evolution_to": null,
             "position": "top"
           }
@@ -41,22 +41,22 @@
         },
         "zones": {
           "bottom": {
-            "text": "3",
-            "risk": 3,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           },
           "top": {
-            "text": "4",
-            "risk": 4,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-04-04",
-        "label": "Indice de risque marqué",
-        "comment": "Evolution vers un manteau printanier, des pentes en nord d'altitude resteront en neige sèche et conserveront un risque accidentel.",
+        "max_level": 2,
+        "date": "2026-04-05",
+        "label": "Indice de risque limité",
+        "comment": "Raréfaction progressive des plaques, poursuite de l'humidification au soleil",
         "trend": "down"
       }
     },
@@ -64,11 +64,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
-        "W": true,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -78,21 +78,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": null,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
-        "1": "Neige fraîche"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-29",
-          "min_cm": 2,
-          "max_cm": 5
-        },
         {
           "date": "2026-03-30",
           "min_cm": 2,
@@ -110,51 +106,56 @@
         },
         {
           "date": "2026-04-02",
-          "min_cm": 5,
+          "min_cm": 8,
           "max_cm": 15
         },
         {
           "date": "2026-04-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 15
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Plaques facilement déclenchables, départs spontanés au soleil",
-      "text": "Plaques facilement déclenchables, départs spontanés au soleil\n\nDéclenchements provoqués : \nDes structures de plaques ont été formées pendant les chutes de neige de ces derniers jours, dans des expositions variées, parfois loin des crêtes et cols. On les trouve majoritairement dans un large secteur sud, mais aussi dans les expositions nord abritées du vent. Elles sont souvent facilement déclenchables, formées d'un empilement de neiges hétérogènes, en toutes expositions au-dessus de 2000m. Les accumulations mobilisables parfois importantes peuvent parfois entraîner le déclenchement d'une grande avalanche. Plus bas, dans les expositions sud, le déclenchement d'avalanches paraît moins aisé, des humidifications partielles se sont produites avec les quelques éclaircies en milieu de journée pendant les chutes, créant des croûtes au sein du manteau.\nAu sein du massif, les cumuls ont été assez variables, certains secteurs peuvent avoir reçu des cumuls moindres, inférieurs à 25cm, les plaques y sont moins nombreuses, souvent mieux identifiables avec l'alternance de zones d'érosion et d'accumulation.\n\nDéparts spontanés : \nJeudi soir et la nuit suivante, des départs spontanés, ponctuels ou sous forme de plaques, préférentiellement en expositions sud, peuvent atteindre une taille moyenne. \nEn journée de vendredi, au fil de l'ensoleillement, des départs spontanés sont attendus, d'abord près des rochers puis dans un domaine plus large. Souvent de petite taille à moyenne, ils atteindront parfois une grande taille.",
+      "title": "Neige ventée en nord, neige humide au soleil",
+      "text": "Neige ventée en nord, neige humide au soleil\n\nDéclenchements provoqués : \nAu-dessus de 2000m, dans les expositions ombragées, des plaques sont en place, formées lors des dernières chutes de neige. Elles se situent préférentiellement dans les zones abritées du vent : derrière des crêtes ou cols, dans les combes, etc, et sont plus nombreuses dans les expositions nord-est,  plus protégées du vent et où les accumulations sont plus nombreuses. Elles sont encore facilement déclenchables, formées d'un empilement de neiges hétérogènes. Les accumulations mobilisables parfois importantes peuvent parfois entraîner le déclenchement d'une grande avalanche. \nAu sein du massif, les cumuls ont été assez variables, certains secteurs, par exemple de Gavarnie à Piau, peuvent avoir reçu des cumuls moindres, inférieurs à 25cm, les plaques y sont moins nombreuses, souvent mieux identifiables avec l'alternance de zones d'érosion et d'accumulation.\n\nDéclenchements spontanés : \nAu fil de l'ensoleillement (est le matin, puis sud et ouest l'après-midi), des départs en neige humide sont attendus, mobilisant la neige récente. Ils sont en général de petite taille, parfois moyenne avec des départs linéaires. Une grande est possible, partant d'une accumulation en sud-est en haut du massif.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Correct pour la saison au-dessus de 1600m, mais restant assez maigre en versants ouest à nord,  exposés au vent. \nÉtat de la neige : Une trentaine de centimètres de neige récente vers 1600m, localement 50 vers 2000m, inégalement répartie : zones pelées par le vent avec la glace ou le sol qui affleure, et des accumulations ailleurs. La neige récente est souvent assez portante, densifiée par le vent sans être forcément trop durcie en surface.",
+      "text": "Enneigement : Bon pour la saison, débutant par plaques vers 1300m, continu vers 1500m en nord, mais sans sous-couche jusqu'à 1800m en sud.\nÉtat de la neige : Une trentaine de centimètres de neige récente vers 1800m, inégalement répartie : zones pelées par le vent avec la glace ou le sol qui affleure, et des accumulations ailleurs. \nLes cumuls récents sont hétérogènes, plus importants vers l'avant de la chaîne en général.\nSamedi, des pentes exposées nord, rares sous 2000m, un peu plus nombreuses plus haut, sont encore en neige sèche, les autres sont croûtées le matin, en neige humide peu portante ensuite.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1200,
+        "north": 1300,
         "south": 1300
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 30,
+          "N": 35,
           "S": 30
         },
         {
           "alt_m": 2000,
-          "N": 235,
-          "S": 120
+          "N": 250,
+          "S": 135
         },
         {
           "alt_m": 2500,
-          "N": 340,
-          "S": 240
+          "N": 355,
+          "S": 255
         }
       ],
       "icon_key": "snowpack",

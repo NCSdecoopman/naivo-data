@@ -3,14 +3,14 @@
   "massif": "Pays-Basque",
   "bulletin": {
     "id": 64,
-    "issued_at": "2026-04-02T16:00:00",
-    "valid_until": "2026-04-03T18:00:00",
+    "issued_at": "2026-04-03T17:00:00",
+    "valid_until": "2026-04-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,7 +20,7 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 3,
+            "risk": 2,
             "evolution_to": null,
             "position": null
           }
@@ -34,30 +34,30 @@
         },
         "zones": {
           "center": {
-            "text": "3",
-            "risk": 3,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-04-04",
-        "label": "Indice de risque marqué",
-        "comment": "Evolution rapide vers un manteau printanier, quelques pentes en nord pourront rester en neige sèche et conserver un risque accidentel.",
+        "max_level": 2,
+        "date": "2026-04-05",
+        "label": "Indice de risque limité",
+        "comment": "Raréfaction des plaques, poursuite de l'humidification au soleil",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
+        "N": false,
+        "NE": false,
         "E": true,
         "SE": true,
         "S": true,
         "SW": true,
         "W": true,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -66,21 +66,16 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 4,
       "secondary": null,
       "labels": {
-        "1": "Neige fraîche"
+        "4": "Neige humide"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-29",
-          "min_cm": 2,
-          "max_cm": 5
-        },
         {
           "date": "2026-03-30",
           "min_cm": 2,
@@ -98,34 +93,39 @@
         },
         {
           "date": "2026-04-02",
-          "min_cm": 5,
-          "max_cm": 10
+          "min_cm": 10,
+          "max_cm": 15
         },
         {
           "date": "2026-04-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Plaques facilement déclenchables, départs spontanés au soleil",
-      "text": "Plaques facilement déclenchables, départs spontanés au soleil\n\nDéclenchements provoqués : \nDes structures de plaques ont été formées pendant les chutes de neige de ces derniers jours, dans des expositions variées, parfois loin des crêtes et cols. On les trouve majoritairement dans un large secteur sud, mais aussi dans les expositions nord abritées du vent. Elles sont souvent facilement déclenchables, formées d'un empilement de neiges hétérogènes, en particulier dans les expositions nord-ouest à nord-est où elles ont été protégées des quelques éclaircies. Dans les expositions sud, leur déclenchement paraît moins aisé, des humidifications partielles se sont produites en milieu de journée pendant les chutes, créant des croûtes au sein du manteau.\n\nDéparts spontanés : \nJeudi soir et la nuit suivante, des départs spontanés, ponctuels ou sous forme de plaques, préférentiellement en expositions sud, peuvent atteindre une taille moyenne. \nEn journée de vendredi, au fil de l'ensoleillement, des départs spontanés sont attendus, d'abord près des rochers puis dans un domaine plus large. Souvent de petite taille, ils atteindront parfois une taille moyenne.",
+      "title": "Départs spontanés au soleil, rares plaques encore possibles au plus haut du massif",
+      "text": "Départs spontanés au soleil, rares plaques encore possibles au plus haut du massif\n\nDéclenchements spontanés : \nAu fil de l'ensoleillement (est le matin, puis sud et ouest l'après-midi), des départs en neige humide sont attendus, mobilisant la neige récente. Ils sont en général de petite taille, parfois moyenne avec des départs linéaires. Une grande est possible, partant d'une accumulation en sud-est en haut du massif.\n\nDéparts spontanés : \nEn général peu probables, mais de rares pentes nord du haut du massif peuvent encore avoir échappé à l'humidification. Des structures de plaques peuvent y être facilement déclenchables, composées d'un empilement hétérogène de strates.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Correct pour la saison au-dessus de 1600m, mais restant assez maigre en versants ouest à nord,  exposés au vent. \nÉtat de la neige : Une trentaine de centimètres de neige récente vers 1600m, inégalement répartie : zones pelées par le vent avec la glace ou le sol qui affleure, et des accumulations ailleurs. La neige récente est souvent assez portante, densifiée par le vent sans être forcément trop durcie en surface.",
+      "text": "Enneigement : Bon pour la saison, débutant par plaques vers 1300m, continu vers 1500m en nord, plutôt 1600 en sud.\nÉtat de la neige : Une trentaine de centimètres de neige récente vers 1600m, inégalement répartie : zones pelées par le vent avec la glace ou le sol qui affleure, et des accumulations ailleurs. Samedi, quelques pentes exposées nord sont encore en neige sèche, les autres sont croûtées le matin, en neige humide peu portante ensuite.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1200,
+        "north": 1300,
         "south": 1300
       },
       "levels_cm": [
@@ -136,13 +136,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 20,
+          "N": 25,
           "S": 20
         },
         {
           "alt_m": 2000,
-          "N": 210,
-          "S": 135
+          "N": 220,
+          "S": 150
         }
       ],
       "icon_key": "snowpack",

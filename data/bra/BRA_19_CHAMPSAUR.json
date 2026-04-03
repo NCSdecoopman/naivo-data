@@ -3,14 +3,14 @@
   "massif": "Champsaur",
   "bulletin": {
     "id": 19,
-    "issued_at": "2026-04-02T16:00:00",
-    "valid_until": "2026-04-03T18:00:00",
+    "issued_at": "2026-04-03T16:00:00",
+    "valid_until": "2026-04-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible évoluant en limité.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2200,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": "<2200",
             "risk": 1,
-            "evolution_to": null,
+            "evolution_to": 2,
             "position": "bottom"
           },
           {
@@ -41,9 +41,9 @@
         },
         "zones": {
           "bottom": {
-            "text": "1",
+            "text": "1→2",
             "risk": 1,
-            "evolution_to": null
+            "evolution_to": 2
           },
           "top": {
             "text": "2",
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-04",
+        "date": "2026-04-05",
         "label": "Indice de risque limité",
-        "comment": "risque limité, avec une activité naturelle en neige humide en hausse sous l'effet du redoux et du bon ensoleillement.",
+        "comment": "Risque limité. Plaques résiduelles en ubac d'altitude et activité naturelle en neige humide.",
         "trend": "steady"
       }
     },
@@ -64,11 +64,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -79,20 +79,16 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": null,
+      "secondary": 4,
       "labels": {
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-30",
           "min_cm": 1,
@@ -117,6 +113,11 @@
           "date": "2026-04-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,30 +127,30 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES PLAQUES EN ALTITUDE DANS LA NEIGE VENTÉE",
-      "text": "QUELQUES PLAQUES EN ALTITUDE DANS LA NEIGE VENTÉE \n\nDéclenchements provoqués : des plaques sont encore localement présentes dans quelques pentes d'altitude, formées par transport de neige récente par le vent de nord des jours précédents. Elles se situent au dessus de 2200 m, plutôt en un large secteur nord, généralement loin des crêtes. Elles sont le plus souvent d'aspect durci par le vent, et bien identifiables. Elles sont généralement peu étendues, et peuvent provoquer des avalanches de taille petite à parfois moyenne, mais sont en cours de stabilisation et deviennent plus difficiles à déclencher au passage d'un seul skieur.\n\nDéparts spontanés : peu probables en début de journée après un bon regel nocturne, puis de rares départs superficiels de neige humide sont ensuite possibles, par départ ponctuel à proximité des rochers en pentes raides ensoleillées.",
+      "title": "QUELQUES INSTABILITÉS RÉSIDUELLES EN ALTITUDE - QUELQUES DÉPARTS EN NEIGE HUMIDE AU SOLEIL",
+      "text": "QUELQUES INSTABILITÉS RÉSIDUELLES EN ALTITUDE - QUELQUES DÉPARTS EN NEIGE HUMIDE AU SOLEIL \n\nDéclenchements provoqués : plaques à vent localisées dans quelques pentes d'altitude au-dessus de 2200 m environ, plutôt en large secteur nord, généralement loin des crêtes. Elles sont le plus souvent d'aspect durci par le vent, et bien identifiables. Déclenchement encore possible par un skieur, engendrant une avalanche peu étendue de taille petite à parfois moyenne. \nPar ailleurs, un skieur, évoluant tardivement en pentes raides ensoleillées, peut provoquer un départ ponctuel en neige humide sous les skis.\n\nDéparts spontanés : peu probables en début de journée après un bon regel nocturne, puis possibles départs de neige humide en pentes raides au soleil. Départs ponctuels en poire, plus rarement linéaires. Petite taille, moyenne non exclue.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales ou excédentaire pour un début avril.\nHauteurs de neige observées : 129 cm à la Nivôse d'Orcières à 2280 m, et 177 cm au-dessus de Prapic à 2480 m.\n\nLimite d'enneigement skiable : dès 1400 m en ubacs favorables (terrains herbeux, pistes forestières), 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige souvent durcie et travaillée par le vent, encore localement légère dans les secteurs bien abrités en versants nord. En versants ensoleillés, manteau neigeux souvent regelé sous 2500/2800 m, s'humidifiant en journée. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
+      "text": "L'enneigement est proche des normales ou excédentaire pour un début avril.\nHauteurs de neige observées : 124 cm à la Nivôse d'Orcières à 2280 m, et 167 cm au-dessus de Prapic à 2480 m.\n\nLimite d'enneigement skiable : dès 1400/1500 m en ubacs favorables (terrains herbeux, pistes forestières), 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : en adrets, manteau printanier, dur/ regelé, s'humidifiant en journée. En ubacs sous 2000/2200 m neige souvent croutée, plus haut neige durcie, travaillée par le vent, encore localement légère dans des secteurs bien abrités. En très haute altitude, manteau neigeux encore hivernal. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1400,
-        "south": 1700
+        "south": 1800
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 35,
+          "N": 30,
           "S": 0
         },
         {
           "alt_m": 2000,
           "N": 150,
-          "S": 85
+          "S": 80
         },
         {
           "alt_m": 2500,

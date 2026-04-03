@@ -3,37 +3,49 @@
   "massif": "Cerdagne Canigou",
   "bulletin": {
     "id": 74,
-    "issued_at": "2026-04-02T17:00:00",
-    "valid_until": "2026-04-03T18:00:00",
+    "issued_at": "2026-04-03T16:00:00",
+    "valid_until": "2026-04-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
+            "risk": 1,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
+          },
+          "top": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -42,22 +54,22 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-04",
+        "date": "2026-04-05",
         "label": "Indice de risque limité",
-        "comment": "Stationnaire",
+        "comment": "Stationnaire avec une reprise de l'activité en neige humide en journée.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
+        "N": false,
         "NE": true,
         "E": true,
         "SE": true,
         "S": true,
         "SW": true,
-        "W": true,
-        "NW": true
+        "W": false,
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -78,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-03-30",
           "min_cm": 0,
           "max_cm": 0
@@ -100,40 +107,45 @@
         {
           "date": "2026-04-02",
           "min_cm": 0,
-          "max_cm": 2
+          "max_cm": 1
         },
         {
           "date": "2026-04-03",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-04-04",
           "min_cm": 0,
           "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 2
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Instabilités encore présentes dans la neige fraiche ventée.",
-      "text": "Instabilités encore présentes dans la neige fraiche ventée.\n\nDéclenchements provoqués : \nAvalanches de plaques encore facilement déclenchables par un pratiquant. Ces instabilités dans la neige récente sont actuellement présentes dans les chutes de neige ventées, et pourraient encore se former avec le vent soufflant encore vendredi. Elles sont plutôt présentes du Canigou au Cambre d'Ase là où les cumuls de neige ont été les plus importants. Elles ont souvent un aspect poudreux, et peuvent reposer aussi loin des crêtes et dans des combes plus abritées. Les déclenchements peuvent donner lieu à des avalanches de moyennes tailles - toutefois suffisantes pour un ensevelissement. \nObservables : neige fraîche, accumulations de neige ventée dans certaines pentes.\n\nDéparts spontanés : \nDéparts ponctuels d'avalanche en journée dans les versants ensoleillés de taille petite à moyenne, emportant les chutes de neige récentes. Plus rarement, un départ linéaire est possible dans les pentes raides d'altitude des versants Sud à Est où des accumulations se forment avec le transport de neige par le vent.",
+      "title": "Encore quelques structures de plaques présentes en altitude et humidification qui gagne en profondeur.",
+      "text": "Encore quelques structures de plaques présentes en altitude et humidification qui gagne en profondeur.\n\nDéclenchements provoqués : \nAvalanches de plaques encore déclenchables par un pratiquant, dans les versants Nord-Ouest à Est au-dessus de 2000/2200 m. Ces avalanches seront de taille petite à moyenne, toutefois suffisante pour un ensevelissement. Ces instabilités dans la neige récente se sont formées avec les chutes de neige et le vent des derniers jours. Elles sont plutôt présentes du Canigou au Cambre d'Ase là où les derniers cumuls de neige ont été plus importants. Elles se trouvent parfois loin des crêtes avec un aspect poudreux dans des combes abritées et plus dure et compacte proche des crêtes et sommets. \nObservables : neige fraîche, accumulations de neige ventée dans certaines pentes.\n\nDéparts spontanés : \nReprise de l'activité en neige humide en journée avec des départs ponctuels d'avalanche dans les versants ensoleillés de taille petite à moyenne, plutôt dans les versants Sud à Est où les accumulations des derniers jours ont été plus importantes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nL'enneigement est excellent et compte parmi les meilleurs de ces 20 dernières années. En altitude, les cumuls sont encore conséquents, mais les crêtes et sommets exposés au vent d'ouest à nord-ouest sont souvent complètement déneigés. Malgré quelques apports de neige à plus basse altitude, la limite skiable évolue peu et est toujours vers 1600/1700 m en Nord pour trouver une réelle sous-couche permettant de progresser à ski.\n\nQualité de la neige : \nVendredi matin, on pourra retrouver de la neige récente, surtout vers le Canigou et le Haut-Vallespir mais aussi jusqu'au Cambre avec 15 à 25 cm datant de jeudi matin. En altitude, la neige est souvent bien travaillée par le vent avec de belles corniches et des zones hétérogènes alternant entre combes encore poudreuses et crêtes pelées ou même glacées notamment vers le Puigmal.",
+      "text": "Enneigement : \nL'enneigement est excellent cette année, dans les meilleurs des 20 dernières années, avec des cumuls conséquents en altitude malgré des crêtes et sommets exposés au vent de nord-ouest souvent dégarnis. On peut plutôt chausser sur une sous-couche de neige plus ancienne à partir de 1600/1700 m, parfois plus haut en sud.\n\nQualité de la neige : \nSamedi matin, le regel devrait être bon à partir de 1800/1900 m sauf en forêt. Plus bas, la neige sera humide dès le matin.\nEn journée, l’humidification se fait en surface jusqu’en haut du massif en versant ensoleillés, et en tous versants jusqu’à 2200/2300 m avec de la neige humide en profondeur à basse altitude. On trouvera tout de même des secteurs poudreux avec la neige des derniers jours dans les versants ombragés à partir de 2200/2300m. En altitude, la neige est souvent bien travaillée par le vent avec de belles corniches et des zones hétérogènes et des crêtes pelées ou même glacées notamment vers le Puigmal.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1400,
-        "south": 1400
+        "north": 1500,
+        "south": 1600
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 10,
-          "S": 10
+          "N": 5,
+          "S": 0
         },
         {
           "alt_m": 2000,

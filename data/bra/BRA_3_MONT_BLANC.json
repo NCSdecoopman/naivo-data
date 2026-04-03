@@ -3,30 +3,30 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-04-02T16:00:00",
-    "valid_until": "2026-04-03T18:00:00",
+    "issued_at": "2026-04-03T16:00:00",
+    "valid_until": "2026-04-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 1800m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible évoluant en limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 1800,
+        "threshold_m": 2200,
         "split_axis": "horizontal",
-        "split_label": "1800m",
+        "split_label": "2200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1800",
+            "loc": "<2200",
             "risk": 1,
-            "evolution_to": null,
+            "evolution_to": 2,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">1800",
+            "loc": ">2200",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,13 +37,13 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "1800m"
+          "label": "2200m"
         },
         "zones": {
           "bottom": {
-            "text": "1",
+            "text": "1→2",
             "risk": 1,
-            "evolution_to": null
+            "evolution_to": 2
           },
           "top": {
             "text": "2",
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-04",
+        "date": "2026-04-05",
         "label": "Indice de risque limité",
-        "comment": "Plaques à vent de plus en plus rares. Humidification superficielle en adrets raides.",
+        "comment": "La chaleur se poursuit et les risques liés à l'humidification de la neige sont toujours présents. L'humidification commence également dans les versants nord de moyenne montagne. Le risque se maintient.",
         "trend": "steady"
       }
     },
@@ -64,11 +64,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
+        "E": false,
         "SE": false,
         "S": false,
-        "SW": true,
-        "W": true,
+        "SW": false,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -79,20 +79,16 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": null,
+      "secondary": 4,
       "labels": {
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-29",
-          "min_cm": 1,
-          "max_cm": 1
-        },
         {
           "date": "2026-03-30",
           "min_cm": 10,
@@ -117,6 +113,11 @@
           "date": "2026-04-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,24 +127,24 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "",
-      "text": "Déclenchements provoqués :\nQuelques plaques à vent dans la neige récente, formées par le vent fort de N/NE ces derniers jours. Plaques majoritairement dures, plus rarement friables dans les secteurs relativement abrités. Pas uniquement près des crêtes/arêtes (souvent dures ravagées), mais aussi en contrebas. Plaques plus nombreuses dans la tranche d'altitude 2500/3500 m. Cassure 20/40 cm, localement 60 cm. Taille 1 à 2 (petite à moyenne).\nHaute-montagne au-dessus de 3500 m : le vent de NE a soufflé plusieurs jours en tempête, les faces exposées sont ravagées. Plaques isolées, moins nombreuses, dures et épaisses, difficiles à déclencher. \nObservables : alternance érosions/accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance. \n* Anecdotique mais pas impossible : présence locale d'une couche fragile persistante enfouie. En versants NE/N/NW, au-dessus de 2200 m. Déclenchement par skieur très peu probable, mais départ possible en cascade (une première avalanche, ou une chute de corniche, déclenche une plaque épaisse). Taille 2 à 3 (moyenne à grande).\n\nDéparts spontanés :\nPeu probables. Rares boules ou coulées en versants S très raides et réchauffés sous 2500 m.",
+      "title": "Retour du printemps en montagne.",
+      "text": "Retour du printemps en montagne.\n\nDéclenchements provoqués :\n* Des plaques à vent sont encore présentes dans la neige récente et froide en altitude. Elles se sont formées sous la Bise des derniers jours. Ces plaques sont présentes principalement  près des arêtes/crêtes, mais dans les secteurs les plus exposés, on peut en retrouver plus bas. Dans une tranche d'altitude 2500/3500m, elles sont un peu plus nombreuses. Cassure de 20/40 cm, localement un peu plus. Taille 1 à 2 (petites à moyennes).\n* Au fil de l'humidification, ces plaques sont temporairement plus réactives, mais ne sont pas plus épaisses ni larges.\n* En haute-montagne, le vent de NE a été tempétueux et ainsi la neige est plus dure et les plaques moins nombreuses (mais plus épaisses et plus difficiles à déclencher).\n* Anecdotique mais pas impossible : présence locale d'une couche fragile persistante enfouie. En versants NE/N/NW, au-dessus de 2200 m. Déclenchement par skieur très peu probable, mais départ possible en cascade (une première avalanche, ou une chute de corniche). Taille 2 à 3 (moyenne à grande).\n\nDéparts spontanés :\n* Coulées de neige humide sous 2500/2700m en journée sous le soleil au fil de l'humidification. Les orientations concernées évoluent au fil de l'ensoleillement. Les pentes raides réagissent un peu plus rapidement.\n* A toute heure du jour et de la nuit, des fissures de reptations peuvent s'ouvrir et des avalanches de fond sont possibles sur les terrains lisses (pentes herbeuses, dalles rocheuses, ...). Taille 1 à 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nBon pour un début avril. On peut chausser skis ou raquettes dès 1200/1300 m en versants N, 1400/1600 m en S.\n\nQualité de la neige ce vendredi :\nVariable selon l'exposition au fort vent de N/NE. 20/30 cm de neige récente, froide et meuble, reposant sur un fond dense. Les zones très exposées au vent sont dures ou ravagées (difficile à skier). Secteurs les plus soufflés ces derniers jours : Aiguilles Rouges, Col de Balme. Nombreuses corniches et accumulations/congères. Arêtes en glace vive en haute-montagne.\nFine humidification en surface dans les versants S/SW en dessous de 2300/2500 m, l'après-midi, sans importance.",
+      "text": "Enneigement :\nBon pour un début avril. On peut chausser skis ou raquettes dès 1200/1300 m en versants N, et 1400/1600 m en versants S.\n\nQualité de la neige ce samedi :\n* 20/30 cm de neige froide récente et meuble, reposant sur un fond dur.\n* Selon l'exposition au vent de N/NE de la semaine passée, on retrouve parfois des accumulations de neige plus importantes, ou au contraire, des zones dures voire ravagées par le vent. Les crêtes et sommets sont les plus ravagées par le vent.\n* Nombreuses corniches et accumulations/congères.\n* Arêtes en glace vive en haute-montagne.\n* En cours de journée, la neige s'humidifie dans un large sud (SE/S/SW/S) sous 3000 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1100,
+        "north": 1200,
         "south": 1400
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 90,
+          "N": 70,
           "S": 60
         },
         {
