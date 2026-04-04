@@ -3,49 +3,37 @@
   "massif": "Cerdagne Canigou",
   "bulletin": {
     "id": 74,
-    "issued_at": "2026-04-03T16:00:00",
-    "valid_until": "2026-04-04T18:00:00",
+    "issued_at": "2026-04-04T16:00:00",
+    "valid_until": "2026-04-05T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2000,
-        "split_axis": "horizontal",
-        "split_label": "2000m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
-            "risk": 1,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2000",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2000m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
+          "center": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -54,22 +42,22 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-05",
+        "date": "2026-04-06",
         "label": "Indice de risque limité",
-        "comment": "Stationnaire avec une reprise de l'activité en neige humide en journée.",
+        "comment": "Poursuite de l'humidification du manteau en journée, stabilisation des dernières plaques en altitude.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
+        "N": true,
         "NE": true,
         "E": true,
         "SE": true,
         "S": true,
         "SW": true,
-        "W": false,
-        "NW": false
+        "W": true,
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -78,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": 2,
       "labels": {
-        "2": "Neige ventée",
-        "4": "Neige humide"
+        "4": "Neige humide",
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-30",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-03-31",
           "min_cm": 1,
@@ -118,6 +101,11 @@
           "date": "2026-04-04",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-05",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Encore quelques structures de plaques présentes en altitude et humidification qui gagne en profondeur.",
-      "text": "Encore quelques structures de plaques présentes en altitude et humidification qui gagne en profondeur.\n\nDéclenchements provoqués : \nAvalanches de plaques encore déclenchables par un pratiquant, dans les versants Nord-Ouest à Est au-dessus de 2000/2200 m. Ces avalanches seront de taille petite à moyenne, toutefois suffisante pour un ensevelissement. Ces instabilités dans la neige récente se sont formées avec les chutes de neige et le vent des derniers jours. Elles sont plutôt présentes du Canigou au Cambre d'Ase là où les derniers cumuls de neige ont été plus importants. Elles se trouvent parfois loin des crêtes avec un aspect poudreux dans des combes abritées et plus dure et compacte proche des crêtes et sommets. \nObservables : neige fraîche, accumulations de neige ventée dans certaines pentes.\n\nDéparts spontanés : \nReprise de l'activité en neige humide en journée avec des départs ponctuels d'avalanche dans les versants ensoleillés de taille petite à moyenne, plutôt dans les versants Sud à Est où les accumulations des derniers jours ont été plus importantes.",
+      "title": "Poursuite de l'humidification, quelques plaques encore présentes en altitude",
+      "text": "Poursuite de l'humidification, quelques plaques encore présentes en altitude\n\nDéparts spontanés :\n- Des départs ponctuels d'avalanches de taille petite à moyenne sont attendus dans les pentes raides au fil de l'ensoleillement, quasiment en toutes orientations. Seules les faces nord d'altitude peuvent encore y échapper. Ces départs emporteront la neige tombée depuis lundi. Les plus gros volumes sont attendus principalement dans les versants nord-est à sud, plus chargés par le vent qui a soufflé cette semaine.\nObservables : neige humide sans cohésion\n- En dessous de 2000m, des avalanches de fond sont aussi possibles dans les pentes herbeuses ou sur des dalles rocheuses lisses récemment recouvertes par les chutes de la semaine. Elles seront de taille petite à moyenne.\nObservables : fissures, reptations récentes\n\nDéclenchements provoqués :\n-Quelques structures de plaques peuvent encore subsister dans la neige récente des versants Nord-Ouest à Est d'altitude. En cours de stabilisation, elles deviennent plus difficilement déclenchables. Elles peuvent néanmoins occasionner des avalanches petites à moyennes, suffisantes pour ensevelir un pratiquant, surtout du Canigou au Cambre d'Aze (où les derniers cumuls de neige ont été plus importants)  .\nObservables : Avalanches récentes, aspect ventée de la surface et accumulations locales, fissures éventuelles devant les skis.\n- Ailleurs, le risque se limite à des départs ponctuels dans la neige humide en coupant une pente raide déjà bien humidifiée.\n\nAutre : Corniches volumineuses proches des crêtes avec les chutes de neige ventée de cette semaine.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nL'enneigement est excellent cette année, dans les meilleurs des 20 dernières années, avec des cumuls conséquents en altitude malgré des crêtes et sommets exposés au vent de nord-ouest souvent dégarnis. On peut plutôt chausser sur une sous-couche de neige plus ancienne à partir de 1600/1700 m, parfois plus haut en sud.\n\nQualité de la neige : \nSamedi matin, le regel devrait être bon à partir de 1800/1900 m sauf en forêt. Plus bas, la neige sera humide dès le matin.\nEn journée, l’humidification se fait en surface jusqu’en haut du massif en versant ensoleillés, et en tous versants jusqu’à 2200/2300 m avec de la neige humide en profondeur à basse altitude. On trouvera tout de même des secteurs poudreux avec la neige des derniers jours dans les versants ombragés à partir de 2200/2300m. En altitude, la neige est souvent bien travaillée par le vent avec de belles corniches et des zones hétérogènes et des crêtes pelées ou même glacées notamment vers le Puigmal.",
+      "text": "Enneigement : \nL'enneigement est excellent cette année, dans les meilleurs des 20 dernières années, avec des cumuls conséquents en altitude malgré des crêtes et sommets exposés au vent de nord-ouest souvent dégarnis. On peut plutôt chausser sur une sous-couche de neige plus ancienne à partir de 1600/1700 m, parfois plus haut en sud.\n\nQualité de la neige : \nDimanche matin, on attend un regel efficace (en dehors de la forêt) avec de la neige dure et portante. On pourra encore trouver de la neige légère et poudreuse dans de rares combes d'altitude abritées du vent en secteurs nord-ouest à nord-est. Là où le vent a soufflé, la neige est plus dure et tassée. \nEn journée, l’humidification reprend en surface quasiment jusqu’en haut des massif, avec de la neige humide en profondeur et gorgée d’eau au soleil dans les versants Est à Ouest en passant par le Sud, au fil de l'ensoleillement, ainsi que dans les versants nord en dessous de 2200m environ.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 5,
+          "N": 1,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 155,
-          "S": 55
+          "N": 150,
+          "S": 50
         },
         {
           "alt_m": 2500,
           "N": 300,
-          "S": 180
+          "S": 175
         }
       ],
       "icon_key": "snowpack",

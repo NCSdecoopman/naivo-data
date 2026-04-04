@@ -3,72 +3,60 @@
   "massif": "Aravis",
   "bulletin": {
     "id": 2,
-    "issued_at": "2026-04-03T16:00:00",
-    "valid_until": "2026-04-04T18:00:00",
+    "issued_at": "2026-04-04T16:00:00",
+    "valid_until": "2026-04-05T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible évoluant en limité.",
+      "comment": "Indice de risque faible évoluant en limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2200,
-        "split_axis": "horizontal",
-        "split_label": "2200m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
+            "loc": null,
             "risk": 1,
             "evolution_to": 2,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2200",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2200m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
-          },
-          "top": {
-            "text": "2",
             "risk": 2,
-            "evolution_to": null
+            "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-05",
+        "date": "2026-04-06",
         "label": "Indice de risque limité",
-        "comment": "La chaleur se poursuit et les risques liés à l'humidification de la neige sont toujours présents. L'humidification commence également dans les versants nord. Le risque se maintient.",
+        "comment": "L'humidification se poursuit et le mauvais regel en nuit de dimanche à lundi pourrait occasionner plus de coulées en neige humide.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "N": false,
+        "NE": false,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -78,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": 2,
       "labels": {
-        "2": "Neige ventée",
-        "4": "Neige humide"
+        "4": "Neige humide",
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-30",
-          "min_cm": 10,
-          "max_cm": 15
-        },
         {
           "date": "2026-03-31",
           "min_cm": 0,
@@ -118,6 +101,11 @@
           "date": "2026-04-04",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-05",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Retour du printemps en montagne.",
-      "text": "Retour du printemps en montagne.\n\nDéclenchements provoqués :\n* Des plaques à vent sont encore présentes dans la neige récente et froide en altitude. Elles se sont formées sous la Bise des derniers jours. Ces plaques sont présentes principalement près des arêtes/crêtes, mais dans les secteurs les plus exposés, on peut en retrouver plus bas. Cassure de 20/40 cm, localement un peu plus. Taille 1 à 2 (petites à moyennes).\n* Au fil de l'humidification, ces plaques sont temporairement plus réactives, mais ne sont pas plus épaisses ni larges.\n\nDéparts spontanés :\n* Coulées de neige humide en journée sous le soleil au fil de l'humidification. Les orientations concernées évoluent au fil de l'ensoleillement. Les pentes raides réagissent un peu plus rapidement.\n* A toute heure du jour et de la nuit, des fissures de reptations peuvent s'ouvrir et des avalanches de fond sont possibles sur les terrains lisses (pentes herbeuses, dalles rocheuses, ...). Taille 1 à 2.",
+      "title": "Neige humide dans les versants ensoleillés et de rares instabilités (rares plaques à vent) en secteurs froids",
+      "text": "Neige humide dans les versants ensoleillés et de rares instabilités (rares plaques à vent) en secteurs froids\n\nDéparts spontanés :\n* Coulées de neige humide en journée sous le soleil au fil de l'humidification. Les orientations concernées évoluent au fil de l'ensoleillement. Les pentes raides réagissent un peu plus rapidement. Taille 1 à 2.(petite à moyenne).\n* À toute heure du jour et de la nuit, des fissures de reptations peuvent s'ouvrir et des avalanches de fond sont possibles sur les terrains lisses (pentes herbeuses, dalles rocheuses, ...). Taille 1 à 2.\n\nDéclenchements provoqués :\n* Coulées de neige humide sous les skis. Taille 1, 2. \n* Au fil de l'humidification, ces plaques sont temporairement plus réactives, mais ne sont pas plus épaisses ni larges. Taille 1 voir 2.\n* Rares plaques à vent encore présentes dans la neige récente et froide en altitude, elles sont peu réactives. Elles se sont formées sous la Bise des derniers jours. Ces plaques sont présentes principalement près des arêtes/crêtes, mais dans les secteurs les plus exposés, on peut en retrouver plus bas. Cassure de 20/40 cm, localement un peu plus. Taille 1 à 2.\n\nAutre :\n* Le redoux peut occasionner des chutes de corniches.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nBon pour un début avril. On peut chausser skis ou raquettes dès 1200/1300 m en versants N, et 1400/1600 m en versants S.\n\nQualité de la neige ce samedi :\n* 20/30 cm de neige froide récente et meuble, reposant sur un fond dur.\n* Selon l'exposition au vent de N/NE de la semaine passée, on retrouve parfois des accumulations de neige plus importantes, ou au contraire, des zones dures voire ravagées par le vent. Les crêtes et sommets sont les plus ravagées par le vent.\n* Nombreuses corniches et accumulations/congères.\n* En cours de journée, la neige s'humidifie dans un large sud (SE/S/SW/S).",
+      "text": "Enneigement :\nBon pour un début avril. On peut chausser skis ou raquettes dès 1200/1300 m en versants N, et 1400/1600 m en versants S.\n\nQualité de la neige ce dimanche:\n* Regel plutôt bon en matinée. En cours de journée, la neige s'humidifie dans un large sud/ouest. \n* En nord, légère humidification en surface puis neige froide/ventée au-dessus de 2300 m environ. Encore des accumulations de neige plus importantes, ou au contraire, des zones dures voire ravagées par le vent. Les crêtes et sommets sont les plus ravagées par le vent.\n* Nombreuses corniches et accumulations/congères.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -154,8 +142,8 @@
         },
         {
           "alt_m": 2000,
-          "N": 210,
-          "S": 160
+          "N": 205,
+          "S": 155
         }
       ],
       "icon_key": "snowpack",

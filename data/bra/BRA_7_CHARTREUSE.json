@@ -3,14 +3,14 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-04-03T16:00:00",
-    "valid_until": "2026-04-04T18:00:00",
+    "issued_at": "2026-04-04T16:00:00",
+    "valid_until": "2026-04-05T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque faible évoluant en limité.",
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 1,
-            "evolution_to": 2,
+            "risk": 2,
+            "evolution_to": null,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "1→2",
+            "text": "2",
             "risk": 2,
-            "evolution_to": 2
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-05",
+        "date": "2026-04-06",
         "label": "Indice de risque limité",
-        "comment": "Risque stationnaire ou en légère baisse. Quelques coulées ou avalanches de printemps...",
+        "comment": "Risque d'avalanches humides en hausse lundi,  notamment en faces Nord : Nuit de dimanche à lundi nuageuse, pas de regel a priori",
         "trend": "steady"
       }
     },
@@ -53,11 +53,11 @@
         "N": false,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
-        "NW": false
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -67,20 +67,16 @@
     },
     "sat": {
       "primary": 4,
-      "secondary": null,
+      "secondary": 5,
       "labels": {
-        "4": "Neige humide"
+        "4": "Neige humide",
+        "5": "Avalanche de fond"
       },
       "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-30",
-          "min_cm": 5,
-          "max_cm": 10
-        },
         {
           "date": "2026-03-31",
           "min_cm": 0,
@@ -105,6 +101,11 @@
           "date": "2026-04-04",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-05",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,19 +115,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "REDOUX ENSOLEILLE, QUELQUES COULEES OU AVALANCHES HUMIDES AU FIL DES HEURES...",
-      "text": "REDOUX ENSOLEILLE, QUELQUES COULEES OU AVALANCHES HUMIDES AU FIL DES HEURES...\n\nNeige s'humidifiant au soleil, un peu d'activité printanière ...\nDéparts spontanés :\nRegel nocturne puis samedi le redoux sera net en versants ensoleillés. Au fil de la journée on peut s'attendre à quelques nouvelles coulées humides, parfois une avalanche plus conséquente en longue pente raide. Une rupture de corniche n'est pas exclue\nDéclenchements provoqués :\nEn faces Nord sommitales, le matin, il peut rester un peu de neige sèche soufflée, mais le risque de plaque parait minime.\nEn pentes soutenues et bien humidifiées (suivant la course du soleil), le skieur se méfiera d'un risque de coulée humide ponctuelle sous un virage, la neige plus récente glissant sur les sous-couches denses...\n\nAutres :  A l'ombre neige durcie ou croutée par regel, surfaces glissantes ou ski parfois délicat en versant moins ensoleillé (où la neige est moins transformée)...",
+      "title": "POSSIBLES COULEES DES LE MATIN, RARES AVALANCHES HUMIDES, Y COMPRIS EN FACES \"FROIDES\"...",
+      "text": "POSSIBLES COULEES DES LE MATIN, RARES AVALANCHES HUMIDES, Y COMPRIS EN FACES \"FROIDES\"...\n\nMédiocre regel et neige s'humidifiant plus en profondeur, un peu d'activité printanière dans les pentes habituellement moins ensoleillées ... \nLe pratiquant sera attentif aux surfaces temporairement durcies ou croutées par regel.\nDéparts spontanés :\nRegel nocturne faible ou absent puis dimanche rapide redoux, y compris en versant peu ensoleillés. Dès la matinée, on peut s'attendre à quelques nouvelles coulées/ petites avalanches humides en pentes habituellement moins \"chaudes\". Dans un rare cas une avalanche de glissement plus conséquente, au terrain, n'est pas exclue (alpage raide). En plein Sud moins de neige ou neige dense, plutôt un risque de chute de corniche en haut de couloir ?\nDéclenchements provoqués :\nPas de risque de plaque a priori. En pentes soutenues et bien humidifiées, le skieur se méfiera d'un risque de coulée humide ponctuelle sous un virage, la neige plus récente glissant sur les sous-couches denses...\n\nAutres :  A l'ombre (le matin surtout) neige durcie ou croutée par regel, surfaces temporairement glissantes...",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est bon dès assez basse altitude, et même abondant vers les hauts de Chartreuse... \nLimites skiables : Vers 1100/1300m en Nord, 1500/1700m au soleil...\n\nQualité de la neige samedi : En Nord d'altitude, neige finement croutée ou encore sèche travaillée par le vent.  En Sud neige printanière... Les pentes ensoleillées sont plus denses ou croutées par regel et vont rapidement s'humidifier au fil de la course du soleil. Humidification plus conséquente par rapport aux jours précédents...",
+      "text": "Qualification de l’enneigement :  Malgré la récente fonte l'enneigement reste correct dès assez basse altitude, et même très bon vers les hauts de Chartreuse... \nLimites skiables : Vers 1100/1300m en Nord, 1500/1700m au soleil...\n\nQualité de la neige dimanche : En Nord d'altitude, neige finement croutée/cassante le matin avec des restes de congères/effets du vent..  En pentes ensoleillées neige printanière, regel assez superficiel au petit matin...  Très rapide humidification en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1200,
-        "south": 1500
+        "south": 1600
       },
       "levels_cm": [
         {
@@ -137,12 +138,12 @@
         {
           "alt_m": 1500,
           "N": 85,
-          "S": 2
+          "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 250,
-          "S": 155
+          "N": 245,
+          "S": 150
         }
       ],
       "icon_key": "snowpack",

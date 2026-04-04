@@ -3,30 +3,30 @@
   "massif": "Champsaur",
   "bulletin": {
     "id": 19,
-    "issued_at": "2026-04-03T16:00:00",
-    "valid_until": "2026-04-04T18:00:00",
+    "issued_at": "2026-04-04T16:00:00",
+    "valid_until": "2026-04-05T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible évoluant en limité.",
+      "comment": "Au-dessus de 2300m indice de risque limité, plus bas indice faible évoluant en limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2200,
+        "threshold_m": 2300,
         "split_axis": "horizontal",
-        "split_label": "2200m",
+        "split_label": "2300m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
+            "loc": "<2300",
             "risk": 1,
             "evolution_to": 2,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2200",
+            "loc": ">2300",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2200m"
+          "label": "2300m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-05",
+        "date": "2026-04-06",
         "label": "Indice de risque limité",
-        "comment": "Risque limité. Plaques résiduelles en ubac d'altitude et activité naturelle en neige humide.",
+        "comment": "L'humidification continue de gagner en altitude et en profondeur avec le temps très doux et bien ensoleillé qui se maintient. L'activité en neige humide reprend donc en cours de journée.\nRares plaques résiduelles en neige froide dans les ubacs de haute altitude.",
         "trend": "steady"
       }
     },
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": 2,
       "labels": {
-        "2": "Neige ventée",
-        "4": "Neige humide"
+        "4": "Neige humide",
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-03-30",
-          "min_cm": 1,
-          "max_cm": 3
-        },
         {
           "date": "2026-03-31",
           "min_cm": 0,
@@ -118,6 +113,11 @@
           "date": "2026-04-04",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-05",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES INSTABILITÉS RÉSIDUELLES EN ALTITUDE - QUELQUES DÉPARTS EN NEIGE HUMIDE AU SOLEIL",
-      "text": "QUELQUES INSTABILITÉS RÉSIDUELLES EN ALTITUDE - QUELQUES DÉPARTS EN NEIGE HUMIDE AU SOLEIL \n\nDéclenchements provoqués : plaques à vent localisées dans quelques pentes d'altitude au-dessus de 2200 m environ, plutôt en large secteur nord, généralement loin des crêtes. Elles sont le plus souvent d'aspect durci par le vent, et bien identifiables. Déclenchement encore possible par un skieur, engendrant une avalanche peu étendue de taille petite à parfois moyenne. \nPar ailleurs, un skieur, évoluant tardivement en pentes raides ensoleillées, peut provoquer un départ ponctuel en neige humide sous les skis.\n\nDéparts spontanés : peu probables en début de journée après un bon regel nocturne, puis possibles départs de neige humide en pentes raides au soleil. Départs ponctuels en poire, plus rarement linéaires. Petite taille, moyenne non exclue.",
+      "title": "ACTIVITÉ EN NEIGE HUMIDE AU FIL DE L'ENSOLEILLEMENT - RARES PLAQUES ENCORE EN PLACE EN ALTITUDE",
+      "text": "ACTIVITÉ EN NEIGE HUMIDE AU FIL DE L'ENSOLEILLEMENT - RARES PLAQUES ENCORE EN PLACE EN ALTITUDE\n\nDéparts spontanés : activité en neige humide en hausse au fil de la journée selon la course du soleil, en particulier dans les pentes raides près des rochers. Départs généralement ponctuels en poire, mais parfois linéaires, engendrant des avalanches petites à moyennes (taille 1 à 2).\n\nDéclenchements provoqués : * au-dessus de 2300/2400 m environ, de rares plaques sont encore en place dans les accumulations de neige transportée par les derniers épisodes de vent fort. Ces plaques sont souvent d'aspect durci et peuvent encore céder au passage d'un seul skieur. \nÀ noter que l'humidification des couches superficielles en cours de journée peut parfois faciliter leur déclenchement (structure de plaque en neige froide enfouie sous la neige humide de surface). Avalanches petites à moyennes en général (taille 1 à 2).\n* Un skieur évoluant trop tardivement dans une pente raide ayant trop chauffé peut provoquer un départ de neige humide sous ses skis.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales ou excédentaire pour un début avril.\nHauteurs de neige observées : 124 cm à la Nivôse d'Orcières à 2280 m, et 167 cm au-dessus de Prapic à 2480 m.\n\nLimite d'enneigement skiable : dès 1400/1500 m en ubacs favorables (terrains herbeux, pistes forestières), 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : en adrets, manteau printanier, dur/ regelé, s'humidifiant en journée. En ubacs sous 2000/2200 m neige souvent croutée, plus haut neige durcie, travaillée par le vent, encore localement légère dans des secteurs bien abrités. En très haute altitude, manteau neigeux encore hivernal. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
+      "text": "L'enneigement est proche des normales ou excédentaire pour un début avril.\nHauteurs de neige observées : 124 cm à la Nivôse d'Orcières à 2280 m, et 172 cm au-dessus de Prapic à 2480 m.\n\nLimite d'enneigement skiable : dès 1400/1500 m en ubacs favorables (terrains herbeux, pistes forestières), 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : en ubacs sous 2200 m et en adrets à toute altitude, manteau neigeux printanier, durci par le regel en début de journée, puis s'humidifiant au soleil. Dans les ubacs suffisamment raides au-dessus de 2200/2300 m environ, neige encore froide, durcie ou travaillée par le vent dans les secteurs exposés, mais encore assez légère dans les combes ou pentes abritées. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 150,
-          "S": 80
+          "N": 145,
+          "S": 75
         },
         {
           "alt_m": 2500,
-          "N": 200,
-          "S": 135
+          "N": 195,
+          "S": 130
         }
       ],
       "icon_key": "snowpack",

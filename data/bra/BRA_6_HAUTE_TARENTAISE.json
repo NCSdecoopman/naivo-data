@@ -3,30 +3,30 @@
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
-    "issued_at": "2026-04-03T16:00:00",
-    "valid_until": "2026-04-04T18:00:00",
+    "issued_at": "2026-04-04T16:00:00",
+    "valid_until": "2026-04-05T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible évoluant en limité.",
+      "comment": "Au-dessus de 2300m indice de risque limité, plus bas indice faible évoluant en limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 2300,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "2300m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<2300",
             "risk": 1,
             "evolution_to": 2,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
+            "loc": ">2300",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "2300m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-05",
+        "date": "2026-04-06",
         "label": "Indice de risque limité",
-        "comment": "Évolution rapide vers une situation de neige humide printanière avec un risque faible le matin, devenant limité en journée. Les rares plaques en neige froide deviennent anecdotiques.",
+        "comment": "Mauvais regel nocturne. Conditions médiocres avec de l'activité naturelle possible dès le levé du jour.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-30",
-          "min_cm": 5,
-          "max_cm": 10
-        },
-        {
           "date": "2026-03-31",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +113,11 @@
           "date": "2026-04-04",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-05",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -128,24 +128,24 @@
     },
     "stability": {
       "title": "GRANDE DOUCEUR : ÉVOLUTION RAPIDE VERS UN MANTEAU PRINTANIER. RARES INSTABILITÉS EN NEIGE FROIDE EN NORD.",
-      "text": "GRANDE DOUCEUR : ÉVOLUTION RAPIDE VERS UN MANTEAU PRINTANIER. RARES INSTABILITÉS EN NEIGE FROIDE EN NORD.\n\nDéparts spontanés : nombreux départs en neige humide dans les versants ensoleillés, au fil de la journée. Généralement des petites avalanches, mais quelques tailles moyennes sont aussi attendues (notamment couloirs et pentes raides qui se \"purgent\"). Attention car à cette période de l'année le soleil commence à être haut et atteint aussi les pentes NE/NO.\n\nDéclenchements provoqués : il subsiste de rares plaques en neige ventée dans les versants Nord au-dessus de 2000/2200 m. Elles sont encore localement réactives, notamment dans les zones d'accumulation en pente raide. Ces plaques sont constituées  d'une neige fortement densifiée voire durcie par le vent en surface, ce qui permet dans la plupart des cas de les identifier. Cassures modestes, 15 à 30 cm donnant des avalanches petites à moyennes.",
+      "text": "GRANDE DOUCEUR : ÉVOLUTION RAPIDE VERS UN MANTEAU PRINTANIER. RARES INSTABILITÉS EN NEIGE FROIDE EN NORD.\n\nDéparts spontanés : départs en neige humide dans les versants ensoleillés, au fil de la journée. Généralement des petites avalanches, mais quelques tailles moyennes sont aussi attendues (notamment couloirs et pentes raides qui se \"purgent\"). Attention car à cette période de l'année le soleil commence à être haut et l'activité avalancheuse atteint aussi les pentes NE/NO.\n\nDéclenchements provoqués : il subsiste de rares plaques en neige ventée dans les versants Nord au-dessus de 2300/2500 m. Elles sont encore localement réactives, notamment dans les zones d'accumulation en pente raide. Ces plaques sont constituées  d'une neige fortement densifiée voire durcie par le vent en surface, ce qui permet dans la plupart des cas de les identifier. Cassures modestes, 15 à 30 cm donnant des avalanches petites à moyennes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : un peu au dessus de la moyenne, mais les prochains jours de chaleur vont bien attaquer le manteau.\n\nLimite skiable : vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige : encore une neige froide dans les versants Nord, dès 2000/2200 m, avec une poudre tassée agréable sauf dans les secteurs ayant subi la bise et alors parfois très hétérogènes (croupes/crêtes pelées).\nDans tous les autres versants, manteau en cours de \"printanisation\" : neige n'ayant pas encore subi suffisamment de cycles gel/dégel pour assurer une portance dans tous les secteurs au matin (sauf en Sud où ça devrait déjà être bon jusqu'à ~2500 m). Puis bottage/collante l'après-midi :-(",
+      "text": "Enneigement : un peu au dessus de la moyenne, mais les prochains jours de chaleur vont bien attaquer le manteau.\n\nLimite skiable : vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige : encore une neige froide dans les versants Nord, au-dessus de 2200/2300 m, avec une poudre tassée agréable sauf dans les secteurs ayant subi la bise et alors parfois très hétérogènes (croupes/crêtes pelées).\nLes versants ensoleillés sont bien regelés au réveil. Après décaillage, la neige de printemps est bonne à skier en Sud et même en Est et Ouest à des altitudes \"modestes\" (sous 2500 m ?). Plus haut, elle peut avoir manqué de cycle gel/degel et être légèrement moins bonne sous les skis.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1200,
-        "south": 1400
+        "south": 1600
       },
       "levels_cm": [
         {
           "alt_m": 1500,
           "N": 80,
-          "S": 15
+          "S": 0
         },
         {
           "alt_m": 2000,
