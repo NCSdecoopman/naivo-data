@@ -3,8 +3,8 @@
   "massif": "Luchonnais",
   "bulletin": {
     "id": 68,
-    "issued_at": "2026-04-04T16:00:00",
-    "valid_until": "2026-04-05T18:00:00",
+    "issued_at": "2026-04-05T16:00:00",
+    "valid_until": "2026-04-06T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-06",
+        "date": "2026-04-07",
         "label": "Indice de risque limité",
-        "comment": "Dans la majorité des pentes, on garde des conditions de neige de printemps : regel nocturne, humidification marquée en journée. Dans les versants raides nord au-dessus de 2400/2500m, humidification un peu plus lente mais en cours. Le risque restera au plus limité (2).",
+        "comment": "On garde des conditions de neige de printemps : regel nocturne plus ou moins efficace, humidification marquée en journée au soleil et dans la douceur, encore un peu lente en Nord raides au-dessus de 2600m. Le risque restera limité (2).",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-31",
-          "min_cm": 5,
-          "max_cm": 15
-        },
-        {
           "date": "2026-04-01",
           "min_cm": 10,
           "max_cm": 20
@@ -106,6 +101,11 @@
           "date": "2026-04-05",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-06",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,35 +115,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NEIGE DE PRINTEMPS MAJORITAIRE, QUELQUES STRUCTURES DE PLAQUES ENCORE PRESENTES EN ALTITUDE.",
-      "text": "NEIGE DE PRINTEMPS MAJORITAIRE, QUELQUES STRUCTURES DE PLAQUES ENCORE PRESENTES EN ALTITUDE.\n\nDéclenchements provoqués : \n- au-dessus de 2400m, dans les expositions raides nord-ouest, nord et nord-est, des structures de plaques, souvent durcies juste en surface entre 2400 et 2600m, sont encore en place, formées lors des dernières chutes de neige (préférentiellement derrière crêtes, cols, et dans les combes déventées). Ces structures restent facilement déclenchables par un seul skieur ou randonneur, et peuvent donner lieu à des avalanches de taille petite à moyenne (accumulations en cours de tassement mais encore parfois importantes).\n- en dessous de 2400m des versants décrits ci-dessus et dans tous les autres secteurs, déclenchement facile de neige humide par un skieur ou randonneur au soleil. Plutôt coulée ou petite avalanche attendue en matinée en est à sud-est, avalanche petite à parfois moyenne l'après-midi en sud à ouest, notamment à proximité des fissures.\n\nObservables : travail du vent très visible en altitude, fissures ouvertes en est à sud-ouest sous 2200/2300m.\n\nDéclenchements spontanés : \nRares et peu importants en début de matinée, plus nombreux et prenant de l'ampleur au cours de la journée. Généralement sous forme de coulée ou d'avalanche de petite taille près des rochers et à proximité des zones déjà déneigées, localement de taille moyenne dans l'après-midi avec départs linéaires de plaques de fond, encore possibles en partant d'une accumulation encore présente sur le haut du massif.\n\nAutres : ponts de neige et corniches encore en place fragilisés au soleil.",
+      "title": "NEIGE DE PRINTEMPS MAJORITAIRE, QUELQUES STRUCTURES DE PLAQUES ENCORE PRESENTES NORD D'ALTITUDE.",
+      "text": "NEIGE DE PRINTEMPS MAJORITAIRE, QUELQUES STRUCTURES DE PLAQUES ENCORE PRESENTES NORD D'ALTITUDE.\n\nDéclenchements spontanés : \nRares et peu importants en début de matinée, plus nombreux et prenant de l'ampleur au cours de la journée. Généralement sous forme de coulée ou d'avalanche de petite taille près des rochers et à proximité des zones déjà déneigées, de taille moyenne à rarement grande(plutôt secteur frontalier) au plus chaud de l'après-midi. Départs linéaires de plaques de fond encore possibles en tous versants en partant d'une accumulation encore présente sur le haut du massif.\n\nDéclenchements provoqués : \n- au-dessus de 2500m, dans les expositions raides nord-ouest, nord et nord-est, des structures de plaques, souvent durcies juste en surface entre 2400 et 2600m, sont encore en place, formées lors des dernières chutes de neige (préférentiellement derrière crêtes, cols, et dans les combes déventées). Ces structures, une fois la neige ramollie en surface, restent facilement déclenchables par un seul skieur ou randonneur, et peuvent donner lieu à des avalanches de taille petite à moyenne (accumulations en cours de tassement mais encore parfois importantes). Une rare grande reste possible en déclenchant une telle structure au-dessus de 2600m entraînant par effet de cascade la neige encore mobilisable en contrebas.\n- en dessous de 2500m des versants décrits ci-dessus et dans tous les autres secteurs, déclenchement facile de neige humide par un skieur ou randonneur au soleil et dans la douceur. Plutôt coulée ou petite avalanche attendue en matinée en est à sud-est, avalanche petite à parfois moyenne l'après-midi en sud à ouest, notamment à proximité des fissures.\n\nObservables : travail du vent très visible en altitude, fissures ouvertes en est à sud-ouest sous 2200/2300m.\n\nAutres : ponts de neige et corniches encore en place fragilisés au soleil.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : bon pour la saison, débutant vers 1500m en nord, plutôt 1600 à 1700m en sud.\nÉtat de la neige : neige de printemps dans une grande majorité des secteurs : regelée, dure et portante au petit matin, ramollissant vite au soleil. Humidification un peu plus lente en versants nord mais accentuée et se faisant plus en profondeur par rapport aux jours précédents. Dans les pentes nord raides, neige légèrement croûtée en surface entre 2400 et 2600m, encore sèche et assez meuble au-dessus, s'humidifiant lentement mais sûrement au cours de la journée dans la douceur.",
+      "text": "Enneigement : encore bon pour la saison, débutant encore vers 1500m en nord, 1700 à 1800m en sud même si les limites remontent progressivement en altitude.\nÉtat de la neige : neige de printemps dans une grande majorité des secteurs : à peine ressaisie sous 1800/1900m, plus ou moins bien regelée, dure et portante au-dessus au petit matin, ramollissant vite au soleil. Humidification un peu plus lente en versants nord mais accentuée et se faisant plus en profondeur par rapport aux jours précédents. Dans les pentes nord raides, neige légèrement croûtée en surface jusque 2500/2600m, encore sèche et un peu meuble au-dessus, s'humidifiant lentement mais sûrement au cours de la journée dans la douceur.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1400,
-        "south": 1600
+        "north": 1500,
+        "south": 1800
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 20,
+          "N": 10,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 230,
-          "S": 100
+          "N": 220,
+          "S": 90
         },
         {
           "alt_m": 2500,
-          "N": 340,
-          "S": 245
+          "N": 330,
+          "S": 230
         }
       ],
       "icon_key": "snowpack",

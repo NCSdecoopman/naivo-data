@@ -3,49 +3,37 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-04-04T16:00:00",
-    "valid_until": "2026-04-05T18:00:00",
+    "issued_at": "2026-04-05T16:00:00",
+    "valid_until": "2026-04-06T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2600m indice de risque limité, plus bas indice faible évoluant en limité.",
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2600,
-        "split_axis": "horizontal",
-        "split_label": "2600m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2600",
-            "risk": 1,
-            "evolution_to": 2,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2600",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2600m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
-          },
-          "top": {
+          "center": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -54,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-06",
+        "date": "2026-04-07",
         "label": "Indice de risque limité",
-        "comment": "Risque d'avalanches humides plutôt en légère hausse lundi, notamment en faces Nord  sous 2200m :  Nuit de dimanche à lundi assez nuageuse,  guère de regel a priori",
+        "comment": "Mardi, poursuite du temps ensoleillé et très doux. L'isotherme 0°C est en hausse vers 3300/3400 m, l'humidification du manteau neigeux s'accentue et gagne en profondeur. Le risque d'avalanches humides se maintient et pourrait même s'accentuer un peu.",
         "trend": "steady"
       }
     },
@@ -90,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-31",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-01",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +101,11 @@
           "date": "2026-04-05",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-06",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,35 +115,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "REDOUX AU SOLEIL, DAVANTAGE EN ALTITUDE : QUELQUES COULEES OU AVALANCHES HUMIDES AU FIL DES HEURES... EN FACES NORD, RARES PLAQUES...",
-      "text": "REDOUX AU SOLEIL, DAVANTAGE EN ALTITUDE : QUELQUES COULEES OU AVALANCHES HUMIDES AU FIL DES HEURES... EN FACES NORD, RARES PLAQUES...\n\nUn peu d'activité printanière suivant la course du soleil, et plus en altitude. En faces Nord de rares plaques. Attention aussi aux surfaces durcies/regelées.\nDéparts spontanés :\nRegel nocturne puis samedi le redoux sera net en versants ensoleillés et se produit davantage en altitude. Au fil de la journée et notamment près des rochers on peut s'attendre à quelques nouvelles coulées humides. En longue pente raide rare avalanche plus conséquente. \nUne rupture spontanée de corniche n'est pas exclue, notamment sous 2500/2800m environ ?\nDéclenchements provoqués :\nEn faces Nord d'altitude, la neige récente a été soufflée (bise de Nord-Est). Risque résiduel de plaque de surface, parfois dure. Le travail du vent est les accumulations seraient assez visibles, prendre des distances... Rupture potentielle 15/30 cm environ, plutôt au dessus de 2500/2700m environ... En pentes soutenues et bien humidifiées (suivant la course du soleil), le skieur se méfiera d'un risque de coulée humide ponctuelle sous un virage, la neige plus récente pouvant glisser sur les sous-couches denses...\n\nAutres :  A l'ombre neige durcie par regel, anciennes traces parfois lustrées. En pentes où le soleil est plus rasant des secteurs temporairement croutés et ski délicat....",
+      "title": "POURSUITE DE L'HUMIDIFICATION AU SOLEIL, GAGNANT EN ALTITUDE ET EN PROFONDEUR. EN FACES NORD, RARES PLAQUES.",
+      "text": "POURSUITE DE L'HUMIDIFICATION AU SOLEIL, GAGNANT EN ALTITUDE ET EN PROFONDEUR. EN FACES NORD, RARES PLAQUES.\n\nDéparts spontanés : - Après un regel nocturne éventuel (en cas de belles éclaircies en deuxième partie de nuit de dimanche à lundi), de nouvelles avalanches humides peuvent se produire ce lundi dans les pentes réchauffées par le soleil, le plus souvent de taille 1 à 2. L'humidification gagne petit à petit en profondeur, et on ne peut exclure qu'elle atteigne très localement des couches fragiles enfouies dans le manteau, notamment dans les accumulations des versants Est et Ouest, auquel cas une avalanche plus conséquente de taille 3 est envisageable, avec départ linéaire et/ou jusqu'au terrain.\n- Une rupture spontanée de corniche n'est pas exclue, notamment sous 2500/2800m environ.\n\nDéclenchements provoqués : - De rares plaques de surface, parfois dures, peuvent subsister très localement en faces Nord d'altitude, dans les zones d'accumulations où la neige récente a été travaillée voire soufflée par la bise de Nord-Est. \n- Par ailleurs, en pentes soutenues et bien humidifiées (suivant la course du soleil), le pratiquant pourrait faire couler la neige humide sous les skis.\n\nAutres :  A l'ombre neige parfois durcie par regel, anciennes traces lustrées. En pentes où le soleil est plus rasant des secteurs temporairement croutés et ski délicat....",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est bon dès la moyenne montagne \"froide\", les fonds de vallées et même très bon dans les combes d'altitude (ce qui est plus classique à cette saison).  Hauts sommets, glaciers et faces raides d'altitudes sont plus secs...\nLimites skiables : Vers 1300/1500m en Nord, 1600/2200m au soleil suivant l'exposition/ la raideur de la pente...\n\nQualité de la neige dimanche :   En large Sud neige plus transformée,  printanière. Regel nocturne puis rapide humidification suivant la course du soleil. Humidification plus conséquente par rapport aux jours précédents...\nNeige encore sèche en plein Nord au dessus de 2200m environ. Neige poudreuse dense en couloirs abrités ou bien souvent cartonnée/sculptée, durcie par la bise du début de semaine. En versants intermédiaires neige temporairement croutée/cassante.",
+      "text": "Qualification de l’enneigement :  L'enneigement est bon dès la moyenne montagne \"froide\", les fonds de vallées et même très bon dans les combes d'altitude (ce qui est plus classique à cette saison).  Hauts sommets, glaciers et faces raides d'altitudes sont plus secs... La fonte a bien débuté aux plus basses altitudes enneigées et dans les versants bien ensoleillés, elle se poursuit et s'accentue encore ce lundi.\nLimites skiables : Vers 1300/1500m en Nord, 1600/2200m au soleil suivant l'exposition/ la raideur de la pente...\n\nQualité de la neige lundi :  En large Sud neige plus transformée,  printanière. Regel nocturne moyen (dépendant des éclaircies de la deuxième partie de nuit de dimanche à lundi), puis rapide humidification suivant la course du soleil. Neige encore sèche en plein Nord au dessus de 2400/2600m environ, avec une neige poudreuse dense en couloirs abrités ou bien souvent cartonnée/sculptée, durcie par la bise du début de semaine. En versants intermédiaires neige temporairement croutée/cassante.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1300,
-        "south": 1700
+        "south": 1800
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 50,
+          "N": 45,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 180,
-          "S": 70
+          "N": 175,
+          "S": 60
         },
         {
           "alt_m": 2500,
-          "N": 255,
-          "S": 145
+          "N": 250,
+          "S": 135
         }
       ],
       "icon_key": "snowpack",

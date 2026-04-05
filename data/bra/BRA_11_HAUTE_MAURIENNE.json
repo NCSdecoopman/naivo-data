@@ -3,49 +3,37 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-04-04T16:00:00",
-    "valid_until": "2026-04-05T18:00:00",
+    "issued_at": "2026-04-05T17:00:00",
+    "valid_until": "2026-04-06T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2300m indice de risque limité, plus bas indice faible évoluant en limité.",
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2300,
-        "split_axis": "horizontal",
-        "split_label": "2300m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2300",
-            "risk": 1,
-            "evolution_to": 2,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2300",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2300m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
-          },
-          "top": {
+          "center": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -54,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-06",
+        "date": "2026-04-07",
         "label": "Indice de risque limité",
-        "comment": "Mauvais regel nocturne. Conditions médiocres avec de l'activité naturelle possible dès le levé du jour.",
+        "comment": "L'humidification suit sont cours et laisse craindre des avalanches de plaque quand l'eau de fonte percole jusqu'à des couches fragiles persistantes enfouies au sein du manteau.",
         "trend": "steady"
       }
     },
@@ -90,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-31",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-01",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +101,11 @@
           "date": "2026-04-05",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-06",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "GRANDE DOUCEUR : ÉVOLUTION RAPIDE VERS UN MANTEAU PRINTANIER. \nPERSISTANCE DE QUELQUES INSTABILITÉS EN NEIGE FROIDE EN NORD.",
-      "text": "GRANDE DOUCEUR : ÉVOLUTION RAPIDE VERS UN MANTEAU PRINTANIER. \nPERSISTANCE DE QUELQUES INSTABILITÉS EN NEIGE FROIDE EN NORD.\n\nDéparts spontanés : départs en neige humide dans les versants ensoleillés, au fil de la journée. Généralement des petites avalanches, mais quelques tailles moyennes sont aussi attendues (notamment couloirs et pentes raides qui se \"purgent\"). Attention car à cette période de l'année le soleil commence à être haut et l'activité avalancheuse atteint aussi les pentes NE/NO.\n\nDéclenchements provoqués : il subsiste de quelques plaques en neige ventée dans les versants Nord au-dessus de 2300/2500 m. Elles sont encore localement réactives, notamment dans les zones d'accumulation en pente raide. Ces plaques sont constituées  d'une neige fortement densifiée voire durcie par le vent en surface, ce qui permet dans la plupart des cas de les identifier. Cassures en générale de 20 à 50 cm donnant des avalanches petites à moyennes. A noter que dans les secteurs très ventés, lorsque l'ancienne neige (souvent dure/croutée) ré-apparaît en surface, le risque est bien moindre (et le ski moins bon...).\nObservables : test du bâton, fissures sous les skis.",
+      "title": "GRANDE DOUCEUR : PROBLEMATIQUE D'ACTIVITEE NATURELLE EN NEIGE HUMIDE.",
+      "text": "GRANDE DOUCEUR : PROBLEMATIQUE D'ACTIVITEE NATURELLE EN NEIGE HUMIDE. \n\nDéparts spontanés : regel médiocre. Départs en neige humide dans les versants ensoleillés au fil de la journée. Généralement des petites avalanches, mais quelques tailles moyennes/grandes sont aussi attendues avec cassures linéaires possibles, notamment en large versant Est et Ouest. Attention car à cette période de l'année le soleil commence à être haut et l'activité avalancheuse atteint aussi les pentes NE/NO et peut donc concerner des couloirs Nord.\n\nDéclenchements provoqués : il subsiste quelques plaques en neige ventée dans les versants Nord au-dessus de 2300/2500 m. Elles sont encore localement réactives, notamment dans les zones d'accumulation en pente raide. Ces plaques sont constituées  d'une neige fortement densifiée voire durcie par le vent en surface, ce qui permet dans la plupart des cas de les identifier. Cassures en générale de 20 à 50 cm donnant des avalanches petites à moyennes. A noter que dans les secteurs très ventés, lorsque l'ancienne neige (souvent dure/croutée) ré-apparaît en surface, le risque est bien moindre (et le ski moins bon...).\nObservables : test du bâton, fissures sous les skis.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : un peu au dessus de la moyenne, mais les prochains jours de chaleur vont bien attaquer le manteau.\n\nLimite skiable : vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige : encore une neige froide dans les versants Nord, au-dessus de 2200/2300 m, avec une poudre tassée agréable sauf dans les secteurs ayant subi la bise et alors parfois très hétérogènes (croupes/crêtes pelées).\nLes versants ensoleillés sont bien regelés au réveil. Après d'écaillage, la neige de printemps est bonne à skier en Sud et même en Est et Ouest à des altitudes \"modestes\" (sous 2500 m ?). Plus haut, elle peut avoir manqué de cycle gel/degel et être légèrement moins bonne sous les skis.",
+      "text": "Enneigement : un peu au dessus de la moyenne, mais les prochains jours de chaleur vont bien attaquer le manteau.\n\nLimite skiable : vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige : encore une neige froide dans les versants Nord, au-dessus de ~2300 m, avec une poudre tassée agréable sauf dans les secteurs ayant subi la bise et alors parfois très hétérogènes (croupes/crêtes pelées).\nLes versants ensoleillés sont moyennement regelés au réveil. Après un décaillage rapide, la neige de printemps est bonne à skier en Sud et même en Est et Ouest à des altitudes \"modestes\" (sous 2500 m ?). Plus haut, elle peut avoir manqué de cycle gel/degel et être légèrement moins bonne sous les skis.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 50,
+          "N": 40,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 130,
-          "S": 60
+          "N": 125,
+          "S": 50
         },
         {
           "alt_m": 2500,
-          "N": 180,
-          "S": 140
+          "N": 175,
+          "S": 135
         }
       ],
       "icon_key": "snowpack",

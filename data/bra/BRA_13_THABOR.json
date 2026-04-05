@@ -3,30 +3,30 @@
   "massif": "Thabor",
   "bulletin": {
     "id": 13,
-    "issued_at": "2026-04-04T16:00:00",
-    "valid_until": "2026-04-05T18:00:00",
+    "issued_at": "2026-04-05T16:00:00",
+    "valid_until": "2026-04-06T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2300m indice de risque limité, plus bas indice faible évoluant en limité.",
+      "comment": "Au-dessus de 2700m indice de risque limité, plus bas indice faible évoluant en limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2300,
+        "threshold_m": 2700,
         "split_axis": "horizontal",
-        "split_label": "2300m",
+        "split_label": "2700m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2300",
+            "loc": "<2700",
             "risk": 1,
             "evolution_to": 2,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2300",
+            "loc": ">2700",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2300m"
+          "label": "2700m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-06",
+        "date": "2026-04-07",
         "label": "Indice de risque limité",
-        "comment": "L'humidification continue de gagner en altitude et en profondeur avec le temps très doux et bien ensoleillé qui se maintient. L'activité en neige humide reprend donc en cours de journée.\nRares plaques résiduelles en neige froide dans les ubacs de haute altitude.",
+        "comment": "L'activité avalancheuse en neige humide reprend à nouveau en cours de journée, provoquant ponctuellement des avalanches de grande taille, parfois sous forme de départs linéaires. \nLe danger gagne des altitudes de plus en plus élevées.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-31",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-01",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +113,11 @@
           "date": "2026-04-05",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-06",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "ACTIVITÉ EN NEIGE HUMIDE AU FIL DE L'ENSOLEILLEMENT - RARES PLAQUES ENCORE EN PLACE EN ALTITUDE",
-      "text": "ACTIVITÉ EN NEIGE HUMIDE AU FIL DE L'ENSOLEILLEMENT - RARES PLAQUES ENCORE EN PLACE EN ALTITUDE\n\nDéparts spontanés : activité en neige humide en hausse au fil de la journée selon la course du soleil, en particulier dans les pentes raides près des rochers. Départs généralement ponctuels en poire, plus rarement linéaires, engendrant des avalanches petites à moyennes (taille 1 à 2).\n\nDéclenchements provoqués : * au-dessus de 2300/2400 m environ, de rares plaques sont encore en place dans les accumulations de neige transportée par les derniers épisodes de vent fort. Ces plaques sont souvent d'aspect durci et peuvent encore céder au passage d'un seul skieur. \nÀ noter que l'humidification des couches superficielles en cours de journée peut parfois faciliter leur déclenchement (structure de plaque en neige froide enfouie sous la neige humide de surface). Avalanches petites à moyennes (taille 1 à 2).\n* Un skieur évoluant trop tardivement dans une pente raide ayant trop chauffé peut provoquer une avalanche de neige humide sous ses skis.",
+      "title": "AVALANCHES DE NEIGE HUMIDE AU SOLEIL, PONCTUELLEMENT GRANDES - RARES PLAQUES EN NEIGE FROIDE EN UBACS D'ALTITUDE",
+      "text": "AVALANCHES DE NEIGE HUMIDE AU SOLEIL, PONCTUELLEMENT GRANDES - RARES PLAQUES EN NEIGE FROIDE EN UBACS D'ALTITUDE\n\nDéparts spontanés : activité en neige humide en hausse au fil de la journée en suivant la course du soleil, en particulier dans les pentes raides près des rochers. Départs ponctuels en poire, mais parfois linéaires, engendrant fréquemment des avalanches petites à moyennes (taille 1 à 2). Ponctuellement, un départ linéaire de grande taille est possible (taille 3), notamment dans les orientations est et ouest, où l'humidification pourrait atteindre pour la première fois les couches fragiles enfouies à la base du manteau neigeux.\n\nDéclenchements provoqués : * de rares plaques résiduelles persistent en altitude, dans les accumulations de neige transportée par les derniers épisodes de vent fort. À noter que leur déclenchement peut être facilité par l'humidification des couches superficielles en cours de journée (structure de plaque en neige froide enfouie sous la neige humide de surface). Avalanches petites à moyennes (taille 1 à 2). \n* Un skieur évoluant tardivement dans une pente raide ayant trop chauffé peut provoquer un départ de neige humide sous ses skis.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement est proche des normales pour un début avril.\nHauteurs de neige observées vers 2500 m : 171 cm dans le vallon du Chardonnet, 122 cm à la Nivôse des Rochilles, 82 cm à la Nivôse du Galibier (secteurs fortement ventés).\n\nLimite d'enneigement skiable : dès 1400/1500 m en ubacs favorables (terrains herbeux, pistes forestières), 1800/2000 m en adrets pas trop raides.\n\nÉtat de la neige de surface : en ubacs sous 2200 m et en adrets à toute altitude, manteau neigeux printanier, durci par le regel en début de journée, puis s'humidifiant au soleil. Dans les ubacs suffisamment raides au-dessus de 2200/2300 m environ, neige encore froide, durcie ou travaillée par le vent dans les secteurs exposés, mais encore assez légère dans les combes ou pentes abritées. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
+      "text": "L'enneigement est proche des normales pour un début avril.\nHauteurs de neige observées vers 2500 m : 165 cm dans le vallon du Chardonnet, 119 cm à la Nivôse des Rochilles, 78 cm à la Nivôse du Galibier (secteurs fortement ventés).\n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs favorables (terrains herbeux, pistes forestières), 1800/2000 m en adrets pas trop raides.\n\nÉtat de la neige de surface : excepté dans les ubacs de haute altitude (> 2500/2700 m), neige en cycle printanier partout ailleurs : petite croûte plus ou moins portante en début de journée, puis rapide humidification au soleil. Dans les ubacs raides de haute altitude, neige encore froide, durcie ou travaillée par le vent dans les secteurs exposés, mais encore assez légère dans les combes ou pentes abritées. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 100,
-          "S": 50
+          "N": 95,
+          "S": 45
         },
         {
           "alt_m": 2500,
           "N": 175,
-          "S": 85
+          "S": 80
         }
       ],
       "icon_key": "snowpack",

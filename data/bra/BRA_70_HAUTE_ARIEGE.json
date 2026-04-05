@@ -3,8 +3,8 @@
   "massif": "Haute-Ariege",
   "bulletin": {
     "id": 70,
-    "issued_at": "2026-04-04T16:00:00",
-    "valid_until": "2026-04-05T18:00:00",
+    "issued_at": "2026-04-05T16:00:00",
+    "valid_until": "2026-04-06T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-06",
+        "date": "2026-04-07",
         "label": "Indice de risque limité",
-        "comment": "Poursuite de l'humidification du manteau en journée, stabilisation des dernières plaques en altitude.",
+        "comment": "Peu d'évolution. Conditions de neige de printemps sous un généreux soleil d'avril.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-03-31",
-          "min_cm": 7,
-          "max_cm": 15
-        },
-        {
           "date": "2026-04-01",
           "min_cm": 30,
           "max_cm": 60
@@ -106,6 +101,11 @@
           "date": "2026-04-05",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-06",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,35 +115,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Poursuite de l'humidification, quelques plaques encore présentes en altitude",
-      "text": "Poursuite de l'humidification, quelques plaques encore présentes en altitude\n\nDéparts spontanés :\n- Des départs ponctuels d'avalanches de taille petite à moyenne sont attendus dans les pentes raides au fil de l'ensoleillement, quasiment en toutes orientations. Seules les faces nord d'altitude peuvent encore y échapper. Ces départs emporteront la neige tombée depuis lundi. Les plus gros volumes sont attendus principalement dans les versants nord-est à sud, plus chargés par le vent qui a soufflé cette semaine.\nObservables : neige humide sans cohésion\n- En dessous de 2000m, des avalanches de fond sont aussi possibles dans les pentes herbeuses ou sur des dalles rocheuses lisses récemment recouvertes par les chutes de la semaine. Elles seront de taille petite à moyenne.\nObservables : fissures, reptations récentes\n\nDéclenchements provoqués :\n-Quelques structures de plaques peuvent encore subsister dans la neige récente des versants Nord-Ouest à Est d'altitude. En cours de stabilisation, elles deviennent plus difficilement déclenchables. Elles peuvent néanmoins occasionner des avalanches petites à moyennes, voir grandes plus rarement. \nObservables : Avalanches récentes, aspect ventée de la surface et accumulations locales, fissures éventuelles devant les skis.\n- Ailleurs, le risque se limite à des départs ponctuels dans la neige humide en coupant une pente raide déjà bien humidifiée.\n\nAutre : Corniches volumineuses proches des crêtes avec les chutes de neige ventée de cette semaine.",
+      "title": "Poursuite de l'humidification; quelques plaques encore présentes en versants froids d'altitude",
+      "text": "Poursuite de l'humidification; quelques plaques encore présentes en versants froids d'altitude\n\nDéparts spontanés :\n- Au cours de la journée, dans les pentes raides, des départs ponctuels en neige humide de taille petite à moyenne sont de plus en plus probables au fil de l'ensoleillement, quasiment en toutes orientations et gagnant de plus en plus en altitude. Seules les faces nord raides d'altitude sont susceptibles encore d'y échapper. Ces départs emporteront la neige tombée depuis cette semaine. Les plus gros volumes sont attendus principalement dans les versants nord-est à sud, plus chargés.\nObservables : neige humide sans cohésion\n\n- En dessous de 2000m, des avalanches de fond sont aussi possibles dans les pentes herbeuses ou sur des dalles rocheuses lisses récemment recouvertes par les chutes de la semaine. Elles seront de taille petite à moyenne.\nObservables : fissures, reptations récentes\n\nDéclenchements provoqués :\n- Au-dessus de 2400m, dans les versants nord-ouest, nord et nord-est, des structures de plaques peuvent encore subsister dans la neige récente. Bien qu'en cours de stabilisation, elles peuvent éventuellement être déclenchables au passage d'un pratiquant. Elles peuvent occasionner des avalanches moyennes, voire grandes dans les zones de forte accumulation. \nObservables : Avalanches récentes, aspect ventée de la surface et accumulations locales, fissures éventuelles devant les skis.\n\n- Ailleurs, un pratiquant peut provoquer un départ ponctuel en surface dans la neige humide en coupant une pente raide déjà bien humidifiée.\n\nAutre : Corniches volumineuses proches des crêtes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nL'enneigement est vraiment très bon pour la saison avec les cumuls conséquents de cette semaine en altitude (40 à 60/70 cm localement), même si les crêtes et sommets exposés au vent sont souvent dégarnis. Si la neige est visible dès 1300 m dans certains secteurs ombragés et en fond de vallée, il est généralement envisageable de chausser les skis plutôt à partir de 1400/1600 m sur une couche de neige plus épaisse\n\nQualité de la neige : \nDimanche matin, on attend un regel efficace (en dehors de la forêt) avec de la neige dure et portante. On pourra encore trouver de la neige légère et poudreuse dans de rares combes d'altitude abritées du vent en secteurs nord-ouest à nord-est. Là où le vent a soufflé, la neige est plus dure et tassée. \nEn journée, l’humidification reprend en surface quasiment jusqu’en haut des massif, avec de la neige humide en profondeur et gorgée d’eau au soleil dans les versants Est à Ouest en passant par le Sud, au fil de l'ensoleillement, ainsi que dans les versants nord en dessous de 2200m environ.",
+      "text": "Enneigement : \nL'enneigement est excellent pour la saison, un des meilleurs des 30 dernières années. Des cumuls conséquents voire remarquables en altitude côtoient des crêtes et sommets exposés au vent d'ouest à nord-ouest souvent assez dégarnis. Même si la neige est visible dès 1300 m dans certains secteurs ombragés et en fond de vallée, il est envisageable de chausser les skis plutôt à partir de 1400/1600 m sur une couche de neige qui devient rapidement plus épaisse.\n\nQualité de la neige : \nAu petit matin, on attend un regel efficace avec de la neige dure et portante au-dessus de 2200/2400m. Plus bas, le regel devrait être peu efficace et probablement même inexistant sous 1800m. On pourra encore trouver de la neige légère et poudreuse dans de rares combes d'altitude abritées du vent en secteurs nord-ouest à nord-est. Là où le vent a soufflé, la neige est plus dure et tassée. \nEn journée, l’humidification continue à progresser en altitude en nord pratiquement jusqu’en haut des massifs. On trouvera une couche profonde de neige humide et gorgée d’eau au soleil dans les versants Est à Ouest en passant par le Sud, au fil de l'ensoleillement, ainsi que dans les versants nord en dessous de 2200m environ.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1300,
-        "south": 1400
+        "south": 1500
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 15,
-          "S": 5
+          "N": 10,
+          "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 235,
-          "S": 130
+          "N": 225,
+          "S": 120
         },
         {
           "alt_m": 2500,
-          "N": 340,
-          "S": 230
+          "N": 335,
+          "S": 225
         }
       ],
       "icon_key": "snowpack",
