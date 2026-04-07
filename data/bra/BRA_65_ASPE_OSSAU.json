@@ -3,8 +3,8 @@
   "massif": "Aspe Ossau",
   "bulletin": {
     "id": 65,
-    "issued_at": "2026-04-06T16:00:00",
-    "valid_until": "2026-04-07T18:00:00",
+    "issued_at": "2026-04-07T16:00:00",
+    "valid_until": "2026-04-08T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-08",
+        "date": "2026-04-09",
         "label": "Indice de risque limité",
-        "comment": "Risque stationnaire. Poursuite de l'humidification déjà entamée dans la douceur ambiante, stabilisation progressive des plaques dans les versants Nord-Ouest à Nord-Est d'altitude.",
+        "comment": "Risque stationnaire. Poursuite de l'humidification en profondeur du manteau neigeux avec la douceur ambiante, stabilisation progressive des plaques en altitude des versants allant du Nord-Ouest vers le Nord-Est.",
         "trend": "steady"
       }
     },
@@ -67,21 +67,16 @@
     },
     "sat": {
       "primary": 4,
-      "secondary": 2,
+      "secondary": 3,
       "labels": {
         "4": "Neige humide",
-        "2": "Neige ventée"
+        "3": "Couche fragile persistante"
       },
       "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-02",
-          "min_cm": 10,
-          "max_cm": 15
-        },
         {
           "date": "2026-04-03",
           "min_cm": 0,
@@ -106,6 +101,11 @@
           "date": "2026-04-07",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-08",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Quelques structures de plaques dans les versants Nord d'altitude, humidification ailleurs.",
-      "text": "Quelques structures de plaques dans les versants Nord d'altitude, humidification ailleurs.\n\nDéclenchements provoqués : \n- Au-dessus de 2500m, dans les pentes raides des versants allant du Nord-Ouest vers le Nord-Est, quelques structures de plaques peuvent encore persister, issues des dernières chutes de neige. Elles sont parfois durcies le matin, mais restent facilement déclenchables par un simple skieur en se ramollissant, sinon facilement sollicitables dès la matinée. Des cassures linéaires petites à moyennes sont généralement attendues (taille 1 à 2), plus rarement des grandes (taille 3) dans les zones d'accumulation les plus importantes.\n- Partout ailleurs, un simple skieur peut déclencher des départs ponctuels dans la neige humide et dans les pentes raides en tous versants. Des avalanches petites à moyennes (taille 1 à 2) sont attendues dès la matinée en est à sud-est, puis rapidement dans tous les autres versants au fil de la matinée et de l'ensoleillement, dans la douceur ambiante. Un bon regel matinal peut limiter l'activité avalancheuse tôt le matin, mais le risque sera bien présent dès la matinée, l'humidification se faisant rapidement.\n\nDéparts spontanés : \nDes départs ponctuels sont attendus dans les pentes raides et en tous versants au fil de la journée et de l'ensoleillement. Ils sont peu importants le matin, avec un regel plus ou moins efficace, mais tendent à être plus nombreux ensuite. Des avalanches petites à moyennes (taille 1 à 2) sont généralement possibles, plus rarement des grandes (taille 3) en partant de zones d'accumulation importantes. Des avalanches de fond sont aussi possibles en pentes raides, en partant d'une accumulation encore présente sur le haut du massif, notamment près des fissures et des reptations récentes. Avalanches petites à moyennes possibles (taille 1 à 2), parfois grandes (taille 3).\n\nAutres : Ponts de neige et corniches encore en place fragilisés au soleil.",
+      "title": "Quelques structures de plaques dans les versants Nord d'altitude se stabilisant progressivement, humidification ailleurs.",
+      "text": "Quelques structures de plaques dans les versants Nord d'altitude se stabilisant progressivement, humidification ailleurs.\n\nDéclenchements provoqués : \n- Au-dessus de 2500 à 2600m, dans les pentes raides des versants allant du Nord-Ouest vers le Nord-Est, quelques structures de plaques peuvent encore subsister, issues des dernières chutes de neige. Bien qu'en cours de stabilisation et parfois même durcies le matin, elles peuvent encore être déclenchées par un simple skieur en se ramollissant, sinon sollicitables dès la matinée. Elles peuvent reposer sur une couche fragile persistante enfouie plus difficile à déclencher. Des cassures linéaires petites à moyennes sont généralement attendues (taille 1 à 2), plus rarement des grandes (taille 3) dans les zones d'accumulation les plus importantes.\n- Partout ailleurs, un simple skieur peut déclencher des départs ponctuels dans la neige humide et dans les pentes raides en tous versants. Des avalanches petites à moyennes (taille 1 à 2) sont attendues dès la matinée en est à sud-est, puis rapidement dans tous les autres versants au fil de la matinée et de l'ensoleillement, dans la douceur ambiante. Un bon regel matinal peut limiter l'activité avalancheuse tôt le matin, mais le risque sera bien présent dès la matinée, l'humidification se faisant rapidement.\n\nDéparts spontanés : \nDes départs ponctuels sont attendus dans les pentes raides et en tous versants au fil de la journée et de l'ensoleillement. Ils sont peu importants le matin, avec un regel plus ou moins efficace, mais tendent à être plus nombreux ensuite avec l'humidification rapide. Des avalanches petites à moyennes (taille 1 à 2) sont généralement possibles, plus rarement des grandes (taille 3) en partant de zones d'accumulation importantes. Des avalanches de fond sont aussi possibles en pentes raides, en partant d'une accumulation encore présente sur le haut du massif, notamment près des fissures et des reptations récentes. Avalanches petites à moyennes possibles (taille 1 à 2), parfois grandes (taille 3).\n\nAutres : Ponts de neige et corniches encore en place fragilisés au soleil.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Encore bon pour la saison, débutant encore vers 1500 à 1600m en nord, 1700 à 1800m en sud même si les limites remontent progressivement en altitude avec la douceur ambiante.\nÉtat de la neige : Neige de printemps en général dans une grande majorité des secteurs. La neige est plutôt bien regelée à dure le matin, ramollissant assez rapidement au soleil. Au-dessus de 2500 à 2600m, dans les versants allant du Nord-Ouest au Nord-Est, la neige est parfois légèrement croûtée en surface, s'humidifiant lentement. Sinon, la neige reste encore sèche, meuble et travaillée par le vent, s'humidifiant progressivement en journée et de plus en plus en profondeur dans la douceur. Partout ailleurs, la neige poursuit ensuite son humidification, elle est lourde à parfois gorgée d'eau.",
+      "text": "Enneigement : Encore bon pour la saison, débutant encore vers 1500 à 1600m en nord, 1700 à 1800m en sud. Ces limites remontent progressivement au fil de la journée avec l'ensoleillement et la douceur ambiante.\nÉtat de la neige : Neige de printemps en général dans une grande majorité des secteurs. La neige est plutôt bien regelée à dure le matin, ramollissant assez rapidement au soleil. Au-dessus de 2500 à 2600m, dans les versants allant du Nord-Ouest au Nord-Est, la neige est parfois légèrement croûtée en surface, s'humidifiant plus lentement. Sinon, la neige reste encore sèche, meuble et travaillée par le vent, s'humidifiant progressivement en journée et de plus en plus en profondeur dans la douceur. Partout ailleurs, la neige poursuit ensuite son humidification, elle est lourde à parfois gorgée d'eau.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 225,
-          "S": 100
+          "N": 220,
+          "S": 95
         },
         {
           "alt_m": 2500,
-          "N": 340,
-          "S": 220
+          "N": 335,
+          "S": 215
         }
       ],
       "icon_key": "snowpack",

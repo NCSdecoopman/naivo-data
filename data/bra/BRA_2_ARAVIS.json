@@ -3,14 +3,14 @@
   "massif": "Aravis",
   "bulletin": {
     "id": 2,
-    "issued_at": "2026-04-06T16:00:00",
-    "valid_until": "2026-04-07T18:00:00",
+    "issued_at": "2026-04-07T16:00:00",
+    "valid_until": "2026-04-08T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Indice de risque faible évoluant en limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 2,
-            "evolution_to": null,
+            "risk": 1,
+            "evolution_to": 2,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "2",
+            "text": "1→2",
             "risk": 2,
-            "evolution_to": null
+            "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-08",
+        "date": "2026-04-09",
         "label": "Indice de risque limité",
-        "comment": "Belle journée ensoleillée, très douce avec un isotherme 0°C qui oscille vers 3500 m. Activité en neige humide encore bien présente.",
+        "comment": "Jeudi : journée ensoleillée, vent calme et isotherme 0°C en baisse vers 3000 m. \n⇒ risque stable, poursuite de l’humidification du manteau neigeux.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-03",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-04-07",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-08",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,19 +115,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Poursuite de l'humidification au soleil, elle gagne en altitude et en profondeur.",
-      "text": "Poursuite de l'humidification au soleil, elle gagne en altitude et en profondeur.\n\nDéparts spontanés :\n* Coulées de neige humide, dans les versants ensoleillés, elles suivent l'ensoleillement en journée. Elles sont toutes altitudes et toutes orientations. Elles peuvent être plus épaisses sur un très large secteur O/NO, le bon regel de la nuit limitant le réchauffement dans les premiers versants voyant le soleil donc NE/E. Généralement de taille 1, parfois 2 (petite à moyenne). Facteur aggravant : la présence d'une couche fragile persistante localement peut engendrer un départ en plaque, d'apparence humide en surface. De la même manière une première coulée peut déclencher en cascade une seconde plaque avec une cassure linéaire et/ou jusqu'au terrain. Taille 2, plus rarement une taille 3 (grande). \n* À toute heure du jour et de la nuit, des fissures de reptations peuvent s'ouvrir et des avalanches de fond sont possibles sur les terrains lisses (pentes herbeuses, dalles rocheuses, etc). Taille 1 à 2.\n\nDéclenchements provoqués :\n* Coulées de neige humide sous les skis. Taille 1, 2. \n\nAutre :\n* Le redoux peut occasionner des chutes de corniches.",
+      "title": "Le printemps s'installe",
+      "text": "Le printemps s'installe\n\nDéclenchements provoqués :\n* avalanches de neige humide, de plus en plus nombreuses au fil du réchauffement et du rayonnement solaire. En toutes orientations et altitudes. Taille 1 à 2 (petite à moyenne) et rarement 3 (grande). Au-dessus de 2200 m, de petits départs ponctuels peuvent déclencher, en cascade, une plaque de fond ou seulement en surface. \n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous de 2100 m en nord et 2500 m en sud. Taille 2 (moyenne). \n\nDéparts spontanés :\n* avalanches de neige humide en sud et en dessous de 2500 m en nord. Facile à déclencher au soleil. Départ ponctuel sous les skis, pouvant parfois déclencher, en cascade, une petite plaque.  Taille 1 à 2 (petite à moyenne). Causé par le réchauffement et le rayonnement solaire.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nBon pour un début avril. On peut chausser skis ou raquettes dès 1200/1300 m en versants N, et 1400/1600 m en versants S.\n\nQualité de la neige ce mardi :\n* Très bon regel.\n* Les pentes chauffent au fil de l'ensoleillement.\n* En nord, humidification en surface sous 2500 m voir plus haut sous les quelques nuages. Encore des accumulations de neige importantes, ou au contraire, des zones dures voire ravagées par le vent. Les crêtes et sommets sont les plus ravagées par le vent.\n* Nombreuses corniches et accumulations/congères.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis au-dessus de 1600 m en sud et 1300/1400 m en nord. \n\nQualité de la neige ce mercredi matin : \nBon regel nocturne. Manteau neigeux printanier sous 2600 m en sud et 2000 m en nord.\nL’humidification de surface a progressé à toutes altitudes.\nCorniches fragilisées par le redoux.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1200,
-        "south": 1400
+        "north": 1300,
+        "south": 1500
       },
       "levels_cm": [
         {
@@ -138,12 +138,12 @@
         {
           "alt_m": 1500,
           "N": 65,
-          "S": 55
+          "S": 45
         },
         {
           "alt_m": 2000,
-          "N": 200,
-          "S": 150
+          "N": 190,
+          "S": 140
         }
       ],
       "icon_key": "snowpack",
