@@ -3,8 +3,8 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-04-07T16:00:00",
-    "valid_until": "2026-04-08T18:00:00",
+    "issued_at": "2026-04-08T15:00:00",
+    "valid_until": "2026-04-09T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-04-09",
+        "date": "2026-04-10",
         "label": "Indice de risque marqué",
-        "comment": "La chaleur persiste : L'humidification suit donc sont cours et percole de plus en plus profondément dans le manteau. Avalanches moins nombreuses mais potentiellement plus grande en cours de journée une fois la croute de regel nocturne  de nouveau fondue..",
+        "comment": "La chaleur persiste : l'eau de fonte continuer de percoler dans le manteau. Le risque de départ de grandes avalanches après un fort réchauffement demeure.",
         "trend": "steady"
       }
     },
@@ -67,20 +67,16 @@
     },
     "sat": {
       "primary": 4,
-      "secondary": null,
+      "secondary": 3,
       "labels": {
-        "4": "Neige humide"
+        "4": "Neige humide",
+        "3": "Couche fragile persistante"
       },
       "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-04",
           "min_cm": 0,
@@ -105,6 +101,11 @@
           "date": "2026-04-08",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-09",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Forte humidification du manteau neigeux en cours de journée  engendré par la chaleur actuelle",
-      "text": "Forte humidification du manteau neigeux en cours de journée  engendré par la chaleur actuelle\n\nDéparts spontanés : Bon regel attendu mercredi matin après une nuit claire sans vent.  Les premières heures du matin seront calmes puis reprise, au fil de la course du soleil  des départs en neige humide dans les versants ensoleillés.  D'abord en Est/Nord-Est puis Sud et enfin surtout en Ouest et Nord-ouest au plus chaud de la journée.  Avalanches généralement de taille modeste  (Taille 1 et 2),  mais de rare grande de Taille 3   sont maintenant aussi attendues avec cassures linéaires possibles, notamment dans les pentes où l'humidification  commence à atteindre les couches fragiles enfouies à la base du manteau: ce qui semble plus probable en Ouest/Nord-ouest et en cours d'après midi.   \nPar ailleurs les gueules de baleine ouvertes depuis quelques temps dans les secteurs propices  peuvent céder à tous moments et engendrer quelques avalanches de fond .   \n\nDéclenchements provoqués : Un skieur coupant une pente raide en neige pourrie peut aider une avalanche de fonte à partir. \nSinon rares plaques en neige ventée dans les versants Nord encore poudreux au-dessus de 2500 m. Elles sont de moins en moins réactives. On les trouvent notamment dans les zones d'accumulation en pente raide. Cassures modestes, 20 à 40 cm donnant des avalanches petites à moyennes.",
+      "title": "Chaleurs anormales : nombreuses problématiques en neige humide.",
+      "text": "Chaleurs anormales : nombreuses problématiques en neige humide. \n\nDéparts spontanés : bon regel nocturne après une nuit claire et sans vent.  Les premières heures du matin sont calmes puis reprise, au fil de la course du soleil, des départs en neige humide dans les versants ensoleillés. D'abord en Nord-Est/Est puis Sud et enfin surtout en Ouest et Nord-Ouest en fin de journée. Les avalanches en départ ponctuel (taille petite à moyenne, 1 à 2) sont de moins en moins nombreuses. En revanche, l'eau de fonte qui percole dans le manteau atteint désormais les couches fragiles enfouies du début de saison. De grandes avalanches (taille 3) avec cassures linéaires sont possibles. Elles sont plus probables en large versant Ouest, sous 2700 m et en cours d'après midi. \nPar ailleurs, des plaques de fond sont à craindre, en Est, Ouest et Nord, sous 2500 m. Aussi, chutes de corniches possibles.\n\nDéclenchements provoqués : un skieur coupant une pente raide en neige pourrie peut aider une avalanche de fonte à partir. Coulées sous les skis et départs en plaque de neige humide possibles. \nSinon, au-dessus de 2500 m en Nord dans une pente très raide, une petite plaque peut déstabiliser le skieur qui la déclenche.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Encore un peu au dessus de la moyenne, mais plus pour longtemps avec une fonte accélérée de 5 à 10 cm par jour  avec la chaleur en cours .\n\nLimite skiable : vers 1400 m en Nord, 1800 m en Sud.\n\nQualité de la neige :  En nord au dessus de 2500m  poudre tassée agréable à l'abri des vents, sinon dans les nombreux secteurs ventés très hétérogènes carton à dure  dans les pentes et croupes/crêtes pelées.\nPartout ailleurs bon regel nocturne espéré ce mercredi matin avec une croute bien portante au lever du jour, ramollissant rapidement dans les versants Est, plus tardivement ailleurs en suivant la course du soleil. Le créneau en neige de printemps agréable à descendre risque d'être assez court avec une neige devenant assez vite pourrie. L'après midi, attention neige pourrie dans un grand nombre de pentes.",
+      "text": "Enneigement : encore un peu au dessus de la moyenne, mais plus pour longtemps avec une fonte accélérée de 5 à 10 cm par jour  avec la chaleur en cours .\n\nLimite skiable : vers 1400 m en Nord, 1800 m en Sud.\n\nQualité de la neige : en Nord au-dessus de 2500 m, poudre tassée agréable à l'abri des vents, sinon dans les nombreux secteurs ventés très hétérogènes carton à dure dans les pentes et croupes/crêtes pelées.\nPartout ailleurs, bon regel nocturne ce jeudi avec une croûte portante au lever du jour, ramollissant rapidement dans les versants Est, plus tardivement ailleurs en suivant la course du soleil. Le créneau en neige de printemps agréable à descendre risque d'être assez court avec une neige devenant assez vite pourrie. L'après midi, neige pourrie dans un grand nombre de pentes.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -131,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 30,
+          "N": 25,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 110,
-          "S": 40
+          "N": 105,
+          "S": 35
         },
         {
           "alt_m": 2500,
-          "N": 170,
-          "S": 130
+          "N": 165,
+          "S": 125
         }
       ],
       "icon_key": "snowpack",

@@ -3,8 +3,8 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-04-07T16:00:00",
-    "valid_until": "2026-04-08T18:00:00",
+    "issued_at": "2026-04-08T16:00:00",
+    "valid_until": "2026-04-09T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-09",
+        "date": "2026-04-10",
         "label": "Indice de risque limité",
-        "comment": "Jeudi : journée ensoleillée, vent calme et isotherme 0°C en baisse vers 3000 m. \n⇒ risque stable, poursuite de l’humidification du manteau neigeux.",
+        "comment": "Vendredi : ciel voilé le matin et nombreux cumulus l'après-midi. Isotherme 0°C en baisse vers 2800 m.\n⇒ le manteau neigeux continue de s'humidifier en profondeur. Encore des avalanches de neige humide et des départs en plaque de fond.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-04",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-04-08",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-09",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -116,18 +116,18 @@
     },
     "stability": {
       "title": "Le printemps s'installe",
-      "text": "Le printemps s'installe\n\nDéclenchements provoqués :\n* avalanches de neige humide, de plus en plus nombreuses au fil du réchauffement et du rayonnement solaire. En toutes orientations et altitudes. Taille 1 à 2 (petite à moyenne) et rarement 3 (grande). \n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. À toutes altitudes et orientations. Taille 2 (moyenne). \n\nDéparts spontanés :\n* avalanches de neige humide. Facile à déclencher au soleil. Départ ponctuel sous les skis, pouvant parfois déclencher, en cascade, une petite plaque.  Taille 1 à 2 (petite à moyenne). Causé par le réchauffement et le rayonnement solaire.",
+      "text": "Le printemps s'installe\n\nDéparts spontanés :\n* avalanches de neige humide, rares au lever du jour, puis de plus en plus nombreuses au fil du réchauffement et du rayonnement solaire. En toutes orientations et altitudes, en particulier dans les zones près des rochers ou des falaises. Taille 1 à 2 (petite à moyenne) et rarement 3 (grande). \nObservable : enfoncement piéton important, boulettes, escargots. \n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. À toutes altitudes et orientations. Taille 2 (moyenne). \n\nDéclenchements provoqués :\n* avalanches de neige humide. Facile à déclencher au soleil. Départ ponctuel sous les skis, pouvant parfois déclencher, en cascade, une petite plaque.  Taille 1 à 2 (petite à moyenne). Causé par le réchauffement et le rayonnement solaire.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis au-dessus de 1600 m en sud et 1300/1400 m en nord. \n\nQualité de la neige ce mercredi matin : \nBon regel nocturne. Manteau neigeux printanier. \nCorniches fragilisées par le redoux.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis au-dessus de 1700/1800 m en sud et 1400/1500 m en nord. \nCorniches fragilisées par le redoux. \n\nQualité de la neige ce jeudi : \nEn sud et en dessous de 2000 m en nord, manteau neigeux printanier. Humidification rapide et profonde au soleil. \nAu-dessus de 2000 m en nord, croute de regel portante sur de la vielle neige dense, s'humidifiant un peu au soleil.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1300,
-        "south": 1500
+        "north": 1400,
+        "south": 1600
       },
       "levels_cm": [
         {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 65,
-          "S": 30
+          "N": 50,
+          "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 120,
-          "S": 50
+          "N": 115,
+          "S": 45
         }
       ],
       "icon_key": "snowpack",

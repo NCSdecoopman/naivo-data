@@ -3,14 +3,14 @@
   "massif": "Ubaye",
   "bulletin": {
     "id": 21,
-    "issued_at": "2026-04-07T16:00:00",
-    "valid_until": "2026-04-08T18:00:00",
+    "issued_at": "2026-04-08T14:00:00",
+    "valid_until": "2026-04-09T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque faible évoluant en limité.",
+      "max_level": 3,
+      "comment": "Indice de risque faible évoluant en marqué.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 1,
-            "evolution_to": 2,
+            "evolution_to": 3,
             "position": null
           }
         ]
@@ -34,28 +34,28 @@
         },
         "zones": {
           "center": {
-            "text": "1→2",
-            "risk": 2,
-            "evolution_to": 2
+            "text": "1→3",
+            "risk": 3,
+            "evolution_to": 3
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-04-09",
-        "label": "Indice de risque limité",
-        "comment": "Peu d'évolution de la situation nivologique. Conditions printanières, problématique de neige humide généralement ponctuelle. Risque limité.",
+        "max_level": 3,
+        "date": "2026-04-10",
+        "label": "Indice de risque marqué",
+        "comment": "Poursuite de conditions printanières et de l'humidification en profondeur du manteau neigeux. Grandes avalanches possibles. Risque restant marqué.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
+        "N": false,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -76,11 +76,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-04",
           "min_cm": 0,
@@ -105,6 +100,11 @@
           "date": "2026-04-08",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-09",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "CONDITIONS PRINTANIÈRES. DÉPARTS EN NEIGE HUMIDE GÉNÉRALEMENT SUPERFICIELS",
-      "text": "CONDITIONS PRINTANIÈRES. DÉPARTS EN NEIGE HUMIDE GÉNÉRALEMENT SUPERFICIELS\n\nDéclenchements provoqués : le manteau neigeux est bien stable le matin. Les déclenchements d'avalanches concernent les pentes raides ensoleillées de haute altitude, ou plus rarement des versants nord sous 2200/2400 m. Elles peuvent être déclenchées par un seul skieur, mais ne mobilisent qu'un volume limité de neige (taille 1). Un départ linéaire emportant tout le manteau neigeux n'est pas exclu, générant des avalanches de taille moyenne( taille 2), dans les orientations nord-ouest à nord-est.  \n\nDéparts spontanés : peu probables au lever du jour avec le bon regel nocturne, puis activité en neige humide au fil de la journée en suivant la course du soleil. Départs généralement ponctuels de taille petite, un départ de taille moyenne voire grande (taille 2 à 3) non exclu en versants nord-ouest à nord-est d'altitude.",
+      "title": "CONDITIONS PRINTANIÈRES. DÉPARTS EN NEIGE HUMIDE PARFOIS TRÈS VOLUMINEUX",
+      "text": "CONDITIONS PRINTANIÈRES. DÉPARTS EN NEIGE HUMIDE PARFOIS TRÈS VOLUMINEUX\n\nDéclenchements provoqués : le manteau neigeux est bien stable le matin. Les déclenchements d'avalanches concernent les pentes raides ensoleillées. Elles peuvent être déclenchées par un seul skieur, et générer des avalanches de taille moyenne à grande (taille 2 à 3) en orientations ouest, nord-ouest, nord-est et est d'altitude, avec une cassure linéaire relativement large. \nLes pentes plein nord de haute altitude sont moins dangereuses, l'humidification restant superficielle. Les pentes d'un large secteur sud sont en neige transformée jusqu'au fond, les déclenchements provoqués restent de petite taille.\n \nDéparts spontanés : peu probables au lever du jour avec le bon regel nocturne, puis activité en neige humide au fil de la journée en suivant la course du soleil. Départs nombreux au soleil, parfois linéaires et de taille moyenne à grande (taille 2 à 3) en orientations ouest ou est de haute altitude.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement proche des normales pour un début avril. \n\nEnneigement skiable généralement à partir de 1700 m en terrain favorable et 2200 m en adrets peu pentus.  \n\nÉtat de la neige en surface : manteau neigeux printanier avec un bon regel nocturne le matin, s'humidifiant rapidement en journée. Neige sèche en orientations bien nord de haute altitude, mais généralement fortement durcie par le vent.",
+      "text": "Enneigement proche des normales pour un début avril. \n\nEnneigement skiable généralement à partir de 1800 m en terrain favorable et 2200/2300 m en adrets peu pentus.  \n\nÉtat de la neige en surface : manteau neigeux printanier avec un bon regel nocturne le matin, s'humidifiant rapidement en journée. Neige restée sèche seulement en orientations raides et plein nord de haute altitude, mais généralement fortement durcie par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
