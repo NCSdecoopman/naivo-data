@@ -3,8 +3,8 @@
   "massif": "Haute-Bigorre",
   "bulletin": {
     "id": 66,
-    "issued_at": "2026-04-08T16:00:00",
-    "valid_until": "2026-04-09T18:00:00",
+    "issued_at": "2026-04-09T16:00:00",
+    "valid_until": "2026-04-10T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-10",
+        "date": "2026-04-11",
         "label": "Indice de risque limité",
-        "comment": "Risque stationnaire. Poursuite de l'humidification en profondeur du manteau neigeux avec la douceur ambiante, stabilisation progressive mais encore un peu lente des plaques au-dessus de 2700m autour du secteur nord.",
+        "comment": "Plus de nuages, quelques gouttes de pluie l'après-midi : maintien d'un risque limité en journée de samedi.\nPar contre, augmentation rapide du risque en cours de nuit de samedi à dimanche avec les nouvelles chutes de neige plus ou moins ventées, attendues jusqu'à basse altitude.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-04",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-05",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-04-09",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-10",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NEIGE DE RPINTEMPS MAJORITAIRE, QUELQUES STRUCUTRES DE PLAQUES EN NORD D'ALTITUDE.",
-      "text": "NEIGE DE RPINTEMPS MAJORITAIRE, QUELQUES STRUCUTRES DE PLAQUES EN NORD D'ALTITUDE.\n\nDéclenchements provoqués :\n- au-dessus de 2600 à 2700m dans les pentes raides autour du secteur nord, des structures de plaques persistent, formées la semaine dernière lors des chutes de neige ventées. Ces structures, encore assez compactes et peu humidifiées si ce n'est en surface, reposent souvent sur une couche fragile persistante. Cette couche fragile est sensible à des sollicitations faibles à parfois moyennes, notamment aux abords des combes chargées et des ruptures de pente; un seul skieur ou randonneur peut donc localement et facilement déclencher une avalanche de taille petite à moyenne, parfois grande par effet de cascade entraînant la neige mobilisable, plus ou moins humide, en contrebas. Observables : travail du vent encore assez visible même si la surface neigeuse devient plus uniforme avec l'humidification en cours.\n- partout ailleurs, la neige de printemps domine : peu probables de déclencher la moindre coulée au petit matin après un bon regel nocturne. Puis, au fil des heures de la journée, au soleil et dans la douceur ambiante, il devient de plus en plus facile pour un skieur ou randonneur de déclencher des coulées ou petites avalanches de neige humide. Une avalanche de taille moyenne peut être déclenchée l'après-midi dans les pentes sud à sud-ouest raides encore bien enneigées sur le haut du massif.\n\nDéparts spontanés :\n- activité avalancheuse inexistante ou très rare au petit matin suite au bon regel nocturne du manteau neigeux en place.\n- départs ponctuels de neige humide en secteurs raides près des rochers et des zones déneigées, en est à sud en matinée puis en sud à ouest l'après-midi. Avalanches généralement de petite taille, quelques avalanches de taille moyenne possibles au-dessus de 2200/2300m en partant d'une accumulation encore en place, localement mais plus rares avalanches de taille 2 à 3 au-dessus de 2500m avec le départ d'une plaque de fond entraînant la neige humide et lourde mobilisable en contrebas (plutôt l'après-midi).\n\nAutres : ponts de neige et corniches encore en place devenant fragiles au soleil.",
+      "title": "PEU D'EVOLUTION : NEIGE DE RPINTEMPS MAJORITAIRE, QUELQUES STRUCUTRES DE PLAQUES EN NORD D'ALTITUDE.",
+      "text": "PEU D'EVOLUTION : NEIGE DE RPINTEMPS MAJORITAIRE, QUELQUES STRUCUTRES DE PLAQUES EN NORD D'ALTITUDE.\n\nDéclenchements provoqués :\n- au-dessus de 2600 à 2700m dans les pentes raides autour du secteur nord, des structures de plaques persistent, formées la semaine dernière lors des chutes de neige ventées. Ces structures, encore assez compactes et peu humidifiées si ce n'est en surface, reposent souvent sur une couche fragile persistante. Cette couche fragile est sensible à des sollicitations faibles à parfois moyennes, notamment aux abords des combes chargées et des ruptures de pente; un seul skieur ou randonneur peut donc localement et facilement déclencher une avalanche de taille petite à moyenne, parfois grande par effet de cascade entraînant la neige mobilisable, plus ou moins humide, en contrebas. Observables : travail du vent encore assez visible même si la surface neigeuse devient plus uniforme avec l'humidification en cours.\n- partout ailleurs, la neige de printemps domine : peu probables de déclencher la moindre coulée au petit matin après un bon regel nocturne. Puis, au fil des heures de la journée, au soleil et dans la douceur ambiante, il devient de plus en plus facile pour un skieur ou randonneur de déclencher des coulées ou petites avalanches de neige humide. Une avalanche de taille moyenne peut être déclenchée l'après-midi dans les pentes sud à sud-ouest raides encore bien enneigées sur le haut du massif.\n\nDéparts spontanés :\n- activité avalancheuse inexistante ou très rare au petit matin suite au bon regel nocturne du manteau neigeux en place.\n- départs ponctuels de neige humide en secteurs raides près des rochers et des zones déneigées, en est à sud en matinée puis en sud à ouest l'après-midi. Avalanches généralement de petite taille, quelques avalanches de taille moyenne possibles au-dessus de 2200/2300m en partant d'une accumulation encore en place, rares avalanches de grande taille (3) au-dessus de 2500m avec le départ d'une plaque de fond entraînant la neige humide et lourde mobilisable en contrebas (plutôt l'après-midi).\n\nAutres : neige dure et regelée propice aux glissades en début de matinée, persistante à l'ombre au-dessus de 2700m. Ponts de neige et corniches encore en place devenant fragiles au soleil.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : encore correct bon pour la saison grâce à une fonte lente, débutant vers 1600m en nord, 1800m en sud.\nÉtat de la neige : poursuite de l'humidification.\n- conditions de neige de printemps majoritaires : après un regel nocturne efficace, la neige dure et glissante ramollit vite au soleil et dans la douceur ambiante, devenant lourde et très humide. Effets du soleil et de la douceur un peu plus lent dans les pentes nord raides.\n- au-dessus de 2700m dans les pentes raides (supérieures à 35°), neige encore froide et sèche, plus ou moins travaillée par le vent et par endroit légèrement croutée en surface. Humidification lente et gagnant peu en profondeur dans le manteau neigeux compacté par le vent dans ces secteurs.",
+      "text": "Enneigement : encore bon pour la saison grâce à une fonte lente, débutant vers 1600m en nord, 1800m en sud.\nÉtat de la neige : poursuite de l'humidification.\n- conditions de neige de printemps majoritaires : après un regel nocturne efficace, la neige dure et glissante ramollit vite au soleil et dans la douceur ambiante, devenant lourde et très humide. Effets du soleil et de la douceur un peu plus lent dans les pentes nord raides.\n- au-dessus de 2700m dans les pentes raides (supérieures à 35°), neige encore froide et sèche, plus ou moins travaillée par le vent et par endroit durcie et regelée en surface. Humidification lente et gagnant peu en profondeur dans le manteau neigeux compacté par le vent dans ces secteurs.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 210,
-          "S": 85
+          "N": 205,
+          "S": 80
         },
         {
           "alt_m": 2500,
-          "N": 320,
-          "S": 210
+          "N": 315,
+          "S": 200
         }
       ],
       "icon_key": "snowpack",

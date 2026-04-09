@@ -3,8 +3,8 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-04-08T16:00:00",
-    "valid_until": "2026-04-09T18:00:00",
+    "issued_at": "2026-04-09T16:00:00",
+    "valid_until": "2026-04-10T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-04-10",
+        "date": "2026-04-11",
         "label": "Indice de risque marqué",
-        "comment": "Vendredi : ciel voilé le matin et nombreux cumulus l'après-midi. Isotherme 0°C en baisse vers 2800 m. Fort vent en haute montagne. \n⇒ le manteau neigeux continue de s'humidifier en profondeur. Encore des avalanches de neige humide et des départs en plaque de fond. \n⇒ Formation de quelques plaques à vent en haute montagne",
+        "comment": "Samedi : Quelques cumulus l'après-midi, avec un ciel se voilant au fur et a mesure de la journée. Isotherme 0°C vers 3000m. Un peu de vent en haute-montagne.\n⇒ le manteau neigeux continue de s'humidifier en profondeur. Encore des avalanches de neige humide et des départs en plaque de fond. \n⇒ Formation de rares plaques à vent en haute montagne.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-04",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-05",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-04-09",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-10",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Forte humidification du manteau neigeux à moyenne altitude",
-      "text": "Forte humidification du manteau neigeux à moyenne altitude\n\nDéparts spontanés :\n* nombreuses avalanches de neige humide, rares au lever du jour, puis de plus en plus nombreuses au fil du réchauffement et du rayonnement solaire. En dessous de 2600 m en nord et 3800 m en sud, en particulier dans les zones près des rochers ou des falaises. Taille 1 à 2 (petite à moyenne). \nObservable : enfoncement piéton important, boulettes, escargots. \n* rares avalanches en plaque de neige humide sur sous-couche fragile persistante, dans la tranche 1800/2500 m en toutes orientations, aux heures les plus chaudes de la journée. Taille 2 à 3 (moyenne à grande) avec des cassures épaisses et/ou larges. Causé par l'humidification de la couche fragile persistante. \n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous de 2100 m en nord et 2500 m en sud. Taille 2 (moyenne). \n\nDéclenchements provoqués :\n* avalanches de neige humide sous 3000 m en sud et 2500 m en nord. Facile à déclencher au soleil. Départ ponctuel sous les skis, pouvant parfois déclencher, en cascade, une petite plaque.  Taille 1 à 2 (petite à moyenne). Causé par le réchauffement et le rayonnement solaire. \n* rares plaques à vent sur sous-couche fragile persistante enfouies, au-dessus de 2600 m. Très difficile à déclencher par un skieur. Départ possible par chutes de corniches, séracs ou avalanches en cascade. Taille 2 (moyenne) et très rarement 3 (grande) avec d’épaisses cassures.",
+      "title": "Forte humidification du manteau neigeux à moyenne altitude.",
+      "text": "Forte humidification du manteau neigeux à moyenne altitude.\n\nDéparts spontanés :\n* Nombreuses avalanches de neige humide, de plus en plus nombreuses au fil du réchauffement et de l'ensoleillement. En adrets, l'humidification commence dès le lever du soleil. Globalement sous 2500m en Nord et 3500 m en Sud, l'humidification est sensible, notamment près des rochers et des falaises. Taille 1 à 2.\n* Ces avalanches superficielles de neige humide peuvent réussir à déclencher, en cascade, une couche fragile enfouie sous 30/40 cm.\n* Des avalanches de fond sont possibles à toute heure du jour et de la nuit, sur les pentes herbeuses ou les dalles rocheuses. Lorsque ces plaques de fond cèdent, elles peuvent solliciter une couche fragile persistante enfouie sous 1m/1m20 de neige. Ces couches fragiles sont présentes entre 1800 et 2500m. Taille 2 à 3 (moyenne à grande)\n\nDéclenchements provoqués :\n* Au passage d'un skieur, de la neige peut couler sous les skis, et ainsi on retrouve des avalanches de neige humide sous 2500m en nord et 3500m en sud. Ces avalanches sont sensibles au soleil. La neige poussée par le skieur peut réussir à déclencher une plaque de 30/40 cm d'épaisseur. Taille 1 à 2 (petite à moyenne).\n* Attention au déclenchement en cascade pouvant solliciter des couches fragiles enfouies profondément.\n\nAutres :\n* Avec les fortes chaleurs, attentions aux chutes de pierre et aux corniches qui cèdent.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis au-dessus de 1700/1800 m en sud et 1400/1500 m en nord. \nCorniches fragilisées par le redoux. \n\nQualité de la neige ce jeudi : \nEn dessous de 2000 m en nord et 2600 m en sud, manteau neigeux printanier. Humidification rapide et profonde au soleil. \nVers 2000/2700 m en nord et 2600/3500 m en sud, croute de regel portante sur de la vielle neige dense, s'humidifiant un peu au soleil. \nAu-dessus de 2700 m en nord et 3500 m en sud, il reste de la neige froide et soufflée.\nEn haute montagne, de nombreux endroits ressortent en glace.",
+      "text": "Enneigement :\nL'enneigement est correct au-dessus de 2700m. En dessous, il commence à être déficitaire.\nOn peut chausser les skis au-dessus de 1700/1800 m en sud et 1400/1500 m en nord. Des traces de neige sont présentes sous ces altitudes, mais l'enneigement est loin d'être continu.\n\nQualité de la neige ce vendredi :\nRegel nocturne plutôt correcte.\nEn dessous de 2000 m en nord et 2600 m en sud, manteau neigeux printanier. Humidification rapide et profonde au soleil. \nVers 2000/2700 m en nord et 2600/3500 m en sud, croute de regel portante sur de la vielle neige dense, s'humidifiant un peu au soleil. \nAu-dessus de 2700 m en nord et 3500 m en sud, il reste de la neige froide et soufflée.\nEn haute montagne, de nombreux endroits ressortent en glace à cause du vent des semaines passées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,13 +132,13 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 50,
-          "S": 20
+          "N": 40,
+          "S": 10
         },
         {
           "alt_m": 2000,
-          "N": 220,
-          "S": 150
+          "N": 210,
+          "S": 130
         },
         {
           "alt_m": 2500,
