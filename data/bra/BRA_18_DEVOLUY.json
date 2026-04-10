@@ -3,8 +3,8 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-04-09T16:00:00",
-    "valid_until": "2026-04-10T18:00:00",
+    "issued_at": "2026-04-10T16:00:00",
+    "valid_until": "2026-04-11T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-04-11",
-        "label": "Indice de risque limité",
-        "comment": "Le manteau neigeux printanier continue de s'humidifier de plus en plus profondément. Avalanches de grande taille non exclus l'après-midi en versant est et ouest.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-04-12",
+        "label": "Indice de risque marqué",
+        "comment": "Risque probablement en hausse en cours d'après-midi avec l'arrivée d'averses de pluie jusqu'à haute altitude.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-05",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-06",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-04-10",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-11",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,7 +115,7 @@
     },
     "stability": {
       "title": "DÉPARTS DE NEIGE HUMIDE AU SOLEIL",
-      "text": "DÉPARTS DE NEIGE HUMIDE AU SOLEIL\n\nDéparts spontanés : peu probables en tout début de journée après un bon regel nocturne, puis reprise rapide de l'activité en neige humide au fil de la course du soleil. Départs généralement ponctuels en particulier en pentes raides près des rochers, engendrant des avalanches petites à moyennes (taille 1 à 2). \n-  un départs linéaires de grande taille reste non exclus (taille 3), notamment dans les orientations est et ouest au-dessus de 2200/2400 m environ, quand l'humidification gagne en profondeur et atteint pour la première fois les couches fragiles persistantes enfouies à la base du manteau neigeux.\n\nDéclenchements provoqués : \n- Un skieur évoluant tardivement en pentes raides fortement humidifiées, peut provoquer des départs de neige humide sous les skis, engendrant des avalanches en poires de taille petites à moyennes (taille 1 à 2). \n- Un départ linéaire de grande taille (taille 3) non exclus dans les orientations est et ouest au-dessus de 2200/2400 m environ, en cas de sollicitation de couches fragiles persistantes enfouies à la base du manteau neigeux, notamment après un premier départ de surface.",
+      "text": "DÉPARTS DE NEIGE HUMIDE AU SOLEIL\n\nDéparts spontanés : \n- Peu probables en tout début de journée après un bon regel nocturne, puis reprise rapide de l'activité en neige humide au fil de la course du soleil. Départs généralement ponctuels en particulier en pentes raides près des rochers, engendrant des avalanches petites à moyennes (taille 1 à 2). \n-  Un départ linéaire de grande taille reste non exclu (taille 3), notamment dans les orientations est, nord-est, nord-ouest et ouest au-dessus de 2200/2400 m environ, quand l'humidification gagne en profondeur et atteint pour la première fois les couches fragiles persistantes enfouies à la base du manteau neigeux.\n\nDéclenchements provoqués : \n- Un skieur évoluant tardivement en pentes raides fortement humidifiées, peut provoquer des départs de neige humide sous les skis, engendrant des avalanches en poires de taille petite à moyenne (taille 1 à 2). \n- Un départ linéaire de grande taille (taille 3) non exclu dans les orientations est, nord-est, nord-ouest et ouest au-dessus de 2200/2400 m environ, en cas de sollicitation de couches fragiles persistantes enfouies à la base du manteau neigeux, notamment après un premier départ de surface.",
       "sections": null,
       "icon_key": "stability"
     },
@@ -125,24 +125,24 @@
     },
     "snowpack": {
       "limits_m": {
-        "north": 1400,
-        "south": 1700
+        "north": 1500,
+        "south": 1800
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 20,
+          "N": 15,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 140,
-          "S": 70
+          "N": 135,
+          "S": 65
         },
         {
           "alt_m": 2500,
-          "N": 200,
-          "S": 115
+          "N": 195,
+          "S": 110
         }
       ],
       "icon_key": "snowpack",

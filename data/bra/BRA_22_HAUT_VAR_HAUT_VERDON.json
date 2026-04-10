@@ -3,8 +3,8 @@
   "massif": "Haut-Var Haut-Verdon",
   "bulletin": {
     "id": 22,
-    "issued_at": "2026-04-09T16:00:00",
-    "valid_until": "2026-04-10T18:00:00",
+    "issued_at": "2026-04-10T16:00:00",
+    "valid_until": "2026-04-11T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,21 +42,21 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-04-11",
+        "date": "2026-04-12",
         "label": "Indice de risque marqué",
-        "comment": "Poursuite de conditions printanières et de l'humidification en profondeur du manteau neigeux. Grandes avalanches possibles. Risque restant marqué.",
+        "comment": "Poursuite de l'activité en neige humide avec un regel plus aléatoire. Possibles grandes avalanches. Risque restant marqué.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
+        "N": true,
         "NE": true,
-        "E": true,
+        "E": false,
         "SE": false,
         "S": false,
         "SW": false,
-        "W": true,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -77,11 +77,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-05",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-06",
           "min_cm": 0,
@@ -106,6 +101,11 @@
           "date": "2026-04-10",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-11",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "CONDITIONS PRINTANIÈRES. DÉPARTS EN NEIGE HUMIDE PARFOIS TRÈS VOLUMINEUX",
-      "text": "CONDITIONS PRINTANIÈRES. DÉPARTS EN NEIGE HUMIDE PARFOIS TRÈS VOLUMINEUX\n\nDéparts spontanés : - départs généralement ponctuels en neige humide, de taille petite à moyenne. Peu probables en tout début de journée après un bon regel nocturne, puis augmentation suivant la course du soleil. En pentes raides, toutes orientations et altitude, plutôt près des rochers.\n- départs linéaires, cassures pouvant être larges et épaisses, engendrant des avalanches de taille moyenne à grande. En seconde partie de journée plus particulièrement au-dessus de 2200/2400 m, dans les orientations est à nord-est et ouest à nord-ouest bien réchauffées. En effet l’humidification gagne en profondeur et peut atteindre désormais pour la 1ere fois les couches fragiles enfouies à la base du manteau neigeux. \n\nDéclenchements provoqués :  le manteau neigeux est bien stable le matin. Les déclenchements d’avalanches concernent ensuite les pentes raides ensoleillées. \n- avalanches de plaque dans la neige d’aspect humidifiée pouvant être déclenchées par un seul skieur évoluant tardivement. Orientations privilégiées est / nord / ouest d’altitude. Taille moyenne, voire grande. \n- départs ponctuels en neige humide / pourrie sous les skis. Taille petite à moyenne.",
+      "title": "CONDITIONS PRINTANIÈRES. ACTIVITÉ AVEC LA NEIGE HUMIDE. GRANDES AVALANCHES POSSIBLES",
+      "text": "CONDITIONS PRINTANIÈRES. ACTIVITÉ AVEC LA NEIGE HUMIDE. GRANDES AVALANCHES POSSIBLES\n\nDéparts spontanés : \n- éventuels départs en neige humide, généralement en poire, de taille petite à moyenne. Peu probables en tout début de journée après un bon regel nocturne, puis en augmentation suivant la course du soleil. En pentes raides, toutes orientations et altitude, plutôt près des rochers.\n- Aussi des départs linéaires en neige humide. Cassures pouvant être larges et épaisses, engendrant des avalanches de taille moyenne à grande. Seconde partie de journée, plus particulièrement au-dessus de 2200/2400 m, dans les orientations nord-est et nord-ouest bien réchauffées. En effet, l’humidification gagne en profondeur et peut atteindre désormais des couches fragiles existantes, notamment à la base du manteau neigeux, provoquant la rupture. \n\nDéclenchements provoqués : le manteau neigeux est bien stable le matin. Les déclenchements d’avalanches concernent ensuite les pentes raides ensoleillées. \n- avalanches de plaque dans la neige d’aspect humidifiée pouvant être déclenchées par un seul skieur évoluant tardivement. Orientations privilégiées nord-est / nord / nord-ouest d’altitude. Taille moyenne, voire grande. En effet, avec l’humidification en journée de la neige de la partie supérieure du manteau neigeux, le skieur peut ensuite solliciter une plaque enfouie reposant sur une couche fragile persistante.\n- départs ponctuels en neige humide / pourrie sous les skis. Taille petite à moyenne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement encore légèrement excédentaire pour la saison. \n\nEnneigement skiable généralement à partir de 1700 m en terrain favorable et 2200 m en adrets peu pentus.  \n\nÉtat de la neige en surface : manteau neigeux printanier avec un bon regel nocturne, s'humidifiant rapidement en journée. Neige restée sèche seulement en orientations raides et plein nord de haute altitude, mais généralement fortement durcie par le vent.",
+      "text": "Enneigement encore légèrement excédentaire pour la saison. \n\nEnneigement skiable généralement à partir de 1700 m en terrain favorable et 2200 m en adrets peu pentus.  \n\nÉtat de la neige en surface : manteau neigeux printanier avec un bon regel nocturne, s'humidifiant rapidement en journée. Seuls les nord de haute altitude sont restés en neige peu transformée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 105,
+          "N": 100,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 155,
-          "S": 105
+          "N": 150,
+          "S": 100
         }
       ],
       "icon_key": "snowpack",

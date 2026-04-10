@@ -3,8 +3,8 @@
   "massif": "Embrunais Parpaillon",
   "bulletin": {
     "id": 20,
-    "issued_at": "2026-04-09T16:00:00",
-    "valid_until": "2026-04-10T18:00:00",
+    "issued_at": "2026-04-10T16:00:00",
+    "valid_until": "2026-04-11T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-04-11",
+        "date": "2026-04-12",
         "label": "Indice de risque marqué",
-        "comment": "Le manteau neigeux printanier continue de s'humidifier de plus en plus profondément. Avalanches de grande taille possibles l'après-midi, notamment en versant est et ouest.",
+        "comment": "Maintien d'un risque marqué. L'isotherme 0 degré baisse en journée, mais l'arrivée d'averses pluvieuses l'après-midi peuvent engendrer une activité avalancheuse potentiellement importante.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-05",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-06",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-04-10",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-11",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -116,18 +116,18 @@
     },
     "stability": {
       "title": "DÉPARTS DE NEIGE HUMIDE AU SOLEIL, GRANDES AVALANCHES POSSIBLES EN COURS DE JOURNÉE",
-      "text": "DÉPARTS DE NEIGE HUMIDE AU SOLEIL, GRANDES AVALANCHES POSSIBLES EN COURS DE JOURNÉE\n\nDéparts spontanés : peu probables en tout début de journée après un bon regel nocturne, puis reprise rapide de l'activité en neige humide au fil de la course du soleil. Départs généralement ponctuels en particulier en pentes raides près des rochers, engendrant des avalanches petites à moyennes (taille 1 à 2). \n- des départs linéaires de grande taille sont possibles (taille 3), notamment dans les orientations est et ouest au-dessus de 2200/2400 m environ, quand l'humidification gagne en profondeur et atteint pour la première fois les couches fragiles persistantes enfouies à la base du manteau neigeux.\n\nDéclenchements provoqués : \n- Un skieur évoluant tardivement en pentes raides fortement humidifiées, peut provoquer des départs de neige humide sous les skis, engendrant des avalanches en poires de taille petites à moyennes (taille 1 à 2). \n- Un départ linéaire de grande taille est possible (taille 3), notamment dans les orientations est et ouest au-dessus de 2200/2400 m environ, en cas de sollicitation de couches fragiles persistantes enfouies à la base du manteau neigeux. Départs avec cassures linéaires larges et épaisses, possibles au passage d'un skieur, notamment après un premier départ de surface.",
+      "text": "DÉPARTS DE NEIGE HUMIDE AU SOLEIL, GRANDES AVALANCHES POSSIBLES EN COURS DE JOURNÉE\n\nDéparts spontanés : \n- Peu probables en tout début de journée après un bon regel nocturne, puis reprise rapide de l'activité en neige humide au fil de la course du soleil. Départs généralement ponctuels en particulier en pentes raides près des rochers, engendrant des avalanches petites à moyennes (taille 1 à 2). \n- Des départs linéaires de grande taille sont possibles (taille 3), notamment dans les orientations est, nord-est, nord-ouest et ouest au-dessus de 2200/2400 m environ, quand l'humidification gagne en profondeur et atteint pour la première fois les couches fragiles persistantes enfouies à la base du manteau neigeux.\n\nDéclenchements provoqués : \n- Un skieur évoluant tardivement en pentes raides fortement humidifiées, peut provoquer des départs de neige humide sous les skis, engendrant des avalanches en poires de taille petite à moyenne (taille 1 à 2). \n- Un départ linéaire de grande taille est possible (taille 3), notamment dans les orientations est, nord-est, nord-ouest et ouest au-dessus de 2200/2400 m environ, en cas de sollicitation de couches fragiles persistantes enfouies à la base du manteau neigeux. Départs avec cassures linéaires larges et épaisses, possibles au passage d'un skieur, notamment après un premier départ de surface.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "L'enneigement légèrement déficitaire pour un début avril.\nHauteurs de neige observées : 88 cm à la Nivôse du Parpaillon à 2500 m.\n\nLimite d'enneigement skiable : au plus bas à 1500/1600 m en ubacs bien protégés ou sur pistes forestières, plutôt 2000/2100 m en adrets.\n\nÉtat de la neige de surface : neige en cycle printanier. Après un regel nocturne plutôt bon, reprise rapide de l'humidification au soleil. Dans les ubacs raides au-dessus de 2400/2600 m, neige encore froide, souvent durcie ou travaillée par le vent dans les secteurs exposés, parfois plus légère dans les combes ou pentes abritées. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
+      "text": "L'enneigement légèrement déficitaire pour un début avril.\nHauteurs de neige observées : 84 cm à la Nivôse du Parpaillon à 2500 m.\n\nLimite d'enneigement skiable : au plus bas à 1500/1600 m en ubacs bien protégés ou sur pistes forestières, plutôt 2000/2100 m en adrets.\n\nÉtat de la neige de surface : neige en cycle printanier. Après un regel nocturne plutôt bon, reprise rapide de l'humidification au soleil. Dans les ubacs raides au-dessus de 2400/2600 m, neige encore froide, souvent durcie ou travaillée par le vent dans les secteurs exposés, parfois plus légère dans les combes ou pentes abritées. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1600,
-        "south": 2000
+        "north": 1700,
+        "south": 2200
       },
       "levels_cm": [
         {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 65,
-          "S": 5
+          "N": 60,
+          "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 130,
-          "S": 65
+          "N": 125,
+          "S": 60
         }
       ],
       "icon_key": "snowpack",

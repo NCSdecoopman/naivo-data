@@ -3,14 +3,14 @@
   "massif": "Chartreuse",
   "bulletin": {
     "id": 7,
-    "issued_at": "2026-04-09T17:00:00",
-    "valid_until": "2026-04-10T18:00:00",
+    "issued_at": "2026-04-10T16:00:00",
+    "valid_until": "2026-04-11T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Indice de risque faible évoluant en limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 2,
-            "evolution_to": null,
+            "risk": 1,
+            "evolution_to": 2,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "2",
+            "text": "1→2",
             "risk": 2,
-            "evolution_to": null
+            "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-11",
+        "date": "2026-04-12",
         "label": "Indice de risque limité",
-        "comment": "Humidification et tassement du manteau, peu d'évolutions.",
+        "comment": "Dimanche, temps très nuageux et iso 0°C vers 3000m le matin, en baisse en journée avec l'arrivée de pluies (neige au-dessus de 2600m). Poursuite d'une activitée naturelle limitée, concernant même les versants Nord.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-05",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-06",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-04-10",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-11",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "HUMIDIFICATION DU MANTEAU NEIGEUX EN TOUS VERSANTS",
-      "text": "HUMIDIFICATION DU MANTEAU NEIGEUX EN TOUS VERSANTS\n\nDéparts spontanés : - Après un regel nocturne plutôt médiocre, de nouvelles avalanches humides peuvent se produire ce jeudi dès la  matinée, notamment dans les pentes réchauffées par le soleil, le plus souvent de taille 1 à 2. Dans un rare cas, une avalanche de glissement plus conséquente, au terrain, atteignant la taille 2 à 3, ne peut être exclue (alpage raide). Ces problématiques augmente au fil des heures au gré du parcours du soleil et du réchauffement des pentes. (Sud-est à Est le matin jusqu'à Ouest Sud-ouest en fin de journée).\n- Une rupture spontanée de corniche est également possible l'après-midi et à surveiller dans les secteurs concernés.\n\nDéclenchements provoqués : En pentes soutenues et bien humidifiées, le pratiquant pourrait faire couler la neige humide sous les skis.\n\nAutres :  A l'ombre (le matin surtout) neige souvent très dure ou croutée par le regel. Surfaces glissantes généralisées.",
+      "title": "MANTEAU NEIGEUX PRINTANIER, ASSOCIE A UNE ACTIVITE NATURELLE EN JOURNEE, UN RARE DEPART VOLUMINEUX POSSIBLE",
+      "text": "MANTEAU NEIGEUX PRINTANIER, ASSOCIE A UNE ACTIVITE NATURELLE EN JOURNEE, UN RARE DEPART VOLUMINEUX POSSIBLE\n\nDéparts spontanés : \n- Après un regel nocturne médiocre, de nouvelles avalanches humides peuvent se produire dès la matinée dans les pentes réchauffées par le soleil, le plus souvent de petite taille ou de taille moyenne. Cette problématique augmente au fil des heures au gré du parcours du soleil et du réchauffement des pentes. (Sud-est à Est le matin jusqu'à Ouest Sud-ouest en fin de journée).\n- A toute heure (parfois même la nuit) et dans la plupart des versants, des avalanches de glissement peuvent se produire. De tailles moyennes, voire rarement de grandes tailles. Surtout en alpage raide / sur les dalles rocheuses. Parfois précédées par l'ouverture d'une fissure (gueule de baleine). \n- Une rupture spontanée de corniche est également possible l'après-midi et à surveiller dans les secteurs concernés.\n\nDéclenchements provoqués : En pentes soutenues et bien humidifiées, le pratiquant pourrait faire couler la neige humide sous les skis. \n\nAutres :  A l'ombre (le matin surtout) neige souvent très dure ou croutée par le regel. Surfaces glissantes généralisées.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  La fonte s'accélère, mais l'enneigement reste encore correct dès la moyenne altitude, et même très bon vers les hauteurs.\n\nLimites skiables : Vers 1400/1600m en Nord, 1800/2200m au soleil...\n\nQualité de la neige vendredi : Neige printanière, regel nocturne très moyen, puis rapide humidification en journée, dans tous les versants. En Nord d'altitude toutefois, la neige peut encore être croutée/cassante le matin avec des restes de congères/effets du vent..",
+      "text": "Qualification de l’enneigement :  L'enneigement est toujours bon dès la moyenne montagne peu ensoleillée, et dans les combes d'altitude (ce qui est plus classique)... La fonte a bien débuté aux plus basses altitudes enneigées et dans les versants bien ensoleillés, elle se poursuit ce samedi.\nLimites skiables : Vers 1200/1500m en plein Nord (hors sapins), 1700/1800m au soleil...\n\nQualité de la neige samedi :   En large Sud neige transformée, printanière. Regel nocturne médiocre, puis rapide humidification suivant la course du soleil. Petite créneau de moquette, mais rapidement retour en neige pourrie. En versants intermédiaires neige souvent croutée/cassante jusqu'en fin de journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 65,
+          "N": 55,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 220,
-          "S": 125
+          "N": 210,
+          "S": 110
         }
       ],
       "icon_key": "snowpack",

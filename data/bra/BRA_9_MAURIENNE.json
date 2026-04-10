@@ -3,8 +3,8 @@
   "massif": "Maurienne",
   "bulletin": {
     "id": 9,
-    "issued_at": "2026-04-09T16:00:00",
-    "valid_until": "2026-04-10T18:00:00",
+    "issued_at": "2026-04-10T16:00:00",
+    "valid_until": "2026-04-11T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-04-11",
-        "label": "Indice de risque marqué",
-        "comment": "Excessivement doux, les problématiques en neige humide continuent.\nRisque stationnaire.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-04-12",
+        "label": "Indice de risque limité",
+        "comment": "Très nuageux, moins d'ensoleillement et d'activité par chauffage en adrets permettant une redescente en risque limité. À surveiller toutefois une probable humidification en surface dans les versant nord restés froids jusqu'ici.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -53,9 +53,9 @@
         "N": false,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -77,11 +77,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-05",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-06",
           "min_cm": 0,
@@ -106,6 +101,11 @@
           "date": "2026-04-10",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-11",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,8 +115,8 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Chaleurs anormales : nombreuses problématiques en neige humide.",
-      "text": "Chaleurs anormales : nombreuses problématiques en neige humide. \n\nDéparts spontanés : regel nocturne correct après une nuit claire et sans vent.  Les premières heures du matin sont calmes puis reprise, au fil de la course du soleil, des départs en neige humide dans les versants ensoleillés. D'abord en Nord-Est (raide)/Est puis Sud et enfin surtout en Ouest et Nord-Ouest en fin de journée. Les avalanches en départ ponctuel (taille petite à moyenne, 1 à 2) sont de moins en moins nombreuses. En revanche, l'eau de fonte qui percole dans le manteau atteint désormais les couches fragiles enfouies du début de saison. De grandes avalanches (taille 3) avec cassures linéaires sont possibles. Elles sont plus probables en large versant Ouest, sous 2700 m et en cours d'après midi. \nPar ailleurs, des plaques de fond sont à craindre, à toute heure, en Est, Ouest et Nord, sous 2500 m. Aussi, chutes de corniches possibles.\n\nDéclenchements provoqués : un skieur coupant une pente raide en neige pourrie peut aider une avalanche de fonte à partir. Coulées sous les skis voire cassure linéaire pouvant donner une rare grande avalanche quand les couches fragiles du début de saison s'humidifient.\nSinon, au-dessus de 2500 m en Nord dans une pente très raide, une petite plaque peut déstabiliser le skieur qui la déclenche.",
+      "title": "Manteau neigeux fortement humidifié en cours de journée. Très chaud.",
+      "text": "Manteau neigeux fortement humidifié en cours de journée. Très chaud.\n\nDéparts spontanés : regel nocturne correct après une nuit claire et sans vent.  Les premières heures du matin sont calmes puis reprise, au fil de la course du soleil, des départs en neige humide dans les versants ensoleillés. D'abord en Nord-Est (raide)/Est puis Sud et enfin surtout en Ouest et Nord-Ouest en fin de journée. Les avalanches en départ ponctuel (taille petite à moyenne, 1 à 2) sont de moins en moins nombreuses. En revanche, l'eau de fonte qui percole dans le manteau atteint désormais les couches fragiles enfouies du début de saison. De grandes avalanches (taille 3) avec cassures linéaires sont possibles. Elles semblent plus probables en versant Est à NE ainsi que Ouest à NO, sous 2700 m et après quelques heures d’ensoleillement. \nPar ailleurs, des plaques de fond sont à craindre, à toute heure, en Est, Ouest et Nord, sous 2500 m. Aussi, chutes de corniches possibles.\n\nDéclenchements provoqués : un skieur coupant une pente raide en neige pourrie peut aider une avalanche de fonte à partir. Coulées sous les skis voire cassure linéaire pouvant donner une rare grande avalanche quand les couches fragiles du début de saison s'humidifient.\nSinon, au-dessus de 2500 m en Nord dans une pente très raide, une petite plaque peut déstabiliser le skieur qui la déclenche.",
       "sections": null,
       "icon_key": "stability"
     },

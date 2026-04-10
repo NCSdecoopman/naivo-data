@@ -3,14 +3,14 @@
   "massif": "Pays-Basque",
   "bulletin": {
     "id": 64,
-    "issued_at": "2026-04-09T16:00:00",
-    "valid_until": "2026-04-10T18:00:00",
+    "issued_at": "2026-04-10T16:00:00",
+    "valid_until": "2026-04-11T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque faible évoluant en limité.",
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 1,
-            "evolution_to": 2,
+            "risk": 2,
+            "evolution_to": null,
             "position": null
           }
         ]
@@ -34,18 +34,18 @@
         },
         "zones": {
           "center": {
-            "text": "1→2",
+            "text": "2",
             "risk": 2,
-            "evolution_to": 2
+            "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-04-11",
-        "label": "Indice de risque limité",
-        "comment": "Plus de nuages, quelques gouttes de pluie l'après-midi : maintien d'un risque faible à limité en journée.\nPar contre, augmentation du risque en cours de nuit de samedi à dimanche avec les nouvelles chutes de neige attendues à basse altitude.",
-        "trend": "steady"
+        "max_level": 3,
+        "date": "2026-04-12",
+        "label": "Indice de risque marqué",
+        "comment": "Augmentation potentielle du risque. Poursuite des averses de neige tout au long de la journée dans une atmosphère bien refroidie.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -67,21 +67,16 @@
     },
     "sat": {
       "primary": 4,
-      "secondary": 5,
+      "secondary": 2,
       "labels": {
         "4": "Neige humide",
-        "5": "Avalanche de fond"
+        "2": "Neige ventée"
       },
       "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-05",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-06",
           "min_cm": 0,
@@ -106,28 +101,33 @@
           "date": "2026-04-10",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-11",
+          "min_cm": 5,
+          "max_cm": 13
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 13
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PEU D'EVOLUTION : NEIGE DE PRINTEMPS.",
-      "text": "PEU D'EVOLUTION : NEIGE DE PRINTEMPS.\n\nDéparts spontanés : en neige humide.\n- activité avalancheuse inexistante ou très rare au petit matin suite à un regel efficace du manteau neigeux en place.\n- départs ponctuels de neige humide en secteurs raides près des rochers et des zones déneigées, en est à sud en matinée, sud à ouest l'après-midi. Avalanches généralement de petite taille, avalanche de fond de taille moyenne possible en partant d'une accumulation au plus haut du massif et entraînant la neige humide et lourde mobilisable en contrebas (plutôt l'après-midi).\n\nDéclenchements provoqués : \n- peu probables au petit matin après un bon regel nocturne.\n- au fil des heures de la journée, au soleil et dans la douceur ambiante, il devient de plus en plus facile pour un skieur ou randonneur de déclencher des coulées ou petites avalanches de neige humide. Une avalanche de taille moyenne peut localement être déclenchée dans les pentes sud à sud-ouest raides sous le pic d'Anie durant l'après-midi. \n\nAutres : neige dure et regelée propice aux glissades en tout début de matinée. Ponts de neige et corniches encore en place devenant fragiles au soleil.",
+      "title": "Neige de printemps majoritaire. Refroidissement progressif et chutes de neige en fin de journée.",
+      "text": "Neige de printemps majoritaire. Refroidissement progressif et chutes de neige en fin de journée.\n\nDéclenchements provoqués :\nUn simple skieur peut déclencher des départs ponctuels dans les pentes raides et dans la neige humide le matin malgré un regel plus ou moins efficace. De petites avalanches sont ensuite possibles dans les versants au fil de la journée et de la douceur ambiante, voire des moyennes notamment dans les pentes sud à sud-ouest raides encore bien enneigées sur le haut du massif. En fin de journée, sous les chutes de neige, il sera possible de déclencher de petites avalanches dans la neige fraîche.\n\nDéparts spontanés:\nDes départs ponctuels dans la neige humide sont attendus dès la matinée malgré un regel plus ou moins efficace, puis dans les versants au fil de la journée et de la douceur ambiante. Des avalanches petites à moyennes sont possibles dans les pentes raides des versants est à sud le matin, puis sud à ouest l'après-midi. Des avalanches de fond sont aussi possibles, dans les zones d'accumulation au plus haut du massif, près des fissures et des reptations. Elles sont généralement de tailles moyennes, parfois grandes. Enfin, de petits départs ponctuels peuvent avoir lieu dans les chutes de neige en fin de journée.\n\nAutres : neige dure et regelée propice aux glissades en tout début de matinée. Ponts de neige et corniches encore en place devenant fragiles au soleil.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : encore bon pour la saison grâce à une fonte lente. Débutant vers 1600m en nord, 1800m en sud.\nÉtat de la neige : neige de printemps, poursuite de l'humidification en profondeur.\nDure et regelée au petit matin, ramollissant vite au soleil dans la douceur ambiante, devenant lourde et très humide. Effets du soleil et de la douceur un peu plus lent dans les pentes nord raides sous le pic d'Anie et sous le pic d'Orhy.",
+      "text": "Enneigement : encore bon pour la saison grâce à une fonte lente. Débutant vers 1650m en nord, 1900m en sud.\nÉtat de la neige : neige de printemps majoritaire, poursuite de l'humidification en profondeur.\nLe regel matinal est plus ou moins efficace, puis la neige ramollit rapidement dans la douceur ambiante, devenant lourde et très humide. Effets de la douceur un peu plus lents dans les pentes nord raides sous le pic d'Anie et sous le pic d'Orhy.\nPlusieurs centimètres de neige fraîche au fil des chutes de neige de la journée avec le refroidissement progressif.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1600,
-        "south": 1800
+        "north": 1650,
+        "south": 1900
       },
       "levels_cm": [
         {
@@ -142,8 +142,8 @@
         },
         {
           "alt_m": 2000,
-          "N": 175,
-          "S": 80
+          "N": 170,
+          "S": 75
         }
       ],
       "icon_key": "snowpack",
