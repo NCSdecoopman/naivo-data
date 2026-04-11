@@ -3,14 +3,14 @@
   "massif": "Vanoise",
   "bulletin": {
     "id": 10,
-    "issued_at": "2026-04-10T16:00:00",
-    "valid_until": "2026-04-11T18:00:00",
+    "issued_at": "2026-04-11T16:00:00",
+    "valid_until": "2026-04-12T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque faible évoluant en marqué.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 1,
-            "evolution_to": 3,
+            "risk": 2,
+            "evolution_to": null,
             "position": null
           }
         ]
@@ -34,23 +34,23 @@
         },
         "zones": {
           "center": {
-            "text": "1→3",
-            "risk": 3,
-            "evolution_to": 3
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-12",
+        "date": "2026-04-13",
         "label": "Indice de risque limité",
-        "comment": "Très nuageux, moins d'ensoleillement et d'activité par chauffage en adrets permettant une redescente en risque limité. À surveiller toutefois une probable humidification en surface dans les versant nord restés froids jusqu'ici.",
-        "trend": "down"
+        "comment": "Même type de temps gris sans précipitations consistantes. La masse d'air se rafraîchit à peine, le risque reste \"limité\" pour les départs en neige humide.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
+        "N": true,
         "NE": true,
         "E": true,
         "SE": false,
@@ -67,21 +67,16 @@
     },
     "sat": {
       "primary": 4,
-      "secondary": 3,
+      "secondary": 5,
       "labels": {
         "4": "Neige humide",
-        "3": "Couche fragile persistante"
+        "5": "Avalanche de fond"
       },
       "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-07",
           "min_cm": 0,
@@ -106,6 +101,11 @@
           "date": "2026-04-11",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-12",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,34 +115,34 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux fortement humidifié en cours de journée. Très chaud.",
-      "text": "Manteau neigeux fortement humidifié en cours de journée. Très chaud.\n\nDéparts spontanés : bon regel nocturne après une nuit claire et sans vent.  Les premières heures du matin sont calmes puis reprise, au fil de la course du soleil, des départs en neige humide dans les versants ensoleillés. D'abord en Nord-Est (raide)/Est puis Sud et enfin surtout en Ouest et Nord-Ouest en fin de journée. Les avalanches en départ ponctuel (taille petite à moyenne, 1 à 2) sont de moins en moins nombreuses. En revanche, l'eau de fonte qui percole dans le manteau atteint désormais les couches fragiles enfouies du début de saison. De grandes avalanches (taille 3) avec cassures linéaires sont possibles. Elles semblent plus probables en versant Est à NE ainsi que Ouest à NO, sous 2700 m et après quelques heures d’ensoleillement.\nPar ailleurs, des plaques de fond sont à craindre, à toute heure, en Est, Ouest et Nord, sous 2500 m. Aussi, chutes de corniches possibles.\n\nDéclenchements provoqués : un skieur coupant une pente raide en neige pourrie peut aider une avalanche de fonte à partir. Coulées sous les skis voire cassure linéaire pouvant donner une rare grande avalanche quand les couches fragiles du début de saison s'humidifient.\nSinon, au-dessus de 2500 m en Nord dans une pente très raide, une petite plaque peut déstabiliser le skieur qui la déclenche.",
+      "title": "CIEL DE PLUS EN PLUS NUAGEUX ET MASSE D'AIR TRÈS DOUCE : HUMIDIFICATION MÊME EN PLEIN NORD.",
+      "text": "CIEL DE PLUS EN PLUS NUAGEUX ET MASSE D'AIR TRÈS DOUCE : HUMIDIFICATION MÊME EN PLEIN NORD.\n\nDéparts spontanés : \n- Quelques départs en neige humide sont attendus en tous versants et à toute heure de la journée. Les départs peuvent être ponctuels (poires), donnant des petites à moyennes avalanches, mais aussi plus rarement linéaires (plaques) donnant alors de grandes avalanches (taille 3) car l'eau de fonte qui percole dans le manteau atteint désormais les couches fragiles enfouies du début de saison. Ces cassures linéaires semblent plus probables en versants Est/Nord/Ouest, sous 2700 m. \nEn effet, le regel est plutôt médiocre et malgré un soleil quasi inexistant, la masse d'air très douce combinée à la présence d'une épaisse couverture nuageuse va permettre la poursuite de l'activité en neige humide. On s'attend à une activité moins soutenue que les jours précédents en versants ensoleillés. Mais, à l'inverse, les versants nord encaissés et protégés du soleil (restés en neige froide jusqu'à maintenant) vont subir leur première humidification en surface et seront donc eux aussi concernés par ce risque.\n- Quelques avalanches de glissement (plaques de fond) à toute heure sur terrain propice, notamment en Lauzière/Cheval Noir sous 2500 m. Taille 2.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée (notamment aux altitudes intermédiaires 2000/2800 m). Coulées sous les skis voire cassure linéaire pouvant donner une rare grande avalanche quand les couches fragiles du début de saison s'humidifient.\n\nAutres : chutes de corniches possibles à toute heure.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : encore un peu au dessus de la moyenne, mais plus pour longtemps avec une fonte accélérée de 5 à 10 cm par jour  avec la chaleur en cours .\n\nLimite skiable : vers 1400 m en Nord, 1800 m en Sud.\n\nQualité de la neige : en Nord au-dessus de 2500 m, poudre tassée agréable à l'abri des vents, sinon dans les nombreux secteurs ventés très hétérogènes carton à dure dans les pentes et croupes/crêtes pelées.\nPartout ailleurs, regel nocturne correct avec une croûte portante au lever du jour, ramollissant très rapidement dans les versants Est, plus tardivement ailleurs en suivant la course du soleil. Le créneau en neige de printemps agréable à descendre risque d'être assez court avec une neige devenant assez vite pourrie. L'après midi, neige pourrie dans un grand nombre de pentes.",
+      "text": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours (fonte accélérée de 5 à 10 cm par jour).\n\nLimite skiable : vers 1400 m en Nord, 1700/1800 m en Sud.\n\nQualité de la neige : le regel est plutôt médiocre à cause des nuages nocturnes (et même carrément mauvais en Lauzière où le ciel est intégralement couvert). Neige rapidement humide voire pourrie partout dès le matin. Collante possible en Nord, dans les rares secteurs qui étaient encore en neige froide et s’humidifient eux aussi. En fin de journée, il peut tomber localement 1 à 5 cm de neige au-dessus de 2300/2400 m (cela ne donnera de la neige froide/poudreuse qu'au dessus de 2700 m...).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1300,
-        "south": 1700
+        "north": 1400,
+        "south": 1800
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 40,
+          "N": 35,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 125,
-          "S": 40
+          "N": 120,
+          "S": 35
         },
         {
           "alt_m": 2500,
-          "N": 165,
+          "N": 160,
           "S": 110
         }
       ],

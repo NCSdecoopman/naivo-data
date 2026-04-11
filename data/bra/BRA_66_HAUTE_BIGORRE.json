@@ -3,8 +3,8 @@
   "massif": "Haute-Bigorre",
   "bulletin": {
     "id": 66,
-    "issued_at": "2026-04-10T16:00:00",
-    "valid_until": "2026-04-11T18:00:00",
+    "issued_at": "2026-04-11T17:00:00",
+    "valid_until": "2026-04-12T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-04-12",
-        "label": "Indice de risque marqué",
-        "comment": "Augmentation potentielle du risque. Poursuite des averses de neige tout au long de la journée dans une atmosphère bien refroidie.",
-        "trend": "up"
+        "max_level": 2,
+        "date": "2026-04-13",
+        "label": "Indice de risque limité",
+        "comment": "La formation de plaques se poursuit, l'activité en neige diminue",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -53,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": 3,
+      "primary": 5,
+      "secondary": 2,
       "labels": {
-        "4": "Neige humide",
-        "3": "Couche fragile persistante"
+        "5": "Avalanche de fond",
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-5"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-07",
           "min_cm": 0,
@@ -104,24 +99,29 @@
         },
         {
           "date": "2026-04-11",
-          "min_cm": 3,
-          "max_cm": 10
+          "min_cm": 0,
+          "max_cm": 5
+        },
+        {
+          "date": "2026-04-12",
+          "min_cm": 7,
+          "max_cm": 15
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 7,
+        "last_48h_max_cm": 20
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Neige de printemps majoritaire, structures de plaques en Nord d'altitude le matin. Refroidissement progressif et chutes de neige en fin de journée.",
-      "text": "Neige de printemps majoritaire, structures de plaques en Nord d'altitude le matin. Refroidissement progressif et chutes de neige en fin de journée.\n\nDéclenchements provoqués :\n- Au-dessus de 2600 à 2700m, le matin, dans les pentes raides autour du secteur Nord, des structures de plaques peuvent encore persister, formées lors des dernières chutes de neige. Elles peuvent reposer sur une couche fragile persistante enfouie, sensible à des sollicitations faibles à moyennes. Un simple skieur peut engendrer des cassures linéaires petits à moyennes, plus rarement des grandes dans les zones d'accumulation importantes. Dans l'après-midi, avec les chutes de neige en cours, et sous l'effet du vent de sud à sud-ouest, de fines plaques peuvent s'ajouter à celles décrites ci-dessus, il peut être ainsi déclenché des avalanches petites à moyennes, rarement grandes.\n- Partout ailleurs, Un simple skieur peut déclencher des départs ponctuels dans les pentes raides et dans la neige humide le matin malgré un regel plus ou moins efficace. De petites avalanches sont ensuite possibles dans les versants au fil de la journée et de la douceur, voire des moyennes notamment dans les pentes sud à sud-ouest raides encore bien enneigées sur le haut du massif. Dans l'après-midi, sous les chutes de neige, il sera possible de déclencher de petites avalanches dans la neige fraîche.\n\nDéparts spontanés :\n- Des départs ponctuels dans la neige humide sont attendus dès la matinée malgré un regel plus ou moins efficace, puis dans les versants au fil de la journée et de la douceur ambiante. Des avalanches petites à moyennes sont possibles dans les pentes raides des versants est à sud le matin, puis sud à ouest l'après-midi,  rarement grandes dans les zones d'accumulation importantes. Des avalanches de fond sont aussi possibles, dans les zones d'accumulation au plus haut du massif, près des fissures et des reptations, de tailles moyennes à grandes. Enfin, de petits départs ponctuels peuvent avoir lieu dans les chutes de neige en fin de journée.\n\nAutres : neige regelée propice aux glissades le matin, persistante à l'ombre au-dessus de 2700m. Ponts de neige et corniches devenant fragiles au soleil.",
+      "title": "CHUTES DE NEIGE SUR UN MANTEAU RESTANT SOUVENT DÉTREMPÉ MALGRÉ LE REFROIDISSEMENT",
+      "text": "CHUTES DE NEIGE SUR UN MANTEAU RESTANT SOUVENT DÉTREMPÉ MALGRÉ LE REFROIDISSEMENT\n\nDéparts spontanés :\nDes plaques de fond engendrant une avalanche moyenne voire grande en orientations nord, probablement surtout entre 2000 et 2400m en orientation nord, encore peu humidifiées jusqu'à samedi, partant souvent de fissures déjà ouvertes. Le manteau a subi un net redoux jusqu'à samedi compris, le refroidissement de dimanche regèlera à peine le haut de la couche humidifiée.\n\nDéclenchements provoqués :\nDifficiles en matinée sur un manteau humide et tassé. Formation de quelques plaques en versants nord au fil des chutes de neige, à proximité des crêtes et cols, le vent restant modéré. Elles seront surtout déclenchables au-dessus de 2000m, plus bas la neige sera trop dense pour permettre leur déclenchement.\n\nAutres : \nLes ponts de neige et corniche sont très fragiles avec l'humidification profonde des derniers jours. Le refroidissement relatif ne permet pas un regel correct.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : encore bon pour la saison grâce à une fonte lente, débutant vers 1650m en nord, 1900m en sud.\nÉtat de la neige : poursuite de l'humidification en journée.\n- Neige de printemps majoritaire. Le regel matinal est plus ou moins efficace. Puis, la neige ramollit rapidement dans la douceur ambiante, devenant lourde et humide. Les effets de la douceur sont plus lents dans les pentes raides nord.\n- Au-dessus de 2600 à 2700m dans les pentes raides autour du secteur Nord, la neige est encore froide et sèche, plus ou moins travaillée par le vent, et par endroit durcit et regelée. Humidification lente et gagnant peu en profondeur dans ces secteurs.\n- Plusieurs centimètres de neige fraîche au fil des chutes de neige de la journée avec le refroidissement progressif.",
+      "text": "Enneigement : encore bon pour la saison. Débutant vers 1650m en nord, 1900m en sud, épaisseurs augmentant assez rapidement au-dessus de la limite d'enneigement.\nÉtat de la neige : Manteau fortement humidifié, en général tassé et portant sous 1900m, plus mou en versants nord d'altitude qui n'ont pas subi suffisamment de cycles dégel-regel. Quelques centimètres de neige fraîche au fil des chutes de neige de la journée avec le refroidissement progressif.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 200,
-          "S": 75
+          "N": 195,
+          "S": 70
         },
         {
           "alt_m": 2500,
-          "N": 310,
-          "S": 195
+          "N": 305,
+          "S": 190
         }
       ],
       "icon_key": "snowpack",

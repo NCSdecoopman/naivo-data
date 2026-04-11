@@ -3,8 +3,8 @@
   "massif": "Pays-Basque",
   "bulletin": {
     "id": 64,
-    "issued_at": "2026-04-10T16:00:00",
-    "valid_until": "2026-04-11T18:00:00",
+    "issued_at": "2026-04-11T17:00:00",
+    "valid_until": "2026-04-12T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,22 +41,22 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-04-12",
-        "label": "Indice de risque marqué",
-        "comment": "Augmentation potentielle du risque. Poursuite des averses de neige tout au long de la journée dans une atmosphère bien refroidie.",
-        "trend": "up"
+        "max_level": 2,
+        "date": "2026-04-13",
+        "label": "Indice de risque limité",
+        "comment": "Activité restant limitée, le problème de plaques de fond peut diminuer avec le froid.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
-        "W": true,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -66,22 +66,16 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": 2,
+      "primary": 5,
+      "secondary": null,
       "labels": {
-        "4": "Neige humide",
-        "2": "Neige ventée"
+        "5": "Avalanche de fond"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-5"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-07",
           "min_cm": 0,
@@ -104,24 +98,29 @@
         },
         {
           "date": "2026-04-11",
-          "min_cm": 5,
-          "max_cm": 13
+          "min_cm": 0,
+          "max_cm": 5
+        },
+        {
+          "date": "2026-04-12",
+          "min_cm": 15,
+          "max_cm": 20
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 13
+        "last_48h_min_cm": 15,
+        "last_48h_max_cm": 25
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Neige de printemps majoritaire. Refroidissement progressif et chutes de neige en fin de journée.",
-      "text": "Neige de printemps majoritaire. Refroidissement progressif et chutes de neige en fin de journée.\n\nDéclenchements provoqués :\nUn simple skieur peut déclencher des départs ponctuels dans les pentes raides et dans la neige humide le matin malgré un regel plus ou moins efficace. De petites avalanches sont ensuite possibles dans les versants au fil de la journée et de la douceur ambiante, voire des moyennes notamment dans les pentes sud à sud-ouest raides encore bien enneigées sur le haut du massif. En fin de journée, sous les chutes de neige, il sera possible de déclencher de petites avalanches dans la neige fraîche.\n\nDéparts spontanés:\nDes départs ponctuels dans la neige humide sont attendus dès la matinée malgré un regel plus ou moins efficace, puis dans les versants au fil de la journée et de la douceur ambiante. Des avalanches petites à moyennes sont possibles dans les pentes raides des versants est à sud le matin, puis sud à ouest l'après-midi. Des avalanches de fond sont aussi possibles, dans les zones d'accumulation au plus haut du massif, près des fissures et des reptations. Elles sont généralement de tailles moyennes, parfois grandes. Enfin, de petits départs ponctuels peuvent avoir lieu dans les chutes de neige en fin de journée.\n\nAutres : neige dure et regelée propice aux glissades en tout début de matinée. Ponts de neige et corniches encore en place devenant fragiles au soleil.",
+      "title": "CHUTES DE NEIGE SUR UN MANTEAU RESTANT DÉTREMPÉ MALGRÉ LE REFROIDISSEMENT",
+      "text": "CHUTES DE NEIGE SUR UN MANTEAU RESTANT DÉTREMPÉ MALGRÉ LE REFROIDISSEMENT\n\nDéparts spontanés :\nPossibilité de départ de rares plaques de fond engendrant une avalanche moyenne voire grande en orientations nord au plus haut du massif. Ailleurs, le manteau est déjà printanier et tassé, avec de la neige de type névé.\n\nDéclenchements provoqués :\nDifficiles en matinée sur un manteau humide et tassé. Formation de rares accumulations au fil des chutes de neige, à proximité des crêtes et cols, le vent restant modéré. Certaines en versants nord peuvent engendrer des plaques déclenchables en orientations nord au plus haut du massif. Ailleurs, la neige est trop dense pour présenter des structures déclenchables.\n\nAutres : \nLes ponts de neige et corniche sont très fragiles avec l'humidification profonde des derniers jours. Le refroidissement relatif ne permet pas un regel correct.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : encore bon pour la saison grâce à une fonte lente. Débutant vers 1650m en nord, 1900m en sud.\nÉtat de la neige : neige de printemps majoritaire, poursuite de l'humidification en profondeur.\nLe regel matinal est plus ou moins efficace, puis la neige ramollit rapidement dans la douceur ambiante, devenant lourde et très humide. Effets de la douceur un peu plus lents dans les pentes nord raides sous le pic d'Anie et sous le pic d'Orhy.\nPlusieurs centimètres de neige fraîche au fil des chutes de neige de la journée avec le refroidissement progressif.",
+      "text": "Enneigement : encore bon pour la saison. Débutant vers 1650m en nord, 1900m en sud, épaisseurs augmentant assez rapidement au-dessus de la limite d'enneigement.\nÉtat de la neige : Manteau intégralement humidifié, mais en général tassé et portant. Quelques centimètres de neige fraîche au fil des chutes de neige de la journée avec le refroidissement progressif.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -142,8 +141,8 @@
         },
         {
           "alt_m": 2000,
-          "N": 170,
-          "S": 75
+          "N": 165,
+          "S": 70
         }
       ],
       "icon_key": "snowpack",

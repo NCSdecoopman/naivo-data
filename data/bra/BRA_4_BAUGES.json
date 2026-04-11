@@ -3,14 +3,14 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-04-10T16:00:00",
-    "valid_until": "2026-04-11T18:00:00",
+    "issued_at": "2026-04-11T16:00:00",
+    "valid_until": "2026-04-12T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque faible évoluant en limité.",
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 1,
-            "evolution_to": 2,
+            "risk": 2,
+            "evolution_to": null,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "1→2",
+            "text": "2",
             "risk": 2,
-            "evolution_to": 2
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-12",
+        "date": "2026-04-13",
         "label": "Indice de risque limité",
-        "comment": "Dimanche, le changement de temps s'amorce et le ciel est couvert à toutes altitudes avec de la pluie qui arrive en cours de journée jusqu'à 2400m. Cette pluie a du mal à pénétrer le manteau neigeux.\nAinsi l'humidification en profondeur est réduite, limitant ainsi le risque global.",
+        "comment": "Encore des averses en journée. Limite pluie neige en légère baisse. Risque stationnaire.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-07",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-04-11",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-12",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Forte humidification du manteau neigeux à toutes altitudes.",
-      "text": "Forte humidification du manteau neigeux à toutes altitudes.\n\nDéparts spontanés :\n* Nombreuses avalanches de neige humide, de plus en plus nombreuses au fil du réchauffement et de l'ensoleillement. En adrets, l'humidification commence dès le lever du soleil. Dans toutes les altitudes l'humidification est sensible, et commence à être profonde, notamment près des rochers et des falaises. Taille 1 à 2 (petite à moyenne).\n* Sur les plus hauts sommets, des avalanches de plaques humides peuvent aussi partir spontanément lors de l'humidification d'une couche fragile enfouie sous 30/40 cm de neige. Taille 1 à 2.\n* Des avalanches de fond sont possibles à toute heure du jour et de la nuit, sur les pentes herbeuses ou les dalles rocheuses. Taille 2.\n\nDéclenchements provoqués :\n* Au passage d'un skieur, de la neige humide peut couler sous les skis. Ces avalanches concernent les secteurs ensoleillés, là où la neige devient meuble suite à l'humidification lié au soleil. Sur les plus hauts sommets (au-delà de 2000m), le skieur peut également déclencher une plaque humide de 30/40 cm d'épaisseur.\n\nAutres :\n* Avec les fortes chaleurs, attentions aux chutes de pierre et aux corniches qui cèdent.",
+      "title": "Manteau neigeux humides",
+      "text": "Manteau neigeux humides\n\nDéparts spontanés :\n* Avalanches de neige humide sur tous les versants à toutes altitudes. Sous l'effet des nuages et de l'isotherme 0°C encore élevés,  les faces nord s'humidifient. Taille 1 à 2 (petite à moyenne).\n* Au-delà de 2000m, des avalanches de plaques humides peuvent aussi partir spontanément lors de l'humidification d'une couche fragile enfouie sous 30/40 cm de neige. Taille 1 à 2.\n* Des avalanches de fond sont possibles à toute heure du jour et de la nuit, sur les pentes herbeuses ou les dalles rocheuses. Taille 2.\n\nDéclenchements provoqués :\n* Au passage d'un skieur, de la neige humide peut couler sous les skis. Ces avalanches concernent toutes les orientations et toutes altitudes. Au-delà de 2000m, le skieur peut également déclencher une plaque humide de 30/40 cm d'épaisseur.\n\nAutres :\n* Chutes de corniche possible au vu de l'humidification du manteau neigeux et de l'absence de regel nocturne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nL'enneigement est correct pour la saison.\nOn peut chausser les skis au-dessus de 1700/1800 m en sud et 1400/1500 m en nord. Des traces de neige sont présentes sous ces altitudes, mais l'enneigement est loin d'être continu.\n\nQualité de la neige ce samedi :\n* Regel nocturne plutôt bon.\n* Manteau neigeux printanier. Humidification rapide et profonde au soleil.",
+      "text": "Enneigement :\nL'enneigement est correct pour la saison.\nOn peut chausser les skis au-dessus de 1700/1800 m en sud et 1400/1500 m en nord. Des traces de neige sont présentes sous ces altitudes, mais l'enneigement est loin d'être continu.\n\nQualité de la neige dimanche :\n* Absence de regel nocturne. Neige humide.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 40,
+          "N": 30,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 110,
-          "S": 40
+          "N": 100,
+          "S": 30
         }
       ],
       "icon_key": "snowpack",
