@@ -3,8 +3,8 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-04-11T16:00:00",
-    "valid_until": "2026-04-12T18:00:00",
+    "issued_at": "2026-04-12T16:00:00",
+    "valid_until": "2026-04-13T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-13",
+        "date": "2026-04-14",
         "label": "Indice de risque limité",
-        "comment": "Lundi, la limite pluie-neige s'abaisse vers 1500m, voire 1200m par endroits, avec une dizaine de cm de neige sur le haut du massif. Le manteau reste complètement humide sous cette neige récente, avec le maintien d'une activité printanière limitée.",
+        "comment": "Mardi, risque limité. Le massif reste plongé dans le nuage, dans une masse d'air assez douce. Le manteau neigeux reste humide, avec quelques coulées ou départs au terrain.",
         "trend": "steady"
       }
     },
@@ -53,9 +53,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -77,11 +77,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-08",
           "min_cm": 0,
@@ -106,22 +101,27 @@
           "date": "2026-04-12",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-13",
+          "min_cm": 0,
+          "max_cm": 3
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_max_cm": 3
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "CIEL COUVERT, PAS DE REGEL, HUMIDIFICATION MEME EN PLEIN NORD",
-      "text": "CIEL COUVERT, PAS DE REGEL, HUMIDIFICATION MEME EN PLEIN NORD \n\nDéparts spontanés : \n-  Des avalanches humides peuvent partir à toute heure, mais le risque est plus marqué sous les averses ainsi que dimanche aux heures les plus chaudes. Elles sont le plus souvent de petites tailles ou de tailles moyennes. Elles pourraient être un peu plus fréquentes dans les versants Nord où le manteau neigeux avait jusqu'ici été plus \"épargné\" par le redoux printanier. \n- A toute heure (parfois même la nuit) et dans la plupart des versants, des avalanches de glissement peuvent se produire. De tailles moyennes, voire rarement de grandes tailles. Surtout en alpage raide / sur les dalles rocheuses. Parfois précédées par l'ouverture d'une fissure (gueule de baleine). \n\nDéclenchements provoqués : En pentes soutenues, le pratiquant pourrait faire couler la neige humide sous les skis.",
+      "title": "MANTEAU ENTIEREMENT HUMIDE, FINE COUCHE DE NEIGE RECENTE EN ALTITUDE",
+      "text": "MANTEAU ENTIEREMENT HUMIDE, FINE COUCHE DE NEIGE RECENTE EN ALTITUDE\n\nDéparts spontanés :\n-Le manteau neigeux est la plupart du temps humide jusqu'à la base, hormis peut être dans les versants Nord d'altitude. L'humidification se poursuit et s'accélère sous les averses dans la nuit de dimanche à lundi, favorisant le risque de coulées humides, notamment en versants Nord. En plein Sud le risque de coulées est plus faible, la plupart des coulées étant déjà parties lors de la semaine dernière. \n- Dans les pentes raides herbeuses ou sur les dalles rocheuses, un rare départ au terrain reste possible, parfois précédé par l'ouverture d'une fissure (gueule de baleine).  \n\nDéclenchements provoqués : \n- En pente raide, possibilité de faire partir une petite coulée humide sous les skis.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est toujours correct en moyenne montagne peu ensoleillée. bon dès la moyenne montagne peu ensoleillée, mais il se dégrade fortement depuis maintenant une grosse semaine. La fonte se poursuit ce dimanche, et s'accélère en versant Nord.\nLimites skiables : Vers 1200/1500m en plein Nord (hors sapins), 1700/1800m au soleil...\n\nQualité de la neige dimanche :  Regel nocturne inexistant. Neige pourrie dans la plupart des versants dés le réveil. Un peu moins mauvaise en Nord...",
+      "text": "Qualification de l’enneigement :  L'enneigement est toujours correct en moyenne montagne peu ensoleillée, mais il se dégrade fortement depuis maintenant une grosse semaine. La fonte se poursuit ce lundi, mais ralentit sur le haut du massif avec l'arrivée d'air moins doux.\nLimites skiables : Vers 1200/1500m en plein Nord (hors sapins), 1700/1800m au soleil...\n\nQualité de la neige lundi :  Neige humide voire pourrie sur l'ensemble du massif. La masse d'air se rafraîchit légèrement l'après-midi et quelques cm de neige récente humide sont possibles au-dessus de 1500m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 20,
+          "N": 15,
           "S": 0
         },
         {
           "alt_m": 2000,
           "N": 195,
-          "S": 80
+          "S": 70
         }
       ],
       "icon_key": "snowpack",

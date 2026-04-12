@@ -3,14 +3,14 @@
   "massif": "Haute-Ariege",
   "bulletin": {
     "id": 70,
-    "issued_at": "2026-04-11T16:00:00",
-    "valid_until": "2026-04-12T18:00:00",
+    "issued_at": "2026-04-12T16:00:00",
+    "valid_until": "2026-04-13T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "max_level": 3,
+      "comment": "Indice de risque limité évoluant en marqué.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 2,
-            "evolution_to": null,
+            "evolution_to": 3,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
+            "text": "2→3",
+            "risk": 3,
+            "evolution_to": 3
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-04-13",
-        "label": "Indice de risque limité",
-        "comment": "Baisse du risque spontané en neige humide dimanche soir. Augmentation du risque provoqué en neige fraîche et ventée.",
+        "max_level": 3,
+        "date": "2026-04-14",
+        "label": "Indice de risque marqué",
+        "comment": "Maintient d'un risque marqué dans la neige récente.",
         "trend": "steady"
       }
     },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 4,
+      "primary": 1,
       "secondary": 2,
       "labels": {
-        "4": "Neige humide",
+        "1": "Neige fraîche",
         "2": "Neige ventée"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-08",
           "min_cm": 0,
@@ -104,24 +99,29 @@
         },
         {
           "date": "2026-04-12",
-          "min_cm": 8,
-          "max_cm": 12
+          "min_cm": 10,
+          "max_cm": 15
+        },
+        {
+          "date": "2026-04-13",
+          "min_cm": 5,
+          "max_cm": 10
         }
       ],
       "totals": {
-        "last_48h_min_cm": 8,
-        "last_48h_max_cm": 12
+        "last_48h_min_cm": 15,
+        "last_48h_max_cm": 25
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Humidification en moyenne montagne, nouvelles plaques à haute altitude.",
-      "text": "Humidification en moyenne montagne, nouvelles plaques à haute altitude.\n\nDéparts spontanés :\n A tout moment, quelques avalanches en neige humide possibles, parfois de grande taille, avec des départs souvent plutôt en dessous de la limite pluie-neige soit 2500/2700 m ce soir puis 2200m dimanche. Ce risque a tendance à baisser dimanche avec l'arrivée d'air plus froid.\nExplication : Avec l'arrivée de nuages de plus en plus bas mais le maintient d'une isotherme 0 °C supérieure à 2500m, l'humidification concerne désormais toutes les orientations gagnant en profondeur sous les nuages.  Des couches fragiles (identifiées ces derniers jours), situées à plusieurs dizaines de centimètres de la surface du manteau neigeux peuvent être atteintes par l'eau liquide. Des départs spontanés mobilisant de gros volumes de neige sont possibles dans les pentes suffisamment raides. Des cassures de 60cm à 1m sont envisagées et parfois plus si l'ensemble du manteau neigeux finit par être emporté (avalanche de fond) sur un sols herbeux par exemple. \nLes versants raides d'un large secteur nord jusqu'ici épargnés semblent les plus exposés mais aucune orientation n'est à exclure sous les nuages.\nObservables : neige très humide, pourrie en profondeur. Fissures ou gueules de baleine annonçant une avalanche de glissement ou de fond. A contrario, un regel de la neige en surface à haute altitude est plutôt un signe rassurant. \n\nDéclenchements provoqués : Peu probable.\n- Un pratiquant peut tout de même provoquer un départ ponctuel en surface dans la neige humide en coupant une pente raide déjà bien humidifiée. Les nouvelles chutes de neige à haute altitude peuvent créer de nouvelles instabilités dimanche matin sous forme de petites plaques facilement déclenchables mais de 10 à 20cm d'épaisseur tout au plus.\n\nAutres : Attention aux ponts de neige en neige non portante entre 1500 et 2000m d'altitude en général. Quelques crêtes et cols au dessus de 2300 à 2500m peuvent être en neige dure voire recouverts de glace.",
+      "title": "Nouvelles chutes de neige ventées, nouvelles instabilités.",
+      "text": "Nouvelles chutes de neige ventées, nouvelles instabilités.\n\nDéclenchements provoqués : Evolution d'un risque limité à un risque marqué. \nDe nombreuses plaques friables vont se former cette nuit et prendre de l'épaisseur en journée avec le renforcement du vent de Nord-Ouest. Elle peuvent reposer sur une couche de neige fraîche tombée au préalable sans vent faisant office de couche fragile temporaire. Ces plaques sont très sensibles, pouvant être déclenchées au passage d'un simple randonneur. Elle sont de faible épaisseur lundi matin (10 à 20cm) mais elles pourront se multiplier et atteindre 30 à 40cm suivant le transport par le vent en journée.\nCette neige a souvent un aspect poudreux mais elle a pris suffisamment de cohésion pour propager les contraintes ; un déclenchement à distance peut aussi se produire.\nObservables : transport de la neige par le vent, disparition des traces de montée, fissures devant les skis. \n\nDéparts spontanés :\nDe nombreuses petites coulées de surface peuvent se produire durant les chutes de neige de cette nuit, se poursuivant lundi. Il s'agit essentiellement de petites avalanches de taille 1 se déclenchant dans les pentes raides sans grande conséquence. \nObservables : Cumuls de neige fraîche dépassant les 20 à 30cm.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nMalgré la douceur de cette semaine, l'enneigement demeure excellent pour la saison, un des meilleurs des 30 dernières années. Les derniers cumuls conséquents en altitude côtoient des crêtes et sommets exposés au vent d'ouest à nord-ouest souvent assez dégarnis. La neige fond progressivement avec la douceur, mais la neige est visible dès 1500 m dans certains secteurs ombragés et en fond de vallée. On chausse le plus souvent à partir de 1500/1600 m en nord, parfois 1300 à 1400m sur des pistes ombragées et 1600/1700 m en sud sur une couche de neige rapidement plus épaisse dépassant les 2 mètres avant 2000m d'altitude.\n\nQualité de la neige : Souvent médiocre.\n Mauvais regel durant la nuit, avec de la neige meuble et souvent non portante, y compris dans les versants nord et en haute montagne. Progression presque impossible sans raquettes/skis et souvent pénible avec.\nEn journée,  le regel présent à haute altitude le matin gagne progressivement vers les vallées pour se généraliser lundi matin.\nPrésence dimanche matin d'une petite couche de neige fraîche (5 à 7 cm) au dessus de 2500m d'altitude.",
+      "text": "Enneigement : \nL'enneigement demeure excellent pour la saison, un des meilleurs des 30 dernières années. Les nouvelles chutes de neige blanchissent à nouveau la montagne dès 1200 à 1300m d'altitude lundi mais il faut en général atteindre 1400 à 1500m pour trouver une sous couche versant Nord et 1800m versant Sud. cette couche augmente très vite en prenant de l'altitude avec des cumuls dépassant les 2m dès 1800 à 1900m, 3 à 4 m vers 2500m.\n\nQualité de la neige : \nLundi matin, on trouve une couche de neige fraîche, souvent fine et humide entre 1100 et 1500m puis prenant de l'épaisseur avec l'altitude. Elle est froide et poudreuse au dessus de 1800m dans les combes abritées du vent mais devient travaillée par le vent de Nord-Ouest durant la journée de lundi. Quelques cols et crêtes risquent de rester en neige très dure voire en glace à haute altitude.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

@@ -3,8 +3,8 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-04-11T16:00:00",
-    "valid_until": "2026-04-12T18:00:00",
+    "issued_at": "2026-04-12T16:00:00",
+    "valid_until": "2026-04-13T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-13",
+        "date": "2026-04-14",
         "label": "Indice de risque limité",
-        "comment": "Encore des averses en journée. Limite pluie neige en légère baisse. Risque stationnaire.",
+        "comment": "Risque stationnaire. Couvert le matin puis rares éclaircies l'après-midi.",
         "trend": "steady"
       }
     },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": 3,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
-        "4": "Neige humide",
-        "3": "Couche fragile persistante"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-08",
           "min_cm": 0,
@@ -106,6 +101,11 @@
           "date": "2026-04-12",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-13",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,35 +115,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux qui s'humidifie jusqu'à 3000 m.",
-      "text": "Manteau neigeux qui s'humidifie jusqu'à 3000 m.\n\nDéparts spontanés :\n* Avalanches de neige humide sur tous les versants jusqu'à 2800/3000 m surtout sur les versants nord entre 2300/2500 m et 3000 m. Sous l'effet des nuages et de l'isotherme 0°C encore élevés,  les faces nord s'humidifient jusqu'à 2800/3000 m. Taille 1 à 2 (petite à moyenne).\nFacteur aggravant : départ en cascade possible entre 1800 m et 2500 m (naturel ou provoqué) sur un secteur Est à Nord Ouest sur de la couche fragile persistante enfouie sous environ 1m/1m20 de neige. Taille 2 à 3 (moyenne à grande)\n* Au-delà de 2000m, des avalanches de plaques humides peuvent aussi partir spontanément lors de l'humidification d'une couche fragile enfouie sous 30/40 cm de neige. Taille 1 à 2.\n* Des avalanches de fond sont possibles à toute heure du jour et de la nuit, sur les pentes herbeuses ou les dalles rocheuses. Taille 2.\n\nDéclenchements provoqués :\n* Au passage d'un skieur, de la neige humide peut couler sous les skis. Ces avalanches concernent toutes les orientations et toutes altitudes. Au-delà de 2000m en ubacs, le skieur peut également déclencher une plaque humide de 30/40 cm d'épaisseur.\n\nAutres :\n* Chutes de corniche possible au vu de l'humidification des versants nord d'altitude et de l'absence de regel nocturne.",
+      "title": "Manteau neigeux humide sous 3000 m, froid et ventée au-dessus de 3000 m",
+      "text": "Manteau neigeux humide sous 3000 m, froid et ventée au-dessus de 3000 m\n\nDéclenchements provoqués :\n* Au-dessus de 2400 m et surtout au-dessus de 3000 m : plaques friables dans la neige fraiche. Surtout présente au-dessus de 2800/3000 m et plus épaisse proche de la frontière Italienne. Facile à déclencher, ces plaques s'épaississent au fil des chutes de neige. Taille 1 à 2 (petite à moyenne)\n* En dessous de 2400 m et surtout sous 2000 m : de la neige humide peut couler sous les skis. Ces avalanches concernent toutes les orientations et toutes altitudes. Au-delà de 2000m en ubacs, le skieur peut également déclencher une plaque humide de 30/40 cm d'épaisseur.\n\nDéparts spontanés :\n* Avalanches de neige humide sur tous les versants jusqu'à 2300/2500 m sur tous sur les versants. Taille 1 à 2 (petite à moyenne).\nFacteur aggravant : au-dessus de 1800 m, départ en cascade possible sur un secteur Est à Nord Ouest sur de la couche fragile persistante enfouie sous environ 1m/1m20 de neige. Taille 2 à 3 (moyenne à grande)\n* Entre 2000 et 2400 m, des avalanches de plaques humides peuvent aussi partir spontanément lors de l'humidification d'une couche fragile enfouie sous 30/40 cm de neige. Taille 1 à 2.\n* Au-dessus de 2800/3000 m : avalanches ponctuelles de neige fraiche sous les averses de neige. Plus probable et large proche de la frontière Italienne. Taille 1 (petite)\n* En dessous de 2500 m : des avalanches de fond sont possibles à toute heure du jour et de la nuit, sur les pentes herbeuses ou les dalles rocheuses. Taille 2.\n\nAutres :\n* En dessous de 2400 m : chutes de corniche possible au vu de l'humidification des versants nord d'altitude et de l'absence de regel nocturne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nL'enneigement est correct au-dessus de 2700m. En dessous, il commence à être déficitaire.\nOn peut chausser les skis au-dessus de 1700/1800 m en sud et 1400/1500 m en nord. Des traces de neige sont présentes sous ces altitudes, mais l'enneigement est loin d'être continu.\n\nQualité de la neige dimanche :\n* Absence de regel nocturne en dessous de 2800/3000 m. Bon au-dessus.\n * En dessous de 2800/3000 m : neige humide\n* Entre 2800/3000 m et 3500 m en adrets : neige regelée.\n* En ubacs au-dessus de 3000 m et au-dessus de 3500 m en adrets : neige froide souvent soufflée. En haute-montagne, les crêtes sont décapées et de nombreux endroits ressortent en glace à cause du vent passé.",
+      "text": "Enneigement :\nL'enneigement est correct au-dessus de 2700m. En dessous, il commence à être déficitaire.\nOn peut chausser les skis au-dessus de 1700/1800 m en sud et 1400/1500 m en nord. Des traces de neige sont présentes sous ces altitudes, mais l'enneigement est loin d'être continu.\n\nQualité de la neige lundi :\n* Absence de regel nocturne sous 2400 m.\n* En dessous de 2000 m : neige humide \n* Entre de 2000 m et 2400 m : fine couche de neige fraiche humide sur fond humide\n* Au-dessus de 2400 m : fine couche de neige fraiche sur fond humide en cours de regel.\n* Au-dessus de 2800/3000 m : fine couche de neige fraiche légèrement ventée, de plus en plus épaisse au fil des chutes et en se rapprochant de la frontière Italienne.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1400,
-        "south": 1600
+        "north": 1500,
+        "south": 1700
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 30,
+          "N": 20,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 190,
-          "S": 120
+          "N": 180,
+          "S": 110
         },
         {
           "alt_m": 2500,
-          "N": 290,
-          "S": 210
+          "N": 280,
+          "S": 200
         }
       ],
       "icon_key": "snowpack",

@@ -3,8 +3,8 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-04-11T16:00:00",
-    "valid_until": "2026-04-12T18:00:00",
+    "issued_at": "2026-04-12T16:00:00",
+    "valid_until": "2026-04-13T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,22 +41,22 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-04-13",
-        "label": "Indice de risque limité",
-        "comment": "Problématique de neige humide en baisse avec le rafraîchissement de la masse d'air. Risque restant limité.",
-        "trend": "steady"
+        "max_level": 1,
+        "date": "2026-04-14",
+        "label": "Indice de risque faible",
+        "comment": "Tendance à la baisse. Manteau neigeux bien stabilisé par le regel mardi matin. Risque faible",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
+        "E": true,
         "SE": false,
         "S": false,
         "SW": false,
-        "W": false,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -67,21 +67,15 @@
     },
     "sat": {
       "primary": 4,
-      "secondary": 3,
+      "secondary": null,
       "labels": {
-        "4": "Neige humide",
-        "3": "Couche fragile persistante"
+        "4": "Neige humide"
       },
       "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-08",
           "min_cm": 0,
@@ -106,6 +100,11 @@
           "date": "2026-04-12",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-13",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX FORTEMENT HUMIDIFIÉ, ACTIVITÉ AVALANCHEUSE LIMITÉE",
-      "text": "MANTEAU NEIGEUX FORTEMENT HUMIDIFIÉ, ACTIVITÉ AVALANCHEUSE LIMITÉE\n\nDéclenchements provoqués : instabilités localisées dans les pentes d'un large secteur nord, plutôt au-dessus de 2000/2200 m d'altitude. Ces instabilités sont parfois déclenchables par un seul skieur et peuvent générer des avalanches de taille moyenne, très rarement grande.\nL'humidification du manteau neigeux se poursuit et peut solliciter des couches fragiles persistantes situées près de la base du manteau neigeux. \nCes déclenchements d'ampleur restent aléatoires mais contrairement aux jours précédents,ils peuvent intervenir tôt le matin, car le regel nocturne est très limité et superficiel.\n\nDéparts spontanés : en neige humide, possibles à toute heure de la journée, plus probables en cas d'éclaircies durables. Généralement de taille petite à moyenne, grande non exclue, en particulier en versant plein nord entre 2200 et 2600 m environ. Sur ces pentes, le temps humide et encore très doux entraîne une première humidification notable du manteau neigeux ; c'est encore plus vrai en fin de journée, lorsque les précipitations, pluvieuses jusque 2500 m, se mettent en place.",
+      "title": "MANTEAU NEIGEUX HUMIDE ET PLUTÔT STABLE",
+      "text": "MANTEAU NEIGEUX HUMIDE ET PLUTÔT STABLE\n\nDéclenchements provoqués : ponctuels dans la neige humide, mais pouvant mobiliser une grande partie du manteau neigeux en versant ouest, nord et est d'altitude, surtout au-dessus de 2200 m. Parfois déclenchables par un seul skieur, générant des avalanches de taille petite à moyenne. \n\nDéparts spontanés : en neige humide, en atténuation. Rares départs de taille moyenne encore possible en large versant nord, parfois sous forme d'avalanche de glissement, emportant tout le manteau neigeux.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement excédentaire pour un début avril, notamment en ubacs et vallons d'altitude.  \n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs favorables (terrains herbeux, pistes forestières), 1900/2000 m en adrets pas trop raides.\n\nÉtat de la neige de surface : manteau printanier, mauvais regel nocturne. Humidification profonde en journée même en l'absence de franc soleil. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
+      "text": "Enneigement encore excédentaire pour une mi-avril, notamment en ubacs et vallons d'altitude.  \n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs favorables (terrains herbeux, pistes forestières), 1900/2000 m en adrets pas trop raides.\n\nÉtat de la neige de surface : manteau neigeux humide regelant progressivement lundi avec le refroidissement de la masse d'air",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,12 +136,12 @@
         },
         {
           "alt_m": 2000,
-          "N": 135,
+          "N": 130,
           "S": 50
         },
         {
           "alt_m": 2500,
-          "N": 195,
+          "N": 190,
           "S": 110
         }
       ],

@@ -3,8 +3,8 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-04-11T16:00:00",
-    "valid_until": "2026-04-12T18:00:00",
+    "issued_at": "2026-04-12T16:00:00",
+    "valid_until": "2026-04-13T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-13",
+        "date": "2026-04-14",
         "label": "Indice de risque limité",
-        "comment": "Encore des averses en journée. Limite pluie neige en légère baisse. Risque stationnaire.",
+        "comment": "Risque stationnaire. Pas de regel nocturne, couvert le matin puis rares éclaircies l'après-midi.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-08",
           "min_cm": 0,
           "max_cm": 0
@@ -106,11 +101,16 @@
           "date": "2026-04-12",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-13",
+          "min_cm": 0,
+          "max_cm": 3
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_max_cm": 3
       },
       "icon_key": "snowfall"
     },
@@ -121,13 +121,13 @@
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :\nL'enneigement est correct pour la saison.\nOn peut chausser les skis au-dessus de 1700/1800 m en sud et 1400/1500 m en nord. Des traces de neige sont présentes sous ces altitudes, mais l'enneigement est loin d'être continu.\n\nQualité de la neige dimanche :\n* Absence de regel nocturne. Neige humide.",
+      "text": "Enneigement :\nL'enneigement est correct pour la saison.\nOn peut chausser les skis au-dessus de 1700/1800 m en sud et 1400/1500 m en nord. Des traces de neige sont présentes sous ces altitudes, mais l'enneigement est loin d'être continu.\n\nQualité de la neige lundi :\n*En dessous de 1900/2000 m :  Absence de regel nocturne. Neige humide.\n* Au-dessus de 1900/2000 m  : Fine couche de neige fraiche humide sur fond humide.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1400,
-        "south": 1600
+        "north": 1500,
+        "south": 1700
       },
       "levels_cm": [
         {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 30,
+          "N": 20,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 100,
-          "S": 30
+          "N": 90,
+          "S": 20
         }
       ],
       "icon_key": "snowpack",

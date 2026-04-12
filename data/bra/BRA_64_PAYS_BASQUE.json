@@ -3,14 +3,14 @@
   "massif": "Pays-Basque",
   "bulletin": {
     "id": 64,
-    "issued_at": "2026-04-11T17:00:00",
-    "valid_until": "2026-04-12T18:00:00",
+    "issued_at": "2026-04-12T16:00:00",
+    "valid_until": "2026-04-13T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "max_level": 3,
+      "comment": "Indice de risque limité évoluant en marqué.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 2,
-            "evolution_to": null,
+            "evolution_to": 3,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
+            "text": "2→3",
+            "risk": 3,
+            "evolution_to": 3
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-04-13",
-        "label": "Indice de risque limité",
-        "comment": "Activité restant limitée, le problème de plaques de fond peut diminuer avec le froid.",
+        "max_level": 3,
+        "date": "2026-04-14",
+        "label": "Indice de risque marqué",
+        "comment": "Retour d'un temps sec et ensoleillé, froid le matin, se radoucissant en journée : les instabilités persistent en matinée, se stabilisent lentement ensuite. Le risque devrait évoluer de marqué à limité.",
         "trend": "steady"
       }
     },
@@ -52,11 +52,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -66,21 +66,17 @@
       }
     },
     "sat": {
-      "primary": 5,
-      "secondary": null,
+      "primary": 2,
+      "secondary": 1,
       "labels": {
-        "5": "Avalanche de fond"
+        "2": "Neige ventée",
+        "1": "Neige fraîche"
       },
-      "icon_key": "sat-5"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-08",
           "min_cm": 0,
@@ -98,35 +94,40 @@
         },
         {
           "date": "2026-04-11",
-          "min_cm": 0,
-          "max_cm": 5
+          "min_cm": 3,
+          "max_cm": 10
         },
         {
           "date": "2026-04-12",
+          "min_cm": 20,
+          "max_cm": 25
+        },
+        {
+          "date": "2026-04-13",
           "min_cm": 15,
           "max_cm": 20
         }
       ],
       "totals": {
-        "last_48h_min_cm": 15,
-        "last_48h_max_cm": 25
+        "last_48h_min_cm": 35,
+        "last_48h_max_cm": 45
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "CHUTES DE NEIGE SUR UN MANTEAU RESTANT DÉTREMPÉ MALGRÉ LE REFROIDISSEMENT",
-      "text": "CHUTES DE NEIGE SUR UN MANTEAU RESTANT DÉTREMPÉ MALGRÉ LE REFROIDISSEMENT\n\nDéparts spontanés :\nPossibilité de départ de rares plaques de fond engendrant une avalanche moyenne voire grande en orientations nord au plus haut du massif. Ailleurs, le manteau est déjà printanier et tassé, avec de la neige de type névé.\n\nDéclenchements provoqués :\nDifficiles en matinée sur un manteau humide et tassé. Formation de rares accumulations au fil des chutes de neige, à proximité des crêtes et cols, le vent restant modéré. Certaines en versants nord peuvent engendrer des plaques déclenchables en orientations nord au plus haut du massif. Ailleurs, la neige est trop dense pour présenter des structures déclenchables.\n\nAutres : \nLes ponts de neige et corniche sont très fragiles avec l'humidification profonde des derniers jours. Le refroidissement relatif ne permet pas un regel correct.",
+      "title": "CHUTES DE NEIGE PLUS OU MOINS VENTEES, COUCHE S'EPAISSISSANT AU COURS DE LA JOURNEE.",
+      "text": "CHUTES DE NEIGE PLUS OU MOINS VENTEES, COUCHE S'EPAISSISSANT AU COURS DE LA JOURNEE.\n\nDéclenchements provoqués : instabilités dans la neige récente en tous secteurs, subissant du vent de nord durant la journée.\n- déclenchement facile par un seul skieur ou randonneur de petites avalanches en matinée, devenant moyennes l'après-midi. La neige tombée dimanche s'est souvent posée sans vent, constituant ainsi une couche peu résistante aux sollicitations des plaques qui se forment et s'épaississent notablement durant la journée sous le vent de nord modéré, au-dessus de 1800m notamment.\n- sous 1800m, déclenchement facile de coulées de neige récente dans le pentes raides.\nObservables : effet du vent visibles et indentifiables au-dessus de 1800m en versants nord, plus subtils et moins évidents en versants sud où se constituent des accumulations un peu plus importantes de neige d'aspect poudreux.\n\nDéparts spontanés : en neige récente en tous secteurs.\n- départs ponctuels de coulées et petites avalanches de neige récente dans les pentes raides en matinée durant les chutes,\n- quelques cassures linéaires plutôt au-dessus de 1800m dans l'après-midi : les chutes de neige accompagnées de vent de nord modéré se poursuivant en journée, le transport de la neige provoquera des surcharges susceptibles de déclencher les plaques décrites ci-dessus, entraînant le départ d'avalanches petites à parfois moyennes.\n- de rares plaques de fond encore possibles en versant sud sur le haut du massif : le départ d'une plaque ou accumulation se formant durant la journée peut localement déclencher quelques avalanches moyennes par effet de cascade en entraînant la vieille neige encore en place en contrebas, mal ou très peu durcie, et restant mobilisable.\n\nAutres : temps froid avec vent de nord désagréable. Pont de neige et corniches restant fragiles car le refroidissement avant les chutes de neige n'a été que superficiel et peu marqué.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : encore bon pour la saison. Débutant vers 1650m en nord, 1900m en sud, épaisseurs augmentant assez rapidement au-dessus de la limite d'enneigement.\nÉtat de la neige : Manteau intégralement humidifié, mais en général tassé et portant. Quelques centimètres de neige fraîche au fil des chutes de neige de la journée avec le refroidissement progressif.",
+      "text": "Enneigement : avec le retour de conditions hivernales, l'enneigement est bon pour la saison, débutant vers 1500m en nord, 1700m en sud. Saupoudrage ou quelques centimètres de neige sur un sol nu sous ces limites.\nÉtat de la neige : temps froid et chutes de neige se poursuivant, on trouvera ce lundi de la neige fraîche et sèche dont l'épaisseur augmente au cours de la journée, plus ou moins travaillée par le vent de nord au fil des heures ; neige frittée près des cols et des crêtes, plus meuble partout ailleurs.\nCette neige récente repose souvent sur de la vieille neige humide à peine ou mal regelée mais portante.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1650,
-        "south": 1900
+        "north": 1500,
+        "south": 1700
       },
       "levels_cm": [
         {
@@ -136,13 +137,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 0,
+          "N": 3,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 165,
-          "S": 70
+          "N": 170,
+          "S": 75
         }
       ],
       "icon_key": "snowpack",
