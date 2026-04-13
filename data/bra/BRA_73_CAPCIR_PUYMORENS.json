@@ -3,14 +3,14 @@
   "massif": "Capcir Puymorens",
   "bulletin": {
     "id": 73,
-    "issued_at": "2026-04-12T16:00:00",
-    "valid_until": "2026-04-13T18:00:00",
+    "issued_at": "2026-04-13T16:00:00",
+    "valid_until": "2026-04-14T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque limité évoluant en marqué.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 2,
-            "evolution_to": 3,
+            "evolution_to": null,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "2→3",
-            "risk": 3,
-            "evolution_to": 3
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-04-14",
-        "label": "Indice de risque marqué",
-        "comment": "Maintient d'un risque marqué dans la neige récente.",
+        "max_level": 2,
+        "date": "2026-04-15",
+        "label": "Indice de risque limité",
+        "comment": "Maintien d'un risque limité avec une poursuite de l'humidification et une stabilisation progressive des plaques",
         "trend": "steady"
       }
     },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
-        "1": "Neige fraîche",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-08",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-09",
           "min_cm": 0,
@@ -104,19 +99,24 @@
         },
         {
           "date": "2026-04-13",
-          "min_cm": 5,
-          "max_cm": 10
+          "min_cm": 4,
+          "max_cm": 8
+        },
+        {
+          "date": "2026-04-14",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 10,
-        "last_48h_max_cm": 20
+        "last_48h_min_cm": 4,
+        "last_48h_max_cm": 8
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nouvelles chutes de neige ventées, nouvelles instabilités.",
-      "text": "Nouvelles chutes de neige ventées, nouvelles instabilités.\n\nDéclenchements provoqués : Evolution d'un risque limité à un risque marqué. \nDe nombreuses plaques friables vont se former cette nuit et prendre de l'épaisseur en journée avec le renforcement du vent de Nord-Ouest. Elle peuvent reposer sur une couche de neige fraîche tombée sans vent dans un premier temps faisant office de couche fragile temporaire. Ces plaques sont très sensibles, pouvant être déclenchées au passage d'un simple randonneur, parfois même à distance. Elle sont de faible épaisseur lundi matin (10 à 20cm) mais elles pourront se multiplier et atteindre localement 30 à 40cm suivant le transport par le vent en journée. Les pentes sous le vent de Nord-Ouest deviennent les plus dangereuses mais des plaques peuvent aussi se former au vent suivant la configuration du relief. \nCette neige a souvent un aspect poudreux mais elle a pris suffisamment de cohésion pour propager les contraintes.\nObservables : transport de la neige par le vent, disparition des traces de montée, fissures devants les skis. \n\nDéparts spontanés :\nDe nombreuses petites coulées de surface peuvent se produire au fil des chutes de neige de cette nuit dans les pentes raides, se poursuivant lundi. Il s'agit essentiellement de petites avalanches de taille 1ou de coulées de surface sans grande conséquence. \nObservables : Cumuls de neige fraîche dépassant les 20 à 30cm.",
+      "title": "PLAQUES  EN ALTITUDE, DES COULÉES AU SOLEIL",
+      "text": "PLAQUES  EN ALTITUDE, DES COULÉES AU SOLEIL\n\nDéclenchements provoqués :\nSurtout à proximité de l'Ariège, des plaques plus ou moins friables se sont formées en altitude et pourraient continuer à se former avec le vent de secteur nord. Ces plaques reposant sur des neiges tombées sans vent peuvent parfois être déclenchées au passage d'un simple randonneur. Ce risque se cantonne progressivement au-dessus de 2400m et dans les versants ombragés restés en neige sèche, du fait de l'humidification en journée. Un skieur coupant une pente en neige pourrie pourra également déclencher une coulée sous ses skis.\nObservables : transport de la neige par le vent, disparition des traces de montée, fissures devant les skis.\n\nDéparts spontanés :\nDu fait d'un soleil efficace et de la remontée de l'isotherme 0 °C de nombreuses coulées de surface se produisent dans les pentes suffisamment raides prenant le soleil, donc plutôt dans les versants d'un vaste secteur Est puis Sud puis Ouest. De rares cassures linéaires peuvent également se produire générant des avalanches de taille moyenne.\nObservables : neige pourrie, escargots.",
       "sections": null,
       "icon_key": "stability"
     },
@@ -126,24 +126,24 @@
     },
     "snowpack": {
       "limits_m": {
-        "north": 1600,
-        "south": 1800
+        "north": 1400,
+        "south": 1400
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 0,
-          "S": 0
+          "N": 5,
+          "S": 5
         },
         {
           "alt_m": 2000,
-          "N": 190,
-          "S": 60
+          "N": 200,
+          "S": 70
         },
         {
           "alt_m": 2500,
-          "N": 330,
-          "S": 150
+          "N": 340,
+          "S": 160
         }
       ],
       "icon_key": "snowpack",

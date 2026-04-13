@@ -3,14 +3,14 @@
   "massif": "Couserans",
   "bulletin": {
     "id": 69,
-    "issued_at": "2026-04-12T16:00:00",
-    "valid_until": "2026-04-13T18:00:00",
+    "issued_at": "2026-04-13T16:00:00",
+    "valid_until": "2026-04-14T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque limité évoluant en marqué.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 2,
-            "evolution_to": 3,
+            "evolution_to": null,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "2→3",
-            "risk": 3,
-            "evolution_to": 3
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-04-14",
-        "label": "Indice de risque marqué",
-        "comment": "Maintient d'un risque marqué dans la neige récente.",
+        "max_level": 2,
+        "date": "2026-04-15",
+        "label": "Indice de risque limité",
+        "comment": "Maintien d'un risque limité avec une poursuite de l'humidification et une stabilisation progressive des plaques",
         "trend": "steady"
       }
     },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
-        "1": "Neige fraîche",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-08",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-09",
           "min_cm": 0,
@@ -99,51 +94,56 @@
         },
         {
           "date": "2026-04-12",
-          "min_cm": 12,
-          "max_cm": 15
+          "min_cm": 8,
+          "max_cm": 12
         },
         {
           "date": "2026-04-13",
-          "min_cm": 5,
-          "max_cm": 10
+          "min_cm": 10,
+          "max_cm": 15
+        },
+        {
+          "date": "2026-04-14",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 17,
-        "last_48h_max_cm": 25
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 15
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nouvelles chutes de neige ventées, nouvelles instabilités.",
-      "text": "Nouvelles chutes de neige ventées, nouvelles instabilités.\n\nDéclenchements provoqués : Evolution d'un risque limité à un risque marqué. \nDe nombreuses plaques friables vont se former cette nuit et prendre de l'épaisseur en journée avec le renforcement du vent de Nord-Ouest. Elle peuvent reposer sur une couche de neige fraîche tombée au préalable sans vent faisant office de couche fragile temporaire. Ces plaques sont très sensibles, pouvant être déclenchées au passage d'un simple randonneur. Elle sont de faible épaisseur lundi matin (10 à 20cm) mais elles pourront se multiplier et atteindre 30 à 40cm suivant le transport par le vent en journée.\nCette neige a souvent un aspect poudreux mais elle a pris suffisamment de cohésion pour propager les contraintes ; un déclenchement à distance peut aussi se produire.\nObservables : transport de la neige par le vent, disparition des traces de montée, fissures devant les skis. \n\nDéparts spontanés :\nDe nombreuses petites coulées de surface peuvent se produire durant les chutes de neige de cette nuit, se poursuivant lundi. Il s'agit essentiellement de petites avalanches de taille 1 se déclenchant dans les pentes raides sans grande conséquence. \nObservables : Cumuls de neige fraîche dépassant les 20 à 30cm.",
+      "title": "PLAQUES  EN ALTITUDE, DES COULÉES AU SOLEIL",
+      "text": "PLAQUES  EN ALTITUDE, DES COULÉES AU SOLEIL\n\nDéclenchements provoqués :\nDes plaques plus ou moins friables se sont formées en altitude et pourraient continuer à se former avec le vent de secteur nord, reposant sur des neiges tombées sans vent. Ces plaques peuvent parfois être déclenchées au passage d'un simple randonneur. Ce risque se cantonne progressivement au-dessus de 2400m et dans les versants ombragés restés en neige sèche, du fait de l'humidification en journée. Un skieur coupant une pente en neige pourrie pourra également déclencher une coulée sous ses skis.\nObservables : transport de la neige par le vent, disparition des traces de montée, fissures devant les skis.\n\nDéparts spontanés :\nDu fait d'un soleil efficace et de la remontée de l'isotherme 0 °C de nombreuses coulées de surface se produisent dans les pentes suffisamment raides prenant le soleil, donc plutôt dans les versants d'un vaste secteur Est puis Sud puis Ouest. De rares cassures linéaires peuvent également se produire générant des avalanches de taille moyenne.\nObservables : neige pourrie, escargots.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nL'enneigement demeure excellent pour la saison, un des meilleurs des 30 dernières années. Les nouvelles chutes de neige blanchissent à nouveau la montagne dès 1200 à 1300m d'altitude lundi mais il faut en général atteindre 1400 à 1500m pour trouver une sous couche versant Nord et 1800m versant Sud. cette couche augmente très vite en prenant de l'altitude avec des cumuls dépassant les 2m dès 1800 à 1900m, 3 à 4 m vers 2500m.\n\nQualité de la neige : \nLundi matin, on trouve une couche de neige fraîche, souvent fine et humide entre 1100 et 1500m puis prenant de l'épaisseur avec l'altitude. Elle est froide et poudreuse au dessus de 1800m dans les combes abritées du vent mais devient travaillée par le vent de Nord-Ouest durant la journée de lundi. Quelques cols et crêtes risquent de rester en neige très dure voire en glace à haute altitude.",
+      "text": "Enneigement : \nL'enneigement demeure excellent pour la saison, un des meilleurs des 30 dernières années. Les nouvelles chutes de neige blanchissent à nouveau la montagne dès 1200 à 1300m d'altitude mais il faut en général atteindre 1400 à 1500m pour trouver une sous-couche versant Nord et parfois 1800m en versant Sud. Cette couche augmente très vite en prenant de l'altitude avec des cumuls dépassant parfois les 2m dès 1900m, 3 à 4 m vers 2500m.\n\nQualité de la neige : \nMardi matin, on trouve une couche de neige fraîche ou récente dès 1300m, sur un fond dur au-dessus de 2000m, pourri plus bas. En journée cette neige s'humidifie rapidement au soleil et ne reste sèche que dans les versants nord restant à l'ombre, ou au-dessus de 2400m. Quelques cols et crêtes risquent de rester en neige très dure voire en glace à haute altitude.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1500,
-        "south": 1900
+        "north": 1000,
+        "south": 1000
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 5,
-          "S": 0
+          "N": 10,
+          "S": 5
         },
         {
           "alt_m": 2000,
-          "N": 190,
-          "S": 60
+          "N": 200,
+          "S": 70
         },
         {
           "alt_m": 2500,
-          "N": 320,
-          "S": 190
+          "N": 330,
+          "S": 200
         }
       ],
       "icon_key": "snowpack",

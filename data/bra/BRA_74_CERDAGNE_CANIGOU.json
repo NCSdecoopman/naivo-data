@@ -3,8 +3,8 @@
   "massif": "Cerdagne Canigou",
   "bulletin": {
     "id": 74,
-    "issued_at": "2026-04-12T16:00:00",
-    "valid_until": "2026-04-13T18:00:00",
+    "issued_at": "2026-04-13T16:00:00",
+    "valid_until": "2026-04-14T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-14",
+        "date": "2026-04-15",
         "label": "Indice de risque limité",
-        "comment": "Pas d'évolution significative.",
+        "comment": "Maintien d'un risque limité avec une poursuite de l'humidification et une stabilisation progressive des plaques",
         "trend": "steady"
       }
     },
@@ -66,21 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": null,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
-        "1": "Neige fraîche"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-08",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-09",
           "min_cm": 0,
@@ -98,51 +94,56 @@
         },
         {
           "date": "2026-04-12",
-          "min_cm": 3,
-          "max_cm": 7
+          "min_cm": 5,
+          "max_cm": 10
         },
         {
           "date": "2026-04-13",
           "min_cm": 0,
           "max_cm": 1
+        },
+        {
+          "date": "2026-04-14",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 8
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Baisse du risque spontané, quelques plaques en neige fraîche.",
-      "text": "Baisse du risque spontané, quelques plaques en neige fraîche.\n\nDéclenchements provoqués : \n Des petites plaques friables vont se former cette nuit et demain en altitude. Elle peuvent reposer sur une couche de neige fraîche tombée au préalable sans vent faisant office de couche fragile temporaire. Ces plaques sont très sensibles, pouvant être déclenchées au passage d'un simple randonneur mais elles restent de faible épaisseur (10 à 20cm), risquant surtout de déstabiliser un randonneur.\nCette neige a souvent un aspect poudreux mais elle a pris suffisamment de cohésion pour propager les contraintes.\nObservables : transport de la neige par le vent, se méfier des combes où l'o pourra localement observer des accumulation de neige fraîche supérieures à 20 cm.. \n\nDéparts spontanés :\nDe rares petites coulées de surface peuvent se produire durant les chutes de neige de cette nuit, se poursuivant lundi. Il s'agit essentiellement de petites avalanches de taille 1 se déclenchant dans les pentes raides sans grande conséquence.",
+      "title": "PLAQUES  EN ALTITUDE, DES COULÉES AU SOLEIL",
+      "text": "PLAQUES  EN ALTITUDE, DES COULÉES AU SOLEIL\n\nDéclenchements provoqués :\nDe petites plaques plus ou moins friables se sont formées en altitude et pourraient continuer à se former avec le vent de secteur nord, reposant sur des neiges tombées sans vent. Ces plaques peuvent parfois être déclenchées au passage d'un simple randonneur. Ce risque se cantonne progressivement au-dessus de 2500m et dans les versants ombragés restés en neige sèche, du fait de l'humidification en journée. Un skieur coupant une pente en neige pourrie pourra également déclencher une coulée sous ses skis.\nObservables : transport de la neige par le vent, disparition des traces de montée, fissures devant les skis. \n\nDéparts spontanés :\nDu fait d'un soleil efficace et de la remontée de l'isotherme 0 °C de nombreuses coulées de surface se produisent dans les pentes suffisamment raides prenant le soleil, donc plutôt dans les versants d'un vaste secteur Est puis Sud puis Ouest.\nObservables : neige pourrie, escargots.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nL'enneigement demeure excellent voire exceptionnel pour la saison, un des meilleurs des 30 dernières années. Les nouvelles chutes de neige blanchissent la montagne dès 1300 à 1400m mais les quantités sont trop faibles pour modifier la limite skiable. On chausse le plus souvent à partir de 1500/1600 m en nord, 1700/1800 m en sud sur une couche de neige rapidement très épaisse, dépassant les 2 m à 2000m d'altitude.\n\nQualité de la neige : \nOn trouve lundi une petite couche de neige fraîche agréable à skier reposant sur un fond souvent dur et regelé au dessus de 1800m. La tramontane attendue lundi risque de travailler rapidement cette neige avec des cols et crêtes en neige dure et quelques combes abritées gardant une neige poudreuse..",
+      "text": "Enneigement : \nL'enneigement demeure excellent pour la saison, un des meilleurs des 30 dernières années. Les dernières chutes de neige ont blanchi la montagne dès 1400m mais les quantités sont trop faibles pour modifier la limite skiable. On chausse le plus souvent à partir de 1600 m en nord, 1800 m en sud sur une couche de neige rapidement très épaisse, dépassant les 2 m à 2000m d'altitude.\n\nQualité de la neige : \nOn trouve mardi une petite couche de neige récente reposant sur un fond souvent dur et regelé au-dessus de 2000m, avec des cols et crêtes en neige dure et quelques rares combes abritées du vent et du soleil gardant une neige poudreuse.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1600,
-        "south": 1900
+        "north": 1400,
+        "south": 1400
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 0,
-          "S": 0
+          "N": 5,
+          "S": 5
         },
         {
           "alt_m": 2000,
-          "N": 140,
-          "S": 10
+          "N": 150,
+          "S": 20
         },
         {
           "alt_m": 2500,
-          "N": 290,
-          "S": 150
+          "N": 300,
+          "S": 160
         }
       ],
       "icon_key": "snowpack",

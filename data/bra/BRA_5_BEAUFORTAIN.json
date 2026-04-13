@@ -3,14 +3,14 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-04-12T17:00:00",
-    "valid_until": "2026-04-13T18:00:00",
+    "issued_at": "2026-04-13T16:00:00",
+    "valid_until": "2026-04-14T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Indice de risque faible évoluant en limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 2,
-            "evolution_to": null,
+            "risk": 1,
+            "evolution_to": 2,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "2",
+            "text": "1→2",
             "risk": 2,
-            "evolution_to": null
+            "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-14",
+        "date": "2026-04-15",
         "label": "Indice de risque limité",
-        "comment": "Le temps maussade et humide persiste, empêchant un bon regel, le risque reste donc limité pour une problématique de neige humide.",
+        "comment": "Encore des nuages et des températures élevées favorisant l'activité en neige humide, risque limité stationnaire.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-08",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-09",
           "min_cm": 0,
           "max_cm": 0
@@ -104,23 +99,28 @@
         {
           "date": "2026-04-13",
           "min_cm": 0,
+          "max_cm": 3
+        },
+        {
+          "date": "2026-04-14",
+          "min_cm": 0,
           "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_max_cm": 3
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "CIEL COUVERT, MAUVAIS REGEL ET HUMIDIFICATION MÊME EN PLEIN NORD.",
-      "text": "CIEL COUVERT, MAUVAIS REGEL ET HUMIDIFICATION MÊME EN PLEIN NORD.\n\nDéparts spontanés : \n- Quelques départs en neige humide sont attendus en tous versants et à toute heure de la journée. Ce sont principalement des départs ponctuels (poires), donnant des petites à moyennes avalanches. En effet, le regel est très mauvais et malgré l'absence de soleil, la masse d'air très douce combinée à la présence d'une épaisse couverture nuageuse va permettre la poursuite de l'activité en neige humide. On s'attend à une activité moins soutenue que les jours précédents, notamment en versants ensoleillés. En revanche, les versants nord encaissés et protégés du soleil (restés en neige froide jusqu'à maintenant) subissent leur première humidification marquée et seront donc eux aussi concernés par ce risque.\n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrain propice, notamment en Nord sous 2400 m. Taille 2.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée (dès le matin).\n\nAutres : chutes de corniches possibles à toute heure.",
+      "title": "NUAGES ET CHAUFFAGE, HUMIDIFICATION MÊME EN PLEIN NORD.",
+      "text": "NUAGES ET CHAUFFAGE, HUMIDIFICATION MÊME EN PLEIN NORD.\n\nDéparts spontanés : \n- Quelques départs en neige humide sont attendus en tous versants, ils deviennent plus fréquents l'après midi. Ce sont principalement des départs ponctuels (poires), donnant des petites à moyennes avalanches. Avec les nuages, les versants nord chauffent et sont donc aussi concernés par ce risque, un rare cassure linéaire au volume plus important peut y être observée si l'humidification atteint pour la première fois une couche fragile enfouie. \n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrain propice, notamment en Nord sous 2500/2600 m. Taille 2.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée au fil des heures, avec les nuages toutes les orientations chauffent en même temps.\n\nAutres : chutes de corniches possibles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours (fonte accélérée de 5 à 10 cm par jour).\n\nLimite skiable : vers 1200/1300 m en Nord, 1600/1700 m en Sud.\n\nQualité de la neige : regel mauvais ou inexistant. Neige humide voire profondément pourrie partout dès le matin. Collante possible en Nord, dans les rares secteurs qui étaient encore en neige froide et s’humidifient eux aussi. Quelques centimètres de fraiche à partir de 2200 m mais souvent humide sous 2500 m.",
+      "text": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours, le chauffage et la présence des nuages accélèrent la fonte.\n\nLimite skiable : vers 1200/1300 m en Nord, 1600/1700 m en Sud.\n\nQualité de la neige : Les quelques centimètres de fraiche possibles au dessus de 2200 m se tassent et s'humidifient vite en tous versants même en nord où la neige devient collante. Regel aléatoire et manteau profondément pourri parfois dès le matin.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -131,18 +131,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 55,
+          "N": 50,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 165,
-          "S": 85
+          "N": 160,
+          "S": 80
         },
         {
           "alt_m": 2500,
           "N": 215,
-          "S": 165
+          "S": 160
         }
       ],
       "icon_key": "snowpack",
