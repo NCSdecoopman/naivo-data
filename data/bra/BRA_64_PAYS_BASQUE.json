@@ -3,14 +3,14 @@
   "massif": "Pays-Basque",
   "bulletin": {
     "id": 64,
-    "issued_at": "2026-04-13T16:00:00",
-    "valid_until": "2026-04-14T18:00:00",
+    "issued_at": "2026-04-14T16:00:00",
+    "valid_until": "2026-04-15T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Indice de risque faible évoluant en limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 2,
-            "evolution_to": null,
+            "risk": 1,
+            "evolution_to": 2,
             "position": null
           }
         ]
@@ -34,30 +34,30 @@
         },
         "zones": {
           "center": {
-            "text": "2",
+            "text": "1→2",
             "risk": 2,
-            "evolution_to": null
+            "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-15",
+        "date": "2026-04-16",
         "label": "Indice de risque limité",
-        "comment": "Bon regel matinal, progression de l'humidification ensuite",
+        "comment": "Maintien de conditions printanières avec un bon regel.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
+        "N": true,
         "NE": true,
         "E": true,
         "SE": true,
         "S": true,
-        "SW": false,
-        "W": false,
-        "NW": false
+        "SW": true,
+        "W": true,
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -66,22 +66,16 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
         "4": "Neige humide"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-09",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-10",
           "min_cm": 0,
@@ -106,28 +100,33 @@
           "date": "2026-04-14",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-15",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 2,
-        "last_48h_max_cm": 8
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Rares plaques en haut du massif, neige humide plus bas",
-      "text": "Rares plaques en haut du massif, neige humide plus bas\n\nDéclenchements provoqués :\nDes plaques ont pu se former lors des dernières chutes de neige. Elles sont rares, déclenchables uniquement au plus haut du massif. Ailleurs, les éclaircies de lundi ont bien tassé la neige fraîche. On les trouve plutôt près des cols et crêtes, formées par un vent modéré, dans les orientations à l'abri du vent de nord-nord-ouest. Elles sont rapidement stabilisées en versants ensoleillés.\nDéparts spontanés :\nPrincipalement des départs ponctuels de petite taille, rarement moyenne dans la neige récente, au fil de l'ensoleillement (versants, est, puis sud, puis ouest). Une plus grande par départ d'une avalanche de fond est moins probable mardi après cette période de rafraîchissement.",
+      "title": "Conditions de printemps",
+      "text": "Conditions de printemps\n\nDéparts spontanés :\nPas d'activité en début de matinée à la faveur d'un bon regel. Ensuite, principalement des départs ponctuels de petite taille, rarement moyenne dans la neige récente, au fil de l'ensoleillement. Une plus grande par départ d'une avalanche de fond peut se produire dans l'après-midi, partant en général d'une fissure déjà ouverte, dans une zone d'accumulation (plus fréquentes en expositions est à nord-ouest).\n\nDéclenchements provoqués :\nLe passage d'un skieur dans la neige très humide peut favoriser un départ ponctuel.\nLes rares plaques qui ont pu se former lors des chutes de neige entre samedi et lundi sont probablement toutes détruites. S'il en reste, c'est au plus haut du massif, dans une combe nord très encaissée, de faible épaisseur.\n\nAutres :\nNeige dure et glissante au petit matin. Avec le retour de températures printanières, les corniches et pont de neige deviennent à nouveau très fragiles à partir de la fin de matinée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : L'enneigement est bon pour la saison, débutant vers 1500m en nord, 1700m en sud. \nÉtat de la neige : une petite épaisseur de neige récente, assez légère mardi matin, mais s'humidifiant rapidement.\nCette neige récente repose sur un sol nu en sud et sous 1600m en nord. Ailleurs, souvent sur de la vieille neige humide à peine ou mal regelée mais portante.",
+      "text": "Enneigement : L'enneigement est bon pour la saison, débutant vers 1500m en nord, 1900m en sud. \nÉtat de la neige : Neige bien regelée le matin, s'humidifiant progressivement au soleil. Quelques accumulations de neige sèche peuvent encore persister dans une combe nord bien ombragée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1400,
-        "south": 1500
+        "north": 1500,
+        "south": 1900
       },
       "levels_cm": [
         {
@@ -137,8 +136,8 @@
         },
         {
           "alt_m": 1500,
-          "N": 3,
-          "S": 3
+          "N": 2,
+          "S": 0
         },
         {
           "alt_m": 2000,

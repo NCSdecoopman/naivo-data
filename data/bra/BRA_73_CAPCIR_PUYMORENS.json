@@ -3,37 +3,49 @@
   "massif": "Capcir Puymorens",
   "bulletin": {
     "id": 73,
-    "issued_at": "2026-04-13T16:00:00",
-    "valid_until": "2026-04-14T18:00:00",
+    "issued_at": "2026-04-14T16:00:00",
+    "valid_until": "2026-04-15T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Au-dessus de 2300m indice de risque limité, plus bas indice faible évoluant en limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2300,
+        "split_axis": "horizontal",
+        "split_label": "2300m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2300",
+            "risk": 1,
+            "evolution_to": 2,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2300",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2300m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "1→2",
+            "risk": 1,
+            "evolution_to": 2
+          },
+          "top": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-15",
+        "date": "2026-04-16",
         "label": "Indice de risque limité",
-        "comment": "Maintien d'un risque limité avec une poursuite de l'humidification et une stabilisation progressive des plaques",
+        "comment": "Peu d'évolution de la situation nivo-météorologique et donc maintien probable d'un risque limité",
         "trend": "steady"
       }
     },
@@ -66,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": 2,
       "labels": {
-        "2": "Neige ventée",
-        "4": "Neige humide"
+        "4": "Neige humide",
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-09",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-10",
           "min_cm": 0,
@@ -99,51 +106,56 @@
         },
         {
           "date": "2026-04-13",
-          "min_cm": 4,
-          "max_cm": 8
+          "min_cm": 0,
+          "max_cm": 3
         },
         {
           "date": "2026-04-14",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-15",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 4,
-        "last_48h_max_cm": 8
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PLAQUES  EN ALTITUDE, DES COULÉES AU SOLEIL",
-      "text": "PLAQUES  EN ALTITUDE, DES COULÉES AU SOLEIL\n\nDéclenchements provoqués :\nSurtout à proximité de l'Ariège, des plaques plus ou moins friables se sont formées en altitude et pourraient continuer à se former avec le vent de secteur nord. Ces plaques reposant sur des neiges tombées sans vent peuvent parfois être déclenchées au passage d'un simple randonneur. Ce risque se cantonne progressivement au-dessus de 2400m et dans les versants ombragés restés en neige sèche, du fait de l'humidification en journée. Un skieur coupant une pente en neige pourrie pourra également déclencher une coulée sous ses skis.\nObservables : transport de la neige par le vent, disparition des traces de montée, fissures devant les skis.\n\nDéparts spontanés :\nDu fait d'un soleil efficace et de la remontée de l'isotherme 0 °C de nombreuses coulées de surface se produisent dans les pentes suffisamment raides prenant le soleil, donc plutôt dans les versants d'un vaste secteur Est puis Sud puis Ouest. De rares cassures linéaires peuvent également se produire générant des avalanches de taille moyenne.\nObservables : neige pourrie, escargots.",
+      "title": "DÉPARTS EN NEIGE HUMIDE, PLAQUES RÉSIDUELLES EN ALTITUDE",
+      "text": "DÉPARTS EN NEIGE HUMIDE, PLAQUES RÉSIDUELLES EN ALTITUDE \n\nDéparts spontanés :\nPas d'activité en tout début de journée grâce à un regel très efficace. Au fil de la journée, dans les pentes ensoleillées, des départs spontanés d'avalanches de taille petite à moyenne sont attendus à la faveur du redoux et de l'ensoleillement généreux. Ces départs emportent la neige récente tombée ce week-end, voire dans de rares cas peuvent mobiliser des couches plus anciennes et ainsi provoquer une éventuelle avalanche de moyenne, voire grande taille. \n\nObservables : avalanche observée alentours, couche de neige pourrie, escargots.\n\n\nDéclenchements provoqués :\n* Au-dessus de 2300/2400m, généralement à proximité des crêtes, dans les secteurs ombragés, des accumulations en neige récente non encore humidifiée subsistent probablement par endroits. Ces plaques plus ou moins friables se sont formées en altitude dans les pentes et contre-pentes à l'abri du vent de secteur nord. Les accumulations de neige ventée reposent sur une couche de neige tombée sans vent. Ces plaques peuvent être déclenchées au passage d'un pratiquant. \n\nObservables : transport de la neige par le vent, disparition des traces de montée, fissures devant les skis.\n\n* Par ailleurs, dans les autres secteurs, du fait de la poursuite de l'humidification, un skieur coupant une pente en neige pourrie pourra également déclencher une coulée sous ses skis.\n\nAutre : des corniches, parfois imposantes, sont en place et sont susceptibles de céder spontanément.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nL'enneigement demeure excellent pour la saison, un des meilleurs des 30 dernières années. Les nouvelles chutes de neige blanchissent à nouveau la montagne dès 1300m d'altitude lundi mais il faut en général atteindre 1500m pour trouver une sous couche versant Nord et 1800m versant Sud. cette couche augmente très vite en prenant de l'altitude avec des cumuls dépassant les 2m dès 1800 à 1900m, 3 à 4 m vers 2500m.\n\nQualité de la neige : \nLundi matin, on trouve une couche de neige fraîche, souvent fine et humide entre 1200 et 1500m puis prenant de l'épaisseur avec l'altitude. Elle est froide et poudreuse au dessus de 1800m dans les combes abritées du vent mais devient travaillée par le vent de Nord-Ouest durant la journée de lundi. Quelques cols et crêtes risquent de rester en neige très dure voire en glace à haute altitude.",
+      "text": "Enneigement : \nL'enneigement demeure excellent pour la saison, un des meilleurs des 30 dernières années. Il faut en général atteindre 1500/1600m pour trouver une couche de neige suffisante en versant nord et plutôt 1800m en versant sud. Cette couche augmente très vite en prenant de l'altitude avec des cumuls dépassant parfois les 2m dès 2000m, 3 à 4 m vers 2500m.\n\nQualité de la neige : \nAu matin, le regel devrait être très efficace. On trouvera donc une croûte assez épaisse dans un vaste secteur sud. Seuls les versants nord d'altitude conservent une neige froide en surface. En journée, la neige s'humidifie rapidement au soleil. Elle ne reste sèche que dans les versants nord restant à l'ombre au-dessus de 2300/2400m. Quelques cols et crêtes restent en neige très dure voire en glace à haute altitude.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1400,
-        "south": 1400
+        "north": 1500,
+        "south": 1700
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 5,
-          "S": 5
+          "N": 1,
+          "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 200,
-          "S": 70
+          "N": 195,
+          "S": 65
         },
         {
           "alt_m": 2500,
-          "N": 340,
-          "S": 160
+          "N": 335,
+          "S": 155
         }
       ],
       "icon_key": "snowpack",

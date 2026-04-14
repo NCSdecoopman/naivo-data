@@ -3,14 +3,14 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-04-13T16:00:00",
-    "valid_until": "2026-04-14T18:00:00",
+    "issued_at": "2026-04-14T16:00:00",
+    "valid_until": "2026-04-15T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Indice de risque faible évoluant en limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 2,
-            "evolution_to": null,
+            "risk": 1,
+            "evolution_to": 2,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "2",
+            "text": "1→2",
             "risk": 2,
-            "evolution_to": null
+            "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-15",
+        "date": "2026-04-16",
         "label": "Indice de risque limité",
-        "comment": "Risque stationnaire ou en légère baisse mercredi. \nMeilleur regel le matin, puis douceur en journée, rare avalanche de glissement...",
+        "comment": "Jeudi, peu d'évolution. Après un regel nocturne souvent correct sous les éclaircies, l'humidification reprend au soleil en journée. Isotherme 0°C vers 3100/3200 m.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-09",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-10",
           "min_cm": 0,
           "max_cm": 0
@@ -106,27 +101,32 @@
           "date": "2026-04-14",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-15",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU DENSE MAIS BIEN HUMIDE EN PROFONDEUR, RARES COULEES OU AVALANCHE DE FOND...",
-      "text": "MANTEAU DENSE MAIS BIEN HUMIDE EN PROFONDEUR, RARES COULEES OU AVALANCHE DE FOND...\n\nMardi 10 cm de neige récente possibles sur l'Ouest du massif, saupoudrage ailleurs... quelques mini coulées de surface... En versants froid d'altitude/pentes herbeuses, rare avalanche de fond, glissant au terrain ?\nDéparts spontanés :\nDès le matin rapide dégel en tous versants.\nLà où il a neigé (jusque 10 cm sur les sommets de Ouest Vercors), de possibles boules/coulées de surface.\nEn faces froides, il reste encore pas mal de neige dense, humide en profondeur, des fissures de reptation s'ouvrent ponctuellement. \nA toute heure, risque très local de coulée ou avalanche de glissement au terrain, de taille plus conséquente ? (pentes herbeuses notamment)\n\nDéclenchements provoqués : \nPeu probable ou coulée ponctuelle de neige humide sous les skis, en pentes soutenues...",
+      "title": "POURSUITE DE L'HUMIDIFICATION, MÊME EN NORD : QUELQUES DÉPARTS HUMIDES POSSIBLES, PARFOIS AU TERRAIN.",
+      "text": "POURSUITE DE L'HUMIDIFICATION, MÊME EN NORD : QUELQUES DÉPARTS HUMIDES POSSIBLES, PARFOIS AU TERRAIN.\n\nDéparts spontanés : Assez peu probables au lever du jour avec le regel attendu meilleur en altitude et sous ciel bien dégagé. Puis au fil de la journée, quelques avalanches de neige humide sont à nouveau possibles dans les pentes réchauffées par le soleil, ou encore sous les nuages qui humidifient tous les versants qu'ils recouvrent. Généralement de taille 1 à 2 (petite à moyenne), on ne peut cependant exclure une rare taille 3 (grande) dans un versant d'un large Nord. Par ailleurs, dans certaines pentes herbeuses / secteurs de reptation, une avalanche de glissement n'est pas exclue. Enfin vers les hautes crêtes, un effondrement spontané de corniche n'est pas exclu. A noter que si les faces d'un large Sud sont également très humides, elles sont en neige plus dense/transformée, et le risque d'avalanche volumineuse y est moindre. \n\nDéclenchements provoqués : Le principal risque pour le pratiquant est de faire couler la neige humide sous les skis, dans une pente raide où la neige est humidifiée jusqu'en profondeur.\n\nAutres : Regel correct par endroits le matin (surtout sous les éclaircies), neige parfois croutée. En journée neige très humide à \"soupe\" selon le versant/l'altitude, ski parfois difficile...",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement a nettement régressé depuis 10 jours, et ne reste correct que sur les hauts du massif en pentes peu ensoleillées. Un peu de fraîche lundi sur l'Ouest du massif, saupoudrage ailleurs.\nLimites skiables : Vers 1400 à 1800m selon le versant (hors sapins), plein Sud sec...\n\nQualité de la neige mardi :  Faible regel nocturne à l'aube en haut du massif, puis rapide dégel en matinée.\nUn peu de neige récente sur les sommets de l'Ouest du massif (10 cm maxi, ailleurs saupoudrage), devenant collante/humide. Sous couche en neige dense très humide, pas du grand ski en perspective..",
+      "text": "Qualification de l’enneigement :  L'enneigement a nettement régressé depuis 10 jours, et ne reste correct que sur les hauts du massif en pentes peu ensoleillées. Un peu de fraîche lundi sur l'Ouest du massif, saupoudrage ailleurs.\nLimites skiables : Vers 1400 à 1800m selon le versant (hors sapins), plein Sud sec...\n\nQualité de la neige mercredi :  Neige humide parfois croûtée au petit matin (meilleur regel si les éclaircies sont plus belles), puis rapide humidification au soleil en journée, ainsi que sous les nuages en tous versants.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1400,
+        "north": 1500,
         "south": 1800
       },
       "levels_cm": [
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 15,
+          "N": 10,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 190,
-          "S": 65
+          "N": 170,
+          "S": 60
         }
       ],
       "icon_key": "snowpack",

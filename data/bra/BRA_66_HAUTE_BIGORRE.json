@@ -3,37 +3,49 @@
   "massif": "Haute-Bigorre",
   "bulletin": {
     "id": 66,
-    "issued_at": "2026-04-13T16:00:00",
-    "valid_until": "2026-04-14T18:00:00",
+    "issued_at": "2026-04-14T16:00:00",
+    "valid_until": "2026-04-15T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Au-dessus de 2300m indice de risque limité, plus bas indice faible évoluant en limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2300,
+        "split_axis": "horizontal",
+        "split_label": "2300m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2300",
+            "risk": 1,
+            "evolution_to": 2,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2300",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2300m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "1→2",
+            "risk": 1,
+            "evolution_to": 2
+          },
+          "top": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -42,22 +54,22 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-15",
+        "date": "2026-04-16",
         "label": "Indice de risque limité",
-        "comment": "Persistance de quelques plaques en pentes ombragées d'altitude, conditions printanières ailleurs.",
+        "comment": "Maintien de conditions printanières avec un bon regel, humidification progressive des secteurs nord d'altitude.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
+        "N": true,
         "NE": true,
         "E": true,
         "SE": true,
         "S": true,
         "SW": true,
-        "W": false,
-        "NW": false
+        "W": true,
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -78,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-09",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-10",
           "min_cm": 0,
           "max_cm": 0
@@ -99,40 +106,45 @@
         },
         {
           "date": "2026-04-13",
-          "min_cm": 5,
-          "max_cm": 10
+          "min_cm": 3,
+          "max_cm": 5
         },
         {
           "date": "2026-04-14",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-15",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Plaques en altitude, humidification rapide",
-      "text": "Plaques en altitude, humidification rapide\n\nDéclenchements provoqués :\nDes plaques se sont formées lors des dernières chutes de neige. Elles sont assez rares, limitées aux zones d'accumulation suffisante, instables surtout au-dessus de 2000 à 2200. Plus bas, les éclaircies de lundi ont bien tassé la neige fraîche. On les trouve plutôt près des cols et crêtes, formées par un vent modéré, dans les orientations à l'abri du vent de nord-nord-ouest. Elles sont rapidement stabilisées en versants ensoleillés, mais persistent en versants ombragés.\n\nDéparts spontanés :\nPrincipalement des départs ponctuels de petite taille, dans la neige récente, au fil de l'ensoleillement (versants, est, puis sud, puis ouest). Quelques moyennes sont possibles avec le départ spontané d'une plaque au-dessus de 2000m en versant ensoleillé. Une plus grande par départ d'une avalanche de fond est moins probable mardi après cette période de rafraîchissement.",
+      "title": "Rares plaques en combes ombragées d'altitude, conditions de printemps ailleurs",
+      "text": "Rares plaques en combes ombragées d'altitude, conditions de printemps ailleurs\n\nDéparts spontanés :\nPas d'activité en début de matinée à la faveur d'un bon regel. Ensuite, principalement des départs ponctuels de petite taille, rarement moyenne dans la neige récente, au fil de l'ensoleillement. Une plus grande par départ d'une avalanche de fond peut se produire dans l'après-midi, partant en général d'une fissure déjà ouverte, dans une zone d'accumulation (plus fréquentes en expositions est à nord-ouest).\n\nDéclenchements provoqués :\nDes structures de plaques peuvent encore être déclenchées, en général au-dessus de 2300m, dans les combes bien ombragées. Elles restent rares, limitées à des zones d'accumulation près des crêtes et cols.\nAilleurs, le passage d'un skieur dans la neige très humide au soleil peut favoriser un départ ponctuel.\n\nAutres :\nNeige dure et glissante au petit matin. Avec le retour de températures printanières, les corniches et pont de neige deviennent à nouveau très fragiles à partir de la fin de matinée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : L'enneigement est bon pour la saison, débutant vers 1500m en nord, 1700m en sud. Saupoudrage ou quelques centimètres de neige sur un sol nu sous ces limites.\nÉtat de la neige :une petite épaisseur de neige récente, assez légère mardi matin, mais s'humidifiant rapidement.\nCette neige récente repose sur un sol nu en sud sous 1900m et sous 1600m en nord. Plus haut, souvent sur de la vieille neige humide à peine ou mal regelée mais portante.",
+      "text": "Enneigement : L'enneigement est bon pour la saison, débutant vers 1500m en nord, 1900m en sud. \nÉtat de la neige : Dans quelques combes ombragées au-dessus de 2000m, on trouve quelques centimètres de neige sur un fond dur, épaisseur un peu plus importante à partir de 2300m. Ailleurs, neige bien regelée le matin, s'humidifiant progressivement au soleil.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1500,
-        "south": 1600
+        "south": 1900
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 3,
+          "N": 2,
           "S": 0
         },
         {
