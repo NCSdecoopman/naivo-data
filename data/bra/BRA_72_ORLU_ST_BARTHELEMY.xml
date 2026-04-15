@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="72" MASSIF="Orlu St-Barthelemy" DATEBULLETIN="2026-04-14T16:00:00" DATEECHEANCE="2026-04-15T18:00:00" DATEVALIDITE="2026-04-15T18:00:00" DATEDIFFUSION="2026-04-14T16:23:00" AMENDEMENT="false">
-  <DateValidite>2026-04-15T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="72" MASSIF="Orlu St-Barthelemy" DATEBULLETIN="2026-04-15T16:00:00" DATEECHEANCE="2026-04-16T18:00:00" DATEVALIDITE="2026-04-16T18:00:00" DATEDIFFUSION="2026-04-15T16:02:00" AMENDEMENT="false">
+  <DateValidite>2026-04-16T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="1" EVOLURISQUE1="2" LOC1="&lt;2300" ALTITUDE="2300" RISQUE2="2" EVOLURISQUE2="" LOC2="&gt;2300" RISQUEMAXI="2" COMMENTAIRE="Au-dessus de 2300m indice de risque limité, plus bas indice faible évoluant en limité." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-04-16T00:00:00"/>
+    <RISQUE RISQUE1="1" EVOLURISQUE1="2" LOC1="&lt;2300" ALTITUDE="2300" RISQUE2="2" EVOLURISQUE2="" LOC2="&gt;2300" RISQUEMAXI="2" COMMENTAIRE="Au-dessus de 2300m indice de risque limité, plus bas indice faible évoluant en limité." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-04-17T00:00:00"/>
     <PENTE NE="true" E="true" SE="true" S="true" SW="true" W="true" NW="true" N="true" COMMENTAIRE=""/>
     <ACCIDENTEL><![CDATA[Persistance de rares plaques en altitude]]></ACCIDENTEL>
-    <NATUREL><![CDATA[Quelques départs ponctuels en neige humide]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : Quelques départs ponctuels en neige humide
+    <NATUREL><![CDATA[Départs plutôt ponctuels en neige humide]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : Départs plutôt ponctuels en neige humide
 Déclenchements skieurs : Persistance de rares plaques en altitude]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque limité]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Peu d'évolution de la situation nivo-météorologique et donc maintien probable d'un risque limité]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Peu d'évolution de la situation nivo-météorologique avec un nouveau cycle de gel-dégel et la poursuite de l'humidification progressive.]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_72.png</ImageRisque>
@@ -18,74 +18,60 @@ Déclenchements skieurs : Persistance de rares plaques en altitude]]></RESUME>
   </CARTOUCHERISQUE>
   <STABILITE>
     <SitAvalTyp SAT1="4" SAT2="2"/>
-    <TITRE><![CDATA[DÉPARTS EN NEIGE HUMIDE, PLAQUES RÉSIDUELLES EN ALTITUDE ]]></TITRE>
+    <TITRE><![CDATA[Activité en neige humide en journée avec l'ensoleillement, encore des plaques en altitude.]]></TITRE>
     <TEXTESANSTITRE><![CDATA[Départs spontanés :
-Pas d'activité en tout début de journée grâce à un regel très efficace. Au fil de la journée, dans les pentes ensoleillées, des départs spontanés d'avalanches de taille petite à moyenne sont attendus à la faveur du redoux et de l'ensoleillement généreux. Ces départs emportent la neige récente tombée ce week-end, voire dans de rares cas peuvent mobiliser des couches plus anciennes et ainsi provoquer une éventuelle avalanche de moyenne, voire grande taille. 
-
-Observables : avalanche observée alentours, couche de neige pourrie, escargots.
-
+- Peu probable en début de journée grâce à un regel efficace. Au fil de la journée, dans les pentes ensoleillées, des départs spontanés d'avalanches de taille petite à moyenne sont attendus avec la douceur et l'ensoleillement. Ces départs emportent la neige récente, et dans de rares cas des couches plus anciennes avec une éventuelle avalanche de moyenne, voire grande taille. 
+- De nombreuses reptations sont également visibles et signes avant-coureurs de potentielles avalanches de glissement pouvant emporter l'ensemble du manteau neigeux.
 
 Déclenchements provoqués :
-* Dans le massif d'Orlu, au-dessus de 2300/2400m, généralement à proximité des crêtes, dans les secteurs ombragés, des accumulations en neige récente non encore humidifiée subsistent probablement par endroits. Ces plaques plus ou moins friables se sont formées en altitude dans les pentes à l'abri du vent de secteur nord. Les accumulations de neige ventée reposent sur une couche de neige tombée sans vent. Ces plaques peuvent être déclenchées au passage d'un pratiquant. 
+- Avalanches de plaques, encore déclenchables par un pratiquant, sur Orlu et au-dessus de 2300/2400m. Des accumulations en neige récente non encore humidifiée subsistent par endroits, plutôt à proximité des crêtes et dans les secteurs ombragés. Ces plaques peu épaisses et plus ou moins friables se sont formées ces derniers jours avec le vent de nord. Les accumulations de neige ventée reposent sur une couche de neige tombée sans vent. Observables : signe de transport de neige par le vent avec de la neige de surface changeante, fissures devant les skis.
+- Par ailleurs, dans les secteurs en neige humide, un skieur coupant une pente raide pourra également déclencher une coulée sous ses skis.
 
-Observables : transport de la neige par le vent, disparition des traces de montée, fissures devant les skis.
-
-* Par ailleurs, dans les autres secteurs, du fait de la poursuite de l'humidification, un skieur coupant une pente en neige pourrie pourra également déclencher une coulée sous ses skis.
-
-Autre : des corniches, parfois imposantes, sont en place et sont susceptibles de céder spontanément.]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[DÉPARTS EN NEIGE HUMIDE, PLAQUES RÉSIDUELLES EN ALTITUDE 
+Autre : Des corniches, parfois imposantes, sont en place et sont susceptibles de céder spontanément.]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[Activité en neige humide en journée avec l'ensoleillement, encore des plaques en altitude.
 
 Départs spontanés :
-Pas d'activité en tout début de journée grâce à un regel très efficace. Au fil de la journée, dans les pentes ensoleillées, des départs spontanés d'avalanches de taille petite à moyenne sont attendus à la faveur du redoux et de l'ensoleillement généreux. Ces départs emportent la neige récente tombée ce week-end, voire dans de rares cas peuvent mobiliser des couches plus anciennes et ainsi provoquer une éventuelle avalanche de moyenne, voire grande taille. 
-
-Observables : avalanche observée alentours, couche de neige pourrie, escargots.
-
+- Peu probable en début de journée grâce à un regel efficace. Au fil de la journée, dans les pentes ensoleillées, des départs spontanés d'avalanches de taille petite à moyenne sont attendus avec la douceur et l'ensoleillement. Ces départs emportent la neige récente, et dans de rares cas des couches plus anciennes avec une éventuelle avalanche de moyenne, voire grande taille. 
+- De nombreuses reptations sont également visibles et signes avant-coureurs de potentielles avalanches de glissement pouvant emporter l'ensemble du manteau neigeux.
 
 Déclenchements provoqués :
-* Dans le massif d'Orlu, au-dessus de 2300/2400m, généralement à proximité des crêtes, dans les secteurs ombragés, des accumulations en neige récente non encore humidifiée subsistent probablement par endroits. Ces plaques plus ou moins friables se sont formées en altitude dans les pentes à l'abri du vent de secteur nord. Les accumulations de neige ventée reposent sur une couche de neige tombée sans vent. Ces plaques peuvent être déclenchées au passage d'un pratiquant. 
+- Avalanches de plaques, encore déclenchables par un pratiquant, sur Orlu et au-dessus de 2300/2400m. Des accumulations en neige récente non encore humidifiée subsistent par endroits, plutôt à proximité des crêtes et dans les secteurs ombragés. Ces plaques peu épaisses et plus ou moins friables se sont formées ces derniers jours avec le vent de nord. Les accumulations de neige ventée reposent sur une couche de neige tombée sans vent. Observables : signe de transport de neige par le vent avec de la neige de surface changeante, fissures devant les skis.
+- Par ailleurs, dans les secteurs en neige humide, un skieur coupant une pente raide pourra également déclencher une coulée sous ses skis.
 
-Observables : transport de la neige par le vent, disparition des traces de montée, fissures devant les skis.
-
-* Par ailleurs, dans les autres secteurs, du fait de la poursuite de l'humidification, un skieur coupant une pente en neige pourrie pourra également déclencher une coulée sous ses skis.
-
-Autre : des corniches, parfois imposantes, sont en place et sont susceptibles de céder spontanément.]]></TEXTE>
+Autre : Des corniches, parfois imposantes, sont en place et sont susceptibles de céder spontanément.]]></TEXTE>
   </STABILITE>
   <QUALITE>
     <TEXTE><![CDATA[Enneigement : 
-L'enneigement demeure excellent pour la saison, un des meilleurs des 30 dernières années. Le radoucissement couplé à l'ensoleillement généreux a fait remonter la limite de la neige. Il faut en général atteindre 1400 à 1500m pour trouver une sous-couche versant nord et parfois 1800m en versant sud. Cette couche augmente très vite en prenant de l'altitude avec des cumuls dépassant parfois les 2m dès 1900m, 3 à 4 m vers 2500m.
+Excellent, parmi un des meilleurs des 30 dernières années. Avec le redoux et le soleil, la limite skiable remonte vers 1500 m en nord et 1700 m voire 1800 m en sud pour trouver une sous-couche. L’épaisseur de neige augmente rapidement et dépasse souvent les 2m dès 1900/200m, et 3 à 4 m vers 2500m.
 
-Qualité de la neige : 
-Au matin, le regel devrait être très efficace. On trouvera donc une croûte assez épaisse dans un vaste secteur sud. Seuls les versants nord d'altitude conservent une neige froide en surface. En journée, la neige s'humidifie rapidement au soleil. Elle ne reste sèche que dans les versants nord restant à l'ombre au-dessus de 2300/2400m. Quelques cols et crêtes restent en neige très dure voire en glace à haute altitude. ]]></TEXTE>
+Qualité de la neige :
+Conditions printanières avec un bon regel portant jeudi matin sauf en forêt. En journée, reprise de l’humidification avec la neige récente qui s'humidifie rapidement au soleil. Encore de rares endroits en neige sèche et plus légère dans les versants nord raides ou à l'ombre au-dessus de 2300/2400m. Les cols et crêtes restent en neige plus dure et sous souvent moins garnis en neige.]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-04-14T00:00:00" LimiteSud="1300" LimiteNord="1100">
-    <NIVEAU ALTI="1500" N="10" S="5"/>
-    <NIVEAU ALTI="2000" N="215" S="95"/>
-    <NIVEAU ALTI="2500" N="335" S="215"/>
+  <ENNEIGEMENT DATE="2026-04-15T00:00:00" LimiteSud="1700" LimiteNord="1500">
+    <NIVEAU ALTI="1500" N="5" S="0"/>
+    <NIVEAU ALTI="2000" N="210" S="90"/>
+    <NIVEAU ALTI="2500" N="330" S="210"/>
     <ImageEnneigement>montagne_enneigement_72.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-04-10T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-04-11T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-04-12T00:00:00" SS24Min="8" SS24Max="12"/>
     <NEIGE24H DATE="2026-04-13T00:00:00" SS24Min="0" SS24Max="5"/>
     <NEIGE24H DATE="2026-04-14T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-04-15T00:00:00" SS24Min="0" SS24Max="0"/>
+    <NEIGE24H DATE="2026-04-16T00:00:00" SS24Min="0" SS24Max="0"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_72.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="2000" ALTITUDEVENT2="3000">
-    <COMMENTAIRE>Grand beau puis arrivée de nuages en soirée par l'ouest</COMMENTAIRE>
-    <ECHEANCE DATE="2026-04-15T06:00:00" FF1="20" DD1="N" FF2="35" DD2="N" ISO0="2600" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-04-15T12:00:00" FF1="15" DD1="N" FF2="25" DD2="N" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-04-15T18:00:00" FF1="15" DD1="N" FF2="25" DD2="N" ISO0="3100" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-04-16T00:00:00" FF1="10" DD1="N" FF2="20" DD2="N" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="3" MERNUAGES="-1"/>
+    <COMMENTAIRE>Belle journée douce et ensoleillée avec tout au plus quelques nuages l'après-midi. Vent d'ouest à nord-ouest souvent peu sensible.</COMMENTAIRE>
+    <ECHEANCE DATE="2026-04-16T06:00:00" FF1="20" DD1="O" FF2="30" DD2="NO" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-04-16T12:00:00" FF1="15" DD1="N" FF2="25" DD2="NO" ISO0="3300" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-04-16T18:00:00" FF1="15" DD1="N" FF2="25" DD2="O" ISO0="3300" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-04-17T00:00:00" FF1="15" DD1="SO" FF2="30" DD2="NO" ISO0="3400" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_72.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-04-08T06:00:00" FF1="15" DD1="S" FF2="25" DD2="S" ISO0="3500" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
-      <ECHEANCE DATE="2026-04-08T12:00:00" FF1="20" DD1="S" FF2="30" DD2="S" ISO0="3300" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
-      <ECHEANCE DATE="2026-04-08T18:00:00" FF1="20" DD1="N" FF2="30" DD2="SO" ISO0="3300" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
-      <ECHEANCE DATE="2026-04-09T00:00:00" FF1="10" DD1="SO" FF2="20" DD2="SO" ISO0="3300" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
       <ECHEANCE DATE="2026-04-09T06:00:00" FF1="10" DD1="SO" FF2="15" DD2="SO" ISO0="3400" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-04-09T12:00:00" FF1="15" DD1="NO" FF2="20" DD2="O" ISO0="3300" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-04-09T18:00:00" FF1="20" DD1="NO" FF2="30" DD2="O" ISO0="3300" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
@@ -110,13 +96,12 @@ Au matin, le regel devrait être très efficace. On trouvera donc une croûte as
       <ECHEANCE DATE="2026-04-14T12:00:00" FF1="25" DD1="NE" FF2="50" DD2="N" ISO0="1600" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-04-14T18:00:00" FF1="25" DD1="N" FF2="50" DD2="N" ISO0="2000" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-04-15T00:00:00" FF1="20" DD1="N" FF2="45" DD2="N" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
+      <ECHEANCE DATE="2026-04-15T06:00:00" FF1="20" DD1="N" FF2="35" DD2="N" ISO0="2600" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
+      <ECHEANCE DATE="2026-04-15T12:00:00" FF1="15" DD1="N" FF2="25" DD2="N" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
+      <ECHEANCE DATE="2026-04-15T18:00:00" FF1="15" DD1="N" FF2="25" DD2="N" ISO0="3100" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
+      <ECHEANCE DATE="2026-04-16T00:00:00" FF1="15" DD1="N" FF2="25" DD2="N" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-04-08T00:00:00" LimiteSud="1600" LimiteNord="1500">
-        <NIVEAU ALTI="1500" N="5" S="0"/>
-        <NIVEAU ALTI="2000" N="220" S="115"/>
-        <NIVEAU ALTI="2500" N="340" S="235"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-04-09T00:00:00" LimiteSud="1800" LimiteNord="1400">
         <NIVEAU ALTI="1500" N="5" S="0"/>
         <NIVEAU ALTI="2000" N="220" S="100"/>
@@ -147,23 +132,28 @@ Au matin, le regel devrait être très efficace. On trouvera donc une croûte as
         <NIVEAU ALTI="2000" N="215" S="95"/>
         <NIVEAU ALTI="2500" N="335" S="215"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-04-15T00:00:00" LimiteSud="1700" LimiteNord="1500">
+        <NIVEAU ALTI="1500" N="5" S="0"/>
+        <NIVEAU ALTI="2000" N="210" S="90"/>
+        <NIVEAU ALTI="2500" N="330" S="210"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-04-09T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-04-10T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-04-11T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-04-12T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-04-13T00:00:00" SS24Min="8" SS24Max="12"/>
       <NEIGE24H DATE="2026-04-14T00:00:00" SS24Min="0" SS24Max="5"/>
+      <NEIGE24H DATE="2026-04-15T00:00:00" SS24Min="0" SS24Max="0"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-04-08T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-09T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-10T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-11T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-04-12T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-13T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-04-14T00:00:00" RISQUEMAXI="2"/>
+      <RISQUE DATE="2026-04-15T00:00:00" RISQUEMAXI="2"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_72.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_72.png</Image7derniersjours_portrait>

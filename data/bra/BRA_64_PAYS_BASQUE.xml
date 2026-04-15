@@ -1,78 +1,74 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="64" MASSIF="Pays-Basque" DATEBULLETIN="2026-04-14T16:00:00" DATEECHEANCE="2026-04-15T18:00:00" DATEVALIDITE="2026-04-15T18:00:00" DATEDIFFUSION="2026-04-14T15:53:00" AMENDEMENT="false">
-  <DateValidite>2026-04-15T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="64" MASSIF="Pays-Basque" DATEBULLETIN="2026-04-15T16:00:00" DATEECHEANCE="2026-04-16T18:00:00" DATEVALIDITE="2026-04-16T18:00:00" DATEDIFFUSION="2026-04-15T16:11:00" AMENDEMENT="false">
+  <DateValidite>2026-04-16T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="1" EVOLURISQUE1="2" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="2" COMMENTAIRE="Indice de risque faible évoluant en limité." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-04-16T00:00:00"/>
-    <PENTE NE="true" E="true" SE="true" S="true" SW="true" W="true" NW="true" N="true" COMMENTAIRE="Neige humide"/>
-    <ACCIDENTEL><![CDATA[Difficiles]]></ACCIDENTEL>
-    <NATUREL><![CDATA[Au fil de l'ensoleillement, petits à moyens]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : Au fil de l'ensoleillement, petits à moyens
-Déclenchements skieurs : Difficiles]]></RESUME>
+    <RISQUE RISQUE1="1" EVOLURISQUE1="2" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="2" COMMENTAIRE="Indice de risque faible évoluant en limité." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-04-17T00:00:00"/>
+    <PENTE NE="true" E="true" SE="true" S="true" SW="true" W="true" NW="true" N="true" COMMENTAIRE="Humidification"/>
+    <ACCIDENTEL><![CDATA[Difficiles.]]></ACCIDENTEL>
+    <NATUREL><![CDATA[Dans la neige humide au fil de l'ensoleillement.]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : Dans la neige humide au fil de l'ensoleillement.
+Déclenchements skieurs : Difficiles.]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque limité]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Maintien de conditions printanières avec un bon regel.]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Risque stationnaire. Poursuite de l'humidification en profondeur avec la douceur ambiante.]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_64.png</ImageRisque>
     <ImagePente>rose_pentes_64.png</ImagePente>
   </CARTOUCHERISQUE>
   <STABILITE>
-    <SitAvalTyp SAT1="4" SAT2=""/>
-    <TITRE><![CDATA[Conditions de printemps]]></TITRE>
+    <SitAvalTyp SAT1="4" SAT2="5"/>
+    <TITRE><![CDATA[Poursuite de l'humidification.]]></TITRE>
     <TEXTESANSTITRE><![CDATA[Départs spontanés :
-Pas d'activité en début de matinée à la faveur d'un bon regel. Ensuite, principalement des départs ponctuels de petite taille, rarement moyenne dans la neige récente, au fil de l'ensoleillement. Une plus grande par départ d'une avalanche de fond peut se produire dans l'après-midi, partant en général d'une fissure déjà ouverte, dans une zone d'accumulation (plus fréquentes en expositions est à nord-ouest).
+L'activité avalancheuse reste limitée tôt le matin par un bon regel. Puis, des départs ponctuels dans la neige humide sont attendus dans les pentes raides des versants au fil de la journée et de l'ensoleillement. De petites avalanches (taille 1), voire parfois des moyennes (taille 2) sont possibles d'abord des versants Est à Sud le matin, puis rapidement des versants Sud à Ouest dans la journée. De grandes avalanches (taille 3) restent possibles lors du départ d'une avalanche de fond, partant préférentiellement près des fissures et des reptations, notamment dans les zones d'accumulation les plus importantes au plus haut du massif.
 
 Déclenchements provoqués :
-Le passage d'un skieur dans la neige très humide peut favoriser un départ ponctuel.
-Les rares plaques qui ont pu se former lors des chutes de neige entre samedi et lundi sont probablement toutes détruites. S'il en reste, c'est au plus haut du massif, dans une combe nord très encaissée, de faible épaisseur.
+Les rares plaques qui ont pu se former lors des chutes de neige précédentes sont probablement maintenant détruites. S'il en reste, elles se situent dans les pentes raides des versants ombragés (Nord-Ouest au Nord-Est) au plus haut du massif. De petites avalanches (taille 1), parfois des moyennes (taille 2) sont alors possibles lors de leur déclenchement par un skieur.
+Un skieur peut déclencher des départs ponctuels dans la neige humide et dans les pentes raides des versants au fil de la journée et de l'ensoleillement. Un bon regel devrait limiter cette activité tôt le matin, mais concernera ensuite préférentiellement les versants Est à Sud le matin, puis les versants Sud à Ouest en journée. De petites avalanches (taille 1), parfois des moyennes (taille 2) sont possibles.
 
 Autres :
-Neige dure et glissante au petit matin. Avec le retour de températures printanières, les corniches et pont de neige deviennent à nouveau très fragiles à partir de la fin de matinée.]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[Conditions de printemps
+Neige dure et glissante au petit matin. Avec la douceur ambiante, les corniches et pont de neige deviennent à nouveau très fragiles.]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[Poursuite de l'humidification.
 
 Départs spontanés :
-Pas d'activité en début de matinée à la faveur d'un bon regel. Ensuite, principalement des départs ponctuels de petite taille, rarement moyenne dans la neige récente, au fil de l'ensoleillement. Une plus grande par départ d'une avalanche de fond peut se produire dans l'après-midi, partant en général d'une fissure déjà ouverte, dans une zone d'accumulation (plus fréquentes en expositions est à nord-ouest).
+L'activité avalancheuse reste limitée tôt le matin par un bon regel. Puis, des départs ponctuels dans la neige humide sont attendus dans les pentes raides des versants au fil de la journée et de l'ensoleillement. De petites avalanches (taille 1), voire parfois des moyennes (taille 2) sont possibles d'abord des versants Est à Sud le matin, puis rapidement des versants Sud à Ouest dans la journée. De grandes avalanches (taille 3) restent possibles lors du départ d'une avalanche de fond, partant préférentiellement près des fissures et des reptations, notamment dans les zones d'accumulation les plus importantes au plus haut du massif.
 
 Déclenchements provoqués :
-Le passage d'un skieur dans la neige très humide peut favoriser un départ ponctuel.
-Les rares plaques qui ont pu se former lors des chutes de neige entre samedi et lundi sont probablement toutes détruites. S'il en reste, c'est au plus haut du massif, dans une combe nord très encaissée, de faible épaisseur.
+Les rares plaques qui ont pu se former lors des chutes de neige précédentes sont probablement maintenant détruites. S'il en reste, elles se situent dans les pentes raides des versants ombragés (Nord-Ouest au Nord-Est) au plus haut du massif. De petites avalanches (taille 1), parfois des moyennes (taille 2) sont alors possibles lors de leur déclenchement par un skieur.
+Un skieur peut déclencher des départs ponctuels dans la neige humide et dans les pentes raides des versants au fil de la journée et de l'ensoleillement. Un bon regel devrait limiter cette activité tôt le matin, mais concernera ensuite préférentiellement les versants Est à Sud le matin, puis les versants Sud à Ouest en journée. De petites avalanches (taille 1), parfois des moyennes (taille 2) sont possibles.
 
 Autres :
-Neige dure et glissante au petit matin. Avec le retour de températures printanières, les corniches et pont de neige deviennent à nouveau très fragiles à partir de la fin de matinée.]]></TEXTE>
+Neige dure et glissante au petit matin. Avec la douceur ambiante, les corniches et pont de neige deviennent à nouveau très fragiles.]]></TEXTE>
   </STABILITE>
   <QUALITE>
-    <TEXTE><![CDATA[Enneigement : L'enneigement est bon pour la saison, débutant vers 1500m en nord, 1900m en sud. 
-État de la neige : Neige bien regelée le matin, s'humidifiant progressivement au soleil. Quelques accumulations de neige sèche peuvent encore persister dans une combe nord bien ombragée.]]></TEXTE>
+    <TEXTE><![CDATA[Enneigement : L'enneigement est plutôt bon pour la saison, débutant vers 1600m en nord, et 1950m environ en sud. Cette limite d'enneigement tend à remonter progressivement avec la douceur ambiante et le soleil.
+État de la neige : Neige bien regelée le matin, s'humidifiant progressivement au fil de la journée et de la douceur ambiante. Quelques accumulations de neige sèche peuvent persister dans les pentes raides des versants ombragés (Nord-Ouest à Nord-Est).]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-04-14T00:00:00" LimiteSud="1900" LimiteNord="1500">
+  <ENNEIGEMENT DATE="2026-04-15T00:00:00" LimiteSud="1950" LimiteNord="1600">
     <NIVEAU ALTI="1000" N="0" S="0"/>
-    <NIVEAU ALTI="1500" N="2" S="0"/>
-    <NIVEAU ALTI="2000" N="175" S="75"/>
+    <NIVEAU ALTI="1500" N="0" S="0"/>
+    <NIVEAU ALTI="2000" N="170" S="65"/>
     <ImageEnneigement>montagne_enneigement_64.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-04-10T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-04-11T00:00:00" SS24Min="3" SS24Max="10"/>
     <NEIGE24H DATE="2026-04-12T00:00:00" SS24Min="5" SS24Max="10"/>
     <NEIGE24H DATE="2026-04-13T00:00:00" SS24Min="2" SS24Max="8"/>
     <NEIGE24H DATE="2026-04-14T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-04-15T00:00:00" SS24Min="0" SS24Max="0"/>
+    <NEIGE24H DATE="2026-04-16T00:00:00" SS24Min="0" SS24Max="0"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_64.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="1000" ALTITUDEVENT2="2000">
-    <COMMENTAIRE>Bien ensoleillé, développemnt de quelques nuages accrochant parfois le relief en fin d'après-midi. Nuit dégagée permettant le regel</COMMENTAIRE>
-    <ECHEANCE DATE="2026-04-15T06:00:00" FF1="10" DD1="N" FF2="35" DD2="NE" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-04-15T12:00:00" FF1="15" DD1="NE" FF2="25" DD2="NE" ISO0="3300" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-04-15T18:00:00" FF1="20" DD1="N" FF2="20" DD2="N" ISO0="3300" PLUIENEIGE="-1" TEMPSSENSIBLE="3" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-04-16T00:00:00" FF1="15" DD1="NE" FF2="20" DD2="E" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="3" MERNUAGES="-1"/>
+    <COMMENTAIRE>Grand soleil le matin, quelques développements nuageux sous 2000m l'après-midi et sans incidence. Temps sec et douceur.</COMMENTAIRE>
+    <ECHEANCE DATE="2026-04-16T06:00:00" FF1="5" DD1="NE" FF2="15" DD2="E" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-04-16T12:00:00" FF1="5" DD1="NE" FF2="15" DD2="SO" ISO0="3400" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-04-16T18:00:00" FF1="5" DD1="NE" FF2="15" DD2="SO" ISO0="3500" PLUIENEIGE="-1" TEMPSSENSIBLE="2" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-04-17T00:00:00" FF1="5" DD1="NE" FF2="10" DD2="O" ISO0="3300" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_64.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-04-08T06:00:00" FF1="5" DD1="S" FF2="15" DD2="NE" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-04-08T12:00:00" FF1="5" DD1="N" FF2="10" DD2="SE" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-04-08T18:00:00" FF1="0" DD1="S" FF2="10" DD2="S" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
-      <ECHEANCE DATE="2026-04-09T00:00:00" FF1="0" DD1="Vrb" FF2="10" DD2="E" ISO0="3300" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-04-09T06:00:00" FF1="5" DD1="N" FF2="10" DD2="NE" ISO0="3100" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-04-09T12:00:00" FF1="5" DD1="N" FF2="15" DD2="Vrb" ISO0="3100" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
       <ECHEANCE DATE="2026-04-09T18:00:00" FF1="10" DD1="N" FF2="25" DD2="N" ISO0="3300" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
@@ -97,13 +93,12 @@ Neige dure et glissante au petit matin. Avec le retour de températures printani
       <ECHEANCE DATE="2026-04-14T12:00:00" FF1="20" DD1="N" FF2="40" DD2="N" ISO0="1800" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
       <ECHEANCE DATE="2026-04-14T18:00:00" FF1="30" DD1="N" FF2="35" DD2="N" ISO0="2600" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
       <ECHEANCE DATE="2026-04-15T00:00:00" FF1="15" DD1="NE" FF2="30" DD2="NE" ISO0="3100" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
+      <ECHEANCE DATE="2026-04-15T06:00:00" FF1="10" DD1="N" FF2="35" DD2="NE" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
+      <ECHEANCE DATE="2026-04-15T12:00:00" FF1="15" DD1="NE" FF2="35" DD2="NE" ISO0="3300" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
+      <ECHEANCE DATE="2026-04-15T18:00:00" FF1="15" DD1="N" FF2="35" DD2="N" ISO0="3400" PLUIENEIGE="2300" TEMPSSENSIBLE="71"/>
+      <ECHEANCE DATE="2026-04-16T00:00:00" FF1="10" DD1="NE" FF2="25" DD2="E" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-04-08T00:00:00" LimiteSud="1800" LimiteNord="1600">
-        <NIVEAU ALTI="1000" N="0" S="0"/>
-        <NIVEAU ALTI="1500" N="0" S="0"/>
-        <NIVEAU ALTI="2000" N="180" S="85"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-04-09T00:00:00" LimiteSud="1800" LimiteNord="1600">
         <NIVEAU ALTI="1000" N="0" S="0"/>
         <NIVEAU ALTI="1500" N="0" S="0"/>
@@ -134,23 +129,28 @@ Neige dure et glissante au petit matin. Avec le retour de températures printani
         <NIVEAU ALTI="1500" N="2" S="0"/>
         <NIVEAU ALTI="2000" N="175" S="75"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-04-15T00:00:00" LimiteSud="2000" LimiteNord="1600">
+        <NIVEAU ALTI="1000" N="0" S="0"/>
+        <NIVEAU ALTI="1500" N="0" S="0"/>
+        <NIVEAU ALTI="2000" N="170" S="65"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-04-09T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-04-10T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-04-11T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-04-12T00:00:00" SS24Min="3" SS24Max="10"/>
       <NEIGE24H DATE="2026-04-13T00:00:00" SS24Min="5" SS24Max="10"/>
       <NEIGE24H DATE="2026-04-14T00:00:00" SS24Min="2" SS24Max="8"/>
+      <NEIGE24H DATE="2026-04-15T00:00:00" SS24Min="0" SS24Max="0"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-04-08T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-09T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-10T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-11T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-12T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-13T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-04-14T00:00:00" RISQUEMAXI="2"/>
+      <RISQUE DATE="2026-04-15T00:00:00" RISQUEMAXI="2"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_64.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_64.png</Image7derniersjours_portrait>

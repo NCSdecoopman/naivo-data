@@ -3,49 +3,61 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-04-14T17:00:00",
-    "valid_until": "2026-04-15T18:00:00",
+    "issued_at": "2026-04-15T16:00:00",
+    "valid_until": "2026-04-16T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Indice de risque limité évoluant en marqué.",
+      "max_level": 2,
+      "comment": "Au-dessus de 2800m indice de risque limité, plus bas indice faible évoluant en limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2800,
+        "split_axis": "horizontal",
+        "split_label": "2800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2800",
+            "risk": 1,
+            "evolution_to": 2,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2800",
             "risk": 2,
-            "evolution_to": 3,
-            "position": null
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2800m"
         },
         "zones": {
-          "center": {
-            "text": "2→3",
-            "risk": 3,
-            "evolution_to": 3
+          "bottom": {
+            "text": "1→2",
+            "risk": 1,
+            "evolution_to": 2
+          },
+          "top": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-16",
+        "date": "2026-04-17",
         "label": "Indice de risque limité",
-        "comment": "Encore quelques nuages et des températures élevées favorisant l'activité en neige humide, risque marqué stationnaire.",
-        "trend": "down"
+        "comment": "Toujours ensoleillé et trop doux, maintient l'activité en neige humide, risque faible évoluant en risque limité, stationnaire.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -78,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-10",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-11",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +113,11 @@
           "date": "2026-04-15",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-16",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "ACTION DU SOLEIL, POURSUITE DE L'HUMIDIFICATION. QUELQUES PLAQUES À LA FRONTIèRE ITALIENNE.",
-      "text": "ACTION DU SOLEIL, POURSUITE DE L'HUMIDIFICATION. QUELQUES PLAQUES À LA FRONTIèRE ITALIENNE.\n\nDéparts spontanés : - Le matin le regel bon par ciel clair réduit et le risque de départs naturels au dessus des nuages matinaux .\n- Quelques avalanches par humidification de la neige récente, après quelques heures d'ensoleillement. L'activité avalancheuse suit la course du soleil, d'abord en versants NE, Est et ensuite Ouest et NO. Ce sont principalement des départs ponctuels (poires), donnant des petites à moyennes avalanches. Une avalanche de neige récente humidifiée peut potentiellement entraîner avec elle la neige pourrie sous-jacente, volumes plus importants. Une rare cassure linéaire (plaque) est également possible, grande avalanche (taille 3), si l'eau de fonte qui percole dans le manteau atteint les couches fragiles enfouies du début de saison. Cette cassure linéaire semble plus probable en versants Est/Nord/Ouest, sous 2700 m.\n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrains propices, notamment en Nord sous 2500/2600 m. Taille 2.\n\nDéclenchements provoqués : \n- En versants froids de haute altitude, quelques plaques encore réactives d'aspect poudreux sont en place, surtout près des crêtes et vers la frontière italienne. Elles deviennent moins réactives au fil des heures.\n- En journée, avalanches de neige humide sous les skis en coupant une pente trop humidifiée au fil des heures. Exceptionnellement une poire peut déclencher en cascade une cassure linéaire et une grande avalanche en sollicitant une couche fragile du début de saison.",
+      "title": "POURSUITE DE L'HUMIDIFICATION SOUS L'EFFET DU SOLEIL. QUELQUES PLAQUES À LA FRONTIèRE ITALIENNE.",
+      "text": "POURSUITE DE L'HUMIDIFICATION SOUS L'EFFET DU SOLEIL. QUELQUES PLAQUES À LA FRONTIèRE ITALIENNE.\n\nDéparts spontanés : - Le matin le regel bon par ciel clair réduit et le risque de départs naturels au dessus des nuages matinaux .\n- Quelques départs en neige humide, qui suivent la course du soleil. Ce sont principalement des départs ponctuels (petites coulées humides), petites à moyennes avalanches. \nRare cassure linéaire (plaque), grande avalanche (taille 3), si l'eau de fonte qui percole dans le manteau atteint les couches fragiles enfouies du début de saison. Cette cassure linéaire semble plus probable en versants Est/Nord/Ouest, sous 2700 m.\n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrains propices, notamment en Nord sous 2500/2600 m. Taille 2.\n\nDéclenchements provoqués : \n- En versants froids au dessus de 2800 m, quelques plaques encore réactives d'aspect poudreux sont en place, surtout près des crêtes et vers la frontière italienne. Elles deviennent moins réactives au fil des heures.\n- En journée, avalanches de neige humide sous les skis en coupant une pente trop humidifiée au fil des heures. Exceptionnellement une petite coulée peut déclencher en cascade une cassure linéaire, grande avalanche, en sollicitant une couche fragile du début de saison.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours, le chauffage et la présence des nuages accélèrent la fonte.\n\nLimite skiable : vers 1400 m en Nord, 1800/1900 m en Sud.\n\nQualité de la neige : Bon regel le matin par ciel clair, neige croûtée dans une majorité de pente et d'orientation. Sous l'action du soleil la croûte s'humidifie progressivement, la neige botte facilement. En versants nord de haute altitude on peut encore trouver un peu de poudreuse dense par endroit.",
+      "text": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours, le chauffage et la présence des nuages accélèrent la fonte.\n\nLimite skiable : vers 1500 m en Nord, 1800/1900 m en Sud.\n\nQualité de la neige : Bon regel le matin par ciel clair, neige croûtée dans une majorité de pente et d'orientation. Sous l'action du soleil la croûte s'humidifie progressivement, la neige botte facilement. En versants froids partir de 2800m, poudreuse dense.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +144,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 5,
+          "N": 0,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 80,
+          "N": 75,
           "S": 15
         },
         {
           "alt_m": 2500,
-          "N": 165,
-          "S": 125
+          "N": 160,
+          "S": 120
         }
       ],
       "icon_key": "snowpack",
