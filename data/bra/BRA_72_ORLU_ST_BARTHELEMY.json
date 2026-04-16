@@ -3,30 +3,30 @@
   "massif": "Orlu St-Barthelemy",
   "bulletin": {
     "id": 72,
-    "issued_at": "2026-04-15T16:00:00",
-    "valid_until": "2026-04-16T18:00:00",
+    "issued_at": "2026-04-16T16:00:00",
+    "valid_until": "2026-04-17T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2300m indice de risque limité, plus bas indice faible évoluant en limité.",
+      "comment": "Au-dessus de 2400m indice de risque limité, plus bas indice faible évoluant en limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2300,
+        "threshold_m": 2400,
         "split_axis": "horizontal",
-        "split_label": "2300m",
+        "split_label": "2400m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2300",
+            "loc": "<2400",
             "risk": 1,
             "evolution_to": 2,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2300",
+            "loc": ">2400",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2300m"
+          "label": "2400m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-17",
+        "date": "2026-04-18",
         "label": "Indice de risque limité",
-        "comment": "Peu d'évolution de la situation nivo-météorologique avec un nouveau cycle de gel-dégel et la poursuite de l'humidification progressive.",
+        "comment": "Peu d'évolution et activité principalement en neige humide avec des averses samedi après-midi.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-11",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-12",
           "min_cm": 8,
           "max_cm": 12
@@ -118,6 +113,11 @@
           "date": "2026-04-16",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-17",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,19 +127,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Activité en neige humide en journée avec l'ensoleillement, encore des plaques en altitude.",
-      "text": "Activité en neige humide en journée avec l'ensoleillement, encore des plaques en altitude.\n\nDéparts spontanés :\n- Peu probable en début de journée grâce à un regel efficace. Au fil de la journée, dans les pentes ensoleillées, des départs spontanés d'avalanches de taille petite à moyenne sont attendus avec la douceur et l'ensoleillement. Ces départs emportent la neige récente, et dans de rares cas des couches plus anciennes avec une éventuelle avalanche de moyenne, voire grande taille. \n- De nombreuses reptations sont également visibles et signes avant-coureurs de potentielles avalanches de glissement pouvant emporter l'ensemble du manteau neigeux.\n\nDéclenchements provoqués :\n- Avalanches de plaques, encore déclenchables par un pratiquant, sur Orlu et au-dessus de 2300/2400m. Des accumulations en neige récente non encore humidifiée subsistent par endroits, plutôt à proximité des crêtes et dans les secteurs ombragés. Ces plaques peu épaisses et plus ou moins friables se sont formées ces derniers jours avec le vent de nord. Les accumulations de neige ventée reposent sur une couche de neige tombée sans vent. Observables : signe de transport de neige par le vent avec de la neige de surface changeante, fissures devant les skis.\n- Par ailleurs, dans les secteurs en neige humide, un skieur coupant une pente raide pourra également déclencher une coulée sous ses skis.\n\nAutre : Des corniches, parfois imposantes, sont en place et sont susceptibles de céder spontanément.",
+      "title": "Humidification qui progresse en journée ; rares instabilités en neige sèche en altitude",
+      "text": "Humidification qui progresse en journée ; rares instabilités en neige sèche en altitude\n\nDéparts spontanés :\n- Peu probable en tout début de journée grâce à un regel efficace. Au fil de la journée, dans les pentes ensoleillées, des départs spontanés d'avalanches de taille petite à moyenne sont attendus avec la douceur et l'ensoleillement. Ces départs emportent la neige récente, et dans de rares cas des couches plus anciennes avec une éventuelle avalanche de moyenne, voire grande taille. \n- De nombreuses reptations sont également visibles et signes avant-coureurs de potentielles avalanches de glissement pouvant emporter l'ensemble du manteau neigeux.\n\nDéclenchements provoqués :\n- Avalanches de plaques, encore déclenchables par un pratiquant, sur Orlu et au-dessus de 2400/2500 m. Des accumulations en neige récente non encore humidifiée deviennent rares mais peuvent subsister en altitude dans les versants raides et ombragés. Ces plaques peu épaisses se sont formés avec le transport de neige par le vent des derniers jours. Observables : signe de transport de neige par le vent avec de la neige de surface changeante, fissures devant les skis.\n- Par ailleurs, un skieur coupant une pente raide déjà humidifiée pourra déclencher une coulée sous ses skis, mobilisant parfois de bonnes quantités de neige humide. \n\nAutre : Des corniches encore imposantes sont en place et sont susceptibles de céder spontanément avec le redoux.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nExcellent, parmi un des meilleurs des 30 dernières années. Avec le redoux et le soleil, la limite skiable remonte vers 1500 m en nord et 1700 m voire 1800 m en sud pour trouver une sous-couche. L’épaisseur de neige augmente rapidement et dépasse souvent les 2m dès 1900/200m, et 3 à 4 m vers 2500m.\n\nQualité de la neige :\nConditions printanières avec un bon regel portant jeudi matin sauf en forêt. En journée, reprise de l’humidification avec la neige récente qui s'humidifie rapidement au soleil. Encore de rares endroits en neige sèche et plus légère dans les versants nord raides ou à l'ombre au-dessus de 2300/2400m. Les cols et crêtes restent en neige plus dure et sous souvent moins garnis en neige.",
+      "text": "Enneigement : \nExcellent, parmi un des meilleurs des 30 dernières années. Avec le redoux et le soleil, la limite skiable remonte de jour en jour, surtout en sud. Elle est encore au mieux vers 1500 m en nord et 1800 à 2000 m en sud. On trouve ensuite rapidement une bonne épaisseur de neige qui dépasse souvent les 2 m dès 2000/2200 m, et les 3 m dès 2500m.\n\nQualité de la neige :\nVendredi matin, regel bien efficace et portant dès 1800/2000 m, parfois moins bon plus bas et dans la forêt. En journée, reprise de l’humidification avec la neige qui s'humidifie au soleil, plus rapidement si la couche ocre est visible, avec de la neige lourde et humide dès la mi-journée. De rares endroits peuvent encore rester en neige sèche et plus légère dans les versants nord raides ou à l'ombre au-dessus de 2400/2500m. Les cols et crêtes ouest à nord-ouest sous souvent moins garnis en neige.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1500,
-        "south": 1700
+        "south": 1800
       },
       "levels_cm": [
         {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 210,
-          "S": 90
+          "N": 200,
+          "S": 80
         },
         {
           "alt_m": 2500,
-          "N": 330,
-          "S": 210
+          "N": 310,
+          "S": 200
         }
       ],
       "icon_key": "snowpack",

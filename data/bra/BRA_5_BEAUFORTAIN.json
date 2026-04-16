@@ -3,8 +3,8 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-04-15T16:00:00",
-    "valid_until": "2026-04-16T18:00:00",
+    "issued_at": "2026-04-16T17:00:00",
+    "valid_until": "2026-04-17T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-17",
+        "date": "2026-04-18",
         "label": "Indice de risque limité",
-        "comment": "Toujours ensoleillé et trop doux, maintient l'activité en neige humide, risque faible évoluant en risque limité, stationnaire.",
+        "comment": "Très peu d'évolution à attendre, le printemps se poursuit et il convient de \"tenir l'horaire\".",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-11",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-12",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-04-16",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-17",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "POURSUITE DE L'HUMIDIFICATION SOUS L'EFFET DU SOLEIL.",
-      "text": "POURSUITE DE L'HUMIDIFICATION SOUS L'EFFET DU SOLEIL.\n\nDéparts spontanés : - Mer de nuages vers 2000 m la nuit jusqu'au matin : au dessus bon regel par ciel clair, risque réduit. Pas de regel dans les nuages, rares départs en neige humide, petite avalanche.\n- rares départs en neige humide qui suivent la course du soleil, d'abord en versants NE, Est et ensuite Ouest et NO. Petites à moyennes avalanches. \nExceptionnellement, une cassure linéaire plus volumineuse peut partir si l'humidification atteint pour la première fois une couche fragile enfouie. \n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrains propices, notamment en Nord sous 2500/2600 m. Taille 2.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée au fil des heures.\n\nAutres : chutes de corniches possibles.",
+      "title": "CONDITIONS DE PRINTEMPS, LA NEIGE TRANSFORME VITE EN JOURNÉE SOUS LA CHALEUR HORS-NORME.",
+      "text": "CONDITIONS DE PRINTEMPS, LA NEIGE TRANSFORME VITE EN JOURNÉE SOUS LA CHALEUR HORS-NORME.\n\nDéparts spontanés :\n- Rares avalanches de neige humide dans les pentes ensoleillées au fil de la journée. Ce sont généralement des départs ponctuels (poires), donnant de petites à moyennes avalanches. Avec l'avancée dans la saison, les pentes Sud deviennent relativement inertes avec une neige transformée sur toute l'épaisseur du manteau. Par contre, dans les versants Est, Nord et Ouest, l'humidification gagne des couches plus profondes et, si une couche fragile est atteinte, un départ linéaire est possible. On peut alors s'attendre, très exceptionnellement, à une taille 3 (grande).\n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrains propices, notamment en Nord sous 2500/2600 m. Taille 2.\n\nDéclenchements provoqués :  peu probables sauf avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours, le chauffage et la présence des nuages accélèrent la fonte.\n\nLimite skiable : vers 1300/1400 m en Nord, 1600/1700 m en Sud.\n\nQualité de la neige : La nuit et le matin sous la mer de nuages, pas de regel et neige pourrie.\nAu dessus de la mer de nuages, bon regel et neige croûtée le matin, moquette au soleil devenant profondément pourrie après avoir trop chauffé. En secteur nord la neige devient collante après quelques heures.",
+      "text": "Enneigement : à peine correct pour la saison, la montagne subit les assauts répétés de la chaleur excessive...\n\nLimite skiable : vers 1300/1400 m en Nord, 1600/1700 m en Sud.\n\nQualité de la neige : bon regel. Neige de printemps à peu près partout. Les pentes Est chauffent très vite le matin. Possibilité de faire du très bon ski en trouvant le créneau de \"moquette\".",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -132,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 45,
+          "N": 40,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 155,
-          "S": 75
+          "N": 150,
+          "S": 70
         },
         {
           "alt_m": 2500,
-          "N": 210,
-          "S": 155
+          "N": 200,
+          "S": 150
         }
       ],
       "icon_key": "snowpack",

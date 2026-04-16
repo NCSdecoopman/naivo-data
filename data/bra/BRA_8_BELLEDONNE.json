@@ -3,60 +3,48 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-04-15T16:00:00",
-    "valid_until": "2026-04-16T18:00:00",
+    "issued_at": "2026-04-16T17:00:00",
+    "valid_until": "2026-04-17T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2000m indice de risque faible évoluant en limité, plus bas indice limité.",
+      "comment": "Indice de risque faible évoluant en limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2000,
-        "split_axis": "horizontal",
-        "split_label": "2000m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2000",
+            "loc": null,
             "risk": 1,
             "evolution_to": 2,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2000m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
+          "center": {
             "text": "1→2",
-            "risk": 1,
+            "risk": 2,
             "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-17",
+        "date": "2026-04-18",
         "label": "Indice de risque limité",
-        "comment": "Vendredi, risque sans grande évolution. Regel nocturne souvent meilleur (ciel plus dégagé), et nouvelle journée très douce et ensoleillée avec quelques voiles par moments et des cumulus l'après-midi. Isotherme 0°C vers 3300m.",
+        "comment": "Pas d'évolution, le manteau poursuit son humidification.",
         "trend": "steady"
       }
     },
@@ -90,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-11",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-12",
           "min_cm": 0,
           "max_cm": 2
@@ -118,6 +101,11 @@
           "date": "2026-04-16",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-17",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "POURSUITE DE L'HUMIDIFICATION, MÊME EN NORD : AVALANCHES HUMIDES POSSIBLES, TRÈS LOCALEMENT VOLUMINEUSES.",
-      "text": "POURSUITE DE L'HUMIDIFICATION, MÊME EN NORD : AVALANCHES HUMIDES POSSIBLES, TRÈS LOCALEMENT VOLUMINEUSES.\n\nDéparts spontanés : Au-dessus de la mer de nuages qui peut encore être présente sous 2000 m environ jusqu'à jeudi matin, ils sont assez peu probables au lever du jour avec le bon regel attendu sous ciel dégagé, mais plus bas si la nébulosité est forte, le regel nocturne est souvent absent et la neige poursuit son humidification. Ainsi, des avalanches de neige humide sont possibles à toute heure sous les nuages, puis au fil de la journée également dans les versants bien exposés au soleil et/ou sous les cumulus. Généralement de taille 1 à 2 (petite à moyenne), on ne peut cependant exclure une rare taille 3 (grande) dans un versant d'un large Nord. Dans certaines pentes herbeuses / secteurs de reptation, une avalanche de glissement n'est pas exclue à tout moment de la journée ou de la nuit. Enfin vers les hautes crêtes, un effondrement spontané de corniche n'est pas exclu. A noter que si les faces d'un large Sud sont également très humides, elles sont en neige plus dense/transformée, et le risque d'avalanche volumineuse y est moindre. \n\nDéclenchements provoqués : Le principal risque pour le pratiquant est de faire couler la neige humide sous les skis, dans une pente raide où la neige est humidifiée jusqu'en profondeur.\n\nAutres : Bon regel par endroits le matin vers le haut du massif là où le ciel aura été dégagé, avec une neige parfois croutée. En journée neige très humide à \"soupe\" selon le versant/l'altitude, ski parfois difficile...",
+      "title": "POURSUITE DE L'HUMIDIFICATION DU MANTEAU : QUELQUES DÉPARTS POSSIBLES, PARFOIS AU TERRAIN ET TRÈS LOCALEMENT VOLUMINEUX.",
+      "text": "POURSUITE DE L'HUMIDIFICATION DU MANTEAU : QUELQUES DÉPARTS POSSIBLES, PARFOIS AU TERRAIN ET TRÈS LOCALEMENT VOLUMINEUX.\n\nDéparts spontanés : Après un bon regel, le risque est faible en matinée puis augmente au fil des heures avec quelques avalanches de neige humide possibles en tous versants. Généralement de taille 1 à 2 (petite à moyenne), on ne peut cependant exclure une rare taille 3 (grande) dans un versant d'un large Nord. Par ailleurs, dans certaines pentes herbeuses / secteurs de reptation, une avalanche de glissement n'est pas exclue. Enfin vers les hautes crêtes, un effondrement spontané de corniche n'est pas exclu. A noter que si les faces d'un large Sud sont également très humides, elles sont en neige plus dense/transformée, et le risque d'avalanche volumineuse y est moindre. \n\nDéclenchements provoqués : Le principal risque pour le pratiquant est de faire couler la neige humide sous les skis, dans une pente raide où la neige est humidifiée jusqu'en profondeur. Ce risque est plutot présent l'après-midi.\n\nAutres : Neige très humide à \"soupe\" selon le versant/l'altitude, ski parfois difficile...",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est bien dégradé réduit depuis une dizaine de jours mais reste assez important en faces peu ensoleillées et en combes d'altitude....\nLimites skiables : Vers 1400m en Nord à 1800/2100m suivant l'exposition, la raideur de la pente...\n\nQualité de la neige jeudi :  Neige humide, parfois croûtée au petit matin sur le haut du massif au-dessus de la mer de nuages, tandis que dans la couche nuageuse, le regel nocturne est souvent absent. La neige poursuit son humidification en profondeur, dans les versants exposés au soleil, mais aussi dans tous les versants concernés par des nuages (effet \"cocotte-minute\" sous les cumulus de l'après-midi). En Sud, neige de printemps déjà très densifiée.",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est bien dégradé réduit depuis une dizaine de jours mais reste assez important en faces peu ensoleillées et en combes d'altitude....\nLimites skiables : Vers 1500m en Nord à 1800/2200m suivant l'exposition, la raideur de la pente...\n\nQualité de la neige vendredi :  Après un bon regel, neige dure voire croitée en matinée et surface glacées. L'après-midi, la neige poursuit son humidification en profondeur, dans les versants exposés au soleil, mais aussi dans les versants Nords de moyenne montagne. En Sud, neige de printemps déjà très densifiée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -144,18 +132,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 25,
+          "N": 20,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 220,
-          "S": 75
+          "N": 215,
+          "S": 70
         },
         {
           "alt_m": 2500,
           "N": 300,
-          "S": 170
+          "S": 165
         }
       ],
       "icon_key": "snowpack",

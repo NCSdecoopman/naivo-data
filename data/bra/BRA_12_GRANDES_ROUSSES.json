@@ -3,8 +3,8 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-04-15T16:00:00",
-    "valid_until": "2026-04-16T18:00:00",
+    "issued_at": "2026-04-16T17:00:00",
+    "valid_until": "2026-04-17T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-17",
+        "date": "2026-04-18",
         "label": "Indice de risque limité",
-        "comment": "Vendredi, risque sans grande évolution. Assez bon regel nocturne (ciel dégagé), et nouvelle journée très douce et ensoleillée avec quelques voiles par moments et des cumulus l'après-midi. Isotherme 0°C vers 3300m.",
+        "comment": "Pas d'évolution, le manteau poursuit son humidification.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-11",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-12",
           "min_cm": 0,
           "max_cm": 1
@@ -106,6 +101,11 @@
           "date": "2026-04-16",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-17",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,35 +115,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "POURSUITE DE L'HUMIDIFICATION, MÊME EN NORD : AVALANCHES HUMIDES POSSIBLES, TRÈS LOCALEMENT VOLUMINEUSES.",
-      "text": "POURSUITE DE L'HUMIDIFICATION, MÊME EN NORD : AVALANCHES HUMIDES POSSIBLES, TRÈS LOCALEMENT VOLUMINEUSES.\n\nDéparts spontanés : Au-dessus de la mer de nuages encore présente localement jusqu'à jeudi matin, ils sont assez peu probables au lever du jour avec le bon regel attendu sous ciel dégagé, mais plus bas si la nébulosité est forte, le regel nocturne est souvent absent et la neige poursuit son humidification. Ainsi, des avalanches de neige humide sont possibles à toute heure sous les nuages, puis au fil de la journée également dans les versants bien exposés au soleil et/ou sous les cumulus.  Généralement de taille 1 à 2 (petite à moyenne), on ne peut cependant exclure une rare taille 3 (grande) dans un versant d'un large Nord. Dans certaines pentes herbeuses / secteurs de reptation, une avalanche de glissement n'est pas exclue à tout moment de la journée ou de la nuit. Enfin vers les hautes crêtes, un effondrement spontané de corniche n'est pas exclu. A noter que si les faces d'un large Sud sont également très humides, elles sont en neige plus dense/transformée, et le risque d'avalanche volumineuse y est moindre. \n\nDéclenchements provoqués : Le principal risque pour le pratiquant est de faire couler la neige humide sous les skis, dans une pente raide où la neige est humidifiée jusqu'en profondeur.\n\nAutres : Bon regel par endroits le matin en altitude là où le ciel aura été dégagé, avec une neige parfois croutée. En journée neige très humide à \"soupe\" selon le versant/l'altitude, ski parfois difficile...",
+      "title": "POURSUITE DE L'HUMIDIFICATION DU MANTEAU : QUELQUES DÉPARTS POSSIBLES, PARFOIS AU TERRAIN ET TRÈS LOCALEMENT VOLUMINEUX.",
+      "text": "POURSUITE DE L'HUMIDIFICATION DU MANTEAU : QUELQUES DÉPARTS POSSIBLES, PARFOIS AU TERRAIN ET TRÈS LOCALEMENT VOLUMINEUX.\n\nDéparts spontanés : Après un bon regel, le risque est faible en matinée puis augmente au fil des heures avec quelques avalanches de neige humide possibles en tous versants. Généralement de taille 1 à 2 (petite à moyenne), on ne peut cependant exclure une rare taille 3 (grande) dans un versant d'un large Nord. Par ailleurs, dans certaines pentes herbeuses / secteurs de reptation, une avalanche de glissement n'est pas exclue. Enfin vers les hautes crêtes, un effondrement spontané de corniche n'est pas exclu. A noter que si les faces d'un large Sud sont également très humides, elles sont en neige plus dense/transformée, et le risque d'avalanche volumineuse y est moindre. \n\nDéclenchements provoqués : Le principal risque pour le pratiquant est de faire couler la neige humide sous les skis, dans une pente raide où la neige est humidifiée jusqu'en profondeur. Ce risque est plutot présent l'après-midi.\n\nAutres : Neige très humide à \"soupe\" selon le versant/l'altitude, ski parfois difficile...",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est dégradé depuis une dizaine de jours mais reste assez important en faces peu ensoleillées et en combes d'altitude....\nLimites skiables : Vers 1500m au Nord à 1900/2200m au soleil suivant l'exposition, la raideur de la pente...\n\nQualité de la neige jeudi :  Neige humide, souvent croûtée au petit matin sauf dans la mer de nuages où le regel est souvent absent. La neige poursuit son humidification en profondeur, dans les versants exposés au soleil, mais aussi dans tous les versants concernés par des nuages (effet \"cocotte-minute\" sous les cumulus de l'après-midi). En Sud, neige de printemps déjà très densifiée.",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est bien dégradé réduit depuis une dizaine de jours mais reste assez important en faces peu ensoleillées et en combes d'altitude....\nLimites skiables : Vers 1500m en Nord à 1800/2200m suivant l'exposition, la raideur de la pente...\n\nQualité de la neige vendredi :  Après un bon regel, neige dure voire croitée en matinée et surface glacées. L'après-midi, la neige poursuit son humidification en profondeur, dans les versants exposés au soleil, mais aussi dans les versants Nords de moyenne montagne. En Sud, neige de printemps déjà très densifiée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1500,
+        "north": 1600,
         "south": 2000
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 2,
+          "N": 0,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 150,
-          "S": 5
+          "N": 145,
+          "S": 3
         },
         {
           "alt_m": 2500,
           "N": 205,
-          "S": 95
+          "S": 90
         }
       ],
       "icon_key": "snowpack",

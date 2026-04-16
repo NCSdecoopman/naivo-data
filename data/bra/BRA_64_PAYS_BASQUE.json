@@ -3,8 +3,8 @@
   "massif": "Pays-Basque",
   "bulletin": {
     "id": 64,
-    "issued_at": "2026-04-15T16:00:00",
-    "valid_until": "2026-04-16T18:00:00",
+    "issued_at": "2026-04-16T16:00:00",
+    "valid_until": "2026-04-17T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-17",
+        "date": "2026-04-18",
         "label": "Indice de risque limité",
-        "comment": "Risque stationnaire. Poursuite de l'humidification en profondeur avec la douceur ambiante.",
+        "comment": "Maintien d'un risque limité. Poursuite de l'humidification en profondeur du manteau neigeux avec les averses de samedi après-midi et la douceur ambiante.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-11",
-          "min_cm": 3,
-          "max_cm": 10
-        },
-        {
           "date": "2026-04-12",
           "min_cm": 5,
           "max_cm": 10
@@ -106,6 +101,11 @@
           "date": "2026-04-16",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-17",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,18 +115,18 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Poursuite de l'humidification.",
-      "text": "Poursuite de l'humidification.\n\nDéparts spontanés :\nL'activité avalancheuse reste limitée tôt le matin par un bon regel. Puis, des départs ponctuels dans la neige humide sont attendus dans les pentes raides des versants au fil de la journée et de l'ensoleillement. De petites avalanches (taille 1), voire parfois des moyennes (taille 2) sont possibles d'abord des versants Est à Sud le matin, puis rapidement des versants Sud à Ouest dans la journée. De grandes avalanches (taille 3) restent possibles lors du départ d'une avalanche de fond, partant préférentiellement près des fissures et des reptations, notamment dans les zones d'accumulation les plus importantes au plus haut du massif.\n\nDéclenchements provoqués :\nLes rares plaques qui ont pu se former lors des chutes de neige précédentes sont probablement maintenant détruites. S'il en reste, elles se situent dans les pentes raides des versants ombragés (Nord-Ouest au Nord-Est) au plus haut du massif. De petites avalanches (taille 1), parfois des moyennes (taille 2) sont alors possibles lors de leur déclenchement par un skieur.\nUn skieur peut déclencher des départs ponctuels dans la neige humide et dans les pentes raides des versants au fil de la journée et de l'ensoleillement. Un bon regel devrait limiter cette activité tôt le matin, mais concernera ensuite préférentiellement les versants Est à Sud le matin, puis les versants Sud à Ouest en journée. De petites avalanches (taille 1), parfois des moyennes (taille 2) sont possibles.\n\nAutres :\nNeige dure et glissante au petit matin. Avec la douceur ambiante, les corniches et pont de neige deviennent à nouveau très fragiles.",
+      "title": "Poursuite de l'humidification en profondeur.",
+      "text": "Poursuite de l'humidification en profondeur.\n\nDéparts spontanés :\nL'activité avalancheuse reste limitée tôt le matin par un bon regel. Puis, des départs ponctuels dans la neige humide sont attendus dans les pentes raides des versants au fil de la journée et de l'ensoleillement. De petites avalanches (taille 1), voire parfois des moyennes (taille 2) sont possibles d'abord préférentiellement des versants Est à Sud le matin, puis rapidement des versants Sud à Ouest dans la journée. De grandes avalanches restent possibles (taille 3) dans les zones d'accumulation importantes. Des avalanches de fond peuvent aussi se produire dans les pentes raides, préférentiellement près des fissures et des reptations. Elles peuvent être petites à moyennes (taille 1 à 2), voire grandes (taille 3) en partant d'une zone d'accumulation importante en altitude.\n\nDéclenchements provoqués :\nLes rares plaques qui ont pu se former lors des chutes de neige précédentes sont probablement maintenant détruites. S'il en reste, elles se situent dans les pentes raides des versants ombragés (principalement du Nord-Ouest au Nord-Est) au plus haut du massif. De petites avalanches (taille 1), parfois des moyennes (taille 2) sont alors possibles lors de leur déclenchement par un skieur.\nUn skieur peut déclencher des départs ponctuels dans la neige humide et dans les pentes raides des versants au fil de la journée et de l'ensoleillement. Un bon regel devrait limiter cette activité tôt le matin, mais concernera ensuite préférentiellement les versants Est à Sud le matin, puis les versants Sud à Ouest en journée. De petites avalanches ou des moyennes sont possibles (taille 1 à 2), parfois de grandes avalanches (taille 3) dans les zones d'accumulation les plus importantes.\n\nAutres :\nNeige dure et glissante au petit matin. Avec la douceur ambiante, les corniches et pont de neige deviennent à nouveau très fragiles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : L'enneigement est plutôt bon pour la saison, débutant vers 1600m en nord, et 1950m environ en sud. Cette limite d'enneigement tend à remonter progressivement avec la douceur ambiante et le soleil.\nÉtat de la neige : Neige bien regelée le matin, s'humidifiant progressivement au fil de la journée et de la douceur ambiante. Quelques accumulations de neige sèche peuvent persister dans les pentes raides des versants ombragés (Nord-Ouest à Nord-Est).",
+      "text": "Enneigement : L'enneigement est plutôt bon pour la saison, débutant vers 1650m en nord, et 1950m environ en sud. Cette limite d'enneigement tend à remonter progressivement avec la douceur ambiante et le soleil.\nÉtat de la neige : Neige bien regelée le matin, s'humidifiant progressivement au fil de la journée et de la douceur ambiante. De rares accumulations de neige sèche peuvent persister dans les pentes raides des versants ombragés (principalement du Nord-Ouest au Nord-Est).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1600,
+        "north": 1650,
         "south": 1950
       },
       "levels_cm": [
@@ -142,8 +142,8 @@
         },
         {
           "alt_m": 2000,
-          "N": 170,
-          "S": 65
+          "N": 165,
+          "S": 60
         }
       ],
       "icon_key": "snowpack",
