@@ -3,8 +3,8 @@
   "massif": "Cerdagne Canigou",
   "bulletin": {
     "id": 74,
-    "issued_at": "2026-04-16T16:00:00",
-    "valid_until": "2026-04-17T18:00:00",
+    "issued_at": "2026-04-17T17:00:00",
+    "valid_until": "2026-04-18T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-18",
+        "date": "2026-04-19",
         "label": "Indice de risque limité",
-        "comment": "Activité principalement en neige humide qui pourrait s'accélérer avec les averses de samedi après-midi.",
+        "comment": "Persistance probable du risque limité. La douceur et les averses attendues dimanche seront favorables à la poursuite de l'humidification du manteau neigeux.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-12",
-          "min_cm": 5,
-          "max_cm": 10
-        },
-        {
           "date": "2026-04-13",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +113,11 @@
           "date": "2026-04-17",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-18",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Humidification qui progresse en journée ; rares instabilités en neige sèche en altitude",
-      "text": "Humidification qui progresse en journée ; rares instabilités en neige sèche en altitude\n\nDéparts spontanés :\n- Peu probable en début de journée grâce à un regel efficace. Au fil de la journée, dans les pentes ensoleillées, des départs spontanés d'avalanches de taille petite à moyenne sont attendus avec la douceur et l'ensoleillement. Ces départs emportent la neige récente, et dans de rares cas des couches plus anciennes avec une éventuelle avalanche de moyenne, voire grande taille. \n- Des reptations peuvent également être présentes, signes avant-coureurs de potentielles avalanches de glissement emportant l'ensemble du manteau neigeux.\n\nDéclenchements provoqués :\n- Avalanches de plaques, encore déclenchables par un pratiquant, plutôt au-dessus de 2300/2400m. Des accumulations en neige récente non encore humidifiée subsistent par endroits, plutôt à proximité des crêtes et dans les secteurs ombragés. Ces plaques peu épaisses et plus ou moins friables se sont formées ces derniers jours avec transport de neige par le vent. Observables : signe de transport de neige par le vent avec de la neige de surface changeante, fissures devant les skis.\n- Par ailleurs, dans les secteurs en neige humide, un skieur coupant une pente raide pourra également déclencher une coulée sous ses skis.\n\nAutre : Des corniches, parfois imposantes, sont en place et sont susceptibles de céder spontanément.",
+      "title": "Poursuite de l'humidification",
+      "text": "Poursuite de l'humidification\n\nDéparts spontanés :\n- Peu probables en tout début de journée grâce à un regel efficace. Au fil de la journée, dans les pentes ensoleillées, des départs spontanés d'avalanches en neige humide de taille petite à moyenne sont attendus avec la douceur et l'ensoleillement. Ils concernent les pentes nord-est à sud-est dans un premier temps puis se généralisent à l'ensemble des versants. Ces départs emportent la neige récente, et dans de rares cas des couches plus anciennes avec une éventuelle avalanche de moyenne, voire grande taille. Les petites averses attendues par endroits l'après-midi peuvent être favorables à une recrudescence de ces départs.\n- Des reptations sont actuellement signalées, signes avant-coureurs de potentielles avalanches de glissement pouvant emporter l'ensemble du manteau neigeux, donc de taille moyenne, voire rarement grande.\n\nDéclenchements provoqués :\n- Avalanches de plaques, encore déclenchables par un pratiquant, plutôt au-dessus de 2300/2400m. Des accumulations en neige récente non encore humidifiée subsistent par endroits, plutôt à proximité des crêtes et dans les secteurs ombragés. Ces accumulations peu épaisses et plus ou moins friables se sont formées en début de semaine avec le transport de neige par le vent. Elles peuvent reposer sur des couches fragiles de type faces planes (dont la présence a été observée en début de semaine).\n\nObservables : signe de transport de neige par le vent avec de la neige de surface froide et bien blanche contrastant avec la couche de neige plus ancienne de couleur ocre, fissures devant les skis, \"wwoomfs\".\n\n- Par ailleurs, un skieur coupant une pente raide déjà humidifiée pourra déclencher une coulée sous ses skis, mobilisant parfois de bonnes quantités de neige humide. \n\nAutre : Des corniches encore imposantes sont en place et sont susceptibles de céder spontanément avec le redoux.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nExcellent enneigement pour avril, parmi les plus importants des 30 dernières années. Malgré le redoux et le soleil, la limite skiable ne remonte que progressivement (1600/1700 m en nord, et 1800/2000 m en sud). L’épaisseur de neige est rapidement conséquente avec 168 cm le 16/04 à 14h à 2160 m à la station du Canigou et plus encore en altitude (> 3m de neige).\n\nQualité de la neige : \nVendredi matin, regel bien efficace et portant dès 1800/2000 m, moins bon plus bas et dans la forêt. En journée, reprise rapide de l’humidification au soleil, surtout si la couche ocre est visible. Puis la neige devient de plus en plus lourde et collante surtout à basse altitude. Les cols et crêtes les plus hauts peuvent rester en neige dure tassée par le vent.",
+      "text": "Enneigement : \nExcellent enneigement pour avril, parmi les plus importants des 30 dernières années. Avec le redoux et le soleil, la limite skiable remonte progressivement surtout en sud. Elle est encore au mieux vers 1700/1800 m en nord et plutôt 2000 m en sud. L’épaisseur de neige est rapidement conséquente avec 165 cm relevés ce vendredi matin à 2160 m à la station du Canigou et plus encore en altitude (> 3m de neige).\n\nQualité de la neige :\nAu petit matin, regel efficace en altitude. En journée, reprise rapide de l’humidification avec la neige qui s'humidifie au soleil, plus rapidement si la couche ocre est visible, avec donc de la neige lourde et humide dès la mi-journée. En secteur nord, l'enfoncement peut se faire sur une couche de neige molle assez profonde. En sud, la neige est davantage tassée et donc généralement plus portante. De rares endroits sont restés en neige sèche et plus légère dans les versants raides à l'ombre au-dessus de 2400/2500m. Les cols et crêtes ouest à nord-ouest sont généralement moins garnis en neige voire pelés.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 130,
+          "N": 120,
           "S": 10
         },
         {
           "alt_m": 2500,
-          "N": 280,
-          "S": 140
+          "N": 270,
+          "S": 130
         }
       ],
       "icon_key": "snowpack",

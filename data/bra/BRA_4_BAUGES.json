@@ -3,14 +3,14 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-04-16T16:00:00",
-    "valid_until": "2026-04-17T18:00:00",
+    "issued_at": "2026-04-17T16:00:00",
+    "valid_until": "2026-04-18T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque faible évoluant en limité.",
+      "max_level": 1,
+      "comment": "Indice de risque faible.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 1,
-            "evolution_to": 2,
+            "evolution_to": null,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "1→2",
-            "risk": 2,
-            "evolution_to": 2
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-04-18",
-        "label": "Indice de risque limité",
-        "comment": "Temps doux et ensoleillé, isotherme 0°C vers 3300 m.\nPoursuite de l'humidification du manteau neigeux.",
+        "max_level": 1,
+        "date": "2026-04-19",
+        "label": "Indice de risque faible",
+        "comment": "Quelques averses dans l'après-midi, isotherme 0°C vers 2700 m.\nPas d'évolution significative du manteau neigeux.",
         "trend": "steady"
       }
     },
@@ -52,11 +52,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
-        "W": true,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -77,11 +77,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-12",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-13",
           "min_cm": 0,
@@ -106,6 +101,11 @@
           "date": "2026-04-17",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-18",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -116,12 +116,12 @@
     },
     "stability": {
       "title": "Poursuite de l'humidification du manteau neigeux",
-      "text": "Poursuite de l'humidification du manteau neigeux\n\nDéparts spontanés :\n* avalanches de neige humide de plus en plus nombreuses au fil de la course du soleil, se produisant en tous versants. Taille 1 à 2 (petites à moyennes). \nObservables : enfoncement piéton important, boulettes, escargots\n* quelques plaques de fond dans les zones herbeuses ou dalles rocheuses, à toute heure du jour ou de la nuit. Taille 2.\n\n Déclenchements provoqués :\nAvalanches de neige humides dans les versants raides et chauffés par le soleil, facilement déclenchable par un skieur. Départ ponctuel pouvant parfois déclencher, en cascade, une petite plaque. Taille 1, rarement 2.",
+      "text": "Poursuite de l'humidification du manteau neigeux\n\nDéparts spontanés :\n* quelques avalanches de neige humide, de plus en plus nombreuses au fil de la course du soleil, se produisant majoritairement en versants nord. Taille 1 à 2 (petites à moyennes). \nObservables : enfoncement piéton important, boulettes, escargots\n* rares plaques de fond dans les zones herbeuses ou dalles rocheuses, à toute heure du jour ou de la nuit. Taille 2.\n\n Déclenchements provoqués :\nAvalanches de neige humides dans les versants raides et chauffés par le soleil, facilement déclenchable par un skieur. Taille 1, rarement 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2000 m, en dessous il est déficitaire. \nOn peut chausser les skis au-dessus de 1800 m en sud et 1500 m en nord. \n\nQualité de la neige ce vendredi matin : \n* neige de printemps avec un bon regel nocturne. Neige portante à skis et souvent à pied en début de journée.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2000 m, en dessous il est déficitaire. \nOn peut chausser les skis au-dessus de 1800 m en sud et 1500 m en nord. \n\nQualité de la neige ce samedi matin : \n* neige de printemps avec un bon regel nocturne. Neige portante à skis et souvent à pied en début de journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -142,7 +142,7 @@
         },
         {
           "alt_m": 2000,
-          "N": 80,
+          "N": 70,
           "S": 10
         }
       ],

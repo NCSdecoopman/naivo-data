@@ -3,60 +3,48 @@
   "massif": "Aspe Ossau",
   "bulletin": {
     "id": 65,
-    "issued_at": "2026-04-16T16:00:00",
-    "valid_until": "2026-04-17T18:00:00",
+    "issued_at": "2026-04-17T17:00:00",
+    "valid_until": "2026-04-18T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2400m indice de risque limité, plus bas indice faible évoluant en limité.",
+      "comment": "Indice de risque faible évoluant en limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2400,
-        "split_axis": "horizontal",
-        "split_label": "2400m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2400",
+            "loc": null,
             "risk": 1,
             "evolution_to": 2,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2400",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2400m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
-          },
-          "top": {
-            "text": "2",
             "risk": 2,
-            "evolution_to": null
+            "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-18",
+        "date": "2026-04-19",
         "label": "Indice de risque limité",
-        "comment": "Maintien d'un risque limité. Poursuite de l'humidification en profondeur du manteau neigeux avec les averses de samedi après-midi et la douceur ambiante, stabilisation progressive des plaques dans les versants ombragés d'altitude.",
+        "comment": "L'humidification se poursuit en profondeur, avec un regel médiocre. L'activité en neige humide va s'accroître au fil des jours",
         "trend": "steady"
       }
     },
@@ -79,21 +67,16 @@
     },
     "sat": {
       "primary": 4,
-      "secondary": 2,
+      "secondary": 5,
       "labels": {
         "4": "Neige humide",
-        "2": "Neige ventée"
+        "5": "Avalanche de fond"
       },
       "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-12",
-          "min_cm": 5,
-          "max_cm": 10
-        },
         {
           "date": "2026-04-13",
           "min_cm": 5,
@@ -118,6 +101,11 @@
           "date": "2026-04-17",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-18",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Structures de plaques en zones ombragées d'altitude, poursuite de l'humidification partout ailleurs.",
-      "text": "Structures de plaques en zones ombragées d'altitude, poursuite de l'humidification partout ailleurs.\n\nDéparts spontanés :\nL'activité avalancheuse reste limitée tôt le matin par un bon regel. Puis, des départs ponctuels dans la neige humide sont attendus dans les pentes raides des versants au fil de la journée et de l'ensoleillement. De petites avalanches (taille 1), voire parfois des moyennes (taille 2) sont possibles d'abord préférentiellement des versants Est à Sud le matin, puis rapidement des versants Sud à Ouest dans la journée. De grandes avalanches restent parfois possibles (taille 3) dans les zones d'accumulation importantes. Des avalanches de fond peuvent aussi se produire dans les pentes raides, préférentiellement près des fissures et des reptations. Elles peuvent être petites à moyennes (taille 1 à 2), voire grandes (taille 3) en partant d'une zone d'accumulation importante en altitude.\n\nDéclenchements provoqués :\nAu-dessus de 2400m environ, des structures de plaques peuvent encore être en place dans les pentes raides des versants ombragés (principalement Nord-Ouest, Nord et Nord-Est) issues des chutes de neige précédentes. Un simple skieur peut déclencher ces plaques, engendrant de petites avalanches (taille 1), parfois moyennes (taille 2). \nPartout ailleurs, un skieur peut déclencher des départs ponctuels dans la neige humide et dans les pentes raides des versants au fil de la journée et de l'ensoleillement. Un bon regel devrait limiter cette activité tôt le matin, mais concernera ensuite préférentiellement les versants Est à Sud le matin, puis les versants Sud à Ouest en journée. De petites avalanches ou des moyennes sont possibles (taille 1 à 2), parfois de grandes avalanches (taille 3) dans les zones d'accumulation importantes.\n\nAutres :\nNeige dure et glissante au petit matin. Avec la douceur ambiante, les corniches et pont de neige deviennent à nouveau très fragiles.",
+      "title": "Weekend marqué par l'évolution en profondeur de l'humidification",
+      "text": "Weekend marqué par l'évolution en profondeur de l'humidification\n\nDéparts spontanés :\nL'activité avalancheuse est faible en tout début de journée à la faveur du regel. Mais celui-ci est faible, des départs sont attendus rapidement en matinée, au fil de l'ensoleillement, d'abord dans un large secteur nord-est à sud-est, puis se généralisent progressivement à toutes les expositions, même nord, prenant aussi le soleil à cette saison, puis sous les possibles averses de l'après-midi, surtout coté Ossau. Les avalanches atteignent une taille petite à moyenne, plus rarement grande, par départ d'une avalanche de fond, souvent depuis une fissure déjà ouverte, plutôt en secteurs nord, en particulier nord-est où les accumulations sont plus importantes.\n\nDéclenchements provoqués :\nLe passage d'un skieur dans la neige très humide peut favoriser un départ ponctuel de taille petite voire moyenne. Dans les secteurs nord les plus hauts du massif, quelques plaques peuvent encore avoir échappé à l'humidification mais sont devenues assez difficilement déclenchables par tassement.\n\nAutres :\nNeige dure et glissante au petit matin. Avec la douceur ambiante, les corniches et ponts de neige deviennent à nouveau très fragiles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : L'enneigement est plutôt pour la saison, débutant vers 1650m en nord, 1950m environ en sud. Cette limite d'enneigement tend à remonter progressivement avec la douceur ambiante et le soleil.\nÉtat de la neige : Neige bien regelée à dure le matin, s'humidifiant progressivement au fil de la journée et de la douceur ambiante. Au-dessus de 2300 à 2400m, dans les pentes raides des versants ombragés (principalement du Nord-Ouest au Nord-Est), on trouve encore parfois une bonne épaisseur de neige sèche à meuble, reposant sur un fond dur à regelé.",
+      "text": "Enneigement : L'enneigement est plutôt bon pour la saison, débutant vers 1650m en nord, et 1950m environ en sud. Cette limite d'enneigement tend à remonter progressivement avec la douceur ambiante et le soleil.\nÉtat de la neige : Modeste regel samedi matin, la neige s'humidifie ensuite rapidement (neige molle à la mi-journée sous 2500m), avec des enfoncements importants en expositions nord. Elle est plus portante car déjà bien tassée en versants ensoleillés ou sur la neige ocre.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +137,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 200,
-          "S": 65
+          "N": 190,
+          "S": 50
         },
         {
           "alt_m": 2500,
-          "N": 315,
-          "S": 185
+          "N": 300,
+          "S": 170
         }
       ],
       "icon_key": "snowpack",
