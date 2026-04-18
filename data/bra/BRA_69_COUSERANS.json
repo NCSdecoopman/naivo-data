@@ -3,14 +3,14 @@
   "massif": "Couserans",
   "bulletin": {
     "id": 69,
-    "issued_at": "2026-04-17T17:00:00",
-    "valid_until": "2026-04-18T18:00:00",
+    "issued_at": "2026-04-18T16:00:00",
+    "valid_until": "2026-04-19T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque faible évoluant en limité.",
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 1,
-            "evolution_to": 2,
+            "risk": 2,
+            "evolution_to": null,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "1→2",
+            "text": "2",
             "risk": 2,
-            "evolution_to": 2
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-19",
+        "date": "2026-04-20",
         "label": "Indice de risque limité",
-        "comment": "Persistance probable du risque limité. La douceur et les averses attendues dimanche seront favorables à la poursuite de l'humidification du manteau neigeux.",
+        "comment": "Peu de changement à attendre avec le même type de temps prévu lundi.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-13",
-          "min_cm": 0,
-          "max_cm": 5
-        },
-        {
           "date": "2026-04-14",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-04-18",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-19",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -116,12 +116,12 @@
     },
     "stability": {
       "title": "Poursuite de l'humidification",
-      "text": "Poursuite de l'humidification\n\nDéparts spontanés :\n- Peu probables en tout début de journée grâce à un regel efficace. Au fil de la journée, dans les pentes ensoleillées, des départs spontanés d'avalanches en neige humide de taille petite à moyenne sont attendus avec la douceur et l'ensoleillement. Ils concernent les pentes nord-est à sud-est dans un premier temps puis se généralisent à l'ensemble des versants. Ces départs emportent la neige récente, et dans de rares cas des couches plus anciennes avec une éventuelle avalanche de moyenne, voire grande taille. Les petites averses attendues par endroits l'après-midi peuvent être favorables à une recrudescence de ces départs.\n- Des reptations sont actuellement signalées, signes avant-coureurs de potentielles avalanches de glissement pouvant emporter l'ensemble du manteau neigeux, donc de taille moyenne, voire rarement grande.\n\nDéclenchements provoqués :\n-  Au-dessus de 2400/2500m, il n'est pas impossible que dans de rares pentes à l'ombre, des accumulations de neige encore sèche puissent reposer sur d'éventuelles couches fragiles persistantes. Le passage d'un pratiquant pourrait alors suffire à provoquer une avalanche, généralement petite, possiblement de taille moyenne dans les cas les plus défavorables.\nObservables : signe de transport de neige par le vent avec de la neige de surface froide et bien blanche contrastant avec la couche de neige plus ancienne de couleur ocre, fissures devant les skis, \"wwoomfs\".\n\n- Par ailleurs, un skieur coupant une pente raide déjà humidifiée pourra déclencher une coulée sous ses skis, mobilisant parfois de bonnes quantités de neige humide. \n\nAutre : Des corniches encore imposantes sont en place et sont susceptibles de céder spontanément avec le redoux.",
+      "text": "Poursuite de l'humidification\n\nDéparts spontanés :\n- Regel moins efficace que les jours précédents (à cause des nuages), favorisant des départs ponctuels d'avalanches en neige humide de taille petite à moyenne dès le matin. Ils concernent dans un premier temps les pentes nord-est à sud-est puis se généralisent à l'ensemble des versants avec les averses de pluie prévues l'après-midi.\n- En altitude, avec l'humidification qui gagne en profondeur, des avalanches de glissement emportant l'ensemble du manteau neigeux sont possibles en toutes orientations ( des fissures/reptations et avalanches de glissement nous ont en effet été signalées récemment).  Elles seront de taille moyenne, voire plus rarement grandes dans les zones de plus fortes accumulations. \n\nDéclenchements provoqués :\n- Un skieur coupant une pente raide déjà humidifiée pourra favoriser un départ ponctuel de taille petite à plus rarement moyenne. \n-  Au-dessus de 2600/2700m, dans de rares pentes à l'ombre, quelques structures de plaques sont possiblement encore en place, mais deviennent de plus en plus difficilement déclenchables\n\nAutre : Des corniches encore imposantes sont en place et sont susceptibles de céder spontanément avec le redoux, tout comme les ponts de neige sur les torrents bien alimentés par la fonte en cours.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nL'enneigement dans nos massifs reste excellent, un des meilleurs de ces 30 dernières années. Avec le redoux et le soleil, la limite skiable remonte progressivement surtout en sud. Elle est encore au mieux vers 1500 m en nord et 1800 à 2000 m en sud. On trouve ensuite rapidement une bonne épaisseur de neige qui dépasse souvent les 2 m dès 2000/2200 m, et les 3 m dès 2500m.\n\nQualité de la neige :\nAu petit matin, regel efficace en altitude. En journée, reprise rapide de l’humidification avec la neige qui s'humidifie au soleil, plus rapidement si la couche ocre est visible, avec donc de la neige lourde et humide dès la mi-journée. En secteur nord, l'enfoncement peut se faire sur une couche de neige molle assez profonde. En sud, la neige est davantage tassée et donc généralement plus portante. De rares endroits sont restés en neige sèche et plus légère dans les versants raides à l'ombre au-dessus de 2400/2500m. Les cols et crêtes ouest à nord-ouest sont généralement moins garnis en neige voire pelés.",
+      "text": "Enneigement : \nL'enneigement dans nos massifs reste très correct pour la saison, largement supérieur à celui des derniers hiver. Avec le redoux et le soleil, la limite skiable remonte progressivement surtout en sud. Elle est encore au mieux vers 1500 m en nord et 1800 à 2000 m en sud. On trouve ensuite rapidement une bonne épaisseur de neige qui dépasse souvent les 1m50 dès 2000/2200 m, et les 2m50 dès 2500m.\n\nQualité de la neige :\nAu petit matin, le regel aura été médiocre à cause des nuages de la nuit. L’humidification reprend rapidement en matinée, et se renforce l'après-midi avec les averses. La surface du manteau est majoritairement constituée de neige ocre, chargée en poussières sahariennes. La neige blanche, sèche et légère devient difficile à trouver, à part peut être dans quelques versants raides à l'ombre des plus hauts sommets. Les cols et crêtes ouest à nord-ouest sont généralement moins garnis en neige voire pelés.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 170,
-          "S": 55
+          "N": 165,
+          "S": 50
         },
         {
           "alt_m": 2500,
-          "N": 290,
-          "S": 170
+          "N": 285,
+          "S": 165
         }
       ],
       "icon_key": "snowpack",
