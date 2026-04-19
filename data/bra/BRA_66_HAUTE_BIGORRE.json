@@ -3,8 +3,8 @@
   "massif": "Haute-Bigorre",
   "bulletin": {
     "id": 66,
-    "issued_at": "2026-04-18T16:00:00",
-    "valid_until": "2026-04-19T18:00:00",
+    "issued_at": "2026-04-19T16:00:00",
+    "valid_until": "2026-04-20T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-20",
+        "date": "2026-04-21",
         "label": "Indice de risque limité",
-        "comment": "Risque d'avalanches de fond maintenu avec la douceur.",
+        "comment": "Mêmes risques avec des températures maximales ayant 1 à 2 degrés de plus.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-14",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-15",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-04-19",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-20",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Weekend marqué par l'évolution en profondeur de l'humidification",
-      "text": "Weekend marqué par l'évolution en profondeur de l'humidification\n\nDéparts spontanés :\nL'activité avalancheuse si faible la nuit, peut toutefois présenter de rares départs de grandes avalanches de fond à cassure linéaire, partant souvent depuis une fissure déjà ouverte. Elles sont plus probables en versants Nord à Nord-est où les accumulations sont plus importantes et au fil de l'ensoleillement mais une grande, voire très grande avalanche peut advenir en versant sud au vu de l'enneigement conséquent sur le massif. Des avalanches petites à moyennes seront de plus en plus fréquentes en pentes raides dès 2100 m en sud et 1800 m en nord, au fil de l'ensoleillement et en toutes expositions. \n\nDéclenchements provoqués :\nDans les secteurs nord au-dessus de 2700 m, de rares plaques peuvent encore avoir échappé à l'humidification mais sont devenues assez difficilement déclenchables par tassement. \nLe passage d'un skieur dans la neige très humide peut favoriser un départ ponctuel de taille petite voire moyenne. \n\nAutres :\nAvec la douceur ambiante, les corniches et ponts de neige sont de plus en plus fragiles.",
+      "title": "Evolution en profondeur de l'humidification.",
+      "text": "Evolution en profondeur de l'humidification.\n\nDéparts spontanés :\nL'activité avalancheuse si faible la nuit, peut toutefois présenter de rares départs de grandes avalanches de fond à cassure linéaire, partant souvent depuis une fissure déjà ouverte. Elles sont plus probables en versants Nord à Nord-est où les accumulations sont plus importantes et avec les éclaircies mais une grande, voire très grande avalanche peut advenir en versant sud au vu de l'enneigement conséquent sur le massif au-dessus de 2200 m. Des avalanches de neige humide petites à moyennes seront de plus en plus fréquentes en pentes raides dès 2100 m en sud et 1800 m en nord, au fil de l'ensoleillement et en toutes expositions. \n\nDéclenchements provoqués :\nDans les secteurs nord au-dessus de 2700 m, de rares plaques peuvent encore avoir échappées à l'humidification mais sont devenues assez difficilement déclenchables par tassement. \nLe passage d'un skieur dans la neige très humide peut favoriser un départ ponctuel de taille petite voire moyenne. \n\nAutres :\nAvec la douceur ambiante, les corniches et ponts de neige sont de plus en plus fragiles et peuvent céder sans surpoids.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement :  L'enneigement est plutôt bon pour la saison, débutant vers 1650 m en nord, et 2000 m environ en sud. Cette limite d'enneigement en sud tend à remonter progressivement avec la douceur ambiante et le soleil. \nÉtat de la neige :  Absence de regel ou rare regel au lever du jour au-dessus de 2600 m, la neige s'humidifie ensuite rapidement, avec des enfoncements importants en expositions nord. Neige dense en sud au lever du jour mais généralement non croutée, devenant vite printanière, très humide au soleil.",
+      "text": "Enneigement :  L'enneigement est plutôt bon pour la saison, débutant vers 1650 m en nord, relégué au-dessus de 2000 m en sud progressant chaque jour plus haut avec la douceur ambiante et les éclaircies. \nÉtat de la neige :  Absence de regel sous 2400 m ou rare regel au-dessus au lever du jour, neige portant éventuellement au plus gaut du massif puis la teneur en eau liquide augmente rapidement, avec des enfoncements importants en expositions nord. Neige dense en sud au lever du jour mais généralement non croûtée, devenant vite printanière, très humide sous les éclaircies. Nombreuses fissures en place.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 175,
-          "S": 30
+          "N": 170,
+          "S": 20
         },
         {
           "alt_m": 2500,
-          "N": 285,
-          "S": 155
+          "N": 280,
+          "S": 145
         }
       ],
       "icon_key": "snowpack",

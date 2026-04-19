@@ -3,48 +3,60 @@
   "massif": "Haut-Var Haut-Verdon",
   "bulletin": {
     "id": 22,
-    "issued_at": "2026-04-18T16:00:00",
-    "valid_until": "2026-04-19T18:00:00",
+    "issued_at": "2026-04-19T16:00:00",
+    "valid_until": "2026-04-20T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque faible évoluant en limité.",
+      "comment": "Au-dessus de 2300m indice de risque faible évoluant en limité, plus bas indice faible.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2300,
+        "split_axis": "horizontal",
+        "split_label": "2300m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2300",
+            "risk": 1,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2300",
             "risk": 1,
             "evolution_to": 2,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2300m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
+          },
+          "top": {
             "text": "1→2",
-            "risk": 2,
+            "risk": 1,
             "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-20",
+        "date": "2026-04-21",
         "label": "Indice de risque limité",
-        "comment": "Peu d'évolution de la situation nivologique. Quelques départs en neige humide se produisent en journée au fil de l'humidification. Rares départs linéaires volumineux possibles dans les ubacs d'altitude.",
+        "comment": "Risque restant limité avec toujours un peu d'activité en neige humide en cours de journée.",
         "trend": "steady"
       }
     },
@@ -77,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-14",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-15",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +112,11 @@
           "date": "2026-04-19",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-20",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,12 +127,12 @@
     },
     "stability": {
       "title": "ACTIVITÉ NATURELLE PRINTANIÈRE",
-      "text": "ACTIVITÉ NATURELLE PRINTANIÈRE\n\nDéparts spontanés : peu probables au petit matin avec le regel nocturne, l'activité en neige humide est à nouveau en hausse en cours de journée. Avalanches superficielles de petite taille en général (taille 1), mais quelques départs linéaires plus volumineux sont possibles dans les pentes nord-ouest à nord-est au-dessus de 2200/2300 m environ, emportant la totalité du manteau neigeux en place. Avalanches moyennes (taille 2), voire ponctuellement grandes (taille 3) lorsque l'humidification atteint des couches fragiles persistantes enfouies dans le manteau neigeux. \n\nDéclenchements provoqués : un skieur coupant une pente raide trop tardivement peut initier un départ de neige humide sous ses skis. À noter également que dans les ubacs d'altitude, une première avalanche superficielle de neige humide déclenchée par un skieur peut dans de rares cas provoquer un second départ linéaire plus volumineux. Avalanches petites à moyennes, plus rarement grandes.",
+      "text": "ACTIVITÉ NATURELLE PRINTANIÈRE\n\nDéparts spontanés : peu probables au petit matin avec le regel nocturne, l'activité en neige humide est à nouveau en hausse en cours de journée. Avalanches superficielles de petite taille en général (taille 1), mais quelques départs linéaires plus volumineux sont possibles dans les pentes nord-ouest à nord-est au-dessus de 2200/2400 m environ, emportant la totalité du manteau neigeux en place. Avalanches moyennes (taille 2), voire ponctuellement grandes (taille 3) lorsque l'humidification atteint des couches fragiles persistantes enfouies dans le manteau neigeux. \n\nDéclenchements provoqués : un skieur coupant une pente raide trop tardivement peut initier un départ de neige humide sous ses skis. À noter également que dans les ubacs d'altitude, une première avalanche superficielle de neige humide déclenchée par un skieur peut dans de rares cas provoquer un second départ linéaire plus volumineux. Avalanches petites à moyennes, plus rarement grandes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement désormais déficitaire pour la saison, avec une fonte qui s'accélère. Absence de précipitations significatives depuis environ 1 mois et grande douceur en place depuis début avril. \nHauteurs de neige observées :  vers 2000 m, 96 cm dans le vallon de Valdemars dans le Haut-Verdon, 25 cm à Ia Sanguinière dans le Haut-Var.\n\nEnneigement skiable généralement à partir de 1800 m en ubacs sur terrain favorable (routes forestières, terrains herbeux) et 2300 m en adrets peu pentus.  \n\nÉtat de la neige en surface : manteau neigeux printanier, croûté le matin, puis s'humidifiant rapidement au soleil en cours de journée dans toutes les expositions. Le ciel voilé en cours de nuit peut engendrer un regel moins bon que les jours précédents et une humidification plus rapide.",
+      "text": "Enneigement désormais déficitaire pour la saison, avec une fonte qui s'accélère. Absence de précipitations significatives depuis environ 1 mois et grande douceur en place depuis début avril. \nHauteurs de neige observées :  vers 2000 m, 95 cm dans le vallon de Valdemars dans le Haut-Verdon, 21 cm à Ia Sanguinière dans le Haut-Var.\n\nEnneigement skiable généralement à partir de 1900/2000 m en ubacs sur terrain favorable (routes forestières, terrains herbeux) et 2300/2400 m en adrets peu pentus.  \n\nÉtat de la neige en surface : manteau neigeux printanier, croûté le matin, puis s'humidifiant rapidement au soleil en cours de journée dans toutes les expositions.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -136,13 +148,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 50,
+          "N": 40,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 120,
-          "S": 55
+          "N": 110,
+          "S": 50
         }
       ],
       "icon_key": "snowpack",

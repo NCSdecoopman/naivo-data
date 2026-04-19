@@ -3,8 +3,8 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-04-18T15:00:00",
-    "valid_until": "2026-04-19T18:00:00",
+    "issued_at": "2026-04-19T16:00:00",
+    "valid_until": "2026-04-20T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-20",
+        "date": "2026-04-21",
         "label": "Indice de risque limité",
-        "comment": "Peu dévolution lundi... Faible regel nocturne puis neige très humide en journée, fonte, rare avalanche non exclue...",
+        "comment": "Risque stationnaire ou en légère baisse mardi.  Un peu de regel nocturne, puis fonte en journée...",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-14",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-15",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-04-19",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-20",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -116,12 +116,12 @@
     },
     "stability": {
       "title": "NEIGE DENSE, TRES HUMIDE EN JOURNE : RARE AVALANCHE POSSIBLE, PARFOIS AU TERRAIN (PENTES NORD HERBEUSES)...",
-      "text": "NEIGE DENSE, TRES HUMIDE EN JOURNE : RARE AVALANCHE POSSIBLE, PARFOIS AU TERRAIN (PENTES NORD HERBEUSES)...\n\nDéparts spontanés : Neige transformée dense avec un peu de regel nocturne. Au fil des heures neige devenant très humide sur de grandes épaisseurs. Quelques coulées sont possibles, près des rochers, voire une rare avalanche volumineuse (de taille 2 à 3 - moyenne à grande).\nNoter que dans certaines faces \"froides- Nord\" herbeuses, une avalanche de glissement - au terrain - n'est pas exclue, plutôt entre l'après-midi et la soirée. Des fissures de reptations sont parfois visibles.\nEn larges Sud la neige sera aussi très humide ; mais plus dense, de type névé, le risque d'avalanche parait faible...\n\nDéclenchements provoqués : Pas de risque de plaque. En terrain raide et bien humidifié, risque limité de coulée ponctuelle sous les skis.\n\nAutres : Neige temporairement durcie par regel ou croutée/cassante...",
+      "text": "NEIGE DENSE, TRES HUMIDE EN JOURNE : RARE AVALANCHE POSSIBLE, PARFOIS AU TERRAIN (PENTES NORD HERBEUSES)...\n\nDéparts spontanés : Neige transformée dense avec un peu de regel nocturne/matinal. Au fil des heures neige devenant très humide sur de grandes épaisseurs. Quelques coulées sont possibles, près des rochers, voire une rare avalanche plus volumineuse.\nNoter que dans certaines faces Nord herbeuses, une avalanche de glissement - au terrain - n'est pas exclue, plutôt entre l'après-midi et la soirée. Des fissures de reptations sont présentes...\nEn larges Sud il y a moins de neige mais plus dense, de type névé, le risque d'avalanche parait faible...\n\nDéclenchements provoqués : Pas de risque de plaque. En terrain raide et bien humidifié, risque limité de coulée ponctuelle sous les skis.\n\nAutres : Neige temporairement durcie par regel ou croutée/cassante...",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis 2 semaines mais reste correct en faces peu ensoleillées d'altitude. Au Sud il ne reste que des névés...\n\nLimites skiables : Vers 1500 à 1800/1900m environ suivant l'exposition, la raideur de la pente...\n\nQualité de la neige dimanche :  Léger regel dimanche matin. Neige temporairement durcie ou croutée puis rapide dégel/ fonte au soleil. Neige devenant très humide au fil des heures et ce jusqu'en profondeur.... En Sud, neige plus dense, presque de névé.",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis 2 semaines mais reste correct en faces peu ensoleillées d'altitude. Au Sud il ne reste que des névés...\n\nLimites skiables : Vers 1500 à 1900m environ suivant l'exposition, la raideur de la pente...\n\nQualité de la neige lundi :  Regel un peu meilleur ce lundi matin. Neige temporairement durcie ou croutée puis rapide dégel au soleil/ fonte. Neige devenant très humide au fil des heures et ce jusqu'en profondeur.... En Sud, neige presque de névé.\nLa neige commence à être colorée et n'est plus lisse.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -142,8 +142,8 @@
         },
         {
           "alt_m": 2000,
-          "N": 155,
-          "S": 45
+          "N": 150,
+          "S": 40
         }
       ],
       "icon_key": "snowpack",

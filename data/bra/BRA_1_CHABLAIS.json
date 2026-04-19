@@ -3,8 +3,8 @@
   "massif": "Chablais",
   "bulletin": {
     "id": 1,
-    "issued_at": "2026-04-18T16:00:00",
-    "valid_until": "2026-04-19T18:00:00",
+    "issued_at": "2026-04-19T16:00:00",
+    "valid_until": "2026-04-20T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,20 +42,20 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-20",
+        "date": "2026-04-21",
         "label": "Indice de risque limité",
-        "comment": "Retour du soleil tout au long de la journée. Quelques petits cumulus. La fonte du manteau se poursuit.",
+        "comment": "Le temps est toujours printanier et doux. La fonte se poursuit et le risque reste stable.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
-        "NE": false,
-        "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "N": true,
+        "NE": true,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -77,11 +77,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-14",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-15",
           "min_cm": 0,
@@ -106,6 +101,11 @@
           "date": "2026-04-19",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-20",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -116,12 +116,12 @@
     },
     "stability": {
       "title": "Poursuite de l'humidification du manteau neigeux.",
-      "text": "Poursuite de l'humidification du manteau neigeux.\n\nDéparts spontanés :\n* Avalanches de neige humide, en toutes orientations et à toutes altitudes. Ces avalanches  sont de plus en plus nombreuses et probables au fil de l'ensoleillement. Taille 1 à 2 (petites à moyennes).\n* Au-dessus de 2200m, une couche fragile persistante est enfouie en profondeur dans le manteau neigeux. Cette couche fragile pourrait être sollicitée via un petit départ ponctuel, engendrant ainsi un départ linéaire en cascade. Avalanche de taille 2, voire 3 (moyenne à grande).\nObservables : enfoncement piéton important, boulettes, escargots\n* Des fissures de reptations continuent de s'ouvrir sur les dalles herbeuses ou rocheuses à toute heure du jour et de la nuit. Par conséquent, des avalanches de fond sont toujours possibles, mais elles peuvent descendre tout de même sans signe avant-coureur. Taille 1 à 2.\n\n Déclenchements provoqués :\n* Avalanches de neige humide, dans les versants raides et chauffés par le soleil, facilement déclenchable par un skieur. Taille 1 à 2.\n* La couche fragile persiste évoquée plus tôt ne semble pas être directement déclenchable par un skieur, mais une première coulée pourrait la solliciter et engendrer ainsi des avalanches de taille 2 à 3.",
+      "text": "Poursuite de l'humidification du manteau neigeux.\n\nDéparts spontanés :\n* Avalanches de neige humide, en toutes orientations et à toutes altitudes. Ces avalanches  sont de plus en plus nombreuses et probables au fil de l'ensoleillement. Taille 1 à 2 (petites à moyennes).\n* Au-dessus de 2200m dans les ubacs, une couche fragile persistante est enfouie en profondeur dans le manteau neigeux. Cette couche fragile pourrait être sollicitée via un petit départ ponctuel, engendrant ainsi un départ linéaire en cascade. Avalanche de taille 2, voire 3 (moyenne à grande).\nObservables : enfoncement piéton important, boulettes, escargots\n* Des fissures de reptations continuent de s'ouvrir sur les dalles herbeuses ou rocheuses à toute heure du jour et de la nuit. Par conséquent, des avalanches de fond sont toujours possibles, mais elles peuvent descendre tout de même sans signe avant-coureur. Taille 1 à 2.\n\n Déclenchements provoqués :\n* Avalanches de neige humide, dans les versants raides et chauffés par le soleil, facilement déclenchable par un skieur. Taille 1 à 2.\n* La couche fragile persiste évoquée plus tôt ne semble pas être directement déclenchable par un skieur, mais une première coulée pourrait la solliciter et engendrer ainsi des avalanches de taille 2 à 3.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est correct, au-dessus de 2000 m, en dessous, il est légèrement déficitaire. \nOn peut chausser les skis au-dessus de 1800 m en sud et 1500 m en nord.\n\nQualité de la neige ce dimanche :\n* On retrouve un manteau neigeux printanier à toutes les altitudes. Durant la nuit, le regel a été correct et ainsi la neige est dure le matin et ramollit rapidement en journée.\n* Les crêtes et les arêtes sont souvent décapées.\n* Dimanche après-midi, quelques averses sont possibles et viennent localement poser tout au plus quelques centimètres de neige (neige au-dessus de 2400m).",
+      "text": "Enneigement : \nPour la saison, l’enneigement est correct, au-dessus de 2000 m, en dessous, il est légèrement déficitaire. \nOn peut chausser les skis au-dessus de 1800 m en sud et 1500 m en nord.\n\nQualité de la neige ce lundi :\n* On retrouve un manteau neigeux printanier à toutes les altitudes. Durant la nuit, le regel a été bon et ainsi la neige est dure le matin et ramollit rapidement en journée.\n* Les crêtes et les arêtes sont souvent décapées.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
