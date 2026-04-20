@@ -3,30 +3,30 @@
   "massif": "Embrunais Parpaillon",
   "bulletin": {
     "id": 20,
-    "issued_at": "2026-04-19T16:00:00",
-    "valid_until": "2026-04-20T18:00:00",
+    "issued_at": "2026-04-20T16:00:00",
+    "valid_until": "2026-04-21T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2300m indice de risque faible évoluant en limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2400m indice de risque faible évoluant en limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2300,
+        "threshold_m": 2400,
         "split_axis": "horizontal",
-        "split_label": "2300m",
+        "split_label": "2400m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2300",
+            "loc": "<2400",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2300",
+            "loc": ">2400",
             "risk": 1,
             "evolution_to": 2,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2300m"
+          "label": "2400m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-21",
+        "date": "2026-04-22",
         "label": "Indice de risque limité",
-        "comment": "Poursuite de l'humidification du manteau neigeux, avec des conditions généralement douces et ensoleillées.",
+        "comment": "Peu d'évolution de la situation nivologique. Risque limité en neige humide.",
         "trend": "steady"
       }
     },
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-15",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-16",
           "min_cm": 0,
           "max_cm": 0
@@ -117,6 +112,11 @@
           "date": "2026-04-20",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-21",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,13 +126,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX PRINTANIER, QUELQUES AVALANCHES DE NEIGE HUMIDE POSSIBLES EN UBACS D'ALTITUDE",
-      "text": "MANTEAU NEIGEUX PRINTANIER, QUELQUES AVALANCHES DE NEIGE HUMIDE POSSIBLES EN UBACS D'ALTITUDE\n\nDéclenchements provoqués : \nDéparts possibles sous les skis de neige fortement humidifiée par le soleil en pente raide. Instabilités localisées principalement en versants ouest, nord et est d'altitude supérieure à 2300 m, les pentes sud et les basses altitudes étant déjà en neige transformée sur l'intégralité du manteau neigeux. Avalanches pouvant être déclenchées par un skieur, généralement ponctuelles et de petite taille (taille 1), plus rarement moyenne (taille 2). Exceptionnellement une grande taille est possible sous forme de départ linéaire jusqu'au sol, en un large versant nord au dessus de 2300/2400 m environ où se trouvent encore localement des couches fragiles persistantes enfouies à la base du manteau neigeux.\n\nDéparts spontanés : \nPeu probables en tout début de journée après un regel nocturne plutôt bon, puis reprise rapide de l'humidification au fil de la course du soleil. Quelques avalanches peuvent alors se déclencher, principalement au dessus de 2300 m environ, généralement sous forme de départ ponctuel de petite taille (taille 1), plus rarement moyenne (taille 2), et exceptionnellement grande (taille 3) en cas de départ linéaire en versant nord si l'humidification du manteau neigeux atteint pour la première fois la couche fragile encore présente à la base du manteau neigeux.",
+      "title": "MANTEAU NEIGEUX PRINTANIER ET BIEN STABLE EN GÉNÉRAL",
+      "text": "MANTEAU NEIGEUX PRINTANIER ET BIEN STABLE EN GÉNÉRAL\n\nDéclenchements provoqués : le manteau neigeux est ancien, très dense et bien stable en général. Les instabilités en neige humide sont localisées uniquement en versants nord d'altitude supérieure à 2400 m environ. Avalanches pouvant être déclenchées par un skieur, généralement ponctuelles et de petite taille (taille 1), plus rarement moyenne (taille 2). Exceptionnellement, une avalanche de grande taille (taille 3) n'est pas exclue. L'humidification qui se poursuit et qui est très en avance pour la saison peut encore atteindre dans ces orientations des couches fragiles enfouies vers la base du manteau neigeux. Dans les autres orientations où la neige est déjà humidifiée sur toute l'épaisseur, le risque est faible, le fait de faire glisser la neige mouillée en surface ne constitue pas un risque d'avalanche\n\nDéparts spontanés : : peu probables en tout début de journée après un regel nocturne plutôt bon, puis de rares départs de taille 1 à 2 (exceptionnellement taille 3) en ubacs d'altitude humidifiés au soleil, parfois jusqu'au sol après un premier départ de surface.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement  déficitaire pour la période, notamment en adrets.\nHauteurs de neige observées vers 2500 m : 63 cm à la nivôse du Parpaillon.\n\nLimite d'enneigement skiable : au plus bas à 1900/2000 m en ubacs bien protégés ou sur pistes forestières \n\nÉtat de la neige de surface : neige en cycle printanier. Après un regel nocturne plutôt efficace, reprise rapide de l'humidification au soleil.",
+      "text": "Enneigement  déficitaire pour la période, notamment en adrets.\nHauteurs de neige observées vers 2500 m : 60 cm à la nivôse du Parpaillon.\n\nLimite d'enneigement skiable : au plus bas à 1800/2000 m en ubacs bien protégés ou sur pistes forestières \n\nÉtat de la neige de surface : neige de type névé en toute orientation sous 2300/2400 m environ et en adrets d'altitude, regel très limité et superficiel, inexistant en forêts. Manteau neigeux pas encore totalement transformé au-dessus en ubacs avec un bon regel nocturne. Poursuite de l'humidification en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -153,8 +153,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 95,
-          "S": 30
+          "N": 90,
+          "S": 20
         }
       ],
       "icon_key": "snowpack",
