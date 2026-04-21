@@ -3,73 +3,61 @@
   "massif": "Embrunais Parpaillon",
   "bulletin": {
     "id": 20,
-    "issued_at": "2026-04-20T16:00:00",
-    "valid_until": "2026-04-21T18:00:00",
+    "issued_at": "2026-04-21T16:00:00",
+    "valid_until": "2026-04-22T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2400m indice de risque faible évoluant en limité, plus bas indice faible.",
+      "max_level": 1,
+      "comment": "Indice de risque faible.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2400,
-        "split_axis": "horizontal",
-        "split_label": "2400m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2400",
+            "loc": null,
             "risk": 1,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2400",
-            "risk": 1,
-            "evolution_to": 2,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2400m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "1",
             "risk": 1,
             "evolution_to": null
-          },
-          "top": {
-            "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-04-22",
-        "label": "Indice de risque limité",
-        "comment": "Peu d'évolution de la situation nivologique. Risque limité en neige humide.",
+        "max_level": 1,
+        "date": "2026-04-23",
+        "label": "Indice de risque faible",
+        "comment": "Peu d'évolution de la situation nivologique. Bon regel nocturne, ensoleillé en journée, masse d'air moins chaud que les jours précédents. Risque faible",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
+        "N": false,
+        "NE": false,
         "E": false,
         "SE": false,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -78,21 +66,16 @@
       }
     },
     "sat": {
-      "primary": 4,
+      "primary": 6,
       "secondary": null,
       "labels": {
-        "4": "Neige humide"
+        "6": "Aucune prédominente"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-6"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-16",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-17",
           "min_cm": 0,
@@ -117,6 +100,11 @@
           "date": "2026-04-21",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-22",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX PRINTANIER ET BIEN STABLE EN GÉNÉRAL",
-      "text": "MANTEAU NEIGEUX PRINTANIER ET BIEN STABLE EN GÉNÉRAL\n\nDéclenchements provoqués : le manteau neigeux est ancien, très dense et bien stable en général. Les instabilités en neige humide sont localisées uniquement en versants nord d'altitude supérieure à 2400 m environ. Avalanches pouvant être déclenchées par un skieur, généralement ponctuelles et de petite taille (taille 1), plus rarement moyenne (taille 2). Exceptionnellement, une avalanche de grande taille (taille 3) n'est pas exclue. L'humidification qui se poursuit et qui est très en avance pour la saison peut encore atteindre dans ces orientations des couches fragiles enfouies vers la base du manteau neigeux. Dans les autres orientations où la neige est déjà humidifiée sur toute l'épaisseur, le risque est faible, le fait de faire glisser la neige mouillée en surface ne constitue pas un risque d'avalanche\n\nDéparts spontanés : : peu probables en tout début de journée après un regel nocturne plutôt bon, puis de rares départs de taille 1 à 2 (exceptionnellement taille 3) en ubacs d'altitude humidifiés au soleil, parfois jusqu'au sol après un premier départ de surface.",
+      "title": "MANTEAU NEIGEUX BIEN STABILISÉ, ACTIVITÉ EN NEIGE HUMIDE EN NETTE ATTÉNUATION AVEC LE CIEL NUAGEUX",
+      "text": "MANTEAU NEIGEUX BIEN STABILISÉ, ACTIVITÉ EN NEIGE HUMIDE EN NETTE ATTÉNUATION AVEC LE CIEL NUAGEUX\n\nDéclenchements provoqués : le manteau neigeux est ancien, très dense et bien stabilisé.  On ne peut exclure de déclenchements de neige humide sous les éclaircies par des skieurs en versants nord d'altitude supérieure à 2400 m, cependant le voile nuageux épais et le léger rafraîchissement de la masse d'air limitent fortement l'activité par rapport aux jours précédents. \n\nDéparts spontanés : peu probables. Le bon regel nocturne puis la couverture nuageuse limitent l'humidification du manteau neigeux par rapport aux jours précédents.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement  déficitaire pour la période, notamment en adrets.\nHauteurs de neige observées vers 2500 m : 60 cm à la nivôse du Parpaillon.\n\nLimite d'enneigement skiable : au plus bas à 1800/2000 m en ubacs bien protégés ou sur pistes forestières \n\nÉtat de la neige de surface : neige de type névé en toute orientation sous 2300/2400 m environ et en adrets d'altitude, regel très limité et superficiel, inexistant en forêts. Manteau neigeux pas encore totalement transformé au-dessus en ubacs avec un bon regel nocturne. Poursuite de l'humidification en journée.",
+      "text": "Enneigement  déficitaire pour la période, notamment en adrets.\nHauteurs de neige observées vers 2500 m : 58 cm à la nivôse du Parpaillon.\n\nLimite d'enneigement skiable : au plus bas à 1800/2000 m en ubacs bien protégés ou sur pistes forestières \n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2300/2400 m environ et en adrets d'altitude. Bon regel nocturne, humidification limitée en journée en raison de la couverture nuageuse.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -148,12 +136,12 @@
         },
         {
           "alt_m": 2000,
-          "N": 25,
+          "N": 20,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 90,
+          "N": 85,
           "S": 20
         }
       ],

@@ -3,14 +3,14 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-04-20T15:00:00",
-    "valid_until": "2026-04-21T18:00:00",
+    "issued_at": "2026-04-21T16:00:00",
+    "valid_until": "2026-04-22T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Indice de risque faible évoluant en limité.",
+      "max_level": 1,
+      "comment": "Indice de risque faible.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -21,7 +21,7 @@
             "id": "zone1",
             "loc": null,
             "risk": 1,
-            "evolution_to": 2,
+            "evolution_to": null,
             "position": null
           }
         ]
@@ -34,30 +34,30 @@
         },
         "zones": {
           "center": {
-            "text": "1→2",
-            "risk": 2,
-            "evolution_to": 2
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-04-22",
+        "date": "2026-04-23",
         "label": "Indice de risque faible",
-        "comment": "Risque en légère baisse mercredi, neige de plus en plus dense, stable, moins de risque d'avalanche humide...",
-        "trend": "down"
+        "comment": "Regel nocturne correct, avant une nouvelle journée printanière avec un manteau qui s'humidifie en profondeur en journée. Risque restant faible.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
+        "N": false,
+        "NE": false,
         "E": false,
         "SE": false,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": 5,
+      "primary": 5,
+      "secondary": 4,
       "labels": {
-        "4": "Neige humide",
-        "5": "Avalanche de fond"
+        "5": "Avalanche de fond",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-5"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-16",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-17",
           "min_cm": 0,
@@ -106,6 +101,11 @@
           "date": "2026-04-21",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-22",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NEIGE DENSE, TRES HUMIDE EN JOURNE : RARE AVALANCHE POSSIBLE, PARFOIS AU TERRAIN  ? (PENTES NORD HERBEUSES)...",
-      "text": "NEIGE DENSE, TRES HUMIDE EN JOURNE : RARE AVALANCHE POSSIBLE, PARFOIS AU TERRAIN  ? (PENTES NORD HERBEUSES)...\n\nDéparts spontanés : Neige transformée dense avec un un regel nocturne/matinal. Au fil des heures neige devenant très humide sur de grandes épaisseurs. Une coulée n'est pas exclue, près des rochers, voire une rare avalanche plus volumineuse ?\nNoter que dans certaines faces Nord herbeuses, une avalanche de glissement - au terrain - n'est pas exclue, plutôt entre l'après-midi et la soirée. Des fissures de reptations sont présentes...\nEn Sud il y a peu de neige et de type névé, stable...\n\nDéclenchements provoqués : Pas de risque de plaque. En terrain raide et bien humidifié, risque limité de coulée ponctuelle sous les skis.\n\nAutres : Neige temporairement durcie par regel ou croutée/cassante...",
+      "title": "NEIGE DENSE, MANTEAU PRINTANIER BIEN STABILISE",
+      "text": "NEIGE DENSE, MANTEAU PRINTANIER BIEN STABILISE \n\nDéparts spontanés : Peu probables. Neige transformée dense avec un un regel nocturne correct. En journée, le manteau neigeux s'humidifie parfois jusqu'au fond, mais le risque de coulée humide / reptation reste faible, la plupart des pentes ayant déjà purgées. Par ailleurs la présence d'un voile nuageux temporairement bien dense en journée va limiter l'humidification du manteau neigeux par le soleil. \n\nDéclenchements provoqués : Pas de risque de plaque. Manteau neigeux dense et bien stabilisé. En terrain raide et bien humidifié, risque limité de coulée ponctuelle sous les skis.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis 2 semaines mais reste correct en faces peu ensoleillées d'altitude. Au Sud il ne reste plus que des névés...\nLimites skiables : Vers 1500 à 1900m environ suivant l'exposition, la raideur de la pente...\n\nQualité de la neige mardi :  Regel correct mardi matin en altitude. Neige temporairement durcie ou croutée. Rapide dégel au soleil/ fonte. Neige devenant très humide au fil des heures et ce jusqu'en profondeur.... En  large Sud, neige presque de névé.\nLa neige est plus colorée, avec davantage de reliefs désormais.",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis 2 semaines et devient déficitaire pour la saison. Au Sud il ne reste plus que des névés...\nLimites skiables : Vers 1400 à 1900m environ suivant l'exposition, la raideur de la pente...\n\nQualité de la neige mercredi :  Regel correct mercredi matin en altitude. Le dégel sera plus tardif que les jours précédents avec un ciel voilé en journée. Le manteau finie toutefois par s'humidifier en profondeur. En large Sud l'enneigement ressemble de plus en plus à du névé.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -142,8 +142,8 @@
         },
         {
           "alt_m": 2000,
-          "N": 145,
-          "S": 35
+          "N": 140,
+          "S": 20
         }
       ],
       "icon_key": "snowpack",
