@@ -3,61 +3,73 @@
   "massif": "Champsaur",
   "bulletin": {
     "id": 19,
-    "issued_at": "2026-04-21T16:00:00",
-    "valid_until": "2026-04-22T18:00:00",
+    "issued_at": "2026-04-22T16:00:00",
+    "valid_until": "2026-04-23T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 1,
-      "comment": "Indice de risque faible.",
+      "max_level": 2,
+      "comment": "Au-dessus de 2300m indice de risque faible évoluant en limité, plus bas indice faible.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2300,
+        "split_axis": "horizontal",
+        "split_label": "2300m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2300",
             "risk": 1,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2300",
+            "risk": 1,
+            "evolution_to": 2,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2300m"
         },
         "zones": {
-          "center": {
+          "bottom": {
             "text": "1",
             "risk": 1,
             "evolution_to": null
+          },
+          "top": {
+            "text": "1→2",
+            "risk": 1,
+            "evolution_to": 2
           }
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-04-23",
-        "label": "Indice de risque faible",
-        "comment": "Peu d'évolution de la situation nivologique. Bon regel nocturne, ensoleillé en journée, masse d'air moins chaud que les jours précédents. Risque faible",
+        "max_level": 2,
+        "date": "2026-04-24",
+        "label": "Indice de risque limité",
+        "comment": "Maintien d'un risque limité avec l'activité en neige humide qui est en hausse en cours de journée.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
-        "NE": false,
+        "N": true,
+        "NE": true,
         "E": false,
         "SE": false,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": false
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -66,21 +78,16 @@
       }
     },
     "sat": {
-      "primary": 6,
+      "primary": 4,
       "secondary": null,
       "labels": {
-        "6": "Aucune prédominente"
+        "4": "Neige humide"
       },
-      "icon_key": "sat-6"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-17",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-18",
           "min_cm": 0,
@@ -105,6 +112,11 @@
           "date": "2026-04-22",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-23",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +126,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX BIEN STABILISÉ, ACTIVITÉ EN NEIGE HUMIDE EN NETTE ATTÉNUATION AVEC LE CIEL NUAGEUX",
-      "text": "MANTEAU NEIGEUX BIEN STABILISÉ, ACTIVITÉ EN NEIGE HUMIDE EN NETTE ATTÉNUATION AVEC LE CIEL NUAGEUX\n\nDéclenchements provoqués : le manteau neigeux est ancien, très dense et bien stabilisé.  On ne peut exclure de déclenchements de neige humide sous les éclaircies par des skieurs en versants nord d'altitude supérieure à 2400 m, cependant le voile nuageux épais et le léger rafraîchissement de la masse d'air limitent fortement l'activité par rapport aux jours précédents. \n\nDéparts spontanés : peu probables. Le bon regel nocturne puis la couverture nuageuse limitent l'humidification du manteau neigeux par rapport aux jours précédents.",
+      "title": "MANTEAU NEIGEUX PRINTANIER - REPRISE DE L'ACTIVITÉ EN NEIGE HUMIDE",
+      "text": "MANTEAU NEIGEUX PRINTANIER - REPRISE DE L'ACTIVITÉ EN NEIGE HUMIDE\n\nDéparts spontanés : peu probables en tout début de journée après le regel nocturne, puis reprise de l'humidification au fil de la course du soleil avec la hausse de l'isotherme 0 degré. Quelques départs superficiels sont alors possibles en journée, avalanches de petite taille (taille 1) en général. Néanmoins, un départ de plus grande ampleur est possible dans les pentes nord-ouest à nord-est au-dessus de 2300/2400 m environ, emportant la totalité du manteau neigeux. Avalanches de taille moyenne à grande (taille 2 à 3), dans le cas où l'humidification atteint des couches fragiles persistantes enfouies dans le manteau neigeux. \n\nDéclenchements provoqués : un skieur coupant une pente raide trop tardivement peut initier un départ de neige humide sous ses skis, plutôt dans les versants nord d'altitude comprise entre 2200 et 2600 m, et en versants nord-ouest à nord-est entre 2600 et 3000 m. Départs ponctuels engendrant des avalanches de petite taille (taille 1), plus rarement moyenne (taille 2), voire exceptionnellement grande (taille 3). Une première avalanche superficielle de neige humide déclenchée par un skieur peut dans de rares cas provoquer un second départ linéaire plus volumineux en venant solliciter une couche fragile persistante plus profondément enfouie dans le manteau neigeux.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement désormais déficitaire, notamment en adrets.\nHauteurs de neige observées  : 115 cm au-dessus de Prapic à 2500 m, 64 cm à la nivôse d'Orcières à 2300 m.  \n\nLimite d'enneigement skiable : très localement vers 1600/1700 m en fond de vallée en cœur de massif, 2200/2400 m en adrets.\n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2200 m environ et en adrets jusqu'à 3000 m d'altitude. On trouve encore de la neige froide en versants nord de haute altitude au delà de 2900/3000 m. Bon regel nocturne, humidification limitée en journée en raison de la couverture nuageuse.",
+      "text": "Enneigement désormais déficitaire, notamment en adrets.\nHauteurs de neige observées  : 112 cm au-dessus de Prapic à 2500 m, 60 cm à la nivôse d'Orcières à 2300 m.  \n\nLimite d'enneigement skiable : très localement vers 1600/1700 m en fond de vallée en cœur de massif, 2200/2400 m en adrets.\n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2200 m environ et en adrets jusqu'à 3000 m d'altitude. On trouve encore de la neige froide en versants nord de haute altitude au delà de 2900/3000 m. Regel nocturne correct, puis reprise de l'humidification avec le retour du soleil et la hausse de l'isotherme 0 degré.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -136,13 +148,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 75,
+          "N": 70,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 135,
-          "S": 40
+          "N": 130,
+          "S": 35
         }
       ],
       "icon_key": "snowpack",
