@@ -3,8 +3,8 @@
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
-    "issued_at": "2026-04-23T16:00:00",
-    "valid_until": "2026-04-24T18:00:00",
+    "issued_at": "2026-04-24T16:00:00",
+    "valid_until": "2026-04-25T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-25",
+        "date": "2026-04-26",
         "label": "Indice de risque limité",
-        "comment": "Conditions toujours très printanières : risque croissant avec le réchauffement en journée.",
+        "comment": "Conditions encore très printanières : risque croissant avec le réchauffement en journée.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-19",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-20",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-04-24",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-25",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "POURSUITE DE L'HUMIDIFICATION EN PROFONDEUR.",
-      "text": "POURSUITE DE L'HUMIDIFICATION EN PROFONDEUR.\n\nDéparts spontanés :\n- Rares avalanches de neige humide dans les pentes ensoleillées. Départs ponctuels (poires) désormais plus petits et rares, petites avalanches. Les pentes Sud sont relativement inertes en cette saison déjà bien avancée avec une neige de type névé à haute altitude sur toute l'épaisseur du manteau. En versants Est, Nord et Ouest, l'humidification gagne en profondeur. Un rare départ linéaire est possible si l’humidification atteint une couche fragile enfouie, exceptionnellement une grande avalanche. De même, un rare départ en cascade est possible si une petite coulée humide sollicite une couche fragile,  cassure linéaire et potentiellement grande avalanche.\n\nDéclenchements provoqués :  peu probables sauf avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée.\n- En plein Nord de haute altitude (>3000 m), une très rare plaque en neige froide peut subsister. Observable : couche enfouie moins dense qu'en surface.\n\nAutres : chutes de corniches signalées.",
+      "title": "L'HUMIDIFICATION EN PROFONDEUR CONTINUE.",
+      "text": "L'HUMIDIFICATION EN PROFONDEUR CONTINUE.\n\nDéparts spontanés :\n- Rares avalanches de neige humide dans les pentes ensoleillées. Départs ponctuels (coulées en \"poires\") désormais plus petits et rares, petites avalanches. Les pentes sud sont d'avantage stabilisées en cette saison déjà bien avancée avec une neige dense de type névé sur toute l'épaisseur du manteau. En versants Est, Nord et Ouest, l'humidification gagne en profondeur. Un rare départ linéaire est possible si l’humidification atteint une couche fragile enfouie, exceptionnellement une grande avalanche. De même, un rare départ en cascade est possible si une petite coulée humide sollicite une couche fragile,  cassure linéaire et potentiellement grande avalanche.\n\nDéclenchements provoqués :  peu probables sauf avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée.\n- En plein Nord de haute altitude (>3000 m), une très rare plaque en neige froide peut subsister. Observable : couche enfouie moins dense qu'en surface.\n\nAutres : chutes de corniches signalées.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : déficitaire pour la saison,la chaleur est durablement excessive et la neige fond à vue d'œil.\n\nLimite skiable : vers 1600 m en Nord,  2000 m en Sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : neige de printemps après un bon regel nocturne. Neige dure aux premières heures du jour puis rapidement moquette de la matinée à la mi journée suivant orientations et altitudes. Neige pourrie rapidement le matin en versant Est et généralement partout après midi. Il faut monter au-dessus de 3000 m en plein Nord pour trouver de la neige froide souvent poudreuse.",
+      "text": "Enneigement : déficitaire pour la saison,la chaleur est durablement excessive et la neige fond à vue d'œil.\n\nLimite skiable : vers 1600 m en nord,  2000 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : neige de printemps après un bon regel nocturne. Neige dure aux premières heures du jour puis rapidement moquette de la matinée à la mi journée suivant orientations et altitudes. Neige pourrie rapidement le matin en versant Est et généralement partout après midi. Il faut monter au-dessus de 3000 m en plein Nord pour trouver de la neige froide souvent poudreuse.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -141,8 +141,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 150,
-          "S": 75
+          "N": 145,
+          "S": 70
         }
       ],
       "icon_key": "snowpack",

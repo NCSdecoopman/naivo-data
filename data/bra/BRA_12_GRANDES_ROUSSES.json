@@ -3,60 +3,48 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-04-23T16:00:00",
-    "valid_until": "2026-04-24T18:00:00",
+    "issued_at": "2026-04-24T16:00:00",
+    "valid_until": "2026-04-25T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque faible évoluant en limité, plus bas indice faible.",
+      "comment": "Indice de risque faible évoluant en limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2200,
-        "split_axis": "horizontal",
-        "split_label": "2200m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
-            "risk": 1,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2200",
+            "loc": null,
             "risk": 1,
             "evolution_to": 2,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2200m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
+          "center": {
             "text": "1→2",
-            "risk": 1,
+            "risk": 2,
             "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-25",
+        "date": "2026-04-26",
         "label": "Indice de risque limité",
-        "comment": "Samedi, temps ensoleillé et doux. Pas d'évolution du risque.",
+        "comment": "Pas d'évolution dimanche. Un peu de regel puis redoux/fonte en journée.",
         "trend": "steady"
       }
     },
@@ -64,11 +52,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
+        "E": true,
         "SE": false,
         "S": false,
         "SW": false,
-        "W": false,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -88,11 +76,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-19",
-          "min_cm": 0,
-          "max_cm": 1
-        },
         {
           "date": "2026-04-20",
           "min_cm": 0,
@@ -117,6 +100,11 @@
           "date": "2026-04-24",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-25",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,19 +114,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX PRINTANIER, BON REGEL NOCTURNE, HUMIDIFICATION EN JOURNEE",
-      "text": "MANTEAU NEIGEUX PRINTANIER, BON REGEL NOCTURNE, HUMIDIFICATION EN JOURNEE\n\nDéparts spontanés : Rares avalanches humides aux heures chaudes de la journée. Dans les pentes Est, Nord et Ouest, l'humidification gagne en profondeur et pourrait atteindre une couche fragile persistante, dans quel cas une avalanche de grande taille serait possible, avec une cassure linéaire. \nDans les autres pentes et sous 2200m, le manteau est souvent déjà bien stabilisé par les trois dernières semaines printanières, limitant fortement le risque de coulées. \n\nDéclenchements provoqués : En terrain raide et bien humidifié, risque limité de coulée ponctuelle sous les skis. Très rarement dans les pentes Est, Nord et Ouest, le départ d'une coulée ponctuelle pourrait créer une surcharge suffisante pour venir solliciter les couches fragiles enfouies, et faire partir en cascade une avalanche de plaque de grande taille. \n\nAutres : Neige parfois durcie / croûtée par le regel en matinée. Risque de chutes de corniches...",
+      "title": "MANTEAU NEIGEUX PRINTANIER, RARE AVALANCHE DE \"FONTE\", OU CASSURE LINEAIRE EN FACES NORD ?",
+      "text": "MANTEAU NEIGEUX PRINTANIER, RARE AVALANCHE DE \"FONTE\", OU CASSURE LINEAIRE EN FACES NORD ?\n\nDéparts spontanés : Rares avalanches humides aux heures chaudes de la journée ou le soir. \nDans les pentes Est, Nord et Ouest, l'humidification gagne en profondeur, une avalanche ne peut être exclue, parfois sous forme de large cassure ? L'humidité gagnant parfois d'anciennes couches plus fragiles, entre 2300/2800m environ.\nEn faces Sud et sous 2300m moins de neige et très dense, presque de névé, stable... En secteur de reptation (Nord), très rare avalanche de glissement ?\n\nDéclenchements provoqués : RAS ou en terrain raide et bien humidifié, risque limité de coulée ponctuelle sous les skis.\n\nAutres : Neige parfois durcie / croûtée par le regel à l'ombre, en matinée notamment.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est bien réduit depuis 3 semaines, et devient progressivement déficitaire en Sud et en moyenne montagne. Il reste de saison dans les versants peu ensoleillés au-dessus de 2000m.\n\nLimites skiables : Vers 1600/1800m en Nord à 1900/2300m suivant l'exposition au soleil, la raideur de la pente...\n\nQualité de la neige vendredi :  Regel nocturne correct à très bon en altitude. Neige croûtée / durcie par le regel. L'humidification reprend rapidement au soleil, avec un créneau en \"moquette\", avant un passage en neige pourrie dans l'après-midi. Dans les versants plein Nord d'altitude, possibilité de trouver encore quelques pentes en poudreuse dense.",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est bien réduit depuis 3 semaines, il devient déficitaire en faces Sud et moyenne montagne. Il reste correct dans les versants Nord d'altitude.\n\nLimites skiables : Vers 1600/1800m en Nord à 2000/2400m suivant l'exposition au soleil, la raideur de la pente...\n\nQualité de la neige samedi :  Regel nocturne correct à bon en altitude. Neige bosselée aux altitudes moyennes. Au matin à l'ombre neige croûtée / durcie par le regel. L'humidification reprend rapidement au soleil. Un créneau de bon ski \"de printemps\", avant un passage en neige très humide au fil de la course du soleil...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1600,
-        "south": 2100
+        "north": 1700,
+        "south": 2200
       },
       "levels_cm": [
         {
@@ -148,13 +136,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 120,
+          "N": 115,
           "S": 0
         },
         {
           "alt_m": 2500,
           "N": 200,
-          "S": 65
+          "S": 60
         }
       ],
       "icon_key": "snowpack",

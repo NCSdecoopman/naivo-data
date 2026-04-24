@@ -3,8 +3,8 @@
   "massif": "Aure Louron",
   "bulletin": {
     "id": 67,
-    "issued_at": "2026-04-23T16:00:00",
-    "valid_until": "2026-04-24T18:00:00",
+    "issued_at": "2026-04-24T16:00:00",
+    "valid_until": "2026-04-25T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-04-25",
+        "date": "2026-04-26",
         "label": "Indice de risque marqué",
-        "comment": "Risques maintenus en neige humide.",
+        "comment": "Risques maintenus.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-19",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-20",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-04-24",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-25",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,19 +115,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PEU DE REGEL, ACTIVITÉ POSSIBLE DÈS LE MATIN, GRANDES AVALANCHES POSSIBLES",
-      "text": "PEU DE REGEL, ACTIVITÉ POSSIBLE DÈS LE MATIN, GRANDES AVALANCHES POSSIBLES\n\nDéparts spontanés :\nAvec un manteau intégralement humidifié, regelant à peine en surface, des départs ponctuels de taille petite à moyenne sont attendus même tôt le matin et deviennent nombreux au cours de la journée.\nDes avalanches de fond sont aussi possibles, à tout moment, partant en général d'une des nombreuses fissures déjà ouvertes. Elles restent rares, mais peuvent atteindre une grande voire très grande taille en pente raide et glisser sous forme de blocs rapides roulants se détachant ou en écoulement global plus lent. Les fissures ouvertes dépassent souvent le mètre d'épaisseur, en particulier en expositions nord-ouest à nord-est. Dans les autres expositions, les accumulations sont moindres et le manteau est plus tassé, moins instable.\nLes zones de départ se situent plutôt au-dessus de 2000 m mais ces avalanches de fond peuvent parcourir des dénivelés importants et atteindre des sentiers à des altitudes inférieures à la limite d'enneigement dans les couloirs d'avalanche habituels. Ce risque est surtout présent en secteur frontalier, plus enneigé ou sur les hauts massifs. \n\nDéclenchements provoqués : \nLe passage d'un skieur ou randonneur dans une pente en neige très humide peut favoriser un départ ponctuel de surface de taille petite à moyenne, en particulier en expositions nord moins stabilisées par tassement.\n\nAutres : corniches et ponts de neige encore en place extrêmement peu résistants, pouvant céder dès le matin sous le poids d'une seule personne. Une avalanche ancienne,  même récente d'une heure précédemment, peut être suivie d'une autre coulée au même endroit, suravalanches fréquentes.",
+      "title": "ACTIVITÉ POSSIBLE DÈS LE MATIN, GRANDES AVALANCHES POSSIBLES",
+      "text": "ACTIVITÉ POSSIBLE DÈS LE MATIN, GRANDES AVALANCHES POSSIBLES\n\nDéparts spontanés :\nRISQUE  3 NATUREL EN PENTES RAIDES en versant nord à Nord-Est pour les avalanches de fond moyennes à grandes nombreuses à de rares très grandes mais pouvant avoir un fort impact car s'écoulant alors plus bas que la limite d'enneigement, possiblement sur les sentiers. Elles se déroulent sous forme de blocs rapides, roulants et se détachant ou en masse  s'écoulant lentement mais puissamment. Les densités de neige étant proches du maximum possible. Ces avalanches de fond partent en général d'une des nombreuses fissures déjà ouvertes sur les faces Nord à Nord-est. Les épaisseurs en jeu dans ces secteurs dépassent partout le mètre voire plus de 2 ou 3 m. Dans les autres expositions, les accumulations sont moindres et le manteau est plus tassé, moins instable.\nLes zones de départs se situent plutôt au-dessus de 2300/2500 m. \nAvec un manteau humidifié, regelant à peine en surface, en haute montagne, des départs ponctuels de taille petite à moyenne sont attendus même tôt le matin et deviennent nombreux au cours de la journée.\n\nDéclenchements provoqués : \nEn expositions nord moins stabilisées par tassement, coulées possibles sous les skis en raison du manque de consistance de la neige en journée par l'effet du soleil.\n\nAutres : Corniches et ponts de neige encore en place extrêmement peu résistants, pouvant céder dès le matin sous le poids d'une seule personne ou bien spontanément. \nUne avalanche de l'heure précédente ou des jours récents, peut être suivie d'une autre coulée au même endroit, suravalanches possibles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : plutôt bon pour la saison et débutant encore vers 1750 m en nord, au-dessus de 2000 m en sud.\nLes limites de cet enneigement remontent progressivement dans la douceur ambiante, sous les éclaircies matinales et les quelques averses de l'après-midi.\nÉtat de la neige : Le manteau neigeux subit la longue période de douceur. En expositions ensoleillées, et sur la neige ocre, le manteau est printanier à tous niveaux, sans regel mais assez portant. En expositions nord, plutôt au-dessus de 2500 m, une petite croûte non portante peut être présente au petit matin, mais disparaît rapidement. En journée, les enfoncements y deviennent importants, dans une neige sans consistance.",
+      "text": "Enneigement : plutôt bon pour la saison et débutant encore vers 1800 m en nord et au-dessus de 2150 m en sud.\nLes limites de cet enneigement remontent progressivement dans la douceur ambiante, sous les éclaircies matinales et les quelques averses de l'après-midi.\nÉtat de la neige : Le manteau neigeux subit la longue période de douceur. Il peut être portant et ressaisi au-dessus de 2400 m au lever du jour mais évolue très vite et devient très mou au soleil en journée avec parfois des enfoncements importants dans une neige sans consistance en après-midi.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1750,
-        "south": 2050
+        "north": 1800,
+        "south": 2100
       },
       "levels_cm": [
         {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 110,
+          "N": 95,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 220,
-          "S": 100
+          "N": 200,
+          "S": 80
         }
       ],
       "icon_key": "snowpack",
