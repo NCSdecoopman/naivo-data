@@ -3,8 +3,8 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-04-25T16:00:00",
-    "valid_until": "2026-04-26T18:00:00",
+    "issued_at": "2026-04-26T16:00:00",
+    "valid_until": "2026-04-27T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,7 +54,7 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-27",
+        "date": "2026-04-28",
         "label": "Indice de risque limité",
         "comment": "Peu d'évolution. La situation nivologique reste pilotée par l'activité en neige humide au cours de la journée. Rares départs linéaires volumineux dans les ubacs d'altitude.",
         "trend": "steady"
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-21",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-22",
           "min_cm": 0,
           "max_cm": 0
@@ -117,6 +112,11 @@
           "date": "2026-04-26",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-27",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,7 +127,7 @@
     },
     "stability": {
       "title": "MANTEAU NEIGEUX PRINTANIER. L'HUMIDIFICATION EN PROFONDEUR EN UBAC D'ALTITUDE SE POURSUIT.",
-      "text": "MANTEAU NEIGEUX PRINTANIER. L'HUMIDIFICATION EN PROFONDEUR EN UBAC D'ALTITUDE SE POURSUIT.\n\nDéparts spontanés : avalanches en neige humide restant rares mais pouvant être volumineuses en cas de départ linéaire. Taille moyenne à grande, dans les pentes nord-ouest / nord / nord-est au-dessus de 2300/2400 m environ, pouvant emporter la totalité du manteau neigeux. Peu probables en début de journée après un bon regel nocturne, puis risque en augmentation au fil du réchauffement et de l’ensoleillement. En dessous de 2400 m environ, et dans les pentes sud jusqu'à haute altitude, le manteau neigeux printanier est désormais dense et bien stabilisé.\n\nDéclenchements provoqués : un skieur coupant une pente raide tardivement peut initier un départ de neige humide sous les skis. Dans les ubacs au-dessus de 2300/2400 m environ, une première avalanche superficielle de neige humide déclenchée par un skieur peut dans de rares cas provoquer un départ linéaire plus volumineux.",
+      "text": "MANTEAU NEIGEUX PRINTANIER. L'HUMIDIFICATION EN PROFONDEUR EN UBAC D'ALTITUDE SE POURSUIT.\n\nDéparts spontanés : avalanches en neige humide restant rares mais pouvant être volumineuses en cas de départ linéaire. Taille moyenne à grande, dans les pentes nord-ouest / nord / nord-est au-dessus de 2300/2400 m environ, pouvant emporter la totalité du manteau neigeux et s'écouler jusqu'en bas de pente. Peu probables en début de journée après un bon regel nocturne, puis risque en augmentation au fil du réchauffement et de l’ensoleillement. En dessous de 2400 m environ, et dans les pentes sud jusqu'à haute altitude, le manteau neigeux printanier est désormais dense et bien stabilisé.\n\nDéclenchements provoqués : un skieur coupant une pente raide tardivement peut initier un départ de neige humide sous les skis. Dans les ubacs au-dessus de 2300/2400 m environ, une première avalanche superficielle de neige humide déclenchée par un skieur peut dans de rares cas provoquer un départ linéaire plus volumineux.",
       "sections": null,
       "icon_key": "stability"
     },
