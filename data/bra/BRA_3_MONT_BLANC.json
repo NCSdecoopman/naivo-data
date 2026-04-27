@@ -3,8 +3,8 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-04-26T16:00:00",
-    "valid_until": "2026-04-27T18:00:00",
+    "issued_at": "2026-04-27T16:00:00",
+    "valid_until": "2026-04-28T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-28",
+        "date": "2026-04-29",
         "label": "Indice de risque limité",
-        "comment": "Mardi : temps nuageux avec des averses localement orageuses. \n⇒ mauvais regel nocturne. Avalanches en neige humide possible dès le début de matinée, surtout sous les averses.",
+        "comment": "Maintien du risque. Mauvais regel la nuit suivante, avalanches en neige humide.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-22",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-23",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-04-27",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-28",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Conditions printanières",
-      "text": "Conditions printanières\n\nDéparts spontanés : \n* rares avalanches de neige humide, plus nombreuses au fil du réchauffement et du rayonnement solaire. En dessous de 3000 m en nord et 4000 m en sud. Taille 1 à 2 (petite à moyenne). Dans la tranche 2400/3000 m, dans les versants est, ouest et nord, de petits départs ponctuels peuvent déclencher, en cascade, une plaque de plus grande ampleur. Rare taille 3 (grande). Dû à une vielle sous-couche fragile persistante en cours d'humidification. \n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 2 (moyenne). \n\nDéclenchements provoqués : \n* avalanches de neige humide sous 4000 m en sud et 3000 m en nord. Facile à déclencher au soleil. Départ ponctuel sous les skis. Taille 1 à 2. Causé par le réchauffement et le rayonnement solaire.",
+      "title": "Avalanche de neige humide sous les averses",
+      "text": "Avalanche de neige humide sous les averses\n\nDéparts spontanés : \n* rares à quelques avalanches de neige humide, plus nombreuses l'après-midi avec l'arrivée des précipitations. Le regel, parfois plus hétérogène peut favoriser un départ dès la matinée. En dessous de 3000 m en nord et 4000 m en sud. Taille 1 à 2 (petite à moyenne). Dans la tranche 2400/3000 m, dans les versants est, ouest et nord, de petits départs ponctuels peuvent déclencher, en cascade, une plaque de plus grande ampleur. Rare taille 3 (grande). Dû à une vielle sous-couche fragile persistante en cours d'humidification. \n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 2 (moyenne). Au-dessus de 2400 m, dans les versants est, ouest et nord, de petits départs ponctuels peuvent déclencher, en cascade, une plaque de fond. Rare taille 3 (grande).\n\nDéclenchements provoqués : \n* avalanches de neige humide sous 4000 m en sud et 3000 m en nord. Facile à déclencher tous versants. Départ ponctuel sous les skis. Taille 1 à 2. Causé par les averses et la couverture nuageuse.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 3000 m \nOn peut chausser les skis au-dessus de 2000 m en sud et 1600 m en nord. \n\nQualité de la neige ce lundi matin : \n* sous 2400 m, neige de névé avec un bon regel nocturne.\n* sous 3500 m en nord et 4200 m en sud, neige de printemps avec un bon regel nocturne. \n* au-dessus de 3500 m en nord et 4200 m en sud, neige encore froide, souvent dure, avec de nombreux endroits où la glace ressort.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 3000 m \nOn peut chausser les skis au-dessus de 2000 m en sud et 1600 m en nord. \n\nQualité de la neige ce mardi matin : \n* sous 2400 m, neige de névé avec un regel nocturne correct (voile en fin de nuit)\n* sous 3500 m en nord et 4200 m en sud, neige de printemps avec un regel nocturne correct\n* au-dessus de 3500 m en nord et 4200 m en sud, neige encore froide, souvent dure, avec de nombreux endroits où la glace ressort.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 110,
-          "S": 40
+          "N": 105,
+          "S": 35
         },
         {
           "alt_m": 2500,
-          "N": 210,
-          "S": 130
+          "N": 205,
+          "S": 125
         }
       ],
       "icon_key": "snowpack",
