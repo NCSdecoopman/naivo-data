@@ -3,14 +3,14 @@
   "massif": "Maurienne",
   "bulletin": {
     "id": 9,
-    "issued_at": "2026-04-27T16:00:00",
-    "valid_until": "2026-04-28T18:00:00",
+    "issued_at": "2026-04-28T15:00:00",
+    "valid_until": "2026-04-29T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque faible évoluant en limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2200,
@@ -27,8 +27,8 @@
           {
             "id": "zone2",
             "loc": ">2200",
-            "risk": 1,
-            "evolution_to": 2,
+            "risk": 2,
+            "evolution_to": null,
             "position": "top"
           }
         ]
@@ -46,17 +46,17 @@
             "evolution_to": null
           },
           "top": {
-            "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-29",
+        "date": "2026-04-30",
         "label": "Indice de risque limité",
-        "comment": "Belle matinée, plus nuageux l'après midi toujours chaud avec rare avalanche de neige humide en cours de journée",
+        "comment": "Risque stationnaire, le temps est plus sec mais la chaleur favorise des départs humides l'après-midi.",
         "trend": "steady"
       }
     },
@@ -64,11 +64,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
+        "E": false,
         "SE": false,
         "S": false,
         "SW": false,
-        "W": true,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -88,11 +88,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-23",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-24",
           "min_cm": 0,
@@ -117,6 +112,11 @@
           "date": "2026-04-28",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-29",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,13 +126,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "L'HUMIDIFICATION EN PROFONDEUR CONTINUE.",
-      "text": "L'HUMIDIFICATION EN PROFONDEUR CONTINUE.\n\nDéparts spontanés : Au dessus de 2200m en versants Est et Ouest d'altitude, ainsi qu'en Nord, l'humidification s'accentue et gagne en profondeur chaque jour. Un rare départ linéaire est encore possible quand l’humidification atteint une couche fragile enfouie, une moyenne à grande avalanche (taille 2 voir 3) devient alors possible.\n \nSous 2200m en Nord et en Sud à toutes altitude,  Les pentes sont maintenant bien stabilisées en cette saison déjà bien avancée avec une neige dense de type névé sur toute l'épaisseur du manteau. \n\nDéclenchements provoqués :  peu probables sauf avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée.\n\nAutres : chutes de corniches signalées,",
+      "title": "HUMIDIFICATION EN PROFONDEUR ACCÉLÉRÉE PAR LES AVERSES",
+      "text": "HUMIDIFICATION EN PROFONDEUR ACCÉLÉRÉE PAR LES AVERSES\n\nDéparts spontanés :\n - Au dessus de 2200 m en versants Est et Ouest d'altitude, mais surtout en Nord, l'humidification s'accentue en journée sous les averses et gagne un peu plus en profondeur. Un rare départ linéaire est encore possible quand l’humidification atteint une couche fragile enfouie (très présentes à la base du manteau dans les versants Nord), une moyenne à grande avalanche (taille 2 voir 3) est alors possible.\n - Sous 2200 m en Nord et à toute altitude en Sud, les pentes sont maintenant bien stabilisées, avec une neige dense de type névé sur toute l'épaisseur du manteau.\n\nDéclenchements provoqués : peu probables sauf avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée.\n\nAutres : chutes de corniches signalées et attendues.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : déficitaire pour la saison, la chaleur est durablement excessive et la neige fond à vue d'œil. La très haute montagne est sèche à cause des épisodes de vent de l'hiver. \n\nLimite skiable : vers 1700 m en nord,  2000/2200 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige :  Sous 2200m en Nord et encore au dessus ailleurs neige de névé qui reste dense toute la journée. Sinon au dessus  neige de neige de printemps après un bon regel nocturne. Neige dure aux premières heures du jour puis rapidement moquette de la matinée à la mi journée suivant orientations et altitudes. Neige pourrie en fin de matinée en versant Est et généralement partout l'après midi. Il faut monter au-dessus de 3000 m en plein Nord pour trouver quelques restes de neige froide  localement en vieille poudre, souvent bétonnée par le vent.",
+      "text": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne est quasi sèche à cause des épisodes de vent de l'hiver et de l’absence de précipitations significative ces dernières semaines.\n\nLimite skiable : vers 1700 m en nord,  2000/2200 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : Sous 2200 m en Nord et bien plus haut dans les autres orientations, neige de névé qui reste dense toute la journée. Au-dessus, difficile de trouver de bonnes conditions de ski de printemps, le regel est aléatoire, rendant parfois la neige pourrie dès le début de journée, cet état de neige se généralise l'après-midi sous les averses. Il faut monter au-dessus de 3000 m en plein Nord pour espérer trouver quelques restes de neige froide, très localement en vieille poudre, mais souvent bétonnée par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -148,13 +148,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 30,
+          "N": 25,
           "S": 0
         },
         {
           "alt_m": 2500,
           "N": 110,
-          "S": 30
+          "S": 25
         }
       ],
       "icon_key": "snowpack",

@@ -3,37 +3,49 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-04-27T16:00:00",
-    "valid_until": "2026-04-28T18:00:00",
+    "issued_at": "2026-04-28T16:00:00",
+    "valid_until": "2026-04-29T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 1,
-      "comment": "Indice de risque faible.",
+      "comment": "Au-dessus de 0m indice de risque faible, plus bas indice faible.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 0,
+        "split_axis": "horizontal",
+        "split_label": "0m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<0",
             "risk": 1,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">0",
+            "risk": 1,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "0m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
+          },
+          "top": {
             "text": "1",
             "risk": 1,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-04-29",
+        "date": "2026-04-30",
         "label": "Indice de risque faible",
-        "comment": "Mercredi, belles éclaircies en matinée. Les nuages bourgeonnent l'après-midi, avec un risque d'averses orageuses l'après-midi.",
+        "comment": "Jeudi on profitera de quelques éclaircies en matinées, puis de nouvelles averses orageuses se développeront l'après-midi. Le risque n'évolue pas, avec un manteau irrégulier, dense et stable.",
         "trend": "steady"
       }
     },
@@ -77,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-23",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-24",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +112,11 @@
           "date": "2026-04-28",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-29",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,19 +126,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX TRES DENSE, STABLE..",
-      "text": "MANTEAU NEIGEUX TRES DENSE, STABLE..\n\nDe moins en moins de neige en place et très dense, presque de névé, donc stable.\nDéparts spontanés : Peu probables, ou très rare coulée humide en pente bien raide sous la pluie.\nDéclenchements provoqués :  Peu probables, ou de manière très rare sous les skis en neige humide.",
+      "title": "MANTEAU NEIGEUX DE FIN DE SAISON, STABLE",
+      "text": "MANTEAU NEIGEUX DE FIN DE SAISON, STABLE\n\nDe moins en moins de neige sur le massif où l'on se rapproche de la fin de saison. \nDéparts spontanés : Peu probables, ou très rare coulée humide en pente bien raide sous la pluie.\nDéclenchements provoqués :  Peu probables, ou de manière très rare sous les skis en neige humide.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis début avril et devient déficitaire pour la saison. Au Sud il ne reste plus que de rares névés... la fin de saison approche.\nLimites skiables : Vers 1600 à 2100m environ suivant l'exposition, la raideur de la pente...\n\nQualité de la neige mardi :  Manteau neigeux printanier. Regel nocturne assez médiocre voire inexistant. Neige très humide, dense. Détrempée sous les averses en journée.",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis début avril et devient déficitaire pour la saison. Il ne reste souvent que des névés, ou quelques pentes skiables en Nord d'altitude. \nLimites skiables : Vers 1800m en Nord bien abrité. Les pentes Sud ne sont parfois plus du tout enneigées. \n\nQualité de la neige mercredi :  Pas de regel nocturne. Manteau neigeux entièrement humide suite à la pluie de mardi.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1600,
-        "south": 2100
+        "south": 2200
       },
       "levels_cm": [
         {
@@ -141,7 +153,7 @@
         },
         {
           "alt_m": 2000,
-          "N": 110,
+          "N": 105,
           "S": 0
         }
       ],
