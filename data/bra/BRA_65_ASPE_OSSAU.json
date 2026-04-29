@@ -3,8 +3,8 @@
   "massif": "Aspe Ossau",
   "bulletin": {
     "id": 65,
-    "issued_at": "2026-04-28T17:00:00",
-    "valid_until": "2026-04-29T18:00:00",
+    "issued_at": "2026-04-29T16:00:00",
+    "valid_until": "2026-04-30T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-30",
+        "date": "2026-05-01",
         "label": "Indice de risque limité",
-        "comment": "Peu d'évolution, regel toujours incertain",
+        "comment": "Neige humide",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-24",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-25",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-04-29",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-30",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -116,18 +116,18 @@
     },
     "stability": {
       "title": "MANTEAU NEIGEUX TRÈS HUMIDE DÈS LE MATIN APRÈS UNE NUIT NUAGEUSE, VENTÉE DE SUD",
-      "text": "MANTEAU NEIGEUX TRÈS HUMIDE DÈS LE MATIN APRÈS UNE NUIT NUAGEUSE, VENTÉE DE SUD\n\nDéparts spontanés : \nActivité attendue rapidement en matinée, sous forme de départs ponctuels de neige humide au fil de l'ensoleillement, en général de taille petite à moyenne. De rares grandes avalanches sont possibles par départ d'une avalanche de fond, en général depuis une fissure déjà ouverte. Leur chronologie de départ est moins liée à l'ensoleillement, les zones de départs se situent en général en secteurs nord-est à nord-ouest, au-dessus de 2200m.\n\nDéclenchements provoqués : en neige humide seulement.\nLe passage d'un skieur ou d'un randonneur dans la neige très humide peut favoriser un départ ponctuel en général de petite taille, parfois moyenne, et ce dès le matin avec une neige probablement molle dès le lever du jour.\n\nAutres :\n- corniches et ponts de neige encore en place fragiles et peu résistants, pouvant céder dès le matin spontanément ou sous le poids d'une seule personne, même s'ils semblent épais\n- les chemins de randonnée déjà déneigés mais situés sous les secteurs raides d'altitude encore chargés peuvent être atteints pas une avalanche de fond de taille moyenne à parfois grande dans l'après-midi.",
+      "text": "MANTEAU NEIGEUX TRÈS HUMIDE DÈS LE MATIN APRÈS UNE NUIT NUAGEUSE, VENTÉE DE SUD\n\nDéparts spontanés : \nActivité attendue rapidement en matinée, sous forme de départs ponctuels de neige humide au gré des éclaircies, en général de taille petite à moyenne. De rares grandes avalanches sont possibles par départ d'une avalanche de fond, en général depuis une fissure déjà ouverte. Leur chronologie de départ est moins liée à l'ensoleillement, les zones de départs se situent en général en secteurs nord-est à nord-ouest où sont les plus grosses épaisseurs de neige, au-dessus de 2200/2300 m.\n\nDéclenchements provoqués : en neige humide seulement.\nLe passage d'un skieur ou d'un randonneur dans la neige très humide peut favoriser un départ ponctuel en général de petite taille, parfois moyenne, et ce dès le matin avec une neige probablement molle dès le lever du jour.\n\nAutres :\n- corniches et ponts de neige encore en place fragiles et peu résistants, pouvant céder dès le matin spontanément ou sous le poids d'une seule personne, même s'ils semblent épais.\n- les chemins de randonnée déjà déneigés situés sous les secteurs raides d'altitude encore chargés peuvent être atteints pas une avalanche de fond de taille moyenne à parfois grande dans l'après-midi.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : encore correct pour la saison au-dessus de 2200m, plutôt déficitaire plus bas, débutant encore vers 1800m en nord et au-dessus de 2100m en sud. Les limites de cet enneigement remontent progressivement dans la douceur ambiante.\nÉtat de la neige : \nNeige humide assez portante le matin, se ramollissant encore au fil de la journée, avec des enfoncements à pied dépassant 40 cm.",
+      "text": "Enneigement : Encore correct pour la saison au-dessus de 2200 m, plutôt déficitaire plus bas, débutant encore vers 1850 m en nord et au-dessus de 2200 m en sud. Les limites de cet enneigement remontent progressivement dans la douceur ambiante.\nÉtat de la neige : \nNeige humide souvent assez portante le matin, se ramollissant encore au fil de la journée, avec des enfoncements à pied dépassant 40 cm.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1850,
-        "south": 2100
+        "south": 2200
       },
       "levels_cm": [
         {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 80,
+          "N": 70,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 195,
-          "S": 60
+          "N": 190,
+          "S": 50
         }
       ],
       "icon_key": "snowpack",

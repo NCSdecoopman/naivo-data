@@ -3,48 +3,60 @@
   "massif": "Aravis",
   "bulletin": {
     "id": 2,
-    "issued_at": "2026-04-28T16:00:00",
-    "valid_until": "2026-04-29T18:00:00",
+    "issued_at": "2026-04-29T16:00:00",
+    "valid_until": "2026-04-30T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Au-dessus de 2300m indice de risque faible évoluant en limité, plus bas indice faible.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2300,
+        "split_axis": "horizontal",
+        "split_label": "2300m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
-            "risk": 2,
+            "loc": "<2300",
+            "risk": 1,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2300",
+            "risk": 1,
+            "evolution_to": 2,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2300m"
         },
         "zones": {
-          "center": {
-            "text": "2",
-            "risk": 2,
+          "bottom": {
+            "text": "1",
+            "risk": 1,
             "evolution_to": null
+          },
+          "top": {
+            "text": "1→2",
+            "risk": 1,
+            "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-30",
+        "date": "2026-05-01",
         "label": "Indice de risque limité",
-        "comment": "Départs de neige humide en journée. La journée est plus sèche et ensoleillée avec des cumulus qui gonflent dans les massifs. Isotherme 0°C vers 3000 m.",
+        "comment": "Peu d'évolution. Beau temps ensoleillé.",
         "trend": "steady"
       }
     },
@@ -53,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -77,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-24",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-25",
           "min_cm": 0,
@@ -106,6 +113,11 @@
           "date": "2026-04-29",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-30",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Avalanche de neige humide pendant et après les averses",
-      "text": "Avalanche de neige humide pendant et après les averses\n\nDéparts spontanés : \n* Avalanches de neige humide à toutes altitudes. Départs possibles pendant les chutes de pluie puis au fil du réchauffement diurne. Taille 1 (petite) à 2 (moyenne)\nFacteur aggravant, au-dessus de 2400 m en versants E/N/O : pendant et après les chutes de pluie, un départ en plaque est possible si l'humification atteint une couche fragile enfouie dans le manteau neigeux. Cassure de 50/80 cm possibles. Taille 2 (moyenne).\n* Quelques plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n\nDéclenchements provoqués : \n* Déclenchements ponctuels de neige humide sous les pieds ou les skis. Facilement déclenchables. Causé par les précipitations pluvieuses puis par le réchauffement diurne. Taille 1 (petite) à 2 (moyenne).",
+      "title": "Manteau neigeux stable",
+      "text": "Manteau neigeux stable\n\nDéparts spontanés : \n* Quelques plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n* Avalanches de neige humide  au fil de la course du soleil. Taille 1 (petite) rarement 2 (moyenne)\nFacteur aggravant, au-dessus de 2400 m en versants E/N/O : un départ en cascade en plaque n'est pas exclu. Cassure de 50/80 cm possibles. Taille 2 (moyenne).\n\nDéclenchements provoqués : \n* Déclenchements ponctuels de neige humide sous les pieds ou les skis. Facilement déclenchables. Causé par les précipitations pluvieuses puis par le réchauffement diurne. Taille 1 (petite).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire à toutes altitudes.  \nOn peut chausser les skis au-dessus de 2000 m en sud et 1700 m en nord. \n\nQualité de la neige ce mercredi :\n* En dessous de 2400 m, manteau neigeux humide en profondeur, voire neige de névé, avec un mauvais regel nocturne. \n* Au-dessus de 2400 m : manteau neigeux printanier, humidifié en surface. Faible regel nocturne.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire à toutes altitudes.  \nOn peut chausser les skis au-dessus de 2000/2300 m en sud et 1700/1900 m en nord. \n\nQualité de la neige jeudi :\n* En dessous de 2400 m, manteau neigeux humide en profondeur, voire neige de névé, avec un bon regel nocturne. \n* Au-dessus de 2400 m : manteau neigeux printanier, qui s'humidifie en surface au fil des heures. Bon regel nocturne.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -143,7 +155,7 @@
         {
           "alt_m": 2000,
           "N": 90,
-          "S": 30
+          "S": 20
         }
       ],
       "icon_key": "snowpack",

@@ -3,61 +3,49 @@
   "massif": "Queyras",
   "bulletin": {
     "id": 17,
-    "issued_at": "2026-04-28T16:00:00",
-    "valid_until": "2026-04-29T18:00:00",
+    "issued_at": "2026-04-29T16:00:00",
+    "valid_until": "2026-04-30T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2500m indice de risque faible évoluant en limité, plus bas indice faible.",
+      "max_level": 1,
+      "comment": "Indice de risque faible.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2500,
-        "split_axis": "horizontal",
-        "split_label": "2500m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2500",
+            "loc": null,
             "risk": 1,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2500",
-            "risk": 1,
-            "evolution_to": 2,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2500m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "1",
             "risk": 1,
             "evolution_to": null
-          },
-          "top": {
-            "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-04-30",
+        "date": "2026-05-01",
         "label": "Indice de risque faible",
-        "comment": "Risque devenant faible en neige humide ne concernant que les versants nord de haute altitude. Côté météo, risque d'averses l'après-midi.",
-        "trend": "down"
+        "comment": "Peu d'évolution du risque compte-tenu du faible enneigement.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -89,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-24",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-25",
           "min_cm": 0,
           "max_cm": 0
@@ -117,6 +100,11 @@
           "date": "2026-04-29",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-30",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,12 +115,12 @@
     },
     "stability": {
       "title": "MANTEAU NEIGEUX PRINTANIER - DENSE ET STABLE",
-      "text": "MANTEAU NEIGEUX PRINTANIER - DENSE ET STABLE\n\nDéparts spontanés : peu probables au petit matin après un regel nocturne correct, puis petite activité en neige humide en journée sous l'effet du soleil et de la douceur. Avalanches généralement superficielles de taille 1. Une rare taille 2 reste possible dans les pentes nord au dessus de 2500/2700 m.\n\nDéclenchements provoqués : un skieur coupant une pente raide tardivement peut initier un départ de neige humide sous les skis de taille limitée. Dans les ubacs au dessus de 2900/3000 m, éventuellement des structures de plaques superficielles dans la neige fraîche tombée sous les averses de mardi.",
+      "text": "MANTEAU NEIGEUX PRINTANIER - DENSE ET STABLE\n\nDéparts spontanés : peu probables compte-tenu du faible enneigement. Rare activité superficielle en neige humide au soleil en journée. Une rare avalanche moyenne (taille 2) par départ linéaire reste possible dans les pentes nord-ouest à nord-est au dessus de 2500/2700 m.\n\nDéclenchements provoqués : un skieur coupant tardivement une pente raide peut initier un départ de neige humide sous les skis, de petite taille et seulement en ubacs raides de haute altitude.\n\nDans l'après-midi, les petites précipitations sous averse ou orage, neigeuses au dessus de 2600 m environ, ne devraient pas sensiblement modifier la stabilité du manteau neigeux.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement très déficitaire pour une mi-avril, notamment en adrets, souvent secs jusqu'à plus de 2500 m.\nHauteurs de neige observées : 33 cm à la Nivôse du Col Agnel à 2630 m.\n\nLimite d'enneigement skiable : au plus bas à 2000 m en ubacs bien protégés ou sur pistes forestières vers le Briançonnais, plus souvent 2000/2100 m. \n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2500 m environ et en adrets d'altitude. Bon regel nocturne, puis reprise de l'humidification en journée. Quelques cm de fraîche sont possibles tombés sous une averse de neige de mardi en combes nord de haute altitude, au delà de 2800/3000 m.",
+      "text": "Enneigement très déficitaire pour une fin avril, notamment en adrets, souvent secs jusqu'à plus de 2500 m.\nHauteurs de neige observées : 30 cm à la Nivôse du Col Agnel à 2630 m.\n\nLimite d'enneigement skiable : au plus bas à 2000 m en ubacs bien protégés ou sur pistes forestières vers le Briançonnais, plus souvent 2000/2100 m. \n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2500 m environ et en adrets de haute altitude. Quelques cm de neige fraîche localement possibles, tombés sous une averse de neige de mercredi après-midi, au delà de 2700/2800 m. Regel nocturne modéré, puis reprise de l'humidification en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

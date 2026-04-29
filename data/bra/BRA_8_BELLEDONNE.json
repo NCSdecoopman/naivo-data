@@ -3,49 +3,37 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-04-28T16:00:00",
-    "valid_until": "2026-04-29T18:00:00",
+    "issued_at": "2026-04-29T15:00:00",
+    "valid_until": "2026-04-30T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2200,
-        "split_axis": "horizontal",
-        "split_label": "2200m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
-            "risk": 1,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2200",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2200m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
+          "center": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -54,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-04-30",
+        "date": "2026-05-01",
         "label": "Indice de risque limité",
-        "comment": "Jeudi on profitera de quelques éclaircies en matinées, puis de nouvelles averses (parfois orageuses) se développeront l'après-midi. Pas d'évolution du risque.",
+        "comment": "Pas d'évolution vendredi, risque d'avalanche stationnaire ou en légère baisse. La fonte se poursuit...",
         "trend": "steady"
       }
     },
@@ -64,11 +52,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
+        "E": false,
         "SE": false,
         "S": false,
         "SW": false,
-        "W": true,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -88,11 +76,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-24",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-25",
           "min_cm": 0,
@@ -117,6 +100,11 @@
           "date": "2026-04-29",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-04-30",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX DE PLUS EN PLUS HUMIDE SOUS 2600 / 2700M, RETOUR DE LA NEIGE A PLUS HAUTE ALTITUDE",
-      "text": "MANTEAU NEIGEUX DE PLUS EN PLUS HUMIDE SOUS 2600 / 2700M, RETOUR DE LA NEIGE A PLUS HAUTE ALTITUDE \n\nMardi soir, des averses parfois orageuses donnent quelques cm de neige au-dessus de 2600 à 2700m. A plus basse altitude, la pluie accélère l'humidification du manteau neigeux. \nDéparts spontanés : Sous 2600 à 2700m l'humidification gagne en profondeur et pourrait faire partir de rares coulées humides de tailles petites à moyennes. Dans les versants Nord-Ouest à Nord-Est supérieurs à 2200m quelques couches fragiles \"froides\" peuvent subsister dans le manteau neigeux. Exceptionnellement, une grande avalanche avec une cassure linéaire ne peut être exclue dans le cas où l'humidification gagnerait ces couches fragiles enfouie. Au-dessus de 2600 / 2700m, les 7 à 15cm de neige récente sont stables. Eventuellement quelques départs en escargots sous les rochers.\nDéclenchements provoqués : Peu probables, ou un risque limité de coulée ponctuelle sous les skis en terrain raide et bien humidifié. Au-dessus de 2600m, possibilité de faire partir des coulées ponctuelles dans les 7 à 15cm de neige récente bien humide.",
+      "title": "RARES AVALANCHES HUMIDE EN FACES NORD, PARFOIS VOLUMINEUSES ?",
+      "text": "RARES AVALANCHES HUMIDE EN FACES NORD, PARFOIS VOLUMINEUSES ?\n\nMercredi soir, des averses locales donnent quelques cm de neige au-dessus de 2700m. Guère de regel jeudi matin... L'humidification gagne en faces Nord d'altitude, risque d'avalanche de fond non exclu...\n\nDéparts spontanés : Avec un saupoudrage  possible sur les hauts de Belledonne, possibles coulées de surface.\nJeudi suite à un regel faible ou absent, l'humidification s'accentue et pourrait déstabiliser certaines faces Nord raides : On n'exclut pas une nouvelle coulée ou avalanche plus volumineuse, parfois au terrain...\nEn faces plus ensoleillées, neige plus dense, de névé, stable.\nDéclenchements provoqués : Peu probables, ou vers les sommets un risque de coulée superficielle sous les skis ?",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est bien réduit depuis début avril, il devient déficitaire sur le massif. Il est tout au mieux correct en Nord d'altitude. \n\nLimites skiables : Vers 1600/1800m en Nord à 2000/2300m en versants ensoleillés. \n\nQualité de la neige mercredi :  Pas de regel nocturne, ou très médiocre au-dessus de 2500 / 2600m. Neige gorgée d'eau sous 2600 / 2700m environ. Plus haut, 5 à 10cm de neige récente déjà très humide, collant aux skis. Mercredi après-midi sous les averses, 5 à 10cm de neige supplémentaires possibles au-dessus de 2700m.",
+      "text": "Qualification de l’enneigement :  La fonte s'est récemment accélérée. L'enneigement devient franchement déficitaire sur le massif, avec un aspect de fin de saison...\n\nLimites skiables : Vers 1600/1800m en Nord à 2100/2400m en versants ensoleillés. \n\nQualité de la neige jeudi :  Quasiment pas de regel nocturne, sous 2500m notamment.\nUn peu de neige récente possible vers les hauts sommets. Neige salie/colorée avec pas mal de reliefs.\nNeige très humide en journée, glisse médiocre à faible...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -148,13 +136,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 165,
+          "N": 155,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 270,
-          "S": 95
+          "N": 265,
+          "S": 85
         }
       ],
       "icon_key": "snowpack",
