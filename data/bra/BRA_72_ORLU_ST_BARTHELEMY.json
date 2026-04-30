@@ -3,8 +3,8 @@
   "massif": "Orlu St-Barthelemy",
   "bulletin": {
     "id": 72,
-    "issued_at": "2026-04-29T17:00:00",
-    "valid_until": "2026-04-30T18:00:00",
+    "issued_at": "2026-04-30T16:00:00",
+    "valid_until": "2026-05-01T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-01",
+        "date": "2026-05-02",
         "label": "Indice de risque limité",
-        "comment": "Maintien d'un risque limité",
+        "comment": "Stationnaires",
         "trend": "steady"
       }
     },
@@ -53,11 +53,11 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
+        "SE": false,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": false
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -77,11 +77,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-25",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-26",
           "min_cm": 0,
@@ -106,6 +101,11 @@
           "date": "2026-04-30",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-01",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -116,17 +116,17 @@
     },
     "stability": {
       "title": "POURSUITE DE L'HUMIDIFICATION EN PROFONDEUR",
-      "text": "POURSUITE DE L'HUMIDIFICATION EN PROFONDEUR\n\nDéparts spontanés :\n- Des avalanches de fond emportant l'ensemble du manteau neigeux sont possibles en toutes orientations (fissures/reptations et avalanches de fond signalées ces derniers jours), plutôt au-delà de 2200/2300m.  Elles seront de taille moyenne, voire grande dans les zones de plus fortes accumulations (pentes nord à sud-est) avec des cassures pouvant localement dépasser les 1 à 2m d'épaisseur, surtout dans le secteur de l'Esquine d'Aze où le manteau neigeux est encore conséquent. Selon la configuration locale ces avalanches peuvent finir leur parcours en dessous de la limite d'enneigement. Les fortes averses de pluie attendues localement jeudi peuvent faciliter le déclenchement de ces avalanches.\n- Avec un manteau intégralement humidifié, regelant peu en surface, des départs ponctuels d'avalanches de neige humide, de taille petite à moyenne sont attendus dès le matin dans les pentes Est. Elles deviennent plus fréquentes au cours de la journée et se propagent aux versants Sud puis Ouest.\nDéclenchements provoqués :\nUn skieur coupant une pente raide déjà bien humidifiée pourra favoriser un départ ponctuel de taille petite à plus rarement moyenne. Ces coulées peuvent emporter les skis et provoquer la chute. Les pentes d'altitude orientées Est le matin puis Sud et enfin Ouest en fin de journée sont les plus exposées à ce risque.\nAutres :\n- des corniches encore imposantes sont susceptibles de céder spontanément et peuvent déclencher une avalanche dans leur chute\n- les ponts de neige peuvent également céder au passage d'un randonneur",
+      "text": "POURSUITE DE L'HUMIDIFICATION EN PROFONDEUR\n\nDéparts spontanés :\n- Quelques  avalanches de fond emportant l'ensemble du manteau neigeux peu fréquentes mais encore possibles (fissures/reptations et avalanches de fond signalées ces derniers jours), plutôt au-delà de 2200/2300 m dans les versants Nord et Est, les plus enneigés. En cas de départs, elles seront de taille moyenne, voire grande dans les zones de plus fortes accumulations avec des cassures pouvant localement dépasser les 1 à 2m d'épaisseur. Selon la configuration locale ces avalanches peuvent finir leur parcours en dessous de la limite d'enneigement. \n- Quelques coulées de surface de petites tailles sous forme d'avalanches ponctuelles sont également possibles, plutôt en cours de journée. \nDéclenchements provoqués :\nUn skieur coupant une pente raide déjà bien humidifiée pourra favoriser un départ ponctuel de taille petite à plus rarement moyenne. Ces coulées peuvent emporter les skis et provoquer la chute. \n\nAutres :\n- des corniches encore imposantes sont susceptibles de céder spontanément et peuvent déclencher une avalanche dans leur chute\n- les ponts de neige recouvrant les torrents peuvent également facilement céder au passage d'un randonneur.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nL'enneigement dans nos massifs reste bon pour la saison, encore nettement supérieur à celui des derniers hivers. La limite skiable  est au mieux vers 1800m en nord et 2100m en sud. On trouve ensuite rapidement une épaisseur de neige conséquente qui dépasse encore souvent les 1 à 1,30 m à 2000m en nord, et 2 à 2,50 m à 2500m. Les cols et crêtes ouest à nord-ouest sont toutefois moins garnis en neige, les rochers affleurent de plus en plus en surface. \n\nQualité de la neige :\nAu lever du jour, avec les nuages de la nuit, il ne faudra pas trop compter sur le regel, même en altitude. En journée la neige, de type névé dans les versants ensoleillés, légèrement ocre du fait des poussières sahariennes, devient très humide puis détrempée à toutes altitudes et orientations.  À noter enfin la présence de rigoles de fonte en surface.",
+      "text": "Enneigement : \nL'enneigement dans nos massifs reste bon pour la saison, encore supérieur à celui des derniers hivers. La limite skiable  est au mieux vers 1800m en nord et 2100m en sud. On trouve ensuite rapidement une épaisseur de neige conséquente qui dépasse encore souvent les 1 à 1,30 m à 2000m en nord, et 2 à 2,50 m à 2500 m. Les cols et crêtes ouest à nord-ouest sont toutefois moins garnis en neige, les rochers affleurent de plus en plus en surface. \n\nQualité de la neige :\nRegel ponctuel dans quelques secteurs à l'abri du vent de sud en haute montagne. La neige est de type névé dans la plupart des versants, légèrement ocre du fait des poussières sahariennes, devenant fréquemment détrempée en surface dans l'après-midi à toutes altitudes et orientations.  À noter enfin la présence de rigoles de fonte en surface.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1700,
+        "north": 1800,
         "south": 2000
       },
       "levels_cm": [
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 132,
-          "S": 1
+          "N": 120,
+          "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 232,
-          "S": 120
+          "N": 220,
+          "S": 115
         }
       ],
       "icon_key": "snowpack",
