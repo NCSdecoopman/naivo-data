@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="3" MASSIF="Mont-Blanc" DATEBULLETIN="2026-04-30T16:00:00" DATEECHEANCE="2026-05-01T18:00:00" DATEVALIDITE="2026-05-01T18:00:00" DATEDIFFUSION="2026-04-30T15:59:00" AMENDEMENT="false">
-  <DateValidite>2026-05-01T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="3" MASSIF="Mont-Blanc" DATEBULLETIN="2026-05-01T16:00:00" DATEECHEANCE="2026-05-02T18:00:00" DATEVALIDITE="2026-05-02T18:00:00" DATEDIFFUSION="2026-05-01T15:44:00" AMENDEMENT="false">
+  <DateValidite>2026-05-02T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="&lt;2300" ALTITUDE="2300" RISQUE2="1" EVOLURISQUE2="2" LOC2="&gt;2300" RISQUEMAXI="2" COMMENTAIRE="Au-dessus de 2300m indice de risque faible évoluant en limité, plus bas indice faible." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-05-02T00:00:00"/>
+    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="&lt;2300" ALTITUDE="2300" RISQUE2="1" EVOLURISQUE2="2" LOC2="&gt;2300" RISQUEMAXI="2" COMMENTAIRE="Au-dessus de 2300m indice de risque faible évoluant en limité, plus bas indice faible." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-05-03T00:00:00"/>
     <PENTE NE="true" E="true" SE="true" S="true" SW="true" W="true" NW="true" N="true" COMMENTAIRE=""/>
     <ACCIDENTEL><![CDATA[de la neige peut couler sous les skis]]></ACCIDENTEL>
-    <NATUREL><![CDATA[Avalanches de neige humide au soleil]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : Avalanches de neige humide au soleil
+    <NATUREL><![CDATA[avalanches de neige humide au soleil]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : avalanches de neige humide au soleil
 Déclenchements skieurs : de la neige peut couler sous les skis]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque limité]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Pas d'évolution de la stabilité. Ensoleillé et doux.]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Risque stationnaire. Ciel voilé en altitude.]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_3.png</ImageRisque>
@@ -41,40 +41,37 @@ Déclenchements provoqués :
 Pour la saison, l’enneigement est très déficitaire sous 2100 m et déficitaire au-dessus.  
 On peut chausser les skis au-dessus de 2000 m en sud et 1700 m en nord. 
 
-Qualité de la neige vendredi :
+Qualité de la neige samedi :
 * En dessous de 2400 m, manteau neigeux humide en profondeur, voire neige de névé. Bon regel nocturne.
 * Entre 2400/2600 et 3000/3200 m : regelé le matin puis neige humide récente sur une croute portante.
-* Au-dessus de 3200 m : neige récente humide (regelé le matin) sur une croute non portante. Avec de nombreux endroits où la glace ressort proche des crêtes et sommets. ]]></TEXTE>
+* Au-dessus de 3200 m : en adrets neige récente humide (regelé le matin) sur une croute non portante. Dans les ubacs les plus encaissés encore de la neige récente restée froide.
+Avec de nombreux endroits où la glace ressort proche des crêtes et sommets. ]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-04-30T00:00:00" LimiteSud="1900" LimiteNord="1700">
+  <ENNEIGEMENT DATE="2026-05-01T00:00:00" LimiteSud="1900" LimiteNord="1700">
     <NIVEAU ALTI="1500" N="0" S="0"/>
-    <NIVEAU ALTI="2000" N="90" S="20"/>
-    <NIVEAU ALTI="2500" N="198" S="115"/>
+    <NIVEAU ALTI="2000" N="70" S="10"/>
+    <NIVEAU ALTI="2500" N="170" S="100"/>
     <ImageEnneigement>montagne_enneigement_3.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-04-26T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-04-27T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-04-28T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-04-29T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-04-30T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-01T00:00:00" SS24Min="0" SS24Max="0"/>
+    <NEIGE24H DATE="2026-05-02T00:00:00" SS24Min="0" SS24Max="0"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_3.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="2000" ALTITUDEVENT2="4000">
-    <COMMENTAIRE>Ensoleillé, quelques cumulus gonflent l'après-midi. Températures à l'aiguille du midi : de 3 à 12°C.</COMMENTAIRE>
-    <ECHEANCE DATE="2026-05-01T06:00:00" FF1="5" DD1="E" FF2="15" DD2="SE" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-01T12:00:00" FF1="10" DD1="NE" FF2="20" DD2="SE" ISO0="3100" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-01T18:00:00" FF1="15" DD1="SO" FF2="20" DD2="S" ISO0="3100" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-02T00:00:00" FF1="10" DD1="E" FF2="20" DD2="S" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
+    <COMMENTAIRE>Ensoleillé et légèrement voilée. Températures à l'Aiguille du Midi : de -3 à 2°C.</COMMENTAIRE>
+    <ECHEANCE DATE="2026-05-02T06:00:00" FF1="5" DD1="S" FF2="25" DD2="SO" ISO0="3100" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-05-02T12:00:00" FF1="10" DD1="S" FF2="25" DD2="S" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-05-02T18:00:00" FF1="15" DD1="SO" FF2="30" DD2="S" ISO0="3100" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-05-03T00:00:00" FF1="20" DD1="S" FF2="40" DD2="SE" ISO0="3100" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_3.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-04-24T06:00:00" FF1="5" DD1="NE" FF2="10" DD2="SE" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
-      <ECHEANCE DATE="2026-04-24T12:00:00" FF1="5" DD1="Vrb" FF2="20" DD2="E" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
-      <ECHEANCE DATE="2026-04-24T18:00:00" FF1="10" DD1="SO" FF2="20" DD2="S" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
-      <ECHEANCE DATE="2026-04-25T00:00:00" FF1="5" DD1="SO" FF2="20" DD2="S" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-04-25T06:00:00" FF1="5" DD1="SO" FF2="30" DD2="SO" ISO0="2900" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-04-25T12:00:00" FF1="10" DD1="SO" FF2="40" DD2="O" ISO0="2800" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-04-25T18:00:00" FF1="15" DD1="NO" FF2="40" DD2="NO" ISO0="2900" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
@@ -99,13 +96,12 @@ Qualité de la neige vendredi :
       <ECHEANCE DATE="2026-04-30T12:00:00" FF1="10" DD1="NO" FF2="25" DD2="NO" ISO0="3100" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-04-30T18:00:00" FF1="15" DD1="NO" FF2="25" DD2="NO" ISO0="3100" PLUIENEIGE="2600" TEMPSSENSIBLE="71"/>
       <ECHEANCE DATE="2026-05-01T00:00:00" FF1="5" DD1="SE" FF2="15" DD2="E" ISO0="3100" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
+      <ECHEANCE DATE="2026-05-01T06:00:00" FF1="5" DD1="E" FF2="25" DD2="SE" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
+      <ECHEANCE DATE="2026-05-01T12:00:00" FF1="10" DD1="NE" FF2="30" DD2="SE" ISO0="3100" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
+      <ECHEANCE DATE="2026-05-01T18:00:00" FF1="15" DD1="SO" FF2="30" DD2="S" ISO0="3100" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
+      <ECHEANCE DATE="2026-05-02T00:00:00" FF1="10" DD1="S" FF2="30" DD2="S" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-04-24T00:00:00" LimiteSud="1800" LimiteNord="1500">
-        <NIVEAU ALTI="1500" N="5" S="0"/>
-        <NIVEAU ALTI="2000" N="120" S="50"/>
-        <NIVEAU ALTI="2500" N="230" S="150"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-04-25T00:00:00" LimiteSud="1900" LimiteNord="1600">
         <NIVEAU ALTI="1500" N="0" S="0"/>
         <NIVEAU ALTI="2000" N="110" S="40"/>
@@ -136,23 +132,28 @@ Qualité de la neige vendredi :
         <NIVEAU ALTI="2000" N="90" S="20"/>
         <NIVEAU ALTI="2500" N="198" S="115"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-05-01T00:00:00" LimiteSud="1900" LimiteNord="1700">
+        <NIVEAU ALTI="1500" N="0" S="0"/>
+        <NIVEAU ALTI="2000" N="70" S="10"/>
+        <NIVEAU ALTI="2500" N="170" S="100"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-04-25T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-04-26T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-04-27T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-04-28T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-04-29T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-04-30T00:00:00" SS24Min="0" SS24Max="0"/>
+      <NEIGE24H DATE="2026-05-01T00:00:00" SS24Min="0" SS24Max="0"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-04-24T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-25T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-26T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-27T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-28T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-29T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-30T00:00:00" RISQUEMAXI="2"/>
+      <RISQUE DATE="2026-05-01T00:00:00" RISQUEMAXI="2"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_3.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_3.png</Image7derniersjours_portrait>

@@ -3,32 +3,32 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-04-30T16:00:00",
-    "valid_until": "2026-05-01T18:00:00",
+    "issued_at": "2026-05-01T16:00:00",
+    "valid_until": "2026-05-02T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2300m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2400m indice de risque faible évoluant en limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2300,
+        "threshold_m": 2400,
         "split_axis": "horizontal",
-        "split_label": "2300m",
+        "split_label": "2400m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2300",
+            "loc": "<2400",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2300",
-            "risk": 2,
-            "evolution_to": null,
+            "loc": ">2400",
+            "risk": 1,
+            "evolution_to": 2,
             "position": "top"
           }
         ]
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2300m"
+          "label": "2400m"
         },
         "zones": {
           "bottom": {
@@ -46,17 +46,17 @@
             "evolution_to": null
           },
           "top": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
+            "text": "1→2",
+            "risk": 1,
+            "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-02",
+        "date": "2026-05-03",
         "label": "Indice de risque limité",
-        "comment": "Peu de changement samedi, risque d'avalanche stationnaire. Journée sèche, ciel voilé. La fonte se poursuit.",
+        "comment": "Peu de changement dimanche, risque d'avalanche stationnaire ou en légère baisse. Journée assez nuageuse, avec quelques ondées locales et un vent de Sud encore sensible. La fonte se poursuit.",
         "trend": "steady"
       }
     },
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-26",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-27",
           "min_cm": 0,
           "max_cm": 0
@@ -117,6 +112,11 @@
           "date": "2026-05-01",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-02",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,13 +126,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RARE AVALANCHE HUMIDE EN FACES NORD, PARFOIS VOLUMINEUSE SOUS 2800M ENVIRON ?",
-      "text": "RARE AVALANCHE HUMIDE EN FACES NORD, PARFOIS VOLUMINEUSE SOUS 2800M ENVIRON ?\n\nJeudi jusqu'en soirée, des averses localement orageuses donnent quelques cm de neige au-dessus de 2700m. Peu de regel prévu en nuit de jeudi à vendredi sous cette altitude...\n\nDéparts spontanés : Jeudi soir, avec un saupoudrage possible sur les hauts de l'Oisans, possibles coulées de surface (de taille 1).\nVendredi, après un regel nocturne faible ou absent sous 2700/2900 m, l'humidification s'accentue et pourrait déstabiliser certaines faces Nord raides :  on n'exclut pas une rare avalanche plus volumineuse (de taille 2 à 3), parfois au terrain... Très rarement, une cassure large/linéaire est possible (présence de vieille sous couche plus fragile).\nEn faces plus ensoleillées ainsi que sous 2300 m en tous versants, neige devenue plus dense, de névé, stable.\nDéclenchements provoqués : Peu probables, ou vers les sommets un risque de coulée superficielle sous les skis.",
+      "title": "RARE AVALANCHE HUMIDE EN FACES NORD, PARFOIS VOLUMINEUSE.",
+      "text": "RARE AVALANCHE HUMIDE EN FACES NORD, PARFOIS VOLUMINEUSE.\n\nDéparts spontanés : Après un regel nocturne parfois correct en altitude, l'humidification reprend en journée de samedi au soleil, sous les nuages d'altitude et/ou le vent de Sud qui commence à se lever. Dans certaines faces Nord raides, et surtout entre 2400 et 3100 m, on n'exclut pas une rare avalanche plus volumineuse (taille 2 à 3), parfois au terrain. Très rarement, une cassure large/linéaire est possible (présence de vieille sous couche plus fragile).\nEn faces plus ensoleillées ainsi que sous 2400 m en tous versants, neige devenue plus dense, de névé, stable.\nDéclenchements provoqués : Peu probables, ou vers les sommets un risque de coulée superficielle sous les skis.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  La fonte s'est récemment accélérée. L'enneigement devient déficitaire sur le massif, avec un aspect presque de fin de saison. Les hauts sommets et glaciers sont anormalement \"secs\"..\n\nLimites skiables : Vers 1800/2000m en Nord à 2300/2600m en versants ensoleillés. \n\nQualité de la neige vendredi :  Quasiment pas de regel nocturne, sous 2600/2800m notamment.\nUn peu de neige récente possible vers les hauts sommets, froide seulement en Nord raide au dessus de 3000/3200m. \nNeige salie/colorée avec pas mal de reliefs.\nNeige très humide en journée, glisse médiocre à faible...",
+      "text": "Qualification de l’enneigement :  La fonte se poursuit. L'enneigement est devenu déficitaire sur le massif, avec un aspect presque de fin de saison. Les hauts sommets et glaciers sont anormalement \"secs\"..\n\nLimites skiables : Vers 1800/2000m en Nord à 2300/2600m en versants ensoleillés. \n\nQualité de la neige samedi :  Regel nocturne correct à haute altitude, un peu plus incertain sous 2500/2800m. Neige humide salie/colorée, éventuellement croûtée par regel au petit matin. En journée, neige devenant parfois très humide au soleil ainsi que sous le voile nuageux et/ou le vent de Sud en tous versants, avec glisse médiocre à faible.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -148,13 +148,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 55,
+          "N": 45,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 165,
-          "S": 15
+          "N": 155,
+          "S": 10
         }
       ],
       "icon_key": "snowpack",

@@ -3,14 +3,14 @@
   "massif": "Luchonnais",
   "bulletin": {
     "id": 68,
-    "issued_at": "2026-04-30T15:00:00",
-    "valid_until": "2026-05-01T18:00:00",
+    "issued_at": "2026-05-01T16:00:00",
+    "valid_until": "2026-05-02T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque faible évoluant en limité.",
+      "comment": "Indice de risque limité.",
       "localization": {
         "type": "none",
         "threshold_m": null,
@@ -20,8 +20,8 @@
           {
             "id": "zone1",
             "loc": null,
-            "risk": 1,
-            "evolution_to": 2,
+            "risk": 2,
+            "evolution_to": null,
             "position": null
           }
         ]
@@ -34,17 +34,17 @@
         },
         "zones": {
           "center": {
-            "text": "1→2",
+            "text": "2",
             "risk": 2,
-            "evolution_to": 2
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-02",
+        "date": "2026-05-03",
         "label": "Indice de risque limité",
-        "comment": "Risques inchangés.",
+        "comment": "Peu d'évolution des conditions : le risque restera limité tout au plus.",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-26",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-27",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-05-01",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-02",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX Humide",
-      "text": "MANTEAU NEIGEUX Humide\n\nDéparts spontanés : \nActivité devenue faible, sous forme de départs ponctuels de neige humide plus faciles au gré des éclaircies, en général de taille petite à moyenne. De rares grandes avalanches sont possibles par départ d'une avalanche de fond, en général depuis une fissure déjà ouverte. Les zones de départs se situent en général en secteurs nord-est à nord-ouest où sont les plus grosses épaisseurs de neige, au-dessus de 2300 m. Départs de fond possibles la nuit, plus probables avec le soleil.\n\nDéclenchements provoqués : en neige humide seulement.\nLe passage d'un skieur ou d'un randonneur dans la neige très humide peut favoriser un départ ponctuel en général de petite taille, rarement moyenne, plutôt à la faveur de l'ensoleillement, le manteau étant probablement ressaisi au-dessus de 2500 m au lever du soleil.\nAutres :\n                - Corniches et ponts de neige encore en place fragiles et peu résistants, pouvant céder spontanément ou sous le poids d'une seule personne, même s'ils semblent épais.\n                - Les chemins de randonnée déjà déneigés situés sous les secteurs raides d'altitude encore chargés peuvent être atteints pas une avalanche de fond de taille moyenne à rarement grande dans l'après-midi.",
+      "title": "FONTE ET HUMIDIFICATION EN PROFONDEUR SE POURSUIVANT.",
+      "text": "FONTE ET HUMIDIFICATION EN PROFONDEUR SE POURSUIVANT.\n\nDéparts spontanés : en neige humide seulement.\nRegel nocturne très timide et au-dessus de 2700m uniquement, le manteau neigeux est tassé et humidifié.\nDéparts ponctuels de rares de coulées en versants Est, puis un peu plus nombreux au cours de la journée dans tous les autres versants d'avalanches de taille petite à moyenne, partant des pentes raides encore enneigées, à proximité des rochers et des zones déjà déneigées.\nUne rare avalanche de fond de grande taille reste possible, emportant la totalité du manteau neigeux encore en place dans les accumulations présentes en altitude (en nord-ouest à nord-est au-dessus de 2400m en général) vers le secteur frontalier. Départs possibles au plus fort de l'humidification en profondeur près des fissures, d'une rupture de pente ou au pied d'une falaise ou barre rocheuse.\n\nDéclenchements provoqués : en neige humide seulement.\nUn skieur ou randonneur peut aisément déclencher une coulée ou petite avalanche en coupant une pente raide en neige humide et lourde, petite à parfois moyenne possible l'après-midi dans les pentes nord-ouest à nord-est. \n\nAutres : \n- corniches et ponts de neige encore en place fragiles et peu résistants, pouvant céder spontanément ou sous le poids d'une seule personne, même s'ils semblent épais.\n- les chemins de randonnée déjà déneigés situés sous les secteurs raides d'altitude encore chargés peuvent localement être atteints par une avalanche de fond de taille moyenne à rarement grande dans l'après-midi.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Encore correct pour la saison au-dessus de 2300 m, plutôt déficitaire plus bas, débutant encore vers 1950 m en nord et au-dessus de 2400 m en sud. Les limites de cet enneigement remontent progressivement en journée.\nÉtat de la neige : \nNeige humide souvent assez portante le matin au-dessus de 2400 m, se ramollissant facilement et rapidement au fil de la journée, avec des enfoncements à pied vite profonds.",
+      "text": "Enneigement : encore correct pour la saison au-dessus de 2300m, déficitaire plus bas, débutant encore vers 1900m en nord et 2400m en sud. Les limites de cet enneigement remontent progressivement en journée.\nÉtat de la neige : neige humidifiée, assez portante le matin, timidement regelée au-dessus de 2700m, ramollissant facilement et rapidement au fil de la journée (douceur et averses), avec des enfoncements à pied vite profonds.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 40,
+          "N": 30,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 165,
-          "S": 20
+          "N": 155,
+          "S": 10
         }
       ],
       "icon_key": "snowpack",

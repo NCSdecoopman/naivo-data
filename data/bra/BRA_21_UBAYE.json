@@ -3,8 +3,8 @@
   "massif": "Ubaye",
   "bulletin": {
     "id": 21,
-    "issued_at": "2026-04-30T16:00:00",
-    "valid_until": "2026-05-01T18:00:00",
+    "issued_at": "2026-05-01T16:00:00",
+    "valid_until": "2026-05-02T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,7 +42,7 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-02",
+        "date": "2026-05-03",
         "label": "Indice de risque faible",
         "comment": "Manteau neigeux bien stabilisé. Maintien d'un risque faible.",
         "trend": "steady"
@@ -50,7 +50,7 @@
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
+        "N": true,
         "NE": false,
         "E": false,
         "SE": false,
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-26",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-27",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-05-01",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-02",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX PRINTANIER DE FIN DE SAISON BIEN STABLE",
-      "text": "MANTEAU NEIGEUX PRINTANIER DE FIN DE SAISON BIEN STABLE\n\nDéclenchements provoqués :  le manteau neigeux est très faible pour un début mai, et très stable. \n\nDéparts spontanés : peu probables, le manteau neigeux est entièrement humidifié et bien stable jusqu'à haute altitude.",
+      "title": "MANTEAU NEIGEUX PRINTANIER DE FIN DE SAISON, BIEN STABLE EN GÉNÉRAL",
+      "text": "MANTEAU NEIGEUX PRINTANIER DE FIN DE SAISON, BIEN STABLE EN GÉNÉRAL\n\nDéparts spontanés : peu probables dans la plupart des pentes, le manteau neigeux est bien stabilisé. Dans les pentes nord au-dessus de 2800 m les mieux enneigées du massif, on ne peut exclure un très rare départ linéaire de neige humide, en cas d'humidification d'une vieille couche fragile persistante enfouie à la base du manteau neigeux. Avalanche moyenne (taille 2).\n\nDéclenchements provoqués : peu probables, le manteau manteau neigeux est bien stabilisé.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement exceptionnellement faible  pour la période, après plus d'un mois sans précipitations notables et avec un isotherme 0 degré souvent à plus de 3000 m, l'enneigement est digne d'une fin mai, voire début juin. Il n'y a plus de neige à la nivôse de Restefond, c'est la première fois en 30 ans de mesure que l'enneigement disparaît avant le 1er mai à cet endroit.\n\nEnneigement skiable à partir de 2200/2300 m en ubacs, avec beaucoup de relief en surface en raison de l'intense fonte jusqu'à 2500/2600 m environ\n\nÉtat de la neige en surface : manteau neigeux sous forme de névé qui continue de fondre rapidement. Les pentes nord de haute altitude (> 2800 m) ne sont pas encore totalement transformées. Faible regel nocturne, puis reprise rapide de l'humidification et de la fonte en cours de journée dans toutes les expositions.",
+      "text": "Enneigement exceptionnellement faible pour la période, après plus d'un mois sans précipitations notables et avec un isotherme 0 degré souvent à plus de 3000 m. L'enneigement est digne d'une fin mai, voire début juin. Il n'y a plus de neige à la Nivôse de Restefond, c'est la première fois en 30 ans de mesures que l'enneigement disparaît avant le 1er mai à cet endroit.\n\nEnneigement skiable à partir de 2200/2300 m en ubacs, avec beaucoup de relief en surface en raison de l'intense fonte jusqu'à 2500/2600 m environ.\n\nÉtat de la neige en surface : manteau neigeux sous forme de névé qui continue de fondre rapidement. Les pentes nord de haute altitude (> 2800 m) ne sont pas encore totalement transformées. Reprise rapide de l'humidification et de la fonte en cours de journée dans toutes les expositions.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

@@ -3,8 +3,8 @@
   "massif": "Couserans",
   "bulletin": {
     "id": 69,
-    "issued_at": "2026-04-30T16:00:00",
-    "valid_until": "2026-05-01T18:00:00",
+    "issued_at": "2026-05-01T16:00:00",
+    "valid_until": "2026-05-02T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-02",
+        "date": "2026-05-03",
         "label": "Indice de risque limité",
-        "comment": "Stationnaires",
+        "comment": "Maintient d'un risque limité.",
         "trend": "steady"
       }
     },
@@ -53,11 +53,11 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
+        "SE": true,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -77,11 +77,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-26",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-27",
           "min_cm": 0,
@@ -106,6 +101,11 @@
           "date": "2026-05-01",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-02",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "POURSUITE DE L'HUMIDIFICATION EN PROFONDEUR",
-      "text": "POURSUITE DE L'HUMIDIFICATION EN PROFONDEUR\n\nDéparts spontanés :\n- Quelques  avalanches de fond emportant l'ensemble du manteau neigeux peu fréquentes mais encore possibles (fissures/reptations et avalanches de fond signalées ces derniers jours), plutôt au-delà de 2200/2300 m dans les versants Nord et Est, les plus enneigés. En cas de départs, elles seront de taille moyenne, voire grande dans les zones de plus fortes accumulations avec des cassures pouvant localement dépasser les 1 à 2m d'épaisseur. Selon la configuration locale ces avalanches peuvent finir leur parcours en dessous de la limite d'enneigement. \n- Quelques coulées de surface de petites tailles sous forme d'avalanches ponctuelles sont également possibles, plutôt en cours de journée. \nDéclenchements provoqués :\nUn skieur coupant une pente raide déjà bien humidifiée pourra favoriser un départ ponctuel de taille petite à plus rarement moyenne. Ces coulées peuvent emporter les skis et provoquer la chute. \n\nAutres :\n- des corniches encore imposantes sont susceptibles de céder spontanément et peuvent déclencher une avalanche dans leur chute\n- les ponts de neige recouvrant les torrents peuvent également facilement céder au passage d'un randonneur.",
+      "title": "POURSUITE DE L'HUMIDIFICATION EN PROFONDEUR SOUS LES NUAGES ET LES AVERSES",
+      "text": "POURSUITE DE L'HUMIDIFICATION EN PROFONDEUR SOUS LES NUAGES ET LES AVERSES\n\nDéparts spontanés :\n- Quelques  avalanches de fond emportant l'ensemble du manteau neigeux peu fréquentes mais encore possibles (fissures/reptations et avalanches de fond signalées ces derniers jours), plutôt au-delà de 2400/2500 m dans les versants Nord et Est, les plus enneigés. En cas de départs, elles seront de taille moyenne, voire grande dans les zones de plus fortes accumulations avec des cassures pouvant dépasser les 1 à 2m d'épaisseur. Selon la configuration locale ces avalanches peuvent finir leur parcours en dessous de la limite d'enneigement. \n-Il convient de se méfier des zones enneigées au dessus de ruptures de pente à haute altitude. Le manteau neigeux peut y être très épais et lourd et finir par décrocher de la montagne si la pente est suffisamment raide. \nDéclenchements provoqués :\nUn skieur coupant une pente raide déjà bien humidifiée pourra favoriser un départ ponctuel de taille petite à plus rarement moyenne. Ces coulées peuvent emporter les skis et provoquer la chute. \n\nAutres :\n- des corniches encore imposantes sont susceptibles de céder spontanément et peuvent déclencher une avalanche dans leur chute.\n- les ponts de neige recouvrant les torrents peuvent également facilement céder au passage d'un randonneur.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nL'enneigement dans nos massifs reste bon pour la saison, encore supérieur à celui des derniers hivers. La limite skiable  est au mieux vers 1800m en nord et 2100m en sud. On trouve ensuite rapidement une épaisseur de neige conséquente qui dépasse encore souvent les 1 à 1,30 m à 2000m en nord, et 2 à 2,50 m à 2500 m. Les cols et crêtes ouest à nord-ouest sont toutefois moins garnis en neige, les rochers affleurent de plus en plus en surface. \n\nQualité de la neige :\nRegel ponctuel dans quelques secteurs à l'abri du vent de sud en haute montagne. La neige est de type névé dans la plupart des versants, légèrement ocre du fait des poussières sahariennes, devenant fréquemment détrempée en surface dans l'après-midi à toutes altitudes et orientations.  À noter enfin la présence de rigoles de fonte en surface.",
+      "text": "Enneigement : \nL'enneigement dans nos massifs reste bon pour la saison, encore supérieur à celui des derniers hivers. La limite skiable  est au mieux vers 1800 à 1900 m en nord et 2100m en sud. On trouve ensuite rapidement une épaisseur de neige conséquente qui dépasse encore souvent les 1 à 1,30 m à 2000m en nord, et 2 à 2,50 m à 2500 m. Les cols et crêtes ouest à nord-ouest sont toutefois moins garnis en neige, les rochers affleurent de plus en plus en surface. \n\nQualité de la neige :\nRegel ponctuel dans quelques secteurs à l'abri du vent de sud en haute montagne. La neige est de type névé dans la plupart des versants, légèrement ocre du fait des poussières sahariennes, devenant fréquemment détrempée en surface dans l'après-midi à toutes altitudes et orientations. Cette neige est de ce fait très dense, pas trop piégeuse à skier mais la glisse y est souvent médiocre. À noter enfin la présence de rigoles de fonte en surface.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,7 +137,7 @@
         },
         {
           "alt_m": 2000,
-          "N": 100,
+          "N": 90,
           "S": 0
         },
         {
