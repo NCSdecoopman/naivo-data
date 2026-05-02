@@ -3,14 +3,14 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-05-01T16:00:00",
-    "valid_until": "2026-05-02T18:00:00",
+    "issued_at": "2026-05-02T16:00:00",
+    "valid_until": "2026-05-03T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2400m indice de risque faible évoluant en limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2400m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2400,
@@ -27,8 +27,8 @@
           {
             "id": "zone2",
             "loc": ">2400",
-            "risk": 1,
-            "evolution_to": 2,
+            "risk": 2,
+            "evolution_to": null,
             "position": "top"
           }
         ]
@@ -46,17 +46,17 @@
             "evolution_to": null
           },
           "top": {
-            "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-03",
+        "date": "2026-05-04",
         "label": "Indice de risque limité",
-        "comment": "Peu de changement dimanche, risque d'avalanche stationnaire ou en légère baisse. Journée assez nuageuse, avec quelques ondées locales et un vent de Sud encore sensible. La fonte se poursuit.",
+        "comment": "Lundi, retour de conditions perturbées. Temps pluvieux sous 2400 / 2500m environ, retour de la neige à plus haute altitude avec 10 à 15cm possibles localement. Risque restant limité, avec un manteau stable sous 2400m, et de fines plaques de surface en formation dans la neige récente en altitude.",
         "trend": "steady"
       }
     },
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-27",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-28",
           "min_cm": 0,
           "max_cm": 0
@@ -117,6 +112,11 @@
           "date": "2026-05-02",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-03",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,19 +126,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RARE AVALANCHE HUMIDE EN FACES NORD, PARFOIS VOLUMINEUSE.",
-      "text": "RARE AVALANCHE HUMIDE EN FACES NORD, PARFOIS VOLUMINEUSE.\n\nJeudi jusqu'en soirée, des averses localement orageuses donnent quelques cm de neige au-dessus de 2700m. Peu de regel prévu en nuit de jeudi à vendredi sous cette altitude...\n\nDéparts spontanés : Après un regel nocturne parfois correct en altitude, l'humidification reprend en journée de samedi au soleil, sous les nuages d'altitude et/ou le vent de Sud qui commence à se lever. Dans certaines faces Nord raides,  et surtout entre 2400 et 3100 m, on n'exclut pas une rare avalanche plus volumineuse (taille 2 à 3), parfois au terrain. Très rarement, une cassure large/linéaire est possible (présence de vieille sous couche plus fragile).\nEn faces plus ensoleillées ainsi que sous 2400 m en tous versants, neige devenue plus dense, de névé, stable.\nDéclenchements provoqués : Peu probables, ou vers les sommets un risque de coulée superficielle sous les skis.",
+      "title": "RARE AVALANCHE HUMIDE EN FACES NORD, POUVANT ETRE VOLUMINEUSE.",
+      "text": "RARE AVALANCHE HUMIDE EN FACES NORD, POUVANT ETRE VOLUMINEUSE.\n\nDéparts spontanés : Regel nocturne médiocre vers 3000m et inexistant plus bas. L'ambiance, bien que nuageuse, reste douce dimanche. Dans certaines faces Nord raides, surtout entre 2400m et 3100m, une rare avalanche de grande taille reste possible avec départ au terrain ou cassure linéaire. Au-dessus de 3100m la couche nuageuse limite l'humidification et le manteau reste plus stable. Sous 2400m, neige de névé, très dense et stable. \nDéclenchements provoqués : Peu probables, ou une coulée ponctuelle en neige humide dans les pentes raides sous 3000m.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  La fonte se poursuit. L'enneigement est devenu déficitaire sur le massif, avec un aspect presque de fin de saison...\n\nLimites skiables : Vers 1700/1900m en Nord à 2300/2600m en versants ensoleillés. \n\nQualité de la neige samedi :  Regel nocturne correct à haute altitude, un peu plus incertain sous 2500/2800m. Neige humide salie/colorée, éventuellement croûtée par regel au petit matin. En journée, neige devenant parfois très humide au soleil ainsi que sous le voile nuageux et/ou le vent de Sud en tous versants, avec glisse médiocre à faible.",
+      "text": "Qualification de l’enneigement :  La fonte se poursuit. L'enneigement est devenu déficitaire sur le massif, avec un aspect presque de fin de saison...\n\nLimites skiables : Vers 1700/1900m en Nord à 2300/2600m en versants ensoleillés. \n\nQualité de la neige dimanche : Regel correct sur le haut du massif, médiocre vers 3000m, inexistant plus bas. En journée, manteau humide sous 3000m. Plus haut l'humidification reste limitée par la couverture nuageuse.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1800,
-        "south": 2400
+        "south": 2500
       },
       "levels_cm": [
         {
@@ -148,13 +148,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 65,
+          "N": 55,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 165,
-          "S": 10
+          "N": 160,
+          "S": 2
         }
       ],
       "icon_key": "snowpack",

@@ -3,8 +3,8 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-05-01T16:00:00",
-    "valid_until": "2026-05-02T18:00:00",
+    "issued_at": "2026-05-02T16:00:00",
+    "valid_until": "2026-05-03T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-05-03",
-        "label": "Indice de risque faible",
-        "comment": "Les conditions nivologiques restent similaires. Manteau neigeux bien stabilisé. Très rares avalanches de neige humide avec départ linéaire, en pentes nord près des plus hauts sommets du massif.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-05-04",
+        "label": "Indice de risque limité",
+        "comment": "Risque en hausse avec le retour de chutes de neige en altitude.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-27",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-28",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-05-02",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-03",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,12 +115,12 @@
     },
     "stability": {
       "title": "MANTEAU NEIGEUX PRINTANIER - DENSE ET STABLE EN GÉNÉRAL",
-      "text": "MANTEAU NEIGEUX PRINTANIER - DENSE ET STABLE EN GÉNÉRAL\n\nDéparts spontanés : peu probables, même si une très rare avalanche moyenne de neige humide (taille 2) avec cassure linéaire reste possible en journée, dans les pentes/couloirs plein nord près des plus hauts sommet du massif (au-dessus de 2500/2600 m).\n\nDéclenchements provoqués :  peu probables, excepté un petit départ de neige humide sous les skis, en coupant une pente raide trop tardivement dans la journée.",
+      "text": "MANTEAU NEIGEUX PRINTANIER - DENSE ET STABLE EN GÉNÉRAL\n\nDéparts spontanés : peu probables, même si une très rare avalanche moyenne de neige humide (taille 2) avec cassure linéaire reste possible en journée, dans les pentes/couloirs plein nord près des plus hauts sommet du massif (au-dessus de 2300/2400 m).\n\nDéclenchements provoqués :  peu probables, excepté un petit départ de neige humide sous les skis, en coupant une pente raide trop tardivement dans la journée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement globalement déficitaire pour la période, mais encore correct dans les pentes nord près des plus hauts sommets.\n\nLimite d'enneigement skiable : très localement vers 1800 m en ubacs sur terrain favorable, 2300/2400 m en adrets.\n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé. Reprise rapide de l'humidification et de la fonte en cours de journée dans toutes les expositions.",
+      "text": "Enneigement globalement déficitaire pour la période, mais encore correct dans les pentes nord près des plus hauts sommets.\n\nLimite d'enneigement skiable : très localement vers 1800 m en ubacs sur terrain favorable, 2300/2400 m en adrets.\nÉtat de la neige en surface : manteau neigeux printanier, avec des bandes de neige localement épaisses mais discontinues aux plus basses altitudes. Regel nocturne très superficiel au levé du jour puis reprise rapide de la fonte en cours de journée dans toutes les expositions.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -136,7 +136,7 @@
         },
         {
           "alt_m": 2000,
-          "N": 60,
+          "N": 55,
           "S": 0
         },
         {

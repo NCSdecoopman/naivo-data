@@ -3,8 +3,8 @@
   "massif": "Ubaye",
   "bulletin": {
     "id": 21,
-    "issued_at": "2026-05-01T16:00:00",
-    "valid_until": "2026-05-02T18:00:00",
+    "issued_at": "2026-05-02T16:00:00",
+    "valid_until": "2026-05-03T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-05-03",
-        "label": "Indice de risque faible",
-        "comment": "Manteau neigeux bien stabilisé. Maintien d'un risque faible.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-05-04",
+        "label": "Indice de risque limité",
+        "comment": "Risque en hausse avec le retour de chutes de neige en altitude.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-27",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-28",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-05-02",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-03",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -120,7 +120,7 @@
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement exceptionnellement faible pour la période, après plus d'un mois sans précipitations notables et avec un isotherme 0 degré souvent à plus de 3000 m. L'enneigement est digne d'une fin mai, voire début juin. Il n'y a plus de neige à la Nivôse de Restefond, c'est la première fois en 30 ans de mesures que l'enneigement disparaît avant le 1er mai à cet endroit.\n\nEnneigement skiable à partir de 2200/2300 m en ubacs, avec beaucoup de relief en surface en raison de l'intense fonte jusqu'à 2500/2600 m environ.\n\nÉtat de la neige en surface : manteau neigeux sous forme de névé qui continue de fondre rapidement. Les pentes nord de haute altitude (> 2800 m) ne sont pas encore totalement transformées. Reprise rapide de l'humidification et de la fonte en cours de journée dans toutes les expositions.",
+      "text": "Enneigement exceptionnellement faible pour la période, après plus d'un mois sans précipitations notables et avec un isotherme 0 degré souvent à plus de 3000 m. L'enneigement est digne d'une fin mai, voire début juin. Il n'y a plus de neige à la Nivôse de Restefond, c'est la première fois en 30 ans de mesures que l'enneigement disparaît avant le 1er mai à cet endroit.\n\nLimite d'enneigement skiable : vers 2100/2300 m en ubacs bien protégés ou sur pistes forestières, 2700/2900 m en adrets.\n\nÉtat de la neige en surface : manteau neigeux printanier, voire de névé en toute orientation sous 2500 m environ et en adrets de haute altitude, avec des bandes de neige localement épaisses mais discontinues.  Regel nocturne très superficiel au levé du jour puis reprise rapide de la fonte en cours de journée dans toutes les expositions.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

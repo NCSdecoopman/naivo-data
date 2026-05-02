@@ -3,14 +3,14 @@
   "massif": "Pelvoux",
   "bulletin": {
     "id": 16,
-    "issued_at": "2026-05-01T16:00:00",
-    "valid_until": "2026-05-02T18:00:00",
+    "issued_at": "2026-05-02T16:00:00",
+    "valid_until": "2026-05-03T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2500m indice de risque faible évoluant en limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2500,
@@ -27,8 +27,8 @@
           {
             "id": "zone2",
             "loc": ">2500",
-            "risk": 1,
-            "evolution_to": 2,
+            "risk": 2,
+            "evolution_to": null,
             "position": "top"
           }
         ]
@@ -46,17 +46,17 @@
             "evolution_to": null
           },
           "top": {
-            "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-03",
+        "date": "2026-05-04",
         "label": "Indice de risque limité",
-        "comment": "Les conditions nivologiques restent similaires. Rare activité en neige humide, sous forme de départs linéaires dans les ubacs de haute altitude.",
+        "comment": "Risque en légère hausse mais restant limité, avec le retour de chutes de neige en altitude.",
         "trend": "steady"
       }
     },
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-27",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-28",
           "min_cm": 0,
           "max_cm": 0
@@ -117,6 +112,11 @@
           "date": "2026-05-02",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-03",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,12 +127,12 @@
     },
     "stability": {
       "title": "MANTEAU NEIGEUX PRINTANIER - RARE ACTIVITÉ EN NEIGE HUMIDE.",
-      "text": "MANTEAU NEIGEUX PRINTANIER - RARE ACTIVITÉ EN NEIGE HUMIDE.\n\nDéparts spontanés : peu probables en début de journée, puis, dans les pentes d'un large secteur nord au-dessus de 2500/2700 m, rares départs linéaires de neige humide possibles, en cas d'humidification d'une vieille couche fragile persistante enfouie à la base du manteau neigeux. Avalanches moyennes voire grandes (taille 2 à 3), emportant le manteau neigeux jusqu'au sol. Partout ailleurs, manteau neigeux bien stabilisé.\n\nDéclenchements provoqués : peu probables, excepté un petit départ de neige humide sous les skis, en coupant une pente raide trop tardivement dans la journée.",
+      "text": "MANTEAU NEIGEUX PRINTANIER - RARE ACTIVITÉ EN NEIGE HUMIDE.\n\nDéparts spontanés : dans les pentes d'un large secteur nord au-dessus de 2500/2600 m, rares départs linéaires de neige humide possibles notamment l'après-midi, en cas d'humidification d'une vieille couche fragile persistante enfouie à la base du manteau neigeux. Avalanches moyennes voire grandes (taille 2 à 3), emportant le manteau neigeux jusqu'au sol. Partout ailleurs, manteau neigeux bien stabilisé.\n\nDéclenchements provoqués : peu probables, excepté un petit départ de neige humide sous les skis, en coupant une pente raide humidifiée en profondeur. Un départ plus volumineux est possible en cas de sollicitation des couches fragiles décrites dans le paragraphe précédent.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement déficitaire pour la période.\nHauteurs de neige observées : 198 cm à la Nivôse des Écrins à 2970 m.    \n\nLimite d'enneigement skiable : très localement vers 1900 m en fond de vallée en cœur de massif, 2400 m en adrets.\n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2500 m environ et en adrets de haute altitude. Reprise rapide de l'humidification et de la fonte en cours de journée dans toutes les expositions.",
+      "text": "Enneigement déficitaire pour la période.\nHauteurs de neige observées : 194 cm à la Nivôse des Écrins à 2970 m.    \n\nLimite d'enneigement skiable : très localement vers 1700 m en ubacs de fond de vallée en cœur de massif, plutot 1900/2000 dans les autres ubacs et 2300/2500 m en adrets.\n\nÉtat de la neige en surface : manteau neigeux printanier, avec des bandes de neige localement épaisses mais discontinues aux plus basses altitudes.  Regel nocturne très superficiel au levé du jour puis reprise rapide de la fonte en cours de journée dans toutes les expositions.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -148,13 +148,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 20,
+          "N": 15,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 95,
-          "S": 15
+          "N": 90,
+          "S": 10
         }
       ],
       "icon_key": "snowpack",

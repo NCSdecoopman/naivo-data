@@ -3,8 +3,8 @@
   "massif": "Haute-Bigorre",
   "bulletin": {
     "id": 66,
-    "issued_at": "2026-05-01T16:00:00",
-    "valid_until": "2026-05-02T18:00:00",
+    "issued_at": "2026-05-02T16:00:00",
+    "valid_until": "2026-05-03T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-03",
+        "date": "2026-05-04",
         "label": "Indice de risque limité",
-        "comment": "Peu d'évolution des conditions : le risque restera limité tout au plus.",
+        "comment": "Maintien d'un risque maximal limité. Refroidissement progressif, un peu de neige possible au-dessus de 2200/2300m",
         "trend": "steady"
       }
     },
@@ -78,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-04-27",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-04-28",
           "min_cm": 0,
           "max_cm": 0
@@ -106,6 +101,11 @@
           "date": "2026-05-02",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-03",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "FONTE ET HUMIDIFICATION EN PROFONDEUR SE POURSUIVANT.",
-      "text": "FONTE ET HUMIDIFICATION EN PROFONDEUR SE POURSUIVANT.\n\nDéparts spontanés : en neige humide seulement.\nRegel nocturne très timide et au-dessus de 2700m uniquement, le manteau neigeux est tassé et humidifié.\nDéparts ponctuels de rares de coulées en versants Est, puis un peu plus nombreux au cours de la journée dans tous les autres versants d'avalanches de taille petite à moyenne, partant des pentes raides encore enneigées, à proximité des rochers et des zones déjà déneigées.\nUne rare avalanche de fond de grande taille reste possible, emportant la totalité du manteau neigeux encore en place dans les accumulations présentes en altitude (en nord-ouest à nord-est au-dessus de 2400m en général). Départs possibles au plus fort de l'humidification en profondeur près des fissures, d'une rupture de pente ou au pied d'une falaise ou barre rocheuse.\n\nDéclenchements provoqués : en neige humide seulement.\nUn skieur ou randonneur peut aisément déclencher une coulée ou petite avalanche en coupant une pente raide en neige humide et lourde, petite à parfois moyenne possible l'après-midi dans les pentes nord-ouest à nord-est. \n\nAutres : \n- corniches et ponts de neige encore en place fragiles et peu résistants, pouvant céder spontanément ou sous le poids d'une seule personne, même s'ils semblent épais.\n- les chemins de randonnée déjà déneigés situés sous les secteurs raides d'altitude encore chargés peuvent localement être atteints par une avalanche de fond de taille moyenne à rarement grande dans l'après-midi.",
+      "title": "Principalement de la poursuite de fonte et humidification en profondeur, quelques chutes de neige en altitude.",
+      "text": "Principalement de la poursuite de fonte et humidification en profondeur, quelques chutes de neige en altitude.\n\nDéparts spontanés : Principalement en neige humide.\nDes départs ponctuels dans la neige humide sont attendus dès la matinée avec un regel peu efficace. De petites avalanches peuvent se produire dans les pentes raides des versants Est le matin, puis rapidement tous les versants au fil de la journée et des averses. Des avalanches petites à moyennes sont alors possibles.\nDes avalanches de fond restent aussi possibles dans les pentes raides, petites à moyennes, plus rarement grandes notamment dans les accumulations présentes en altitude (versants allant du Nord-Ouest au Nord-Est au-dessus de 2400m en général). Départs possibles près des fissures en place ou d'une rupture de pente.\nAu-dessus de 2600/2700m, éventuellement et seulement de petites avalanches sont possibles dans la neige tombante au fil de la journée.\n\nDéclenchements provoqués : Surtout en neige humide.\nUn skieur ou un randonneur peut déclencher une petite avalanche dans la neige humide et dans une pente raide dès la matinée, plutôt petite à moyenne l'après-midi notamment dans les pentes raides des versants allant du Nord-Ouest au Nord-Est.\nAu-dessus de 2600/2700m, un skieur peut éventuellement déclencher dans les pentes raides des plaques dans la neige tombante au fil de la journée sous l'effet du vent de Sud à Sud-Ouest. De petites avalanches sont alors possibles.\n\nAutres : \n- corniches et ponts de neige encore en place fragiles et peu résistants, pouvant céder spontanément ou sous le poids d'une seule personne, même s'ils semblent épais.\n- les chemins de randonnée déjà déneigés situés sous les secteurs raides d'altitude encore chargés peuvent localement être atteints par une avalanche de fond de taille moyenne à rarement grande dans l'après-midi.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : encore correct pour la saison au-dessus de 2300m, déficitaire plus bas, débutant encore vers 1900m en nord et 2400m en sud. Les limites de cet enneigement remontent progressivement en journée.\nÉtat de la neige : neige humidifiée, assez portante le matin, timidement regelée au-dessus de 2700m, ramollissant facilement et rapidement au fil de la journée (douceur et averses), avec des enfoncements à pied vite profonds.",
+      "text": "Enneigement : Encore correct pour la saison au-dessus de 2300m, déficitaire plus bas, débutant encore vers 1900m en nord et 2400m en sud. Les limites de cet enneigement continuent de remonter progressivement dans la douceur ambiante.\nÉtat de la neige : Neige généralement bien humidifiée, assez portante le matin, peu ou pas regelée. La neige ramollit facilement et plutôt rapidement au fil de la journée avec la douceur ambiante et les averses. Quelques centimètres de neige fraîche au-dessus de 2500m au fil de la journée et des averses.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -137,13 +137,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 40,
+          "N": 35,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 180,
-          "S": 25
+          "N": 175,
+          "S": 20
         }
       ],
       "icon_key": "snowpack",
