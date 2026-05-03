@@ -3,8 +3,8 @@
   "massif": "Cerdagne Canigou",
   "bulletin": {
     "id": 74,
-    "issued_at": "2026-05-02T16:00:00",
-    "valid_until": "2026-05-03T18:00:00",
+    "issued_at": "2026-05-03T18:00:00",
+    "valid_until": "2026-05-04T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,23 +41,23 @@
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-05-04",
-        "label": "Indice de risque faible",
-        "comment": "ras",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-05-05",
+        "label": "Indice de risque limité",
+        "comment": "Risque accidentel en hausse au-delà de 2500 m en fonction des quelques chutes de neige attendues en haute montagne.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
-        "SE": true,
+        "E": false,
+        "SE": false,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": false
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -77,11 +77,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-28",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-29",
           "min_cm": 0,
@@ -106,6 +101,11 @@
           "date": "2026-05-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +115,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "POURSUITE DE L'HUMIDIFICATION EN PROFONDEUR",
-      "text": "POURSUITE DE L'HUMIDIFICATION EN PROFONDEUR\n\nDéparts spontanés :\n- Le risque d' avalanches de fond emportant l'ensemble du manteau neigeux reste possible mais de plus en plus rare et localisé (fissures/reptations et avalanches de fond signalées ces derniers jours), plutôt au-delà de 2400/2500 m dans les versants Nord et Est, les plus enneigés. Selon la configuration locale ces avalanches peuvent finir leur parcours en dessous de la limite d'enneigement avec un manteau neigeux désormais très lourd de type névé. \n- Quelques coulées de surface de petites tailles sous forme d'avalanches ponctuelles sont également possibles, plutôt en cours de journée, provoquées par la rupture d'une corniche par exemple. \n- Il convient de se méfier le couloirs raides et étroits voyant le soleil tôt dans la journée. \nDéclenchements provoqués :\nUn skieur coupant une pente raide déjà bien humidifiée pourra favoriser un départ ponctuel de taille petite à plus rarement moyenne. Ces coulées peuvent emporter les skis et provoquer la chute. \n\nAutres :\n- des corniches encore imposantes sont susceptibles de céder spontanément et peuvent déclencher une avalanche dans leur chute.\n- les ponts de neige recouvrant les torrents peuvent également facilement céder au passage d'un randonneur.",
+      "title": "Manteau neige compact, dense et profondément humidifié.",
+      "text": "Manteau neige compact, dense et profondément humidifié.\n\nDéparts spontanés :\n- Rares  avalanches de fond emportant l'ensemble du manteau neigeux éventuellement possibles (fissures/reptations et avalanches de fond signalées ces derniers jours), plutôt au-delà de 2400/2500 m dans les versants Nord et Est, les plus enneigés. En cas de départs, elles seront de taille moyenne.\n\nDéclenchements provoqués :\nUn skieur coupant une pente raide déjà bien humidifiée pourra favoriser un départ ponctuel de taille petite sur quelques dizaines de mètres. \n\nAutres :\n- des corniches encore imposantes sont susceptibles de céder spontanément et peuvent déclencher une petite  avalanche dans leur chute. Une averse orageuse localisée peut constituer un phénomène déclencheur \n- les ponts de neige recouvrant les torrents peuvent également facilement céder au passage d'un randonneur.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nL'enneigement dans nos massifs reste bon pour la saison, encore supérieur à celui des derniers hivers à haute altitude. La limite skiable est bien remontée avec un mois d'avril exceptionnellement chaud. On peut chausser au mieux vers 1900 m en nord et 2200 /2300 m en sud. On trouve ensuite rapidement une épaisseur de neige conséquente qui dépasse encore souvent les 1 à 1,30 m à 2100m en nord, et parfois plus de 2 m  à 2500 m. Les cols et crêtes ouest à nord-ouest sont toutefois moins garnis en neige, les rochers affleurent de plus en plus en surface. \n\nQualité de la neige :\nRegel ponctuel dans quelques secteurs à l'abri du vent de sud en haute montagne. La neige est de type névé dans la plupart des versants, légèrement ocre du fait des poussières sahariennes, devenant fréquemment détrempée en surface dans l'après-midi à toutes altitudes et orientations.  À noter enfin la présence de rigoles de fonte en surface. Cette neige est de ce fait très dense, pas trop piégeuse à skier mais la glisse y est souvent médiocre.",
+      "text": "Enneigement : \nL'enneigement dans nos massifs reste correct pour la saison, mais il a pâti d'un mois d'avril particulièrement doux  sans chute de neige notable en altitude, au moins dans sa seconde partie. \n La limite skiable  est au mieux vers 2000 m en versants nord. On trouve dans les zones d'accumulations ou dans les secteurs où perdurent le plus tardivement les névés de début d'été,  une épaisseur de neige conséquente qui dépasse encore souvent les 1 à 1,30 m à 2000m en nord, et 2 à 2,50 m à 2500 m.\n Les cols et crêtes ouest à nord-ouest sont toutefois moins garnis en neige, l'enneigement est de moins en moins continu dans les zones de chaos rocheux ou d'éboulis. \nUn peu de neige fraîche possible sur les crêtes frontières au-delà de 2700 m. Apport un peu plus conséquent attendu en soirée de lundi au-delà de 2500 m.\n\nQualité de la neige :\nRegel ponctuel dans quelques secteurs à l'abri du vent de sud en haute montagne. La neige est de type névé dans la plupart des versants, légèrement ocre du fait des poussières sahariennes, devenant fréquemment détrempée en surface dans l'après-midi à toutes altitudes et orientations. Cette neige est de ce fait très dense, pas trop piégeuse à skier mais la glisse y est souvent médiocre. À noter enfin la présence de rigoles de fonte en surface.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -142,7 +142,7 @@
         },
         {
           "alt_m": 2500,
-          "N": 200,
+          "N": 190,
           "S": 45
         }
       ],

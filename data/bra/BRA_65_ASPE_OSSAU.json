@@ -3,8 +3,8 @@
   "massif": "Aspe Ossau",
   "bulletin": {
     "id": 65,
-    "issued_at": "2026-05-02T16:00:00",
-    "valid_until": "2026-05-03T18:00:00",
+    "issued_at": "2026-05-03T16:00:00",
+    "valid_until": "2026-05-04T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-04",
+        "date": "2026-05-05",
         "label": "Indice de risque limité",
-        "comment": "Maintien d'un risque maximal limité. Refroidissement progressif, un peu de neige possible au-dessus de 2200/2300m",
+        "comment": "Maintien d'un risque limité. Poursuite du refroidissement, neige possible sous 2000m.",
         "trend": "steady"
       }
     },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": 5,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
-        "4": "Neige humide",
-        "5": "Avalanche de fond"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-28",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-29",
           "min_cm": 0,
@@ -106,22 +101,27 @@
           "date": "2026-05-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-04",
+          "min_cm": 0,
+          "max_cm": 1
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_max_cm": 1
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Principalement de la poursuite de fonte et humidification en profondeur, quelques chutes de neige en altitude.",
-      "text": "Principalement de la poursuite de fonte et humidification en profondeur, quelques chutes de neige en altitude.\n\nDéparts spontanés : Principalement en neige humide.\nDes départs ponctuels dans la neige humide sont attendus dès la matinée avec un regel peu efficace. De petites avalanches peuvent se produire dans les pentes raides des versants Est le matin, puis rapidement tous les versants au fil de la journée et des averses. Des avalanches petites à moyennes sont alors possibles.\nDes avalanches de fond restent aussi possibles dans les pentes raides, petites à moyennes, plus rarement grandes notamment dans les accumulations présentes en altitude (versants allant du Nord-Ouest au Nord-Est au-dessus de 2400m en général). Départs possibles près des fissures en place ou d'une rupture de pente.\nAu-dessus de 2600/2700m, éventuellement et seulement de petites avalanches sont possibles dans la neige tombante au fil de la journée.\n\nDéclenchements provoqués : Surtout en neige humide.\nUn skieur ou un randonneur peut déclencher une petite avalanche dans la neige humide et dans une pente raide dès la matinée, plutôt petite à moyenne l'après-midi notamment dans les pentes raides des versants allant du Nord-Ouest au Nord-Est.\nAu-dessus de 2600/2700m, un skieur peut éventuellement déclencher dans les pentes raides des plaques dans la neige tombante au fil de la journée sous l'effet du vent de Sud à Sud-Ouest. De petites avalanches sont alors possibles.\n\nAutres : \n- corniches et ponts de neige encore en place fragiles et peu résistants, pouvant céder spontanément ou sous le poids d'une seule personne, même s'ils semblent épais.\n- les chemins de randonnée déjà déneigés situés sous les secteurs raides d'altitude encore chargés peuvent localement être atteints par une avalanche de fond de taille moyenne à rarement grande dans l'après-midi.",
+      "title": "Quelques plaques en altitude, humidification partout ailleurs.",
+      "text": "Quelques plaques en altitude, humidification partout ailleurs.\n\nDéclenchements provoqués : \nAu-dessus de 2400/2500m, quelques plaques à vent se forment préférentiellement dans les pentes raides des versants allant du Nord-Ouest au Nord-Ouest au fil des chutes de neige et sous l'effet du vent de sud à sud-ouest. Elles viennent potentiellement se superposer à des plaques formées lors des chutes de neige précédentes. Leur déclenchement par un simple skieur peut engendrer des avalanches généralement petites à moyennes. Des avalanches moyennes, plus rarement grandes restent possibles notamment en fond de chaîne et secteur frontalier où les accumulations sont les plus importantes. Il n'est pas exclu de trouver ces plaques dans les autres versants.\nSous 2400/2500m, un simple skieur peut déclencher des départs ponctuels dans la neige humide et dans les pentes raides dès la matinée. Des avalanches petites à parfois moyennes sont possibles dans les pentes raides des versants au fil de la journée et des averses.\n\nDéparts spontanés : \nAu-dessus de 2400 à 2500m, des départs ponctuels des plaques décrites ci-dessus restent possibles, par surcharge par le vent, engendrant ainsi des avalanches petites à moyennes en général. Des avalanches moyennes à rarement grandes sont possibles en secteur frontalier et fond de chaîne où les accumulations restent plus importantes.\nSous 2400/2500m, des départs ponctuels dans la neige humide sont attendus dès le matin avec un regel peu efficace. Des avalanches petites à moyennes peuvent se produire dans les pentes raides des versants au fil de la journée et des averses. Des avalanches de fond restent encore possibles, petites à moyennes, rarement grandes dans les accumulations en altitude (versants allant du Nord-Ouest au Nord-Est au-dessus de 2300m en général). Départs possibles près des fissures en place ou d'une rupture de pente.\n\nAutres : \n- corniches et ponts de neige encore en place fragiles et peu résistants, pouvant céder spontanément ou sous le poids d'une seule personne, même s'ils semblent épais.\n- les chemins de randonnée déneigés situés sous les secteurs raides d'altitude chargés peuvent être atteints par une avalanche de fond de taille moyenne à rarement grande.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Encore correct pour la saison au-dessus de 2300m, déficitaire plus bas, débutant encore vers 1900m en nord et 2400m en sud. Les limites de cet enneigement continuent de remonter progressivement dans la douceur ambiante.\nÉtat de la neige : Neige généralement bien humidifiée, assez portante le matin, peu ou pas regelée. La neige ramollit facilement et plutôt rapidement au fil de la journée avec la douceur ambiante et les averses. Quelques centimètres de neige fraîche au-dessus de 2500m au fil de la journée et des averses.",
+      "text": "Enneigement : Encore correct pour la saison au-dessus de 2300m, déficitaire plus bas, débutant encore vers 1900m en nord et 2400m en sud. Quelques centimètres de neige supplémentaires à venir dès 2200/2300m.\nÉtat de la neige : Au-dessus de 2400/2500m, neige sèche travaillée par le vent au fil de la journée et des averses, en particulier dans les versants Nord-Ouest à Nord-Est. Quantités plus importantes en secteur frontalier et fond de chaîne. Plus bas, neige généralement bien humidifiée. Un peu de neige possible dès 2200/2300m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

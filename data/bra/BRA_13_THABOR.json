@@ -3,30 +3,30 @@
   "massif": "Thabor",
   "bulletin": {
     "id": 13,
-    "issued_at": "2026-05-02T16:00:00",
-    "valid_until": "2026-05-03T18:00:00",
+    "issued_at": "2026-05-03T16:00:00",
+    "valid_until": "2026-05-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2600m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2500,
+        "threshold_m": 2600,
         "split_axis": "horizontal",
-        "split_label": "2500m",
+        "split_label": "2600m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2500",
+            "loc": "<2600",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2500",
+            "loc": ">2600",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2500m"
+          "label": "2600m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-04",
+        "date": "2026-05-05",
         "label": "Indice de risque limité",
-        "comment": "Risque en légère hausse mais restant limité, avec le retour de chutes de neige en altitude.",
+        "comment": "Toujours des petites plaques en place et en formation à haute altitude, avec les chutes de neige ventée.",
         "trend": "steady"
       }
     },
@@ -64,11 +64,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
+        "E": true,
         "SE": false,
         "S": false,
         "SW": false,
-        "W": false,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -78,21 +78,17 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": null,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
+        "2": "Neige ventée",
         "4": "Neige humide"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-28",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-29",
           "min_cm": 0,
@@ -117,6 +113,11 @@
           "date": "2026-05-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX PRINTANIER - RARE ACTIVITÉ EN NEIGE HUMIDE.",
-      "text": "MANTEAU NEIGEUX PRINTANIER - RARE ACTIVITÉ EN NEIGE HUMIDE.\n\nDéparts spontanés : dans les pentes d'un large secteur nord au-dessus de 2500/2600 m, rares départs linéaires de neige humide possibles notamment l'après-midi, en cas d'humidification d'une vieille couche fragile persistante enfouie à la base du manteau neigeux. Avalanches moyennes voire grandes (taille 2 à 3), emportant le manteau neigeux jusqu'au sol. Partout ailleurs, manteau neigeux bien stabilisé.\n\nDéclenchements provoqués : peu probables, excepté un petit départ de neige humide sous les skis, en coupant une pente raide humidifiée en profondeur. Un départ plus volumineux est possible en cas de sollicitation des couches fragiles décrites dans le paragraphe précédent.",
+      "title": "PETITE PLAQUES EN FORMATION DANS LA NEIGE FRAICHE EN ALTITUDE - RARE ACTIVITÉ EN NEIGE HUMIDE EN DESSOUS",
+      "text": "PETITE PLAQUES EN FORMATION DANS LA NEIGE FRAICHE EN ALTITUDE - RARE ACTIVITÉ EN NEIGE HUMIDE EN DESSOUS\n\nDéclenchements provoqués : petites plaques à vent en formation dans la neige fraiche au-dessus de 2600/2800 m, possible en toutes orientations mais plus fréquentes et sensibles en versants nord (vent de sud/sud-est), notamment en fin de journée avec la poursuite des chutes de neige. \nÀ plus basse altitude, manteau neigeux humide et stable.\n\nDéparts spontanés : \n - au dessus de 2600/2800 m, des départs superficiels sont possibles avec les chutes de neige fraiche ventée, notamment en fin de journée. Avalanches restant de petite taille. \n - dans les pentes d'un large secteur nord au-dessus de 2500/2600 m, rares départs linéaires de neige humide possibles, en cas d'humidification d'une vieille couche fragile persistante enfouie à la base du manteau neigeux. Avalanches moyennes voire grandes (taille 2 à 3), emportant le manteau neigeux jusqu'au sol.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement déficitaire pour la période.\nHauteurs de neige observées vers 2500 m : 54 cm à la Nivôse Rochilles à 2444 m, plus de neige à la Nivôse du Galibier à 2559 m. \n\nLimite d'enneigement skiable : très localement vers 1900 m en ubacs sur terrain favorable, 2400/2600 m en adrets.\nÉtat de la neige en surface : manteau neigeux printanier, voire de névé en toute orientation sous 2200 m environ et en adrets de haute altitude, avec des bandes de neige localement épaisses mais discontinues.  Regel nocturne très superficiel au levé du jour puis reprise rapide de la fonte en cours de journée dans toutes les expositions.",
+      "text": "Enneigement déficitaire pour la période.\nHauteurs de neige observées vers 2500 m : 51 cm à la Nivôse Rochilles à 2444 m, plus de neige à la Nivôse du Galibier à 2559 m. \n\nLimite d'enneigement skiable : très localement vers 1900 m en ubacs sur terrain favorable, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : manteau neigeux printanier ou de névé, avec des bandes de neige discontinues aux plus basses altitudes. Neige humide dès le matin en absence de regel, recouverte d'une petite couche de neige fraiche collante tombant en journée au dessus de 2000/2300 m, plus froide au dessus de 2500/2600 m .",
       "icon_key": "snow-quality"
     },
     "snowpack": {
