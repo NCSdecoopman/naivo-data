@@ -1,69 +1,75 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="8" MASSIF="Belledonne" DATEBULLETIN="2026-05-03T16:00:00" DATEECHEANCE="2026-05-04T18:00:00" DATEVALIDITE="2026-05-04T18:00:00" DATEDIFFUSION="2026-05-03T16:23:00" AMENDEMENT="false">
-  <DateValidite>2026-05-04T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="8" MASSIF="Belledonne" DATEBULLETIN="2026-05-04T15:00:00" DATEECHEANCE="2026-05-05T18:00:00" DATEVALIDITE="2026-05-05T18:00:00" DATEDIFFUSION="2026-05-04T15:28:00" AMENDEMENT="false">
+  <DateValidite>2026-05-05T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="1" COMMENTAIRE="Indice de risque faible." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-05-05T00:00:00"/>
-    <PENTE NE="false" E="false" SE="false" S="false" SW="false" W="false" NW="false" N="false" COMMENTAIRE=""/>
-    <ACCIDENTEL><![CDATA[Peu probables, ou coulées humides superficielles sous les skis en pente raide. ]]></ACCIDENTEL>
-    <NATUREL><![CDATA[Peu probables, ou quelques escargots / boulettes dans la neige récente ]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : Peu probables, ou quelques escargots / boulettes dans la neige récente 
-Déclenchements skieurs : Peu probables, ou coulées humides superficielles sous les skis en pente raide. ]]></RESUME>
-    <RisqueJ2><![CDATA[Indice de risque limité]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Mardi, le risque serait limité. De nouvelles chutes de neige sont attendues en altitude dans la nuit de lundi à mardi, et à nouveau sous les averses mardi, avec une limite pluie-neige s'abaissant vers 2200m. Léger risque de plaque en altitude, et coulées humides sous les éclaircies. ]]></CommentaireRisqueJ2>
+    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="&lt;2700" ALTITUDE="2700" RISQUE2="2" EVOLURISQUE2="" LOC2="&gt;2700" RISQUEMAXI="2" COMMENTAIRE="Au-dessus de 2700m indice de risque limité, plus bas indice faible." RISQUEMAXIJ2="3" DATE_RISQUE_J2="2026-05-06T00:00:00"/>
+    <PENTE NE="true" E="false" SE="false" S="false" SW="false" W="false" NW="true" N="true" COMMENTAIRE="Rares, sommitales"/>
+    <ACCIDENTEL><![CDATA[En neige sèche ventée (Nord au dessus de 2700/2800m), rares plaques instables. Ailleurs RAS ou coulée humide ponctuelles sous les skis ?]]></ACCIDENTEL>
+    <NATUREL><![CDATA[Quelques coulées superficielles de neige récente (ou escargots humides) vers les sommets. Rare départ de fonte en Nord d'altitude]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : Quelques coulées superficielles de neige récente (ou escargots humides) vers les sommets. Rare départ de fonte en Nord d'altitude
+Déclenchements skieurs : En neige sèche ventée (Nord au dessus de 2700/2800m), rares plaques instables. Ailleurs RAS ou coulée humide ponctuelles sous les skis ?]]></RESUME>
+    <RisqueJ2><![CDATA[Indice de risque marqué]]></RisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Mercredi risque d'avalanche en légère hausse. Rafraichissement et nouvelles chutes de neige ventées en altitude (20 cm supplémentaires),  risque de plaques dès 2200/2400m environ ?]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_8.png</ImageRisque>
     <ImagePente>rose_pentes_8.png</ImagePente>
   </CARTOUCHERISQUE>
   <STABILITE>
-    <SitAvalTyp SAT1="4" SAT2=""/>
-    <TITRE><![CDATA[MANTEAU STABLE, PETITE COUCHE DE NEIGE RECENTE EN ALTITUDE ]]></TITRE>
-    <TEXTESANSTITRE><![CDATA[Départs spontanés : Pas de regel nocturne, ou alors uniquement sur le haut du massif. En journée, le retour de la neige au-dessus de 2500m ralentit nettement l'humidification et limite fortement le risque de départ. Plus bas que 2500m, le manteau est généralement entièrement humide. Dans une rare pente Nord bien abritée qui aurait gardé un peu de neige froide en profondeur une avalanche reste possible bien que peu probable. 
-Sous les éclaircies l'après-midi / en début de soirée, quelques escargots / boulettes peuvent éventuellement partir dans neige récente sous les rochers. 
-Déclenchements provoqués : Peu probables, ou une coulée ponctuelle / de gros escargots en neige récente humide dans les pentes raides. ]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[MANTEAU STABLE, PETITE COUCHE DE NEIGE RECENTE EN ALTITUDE 
+    <SitAvalTyp SAT1="2" SAT2=""/>
+    <TITRE><![CDATA[MANTEAU STABLE, PETITE COUCHE DE NEIGE RECENTE VENTEE EN ALTITUDE ]]></TITRE>
+    <TEXTESANSTITRE><![CDATA[Petite couche de neige fraîche ventée en altitude (10/20 cm environ), rare plaque en Nord de haute altitude...
 
-Départs spontanés : Pas de regel nocturne, ou alors uniquement sur le haut du massif. En journée, le retour de la neige au-dessus de 2500m ralentit nettement l'humidification et limite fortement le risque de départ. Plus bas que 2500m, le manteau est généralement entièrement humide. Dans une rare pente Nord bien abritée qui aurait gardé un peu de neige froide en profondeur une avalanche reste possible bien que peu probable. 
-Sous les éclaircies l'après-midi / en début de soirée, quelques escargots / boulettes peuvent éventuellement partir dans neige récente sous les rochers. 
-Déclenchements provoqués : Peu probables, ou une coulée ponctuelle / de gros escargots en neige récente humide dans les pentes raides. ]]></TEXTE>
+Déclenchements provoqués : Mardi, possiblement un peu de neige froide ventée vers les hauts sommets de Belledonne, sous le vent de Sud-Sud-Ouest. Temporairement risque de rupture  accidentelle de (petites) plaques, surtout en Nord au dessus de 2700/2800m environ.
+En contrebas ou si cette neige est plus humide, plutôt un risque de coulée ponctuelle sous les skis, la neige adhérant peu à la sous couche en névés...
+
+Départs spontanés : Peu probable, ou des coulées superficielles de neige récente, des boules humides lors d'éclaircies...
+En Nord d'altitude la neige est humide en profondeur, on n'exclut pas totalement un départ de fonte plus volumineux ?
+Ailleurs vieille neige très dense (quasi névé), stable.]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[MANTEAU STABLE, PETITE COUCHE DE NEIGE RECENTE VENTEE EN ALTITUDE 
+
+Petite couche de neige fraîche ventée en altitude (10/20 cm environ), rare plaque en Nord de haute altitude...
+
+Déclenchements provoqués : Mardi, possiblement un peu de neige froide ventée vers les hauts sommets de Belledonne, sous le vent de Sud-Sud-Ouest. Temporairement risque de rupture  accidentelle de (petites) plaques, surtout en Nord au dessus de 2700/2800m environ.
+En contrebas ou si cette neige est plus humide, plutôt un risque de coulée ponctuelle sous les skis, la neige adhérant peu à la sous couche en névés...
+
+Départs spontanés : Peu probable, ou des coulées superficielles de neige récente, des boules humides lors d'éclaircies...
+En Nord d'altitude la neige est humide en profondeur, on n'exclut pas totalement un départ de fonte plus volumineux ?
+Ailleurs vieille neige très dense (quasi névé), stable.]]></TEXTE>
   </STABILITE>
   <QUALITE>
-    <TEXTE><![CDATA[Qualification de l’enneigement :  L'enneigement est devenu franchement déficitaire sur le massif, avec un aspect de fin de saison... La fonte devrait toutefois cesser au-dessus de 2500m où l'on attends même 5 à 10cm de neige récente. Plus bas, la fonte du manteau neigeux se poursuit sous la pluie. 
+    <TEXTE><![CDATA[Qualification de l’enneigement :  L'enneigement est devenu franchement déficitaire sur le massif, avec un aspect de fin de saison... Le paysage va en revanche s'améliorer en altitude avec une petite couche de fraîche qui adoucit le ski...
+Limites skiables : Vers 1600/1900m en Nord à 2100/2400m en versants ensoleillés. 
 
-Limites skiables : Vers 1600/1800m en Nord à 2100/2400m en versants ensoleillés. 
-
-Qualité de la neige lundi :  Pas de regel nocturne, ou alors uniquement sur le haut du massif. En journée, on attends 5 à 10cm de neige humide au-dessus de 2500m. Plus bas, neige dense, de névé. ]]></TEXTE>
+Qualité de la neige mardi :  Neige récente s'humidifiant rapidement lors d'éclaircie (devenant collante). En raide faces Nord sommitales (au dessus de 2700m environ ?), neige temporairement sèche, froide, ventée. 
+Plus bas neige de névé/reliefs, absence de regel...]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-05-03T00:00:00" LimiteSud="2300" LimiteNord="1700">
+  <ENNEIGEMENT DATE="2026-05-04T00:00:00" LimiteSud="2300" LimiteNord="1700">
     <NIVEAU ALTI="1500" N="0" S="0"/>
-    <NIVEAU ALTI="2000" N="110" S="0"/>
-    <NIVEAU ALTI="2500" N="200" S="40"/>
+    <NIVEAU ALTI="2000" N="100" S="0"/>
+    <NIVEAU ALTI="2500" N="195" S="35"/>
     <ImageEnneigement>montagne_enneigement_8.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-04-29T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-04-30T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-01T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-02T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-03T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-04T00:00:00" SS24Min="0" SS24Max="0"/>
+    <NEIGE24H DATE="2026-05-05T00:00:00" SS24Min="0" SS24Max="0"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_8.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="2000" ALTITUDEVENT2="3000">
-    <COMMENTAIRE>Temps instable avec de fréquentes averses en journée. Retour de la neige en haute montagne, accompagnée d'un vent de Sud sensible. Quelques éclaircies possibles l'après-midi / en soirée. </COMMENTAIRE>
-    <ECHEANCE DATE="2026-05-04T06:00:00" FF1="40" DD1="SE" FF2="55" DD2="SO" ISO0="2900" PLUIENEIGE="2500" TEMPSSENSIBLE="70" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-04T12:00:00" FF1="45" DD1="S" FF2="55" DD2="SO" ISO0="2800" PLUIENEIGE="2500" TEMPSSENSIBLE="70" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-04T18:00:00" FF1="40" DD1="SE" FF2="55" DD2="SO" ISO0="2800" PLUIENEIGE="2500" TEMPSSENSIBLE="70" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-05T00:00:00" FF1="40" DD1="S" FF2="55" DD2="S" ISO0="2900" PLUIENEIGE="2500" TEMPSSENSIBLE="70" MERNUAGES="-1"/>
+    <COMMENTAIRE>Temps changeant, nuageux en altitude. Passage de quelques pluies ou ondées, parfois orageuses. Limite pluie/neige vers 2400 puis 2200m...</COMMENTAIRE>
+    <ECHEANCE DATE="2026-05-05T06:00:00" FF1="30" DD1="SE" FF2="45" DD2="S" ISO0="2900" PLUIENEIGE="2500" TEMPSSENSIBLE="71" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-05-05T12:00:00" FF1="25" DD1="S" FF2="45" DD2="S" ISO0="2600" PLUIENEIGE="2300" TEMPSSENSIBLE="71" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-05-05T18:00:00" FF1="30" DD1="SO" FF2="30" DD2="SO" ISO0="2600" PLUIENEIGE="2300" TEMPSSENSIBLE="90" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-05-06T00:00:00" FF1="15" DD1="S" FF2="30" DD2="SO" ISO0="2500" PLUIENEIGE="2200" TEMPSSENSIBLE="71" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_8.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-04-27T06:00:00" FF1="5" DD1="SO" FF2="10" DD2="SO" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-04-27T12:00:00" FF1="5" DD1="S" FF2="10" DD2="SO" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-04-27T18:00:00" FF1="10" DD1="O" FF2="15" DD2="S" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
-      <ECHEANCE DATE="2026-04-28T00:00:00" FF1="10" DD1="SO" FF2="20" DD2="SO" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
       <ECHEANCE DATE="2026-04-28T06:00:00" FF1="10" DD1="SO" FF2="15" DD2="SO" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
       <ECHEANCE DATE="2026-04-28T12:00:00" FF1="15" DD1="SO" FF2="15" DD2="S" ISO0="2800" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
       <ECHEANCE DATE="2026-04-28T18:00:00" FF1="20" DD1="SO" FF2="30" DD2="SO" ISO0="3000" PLUIENEIGE="2800" TEMPSSENSIBLE="90"/>
@@ -86,15 +92,14 @@ Qualité de la neige lundi :  Pas de regel nocturne, ou alors uniquement sur le 
       <ECHEANCE DATE="2026-05-03T00:00:00" FF1="40" DD1="SE" FF2="50" DD2="S" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
       <ECHEANCE DATE="2026-05-03T06:00:00" FF1="35" DD1="S" FF2="55" DD2="SO" ISO0="3200" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
       <ECHEANCE DATE="2026-05-03T12:00:00" FF1="35" DD1="S" FF2="55" DD2="S" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
-      <ECHEANCE DATE="2026-05-03T18:00:00" FF1="35" DD1="S" FF2="55" DD2="SO" ISO0="2900" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
-      <ECHEANCE DATE="2026-05-04T00:00:00" FF1="35" DD1="SE" FF2="55" DD2="S" ISO0="2900" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
+      <ECHEANCE DATE="2026-05-03T18:00:00" FF1="35" DD1="S" FF2="55" DD2="SO" ISO0="2800" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
+      <ECHEANCE DATE="2026-05-04T00:00:00" FF1="35" DD1="SE" FF2="55" DD2="S" ISO0="2900" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-05-04T06:00:00" FF1="40" DD1="SE" FF2="55" DD2="SO" ISO0="2800" PLUIENEIGE="2500" TEMPSSENSIBLE="4"/>
+      <ECHEANCE DATE="2026-05-04T12:00:00" FF1="45" DD1="S" FF2="55" DD2="SO" ISO0="2800" PLUIENEIGE="2500" TEMPSSENSIBLE="70"/>
+      <ECHEANCE DATE="2026-05-04T18:00:00" FF1="40" DD1="SE" FF2="55" DD2="SO" ISO0="2800" PLUIENEIGE="2500" TEMPSSENSIBLE="70"/>
+      <ECHEANCE DATE="2026-05-05T00:00:00" FF1="40" DD1="S" FF2="55" DD2="S" ISO0="2800" PLUIENEIGE="2500" TEMPSSENSIBLE="70"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-04-27T00:00:00" LimiteSud="2100" LimiteNord="1600">
-        <NIVEAU ALTI="1500" N="0" S="0"/>
-        <NIVEAU ALTI="2000" N="160" S="0"/>
-        <NIVEAU ALTI="2500" N="230" S="100"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-04-28T00:00:00" LimiteSud="2100" LimiteNord="1600">
         <NIVEAU ALTI="1500" N="0" S="0"/>
         <NIVEAU ALTI="2000" N="155" S="0"/>
@@ -125,23 +130,28 @@ Qualité de la neige lundi :  Pas de regel nocturne, ou alors uniquement sur le 
         <NIVEAU ALTI="2000" N="110" S="0"/>
         <NIVEAU ALTI="2500" N="200" S="40"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-05-04T00:00:00" LimiteSud="2300" LimiteNord="1700">
+        <NIVEAU ALTI="1500" N="0" S="0"/>
+        <NIVEAU ALTI="2000" N="100" S="0"/>
+        <NIVEAU ALTI="2500" N="195" S="35"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-04-28T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-04-29T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-04-30T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-01T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-02T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-03T00:00:00" SS24Min="0" SS24Max="0"/>
+      <NEIGE24H DATE="2026-05-04T00:00:00" SS24Min="0" SS24Max="0"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-04-27T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-28T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-29T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-04-30T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-05-01T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-05-02T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-05-03T00:00:00" RISQUEMAXI="2"/>
+      <RISQUE DATE="2026-05-04T00:00:00" RISQUEMAXI="1"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_8.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_8.png</Image7derniersjours_portrait>

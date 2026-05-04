@@ -3,8 +3,8 @@
   "massif": "Pays-Basque",
   "bulletin": {
     "id": 64,
-    "issued_at": "2026-05-03T16:00:00",
-    "valid_until": "2026-05-04T18:00:00",
+    "issued_at": "2026-05-04T16:00:00",
+    "valid_until": "2026-05-05T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-05",
+        "date": "2026-05-06",
         "label": "Indice de risque faible",
-        "comment": "Maintien d'un risque faible, poursuite du refroidissement, neige possible sous 2000m.",
+        "comment": "Maintien d'un risque faible.",
         "trend": "steady"
       }
     },
@@ -66,21 +66,17 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": null,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
+        "2": "Neige ventée",
         "4": "Neige humide"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-04-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-04-30",
           "min_cm": 0,
@@ -104,23 +100,28 @@
         {
           "date": "2026-05-04",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
+        },
+        {
+          "date": "2026-05-05",
+          "min_cm": 3,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 1
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Peu de neige sur le massif, poursuivant son humidification sous les averses.",
-      "text": "Peu de neige sur le massif, poursuivant son humidification sous les averses.\n\nDéparts spontanés : en neige humide seulement, départs ponctuels rares sous forme de petites avalanches, car il reste très peu de neige sur le massif.\nQuelques combes peu pentues sont encore enneigées vers le pic d'Anie, de rares névés subsistent en face nord du pic d'Orhy.\n\nDéclenchements provoqués : peu probables, en neige humide seulement, dans une ou deux combes encore garnies sous le pic d'Anie. Si elles ont un peu de pente, le passage d'un skieur ou, plus sûrement d'un randonneur, peu être à l'origine d'une petites avalanche de neige lourde et très humide à détrempée.\n\nAutres : quelques ponts de neige subsistent dans le secteur de La Pierre Saint Martin, fragiles et cédant spontanément ou sous le poids d'un randonneur.",
+      "title": "PEU DE NEIGE SUR LE MASSIF.",
+      "text": "PEU DE NEIGE SUR LE MASSIF.\n\nDéclenchements provoqués : rares et peu probables.\nLes averses de neige attendues mardi en fin de matinée et dans l'après-midi, localement orageuses, se font sur un massif quasiment déneigé. Même si cette couche de neige récente présente une structure de plaque à vent peu épaisse, il sera difficile pour un skieur ou randonneur de déclencher une coulée ou petite avalanche.\n\nDéparts spontanés : la neige tombée lundi présente au plus haut du massif sera exposée aux éclaircies en matinée, engendrant en pentes raides quelques coulées de neige s'humidifiant.\nLes averses neigeuses de l'après-midi rajoutent quelques centimètres à la neige de la veille, subissant du vent variable en direction : de nouvelles petites plaques et accumulations se forment en tous versants, susceptibles de se décrocher spontanément dans les pentes raides. Coulées ou rares petites avalanches de neige récente attendues donc pendant les chutes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : manteau neigeux très maigre et plutôt sous forme de langues de neige vers la Pierre-Saint-Martin, débutant vers 1900 m en nord. Rares névés en face nord du pic d'Orhy. L'humidification se poursuit sous les averses.\nÉtat de la neige : regel nocturne peu efficace, manteau neigeux restant humidifié sur toute son épaisseur, gorgé d'eau et très mou au fil de la journée et sous les averses.",
+      "text": "Enneigement : manteau neigeux très maigre et plutôt sous forme de langues de neige vers La Pierre Saint-Martin, débutant vers 1900m en nord. Rares névés en face nord du pic d'Orhy.\nÉtat de la neige : quelques centimètres de neige récente sur le haut du massif, déposés sur le manteau neigeux persistant regelé vers le Pic d'Anie, léger saupoudrage sur le pic d'Orhy au petit matin. Cette neige récente s'humidifie sous les éclaircies de la matinée.\nPour l'après-midi, chutes de neige dès 1700/1800m, rajoutant quelques centimètres de neige fraîche, sur un sol nu en versants sud et sous 1900m en nord. Neige récente légèrement travaillée par le vent faible à modéré et variable en direction.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -141,7 +142,7 @@
         },
         {
           "alt_m": 2000,
-          "N": 20,
+          "N": 10,
           "S": 0
         }
       ],
