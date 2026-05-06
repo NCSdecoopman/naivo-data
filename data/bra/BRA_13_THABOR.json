@@ -3,30 +3,30 @@
   "massif": "Thabor",
   "bulletin": {
     "id": 13,
-    "issued_at": "2026-05-05T16:00:00",
-    "valid_until": "2026-05-06T18:00:00",
+    "issued_at": "2026-05-06T16:00:00",
+    "valid_until": "2026-05-07T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2600m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2600,
+        "threshold_m": 2500,
         "split_axis": "horizontal",
-        "split_label": "2600m",
+        "split_label": "2500m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2600",
+            "loc": "<2500",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2600",
+            "loc": ">2500",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2600m"
+          "label": "2500m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-07",
+        "date": "2026-05-08",
         "label": "Indice de risque limité",
-        "comment": "Maintien d'un risque limité. Encore quelques plaques en place en nord d'altitude et rapide humidification de la neige récente au soleil en journée.",
+        "comment": "Rares plaques en cours de stabilisation en versant nord de haute altitude, et poursuite de l'humidification au soleil en journée.",
         "trend": "steady"
       }
     },
@@ -64,11 +64,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -79,20 +79,16 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": null,
+      "secondary": 4,
       "labels": {
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-01",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-02",
           "min_cm": 0,
@@ -116,23 +112,28 @@
         {
           "date": "2026-05-06",
           "min_cm": 0,
+          "max_cm": 5
+        },
+        {
+          "date": "2026-05-07",
+          "min_cm": 0,
           "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
+        "last_48h_min_cm": 0,
         "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES PLAQUES TEMPORAIRES DANS LA NEIGE FRAICHE EN ALTITUDE",
-      "text": "QUELQUES PLAQUES TEMPORAIRES DANS LA NEIGE FRAICHE EN ALTITUDE\n\nDéclenchements provoqués : au dessus de 2600 m environ, plaques temporaires en formation dans la nuit de mardi à mercredi et jusqu'à mercredi matin avec une neige beaucoup plus froide. Possibles en toutes orientations mais plus fréquentes et sensibles en versants nord, elles peuvent être déclenchées au passage d'un skieur, mais restent généralement peu étendues et d'épaisseur limitée. Avalanches de petite taille, parfois moyenne dans les secteurs d'accumulation de neige (taille 1 à 2). \nPlus bas, les chutes de neige reposent sur un manteau neigeux déjà bien stabilisé et moins propice à la formation de plaques.\n\nDéparts spontanés : en pentes raides, des petites ou moyennes avalanches sont encore possibles sous les dernières averses de neige de la nuit puis en journée, de nombreux départs sont attendus avec le retour des éclaircies qui viennent déstabiliser la neige récente. Avalanches généralement de taille 1 à 2.",
+      "title": "QUELQUES PLAQUES TEMPORAIRES EN ALTITUDE, REPRISE DE L'HUMIDIFICATION AU SOLEIL",
+      "text": "QUELQUES PLAQUES TEMPORAIRES EN ALTITUDE, REPRISE DE L'HUMIDIFICATION AU SOLEIL\n\nDéclenchements provoqués : \n- au dessus de 2600 m environ, quelques plaques temporaires encore en place, présentes surtout en versants nord raides où elles peuvent être faciles à déclencher au passage d'un skieur. Ailleurs, de rares plaques sont encore possibles en début de journée, mais se stabilisent rapidement au soleil. Elles restent généralement peu étendues et d'épaisseur limitée, provoquant des avalanches par départ linéaire de petite taille, parfois moyenne dans les secteurs d'accumulation de neige (taille 1 à 2). \n- un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis.\n\nDéparts spontanés : quelques départs ponctuels en pentes raides, par humidification de la neige récente au fil de la course du soleil, un rare départ linéaire n'est pas exclu. Avalanches généralement de petite taille, rare taille moyenne possible au dessus de 2500/2600 m (taille 1 à 2).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement déficitaire pour la période.\nHauteurs de neige observées vers 2500 m : 61 cm à la Nivôse Rochilles à 2444 m, 35 cm à la Nivôse du Galibier à 2559 m. \n\nLimite d'enneigement skiable : très localement vers 1900 m en ubacs sur terrain favorable, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : mercredi matin, on trouve 10/15 cm de neige fraîche, sèche et froide au dessus de 2200/2400 m environ, déjà plus lourde en dessous. Elle repose sur un manteau neigeux printanier ou de névé.",
+      "text": "Enneigement déficitaire pour la période.\nHauteurs de neige observées vers 2500 m : 59 cm à la Nivôse Rochilles à 2444 m, 32 cm à la Nivôse du Galibier à 2559 m. \n\nLimite d'enneigement skiable : très localement vers 1900 m en ubacs sur terrain favorable, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : jeudi matin, la neige récente s'est déjà le plus souvent alourdie, elle est localement restée encore froide au dessus de 2500/2600 m en versant nord. Elle repose sur un manteau neigeux printanier ou de névé.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,12 +150,12 @@
         {
           "alt_m": 2000,
           "N": 10,
-          "S": 5
+          "S": 2
         },
         {
           "alt_m": 2500,
-          "N": 80,
-          "S": 20
+          "N": 85,
+          "S": 25
         }
       ],
       "icon_key": "snowpack",

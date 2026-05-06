@@ -3,8 +3,8 @@
   "massif": "Aure Louron",
   "bulletin": {
     "id": 67,
-    "issued_at": "2026-05-05T17:00:00",
-    "valid_until": "2026-05-06T18:00:00",
+    "issued_at": "2026-05-06T16:00:00",
+    "valid_until": "2026-05-07T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-05-07",
-        "label": "Indice de risque faible",
-        "comment": "L'isotherme 0°C va à la hausse et le risque d'avalanche à la baisse.",
-        "trend": "down"
+        "max_level": 2,
+        "date": "2026-05-08",
+        "label": "Indice de risque limité",
+        "comment": "Maintien d'un risque limité en altitude, faibles chutes de neige ventées, un petit peu plus doux.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
-        "4": "Neige humide",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-01",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-02",
           "min_cm": 0,
@@ -118,22 +113,27 @@
           "date": "2026-05-06",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-07",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 1
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Forte humidification au soleil et fines plaques en altitude à l'ombre.",
-      "text": "Forte humidification au soleil et fines plaques en altitude à l'ombre.\n\nDéclenchements provoqués : \n- Quelques fines plaques à vent peuvent être présentes, au-dessus de 2400 m, dans les pentes ombragées et à l'abri du vent de sud-ouest. Elles sont le plus souvent difficilement déclenchables et leurs déclenchements engendrent généralement de petites avalanches.\n- Partout ailleurs, un skieur coupant une pente raide déjà bien humidifiée pourra favoriser un départ ponctuel de taille petite sur quelques dizaines de mètres. \n\nDéparts spontanés :\nDans les pentes raides et ensoleillées, de petites coulées en neige humide peuvent se déclencher dès le matin sous l'effet du soleil. Ces avalanches ne mobilisent que de faibles quantités de neige fraîche tombée ce mardi.",
+      "title": "Plaques peu épaisses en altitude, humidification ailleurs.",
+      "text": "Plaques peu épaisses en altitude, humidification ailleurs.\n\nDéclenchements provoqués : \n- Au-dessus de 2400 à 2500m, quelques plaques à vent peu épaisses peuvent persister dans pentes raides des versants allant principalement du Nord-Ouest au Nord-Est, datant des chutes de neige précédentes. Elles sont potentiellement recouvertes de neige récente datant de la veille et de celle tombant en journée, donc parfois difficiles à identifier. Leur déclenchement par un simple skieur peut engendrer généralement de petites avalanches, plus rarement des moyennes.\n- Partout ailleurs, un skieur peut déclencher des départs ponctuels dans la neige humide dès la matinée même si un regel plus ou moins efficace devrait retarder l'activité avalancheuse tôt le matin. De petites avalanches sont attendues dans les pentes raides des versants au fil de la journée, plus rarement des moyennes.. \n\nDéparts spontanés :\n- Au-dessus de 2400 à 2500m, des départs ponctuels de plaques décrites ci-dessus restent possibles, engendrant de petites avalanches, plus rarement des moyennes.\n- Partout ailleurs, des départs ponctuels dans la neige humide sont possibles dès la matinée. Un regel matinal devrait limiter le risque tôt le matin, mais il sera présent au fil de la matinée. De petites avalanches sont alors possibles dans les pentes raides des versants au fil de la journée, plus rarement des moyennes. Une rare avalanche de fond est possible, emportant l'ensemble du manteau neigeux, près des fissures en place et des reptations. De petites avalanches à parfois moyennes restent possibles, plus rarement des grandes, avec un départ au-dessus de 2400m surtout dans les versants allant du Nord-Ouest au Nord-Est.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Déficitaire, mais encore correct pour la saison au-dessus de 2300 m, débutant avec un saupoudrage vers 1800 m.\nÉtat de la neige : Quelques centimètres de neige récente au petit matin au-dessus de 1800 m. Cette neige récente peut s'être déjà humidifié par endroit et être dure par le rayonnement de la nuit. Le reste de la neige récente s'humidifie dans la matinée sous l'effet du soleil. Elle repose sur un sol nu ou sur un manteau neigeux très dense et constitué de neige profondément humidifiée, de type névé dans la majeure partie des secteurs.",
+      "text": "Enneigement : Déficitaire, mais encore correct pour la saison au-dessus de 2300 m, débutant potentiellement avec un saupoudrage de neige fraîche vers 1900m au petit matin.\nÉtat de la neige : Quelques centimètres de neige récente au-dessus de 1900/2000m, potentiellement déjà humidifiés dans la nuit, mais neige parfois bien regelée le matin. Neige travaillée par le vent dans les secteurs ombragés d'altitude au-dessus de 2400m (des versants allant du Nord-Ouest au Nord-Est). Partout ailleurs, la neige s'humidifie rapidement dans la matinée puis au fil de la journée, reposant sur un sol ou un manteau neigeux très dense, déjà bien humidifié. Quelques petits centimètres de neige fraîche dès 2100/2200m en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -154,8 +154,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 145,
-          "S": 10
+          "N": 150,
+          "S": 15
         }
       ],
       "icon_key": "snowpack",

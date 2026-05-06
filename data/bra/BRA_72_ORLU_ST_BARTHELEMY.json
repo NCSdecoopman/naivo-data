@@ -3,30 +3,30 @@
   "massif": "Orlu St-Barthelemy",
   "bulletin": {
     "id": 72,
-    "issued_at": "2026-05-05T16:00:00",
-    "valid_until": "2026-05-06T18:00:00",
+    "issued_at": "2026-05-06T16:00:00",
+    "valid_until": "2026-05-07T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2400m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2400,
+        "threshold_m": 2500,
         "split_axis": "horizontal",
-        "split_label": "2400m",
+        "split_label": "2500m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2400",
+            "loc": "<2500",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2400",
+            "loc": ">2500",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2400m"
+          "label": "2500m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-07",
+        "date": "2026-05-08",
         "label": "Indice de risque limité",
-        "comment": "Même type de temps attendu jeudi",
+        "comment": "Maintient d'un risque limité en altitude",
         "trend": "steady"
       }
     },
@@ -64,7 +64,7 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
+        "E": true,
         "SE": false,
         "S": false,
         "SW": false,
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-01",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-02",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +113,11 @@
           "date": "2026-05-06",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-07",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Neige récente en haute montagne sur ancien manteau neige compact, dense et profondément humidifié.",
-      "text": "Neige récente en haute montagne sur ancien manteau neige compact, dense et profondément humidifié.\n\nDéclenchements provoqués :\n- Dans le massif d'Orlu, au-dessus de 2400/2500m, risque théorique de fines plaques à vent pouvant potentiellement atteindre 20 à 30 cm d'épaisseur en neige récente dans les secteurs les plus touchés par les averses des jours précédents et de ce mercredi après-midi. Ces chutes de neige se sont produites sous un vent dominant d'un large secteur sud-ouest, mais temporairement aussi sous un vent turbulent, variable en direction et en intensité au gré des passages d'averses. Les secteurs nord-ouest à nord-est, qui restent à l'ombre, sont ceux où la neige qui reste sèche peut s'accumuler au fil des jours et sont donc ceux où on peut trouver les plaques les plus conséquentes. Ces plaques ne sont pas forcément aisément identifiables, car elles peuvent être recouvertes par une petite couche de neige récente plus régulière.\n- Un skieur coupant une pente raide déjà bien humidifiée pourra également favoriser un départ ponctuel de taille petite sur quelques dizaines de mètres. \n\nDéparts spontanés :\n- Petites avalanches de neige humide en couloirs raides par suite de l'humidification de la neige récente par l'effet du soleil présent a priori au moins en matinée; nombreuses boulettes ou escargots descendant les pente raides\n- Une rare avalanche de fond est éventuellement possible, emportant l'ensemble du manteau neigeux (fissures/reptations et avalanches de fond signalées ces derniers jours), plutôt au-delà de 2400/2500 m dans les versants nord et est, les plus enneigés. En cas de départ, elles seront de taille petite à moyenne.\n\n\nAutres :\nLes ponts de neige recouvrant les torrents peuvent facilement céder au passage d'un randonneur.",
+      "title": "Neige récente en haute montagne, petites structures instables en formation sur les hauteurs d'Orlu.",
+      "text": "Neige récente en haute montagne, petites structures instables en formation sur les hauteurs d'Orlu.\n\nDéclenchements provoqués :\n- Dans le massif d'Orlu, au-dessus de 2400/2500m, risque de fines plaques à vent pouvant potentiellement atteindre 20 à 30 cm d'épaisseur en neige récente dans les secteurs les plus touchés par les averses des jours précédents et de ce mercredi après-midi. Ces chutes de neige se sont produites sous un vent dominant d'un large secteur sud-ouest, mais temporairement aussi sous un vent turbulent, variable en direction et en intensité au gré des passages d'averses. Les secteurs nord-ouest à nord-est, qui restent à l'ombre, sont ceux où la neige qui reste sèche peut s'accumuler au fil des jours et sont donc ceux où on peut trouver les plaques les plus conséquentes. Ces plaques ne sont pas forcément aisément identifiables, car elles peuvent être recouvertes par une petite couche de neige récente plus régulière.\n - Une couche de grain anguleux a pu se former au contact de la vieille neige faisant office de couche fragile.\n- Un skieur coupant une pente raide déjà bien humidifiée pourra également favoriser un départ ponctuel de taille petite sur quelques dizaines de mètres. \n\nDéparts spontanés :\n- Petites avalanches de neige humide en couloirs raides par suite de l'humidification de la neige récente par l'effet du soleil présent a priori au moins en matinée dans les pentes Est; nombreuses boulettes ou escargots descendant les pente raides\n- Le risque d'avalanche de fond semble réduit avec le retour de conditions plus hivernales en altitude\n\n\nAutres :\nLes ponts de neige recouvrant les torrents peuvent facilement céder au passage d'un randonneur.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nL'enneigement dans nos massifs a fortement pâti d'un mois d'avril dans l'ensemble doux et peu neigeux, la dernière grosse chute remontant à l'épisode des 1er et 2 avril. En ce début mai, l'enneigement peut être qualifié de correct par comparaison aux années récentes. En secteur nord, la limite d'altitude de la neige est irrégulière, parfois dès 1600m dans les configurations les plus favorables mais seulement plus haut que 1900m dans d'autres secteurs. En gagnant en altitude, on trouve cependant des épaisseurs de neige importante, de l'ordre de 2 à 2,5m vers 2500m. En sud, elle est plutôt présente de manière continue à partir de 2200/2300m. Les cols et crêtes ouest à nord-ouest sont toutefois moins garnis en neige et l'enneigement est de moins en moins continu dans les zones de chaos rocheux ou d'éboulis. \nLes averses qui se produisent actuellement les après-midis redonnent par endroits un aspect hivernal dès 2000m, mais la fonte est rapide dès que le soleil se montre.\n\nQualité de la neige :\nAu-dessus de 1800/2000m, la petite couche de neige fraîche déposée par endroits par les averses diurnes s'humidifie très rapidement au soleil. Ce n'est que dans les secteurs les plus ombragés que l'on peut espérer conserver une neige sèche, bien qu'assez dense généralement et contenant possiblement de la neige roulée. Elle repose sur un manteau neigeux très dense et constitué de neige profondément humidifiée, de type névé dans la majeure partie des secteurs.",
+      "text": "Enneigement : \nAprès un mois d'Avril chaud et sec, l'enneigement dans nos massifs peut être qualifié de correct par comparaison aux années récentes. En secteur nord, la limite d'altitude de la neige est irrégulière, parfois dès 1600/1700m dans les configurations les plus favorables mais plus généralement 1900m. En gagnant en altitude, on trouve rapidement des épaisseurs de neige importante, de l'ordre de 2 à 2,5m vers 2500m. En sud, elle est plutôt présente de manière continue à partir de 2200/2300m. Les cols et crêtes ouest à nord-ouest sont toutefois moins garnis en neige et l'enneigement est de moins en moins continu dans les zones de chaos rocheux ou d'éboulis. \nLes averses qui se produisent actuellement les après-midis redonnent un aspect hivernal dès 2000 à 2200m, mais la fonte est rapide dès que le soleil se montre.\n\nQualité de la neige :\nAu-dessus de 1900/2000m, la petite couche de neige fraîche déposée par endroits par les averses diurnes s'humidifie très rapidement au soleil. Ce n'est que dans les secteurs les plus ombragés que l'on peut espérer conserver une neige sèche, bien qu'assez dense généralement et contenant possiblement de la neige roulée. Elle repose sur un manteau neigeux très dense et constitué de neige profondément humidifiée, de type névé dans la majeure partie des secteurs. \nCette petite couche de neige fraîche peut rapidement devenir collante à la moindre humidification .",
       "icon_key": "snow-quality"
     },
     "snowpack": {
