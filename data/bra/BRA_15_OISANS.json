@@ -3,30 +3,30 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-05-06T16:00:00",
-    "valid_until": "2026-05-07T18:00:00",
+    "issued_at": "2026-05-07T16:00:00",
+    "valid_until": "2026-05-08T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2700m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2500,
+        "threshold_m": 2700,
         "split_axis": "horizontal",
-        "split_label": "2500m",
+        "split_label": "2700m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2500",
+            "loc": "<2700",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2500",
+            "loc": ">2700",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2500m"
+          "label": "2700m"
         },
         "zones": {
           "bottom": {
@@ -54,22 +54,22 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-08",
+        "date": "2026-05-09",
         "label": "Indice de risque limité",
-        "comment": "Vendredi, risque stationnaire ou en légère baisse. La fonte se poursuit, ainsi que l'humidification en profondeur des faces Nord.",
+        "comment": "Samedi, belle matinée, puis des cumulus bourgeonnent l'après-midi, donnant éventuellement une ondée localisée. Le manteau poursuit sa stabilisation, avec un risque en légère baisse.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
-        "NE": true,
-        "E": true,
+        "NE": false,
+        "E": false,
         "SE": false,
         "S": false,
         "SW": false,
-        "W": true,
-        "NW": true
+        "W": false,
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -89,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-03",
           "min_cm": 0,
@@ -118,6 +113,11 @@
           "date": "2026-05-07",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-08",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,18 +127,18 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RARES PLAQUES A HAUTE ALTITUDE, ET REPRISE D'UNE HUMIDIFICATION PLUS IMPORTANTE APRÈS LA SÉQUENCE PERTURBÉE.",
-      "text": "RARES PLAQUES A HAUTE ALTITUDE, ET REPRISE D'UNE HUMIDIFICATION PLUS IMPORTANTE APRÈS LA SÉQUENCE PERTURBÉE.\n\nDéclenchements provoqués : - Surtout dans les versants Nord au-dessus de 2800/3000 m, et plutôt dans les secteurs Meije, Ecrins, Olan où les cumuls de neige récente de ces derniers jours ont été les plus importants : de rares plaques pourraient encore subsister dans les accumulations de neige récente. A ces altitudes, la neige fraîche a pu rester assez froide, mais son tassement et son humidification qui intervient en journée au soleil et sous les cumulus, contribuent à les stabiliser assez rapidement. Ces rares plaques peuvent encore être localement réactives au passage d'un skieur ou groupe de skieurs.\n- Partout ailleurs et même dans certains versants Nord d'altitude, dans les pentes en neige humide en surface, le pratiquant pourrait faire couler la neige sous ses skis en évoluant à un horaire inadapté.\n\nDéparts spontanés : Peu probables la nuit avec le bon regel nocturne, puis au fil de l'ensoleillement, ainsi que sous les cumulus de l'après-midi dans toutes les orientations, quelques avalanches de taille 1 à 2 peuvent se produire dans la neige récente qui s'humidifie. Une rare grande avalanche de taille 3 ne peut être exclue dans les pentes d'altitude où les cumuls de neige récente ont été les plus importants. Enfin, localement en Nord d'altitude, la reprise de l'humidification en profondeur pourrait occasionner un départ de fonte volumineux, plutôt vers 2500/2800m ?\n\nAutres : Avec le regel nocturne de la neige humide dans la plupart des pentes, les surfaces peuvent être glissantes notamment en tout début de journée (neige croûtée).",
+      "title": "RARES PLAQUES A HAUTE ALTITUDE, ET POURSUITE DE L'HUMIDIFICATION APRÈS LA SÉQUENCE PERTURBÉE.",
+      "text": "RARES PLAQUES A HAUTE ALTITUDE, ET POURSUITE DE L'HUMIDIFICATION APRÈS LA SÉQUENCE PERTURBÉE.\n\nDéclenchements provoqués : Dans les versants plein Nord d'altitude (au-dessus de 2600 / 2700m) une rare plaque pourrait subsister localement dans la neige récente, si celle-ci est restée froide (le risque est donc croissant avec l'altitude). Le risque est plus marqué dans les secteurs Meije, Ecrins, Olan où les cumuls de neige récente de ces derniers jours ont été les plus importants. A cette saison le manteau se stabilise toutefois assez rapidement, et ces plaques deviennent souvent difficiles à déclencher. \nDe manière générale, le risque principal sera de faire partir une coulée humide sous les skis dans les pentes raides réchauffées.  \n\nDéparts spontanés : Peu probables la nuit avec le bon regel nocturne, puis au fil de l'ensoleillement, ainsi que sous les cumulus de l'après-midi dans toutes les orientations, quelques avalanches de taille 1 à 2 peuvent se produire dans la neige récente qui s'humidifie. Une rare grande avalanche de taille 3 ne peut être exclue dans les pentes d'altitude où les cumuls de neige récente ont été les plus importants. \n\nAutres : Avec le regel nocturne, les surfaces peuvent être glissantes notamment en tout début de journée (neige croûtée).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est amélioré en altitude avec la couche de neige récente tombée depuis lundi, mais il reste déficitaire sur une bonne partie du massif, notamment aux basses et moyennes altitudes. \n\nLimites skiables : Vers 1800/2000m en Nord à 2200/2500m en versants ensoleillés. \n\nQualité de la neige jeudi :  Regel nocturne souvent correct à bon, avec neige souvent croûtée au lever du jour (sauf aux plus basses altitudes vers le Taillefer où des nuages peuvent traîner assez longtemps dans la nuit). En raide faces Nord sommitales (au dessus de 2700/3000m environ ?), neige temporairement sèche, froide, modérément ventée. En journée, l'humidification reprend au soleil puis sous les cumulus en tous versants, dans la couche de neige récente tombée ces derniers jours qui se réduit parfois rapidement, puis gagne en profondeur dans la vieille neige déjà humidifiée et dense (de type névé par endroits).",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est amélioré en altitude avec la couche de neige récente tombée depuis lundi, mais il reste déficitaire sur une bonne partie du massif, notamment aux basses et moyennes altitudes. \n\nLimites skiables : Vers 1800/2000m en Nord à 2200/2500m en versants ensoleillés. \n\nQualité de la neige vendredi :  Bon regel nocturne, neige croûtée au lever du jour, s'humidifiant rapidement au soleil en journée. En raide faces Nord d'altitudes, on peut encore retrouver de la neige froide, parfois densifiée par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1800,
+        "north": 1900,
         "south": 2000
       },
       "levels_cm": [
@@ -150,12 +150,12 @@
         {
           "alt_m": 2000,
           "N": 25,
-          "S": 3
+          "S": 1
         },
         {
           "alt_m": 2500,
-          "N": 175,
-          "S": 30
+          "N": 180,
+          "S": 35
         }
       ],
       "icon_key": "snowpack",

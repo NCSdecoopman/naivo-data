@@ -3,31 +3,31 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-05-06T16:00:00",
-    "valid_until": "2026-05-07T18:00:00",
+    "issued_at": "2026-05-07T16:00:00",
+    "valid_until": "2026-05-08T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 2400m indice de risque marqué, plus bas indice faible.",
+      "max_level": 2,
+      "comment": "Au-dessus de 2800m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2400,
+        "threshold_m": 2800,
         "split_axis": "horizontal",
-        "split_label": "2400m",
+        "split_label": "2800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2400",
+            "loc": "<2800",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2400",
-            "risk": 3,
+            "loc": ">2800",
+            "risk": 2,
             "evolution_to": null,
             "position": "top"
           }
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2400m"
+          "label": "2800m"
         },
         "zones": {
           "bottom": {
@@ -46,29 +46,29 @@
             "evolution_to": null
           },
           "top": {
-            "text": "3",
-            "risk": 3,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-08",
+        "date": "2026-05-09",
         "label": "Indice de risque limité",
-        "comment": "Ensoleillé en matinée puis quelques averses en fin de journée. Stabilisation du manteau neigeux.",
-        "trend": "down"
+        "comment": "Ensoleillé en matinée puis quelques averses en fin de journée. Poursuite dela stabilisation du manteau neigeux.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
-        "W": true,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -89,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-03",
           "min_cm": 0,
@@ -118,28 +113,33 @@
           "date": "2026-05-07",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-08",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 2
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Instabilités dans la neige récente.",
-      "text": "Instabilités dans la neige récente.\n\nDéparts spontanés :\n* Au-dessus de 2400 m : nombreux départs ponctuels dans la neige fraiche s'humidifiant au soleil, dans les pentes E puis S puis W. Ces départs ponctuels entrainent régulièrement des volumes plus importants, taille 1 (petite) à 2 (moyenne). Au-dessus de 3000 m, les volumes de neige fraiche sont plus importants, générant des avalanches plus volumineuses. Taille 2, rarement 3 (grande).\nFacteur aggravant, entre 2400 et 3000 m en versants E/N/O : un départ en plaque n'est pas exclu lors d'une avalanche en cascade. Cassure de 70 cm à 1 m possible. Taille 2, parfois 3.\n* Rares plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n\nDéclenchements provoqués :\n* Au-dessus de 2400 m : de la neige humide récente peut couler sous les skis et peut dans quelques cas entrainer de plus gros volumes de neige. Taille 1 parfois 2 sous 3000 m, taille 1 souvent 2 au-dessus de 3000 m où les quantités de neige mobilisable sont plus importantes.\n* En dessous de 2400 m : de la neige humide récente peut couler sous les skis. Taille 1 (petite).",
+      "title": "Encore quelques instabilités dans la neige récente.",
+      "text": "Encore quelques instabilités dans la neige récente.\n\nDéparts spontanés :\n* En ubac au-dessus de 2400 m et en tous versants au-dessus de 2800 m : départs ponctuels dans la neige récente encore faiblement humidifiée. Ces départs ponctuels peuvent entrainer des volumes plus importants, taille 1 (petite) à 2 (moyenne).\nFacteur aggravant, entre 2400 et 3000 m en versants E/N/O : un départ en plaque n'est pas exclu lors d'une avalanche en cascade. Cassure de 70 cm à 1 m possible. Taille 2, rarement 3.\n* Rares plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n\nDéclenchements provoqués :\n* En tous versants au-dessus de 2800 m : de la neige récente peut couler sous les skis et peut entrainer de plus gros volumes de neige. Taille 1 à 2. Phénomène également possible à plus basse altitude, jusqu'à 2400 m, mais avec de plus petits volumes. Taille 1, rarement 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est très déficitaire sous 2400 m et déficitaire au-dessus.  \nOn retrouve de la neige récente au-dessus de 2000 m, 20-25 cm au-dessus de 2400 m, jusqu'à 40 cm au-dessus de 3000 m.\nOn peut chausser les skis au-dessus de 2100 m en sud et 1700 m en nord. \n\nQualité de la neige jeudi matin :\n* En dessous de 2400 m, manteau neigeux humide jusqu'en profondeur surmonté d'une fine couche de neige récente également humide. Faible regel en début de journée.\n* Au-dessus de 2400 m, 20-25 cm de neige récente souvent froide ou légèrement humidifiée, reposant sur de la vieille neige, souvent dure.\n* Au-dessus de 3000 m, 40 cm de neige récente, poudreuse voir légèrement ventée proche des crêtes ou sommets. Elle repose sur une couche de neige dure, compactée par le vent.",
+      "text": "Enneigement :\nPour la saison, l’enneigement est très déficitaire sous 2400 m et déficitaire au-dessus.  \nOn retrouve encore de la neige récente tombée ce mercredi au-dessus de 2100/2200 m, 10 cm vers 2400 m, 20-30 cm au-dessus de 2800 m.\nOn peut chausser les skis au-dessus de 2100 m en sud et 1700 m en nord. \n\nQualité de la neige vendredi :\n* En dessous de 2400 m, manteau neigeux humide jusqu'en profondeur, voire neige de névé. Bon regel nocturne. Humidification rapide dans les pentes au soleil.\n* Au-dessus de 2400 m, 10 cm de neige récente reposant sur de la vieille neige, souvent dure. Neige croutée en début de journée, s'humidifiant rapidement avec le soleil.\n* Au-dessus de 2800 m, 20-30 cm de neige récente. Légère s'humidifiant lentement en journée dans les ubacs. Croutée et s'humidifiant au fil du réchauffement par le soleil dans les adrets. Localement ventée à cartonnée proche des crêtes ou sommets.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1700,
-        "south": 2000
+        "south": 1900
       },
       "levels_cm": [
         {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 60,
-          "S": 0
+          "N": 65,
+          "S": 5
         },
         {
           "alt_m": 2500,
-          "N": 170,
-          "S": 100
+          "N": 190,
+          "S": 120
         }
       ],
       "icon_key": "snowpack",

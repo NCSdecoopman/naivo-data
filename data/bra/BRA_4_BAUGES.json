@@ -3,8 +3,8 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-05-06T16:00:00",
-    "valid_until": "2026-05-07T18:00:00",
+    "issued_at": "2026-05-07T16:00:00",
+    "valid_until": "2026-05-08T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-08",
+        "date": "2026-05-09",
         "label": "Indice de risque faible",
-        "comment": "Ensoleillé en matinée puis quelques averses en fin de journée. Pas de nouvelles instabilités.",
+        "comment": "Ensoleillé en matinée puis quelques averses en fin de journée. Poursuite de la fonte du manteau neigeux.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-03",
           "min_cm": 0,
           "max_cm": 0
@@ -105,28 +100,33 @@
           "date": "2026-05-07",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-08",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 2
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "Rares instabilités dans la neige récente.",
-      "text": "Rares instabilités dans la neige récente.\n\nDéparts spontanés : Peu probables au vu du faible enneigement.\n* Rares plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n\nDéclenchements provoqués :\n* Au-dessus de 2000 m : un peu de neige humide peut être poussé par un skieur. Taille 1 (petite).",
+      "text": "Rares instabilités dans la neige récente.\n\nDéparts spontanés : Peu probables au vu du faible enneigement.\n* Rares plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n\nDéclenchements provoqués :\n* Au maximum un peu de neige humide peut être poussé par un skieur, dans les pentes raides fortement humidifiées. Taille 1 (petite).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire à toutes altitudes.\nOn retrouve de la neige récente au-dessus de 2000 m, jusqu'à 10 cm à 2200 m.\nEncore un peu de neige ancienne au-dessus de 1800 m en nord.\n\nQualité de la neige jeudi :\n* Manteau neigeux humide jusqu'en profondeur surmonté d'une fine couche de neige récente également humide au-dessus de 2000 m. Faible regel en début de journée.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire à toutes altitudes.\nEncore un peu de neige au-dessus de 1800 m en nord. Les versants sud sont secs.\n\nQualité de la neige vendredi :\n* À toute altitude, manteau neigeux humide jusqu'en profondeur, voire neige de névé.\n* Bon regel nocturne. Humidification rapide dans les pentes au soleil.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1700,
-        "south": 2200
+        "south": 2000
       },
       "levels_cm": [
         {
@@ -141,7 +141,7 @@
         },
         {
           "alt_m": 2000,
-          "N": 10,
+          "N": 15,
           "S": 0
         }
       ],

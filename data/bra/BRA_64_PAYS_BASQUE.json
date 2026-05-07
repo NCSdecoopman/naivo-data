@@ -3,8 +3,8 @@
   "massif": "Pays-Basque",
   "bulletin": {
     "id": 64,
-    "issued_at": "2026-05-06T16:00:00",
-    "valid_until": "2026-05-07T18:00:00",
+    "issued_at": "2026-05-07T16:00:00",
+    "valid_until": "2026-05-08T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,7 +42,7 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-08",
+        "date": "2026-05-09",
         "label": "Indice de risque faible",
         "comment": "Risque stationnaire.",
         "trend": "steady"
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-03",
           "min_cm": 0,
           "max_cm": 0
@@ -105,22 +100,27 @@
           "date": "2026-05-07",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-08",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 2
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "Peu de neige sur le massif.",
-      "text": "Peu de neige sur le massif.\n\nDéparts spontanés : \nDes départs ponctuels dans la neige humide sont possibles dès la matinée. Un regel matinal devrait limiter le risque tôt le matin, mais il sera présent au fil de la matinée. De petites avalanches sont alors possibles dans les pentes raides des versants au fil de la journée, les quantités de neige étant maintenant faibles sur le massif.\n\nDéclenchements provoqués:\nUn skieur peut éventuellement déclencher difficilement des départs ponctuels dans la neige humide dès la matinée, même si un regel plus ou moins efficace devrait retarder l'activité avalancheuse tôt le matin. De petites avalanches restent possibles dans les pentes raides des versants au fil de la journée.",
+      "text": "Peu de neige sur le massif.\n\nDéparts spontanés : \nDes départs ponctuels dans la neige humide sont possibles dès la matinée. Un regel matinal devrait limiter le risque tôt le matin, mais il sera présent au fil de la matinée. Seulement de petites avalanches sont alors possibles dans les pentes raides des versants au fil de la journée, les quantités de neige étant maintenant faibles sur le massif.\n\nDéclenchements provoqués:\nUn skieur peut éventuellement déclencher difficilement des départs ponctuels dans la neige humide dès la matinée, même si un regel plus ou moins efficace devrait retarder l'activité avalancheuse tôt le matin. De petites avalanches restent possibles dans les pentes raides des versants au fil de la journée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Quelques petits centimètres de neige au-dessus de 1800 à 1900m possibles au petit matin, s'ils n'ont pas été humidifiés dans la nuit. Sinon, manteau neigeux très maigre, sous forme de langues de neige vers La Pierre Saint-Martin, débutant encore vers 1900m en Nord. Rares névés en face nord du pic d'Orhy.\nÉtat de la neige : Quelques petits centimètres éventuels de neige récente au petit matin, sur le haut du massif, sinon neige plus ou moins regelée. Neige s'humidifiant ensuite rapidement en matinée. Quelques averses principalement sous forme de pluie en journée, continuant à humidifier le manteau neigeux.",
+      "text": "Enneigement : Manteau neigeux très maigre, sous forme de langues de neige vers La Pierre Saint-Martin, débutant encore vers 1900m en Nord. Rares névés en face nord du pic d'Orhy.\nÉtat de la neige : Neige plus ou moins regelée au petit matin. Puis, neige s'humidifiant rapidement en matinée. Quelques averses principalement sous forme de pluie en journée, continuant à humidifier le manteau neigeux.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

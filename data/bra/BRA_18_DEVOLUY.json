@@ -3,73 +3,61 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-05-06T16:00:00",
-    "valid_until": "2026-05-07T18:00:00",
+    "issued_at": "2026-05-07T16:00:00",
+    "valid_until": "2026-05-08T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
+      "max_level": 1,
+      "comment": "Indice de risque faible.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2500,
-        "split_axis": "horizontal",
-        "split_label": "2500m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2500",
+            "loc": null,
             "risk": 1,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2500",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2500m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "1",
             "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-05-08",
-        "label": "Indice de risque limité",
-        "comment": "Risque en baisse, poursuite de l'humidification au soleil en journée.",
+        "max_level": 1,
+        "date": "2026-05-09",
+        "label": "Indice de risque faible",
+        "comment": "Maintien d'un risque faible. L'activité en neige humide reste limitée et le manteau neigeux est généralement bien stabilisé.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
-        "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
-        "W": true,
-        "NW": true
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -79,21 +67,15 @@
     },
     "sat": {
       "primary": 4,
-      "secondary": 2,
+      "secondary": null,
       "labels": {
-        "4": "Neige humide",
-        "2": "Neige ventée"
+        "4": "Neige humide"
       },
       "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-03",
           "min_cm": 0,
@@ -118,6 +100,11 @@
           "date": "2026-05-07",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-08",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "REPRISE DE L'HUMIDIFICATION AU SOLEIL, RARES PLAQUES EN HAUTE ALTITUDE",
-      "text": "REPRISE DE L'HUMIDIFICATION AU SOLEIL, RARES PLAQUES EN HAUTE ALTITUDE \n\nDéclenchements provoqués : \n- rares plaques encore en place aux plus hautes altitudes du massif en versants nord raides, peu probables dans les autres orientations, et se stabilisant rapidement au soleil. Elles restent généralement peu étendues et d'épaisseur limitée, provoquant des avalanches par départ linéaire de petite taille.\n- un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis.\n\nDéparts spontanés : quelques départs ponctuels en pentes raides, par humidification de la neige récente au fil de la course du soleil, un rare départ linéaire n'est pas exclu vers 2500/2600 m. Avalanches généralement de petite taille, rare taille moyenne possible vers 2500/2600 m. (taille 1 à 2).",
+      "title": "FAIBLE ACTIVITÉ EN NEIGE HUMIDE",
+      "text": "FAIBLE ACTIVITÉ EN NEIGE HUMIDE\n\nDéclenchements provoqués : \n- Plaques résiduelles en versant nord aux plus hautes altitudes du massif. Avalanches de petite taille uniquement (taille 1). \n- Un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis.\n\nDéparts spontanés : peu probables en tout début de journée après le regel nocturne, puis rares départs ponctuels en pentes raides au fil de l'ensoleillement. Avalanches de petite taille (taille 1), très rarement moyenne (taille 2) au-dessus de 2600 m.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement globalement déficitaire pour la période, mais encore correct dans les pentes nord près des plus hauts sommets.\n\nLimite d'enneigement skiable : très localement vers 1800 m en ubacs sur terrain favorable, 2300/2400 m en adrets.\n\nÉtat de la neige en surface : jeudi matin, la neige récente s'est déjà le plus souvent alourdie, elle est localement restée encore froide au dessus de 2500/2600 m en versant nord. Elle repose sur un manteau neigeux printanier ou de névé.",
+      "text": "Enneigement globalement déficitaire pour la période, mais encore correct dans les pentes nord près des plus hauts sommets.\n\nLimite d'enneigement skiable : très localement vers 1800 m en ubacs sur terrain favorable, 2300/2400 m en adrets.\n\nÉtat de la neige en surface : vendredi matin, neige croûtée en surface s'humidifiant au fil de l'ensoleillement. On peut encore trouver de la neige restée froide au-dessus de 2600/2800 m en versant nord. Sinon, manteau neigeux printanier ou de névé.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +136,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 50,
+          "N": 40,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 150,
-          "S": 50
+          "N": 140,
+          "S": 40
         }
       ],
       "icon_key": "snowpack",

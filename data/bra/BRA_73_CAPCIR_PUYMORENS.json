@@ -3,8 +3,8 @@
   "massif": "Capcir Puymorens",
   "bulletin": {
     "id": 73,
-    "issued_at": "2026-05-06T16:00:00",
-    "valid_until": "2026-05-07T18:00:00",
+    "issued_at": "2026-05-07T15:00:00",
+    "valid_until": "2026-05-08T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-08",
+        "date": "2026-05-09",
         "label": "Indice de risque limité",
-        "comment": "Maintient d'un risque limité en altitude",
+        "comment": "Redoux : maintien d'un risque limité avec baisse du risque accidentel et augmentation du risque naturel.",
         "trend": "steady"
       }
     },
@@ -64,7 +64,7 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
+        "E": false,
         "SE": false,
         "S": false,
         "SW": false,
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-03",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +113,11 @@
           "date": "2026-05-07",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-08",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Neige récente en haute montagne, petites structures instables en formation.",
-      "text": "Neige récente en haute montagne, petites structures instables en formation.\n\nDéclenchements provoqués :\n- Au-dessus de 2400/2500m, petites plaques à vent pouvant potentiellement atteindre 20 à 30 cm d'épaisseur en neige récente dans les secteurs les plus touchés par les averses des jours précédents et de ce mercredi après-midi. Ces chutes de neige se sont produites sous un vent dominant d'un large secteur ouest, mais temporairement aussi sous un vent turbulent, variable en direction et en intensité au gré des passages d'averses. Les secteurs nord-ouest à nord-est, sont les plus susceptibles de recéler ces structures instables. Une couche de grain anguleux a pu se former au contact de la vieille neige faisant office de couche fragile. Ces plaques ne sont pas forcément aisément identifiables, car elles peuvent être recouvertes par une petite couche de neige récente plus régulière.\n- Ces plaques peu épaisses sont facilement déclenchables, au passage d'un simple skieur ou randonneur pouvant le faire chuter mais le risque d'ensevelissement est très faible.\n\n\nDéparts spontanés :\n- Petites avalanches de neige humide en couloirs raides par suite de l'humidification de la neige récente par l'effet du soleil présent a priori au moins en matinée; nombreuses boulettes ou escargots descendant les pente raides. Les pentes Est sont logiquement les pus exposées.\n- Le risque d'avalanche de fond semble réduit avec le retour de conditions plus hivernales en altitude.\n\n\nAutres :\nLes ponts de neige recouvrant les torrents ou pierriers peuvent facilement céder au passage d'un randonneur.",
+      "title": "Neige récente en haute montagne avec quelques plaques peu épaisses.",
+      "text": "Neige récente en haute montagne avec quelques plaques peu épaisses.\n\nDéclenchements provoqués :\n- Au-dessus de 2500m, plaques à vent (maximum 20 à 30 cm d'épaisseur) en neige récente dans les secteurs les plus touchés par les averses des jours précédents et de ce jeudi après-midi. Les secteurs nord-ouest à nord-est, sont les plus susceptibles de recéler ces structures instables. Une couche de grain anguleux faisant office de couche fragile a en effet pu se former au contact de la vieille neige humide. Ces plaques peu épaisses sont facilement déclenchables, au passage d'un simple skieur ou randonneur pouvant le faire chuter mais le risque d'ensevelissement est faible. Ces plaques ne sont pas forcément aisément identifiables, car elles peuvent être recouvertes par une petite couche de neige récente plus régulière. \n\nDéparts spontanés :\n- Petites avalanches de neige humide en couloirs raides par suite de l'humidification de la neige récente par l'effet du soleil présent a priori au moins en matinée; nombreuses boulettes ou escargots descendant les pente raides. Les pentes Est sont logiquement les plus exposées.\n- Le risque d'avalanche de fond semble encore réduit malgré un début de redoux.\n\nAutres :\nLes ponts de neige recouvrant les torrents ou pierriers peuvent facilement céder au passage d'un randonneur.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nL'enneigement dans nos massifs en ce début mai, peut être qualifié de correct par comparaison aux années récentes. En secteur nord, la limite d'altitude de la neige est irrégulière, parfois dès 1600m dans les configurations les plus favorables mais plus généralement vers 1800/1900m dans la plupart des massifs. En gagnant en altitude, on trouve cependant des épaisseurs de neige importante, de l'ordre de 2 à 2,5m vers 2500m avec de très grosses accumulations (congères, corniches) toujours présentes. En sud, le neige est plutôt présente de manière continue à partir de 2200/2300m. Les cols et crêtes ouest à nord-ouest sont toutefois moins garnis en neige et l'enneigement est de moins en moins continu dans les zones de chaos rocheux ou d'éboulis. \nLes averses qui se produisent actuellement les après-midis redonnent par un aspect hivernal dès 2000m, mais la fonte est rapide dès que le soleil se montre.\n\nQualité de la neige :\nAu-dessus de 1800/2000m, la petite couche de neige fraîche déposée par endroits par les averses diurnes s'humidifie très rapidement au soleil. Ce n'est que dans les secteurs les plus ombragés que l'on peut espérer conserver une neige sèche, bien qu'assez dense généralement et contenant possiblement de la neige roulée. Elle repose sur un manteau neigeux très dense et constitué de neige profondément humidifiée, de type névé dans la majeure partie des secteurs. \nCette neige fraîche devient rapidement collante à la moindre humidification.",
+      "text": "Enneigement : \nAprès un mois d'Avril chaud et sec, l'enneigement dans nos massifs en ce début mai, peut être qualifié de correct par comparaison aux années récentes. En secteur nord, la limite d'altitude de la neige est irrégulière, généralement vers 1900m dans la plupart des massifs. En gagnant en altitude, on trouve cependant des épaisseurs de neige importante, de l'ordre de 2 à 2,5m vers 2500m avec de très grosses accumulations (congères, corniches) toujours présentes. En sud, la neige est plutôt présente de manière continue à partir de 2300m environ. Les cols et crêtes ouest à nord-ouest sont toutefois moins garnis en neige et l'enneigement est de moins en moins continu dans les zones de chaos rocheux ou d'éboulis. \nLes averses qui se produisent actuellement les après-midis redonnent par un aspect hivernal dès 2300m, mais la fonte est rapide dès que le soleil se montre.\n\nQualité de la neige :\nAu-dessus de 2200/2300m, la petite couche de neige fraîche déposée par les averses de jeudi s'humidifie très rapidement au soleil. Ce n'est que dans les secteurs les plus ombragés d'altitude que l'on peut espérer conserver une neige sèche, bien qu'assez dense généralement et contenant possiblement de la neige roulée. Elle repose sur un manteau neigeux très dense et constitué de neige profondément humidifiée, de type névé dans la majeure partie des secteurs. \nCette neige fraîche devient rapidement collante à la moindre humidification.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -154,8 +154,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 220,
-          "S": 40
+          "N": 225,
+          "S": 45
         }
       ],
       "icon_key": "snowpack",
