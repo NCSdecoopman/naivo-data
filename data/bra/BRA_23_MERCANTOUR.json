@@ -3,8 +3,8 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-05-07T16:00:00",
-    "valid_until": "2026-05-08T18:00:00",
+    "issued_at": "2026-05-08T16:00:00",
+    "valid_until": "2026-05-09T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-05-09",
-        "label": "Indice de risque faible",
-        "comment": "Maintien d'un risque faible. L'activité en neige humide reste limitée et le manteau neigeux est généralement bien stabilisé.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-05-10",
+        "label": "Indice de risque limité",
+        "comment": "Risque en légère hausse et devenant limité. Les remontées méditerranéennes apportent un peu de neige au-dessus de 2200/2500 m. Des plaques minces peuvent se former.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-04",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-05-08",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-09",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,18 +115,18 @@
     },
     "stability": {
       "title": "FAIBLE ACTIVITÉ EN NEIGE HUMIDE",
-      "text": "FAIBLE ACTIVITÉ EN NEIGE HUMIDE\n\nDéclenchements provoqués : \n- Plaques résiduelles en versant nord aux plus hautes altitudes du massif. Avalanches généralement de petite taille (taille 1), plus rarement moyenne (taille 2) au-dessus de 2600/2800 m. \n- Un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis.\n\nDéparts spontanés : peu probables en tout début de journée après le regel nocturne, puis rares départs ponctuels en pentes raides au fil de l'ensoleillement. Avalanches de petite taille (taille 1), très rarement moyenne (taille 2) au-dessus de 2600 m.",
+      "text": "FAIBLE ACTIVITÉ EN NEIGE HUMIDE\n\nDéclenchements provoqués : un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis.\n\nDéparts spontanés : peu probables en tout début de journée après le regel nocturne, puis rares départs ponctuels en pentes raides au fil de l'ensoleillement. Avalanches de petite taille (taille 1), très rarement moyenne (taille 2) au-dessus de 2600 m.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement très faible pour la période. À la Nivôse de Millefonts, on mesure 59 cm de neige.\n\nLimite d'enneigement skiable : vers 2000/2100 m en ubacs bien protégés ou sur pistes forestières, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : vendredi matin, neige croûtée en surface s'humidifiant au fil de l'ensoleillement. On peut encore trouver de la neige restée froide au-dessus de 2600/2800 m en versant nord. Sinon, manteau neigeux printanier ou de névé.",
+      "text": "Enneigement très faible pour la période. À la Nivôse de Millefonts, on mesure 56 cm de neige.\n\nLimite d'enneigement skiable : vers 2000/2100 m en ubacs bien protégés ou sur pistes forestières, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : samedi matin, neige croûtée en surface s'humidifiant au fil de l'ensoleillement. Manteau neigeux printanier ou de névé.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 2100,
-        "south": 2200
+        "north": 2200,
+        "south": 2400
       },
       "levels_cm": [
         {
@@ -141,8 +141,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 90,
-          "S": 25
+          "N": 80,
+          "S": 15
         }
       ],
       "icon_key": "snowpack",

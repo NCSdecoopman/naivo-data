@@ -3,30 +3,30 @@
   "massif": "Vanoise",
   "bulletin": {
     "id": 10,
-    "issued_at": "2026-05-07T16:00:00",
-    "valid_until": "2026-05-08T18:00:00",
+    "issued_at": "2026-05-08T16:00:00",
+    "valid_until": "2026-05-09T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2700m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2800m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2700,
+        "threshold_m": 2800,
         "split_axis": "horizontal",
-        "split_label": "2700m",
+        "split_label": "2800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2700",
+            "loc": "<2800",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2700",
+            "loc": ">2800",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2700m"
+          "label": "2800m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-09",
+        "date": "2026-05-10",
         "label": "Indice de risque limité",
-        "comment": "Risque stationnaire, voire en légère baisse en altitude. Temps printanier, très rares averses.",
+        "comment": "Dégradation de Sud avec neige au-dessus de 2500/2700 m. Risque en légère hausse du à l'activité en neige humide sous la pluie et à la formation de potentielles instabilités par les nouvelles chutes.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-04",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +113,11 @@
           "date": "2026-05-08",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-09",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -133,13 +133,13 @@
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent, semble commencer à un peu mieux s'enneiger.\n\nLimite skiable : vers 1900/2000 m en nord, 2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : sous 2400 m, neige de névé, dense toute la journée sauf aux abords des rochers/végétations où elle est croutée pourrie cédant facilement. Plus haut, neige récente croutée et s'humidifiant. Il faut monter au-dessus de 2700 m en nord raide pour trouver un peu de neige récente restée froide (non croutée). On trouve alors 15/25 cm vers 2800/3000 m, plus légère en surface, donc très agréable à skier.",
+      "text": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent, semble commencer à un peu mieux s'enneiger.\n\nLimite skiable : vers 1900/2000 m en nord, 2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : sous 2600 m, neige de névé, dense toute la journée sauf aux abords des rochers/végétations où elle est croutée pourrie cédant facilement. Plus haut, neige récente croutée et s'humidifiant. Il faut monter au-dessus de 2800 m en nord raide pour trouver un peu de neige récente restée froide (non croutée). On trouve alors 20/40 cm vers 2800/3000 m, plus légère en surface, donc très agréable à skier.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1900,
-        "south": 2300
+        "south": 2400
       },
       "levels_cm": [
         {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 10,
+          "N": 5,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 105,
-          "S": 35
+          "N": 100,
+          "S": 30
         }
       ],
       "icon_key": "snowpack",

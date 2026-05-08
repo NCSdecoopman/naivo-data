@@ -3,66 +3,54 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-05-07T16:00:00",
-    "valid_until": "2026-05-08T18:00:00",
+    "issued_at": "2026-05-08T16:00:00",
+    "valid_until": "2026-05-09T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2700m indice de risque limité, plus bas indice faible.",
+      "max_level": 1,
+      "comment": "Indice de risque faible.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2700,
-        "split_axis": "horizontal",
-        "split_label": "2700m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2700",
+            "loc": null,
             "risk": 1,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2700",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2700m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "1",
             "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-05-09",
-        "label": "Indice de risque faible",
-        "comment": "Samedi, belle matinée, puis des cumulus bourgeonnent l'après-midi, donnant éventuellement une ondée localisée. Le manteau poursuit sa stabilisation, avec un risque en baisse, devenant faible.",
-        "trend": "down"
+        "max_level": 2,
+        "date": "2026-05-10",
+        "label": "Indice de risque limité",
+        "comment": "Dimanche, temps pluvieux en matinée, chutes de neige au-dessus de 2500m. Eclaircies en milieu de journée, puis averses orageuses el'après-midi. Le risque pourrait être en légère hausse sous la pluie vers 2500m, ainsi qu'en altitude selon les cumuls.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
+        "N": false,
         "NE": false,
         "E": false,
         "SE": false,
@@ -79,21 +67,15 @@
     },
     "sat": {
       "primary": 4,
-      "secondary": 1,
+      "secondary": null,
       "labels": {
-        "4": "Neige humide",
-        "1": "Neige fraîche"
+        "4": "Neige humide"
       },
       "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-04",
           "min_cm": 0,
@@ -118,6 +100,11 @@
           "date": "2026-05-08",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-09",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,19 +114,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "POURSUITE DE L'HUMIDIFICATION APRÈS LA SÉQUENCE PERTURBÉE. ÉVENTUELLEMENT VERS LES SOMMETS, UNE TRÈS RARE PLAQUE PEU ÉPAISSE NON EXCLUE.",
-      "text": "POURSUITE DE L'HUMIDIFICATION APRÈS LA SÉQUENCE PERTURBÉE. ÉVENTUELLEMENT VERS LES SOMMETS, UNE TRÈS RARE PLAQUE PEU ÉPAISSE NON EXCLUE.\n\nDéparts spontanés : Vendredi des coulées de tailles petites à moyennes restent possibles dans les versants ensoleillés (ou dans les cumulus l'après-midi) avec la poursuite de l'humidification de la neige récente. Elles deviennent toutefois assez rares, la plupart des pentes ayant déjà purgées ces derniers jours. \n\nDéclenchements provoqués : Dans les versants plein Nord d'altitude ( au-dessus de 2600 / 2700m) une rare plaque pourrait subsister localement dans la neige récente, si celle-ci est restée froide. Le plus souvent souvent d'épaisseur très limitée, et devenant difficiles à déclencher par un pratiquant. \nEn pente réchauffée, le risque principal sera de faire partir une coulée humide sous les skis en pente raide. \n\nAutres : Avec le regel nocturne, les surfaces peuvent être glissantes notamment en tout début de journée (neige croûtée).",
+      "title": "NEIGE STABLE, EVENTUELLEMENT UNE RARE COULEE HUMIDE DANS LA NEIGE RECENTE",
+      "text": "NEIGE STABLE, EVENTUELLEMENT UNE RARE COULEE HUMIDE DANS LA NEIGE RECENTE \n\nDéparts spontanés : Peu probables, ou une rare coulée humide (taille petite à moyenne) dans la neige récente qui serait resté froide jusqu'ici, donc plutôt en Nord au-dessus de 2800m. \n\nDéclenchements provoqués : Pas de risque de plaques, la neige récente s'étant bien stabilisée sous le soleil. En pente réchauffée, le risque principal sera de faire partir une coulée humide sous les skis en pente raide.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement s'est temporairement amélioré en altitude avec la couche de neige récente tombée depuis lundi, mais il reste généralement déficitaire sur une bonne partie du massif, notamment aux basses et moyennes altitudes.\n\nLimites skiables : Vers 1600/1900m en Nord à 2100/2400m en versants ensoleillés. \n\nQualité de la neige vendredi :  Bon regel nocturne, neige souvent croûtée au lever du jour. En journée, l'humidification reprend au soleil puis sous les cumulus en tous versants, dans la couche de neige récente tombée ces derniers jours qui se réduit parfois rapidement, puis gagne en profondeur dans la vieille neige déjà humidifiée et dense (de type névé par endroits). Une pente plein Nord au-dessus de 2700m pourrait encore être en neige froide.",
+      "text": "Qualification de l’enneigement :  L'enneigement s'est temporairement amélioré en altitude avec la couche de neige récente tombée depuis lundi, mais il reste généralement déficitaire sur une bonne partie du massif, notamment aux basses et moyennes altitudes.\n\nLimites skiables : Vers 1600/1900m en Nord à 2100/2400m en versants ensoleillés. \n\nQualité de la neige samedi :  Regel nocturne médiocre sous 2600m environ, correct plus haut. En journée, forte humidification au soleil puis sous les cumulus en tout versants.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1900,
-        "south": 2000
+        "south": 2200
       },
       "levels_cm": [
         {
@@ -149,13 +136,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 100,
-          "S": 1
+          "N": 95,
+          "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 200,
-          "S": 60
+          "N": 195,
+          "S": 55
         }
       ],
       "icon_key": "snowpack",

@@ -3,14 +3,14 @@
   "massif": "Haute-Ariege",
   "bulletin": {
     "id": 70,
-    "issued_at": "2026-05-07T15:00:00",
-    "valid_until": "2026-05-08T18:00:00",
+    "issued_at": "2026-05-08T16:00:00",
+    "valid_until": "2026-05-09T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2500m indice de risque faible évoluant en limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2500,
@@ -27,8 +27,8 @@
           {
             "id": "zone2",
             "loc": ">2500",
-            "risk": 2,
-            "evolution_to": null,
+            "risk": 1,
+            "evolution_to": 2,
             "position": "top"
           }
         ]
@@ -46,17 +46,17 @@
             "evolution_to": null
           },
           "top": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
+            "text": "1→2",
+            "risk": 1,
+            "evolution_to": 2
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-09",
+        "date": "2026-05-10",
         "label": "Indice de risque limité",
-        "comment": "Redoux : maintien d'un risque limité avec baisse du risque accidentel et augmentation du risque naturel.",
+        "comment": "Peu de changements, maintien du risque limité en altitude.",
         "trend": "steady"
       }
     },
@@ -78,22 +78,16 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
         "4": "Neige humide"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-04",
           "min_cm": 0,
@@ -118,6 +112,11 @@
           "date": "2026-05-08",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-09",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +126,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Neige récente en haute montagne avec quelques plaques peu épaisses.",
-      "text": "Neige récente en haute montagne avec quelques plaques peu épaisses.\n\nDéclenchements provoqués :\n- Au-dessus de 2500m, plaques à vent (maximum 20 à 30 cm d'épaisseur) en neige récente dans les secteurs les plus touchés par les averses des jours précédents et de ce jeudi après-midi. Les secteurs nord-ouest à nord-est, sont les plus susceptibles de recéler ces structures instables. Une couche de grain anguleux faisant office de couche fragile a en effet pu se former au contact de la vieille neige humide. Ces plaques peu épaisses sont facilement déclenchables, au passage d'un simple skieur ou randonneur pouvant le faire chuter mais le risque d'ensevelissement est faible. Ces plaques ne sont pas forcément aisément identifiables, car elles peuvent être recouvertes par une petite couche de neige récente plus régulière. \n\nDéparts spontanés :\n- Petites avalanches de neige humide en couloirs raides par suite de l'humidification de la neige récente par l'effet du soleil présent a priori au moins en matinée; nombreuses boulettes ou escargots descendant les pente raides. Les pentes Est sont logiquement les plus exposées.\n- Le risque d'avalanche de fond semble encore réduit malgré un début de redoux.\n\nAutres :\nLes ponts de neige recouvrant les torrents ou pierriers peuvent facilement céder au passage d'un randonneur.",
+      "title": "Redoux avec humidification de la neige récente tombée en altitude",
+      "text": "Redoux avec humidification de la neige récente tombée en altitude\n\nDéparts spontanés :\n- Dans les secteurs où la neige tombée depuis le début de la semaine est encore présente, (donc plutôt en secteurs nord et au dessus de 2500m), on attend des départs d'avalanches de neige humide. Peu probables en début de journée avec un bon regel nocturne, ils commenceront à se produire rapidement dans les pentes réchauffées par le soleil de Mai. Ils donneront des avalanches de taille petite à rarement moyenne dans une pente plus chargée. \n- Le risque d'avalanche de fond semble faible mais n'est pas totalement exclu sur des dalles rocheuses lisses de haute montagne. De nombreuses fissures sont en effet observables dans le manteau neigeux et l'épaisseur est encore localement conséquente.  \n\nDéclenchements provoqués :\n- Un skieur risque de déclencher une avalanche en coupant une pente en neige récente humidifiée. De petite taille, elle pourra le faire éventuellement chuter.\n\nAutres :\nLes ponts de neige recouvrant les torrents ou pierriers peuvent facilement céder au passage d'un randonneur.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nAprès un mois d'Avril chaud et sec, l'enneigement  dans nos massifs en ce début mai, peut être qualifié de correct par comparaison aux années récentes. En secteur nord, la limite d'altitude de la neige est irrégulière, parfois dès 1600/1700m dans les configurations les plus favorables mais plus généralement vers 1800/1900m dans la plupart des massifs. En gagnant en altitude, on trouve cependant des épaisseurs de neige importante, de l'ordre de 2 à 2,5m vers 2500m avec de très grosses accumulations (congères, corniches) toujours présentes. En sud, la neige est plutôt présente de manière continue à partir de 2200/2300m. Les cols et crêtes ouest à nord-ouest sont toutefois moins garnis en neige et l'enneigement est de moins en moins continu dans les zones de chaos rocheux ou d'éboulis. \nLes averses qui se produisent actuellement les après-midis redonnent par un aspect hivernal dès 2300m, mais la fonte est rapide dès que le soleil se montre.\n\nQualité de la neige :\nAu-dessus de 2200/2300m, la petite couche de neige fraîche déposée par les averses de jeudi s'humidifie très rapidement au soleil. Ce n'est que dans les secteurs les plus ombragés d'altitude que l'on peut espérer conserver une neige sèche, bien qu'assez dense généralement et contenant possiblement de la neige roulée. Elle repose sur un manteau neigeux très dense et constitué de neige profondément humidifiée, de type névé dans la majeure partie des secteurs. \nCette neige fraîche devient rapidement collante à la moindre humidification.",
+      "text": "Enneigement : \nAprès un mois d'Avril chaud et sec, l'enneigement dans nos massifs en ce début mai, peut être qualifié de correct par comparaison aux années récentes. En secteur nord, la limite d'altitude de la neige est irrégulière, parfois dès 1600/1700m dans les configurations les plus favorables mais plus généralement vers 1800/1900m dans la plupart des massifs. En gagnant en altitude, on trouve cependant des épaisseurs de neige importante, de l'ordre de 2 à 2,5m vers 2500m avec de grosses accumulations (congères, corniches) toujours présentes. En sud, la neige est plutôt présente de manière continue à partir de 2200/2300m. Les cols et crêtes ouest à nord-ouest sont toutefois moins garnis en neige et l'enneigement est de moins en moins continu dans les zones de chaos rocheux ou d'éboulis. \nLes averses qui se sont produisent depuis le début de semaine ont redonné un aspect plus hivernal en altitude, mais la fonte est rapide dès que le soleil se montre.\n\nQualité de la neige :\nAux premières heures du jour, on peut espérer un bon regel après une nuit claire. \nEn dessous de 2500m, la neige est principalement ancienne, très dense, de type névé, souvent de couleur ocre avec des poussières désertiques en surface. En altitude, s'y ajoute une petite couche de neige fraîche déposée par les averses des jours précédents, couche qui s'humidifie très rapidement au soleil.\n.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

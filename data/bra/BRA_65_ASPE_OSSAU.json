@@ -3,30 +3,30 @@
   "massif": "Aspe Ossau",
   "bulletin": {
     "id": 65,
-    "issued_at": "2026-05-07T16:00:00",
-    "valid_until": "2026-05-08T18:00:00",
+    "issued_at": "2026-05-08T16:00:00",
+    "valid_until": "2026-05-09T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2400m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2400,
+        "threshold_m": 2500,
         "split_axis": "horizontal",
-        "split_label": "2400m",
+        "split_label": "2500m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2400",
+            "loc": "<2500",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2400",
+            "loc": ">2500",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2400m"
+          "label": "2500m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-09",
+        "date": "2026-05-10",
         "label": "Indice de risque limité",
-        "comment": "Maintien d'un risque limité. Encore de la douceur, un peu de neige en altitude, humidfication plus importante partout ailleurs.",
+        "comment": "Stationnaires.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-04",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +113,11 @@
           "date": "2026-05-08",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-09",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -128,12 +128,12 @@
     },
     "stability": {
       "title": "Plaques peu épaisses en altitude, humidification ailleurs.",
-      "text": "Plaques peu épaisses en altitude, humidification ailleurs.\n\nDéclenchements provoqués : \n- Au-dessus de 2400 à 2500m, quelques plaques à vent peu épaisses se forment sous les averses de l'après-midi dans les pentes raides des versants allant principalement du Nord-Ouest au Nord-Est, sous l'effet du vent de sud à sud-ouest. Elles reposent sur de fines couches de neige récentes, elles-mêmes se trouvant sur de fines plaques plus anciennes. Elles restent facilement déclenchables par un simple skieur et leur sollicitation peut engendrer principalement de petites avalanches, plus rarement moyennes.\n- Partout ailleurs, un skieur peut déclencher des départs ponctuels dans la neige humide dès la matinée même si un regel plus ou moins efficace devrait retarder l'activité avalancheuse tôt le matin. De petites avalanches sont attendues dans les pentes raides des versants au fil de la journée, plus rarement des moyennes.\n\nDéparts spontanés :\n- Au-dessus de 2400 à 2500m, des départs ponctuels de plaques décrites ci-dessus restent possibles, par surcharge par le vent, engendrant principalement de petites avalanches, rarement des moyennes.\n- Partout ailleurs, des départs ponctuels dans la neige humide de petites tailles sont possibles dès la matinée, plus rarement de taille moyenne, dans les pentes raides des versants au fil de la journée. Un regel plus ou moins efficace devrait limiter l'activité avalancheuse tôt le matin. Des avalanches de fond restent possibles, emportant l'ensemble du manteau neigeux, près des fissures en place et des reptations. De petites avalanches à parfois moyennes restent possibles, plus rarement des grandes avec un départ au-dessus de 2400m surtout dans les versants allant du Nord-Ouest au Nord-Est.",
+      "text": "Plaques peu épaisses en altitude, humidification ailleurs.\n\nDéclenchements provoqués : \n- Au-dessus de 2400 à 2500m, et surtout sur les hauts sommets au-delà de 2800 m,  empilement de petites couches de neige récente à la faveur des averses de ces derniers jours. Possibilité localisée de structures de plaques pouvant localement être déclenchées par un skieur. \nLes volumes mobilisés sont modestes, mais peuvent tout de même constituer un danger dans des configurations topographiques défavorables ( barres rocheuses, goulet, etc...)\nobservable : neige récente ventée et supérieure à 20 cm d'épaisseur. \n\nDéparts spontanés :\n- Au-dessus de 2400 à 2500m,  départs naturels dans les couloirs de haute montagne mobilisant la neige récente tombée sous les averses. Le léger redoux attendu contribue en effet à l'humidification rapide de cette couche en surface, favorisant des écoulements dans les pentes raides. \n- Partout ailleurs, un départ en avalanches de glissement mobilisant tout le manteau neigeux reste possible, mais rare et peu probable compte tenu de la densité très forte de ce dernier, et des terrains concernés souvent rocheux et peu propices à ce type de phénomène",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Déficitaire, mais encore correct pour la saison au-dessus de 2300 m, débutant encore en nord vers 1900m. Un saupoudrage de neige fraîche, parfois quelques petits centimètres sont possibles au petit matin vers 2100/2200m.\nÉtat de la neige : Quelques petits centimètres de neige récente au-dessus de 2100/2200m au petit matin, potentiellement déjà humidifiés dans la nuit, mais neige parfois bien regelée le matin. Neige travaillée par le vent dans les secteurs ombragés d'altitude au-dessus de 2400m (des versants allant du Nord-Ouest au Nord-Est). Partout ailleurs, la neige s'humidifie rapidement dans la matinée puis au fil de la journée, reposant sur un sol ou un manteau neigeux très dense, déjà bien humidifié. Quelques petits centimètres de neige fraîche dès 2200/2300m en journée.",
+      "text": "Enneigement : Déficitaire, mais encore correct pour la saison au-dessus de 2300 m, débutant encore en nord vers 1900/1950 m dans les bonnes configurations.\nÉtat de la neige : Quelques centimètres de neige récente au-delà de 2500 m, déjà humidifiée la plupart du temps sauf en très haute montagne et dans les pentes les plus à l'ombre. Plus bas, ancien manteau neigeux compact de type névé. Regel superficiel en surface au petit matin, vite oublié dès les premières heures du jour.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,7 +149,7 @@
         },
         {
           "alt_m": 2000,
-          "N": 30,
+          "N": 25,
           "S": 0
         },
         {
