@@ -3,73 +3,61 @@
   "massif": "Couserans",
   "bulletin": {
     "id": 69,
-    "issued_at": "2026-05-08T16:00:00",
-    "valid_until": "2026-05-09T18:00:00",
+    "issued_at": "2026-05-09T16:00:00",
+    "valid_until": "2026-05-10T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2500m indice de risque faible évoluant en limité, plus bas indice faible.",
+      "max_level": 1,
+      "comment": "Indice de risque faible.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2500,
-        "split_axis": "horizontal",
-        "split_label": "2500m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2500",
+            "loc": null,
             "risk": 1,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2500",
-            "risk": 1,
-            "evolution_to": 2,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2500m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "1",
             "risk": 1,
             "evolution_to": null
-          },
-          "top": {
-            "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-05-10",
-        "label": "Indice de risque limité",
-        "comment": "Peu de changements, maintien du risque limité en altitude.",
+        "max_level": 1,
+        "date": "2026-05-11",
+        "label": "Indice de risque faible",
+        "comment": "Peu d'évolution. Averses orageuses en après-midi.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
+        "N": false,
+        "NE": false,
         "E": false,
         "SE": false,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -88,11 +76,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-04",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-05",
           "min_cm": 0,
@@ -117,6 +100,11 @@
           "date": "2026-05-09",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-10",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Redoux avec humidification de la neige récente tombée en altitude",
-      "text": "Redoux avec humidification de la neige récente tombée en altitude\n\nDéparts spontanés :\n- Dans les secteurs où la neige tombée depuis le début de la semaine est encore présente, (donc plutôt en secteurs nord et au dessus de 2500m), on attend des départs d'avalanches de neige humide. Peu probables en début de journée avec un bon regel nocturne, ils commenceront à se produire rapidement dans les pentes réchauffées par le soleil de Mai. Ils donneront des avalanches de taille petite à rarement moyenne dans une pente plus chargée. \n- Le risque d'avalanche de fond semble faible mais n'est pas totalement exclu sur des dalles rocheuses lisses de haute montagne. De nombreuses fissures sont en effet observables dans le manteau neigeux et l'épaisseur est encore localement conséquente.  \n\nDéclenchements provoqués :\n- Un skieur risque de déclencher une avalanche en coupant une pente en neige récente humidifiée. De petite taille, elle pourra le faire éventuellement chuter.\n\nAutres :\nLes ponts de neige recouvrant les torrents ou pierriers peuvent facilement céder au passage d'un randonneur.",
+      "title": "Manteau neigeux généralement bien stabilisé.",
+      "text": "Manteau neigeux généralement bien stabilisé.\n\nDéparts spontanés :\n-  en neige humide : de rares départs ponctuels sont possibles dès le début de journée (regel inefficace), donnant des avalanches de taille 1 (petite).\n- avalanches de fond :  très rares. Le risque n'est pas totalement exclus à toute heure du jour ou de la nuit. En effet, de nombreuses fissures sont observables dans le manteau neigeux dont l'épaisseur est encore conséquente par endroits. Taille 1 à 2 (petite à moyenne).\n\nDéclenchements provoqués :\n- en neige humide : un skieur peut éventuellement déclencher une avalanche de taille 1 (petite) en coupant une pente en neige récente humidifiée, ce qui peut le faire chuter.\n\nAutres :\nLes ponts de neige recouvrant les torrents ou pierriers peuvent facilement céder au passage d'un randonneur.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nAprès un mois d'Avril chaud et sec, l'enneigement dans nos massifs en ce début mai, peut être qualifié de correct par comparaison aux années récentes. En secteur nord, la limite d'altitude de la neige est irrégulière, parfois dès 1600/1700m dans les configurations les plus favorables mais plus généralement vers 1800/1900m dans la plupart des massifs. En gagnant en altitude, on trouve cependant des épaisseurs de neige importante, de l'ordre de 2 à 2,5m vers 2500m avec de grosses accumulations (congères, corniches) toujours présentes. En sud, la neige est plutôt présente de manière continue à partir de 2200/2300m. Les cols et crêtes ouest à nord-ouest sont toutefois moins garnis en neige et l'enneigement est de moins en moins continu dans les zones de chaos rocheux ou d'éboulis. \nLes averses qui se sont produisent depuis le début de semaine ont redonné un aspect plus hivernal en altitude, mais la fonte est rapide dès que le soleil se montre.\n\nQualité de la neige :\nAux premières heures du jour, on peut espérer un bon regel après une nuit claire. \nEn dessous de 2500m, la neige est principalement ancienne, très dense, de type névé, souvent de couleur ocre avec des poussières désertiques en surface. En altitude, s'y ajoute une petite couche de neige fraîche déposée par les averses des jours précédents, couche qui s'humidifie très rapidement au soleil.\n.",
+      "text": "Enneigement : \nAprès ce mois d'avril chaud et sec, l'enneigement de nos massifs est correct par rapport aux normales. \nEn nord, la limite d'altitude de la neige est irrégulière, parfois dès 1600/1700m dans les configurations les plus favorables, plus généralement vers 1800/1900m. Plus haut, on trouve encore de belles accumulations de neige (entre 2 et 2,5m vers 2500m) et d'épaisses corniches. \nEn sud, la neige est présente de manière continue à partir de 2200/2300m. Les cols et crêtes ouest à nord-ouest sont moins garnis en neige.\n\nQualité de la neige :\nLe regel est quasiment inexistant en ce dimanche matin.\nEn dessous de 2500m, la neige est ancienne, très dense, de type névé, souvent de couleur ocre avec des poussières désertiques en surface. En altitude, s'y ajoute une petite couche de neige récente et moins dense déposée par les récentes averse, moins dense mais déjà humidifiée au lever du jour.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

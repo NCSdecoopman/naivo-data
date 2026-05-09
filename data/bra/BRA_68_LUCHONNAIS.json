@@ -3,73 +3,61 @@
   "massif": "Luchonnais",
   "bulletin": {
     "id": 68,
-    "issued_at": "2026-05-08T16:00:00",
-    "valid_until": "2026-05-09T18:00:00",
+    "issued_at": "2026-05-09T16:00:00",
+    "valid_until": "2026-05-10T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
+      "max_level": 1,
+      "comment": "Indice de risque faible.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2500,
-        "split_axis": "horizontal",
-        "split_label": "2500m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2500",
+            "loc": null,
             "risk": 1,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2500",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2500m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "1",
             "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-05-10",
-        "label": "Indice de risque limité",
-        "comment": "Stationnaires.",
+        "max_level": 1,
+        "date": "2026-05-11",
+        "label": "Indice de risque faible",
+        "comment": "Situation similaire.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
+        "N": false,
+        "NE": false,
         "E": false,
         "SE": false,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -78,22 +66,16 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
         "4": "Neige humide"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-04",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-05",
           "min_cm": 0,
@@ -118,6 +100,11 @@
           "date": "2026-05-09",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-10",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Plaques peu épaisses en altitude, humidification ailleurs.",
-      "text": "Plaques peu épaisses en altitude, humidification ailleurs.\n\nDéclenchements provoqués : \n- Au-dessus de 2400 à 2500m, et surtout sur les hauts sommets au-delà de 2800 m,  empilement de petites couches de neige récente à la faveur des averses de ces derniers jours. Possibilité localisée de structures de plaques pouvant localement être déclenchées par un skieur. \nLes volumes mobilisés sont modestes, mais peuvent tout de même constituer un danger dans des configurations topographiques défavorables (barres rocheuses, goulet, etc...)\nobservable : neige récente ventée et supérieure à 20 cm d'épaisseur. ( secteur frontalier essentiellement)\n\nDéparts spontanés :\n- Au-dessus de 2400 à 2500m,  départs naturels dans les couloirs de haute montagne mobilisant la neige récente tombée sous les averses. Le léger redoux attendu contribue en effet à l'humidification rapide de cette couche en surface, favorisant des écoulements dans les pentes raides. \n- Partout ailleurs, un départ en avalanches de glissement mobilisant tout le manteau neigeux reste possible, mais rare et peu probable compte tenu de la densité très forte de ce dernier, et des terrains concernés souvent rocheux et peu propices à ce type de phénomène",
+      "title": "RARES COULÉES DE NEIGE LOURDE",
+      "text": "RARES COULÉES DE NEIGE LOURDE\n\nDéclenchements provoqués : \nLes fines structures de plaques qui pouvaient encore rester dans les pentes ombragées au-dessus de 2500 m se sont humidifiés par le redoux, et sont donc difficilement déclenchables. \nD'autre part, un skieur coupant une pente raide, déjà bien humidifiée pourra favoriser un départ ponctuel de taille petite sur quelques dizaines de mètres.\n\nDéparts spontanés :\n- Au-dessus de 2400 à 2500m,  des coulées ou des petites avalanches ponctuelles sont possibles dans les couloirs raides de haute montagne, mobilisant la neige récente tombée sous les averses. Le léger redoux attendu, contribue à l'humidification rapide de cette couche en surface. Les coulées peuvent se produire dès le matin, sous l'ensoleillement, et partant souvent près des rochers. \n- Partout ailleurs, un départ en avalanches de glissement mobilisant tout le manteau neigeux reste possible, mais rare et peu probable compte tenu de la densité très forte de ce dernier, et des terrains concernés souvent rocheux et peu propices à ce type de phénomène",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Déficitaire, mais encore correct pour la saison au-dessus de 2300 m, débutant encore en nord vers 1900/1950 m dans les bonnes configurations.\nÉtat de la neige : Quelques centimètres de neige récente au-delà de 2500 m, déjà humidifiée la plupart du temps sauf en très haute montagne et dans les pentes les plus à l'ombre. Plus bas, ancien manteau neigeux compact de type névé. Regel superficiel en surface au petit matin, vite oublié dès les premières heures du jour.",
+      "text": "Enneigement : Déficitaire, mais encore correct pour la saison au-dessus de 2300 m, débutant encore en nord vers 2000 m dans les bonnes configurations.\nÉtat de la neige : Neige souvent durcie au petit matin (ou légèrement croûté en très haute montagne et dans les pentes les plus à l'ombre), mais rapidement ramollie suivant la course du soleil. Sous les averses de l'après-midi, un petit blanchissement est possible au-dessus de 2400 m, mais cette neige s'humidifie rapidement au contact d'un manteau neigeux gorgé d'eau.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,13 +136,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 10,
+          "N": 5,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 150,
-          "S": 15
+          "N": 145,
+          "S": 10
         }
       ],
       "icon_key": "snowpack",
