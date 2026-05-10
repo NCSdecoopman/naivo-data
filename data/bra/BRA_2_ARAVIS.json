@@ -3,56 +3,68 @@
   "massif": "Aravis",
   "bulletin": {
     "id": 2,
-    "issued_at": "2026-05-09T16:00:00",
-    "valid_until": "2026-05-10T18:00:00",
+    "issued_at": "2026-05-10T16:00:00",
+    "valid_until": "2026-05-11T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 1,
-      "comment": "Indice de risque faible.",
+      "max_level": 2,
+      "comment": "Au-dessus de 2300m indice de risque limité, plus bas indice faible.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2300,
+        "split_axis": "horizontal",
+        "split_label": "2300m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2300",
             "risk": 1,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2300",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2300m"
         },
         "zones": {
-          "center": {
+          "bottom": {
             "text": "1",
             "risk": 1,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-11",
+        "date": "2026-05-12",
         "label": "Indice de risque limité",
-        "comment": "Lundi : temps couvert et précipitations (10/20 cm sur les plus hauts sommets). Limite pluie neige vers 2000/2200 m. \n⇒ formation de rares plaques dans la neige fraîche au-dessus de 2400 m.",
-        "trend": "up"
+        "comment": "Mardi : précipitations dans la nuit (10/15 cm de neige supplémentaires). Amélioration en journée\n⇒ rares plaques dans la neige fraîche et départs naturels avec humidification de la neige fraîche en journée au soleil",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
+        "E": true,
         "SE": false,
         "S": false,
         "SW": false,
@@ -66,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": 5,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
-        "4": "Neige humide",
-        "5": "Avalanche de fond"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-05",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-06",
           "min_cm": 0,
@@ -106,6 +113,11 @@
           "date": "2026-05-10",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-11",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,19 +127,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux printannier",
-      "text": "Manteau neigeux printannier\n\nDéparts spontanés : \n* rares avalanches de neige humide, en particulier sous les plus fortes averses. Taille 1 à 2 (petite à moyenne). \n* rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 1 à 2 (petite à moyenne). \n\nDéclenchements provoqués : \n* de la neige humide peu couler sous les skis. Taille 1 (petite).",
+      "title": "Episode neigeux",
+      "text": "Episode neigeux\n\nDéclenchements provoqués : \n* rares plaques dans la neige fraîche, particulièrement dans les versants est et nord, au-dessus de 2300 m et d'autant plus en montant en altitude.  Facile à déclencher. Au fil des chutes de neige, ces plaques sont un peu plus nombreuses et épaisses.Taille 1 (petite) puis 2 (moyenne).\n* de la neige humide peu couler sous les skis, sous 2300 m. Taille 1 (petite). \n\nDéparts spontanés : \n* quelques avalanches de neige fraîche l'après-midi sous une éclaircie, près des rochers ou dans les falaises, au-dessus de 2300 m. Taille 1 (petite).\n* rares avalanches de neige humide, en particulier sous les plus fortes averses (en dessous de 2300 m). Taille 1 (petite). \n* rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 1 à 2 (petite à moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2400 m et déficitaire en dessous. \nOn peut chausser les skis au-dessus de 2300 m en sud et 1900 m en nord. \n\nQualité de la neige ce dimanche matin : \nSous 2400 m, neige de névé avec sans regel nocturne\nAu-dessus de 2400 m, neige de printemps avec peu ou pas de regel nocturne.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2400 m et déficitaire en dessous. \nOn peut chausser les skis au-dessus de 2300 m en sud et 1900 m en nord. \n\nQualité de la neige ce lundi matin : \nSous 2300 m, neige de névé avec sans regel nocturne\nAu-dessus de 2300 m, 3/7 cm de neige fraîche reposant sur de la vielle neige humide. Au fil de la journée, la quantité de neige fraiche augmente (cf aperçu météo).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1800,
-        "south": 2100
+        "north": 1900,
+        "south": 2200
       },
       "levels_cm": [
         {
@@ -142,7 +154,7 @@
         },
         {
           "alt_m": 2000,
-          "N": 55,
+          "N": 45,
           "S": 0
         }
       ],

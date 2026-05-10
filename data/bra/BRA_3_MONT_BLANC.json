@@ -3,14 +3,14 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-05-09T16:00:00",
-    "valid_until": "2026-05-10T18:00:00",
+    "issued_at": "2026-05-10T16:00:00",
+    "valid_until": "2026-05-11T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2800m indice de risque limité, plus bas indice faible.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2800m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2800,
@@ -20,14 +20,14 @@
           {
             "id": "zone1",
             "loc": "<2800",
-            "risk": 1,
+            "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
             "loc": ">2800",
-            "risk": 2,
+            "risk": 3,
             "evolution_to": null,
             "position": "top"
           }
@@ -41,22 +41,22 @@
         },
         "zones": {
           "bottom": {
-            "text": "1",
-            "risk": 1,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           },
           "top": {
-            "text": "2",
-            "risk": 2,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-05-11",
-        "label": "Indice de risque limité",
-        "comment": "Lundi : temps couvert et précipitations (20/30 cm en haute montagne). Limite pluie neige vers 2000/2200 m. \n⇒ risque en hausse, formation de plaques dans la neige fraîche au-dessus de 2400 m.",
+        "max_level": 3,
+        "date": "2026-05-12",
+        "label": "Indice de risque marqué",
+        "comment": "Mardi : précipitations dans la nuit (15/25 cm de neige supplémentaires). Amélioration en journée\n⇒ plaques dans la neige fraîche et départs naturels avec humidification de la neige fraîche en journée au soleil",
         "trend": "steady"
       }
     },
@@ -64,11 +64,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 1,
       "secondary": 4,
       "labels": {
-        "2": "Neige ventée",
+        "1": "Neige fraîche",
         "4": "Neige humide"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-05",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-06",
           "min_cm": 0,
@@ -118,6 +113,11 @@
           "date": "2026-05-10",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-11",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,19 +127,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux printannier sous 3000 m",
-      "text": "Manteau neigeux printannier sous 3000 m\n\nDéclenchements provoqués : \n*rares plaques à vent dans la neige fraîche ou dans la neige encore froide (au-dessus de 2800 m), un peu plus nombreuses en fin de journée et à proximité de la frontière italienne. Facile à déclencher. Taille 1 à 2 (petite à moyenne). \n* de la neige humide peu couler sous les skis, sous 2600 m. Taille 1 (petite).\n\nDéparts spontanés : \n* rares avalanches de neige humide, particulièrement sous les plus fortes averses. En dessous de 2600 m. Taille 1 à 2 (petite à moyenne).\n* rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 1 à 2 (petite à moyenne).",
+      "title": "Episode neigeux et nombreuses instabilités en haute montagne",
+      "text": "Episode neigeux et nombreuses instabilités en haute montagne\n\nDéclenchements provoqués : \n*quelques plaques dans la neige fraîche surtout au-dessus de 2800 m, plus rares vers 2300/2800 m. Plus nombreuses et épaisses en fin de journée et à proximité de la frontière italienne. Facile à déclencher. Taille 2 (moyenne), éventuellement 3 (grande) au-dessus de 3400 m. \n* de la neige humide peu couler sous les skis, sous 2300 m. Taille 1 (petite).\n\nDéparts spontanés : \n* quelques avalanches de neige fraîche l'après-midi sous une éclaircie, près des rochers ou dans les falaises, au-dessus de 2300 m. Taille 1 à 2 (petite à moyenne).\n* rares avalanches de neige humide, en particulier sous les plus fortes averses (en dessous de 2300 m). Taille 1 (petite). \n* rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 1 à 2 (petite à moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 3000 m et correct au-dessus.\nOn peut chausser les skis au-dessus de 2300 m en sud et 1900 m en nord. \n\nQualité de la neige ce dimanche matin : \nSous 2400 m, neige de névé avec sans regel nocturne\nSous 3000 m en nord et 3800 m en sud, de la neige de printemps avec peu de regel nocturne. \nAu-dessus de 3000 m en nord et 3800 m en sud, neige encore froide, alternance d'enfoncement piéton important et de neige dure.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 3000 m et correct au-dessus.\nOn peut chausser les skis au-dessus de 2300 m en sud et 1900 m en nord. \n\nQualité de la neige ce lundi matin : \nSous 2400 m, neige de névé avec sans regel nocturne\nVers 2400/3400 m : 7/15 cm de neige fraîche reposant sur de la vielle neige humide.\nAu-dessus de 3400 m : 15/20 cm de neige fraiche ventée. Enfoncement piéton important. Nombreuses congères. \nAu fil de la journée, la quantité de neige fraiche augmente (cf aperçu météo).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1800,
-        "south": 2100
+        "north": 1900,
+        "south": 2200
       },
       "levels_cm": [
         {
@@ -149,13 +149,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 55,
+          "N": 45,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 170,
-          "S": 100
+          "N": 165,
+          "S": 85
         }
       ],
       "icon_key": "snowpack",

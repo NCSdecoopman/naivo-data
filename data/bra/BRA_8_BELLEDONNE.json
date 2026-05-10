@@ -3,30 +3,30 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-05-09T15:00:00",
-    "valid_until": "2026-05-10T18:00:00",
+    "issued_at": "2026-05-10T15:00:00",
+    "valid_until": "2026-05-11T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2700m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2400m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2700,
+        "threshold_m": 2400,
         "split_axis": "horizontal",
-        "split_label": "2700m",
+        "split_label": "2400m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2700",
+            "loc": "<2400",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2700",
+            "loc": ">2400",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2700m"
+          "label": "2400m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-11",
+        "date": "2026-05-12",
         "label": "Indice de risque limité",
-        "comment": "Risque en légère hausse lundi : Temps perturbé et rafraichissement,  neige dès 2000/2200m (10/20 cm supplémentaires possibles, risque de petites plaques en altitude ?)",
+        "comment": "Risque en légère hausse mardi en début de matinée :\n15/20 cm supplémentaires (dès 2000/2200m, voire 30 cm sur le Nord Belledonne ?) et vent de Nord. Ensuite redoux/ petites avalanches humides spontanées...",
         "trend": "steady"
       }
     },
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-05",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-06",
           "min_cm": 0,
           "max_cm": 0
@@ -117,6 +112,11 @@
           "date": "2026-05-10",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-11",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,13 +126,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "UN PEU DE NEIGE FRAICHE VENTEE VERS LES HAUTS SOMMETS DE BELLEDONNE, PLUS BAS NEVES STABLES...",
-      "text": "UN PEU DE NEIGE FRAICHE VENTEE VERS LES HAUTS SOMMETS DE BELLEDONNE, PLUS BAS NEVES STABLES...\n\nDimanche, sur les hauts sommets de Belledonne on attend  jusque 10/15 cm de neige fraîche parfois ventée : Temporairement, risque de minces plaques friables. Lors d'éclaircies, plutôt des coulées humides spontanées...\nSous 2700m environ, essentiellement de la neige de névé stable ou saupoudrage humide.\nDéclenchements provoqués : Le matin notamment, lors des chutes de neige parfois ventée, risque de formation de minces plaques friables (en poudreuse dense), sous le vent de Sud.\nRisque accidentel très localisé, dans certaines faces sommitales ?\nLors de redoux, plutôt un risque de coulée (superficielle) humide sous les skis.\nDéparts spontanés : Plutôt superficielles, coulées ponctuelles ou boules humides dans la neige fraîche, vers les hauts sommets ?",
+      "title": "NEIGE FRAICHE VENTEE EN ALTITUDE, POSSIBLES PETITES PLAQUES TEMPORAIRES + DES COULEES LORS D'ECLAIRCIES... PLUS BAS NEVES STABLES...",
+      "text": "NEIGE FRAICHE VENTEE EN ALTITUDE, POSSIBLES PETITES PLAQUES TEMPORAIRES + DES COULEES LORS D'ECLAIRCIES... PLUS BAS NEVES STABLES...\n\nLundi on prévoit jusque 15/20 cm de neige fraîche parfois ventée  en altitude : Temporairement, risque de petites plaques friables (en poudreuse dense). Lors d'éclaircies, plutôt des coulées humides spontanées...\nSous 2300/2500m environ, essentiellement de la neige de névé stable avec un saupoudrage humide...\nDéclenchements provoqués :\nLe matin notamment, risque de formation de petites plaques friables (en poudreuse dense), sous le vent de Sud-Ouest.\nRisque accidentel a priori localisé vers les hautes crêtes. Le soir averses et rafraichissement, le vent va tourner à l'Ouest puis Nord-Ouest...\nLors d'éclaircie, avec le solei de mai, plutôt un risque de coulée (superficielle) humide sous les skis.\nDéparts spontanés :\n Lors des précipitations, dans la neige fraîche. Avec les éclaircies en journée, coulées ponctuelles ou boules humides/petites avalanches",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est déficitaire en bas du massif, puis correct en combes d'altitude au dessus de 2100/2400m suivant le versant...\nLimites skiables : Vers 1700/2000m en Nord à 2200/2400m en versants ensoleillés. \n\nQualité de la neige dimanche:  pas de regel en bas de pentes, névés humides. Vers les hauts sommets neige fraîche plus ou moins humide, temporairement froide et un peu ventée au dessus de 2700/2800m environ ?",
+      "text": "Qualification de l’enneigement :  L'enneigement est déficitaire en bas du massif, puis devient correct en combes d'altitude au dessus de 2100/2400m suivant le versant... La neige prévue camoufle parfois herbes et roches, prudence\nLimites skiables : Vers 1700/1900m en Nord à 2200/2400m en versants ensoleillés. \n\nQualité de la neige lundi :  Pas de regel en bas de pentes, névés humides/fonte. En altitude, neige fraîche attendue dès 2200/2400m, plus froide et ventée vers les hauts sommets. Rapide humidification lors d'éclaircies...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -148,13 +148,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 85,
+          "N": 70,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 190,
-          "S": 50
+          "N": 185,
+          "S": 45
         }
       ],
       "icon_key": "snowpack",

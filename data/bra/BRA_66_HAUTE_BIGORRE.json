@@ -3,8 +3,8 @@
   "massif": "Haute-Bigorre",
   "bulletin": {
     "id": 66,
-    "issued_at": "2026-05-09T16:00:00",
-    "valid_until": "2026-05-10T18:00:00",
+    "issued_at": "2026-05-10T15:00:00",
+    "valid_until": "2026-05-11T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-05-11",
-        "label": "Indice de risque faible",
-        "comment": "Situation similaire.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-05-12",
+        "label": "Indice de risque limité",
+        "comment": "Fines plaques à vent en formation au-dessus de 2500 m mardi après-midi, sous les fortes précipitations.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-05",
-          "min_cm": 0,
-          "max_cm": 1
-        },
-        {
           "date": "2026-05-06",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-05-10",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-11",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RARES COULÉES DE NEIGE LOURDE",
-      "text": "RARES COULÉES DE NEIGE LOURDE\n\nDéclenchements provoqués : \nLes fines structures de plaques qui pouvaient encore rester dans les pentes ombragées au-dessus de 2500 m se sont humidifiés par le redoux, et sont donc difficilement déclenchables. \nD'autre part, un skieur coupant une pente raide, déjà bien humidifiée pourra favoriser un départ ponctuel de taille petite sur quelques dizaines de mètres.\n\nDéparts spontanés :\n- Au-dessus de 2400 à 2500m,  des coulées ou des petites avalanches ponctuelles sont possibles dans les couloirs raides de haute montagne, mobilisant la neige récente tombée sous les averses. Le léger redoux attendu, contribue à l'humidification rapide de cette couche en surface. Les coulées peuvent se produire dès le matin, sous l'ensoleillement, et partant souvent près des rochers. \n- Partout ailleurs, un départ en avalanches de glissement mobilisant tout le manteau neigeux reste possible, mais rare et peu probable compte tenu de la densité très forte de ce dernier, et des terrains concernés souvent rocheux et peu propices à ce type de phénomène",
+      "title": "RARES COULÉES DE NEIGE LOURDE EN ALTITUDE",
+      "text": "RARES COULÉES DE NEIGE LOURDE EN ALTITUDE\n\nDéclenchements provoqués : \n Localement, un skieur coupant une pente raide déjà bien humidifiée, pourra favoriser un départ ponctuel en neige humide de petite taille, sur quelques dizaines de mètres.\n\nDéparts spontanés :\n- Au-dessus de 2400 à 2500m, au fil de l'ensoleillement, des coulées ou des petites avalanches ponctuelles sont possibles dans les couloirs raides de haute montagne, partant souvent près des rochers et mobilisant la neige récente tombée sous les averses de dimanche ou de lundi après-midi. Le regel de la nuit de dimanche à lundi reste léger et l'humidification se produira rapidement avec l'apparition des premiers rayons de soleil. \n- Partout ailleurs, un départ en avalanches de glissement mobilisant tout le manteau neigeux reste possible, mais rare et peu probable compte tenu de la densité très forte de ce dernier, et des terrains concernés souvent rocheux et peu propices à ce type de phénomène",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Déficitaire, mais encore correct pour la saison au-dessus de 2300 m, débutant encore en nord vers 2000 m dans les bonnes configurations.\nÉtat de la neige : Neige souvent durcie au petit matin (ou légèrement croûté en très haute montagne et dans les pentes les plus à l'ombre), mais rapidement ramollie suivant la course du soleil. Sous les averses de l'après-midi, un petit blanchissement est possible au-dessus de 2400 m, mais cette neige s'humidifie rapidement au contact d'un manteau neigeux gorgé d'eau.",
+      "text": "Enneigement : Déficitaire, mais encore correct pour la saison au-dessus de 2300 m, où de belles accumulations sont présentes. Enneigement débutant encore en nord vers 2000 m dans les bonnes configurations.\n\nÉtat de la neige : \n- Neige souvent durcie au petit matin, ou légèrement croûté en très haute montagne, mais elle est rapidement ramollie suivant la course du soleil. Au-dessus de 2800 m, et dans les pentes les plus à l'ombre, des pentes peuvent encore être poudreuses.  \n- En dessous de 2500m, la neige est ancienne, très dense, de type névé, fréquemment de couleur ocre avec des poussières désertiques en surface. \n- Sous les averses de ce dimanche après-midi, un petit blanchissement est possible au-dessus de 2500 m, mais cette neige s'humidifie rapidement au contact d'un manteau neigeux très humide.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -136,7 +136,7 @@
         },
         {
           "alt_m": 2000,
-          "N": 20,
+          "N": 15,
           "S": 0
         },
         {
