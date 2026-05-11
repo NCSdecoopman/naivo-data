@@ -3,8 +3,8 @@
   "massif": "Capcir Puymorens",
   "bulletin": {
     "id": 73,
-    "issued_at": "2026-05-10T15:00:00",
-    "valid_until": "2026-05-11T18:00:00",
+    "issued_at": "2026-05-11T16:00:00",
+    "valid_until": "2026-05-12T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-05-12",
-        "label": "Indice de risque limité",
-        "comment": "Formation de fines plaques dans la neige fraîche au-dessus de 2500m (averses de mardi après-midi et soirée).",
-        "trend": "up"
+        "max_level": 1,
+        "date": "2026-05-13",
+        "label": "Indice de risque faible",
+        "comment": "Risque faible.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -67,20 +67,16 @@
     },
     "sat": {
       "primary": 4,
-      "secondary": null,
+      "secondary": 2,
       "labels": {
-        "4": "Neige humide"
+        "4": "Neige humide",
+        "2": "Neige ventée"
       },
       "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-07",
           "min_cm": 0,
@@ -105,6 +101,11 @@
           "date": "2026-05-11",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-12",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,12 +116,12 @@
     },
     "stability": {
       "title": "Manteau neigeux généralement bien stabilisé.",
-      "text": "Manteau neigeux généralement bien stabilisé.\n\nDéclenchements provoqués :\n- en neige humide : un skieur peut éventuellement déclencher une avalanche de taille 1 (petite) en coupant une pente en neige récente humidifiée, ce qui peut le faire chuter.\n\nDéparts spontanés :\n-  en neige humide : de rares départs ponctuels sont possibles dans la neige récente s'humidifiant sous le soleil matinal et au gré des éclaircies de l'après-midi, donnant des avalanches de taille 1 (petite).\n- avalanches de fond :  très rares. Le risque n'est pas totalement exclus à toute heure du jour ou de la nuit. En effet, de nombreuses fissures sont observables dans le manteau neigeux dont l'épaisseur est encore conséquente par endroits. Taille 1 à 2 (petite à moyenne).\n\nAutres :\nLes ponts de neige recouvrant les torrents ou pierriers peuvent facilement céder au passage d'un randonneur.",
+      "text": "Manteau neigeux généralement bien stabilisé.\n\nDéclenchements provoqués :\n- en neige humide : un skieur peut éventuellement déclencher une avalanche de taille 1 (petite) en coupant une pente en neige récente humidifiée, ce qui peut le faire chuter.\n- en neige ventée : A haute altitude, sur le massif de l'Esquine d'Ase, de rares structures de plaque ont pu se former au dessus de 2500m environ pouvant céder au passage d'un skieur et le déstabiliser.\n\nDéparts spontanés :\n-  en neige humide : de rares départs ponctuels sont possibles dans la neige récente s'humidifiant sous le soleil matinal et au gré des éclaircies de l'après-midi, donnant des avalanches de taille 1 (petite).\n- avalanches de fond :  Peu probable. Le risque n'est pas totalement exclu mais la plupart des pentes ont été purgées. Des fissures sont encore observables dans le manteau neigeux dont l'épaisseur est encore conséquente par endroits. Taille 1 à 2 (petite à moyenne).\n\nAutres :\nLes ponts de neige recouvrant les torrents ou pierriers peuvent facilement céder au passage d'un randonneur.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nAprès ce mois d'avril chaud et sec, l'enneigement de nos massifs est correct par rapport aux normales. \nEn nord, la limite d'altitude de la neige est irrégulière, généralement vers 1800/1900m. Plus haut, on trouve encore de belles accumulations de neige (entre 2 et 2,5m vers 2500m) et d'épaisses corniches. \nEn sud, la neige est présente de manière continue à partir de 2200/2300m. Les cols et crêtes ouest à nord-ouest sont moins garnis en neige.\n\nQualité de la neige :\nLundi matin, le regel est efficace au-dessus de  2400m.\nEn dessous de 2500m, la neige est ancienne, très dense, de type névé, souvent de couleur ocre avec des poussières désertiques en surface. En altitude, s'y ajoute une couche de quelques cms de neige récente déposée par les averses de la veille et celles en cours, s'humidifiant rapidement au gré des éclaircies.",
+      "text": "Enneigement : \nAprès ce mois d'avril chaud et sec, l'enneigement de nos massifs est correct par rapport aux normales en général mais encore excédentaire à haute altitude . \nEn nord, la limite d'altitude de la neige est irrégulière, généralement vers 1800/1900m. Plus haut, on trouve encore de belles accumulations de neige (entre 2 et 2,5m vers 2500m) et d'épaisses corniches. \nEn sud, la neige est présente de manière continue à partir de 2200/2300m. Les cols et crêtes ouest à nord-ouest sont moins garnis en neige.\n\nQualité de la neige :\nLundi matin, le regel est efficace au-dessus de  2400m.\nEn dessous de 2500m, la neige est ancienne, très dense, de type névé, souvent de couleur ocre avec des poussières désertiques en surface. En altitude, s'y ajoute une couche de quelques cm de neige récente déposée par les averses de la veille et celles en cours, s'humidifiant rapidement au gré des éclaircies et souvent très agréable à skier.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

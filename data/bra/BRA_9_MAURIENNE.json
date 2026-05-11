@@ -3,30 +3,30 @@
   "massif": "Maurienne",
   "bulletin": {
     "id": 9,
-    "issued_at": "2026-05-10T16:00:00",
-    "valid_until": "2026-05-11T18:00:00",
+    "issued_at": "2026-05-11T15:00:00",
+    "valid_until": "2026-05-12T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2300m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2400m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2300,
+        "threshold_m": 2400,
         "split_axis": "horizontal",
-        "split_label": "2300m",
+        "split_label": "2400m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2300",
+            "loc": "<2400",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2300",
+            "loc": ">2400",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2300m"
+          "label": "2400m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-12",
+        "date": "2026-05-13",
         "label": "Indice de risque limité",
-        "comment": "Arrêt des chutes de neige mais il subsistera des plaques dans la neige récente, risque stationnaire.",
+        "comment": "Le risque d'avalanche de plaque ne concerne plus que les hautes pentes raides et Nord du massif. L'activité avalancheuse naturelle liée au réchauffement est en relative baisse.",
         "trend": "steady"
       }
     },
@@ -65,10 +65,10 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": 1,
+      "primary": 1,
+      "secondary": 4,
       "labels": {
-        "4": "Neige humide",
-        "1": "Neige fraîche"
+        "1": "Neige fraîche",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-07",
           "min_cm": 0,
@@ -116,24 +111,29 @@
         },
         {
           "date": "2026-05-11",
+          "min_cm": 1,
+          "max_cm": 3
+        },
+        {
+          "date": "2026-05-12",
           "min_cm": 0,
           "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 3
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITéS EN COURS DE FORMATION SOUS LES AVERSES DE NEIGE.",
-      "text": "INSTABILITéS EN COURS DE FORMATION SOUS LES AVERSES DE NEIGE.\n\nDéclenchements provoqués : \n-Au dessus de 2300m, plaques friables ou dures dans les 10 à 20 cm de neige ventée attendus dans la journée. Rares et de petite taille le matin, elles deviennent plus fréquentes et volumineuses en journée au fil des averses. Petites à moyennes avalanches. On les trouve majoritairement en secteur Nord à Est, sous le vent et près des crêtes et des ruptures de pentes. \n-Plus bas sous la pluie, quelques coulées en neige humides sous les skis. Petites avalanches.\nObservable : accumulation de neige fraîche. \n\nDéparts spontanés : \n-Au dessus de 2300, départs sous l'action du transport par le vent. Petites et rares le matin, elles deviennent plus fréquentes en journée avec les averses. Majoritairement en secteur Nord à Est, sous le vent et près des crêtes et des ruptures de pentes.\n-Sous les 2100 m, il pleut, mais également plus haut la neige récente peut commencer à s'humidifier à la faveur d'une éclaircie entre deux averses : quelques départs ponctuels (coulées en poire) sont possibles. Petites à moyennes avalanches.\n\nAutres : Chutes de corniche possibles. Les ponts de neige au-dessus des ruisseaux sont fragiles.",
+      "title": "QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE EN ALTITUDE.",
+      "text": "QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE EN ALTITUDE.\n\nDéclenchements provoqués :  au-dessus de 2400m, les cumuls de neige récente associés au vent de Nord-Ouest sont suffisants pour créer quelques plaques friables de taille modeste. Elles engendrent la plupart du temps des petites avalanches, et rarement des moyennes. Bien que possibles en tous versants, celles dans les versants Nord raides échappent aux assauts du Soleil et subsistent ainsi plus longtemps. Observable : accumulation de neige fraîche. \n\nDéparts spontanés : des départs ponctuels (avalanches en poires) se manifestent dans les pentes suffisamment raides et fraichement enneigées au départ des cailloux et des corniches, en suivant la course du Soleil. Avalanches petites, rarement de taille moyenne. \n\nAutres : chutes de corniche possibles. Les ponts de neige au-dessus des ruisseaux sont fragiles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne est quasi sèche à cause des épisodes de vent de l'hiver et de l’absence de précipitations significative ces dernières semaines.\n\nLimite skiable : vers 1900/2000 m en nord, 2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : sous 2100 m, neige de névé souvent pourrie par la pluie. Plus haut, neige récente froide au dessus de 2300/2500 m. Elle peut devenir collante en cas d'éclaircies entre deux averses sous le soleil de mai.",
+      "text": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne est quasi sèche à cause des épisodes de vent de l'hiver et de l’absence de précipitations significatives ces dernières semaines.\n\nLimite skiable : vers 1900/2000 m en nord, 2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : petit coup de neige en montagne. 5-10 cm entre 2000 et 2500 m, puis plutôt 10-20 au-dessus, notamment vers les Sybelles. Elle réchauffe vite et devient collante avec le retour du puissant Soleil de mai. La poudre appartient à celles et ceux qui se lèvent tôt.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

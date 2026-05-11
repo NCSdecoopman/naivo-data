@@ -3,30 +3,30 @@
   "massif": "Chablais",
   "bulletin": {
     "id": 1,
-    "issued_at": "2026-05-10T16:00:00",
-    "valid_until": "2026-05-11T18:00:00",
+    "issued_at": "2026-05-11T16:00:00",
+    "valid_until": "2026-05-12T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2300m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2300,
+        "threshold_m": 2200,
         "split_axis": "horizontal",
-        "split_label": "2300m",
+        "split_label": "2200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2300",
+            "loc": "<2200",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2300",
+            "loc": ">2200",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2300m"
+          "label": "2200m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-12",
+        "date": "2026-05-13",
         "label": "Indice de risque limité",
-        "comment": "Mardi : précipitations dans la nuit (10/15 cm de neige supplémentaires). Amélioration en journée\n⇒ rares plaques dans la neige fraîche et départs naturels avec humidification de la neige fraîche en journée au soleil",
+        "comment": "Temps sec, belles éclaircies. Encore quelques instabilités dans la neige récente.",
         "trend": "steady"
       }
     },
@@ -65,10 +65,10 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -78,22 +78,16 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
         "4": "Neige humide"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-06",
-          "min_cm": 0,
-          "max_cm": 2
-        },
         {
           "date": "2026-05-07",
           "min_cm": 0,
@@ -116,30 +110,35 @@
         },
         {
           "date": "2026-05-11",
+          "min_cm": 1,
+          "max_cm": 3
+        },
+        {
+          "date": "2026-05-12",
           "min_cm": 0,
-          "max_cm": 0
+          "max_cm": 1
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 4
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Episode neigeux",
-      "text": "Episode neigeux\n\nDéclenchements provoqués : \n* rares plaques dans la neige fraîche, particulièrement dans les versants est et nord, au-dessus de 2300 m et d'autant plus en montant en altitude.  Facile à déclencher. Au fil des chutes de neige, ces plaques sont un peu plus nombreuses et épaisses.Taille 1 (petite) puis 2 (moyenne).\n* de la neige humide peu couler sous les skis, sous 2300 m. Taille 1 (petite). \n\nDéparts spontanés : \n* quelques avalanches de neige fraîche l'après-midi sous une éclaircie, près des rochers ou dans les falaises, au-dessus de 2300 m. Taille 1 (petite).\n* rares avalanches de neige humide, en particulier sous les plus fortes averses (en dessous de 2300 m). Taille 1 (petite). \n* rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 1 à 2 (petite à moyenne).",
+      "title": "Episode neigeux. Instablilités dans la neige récente.",
+      "text": "Episode neigeux. Instablilités dans la neige récente.\n\nDéparts spontanés :\n* Au-dessus de 2200 m : avalanches de neige fraiche pendant les chutes de neige, en particulier durant les plus fortes intensités. Taille 1 à 2.\n* Au-dessus de 2200 m dans les pentes E puis S puis W : nombreux départs ponctuels dans la neige fraiche s'humidifiant au soleil. Ces départs ponctuels entrainent régulièrement des volumes plus importants, taille 1 (petite) à 2 (moyenne)\nFacteur aggravant, en versants E/N/O : un départ en plaque n'est pas exclu lors d'une avalanche en cascade. Cassure de 50/80 cm possible. Taille 2 (moyenne).\n\nDéclenchements provoqués :\n* Versants Est et Nord au-dessus de 2200 m : quelques plaques dans la neige fraîche dans les pentes peu humidifiées par le soleil. Plaques d'autant plus nombreuses en montant en altitude. Facilement déclenchable par un skieur. Taille 1 (petite) à 2 (moyenne).\n* Au-dessus de 2200 m : de la neige humide récente peut couler sous les skis et peut dans quelques cas entrainer de plus gros volumes de neige. Taille 1, parfois 2. Départs également possibles sous 2200 m, mais avec de plus petits volumes. Taille 1.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2400 m et déficitaire en dessous. \nOn peut chausser les skis au-dessus de 2300 m en sud et 1900 m en nord. \n\nQualité de la neige ce lundi matin : \nSous 2300 m, neige de névé avec sans regel nocturne\nAu-dessus de 2300 m, 3/10 cm de neige fraîche reposant sur de la vielle neige humide. Au fil de la journée, la quantité de neige fraiche augmente (cf aperçu météo).",
+      "text": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2400 m et déficitaire en dessous. \nNeige fraiche présente dès 1500 m en début de matinée, jusqu'à 20/25 cm au-dessus de 2300 m.\nOn peut chausser les skis au-dessus de 2300 m en sud et 1900 m en nord. \n\nQualité de la neige ce mardi :\nSous 2300 m, neige récente légèrement humide à humide suivant l'altitude, reposant une neige de névé compacte. Cette neige s'humidifie rapidement dès le début de journée.\nAu-dessus de 2300 m, 20/25 cm de neige récente, légère, parfois ventée proche des crêtes. Elle repose sur de la vielle neige humide. Humidification rapide dans les versants au soleil, plus lente dans les ubacs où la neige peut rester poudreuse toute la journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1900,
-        "south": 2200
+        "south": 2100
       },
       "levels_cm": [
         {

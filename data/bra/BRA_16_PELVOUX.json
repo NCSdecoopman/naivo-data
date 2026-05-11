@@ -3,8 +3,8 @@
   "massif": "Pelvoux",
   "bulletin": {
     "id": 16,
-    "issued_at": "2026-05-10T16:00:00",
-    "valid_until": "2026-05-11T18:00:00",
+    "issued_at": "2026-05-11T16:00:00",
+    "valid_until": "2026-05-12T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-12",
+        "date": "2026-05-13",
         "label": "Indice de risque limité",
-        "comment": "Risque à priori en baisse. Activité naturelle attendue dans la neige récente avec le retour du soleil du redoux. Plaques se stabilisant progressivement en haute altitude.",
+        "comment": "Risque en baisse et devenant limitée. Des plaques sont toujours en place à haute altitude.",
         "trend": "down"
       }
     },
@@ -65,10 +65,10 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -89,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-06",
-          "min_cm": 0,
-          "max_cm": 5
-        },
         {
           "date": "2026-05-07",
           "min_cm": 0,
@@ -118,6 +113,11 @@
           "date": "2026-05-11",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-12",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "EN ALTITUDE, INSTABILITÉS DANS LA NEIGE FRAICHE. EN HAUTE ALTITUDE, PLUS NOMBREUSES ET POUVANT ETRE VOLUMINEUSES",
-      "text": "EN ALTITUDE, INSTABILITÉS DANS LA NEIGE FRAICHE. EN HAUTE ALTITUDE, PLUS NOMBREUSES ET POUVANT ETRE VOLUMINEUSES \n\nDéclenchements provoqués : \n- au-dessus de 3000 m environ, plaques en place, d’autres en formation. Instabilités faciles à déclencher par un skieur, de taille petite à moyenne, plus rarement grande. Aucune orientation exclue, mais principalement en versants de large nord à est dans les accumulations par le vent. Causé par les chutes récentes et nouvelles ainsi que le transport par le vent.\n- plus bas, entre 2700/3000 m environ, plaques localisées, de taille limitée, surtout petites. Facilement déclenchables, essentiellement en versants de large nord à est dans les accumulations par le vent.\n\nDéparts spontanés :\n- au-dessus de 3000 m environ, quelques avalanches de neige fraîche en pente raide. Départs ponctuels ou en plaque, parfois en cascade. Taille petite à moyenne, plus rarement grande. Causé par les chutes de neige et le transport de la neige par le vent.\n- plus bas, entre 2500/3000 m environ, en cours de journée de lundi, quelques départs de neige s’humidifiant en pente raide. Tout versant, surtout superficiels de petite taille, très rarement moyenne. Causé par les quelques éclaircies.",
+      "title": "NOMBREUSES INSTABILITÉS EN ALTITUDE, LOCALEMENT VOLUMINEUSES",
+      "text": "NOMBREUSES INSTABILITÉS EN ALTITUDE, LOCALEMENT VOLUMINEUSES\n\nDéclenchements provoqués : \n- au-dessus de 3000 m environ, de nombreuses plaques sont en place, formées par les récentes chutes de neige et le transport par le vent de nord-ouest. Elles sont présentes en toutes orientations, même si plus nombreuses en versants de large nord. Elles sont parfois difficiles à identifier et facilement déclenchables par le passage d'un seul skieur. Elles engendrent des avalanches de taille petite à moyenne (taille 1 à 2), voire grande si une première avalanche de surface vient solliciter une couche fragile plus profondément enfouie, encore potentiellement présente en versants nord-ouest, nord et nord-est de haute altitude. \n- plus bas, entre 2700/3000 m environ, plaques localisées, de taille limitée, surtout petites. Encore facilement déclenchables, essentiellement en versants de large nord à est dans les accumulations par le vent.\n- un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis. \n\nDéparts spontanés : en pentes raides, avalanches de neige récente s'humidifiant au fil de l'ensoleillement. Départs ponctuels ou en plaques. Elles sont possibles en toutes orientations avec le retour d'un temps ensoleillé et la hausse de l'isotherme 0 degré en journée. Avalanches généralement de taille moyenne, plus rarement grande au-dessus de 3000 m, plutôt de taille limitée en dessous.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement déficitaire pour la période.\nHauteurs de neige observées : 215 cm à la nivose des Écrins à 2970 m. \n\nLimite d'enneigement skiable : très localement vers 1700/1900 m en ubacs de fond de vallée en cœur de massif, plutôt 1900/2000 dans les autres ubacs et 2300/2500 m en adrets.\n\nÉtat de la neige en surface : neige fraiche / récente en quantité au-dessus de 3000 m, souvent travaillée par le vent. Plus bas, un peu de neige fraiche/récente sur un manteau neigeux printanier ou de type névé.",
+      "text": "Enneigement déficitaire pour la période.\nHauteurs de neige observées : 218 cm à la nivose des Écrins à 2970 m. \n\nLimite d'enneigement skiable : très localement vers 1700/1900 m en ubacs de fond de vallée en cœur de massif, plutôt 1900/2000 dans les autres ubacs et 2300/2500 m en adrets.\n\nÉtat de la neige en surface : neige récente en quantité au-dessus de 3000 m, souvent travaillée par le vent. Plus bas, un peu de neige fraiche/récente sur un manteau neigeux printanier ou de type névé.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -154,7 +154,7 @@
         },
         {
           "alt_m": 2500,
-          "N": 90,
+          "N": 100,
           "S": 15
         }
       ],
