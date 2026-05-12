@@ -3,8 +3,8 @@
   "massif": "Haute-Ariege",
   "bulletin": {
     "id": 70,
-    "issued_at": "2026-05-11T16:00:00",
-    "valid_until": "2026-05-12T18:00:00",
+    "issued_at": "2026-05-12T17:00:00",
+    "valid_until": "2026-05-13T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-13",
+        "date": "2026-05-14",
         "label": "Indice de risque limité",
-        "comment": "Maintient de quelques instabilités en altitude.",
+        "comment": "Maintien attendu du risque en altitude, avec le renforcement du vent de nord-ouest",
         "trend": "steady"
       }
     },
@@ -64,7 +64,7 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
+        "E": false,
         "SE": false,
         "S": false,
         "SW": false,
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-08",
           "min_cm": 0,
           "max_cm": 0
@@ -115,24 +110,29 @@
         },
         {
           "date": "2026-05-12",
+          "min_cm": 1,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-05-13",
           "min_cm": 0,
           "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
+        "last_48h_min_cm": 1,
         "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "Quelques plaques possibles en altitude",
-      "text": "Quelques plaques possibles en altitude\n\nDéclenchements provoqués :\n- Plaques en formation : Des petites structures de plaques ont pu se former ces derniers jours et peuvent encore se former ces prochaines heures à haute altitude. Les averses de neige dès 2300m d'altitude sont accompagnées de rafales de vent favorisant la formation d'accumulations pouvant parfois reposer sur une couche de neige moins dense ou de neige roulée pouvant faire office de couche fragile temporaire. Ces plaques sont peu épaisses, elles se stabilisent rapidement au soleil mais peuvent persister plus longtemps dans les pentes raides orientées au Nord. Des cassures de 20 à 30 cm sont envisageables au dessus de 2500m d'altitude.\n\n\nDéparts spontanés :\n-  en neige humide : Quelques départs ponctuels sont possibles dans la neige récente s'humidifiant sous le soleil matinal et au gré des éclaircies de l'après-midi, donnant des avalanches de taille 1 (petite).\n\nAutres :\nLes ponts de neige recouvrant les torrents ou pierriers peuvent facilement céder au passage d'un randonneur.",
+      "text": "Quelques plaques possibles en altitude\n\nDéclenchements provoqués :\nAu-dessus de 2400/2500m, des petites structures de plaques ont pu se former ces derniers jours et peuvent encore se former au gré des averses de cet après-midi. En effet, les chutes de neige qui se produisent quotidiennement s'accompagnent souvent de bourrasques de vent pouvant conduire à la formation d'accumulations pouvant parfois reposer sur une couche de neige moins dense ou de neige roulée pouvant faire office de couche fragile temporaire. Par ailleurs, les nuits claires et relativement froides peuvent être favorables à un début de formation de grains facettés. Ces plaques se stabilisent rapidement au soleil, mais persistent plus longtemps dans les pentes raides orientées nord. En fonction des quantités de neige tombée, très hétérogènes, des cassures de 20 à 30 cm sont envisageables par endroits.\n\n\nDéparts spontanés :\nQuelques départs ponctuels en neige humide sont possibles dans la neige récente s'humidifiant au soleil matinal, ou au gré des éclaircies de l'après-midi, donnant des avalanches de taille 1 (petite).\n\nAutres :\nLes ponts de neige recouvrant les torrents ou pierriers peuvent facilement céder au passage d'un randonneur.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nEnneigement de nos massifs correct par rapport aux normales jusqu'en moyenne montagne mais encore excédentaire à haute altitude. \nEn nord, la limite d'altitude de la neige est irrégulière, parfois dès 1600/1700m dans les configurations les plus favorables, plus généralement vers 1800/1900m. Plus haut, on trouve encore de belles accumulations de neige (entre 2 et 2,5m vers 2500m) et d'épaisses corniches. A partir de 2400 à 2500m, le manteau neigeux est encore conséquent dans les combes et replats.\nEn sud, la neige est présente de manière continue à partir de 2200/2300m. Les cols et crêtes ouest à nord-ouest sont souvent dégarnis jusqu'à haute altitude..\n\nQualité de la neige :\nLe regel est efficace au-dessus de  2400m.\nEn dessous de 2500m, la neige est ancienne, très dense, de type névé, souvent de couleur ocre avec des poussières désertiques en surface. En altitude, s'y ajoute une couche de quelques cm de neige récente déposée par les averses de la veille et celles en cours, s'humidifiant rapidement au gré des éclaircies. Cette neige améliore grandement la qualité en surface avec des pentes Nord en neige poudreuse au dessus de 2500 à 2700m.",
+      "text": "Enneigement : \nEnneigement de nos massifs correct par rapport aux normales jusqu'en moyenne montagne mais encore excédentaire à haute altitude. \nEn nord, la limite d'altitude de la neige est irrégulière, parfois dès 1600/1700m dans les configurations les plus favorables, plus généralement vers 1800/1900m. Plus haut, on trouve encore de belles accumulations de neige (entre 2 et 2,5m vers 2500m) et d'épaisses corniches. A partir de 2400 à 2500m, le manteau neigeux est encore conséquent dans les combes et replats.\nEn sud, jusque vers 2200/2300m, l'enneigement est de moins en moins continu dans les zones de chaos rocheux ou d'éboulis. Enfin, les cols et crêtes ouest à nord-ouest sont souvent dégarnis jusqu'à haute altitude.\n\nQualité de la neige :\nCe mercredi matin, on pourra trouver au-dessus de 1800/2000m une petite couche de neige fraîche déposée par les averses de mardi, d'épaisseur très variable. Cette couche s'humidifie rapidement le matin au soleil. Les petites couches de neige récente des averses de ces derniers jours reposent très généralement sur une neige ancienne, très dense, de type névé, souvent de couleur ocre avec des poussières désertiques en surface. Cette neige fraîche ou récente améliore grandement la skiabilité.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -148,13 +148,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 70,
+          "N": 65,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 200,
-          "S": 70
+          "N": 190,
+          "S": 65
         }
       ],
       "icon_key": "snowpack",

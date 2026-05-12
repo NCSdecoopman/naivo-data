@@ -3,8 +3,8 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-05-11T15:00:00",
-    "valid_until": "2026-05-12T18:00:00",
+    "issued_at": "2026-05-12T17:00:00",
+    "valid_until": "2026-05-13T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-13",
+        "date": "2026-05-14",
         "label": "Indice de risque limité",
-        "comment": "Stabilisation des plaques formées ce lundi.",
+        "comment": "Une nouvelle perturbation engendre des conditions hivernales dès la moyenne montagne. Le manteau de surface regagne en instabilité.",
         "trend": "steady"
       }
     },
@@ -65,10 +65,10 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
-        "W": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -78,22 +78,17 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
-        "4": "Neige humide",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-08",
           "min_cm": 0,
@@ -112,33 +107,38 @@
         {
           "date": "2026-05-11",
           "min_cm": 1,
-          "max_cm": 3
+          "max_cm": 5
         },
         {
           "date": "2026-05-12",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-13",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 3
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "QUELQUES INSTABILITÉS DANS LA NEIGE VENTéE EN ALTITUDE.",
-      "text": "QUELQUES INSTABILITÉS DANS LA NEIGE VENTéE EN ALTITUDE.\n\nDéclenchements provoqués : au-dessus de 2800/3000m, l'épisode de transport de neige par le vent engendre quelques plaques dans la neige récente. Elles sont plus faciles à déclencher en versants Nord et aux premières heures du jour (quand le transport est encore d'actualité). Elles engendrent des avalanches petites à moyennes (taille 1 à 2). Observable : transport de neige en cours. \nPlus bas, les cumuls de neige ne sont pas suffisants pour induire une problématique notable de plaque. \n\nDéparts spontanés :  rares départs de plaques pendant le transport de la neige par le vent, dans une pente raide de haute altitude. Petites à moyennes avalanches.\n\nAutres : chutes de corniche possibles. Les ponts de neige au-dessus des ruisseaux sont fragiles.",
+      "text": "QUELQUES INSTABILITÉS DANS LA NEIGE VENTéE EN ALTITUDE.\n\nDéclenchements provoqués : au-dessus de 2800/3000m dans un large secteur Nord, l'épisode de transport de neige par le vent a engendré quelques plaques dans la neige récente. Elles sont faciles à déclencher quand la pente est très raide et suffisent à déstabiliser une personne. Une grosse accumulation peut engendrer une avalanche de taille moyenne (taille 2). Observable : accumulation visible de neige récente et dense. \nPlus bas, les cumuls de neige ne sont pas suffisants pour induire une problématique notable de plaque. \n\nDéparts spontanés : rares départs ponctuels (boulettes/escargots/avalanches en poires) se manifestent dans les pentes suffisamment raides au départ des cailloux et des corniches, en suivant la course du Soleil. Plus probables le matin : en versant NE, puis E, puis SE. Avalanches petites, rarement de taille moyenne. \n\nAutres : chutes de corniche possibles. Les ponts de neige au-dessus des ruisseaux sont fragiles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent, semble commencer à un peu mieux s'enneiger.\n\nLimite skiable : vers 1900/2000 m en nord, 2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : bon regel grâce au vent froid qui souffle en tempête. Regel médiocre là où il ne souffle pas. Toujorus à cause du vent : la haute montagne ne dégèle pas et les pentes raides Nord qui hébergeaient de la neige récente \"poudreuse\" se raréfie. Les crêtes et les croupes laissent ressortir une neige très dure.",
+      "text": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent, semble commencer à un peu mieux s'enneiger.\n\nLimite skiable : vers 2000 m en nord, 2400 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : regel correct au-delà de 2200/2400 m. Il faut monter au delà de 2600/2800 m en versant Nord pour trouver une neige froide densifiée par le vent. A très haute altitude, on la trouve dans des orientations plus larges mais le Soleil du jour aura vite raison de son existence. \nDans les autres orientations à altitude modeste, alternance de croûte portante (ancienne neige en surface) et croûte cassante (neige récente humidifiée ce mardi). Avec le soleil, la vieille neige ramollie et glisse bien, la neige récente se met à coller.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 2000,
+        "north": 2100,
         "south": 2500
       },
       "levels_cm": [
@@ -154,8 +154,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 110,
-          "S": 20
+          "N": 115,
+          "S": 15
         }
       ],
       "icon_key": "snowpack",
