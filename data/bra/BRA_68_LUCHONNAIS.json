@@ -3,30 +3,30 @@
   "massif": "Luchonnais",
   "bulletin": {
     "id": 68,
-    "issued_at": "2026-05-12T16:00:00",
-    "valid_until": "2026-05-13T18:00:00",
+    "issued_at": "2026-05-14T16:00:00",
+    "valid_until": "2026-05-15T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2500,
+        "threshold_m": 2200,
         "split_axis": "horizontal",
-        "split_label": "2500m",
+        "split_label": "2200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2500",
+            "loc": "<2200",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2500",
+            "loc": ">2200",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2500m"
+          "label": "2200m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-14",
+        "date": "2026-05-16",
         "label": "Indice de risque limité",
-        "comment": "Maintien d'un risque limité. Refroidissement plus franc, nouvelles averses de neige avec du vent d'ouest/nord-ouest.",
+        "comment": "Maintien d'un risque limité, encore quelques petites chutes de neige dès 1300/1400m, radoucissement progressif l'après-midi.",
         "trend": "steady"
       }
     },
@@ -64,12 +64,12 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
-        "SE": false,
+        "E": true,
+        "SE": true,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -89,16 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-08",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-05-09",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-10",
           "min_cm": 0,
           "max_cm": 0
@@ -116,29 +106,39 @@
         {
           "date": "2026-05-13",
           "min_cm": 0,
-          "max_cm": 2
+          "max_cm": 0
+        },
+        {
+          "date": "2026-05-14",
+          "min_cm": 3,
+          "max_cm": 8
+        },
+        {
+          "date": "2026-05-15",
+          "min_cm": 3,
+          "max_cm": 8
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 2
+        "last_48h_min_cm": 6,
+        "last_48h_max_cm": 16
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Quelques plaques possibles dans les secteurs ombragés d'altitude.",
-      "text": "Quelques plaques possibles dans les secteurs ombragés d'altitude.\n\nDéclenchements provoqués : \n- Au-dessus de 2400 à 2500m, dans les pentes raides des versants allant du Nord-Ouest au Nord-Est, quelques structures de plaques peuvent persister issues des chutes de neige précédentes. Elles peuvent être recouvertes d'une fine couche de neige tombant ce jour. Leur déclenchement par un simple skieur peut engendrer des cassures linéaires petites, parfois mais plus rarement des moyennes.\n- Plus bas, un skieur peut déclencher des départs ponctuels dans la neige récente s'humidifiant dans les pentes raides des versants au fil de la journée. Petites avalanches attendues, rarement moyennes.\n\nDéparts spontanés :\n- Au-dessus de 2400 à 2500m, des départs ponctuels de plaques décrites ci-dessus restent possibles, par surcharge par le vent, engendrant principalement de petites avalanches, parfois aussi mais plus rarement des moyennes.\n- Plus bas, des départs ponctuels dans la neige récente s'humidifiant restent possibles, dans les pentes raides des versants au fil de la journée, engendrant de petites avalanches, très rarement des moyennes.",
+      "title": "Quelques plaques en altitude, chutes de neige plus bas.",
+      "text": "Quelques plaques en altitude, chutes de neige plus bas.\n\nDéclenchements provoqués : \n- Au-dessus de 2200m, dans les pentes raides des versants allant du Nord au Sud-Est, des plaques à vent se forment au fil des chutes de neige de la journée, sous l'effet du vent de Nord-Ouest. Elles viennent se superposer à des plaques déjà en place issues des chutes de neige précédentes. Leur déclenchement par un simple skieur est facile et peut engendrer des cassures linéaires petites à moyennes (taille 1 à 2).\n- Plus bas, un simple skieur peut déclencher dans les pentes raides de petites avalanches (taille 1) dans la neige récente et tombante, parfois mais plus rarement des moyennes (taille 2).\n\nDéparts spontanés :\n- Au-dessus de 2200m, des départs ponctuels de plaques décrites ci-dessus restent possibles, par surcharge par le vent, engendrant des avalanches petites à moyennes (taille 1 à 2).\n- Plus bas, de petites avalanches dans la neige récente (taille 1) sont possibles dès la matinée puis au fil des chutes de neige de la journée dans les pentes raides. Des avalanches moyennes (taille 2) restent parfois possibles, mais plus rares.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Déficitaire, mais encore correct pour la saison au-dessus de 2200/2300 m, où de belles accumulations sont présentes. Enneigement débutant encore en nord vers 2000 m dans les bonnes configurations. Plusieurs centimètres de neige fraîche tombés ce mardi au fil de la journée et des averses dès 2000/2100m environ.\n\nÉtat de la neige : \n- Neige travaillée par le vent au-dessus de 2500m environ dans les secteurs ombragés (allant du nord-ouest au nord-est). Quelques petits centimètres supplémentaires de neige en journée ce mercredi.\n- Plus bas, plusieurs centimètres de neige fraîche au petit matin mercredi sont possibles dès 2000/2100m environ, s'humidifiant progressivement en journée. Cette neige fraîche repose le plus souvent sur une neige ancienne, assez dense, voire de type névé, fréquemment de couleur ocre avec des poussières désertiques en surface. Quelques petites chutes de neige en journée ce mercredi.",
+      "text": "Enneigement : Enneigement encore correct pour la saison au-dessus de 2200/2300 m, où de belles accumulations sont présentes. L'altitude d'enneigement débute plus bas ce vendredi, autour de 1800/1900m, avec les chutes de neige de jeudi. Quelques centimètres de neige possibles dès 1500m vendredi matin, puis dès 1300/1400m en journée avec les averses.\nÉtat de la neige : \nPlusieurs centimètres de neige fraîche sont présents au-dessus de 1800m ce vendredi matin. La neige est bien travaillée par le vent au-dessus de 2200m dans les versants allant du Nord au Sud-Est, les crêtes et sommets en face Ouest peuvent être dégarnis. Elles repose plus bas sur un manteau neigeux dur de type névé. Quelques centimètres de neige fraîche possibles au petit matin vendredi au-dessus de 1500m, potentiellement dès 1300/1400m en journée vendredi au fil des chutes de neige.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 2100,
-        "south": 2400
+        "north": 1800,
+        "south": 1900
       },
       "levels_cm": [
         {
@@ -148,13 +148,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 0,
-          "S": 0
+          "N": 10,
+          "S": 5
         },
         {
           "alt_m": 2500,
-          "N": 155,
-          "S": 20
+          "N": 180,
+          "S": 45
         }
       ],
       "icon_key": "snowpack",

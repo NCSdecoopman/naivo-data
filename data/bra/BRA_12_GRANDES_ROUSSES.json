@@ -3,31 +3,31 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-05-12T17:00:00",
-    "valid_until": "2026-05-13T18:00:00",
+    "issued_at": "2026-05-14T16:00:00",
+    "valid_until": "2026-05-15T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2400m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2200,
+        "threshold_m": 2400,
         "split_axis": "horizontal",
-        "split_label": "2200m",
+        "split_label": "2400m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
-            "risk": 1,
+            "loc": "<2400",
+            "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2200",
-            "risk": 2,
+            "loc": ">2400",
+            "risk": 3,
             "evolution_to": null,
             "position": "top"
           }
@@ -37,26 +37,26 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2200m"
+          "label": "2400m"
         },
         "zones": {
           "bottom": {
-            "text": "1",
-            "risk": 1,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           },
           "top": {
-            "text": "2",
-            "risk": 2,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-05-14",
-        "label": "Indice de risque limité",
-        "comment": "risque en baisse avec un temps plus sec à venir.",
+        "max_level": 3,
+        "date": "2026-05-16",
+        "label": "Indice de risque marqué",
+        "comment": "Risque en baisse avec l'arret progressif des précipitations demain vendredi.",
         "trend": "steady"
       }
     },
@@ -79,26 +79,16 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 4,
+      "secondary": 1,
       "labels": {
         "2": "Neige ventée",
-        "4": "Neige humide"
+        "1": "Neige fraîche"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-08",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-05-09",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-10",
           "min_cm": 0,
@@ -118,28 +108,38 @@
           "date": "2026-05-13",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-14",
+          "min_cm": 3,
+          "max_cm": 5
+        },
+        {
+          "date": "2026-05-15",
+          "min_cm": 5,
+          "max_cm": 10
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 8,
+        "last_48h_max_cm": 15
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES PLAQUES DE NEIGE VENTEE EN ALTITUDE",
-      "text": "QUELQUES PLAQUES DE NEIGE VENTEE EN ALTITUDE \n\nDans la nuit de lundi à mardi, 15 à 20 cm de neige fraiche sont tombés avec un vent de Nord-Ouest parfois tempétueux.\nDéclenchements provoqués :\nDe nombreuses plaques se sont formées en altitude dans la neige récente. Elles sont présentes en tout versants, mais plus nombreuses sous le vent ( généralement en versants Est / Sud-Est). Ces plaques sont généralement peu épaisses, mais peuvent être encore très réactives le matin.  Les plaques se stabilisent en cours de journée au soleil, mais restent plus sensibles dans les versants Nord raides. \nLors d'éclaircies, avec le soleil de mai, neige devenant humide / collante, avec le risque d'un départ en neige humide sous les skis. \n\nDéparts spontanés :\nMercredi, l'humidification de la neige récente se poursuit sous les éclaircies et quelques avalanches sont envisageables dans les pentes suffisamment raides, surtout sous les rochers et corniches. Généralement de tailles petites à moyennes ( selon l'épaisseur de neige récente).",
+      "title": "NOUVELLES PLAQUES A VENT",
+      "text": "NOUVELLES PLAQUES A VENT\n\nChutes de neige qui continuent cette nuit de jeudi à vendredi et vendredi en journée, accompagnées d'un vent de Sud-ouest modéré.\nDéclenchements provoqués :\nDe nombreuses plaques se forment en altitude dans la neige récente. Elles peuvent être présentes en tout versant mais sont plus réactives en secteurs Nord d'altitude (au-dessus de 2400/2600m environ) où de la neige froide était déjà présente avant les chutes. Sous le vent en altitude, elles pourront prendre l'aspect de plaque dure près des crêtes, plutôt friables dans les secteurs plus abrités du vent. Les plaques se multiplient en cours de journée et sont particulièrement sensibles et mobilisant une plus grosse épaisseur dans les versants nords. Sous 2200/2400m, les plaques sont moins nombreuses et l'épaisseur mobilisable bien plus faible.\n\n\nDéparts spontanés :\nVendredi, au fur et à mesure des chutes de neige en journée, le risque de départs spontanés augmente. Ainsi, au-dessus de 2000/2400m, ou le manteau était encore bien présent on note la possibilité de départs spontanés de petites et moyennes tailles. Très rarement, un départ de plus grande ampleur est possible à très haute altitude venant solliciter les anciennes couches.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est déficitaire en bas du massif, puis devient correct en combes d'altitude au dessus de 2100/2400m suivant le versant... La neige prévue camoufle parfois herbes et roches, prudence\nLimites skiables : Vers 1700/1900m en Nord à 2200/2400m en versants ensoleillés. \n\nQualité de la neige mercredi :  10 à 20cm de neige fraîche dés 2200m, localement 30  en altitude. Neige cartonnée par le vent en altitude. En journée la neige s'humidifie rapidement au soleil, devenant lourde et collante. Neige restant plus froide dans les pentes nord suffisament raides pour rester ombragées.",
+      "text": "Qualification de l’enneigement :  L'enneigement est déficitaire en bas du massif, puis devient correct en combes d'altitude (grâce aux récentes précipitations) au dessus de 2000/2200m suivant le versant...\nLa neige prévue camoufle parfois herbes et roches, prudence.\n\nLimites skiables : Vers 1800/2000m avec les dernières chutes de neige.\n\nQualité de la neige vendredi :  10 à 15cm de neige fraîche dés 1500m, localement 20cm en altitude. Neige cartonnée par le vent en altitude, encore légère et fraiche partout ailleurs. D'ici vendredi soir, 15 à 20cm supplémentaires.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1800,
-        "south": 1800
+        "south": 2000
       },
       "levels_cm": [
         {
@@ -149,8 +149,8 @@
         },
         {
           "alt_m": 2000,
-          "N": 30,
-          "S": 10
+          "N": 25,
+          "S": 5
         },
         {
           "alt_m": 2500,

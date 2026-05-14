@@ -3,32 +3,32 @@
   "massif": "Vanoise",
   "bulletin": {
     "id": 10,
-    "issued_at": "2026-05-12T17:00:00",
-    "valid_until": "2026-05-13T18:00:00",
+    "issued_at": "2026-05-14T16:00:00",
+    "valid_until": "2026-05-15T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2300m indice de risque limité évoluant en marqué, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2500,
+        "threshold_m": 2300,
         "split_axis": "horizontal",
-        "split_label": "2500m",
+        "split_label": "2300m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2500",
+            "loc": "<2300",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2500",
+            "loc": ">2300",
             "risk": 2,
-            "evolution_to": null,
+            "evolution_to": 3,
             "position": "top"
           }
         ]
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2500m"
+          "label": "2300m"
         },
         "zones": {
           "bottom": {
@@ -46,18 +46,18 @@
             "evolution_to": null
           },
           "top": {
-            "text": "2",
+            "text": "2→3",
             "risk": 2,
-            "evolution_to": null
+            "evolution_to": 3
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-14",
+        "date": "2026-05-16",
         "label": "Indice de risque limité",
-        "comment": "Une nouvelle perturbation engendre des conditions hivernales dès la moyenne montagne. Le manteau de surface regagne en instabilité.",
-        "trend": "steady"
+        "comment": "Fin de l'épisode perturbé avec tout de même encore  de rares averses en journée. L'air  reste frais, stabilisation rapide de la neige fraiche et donc risque en baisse.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -68,7 +68,7 @@
         "SE": false,
         "S": false,
         "SW": false,
-        "W": false,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -78,27 +78,16 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 4,
+      "primary": 1,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
-        "4": "Neige humide"
+        "1": "Neige fraîche"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-08",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-05-09",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-10",
           "min_cm": 0,
@@ -116,30 +105,40 @@
         },
         {
           "date": "2026-05-13",
-          "min_cm": 0,
-          "max_cm": 0
+          "min_cm": 1,
+          "max_cm": 4
+        },
+        {
+          "date": "2026-05-14",
+          "min_cm": 2,
+          "max_cm": 10
+        },
+        {
+          "date": "2026-05-15",
+          "min_cm": 3,
+          "max_cm": 10
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 20
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE EN ALTITUDE.",
-      "text": "QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE EN ALTITUDE.\n\nDéclenchements provoqués : au-dessus de 2500m, et plutôt dans les versants NO à Est -là où la neige est restée froide-, la neige récente ventée héberge quelques structures de plaques friables. Elles engendrent des avalanches petites à moyennes. Observable : accumulation de neige fraîche. \nEn très haute montagne, la problématique concerne toutes les orientations car le vent a maintenu la neige bien froide. En versant Nord (>3000 m), les plaques sont plus réactives et les volumes mobilisables plus importants.  \n\nDéparts spontanés : quelques départs ponctuels (boulettes/escargots/avalanches en poires) se manifestent dans les pentes suffisamment raides au départ des cailloux et des corniches, en suivant la course du Soleil. Plus probables le matin : en versant NE, puis E, puis SE. Avalanches petites, rarement de taille moyenne. \n\nAutres : chutes de corniche possibles. Les ponts de neige au-dessus des ruisseaux sont fragiles.",
+      "title": "CHUTES DE NEIGE EN COURS GENERANT DE NOUVELLES INSTABILITES",
+      "text": "CHUTES DE NEIGE EN COURS GENERANT DE NOUVELLES INSTABILITES\n\nDéclenchements provoqués :  De nouvelles plaques se forment avec les chutes ventées en cours depuis ce mercredi soir qui vont finir par faire un cumul ce vendredi soir de 20/30 cm au dessus  de 2000m et localement 40 cm au-dessus de 2500m (secteur glacière de Val Thorens ). Ces chutes  accompagnées d'un vent soutenu forment  progressivement  de nouvelles plaques sur couche fragile temporaire. On les trouvera un peu en tous versants déjà enneigés  mais elles sont plus épaisses  dans les versants N à Est -là où la neige est restée froide depuis les derniers épisodes.  Ces plaques temporaires vont  être sensible à la surcharge ce vendredi  engendrant des plaques friables d'abord petites puis moyennes là ou le cumul de fraiche deviendra conséquent  . Observable : accumulation conséquente  de neige fraîche hétérogène. \n\nDéparts spontanés : quelques départs ponctuels ou en plaques sont possibles pendant les chutes surtout dans les pentes les plus raides du massif qui vont se purger en premier.   Avalanches petites, rarement de taille moyenne. \n\nAutres :  Sous 2300m la neige fraiche va tomber en trop faible quantité, et surtout sur un sol nu ou de la neige de névé,  pour générer autre chose que de petites avalanches de plaques dans de rares zones d'accumulation",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent, semble commencer à un peu mieux s'enneiger.\n\nLimite skiable : vers 1900/2000 m en nord, 2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : grâce à la dernière chute de neige, il est possible de trouver de la neige fraîche à des altitudes modestes (sous 3000 m), probablement en versant NO, à E. Dans les pentes abritées du vent, on peut trouver 15 cm de neige poudreuse dense. Au fil des heures, la neige chauffe et se met à coller. La poudre appartient à celles et ceux qui se lèvent tôt. \nDans les autres orientations, la neige est croutée au réveil. Avec le Soleil, elle chauffe et devient collante. \nEn très haute montagne, la neige est restée froide. Dans les pentes Nord raides et épargnées du vent fort, grâce aux chutes de neiges passées, on trouve 30/40 cm de neige meuble.",
+      "text": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. Les chutes en cours ne compenseront pas durablement ce déficit \n\nLimite skiable : vers 2100 m en nord,  2400 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige :Petite couche de neige fraiche dès 1500/1600m ce vendredi  matin qui va encore s'épaissir un peu  en journée au fil  des averses. Cependant là ou cette neige fraiche repose sur un sol nu elle va vite devenir collante et même  fondre, et ce  même à travers les nuages. Plus haut  cette neige fraiche repose sur les chutes récentes qui se sont croutées assez vite sauf en nord au dessus de 2500/2800m ou la neige a pu  restée froide. Dans ces secteurs de haute altitude, surtout à l'ouest du massif plus concernés par les chutes,  on pourra facilement trouver ce vendredi après midi plus de 30/40 cm de fraiche souvent travaillée/plaquée par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 2000,
-        "south": 2000
+        "south": 2400
       },
       "levels_cm": [
         {
@@ -150,7 +149,7 @@
         {
           "alt_m": 2000,
           "N": 10,
-          "S": 10
+          "S": 0
         },
         {
           "alt_m": 2500,
