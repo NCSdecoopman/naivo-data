@@ -3,8 +3,8 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-05-14T16:00:00",
-    "valid_until": "2026-05-15T18:00:00",
+    "issued_at": "2026-05-15T17:00:00",
+    "valid_until": "2026-05-16T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-05-16",
-        "label": "Indice de risque marqué",
-        "comment": "Risque en baisse avec l'arret progressif des précipitations demain vendredi.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-05-17",
+        "label": "Indice de risque limité",
+        "comment": "Risque en baisse avec le tassement et l'humidifcation progressive du manteau.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-10",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-11",
           "min_cm": 0,
           "max_cm": 0
@@ -116,46 +111,51 @@
         },
         {
           "date": "2026-05-15",
-          "min_cm": 3,
-          "max_cm": 5
+          "min_cm": 5,
+          "max_cm": 10
+        },
+        {
+          "date": "2026-05-16",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 6,
+        "last_48h_min_cm": 5,
         "last_48h_max_cm": 10
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOUVELLES PLAQUES A VENT",
-      "text": "NOUVELLES PLAQUES A VENT\n\nChutes de neige qui continuent cette nuit de jeudi à vendredi et vendredi en journée, accompagnées d'un vent de Sud-ouest modéré.\nDéclenchements provoqués :\nDe nombreuses plaques se forment en altitude dans la neige récente. Elles peuvent être présentes en tout versant mais sont plus réactives en secteurs Nord d'altitude (au-dessus de 2400/2600m environ) où de la neige froide était déjà présente avant les chutes. Sous le vent en altitude, elles pourront prendre l'aspect de plaque dure près des crêtes, plutôt friables dans les secteurs plus abrités du vent. Les plaques se multiplient en cours de journée et sont particulièrement sensibles et mobilisant une plus grosse épaisseur dans les versants nords. Sous 2200/2400m, les plaques sont moins nombreuses et l'épaisseur mobilisable bien plus faible.\n\n\nDéparts spontanés :\nVendredi, au fur et à mesure des chutes de neige en journée, le risque de départs spontanés augmente. Ainsi, au-dessus de 2000/2400m, ou le manteau était encore bien présent on note la possibilité de départs spontanés de petites et moyennes tailles. Très rarement, un départ de plus grande ampleur est possible à très haute altitude venant solliciter les anciennes couches.",
+      "title": "INSTABILITES DANS LA NEIGE RECENTE",
+      "text": "INSTABILITES DANS LA NEIGE RECENTE\n\nConditions encore hivernales en montagne.\n\nCes derniers jours ont amené des chutes de neige jusqu'à basse altitude parfois ventées.\nDéclenchements provoqués :\nDes plaques se sont fomés en alttiude dans la neige récente. Elles peuvent être présentes en tout versant mais sont plus réactives en secteurs Nord d'altitude (au-dessus de 2400/2600m environ) où de la neige froide était déjà présente avant les chutes. Sous le vent en altitude, elles pourront prendre l'aspect de plaque dure près des crêtes, plutôt friables dans les secteurs plus abrités du vent.  Sous 2200/2400m, les plaques sont moins nombreuses et l'épaisseur mobilisable bien plus faible. En cours de journées,  à la faveur des éclairciesn quelques départs sous les skis en neige humide sont possibles, ils sont en général de petite taille, rarement moyenne.\n\n\nDéparts spontanés :\nLe risque de départs spontanés en altitude reste présent. Ainsi, au-dessus de 2400/2600m, ou le manteau était encore bien présent on note la possibilité de départs spontanés de petites et moyennes tailles. Très rarement, un départ de plus grande ampleur est possible à très haute altitude venant solliciter les anciennes couches. L'après-midi en versants ensoleillés, des départs humides de petite à moyenne taille sont possibles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est déficitaire en bas du massif, puis devient correct en combes d'altitude (grâce aux récentes précipitations) au dessus de 2000/2200m suivant le versant...\nLa neige prévue camoufle parfois herbes et roches, prudence.\n\nLimites skiables : Vers 1800/2000m avec les dernières chutes de neige.\n\nQualité de la neige vendredi :  10 à 15cm de neige fraîche dés 1500m, localement 20cm en altitude. Neige cartonnée par le vent en altitude, encore légère et fraiche partout ailleurs. D'ici vendredi soir, 15 à 20cm supplémentaires.",
+      "text": "Qualification de l’enneigement :  L'enneigement est déficitaire en bas du massif, puis devient correct en combes d'altitude (grâce aux récentes précipitations) au dessus de 2000/2200m suivant le versant...\nLa neigerécente camoufle parfois herbes et roches, prudence.\n\nLimites skiables : Vers 1800/2000m avec les dernières chutes de neige.\n\nQualité de la neige samedi :  15 à 20cm de neige fraîche dés 1500m, localement 25cm en altitude. Neige cartonnée par le vent en altitude, encore légère et fraiche partout ailleurs.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1700,
-        "south": 1900
+        "north": 1400,
+        "south": 1400
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 0,
-          "S": 0
+          "N": 5,
+          "S": 5
         },
         {
           "alt_m": 2000,
-          "N": 25,
-          "S": 10
+          "N": 30,
+          "S": 15
         },
         {
           "alt_m": 2500,
-          "N": 190,
-          "S": 45
+          "N": 200,
+          "S": 55
         }
       ],
       "icon_key": "snowpack",

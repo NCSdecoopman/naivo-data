@@ -3,30 +3,30 @@
   "massif": "Haute-Bigorre",
   "bulletin": {
     "id": 66,
-    "issued_at": "2026-05-14T16:00:00",
-    "valid_until": "2026-05-15T18:00:00",
+    "issued_at": "2026-05-15T16:00:00",
+    "valid_until": "2026-05-16T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2100m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2200,
+        "threshold_m": 2100,
         "split_axis": "horizontal",
-        "split_label": "2200m",
+        "split_label": "2100m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2200",
+            "loc": "<2100",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2200",
+            "loc": ">2100",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2200m"
+          "label": "2100m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-16",
+        "date": "2026-05-17",
         "label": "Indice de risque limité",
-        "comment": "Maintien d'un risque limité, encore quelques petites chutes de neige dès 1300/1400m, radoucissement progressif l'après-midi.",
+        "comment": "Maintien d'un risque limité. Quelques averses de neige au-dessus de 2100/2200m dans une atmosphère plus douce. Humidification progressive.",
         "trend": "steady"
       }
     },
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-10",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-11",
           "min_cm": 0,
           "max_cm": 0
@@ -116,45 +111,50 @@
         {
           "date": "2026-05-15",
           "min_cm": 5,
-          "max_cm": 11
+          "max_cm": 12
+        },
+        {
+          "date": "2026-05-16",
+          "min_cm": 0,
+          "max_cm": 2
         }
       ],
       "totals": {
-        "last_48h_min_cm": 15,
-        "last_48h_max_cm": 33
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 14
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Quelques plaques en altitude, chutes de neige plus bas.",
-      "text": "Quelques plaques en altitude, chutes de neige plus bas.\n\nDéclenchements provoqués : \n- Au-dessus de 2200m, dans les pentes raides des versants allant du Nord au Sud-Est, des plaques à vent se forment au fil des chutes de neige de la journée, sous l'effet du vent de Nord-Ouest. Elles viennent se superposer à des plaques déjà en place issues des chutes de neige précédentes. Leur déclenchement par un simple skieur est facile et peut engendrer des cassures linéaires petites à moyennes (taille 1 à 2), plus rarement grandes (taille 3) dans les zones d'accumulation les plus importantes.\n- Plus bas, un simple skieur peut déclencher dans les pentes raides de petites avalanches (taille 1) dans la neige récente et tombante, parfois mais plus rarement des moyennes (taille 2).\n\nDéparts spontanés :\n- Au-dessus de 2200m, des départs ponctuels de plaques décrites ci-dessus restent possibles, par surcharge par le vent, engendrant des avalanches petites à moyennes (taille 1 à 2), plus rarement des grandes (taille 3) dans les zones d'accumulation les plus importantes.\n- Plus bas, de petites avalanches dans la neige récente (taille 1) sont possibles dès la matinée puis au fil des chutes de neige de la journée dans les pentes raides. Des avalanches moyennes (taille 2) restent parfois possibles, mais plus rares.",
+      "title": "Quelques plaques en altitude, neige récente s'humidifiant progressivement plus bas.",
+      "text": "Quelques plaques en altitude, neige récente s'humidifiant progressivement plus bas.\n\nDéclenchements provoqués : \n- Au-dessus de 2100 à 2200m, dans les pentes raides des versants allant du Nord au Sud-Est, quelques plaques à vent sont en place. Elles sont parfois assez épaisses, constituées de la superposition de neige de la veille et celle plus ancienne. Ces plaques sont potentiellement recouvertes d'une fine couche de neige tombant en journée. Leur déclenchement, facile par un simple skieur, peut engendrer des cassures linéaires petites à moyennes (taille 1 à 2), plus rarement grandes (taille 3) dans les zones d'accumulation les plus importantes.\n- Plus bas, un simple skieur peut déclencher dans les pentes raides des départs ponctuels dans la neige récente dès la matinée, puis dans cette neige récente s'humidifiant dans les versants au fil de la journée. De petites avalanches sont attendues (taille 1), parfois mais plus rarement des moyennes (taille 2).\n\nDéparts spontanés :\n- Au-dessus de 2100 à 2200m, des départs ponctuels de plaques décrites ci-dessus restent possibles, par surcharge par le vent, engendrant des avalanches petites à moyennes (taille 1 à 2), plus rarement des grandes (taille 3) dans les zones d'accumulation les plus importantes.\n- Plus bas, de petites avalanches (taille 1) sont possibles dans les pentes raides dès la matinée et dans la neige récente, parfois mais plus rarement des moyennes (taille 2). Des avalanches petites à parfois mais plus rarement moyennes (taille 1 à 2) sont possibles ensuite dans la neige s'humidifiant dans les pentes raides des versants au fil de la journée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Enneigement encore correct pour la saison au-dessus de 2200/2300 m, où de belles accumulations sont présentes. L'altitude d'enneigement débute plus bas ce vendredi, autour de 1800/1900m, avec les chutes de neige de jeudi. Quelques centimètres de neige possibles dès 1500m vendredi matin, puis dès 1300/1400m en journée avec les averses.\nÉtat de la neige : \nPlusieurs centimètres de neige fraîche sont présents au-dessus de 1800m ce vendredi matin. La neige est bien travaillée par le vent au-dessus de 2200m dans les versants allant du Nord au Sud-Est, les crêtes et sommets en face Ouest peuvent être dégarnis. Elles repose plus bas sur un manteau neigeux dur de type névé. Quelques centimètres de neige fraîche possibles au petit matin vendredi au-dessus de 1500m, potentiellement dès 1300/1400m en journée vendredi au fil des chutes de neige.",
+      "text": "Enneigement : Enneigement encore très correct pour la saison au-dessus de 2200/2300m, où de belles accumulations sont présentes. L'altitude d'enneigement débute plus bas ce samedi matin, potentiellement dès 1500/1600m avec les chutes de neige de la veille. Petits centimètres de neige possibles aussi au petit matin dès 1300m puis au fil de la journée et des petites averses. L'altitude d'enneigement tend à remonter progressivement en journée avec le radoucissement.\nÉtat de la neige : \nQuelques centimètres de neige fraîche sont présents au-dessus de 1500/1600m ce samedi matin, voire un petit peu plus bas vers 1300/1400m. La neige est bien travaillée par le vent au-dessus de 2100/2200m dans les versants allant du Nord au Sud-Est, les crêtes et sommets en face Ouest peuvent être dégarnis. La couche de neige associée aux chutes de la veille et aux chutes précédentes repose plus bas sur un manteau neigeux dur de type névé. Petits centimètres de neige fraîche possibles au-dessus de 1300/1400m au fil de la journée samedi et des petites averses.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1800,
-        "south": 1900
+        "north": 1500,
+        "south": 1600
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 0,
+          "N": 10,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 15,
-          "S": 15
+          "N": 35,
+          "S": 25
         },
         {
           "alt_m": 2500,
-          "N": 205,
-          "S": 50
+          "N": 215,
+          "S": 60
         }
       ],
       "icon_key": "snowpack",

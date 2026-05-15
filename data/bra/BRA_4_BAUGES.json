@@ -3,8 +3,8 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-05-14T16:00:00",
-    "valid_until": "2026-05-15T18:00:00",
+    "issued_at": "2026-05-15T16:00:00",
+    "valid_until": "2026-05-16T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -53,23 +53,23 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-05-16",
-        "label": "Indice de risque limité",
-        "comment": "Samedi : assez nuageux et frais avec quelques averses l’après-midi. Un peu de vent de nord\n⇒ les rares plaques à vent formées jeudi et vendredi se stabilisent doucement, risque en légère baisse.",
-        "trend": "steady"
+        "max_level": 1,
+        "date": "2026-05-17",
+        "label": "Indice de risque faible",
+        "comment": "Belles éclaircies et températures en hausse. Stabilisation du manteau neigeux.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
-        "NW": false
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -79,20 +79,16 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": null,
+      "secondary": 4,
       "labels": {
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-10",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-11",
           "min_cm": 1,
@@ -115,30 +111,35 @@
         },
         {
           "date": "2026-05-15",
-          "min_cm": 7,
-          "max_cm": 10
+          "min_cm": 8,
+          "max_cm": 12
+        },
+        {
+          "date": "2026-05-16",
+          "min_cm": 0,
+          "max_cm": 2
         }
       ],
       "totals": {
-        "last_48h_min_cm": 17,
-        "last_48h_max_cm": 25
+        "last_48h_min_cm": 8,
+        "last_48h_max_cm": 14
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Petit hiver",
-      "text": "Petit hiver\n\nDéclenchements provoqués :\n* rares plaques à vent dans la neige fraiche, formées jeudi et vendredi par le fort vent de sud-ouest, au-dessus de 2000 m dans les versants nord/nord-est. Facile à  déclencher. Taille 1 à 2 (petite à moyenne). \nObservables : fissures sous les skis, accumulation de neige récente, vaguelettes, transport de neige par le vent.\n* un peu de neige fraiche peut couler sous les skis (sluff). Taille 1.  \n\nDéparts spontanés :\n* très rares avalanches de neige fraiche, surtout sous les plus fortes averses ou les éclaircies, Très petite sous 2000 m et petite au-dessus.",
+      "title": "Petit hiver. Instabilités dans la neige récente.",
+      "text": "Petit hiver. Instabilités dans la neige récente.\n\nDéclenchements provoqués :\n* Rares plaques à vent dans la neige fraiche, au-dessus de 2000 m, plus nombreuses et épaisses en montant en altitude. Assez faciles à déclencher. Taille 1 à 2 (petite à moyenne). Ces plaques se sont formées jeudi et vendredi par le fort vent de sud-ouest, et dans une moindre mesure dans la nuit de vendredi à samedi par le vent de nord.\nObservables : fissures sous les skis, accumulation de neige récente, vaguelettes, transport de neige par le vent.\n* Au-dessus de 2000 m : de la neige récente, au fil du réchauffement en journée, peut couler sous les skis et peut entrainer de plus gros volumes de neige. Taille 1 à 2. Départs également possibles sous 2000 m, mais avec de plus petits volumes, taille 1.\n\nDéparts spontanés :\n* Au-dessus de 2000 m : départs ponctuels dans la neige fraiche s'humidifiant au fil de la journée. Ces départs ponctuels entrainent des volumes plus importants. Taille 1 à 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire. \nOn peut chausser les skis au-dessus de 1700 m (sous-couche uniquement dans les versants nord au-dessus de 2000 m). \n\nQualité de la neige ce vendredi matin : \nVers 1200/1800 m : 3/7 cm de neige fraiche, fondant en journée sous une éclaircie. \nAu-dessus de 1800 m, 5/15 cm de neige fraîche reposant sur de la vielle neige humide, versants ouest souvent décapés.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire. \nNeige récente présente dès 1400/1500m en début de matinée, 15/20 cm vers 2000 m.\nEncore un peu de neige ancienne au-dessus de 2000 m en nord.\n\nQualité de la neige ce samedi :\nSous 2000 m, neige récente légèrement humide à humide, légèrement regelée en début de matinée. Cette neige s'humidifie progressivement en journée.\nAu-dessus de 2000 m, 15/20 cm de neige récente légère, ventée proche des crêtes et des sommets. Localement croutée dans les adrets. Versants ouest souvent décapés.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1500,
-        "south": 1500
+        "north": 1100,
+        "south": 1100
       },
       "levels_cm": [
         {
@@ -148,13 +149,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 1,
-          "S": 1
+          "N": 10,
+          "S": 10
         },
         {
           "alt_m": 2000,
-          "N": 20,
-          "S": 15
+          "N": 30,
+          "S": 25
         }
       ],
       "icon_key": "snowpack",
