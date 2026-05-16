@@ -3,8 +3,8 @@
   "massif": "Cerdagne Canigou",
   "bulletin": {
     "id": 74,
-    "issued_at": "2026-05-15T17:00:00",
-    "valid_until": "2026-05-16T18:00:00",
+    "issued_at": "2026-05-16T16:00:00",
+    "valid_until": "2026-05-17T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-17",
+        "date": "2026-05-18",
         "label": "Indice de risque limité",
-        "comment": "Avec le redoux et les pluies risque d'avalanches en neige humide en augmentation tandis qu'un risque d'avalanche en neige venté en haute-montagne pourrait persister très localement.",
+        "comment": "Maintien d'un risque limité avec l'humidification qui remonte en altitude et des instabilités encore présentes en haute montagne.",
         "trend": "steady"
       }
     },
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-11",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-12",
           "min_cm": 0,
           "max_cm": 0
@@ -116,23 +111,28 @@
         {
           "date": "2026-05-16",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
+        },
+        {
+          "date": "2026-05-17",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 2
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Possibles structures de plaques peu épaisses en altitude",
-      "text": "Possibles structures de plaques peu épaisses en altitude\n\nDéclenchements provoqués :\nAu-dessus de 2200m, de petites structures de plaques facilement déclenchables ont pu se former ces derniers jours et vont se former sous l'effet du vent d'ouest à nord-ouest. Des cassures de 20 à 30 cm sont localement envisageables. La couche fragile temporaire est constituée le plus souvent de neige moins dense ou de neige roulée.\nDéparts spontanés :\nQuelques départs ponctuels de taille 1  sont attendus en neige humide dans la neige récente s'humidifiant au gré des éclaircies.\n\nAutres : vu les températures certains sentiers peuvent se retrouver verglacés notamment au lever du jour et provoquer la chute du randonneur.",
+      "title": "Des conditions encore fraîches pour mi-mai avec quelques structures de plaques en altitude",
+      "text": "Des conditions encore fraîches pour mi-mai avec quelques structures de plaques en altitude\n\nDéclenchements provoqués :\nAu-dessus de 2400m, des structures de plaques facilement déclenchables ont pu se former dans les récentes chutes de neige et sous l'action du vent d'ouest à nord-ouest. Des accumulations et des cassures de 20 à 30 cm sont localement envisageables. La couche fragile temporaire est constituée le plus souvent de neige moins dense ou de neige roulée et se stabilise progressivement.\nObservables : surface travaillée par le vent, neige de surface hétérogène avec changement de qualité ou quantité de neige.\n\nDéparts spontanés :\nDéparts le plus souvent ponctuels dans les pentes raides avec la neige récente qui s'humifie dès le début de journée sous les éclaircies puis en journée avec la remontée des températures. Les avalanches seront principalement de petite taille (taille 1) sous 2200m, avec quelques tailles moyennes (taille 2) possibles au-dessus de 2200m.\n\nAutres : Avec les gelées matinales, certains sentiers peuvent se retrouver verglacés notamment au lever du jour et faciliter les chutes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nEnneigement de nos massifs tout juste correct par rapport aux normales jusqu'en moyenne montagne mais encore excédentaire à haute altitude.\nEn nord, la limite d'altitude de la neige est irrégulière, des névés ou des langues de neige pouvant encore descendre jusque vers 1900/2000 m.  Plus haut, on trouve encore de belles accumulations de neige et d'épaisses corniches. A partir de 2400 m (secteur Puigmal) , le manteau neigeux est encore conséquent dans les combes et replats.\nDans les versants moins ombragés,  l'enneigement est de moins en moins continu notamment dans les zones de chaos rocheux ou d'éboulis. Enfin, les cols et crêtes ouest à nord-ouest sont souvent dégarnis jusqu'à haute altitude.\n\nQualité de la neige :\nPetite couche de neige récente dès 2100 m, plus épaisse en s'approchant du Vallespir, avec toutefois une surface qui aura été humidifiée dans les versants ayant pris le soleil vendredi.\nCette neige récente reposera sur un manteau neigeux souvent discontinu, très dense, de type névé, souvent de couleur ocre avec des poussières désertiques en surface.",
+      "text": "Enneigement : \nEnneigement de nos massifs tout juste correct par rapport aux normales jusqu'en moyenne montagne mais encore excédentaire à haute altitude.\nEn nord, la limite d'altitude de la neige est irrégulière, des névés ou des langues de neige pouvant encore descendre jusque vers 1900/2000 m.  Plus haut, on trouve encore de belles accumulations de neige et d'épaisses corniches. À partir de 2400 m (secteur Puigmal) , le manteau neigeux est encore conséquent dans les combes et replats.\nEn versant ensoleillées, l'enneigement est de moins en moins continu notamment dans les zones de chaos rocheux ou d'éboulis. Enfin, les cols et crêtes ouest à nord-ouest sont souvent dégarnis jusqu'à haute altitude.\n\nQualité de la neige :\nDimanche matin, on trouvera une fine couche de neige récente au-delà de 2300/2400 m, souvent travaillée par le vent et avec une couverture hétérogène. Cette neige récente repose sur un manteau neigeux souvent discontinu, très dense, de type névé, souvent de couleur ocre avec des poussières désertiques en surface.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

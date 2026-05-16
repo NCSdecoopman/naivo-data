@@ -3,31 +3,31 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-05-15T17:00:00",
-    "valid_until": "2026-05-16T18:00:00",
+    "issued_at": "2026-05-16T16:00:00",
+    "valid_until": "2026-05-17T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 2400m indice de risque marqué, plus bas indice limité.",
+      "max_level": 2,
+      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2400,
+        "threshold_m": 2500,
         "split_axis": "horizontal",
-        "split_label": "2400m",
+        "split_label": "2500m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2400",
-            "risk": 2,
+            "loc": "<2500",
+            "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2400",
-            "risk": 3,
+            "loc": ">2500",
+            "risk": 2,
             "evolution_to": null,
             "position": "top"
           }
@@ -37,38 +37,38 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2400m"
+          "label": "2500m"
         },
         "zones": {
           "bottom": {
-            "text": "2",
-            "risk": 2,
+            "text": "1",
+            "risk": 1,
             "evolution_to": null
           },
           "top": {
-            "text": "3",
-            "risk": 3,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-17",
+        "date": "2026-05-18",
         "label": "Indice de risque limité",
-        "comment": "Risque en baisse avec le tassement et l'humidifcation progressive du manteau.",
-        "trend": "down"
+        "comment": "Risque d'avalanche en légère baisse lundi. Nuageux, quelques faibles précipitations, neige vers 2200m. Saupoudrage sommital ou tassement/fonte à modestes altitudes...",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
-        "W": true,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -79,21 +79,16 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 1,
+      "secondary": 4,
       "labels": {
         "2": "Neige ventée",
-        "1": "Neige fraîche"
+        "4": "Neige humide"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-11",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-12",
           "min_cm": 0,
@@ -118,34 +113,39 @@
           "date": "2026-05-16",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-17",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITES DANS LA NEIGE RECENTE",
-      "text": "INSTABILITES DANS LA NEIGE RECENTE\n\nConditions encore hivernales en montagne.\n\nCes derniers jours ont amené des chutes de neige jusqu'à basse altitude parfois ventées.\nDéclenchements provoqués :\nDes plaques se sont fomés en alttiude dans la neige récente. Elles peuvent être présentes en tout versant mais sont plus réactives en secteurs Nord d'altitude (au-dessus de 2400/2600m environ) où de la neige froide était déjà présente avant les chutes. Sous le vent en altitude, elles pourront prendre l'aspect de plaque dure près des crêtes, plutôt friables dans les secteurs plus abrités du vent.  Sous 2200/2400m, les plaques sont moins nombreuses et l'épaisseur mobilisable bien plus faible. En cours de journées,  à la faveur des éclairciesn quelques départs sous les skis en neige humide sont possibles, ils sont en général de petite taille, rarement moyenne.\n\n\nDéparts spontanés :\nLe risque de départs spontanés en altitude reste présent. Ainsi, au-dessus de 2400/2600m, ou le manteau était encore bien présent on note la possibilité de départs spontanés de petites et moyennes tailles. Très rarement, un départ de plus grande ampleur est possible à très haute altitude venant solliciter les anciennes couches. L'après-midi en versants ensoleillés, des départs humides de petite à moyenne taille sont possibles.",
+      "title": "NEIGE FROIDE ET VENTEE EN FACES NORD D'ALTITUDE, RARES PLAQUES INSTABLES...",
+      "text": "NEIGE FROIDE ET VENTEE EN FACES NORD D'ALTITUDE, RARES PLAQUES INSTABLES...\n\nRécemment 15/30 cm de neige soufflée en altitude  Amorce de stabilisation, mais aussi quelques coulées/petites avalanches humides possibles lors d'éclaircies...\n\nDéclenchements provoqués :\nDans les pentes d'altitude où la neige est restée sèche (surtout en faces Nord au dessus de 2500m environ en Taillefer, 2800m en Est Oisans),  le risque accidentel serait encore très localement présent. \nGlobalement tassement et moindre instabilités des congères. Cependant on n'exclut pas des sous couches froides à moindre cohésion : risque de cassure accidentelle de plaque assez dure (neige sculptée)... \nVigilance surtout à l'abord des crêtes en zones d'accumulations. Noter que le vent de Sud-Ouest peut chasser encore un peu de neige dimanche après-midi...\nDéparts spontanés :\nEclaircie et rapide humidification superficielle dimanche. On s'attend à de nouvelles coulée ou petites avalanches humides (notamment en altitude) au fil de la course du soleil. Et ce en priorité près des rochers là où demeure une sous-couche.\n\nAutres : Neige localement croutée par regel nocturne, des rochers affleurants. Le ski sera temporairement délicat...",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est déficitaire en bas du massif, puis devient correct en combes d'altitude (grâce aux récentes précipitations) au dessus de 2000/2200m suivant le versant...\nLa neigerécente camoufle parfois herbes et roches, prudence.\n\nLimites skiables : Vers 1800/2000m avec les dernières chutes de neige.\n\nQualité de la neige samedi :  15 à 20cm de neige fraîche dés 1500m, localement 25cm en altitude. Neige cartonnée par le vent en altitude, encore légère et fraiche partout ailleurs.",
+      "text": "Qualification de l’enneigement :  Grâce au récent coup de froid l'enneigement s'est amélioré, là où il y avait une sous-couche.\nPlus bas saupoudrage insuffisant. La neige récente camouffle souvent les rochers, ski délicat... Haute montagne, couloirs et glaciers sont mieux garnis par rapport à la fin avril...\nLimites skiables : Vers 2100/2600m suivant le versant.\n\nQualité de la neige dimanche :  Environ 10 cm de neige récente en alpage et jusque 20/30 cm soufflés en altitude, voire 40 cm vers le Taillefer, La Meije.\nNeige soufflée cartonnée en altitude, encore poudreuse dans quelques combes et couloirs Nord abrités? Sinon neige récente croutée par regel. Au soleil rapide tassement/humidification.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1400,
-        "south": 1400
+        "north": 1500,
+        "south": 1600
       },
       "levels_cm": [
         {
           "alt_m": 1500,
           "N": 5,
-          "S": 5
+          "S": 0
         },
         {
           "alt_m": 2000,
@@ -154,8 +154,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 200,
-          "S": 55
+          "N": 205,
+          "S": 60
         }
       ],
       "icon_key": "snowpack",

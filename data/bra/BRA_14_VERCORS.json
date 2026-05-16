@@ -3,8 +3,8 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-05-15T17:00:00",
-    "valid_until": "2026-05-16T18:00:00",
+    "issued_at": "2026-05-16T16:00:00",
+    "valid_until": "2026-05-17T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-17",
+        "date": "2026-05-18",
         "label": "Indice de risque faible",
-        "comment": "Risque en baisse avec le tassement et l'humidifcation progressive du manteau.",
+        "comment": "Risque d'avalanche en légère baisse lundi.\nIl ne restera pratiquement plus de neige en Vercors ou de petites congères stabilisées...",
         "trend": "steady"
       }
     },
@@ -66,21 +66,16 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 6,
       "secondary": null,
       "labels": {
-        "2": "Neige ventée"
+        "6": "Aucune prédominente"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-6"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-11",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-12",
           "min_cm": 0,
@@ -98,35 +93,40 @@
         },
         {
           "date": "2026-05-15",
-          "min_cm": 10,
+          "min_cm": 5,
           "max_cm": 15
         },
         {
           "date": "2026-05-16",
-          "min_cm": 3,
-          "max_cm": 5
+          "min_cm": 1,
+          "max_cm": 2
+        },
+        {
+          "date": "2026-05-17",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 13,
-        "last_48h_max_cm": 20
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 2
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "GLOBALEMENT STABLE",
-      "text": "GLOBALEMENT STABLE\n\nLe manteau reste dans l'ensemble stable malgré les chutes de neige qui ont eu lieu ces derniers jours en altitude.\nDéparts spontanés : Peu probables dans l'ensemble mais des départs de petite taille sont possibles en altitude, particulièrement en versants Nords ou une sous couche est encore présente. L'après-midi, à la faveur de quelques éclaircies, on peut attendre quelques départs en neige récente humide de petites tailles.\n\nDéclenchements provoqués :  Les chutes de neige des derniers jours ont laissé quelques rares plaques formés en divers versants d'altitude au-dessus de 2000/2100m. Ces plaques sont facilement déclenchables mais reste d'épaisseur limitée. L'après-midi dans les versants ensoleillés, des petits départs en neige humide sont possibles sous les skis.",
+      "title": "PEU DE NEIGE, ASSEZ STABLE",
+      "text": "PEU DE NEIGE, ASSEZ STABLE\n\nLe récent et modeste couvert neigeux (5/15 cm environ) se tasse rapidement, rare coulée spontanée en journée...\nDéparts spontanés : Peu de neige en place et reposant souvent au terrain. Sous couche seulement dans quelques combes Nord sommitales (névés).\nAprès le regel nocturne, rapide humidification au soleil, possibles petites coulées de surface en pentes raides, près des rochers d'altitude.\n\nDéclenchements provoqués :  Peu probable... Ou en neige humide, possible coulée ponctuelle sous les skis ? (sur les névés)",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  L'enneigement est déficitaire pour la saison. Les névés s'amenuisent, souvent cantonnés en Nord d'altitude. Une couche de neige fraiche est maintenant présente au-dessus de 1500m.\n\nQualité de la neige samedi :  Couche de neige fraiche dès 1300/1400m avec 10 à 15cm légèrement ventée, localement 20.",
+      "text": "Qualification de l’enneigement :  Massif récemment saupoudré depuis vendredi mais la petite couche va rapidement s'amenuiser dimanche. Rares pentes skiables vers la haute altitude, là où il restait des névés ?\n\nQualité de la neige dimanche : Neige croutée par regel dimanche matin puis rapide humidification en journée.\nSommets récemment soufflés par vvent de Nord entre petites congères et secteurs dégarnis...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1500,
-        "south": 1500
+        "north": 1400,
+        "south": 1600
       },
       "levels_cm": [
         {
@@ -137,12 +137,12 @@
         {
           "alt_m": 1500,
           "N": 5,
-          "S": 5
+          "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 60,
-          "S": 10
+          "N": 65,
+          "S": 15
         }
       ],
       "icon_key": "snowpack",

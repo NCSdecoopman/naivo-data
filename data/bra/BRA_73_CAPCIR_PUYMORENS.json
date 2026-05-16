@@ -3,8 +3,8 @@
   "massif": "Capcir Puymorens",
   "bulletin": {
     "id": 73,
-    "issued_at": "2026-05-15T17:00:00",
-    "valid_until": "2026-05-16T18:00:00",
+    "issued_at": "2026-05-16T16:00:00",
+    "valid_until": "2026-05-17T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-17",
+        "date": "2026-05-18",
         "label": "Indice de risque limité",
-        "comment": "Avec le redoux et les pluies risque d'avalanches en neige humide en augmentation tandis qu'un risque d'avalanche en neige venté en haute-montagne persiste localement.",
+        "comment": "Maintien d'un risque limité avec l'humidification qui remonte en altitude et des instabilités encore présentes en haute montagne.",
         "trend": "steady"
       }
     },
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-11",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-12",
           "min_cm": 0,
           "max_cm": 0
@@ -110,29 +105,34 @@
         },
         {
           "date": "2026-05-15",
-          "min_cm": 0,
-          "max_cm": 5
+          "min_cm": 1,
+          "max_cm": 3
         },
         {
           "date": "2026-05-16",
           "min_cm": 0,
-          "max_cm": 1
+          "max_cm": 0
+        },
+        {
+          "date": "2026-05-17",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 6
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Structures de plaques peu épaisses en altitude",
-      "text": "Structures de plaques peu épaisses en altitude\n\nDéclenchements provoqués :\nAu-dessus de 2200m, de petites structures de plaques facilement déclenchables ont pu se former ces derniers jours et vont se former sous l'effet du vent d'ouest à nord-ouest. Des cassures de 20 à 30 cm sont localement envisageables, notamment à proximité de l'Ariège. La couche fragile temporaire est constituée le plus souvent de neige moins dense ou de neige roulée.\nDéparts spontanés :\nQuelques départs ponctuels de taille 1  sont attendus en neige humide dans la neige récente s'humidifiant au gré des éclaircies.\n\nAutres : vu les températures certains sentiers peuvent se retrouver verglacés notamment au lever du jour et provoquer la chute du randonneur.",
+      "title": "Des conditions encore hivernales pour mi-mai avec des structures de plaques en altitude et l'humidification progressive de la neige récente.",
+      "text": "Des conditions encore hivernales pour mi-mai avec des structures de plaques en altitude et l'humidification progressive de la neige récente.\n\nDéclenchements provoqués :\nAu-dessus de 2300 à 2400 m, des structures de plaques facilement déclenchables ont pu se former ces derniers jours sous l'effet du vent d'ouest à nord-ouest. Les avalanches sont petites à moyennes avec des plaques peu épaisses mais des cassures de 20 à 30 cm tout de même envisageables notamment proche de l'Ariège. La couche fragile temporaire est constituée le plus souvent de neige moins dense ou de neige roulée.\nObservables : surface travaillée par le vent, neige de surface hétérogène avec changement de qualité ou quantité de neige.\n\nDéparts spontanés :\nDéparts dans la neige récente qui s'humifie dès le début de journée dans les pentes raides prenant le soleil puis en journée en tous versants avec l'arrivée des nuages et des averses. Sous 2100 m, les avalanches seront principalement de petite taille (taille 1) mais au-dessus de 2100m des avalanches de taille moyenne sont possibles dans les secteurs où les cumuls de neige ont été les plus importants.\n\nAutres : Avec des gelées matinales certains sentiers peuvent se retrouver verglacés notamment au lever du jour et faciliter les chutes.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nEnneigement de nos massifs tout juste correct par rapport aux normales jusqu'en moyenne montagne mais encore excédentaire à haute altitude.\nEn nord, sans tenir compte des timides neiges récentes inférieures à 3 jours directement posées au sol,  la limite d'altitude de la neige est irrégulière, des névés ou des langues de neige pouvant encore descendre jusque vers 1600/1700 m.  Plus haut, on trouve encore de belles accumulations de neige et d'épaisses corniches. A partir de 2400 m, le manteau neigeux est encore conséquent dans les combes et replats.\nDans les versants moins ombragés, l'enneigement est de moins en moins continu notamment dans les zones de chaos rocheux ou d'éboulis. Enfin, les cols et crêtes ouest à nord-ouest sont souvent dégarnis jusqu'à haute altitude.\n\nQualité de la neige :\nAu lever du jour petite couche de neige récente dès 1500m posée à même le sol qui s'humidifie en matinée puis disparaît sous 1800m avec la remontée de l'isotherme 0 °C.\nCette neige récente, parfois donc éphémère, repose sur un manteau neigeux souvent discontinu, très dense, de type névé, souvent de couleur ocre avec des poussières désertiques en surface.",
+      "text": "Enneigement : \nEnneigement de nos massifs tout juste correct par rapport aux normales jusqu'en moyenne montagne mais encore excédentaire à haute altitude.\nEn nord, la limite d’altitude est irrégulière avec parfois des langues de neige jusqu’à 1600/1800 m. L’enneigement est plus épais dès 2000m et encore conséquent dès 2400m dans les combes et replats. \nEn versants ensoleillés, l'enneigement est de moins en moins continu notamment dans les zones de chaos rocheux ou d'éboulis. Enfin, les cols et crêtes ouest à nord-ouest sont souvent dégarnis jusqu'à haute altitude.\n\nQualité de la neige :\nDimanche matin, encore une petite couche de neige récente dès 1800 m très éphémère, qui s'humidifie en matinée puis disparaît sous 2300/2500 m avec la hausse des températures.\nCette neige récente, repose sur un manteau neigeux souvent discontinu, très dense, de type névé, souvent de couleur ocre avec des poussières désertiques en surface.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

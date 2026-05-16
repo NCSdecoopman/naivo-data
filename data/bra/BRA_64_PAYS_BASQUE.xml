@@ -1,71 +1,67 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="64" MASSIF="Pays-Basque" DATEBULLETIN="2026-05-15T16:00:00" DATEECHEANCE="2026-05-16T18:00:00" DATEVALIDITE="2026-05-16T18:00:00" DATEDIFFUSION="2026-05-15T15:57:00" AMENDEMENT="false">
-  <DateValidite>2026-05-16T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="64" MASSIF="Pays-Basque" DATEBULLETIN="2026-05-16T16:00:00" DATEECHEANCE="2026-05-17T18:00:00" DATEVALIDITE="2026-05-17T18:00:00" DATEDIFFUSION="2026-05-16T15:48:00" AMENDEMENT="false">
+  <DateValidite>2026-05-17T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="1" COMMENTAIRE="Indice de risque faible." RISQUEMAXIJ2="1" DATE_RISQUE_J2="2026-05-17T00:00:00"/>
+    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="1" COMMENTAIRE="Indice de risque faible." RISQUEMAXIJ2="1" DATE_RISQUE_J2="2026-05-18T00:00:00"/>
     <PENTE NE="false" E="false" SE="false" S="false" SW="false" W="false" NW="false" N="false" COMMENTAIRE=""/>
-    <ACCIDENTEL><![CDATA[Dans la neige récente s'humidifiant au fil de la journée.]]></ACCIDENTEL>
+    <ACCIDENTEL><![CDATA[Difficiles et de petite taille]]></ACCIDENTEL>
     <NATUREL><![CDATA[Petites avalanches dans la neige récente s'humidifiant progressivement.]]></NATUREL>
     <RESUME><![CDATA[Départs spontanés : Petites avalanches dans la neige récente s'humidifiant progressivement.
-Déclenchements skieurs : Dans la neige récente s'humidifiant au fil de la journée.]]></RESUME>
+Déclenchements skieurs : Difficiles et de petite taille]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque faible]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Risque stationnaire, humidification progressive avec le retour de la douceur.]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Poursuite de la fonte]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_64.png</ImageRisque>
     <ImagePente>rose_pentes_64.png</ImagePente>
   </CARTOUCHERISQUE>
   <STABILITE>
-    <SitAvalTyp SAT1="2" SAT2=""/>
-    <TITRE><![CDATA[Enneigement assez faible.]]></TITRE>
+    <SitAvalTyp SAT1="4" SAT2=""/>
+    <TITRE><![CDATA[Conditions hivernales mais enneigement modeste]]></TITRE>
     <TEXTESANSTITRE><![CDATA[Départs spontanés : 
-De petites avalanches sont possibles dans les pentes raides dès la matinée et dans la neige récente, parfois mais plus rarement des moyennes. Des avalanches petites à parfois mais plus rarement moyennes sont possibles ensuite dans la neige s'humidifiant dans les pentes raides des versants au fil de la journée.
+De petites avalanches sont possibles dans les pentes raides dès la matinée et dans la neige récente s'humidifiant, en versants ensoleillés le matin, en toutes expositions l'après-midi.
 
 Déclenchements provoqués :
-Un simple skieur peut déclencher dans les pentes raides des départs ponctuels dans la neige récente dès la matinée, puis dans cette neige récente s'humidifiant dans les versants au fil de la journée. De petites avalanches sont attendues, parfois mais plus rarement des moyennes.]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[Enneigement assez faible.
+Le passage d'un randonneur dans la neige humide peut favoriser un départ ponctuel de petite taille.]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[Conditions hivernales mais enneigement modeste
 
 Départs spontanés : 
-De petites avalanches sont possibles dans les pentes raides dès la matinée et dans la neige récente, parfois mais plus rarement des moyennes. Des avalanches petites à parfois mais plus rarement moyennes sont possibles ensuite dans la neige s'humidifiant dans les pentes raides des versants au fil de la journée.
+De petites avalanches sont possibles dans les pentes raides dès la matinée et dans la neige récente s'humidifiant, en versants ensoleillés le matin, en toutes expositions l'après-midi.
 
 Déclenchements provoqués :
-Un simple skieur peut déclencher dans les pentes raides des départs ponctuels dans la neige récente dès la matinée, puis dans cette neige récente s'humidifiant dans les versants au fil de la journée. De petites avalanches sont attendues, parfois mais plus rarement des moyennes.]]></TEXTE>
+Le passage d'un randonneur dans la neige humide peut favoriser un départ ponctuel de petite taille.]]></TEXTE>
   </STABILITE>
   <QUALITE>
-    <TEXTE><![CDATA[Enneigement : Le massif retrouve un aspect hivernal temporaire. L'altitude d'enneigement peut débuter plus bas ce samedi, potentiellement autour de 1500/1600m avec les chutes de neige de la veille. Petits centimètres de neige fraîche possibles au petit matin samedi dès 1300/1400m puis en journée avec les petites averses. L'altitude d'enneigement tend à remonter progressivement en journée avec le radoucissement.
+    <TEXTE><![CDATA[Enneigement : Le massif retrouve un aspect hivernal temporaire, avec quelques centimètres de neige récente dès 1400m sans sous couche, une épaisseur un peu plus importante à partir de 1700m.
 
-État de la neige : Quelques centimètres de neige fraîche sont présents au-dessus de 1500/1600m ce samedi matin, voire un petit peu plus bas vers 1300/1400m. La couche de neige associée aux chutes de la veille et aux chutes précédentes repose sur un sol nu ou bien sur des langues de neige. Petits centimètres de neige fraîche possibles au-dessus de 1300/1400m au fil de la journée samedi et des petites averses.]]></TEXTE>
+État de la neige : Dimanche matin, une petite croûte de regel en surface, puis la neige récente s'humidifie et fond assez rapidement.]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-05-15T00:00:00" LimiteSud="1600" LimiteNord="1500">
+  <ENNEIGEMENT DATE="2026-05-16T00:00:00" LimiteSud="1500" LimiteNord="1300">
     <NIVEAU ALTI="1000" N="0" S="0"/>
-    <NIVEAU ALTI="1500" N="10" S="0"/>
-    <NIVEAU ALTI="2000" N="30" S="25"/>
+    <NIVEAU ALTI="1500" N="5" S="2"/>
+    <NIVEAU ALTI="2000" N="15" S="10"/>
     <ImageEnneigement>montagne_enneigement_64.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-05-11T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-12T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-13T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-14T00:00:00" SS24Min="12" SS24Max="25"/>
-    <NEIGE24H DATE="2026-05-15T00:00:00" SS24Min="5" SS24Max="15"/>
-    <NEIGE24H DATE="2026-05-16T00:00:00" SS24Min="0" SS24Max="1"/>
+    <NEIGE24H DATE="2026-05-15T00:00:00" SS24Min="5" SS24Max="20"/>
+    <NEIGE24H DATE="2026-05-16T00:00:00" SS24Min="0" SS24Max="0"/>
+    <NEIGE24H DATE="2026-05-17T00:00:00" SS24Min="0" SS24Max="0"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_64.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="1000" ALTITUDEVENT2="2000">
-    <COMMENTAIRE>Ciel assez couvert en journée, faibles averses de neige dès 1200/1300m le matin, plutôt vers 1600/1700m ensuite. Radoucissement progressif.</COMMENTAIRE>
-    <ECHEANCE DATE="2026-05-16T06:00:00" FF1="25" DD1="N" FF2="45" DD2="NO" ISO0="1500" PLUIENEIGE="1200" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-16T12:00:00" FF1="30" DD1="NO" FF2="35" DD2="NO" ISO0="1700" PLUIENEIGE="1400" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-16T18:00:00" FF1="30" DD1="NO" FF2="35" DD2="NO" ISO0="2000" PLUIENEIGE="1600" TEMPSSENSIBLE="81" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-17T00:00:00" FF1="10" DD1="NE" FF2="25" DD2="N" ISO0="2300" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
+    <COMMENTAIRE>Assez ensoilé en matinée sous des nuages élevés, puis retour d'averses l'après-midi, sous forme de pluie.</COMMENTAIRE>
+    <ECHEANCE DATE="2026-05-17T06:00:00" FF1="10" DD1="NE" FF2="25" DD2="N" ISO0="2300" PLUIENEIGE="1800" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-05-17T12:00:00" FF1="15" DD1="N" FF2="20" DD2="NO" ISO0="2200" PLUIENEIGE="2000" TEMPSSENSIBLE="3" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-05-17T18:00:00" FF1="20" DD1="N" FF2="20" DD2="NO" ISO0="2400" PLUIENEIGE="2200" TEMPSSENSIBLE="70" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-05-18T00:00:00" FF1="10" DD1="NE" FF2="15" DD2="N" ISO0="2400" PLUIENEIGE="2100" TEMPSSENSIBLE="71" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_64.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-05-09T06:00:00" FF1="40" DD1="S" FF2="70" DD2="S" ISO0="2900" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-05-09T12:00:00" FF1="15" DD1="S" FF2="35" DD2="S" ISO0="2900" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
-      <ECHEANCE DATE="2026-05-09T18:00:00" FF1="25" DD1="SE" FF2="50" DD2="S" ISO0="2800" PLUIENEIGE="2500" TEMPSSENSIBLE="90"/>
-      <ECHEANCE DATE="2026-05-10T00:00:00" FF1="65" DD1="S" FF2="80" DD2="S" ISO0="2800" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
       <ECHEANCE DATE="2026-05-10T06:00:00" FF1="50" DD1="S" FF2="70" DD2="S" ISO0="2700" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-05-10T12:00:00" FF1="50" DD1="S" FF2="70" DD2="S" ISO0="2600" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
       <ECHEANCE DATE="2026-05-10T18:00:00" FF1="65" DD1="O" FF2="80" DD2="SO" ISO0="2600" PLUIENEIGE="2300" TEMPSSENSIBLE="90"/>
@@ -90,13 +86,12 @@ Un simple skieur peut déclencher dans les pentes raides des départs ponctuels 
       <ECHEANCE DATE="2026-05-15T12:00:00" FF1="30" DD1="N" FF2="50" DD2="NO" ISO0="1500" PLUIENEIGE="1300" TEMPSSENSIBLE="80"/>
       <ECHEANCE DATE="2026-05-15T18:00:00" FF1="40" DD1="N" FF2="50" DD2="NO" ISO0="1500" PLUIENEIGE="1300" TEMPSSENSIBLE="80"/>
       <ECHEANCE DATE="2026-05-16T00:00:00" FF1="25" DD1="N" FF2="40" DD2="NO" ISO0="1400" PLUIENEIGE="1200" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2026-05-16T06:00:00" FF1="25" DD1="N" FF2="45" DD2="NO" ISO0="1500" PLUIENEIGE="1200" TEMPSSENSIBLE="61"/>
+      <ECHEANCE DATE="2026-05-16T12:00:00" FF1="30" DD1="NO" FF2="35" DD2="NO" ISO0="1700" PLUIENEIGE="1400" TEMPSSENSIBLE="61"/>
+      <ECHEANCE DATE="2026-05-16T18:00:00" FF1="30" DD1="NO" FF2="35" DD2="NO" ISO0="2000" PLUIENEIGE="1800" TEMPSSENSIBLE="81"/>
+      <ECHEANCE DATE="2026-05-17T00:00:00" FF1="10" DD1="NE" FF2="25" DD2="N" ISO0="2300" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-05-09T00:00:00" LimiteSud="0" LimiteNord="2000">
-        <NIVEAU ALTI="1000" N="0" S="0"/>
-        <NIVEAU ALTI="1500" N="0" S="0"/>
-        <NIVEAU ALTI="2000" N="2" S="0"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-05-10T00:00:00" LimiteSud="0" LimiteNord="2000">
         <NIVEAU ALTI="1000" N="0" S="0"/>
         <NIVEAU ALTI="1500" N="0" S="0"/>
@@ -127,23 +122,28 @@ Un simple skieur peut déclencher dans les pentes raides des départs ponctuels 
         <NIVEAU ALTI="1500" N="10" S="0"/>
         <NIVEAU ALTI="2000" N="30" S="25"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-05-16T00:00:00" LimiteSud="1500" LimiteNord="1300">
+        <NIVEAU ALTI="1000" N="0" S="0"/>
+        <NIVEAU ALTI="1500" N="5" S="2"/>
+        <NIVEAU ALTI="2000" N="15" S="10"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-05-10T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-11T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-12T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-13T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-14T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-15T00:00:00" SS24Min="12" SS24Max="25"/>
+      <NEIGE24H DATE="2026-05-16T00:00:00" SS24Min="5" SS24Max="20"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-05-09T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-10T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-11T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-12T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-13T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-14T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-15T00:00:00" RISQUEMAXI="1"/>
+      <RISQUE DATE="2026-05-16T00:00:00" RISQUEMAXI="1"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_64.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_64.png</Image7derniersjours_portrait>
