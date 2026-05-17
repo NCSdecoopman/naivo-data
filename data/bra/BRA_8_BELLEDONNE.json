@@ -3,49 +3,37 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-05-16T16:00:00",
-    "valid_until": "2026-05-17T18:00:00",
+    "issued_at": "2026-05-17T16:00:00",
+    "valid_until": "2026-05-18T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2500,
-        "split_axis": "horizontal",
-        "split_label": "2500m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2500",
-            "risk": 1,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2500",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2500m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
+          "center": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -53,11 +41,11 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-05-18",
-        "label": "Indice de risque limité",
-        "comment": "Risque d'avalanche en légère baisse lundi. Nuageux, quelques faibles précipitations, neige vers 2200m. Saupoudrage sommital ou tassement/ fonte à modestes altitudes...",
-        "trend": "steady"
+        "max_level": 1,
+        "date": "2026-05-19",
+        "label": "Indice de risque faible",
+        "comment": "Risque d'avalanche en légère baisse mardi : Nuages/ douceur. Tassement ou fonte de la couche de neige récente. Moins de risque de coulée spontané et anciens névés stables...",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -69,7 +57,7 @@
         "S": false,
         "SW": false,
         "W": false,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -78,22 +66,16 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
         "4": "Neige humide"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-12",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-13",
           "min_cm": 0,
@@ -118,44 +100,49 @@
           "date": "2026-05-17",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-18",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 3
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NEIGE FROIDE ET VENTEE EN FACES NORD D'ALTITUDE, RARES PETITES PLAQUES INSTABLES...",
-      "text": "NEIGE FROIDE ET VENTEE EN FACES NORD D'ALTITUDE, RARES PETITES PLAQUES INSTABLES...\n\nRécemment 30/50 cm de neige soufflée en altitude. Amorce de stabilisation, mais aussi quelques petites avalanches humides possibles lors d'éclaircies...\n\nDéclenchements provoqués :\nDans les pentes d'altitude où la neige est restée sèche (surtout en faces Nord au dessus de 2300/2500m environ),  le risque accidentel serait encore très localement présent. \nGlobalement tassement et moindre instabilités des congères. Cependant on n'exclut pas des sous couches froides à moindre cohésion : risque de cassure accidentelle de plaque assez dure (neige sculptée)... \nVigilance surtout à l'abord des crêtes en zones d'accumulations. Noter que le vent de Sud-Ouest peut chasser encore un peu de neige dimanche après-midi...\nDéparts spontanés :\nEclaircie et rapide humidification superficielle dimanche. On s'attend à de nouvelles coulées ou petites avalanches humides au fil de la course du soleil ;  en priorité près des rochers là où demeure une sous-couche.\n\nAutres : Neige régulièrement croutée par regel nocturne, des rochers affleurants. Le ski sera  temporairement délicat...",
+      "title": "QUELQUES INSTABILITES DE SURFACE (SURTOUT EN NEIGE HUMIDE)...",
+      "text": "QUELQUES INSTABILITES DE SURFACE (SURTOUT EN NEIGE HUMIDE)...\n\nIl reste 30/40 cm de neige récente en versants froids d'altitude. Amorce de stabilisation, mais avec les petites pluies prévues, de possibles nouvelles coulées humides, notamment en pentes Nord...\nDéparts spontanés :\nPas de regel sous 2400m et humidification lundi en toutes orientations jusque vers 2500 voire 2800m.\nEn faces Nord notamment on s'attend à quelques nouvelles coulées spontanées ou petites avalanches humides.\nEn faces Sud moins de neige en place et plus dense déjà...\nDéclenchements provoqués :\nLà où la neige est bien humide en surface, en pentes soutenues, un skieur pourrait facilement amorcer une coulée ponctuelle. Accroche assez médiocre sous le fond plus dense/ferme ? Il reste davantage de neige en faces \"ombragées\"...\nEnfin en faces Nord sommitales, il peut rester un peu de neige froide ventée, une rupture de mince plaque n'est pas totalement exclue.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  Grâce au récent coup de froid l'enneigement s'est amélioré, à nouveau skiable dans certaines pentes herbeuses dès 1700/2000m. Absence de sous couche en Sud jusque 2200/2500m parfois. La neige récente camouffle régulièrement les rochers, ski délicat...\nLimites skiables : Vers 1800/2200m environ.\n\nQualité de la neige dimanche :  10/20 cm de neige récente en alpage et jusque 30/50 cm parfois soufflés en altitude.\nNeige soufflée cartonnée ou durcie en altitude, encore poudreuse dans de rares combes Nord ? Sinon neige récente croutée par regel. Au soleil rapide tassement/humidification.",
+      "text": "Qualification de l’enneigement :  Grâce au récent coup de froid l'enneigement s'est récemment amélioré, mais lundi les limites skiables remontent à nouveau,  rochers parfois juste recouverts. En revanche les combes d'altitude restent bien enneigées. \nLimites skiables : Vers 1800/2300m environ, parfois plus haut en Sud raide.\n\nQualité de la neige lundi :   Neige bien humide jusque vers 2300 puis 2500/2700m suivant les faibles précipitations et le éclaircies.\nLocalement saupoudrage de neige fraîche possible en altitude...\nNeige de surface plus collante à pourrie en faces Nord, où le soleil l'a moins transformée...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1500,
-        "south": 1700
+        "south": 1800
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 5,
+          "N": 2,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 100,
-          "S": 25
+          "N": 95,
+          "S": 20
         },
         {
           "alt_m": 2500,
           "N": 230,
-          "S": 80
+          "S": 75
         }
       ],
       "icon_key": "snowpack",

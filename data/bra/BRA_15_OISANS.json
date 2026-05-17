@@ -3,49 +3,37 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-05-16T16:00:00",
-    "valid_until": "2026-05-17T18:00:00",
+    "issued_at": "2026-05-17T16:00:00",
+    "valid_until": "2026-05-18T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2500,
-        "split_axis": "horizontal",
-        "split_label": "2500m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2500",
-            "risk": 1,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2500",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2500m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
+          "center": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -54,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-18",
+        "date": "2026-05-19",
         "label": "Indice de risque limité",
-        "comment": "Risque d'avalanche en légère baisse lundi. Nuageux, quelques faibles précipitations, neige vers 2200m. Saupoudrage sommital ou tassement/fonte à modestes altitudes...",
+        "comment": "Risque d'avalanche stationnaire ou en légère baisse mardi : Nuages, humidification sous 2700m, saupoudrage de fraîche en altitude...",
         "trend": "steady"
       }
     },
@@ -90,11 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-12",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-13",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +101,11 @@
           "date": "2026-05-17",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-18",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,35 +115,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NEIGE FROIDE ET VENTEE EN FACES NORD D'ALTITUDE, RARES PLAQUES INSTABLES...",
-      "text": "NEIGE FROIDE ET VENTEE EN FACES NORD D'ALTITUDE, RARES PLAQUES INSTABLES...\n\nRécemment 15/30 cm de neige soufflée en altitude  Amorce de stabilisation, mais aussi quelques coulées/petites avalanches humides possibles lors d'éclaircies...\n\nDéclenchements provoqués :\nDans les pentes d'altitude où la neige est restée sèche (surtout en faces Nord au dessus de 2500m environ en Taillefer, 2800m en Est Oisans),  le risque accidentel serait encore très localement présent. \nGlobalement tassement et moindre instabilités des congères. Cependant on n'exclut pas des sous couches froides à moindre cohésion : risque de cassure accidentelle de plaque assez dure (neige sculptée)... \nVigilance surtout à l'abord des crêtes en zones d'accumulations. Noter que le vent de Sud-Ouest peut chasser encore un peu de neige dimanche après-midi...\nDéparts spontanés :\nEclaircie et rapide humidification superficielle dimanche. On s'attend à de nouvelles coulée ou petites avalanches humides (notamment en altitude) au fil de la course du soleil. Et ce en priorité près des rochers là où demeure une sous-couche.\n\nAutres : Neige localement croutée par regel nocturne, des rochers affleurants. Le ski sera temporairement délicat...",
+      "title": "QUELQUES INSTABILITES DE SURFACE...",
+      "text": "QUELQUES INSTABILITES DE SURFACE...\n\nIl reste 15/30 cm de neige récente en versants froids d'altitude (notamment en haut du Taillefer et vers La Meije). Amorce de stabilisation, mais avec les petites pluies prévues, de possibles nouvelles coulées humides, notamment en pentes Nord jusque vers 2600/2800m environ...\nDéparts spontanés :\nPas de regel sous 2400m et humidification lundi en toutes orientations jusque vers 2600 voire 2800m. En faces Nord notamment on s'attend à quelques nouvelles coulées spontanées ou petites avalanches humides.\nEn faces Sud moins de neige en place et plus dense déjà...\nDéclenchements provoqués :\nEn faces Nord d'altitude, à l'abord des crêtes (au dessus de 2800/3000m environ), il peut rester un peu de neige froide ventée. Une rupture accidentelle de mince plaque n'est pas totalement exclue (sous le vent d'Ouest).\nLà où la neige est bien humide en surface, en pentes soutenues, un skieur pourrait facilement amorcer une coulée ponctuelle. Accroche assez médiocre sur le fond plus dense/ferme ?",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  Grâce au récent coup de froid l'enneigement s'est amélioré, là où il y avait une sous-couche.\nPlus bas saupoudrage insuffisant. La neige récente camouffle souvent les rochers, ski délicat... Haute montagne, couloirs et glaciers sont mieux garnis par rapport à la fin avril...\nLimites skiables : Vers 2100/2600m suivant le versant.\n\nQualité de la neige dimanche :  Environ 10 cm de neige récente en alpage et jusque 20/30 cm soufflés en altitude, voire 40 cm vers le Taillefer, La Meije.\nNeige soufflée cartonnée en altitude, encore poudreuse dans quelques combes et couloirs Nord abrités? Sinon neige récente croutée par regel. Au soleil rapide tassement/humidification.",
+      "text": "Qualification de l’enneigement :  Grâce au récent coup de froid l'enneigement s'est récemment amélioré, mais lundi les limites skiables remontent à nouveau. Rochers parfois juste recouverts....En revanche les combes/couloirs d'altitude et glaciers sont bien enneigés... \nLimites skiables : Vers 2000/2500m environ, parfois plus haut en Sud raide.\n\nQualité de la neige lundi :   Neige bien humide jusque vers 2400 puis 2600/2800m suivant les faibles précipitations et le éclaircies.\nLocalement saupoudrage de neige fraîche possible en altitude... Il peut rester un peu de neige froide (poudreuse ou ventée) en Nord raide supérieur à 2800/3000m environ.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1500,
-        "south": 1600
+        "north": 1800,
+        "south": 2200
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 5,
+          "N": 0,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 30,
-          "S": 15
+          "N": 25,
+          "S": 0
         },
         {
           "alt_m": 2500,
           "N": 205,
-          "S": 60
+          "S": 55
         }
       ],
       "icon_key": "snowpack",

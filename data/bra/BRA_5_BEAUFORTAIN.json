@@ -3,30 +3,30 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-05-16T16:00:00",
-    "valid_until": "2026-05-17T18:00:00",
+    "issued_at": "2026-05-17T16:00:00",
+    "valid_until": "2026-05-18T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2600m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2500,
+        "threshold_m": 2600,
         "split_axis": "horizontal",
-        "split_label": "2500m",
+        "split_label": "2600m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2500",
+            "loc": "<2600",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2500",
+            "loc": ">2600",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2500m"
+          "label": "2600m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-18",
+        "date": "2026-05-19",
         "label": "Indice de risque limité",
-        "comment": "Faiblement perturbé, averses localement orageuses et poursuite du redoux, risque stationnaire.",
+        "comment": "Poursuite du redoux, nuages et averses l'après midi. Stabilisation et petite activité en neige humide.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-12",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-13",
           "min_cm": 2,
           "max_cm": 7
@@ -118,22 +113,27 @@
           "date": "2026-05-17",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-18",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 2,
-        "last_48h_max_cm": 2
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITES EN NEIGE VENTéE",
-      "text": "INSTABILITES EN NEIGE VENTéE\n\nCONDITIONS REMARQUABLEMENT HIVERNALES EN MONTAGNE POUR UNE MI-MAI.\nDéclenchements provoqués :\n-Quelques plaques friables ou dures sont en place dans la neige récente ventée. En perte de réactivité, ces structures de plaques temporaires occasionnent encore de petites à moyennes avalanches. On les retrouve près des crêtes et des ruptures de pentes. Elles sont plus fréquentes, réactives et volumineuses au dessus de 2500 m dans les versants nord car la neige des derniers épisodes y est restée froide et transportable. Observables : accumulations, neige localement plus dense, whoompfs.\n-Quelques coulées de neige alourdie sous les skis après quelques heures de réchauffement. Petites à moyennes avalanches.\n\nDéparts spontanés :\n-petites coulées de neige humide en pentes raides et en versants ensoleillés.\n\nAutres :\nChute de corniches possibles.",
+      "title": "RARES INSTABILITES VENTéE EN ALTITUDE",
+      "text": "RARES INSTABILITES VENTéE EN ALTITUDE\n\nDéclenchements provoqués :\n-Rares plaques friables ou dures en place dans la neige récente ventée. De moins en moins réactives, ces structures de plaques temporaires peuvent encore donner une petite à moyenne avalanche. On les trouve au dessus 2600 m dans les versants nord,  près des crêtes et des ruptures de pentes. Observables : accumulations, neige localement plus dense, whoompfs.\n-Quelques coulées de neige alourdie sous les skis après quelques heures de réchauffement. Petites à moyennes avalanches.\n\nDéparts spontanés :\n-petites coulées de neige humide en pentes raides et en versants ensoleillés.\n\nAutres :\nChute de corniches possibles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive cet avril. Les chutes récentes ne compenseront pas durablement ce déficit \n\nLimite skiable : vers 1900 m en nord,  2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : \nBon regel, le matin neige souvent croûtée sauf en nord au dessus de 2500 m où la neige a pu rester froide mais est souvent travaillée par le vent, densifiée ou durcie. En journée la neige s'humifie, collante puis vite très alourdie d'abord en est, partout ensuite avec le réchauffement.",
+      "text": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive cet avril. Les chutes récentes ne compenseront pas durablement ce déficit \n\nLimite skiable : vers 1900 m en nord,  2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : Mauvais regel, le matin neige souvent molle et collante sous les 2300 m, au dessus neige souvent croûtée. Plus haut en nord elle est travaillée par le vent, densifiée ou durcie. En journée la neige est vite très alourdie partout avec le réchauffement. En nord au dessus de 2600 la neige est collante et botte.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -149,7 +149,7 @@
         },
         {
           "alt_m": 2000,
-          "N": 40,
+          "N": 35,
           "S": 5
         },
         {

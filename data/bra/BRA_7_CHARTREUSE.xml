@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="7" MASSIF="Chartreuse" DATEBULLETIN="2026-05-16T16:00:00" DATEECHEANCE="2026-05-17T18:00:00" DATEVALIDITE="2026-05-17T18:00:00" DATEDIFFUSION="2026-05-16T15:44:00" AMENDEMENT="false">
-  <DateValidite>2026-05-17T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="7" MASSIF="Chartreuse" DATEBULLETIN="2026-05-17T16:00:00" DATEECHEANCE="2026-05-18T18:00:00" DATEVALIDITE="2026-05-18T18:00:00" DATEDIFFUSION="2026-05-17T15:37:00" AMENDEMENT="false">
+  <DateValidite>2026-05-18T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="1" COMMENTAIRE="Indice de risque faible." RISQUEMAXIJ2="1" DATE_RISQUE_J2="2026-05-18T00:00:00"/>
-    <PENTE NE="false" E="false" SE="false" S="false" SW="false" W="false" NW="false" N="false" COMMENTAIRE="Rares sommitales"/>
+    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="1" COMMENTAIRE="Indice de risque faible." RISQUEMAXIJ2="1" DATE_RISQUE_J2="2026-05-19T00:00:00"/>
+    <PENTE NE="false" E="false" SE="false" S="false" SW="false" W="false" NW="false" N="true" COMMENTAIRE="Rares/sommitales"/>
     <ACCIDENTEL><![CDATA[Peu probable ou coulée ponctuelle sous les skis ?]]></ACCIDENTEL>
-    <NATUREL><![CDATA[Peu d'activité ou des coulées humides au soleil vers les pentes sommitales...]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : Peu d'activité ou des coulées humides au soleil vers les pentes sommitales...
+    <NATUREL><![CDATA[Peu d'activité ou une rare coulée humide en face Nord sommitale ? Neige récente glissant sur les névés...]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : Peu d'activité ou une rare coulée humide en face Nord sommitale ? Neige récente glissant sur les névés...
 Déclenchements skieurs : Peu probable ou coulée ponctuelle sous les skis ?]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque faible]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Risque d'avalanche en légère baisse lundi.
-Il ne restera pratiquement plus de neige en Chartreuse ou de petites congères stabilisées...]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Risque en légère baisse mardi, il ne restera pratiquement plus de neige en Chartreuse...]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_7.png</ImageRisque>
@@ -19,55 +18,52 @@ Il ne restera pratiquement plus de neige en Chartreuse ou de petites congères s
   </CARTOUCHERISQUE>
   <STABILITE>
     <SitAvalTyp SAT1="6" SAT2=""/>
-    <TITRE><![CDATA[PEU DE NEIGE, ASSEZ STABLE]]></TITRE>
-    <TEXTESANSTITRE><![CDATA[Le récent et modeste couvert neigeux (10/20 cm environ sur l'herbe) se tasse rapidement, rare coulée spontanée en journée...
+    <TITRE><![CDATA[DE MOINS EN MOINS DE NEIGE... RARE COULEE HUMIDE ?]]></TITRE>
+    <TEXTESANSTITRE><![CDATA[Le récent et modeste couvert neigeux (15/20 cm environ en faces Nord) s'humidifie et fond rapidement...
 Départs spontanés : Peu de neige en place et reposant souvent au terrain. Sous couche seulement dans de rares faces Nord sommitales.
-Après le regel nocturne, rapide humidification au soleil, possibles petites coulées de surface en pentes herbeuse raides, près des rochers d'altitude.
+Avec les petites pluies ou ondées envisagées lundi, possible coulée superficielle en Nord d'altitude, là où restait des névés ?
 
-Déclenchements provoqués :  Peu probable... Ou en neige humide, possible coulée ponctuelle sous les skis ?]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[PEU DE NEIGE, ASSEZ STABLE
+Déclenchements provoqués :  Peu probable... Ou très localement possible coulée (humide) ponctuelle sous les skis ?]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[DE MOINS EN MOINS DE NEIGE... RARE COULEE HUMIDE ?
 
-Le récent et modeste couvert neigeux (10/20 cm environ sur l'herbe) se tasse rapidement, rare coulée spontanée en journée...
+Le récent et modeste couvert neigeux (15/20 cm environ en faces Nord) s'humidifie et fond rapidement...
 Départs spontanés : Peu de neige en place et reposant souvent au terrain. Sous couche seulement dans de rares faces Nord sommitales.
-Après le regel nocturne, rapide humidification au soleil, possibles petites coulées de surface en pentes herbeuse raides, près des rochers d'altitude.
+Avec les petites pluies ou ondées envisagées lundi, possible coulée superficielle en Nord d'altitude, là où restait des névés ?
 
-Déclenchements provoqués :  Peu probable... Ou en neige humide, possible coulée ponctuelle sous les skis ?]]></TEXTE>
+Déclenchements provoqués :  Peu probable... Ou très localement possible coulée (humide) ponctuelle sous les skis ?]]></TEXTE>
   </STABILITE>
   <QUALITE>
-    <TEXTE><![CDATA[Qualification de l’enneigement :  Massif récemment blanchi depuis vendredi mais la petite couche va rapidement s'amenuiser dimanche. Rares pentes herbeuses skiables vers la haute altitude ?
+    <TEXTE><![CDATA[Qualification de l’enneigement :  La petite couche de neige récente s'amenuise...
+Très rares secteurs skiables vers la haute altitude, plutôt au Nord ? La Chartreuse va redevenir de plus en plus verte... 
 
-Qualité de la neige dimanche : Neige croutée par regel dimanche matin puis rapide humidification en journée.
-Sommets récemment soufflés entre congères et secteurs dégarnis...]]></TEXTE>
+Qualité de la neige lundi : Pas de regel a priori, neige très humide ou fonte.
+De petites congères résistent un peu mieux en altitude....]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-05-16T00:00:00" LimiteSud="1400" LimiteNord="1200">
+  <ENNEIGEMENT DATE="2026-05-17T00:00:00" LimiteSud="1600" LimiteNord="1400">
     <NIVEAU ALTI="1000" N="0" S="0"/>
-    <NIVEAU ALTI="1500" N="20" S="10"/>
-    <NIVEAU ALTI="2000" N="80" S="40"/>
+    <NIVEAU ALTI="1500" N="10" S="0"/>
+    <NIVEAU ALTI="2000" N="60" S="30"/>
     <ImageEnneigement>montagne_enneigement_7.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-05-12T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-13T00:00:00" SS24Min="1" SS24Max="2"/>
     <NEIGE24H DATE="2026-05-14T00:00:00" SS24Min="10" SS24Max="20"/>
     <NEIGE24H DATE="2026-05-15T00:00:00" SS24Min="15" SS24Max="25"/>
     <NEIGE24H DATE="2026-05-16T00:00:00" SS24Min="1" SS24Max="3"/>
     <NEIGE24H DATE="2026-05-17T00:00:00" SS24Min="0" SS24Max="0"/>
+    <NEIGE24H DATE="2026-05-18T00:00:00" SS24Min="0" SS24Max="0"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_7.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="1500" ALTITUDEVENT2="2000">
-    <COMMENTAIRE>Temps sec. Nuit de samedi à dimanche froide. Dimanche éclaircies et nuages élevés inoffensifs, redoux...</COMMENTAIRE>
-    <ECHEANCE DATE="2026-05-17T06:00:00" FF1="10" DD1="NE" FF2="15" DD2="N" ISO0="1800" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-17T12:00:00" FF1="15" DD1="NO" FF2="10" DD2="S" ISO0="2200" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-17T18:00:00" FF1="20" DD1="NO" FF2="15" DD2="SO" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-18T00:00:00" FF1="10" DD1="SO" FF2="15" DD2="SO" ISO0="2300" PLUIENEIGE="-1" TEMPSSENSIBLE="2" MERNUAGES="-1"/>
+    <COMMENTAIRE>Temps passagèrement nuageux, brèves trouées. Quelques gouttes de pluies, voire une averse orageuse lundi après-midi ?</COMMENTAIRE>
+    <ECHEANCE DATE="2026-05-18T06:00:00" FF1="10" DD1="SO" FF2="20" DD2="SO" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="4" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-05-18T12:00:00" FF1="15" DD1="O" FF2="15" DD2="SO" ISO0="2300" PLUIENEIGE="2100" TEMPSSENSIBLE="71" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-05-18T18:00:00" FF1="25" DD1="NO" FF2="20" DD2="SO" ISO0="2400" PLUIENEIGE="2100" TEMPSSENSIBLE="70" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-05-19T00:00:00" FF1="10" DD1="N" FF2="15" DD2="NO" ISO0="2200" PLUIENEIGE="2000" TEMPSSENSIBLE="51" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_7.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-05-10T06:00:00" FF1="15" DD1="NE" FF2="25" DD2="SE" ISO0="2900" PLUIENEIGE="2600" TEMPSSENSIBLE="51"/>
-      <ECHEANCE DATE="2026-05-10T12:00:00" FF1="15" DD1="SO" FF2="40" DD2="S" ISO0="2700" PLUIENEIGE="2400" TEMPSSENSIBLE="51"/>
-      <ECHEANCE DATE="2026-05-10T18:00:00" FF1="30" DD1="O" FF2="45" DD2="S" ISO0="2800" PLUIENEIGE="2500" TEMPSSENSIBLE="71"/>
-      <ECHEANCE DATE="2026-05-11T00:00:00" FF1="25" DD1="SO" FF2="35" DD2="SO" ISO0="2600" PLUIENEIGE="2300" TEMPSSENSIBLE="70"/>
       <ECHEANCE DATE="2026-05-11T06:00:00" FF1="25" DD1="SO" FF2="45" DD2="S" ISO0="2400" PLUIENEIGE="2100" TEMPSSENSIBLE="70"/>
       <ECHEANCE DATE="2026-05-11T12:00:00" FF1="25" DD1="SO" FF2="35" DD2="SO" ISO0="2400" PLUIENEIGE="2200" TEMPSSENSIBLE="71"/>
       <ECHEANCE DATE="2026-05-11T18:00:00" FF1="25" DD1="SO" FF2="35" DD2="O" ISO0="2400" PLUIENEIGE="2100" TEMPSSENSIBLE="90"/>
@@ -92,13 +88,12 @@ Sommets récemment soufflés entre congères et secteurs dégarnis...]]></TEXTE>
       <ECHEANCE DATE="2026-05-16T12:00:00" FF1="5" DD1="N" FF2="15" DD2="N" ISO0="1500" PLUIENEIGE="1200" TEMPSSENSIBLE="71"/>
       <ECHEANCE DATE="2026-05-16T18:00:00" FF1="5" DD1="NO" FF2="10" DD2="NO" ISO0="1800" PLUIENEIGE="1500" TEMPSSENSIBLE="71"/>
       <ECHEANCE DATE="2026-05-17T00:00:00" FF1="5" DD1="E" FF2="10" DD2="N" ISO0="1800" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
+      <ECHEANCE DATE="2026-05-17T06:00:00" FF1="10" DD1="NE" FF2="15" DD2="N" ISO0="1800" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
+      <ECHEANCE DATE="2026-05-17T12:00:00" FF1="15" DD1="NO" FF2="10" DD2="S" ISO0="2200" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-05-17T18:00:00" FF1="20" DD1="NO" FF2="15" DD2="SO" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-05-18T00:00:00" FF1="10" DD1="SO" FF2="15" DD2="SO" ISO0="2300" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-05-10T00:00:00" LimiteSud="0" LimiteNord="1900">
-        <NIVEAU ALTI="1000" N="0" S="0"/>
-        <NIVEAU ALTI="1500" N="0" S="0"/>
-        <NIVEAU ALTI="2000" N="40" S="0"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-05-11T00:00:00" LimiteSud="0" LimiteNord="1900">
         <NIVEAU ALTI="1000" N="0" S="0"/>
         <NIVEAU ALTI="1500" N="0" S="0"/>
@@ -129,23 +124,28 @@ Sommets récemment soufflés entre congères et secteurs dégarnis...]]></TEXTE>
         <NIVEAU ALTI="1500" N="20" S="10"/>
         <NIVEAU ALTI="2000" N="80" S="40"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-05-17T00:00:00" LimiteSud="1600" LimiteNord="1400">
+        <NIVEAU ALTI="1000" N="0" S="0"/>
+        <NIVEAU ALTI="1500" N="10" S="0"/>
+        <NIVEAU ALTI="2000" N="60" S="30"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-05-11T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-12T00:00:00" SS24Min="2" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-13T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-14T00:00:00" SS24Min="1" SS24Max="2"/>
       <NEIGE24H DATE="2026-05-15T00:00:00" SS24Min="10" SS24Max="20"/>
       <NEIGE24H DATE="2026-05-16T00:00:00" SS24Min="15" SS24Max="25"/>
+      <NEIGE24H DATE="2026-05-17T00:00:00" SS24Min="1" SS24Max="3"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-05-10T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-11T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-12T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-13T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-14T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-05-15T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-05-16T00:00:00" RISQUEMAXI="1"/>
+      <RISQUE DATE="2026-05-17T00:00:00" RISQUEMAXI="1"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_7.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_7.png</Image7derniersjours_portrait>
