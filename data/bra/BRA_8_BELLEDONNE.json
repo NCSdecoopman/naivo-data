@@ -3,8 +3,8 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-05-17T16:00:00",
-    "valid_until": "2026-05-18T18:00:00",
+    "issued_at": "2026-05-18T16:00:00",
+    "valid_until": "2026-05-19T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,23 +41,23 @@
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-05-19",
-        "label": "Indice de risque faible",
-        "comment": "Risque d'avalanche en légère baisse mardi : Nuages/ douceur. Tassement ou fonte de la couche de neige récente. Moins de risque de coulée spontané et anciens névés stables...",
-        "trend": "down"
+        "max_level": 2,
+        "date": "2026-05-20",
+        "label": "Indice de risque limité",
+        "comment": "Mercredi, retour de conditions printanières voire estivales. Temps ensoleillé et important redoux avec un isotherme 0°C en hausse vers 3200m. Les plaques deviennent franchement rares, mais des coulées humides sont encore possibles au soleil, surtout en Nord d'alitutde.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
+        "E": true,
         "SE": false,
         "S": false,
         "SW": false,
-        "W": false,
-        "NW": false
+        "W": true,
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -76,11 +76,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-13",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-14",
           "min_cm": 5,
@@ -105,6 +100,11 @@
           "date": "2026-05-18",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-19",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,35 +114,35 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES INSTABILITES DE SURFACE (SURTOUT EN NEIGE HUMIDE)...",
-      "text": "QUELQUES INSTABILITES DE SURFACE (SURTOUT EN NEIGE HUMIDE)...\n\nIl reste 30/40 cm de neige récente en versants froids d'altitude. Amorce de stabilisation, mais avec les petites pluies prévues, de possibles nouvelles coulées humides, notamment en pentes Nord...\nDéparts spontanés :\nPas de regel sous 2400m et humidification lundi en toutes orientations jusque vers 2500 voire 2800m.\nEn faces Nord notamment on s'attend à quelques nouvelles coulées spontanées ou petites avalanches humides.\nEn faces Sud moins de neige en place et plus dense déjà...\nDéclenchements provoqués :\nLà où la neige est bien humide en surface, en pentes soutenues, un skieur pourrait facilement amorcer une coulée ponctuelle. Accroche assez médiocre sous le fond plus dense/ferme ? Il reste davantage de neige en faces \"ombragées\"...\nEnfin en faces Nord sommitales, il peut rester un peu de neige froide ventée, une rupture de mince plaque n'est pas totalement exclue.",
+      "title": "CONDITIONS HIVERNALES EN HAUTE MONTAGNE LE MATIN, MANTEAU S'HUMIDIFIANT EN JOURNEE SOUS LE REDOUX",
+      "text": "CONDITIONS HIVERNALES EN HAUTE MONTAGNE LE MATIN, MANTEAU S'HUMIDIFIANT EN JOURNEE SOUS LE REDOUX  \n\nDéparts spontanés : \nAvec le redoux prévu en cours de journée, la neige encore froide au réveil s'humidifie à partir de la fin de matinée. Des avalanches naturelles sont à prévoir dans un très large secteur Nord, partout où la neige se transforme (au-dessus de 2600m ?). L'épaisseur de neige mobilisable peut-être localement importante et générer des avalanches petites à moyennes (taille 1 à 2). L'activité sera plus faible dans les pentes ayant déjà chauffées les jours précédents (notamment le très large secteur Sud).\n\nDéclenchements provoqués : \n- Rares plaques peu épaisses dans la neige récente restée froide, au-dessus de 2600 m dans un large secteur Nord. Elles deviennent difficiles à déclencher avec la poursuite de la stabilisation sous le redoux en journée. \nObservable : accumulation conséquente de neige meuble. \n- Là où la neige s'alourdit en cours de journée avec le redoux, coulées sous les skis en coupant une pente suffisamment raide. Petites à moyennes avalanches.\n\nAutres : chute de corniches possibles, les ponts de neige sur les torrents sont fragiles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  Grâce au récent coup de froid l'enneigement s'est récemment amélioré, mais lundi les limites skiables remontent à nouveau,  rochers parfois juste recouverts. En revanche les combes d'altitude restent bien enneigées. \nLimites skiables : Vers 1800/2300m environ, parfois plus haut en Sud raide.\n\nQualité de la neige lundi :   Neige bien humide jusque vers 2300 puis 2500/2700m suivant les faibles précipitations et le éclaircies.\nLocalement saupoudrage de neige fraîche possible en altitude...\nNeige de surface plus collante à pourrie en faces Nord, où le soleil l'a moins transformée...",
+      "text": "Qualification de l’enneigement :  Grâce au récent coup de froid l'enneigement s'est récemment amélioré, mais lundi les limites skiables remontent à nouveau,  rochers parfois juste recouverts. En revanche les combes d'altitude restent bien enneigées. \nLimites skiables : Vers 1800/2300m environ, parfois plus haut en Sud raide.\n\nQualité de la neige mardi :   Bon regel nocturne. En journée humidification jusqu'aux pentes sommitales, même dans les versants Nord où la neige colle / botte lorsqu'elle s'humidifie pour la première fois. En matinée, neige parfois encore légère en altitude (jusqu'à 40-50 cm localement).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1500,
-        "south": 1800
+        "south": 1900
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 2,
+          "N": 0,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 95,
-          "S": 20
+          "N": 90,
+          "S": 10
         },
         {
           "alt_m": 2500,
           "N": 230,
-          "S": 75
+          "S": 70
         }
       ],
       "icon_key": "snowpack",

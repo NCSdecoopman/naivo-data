@@ -3,30 +3,30 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-05-17T16:00:00",
-    "valid_until": "2026-05-18T18:00:00",
+    "issued_at": "2026-05-18T16:00:00",
+    "valid_until": "2026-05-19T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2400m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2500m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2400,
+        "threshold_m": 2500,
         "split_axis": "horizontal",
-        "split_label": "2400m",
+        "split_label": "2500m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2400",
+            "loc": "<2500",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2400",
+            "loc": ">2500",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2400m"
+          "label": "2500m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-19",
+        "date": "2026-05-20",
         "label": "Indice de risque limité",
-        "comment": "La stabilisation du manteau neigeux continu, les plaques à vent deviennent moins réactives et la neige récente se tasse. Mardi, le ciel se couvre progressivement en journée. Les températures sont en légère hausse.",
+        "comment": "Retour au ciel bleu et aux températures de saisons. Le manteau neigeux subit une humidification à toutes altitudes.",
         "trend": "steady"
       }
     },
@@ -64,11 +64,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
-        "W": true,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -89,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-13",
-          "min_cm": 7,
-          "max_cm": 10
-        },
         {
           "date": "2026-05-14",
           "min_cm": 10,
@@ -117,40 +112,45 @@
         {
           "date": "2026-05-18",
           "min_cm": 0,
-          "max_cm": 2
+          "max_cm": 0
+        },
+        {
+          "date": "2026-05-19",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
         "last_48h_min_cm": 0,
-        "last_48h_max_cm": 2
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux hivernal en altitude avec 50cm/1m de neige récente au-dessus de 3000 m.",
-      "text": "Manteau neigeux hivernal en altitude avec 50cm/1m de neige récente au-dessus de 3000 m. \n\nDéclenchements provoqués :\n* Quelques plaques à vent. Déjà formées par le vent d'Ouest à Nord dans la neige récente au moment des chutes de neige. De nouvelles peuvent se forment avec le vent modéré d'Ouest de lundi. Rares à 2400 m. Au-dessus de 3000 m à proximité des crêtes et arêtes, elles sont plus nombreuses et réactives. Taille 1 (petite) à 2 (moyenne).\nObservables : fissures sous les skis, accumulation de neige récente, vaguelettes en surface ... \n* De la neige récente peut couler sous les skis principalement sous 3000 m. De plus en plus facile au fil du réchauffement diurne. Taille 1 (petite) à 2 (moyenne). \n\nDéparts spontanés : \n* Quelques départs ponctuels de neige récente au fil du réchauffement diurne. Principalement dans les pentes raides et vers les rochers. Plus nombreux en-dessous de 3000 m. Taille 1 (petite) à 2 (moyenne).",
+      "title": "Manteau neigeux hivernal en altitude avec 50/60 cm de neige récente au-dessus de 3000 m.",
+      "text": "Manteau neigeux hivernal en altitude avec 50/60 cm de neige récente au-dessus de 3000 m. \n\nDéclenchements provoqués :\n* En haute-montagne (principalement du côté Mont-Blanc), on retrouve quelques plaques à vent. Déjà formées par le vent d'Ouest dans la neige récente au moment des chutes de neige. Au-dessus de 3000 m à proximité des crêtes et arêtes, elles sont plus nombreuses et réactives. Taille 1 (petite) à 2 (moyenne).\nObservables : fissures sous les skis, accumulation de neige récente, vaguelettes en surface ... \n* De la neige récente peut couler sous les skis principalement sous 3000 m. De plus en plus facile au fil de l'humidification dû aux températures qui remontent nettement l'après-midi. Taille 1 (petite) à 2 (moyenne). \n\nDéparts spontanés : \n* Quelques départs ponctuels de neige récente à toutes altitudes et orientations. Ces départs concernent principalement l'après-midi au vu des températures qui remontent assez nettement. Taille 1, rarement 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2700 m et bon au-dessus.  \nTrace de neige récente au sol à partir de 1600/1700 m en début de matinée.\nRares sous-couches sous 2000 m en nord et 2300 m en sud. \n\nQualité de la neige ce lundi :\n* En dessous de 2000/2300 m : trace à 30 cm de neige récente sans sous-couche (elle repose localement sur quelques névés). La neige récente est déjà tassée et légèrement humide en surface. Faible regel nocturne. \n* Entre 2000/2300 m et 3000 m : 30/50 cm de neige récente sur un fond dur. Elle est densifiée et alourdie en surface. Faible regel le matin. \n* Au-dessus de 3000 m : 50 cm à 1m de neige récente (épaisseurs très irrégulières) froide et légère dans la plupart des pentes. Vers les crêtes/arêtes et dan les pentes exposées, elle est légèrement travaillée par le vent. Enfoncement piéton important.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2700 m et bon au-dessus. On retrouve des traces de neige récente au sol à partir de 1700 m, et les sous-couches ne sont réellement présentes qu'au-dessus de 2000m en Nord et 2300m en Sud.\n\nQualité de la neige ce lundi :\n* En dessous de 2000/2300 m : 5/15 cm de neige récente sans sous-couche (elle repose localement sur quelques névés). La neige récente est déjà tassée et légèrement humide en surface.\n* Entre 2000/2300 m et 3000 m : 20/40 cm de neige récente sur un fond dur. Elle est densifiée et alourdie en surface. Faible regel le matin. \n* Au-dessus de 3000 m : 40/60 cm de neige récente (épaisseurs très irrégulières, dans les accumulations on peut avoir des cumuls encore plus importants) froide et légère dans la plupart des pentes. Vers les crêtes/arêtes et dans les pentes exposées, elle est travaillée par le vent. Enfoncement piéton important.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1500,
-        "south": 1600
+        "north": 1800,
+        "south": 2000
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 10,
+          "N": 0,
           "S": 0
         },
         {
           "alt_m": 2000,
-          "N": 65,
-          "S": 25
+          "N": 50,
+          "S": 20
         },
         {
           "alt_m": 2500,

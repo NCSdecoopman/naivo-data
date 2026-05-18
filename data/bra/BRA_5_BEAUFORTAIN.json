@@ -3,8 +3,8 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-05-17T16:00:00",
-    "valid_until": "2026-05-18T18:00:00",
+    "issued_at": "2026-05-18T15:00:00",
+    "valid_until": "2026-05-19T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-19",
+        "date": "2026-05-20",
         "label": "Indice de risque limité",
-        "comment": "Poursuite du redoux, nuages et averses l'après midi. Stabilisation et petite activité en neige humide.",
+        "comment": "Gros redoux et cours qui maintient la problématique de neige humide dans les versants qui chauffent trop.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-13",
-          "min_cm": 2,
-          "max_cm": 7
-        },
-        {
           "date": "2026-05-14",
           "min_cm": 10,
           "max_cm": 15
@@ -118,6 +113,11 @@
           "date": "2026-05-18",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-19",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,19 +127,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RARES INSTABILITES VENTéE EN ALTITUDE",
-      "text": "RARES INSTABILITES VENTéE EN ALTITUDE\n\nDéclenchements provoqués :\n-Rares plaques friables ou dures en place dans la neige récente ventée. De moins en moins réactives, ces structures de plaques temporaires peuvent encore donner une petite à moyenne avalanche. On les trouve au dessus 2600 m dans les versants nord,  près des crêtes et des ruptures de pentes. Observables : accumulations, neige localement plus dense, whoompfs.\n-Quelques coulées de neige alourdie sous les skis après quelques heures de réchauffement. Petites à moyennes avalanches.\n\nDéparts spontanés :\n-petites coulées de neige humide en pentes raides et en versants ensoleillés.\n\nAutres :\nChute de corniches possibles.",
+      "title": "REDOUX QUI CONCERNE TOUTES LES PENTES DU MASSIF.",
+      "text": "REDOUX QUI CONCERNE TOUTES LES PENTES DU MASSIF. \n\nDéparts spontanés : de nombreuses avalanches naturelles sont à prévoir dans un très large secteur Nord, même dans les plus hautes pentes du massif à cause du redoux nuageux en cours. L'épaisseur de neige mobilisable est importante et génère des avalanches de tailles moyennes (taille 2). L'activité sera plus faible dans les pentes ayant déjà chauffées les jours précédents (notamment le très large secteur Sud).    \n\nDéclenchements provoqués :\n- le matin, avant que le redoux ne fasse effet, rares plaques friables de taille modeste dans la neige récente, au-dessus de 2600 m en secteur Nord. Au fil des heures, le redoux humidifie cette neige récente et la rend inerte.\n- là où la neige s'alourdit en cours de journée avec le redoux, (jusqu'au sommet du Roignais), coulées sous le skis en coupant une pente suffisamment raide. Petites à moyennes avalanches.\n\nAutres : chute de corniches possibles, les ponts de neige sur les torrents sont fragiles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive cet avril. Les chutes récentes ne compenseront pas durablement ce déficit \n\nLimite skiable : vers 1900 m en nord,  2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : Mauvais regel, le matin neige souvent molle et collante sous les 2300 m, au dessus neige souvent croûtée. Plus haut en nord elle est travaillée par le vent, densifiée ou durcie. En journée la neige est vite très alourdie partout avec le réchauffement. En nord au dessus de 2600 la neige est collante et botte.",
+      "text": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive cet avril. La haute montagne, quasi sèche jusqu'à présent à cause des vents forts, s'est temporairement un peu mieux enneigée.\n\nLimite skiable : vers 1900 m en nord,  2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige :  bon regel au réveil. Le redoux engendre une humidification de la neige en tous versants jusqu'à 3000 m. La neige se met alors à coller, à botter, surtout là où elle était encore fraîche au réveil, c'est à dire en pente raide, ombragée entre 2600 et 3000 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1800,
-        "south": 2000
+        "south": 2100
       },
       "levels_cm": [
         {
@@ -150,7 +150,7 @@
         {
           "alt_m": 2000,
           "N": 35,
-          "S": 5
+          "S": 0
         },
         {
           "alt_m": 2500,

@@ -3,8 +3,8 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-05-17T16:00:00",
-    "valid_until": "2026-05-18T18:00:00",
+    "issued_at": "2026-05-18T15:00:00",
+    "valid_until": "2026-05-19T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-19",
+        "date": "2026-05-20",
         "label": "Indice de risque limité",
-        "comment": "Poursuite du redoux, nuages et averses l'après midi. Stabilisation et petite activité en neige humide.",
+        "comment": "Dans les pentes raides et \"ombragés\" de haute montagne, la problématique de plaque s'amoindrit mais ne disparait pas pour autant. Gros redoux et cours qui maintient la problématique de neige humide dans les versants qui chauffent trop.",
         "trend": "steady"
       }
     },
@@ -64,11 +64,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": false,
+        "E": true,
         "SE": false,
         "S": false,
         "SW": false,
-        "W": false,
+        "W": true,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -89,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-13",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-14",
           "min_cm": 0,
@@ -118,6 +113,11 @@
           "date": "2026-05-18",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-19",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "RARES  INSTABILITÉS VENTéES À HAUTE ALTITUDE.",
-      "text": "RARES  INSTABILITÉS VENTéES À HAUTE ALTITUDE.\n\nDéclenchements provoqués :  \n-Rares plaques dans la neige récente au-dessus de 2800/3000 m dans un large secteur Nord,  Elles sont peu fréquentes mais assez faciles à déclencher quand la pente est très raide et suffisent à déstabiliser une personne. Une grosse accumulation peut engendrer une avalanche de taille moyenne petites à moyennes avalanche. Observable : accumulation conséquente  de neige fraîche hétérogène. \nPlus bas, les cumuls de neige ne sont pas suffisants pour induire une problématique notable de plaque.\n-Quelques coulées de neige alourdie sous les skis après quelques heures de réchauffement. Petites à moyennes avalanches.\n\nDéparts spontanés : -petites coulées de neige humide en pentes raides et en versants ensoleillés.\n\nAutres :  Les ponts de neige au-dessus des ruisseaux sont fragiles par endroit.",
+      "title": "MANTEAU HIVERNAL EN NORD D'ALTITUDE. REDOUX EN JOURNéE PLUS BAS.",
+      "text": "MANTEAU HIVERNAL EN NORD D'ALTITUDE. REDOUX EN JOURNéE PLUS BAS.\n\nDéclenchements provoqués :  \n- Rares plaques dans la neige récente au-dessus de 2800/3000 m dans un large secteur Nord. Elles demeurent déclenchables quand la pente est raide/peu ensoleillée et suffisent à déstabiliser une personne. Localement, une grosse accumulation ou une couche fragile persistante faiblement enfouie peut engendrer une avalanche de taille moyenne. Observable : accumulation conséquente de neige meuble. \n- Là où la neige s'alourdit avec le redoux, (jusqu'à 3200 m ? ), coulées sous le skis en coupant une pente suffisamment raide. Petites avalanches.\n\nDéparts spontanés : avec le redoux prévu en cours de journée, la neige encore froide au réveil s'humidifie à partir de la fin de matinée. Des avalanches naturelles sont à prévoir dans un très large secteur Nord, partout où la neige se transforme (sous 3200 m ?). L'épaisseur de neige mobilisable est mince, la plupart du temps les coulées ne dépassent pas la taille 1 (petite avalanche). L'activité sera plus faible dans les pentes ayant déjà chauffées les jours précédents (notamment le très large secteur Sud).\n\nAutres :  les ponts de neige au-dessus des ruisseaux sont fragiles par endroit.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent à cause des vents forts, s'est temporairement un peu mieux enneigée.\n\nLimite skiable : vers 2200 m en nord, 2500/2600 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : regel aléatoire, le matin neige souvent molle et collante sous les 2300 m, au dessus neige souvent croûtée. En nord vers 3000 m  elle est travaillée par le vent, densifiée ou durcie. En journée la neige est vite très alourdie partout avec le réchauffement. En nord au dessus de 2600 m la neige est collante et botte. Il faut rester au dessus de 3000 m en plein nord pour espérer la garder froide.",
+      "text": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent à cause des vents forts, s'est temporairement un peu mieux enneigée.\n\nLimite skiable : vers 2200 m en nord, 2500/2600 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : bon regel au réveil. Le redoux engendre une humidification de la neige en tous versants jusqu'à 3000/3200 m, peut être plus haut. La neige se met alors à coller, à botter, surtout là où elle était encore fraîche au réveil, c'est à dire en pente raide, ombragée entre 2500 et 3200 m. \nPlus haut en Nord peu ensoleillé, la neige reste poudreuse. On trouve alors 10/15 cm de neige fraîchement tombée. Mais des cumuls plus importants de neige récente sont probables (par ex. 20/40 cm), issus des anciennes chutes de neige restées froide.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

@@ -3,73 +3,61 @@
   "massif": "Capcir Puymorens",
   "bulletin": {
     "id": 73,
-    "issued_at": "2026-05-17T16:00:00",
-    "valid_until": "2026-05-18T18:00:00",
+    "issued_at": "2026-05-18T16:00:00",
+    "valid_until": "2026-05-19T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2300m indice de risque limité, plus bas indice faible.",
+      "max_level": 1,
+      "comment": "Indice de risque faible.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2300,
-        "split_axis": "horizontal",
-        "split_label": "2300m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2300",
+            "loc": null,
             "risk": 1,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2300",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2300m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "1",
             "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-05-19",
-        "label": "Indice de risque limité",
-        "comment": "Maintien d'un risque limité avec l'humidification qui se poursuit.",
+        "max_level": 1,
+        "date": "2026-05-20",
+        "label": "Indice de risque faible",
+        "comment": "Peu d'évolution, les températures sont en hausse.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
+        "N": false,
+        "NE": false,
         "E": false,
         "SE": false,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -78,22 +66,16 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
         "4": "Neige humide"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-13",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-14",
           "min_cm": 0,
@@ -118,6 +100,11 @@
           "date": "2026-05-18",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-19",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Encore quelques structures de plaques en altitude; humidification progressive de la neige récente.",
-      "text": "Encore quelques structures de plaques en altitude; humidification progressive de la neige récente.\n\nDéclenchements provoqués :\nAu-dessus de 2300 à 2400 m, des structures de plaques encore déclenchables se sont formées avec les chutes de neige et l'effet du vent d'ouest à nord-ouest. Les avalanches sont petites à moyennes avec des plaques peu épaisses (cassures de 20/30 cm tout de même envisageables). La couche fragile temporaire est constituée le plus souvent de neige moins dense ou de neige roulée.\nObservables : surface travaillée par le vent, neige de surface hétérogène avec changement de qualité ou quantité de neige.\n\nDéparts spontanés :\nDéparts plutôt ponctuels dans la neige récente qui s'humifie le matin dans les pentes raides ensoleillées puis en journée en tous versants jusqu'à 2700/2800 m sous les nuages. Sous 2300 m, les avalanches seront principalement de petite taille (taille 1) mais au-dessus des avalanches de taille moyenne sont possibles dans les secteurs où les derniers cumuls de neige ont été plus importants. \n\nAutre : Des corniches encore épaisses sont toujours présentes en montagne.",
+      "title": "Manteau neigeux printanier.",
+      "text": "Manteau neigeux printanier.\n\nDéclenchements provoqués :\n- De la neige récente humidifiée peut couler sous les skis (taille 1).\n\nDéparts spontanés :\n- Départs ponctuels donnant de petites coulées dans la neige récente humidifiée, voire très rarement une avalanche moyenne (taille 2).\n\nAutre : Des corniches encore épaisses sont toujours présentes en montagne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nSous 2100/2200m, la neige des derniers jours a vite disparu. L’enneigement est encore correct par rapport aux normales jusqu'en moyenne montagne, puis excédentaire à haute altitude. En nord, limite d'altitude de la neige irrégulière : des névés ou des langues de neige descendent encore jusque vers 1900/2000 m. L’enneigement est plus épais dès 2100/2200 m et encore conséquent dès 2400m dans les combes et replats. Dans les versants prenant le soleil, l'enneigement est de moins en moins continu notamment dans les zones de chaos rocheux ou d'éboulis. Enfin, les cols et crêtes ouest à nord-ouest sont souvent dégarnis jusqu'à haute altitude.\n\nQualité de la neige :\nLundi matin, la neige récente s’est bien humidifiée sous 2300 m et le regel est peu efficace avec une nuit plutôt nuageuse et l’isotherme 0°C en hausse. En journée, la neige s’humidifie jusqu’en altitude avec le soleil du matin puis sous les nuages en tout versants jusqu’à 2600/2800m. On devrait alors revoir l’ancien manteau neigeux dense de type névé de couleur plus ocre avec des poussières désertiques en surface. On pourra trouver 5 à 15  cm de neige sèche et plus légère dans de rares combes d’altitude ne prenant pas le soleil.",
+      "text": "Enneigement : \n L’enneigement est correct par rapport aux normales jusqu'en moyenne montagne, et excédentaire à haute altitude. \nEn nord : limite d'altitude de la neige irrégulière : des névés ou des langues de neige descendent encore jusque vers 1900/2000m. L’enneigement est plus épais dès 2100/2200 m et encore conséquent dès 2400m dans les combes et replats.\nDans les versants prenant le soleil : l'enneigement est de moins en moins continu notamment dans les zones de chaos rocheux ou d'éboulis. Enfin, les cols et crêtes ouest à nord-ouest sont souvent dégarnis jusqu'à haute altitude.\n\nQualité de la neige :\nLe regel est quasiment inexistant ce mardi matin, avec une isotherme 0°C déjà vers 2900/3000m au lever du jour.\n La neige devrait donc déjà être humide en tous versants et toutes altitudes. Avec la fonte et l'humidification de la neige récente, l’ancien manteau neigeux dense de type névé de couleur plus ocre avec des poussières désertiques en surface devrait redevenir visible.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
