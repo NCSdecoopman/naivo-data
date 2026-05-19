@@ -3,8 +3,8 @@
   "massif": "Cerdagne Canigou",
   "bulletin": {
     "id": 74,
-    "issued_at": "2026-05-18T16:00:00",
-    "valid_until": "2026-05-19T18:00:00",
+    "issued_at": "2026-05-19T16:00:00",
+    "valid_until": "2026-05-20T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,22 +42,22 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-20",
+        "date": "2026-05-21",
         "label": "Indice de risque faible",
-        "comment": "Peu d'évolution, les températures sont en hausse.",
+        "comment": "Risque restant faible. Manteau neigeux printanier.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
+        "N": false,
+        "NE": false,
         "E": false,
         "SE": false,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -76,11 +76,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-14",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-15",
           "min_cm": 0,
@@ -105,6 +100,11 @@
           "date": "2026-05-19",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-20",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux printanier.",
-      "text": "Manteau neigeux printanier.\n\nDéclenchements provoqués :\n- De la neige récente humidifiée peut couler sous les skis (taille 1).\n\nDéparts spontanés :\n- Départs ponctuels donnant de petites coulées dans la neige récente humidifiée, voire très rarement une avalanche moyenne (taille 2).\n\nAutre : Des corniches encore épaisses sont toujours présentes en montagne.",
+      "title": "Manteau neigeux printanier",
+      "text": "Manteau neigeux printanier\n\nDéclenchements provoqués :\n- De la neige récente humidifiée peut couler sous les skis (taille 1).\n\nDéparts spontanés :\n- Départs ponctuels donnant de petites avalanches (taille 1) dans la neige récente humidifiée, voire très rarement une avalanche moyenne (taille 2).\n\nAutre : des corniches encore épaisses sont toujours présentes en montagne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \n L’enneigement est correct par rapport aux normales jusqu'en moyenne montagne, et excédentaire à haute altitude. \nEn nord : limite d'altitude de la neige irrégulière : des névés ou des langues de neige descendent encore jusque vers 1900/2000m. L’enneigement est plus épais dès 2100/2200 m et encore conséquent dès 2400m dans les combes et replats.\nDans les versants prenant le soleil : l'enneigement est de moins en moins continu notamment dans les zones de chaos rocheux ou d'éboulis. Enfin, les cols et crêtes ouest à nord-ouest sont souvent dégarnis jusqu'à haute altitude.\n\nQualité de la neige :\nLe regel est quasiment inexistant ce mardi matin, avec une isotherme 0°C déjà vers 2900/3000m au lever du jour.\n La neige devrait donc déjà être humide en tous versants et toutes altitudes, mis à part en de rares secteurs du Puigmal et du Canigou, eux-mêmes rapidement humidifiés. Avec la fonte et l'humidification de la neige récente, l’ancien manteau neigeux dense de type névé de couleur plus ocre avec des poussières désertiques en surface devrait redevenir visible.",
+      "text": "Enneigement : \n L’enneigement est correct par rapport aux normales jusqu'en moyenne montagne, et excédentaire à haute altitude. \nEn nord : limite d'altitude de la neige irrégulière : des névés ou des langues de neige descendent encore jusque vers 1900/2000m. L’enneigement est plus épais dès 2100/2200 m et encore conséquent dès 2400m dans les combes et replats.\nDans les versants prenant le soleil : l'enneigement est de moins en moins continu notamment dans les zones de chaos rocheux ou d'éboulis. Enfin, les cols et crêtes ouest à nord-ouest sont souvent dégarnis jusqu'à haute altitude.\n\nQualité de la neige :\nLe regel est quasiment inexistant ce mercredi matin, avec une isotherme 0°C déjà vers 3100/3300m au lever du jour.\n La neige devrait donc déjà être humide en tous versants et toutes altitudes, mis à part en de rares secteurs du Puigmal et du Canigou, eux-mêmes rapidement humidifiés. Avec la fonte et l'humidification de la neige récente, l’ancien manteau neigeux dense de type névé de couleur plus ocre avec des poussières désertiques en surface devrait redevenir visible.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -141,8 +141,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 190,
-          "S": 55
+          "N": 180,
+          "S": 45
         }
       ],
       "icon_key": "snowpack",

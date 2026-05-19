@@ -3,37 +3,49 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-05-18T16:00:00",
-    "valid_until": "2026-05-19T18:00:00",
+    "issued_at": "2026-05-19T16:00:00",
+    "valid_until": "2026-05-20T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Au-dessus de 3000m indice de risque limité, plus bas indice faible évoluant en limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 3000,
+        "split_axis": "horizontal",
+        "split_label": "3000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<3000",
+            "risk": 1,
+            "evolution_to": 2,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">3000",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "3000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "1→2",
+            "risk": 1,
+            "evolution_to": 2
+          },
+          "top": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-20",
+        "date": "2026-05-21",
         "label": "Indice de risque limité",
-        "comment": "Mercredi, retour de conditions printanières voire estivales. Temps ensoleillé, et important redoux avec un isotherme 0°C en hausse vers 3200m. Des coulées encore possibles au soleil, surtout en Nord d'alitutde.",
+        "comment": "Jeudi après un bon regel nocturne les conditions deviennent estivales en journée, avec un temps ensoleillé et un isotherme 0°C qui remonte à 4100m. L'humidification du manteau s'accélère, et des coulées humides pourront se produire dans les versants nord d'altitude qui étaient encore restés épargnés par la douceur.",
         "trend": "steady"
       }
     },
@@ -52,11 +64,11 @@
       "aspects": {
         "N": true,
         "NE": true,
-        "E": true,
+        "E": false,
         "SE": false,
         "S": false,
         "SW": false,
-        "W": true,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -77,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-14",
-          "min_cm": 3,
-          "max_cm": 5
-        },
         {
           "date": "2026-05-15",
           "min_cm": 5,
@@ -106,6 +113,11 @@
           "date": "2026-05-19",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-20",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "CONDITIONS HIVERNALES EN HAUTE MONTAGNE, MANTEAU S'HUMIDIFIANT EN JOURNEE SOUS LE REDOUX",
-      "text": "CONDITIONS HIVERNALES EN HAUTE MONTAGNE, MANTEAU S'HUMIDIFIANT EN JOURNEE SOUS LE REDOUX  \n\nDéclenchements provoqués : \n- Rares plaques dans la neige récente restée froide, au-dessus de 2600 m dans un large secteur Nord. Elles deviennent plus fréquentes et plus volumineuses au-delà de 3200 m en Nord où les conditions demeurent pleinement hivernales. Une avalanche de taille moyenne (taille 2) est possible. \nObservable : accumulation conséquente de neige meuble. \n- Là où la neige s'alourdit en cours de journée avec le redoux, (jusqu'à 3200 m ? ), coulées sous le skis en coupant une pente suffisamment raide. Petites à moyennes avalanches.\n\nDéparts spontanés : \nAvec le redoux prévu en cours de journée, la neige encore froide au réveil s'humidifie à partir de la fin de matinée. Des avalanches naturelles sont à prévoir dans un très large secteur Nord, partout où la neige se transforme (dans une tranche 2600-3200 m ?). L'épaisseur de neige mobilisable peut-être localement importante et générer des avalanches petites à moyennes (taille 1 à 2). L'activité sera plus faible dans les pentes ayant déjà chauffées les jours précédents (notamment le très large secteur Sud).\n\nAutres : chute de corniches possibles, les ponts de neige sur les torrents sont fragiles.",
+      "title": "LE MANTEAU S'HUMIDIFIE SOUS LE REDOUX EN JOURNEE, QUELQUES PENTES NORD D'ALTITUDE PEUVENT ENCORE HEBERGER DES INSTABILITES EN NEIGE FROIDE",
+      "text": "LE MANTEAU S'HUMIDIFIE SOUS LE REDOUX EN JOURNEE, QUELQUES PENTES NORD D'ALTITUDE PEUVENT ENCORE HEBERGER DES INSTABILITES EN NEIGE FROIDE\n\nDéparts spontanés : \nAvec le redoux prévu en cours de journée, la neige encore froide au réveil s'humidifie rapidement. Quelques avalanches naturelles sont à prévoir surtout en large secteur Nord, là où la neige restée froide se transforme ( jusqu'aux sommets du massif). L'épaisseur de neige mobilisable peut-être localement importante et générer des avalanches petites à moyennes (taille 1 à 2). L'activité sera plus faible dans les pentes ayant déjà chauffées les jours précédents (notamment le très large secteur Sud).\n\nDéclenchements provoqués : \n- Rares plaques dans la neige récente restée froide, au-dessus de 3000 m en secteur Nord (surtout en pentes raides). Elles deviennent difficiles à déclencher, et poursuivent leur stabilisation en journée.  \nObservable : accumulation conséquente de neige meuble. \n- Là où la neige s'alourdit en cours de journée avec le redoux, (jusqu'au sommet dans la plupart des pentes), coulées sous le skis en coupant une pente suffisamment raide. Petites à moyennes avalanches.\n\nAutres : chute de corniches possibles, les ponts de neige sur les torrents sont fragiles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  Grâce au récent coup de froid l'enneigement s'est récemment amélioré, mais lundi les limites skiables remontent à nouveau. Rochers parfois juste recouverts....En revanche les combes d'altitude et glaciers sont bien enneigées... \nLimites skiables : Vers 1900/2400m environ, parfois plus haut en Sud raide.\n\nQualité de la neige mardi :  Bon regel nocturne. En journée humidification jusqu'à 2800 / 2900m en tout versants sous les nuages, parfois jusqu'à 3000 voire 3200m dans les versants les plus exposés. Dans les versants Nord, la neige colle / botte lorsqu'elle s'humidifie pour la première fois. Au-dessus, la neige reste encore poudreuse, avec des quantités parfois importantes ( 40 à 50cm au-dessus de 3000m, mais parfois près de 1m dans les accumulations.)",
+      "text": "Qualification de l’enneigement :  Les combes d'altitudes et glaciers sont bien enneigés. La fonte reprend et s'accélère mercredi sous l'effet du redoux. \nLimites skiables : Vers 1900/2400m environ, parfois plus haut en Sud raide.\n\nQualité de la neige mercredi :  Bon regel nocturne. Humidification très rapide et jusqu'aux pentes sommitales sous le soleil. La neige s'alourdit et s'humidifie parfois même dans les pentes Nord sous l'effet des nuages. De rares pentes Nord d'altitude peuvent encore être en neige froide au réveil.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

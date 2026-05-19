@@ -3,8 +3,8 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-05-18T16:00:00",
-    "valid_until": "2026-05-19T18:00:00",
+    "issued_at": "2026-05-19T16:00:00",
+    "valid_until": "2026-05-20T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-20",
-        "label": "Indice de",
-        "comment": "Retour au ciel bleu et aux températures de saisons. Le manteau neigeux subit une humidification/fonte significative.",
+        "date": "2026-05-21",
+        "label": "Indice de risque faible",
+        "comment": "Temps ensoleillé et températures en hausse. Fonte rapide du manteau neigeux. Pas de nouvelles instabilités.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-14",
-          "min_cm": 10,
-          "max_cm": 15
-        },
-        {
           "date": "2026-05-15",
           "min_cm": 8,
           "max_cm": 12
@@ -105,6 +100,11 @@
           "date": "2026-05-19",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-20",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "La fonte du manteau se poursuit. Neige lourde.",
-      "text": "La fonte du manteau se poursuit. Neige lourde.\n\nDéclenchements provoqués :\nPeu probables. De la neige meuble peut couler sous les skis, plutôt l'après-midi. Le risque est un peu plus marqué en ubacs. Taille 1 (petite).\n\nDéparts spontanés :\nPeu probables. Départs ponctuels de neige meuble possible dans les versants ombragés, là où l'humidification est un peu plus significative par rapport aux jours précédents. Taille 1.",
+      "title": "La fonte du manteau neigeux s'accélère. Stabilisation rapide.",
+      "text": "La fonte du manteau neigeux s'accélère. Stabilisation rapide.\n\nDéclenchements provoqués :\nPeu probables. De la neige meuble récente peut couler sous les skis, déclenchement de plus en plus facile au fil de l'humidification. Le risque est un peu plus marqué en ubacs. Taille 1 (petite).\n\nDéparts spontanés :\nPeu probables. Quelques départs ponctuels en neige récente possible dans les versants ombragés proches des sommets, là où l'humidification est un peu plus significative que les jours précédents. Taille 1.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nAvec l'humidification et la fonte, l'enneigement redevient déficitaire.\nTrace de neige récente au sol à partir de 1700m en début de matinée. Les sous-couches ne sont réellement présentes que sur les sommets à plus de 2000m.\n\nQualité de la neige ce lundi :\nRegel nocturne plutôt bon. Le matin la neige est dure, mais elle s'humidifie très rapidement à toutes altitudes et orientations.",
+      "text": "Enneigement : \nAvec l'humidification et la fonte, l'enneigement redevient déficitaire.\nTrace de neige récente au sol à partir de 1800m en début de matinée. Les sous-couches ne sont réellement présentes que sur les sommets à plus de 2000m.\n\nQualité de la neige ce mercredi :\n* Au-dessus de 1800m, on retrouve encore un peu de neige récente, jusqu'à 10/15 cm vers 2200 m. Cette neige déjà bien tassée est humide à très humide dès le début de matinée  Elle repose sur de la neige de névés, humide et compacte ou sur un sol nu.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -142,7 +142,7 @@
         {
           "alt_m": 2000,
           "N": 40,
-          "S": 15
+          "S": 10
         }
       ],
       "icon_key": "snowpack",
