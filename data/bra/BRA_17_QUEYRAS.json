@@ -3,8 +3,8 @@
   "massif": "Queyras",
   "bulletin": {
     "id": 17,
-    "issued_at": "2026-05-19T16:00:00",
-    "valid_until": "2026-05-20T18:00:00",
+    "issued_at": "2026-05-20T15:00:00",
+    "valid_until": "2026-05-21T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,22 +42,22 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-21",
+        "date": "2026-05-22",
         "label": "Indice de risque faible",
-        "comment": "Conditions devenant printanières voire estivales avec un gros redoux en cours qui maintient la problématique en neige humide, surtout en nord d'altitude.",
+        "comment": "La masse d'air se réchauffe encore. Risque limité d'avalanche se cantonnant aux pentes plein nord les plus élevées.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
-        "NE": true,
+        "NE": false,
         "E": false,
         "SE": false,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -76,11 +76,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-15",
-          "min_cm": 1,
-          "max_cm": 3
-        },
         {
           "date": "2026-05-16",
           "min_cm": 0,
@@ -105,6 +100,11 @@
           "date": "2026-05-20",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-21",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,19 +114,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX S'HUMIDIFIANT AVEC LE REDOUX",
-      "text": "MANTEAU NEIGEUX S'HUMIDIFIANT AVEC LE REDOUX\n\nDéparts spontanés : peu probable au petit matin avec un regel correct, puis activité naturelle à prévoir dans un large secteur nord, principalement dans la tranche 2600/3000 m. Avalanches généralement de petite taille, rarement moyenne. L'activité est moindre dans les pentes sud, déjà chauffées par le soleil de mai. \n\nDéclenchements provoqués : de très rares plaques persistent en versant nord raide au dessus de 3000/3200 m. Une avalanche de petite taille en général (taille 1), rarement moyenne reste possible en cas de déstabilisation d'une plaque plus ancienne. Plus bas, un skieur peut initier un départ de neige alourdie de faible ampleur (taille 1 à 2).",
+      "title": "MANTEAU NEIGEUX BIEN STABILISÉ",
+      "text": "MANTEAU NEIGEUX BIEN STABILISÉ\n\nDéparts spontanés : peu probables au petit matin avec le bon regel nocturne. En journée, rares avalanches de neige humide au soleil, de petite taille en versants nord de haute altitude, au-dessus de 2800 m environ. \n\nDéclenchements provoqués : le manteau neigeux est bien stabilisé. De rares instabilités se situent en versants nord de haute altitude où les chutes de neige tombées depuis le début du mois ne sont pas entièrement humidifiées. Avalanches de taille petite, déclenchables par un seul skieur.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement très déficitaire pour la période.\nHauteurs de neige observées : 25 cm à la Nivôse du Col Agnel à 2630 m, 45 cm en versant nord du col de l'Izoard.\n\nLimite d'enneigement skiable : au plus bas à 2200 m en ubacs bien protégés ou sur pistes forestières vers le Briançonnais. Adrets secs jusqu'à 2800/3000 m notamment vers l'est du massif. \n\nÉtat de la neige en surface : ambiance hivernale en nord au dessus de 3000 m avec encore un peu de neige froide plein nord raide, souvent travaillée par le vent proche des crêtes et ruptures de pentes. Elle repose sur un sol nu, ou sur un manteau de type névé en ubacs au dessus de 2500 m. Après un regel nocturne correct, reprise rapide d'une humidification qui gagne en profondeur et en altitude.",
+      "text": "Enneigement déficitaire pour la période.\nHauteurs de neige observées : 19 cm à la Nivôse du Col Agnel à 2630 m, 39 cm en versant nord du col de l'Izoard.\n\nLimite d'enneigement skiable : au plus bas vers 2200/2300 m\n\nÉtat de la neige en surface :manteau neigeux humidifié avec un bon regel nocturne et une poursuite de humidification en journée. On peut encore trouver le matin de la neige restée sèche dans les versants nord au-dessus de 3200 m environ.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 2300,
-        "south": 2500
+        "south": 2700
       },
       "levels_cm": [
         {
@@ -141,8 +141,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 20,
-          "S": 5
+          "N": 15,
+          "S": 0
         }
       ],
       "icon_key": "snowpack",

@@ -3,8 +3,8 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-05-19T16:00:00",
-    "valid_until": "2026-05-20T18:00:00",
+    "issued_at": "2026-05-20T16:00:00",
+    "valid_until": "2026-05-21T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-21",
+        "date": "2026-05-22",
         "label": "Indice de risque faible",
-        "comment": "Jeudi, journée largement ensoleillée, avec des températures estivales.",
+        "comment": "Vendredi il restera encore moins de neige en Vercors... Risque en légère baisse.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-15",
-          "min_cm": 5,
-          "max_cm": 15
-        },
-        {
           "date": "2026-05-16",
           "min_cm": 1,
           "max_cm": 2
@@ -105,6 +100,11 @@
           "date": "2026-05-20",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-21",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,19 +114,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "FIN DE SAISON",
-      "text": "FIN DE SAISON\n\nLes dernières neiges fondent rapidement et laissent place à de derniers névés. La saison est désormais bel et bien terminée sur le Vercors. \nDéparts spontanés : Peu probable. \nDéclenchements provoqués :  Peu probable.",
+      "title": "IL NE RESTE QUE PETITS NEVES EN NORD SOMMITAL.  REGEL A L'AUBE, PUIS RARE COULEE HUMIDE...",
+      "text": "IL NE RESTE QUE PETITS NEVES EN NORD SOMMITAL.  REGEL A L'AUBE, PUIS RARE COULEE HUMIDE...\n\nLa neige du week-end passé a quasiment entièrement fondue. Il ne reste que de (petits) névés en Nord sommital, au dessus de 1900m environ.\nDéparts spontanés : Peu probable, ou une coulée humide ponctuelle là où il reste de la neige ? (petits névés  en place généralement stables)\nDéclenchements provoqués :  Non ou rare coulée humide ponctuelle sous les skis...\n\nAutres : Peu de neige mais des surfaces légèrement croutées par regel à l'aube",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  Enneigement de fin de saison. Quelques pentes Nord encore skiables en altitude. La plupart du temps en neige de névé. \nQualité de la neige : Bon regel nocturne. Neige de névé la plupart du temps. Parfois encore un peu de neige récente résiduelle, très humide.",
+      "text": "Qualification de l’enneigement :  Il ne reste que de petits névés en faces Nord sommitales, au dessus de 1800/1900m environ...\nRegel de surface le matin, puis rapide humidification...\nOn approche franchement de la fin de saison ski pour 2026 (pas d'intempéries, et chaleur en vue)...",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1700,
-        "south": 2100
+        "north": 1800,
+        "south": -1
       },
       "levels_cm": [
         {
@@ -141,7 +141,7 @@
         },
         {
           "alt_m": 2000,
-          "N": 55,
+          "N": 45,
           "S": 0
         }
       ],

@@ -3,32 +3,32 @@
   "massif": "Haute-Bigorre",
   "bulletin": {
     "id": 66,
-    "issued_at": "2026-05-19T16:00:00",
-    "valid_until": "2026-05-20T18:00:00",
+    "issued_at": "2026-05-20T16:00:00",
+    "valid_until": "2026-05-21T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2700m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2400m indice de risque faible évoluant en limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2700,
+        "threshold_m": 2400,
         "split_axis": "horizontal",
-        "split_label": "2700m",
+        "split_label": "2400m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2700",
+            "loc": "<2400",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2700",
-            "risk": 2,
-            "evolution_to": null,
+            "loc": ">2400",
+            "risk": 1,
+            "evolution_to": 2,
             "position": "top"
           }
         ]
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2700m"
+          "label": "2400m"
         },
         "zones": {
           "bottom": {
@@ -46,30 +46,30 @@
             "evolution_to": null
           },
           "top": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
+            "text": "1→2",
+            "risk": 1,
+            "evolution_to": 2
           }
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-05-21",
-        "label": "Indice de risque faible",
-        "comment": "Les plaques deviennent encore plus rares avec le redoux.",
-        "trend": "down"
+        "max_level": 2,
+        "date": "2026-05-22",
+        "label": "Indice de risque limité",
+        "comment": "Poursuite de l'humidification du manteau neigeux dans une atmosphère toujours chaude, neige de printemps.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
-        "NE": false,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
-        "NW": false
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -78,22 +78,16 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
         "4": "Neige humide"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-15",
-          "min_cm": 5,
-          "max_cm": 12
-        },
         {
           "date": "2026-05-16",
           "min_cm": 0,
@@ -118,6 +112,11 @@
           "date": "2026-05-20",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-21",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +126,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Rares plaques en nord d'altitude, encore quelques coulées de fonte possibles.",
-      "text": "Rares plaques en nord d'altitude, encore quelques coulées de fonte possibles.\n\nDéclenchements provoqués : \n- Au-dessus de 2700 m dans les rares pentes ou combes raides de haute montagne exposées nord suffisamment ombragées, quelques plaques peuvent être encore en place, déclenchables au passage d'un skieur et pouvant engendrer une avalanche petite. . \n- Dans les autres expositions et plus bas, l'humidification a détruit les structures de plaque, mais le passage d'un skieur dans la neige très humide peut favoriser un petit départ ponctuel, plutôt au-dessus de 2400m.\n\nDéparts spontanés :\nQuelques départs spontanés en neige humide sont encore possibles dans toutes les expositions. Ils restent en de petite taille, sous forme parfois de quelques boulettes de neige, ne mobilisant que la neige récente tombée ce week-end et encore en place, plutôt au-dessus de 2400m.",
+      "title": "Humidification partout sous l'effet du redoux.",
+      "text": "Humidification partout sous l'effet du redoux.\n\nDéclenchements provoqués : \n- Les rares plaques encore présentes en altitude dans les pentes raides des secteurs ombragés sont maintenant probablement bien humidifiées par le redoux.\n- Au-dessus de 2400m, un skieur peut déclencher des départs ponctuels dans la neige humide uniquement dans les pentes raides des versants au fil de l'ensoleillement. Un regel plus ou moins efficace devrait limiter l'activité avalancheuse tôt le matin, mais il sera ensuite bien présent au fil de la matinée. De petites avalanches sont possibles, parfois des moyennes dans les zones d'accumulation les plus importantes.\n- Partout ailleurs, le passage d'un skieur dans la neige très humide peut favoriser un petit départ ponctuel dans les pentes raides, plus rarement des moyens.\n\nDéparts spontanés :\n- Au-dessus de 2400m, des départs ponctuels dans la neige humide sont possibles dans les pentes raides des versants au fil de l'ensoleillement. Ils sont généralement de petite taille, parfois aussi de taille moyenne, notamment dans les zones d'accumulation les plus importantes. Un regel matinal plus ou moins efficace devrait retarder cette activité avalancheuse tôt le matin, mais elle sera bien présente ensuite au fil de la matinée et de la journée.\n- Partout ailleurs, des départs spontanés dans la neige humide restent possibles dans les pentes raides, surtout de petite taille, plus rarement de taille moyenne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Enneigement encore bon pour la saison au-dessus de 2200/2300m, où de belles accumulations sont présentes. Retour à une limite d'enneigement continu vers 2100 m au plus bas, comme avant le dernier épisode neigeux. \nPremiers névés et langues de neige vers 1900/2000 m. \n\nÉtat de la neige : \nRares secteurs de neige sèche en haute montagne. Regel en surface du manteau neigeux incertain avec le vent de sud-ouest sensible et les épais voiles nuageux du matin. Neige humide partout l'après-midi.",
+      "text": "Enneigement : Enneigement encore correct pour la saison au-dessus de 2200/2300m, où de belles accumulations sont présentes. Cependant, la douceur ambiante tend à réduire l'enneigement de plus en plus rapidement. En versant nord, il devrait encore être possible de chausser autour de 2100m.\nÉtat de la neige : \nRegel du manteau neigeux probable au-dessus de 2400/2500m au petit matin jeudi. Par la suite, la neige s'humidifie assez rapidement dès la matinée, puis au fil de la journée avec la douceur ambiante. La neige devient rapidement molle à lourde en journée et partout.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -154,8 +153,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 200,
-          "S": 50
+          "N": 190,
+          "S": 40
         }
       ],
       "icon_key": "snowpack",

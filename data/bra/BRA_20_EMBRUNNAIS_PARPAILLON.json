@@ -3,8 +3,8 @@
   "massif": "Embrunais Parpaillon",
   "bulletin": {
     "id": 20,
-    "issued_at": "2026-05-19T16:00:00",
-    "valid_until": "2026-05-20T18:00:00",
+    "issued_at": "2026-05-20T16:00:00",
+    "valid_until": "2026-05-21T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -41,16 +41,16 @@
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-05-21",
-        "label": "Indice de risque faible",
-        "comment": "Conditions devenant printanières voire estivales avec un gros redoux en cours qui maintient la problématique en neige humide, surtout en nord d'altitude.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-05-22",
+        "label": "Indice de risque limité",
+        "comment": "La masse d'air se réchauffe encore. Risque limité d'avalanche se cantonnant aux pentes plein nord les plus élevées.",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
+        "N": true,
         "NE": false,
         "E": false,
         "SE": false,
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-15",
-          "min_cm": 1,
-          "max_cm": 7
-        },
-        {
           "date": "2026-05-16",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-05-20",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-21",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,19 +114,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX S'HUMIDIFIANT AVEC LE REDOUX",
-      "text": "MANTEAU NEIGEUX S'HUMIDIFIANT AVEC LE REDOUX\n\nDéparts spontanés : peu probable au petit matin avec un regel correct, puis activité naturelle à prévoir dans un large secteur nord, principalement dans la tranche 2600/3000 m. Avalanches généralement de petite taille, rarement moyenne. L'activité est moindre dans les pentes sud, déjà chauffées par le soleil de mai. \n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ de neige alourdie de faible ampleur (taille 1).",
+      "title": "MANTEAU NEIGEUX BIEN STABILISÉ",
+      "text": "MANTEAU NEIGEUX BIEN STABILISÉ\n\nDéparts spontanés : peu probables au petit matin avec le bon regel nocturne. En journée, rares avalanches de neige humide au soleil, de petite taille en versants nord de haute altitude, au-dessus de 2800 m environ. \n\nDéclenchements provoqués : le manteau neigeux est bien stabilisé. De rares instabilités se situent en versants nord de haute altitude où les chutes de neige tombées depuis le début du mois ne sont pas entièrement humidifiées. Avalanches de taille petite, déclenchables par un seul skieur.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement déficitaire pour la période.\nHauteurs de neige observées vers 2500 m : 59 cm à la Nivôse du Parpaillon.\n\nLimite d'enneigement skiable : au plus bas à 2300 m en ubacs bien protégés ou sur pistes forestières. Adrets généralement pas suffisamment enneigés pour permettre la pratique du ski.\n\nÉtat de la neige en surface : manteau neigeux en cycle printanier. Après un regel nocturne correct, reprise rapide d'une humidification qui gagne en profondeur et en altitude, jusqu'au nord sommital.",
+      "text": "Enneigement déficitaire pour la période.\nHauteurs de neige observées :  51 cm à la Nivôse du Parpaillon à 2550 m.\n\nLimite d'enneigement skiable : au plus bas vers 2200/2300 m\n\nÉtat de la neige en surface :manteau neigeux humidifié avec un bon regel nocturne et une poursuite de humidification en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 2200,
-        "south": 2500
+        "south": 2600
       },
       "levels_cm": [
         {
@@ -141,8 +141,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 55,
-          "S": 5
+          "N": 50,
+          "S": 0
         }
       ],
       "icon_key": "snowpack",
