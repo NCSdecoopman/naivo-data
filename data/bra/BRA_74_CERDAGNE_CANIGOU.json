@@ -3,8 +3,8 @@
   "massif": "Cerdagne Canigou",
   "bulletin": {
     "id": 74,
-    "issued_at": "2026-05-20T16:00:00",
-    "valid_until": "2026-05-21T18:00:00",
+    "issued_at": "2026-05-21T16:00:00",
+    "valid_until": "2026-05-22T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-22",
+        "date": "2026-05-23",
         "label": "Indice de risque faible",
-        "comment": "peu d'évolution du risque avec le maintien de conditions estivales.",
+        "comment": "Stationnaire. Rien à signaler.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-16",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-17",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-05-21",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-22",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,19 +114,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau bien stabilisé, de type printanier. Quelques petites avalanches en neige humide en altitude.",
-      "text": "Manteau bien stabilisé, de type printanier. Quelques petites avalanches en neige humide en altitude.\n\nDéparts spontanés :\n- neige humide : En altitude, départs ponctuels donnant de petites coulées dans la neige récente humidifiée, voire très rarement une avalanche de taille moyenne (taille 2).\n\nDéclenchements provoqués :\n- neige humide : dans les pentes raides, de la neige récente humidifiée peut couler sous les skis et déstabiliser un pratiquant (taille 1).\n\nAutre : des corniches encore épaisses sont toujours présentes sur certaines crêtes d'altitude. Ponts de neige fragiles sur les torrents.",
+      "title": "Conditions de plus en plus estivales.",
+      "text": "Conditions de plus en plus estivales.\n\nDéparts spontanés :\n- neige humide : En altitude, départs ponctuels donnant de petites coulées dans la neige récente humidifiée, voire très rarement une avalanche de taille moyenne (taille 2).\n\nDéclenchements provoqués :\n- neige humide : dans les pentes raides, de la neige récente humidifiée peut couler sous les skis et déstabiliser un pratiquant (taille 1).\n\nAutre : avec la chaleur marquée, chute de corniche possible en pentes sommitales (haute montagne) , pont de neige pourrie,  torrents ou ruisseaux qui peuvent notablement grossir l'après-midi et compliquer l'itinéraire de retour de randonnée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \n L’enneigement est correct par rapport aux normales jusqu'en moyenne montagne, et excédentaire à haute altitude. \nOn trouve en altitude de la neige récente humidifiée ( jusqu'à une quinzaine de cm proche des sommets), reposant sur un fond dense de type névé.\nEn nord : limite d'altitude de la neige irrégulière : des névés ou des langues de neige descendent encore jusque vers 2000m localement, mais l'enneigement est continu plutôt vers 2100/2200m.  Plus haut, on trouve encore de belles accumulations de neige dès 2400 à 2500 m avec un manteau neigeux encore conséquent dans les combes et replats. \nDans les versants prenant le soleil : l'enneigement est de moins en moins continu notamment dans les zones rocheuses. Enfin, les crêtes ouest à nord-ouest sont souvent dégarnies jusqu'à haute altitude.\n\nQualité de la neige :\nLe regel est plutôt bon au lever du jour en altitude, après une nuit claire. La neige s'humidifiera ensuite rapidement avec le soleil, en tous versants et à toutes altitudes. Avec la fonte et l'humidification de la neige récente, l’ancien manteau neigeux dense de type névé de couleur plus ocre avec des poussières désertiques en surface devrait peu à peu redevenir visible.",
+      "text": "Enneigement : \n L’enneigement est correct par rapport aux normales jusqu'en moyenne montagne, et excédentaire à haute altitude. \nOn trouve encore en altitude  un peu de neige récente humidifiée (jusqu'à une quinzaine de cm proche des sommets), reposant sur un fond dense de type névé.\nEn nord : limite d'altitude de la neige irrégulière : des névés ou des langues de neige descendent encore jusque vers 2000/2100 m localement, mais l'enneigement est continu sur les plateaux vers 2100/2200 m. Plus haut, on trouve encore de belles accumulations de neige dès 2400 à 2500 m avec un manteau neigeux encore conséquent dans les combes et replats. \nDans les versants prenant le soleil : l'enneigement est discontinu notamment dans les zones rocheuses. Enfin, les crêtes ouest à nord-ouest sont souvent dégarnies jusqu'à haute altitude.\n\nQualité de la neige :\nRegel quasi absent avec la chaleur très vite présente en journée.  Fonte encore conséquente en journée.  L’ancien manteau neigeux dense de type névé de couleur plus ocre avec des poussières désertiques ressort en surface.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 2100,
-        "south": 2300
+        "north": 2200,
+        "south": 2400
       },
       "levels_cm": [
         {
@@ -141,7 +141,7 @@
         },
         {
           "alt_m": 2500,
-          "N": 170,
+          "N": 160,
           "S": 35
         }
       ],

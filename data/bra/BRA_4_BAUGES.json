@@ -3,8 +3,8 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-05-20T16:00:00",
-    "valid_until": "2026-05-21T18:00:00",
+    "issued_at": "2026-05-21T16:00:00",
+    "valid_until": "2026-05-22T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,22 +42,22 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-22",
+        "date": "2026-05-23",
         "label": "Indice de risque faible",
-        "comment": "Temps ensoleillé et températures en hausse. Fonte rapide du manteau neigeux. Pas de nouvelles instabilités.",
+        "comment": "Risque stationnaire. La fonte du manteau neigeux continue.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
+        "N": false,
+        "NE": false,
         "E": false,
         "SE": false,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -66,21 +66,16 @@
       }
     },
     "sat": {
-      "primary": 4,
+      "primary": 6,
       "secondary": null,
       "labels": {
-        "4": "Neige humide"
+        "6": "Aucune prédominente"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-6"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-16",
-          "min_cm": 0,
-          "max_cm": 2
-        },
         {
           "date": "2026-05-17",
           "min_cm": 0,
@@ -105,6 +100,11 @@
           "date": "2026-05-21",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-22",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,19 +114,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "La fonte du manteau neigeux s'accélère. Stabilisation rapide.",
-      "text": "La fonte du manteau neigeux s'accélère. Stabilisation rapide.\n\nDéclenchements provoqués :\nPeu probables. Dans les ubacs proches des sommets, de la neige meuble récente peut couler sous les skis, déclenchement de plus en plus facile au fil de l'humidification. Taille 1 (petite).\n\nDéparts spontanés :\nPeu probables. Quelques départs ponctuels en neige récente possible dans les versants ombragés proches des sommets. Taille 1.",
+      "title": "La fonte du manteau neigeux s'accélère. Manteau neigeux stable.",
+      "text": "La fonte du manteau neigeux s'accélère. Manteau neigeux stable.\n\nDéclenchements provoqués :\nPeu probables. \n\nDéparts spontanés :\nPeu probables.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nAvec l'humidification et la fonte, l'enneigement redevient déficitaire.\nTrace de neige récente au sol à partir de 2000m. Les sous-couches ne sont réellement présentes que dans les ubacs proches des plus hauts sommets.\n\nQualité de la neige ce jeudi :\n* Au-dessus de 2000 m, on retrouve encore un peu de neige récente, jusqu'à 5/10 cm vers 2200 m. Cette neige déjà bien tassée, regelée en début de matinée puis rapidement très humide.  Elle repose sur de la neige de névés, humide et compacte ou sur un sol nu.",
+      "text": "Enneigement : \nEnneigement déficitaire.\n\nQualité de la neige vendredi :\n* neige continue dans les ubacs au-dessus de 1900 m environ. Neige de névé : regelée le matin qui transforme rapidement en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1900,
-        "south": 2000
+        "south": 2100
       },
       "levels_cm": [
         {
@@ -142,7 +142,7 @@
         {
           "alt_m": 2000,
           "N": 40,
-          "S": 5
+          "S": 0
         }
       ],
       "icon_key": "snowpack",

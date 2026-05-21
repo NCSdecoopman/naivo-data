@@ -3,30 +3,30 @@
   "massif": "Champsaur",
   "bulletin": {
     "id": 19,
-    "issued_at": "2026-05-20T15:00:00",
-    "valid_until": "2026-05-21T18:00:00",
+    "issued_at": "2026-05-21T16:00:00",
+    "valid_until": "2026-05-22T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2800m indice de risque faible évoluant en limité, plus bas indice faible.",
+      "comment": "Au-dessus de 3000m indice de risque faible évoluant en limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2800,
+        "threshold_m": 3000,
         "split_axis": "horizontal",
-        "split_label": "2800m",
+        "split_label": "3000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2800",
+            "loc": "<3000",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2800",
+            "loc": ">3000",
             "risk": 1,
             "evolution_to": 2,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2800m"
+          "label": "3000m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-22",
+        "date": "2026-05-23",
         "label": "Indice de risque limité",
-        "comment": "La masse d'air se réchauffe encore. Risque limité d'avalanche se cantonnant aux pentes plein nord les plus élevées.",
+        "comment": "Poursuite d'un temps très chaud et ensoleillé, accélérant l'humidification des versants nord de haute altitude. Risque limité",
         "trend": "steady"
       }
     },
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-16",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-17",
           "min_cm": 0,
           "max_cm": 0
@@ -117,6 +112,11 @@
           "date": "2026-05-21",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-22",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,13 +126,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "ACTIVITÉ EN NEIGE HUMIDE EN UBACS DE HAUTE ALTITUDE",
-      "text": "ACTIVITÉ EN NEIGE HUMIDE EN UBACS DE HAUTE ALTITUDE\n\nDéparts spontanés : peu probables au petit matin avec le bon regel nocturne. En journée, avalanches de neige humide au soleil, taille petite, rarement moyenne en versant nord de haute altitude, au-dessus de 2800 m environ. Le fort réchauffement de la masse d'air achève l'humidification des couches de neige successives tombées depuis le début du mois.  \n\nDéclenchements provoqués : le manteau neigeux est bien stabilisé. Les instabilités se situent en versants nord de haute altitude où les chutes de neige tombées depuis le début du mois ne sont pas entièrement humidifiées. Avalanches de taille petite à moyenne, déclenchables par un seul skieur.",
+      "title": "TRÈS CHAUD EN ALTITUDE, MAIS FAIBLE ACTIVITÉ AVALANCHEUSE",
+      "text": "TRÈS CHAUD EN ALTITUDE, MAIS FAIBLE ACTIVITÉ AVALANCHEUSE\n\nDéparts spontanés : peu probables au petit matin avec le  bon regel nocturne. En journée,  avalanches de neige humide  possibles dans les versants nord de haute altitude, taille petite à moyenne. Une grande avalanche n'est pas exclue, en versant plein nord au-delà de 3000/3100 m : avec la chaleur exceptionnelle en altitude, l'humidification est très prononcée et peut atteindre pour la première fois des couches fragiles enfouies depuis le milieu de l'hiver.\n\nDéclenchements provoqués : le manteau neigeux est printanier et bien stabilisé. En versant nord de haute altitude, au-dessus de 3000/3100 m,  l'humidification du manteau neigeux n'est pas complète; un skieur évoluant tardivement peut générer une avalanche de taille petite à moyenne.  Ailleurs, manteau neigeux très stable, de type névé.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement déficitaire.\nHauteurs de neige observées  : 22 cm à la Nivôse d'Orcières à 2280 m, 106 cm au-dessus de Prapic à 2500 m.\n\nLimite d'enneigement skiable : vers 2200/2200 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : manteau neigeux humidifié avec un bon regel nocturne et une poursuite de humidification en journée. On peut encore trouver le matin de la neige restée sèche dans les versants nord au-dessus de 3200 m environ.",
+      "text": "Enneigement déficitaire, et le temps très chaud et ensoleillé ces prochains jours va accélérer la fonte.\nHauteurs de neige observées : 95 cm au-dessus de Prapic à 2500 m.\n\nLimite d'enneigement skiable : 2200/2300 m en ubacs sur terrain favorable, très localement 2000/2100 m en cœur de massif.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié avec un regel nocturne correct, mais une humidification rapide en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

@@ -3,73 +3,61 @@
   "massif": "Thabor",
   "bulletin": {
     "id": 13,
-    "issued_at": "2026-05-20T15:00:00",
-    "valid_until": "2026-05-21T18:00:00",
+    "issued_at": "2026-05-21T16:00:00",
+    "valid_until": "2026-05-22T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2800m indice de risque faible évoluant en limité, plus bas indice faible.",
+      "max_level": 1,
+      "comment": "Indice de risque faible.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2800,
-        "split_axis": "horizontal",
-        "split_label": "2800m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2800",
+            "loc": null,
             "risk": 1,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2800",
-            "risk": 1,
-            "evolution_to": 2,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2800m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "1",
             "risk": 1,
             "evolution_to": null
-          },
-          "top": {
-            "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-05-22",
-        "label": "Indice de risque limité",
-        "comment": "La masse d'air se réchauffe encore. Risque limité d'avalanche se cantonnant aux pentes plein nord les plus élevées.",
+        "max_level": 1,
+        "date": "2026-05-23",
+        "label": "Indice de risque faible",
+        "comment": "Poursuite d'un temps très chaud et ensoleillé, avec peu d'incidence sur le manteau neigeux, désormais sous forme de névé. Risque faible.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
-        "NE": true,
+        "NE": false,
         "E": false,
         "SE": false,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -88,11 +76,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-16",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-17",
           "min_cm": 0,
@@ -117,6 +100,11 @@
           "date": "2026-05-21",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-22",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "ACTIVITÉ EN NEIGE HUMIDE EN UBACS DE HAUTE ALTITUDE",
-      "text": "ACTIVITÉ EN NEIGE HUMIDE EN UBACS DE HAUTE ALTITUDE\n\nDéparts spontanés : peu probables au petit matin avec le bon regel nocturne. En journée, avalanches de neige humide au soleil, taille petite, rarement moyenne en versants nord de haute altitude, au-dessus de 2800 m environ. Le fort réchauffement de la masse d'air achève l'humidification des couches de neige successives tombées depuis le début du mois.  \n\nDéclenchements provoqués : le manteau neigeux est bien stabilisé. Les instabilités se situent en versants nord de haute altitude où les chutes de neige tombées depuis le début du mois ne sont pas entièrement humidifiées. Avalanches de taille petite à moyenne, déclenchables par un seul skieur.",
+      "title": "TRÈS CHAUD EN ALTITUDE, MAIS FAIBLE ACTIVITÉ AVALANCHEUSE",
+      "text": "TRÈS CHAUD EN ALTITUDE, MAIS FAIBLE ACTIVITÉ AVALANCHEUSE\n\nDéparts spontanés : peu probables au petit matin avec le  bon regel nocturne. En journée, de rares avalanches de neige humide sont possibles dans les versants nord de haute altitude (au-delà de 2800/2900 m) et sont de taille petite, rarement moyenne.  \n\nDéclenchements provoqués : le manteau neigeux est bien stabilisé. En versant nord de haute altitude, un skieur peut faire glisser de la neige humide sous les skis. Ailleurs, manteau neigeux très stable, de type névé.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement déficitaire.\nHauteurs de neige observées : 45 cm à la Nivôse Rochilles à 2450 m, à la même altitude 79 cm dans le vallon du Chardonnet.\n\nLimite d'enneigement skiable : très localement vers 2200 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : manteau neigeux humidifié avec un bon regel nocturne et une poursuite de humidification en journée.",
+      "text": "Enneigement déficitaire, et le temps très chaud et ensoleillé ces prochains jours va accélérer la fonte.\nHauteurs de neige observées : 39 cm à la Nivôse Rochilles à 2450 m, à la même altitude 71 cm dans le vallon du Chardonnet.\n\nLimite d'enneigement skiable : 2200/2300 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié avec un regel nocturne correct, mais une humidification rapide en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -153,7 +141,7 @@
         },
         {
           "alt_m": 2500,
-          "N": 60,
+          "N": 50,
           "S": 0
         }
       ],
