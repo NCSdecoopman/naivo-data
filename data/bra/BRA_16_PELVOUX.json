@@ -3,30 +3,30 @@
   "massif": "Pelvoux",
   "bulletin": {
     "id": 16,
-    "issued_at": "2026-05-21T16:00:00",
-    "valid_until": "2026-05-22T18:00:00",
+    "issued_at": "2026-05-22T16:00:00",
+    "valid_until": "2026-05-23T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 3000m indice de risque faible évoluant en limité, plus bas indice faible.",
+      "comment": "Au-dessus de 3200m indice de risque faible évoluant en limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 3000,
+        "threshold_m": 3200,
         "split_axis": "horizontal",
-        "split_label": "3000m",
+        "split_label": "3200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<3000",
+            "loc": "<3200",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">3000",
+            "loc": ">3200",
             "risk": 1,
             "evolution_to": 2,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "3000m"
+          "label": "3200m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-23",
+        "date": "2026-05-24",
         "label": "Indice de risque limité",
-        "comment": "Poursuite d'un temps très chaud et ensoleillé, accélérant l'humidification des versants nord de haute altitude. Risque limité",
+        "comment": "Risque stable. Activité en neige humide à très haute altitude avec le maintien de l'iso0 autour de 4000 m et le soleil matinal.",
         "trend": "steady"
       }
     },
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-17",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-18",
           "min_cm": 0,
           "max_cm": 0
@@ -117,6 +112,11 @@
           "date": "2026-05-22",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-23",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,13 +126,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "TRÈS CHAUD EN ALTITUDE, MAIS FAIBLE ACTIVITÉ AVALANCHEUSE",
-      "text": "TRÈS CHAUD EN ALTITUDE, MAIS FAIBLE ACTIVITÉ AVALANCHEUSE\n\nDéparts spontanés : peu probables au petit matin avec le  bon regel nocturne. En journée,  avalanches de neige humide  possibles dans les versants nord de haute altitude, taille petite à moyenne. Une grande avalanche n'est pas exclue, en versant plein nord au-delà de 3000/3100 m : avec la chaleur exceptionnelle en altitude, l'humidification est très prononcée et peut atteindre pour la première fois des couches fragiles enfouies depuis le milieu de l'hiver.\n\nDéclenchements provoqués : le manteau neigeux est printanier et bien stabilisé. En versant nord de haute altitude, au-dessus de 3000/3100 m, l'humidification du manteau neigeux n'est pas complète; un skieur évoluant tardivement peut générer une avalanche de taille petite à moyenne.  Ailleurs, manteau neigeux très stable, de type névé.",
+      "title": "ACTIVITÉ LIMITÉE EN NEIGE HUMIDE A TRES HAUTE ALTITUDE",
+      "text": "ACTIVITÉ LIMITÉE EN NEIGE HUMIDE A TRES HAUTE ALTITUDE \n\nDéparts spontanés : éventuelles avalanches de neige humide, de taille petite à moyenne, dans les versants nord raides de très haute altitude, au-delà de 3200 m environ. Une grande non exclue, si l’humidification qui gagne en profondeur atteint pour la première fois des couches fragiles enfouies dans le manteau neigeux. Peu probables au petit matin avec le regel nocturne, puis risque en hausse au fil de la journée avec l’iso0 très élevé et l’ensoleillement.\n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel en neige humide de taille limitée en pentes raides de très haute altitude.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement déficitaire, et le temps très chaud et ensoleillé ces prochains jours va accélérer la fonte.\nHauteurs de neige observées : 205 cm à la Nivôse des Écrins à 2970 m.\n\nLimite d'enneigement skiable : 2200/2300 m en ubacs sur terrain favorable, localement 2000/2100 m en cœur de massif.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié avec un regel nocturne correct, mais une humidification rapide en journée.",
+      "text": "Enneigement déficitaire. Ces prochains jours la fonte se maintient avec les conditions estivales. \nHauteurs de neige observées : 203 cm à la nivôse des Écrins à 2970 m.\n\nLimite d'enneigement skiable : 2200/2300 m en ubacs sur terrain favorable, localement 1900/2000 m en cœur de massif.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié avec un regel nocturne correct, mais une re-humidification rapide en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -153,7 +153,7 @@
         },
         {
           "alt_m": 2500,
-          "N": 85,
+          "N": 80,
           "S": 10
         }
       ],
