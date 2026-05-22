@@ -775,7 +775,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/semnoz_somnoz-sommet-tmx.jpg",
         "url_page": "https://app.webcam-hd.com/semnoz/sommet_tmx",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -1531,7 +1531,7 @@
         "url_image": "http://www.trinum.com/ibox/ftpcam/1280_courchevel-mairie_altiport.jpg",
         "url_page": "http://m.webcam-hd.com/courchevel-mairie/altiport",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -1699,7 +1699,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/mega_rosiere_traversette.jpg",
         "url_page": "https://www.larosiere.net/webcam/le-fort/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -2090,7 +2090,7 @@
         "altitude": 2373,
         "url_image": "https://storage.roundshot.com/545267957dc089.88398518/{yyyy}-{mm}-{dd}/{hh}-{ii}-{ss}/{yyyy}-{mm}-{dd}-{hh}-{ii}-{ss}_half.jpg",
         "url_page": "https://valmeinier.roundshot.com/lesjeux/",
-        "statut_enligne": "E",
+        "statut_enligne": "H",
         "statut_variable": "V",
         "periodicite": 10,
         "decalage_periodicite": 0,
@@ -2931,7 +2931,7 @@
         "url_image": "http://www.fripon.org/IMG/jpg/stations/RT_FRLO02.jpg",
         "url_page": "https://www.fripon.org",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -3945,8 +3945,8 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 6981,
-        "hauteur": 1578
+        "largeur": 7033,
+        "hauteur": 2311
       }
     },
     {
@@ -5591,7 +5591,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/beaufortain_areches-beaufort-cuvy.jpg",
         "url_page": "https://m.webcam-hd.com/beaufortain/areches-beaufort-cuvy",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -5730,7 +5730,7 @@
         "altitude": 259,
         "url_image": "https://www.acrv.org/webcam-acrv/output.jpg",
         "url_page": "https://www.acrv.org/webcams/",
-        "statut_enligne": "H",
+        "statut_enligne": "E",
         "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
@@ -6599,7 +6599,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/isola-2000_snowpark.jpg",
         "url_page": "https://www.stationsnicecotedazur.com/fr/webcam/isola/",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -8195,13 +8195,13 @@
         "url_image": "https://api.skaping.com/igESl-UDKJP-5ATS5-0H6VY/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/sambuy",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 917,
+        "largeur": 916,
         "hauteur": 180
       }
     },
@@ -8285,7 +8285,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 1130,
+        "largeur": 1129,
         "hauteur": 180
       }
     },
@@ -8313,7 +8313,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 961,
+        "largeur": 960,
         "hauteur": 180
       }
     },
@@ -8425,7 +8425,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 952,
+        "largeur": 951,
         "hauteur": 180
       }
     },
@@ -8481,7 +8481,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 946,
+        "largeur": 945,
         "hauteur": 180
       }
     },
@@ -8565,7 +8565,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 976,
+        "largeur": 975,
         "hauteur": 180
       }
     },
@@ -8621,7 +8621,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 1177,
+        "largeur": 1176,
         "hauteur": 180
       }
     },
@@ -8755,7 +8755,7 @@
         "url_image": "https://api.skaping.com/aHmPZ-NwkvA-qDsbw-5LsQI/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/grandtourmalet/baregeslienz",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -8923,7 +8923,7 @@
         "url_image": "https://api.skaping.com/gRFpK-AN8ws-tCxF3-cJiW1/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/lagrave/2400m",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -9147,13 +9147,13 @@
         "url_image": "https://api.skaping.com/1vkjM-btDJb-I0RrE-GfIeL/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/le-grand-bornand/chinaillon/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 995,
+        "largeur": 994,
         "hauteur": 180
       }
     },
@@ -9231,13 +9231,13 @@
         "url_image": "https://api.skaping.com/i7ZZy-UaAxw-BETx9-NslVP/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/serrechevalier/coldulautaret",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 1186,
+        "largeur": 1185,
         "hauteur": 180
       }
     },
@@ -9349,7 +9349,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 594,
+        "largeur": 593,
         "hauteur": 180
       }
     },
@@ -9377,7 +9377,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 953,
+        "largeur": 952,
         "hauteur": 180
       }
     },
@@ -9517,7 +9517,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 934,
+        "largeur": 933,
         "hauteur": 180
       }
     },
@@ -9567,7 +9567,7 @@
         "url_image": "https://api.skaping.com/gJCpx-9Uezu-nuxzt-cXr0t/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/combloux/sommet",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -9595,7 +9595,7 @@
         "url_image": "https://api.skaping.com/7tWfs-G599K-PJyiE-mTThI/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/rocdenfer",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -9651,7 +9651,7 @@
         "url_image": "https://api.skaping.com/RwG3k-rmnHA-mK6y9-coMkh/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/portes-du-soleil/les-gets",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -9679,7 +9679,7 @@
         "url_image": "https://api.skaping.com/vXcCs-qcLmn-3KBOM-5tWaL/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/la-giettaz/sommet",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -9707,7 +9707,7 @@
         "url_image": "https://api.skaping.com/q0mcy-NowOW-A1Yyf-RJJiq/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/vars/peynier",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -9959,7 +9959,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/markstein_la-federale.jpg",
         "url_page": "https://www.lemarkstein.net/fr/webcams/",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -10575,7 +10575,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/isola-2000_station.jpg",
         "url_page": "https://www.stationsnicecotedazur.com/fr/webcam/isola/",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -10631,7 +10631,7 @@
         "url_image": "https://api.skaping.com/nm7zX-hmfER-kDVAy-DO2Vs/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/valdisere/refuge-du-prariond",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -10659,7 +10659,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/lac-blanc_espace-debutant.jpg",
         "url_page": "https://www.lac-blanc.com/ete/infos-pratiques-station-vosges/webcam-1200m-900m/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -10995,7 +10995,7 @@
         "url_image": "https://www.foyerplainejoux.fr/wp-content/uploads/webcam/webcam.jpg",
         "url_page": "https://www.foyerplainejoux.fr/webcam/",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11051,7 +11051,7 @@
         "url_image": "https://www.trinum.com/ibox/ftpcam/agy_centrenordiqueagy.jpg",
         "url_page": "https://app.webcam-hd.com/agy/centrenordiqueagy",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11197,7 +11197,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 1185,
+        "largeur": 1184,
         "hauteur": 180
       }
     },
@@ -11219,7 +11219,7 @@
         "url_image": "https://api.skaping.com/wJzwH-jJsqC-tI17x-YCYwq/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/alpedhuez/herpie",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11583,7 +11583,7 @@
         "url_image": "https://api.skaping.com/zVPDP-7gbyo-I4jan-gpJDm/media/latest/thumb.mp4",
         "url_page": "https://www.skaping.com/cauterets/puntas/video",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11639,7 +11639,7 @@
         "url_image": "https://api.skaping.com/btG4t-ApkIx-YcHcI-1LFzb/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/cauterets/village/casino",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11751,7 +11751,7 @@
         "url_image": "https://api.skaping.com/AmGPg-3mU1u-abPyA-pZdTV/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/chamonix-flegere-G1",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -11835,7 +11835,7 @@
         "url_image": "https://api.skaping.com/ZIRrq-eWGqc-8S4Zb-w3J8p/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/chamonix/tete-de-balme",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -12647,13 +12647,13 @@
         "url_image": "https://api.skaping.com/j8F8y-05Vmm-Dvjix-wY9BI/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/grandtourmalet/coldutourmalet",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 977,
+        "largeur": 976,
         "hauteur": 180
       }
     },
@@ -12759,13 +12759,13 @@
         "url_image": "https://api.skaping.com/omWwe-q5gtO-744Rz-NrAqq/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/la-toussuire/front-de-neige",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 715,
+        "largeur": 714,
         "hauteur": 180
       }
     },
@@ -12843,7 +12843,7 @@
         "url_image": "https://api.skaping.com/Pju8q-eVbPf-qstDY-7AYBM/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/le-corbier/front-de-neige",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13039,7 +13039,7 @@
         "url_image": "https://api.skaping.com/XW3jS-HUmJL-YLxZB-rwTxB/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/les2alpes/bellecombe",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -13437,7 +13437,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 1055,
+        "largeur": 1054,
         "hauteur": 180
       }
     },
@@ -13689,7 +13689,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 920,
+        "largeur": 919,
         "hauteur": 180
       }
     },
@@ -13907,7 +13907,7 @@
         "url_image": "https://api.skaping.com/omh7o-9VEfP-KsDZc-r4iM6/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/orcieres/plateau-de-rocherousse",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -14214,7 +14214,7 @@
         "altitude": 1610,
         "url_image": "https://api.skaping.com/YIuTn-agjJk-QuMX7-L5Jtb/media/latest/thumb.mp4",
         "url_page": "https://www.skaping.com/peyragudes/serias",
-        "statut_enligne": "E",
+        "statut_enligne": "H",
         "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
@@ -14494,34 +14494,6 @@
         "altitude": 2204,
         "url_image": "https://api.skaping.com/IIfTZ-AzZtO-zVlup-xO1h2/media/latest/thumb.mp4",
         "url_page": "https://www.skaping.com/saint-lary/bouleaux/live",
-        "statut_enligne": "E",
-        "statut_variable": "V",
-        "periodicite": null,
-        "decalage_periodicite": 0,
-        "decalage_horloge": 0,
-        "fuseau_horaire": null,
-        "code_locale": null,
-        "largeur": 320,
-        "hauteur": 180
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.23747206,
-          42.82880292
-        ]
-      },
-      "properties": {
-        "id": 4177,
-        "name": "Saint Lary Tourette C3",
-        "lat": 42.82880292,
-        "lon": 0.23747206,
-        "altitude": 2312,
-        "url_image": "https://api.skaping.com/ihyAK-UcR6C-hKT9j-ZOABI/media/latest/thumb.mp4",
-        "url_page": "https://www.skaping.com/saint-lary/tourette/live/",
         "statut_enligne": "E",
         "statut_variable": "F",
         "periodicite": null,
@@ -15313,7 +15285,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 958,
+        "largeur": 957,
         "hauteur": 180
       }
     },
@@ -15391,7 +15363,7 @@
         "url_image": "https://api.skaping.com/6iiGj-ecMDk-Uea2H-bZcQL/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/valloire/poingt_ravier",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -15518,6 +15490,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          6.643395,
+          44.570975
+        ]
+      },
+      "properties": {
+        "id": 4250,
+        "name": "Vars - Speed Master",
+        "lat": 44.570975,
+        "lon": 6.643395,
+        "altitude": 2726,
+        "url_image": "https://api.skaping.com/QkwL9-n13xQ-IzTLn-dl4xQ/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/vars/speed-master",
+        "statut_enligne": "E",
+        "statut_variable": "V",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 1174,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.09310985,
           45.13951522
         ]
@@ -15615,7 +15615,7 @@
         "url_image": "https://www.vision-environnement.com/live/modules/timelapse/capture/valclaree.jpg",
         "url_page": "https://www.vision-environnement.com/livecams/webcam.php?webcam=valclaree",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -15923,7 +15923,7 @@
         "url_image": "https://cam-aero.eu/raspicamaero/LFSE_Epinal_Dogneville",
         "url_page": "http://cam-aero.eu/raspicamaero/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -16119,7 +16119,7 @@
         "url_image": "https://api.skaping.com/5idX3-JcGaO-FBNAp-phSBs/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/cauterets/les-cretes/panoramique",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -16287,7 +16287,7 @@
         "url_image": "https://api.skaping.com/Ym7TO-MVdck-Ndc51-nwJBF/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/arbeost/col-du-soulor/",
         "statut_enligne": "E",
-        "statut_variable": "F",
+        "statut_variable": "V",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -16666,6 +16666,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          6.85017407,
+          47.80092807
+        ]
+      },
+      "properties": {
+        "id": 4446,
+        "name": "Ballon d'Alsace - Front de neige",
+        "lat": 47.80092807,
+        "lon": 6.85017407,
+        "altitude": 1056,
+        "url_image": "https://api.skaping.com/emLTM-sUCy0-Tnbkr-a6NDq/media/latest/thumb.jpg",
+        "url_page": "https://www.skaping.com/ballon-d-alsace/front-de-neige",
+        "statut_enligne": "E",
+        "statut_variable": "F",
+        "periodicite": null,
+        "decalage_periodicite": 0,
+        "decalage_horloge": 0,
+        "fuseau_horaire": null,
+        "code_locale": null,
+        "largeur": 962,
+        "hauteur": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           6.85109052,
           47.80658781
         ]
@@ -16713,7 +16741,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 416,
+        "largeur": 415,
         "hauteur": 180
       }
     },
@@ -16763,7 +16791,7 @@
         "url_image": "https://api.skaping.com/CtW9u-dhf2b-9L6bG-hfyRX/media/latest/thumb.mp4",
         "url_page": "https://www.skaping.com/valmeinier/front-de-neige/video",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
@@ -17021,7 +17049,7 @@
         "decalage_horloge": 0,
         "fuseau_horaire": null,
         "code_locale": null,
-        "largeur": 1033,
+        "largeur": 1032,
         "hauteur": 180
       }
     },
@@ -17351,7 +17379,7 @@
         "url_image": "https://api.skaping.com/iSrzv-epEJA-0TTcj-U31BC/media/latest/thumb.jpg",
         "url_page": "https://www.skaping.com/les-houches/tramway-du-mont-blanc",
         "statut_enligne": "E",
-        "statut_variable": "V",
+        "statut_variable": "F",
         "periodicite": null,
         "decalage_periodicite": 0,
         "decalage_horloge": 0,
