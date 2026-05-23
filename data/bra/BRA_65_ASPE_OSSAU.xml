@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="65" MASSIF="Aspe Ossau" DATEBULLETIN="2026-05-22T15:00:00" DATEECHEANCE="2026-05-23T18:00:00" DATEVALIDITE="2026-05-23T18:00:00" DATEDIFFUSION="2026-05-22T15:09:00" AMENDEMENT="false">
-  <DateValidite>2026-05-23T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="65" MASSIF="Aspe Ossau" DATEBULLETIN="2026-05-23T16:00:00" DATEECHEANCE="2026-05-24T18:00:00" DATEVALIDITE="2026-05-24T18:00:00" DATEDIFFUSION="2026-05-23T16:00:00" AMENDEMENT="false">
+  <DateValidite>2026-05-24T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="1" COMMENTAIRE="Indice de risque faible." RISQUEMAXIJ2="1" DATE_RISQUE_J2="2026-05-24T00:00:00"/>
+    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="1" COMMENTAIRE="Indice de risque faible." RISQUEMAXIJ2="1" DATE_RISQUE_J2="2026-05-25T00:00:00"/>
     <PENTE NE="false" E="false" SE="false" S="false" SW="false" W="false" NW="false" N="false" COMMENTAIRE=""/>
-    <ACCIDENTEL><![CDATA[Rares départs en neige humide sous les skis.]]></ACCIDENTEL>
-    <NATUREL><![CDATA[Petit départs ponctuels en neige humide]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : Petit départs ponctuels en neige humide
-Déclenchements skieurs : Rares départs en neige humide sous les skis.]]></RESUME>
+    <ACCIDENTEL><![CDATA[en neige humide.]]></ACCIDENTEL>
+    <NATUREL><![CDATA[en neige humide.]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : en neige humide.
+Déclenchements skieurs : en neige humide.]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque faible]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Pas de changement]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Poursuite d'un temps chaud et assez beau, de rares averses attendues l'après-midi, l'humidification en profondeur et la fonte de la neige se poursuivent : pas d'évolution du niveau de risque.]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_65.png</ImageRisque>
@@ -18,52 +18,60 @@ Déclenchements skieurs : Rares départs en neige humide sous les skis.]]></RESU
   </CARTOUCHERISQUE>
   <STABILITE>
     <SitAvalTyp SAT1="4" SAT2=""/>
-    <TITRE><![CDATA[Poursuite de l'humidification jusqu'en haute-montagne]]></TITRE>
-    <TEXTESANSTITRE><![CDATA[Départs spontanés : Quelques petites coulées en neige humide peuvent encore se produire, en toutes orientations, mais principalement dans les pentes raides les plus enneigés et voyant peu le soleil. En effet, l'air chaud ambiant humidifie même les pentes de hautes altitudes les plus ombragés. Très rarement, une avalanche de taille moyenne peut se produire dans les pentes raides nord à nord-est. 
+    <TITRE><![CDATA[HUMIDIFICATION TOUJOURS EN COURS JUSQU'A HAUTE ALTITUDE.]]></TITRE>
+    <TEXTESANSTITRE><![CDATA[Départs spontanés : en neige humide uniquement.
+- quelques coulées de surface dans les pentes raides encore enneigées de tous secteurs ; pas d'activité attendue au petit matin, plus probables au cours de la journée,
+- très localement mais plus rare, une avalanche de fond de neige très humide à pourrie de taille moyenne reste possible au plus chaud de la journée dans les secteurs nord encore bien garnis au-dessus de 2400m.
 
-Déclenchements provoqués : Dans les pentes raides, principalement  les plus enneigés de hautes altitudes (au-dessus de 2500 m), un skieur peut favoriser un départ ponctuel de petite taille en neige humide, et être déséquilibré. 
-]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[Poursuite de l'humidification jusqu'en haute-montagne
+Déclenchements provoqués : en neige humide uniquement.
+- dans les pentes raides, au-dessus 2400/2500m, un skieur peut déclencher au plus chaud de la journée une avalanche de petite taille en neige gorgée d'eau, et être ainsi déstabilisé.
 
-Départs spontanés : Quelques petites coulées en neige humide peuvent encore se produire, en toutes orientations, mais principalement dans les pentes raides les plus enneigés et voyant peu le soleil. En effet, l'air chaud ambiant humidifie même les pentes de hautes altitudes les plus ombragés. Très rarement, une avalanche de taille moyenne peut se produire dans les pentes raides nord à nord-est. 
+Autres : 
+- ponts de neige très fragiles,
+- la fonte fait temporairement grossir ruisseaux et torrents l'après-midi et peut rendre plus ardu l'itinéraire retour de la randonnée.]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[HUMIDIFICATION TOUJOURS EN COURS JUSQU'A HAUTE ALTITUDE.
 
-Déclenchements provoqués : Dans les pentes raides, principalement  les plus enneigés de hautes altitudes (au-dessus de 2500 m), un skieur peut favoriser un départ ponctuel de petite taille en neige humide, et être déséquilibré. 
-]]></TEXTE>
+Départs spontanés : en neige humide uniquement.
+- quelques coulées de surface dans les pentes raides encore enneigées de tous secteurs ; pas d'activité attendue au petit matin, plus probables au cours de la journée,
+- très localement mais plus rare, une avalanche de fond de neige très humide à pourrie de taille moyenne reste possible au plus chaud de la journée dans les secteurs nord encore bien garnis au-dessus de 2400m.
+
+Déclenchements provoqués : en neige humide uniquement.
+- dans les pentes raides, au-dessus 2400/2500m, un skieur peut déclencher au plus chaud de la journée une avalanche de petite taille en neige gorgée d'eau, et être ainsi déstabilisé.
+
+Autres : 
+- ponts de neige très fragiles,
+- la fonte fait temporairement grossir ruisseaux et torrents l'après-midi et peut rendre plus ardu l'itinéraire retour de la randonnée.]]></TEXTE>
   </STABILITE>
   <QUALITE>
-    <TEXTE><![CDATA[Enneigement : Enneigement encore correct pour la saison, au-dessus de 2300m, en face nord, où de belles accumulations sont encore présentes. Cependant, la chaleur ambiante tend à réduire l'enneigement de plus en plus rapidement. En versant nord, il devrait encore être possible de chausser autour de 2100m.
+    <TEXTE><![CDATA[Enneigement : encore correct pour la saison, au-dessus de 2300/2400m en faces nord, où de belles accumulations sont encore présentes. Cependant, la chaleur ambiante tend à réduire l'enneigement de plus en plus rapidement. En versant nord, il devrait toutefois encore être possible de chausser autour de 2100m.
 État de la neige : 
-Regel absent avec une nuit très douce, et le mercure qui monte vite dès le début de journée. Fonte importante en journée.  L’ancien manteau neigeux dense de type névé de couleur plus ocre avec des poussières désertiques ressort en surface. ]]></TEXTE>
+Regel absent mais neige dense et portante au petit matin. Fonte importante en journée de la neige colorée, neige se gorgeant rapidement d'eau au fil des heures de la journée sous la chaleur attendue, sous le soleil du matin et sous les averses instables de l'après-midi. ]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-05-22T00:00:00" LimiteSud="2400" LimiteNord="2000">
+  <ENNEIGEMENT DATE="2026-05-23T00:00:00" LimiteSud="2400" LimiteNord="2000">
     <NIVEAU ALTI="1500" N="0" S="0"/>
     <NIVEAU ALTI="2000" N="2" S="0"/>
-    <NIVEAU ALTI="2500" N="165" S="25"/>
+    <NIVEAU ALTI="2500" N="160" S="20"/>
     <ImageEnneigement>montagne_enneigement_65.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-05-18T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-19T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-20T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-21T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-22T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-23T00:00:00" SS24Min="0" SS24Max="0"/>
+    <NEIGE24H DATE="2026-05-24T00:00:00" SS24Min="0" SS24Max="0"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_65.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="1500" ALTITUDEVENT2="3000">
-    <COMMENTAIRE>Le ciel est recouvert d'un voile d'altitude souvent épais au petit matin de samedi. Il devient plus fin et découpé l'après-midi. Températures estivales. </COMMENTAIRE>
-    <ECHEANCE DATE="2026-05-23T06:00:00" FF1="5" DD1="S" FF2="15" DD2="SO" ISO0="4000" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-23T12:00:00" FF1="0" DD1="S" FF2="10" DD2="N" ISO0="4000" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-23T18:00:00" FF1="5" DD1="NE" FF2="15" DD2="S" ISO0="4100" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-24T00:00:00" FF1="5" DD1="SO" FF2="15" DD2="S" ISO0="4100" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
+    <COMMENTAIRE>Chaud, beau le matin, quelques averses localement instables, voire orageuses, se développant durant l'après-midi.</COMMENTAIRE>
+    <ECHEANCE DATE="2026-05-24T06:00:00" FF1="5" DD1="S" FF2="10" DD2="NO" ISO0="4100" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-05-24T12:00:00" FF1="10" DD1="N" FF2="15" DD2="S" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-05-24T18:00:00" FF1="10" DD1="SE" FF2="20" DD2="S" ISO0="3900" PLUIENEIGE="3600" TEMPSSENSIBLE="90" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-05-25T00:00:00" FF1="5" DD1="S" FF2="15" DD2="S" ISO0="4000" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_65.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-05-16T06:00:00" FF1="25" DD1="N" FF2="30" DD2="N" ISO0="1500" PLUIENEIGE="1200" TEMPSSENSIBLE="61"/>
-      <ECHEANCE DATE="2026-05-16T12:00:00" FF1="30" DD1="N" FF2="35" DD2="N" ISO0="1800" PLUIENEIGE="1500" TEMPSSENSIBLE="61"/>
-      <ECHEANCE DATE="2026-05-16T18:00:00" FF1="25" DD1="N" FF2="30" DD2="N" ISO0="2000" PLUIENEIGE="1800" TEMPSSENSIBLE="81"/>
-      <ECHEANCE DATE="2026-05-17T00:00:00" FF1="10" DD1="NE" FF2="15" DD2="NO" ISO0="2300" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
       <ECHEANCE DATE="2026-05-17T06:00:00" FF1="15" DD1="SO" FF2="20" DD2="NO" ISO0="2200" PLUIENEIGE="1800" TEMPSSENSIBLE="6"/>
       <ECHEANCE DATE="2026-05-17T12:00:00" FF1="15" DD1="NO" FF2="20" DD2="O" ISO0="2300" PLUIENEIGE="1900" TEMPSSENSIBLE="3"/>
       <ECHEANCE DATE="2026-05-17T18:00:00" FF1="10" DD1="NO" FF2="15" DD2="NO" ISO0="2500" PLUIENEIGE="2200" TEMPSSENSIBLE="71"/>
@@ -86,15 +94,14 @@ Regel absent avec une nuit très douce, et le mercure qui monte vite dès le dé
       <ECHEANCE DATE="2026-05-22T00:00:00" FF1="10" DD1="O" FF2="15" DD2="O" ISO0="4000" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-05-22T06:00:00" FF1="10" DD1="S" FF2="20" DD2="NO" ISO0="4000" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-05-22T12:00:00" FF1="20" DD1="NE" FF2="30" DD2="N" ISO0="4000" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-05-22T18:00:00" FF1="15" DD1="E" FF2="30" DD2="S" ISO0="4100" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-05-23T00:00:00" FF1="10" DD1="S" FF2="15" DD2="O" ISO0="4200" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-05-22T18:00:00" FF1="20" DD1="N" FF2="30" DD2="SO" ISO0="4100" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
+      <ECHEANCE DATE="2026-05-23T00:00:00" FF1="15" DD1="E" FF2="40" DD2="O" ISO0="4100" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-05-23T06:00:00" FF1="10" DD1="S" FF2="30" DD2="NO" ISO0="4300" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-05-23T12:00:00" FF1="15" DD1="NE" FF2="20" DD2="SE" ISO0="4300" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-05-23T18:00:00" FF1="10" DD1="Vrb" FF2="20" DD2="SO" ISO0="4400" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
+      <ECHEANCE DATE="2026-05-24T00:00:00" FF1="5" DD1="Vrb" FF2="20" DD2="O" ISO0="4200" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-05-16T00:00:00" LimiteSud="1500" LimiteNord="1400">
-        <NIVEAU ALTI="1500" N="10" S="5"/>
-        <NIVEAU ALTI="2000" N="15" S="10"/>
-        <NIVEAU ALTI="2500" N="205" S="60"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-05-17T00:00:00" LimiteSud="1700" LimiteNord="1500">
         <NIVEAU ALTI="1500" N="7" S="0"/>
         <NIVEAU ALTI="2000" N="15" S="10"/>
@@ -125,23 +132,28 @@ Regel absent avec une nuit très douce, et le mercure qui monte vite dès le dé
         <NIVEAU ALTI="2000" N="2" S="0"/>
         <NIVEAU ALTI="2500" N="165" S="25"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-05-23T00:00:00" LimiteSud="2400" LimiteNord="2000">
+        <NIVEAU ALTI="1500" N="0" S="0"/>
+        <NIVEAU ALTI="2000" N="2" S="0"/>
+        <NIVEAU ALTI="2500" N="160" S="20"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-05-17T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-18T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-19T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-20T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-21T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-22T00:00:00" SS24Min="0" SS24Max="0"/>
+      <NEIGE24H DATE="2026-05-23T00:00:00" SS24Min="0" SS24Max="0"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-05-16T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-05-17T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-05-18T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-05-19T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-05-20T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-05-21T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-05-22T00:00:00" RISQUEMAXI="2"/>
+      <RISQUE DATE="2026-05-23T00:00:00" RISQUEMAXI="1"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_65.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_65.png</Image7derniersjours_portrait>
