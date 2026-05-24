@@ -3,32 +3,32 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-05-23T16:00:00",
-    "valid_until": "2026-05-24T18:00:00",
+    "issued_at": "2026-05-24T15:00:00",
+    "valid_until": "2026-05-25T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 3000m indice de risque faible évoluant en limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2800m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 3000,
+        "threshold_m": 2800,
         "split_axis": "horizontal",
-        "split_label": "3000m",
+        "split_label": "2800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<3000",
+            "loc": "<2800",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">3000",
-            "risk": 1,
-            "evolution_to": 2,
+            "loc": ">2800",
+            "risk": 2,
+            "evolution_to": null,
             "position": "top"
           }
         ]
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "3000m"
+          "label": "2800m"
         },
         "zones": {
           "bottom": {
@@ -46,15 +46,15 @@
             "evolution_to": null
           },
           "top": {
-            "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-25",
+        "date": "2026-05-26",
         "label": "Indice de risque limité",
         "comment": "Maintient des conditions estivales. Poursuite de l'humidification du manteau dans les versants Nord de haute montagne, induisant un risque limité après quelques heures d'ensoleillement.",
         "trend": "steady"
@@ -79,21 +79,15 @@
     },
     "sat": {
       "primary": 4,
-      "secondary": 2,
+      "secondary": null,
       "labels": {
-        "4": "Neige humide",
-        "2": "Neige ventée"
+        "4": "Neige humide"
       },
       "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-19",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-20",
           "min_cm": 0,
@@ -118,6 +112,11 @@
           "date": "2026-05-24",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-25",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -128,12 +127,12 @@
     },
     "stability": {
       "title": "HUMIDIFICATION DU MANTEAU EN PROFONDEUR JUSQU'A TRES HAUTE ALTITUDE.",
-      "text": "HUMIDIFICATION DU MANTEAU EN PROFONDEUR JUSQU'A TRES HAUTE ALTITUDE. \n\nDéparts spontanés : activité faible au levé du jour. Puis, avec le réchauffement diurne, de rares avalanches naturelles de neige humide sont possibles principalement au-dessus de 3000 m dans un large secteur Nord. Les volumes mobilisés peuvent être importants dans le rare cas où l'eau de fonte percole jusqu'à une couche fragile enfouie et déstabilise l'épaisseur du manteau concerné par l'humidification. \nDans les autres orientations (et altitudes), le manteau est moins hivernal et présente donc moins de risque (exceptées les plaques de fond résiduelles). \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie (très humide). Petites avalanches.\nDans une pente très raide et plein Nord de haute montagne -là où la neige est encore froide-, une petite plaque résiduelle peut suffire à déséquilibrer le skieur qui la déclenche. \n\nAutres : chute de corniches et rares plaques de fond possibles.",
+      "text": "HUMIDIFICATION DU MANTEAU EN PROFONDEUR JUSQU'A TRES HAUTE ALTITUDE. \n\nDéparts spontanés : activité faible au levé du jour. Puis, avec le réchauffement diurne, de rares avalanches naturelles de neige humide sont possibles principalement au-dessus de 3000 m dans un large secteur Nord. Les volumes mobilisés peuvent être importants dans le rare cas où l'eau de fonte percole jusqu'à une couche fragile enfouie et déstabilise l'épaisseur du manteau concerné par l'humidification. \nDans les autres orientations (et altitudes), le manteau est davantage printanier et présente moins de risque (exceptées les plaques de fond résiduelles). \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie (très humide). Petites avalanches.\nDans une pente très raide et plein Nord de haute montagne -là où la neige est encore froide-, une petite plaque résiduelle peut suffire à déséquilibrer le skieur qui la déclenche. \n\nAutres : chute de corniches et rares plaques de fond possibles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale en cours va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2100 m en nord,  2500 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : regel médiocre en bas, meilleur sur le haut des pentes. La croûte lâche rapidement à cause des fortes chaleurs et du Soleil de Mai. Avec le réchauffement diurne, la neige devient collante en large versant Nord au-dessus de 3000 m. La neige de printemps est meilleure à altitude égale dans les autres orientations.\nLa neige froide est désormais réservée aux skieurs/skieuses de pente raide de haute montagne - Nord à plus de 40° au moins. Ailleurs, le Soleil très haut dans le ciel fait chauffer la neige restée froide jusqu'alors.",
+      "text": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale en cours va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2100 m en nord,  2500 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : regel mauvais dans l'ensemble. La croûte lâche rapidement à cause des fortes chaleurs et du Soleil de Mai. Avec le réchauffement diurne, la neige devient collante en large versant Nord au-dessus de 3000 m. La neige de printemps est meilleure à altitude égale dans les autres orientations.\nLa neige froide est désormais réservée aux skieurs/skieuses de pente raide de haute montagne  -Nord à plus de 3200 m et 40° au moins-.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -154,7 +153,7 @@
         },
         {
           "alt_m": 2500,
-          "N": 85,
+          "N": 80,
           "S": 0
         }
       ],

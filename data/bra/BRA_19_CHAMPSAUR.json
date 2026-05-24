@@ -3,32 +3,32 @@
   "massif": "Champsaur",
   "bulletin": {
     "id": 19,
-    "issued_at": "2026-05-22T16:00:00",
-    "valid_until": "2026-05-23T18:00:00",
+    "issued_at": "2026-05-24T16:00:00",
+    "valid_until": "2026-05-25T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 3000m indice de risque faible évoluant en limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2800m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 3000,
+        "threshold_m": 2800,
         "split_axis": "horizontal",
-        "split_label": "3000m",
+        "split_label": "2800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<3000",
+            "loc": "<2800",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">3000",
-            "risk": 1,
-            "evolution_to": 2,
+            "loc": ">2800",
+            "risk": 2,
+            "evolution_to": null,
             "position": "top"
           }
         ]
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "3000m"
+          "label": "2800m"
         },
         "zones": {
           "bottom": {
@@ -46,17 +46,17 @@
             "evolution_to": null
           },
           "top": {
-            "text": "1→2",
-            "risk": 1,
-            "evolution_to": 2
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-24",
+        "date": "2026-05-26",
         "label": "Indice de risque limité",
-        "comment": "Risque stable. Activité en neige humide à très haute altitude avec le maintien de l'iso0 autour de 4000 m et le soleil matinal.",
+        "comment": "Maintien d'un risque limité avec toujours un peu d'activité en neige humide à haute altitude.",
         "trend": "steady"
       }
     },
@@ -89,16 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-18",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-05-19",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-20",
           "min_cm": 0,
           "max_cm": 0
@@ -117,6 +107,16 @@
           "date": "2026-05-23",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-24",
+          "min_cm": 0,
+          "max_cm": 0
+        },
+        {
+          "date": "2026-05-25",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,19 +126,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "ACTIVITÉ LIMITÉE EN NEIGE HUMIDE A TRES HAUTE ALTITUDE",
-      "text": "ACTIVITÉ LIMITÉE EN NEIGE HUMIDE A TRES HAUTE ALTITUDE \n\nDéparts spontanés : éventuelles avalanches de neige humide, de taille petite à moyenne, dans les versants nord raides de très haute altitude, au-delà de 3200 m environ. Une grande non exclue, si l’humidification qui gagne en profondeur atteint pour la première fois des couches fragiles enfouies dans le manteau neigeux. Peu probables au petit matin avec le regel nocturne, puis risque en hausse au fil de la journée avec l’iso0 très élevé et l’ensoleillement.\n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel en neige humide de taille limitée en pentes raides de très haute altitude.",
+      "title": "ACTIVITÉ LIMITÉE EN NEIGE HUMIDE À TRÈS HAUTE ALTITUDE",
+      "text": "ACTIVITÉ LIMITÉE EN NEIGE HUMIDE À TRÈS HAUTE ALTITUDE \n\nDéparts spontanés : éventuelles avalanches de neige humide, de taille petite à moyenne, dans les versants nord raides de très haute altitude, au-delà de 2800/3000 m environ. Une grande non exclue, si l’humidification qui gagne en profondeur atteint pour la première fois des couches fragiles enfouies dans le manteau neigeux. Ces départs sont possibles rapidement le matin en raison du regel nocturne médiocre, puis risque en hausse au fil de la journée avec l’isotherme 0 degré très élevé et l’ensoleillement.\n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel en neige humide de taille limitée en pentes raides de très haute altitude.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement déficitaire. Ces prochains jours la fonte se maintient avec les conditions estivales. \nHauteurs de neige observées : 92 cm au-dessus de Prapic à 2500 m.\n\nLimite d'enneigement skiable : 2200/2300 m en ubacs sur terrain favorable, très localement 1900/2000 m en cœur de massif.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié avec un regel nocturne correct, mais une re-humidification rapide en journée.",
+      "text": "Enneigement déficitaire. Ces prochains jours la fonte se maintient avec les conditions estivales. \nHauteurs de neige observées : 80 cm au-dessus de Prapic à 2500 m.\n\nLimite d'enneigement skiable : 2200/2300 m en ubacs sur terrain favorable, très localement 1900/2000 m en cœur de massif.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié avec un regel nocturne médiocre, mais une re-humidification rapide en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 2100,
-        "south": 2400
+        "north": 2200,
+        "south": 2600
       },
       "levels_cm": [
         {
@@ -153,8 +153,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 90,
-          "S": 20
+          "N": 70,
+          "S": 0
         }
       ],
       "icon_key": "snowpack",

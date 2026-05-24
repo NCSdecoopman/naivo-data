@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-23T17:24:38Z",
-  "max_snow_cm": 205.0,
+  "generated_at": "2026-05-24T17:23:56Z",
+  "max_snow_cm": 195.0,
   "ramp": [
     {
       "value": 0,
@@ -27,7 +27,7 @@
       "label": "Faible"
     },
     {
-      "value": 51,
+      "value": 49,
       "r": 150,
       "g": 200,
       "b": 255,
@@ -35,7 +35,7 @@
       "label": "Moyen"
     },
     {
-      "value": 102,
+      "value": 98,
       "r": 100,
       "g": 150,
       "b": 255,
@@ -43,7 +43,7 @@
       "label": "Cons\u00e9quent"
     },
     {
-      "value": 154,
+      "value": 146,
       "r": 50,
       "g": 100,
       "b": 200,
@@ -51,7 +51,7 @@
       "label": "Important"
     },
     {
-      "value": 205,
+      "value": 195,
       "r": 0,
       "g": 50,
       "b": 150,
