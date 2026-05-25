@@ -3,8 +3,8 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-05-24T16:00:00",
-    "valid_until": "2026-05-25T18:00:00",
+    "issued_at": "2026-05-25T16:00:00",
+    "valid_until": "2026-05-26T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,7 +54,7 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-26",
+        "date": "2026-05-27",
         "label": "Indice de risque limité",
         "comment": "Risque stationnaire.\nL'humification en profondeur du manteau progresse nettement en altitude au vu des températures. La stabilisation du manteau neigeux se poursuit.",
         "trend": "steady"
@@ -63,13 +63,13 @@
     "dangerous_aspects": {
       "aspects": {
         "N": true,
-        "NE": true,
+        "NE": false,
         "E": false,
         "SE": false,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -88,11 +88,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-20",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-21",
           "min_cm": 0,
@@ -117,6 +112,11 @@
           "date": "2026-05-25",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-26",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -132,7 +132,7 @@
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2800 m et bon au-dessus. Neige présente en quantité qu'au-dessus de 2000/2200 m en Nord et 2300/2400 m en Sud.\n\nQualité de la neige ce lundi :\n* En dessous de 2300 m : des névés subsistent. Le regel est limité le matin. \n* Entre 2300 et 3200m : manteau neigeux printanier : regelé le matin puis humide l'après-midi reposant sur un fond dure. Enfoncement piéton important.\n* Au-dessus de 3500 m : Encore un peu de neige froide, poudreuse et dense dans les faces nord (dans les ubacs les plus raides, la limite est plus basse, autour de 3200m). Neige travaillée par le vent vers les crêtes et sommets. En adrets, fine croute non portante le matin qui se ramollit rapidement au soleil.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2800 m et bon au-dessus. Neige continue au-dessus de 2000 m en Nord et 2200m en Sud.\n\nQualité de la neige ce mardi :\n* En dessous de 2300 m : neige de névé. Le regel nocturne est peu efficace. \n* Au-dessus de 2300 m : neige de printemps. Vieille neige bien tassée, dure regelée le matin puis qui s'humidifie assez rapidement en profondeur. Enfoncement piéton important.\n* Au-dessus de 3300m en Nord et 3600m en Sud, la neige est restée froide. La neige est parfois travaillée par le vent près des crêtes et des sommets. La glace peut ressortir souvent en haute-montagne.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -148,13 +148,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 25,
+          "N": 20,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 170,
-          "S": 90
+          "N": 160,
+          "S": 80
         }
       ],
       "icon_key": "snowpack",
