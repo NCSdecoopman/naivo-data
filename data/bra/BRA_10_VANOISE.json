@@ -3,30 +3,30 @@
   "massif": "Vanoise",
   "bulletin": {
     "id": 10,
-    "issued_at": "2026-05-26T16:00:00",
-    "valid_until": "2026-05-27T18:00:00",
+    "issued_at": "2026-05-27T15:00:00",
+    "valid_until": "2026-05-28T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2700m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2800m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2700,
+        "threshold_m": 2800,
         "split_axis": "horizontal",
-        "split_label": "2700m",
+        "split_label": "2800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2700",
+            "loc": "<2800",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2700",
+            "loc": ">2800",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2700m"
+          "label": "2800m"
         },
         "zones": {
           "bottom": {
@@ -54,7 +54,7 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-28",
+        "date": "2026-05-29",
         "label": "Indice de risque limité",
         "comment": "Forte chaleur et fonte du manteau restant encore au programme maintenant un faible risque de neige humide .",
         "trend": "steady"
@@ -69,7 +69,7 @@
         "S": false,
         "SW": false,
         "W": false,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -88,11 +88,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-22",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-23",
           "min_cm": 0,
@@ -117,6 +112,11 @@
           "date": "2026-05-27",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-28",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,13 +126,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES PENTES NORD POTENTIELLEMENT INSTABLES.",
-      "text": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES PENTES NORD POTENTIELLEMENT INSTABLES. \n\nDéparts spontanés :  La crue avalancheuse en haute altitude semble avoir atteint son apogée ce week-end , de ce fait les avalanches naturelles de neige humide deviennent rares. Ce risque ne concerne que les quelques hautes pentes Nord NE et NO du massif. Petites à moyennes avalanches .Taille 1 à 2  \nDans les autres orientations (et altitudes), le manteau est entièrement humidifié et donc quasiment inerte exceptées les plaques de fond résiduelles (très rares elles aussi) . \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie (très humide). Petites avalanches.\n\nAutres : chute de corniches et rares plaques de fond possibles.",
+      "title": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES AVALANCHE DE FONTE  EN PENTES NORD",
+      "text": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES AVALANCHE DE FONTE  EN PENTES NORD \n\nDéparts spontanés :  La crue avalancheuse en haute altitude semble avoir atteint son apogée ce week-end , de ce fait les avalanches naturelles de neige humide deviennent rares. Ce risque ne concerne plus que les quelques hautes pentes Nord et NE du massif (supérieure à 2800m) . Petites à moyennes avalanches de neige humides de taille 1 à 2  \nDans les autres orientations (et altitudes), le manteau est entièrement humidifié et donc quasiment inerte exceptées de très rares départs en plaques de fond sur dalles rocheuses encore enneigées  . \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie  déclenchant de petites avalanches.\n\nAutres : chute de corniches là ou il en reste  et ponts de neige fragiles sur les ruisseaux",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale de ces  jours va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2200 m en nord,  2600 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : Forte chaleur et regel mauvais ou au moins peu durable ne laisse pas beaucoup de temps pour skier. A haute altitude :  la neige est rapidement pourrie à cause des fortes chaleurs et du Soleil de Mai.  Sous 2700m neige de névé partout.",
+      "text": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale de ces  jours va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2300 m en nord,  2700 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : Forte chaleur et regel mauvais ou au moins peu durable ne laissant pas beaucoup de temps pour skier. A haute altitude :  la neige est rapidement pourrie à cause des fortes chaleurs et du soleil de fin Mai qui tape tôt et fort.  Sous 2800m neige de névé partout.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

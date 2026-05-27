@@ -3,8 +3,8 @@
   "massif": "Orlu St-Barthelemy",
   "bulletin": {
     "id": 72,
-    "issued_at": "2026-05-26T16:00:00",
-    "valid_until": "2026-05-27T18:00:00",
+    "issued_at": "2026-05-27T16:00:00",
+    "valid_until": "2026-05-28T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-28",
+        "date": "2026-05-29",
         "label": "Indice de risque faible",
-        "comment": "Stationnaire",
+        "comment": "Pas d'évolution notable.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-22",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-23",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-05-27",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-28",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Conditions estivales",
-      "text": "Conditions estivales\n\nDéparts spontanés :\n En altitude,  petites coulées en neige humide possibles sous forme de départs ponctuels de faible ampleur. \n\nDéclenchements provoqués :\nRien à signaler.\nAutre : avec la chaleur marquée, chute de corniche possible en pentes sommitales, pont de neige pourrie. Par ailleurs, les torrents et ruisseaux coulent abondamment et peuvent s'avérer inhabituellement difficile à traverses. Beaucoup d'eau s'écoule également le long des sentiers.",
+      "title": "Conditions estivales en montagne avec des températures encore élevées",
+      "text": "Conditions estivales en montagne avec des températures encore élevées\n\nDéparts spontanés :\n En altitude,  petites coulées en neige humide possibles sous forme de départs ponctuels de faible ampleur. \n\nDéclenchements provoqués :\nRien à signaler.\n\nAutre : avec la chaleur marquée, chute de corniche possible en pentes sommitales, pont de neige pourrie. Par ailleurs, les torrents et ruisseaux coulent abondamment et peuvent s'avérer inhabituellement difficile à traverses. Beaucoup d'eau s'écoule également le long des sentiers.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \n Malgré la chaleur, l’enneigement reste excédentaire sur le secteur d'Orlu ( surtout en haute altitude ), ce massif demeurant l'un des plus enneigés des Pyrénées. \nEn nord : limite d'altitude de la neige irrégulière, manteau neigeux de plus en plus discontinu : des névés ou des langues de neige descendent encore jusque vers 1800 m localement (secteur orlu) au pied de verrous ou parois suffisamment ombragés, mais l'enneigement est continu plutôt au-dessus de 2000/2100 m. Plus haut, on trouve encore de belles accumulations de neige dès 2400m avec un manteau neigeux encore conséquent dans les combes et replats. \n\n\nQualité de la neige :\nRegel généralement absent hormis très en altitude, puis la chaleur vient très vite ramollir la neige dès le début de journée. Fonte encore conséquente en journée. Le manteau neigeux est dense de type névé, souvent de couleur ocre avec des poussières désertiques en surface.",
+      "text": "Enneigement : \nMalgré la chaleur qui dure depuis plusieurs jours, l’enneigement reste excédentaire sur le secteur d'Orlu (surtout en haute altitude), ce massif demeurant l'un des plus enneigés des Pyrénées. \nEn nord : limite d'altitude de la neige irrégulière, manteau neigeux de plus en plus discontinu : des névés ou des langues de neige descendent encore jusque vers 1800 m localement (secteur Orlu/En Beys) au pied de verrous ou parois suffisamment ombragés, mais l'enneigement est continu plutôt au-dessus de 2000/2100 m. Plus haut, on trouve encore de belles accumulations de neige dès 2400m avec un manteau neigeux encore conséquent dans les combes et replats. \n\nQualité de la neige :\nRegel généralement absent hormis très en altitude, puis la chaleur vient très vite ramollir la neige dès le début de journée. Fonte encore conséquente en journée. Le manteau neigeux est dense de type névé, souvent de couleur ocre avec des poussières désertiques en surface.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

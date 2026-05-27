@@ -3,8 +3,8 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-05-26T16:00:00",
-    "valid_until": "2026-05-27T18:00:00",
+    "issued_at": "2026-05-27T16:00:00",
+    "valid_until": "2026-05-28T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,7 +54,7 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-28",
+        "date": "2026-05-29",
         "label": "Indice de risque limité",
         "comment": "Risque stationnaire.\nL'humification en profondeur du manteau progresse nettement en altitude au vu des températures. La stabilisation du manteau neigeux se poursuit.",
         "trend": "steady"
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-22",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-23",
           "min_cm": 0,
           "max_cm": 0
@@ -117,6 +112,11 @@
           "date": "2026-05-27",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-28",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,12 +127,12 @@
     },
     "stability": {
       "title": "L'humidification du manteau neigeux se poursuit.",
-      "text": "L'humidification du manteau neigeux se poursuit.\n\nDéparts spontanés :\n* Au-dessus de 2800 m, le plus souvent dans les ubacs : rares avalanches de neige humide au fil de l'ensoleillement. Taille 1 (petite), parfois 2 (moyenne).  Dans de rares cas, l'eau de fonte peut percoler jusqu'à une couche fragile enfouie et déstabilise l'épaisseur du manteau concernée par l'humidification. Les volumes mobilisés peuvent être plus importants, taille 2. \n* En dessous de 2800 m, rares départs ponctuels, au fil du réchauffement par le soleil, dans la neige humide récente. Taille 1.\n\nDéclenchements provoqués :\n* Au-dessus de 2800 m : de la neige humide coule sous les skis, de plus en plus facilement au fil du réchauffement par le soleil. Départs plus nombreux en large secteur nord, où l'humidification est encore partielle, mais gagne progressivement en profondeur. Taille 1, parfois 2.\n* Versants Nord, raides, au-dessus de 3300 m : rares plaques résiduelles dans la neige froide pouvant déséquilibrer un skieur. Taille 1.",
+      "text": "L'humidification du manteau neigeux se poursuit.\n\nDéparts spontanés :\n* Au-dessus de 2800 m, le plus souvent dans les ubacs : rares avalanches de neige humide au fil de l'ensoleillement. Taille 1 (petite), parfois 2 (moyenne).  Dans de rares cas, l'eau de fonte peut percoler jusqu'à une couche fragile enfouie et déstabilise l'épaisseur du manteau concernée par l'humidification. Les volumes mobilisés peuvent être plus importants, taille 2. \n* Dans les ubacs en dessous de 2800 m : rares départs ponctuels, au fil du réchauffement par le soleil, dans la neige humide récente. Taille 1.\n\nDéclenchements provoqués :\n* Au-dessus de 2800 m : de la neige humide coule sous les skis, de plus en plus facilement au fil du réchauffement par le soleil. Départs plus nombreux en large secteur nord, où l'humidification est encore partielle, mais gagne progressivement en profondeur. Taille 1, parfois 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2800 m et bon au-dessus. Neige continue au-dessus de 2000 m en Nord et 2200m en Sud.\n\nQualité de la neige ce mercredi :\n* En dessous de 2400 m : neige de névé.  Pas de regel nocturne. \n* Entre 2400 et 3300 m :neige de printemps. Vieille neige bien tassée, légèrement regelée en début de journée qui s'humidifie rapidement en matinée. Enfoncement piéton important.\n* Au-dessus de 3300m en Nord et 4000m en Sud, la neige est restée froide. La neige est parfois travaillée par le vent près des crêtes et des sommets. La glace peut ressortir souvent en haute-montagne.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2800 m et bon au-dessus. Neige continue au-dessus de 2000 m en Nord et 2200m en Sud.\n\nQualité de la neige ce jeudi :\n* En dessous de 2400 m : neige de névé.  Pas de regel nocturne. \n* Entre 2400 et 3300 m : neige de printemps. Vieille neige bien tassée, légèrement regelée en début de journée qui s'humidifie rapidement en matinée. Enfoncement piéton important.\n* Au-dessus de 3300m en Nord et 4000m en Sud, la neige est restée froide. La neige est parfois travaillée par le vent proche des crêtes et des sommets. La glace peut ressortir en haute-montagne.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
