@@ -3,67 +3,55 @@
   "massif": "Maurienne",
   "bulletin": {
     "id": 9,
-    "issued_at": "2026-05-27T15:00:00",
-    "valid_until": "2026-05-28T18:00:00",
+    "issued_at": "2026-05-28T15:00:00",
+    "valid_until": "2026-05-29T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2800m indice de risque limité, plus bas indice faible.",
+      "max_level": 1,
+      "comment": "Indice de risque faible.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2800,
-        "split_axis": "horizontal",
-        "split_label": "2800m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2800",
+            "loc": null,
             "risk": 1,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2800",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2800m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "1",
             "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-29",
+        "date": "2026-05-30",
         "label": "Indice de risque faible",
-        "comment": "Forte chaleur et fonte du manteau restant encore au programme. Neige de névé partout ou presque sur ce massif  du coup risque de coulées en neige humides devenant faible.",
-        "trend": "down"
+        "comment": "Forte chaleur et fonte du manteau restent encore au programme. Neige de névé partout (ou presque) sur ce massif . Risque de coulées en neige humide faible.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
-        "NE": true,
+        "NE": false,
         "E": false,
         "SE": false,
         "S": false,
@@ -89,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-23",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-24",
           "min_cm": 0,
           "max_cm": 0
@@ -117,6 +100,11 @@
           "date": "2026-05-28",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-29",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,18 +114,18 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES AVALANCHE DE FONTE  EN PENTES NORD",
-      "text": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES AVALANCHE DE FONTE  EN PENTES NORD \n\nDéparts spontanés :  La crue avalancheuse en haute altitude semble avoir atteint son apogée ce week-end , de ce fait les avalanches naturelles de neige humide deviennent rares. Ce risque ne concerne plus que les quelques hautes pentes Nord et NE du massif (supérieure à 2800m) . Petites à moyennes avalanches de neige humides de taille 1 à 2  \nDans les autres orientations (et altitudes), le manteau est entièrement humidifié et donc quasiment inerte exceptées de très rares départs en plaques de fond sur dalles rocheuses encore enneigées  . \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie  déclenchant de petites avalanches.\n\nAutres : chute de corniches là ou il en reste  et ponts de neige fragiles sur les ruisseaux",
+      "title": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES AVALANCHES DE FONTE EN PENTES NORD",
+      "text": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES AVALANCHES DE FONTE EN PENTES NORD \n\nDéparts spontanés :  les avalanches naturelles de neige humide sont rares. Ce risque ne concerne plus que les quelques hautes pentes Nord et NE du massif (supérieure à 2800m). Petites à moyennes avalanches de neige humides de taille 1 à 2  \nDans les autres orientations (et altitudes), le manteau est entièrement humidifié et donc quasiment inerte exceptées de très rares départs en plaques de fond sur dalles rocheuses encore enneigées. \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie. Déclenchant de petites avalanches.\n\nAutres : chute de corniches là où il en reste et ponts de neige fragiles sur les ruisseaux",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale de ces  jours va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2300 m en nord,  2700 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : Forte chaleur et regel mauvais ou au moins peu durable ne laissant pas beaucoup de temps pour skier. A haute altitude :  la neige est rapidement pourrie à cause des fortes chaleurs et du soleil de fin Mai qui tape tôt et fort.  Sous 2800m neige de névé partout.",
+      "text": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale de ces  jours va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2200 m en nord,  2700 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : forte chaleur et regel mauvais, ou au moins peu durable ne laissant pas beaucoup de temps pour skier. A haute altitude : la neige est rapidement pourrie à cause des fortes chaleurs et du soleil de fin Mai qui tape tôt et fort. Sous 2800m neige de névé partout.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 2100,
+        "north": 2300,
         "south": 2600
       },
       "levels_cm": [
@@ -153,7 +141,7 @@
         },
         {
           "alt_m": 2500,
-          "N": 70,
+          "N": 65,
           "S": 0
         }
       ],

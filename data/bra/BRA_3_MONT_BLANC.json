@@ -3,30 +3,30 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-05-27T16:00:00",
-    "valid_until": "2026-05-28T18:00:00",
+    "issued_at": "2026-05-28T16:00:00",
+    "valid_until": "2026-05-29T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2800m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 3000m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2800,
+        "threshold_m": 3000,
         "split_axis": "horizontal",
-        "split_label": "2800m",
+        "split_label": "3000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2800",
+            "loc": "<3000",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2800",
+            "loc": ">3000",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2800m"
+          "label": "3000m"
         },
         "zones": {
           "bottom": {
@@ -54,16 +54,16 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-29",
+        "date": "2026-05-30",
         "label": "Indice de risque limité",
-        "comment": "Risque stationnaire.\nL'humification en profondeur du manteau progresse nettement en altitude au vu des températures. La stabilisation du manteau neigeux se poursuit.",
+        "comment": "Samedi : temps encore sec, ensoleillé et chaud.\n⇒ risque stationnaire, peu de changement sur le manteau neigeux.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
-        "NE": false,
+        "NE": true,
         "E": false,
         "SE": false,
         "S": false,
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-23",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-24",
           "min_cm": 0,
           "max_cm": 0
@@ -117,6 +112,11 @@
           "date": "2026-05-28",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-29",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,19 +126,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "L'humidification du manteau neigeux se poursuit.",
-      "text": "L'humidification du manteau neigeux se poursuit.\n\nDéparts spontanés :\n* Au-dessus de 2800 m, le plus souvent dans les ubacs : rares avalanches de neige humide au fil de l'ensoleillement. Taille 1 (petite), parfois 2 (moyenne).  Dans de rares cas, l'eau de fonte peut percoler jusqu'à une couche fragile enfouie et déstabilise l'épaisseur du manteau concernée par l'humidification. Les volumes mobilisés peuvent être plus importants, taille 2. \n* Dans les ubacs en dessous de 2800 m : rares départs ponctuels, au fil du réchauffement par le soleil, dans la neige humide récente. Taille 1.\n\nDéclenchements provoqués :\n* Au-dessus de 2800 m : de la neige humide coule sous les skis, de plus en plus facilement au fil du réchauffement par le soleil. Départs plus nombreux en large secteur nord, où l'humidification est encore partielle, mais gagne progressivement en profondeur. Taille 1, parfois 2.",
+      "title": "manteau neigeux en cours d'humidification en haute montagne",
+      "text": "manteau neigeux en cours d'humidification en haute montagne\n\nDéparts spontanés :\nAvalanches de neige humide, rares en début de journée, puis plus nombreuses au fil de la course du soleil et du réchauffement, surtout entre 3000 m et 4000 m. Petite sous 3000 m, taille 1 à 2 (petite à moyenne) au-dessus. \nObservables : escargots, enfoncement piéton important. \n\nDéclenchements provoqués : \nUn peu de neige humide peut couler sous les skis, surtout aux heures les plus chaudes. Taille 1 sous 3000 m et taille 2 possible au-dessus.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2800 m et bon au-dessus. Neige continue au-dessus de 2000 m en Nord et 2200m en Sud.\n\nQualité de la neige ce jeudi :\n* En dessous de 2400 m : neige de névé.  Pas de regel nocturne. \n* Entre 2400 et 3300 m : neige de printemps. Vieille neige bien tassée, légèrement regelée en début de journée qui s'humidifie rapidement en matinée. Enfoncement piéton important.\n* Au-dessus de 3300m en Nord et 4000m en Sud, la neige est restée froide. La neige est parfois travaillée par le vent proche des crêtes et des sommets. La glace peut ressortir en haute-montagne.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire.\nOn peut chausser les skis au-dessus de 2000 m en nord et 2400 m en sud. \n\nQualité de la neige ce vendredi matin : \nSous 3200 m, neige humide ou de névé avec un très mauvais regel nocturne. \nEntre 3200 m et 4000 m (voire 4500 m dans les adrets) : bon regel nocturne, la neige s’humidifie progressivement en journée. Enfoncement piéton important. \nAu-dessus de 4000 m dans les ubacs et 4500 m dans les adrets, neige encore froide, localement ventée.\nEn haute montagne, la glace ressort à certains endroits.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1900,
-        "south": 2200
+        "north": 2000,
+        "south": 2300
       },
       "levels_cm": [
         {
@@ -148,13 +148,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 20,
+          "N": 10,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 150,
-          "S": 70
+          "N": 140,
+          "S": 60
         }
       ],
       "icon_key": "snowpack",

@@ -3,8 +3,8 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-05-27T16:00:00",
-    "valid_until": "2026-05-28T18:00:00",
+    "issued_at": "2026-05-28T16:00:00",
+    "valid_until": "2026-05-29T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-29",
+        "date": "2026-05-30",
         "label": "Indice de risque faible",
-        "comment": "Vendredi, pas d'évolution. Les conditions restent estivales, la fonte continue ou s'accélère...",
+        "comment": "Samedi, pas d'évolution. Conditions estivales, poursuite de la fonte...",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-23",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-24",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-05-28",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-29",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MOINS DE NEIGE ET DENSE... RARE AVALANCHE DE FONTE EN FACES NORD D'ALTITUDE ?",
-      "text": "MOINS DE NEIGE ET DENSE... RARE AVALANCHE DE FONTE EN FACES NORD D'ALTITUDE ?\n\nLéger regel nocturne en altitude. En journée, neige très humide mais dense/de névé et donc généralement stable...\n\nDéparts spontanés : Peu probable car la plupart des pentes ont déjà bougé. Le manteau en place, bien qu'humide, devient de plus en plus dense, de névé souvent. \nJeudi, avec une neige rapidement humide à détrempée dès le matin, on n'exclut pas totalement une avalanche ponctuelle de taille moyenne, plutôt en faces Nord sommitales...\nDéclenchements provoqués :  Peu probables, ou ponctuellement risque de coulée sous les skis en neige bien humidifiée (en pentes raides)... \n\nAutres : Neige durcie ou croutée par regel à l'aube",
+      "title": "MOINS DE NEIGE ET DENSE... (TRÈS) RARE AVALANCHE DE FONTE EN FACE NORD D'ALTITUDE ?",
+      "text": "MOINS DE NEIGE ET DENSE... (TRÈS) RARE AVALANCHE DE FONTE EN FACE NORD D'ALTITUDE ?\n\nLéger regel nocturne en altitude. En journée, neige très humide mais dense/de névé et donc généralement stable...\n\nDéparts spontanés : Peu probable car la plupart des pentes ont déjà bougé. Le manteau en place, bien qu'humide, devient de plus en plus dense, de névé souvent. \nSamedi, avec une neige rapidement humide à détrempée dès le matin, on n'exclut pas totalement une avalanche ponctuelle de taille moyenne, plutôt en face Nord sommitale...\nDéclenchements provoqués :  Peu probables, ou ponctuellement risque de coulée sous les skis en neige bien humidifiée (en pentes raides)... \n\nAutres : Neige durcie ou croûtée par regel à l'aube",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  La fonte s'accélère et la fin de saison approche en Belledonne, avec environ 2 semaines d'avance par rapport aux \"normales\"... \nLimites skiables : Vers 1800/2000m en plein Nord, 2200/2500m au soleil...\n\nQualité de la neige jeudi : Neige de névé \"sale\". Léger regel nocturne, meilleure vers les sommets. Dès le matin très rapide humidification au soleil puis en tous versants. Neige humide puis détrempée, devenant plus difficile à skier au fil des heures....",
+      "text": "Qualification de l’enneigement :  La fonte s'accélère et la fin de saison approche en Belledonne, avec environ 2 semaines d'avance par rapport aux normales... \nLimites skiables : Vers 1800/2000m en plein Nord, 2200/2500m au soleil...\n\nQualité de la neige samedi : Neige de névé \"sale\". Léger regel nocturne, meilleur vers les sommets. Dès le matin très rapide humidification au soleil puis en tous versants. Neige humide puis détrempée, devenant plus difficile à skier au fil des heures....",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -136,12 +136,12 @@
         },
         {
           "alt_m": 2000,
-          "N": 10,
+          "N": 5,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 160,
+          "N": 150,
           "S": 0
         }
       ],
