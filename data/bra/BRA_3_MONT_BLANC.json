@@ -3,8 +3,8 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-05-28T16:00:00",
-    "valid_until": "2026-05-29T18:00:00",
+    "issued_at": "2026-05-29T16:00:00",
+    "valid_until": "2026-05-30T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-05-30",
+        "date": "2026-05-31",
         "label": "Indice de risque limité",
-        "comment": "Samedi : temps encore sec, ensoleillé et chaud.\n⇒ risque stationnaire, peu de changement sur le manteau neigeux.",
+        "comment": "Dimanche : temps ensoleillé et chaud. Des orages l'après-midi\n⇒ risque stationnaire, peu de changement sur le manteau neigeux.",
         "trend": "steady"
       }
     },
@@ -89,11 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-24",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-25",
           "min_cm": 0,
           "max_cm": 0
@@ -117,6 +112,11 @@
           "date": "2026-05-29",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-30",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -132,13 +132,13 @@
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire.\nOn peut chausser les skis au-dessus de 2000 m en nord et 2400 m en sud. \n\nQualité de la neige ce vendredi matin : \nSous 3200 m, neige humide ou de névé avec un très mauvais regel nocturne. \nEntre 3200 m et 4000 m (voire 4500 m dans les adrets) : bon regel nocturne, la neige s’humidifie progressivement en journée. Enfoncement piéton important. \nAu-dessus de 4000 m dans les ubacs et 4500 m dans les adrets, neige encore froide, localement ventée.\nEn haute montagne, la glace ressort à certains endroits.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire.\nOn peut chausser les skis au-dessus de 2100 m en nord et 2400 m en sud. \n\nQualité de la neige ce samedi matin : \nSous 3000 m, neige humide ou de névé avec un très mauvais regel nocturne. \nAu-dessus de 3000 m : bon regel nocturne, la neige s’humidifie progressivement en journée. Enfoncement piéton important. \nEn haute montagne, la glace ressort à certains endroits.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 2000,
-        "south": 2300
+        "north": 2100,
+        "south": 2400
       },
       "levels_cm": [
         {
@@ -148,13 +148,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 10,
+          "N": 0,
           "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 140,
-          "S": 60
+          "N": 130,
+          "S": 50
         }
       ],
       "icon_key": "snowpack",

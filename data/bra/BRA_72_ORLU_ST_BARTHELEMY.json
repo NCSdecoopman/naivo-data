@@ -3,8 +3,8 @@
   "massif": "Orlu St-Barthelemy",
   "bulletin": {
     "id": 72,
-    "issued_at": "2026-05-28T16:00:00",
-    "valid_until": "2026-05-29T18:00:00",
+    "issued_at": "2026-05-29T16:00:00",
+    "valid_until": "2026-05-30T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-30",
+        "date": "2026-05-31",
         "label": "Indice de risque faible",
-        "comment": "Pas d'évolution significative attendue",
+        "comment": "Pas d'évolution",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-24",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-25",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-05-29",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-30",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,19 +114,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Conditions estivales avec des températures encore élevées mais toujours de la neige présente en montagne",
-      "text": "Conditions estivales avec des températures encore élevées mais toujours de la neige présente en montagne\n\nDéparts spontanés : \n En altitude, petites coulées en neige humide encore possibles sous forme de départs ponctuels de faible ampleur. Par ailleurs, avec une humidification qui gagne en profondeur en tous versants de haute-montagne, on surveillera également dans les pentes très raides l'ouverture de fissures sur des sols herbeux ou sur des dalles lisses qui pourraient précéder de rares avalanches de fond.\n\nDéclenchements provoqués : \n Dans les pentes raides d'altitude, le passage d'un pratiquant peut conduire au déclenchement d'une coulée de petite taille en neige gorgée d'eau, et être ainsi déstabilisé sur quelques mètres.\n\nAutres : avec la chaleur marquée, chute de corniche possible en pentes sommitales, pont de neige pourrie. Par ailleurs, les torrents et ruisseaux coulent abondamment et peuvent s'avérer inhabituellement difficile à traverser. Beaucoup d'eau s'écoule également le long des sentiers.",
+      "title": "Conditions estivales avec des températures encore élevées mais de la neige toujours présente en altitude",
+      "text": "Conditions estivales avec des températures encore élevées mais de la neige toujours présente en altitude\n\nLa pratique du ski dans le massif du Saint Barthélémy devient limitée à quelques névés résiduels.\nDans le massif d'Orlu, l'enneigement est plus conséquent avec les risques décrits ci-dessous :\nDéparts spontanés : \nEn altitude, là où la neige n'est pas encore transformée en névé, de petites coulées en neige humide sont encore possibles sous forme de départs ponctuels de faible ampleur. \nOn surveillera également dans les pentes très raides d'altitude la présence de fissures récentes, qui pourraient précéder de rares avalanches de fond sur des sols lisses.\n\nDéclenchements provoqués : \n Dans les pentes raides d'altitude, un pratiquant peut être déstabilisé par le déclenchement sous ses skis d'une coulée de petite taille en neige gorgée d'eau.\n\nAutres : avec la chaleur marquée, chutes de corniches possibles en pentes sommitales, pont de neige fragiles. Par ailleurs, avec la fonte en cours, les torrents et ruisseaux coulent abondamment et peuvent s'avérer inhabituellement difficile à traverser. Beaucoup d'eau s'écoule également le long des sentiers.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nMalgré la chaleur qui dure depuis plusieurs jours, l’enneigement est encore plutôt excédentaire sur le secteur d'Orlu (surtout en haute altitude), ce massif demeurant l'un des plus enneigés des Pyrénées.\nEn nord, limite d'altitude de la neige très irrégulière, manteau neigeux de plus en plus discontinu : des névés ou des langues de neige descendent encore jusque vers 1900/2000 m localement plus bas, au pied de verrous ou parois suffisamment ombragés, mais l'enneigement est vraiment continu plutôt au-dessus de 2100/2200 m. Plus haut, on trouve encore de belles accumulations de neige dès 2400m avec un manteau neigeux encore conséquent dans les combes et replats. \n\n\nQualité de la neige :\nLa neige peut être ressaisie, voire dure, au petit matin en altitude puis la chaleur vient très vite ramollir la neige dès le début de journée. Fonte encore conséquente en journée. Le manteau neigeux est dense de type névé, souvent de couleur ocre avec des poussières désertiques en surface et très humide en cours de journée.",
+      "text": "Enneigement : \nAprès une pause de quelques à la mi-Mai, les conditions remarquablement chaudes depuis une semaine favorisent une fonte significative du manteau neigeux, qui reste néanmoins encore excédentaire en altitude par rapport aux derniers hivers.  \nEn nord, limite d'altitude de la neige très irrégulière, manteau neigeux de plus en plus discontinu : des névés ou des langues de neige descendent encore jusque vers 2000 m localement, mais l'enneigement est vraiment continu plutôt au-dessus de 2200/2300m. Plus haut, on trouve encore de belles accumulations de neige dès 2400m avec un manteau neigeux encore conséquent dans les combes et replats. \n\nQualité de la neige :\nLa neige peut être ressaisie, voire dure, au petit matin en altitude puis la chaleur vient très vite ramollir la neige dès le début de journée. Fonte encore conséquente en journée. Le manteau neigeux est dense de type névé, souvent de couleur ocre avec des poussières désertiques en surface et très humide en cours de journée. En dessous de 2300m environ, sa surface est très irrégulière, marquée par des ondulations le rendant moins agréable à skier.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 2000,
-        "south": 2200
+        "north": 2200,
+        "south": 2300
       },
       "levels_cm": [
         {
@@ -136,13 +136,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 10,
+          "N": 0,
           "S": 0
         },
         {
           "alt_m": 2500,
           "N": 150,
-          "S": 20
+          "S": 10
         }
       ],
       "icon_key": "snowpack",

@@ -3,8 +3,8 @@
   "massif": "Luchonnais",
   "bulletin": {
     "id": 68,
-    "issued_at": "2026-05-28T16:00:00",
-    "valid_until": "2026-05-29T18:00:00",
+    "issued_at": "2026-05-29T16:00:00",
+    "valid_until": "2026-05-30T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-30",
+        "date": "2026-05-31",
         "label": "Indice de risque faible",
-        "comment": "Chaleur et soleil, humidification en profondeur aux plus hautes altitudes, fonte accentuée de la neige restante très dense et tassée : le niveau de risque restera faible.",
+        "comment": "Pas d'évolution du risque, poursuite de l'humidification en profondeur du manteau neigeux et de la fonte en altitude.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-24",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-25",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-05-29",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-30",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "POURSUITE DE L'HUMIDIFICATION EN PROFONDEUR",
-      "text": "POURSUITE DE L'HUMIDIFICATION EN PROFONDEUR\n\nDéparts spontanés : en neige humide seulement.\n- quelques petites coulées de surface dans les pentes raides encore enneigées de tous secteurs ; pas d'activité attendue au petit matin, plus probables au cours de la journée,\n- très localement une avalanche de fond de neige très humide, voire gorgée d'eau, reste possible, au plus chaud de la journée dans les secteurs nord encore bien garnis au-dessus de 2500m. La taille de ces avalanches est au plus moyenne. \n\nDéclenchements provoqués : en neige humide seulement.\n- dans les pentes nord raides, au-dessus 2500m, un skieur peut déclencher au plus chaud de la journée une avalanche de petite taille en neige gorgée d'eau, et être ainsi déstabilisé sur quelques mètres.\n\nAutres : \n- ponts de neige très fragiles,\n- la fonte fait temporairement grossir ruisseaux et torrents l'après-midi et peut rendre plus ardu l'itinéraire retour d'une randonnée.",
+      "title": "Poursuite de l'humidification en profondeur.",
+      "text": "Poursuite de l'humidification en profondeur.\n\nDéparts spontanés : en neige humide seulement.\n- Des départs ponctuels dans la neige humide sont possibles dans les pentes des versants au fil de la journée et de l'ensoleillement. De petites avalanches sont possibles. Peu d'activité attendue au petit matin, mais l'activité avalancheuse sera ensuite bien présente au fil de matinée puis en journée.\n- Une avalanche de fond de neige très humide, voire gorgée d'eau, reste possible, au plus chaud de la journée surtout dans les secteurs nord encore bien garnis au-dessus de 2500m. La taille de ces avalanches est au plus moyenne. \n\nDéclenchements provoqués : en neige humide seulement.\n- Au-dessus de 2500m principalement, un skieur peut déclencher de petits départs ponctuels en neige humide dans les pentes raides des versants au fil de la journée et de l'ensoleillement. De petites avalanches restent possibles.\n\nAutres : \n- Ponts de neige très fragiles.\n- La fonte fait temporairement grossir ruisseaux et torrents l'après-midi et peut rendre plus ardu l'itinéraire retour d'une randonnée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : encore correct pour la saison, au-dessus de 2400/2500m en faces nord, où des accumulations sont encore présentes. Cependant, la chaleur ambiante tend à réduire l'enneigement de plus en plus rapidement. En versant nord, il devrait toutefois encore être possible de chausser autour de 2300m.\nÉtat de la neige : neige de type névé, dense, portante au petit matin, parfois croûtée et durcie en surface nécessitant un équipement adapté. Elle se ramollit rapidement le matin, se gorge d'eau l'après-midi sous la chaleur attendue.  \nAttention aux ponts de neige sur les cours d'eau et les pierriers devenant de plus en plus fragiles.",
+      "text": "Enneigement : Encore correct pour la saison, au-dessus de 2400m en faces nord, où des accumulations sont encore présentes. Cependant, la chaleur ambiante tend à réduire l'enneigement de plus en plus rapidement. En versant nord, il devrait toutefois encore être possible de chausser autour de 2300m.\nÉtat de la neige : Neige de type névé, dense, portante au petit matin, parfois croûtée et durcie en surface nécessitant un équipement adapté. Elle se ramollit rapidement le matin, se gorge d'eau l'après-midi sous la chaleur ambiante.  \nAttention aux ponts de neige sur les cours d'eau et les pierriers devenant de plus en plus fragiles.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -141,7 +141,7 @@
         },
         {
           "alt_m": 2500,
-          "N": 115,
+          "N": 110,
           "S": 0
         }
       ],
