@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="23" MASSIF="Mercantour" DATEBULLETIN="2026-05-29T16:00:00" DATEECHEANCE="2026-05-30T18:00:00" DATEVALIDITE="2026-05-30T18:00:00" DATEDIFFUSION="2026-05-29T15:43:00" AMENDEMENT="false">
-  <DateValidite>2026-05-30T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="23" MASSIF="Mercantour" DATEBULLETIN="2026-05-30T15:00:00" DATEECHEANCE="2026-05-31T18:00:00" DATEVALIDITE="2026-05-31T18:00:00" DATEDIFFUSION="2026-05-30T15:20:00" AMENDEMENT="false">
+  <DateValidite>2026-05-31T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="1" COMMENTAIRE="Indice de risque faible." RISQUEMAXIJ2="1" DATE_RISQUE_J2="2026-05-31T00:00:00"/>
+    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="1" COMMENTAIRE="Indice de risque faible." RISQUEMAXIJ2="1" DATE_RISQUE_J2="2026-06-01T00:00:00"/>
     <PENTE NE="false" E="false" SE="false" S="false" SW="false" W="false" NW="false" N="false" COMMENTAIRE=""/>
-    <ACCIDENTEL><![CDATA[peu probables. ]]></ACCIDENTEL>
-    <NATUREL><![CDATA[peu probables. ]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : peu probables. 
-Déclenchements skieurs : peu probables. ]]></RESUME>
+    <ACCIDENTEL><![CDATA[peu probables]]></ACCIDENTEL>
+    <NATUREL><![CDATA[peu probables]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : peu probables
+Déclenchements skieurs : peu probables]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque faible]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Pas d'évolution avec un risque faible. Côté météo : temps estival.]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Pas d'évolution de la situation nivologique. Risque faible.]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_23.png</ImageRisque>
@@ -18,53 +18,41 @@ Déclenchements skieurs : peu probables. ]]></RESUME>
   </CARTOUCHERISQUE>
   <STABILITE>
     <SitAvalTyp SAT1="6" SAT2=""/>
-    <TITRE><![CDATA[MANTEAU NEIGEUX RÉSIDUEL BIEN STABLE]]></TITRE>
-    <TEXTESANSTITRE><![CDATA[Départs spontanés : peu probables. 
+    <TITRE><![CDATA[MANTEAU NEIGEUX RÉSIDUEL TRÈS STABLE ]]></TITRE>
+    <TEXTESANSTITRE><![CDATA[ Manteau neigeux résiduel, très dense et stable. Départs spontanés et déclenchements provoqués d'avalanches peu probables.]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[MANTEAU NEIGEUX RÉSIDUEL TRÈS STABLE 
 
-Déclenchements provoqués : peu probables. ]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[MANTEAU NEIGEUX RÉSIDUEL BIEN STABLE
-
-Départs spontanés : peu probables. 
-
-Déclenchements provoqués : peu probables. ]]></TEXTE>
+ Manteau neigeux résiduel, très dense et stable. Départs spontanés et déclenchements provoqués d'avalanches peu probables.]]></TEXTE>
   </STABILITE>
   <QUALITE>
-    <TEXTE><![CDATA[Enneigement déficitaire pour la période. La fonte se poursuit avec la chaleur excessive pour une fin mai.
-Il n'y a plus de neige à la nivôse de Millefonts (2430 m). 
-
-Limite d'enneigement skiable : vers 2500/2600 m en ubacs bien protégés 
-
-État de la neige en surface : manteau neigeux totalement humidifié, de type névé. Pas de regel nocturne. ]]></TEXTE>
+    <TEXTE><![CDATA[Enneigement désormais résiduel et très déficitaire pour une fin mai. Le temps ensoleillé et très chaud de cette fin mai a accéléré la fonte du manteau neigeux. Celui ci est totalement humidifié, avec un regel nocturne faible à inexistant.
+Névés présents sur les sentiers de randonnée à partir de 2200/2300 m en nord, un peu plus bas au niveau des dépôts d'avalanches.]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-05-29T00:00:00" LimiteSud="3000" LimiteNord="2500">
+  <ENNEIGEMENT DATE="2026-05-30T00:00:00" LimiteSud="-1" LimiteNord="2500">
     <NIVEAU ALTI="1500" N="0" S="0"/>
     <NIVEAU ALTI="2000" N="0" S="0"/>
-    <NIVEAU ALTI="2500" N="20" S="0"/>
+    <NIVEAU ALTI="2500" N="15" S="0"/>
     <ImageEnneigement>montagne_enneigement_23.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-05-25T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-26T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-27T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-28T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-29T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-30T00:00:00" SS24Min="0" SS24Max="0"/>
+    <NEIGE24H DATE="2026-05-31T00:00:00" SS24Min="0" SS24Max="0"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_23.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="2000" ALTITUDEVENT2="3000">
-    <COMMENTAIRE>Risque d'averses l'après-midi. 19° vers 2000 m et 10° vers 3000 m.</COMMENTAIRE>
-    <ECHEANCE DATE="2026-05-30T06:00:00" FF1="15" DD1="N" FF2="15" DD2="NE" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-30T12:00:00" FF1="15" DD1="S" FF2="20" DD2="SO" ISO0="3800" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-30T18:00:00" FF1="20" DD1="S" FF2="20" DD2="S" ISO0="3900" PLUIENEIGE="3500" TEMPSSENSIBLE="71" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-05-31T00:00:00" FF1="10" DD1="NO" FF2="15" DD2="NO" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
+    <COMMENTAIRE>Chaud, orageux en fin de journée</COMMENTAIRE>
+    <ECHEANCE DATE="2026-05-31T06:00:00" FF1="10" DD1="NO" FF2="20" DD2="NO" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="2" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-05-31T12:00:00" FF1="15" DD1="SE" FF2="25" DD2="SO" ISO0="3800" PLUIENEIGE="-1" TEMPSSENSIBLE="2" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-05-31T18:00:00" FF1="30" DD1="S" FF2="35" DD2="SO" ISO0="3800" PLUIENEIGE="-1" TEMPSSENSIBLE="90" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-06-01T00:00:00" FF1="15" DD1="NO" FF2="25" DD2="O" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_23.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-05-23T06:00:00" FF1="15" DD1="N" FF2="15" DD2="NO" ISO0="4000" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-05-23T12:00:00" FF1="15" DD1="Vrb" FF2="10" DD2="E" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
-      <ECHEANCE DATE="2026-05-23T18:00:00" FF1="25" DD1="S" FF2="20" DD2="E" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-05-24T00:00:00" FF1="25" DD1="N" FF2="20" DD2="N" ISO0="4000" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-05-24T06:00:00" FF1="25" DD1="N" FF2="30" DD2="N" ISO0="4000" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-05-24T12:00:00" FF1="20" DD1="N" FF2="25" DD2="E" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-05-24T18:00:00" FF1="25" DD1="N" FF2="30" DD2="NE" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
@@ -87,15 +75,14 @@ Limite d'enneigement skiable : vers 2500/2600 m en ubacs bien protégés
       <ECHEANCE DATE="2026-05-29T00:00:00" FF1="20" DD1="N" FF2="15" DD2="NO" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
       <ECHEANCE DATE="2026-05-29T06:00:00" FF1="20" DD1="N" FF2="20" DD2="O" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-05-29T12:00:00" FF1="20" DD1="N" FF2="20" DD2="E" ISO0="3700" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
-      <ECHEANCE DATE="2026-05-29T18:00:00" FF1="25" DD1="S" FF2="25" DD2="E" ISO0="3700" PLUIENEIGE="3300" TEMPSSENSIBLE="90"/>
+      <ECHEANCE DATE="2026-05-29T18:00:00" FF1="25" DD1="S" FF2="25" DD2="E" ISO0="3700" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
       <ECHEANCE DATE="2026-05-30T00:00:00" FF1="15" DD1="N" FF2="15" DD2="NO" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
+      <ECHEANCE DATE="2026-05-30T06:00:00" FF1="15" DD1="N" FF2="15" DD2="NE" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
+      <ECHEANCE DATE="2026-05-30T12:00:00" FF1="15" DD1="S" FF2="20" DD2="SO" ISO0="3800" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-05-30T18:00:00" FF1="20" DD1="S" FF2="20" DD2="S" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="71"/>
+      <ECHEANCE DATE="2026-05-31T00:00:00" FF1="10" DD1="NO" FF2="15" DD2="NO" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-05-23T00:00:00" LimiteSud="2700" LimiteNord="2400">
-        <NIVEAU ALTI="1500" N="0" S="0"/>
-        <NIVEAU ALTI="2000" N="0" S="0"/>
-        <NIVEAU ALTI="2500" N="55" S="0"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-05-24T00:00:00" LimiteSud="2800" LimiteNord="2400">
         <NIVEAU ALTI="1500" N="0" S="0"/>
         <NIVEAU ALTI="2000" N="0" S="0"/>
@@ -126,23 +113,28 @@ Limite d'enneigement skiable : vers 2500/2600 m en ubacs bien protégés
         <NIVEAU ALTI="2000" N="0" S="0"/>
         <NIVEAU ALTI="2500" N="20" S="0"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-05-30T00:00:00" LimiteSud="0" LimiteNord="2500">
+        <NIVEAU ALTI="1500" N="0" S="0"/>
+        <NIVEAU ALTI="2000" N="0" S="0"/>
+        <NIVEAU ALTI="2500" N="15" S="0"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-05-24T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-25T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-26T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-27T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-28T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-29T00:00:00" SS24Min="0" SS24Max="0"/>
+      <NEIGE24H DATE="2026-05-30T00:00:00" SS24Min="0" SS24Max="0"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-05-23T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-24T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-25T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-26T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-27T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-28T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-29T00:00:00" RISQUEMAXI="1"/>
+      <RISQUE DATE="2026-05-30T00:00:00" RISQUEMAXI="1"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_23.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_23.png</Image7derniersjours_portrait>

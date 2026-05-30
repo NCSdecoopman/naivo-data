@@ -3,8 +3,8 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-05-29T16:00:00",
-    "valid_until": "2026-05-30T18:00:00",
+    "issued_at": "2026-05-30T16:00:00",
+    "valid_until": "2026-05-31T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-31",
+        "date": "2026-06-01",
         "label": "Indice de risque faible",
-        "comment": "Dimanche : temps ensoleillé et chaud. Des orages l'après-midi\n⇒ risque stationnaire, peu de changement sur le manteau neigeux.",
+        "comment": "Risque stationnaire. Temps plutôt clément.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-25",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-26",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-05-30",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-31",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "manteau neigeux stable",
-      "text": "manteau neigeux stable\n\nOn retrouve encore quelques névés dans les ubacs au-dessus de 2100m.",
+      "title": "Neige quasiment absente du massif. Orages l'après-midi.",
+      "text": "Neige quasiment absente du massif. Orages l'après-midi.\n\nOn retrouve encore quelques névés dans les ubacs au-dessus de 2000/2100m.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire.\nIl reste de la neige uniquement au-dessus de 2100 m en nord.\n\nQualité de la neige ce samedi matin : \nNeige de névé sans regel nocturne.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est déficitaire.\nIl reste de la neige uniquement au-dessus de 2000/2100 m en nord.\n\nQualité de la neige dimanche : \nNeige de névé sans regel nocturne.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

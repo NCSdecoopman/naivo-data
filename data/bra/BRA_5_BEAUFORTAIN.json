@@ -3,8 +3,8 @@
   "massif": "Beaufortain",
   "bulletin": {
     "id": 5,
-    "issued_at": "2026-05-29T16:00:00",
-    "valid_until": "2026-05-30T18:00:00",
+    "issued_at": "2026-05-30T16:00:00",
+    "valid_until": "2026-05-31T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,15 +42,15 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-31",
+        "date": "2026-06-01",
         "label": "Indice de risque faible",
-        "comment": "Toujours chaud, tournant à l'orage l'après midi. Risque faible stationnaire.",
+        "comment": "Risque stationnaire, la dégradation n'apporte que de la pluie à toutes altitudes, sur un manteau déjà compact et humide.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
+        "N": false,
         "NE": false,
         "E": false,
         "SE": false,
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-25",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-26",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-05-30",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-31",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,18 +115,18 @@
     },
     "stability": {
       "title": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES AVALANCHES DE FONTE EN PENTES NORD DE HAUTE ALTITUDE.",
-      "text": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES AVALANCHES DE FONTE EN PENTES NORD DE HAUTE ALTITUDE.\n\nDéparts spontanés :  les avalanches naturelles de neige humide sont rares. Ce risque ne concerne plus que les quelques hautes pentes Nord et NE du massif (supérieure à 2800m). Petites à moyennes avalanches de neige humides (taille 1 à 2).  \nPartout ailleurs, le manteau est entièrement humidifié et donc quasiment inerte exceptées de très rares départs en plaques de fond sur dalles rocheuses encore enneigées. \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie. Petites avalanches.\n\nAutres : chute de corniches là où il en reste, les ponts de neige sur les ruisseaux sont fragiles.",
+      "text": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES AVALANCHES DE FONTE EN PENTES NORD DE HAUTE ALTITUDE.\n\nDéparts spontanés : les avalanches naturelles de neige humide sont rares. Ce risque ne concerne plus que les quelques hautes pentes Nord et NE du massif (supérieures à 2800m). Petites à moyennes avalanches de neige humides (taille 1 à 2).  \nPartout ailleurs, on trouve une neige de névé, quasiment inerte en dehors d'un très rare départ en plaque de fond sur dalle rocheuse encore enneigée. \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie. Petites avalanches.\n\nAutres : chute de corniches là où il en reste, les ponts de neige sur les ruisseaux sont fragiles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale de ces  jours va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2000 m en nord,  2700 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : forte chaleur et regel mauvais, ou au mieux très peu durable en haute altitude ne laissant pas beaucoup de temps pour skier. Sous 2800m, neige de névé partout. À haute altitude, la neige est rapidement pourrie par les fortes chaleurs associées au soleil de fin Mai qui tape tôt et fort.",
+      "text": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale de ces  jours va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2000 m en nord,  2700 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : forte chaleur et regel mauvais, ou au mieux très peu durable en haute altitude ne laissant pas beaucoup de temps pour skier. Neige de névé presque partout.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 2100,
-        "south": 2300
+        "north": 2200,
+        "south": 2400
       },
       "levels_cm": [
         {
@@ -141,8 +141,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 90,
-          "S": 35
+          "N": 85,
+          "S": 30
         }
       ],
       "icon_key": "snowpack",

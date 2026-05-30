@@ -3,8 +3,8 @@
   "massif": "Aspe Ossau",
   "bulletin": {
     "id": 65,
-    "issued_at": "2026-05-29T16:00:00",
-    "valid_until": "2026-05-30T18:00:00",
+    "issued_at": "2026-05-30T15:00:00",
+    "valid_until": "2026-05-31T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-31",
+        "date": "2026-06-01",
         "label": "Indice de risque faible",
-        "comment": "Pas d'évolution du risque, poursuite de l'humidification en profondeur du manteau neigeux et de la fonte en altitude.",
+        "comment": "Poursuite de l'humidification",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-25",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-26",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-05-30",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-31",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,12 +115,12 @@
     },
     "stability": {
       "title": "Poursuite de l'humidification en profondeur.",
-      "text": "Poursuite de l'humidification en profondeur.\n\nDéparts spontanés : en neige humide seulement.\n- Des départs ponctuels dans la neige humide sont possibles dans les pentes des versants au fil de la journée et de l'ensoleillement. De petites avalanches sont possibles. Peu d'activité attendue au petit matin, mais l'activité avalancheuse sera ensuite bien présente au fil de matinée puis en journée.\n- Une avalanche de fond de neige très humide, voire gorgée d'eau, reste possible, au plus chaud de la journée surtout dans les secteurs nord encore bien garnis au-dessus de 2500m. La taille de ces avalanches est au plus moyenne. \n\nDéclenchements provoqués : en neige humide seulement.\n- Au-dessus de 2500m principalement, un skieur peut déclencher de petits départs ponctuels en neige humide dans les pentes raides des versants au fil de la journée et de l'ensoleillement. De petites avalanches restent possibles.\n\nAutres : \n- Ponts de neige très fragiles.\n- La fonte fait temporairement grossir ruisseaux et torrents l'après-midi et peut rendre plus ardu l'itinéraire retour d'une randonnée.",
+      "text": "Poursuite de l'humidification en profondeur.\n\nDéparts spontanés : \n-  De rares petites coulées de surface dans les pentes raides d'altitude, encore enneigées et non transformé en névé, sont possibles en tous secteurs ; pas d'activité attendue au petit matin, plus probables au cours de la journée.\n-  Très localement, une avalanche de fond de neige très humide, voire gorgée d'eau, reste possible, au plus chaud de la journée, surtout dans les secteurs nord encore bien garnis au-dessus de 2500m. La taille de ces avalanches est au plus moyenne. \n\nDéclenchements provoqués :\n- Dans les pentes raides au-dessus de 2500m, un pratiquant peut être déstabilisé en déclenchant,  au plus chaud de la journée, une coulée en neige gorgée d'eau.\n\nAutres : \n- Attention aux ponts de neige sur les cours d'eau et les pierriers devenant de plus en plus fragiles.\n- La fonte fait temporairement grossir ruisseaux et torrents l'après-midi et peut rendre plus ardu l'itinéraire retour d'une randonnée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Encore correct pour la saison, au-dessus de 2400m en faces nord, où des accumulations sont encore présentes. Cependant, la chaleur ambiante tend à réduire l'enneigement de plus en plus rapidement. En versant nord, il devrait toutefois encore être possible de chausser autour de 2300m.\nÉtat de la neige : Neige de type névé, dense, portante au petit matin, parfois croûtée et durcie en surface nécessitant un équipement adapté. Elle se ramollit rapidement le matin, se gorge d'eau l'après-midi sous la chaleur ambiante.  \nAttention aux ponts de neige sur les cours d'eau et les pierriers devenant de plus en plus fragiles.",
+      "text": "Enneigement : Les grosses chaleurs des derniers jours, ont assez rapidement réduit l'enneigement d'un manteau neigeux encore récemment excédentaire au-dessus de 2400 m, dans les faces nord. On peut tout de même encore y trouver de belles accumulations. La limite d'enneigement est de plus en plus irrégulière, mais il est possible de chausser autour de 2300 m.\n\nÉtat de la neige : Neige de type névé, dense, non regelé, mais portante au petit matin, parfois assez dur en surface, nécessitant un équipement adapté. Elle se ramollit en cours de journée, se gorge d'eau l'après-midi sous la chaleur ambiante.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

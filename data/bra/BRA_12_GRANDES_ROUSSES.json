@@ -3,8 +3,8 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-05-29T15:00:00",
-    "valid_until": "2026-05-30T18:00:00",
+    "issued_at": "2026-05-30T16:00:00",
+    "valid_until": "2026-05-31T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-31",
+        "date": "2026-06-01",
         "label": "Indice de risque faible",
-        "comment": "Dimanche, malgré un léger fléchissement des températures, elles restent assez estivales. Poursuite de la fonte... Risque de (très rares) avalanches humides en faces Nord de haute altitude. En fin de journée et soirée, peut-être des averses et des orages, à confirmer.",
+        "comment": "Lundi, pas d'évolution, la fonte continue, même si elle est un peu moins forte que les jours précédents. Risque de (très rares) avalanches humides en faces Nord de haute altitude.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-25",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-26",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-05-30",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-31",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,18 +114,18 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NEIGE DENSE... (TRÈS) RARE AVALANCHE DE FONTE EN FACE NORD D'ALTITUDE ?",
-      "text": "NEIGE DENSE... (TRÈS) RARE AVALANCHE DE FONTE EN FACE NORD D'ALTITUDE ?\n\nDéparts spontanés : La plupart des pentes ont déjà bougé. Le manteau en place, bien qu'humide, devient de plus en plus dense, de névé souvent. Cependant, dimanche, avec une neige rapidement humide à détrempée dès le début de journée, on ne peut exclure une très rare avalanche ponctuelle, plutôt en face Nord au-dessus de 3000/3200m...\n\nDéclenchements provoqués :  Peu probables, ou très ponctuellement risque de coulée sous les skis en neige bien humidifiée (en pentes raides)... \n\nAutres : En altitude, neige localement durcie ou croûtée par regel à l'aube, mais celui-ci devrait être un peu moins efficace avec le voile nuageux d'altitude.",
+      "title": "NEIGE DENSE... (TRÈS) RARE AVALANCHE DE FONTE EN FACE NORD DE HAUTE ALTITUDE",
+      "text": "NEIGE DENSE... (TRÈS) RARE AVALANCHE DE FONTE EN FACE NORD DE HAUTE ALTITUDE\n\nDéparts spontanés : La plupart des pentes ont déjà bougé. Le manteau en place, bien qu'humide, devient de plus en plus dense, de névé souvent. Cependant, dimanche, avec une neige rapidement humide à détrempée dès le début de journée, on ne peut exclure une très rare avalanche ponctuelle, plutôt en face Nord au-dessus de 3000/3200m...\n\nDéclenchements provoqués :  Peu probables, ou très ponctuellement risque de coulée sous les skis en neige bien humidifiée (en pentes raides)... \n\nAutres : En altitude, neige localement durcie ou croûtée par regel à l'aube, mais celui-ci devrait être un peu moins efficace avec le voile nuageux d'altitude.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  Avec cette chaleur précoce, la fonte est rapide avec environ 2 semaines d'avance par rapport aux \"normales\". Néanmoins il reste pas mal de neige en combes \"froides\" d'altitude, vers les glaciers.\nLimites skiables : Vers 2100/2300m en Nord, 2500/2800m au soleil...\n\nQualité de la neige samedi : Neige de névé prédominante, avec peut-être un regel local en altitude. Pentes raides pas mal abimées par les coulées.  En matinée, très rapide humidification au soleil puis (avec la chaleur) en tous versants. Neige humide puis détrempée, devenant plus difficile à skier au fil des heures....",
+      "text": "Qualification de l’enneigement :  Avec cette chaleur précoce, la fonte est rapide avec environ 2 semaines d'avance par rapport aux \"normales\". Néanmoins il reste pas mal de neige en combes \"froides\" d'altitude, vers les glaciers.\nLimites skiables : Vers 2200/2400m en Nord, 2700/3000m au Sud...\n\nQualité de la neige dimanche : Neige de névé prédominante, avec peut-être un regel local en altitude. Pentes raides pas mal abimées par les coulées.  En matinée, très rapide humidification au soleil puis (avec la chaleur) en tous versants. Neige parfois difficile à skier....",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 2200,
+        "north": 2300,
         "south": 2700
       },
       "levels_cm": [
@@ -141,7 +141,7 @@
         },
         {
           "alt_m": 2500,
-          "N": 100,
+          "N": 85,
           "S": 0
         }
       ],

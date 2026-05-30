@@ -3,8 +3,8 @@
   "massif": "Pays-Basque",
   "bulletin": {
     "id": 64,
-    "issued_at": "2026-05-29T16:00:00",
-    "valid_until": "2026-05-30T18:00:00",
+    "issued_at": "2026-05-30T15:00:00",
+    "valid_until": "2026-05-31T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-05-31",
+        "date": "2026-06-01",
         "label": "Indice de risque faible",
-        "comment": "Risque stationnaire.",
+        "comment": "Pas d'évolution",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-25",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-26",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-05-30",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-05-31",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Plus assez de neige pour de l'activité avalancheuse.",
-      "text": "Plus assez de neige pour de l'activité avalancheuse.\n\nSeuls quelques névés subsistent  dans la face nord du pic d'Anie, rares et très réduits en nord-est du pic d'Arlas.\nDéparts spontanés : sans objet.\nDéclenchements provoqués : sans objet.",
+      "title": "MASSIF QUASIMENT DÉNEIGÉ.",
+      "text": "MASSIF QUASIMENT DÉNEIGÉ.\n\nSeuls de rares névés subsistent  dans la face nord du pic d'Anie, rares et très réduits en nord-est du pic d'Arlas.\nDéparts spontanés : sans objet.\nDéclenchements provoqués : sans objet.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Seuls quelques névés ou petites plaques de neige persistent dans les secteurs les plus à l'abri du soleil sous les pics d'Anie et d'Arlas, portants au petit matin, mous en journée.",
+      "text": "Enneigement : Seules de rares langues de neige persistent dans les secteurs les plus\nà l'abri du soleil entre pics d'Anie et d'Arlas.\n\nÉtat de la neige : Neige de type névé, humide, portante au petit matin, ramollissant\nen journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
