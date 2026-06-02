@@ -3,30 +3,30 @@
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
-    "issued_at": "2026-06-01T16:00:00",
-    "valid_until": "2026-06-02T18:00:00",
+    "issued_at": "2026-06-02T16:00:00",
+    "valid_until": "2026-06-03T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 3000m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 2600m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 3000,
+        "threshold_m": 2600,
         "split_axis": "horizontal",
-        "split_label": "3000m",
+        "split_label": "2600m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<3000",
+            "loc": "<2600",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">3000",
+            "loc": ">2600",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "3000m"
+          "label": "2600m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-06-03",
+        "date": "2026-06-04",
         "label": "Indice de risque limité",
-        "comment": "Quelques nouvelles plaques dans la neige fraîche en cours d'humidification.",
+        "comment": "Rares plaques à vent. Coulées de surface au réchauffement.",
         "trend": "steady"
       }
     },
@@ -65,7 +65,7 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
+        "SE": true,
         "S": false,
         "SW": false,
         "W": false,
@@ -78,21 +78,17 @@
       }
     },
     "sat": {
-      "primary": 4,
-      "secondary": null,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
+        "2": "Neige ventée",
         "4": "Neige humide"
       },
-      "icon_key": "sat-4"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-28",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-29",
           "min_cm": 0,
@@ -117,6 +113,11 @@
           "date": "2026-06-02",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-06-03",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,12 +128,12 @@
     },
     "stability": {
       "title": "",
-      "text": "Départs spontanés : la neige de névé ne bouge plus, sauf une éventuelle plaque de fond sur dalle rocheuse raide encore enneigée. Au-dessus de 3000 m, en versants N/NE, on peut encore trouver un peu de neige mobilisable. Ces départs spontanés, surtout des coulées, sont peu probables. Possibles principalement l'après-midi, soit au réchauffement, soit suite à l'alourdissement par les averses orageuses. Taille 1 à 2 (petites à moyennes).Déclenchements provoqués : coulées sous le skis en coupant une pente raide en neige humide ou lourde. En cours ou fin d'après-midi, au-dessus de 3000 m : sous les averses, formation soudaine de rares petites plaques de neige fraîche alourdie. Sensibles sous les skis. Taille 1 (petite).Autres : attention aux ponts de neige fragiles, notamment sur les ruisseaux.",
+      "text": "Déclenchements provoqués :* quelques plaques à vent en formation avec la petite couche de neige tombée mardi sous les orages. Cette fine couche adhère généralement bien à l'ancienne, mais le fort vent d'W puis de NW fabrique des accumulations pouvant céder au passage d'un skieur. Surtout au-dessus de 2600/2900 m, en zones de dépôt. Taille 1 (petites), rarement 2 (moyenne).Observables : accumulations, changement de qualité de neige sur une courte distance.* petites avalanches de neige récente humide, en coupant une pente raide réchauffée, au-dessus de 2600/2900 m.Départs spontanés :* petites avalanches de surface, dans la neige récente humidifiée par le soleil et le redoux. Taille 1.Autres : attention aux ponts de neige fragiles, notamment sur les ruisseaux.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2200 m en Nord, 2700/2800 m en Sud en pente peu raide.Qualité de la neige : regel nocturne moyen. Neige type névé presque partout. Plus haut que 2800 m, un peu de neige fraîche lourde sous les averses en cours d'après-midi.",
+      "text": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2200 m en Nord, 2700/2800 m en Sud en pente peu raide.Qualité de la neige : neige très dense, humidifiée par les averses orageuses. Petite couche de neige fraîche en altitude, vite alourdie : 5 cm à 2700 m, 10/15 cm à 3200 m, soufflée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -153,7 +154,7 @@
         },
         {
           "alt_m": 2500,
-          "N": 60,
+          "N": 50,
           "S": 0
         }
       ],

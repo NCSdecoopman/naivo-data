@@ -1,62 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="8" MASSIF="Belledonne" DATEBULLETIN="2026-06-01T15:00:00" DATEECHEANCE="2026-06-02T18:00:00" DATEVALIDITE="2026-06-02T18:00:00" DATEDIFFUSION="2026-06-01T15:26:00" AMENDEMENT="false">
-  <DateValidite>2026-06-02T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="8" MASSIF="Belledonne" DATEBULLETIN="2026-06-02T16:00:00" DATEECHEANCE="2026-06-03T18:00:00" DATEVALIDITE="2026-06-03T18:00:00" DATEDIFFUSION="2026-06-02T15:54:00" AMENDEMENT="false">
+  <DateValidite>2026-06-03T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="1" COMMENTAIRE="Indice de risque faible." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-06-03T00:00:00"/>
-    <PENTE NE="true" E="false" SE="false" S="false" SW="false" W="false" NW="false" N="true" COMMENTAIRE="Rares, sommitales ?"/>
-    <ACCIDENTEL><![CDATA[Peu probables, ou le soir en altitude coulée de surface avec la neige récente humide. ]]></ACCIDENTEL>
-    <NATUREL><![CDATA[Peu probable ou une très rare avalanche de fonte en faces Nord sommitales ?  ]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : Peu probable ou une très rare avalanche de fonte en faces Nord sommitales ?  
-Déclenchements skieurs : Peu probables, ou le soir en altitude coulée de surface avec la neige récente humide. ]]></RESUME>
+    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="&lt;2600" ALTITUDE="2600" RISQUE2="2" EVOLURISQUE2="" LOC2="&gt;2600" RISQUEMAXI="2" COMMENTAIRE="Au-dessus de 2600m indice de risque limité, plus bas indice faible." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-06-04T00:00:00"/>
+    <PENTE NE="true" E="true" SE="true" S="false" SW="false" W="false" NW="true" N="true" COMMENTAIRE="accumulations"/>
+    <ACCIDENTEL><![CDATA[Quelques plaques temporaires peu épaisses vers les sommets + quelques coulées humides sous les skis.]]></ACCIDENTEL>
+    <NATUREL><![CDATA[Quelques coulées superficielles dans la neige fraîche (qui s'humidifie en journée). Très rare avalanche de fonte en face Nord sommitale ?  ]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : Quelques coulées superficielles dans la neige fraîche (qui s'humidifie en journée). Très rare avalanche de fonte en face Nord sommitale ?  
+Déclenchements skieurs : Quelques plaques temporaires peu épaisses vers les sommets + quelques coulées humides sous les skis.]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque limité]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Poursuite des averses de neige durant la nuit de mardi à mercredi jusque vers 2200m.
-Mercredi matin, risque en légère hausse. 10/20 cm possibles vers les hauts de Belledonne. Petites plaques temporaires au dessus de 2500m environ, puis des coulées/escargots de fraîche suite aux éclaircies...]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Jeudi, nouvelles précipitations attendues à partir de la mi-journée, d'abord sous forme de pluie, puis la limite pluie-neige s'abaisserait vers 2300m en soirée. Cumuls de 10/20 cm possibles vers les hauts de Belledonne, avec formation de nouvelles petites plaques au-dessus de 2500m environ.]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_8.png</ImageRisque>
     <ImagePente>rose_pentes_8.png</ImagePente>
   </CARTOUCHERISQUE>
   <STABILITE>
-    <SitAvalTyp SAT1="4" SAT2=""/>
-    <TITRE><![CDATA[NEIGE DE NEVE,  LE SOIR SAUPOUDRAGE POSSIBLE VERS LES HAUTS DE BELLEDONNE...]]></TITRE>
-    <TEXTESANSTITRE><![CDATA[Poursuite de la fonte ce mardi. Puis  passage d'averses orageuses, rafraichissement le soir, il pourra neiger localement dès 2700 puis 2500m environ.Mardi soir, possible petite couche de neige fraîche ventée/humide en haut de Belledonne...Départs spontanés : Peu probable. Le manteau en place, bien qu'humide, devient très dense, de névé. Puis mardi soir avec les averses pluvieuses, on n'exclut pas totalement une avalanche ponctuelle, plutôt en face Nord sommitale...Vers les hauts sommets 5/10 cm possibles mardi soir, possibles coulées superficielles ?Déclenchements provoqués :  Peu probables, neige ventée mais humide, adhérant aux névés. Le soir, possible coulée ponctuelle sous les skis (neige fraîche humide).]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[NEIGE DE NEVE,  LE SOIR SAUPOUDRAGE POSSIBLE VERS LES HAUTS DE BELLEDONNE...
+    <SitAvalTyp SAT1="2" SAT2="4"/>
+    <TITRE><![CDATA[QUELQUES INSTABILITÉS TEMPORAIRES VERS LES HAUTS DE BELLEDONNE DANS LA NEIGE FRAICHE VENTÉE, S'HUMIDIFIANT EN JOURNÉE DE MERCREDI...]]></TITRE>
+    <TEXTESANSTITRE><![CDATA[Déclenchements provoqués :  - Quelques petites plaques temporaires pourraient se former mardi soir et en nuit de mardi à mercredi vers les hautes crêtes avec le retour d'un peu de neige au-dessus de 2500/2700 m (10/20 cm possibles), modérément ventée mais souvent humide et adhérant aux névés. Localisées dans les zones d'accumulations par le vent, elles sont temporairement faciles à déclencher mais restent le plus souvent de faible épaisseur. Ce risque a tendance à s'atténuer assez rapidement en journée avec le tassement et l'humidification de cette neige fraîche. - Par ailleurs, le skieur pourrait faire "couler" ponctuellement la neige sous ses skis (dans cette neige fraîche humide ou s'humidifiant).Départs spontanés : - Mardi soir et en nuit de mardi à mercredi, vers les hauts sommets, possibles coulées superficielles de taille 1 dans les couloirs raides lors des chutes de neige attendues (essentiellement au-dessus de 2500/2700m). - Puis mercredi en journée, quelques coulées de taille 1 peuvent se produire au soleil et près des rochers dans cette neige fraîche qui s'humidifie assez rapidement. En parallèle, on conserve le très faible risque d'une avalanche humide ponctuelle de taille 2 en face Nord sommitale...]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[QUELQUES INSTABILITÉS TEMPORAIRES VERS LES HAUTS DE BELLEDONNE DANS LA NEIGE FRAICHE VENTÉE, S'HUMIDIFIANT EN JOURNÉE DE MERCREDI...
 
-Poursuite de la fonte ce mardi. Puis  passage d'averses orageuses, rafraichissement le soir, il pourra neiger localement dès 2700 puis 2500m environ.Mardi soir, possible petite couche de neige fraîche ventée/humide en haut de Belledonne...Départs spontanés : Peu probable. Le manteau en place, bien qu'humide, devient très dense, de névé. Puis mardi soir avec les averses pluvieuses, on n'exclut pas totalement une avalanche ponctuelle, plutôt en face Nord sommitale...Vers les hauts sommets 5/10 cm possibles mardi soir, possibles coulées superficielles ?Déclenchements provoqués :  Peu probables, neige ventée mais humide, adhérant aux névés. Le soir, possible coulée ponctuelle sous les skis (neige fraîche humide).]]></TEXTE>
+Déclenchements provoqués :  - Quelques petites plaques temporaires pourraient se former mardi soir et en nuit de mardi à mercredi vers les hautes crêtes avec le retour d'un peu de neige au-dessus de 2500/2700 m (10/20 cm possibles), modérément ventée mais souvent humide et adhérant aux névés. Localisées dans les zones d'accumulations par le vent, elles sont temporairement faciles à déclencher mais restent le plus souvent de faible épaisseur. Ce risque a tendance à s'atténuer assez rapidement en journée avec le tassement et l'humidification de cette neige fraîche. - Par ailleurs, le skieur pourrait faire "couler" ponctuellement la neige sous ses skis (dans cette neige fraîche humide ou s'humidifiant).Départs spontanés : - Mardi soir et en nuit de mardi à mercredi, vers les hauts sommets, possibles coulées superficielles de taille 1 dans les couloirs raides lors des chutes de neige attendues (essentiellement au-dessus de 2500/2700m). - Puis mercredi en journée, quelques coulées de taille 1 peuvent se produire au soleil et près des rochers dans cette neige fraîche qui s'humidifie assez rapidement. En parallèle, on conserve le très faible risque d'une avalanche humide ponctuelle de taille 2 en face Nord sommitale...]]></TEXTE>
   </STABILITE>
   <QUALITE>
-    <TEXTE><![CDATA[Qualification de l’enneigement :  La fonte s'accélère et la fin de saison ski approche en Belledonne, avec environ 3 semaines d'avance par rapport aux "normales"... Plus d'enneigement continu en Sud.Mardi soir, sommets localement blanchis sous les averses au dessus de 2500/2700m environLimites skiables : Vers 1900/2200m en plein Nord.Qualité de la neige mardi : Neige de névé "sale", très humide. Le soir neige fraîche (souvent humide) localement au dessus de 2700 puis 2500m. ]]></TEXTE>
+    <TEXTE><![CDATA[Qualification de l’enneigement :  Les sommets peuvent localement blanchir à nouveau ce mardi soir/nuit au-dessus de 2500/2700m environ. Plus bas, la fonte continue et la fin de saison ski approche en Belledonne, avec environ 3 semaines d'avance par rapport aux "normales"...Limites skiables : Vers 2000/2200m en plein Nord.Qualité de la neige mercredi : Une couche de neige fraîche (10/20 cm possibles au-dessus de 2500/2700m), souvent humide, se dépose mardi en soirée/nuit, recouvrant une neige de névé "sale", très humide. Très localement vers les crêtes, cette neige peut être un peu travaillée par le vent. En journée de mercredi, la neige fraîche se tasse et/ou s'humidifie assez rapidement avec le retour du soleil et le redoux des températures.]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-06-01T00:00:00" LimiteSud="2700" LimiteNord="2100">
+  <ENNEIGEMENT DATE="2026-06-02T00:00:00" LimiteSud="2700" LimiteNord="2200">
     <NIVEAU ALTI="1500" N="0" S="0"/>
     <NIVEAU ALTI="2000" N="0" S="0"/>
-    <NIVEAU ALTI="2500" N="105" S="0"/>
+    <NIVEAU ALTI="2500" N="90" S="0"/>
     <ImageEnneigement>montagne_enneigement_8.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-05-28T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-29T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-30T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-31T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-06-01T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-06-02T00:00:00" SS24Min="0" SS24Max="0"/>
+    <NEIGE24H DATE="2026-06-03T00:00:00" SS24Min="0" SS24Max="0"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_8.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="2000" ALTITUDEVENT2="3000">
-    <COMMENTAIRE>Mardi matin sec, l'après-midi passages d'orages/averses, bourrasques locales. Rafraîchissement le soir avec de la neige locale en altitude...</COMMENTAIRE>
-    <ECHEANCE DATE="2026-06-02T06:00:00" FF1="15" DD1="SO" FF2="30" DD2="SO" ISO0="4000" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-06-02T12:00:00" FF1="30" DD1="SO" FF2="45" DD2="SO" ISO0="3400" PLUIENEIGE="-1" TEMPSSENSIBLE="3" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-06-02T18:00:00" FF1="60" DD1="SO" FF2="70" DD2="SO" ISO0="3100" PLUIENEIGE="2800" TEMPSSENSIBLE="99" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-06-03T00:00:00" FF1="25" DD1="NO" FF2="45" DD2="NO" ISO0="2600" PLUIENEIGE="2300" TEMPSSENSIBLE="70" MERNUAGES="-1"/>
+    <COMMENTAIRE>Atténuation progressive des averses nuit de mardi à mercredi, puis retour des éclaircies mercredi en journée. Vent modéré de Nord à Nord-Ouest.</COMMENTAIRE>
+    <ECHEANCE DATE="2026-06-03T06:00:00" FF1="35" DD1="NO" FF2="45" DD2="NO" ISO0="2600" PLUIENEIGE="2300" TEMPSSENSIBLE="71" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-06-03T12:00:00" FF1="35" DD1="NO" FF2="45" DD2="NO" ISO0="2700" PLUIENEIGE="-1" TEMPSSENSIBLE="3" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-06-03T18:00:00" FF1="25" DD1="NO" FF2="35" DD2="NO" ISO0="3800" PLUIENEIGE="-1" TEMPSSENSIBLE="2" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-06-04T00:00:00" FF1="10" DD1="S" FF2="20" DD2="NO" ISO0="4100" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_8.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-05-26T06:00:00" FF1="10" DD1="SE" FF2="10" DD2="E" ISO0="4100" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
-      <ECHEANCE DATE="2026-05-26T12:00:00" FF1="5" DD1="E" FF2="5" DD2="S" ISO0="4100" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
-      <ECHEANCE DATE="2026-05-26T18:00:00" FF1="5" DD1="NO" FF2="10" DD2="S" ISO0="4100" PLUIENEIGE="3700" TEMPSSENSIBLE="70"/>
-      <ECHEANCE DATE="2026-05-27T00:00:00" FF1="5" DD1="SE" FF2="10" DD2="NO" ISO0="4200" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-05-27T06:00:00" FF1="10" DD1="NE" FF2="15" DD2="N" ISO0="4200" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-05-27T12:00:00" FF1="15" DD1="N" FF2="15" DD2="N" ISO0="4100" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-05-27T18:00:00" FF1="20" DD1="N" FF2="15" DD2="N" ISO0="4200" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
@@ -81,13 +76,12 @@ Poursuite de la fonte ce mardi. Puis  passage d'averses orageuses, rafraichissem
       <ECHEANCE DATE="2026-06-01T12:00:00" FF1="20" DD1="N" FF2="20" DD2="N" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-06-01T18:00:00" FF1="15" DD1="NO" FF2="10" DD2="O" ISO0="4100" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
       <ECHEANCE DATE="2026-06-02T00:00:00" FF1="10" DD1="SO" FF2="20" DD2="SO" ISO0="4000" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-06-02T06:00:00" FF1="15" DD1="SO" FF2="30" DD2="SO" ISO0="4000" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-06-02T12:00:00" FF1="30" DD1="SO" FF2="45" DD2="SO" ISO0="3400" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
+      <ECHEANCE DATE="2026-06-02T18:00:00" FF1="60" DD1="SO" FF2="70" DD2="SO" ISO0="3100" PLUIENEIGE="2800" TEMPSSENSIBLE="99"/>
+      <ECHEANCE DATE="2026-06-03T00:00:00" FF1="35" DD1="NO" FF2="45" DD2="NO" ISO0="2800" PLUIENEIGE="2500" TEMPSSENSIBLE="70"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-05-26T00:00:00" LimiteSud="2600" LimiteNord="2000">
-        <NIVEAU ALTI="1500" N="0" S="0"/>
-        <NIVEAU ALTI="2000" N="20" S="0"/>
-        <NIVEAU ALTI="2500" N="170" S="0"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-05-27T00:00:00" LimiteSud="2600" LimiteNord="2000">
         <NIVEAU ALTI="1500" N="0" S="0"/>
         <NIVEAU ALTI="2000" N="10" S="0"/>
@@ -118,23 +112,28 @@ Poursuite de la fonte ce mardi. Puis  passage d'averses orageuses, rafraichissem
         <NIVEAU ALTI="2000" N="0" S="0"/>
         <NIVEAU ALTI="2500" N="105" S="0"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-06-02T00:00:00" LimiteSud="2700" LimiteNord="2200">
+        <NIVEAU ALTI="1500" N="0" S="0"/>
+        <NIVEAU ALTI="2000" N="0" S="0"/>
+        <NIVEAU ALTI="2500" N="90" S="0"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-05-27T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-28T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-29T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-30T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-31T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-06-01T00:00:00" SS24Min="0" SS24Max="0"/>
+      <NEIGE24H DATE="2026-06-02T00:00:00" SS24Min="0" SS24Max="0"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-05-26T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-27T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-28T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-29T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-30T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-05-31T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-06-01T00:00:00" RISQUEMAXI="1"/>
+      <RISQUE DATE="2026-06-02T00:00:00" RISQUEMAXI="1"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_8.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_8.png</Image7derniersjours_portrait>

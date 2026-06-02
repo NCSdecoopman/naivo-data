@@ -3,8 +3,8 @@
   "massif": "Cerdagne Canigou",
   "bulletin": {
     "id": 74,
-    "issued_at": "2026-06-01T16:00:00",
-    "valid_until": "2026-06-02T18:00:00",
+    "issued_at": "2026-06-02T15:00:00",
+    "valid_until": "2026-06-03T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-06-03",
+        "date": "2026-06-04",
         "label": "Indice de risque faible",
-        "comment": "Maintien d'un risque faible; temps a priori sec et généralement ensoleillé",
+        "comment": "Peu d'évolution malgré un passage perturbé et des précipitations significatives.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-28",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-29",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-06-02",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-06-03",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,7 +115,7 @@
     },
     "stability": {
       "title": "Névés jusqu'en haute altitude",
-      "text": "Névés jusqu'en haute altitude\n\nLa pratique du ski dans le massif de Tabe/Saint Barthélémy devient limitée à quelques névés résiduels mais qui peuvent rester délicats pour un randonneur sans équipement adapté.Dans le massif d'Orlu, l'enneigement est plus conséquent avec les risques décrits ci-dessous :Départs spontanés : * De rares petites coulées de surface dans les pentes raides d'altitude, encore enneigées et non transformé en névé, sont possibles dans les pentes nord essentiellement; pas d'activité attendue au petit matin, plus probables au cours de la journée.* Très localement, une avalanche de fond de neige très humide, voire gorgée d'eau, reste possible surtout dans les secteurs nord encore bien garnis au-dessus de 2500m. La taille de ces avalanches est au plus moyenne. Déclenchements provoqués :  Dans les pentes raides d'altitude, un pratiquant peut être tout au plus déstabilisé par le déclenchement sous ses skis d'une coulée de petite taille en neige gorgée d'eau.Autres : chutes de corniches possibles en pentes sommitales, pont de neige fragiles. Par ailleurs, avec la fonte en cours et les averses, les torrents et ruisseaux coulent abondamment et peuvent s'avérer inhabituellement difficile à traverser notamment l'après-midi.",
+      "text": "Névés jusqu'en haute altitude\n\nDéparts spontanés : * De rares petites coulées de surface dans les pentes raides d'altitude, encore enneigées et non transformé en névé, sont possibles dans les pentes nord essentiellement; pas d'activité attendue au petit matin, plus probables au cours de la journée.* Très localement, une avalanche de fond de neige très humide, voire gorgée d'eau, reste possible surtout dans les secteurs nord encore bien garnis au-dessus de 2500m. La taille de ces avalanches est au plus moyenne. Déclenchements provoqués :  Dans les pentes raides d'altitude, un pratiquant peut être tout au plus déstabilisé par le déclenchement sous ses skis d'une coulée de petite taille en neige gorgée d'eau.Autres : chutes de corniches possibles en pentes sommitales, pont de neige fragiles. Par ailleurs, avec la fonte en cours et les averses, les torrents et ruisseaux coulent abondamment et peuvent s'avérer inhabituellement difficile à traverser notamment l'après-midi.",
       "sections": null,
       "icon_key": "stability"
     },
@@ -141,7 +141,7 @@
         },
         {
           "alt_m": 2500,
-          "N": 110,
+          "N": 100,
           "S": 5
         }
       ],
