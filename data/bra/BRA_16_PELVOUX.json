@@ -3,61 +3,49 @@
   "massif": "Pelvoux",
   "bulletin": {
     "id": 16,
-    "issued_at": "2026-06-02T16:00:00",
-    "valid_until": "2026-06-03T18:00:00",
+    "issued_at": "2026-06-03T15:00:00",
+    "valid_until": "2026-06-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 3000m indice de risque limité, plus bas indice faible.",
+      "max_level": 1,
+      "comment": "Indice de risque faible.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 3000,
-        "split_axis": "horizontal",
-        "split_label": "3000m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<3000",
+            "loc": null,
             "risk": 1,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">3000",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "3000m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "1",
             "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-06-04",
-        "label": "Indice de risque faible",
-        "comment": "risque en baisse, les structures de plaques temporaires suite à la dernière chute de neige sont en cours de stabilisation rapide.",
-        "trend": "down"
+        "max_level": 2,
+        "date": "2026-06-05",
+        "label": "Indice de risque limité",
+        "comment": "Le vent de nord-ouest dans la nuit de jeudi à vendredi forme des instabilités dans la neige fraîche, surtout au-delà de 3000 m. Risque limité",
+        "trend": "up"
       }
     },
     "dangerous_aspects": {
@@ -69,7 +57,7 @@
         "S": false,
         "SW": false,
         "W": false,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -79,21 +67,15 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 4,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
-        "4": "Neige humide"
+        "2": "Neige ventée"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-30",
           "min_cm": 0,
@@ -118,6 +100,11 @@
           "date": "2026-06-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-06-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "QUELQUES INSTABILITÉS EN HAUTE MONTAGNE, FORMÉES PAR LES DERNIÈRES CHUTES DE NEIGE.",
-      "text": "QUELQUES INSTABILITÉS EN HAUTE MONTAGNE, FORMÉES PAR LES DERNIÈRES CHUTES DE NEIGE.\n\nDéparts spontanés : quelques départs ponctuels en neige fraîche s'humidifiant en pentes raides ensoleillées, possibles au dessus de 3000 m, voire un peu plus bas à proximité de l'Isère, provoquant des avalanches de petite taille (taille 1).Déclenchements provoqués : quelques nouvelles plaques ont pu se former au dessus de 3000 m avec les chutes de neige de mardi après-midi. D'aspect friable, ou durcies par le vent de secteur ouest, elles peuvent être localement faciles à déclencher, mais elles se stabilisent rapidement avec le retour du soleil en journée. Elles restent généralement de taille limitée, provoquant des avalanches par départ linéaire de petite taille, rarement moyenne en cas d'accumulation de neige. Observables : accumulations de neige, travail du vent.Ailleurs, départs spontanés et déclenchements provoqués d'avalanches peu probables, le manteau neigeux étant résiduel, dense et stable.",
+      "title": "RARES INSTABILITÉS A TRÈS HAUTE ALTITUDE",
+      "text": "RARES INSTABILITÉS A TRÈS HAUTE ALTITUDE\n\nLe manteau neigeux est bien stable. Départs spontanés : peu probables en journée, le manteau neigeux est bien stabilisé. En soirée, rares avalanches de neige fraîche ventée de petite taille (taille 1).Déclenchements provoqués : possibles seulement en orientations nord ou nord-est de très haute altitude (au delà de 3600 m). Formées sous l'effet du transport de neige par le vent mercredi matin, elles se sont la plupart stabilisées,  un déclenchement de petite taille par un skieur reste cependant non exclu très tôt le matin.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement déficitaire suite à l'épisode de chaleur notable de la fin mai.Hauteurs de neige observées : 143 cm à la nivôse des Écrins à 2970 m. Limite d'enneigement skiable : à partir de 2400 m dans les secteurs les plus enneigés. A pieds, les névés sont encore nombreux à partir de 2100/2200 m en nord, bien plus bas dans les dépôts d'avalanches.État de la neige en surface : manteau neigeux totalement humidifié, sauf dans de rares pentes nord au dessus de 3600 m. Mercredi matin, quelques cm de neige fraîche présents au dessus de 3000 m, voire saupoudrage jusqu'à 2300/2400 m à proximité de l'Isère.",
+      "text": "Enneigement déficitaire, en raison du printemps particulièrement chaud et sec. Hauteurs de neige observées : 141 cm à la nivôse des Écrins à 2970 m. Limite d'enneigement skiable : à partir de 2600 m dans les secteurs les plus enneigés, localement 2300/2400 m. A pieds, les névés sont encore nombreux à partir de 2100/2200 m en nord, bien plus bas dans les dépôts d'avalanches.État de la neige en surface : manteau neigeux totalement humidifié, sauf dans les pentes nord au dessus de 3800 m, où on trouve encore un peu de neige récente tombée mardi soir, 10/15 cm",
       "icon_key": "snow-quality"
     },
     "snowpack": {

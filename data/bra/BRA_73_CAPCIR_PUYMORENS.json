@@ -3,8 +3,8 @@
   "massif": "Capcir Puymorens",
   "bulletin": {
     "id": 73,
-    "issued_at": "2026-06-02T15:00:00",
-    "valid_until": "2026-06-03T18:00:00",
+    "issued_at": "2026-06-03T16:00:00",
+    "valid_until": "2026-06-04T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-06-04",
+        "date": "2026-06-05",
         "label": "Indice de risque faible",
-        "comment": "Peu d'évolution malgré un passage perturbé et des précipitations significatives.",
+        "comment": "Peu d'évolution",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-30",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-06-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-06-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Névés jusqu'en haute altitude",
-      "text": "Névés jusqu'en haute altitude\n\nDéparts spontanés : * De rares petites coulées de surface dans les pentes raides d'altitude, encore enneigées et non transformé en névé, sont possibles dans les pentes nord essentiellement; pas d'activité attendue au petit matin, plus probables au cours de la journée.* Très localement, une avalanche de fond de neige très humide, voire gorgée d'eau, reste possible surtout dans les secteurs nord encore bien garnis au-dessus de 2500m. La taille de ces avalanches est au plus moyenne. Déclenchements provoqués :  Dans les pentes raides d'altitude, un pratiquant peut être tout au plus déstabilisé par le déclenchement sous ses skis d'une coulée de petite taille en neige gorgée d'eau.Autres : chutes de corniches possibles en pentes sommitales, pont de neige fragiles. Par ailleurs, avec la fonte en cours et les averses, les torrents et ruisseaux coulent abondamment et peuvent s'avérer inhabituellement difficile à traverser notamment l'après-midi.",
+      "title": "Neige encore bien présente en montagne mais manteau neigeux stable",
+      "text": "Neige encore bien présente en montagne mais manteau neigeux stable\n\nDéparts spontanés : Peu probable. Éventuellement, très localement, une avalanche de fond est possible avec les pluies attendues demain, dans les secteurs nord encore bien garnis au-dessus de 2500m avec de larges fissures observables en surface du manteau neigeux.Déclenchements provoqués : Peu probables ou seulement des coulées de surface de petite taille dans les pentes très raides dans la neige humide. Autres : Encore des corniches présentes en pentes sommitales. Nombreux ponts de neige encore plus fragiles avec les précipitations attendues et des torrents et ruisseaux qui peuvent s'avérer inhabituellement difficile à traverser.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Les conditions remarquablement chaudes de la fin mai ont favorisé une fonte significative et rapide du manteau neigeux, qui reste néanmoins encore abondant par endroits en altitude. En nord, la limite d'altitude de la neige est très irrégulière avec un manteau neigeux de plus en plus discontinu : des névés ou des langues de neige descendent encore jusque vers 1800 m localement au pied de verrous ou parois suffisamment ombragés, mais l'enneigement est vraiment continu plutôt au-dessus de 2200/2300m. Plus haut, on trouve encore de belles accumulations de neige dès 2400m avec un manteau neigeux encore conséquent dans les combes et replats même si les cols et crêtes sont souvent désormais déneigés. Qualité de la neige :La neige peut être ressaisie, voire dure, au petit matin en altitude puis la chaleur et l'ensoleillement viennent très vite ramollir la neige en matinée en surface tout en gardant un fond très compact. Le manteau neigeux est dense de type névé, souvent de couleur ocre avec des poussières désertiques en surface et très humide en cours de journée. Sa surface est très irrégulière, marquée par des ondulations le rendant moins agréable à skier.",
+      "text": "Enneigement : Les conditions remarquablement chaudes de la fin mai ont favorisé une fonte significative et rapide du manteau neigeux, qui reste néanmoins encore abondant par endroits en altitude. En nord, la limite d'altitude de la neige est très irrégulière avec un manteau neigeux de plus en plus discontinu : des névés ou des langues de neige descendent encore jusque vers 2000 m localement au pied de verrous ou parois suffisamment ombragés, mais l'enneigement est vraiment continu plutôt au-dessus de 2200/2400m. Plus haut, on trouve encore de belles accumulations de neige dès 2400m avec un manteau neigeux encore conséquent dans les combes et replats même si les cols et crêtes sont souvent désormais déneigés. Qualité de la neige :Jeudi matin, la neige restante est bien dure en surface. Les pluies arrivant l'après-midi vont ensuite ramollir la neige en surface tout en gardant un fond très compact. Le manteau neigeux est dense de type névé, souvent de couleur ocre avec des poussières désertiques en surface. Cette surface est d'ailleurs très irrégulière, souvent marquée par le ruissellement de l'eau. Enfin, une fine couche de neige fraiche pourra couvrir les plus hauts sommets en fin de journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -141,7 +141,7 @@
         },
         {
           "alt_m": 2500,
-          "N": 130,
+          "N": 120,
           "S": 5
         }
       ],

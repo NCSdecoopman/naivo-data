@@ -3,8 +3,8 @@
   "massif": "Thabor",
   "bulletin": {
     "id": 13,
-    "issued_at": "2026-06-02T16:00:00",
-    "valid_until": "2026-06-03T18:00:00",
+    "issued_at": "2026-06-03T15:00:00",
+    "valid_until": "2026-06-04T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-06-04",
+        "date": "2026-06-05",
         "label": "Indice de risque faible",
-        "comment": "Maintien d'un risque faible compte tenu de l'enneigement résiduel.",
+        "comment": "La chute de neige humide (10/15 cm à 2800 m) de jeudi soir n'aggrave pas significativement le danger d'avalanche et elle disparaît rapidement au soleil de vendredi. Risque faible.",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-30",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-06-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-06-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -115,12 +115,12 @@
     },
     "stability": {
       "title": "MANTEAU NEIGEUX RÉSIDUEL STABLE",
-      "text": "MANTEAU NEIGEUX RÉSIDUEL STABLE \n\nRares départs superficiels de neige fraîche s'humidifiant au soleil, en pentes raides aux plus hautes altitudes du massif.Sinon, départs spontanés et déclenchements provoqués d'avalanches peu probables, le manteau neigeux résiduel est dense et stable.",
+      "text": "MANTEAU NEIGEUX RÉSIDUEL STABLE \n\nDéparts spontanés et déclenchements provoqués d'avalanches peu probables, le manteau neigeux résiduel est dense et stable.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement résiduel et déficitaire pour une début juin, sous forme de névés. Mercredi matin, léger saupoudrage voire quelques cm de neige fraîche au dessus de 2400/2600 m environ, principalement sur la partie savoyarde du massif.Névés présents sur les sentiers de randonnée à partir de 2100/2200 m en nord, un peu plus bas au niveau des dépôts d'avalanches.",
+      "text": "Enneigement résiduel et déficitaire pour un début juin, sous forme de névés, présents sur les sentiers de randonnée à partir de 2100/2200 m en nord, un peu plus bas au niveau des dépôts d'avalanches.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -141,7 +141,7 @@
         },
         {
           "alt_m": 2500,
-          "N": 5,
+          "N": 10,
           "S": 0
         }
       ],

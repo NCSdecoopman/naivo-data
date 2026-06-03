@@ -3,31 +3,31 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-06-02T16:00:00",
-    "valid_until": "2026-06-03T18:00:00",
+    "issued_at": "2026-06-03T16:00:00",
+    "valid_until": "2026-06-04T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 3200m indice de risque marqué, plus bas indice limité.",
+      "max_level": 2,
+      "comment": "Au-dessus de 2800m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 3200,
+        "threshold_m": 2800,
         "split_axis": "horizontal",
-        "split_label": "3200m",
+        "split_label": "2800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<3200",
-            "risk": 2,
+            "loc": "<2800",
+            "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">3200",
-            "risk": 3,
+            "loc": ">2800",
+            "risk": 2,
             "evolution_to": null,
             "position": "top"
           }
@@ -37,26 +37,26 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "3200m"
+          "label": "2800m"
         },
         "zones": {
           "bottom": {
-            "text": "2",
-            "risk": 2,
+            "text": "1",
+            "risk": 1,
             "evolution_to": null
           },
           "top": {
-            "text": "3",
-            "risk": 3,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-06-04",
-        "label": "Indice de risque limité",
-        "comment": "Jeudi : nouvelle perturbation à partir du milieu d'après-midi. Limite pluie neige vers 3000 m s'abaissant vers 2300 m. \n⇒ stabilisation des plaques dans la neige fraîche",
+        "max_level": 1,
+        "date": "2026-06-05",
+        "label": "Indice de risque faible",
+        "comment": "Retour du soleil. La neige fraîche du jeudi se tasse rapidement au soleil. Sous ces éclaircies, on peut temporairement avoir une activité spontanée.\nManteau neigeux plutôt stable.",
         "trend": "down"
       }
     },
@@ -65,7 +65,7 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
+        "SE": true,
         "S": false,
         "SW": false,
         "W": false,
@@ -79,21 +79,15 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 4,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
-        "4": "Neige humide"
+        "2": "Neige ventée"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-29",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-05-30",
           "min_cm": 0,
@@ -118,6 +112,11 @@
           "date": "2026-06-03",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-06-04",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,19 +126,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Neige fraîche et ventée en haute montagne",
-      "text": "Neige fraîche et ventée en haute montagne\n\nDéclenchements provoqués : * plaques friables dans la neige fraiche, au-dessus de 3200 m, formées par le fort vent de secteur sud-ouest à nord-ouest mardi après-midi et mercredi en journée. Facilement déclenchable. Taille 2 (moyenne). Facilement déclenchable. En dessous de 3200 m, elles sont plus rares et plus petites. * Un peu de neige (fraiche le matin et humide l'après-midi) peut couler sous les skis (sluff), surtout avec le réchauffement mercredi après-midi Taille 1 (petite) voire 2 (moyenne) au-dessus de 3200 m.  Départs spontanés :* départs ponctuels dans la neige récente (purges), surtout avec le réchauffement mercredi après-midi Taille 1 (petite) voire 2 (moyenne) au-dessus de 3200 m.",
+      "title": "Neige fraîche et ventée en haute montagne.",
+      "text": "Neige fraîche et ventée en haute montagne.\n\nDéclenchements provoqués :* Plaques friables dans la neige fraîche, au-dessus de 2800m. Ces plaques se forment durant les chutes de neige de jeudi après-midi, ventés par le vent de W/SW. Celles-ci sont facilement déclenchables, mais ne sont pas tant épaisses (cassures de 15/20 cm). Dans les zones d'accumulations, on peut attendre des cassures un peu plus épaisses (environ 30 cm). Taille 2 (moyenne) possibles. Sous 2800m, ces plaques sont plus rares et plus petites.* De la neige fraîche peut couler sous les skis (sluff), surtout sous les chutes de neige de l'après-midi. Taille 1 (petite).Départs spontanés :* Départs ponctuels en neige fraîche possibles sous les chutes de neige de l'après-midi. Taille 1 (petite), voire 2 (moyenne) au-dessus de 3200 m, là où les averses sont les plus intenses.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire.On peut chausser les skis au-dessus de 2100 m en nord et 2400 m en sud. Qualité de la neige mercredi : En dessous de 2300 m, neige de névé sans regel nocturne.Vers 2300/2700 m, 1/10 cm de neige fraîche reposant sur de la neige de névé.Vers 2700/3200 m, 10/25 cm de neige fraîche très ventée. Au-dessus de 3200 m, 25/40 cm de neige fraîche très ventée.",
+      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire. On peut chausser les skis au-dessus de 2300 m en nord. Les pentes sud sont saupoudrées de neige fraîche au-dessus de 2300 m.Qualité de la neige mercredi : En dessous de 2300 m, l'enneigement n'est pas continu et on retrouve des névés sans regel nocturne.Au-dessus de 2300m, on retrouve 5/10 cm de neige récente lourde. Au-dessus de 2700m, on attend 15/20 cm de neige fraîche.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 2200,
-        "south": 2500
+        "south": 2400
       },
       "levels_cm": [
         {
@@ -154,8 +153,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 90,
-          "S": 10
+          "N": 95,
+          "S": 15
         }
       ],
       "icon_key": "snowpack",
