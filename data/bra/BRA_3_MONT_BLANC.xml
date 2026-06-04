@@ -1,62 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="3" MASSIF="Mont-Blanc" DATEBULLETIN="2026-06-03T16:00:00" DATEECHEANCE="2026-06-04T18:00:00" DATEVALIDITE="2026-06-04T18:00:00" DATEDIFFUSION="2026-06-03T16:13:00" AMENDEMENT="false">
-  <DateValidite>2026-06-04T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="3" MASSIF="Mont-Blanc" DATEBULLETIN="2026-06-04T15:00:00" DATEECHEANCE="2026-06-05T18:00:00" DATEVALIDITE="2026-06-05T18:00:00" DATEDIFFUSION="2026-06-04T15:23:00" AMENDEMENT="false">
+  <DateValidite>2026-06-05T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="&lt;2800" ALTITUDE="2800" RISQUE2="2" EVOLURISQUE2="" LOC2="&gt;2800" RISQUEMAXI="2" COMMENTAIRE="Au-dessus de 2800m indice de risque limité, plus bas indice faible." RISQUEMAXIJ2="1" DATE_RISQUE_J2="2026-06-05T00:00:00"/>
-    <PENTE NE="true" E="true" SE="true" S="false" SW="false" W="false" NW="true" N="true" COMMENTAIRE=""/>
-    <ACCIDENTEL><![CDATA[Plaques à vent dans la neige fraiche.]]></ACCIDENTEL>
-    <NATUREL><![CDATA[Petites avalanches de neige fraîche en haute montagne]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : Petites avalanches de neige fraîche en haute montagne
-Déclenchements skieurs : Plaques à vent dans la neige fraiche.]]></RESUME>
+    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="&lt;2800" ALTITUDE="2800" RISQUE2="2" EVOLURISQUE2="" LOC2="&gt;2800" RISQUEMAXI="2" COMMENTAIRE="Au-dessus de 2800m indice de risque limité, plus bas indice faible." RISQUEMAXIJ2="1" DATE_RISQUE_J2="2026-06-06T00:00:00"/>
+    <PENTE NE="false" E="true" SE="true" S="true" SW="true" W="true" NW="true" N="false" COMMENTAIRE=""/>
+    <ACCIDENTEL><![CDATA[Plaques à vent dans la neige fraiche en matinée.]]></ACCIDENTEL>
+    <NATUREL><![CDATA[Petites coulées humides au soleil.]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : Petites coulées humides au soleil.
+Déclenchements skieurs : Plaques à vent dans la neige fraiche en matinée.]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque faible]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Retour du soleil. La neige fraîche du jeudi se tasse rapidement au soleil. Sous ces éclaircies, on peut temporairement avoir une activité spontanée.
-Manteau neigeux plutôt stable.]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Retour du soleil, la fonte et le tassement se poursuit. Au soleil, l'activité en neige humide est encore possibles mais le risque moindre.]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_3.png</ImageRisque>
     <ImagePente>rose_pentes_3.png</ImagePente>
   </CARTOUCHERISQUE>
   <STABILITE>
-    <SitAvalTyp SAT1="2" SAT2=""/>
-    <TITRE><![CDATA[Neige fraîche et ventée en haute montagne.]]></TITRE>
-    <TEXTESANSTITRE><![CDATA[Déclenchements provoqués :* Plaques friables dans la neige fraîche, au-dessus de 2800m. Ces plaques se forment durant les chutes de neige de jeudi après-midi, ventés par le vent de W/SW. Celles-ci sont facilement déclenchables, mais ne sont pas tant épaisses (cassures de 15/20 cm). Dans les zones d'accumulations, on peut attendre des cassures un peu plus épaisses (environ 30 cm). Taille 2 (moyenne) possibles. Sous 2800m, ces plaques sont plus rares et plus petites.* De la neige fraîche peut couler sous les skis (sluff), surtout sous les chutes de neige de l'après-midi. Taille 1 (petite).Départs spontanés :* Départs ponctuels en neige fraîche possibles sous les chutes de neige de l'après-midi. Taille 1 (petite), voire 2 (moyenne) au-dessus de 3200 m, là où les averses sont les plus intenses.]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[Neige fraîche et ventée en haute montagne.
+    <SitAvalTyp SAT1="2" SAT2="4"/>
+    <TITRE><![CDATA[Humidification de la neige fraîche.]]></TITRE>
+    <TEXTESANSTITRE><![CDATA[Déclenchements provoqués :* En matinée, plaques friables de neige fraîche, au-dessus de 2800m. Ces plaques, de faibles ampleurs en cas de rupture, se sont formés durant les chutes de neige ventée de jeudi. Celles-ci sont plutôt réactives en matinée, avant que l'humidification ne commence réellement. Taille 1 (petite), rarement 2 (moyenne).* Temporairement au soleil, elles sont un peu plus réactives (toujours environ 20 cm d'épaisseur). Une fois l'humidification marquée, ces plaques ne sont plus vraiment réactives.* Dans la neige humide, coulées possibles sous les skis sous forme de slush. Taille 1 (petite).Départs spontanés :* Quelques boulettes / petites avalanches de neige humides sont possibles au fil de l'ensoleillement, notamment près des rochers/falaises. Taille 1 (petite).]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[Humidification de la neige fraîche.
 
-Déclenchements provoqués :* Plaques friables dans la neige fraîche, au-dessus de 2800m. Ces plaques se forment durant les chutes de neige de jeudi après-midi, ventés par le vent de W/SW. Celles-ci sont facilement déclenchables, mais ne sont pas tant épaisses (cassures de 15/20 cm). Dans les zones d'accumulations, on peut attendre des cassures un peu plus épaisses (environ 30 cm). Taille 2 (moyenne) possibles. Sous 2800m, ces plaques sont plus rares et plus petites.* De la neige fraîche peut couler sous les skis (sluff), surtout sous les chutes de neige de l'après-midi. Taille 1 (petite).Départs spontanés :* Départs ponctuels en neige fraîche possibles sous les chutes de neige de l'après-midi. Taille 1 (petite), voire 2 (moyenne) au-dessus de 3200 m, là où les averses sont les plus intenses.]]></TEXTE>
+Déclenchements provoqués :* En matinée, plaques friables de neige fraîche, au-dessus de 2800m. Ces plaques, de faibles ampleurs en cas de rupture, se sont formés durant les chutes de neige ventée de jeudi. Celles-ci sont plutôt réactives en matinée, avant que l'humidification ne commence réellement. Taille 1 (petite), rarement 2 (moyenne).* Temporairement au soleil, elles sont un peu plus réactives (toujours environ 20 cm d'épaisseur). Une fois l'humidification marquée, ces plaques ne sont plus vraiment réactives.* Dans la neige humide, coulées possibles sous les skis sous forme de slush. Taille 1 (petite).Départs spontanés :* Quelques boulettes / petites avalanches de neige humides sont possibles au fil de l'ensoleillement, notamment près des rochers/falaises. Taille 1 (petite).]]></TEXTE>
   </STABILITE>
   <QUALITE>
-    <TEXTE><![CDATA[Enneigement : Pour la saison, l’enneigement est déficitaire. On peut chausser les skis au-dessus de 2300 m en nord. Les pentes sud sont saupoudrées de neige fraîche au-dessus de 2300 m.Qualité de la neige mercredi : En dessous de 2300 m, l'enneigement n'est pas continu et on retrouve des névés sans regel nocturne.Au-dessus de 2300m, on retrouve 5/10 cm de neige récente lourde. Au-dessus de 2700m, on attend 15/20 cm de neige fraîche.]]></TEXTE>
+    <TEXTE><![CDATA[Enneigement : Pour la saison, l’enneigement est déficitaire. On peut chausser les skis au-dessus de 2300 m en nord. Les pentes sud sont saupoudrées de neige fraîche au-dessus de 2300 m.Qualité de la neige mercredi : En dessous de 2300 m, l'enneigement n'est pas continu et on retrouve des névés sans regel nocturne.Au-dessus de 2500m, 5/10 cm de neige récente lourde. Au-dessus de 2800/3000m, 15/20 cm de neige fraîche.]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-06-03T00:00:00" LimiteSud="2400" LimiteNord="2200">
+  <ENNEIGEMENT DATE="2026-06-04T00:00:00" LimiteSud="2400" LimiteNord="2200">
     <NIVEAU ALTI="1500" N="0" S="0"/>
     <NIVEAU ALTI="2000" N="0" S="0"/>
-    <NIVEAU ALTI="2500" N="95" S="15"/>
+    <NIVEAU ALTI="2500" N="90" S="10"/>
     <ImageEnneigement>montagne_enneigement_3.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-05-30T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-05-31T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-06-01T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-06-02T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-06-03T00:00:00" SS24Min="0" SS24Max="0"/>
     <NEIGE24H DATE="2026-06-04T00:00:00" SS24Min="0" SS24Max="0"/>
+    <NEIGE24H DATE="2026-06-05T00:00:00" SS24Min="0" SS24Max="0"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_3.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="2000" ALTITUDEVENT2="4000">
-    <COMMENTAIRE>Matinée voilé avec un ciel qui se couvre rapidement. Dès la mi-journée, le temps se dégrade et les averses arrivent. Elles sont parfois intenses.</COMMENTAIRE>
-    <ECHEANCE DATE="2026-06-04T06:00:00" FF1="15" DD1="SO" FF2="40" DD2="O" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-06-04T12:00:00" FF1="35" DD1="SO" FF2="60" DD2="SO" ISO0="3400" PLUIENEIGE="-1" TEMPSSENSIBLE="4" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-06-04T18:00:00" FF1="15" DD1="SO" FF2="55" DD2="SO" ISO0="2500" PLUIENEIGE="2200" TEMPSSENSIBLE="53" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-06-05T00:00:00" FF1="15" DD1="SO" FF2="30" DD2="O" ISO0="2300" PLUIENEIGE="2100" TEMPSSENSIBLE="71" MERNUAGES="-1"/>
+    <COMMENTAIRE>Lent retour du soleil. En matinée, de nombreux nuages accrochent encore le relief. L'après-midi, les éclaircies sont plus nombreuses.</COMMENTAIRE>
+    <ECHEANCE DATE="2026-06-05T06:00:00" FF1="10" DD1="SO" FF2="25" DD2="O" ISO0="2700" PLUIENEIGE="2300" TEMPSSENSIBLE="4" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-06-05T12:00:00" FF1="5" DD1="SO" FF2="10" DD2="O" ISO0="2700" PLUIENEIGE="-1" TEMPSSENSIBLE="2" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-06-05T18:00:00" FF1="10" DD1="O" FF2="15" DD2="S" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-06-06T00:00:00" FF1="5" DD1="N" FF2="20" DD2="SO" ISO0="3300" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_3.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-05-28T06:00:00" FF1="10" DD1="N" FF2="20" DD2="NO" ISO0="4100" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
-      <ECHEANCE DATE="2026-05-28T12:00:00" FF1="20" DD1="NE" FF2="20" DD2="NO" ISO0="4000" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
-      <ECHEANCE DATE="2026-05-28T18:00:00" FF1="25" DD1="N" FF2="20" DD2="NO" ISO0="3800" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
-      <ECHEANCE DATE="2026-05-29T00:00:00" FF1="40" DD1="NE" FF2="30" DD2="N" ISO0="3800" PLUIENEIGE="-1" TEMPSSENSIBLE="90"/>
       <ECHEANCE DATE="2026-05-29T06:00:00" FF1="20" DD1="NE" FF2="20" DD2="N" ISO0="3800" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-05-29T12:00:00" FF1="20" DD1="NE" FF2="20" DD2="N" ISO0="3800" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-05-29T18:00:00" FF1="10" DD1="SO" FF2="25" DD2="NE" ISO0="3800" PLUIENEIGE="3500" TEMPSSENSIBLE="71"/>
@@ -81,13 +76,12 @@ Déclenchements provoqués :* Plaques friables dans la neige fraîche, au-dessus
       <ECHEANCE DATE="2026-06-03T12:00:00" FF1="10" DD1="O" FF2="50" DD2="NO" ISO0="3000" PLUIENEIGE="2200" TEMPSSENSIBLE="71"/>
       <ECHEANCE DATE="2026-06-03T18:00:00" FF1="5" DD1="SO" FF2="40" DD2="NO" ISO0="3400" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
       <ECHEANCE DATE="2026-06-04T00:00:00" FF1="10" DD1="S" FF2="35" DD2="O" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-06-04T06:00:00" FF1="15" DD1="SO" FF2="40" DD2="O" ISO0="3900" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-06-04T12:00:00" FF1="15" DD1="SO" FF2="60" DD2="SO" ISO0="3400" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
+      <ECHEANCE DATE="2026-06-04T18:00:00" FF1="15" DD1="NO" FF2="50" DD2="SO" ISO0="2500" PLUIENEIGE="2200" TEMPSSENSIBLE="53"/>
+      <ECHEANCE DATE="2026-06-05T00:00:00" FF1="15" DD1="SO" FF2="25" DD2="O" ISO0="2300" PLUIENEIGE="2100" TEMPSSENSIBLE="71"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-05-28T00:00:00" LimiteSud="2300" LimiteNord="2000">
-        <NIVEAU ALTI="1500" N="0" S="0"/>
-        <NIVEAU ALTI="2000" N="10" S="0"/>
-        <NIVEAU ALTI="2500" N="140" S="60"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-05-29T00:00:00" LimiteSud="2400" LimiteNord="2100">
         <NIVEAU ALTI="1500" N="0" S="0"/>
         <NIVEAU ALTI="2000" N="0" S="0"/>
@@ -118,23 +112,28 @@ Déclenchements provoqués :* Plaques friables dans la neige fraîche, au-dessus
         <NIVEAU ALTI="2000" N="0" S="0"/>
         <NIVEAU ALTI="2500" N="95" S="15"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-06-04T00:00:00" LimiteSud="2400" LimiteNord="2200">
+        <NIVEAU ALTI="1500" N="0" S="0"/>
+        <NIVEAU ALTI="2000" N="0" S="0"/>
+        <NIVEAU ALTI="2500" N="90" S="10"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-05-29T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-30T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-05-31T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-06-01T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-06-02T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-06-03T00:00:00" SS24Min="0" SS24Max="0"/>
+      <NEIGE24H DATE="2026-06-04T00:00:00" SS24Min="0" SS24Max="0"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-05-28T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-05-29T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-05-30T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-05-31T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-06-01T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-06-02T00:00:00" RISQUEMAXI="2"/>
       <RISQUE DATE="2026-06-03T00:00:00" RISQUEMAXI="3"/>
+      <RISQUE DATE="2026-06-04T00:00:00" RISQUEMAXI="2"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_3.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_3.png</Image7derniersjours_portrait>

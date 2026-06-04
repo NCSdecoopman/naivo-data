@@ -3,8 +3,8 @@
   "massif": "Couserans",
   "bulletin": {
     "id": 69,
-    "issued_at": "2026-06-03T16:00:00",
-    "valid_until": "2026-06-04T18:00:00",
+    "issued_at": "2026-06-04T15:00:00",
+    "valid_until": "2026-06-05T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-06-05",
+        "date": "2026-06-06",
         "label": "Indice de risque faible",
-        "comment": "Peu d'évolution",
+        "comment": "Pas d'évolution du risque attendue",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-05-30",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-05-31",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-06-04",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-06-05",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,19 +114,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Neige encore bien présente en montagne mais manteau neigeux stable",
-      "text": "Neige encore bien présente en montagne mais manteau neigeux stable\n\nDéparts spontanés : Peu probable. Très localement, une avalanche de fond reste possible avec les pluies attendues demain, dans les secteurs nord encore bien garnis au-dessus de 2500m avec de larges fissures observables en surface du manteau neigeux.Déclenchements provoqués : Peu probables ou seulement des coulées de surface de petite taille dans les pentes très raides dans la neige humide. Autres : Encore des corniches présentes en pentes sommitales. Nombreux ponts de neige encore plus fragiles avec les précipitations attendues et des torrents et ruisseaux qui peuvent s'avérer inhabituellement difficile à traverser.",
+      "title": "Manteau neigeux stable",
+      "text": "Manteau neigeux stable\n\nDéparts spontanés : Peu probable avec un manteau neigeux de type névé. Très localement toutefois, une avalanche de fond reste possible dans les secteurs nord encore bien garnis au-dessus de 2500m avec de larges fissures observables en surface du manteau neigeux.Déclenchements provoqués : Peu probables.Autres : Fragiles corniches présentes localement en pentes sommitales, fragiles ponts de neige, débits des torrents élevés comparativement aux années passées.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Les conditions remarquablement chaudes de la fin mai ont favorisé une fonte significative et rapide du manteau neigeux, qui reste néanmoins encore abondant par endroits en altitude, notamment dans le secteur de Bassiès.En nord, la limite d'altitude de la neige est très irrégulière avec un manteau neigeux de plus en plus discontinu : des névés ou des langues de neige descendent encore jusque vers 1800/2000 m localement au pied de verrous ou parois suffisamment ombragés, mais l'enneigement est vraiment continu plutôt au-dessus de 2200/2300m. Plus haut, on trouve encore de belles accumulations de neige dès 2400m avec un manteau neigeux encore conséquent dans les combes et replats même si les cols et crêtes sont souvent désormais déneigés. Qualité de la neige :Jeudi matin, la neige est bien dure en surface. Les pluies arrivant en journée vont  ensuite ramollir la neige en surface tout en gardant un fond très compact. Le manteau neigeux est dense de type névé, souvent de couleur ocre avec des poussières désertiques en surface. Cette surface est d'ailleurs très irrégulière, marquée par le ruissellement de l'eau.",
+      "text": "Enneigement : La limite d'altitude de la neige est très irrégulière avec un manteau neigeux de plus en plus discontinu : des névés ou des langues de neige descendent encore localement jusque vers 1800/2000 mais l'enneigement continu est plutôt au-dessus de 2200/2400m en nord, 2500/2700m en sud,  avec encore de belles accumulations dans les combes et replats même si les cols et crêtes sont souvent désormais déneigés. Qualité de la neige :Vendredi matin au lever du jour on peut espérer un saupoudrage au-dessus de 2500/2700m, voir quelques centimètres sur les plus hauts sommets. Cette neige fond très vite au soleil et avec la remontée de l'isotherme 0 °C, laissant à nouveau place à une neige dense type névé souvent de couleur ocre en raison des poussières désertiques en surface.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 2200,
-        "south": 2400
+        "south": 2500
       },
       "levels_cm": [
         {
@@ -141,8 +141,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 110,
-          "S": 5
+          "N": 100,
+          "S": 0
         }
       ],
       "icon_key": "snowpack",
