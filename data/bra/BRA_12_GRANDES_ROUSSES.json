@@ -3,73 +3,61 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-06-04T16:00:00",
-    "valid_until": "2026-06-05T18:00:00",
+    "issued_at": "2026-06-05T15:00:00",
+    "valid_until": "2026-06-06T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2800m indice de risque limité évoluant en faible, plus bas indice faible.",
+      "max_level": 1,
+      "comment": "Indice de risque faible.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 2800,
-        "split_axis": "horizontal",
-        "split_label": "2800m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2800",
+            "loc": null,
             "risk": 1,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">2800",
-            "risk": 2,
-            "evolution_to": 1,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "2800m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "1",
             "risk": 1,
             "evolution_to": null
-          },
-          "top": {
-            "text": "2→1",
-            "risk": 2,
-            "evolution_to": 1
           }
         }
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-06-06",
+        "date": "2026-06-07",
         "label": "Indice de risque faible",
-        "comment": "Risque en légère baisse samedi.\nUn peu de regel nocturne,  névés prédominants, faible risque d'avalanches...",
-        "trend": "down"
+        "comment": "Risque en légère baisse dimanche.\nUn peu de regel nocturne,  névés prédominants, faible risque d'avalanches...",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
-        "NE": true,
-        "E": true,
+        "NE": false,
+        "E": false,
         "SE": false,
         "S": false,
         "SW": false,
-        "W": true,
-        "NW": true
+        "W": false,
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -88,11 +76,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-31",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-06-01",
           "min_cm": 0,
@@ -117,6 +100,11 @@
           "date": "2026-06-05",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-06-06",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -126,19 +114,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PETITE COUCHE DE FRAICHE EN ALTITUDE (jusque 20/25 cm), DES COULEES DE SURFACE VENDREDI MATIN...",
-      "text": "PETITE COUCHE DE FRAICHE EN ALTITUDE (jusque 20/25 cm), DES COULEES DE SURFACE VENDREDI MATIN...\n\nNEIGE FRAICHE PREVUE JEUDI SOIR EN ALTITUDE (20 cm) PUIS RAPIDE HUMIDIFICATION VENDREDI MATIN, DES COULEES SPONTANEES EN TERRAIN RAIDE, SURTOUT AU DESSUS DE 2800/3000mDéparts spontanés :  Durant les chutes de neige (jeudi soir surtout), puis vendredi matin lors d'éclaircies : des coulées ponctuelles de neige fraîche/ boules humides vendredi en terrain raide.Risque temporaire surtout là où il neige plus, au dessus de 2800/3000m : 15/25 cm glissant sur la sous couche dense (névés).L'après-midi suite au tassement cette activité superficielle devrait cesser.Déclenchements provoqués :  Vendredi pas de risque de plaque a priori ou très localement au dessus de 3200m, sous le vent de Sud-Ouest ?Plutôt un risque de coulée humide ponctuelle sous les skis (le matin surtout, à l'humidification de la neige fraîche)...",
+      "title": "NEIGE SOUVENT STABLE, OU RARES COULEES DE SURFACE, PLUTOT EN FACES NORD D'ALTITUDE ?",
+      "text": "NEIGE SOUVENT STABLE, OU RARES COULEES DE SURFACE, PLUTOT EN FACES NORD D'ALTITUDE ?\n\nEn haute montagne, rares coulées humides de surface, plutôt en faces Nord (là où la neige récente est moins transformée)Départs spontanés :  Peu d'activité attendue, la neige récente  a déjà \"bougé\", en pentes raides d'altitude, près des rochers, sous forme de coulées ponctuelles.Samedi ce risque serait cantonné à de rares faces Nord sommitales (où la neige a moins évolué la veille), avec 10/15 cm mobilisables...Plus bas neige de névé humide mais très stableDéclenchements provoqués :  Samedi a priori pas de risque de plaque, plutôt un risque de coulée humide ponctuelle sous les skis en altitude, la neige récente glissant sur les névés ?",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l’enneigement :  Haute montagne blanchie vendredi matin (surtout au dessus de 2800/3000m), puis rapide tassement. La fonte a été précoce cette saison, seules quelques pentes restent skiables et nécessitent du portage...Limites skiables : Vers 2200/2400m en combes Nord, 2600/3000m au soleil.Qualité de la neige vendredi : Pentes saupoudrés au dessus de 2300/2500m, devenant davantage blanchies en altitude (jusque 15/25 cm possibles, parfois soufflés vers les hautes crêtes ?). Rapide humidification en matinée, tassement.Reprise de la fonte l'après-midi...",
+      "text": "Qualification de l’enneigement :  Haute montagne récemment blanchie ( jusque 20 cm vendredi matin), avec tassement rapide... La fonte a été précoce cette saison, seules quelques pentes restent skiables et nécessitent du portage...Limites skiables : Vers 2200/2400m en combes Nord, 2700/3000m au soleil.Qualité de la neige samedi :  Sous 2700m neige de névé humide.Plus haut saupoudrage récent, léger regel nocturne puis rapide humidification en journée de samedi...En pentes raides d'altitude, vers les rochers, de récentes coulées de surface.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 2400,
-        "south": 2700
+        "south": 2500
       },
       "levels_cm": [
         {
@@ -154,7 +142,7 @@
         {
           "alt_m": 2500,
           "N": 40,
-          "S": 0
+          "S": 5
         }
       ],
       "icon_key": "snowpack",

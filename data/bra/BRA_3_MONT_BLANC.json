@@ -3,30 +3,30 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-06-04T15:00:00",
-    "valid_until": "2026-06-05T18:00:00",
+    "issued_at": "2026-06-05T16:00:00",
+    "valid_until": "2026-06-06T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 2800m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 3200m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2800,
+        "threshold_m": 3200,
         "split_axis": "horizontal",
-        "split_label": "2800m",
+        "split_label": "3200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2800",
+            "loc": "<3200",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2800",
+            "loc": ">3200",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2800m"
+          "label": "3200m"
         },
         "zones": {
           "bottom": {
@@ -53,22 +53,22 @@
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-06-06",
-        "label": "Indice de risque faible",
-        "comment": "Retour du soleil, la fonte et le tassement se poursuit. Au soleil, l'activité en neige humide est encore possibles mais le risque moindre.",
-        "trend": "down"
+        "max_level": 2,
+        "date": "2026-06-07",
+        "label": "Indice de risque limité",
+        "comment": "Risque en baisse. Ensoleillé en journée avec quelques cumulus qui gonflent l'après-midi.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
-        "NE": false,
-        "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
-        "W": true,
+        "N": true,
+        "NE": true,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -89,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-31",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-06-01",
           "min_cm": 0,
@@ -118,6 +113,11 @@
           "date": "2026-06-05",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-06-06",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -128,12 +128,12 @@
     },
     "stability": {
       "title": "Humidification de la neige fraîche.",
-      "text": "Humidification de la neige fraîche.\n\nDéclenchements provoqués :* En matinée, plaques friables de neige fraîche, au-dessus de 2800m. Ces plaques, de faibles ampleurs en cas de rupture, se sont formés durant les chutes de neige ventée de jeudi. Celles-ci sont plutôt réactives en matinée, avant que l'humidification ne commence réellement. Taille 1 (petite), rarement 2 (moyenne).* Temporairement au soleil, elles sont un peu plus réactives (toujours environ 20 cm d'épaisseur). Une fois l'humidification marquée, ces plaques ne sont plus vraiment réactives.* Dans la neige humide, coulées possibles sous les skis sous forme de slush. Taille 1 (petite).Départs spontanés :* Quelques boulettes / petites avalanches de neige humides sont possibles au fil de l'ensoleillement, notamment près des rochers/falaises. Taille 1 (petite).",
+      "text": "Humidification de la neige fraîche.\n\nDéclenchements provoqués :* Plaques friables de neige fraîche (10 à 30 cm), au-dessus de 3200/3400. Formés par le vent de W/SW dans la nuit de jeudi à vendredi et vendredi soir. Plutôt réactives en matinée, avant que l'humidification en cours de journée. Taille 1 (petite), rarement 2 (moyenne).* En dessous de 3400 m ou en dessous de 4000 m en sud, de la neige peut couler sous les skis l'après-midi. Taille 1 (petite).Départs spontanés :* Quelques boulettes / petites avalanches de neige humides sont possibles au fil de l'ensoleillement, notamment près des rochers/falaises. Taille 1 (petite).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire. On peut chausser les skis au-dessus de 2300 m en nord. Les pentes sud sont saupoudrées de neige fraîche au-dessus de 2300 m.Qualité de la neige mercredi : En dessous de 2300 m, l'enneigement n'est pas continu et on retrouve des névés sans regel nocturne.Au-dessus de 2500m, 5/10 cm de neige récente lourde. Au-dessus de 2800/3000m, 15/20 cm de neige fraîche.",
+      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire. On peut chausser les skis au-dessus de 2300 m en nord. Les pentes sud sont saupoudrées de neige fraîche au-dessus de 2300 m.Qualité de la neige samedi : En dessous de 2300 m, l'enneigement n'est pas continu et on retrouve des névés sans regel nocturne.Entre 2700 m et 3200 m : 10/15 cm de neige récente lourde sur fond dur.Au-dessus de 3200/34000 m, 10 à 30 cm de neige fraîche qui s'humidifie en journée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -154,8 +154,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 90,
-          "S": 10
+          "N": 100,
+          "S": 20
         }
       ],
       "icon_key": "snowpack",

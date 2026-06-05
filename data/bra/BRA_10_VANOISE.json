@@ -3,30 +3,30 @@
   "massif": "Vanoise",
   "bulletin": {
     "id": 10,
-    "issued_at": "2026-06-04T16:00:00",
-    "valid_until": "2026-06-05T18:00:00",
+    "issued_at": "2026-06-05T15:00:00",
+    "valid_until": "2026-06-06T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 3000m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 3200m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 3000,
+        "threshold_m": 3200,
         "split_axis": "horizontal",
-        "split_label": "3000m",
+        "split_label": "3200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<3000",
+            "loc": "<3200",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">3000",
+            "loc": ">3200",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "3000m"
+          "label": "3200m"
         },
         "zones": {
           "bottom": {
@@ -53,23 +53,23 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-06-06",
-        "label": "Indice de risque limité",
-        "comment": "La neige récente se stabilise rapidement. Il reste encore samedi, de rares plaques dans les faces nord à très haute altitude, et un petit risque de départs en neige humide. En fonction du regel, possiblement de bonnes conditions de ski de printemps dans les versants ensoleillés d'altitude ?",
-        "trend": "steady"
+        "max_level": 1,
+        "date": "2026-06-07",
+        "label": "Indice de risque faible",
+        "comment": "Le manteau continue de se stabiliser. Bon regel nocturne et chaleur en journée -> petites avalanches humides l'après-midi.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
-        "NE": true,
-        "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
-        "W": true,
-        "NW": true
+        "NE": false,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -89,11 +89,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-05-31",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-06-01",
           "min_cm": 0,
@@ -118,6 +113,11 @@
           "date": "2026-06-05",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-06-06",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,19 +127,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "REDOUX ET RETOUR TIMIDE DU SOLEIL, LA NEIGE FRAICHE S'HUMIDIFIE RAPIDEMENT.",
-      "text": "REDOUX ET RETOUR TIMIDE DU SOLEIL, LA NEIGE FRAICHE S'HUMIDIFIE RAPIDEMENT.\n\nDéclenchements provoqués :- quelques petites plaques subsistent le matin dans la neige récente ventée, dès 2800/3000 m. On les trouve en tous versants, dans les zones d'accumulation par le vent. Cassures maximum 20-30 cm, donnant des avalanches de taille 1 (petite), très rarement 2 (moyenne). Puis rapidement en journée, la neige récente s'humidifie et la problématique de plaque se restreint alors uniquement aux pentes nord de très haute altitude. Observables : accumulations, changement de qualité de neige sur une courte distance.- quelques petites avalanches humides sous les skis dans les 15/20 cm de neige fraîche qui prennent un coup de chaud en cours de journée, en coupant une pente raide plutôt au-dessus de 2700/3000 m (en-dessous les volumes de neige mobilisables sont maigres).Départs spontanés : - quelques départs ponctuels (poires) dans la neige récente qui s'humidifie en journée. Tous versants et plutôt au-delà de 2700/3000 m. Avalanches de taille 1, rarement une taille 2. - il subsiste un très faible risque d'une avalanche humide un peu plus conséquente en face Nord de très haute altitude, avec éventuellement une rupture linéaire (au-dessus de 3200/3500 m).Autres : attention aux ponts de neige fragiles, notamment sur les ruisseaux.",
+      "title": "REDOUX ET RETOUR A DES CONDITIONS ESTIVALESPRESQUE PARTOUT. NEIGE FROIDE EN NORD D'ALTITUDE.",
+      "text": "REDOUX ET RETOUR A DES CONDITIONS ESTIVALESPRESQUE PARTOUT. NEIGE FROIDE EN NORD D'ALTITUDE. \n\nDéclenchements provoqués :- une rare petite plaque subsiste dans les pentes nord et raides de très haute montagne (>3200 m ?). Cassure ~20 cm, donnant une avalanche de taille 1 (petite)Observables : accumulations, changement de qualité de neige sur une courte distance.- coulée sous les skis dans les 10 cm de neige récente qui réchauffent en journée, en coupant une pente raide plutôt au-dessus de 2800 m en versant Nord, plus haut en Sud.Départs spontanés : - quelques départs ponctuels (poires) dans la neige récente qui s'humidifie en journée, en versant Nord au-delà de 2700/3000 m. Avalanches de taille 1.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2200 m en Nord,  2700/2800 m en Sud en pente peu raide.Qualité de la neige : au matin saupoudrage vers 2200 m. Dès 2700/3000 m, environ 10/20 cm de neige fraîche posés sur un ancien manteau type \"pourri\" ou \"névé\" selon l'altitude et l'orientation. En journée la neige récente s'humidifie, elle devient collante (et disparaît rapidement aux plus basses altitudes).",
+      "text": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2200 m en Nord,  2700/2800 m en Sud en pente peu raide.Qualité de la neige : regel médiocre au réveil sous 3000 m, meilleur au-dessus. La neige récente est croutée au réveil en tous versants/toutes altitudes. Avec le Soleil, elle ramollie et devient rapidement collante/lourde. Il n'y a qu'en versant Nord de haute montagne, très raide (type face Nord Grande Casse), qu'on peut espérer trouver un peu de neige froide.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 2400,
-        "south": 2600
+        "south": 2700
       },
       "levels_cm": [
         {
