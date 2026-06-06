@@ -3,14 +3,14 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-06-05T15:00:00",
-    "valid_until": "2026-06-06T18:00:00",
+    "issued_at": "2026-06-06T15:00:00",
+    "valid_until": "2026-06-07T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 3200m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 3200m indice de risque faible évoluant en limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
         "threshold_m": 3200,
@@ -27,8 +27,8 @@
           {
             "id": "zone2",
             "loc": ">3200",
-            "risk": 2,
-            "evolution_to": null,
+            "risk": 1,
+            "evolution_to": 2,
             "position": "top"
           }
         ]
@@ -46,30 +46,30 @@
             "evolution_to": null
           },
           "top": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
+            "text": "1→2",
+            "risk": 1,
+            "evolution_to": 2
           }
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-06-07",
-        "label": "Indice de risque faible",
-        "comment": "Le manteau continue de se stabiliser. Bon regel nocturne et chaleur en journée -> petites avalanches humides l'après-midi.",
-        "trend": "down"
+        "max_level": 2,
+        "date": "2026-06-08",
+        "label": "Indice de risque limité",
+        "comment": "Poursuite de l'humidification avec les averses orageuses de l'après-midi.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
         "N": true,
-        "NE": false,
+        "NE": true,
         "E": false,
         "SE": false,
         "S": false,
         "SW": false,
         "W": false,
-        "NW": false
+        "NW": true
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -78,22 +78,16 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
         "4": "Neige humide"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-06-01",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-06-02",
           "min_cm": 0,
@@ -118,6 +112,11 @@
           "date": "2026-06-06",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-06-07",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,19 +126,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "REDOUX ET RETOUR A DES CONDITIONS ESTIVALESPRESQUE PARTOUT. NEIGE FROIDE EN NORD D'ALTITUDE.",
-      "text": "REDOUX ET RETOUR A DES CONDITIONS ESTIVALESPRESQUE PARTOUT. NEIGE FROIDE EN NORD D'ALTITUDE. \n\nDéclenchements provoqués :- une rare petite plaque subsiste dans les pentes nord et raides de très haute montagne. Cassure ~15 cm, donnant une avalanche de taille 1 (petite).Observables : accumulations, changement de qualité de neige sur une courte distance.- coulée sous les skis dans les 5 cm de neige récente qui réchauffent en journée, en coupant une pente raide plutôt au-dessus de 2800 m en versant Nord, plus haut en Sud.Départs spontanés : - quelques départs ponctuels (poires) dans la neige récente qui s'humidifie en journée, en versant Nord au-delà de 2700/3000 m. Avalanches de taille 1.",
+      "title": "REDOUX ET RETOUR A DES CONDITIONS ESTIVALES PRESQUE PARTOUT. NEIGE FROIDE EN NORD D'ALTITUDE.",
+      "text": "REDOUX ET RETOUR A DES CONDITIONS ESTIVALES PRESQUE PARTOUT. NEIGE FROIDE EN NORD D'ALTITUDE. \n\nDéclenchements provoqués : coulée sous les skis dans les 5 cm de neige récente qui réchauffent en journée, en coupant une pente raide plutôt au-dessus de 2800 m en versant Nord, plus haut en Sud.Départs spontanés : rares départs ponctuels (poires) dans la neige récente qui s'humidifie en journée, en versant Nord au-delà de 2700/3000 m. Avalanches de taille 1.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : déficitaire pour la saison suit au récent épisode de chaleur.Limite skiable : vers 2300 m en Nord,  2700/2800 m en Sud en pente peu raide.Qualité de la neige : regel médiocre au réveil sous 3000 m, meilleur au-dessus. La neige récente est croutée au réveil en tous versants/toutes altitudes. Avec le Soleil, elle ramollie et devient rapidement collante/lourde. Il n'y a qu'en versant Nord de haute montagne, très raide (type face Nord Petite Ciamarella), qu'on peut espérer trouver un peu de neige froide.",
+      "text": "Enneigement : déficitaire pour la saison suit au récent épisode de chaleur.Limite skiable : vers 2300 m en Nord,  2700/2800 m en Sud en pente peu raide.Qualité de la neige : regel modéré sous 3000 m, meilleur au-dessus. La neige récente est croutée au réveil en tous versants/toutes altitudes. Avec le Soleil, elle ramollie et devient rapidement collante/lourde. Il n'y a qu'en versant Nord de haute montagne, très raide (type face Nord Petite Ciamarella), qu'on peut espérer trouver un peu de neige froide.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 2500,
-        "south": 2800
+        "south": 3000
       },
       "levels_cm": [
         {

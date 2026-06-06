@@ -3,8 +3,8 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-06-05T16:00:00",
-    "valid_until": "2026-06-06T18:00:00",
+    "issued_at": "2026-06-06T16:00:00",
+    "valid_until": "2026-06-07T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-06-07",
+        "date": "2026-06-08",
         "label": "Indice de risque limité",
-        "comment": "Risque en baisse. Ensoleillé en journée avec quelques cumulus qui gonflent l'après-midi.",
+        "comment": "Ensoleillé en matinée, dégradation orageuse l'après-midi apportant de la neige au-dessus de 3200 m.",
         "trend": "steady"
       }
     },
@@ -90,11 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-06-01",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-06-02",
           "min_cm": 0,
           "max_cm": 0
@@ -118,6 +113,11 @@
           "date": "2026-06-06",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-06-07",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,13 +127,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Humidification de la neige fraîche.",
-      "text": "Humidification de la neige fraîche.\n\nDéclenchements provoqués :* Plaques friables de neige fraîche (10 à 30 cm), au-dessus de 3200/3400. Formés par le vent de W/SW dans la nuit de jeudi à vendredi et vendredi soir. Plutôt réactives en matinée, avant que l'humidification en cours de journée. Taille 1 (petite), rarement 2 (moyenne).* En dessous de 3400 m ou en dessous de 4000 m en sud, de la neige peut couler sous les skis l'après-midi. Taille 1 (petite).Départs spontanés :* Quelques boulettes / petites avalanches de neige humides sont possibles au fil de l'ensoleillement, notamment près des rochers/falaises. Taille 1 (petite).",
+      "title": "Quelques plaques à vent en altitude.",
+      "text": "Quelques plaques à vent en altitude.\n\nDéclenchements provoqués :* Dans les ubacs au-dessus de 3200 m : quelques plaques friables dans la neige récente (10 à 30 cm), facilement déclenchables par un skieur. Ces plaques se sont formées avec le vent de W/SW dans la nuit de jeudi à vendredi et continuent localement de se former avec le vent d'W toujours sensible. Ces plaques peuvent également être présentes dans les adrets au-dessus de 3800 m, là où la neige récente n'a pas encore été humidifiée. Taille 1 (petite), rarement 2 (moyenne). * Au-dessus de 2800 m : de la neige récente humide peut couler sous les skis l'après-midi. Taille 1.Départs spontanés :* Au-dessus de 2800 m : quelques boulettes / petites avalanches de neige humide récente au fil de l'ensoleillement, notamment proche des rochers/falaises. Taille 1.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire. On peut chausser les skis au-dessus de 2300 m en nord. Les pentes sud sont saupoudrées de neige fraîche au-dessus de 2300 m.Qualité de la neige samedi : En dessous de 2300 m, l'enneigement n'est pas continu et on retrouve des névés sans regel nocturne.Entre 2700 m et 3200 m : 10/15 cm de neige récente lourde sur fond dur.Au-dessus de 3200/34000 m, 10 à 30 cm de neige fraîche qui s'humidifie en journée.",
+      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire. On peut chausser les skis au-dessus de 2300 m en Nord.Qualité de la neige dimanche :En dessous de 2800 m, Neige de névé en tous versants, léger regel nocturne au-dessus de 2500 m. La neige s'humidifie rapidement en matinée.Entre 2800 m et 3200 m : 5/10 cm de neige récente lourde sur fond dur. Neige croutée en matinée, dégelant en cours de matinée. Au-dessus de 3200 en Nord et 3800 m en Sud : 10 à 20 cm de neige récente, assez légère, encore peu humidifiée. Neige ventée proche des crêtes et sommets.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -154,8 +154,8 @@
         },
         {
           "alt_m": 2500,
-          "N": 100,
-          "S": 20
+          "N": 90,
+          "S": 10
         }
       ],
       "icon_key": "snowpack",
