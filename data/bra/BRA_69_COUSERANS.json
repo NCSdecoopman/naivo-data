@@ -3,8 +3,8 @@
   "massif": "Couserans",
   "bulletin": {
     "id": 69,
-    "issued_at": "2026-06-06T15:00:00",
-    "valid_until": "2026-06-07T18:00:00",
+    "issued_at": "2026-06-07T15:00:00",
+    "valid_until": "2026-06-08T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-06-08",
+        "date": "2026-06-09",
         "label": "Indice de risque faible",
-        "comment": "Pas d'évolution à prévoir pour le dernier BERA de la saison",
+        "comment": "Pas d'évolution",
         "trend": "steady"
       }
     },
@@ -77,11 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-06-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
           "date": "2026-06-03",
           "min_cm": 0,
           "max_cm": 0
@@ -105,6 +100,11 @@
           "date": "2026-06-07",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-06-08",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -114,13 +114,13 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Manteau neigeux stable",
-      "text": "Manteau neigeux stable\n\nDéparts spontanés : Peu probable avec un manteau neigeux de type névé.Déclenchements provoqués : Peu probables.Autres : Fragiles corniches présentes localement en pentes sommitales, fragiles ponts de neige, débits des torrents élevés comparativement aux années passées.",
+      "title": "DERNIER BERA DE LA SAISON 2025/2026",
+      "text": "DERNIER BERA DE LA SAISON 2025/2026 \n\nDéparts spontanés : Peu probable avec un manteau neigeux de type névé.Déclenchements provoqués : Peu probables.Autres : Fragiles corniches présentes localement en pentes sommitales, fragiles ponts de neige, débits des torrents élevés comparativement aux années passées.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : La limite d'altitude de la neige est très irrégulière avec un manteau neigeux de plus en plus discontinu : des névés ou des langues de neige descendent encore localement jusque vers 1800/2000 mais l'enneigement continu est plutôt au-dessus de 2200/2400m en nord, 2500/2700m en sud,  avec encore de belles accumulations dans les combes et replats même si les cols et crêtes sont souvent désormais déneigés. Qualité de la neige :Neige dense type névé souvent de couleur ocre en raison des poussières désertiques en surface.",
+      "text": "Enneigement : La limite d'altitude de la neige est très irrégulière avec un manteau neigeux de plus en plus discontinu : des névés ou des langues de neige descendent encore localement jusque vers 2000m mais l'enneigement continu est plutôt au-dessus de 2200/2400m en nord, 2500/2700m en sud,  avec encore de belles accumulations dans les combes et replats même si les cols et crêtes sont souvent désormais déneigés. Qualité de la neige :Neige dense type névé souvent de couleur ocre en raison des poussières désertiques en surface.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -141,7 +141,7 @@
         },
         {
           "alt_m": 2500,
-          "N": 100,
+          "N": 90,
           "S": 0
         }
       ],

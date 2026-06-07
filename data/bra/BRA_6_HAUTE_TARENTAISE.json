@@ -3,30 +3,30 @@
   "massif": "Haute-Tarentaise",
   "bulletin": {
     "id": 6,
-    "issued_at": "2026-06-06T15:00:00",
-    "valid_until": "2026-06-07T18:00:00",
+    "issued_at": "2026-06-07T16:00:00",
+    "valid_until": "2026-06-08T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 3200m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 3400m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 3200,
+        "threshold_m": 3400,
         "split_axis": "horizontal",
-        "split_label": "3200m",
+        "split_label": "3400m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<3200",
+            "loc": "<3400",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">3200",
+            "loc": ">3400",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "3200m"
+          "label": "3400m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-06-08",
+        "date": "2026-06-09",
         "label": "Indice de risque limité",
-        "comment": "Poursuite de l'humidification avec les averses orageuses de l'après-midi.",
+        "comment": "Assez bon regel nocturne. Humidification superficielle en journée.",
         "trend": "steady"
       }
     },
@@ -69,7 +69,7 @@
         "S": false,
         "SW": false,
         "W": false,
-        "NW": true
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -78,22 +78,16 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 4,
+      "primary": 4,
+      "secondary": null,
       "labels": {
-        "2": "Neige ventée",
         "4": "Neige humide"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-06-02",
-          "min_cm": 0,
-          "max_cm": 0
-        },
         {
           "date": "2026-06-03",
           "min_cm": 0,
@@ -118,6 +112,11 @@
           "date": "2026-06-07",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-06-08",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
@@ -127,8 +126,8 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "REDOUX ET RETOUR A DES CONDITIONS ESTIVALESPRESQUE PARTOUT. NEIGE FROIDE EN NORD D'ALTITUDE.",
-      "text": "REDOUX ET RETOUR A DES CONDITIONS ESTIVALESPRESQUE PARTOUT. NEIGE FROIDE EN NORD D'ALTITUDE. \n\nDéclenchements provoqués :- une rare petite plaque subsiste dans les pentes nord et raides de très haute montagne (>3200 m ?). Cassure ~20 cm, donnant une avalanche de taille 1 (petite)Observables : accumulations, changement de qualité de neige sur une courte distance.- coulée sous les skis dans les 10 cm de neige récente qui réchauffent en journée, en coupant une pente raide plutôt au-dessus de 2800 m en versant Nord, plus haut en Sud.Départs spontanés : - rares départs ponctuels (poires) dans la neige récente qui s'humidifie en journée, en versant Nord au-delà de 2700/3000 m. Avalanches de taille 1.",
+      "title": "DERNIER BULLETIN DE LA SAISON",
+      "text": "DERNIER BULLETIN DE LA SAISON\n\nDéclenchements provoqués :* coulée sous les skis dans la neige de surface humidifiée. En coupant une pente raide, au-dessus de 2700/2900 m. Talle 1.* petite plaque à vent encore possible (mais très rare). Pentes N très raides de haute-montagne, au-dessus de 3200/3400 m, il peut subsister une peu de neige sèche. Surveiller les changements de qualité de neige sur une courte distance.Départs spontanés : rares départs ponctuels et superficiels (en forme de poire) dans la neige humide après réchauffement. Surtout versants N/NE au-dessus de 2800/3000 m. Taille 1 (petite).",
       "sections": null,
       "icon_key": "stability"
     },
@@ -139,7 +138,7 @@
     "snowpack": {
       "limits_m": {
         "north": 2400,
-        "south": 2800
+        "south": 3000
       },
       "levels_cm": [
         {
