@@ -1,151 +1,25 @@
 {
   "schema_version": 3,
-  "massif": "Haute-Maurienne",
+  "massif": null,
   "bulletin": {
-    "id": 11,
-    "issued_at": "2026-06-07T16:00:00",
-    "valid_until": "2026-06-08T18:00:00",
+    "id": null,
+    "issued_at": null,
+    "valid_until": null,
     "amended": false
   },
   "evalbra": {
-    "risk": {
-      "max_level": 1,
-      "comment": "Indice de risque faible.",
-      "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
-        "zones": [
-          {
-            "id": "zone1",
-            "loc": null,
-            "risk": 1,
-            "evolution_to": null,
-            "position": null
-          }
-        ]
-      },
-      "pictogram": {
-        "template": "mf_mountain_risk_v1",
-        "split": {
-          "axis": null,
-          "label": null
-        },
-        "zones": {
-          "center": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          }
-        }
-      },
-      "j2": {
-        "max_level": 1,
-        "date": "2026-06-09",
-        "label": "Indice de risque faible",
-        "comment": "Assez bon regel nocturne. Humidification superficielle en journée.",
-        "trend": "steady"
-      }
-    },
+    "risk": null,
     "dangerous_aspects": {
-      "aspects": {
-        "N": false,
-        "NE": false,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
-        "NW": false
-      },
-      "icon_key": "rose-aspects",
       "image": {
         "filename": "BRA_11_HAUTE_MAURIENNE_rose-pentes.png",
         "content_type": "image/png"
       }
     },
-    "sat": {
-      "primary": 4,
-      "secondary": null,
-      "labels": {
-        "4": "Neige humide"
-      },
-      "icon_key": "sat-4"
-    },
-    "precip_cumulated": {
-      "reference_altitude_m": 1800,
-      "fresh_snow_24h": [
-        {
-          "date": "2026-06-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-04",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-05",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-08",
-          "min_cm": 0,
-          "max_cm": 0
-        }
-      ],
-      "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
-      },
-      "icon_key": "snowfall"
-    },
-    "stability": {
-      "title": "DERNIER BULLETIN DE LA SAISON",
-      "text": "DERNIER BULLETIN DE LA SAISON \n\nDéparts spontanés : rares départs ponctuels et superficiels (en forme de poire) dans la neige humide après réchauffement. Surtout versants N/NE au-dessus de 2800/3000 m. Taille 1 (petite). Déclenchements provoqués : coulée sous les skis dans la neige de surface humidifiée. En coupant une pente raide, au-dessus de 2700/2900 m. Talle 1.",
-      "sections": null,
-      "icon_key": "stability"
-    },
-    "snow_quality": {
-      "text": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2300/2400 m en N, 2800/3000 m en S en pente peu raide.Qualité de la neige : bon regel, neige majoritairement dure au lever du jour. Humidification de surface assez rapide, mais limitée par le vent (croûte). En versants N très raide de haute-montagne (par exemple face N Petite Ciamarella), on peut trouver un peu de neige froide, travaillée par les vents d'W/NW.",
-      "icon_key": "snow-quality"
-    },
+    "sat": null,
+    "precip_cumulated": null,
+    "stability": null,
+    "snow_quality": null,
     "snowpack": {
-      "limits_m": {
-        "north": 2500,
-        "south": 3000
-      },
-      "levels_cm": [
-        {
-          "alt_m": 1500,
-          "N": 0,
-          "S": 0
-        },
-        {
-          "alt_m": 2000,
-          "N": 0,
-          "S": 0
-        },
-        {
-          "alt_m": 2500,
-          "N": 10,
-          "S": 0
-        }
-      ],
-      "icon_key": "snowpack",
       "image": {
         "filename": "BRA_11_HAUTE_MAURIENNE_montagne-enneigement.png",
         "content_type": "image/png"

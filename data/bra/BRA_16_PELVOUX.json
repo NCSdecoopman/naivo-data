@@ -1,163 +1,25 @@
 {
   "schema_version": 3,
-  "massif": "Pelvoux",
+  "massif": null,
   "bulletin": {
-    "id": 16,
-    "issued_at": "2026-06-07T16:00:00",
-    "valid_until": "2026-06-08T18:00:00",
+    "id": null,
+    "issued_at": null,
+    "valid_until": null,
     "amended": false
   },
   "evalbra": {
-    "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 3500m indice de risque limité, plus bas indice faible.",
-      "localization": {
-        "type": "altitude",
-        "threshold_m": 3500,
-        "split_axis": "horizontal",
-        "split_label": "3500m",
-        "zones": [
-          {
-            "id": "zone1",
-            "loc": "<3500",
-            "risk": 1,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">3500",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "top"
-          }
-        ]
-      },
-      "pictogram": {
-        "template": "mf_mountain_risk_v1",
-        "split": {
-          "axis": "horizontal",
-          "label": "3500m"
-        },
-        "zones": {
-          "bottom": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
-          }
-        }
-      },
-      "j2": {
-        "max_level": 1,
-        "date": "2026-06-09",
-        "label": "Indice de risque faible",
-        "comment": "Risque en baisse et devient faible, même en haute montagne.",
-        "trend": "down"
-      }
-    },
+    "risk": null,
     "dangerous_aspects": {
-      "aspects": {
-        "N": true,
-        "NE": false,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
-        "NW": false
-      },
-      "icon_key": "rose-aspects",
       "image": {
         "filename": "BRA_16_PELVOUX_rose-pentes.png",
         "content_type": "image/png"
       }
     },
-    "sat": {
-      "primary": 4,
-      "secondary": null,
-      "labels": {
-        "4": "Neige humide"
-      },
-      "icon_key": "sat-4"
-    },
-    "precip_cumulated": {
-      "reference_altitude_m": 1800,
-      "fresh_snow_24h": [
-        {
-          "date": "2026-06-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-04",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-05",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-08",
-          "min_cm": 0,
-          "max_cm": 0
-        }
-      ],
-      "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
-      },
-      "icon_key": "snowfall"
-    },
-    "stability": {
-      "title": "DERNIER BULLETIN DE LA SAISON - RARES DÉPARTS DE NEIGE HUMIDE EN VERSANT NORD DE HAUTE ALTITUDE",
-      "text": "DERNIER BULLETIN DE LA SAISON - RARES DÉPARTS DE NEIGE HUMIDE EN VERSANT NORD DE HAUTE ALTITUDE \n\nDéclenchements provoqués : au dessus de 3300/3500 m, un skieur évoluant tardivement peut initier un départ en neige humide de faible ampleur. Une rare plaque à vent peut subsister dans les pentes froides les plus hautes. Avalanches de petite taille (taille 1), rarement moyenne (taille 2). À plus basse altitude, le manteau neigeux est bien stable. Départs spontanés : peu probables, les averses de pluie ou de neige de la fin de journée étant trop faibles pour générer de l'activité naturelle.",
-      "sections": null,
-      "icon_key": "stability"
-    },
-    "snow_quality": {
-      "text": "Enneigement déficitaire, en raison du printemps particulièrement chaud et sec. Hauteurs de neige observées : 130 cm à la nivôse des Écrins à 2970 m. Limite d'enneigement skiable : à partir de 2600 m dans les secteurs les plus enneigés, localement 2400 m. À pieds, les névés sont encore nombreux à partir de 2100/2200 m en nord, bien plus bas dans les dépôts d'avalanches.État de la neige en surface : manteau neigeux totalement humidifié, sauf dans les pentes nord au-dessus de 3300/3500m, où les chutes de neige de jeudi soir ont apporté entre 10/20 cm en cœur de massif.",
-      "icon_key": "snow-quality"
-    },
+    "sat": null,
+    "precip_cumulated": null,
+    "stability": null,
+    "snow_quality": null,
     "snowpack": {
-      "limits_m": {
-        "north": 2600,
-        "south": 3000
-      },
-      "levels_cm": [
-        {
-          "alt_m": 1500,
-          "N": 0,
-          "S": 0
-        },
-        {
-          "alt_m": 2000,
-          "N": 0,
-          "S": 0
-        },
-        {
-          "alt_m": 2500,
-          "N": 0,
-          "S": 0
-        }
-      ],
-      "icon_key": "snowpack",
       "image": {
         "filename": "BRA_16_PELVOUX_montagne-enneigement.png",
         "content_type": "image/png"

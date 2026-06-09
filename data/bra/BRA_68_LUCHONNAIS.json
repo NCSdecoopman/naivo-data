@@ -1,151 +1,25 @@
 {
   "schema_version": 3,
-  "massif": "Luchonnais",
+  "massif": null,
   "bulletin": {
-    "id": 68,
-    "issued_at": "2026-06-07T15:00:00",
-    "valid_until": "2026-06-08T18:00:00",
+    "id": null,
+    "issued_at": null,
+    "valid_until": null,
     "amended": false
   },
   "evalbra": {
-    "risk": {
-      "max_level": 1,
-      "comment": "Indice de risque faible.",
-      "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
-        "zones": [
-          {
-            "id": "zone1",
-            "loc": null,
-            "risk": 1,
-            "evolution_to": null,
-            "position": null
-          }
-        ]
-      },
-      "pictogram": {
-        "template": "mf_mountain_risk_v1",
-        "split": {
-          "axis": null,
-          "label": null
-        },
-        "zones": {
-          "center": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          }
-        }
-      },
-      "j2": {
-        "max_level": 1,
-        "date": "2026-06-09",
-        "label": "Indice de risque faible",
-        "comment": "Risque stationnaire, poursuite de la fonte du manteau neigeux.",
-        "trend": "steady"
-      }
-    },
+    "risk": null,
     "dangerous_aspects": {
-      "aspects": {
-        "N": false,
-        "NE": false,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
-        "NW": false
-      },
-      "icon_key": "rose-aspects",
       "image": {
         "filename": "BRA_68_LUCHONNAIS_rose-pentes.png",
         "content_type": "image/png"
       }
     },
-    "sat": {
-      "primary": 6,
-      "secondary": null,
-      "labels": {
-        "6": "Aucune prédominente"
-      },
-      "icon_key": "sat-6"
-    },
-    "precip_cumulated": {
-      "reference_altitude_m": 1800,
-      "fresh_snow_24h": [
-        {
-          "date": "2026-06-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-04",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-05",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-08",
-          "min_cm": 0,
-          "max_cm": 0
-        }
-      ],
-      "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
-      },
-      "icon_key": "snowfall"
-    },
-    "stability": {
-      "title": "NÉVÉ JUSQU'EN HAUTE ALTITUDE. DERNIER BULLETIN DE LA SAISON, ON SE RETROUVE L'AUTOMNE PROCHAIN !",
-      "text": "NÉVÉ JUSQU'EN HAUTE ALTITUDE. DERNIER BULLETIN DE LA SAISON, ON SE RETROUVE L'AUTOMNE PROCHAIN !\n\nDéparts spontanés : Le manteau neigeux étant sous forme de névé en toutes orientations et à toutes altitudes, les petites avalanches sont peu probables et peuvent avoir lieu plutôt au-dessus de 2700 m, notamment dans les rares pentes raides nord, où le manteau neigeux n'est pas encore transformé en névé. Déclenchements provoqués : Le manteau neigeux est très dense et stable. Il est difficile pour un pratiquant de montagne de déclencher une coulée ou une avalanche.Autres : - Ponts de neige sur les cours d'eau et les pierriers très fragiles.- Lundi matin, la surface du manteau neigeux peut être souvent regelée et glissante.",
-      "sections": null,
-      "icon_key": "stability"
-    },
-    "snow_quality": {
-      "text": "Enneigement : Les grosses chaleurs de la semaine passée ont rapidement réduit l'enneigement d'un manteau neigeux encore récemment excédentaire au-dessus de 2400 m, dans les faces nord. On peut tout de même encore y trouver de belles accumulations. La limite d'enneigement est de plus en plus irrégulière, mais il est possible de chausser en nord, autour de 2400 m. Les cols d'altitude nécessitent un équipement adapté.État de la neige : De type névé en général, dense, souvent regelé en surface lundi matin et nécessitant un équipement adapté. La neige se ramollit rapidement au fil de la journée et de l'ensoleillement.",
-      "icon_key": "snow-quality"
-    },
+    "sat": null,
+    "precip_cumulated": null,
+    "stability": null,
+    "snow_quality": null,
     "snowpack": {
-      "limits_m": {
-        "north": 2400,
-        "south": 2700
-      },
-      "levels_cm": [
-        {
-          "alt_m": 1500,
-          "N": 0,
-          "S": 0
-        },
-        {
-          "alt_m": 2000,
-          "N": 0,
-          "S": 0
-        },
-        {
-          "alt_m": 2500,
-          "N": 60,
-          "S": 0
-        }
-      ],
-      "icon_key": "snowpack",
       "image": {
         "filename": "BRA_68_LUCHONNAIS_montagne-enneigement.png",
         "content_type": "image/png"

@@ -1,151 +1,25 @@
 {
   "schema_version": 3,
-  "massif": "Thabor",
+  "massif": null,
   "bulletin": {
-    "id": 13,
-    "issued_at": "2026-06-07T16:00:00",
-    "valid_until": "2026-06-08T18:00:00",
+    "id": null,
+    "issued_at": null,
+    "valid_until": null,
     "amended": false
   },
   "evalbra": {
-    "risk": {
-      "max_level": 1,
-      "comment": "Indice de risque faible.",
-      "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
-        "zones": [
-          {
-            "id": "zone1",
-            "loc": null,
-            "risk": 1,
-            "evolution_to": null,
-            "position": null
-          }
-        ]
-      },
-      "pictogram": {
-        "template": "mf_mountain_risk_v1",
-        "split": {
-          "axis": null,
-          "label": null
-        },
-        "zones": {
-          "center": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          }
-        }
-      },
-      "j2": {
-        "max_level": 1,
-        "date": "2026-06-09",
-        "label": "Indice de risque faible",
-        "comment": "Maintien d'un risque faible.",
-        "trend": "steady"
-      }
-    },
+    "risk": null,
     "dangerous_aspects": {
-      "aspects": {
-        "N": false,
-        "NE": false,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
-        "NW": false
-      },
-      "icon_key": "rose-aspects",
       "image": {
         "filename": "BRA_13_THABOR_rose-pentes.png",
         "content_type": "image/png"
       }
     },
-    "sat": {
-      "primary": 6,
-      "secondary": null,
-      "labels": {
-        "6": "Aucune prédominente"
-      },
-      "icon_key": "sat-6"
-    },
-    "precip_cumulated": {
-      "reference_altitude_m": 1800,
-      "fresh_snow_24h": [
-        {
-          "date": "2026-06-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-04",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-05",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-08",
-          "min_cm": 0,
-          "max_cm": 0
-        }
-      ],
-      "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
-      },
-      "icon_key": "snowfall"
-    },
-    "stability": {
-      "title": "DERNIER BULLETIN DE LA SAISON - MANTEAU NEIGEUX RÉSIDUEL STABLE",
-      "text": "DERNIER BULLETIN DE LA SAISON - MANTEAU NEIGEUX RÉSIDUEL STABLE \n\nDéparts spontanés et déclenchements provoqués d'avalanches peu probables, le manteau neigeux résiduel est dense et stable.",
-      "sections": null,
-      "icon_key": "stability"
-    },
-    "snow_quality": {
-      "text": "Enneigement résiduel et déficitaire pour un début juin, sous forme de névés, présents sur les sentiers de randonnée à partir de 2100/2200 m en nord, un peu plus bas au niveau des dépôts d'avalanches.",
-      "icon_key": "snow-quality"
-    },
+    "sat": null,
+    "precip_cumulated": null,
+    "stability": null,
+    "snow_quality": null,
     "snowpack": {
-      "limits_m": {
-        "north": 2700,
-        "south": -1
-      },
-      "levels_cm": [
-        {
-          "alt_m": 1500,
-          "N": 0,
-          "S": 0
-        },
-        {
-          "alt_m": 2000,
-          "N": 0,
-          "S": 0
-        },
-        {
-          "alt_m": 2500,
-          "N": 0,
-          "S": 0
-        }
-      ],
-      "icon_key": "snowpack",
       "image": {
         "filename": "BRA_13_THABOR_montagne-enneigement.png",
         "content_type": "image/png"

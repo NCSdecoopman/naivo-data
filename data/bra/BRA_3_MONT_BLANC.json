@@ -1,164 +1,25 @@
 {
   "schema_version": 3,
-  "massif": "Mont-Blanc",
+  "massif": null,
   "bulletin": {
-    "id": 3,
-    "issued_at": "2026-06-07T16:00:00",
-    "valid_until": "2026-06-08T18:00:00",
+    "id": null,
+    "issued_at": null,
+    "valid_until": null,
     "amended": false
   },
   "evalbra": {
-    "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 3400m indice de risque limité, plus bas indice faible.",
-      "localization": {
-        "type": "altitude",
-        "threshold_m": 3400,
-        "split_axis": "horizontal",
-        "split_label": "3400m",
-        "zones": [
-          {
-            "id": "zone1",
-            "loc": "<3400",
-            "risk": 1,
-            "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">3400",
-            "risk": 2,
-            "evolution_to": null,
-            "position": "top"
-          }
-        ]
-      },
-      "pictogram": {
-        "template": "mf_mountain_risk_v1",
-        "split": {
-          "axis": "horizontal",
-          "label": "3400m"
-        },
-        "zones": {
-          "bottom": {
-            "text": "1",
-            "risk": 1,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "2",
-            "risk": 2,
-            "evolution_to": null
-          }
-        }
-      },
-      "j2": {
-        "max_level": 2,
-        "date": "2026-06-09",
-        "label": "Indice de risque limité",
-        "comment": "Quelques averses en matinée, nombreux nuages. Un peu de neige fraiche au-dessus de 3000 m. Pas d'évolution du risque.",
-        "trend": "steady"
-      }
-    },
+    "risk": null,
     "dangerous_aspects": {
-      "aspects": {
-        "N": true,
-        "NE": true,
-        "E": false,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
-        "NW": true
-      },
-      "icon_key": "rose-aspects",
       "image": {
         "filename": "BRA_3_MONT_BLANC_rose-pentes.png",
         "content_type": "image/png"
       }
     },
-    "sat": {
-      "primary": 2,
-      "secondary": 4,
-      "labels": {
-        "2": "Neige ventée",
-        "4": "Neige humide"
-      },
-      "icon_key": "sat-2"
-    },
-    "precip_cumulated": {
-      "reference_altitude_m": 1800,
-      "fresh_snow_24h": [
-        {
-          "date": "2026-06-03",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-04",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-05",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-06",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-07",
-          "min_cm": 0,
-          "max_cm": 0
-        },
-        {
-          "date": "2026-06-08",
-          "min_cm": 0,
-          "max_cm": 0
-        }
-      ],
-      "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 0
-      },
-      "icon_key": "snowfall"
-    },
-    "stability": {
-      "title": "DERNIER BULLETIN DE LA SAISON.",
-      "text": "DERNIER BULLETIN DE LA SAISON.\n\nDéclenchements provoqués :* Dans les ubacs au-dessus de 3400 m : rares plaques friables dans la neige récente (10 à 30 cm), assez facilement déclenchables par un skieur. Ces plaques se sont formées avec le vent de W/SW vendredi et samedi. Ces plaques peuvent également être présentes dans les adrets au-dessus de 4000 m, là où la neige récente n'a pas encore été humidifiée. Taille 1 (petite), rarement 2 (moyenne). * Lundi soir au-dessus de 3400 m : quelques plaques à vent forment lors des chutes de neige. Plaques peu épaisses (10 cm), facilement déclenchables par un skieur. Ces plaques sont formées par le fort vent d'W. Taille 1, rarement 2.* Au-dessus de 2800 m : de la neige récente humide peut couler sous les skis l'après-midi. Taille 1.Départs spontanés :* Au-dessus de 2800 m, principalement dans les ubacs : quelques boulettes / petites avalanches de neige humide récente au fil de l'ensoleillement, notamment proche des rochers/falaises. Taille 1.",
-      "sections": null,
-      "icon_key": "stability"
-    },
-    "snow_quality": {
-      "text": "Enneigement : Pour la saison, l’enneigement est déficitaire. On peut chausser les skis au-dessus de 2300 m en Nord.Qualité de la neige lundi :En dessous de 2800 m, Neige de névé en tous versants, léger regel nocturne au-dessus de 2500 m. La neige s'humidifie rapidement en matinée.Entre 2800 m et 3400 m : encore un peu de neige récente lourde sur fond dur. Neige croutée en début de journée, dégelant en cours de matinée. Au-dessus de 3400 en Nord et 4000 m en Sud : 10 à 15 cm de neige récente, assez légère, encore peu humidifiée. Neige ventée proche des crêtes et sommets. Lundi soir au-dessus de 3400 m : 5-10 cm de neige apportés par les averses. Neige souvent travaillée par le vent.",
-      "icon_key": "snow-quality"
-    },
+    "sat": null,
+    "precip_cumulated": null,
+    "stability": null,
+    "snow_quality": null,
     "snowpack": {
-      "limits_m": {
-        "north": 2200,
-        "south": 2600
-      },
-      "levels_cm": [
-        {
-          "alt_m": 1500,
-          "N": 0,
-          "S": 0
-        },
-        {
-          "alt_m": 2000,
-          "N": 0,
-          "S": 0
-        },
-        {
-          "alt_m": 2500,
-          "N": 90,
-          "S": 0
-        }
-      ],
-      "icon_key": "snowpack",
       "image": {
         "filename": "BRA_3_MONT_BLANC_montagne-enneigement.png",
         "content_type": "image/png"
