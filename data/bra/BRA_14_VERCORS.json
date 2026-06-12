@@ -9,21 +9,11 @@
   },
   "evalbra": {
     "risk": null,
-    "dangerous_aspects": {
-      "image": {
-        "filename": "BRA_14_VERCORS_rose-pentes.png",
-        "content_type": "image/png"
-      }
-    },
+    "dangerous_aspects": null,
     "sat": null,
     "precip_cumulated": null,
     "stability": null,
     "snow_quality": null,
-    "snowpack": {
-      "image": {
-        "filename": "BRA_14_VERCORS_montagne-enneigement.png",
-        "content_type": "image/png"
-      }
-    }
+    "snowpack": null
   }
 }
