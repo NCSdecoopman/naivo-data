@@ -141,14 +141,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.044333,
+          5.044167,
           46.0385
         ]
       },
       "properties": {
         "id": "01235001",
         "nom": "MARLIEUX",
-        "altitude": 280.0
+        "altitude": 277.0
       }
     },
     {
