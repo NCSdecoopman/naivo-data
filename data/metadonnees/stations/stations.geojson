@@ -1626,14 +1626,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.357667,
-          43.0735
+          1.362833,
+          43.077833
         ]
       },
       "properties": {
         "id": "09181003",
         "nom": "LE MAS D AZIL",
-        "altitude": 293.0
+        "altitude": 292.0
       }
     },
     {
