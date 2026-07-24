@@ -3628,7 +3628,7 @@
       "properties": {
         "id": "63417001",
         "nom": "SAYAT_SAPC",
-        "altitude": 550.0
+        "altitude": 547.0
       }
     },
     {
@@ -5721,7 +5721,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.878,
+          5.877833,
           45.641333
         ]
       },
