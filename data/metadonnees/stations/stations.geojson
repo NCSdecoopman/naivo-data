@@ -2737,13 +2737,13 @@
         "type": "Point",
         "coordinates": [
           5.313333,
-          45.364
+          45.364167
         ]
       },
       "properties": {
         "id": "38384001",
         "nom": "GRENOBLE-ST GEOIRS",
-        "altitude": 384.0
+        "altitude": 376.0
       }
     },
     {
