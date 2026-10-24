@@ -891,8 +891,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.033333,
-          44.452167
+          6.0365,
+          44.450333
         ]
       },
       "properties": {
@@ -6134,21 +6134,6 @@
         "id": "74182001",
         "nom": "MEYTHET",
         "altitude": 455.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.692833,
-          46.168333
-        ]
-      },
-      "properties": {
-        "id": "74191003",
-        "nom": "LE PLENEY",
-        "altitude": 1515.0
       }
     },
     {
