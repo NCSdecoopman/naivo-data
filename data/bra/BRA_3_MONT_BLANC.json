@@ -1,25 +1,157 @@
 {
   "schema_version": 3,
-  "massif": null,
+  "massif": "Mont-Blanc",
   "bulletin": {
-    "id": null,
-    "issued_at": null,
-    "valid_until": null,
+    "id": 3,
+    "issued_at": "2026-11-23T16:00:00",
+    "valid_until": "2026-11-24T18:00:00",
     "amended": false
   },
   "evalbra": {
-    "risk": null,
+    "risk": {
+      "max_level": 3,
+      "comment": "Indice de risque marqué.",
+      "localization": {
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
+        "zones": [
+          {
+            "id": "zone1",
+            "loc": null,
+            "risk": 3,
+            "evolution_to": null,
+            "position": null
+          }
+        ]
+      },
+      "pictogram": {
+        "template": "mf_mountain_risk_v1",
+        "split": {
+          "axis": null,
+          "label": null
+        },
+        "zones": {
+          "center": {
+            "text": "3",
+            "risk": 3,
+            "evolution_to": null
+          }
+        }
+      },
+      "j2": {
+        "max_level": 3,
+        "date": "2026-11-25",
+        "label": "Indice de risque marqué",
+        "comment": "En journée de mercredi, le massif est soumis au Foehn, créant ainsi des instabilités ventées dans la neige récente. En cours d'après-midi, les précipitations rentrent dans le massif et donnent 5/10 cm de neige ventée, donnant ainsi de nouvelles instabilités sous forme de plaque.",
+        "trend": "steady"
+      }
+    },
     "dangerous_aspects": {
+      "aspects": {
+        "N": true,
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": true
+      },
+      "icon_key": "rose-aspects",
       "image": {
         "filename": "BRA_3_MONT_BLANC_rose-pentes.png",
         "content_type": "image/png"
       }
     },
-    "sat": null,
-    "precip_cumulated": null,
-    "stability": null,
-    "snow_quality": null,
+    "sat": {
+      "primary": 1,
+      "secondary": null,
+      "labels": {
+        "1": "Neige fraîche"
+      },
+      "icon_key": "sat-1"
+    },
+    "precip_cumulated": {
+      "reference_altitude_m": 1800,
+      "fresh_snow_24h": [
+        {
+          "date": "2026-11-20",
+          "min_cm": 30,
+          "max_cm": 40,
+          "rain_mm": 40.0
+        },
+        {
+          "date": "2026-11-21",
+          "min_cm": 25,
+          "max_cm": 30,
+          "rain_mm": 30.0
+        },
+        {
+          "date": "2026-11-22",
+          "min_cm": 5,
+          "max_cm": 10,
+          "rain_mm": 2.0
+        },
+        {
+          "date": "2026-11-23",
+          "min_cm": 50,
+          "max_cm": 80,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-24",
+          "min_cm": 5,
+          "max_cm": 7,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-25",
+          "min_cm": 3,
+          "max_cm": 5,
+          "rain_mm": 0.0
+        }
+      ],
+      "totals": {
+        "last_48h_min_cm": 8,
+        "last_48h_max_cm": 12
+      },
+      "icon_key": "snowfall"
+    },
+    "stability": {
+      "title": "Stabilisation progressive du manteau neigeux au fil de la journée.",
+      "text": "Stabilisation progressive du manteau neigeux au fil de la journée. \n\n* Déclenchements provoqués :* Dans la neige fraîche, on retrouve des plaques friables. Ces plaques sont plus nombreuses et réactives au-dessus de 2000m et persistent tout au long de la journée. Ces plaques sont la plupart du temps invisibles en surface, car d'aspect poudreux. Elles se sont formés durant les chutes de neige de la fin de semaine passée. Taille 1 à 2 (petite à moyenne) majoritairement, et localement au-dessus de 2000m, une taille 3 est possible (grande).* Départs spontanés :* Les avalanches de neige fraîche sont de plus en plus rares au fil de la journée. Elles peuvent partir spontanément à cause du soleil ou du transport par le vent. Toutefois, malgré la rareté du départ si une avalanche survenait, elle pourrait être grande (taille 3), voir très grande (taille 4) si la topographie le permet.Facteur aggravant : En haute-montagne, une couche fragile persistante est enfouie près de la base du manteau neigeux et pourrait être sollicité de manière localisée, notamment dans le contexte d'avalanches en cascade.",
+      "sections": null,
+      "icon_key": "stability"
+    },
+    "snow_quality": {
+      "text": "Enneigement : Pour la saison, l’enneigement est excédentaire à toutes altitudes. On peut chausser les skis au-dessus de 1300 m. Présence de grosses corniches et congères. Qualité de la neige ce mardi matin :* Sous 1600 m : Le manteau neigeux est entièrement humide, en toutes orientations.* Entre 1600 et 2000 m : Le manteau neigeux est encore léger en matinée (50/60 cm), mais il repose sur un fond humide. Au fil de la journée, l'humidification se fait jusqu'en profondeur et finit par donner un manteau plutôt humide.* Au-delà de 2000 m : Le manteau neigeux est froid sur toute son épaisseur, avec 80 cm de neige fraîche légèrement travaillé par le vent. Le manteau est plus épais sur l'est du massif (secteur Tour/Vallorcine/Argentière).",
+      "icon_key": "snow-quality"
+    },
     "snowpack": {
+      "limits_m": {
+        "north": 900,
+        "south": 900
+      },
+      "levels_cm": [
+        {
+          "alt_m": 1500,
+          "N": 100,
+          "S": 100
+        },
+        {
+          "alt_m": 2000,
+          "N": 150,
+          "S": 150
+        },
+        {
+          "alt_m": 2500,
+          "N": 180,
+          "S": 180
+        }
+      ],
+      "icon_key": "snowpack",
       "image": {
         "filename": "BRA_3_MONT_BLANC_montagne-enneigement.png",
         "content_type": "image/png"

@@ -1,25 +1,158 @@
 {
   "schema_version": 3,
-  "massif": null,
+  "massif": "Haute-Maurienne",
   "bulletin": {
-    "id": null,
-    "issued_at": null,
-    "valid_until": null,
+    "id": 11,
+    "issued_at": "2026-11-23T16:00:00",
+    "valid_until": "2026-11-24T18:00:00",
     "amended": false
   },
   "evalbra": {
-    "risk": null,
+    "risk": {
+      "max_level": 3,
+      "comment": "Indice de risque marqué.",
+      "localization": {
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
+        "zones": [
+          {
+            "id": "zone1",
+            "loc": null,
+            "risk": 3,
+            "evolution_to": null,
+            "position": null
+          }
+        ]
+      },
+      "pictogram": {
+        "template": "mf_mountain_risk_v1",
+        "split": {
+          "axis": null,
+          "label": null
+        },
+        "zones": {
+          "center": {
+            "text": "3",
+            "risk": 3,
+            "evolution_to": null
+          }
+        }
+      },
+      "j2": {
+        "max_level": 3,
+        "date": "2026-11-25",
+        "label": "Indice de risque marqué",
+        "comment": "Lombarde en matinée avec transport de neige par le vent pouvant formé de nouvelles plaques, le vent tombe l'après midi remplacé par de faibles chutes de neige  (5/10 cm) . Le  risque accidentel reste marqué.",
+        "trend": "steady"
+      }
+    },
     "dangerous_aspects": {
+      "aspects": {
+        "N": true,
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": true
+      },
+      "icon_key": "rose-aspects",
       "image": {
         "filename": "BRA_11_HAUTE_MAURIENNE_rose-pentes.png",
         "content_type": "image/png"
       }
     },
-    "sat": null,
-    "precip_cumulated": null,
-    "stability": null,
-    "snow_quality": null,
+    "sat": {
+      "primary": 2,
+      "secondary": 5,
+      "labels": {
+        "2": "Neige ventée",
+        "5": "Avalanche de fond"
+      },
+      "icon_key": "sat-2"
+    },
+    "precip_cumulated": {
+      "reference_altitude_m": 1800,
+      "fresh_snow_24h": [
+        {
+          "date": "2026-11-20",
+          "min_cm": 10,
+          "max_cm": 30,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-21",
+          "min_cm": 7,
+          "max_cm": 20,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-22",
+          "min_cm": 5,
+          "max_cm": 10,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-23",
+          "min_cm": 10,
+          "max_cm": 20,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-24",
+          "min_cm": 0,
+          "max_cm": 2,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-25",
+          "min_cm": 5,
+          "max_cm": 10,
+          "rain_mm": 0.0
+        }
+      ],
+      "totals": {
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 12
+      },
+      "icon_key": "snowfall"
+    },
+    "stability": {
+      "title": "Fort cumul de neige fraîche qui commence son tassement.",
+      "text": "Fort cumul de neige fraîche qui commence son tassement.  \n\nDéclenchements provoqués : De nombreuses plaques formées par les chutes de neige ventées de ces derniers jours restent en place et facilement déclenchable au passage d'un skieur. Elles gagnent en épaisseur avec l'altitude et sont parfois difficiles à déceler car cachées sous une couche de poudre. Cassure 30/60 cm Avalanches de taille moyenne (2) en général, rare taille 3 dans les grandes pentes, dépôt poudreux. Se méfier particulièrement au niveau des ruptures de pentes.  Aux abords des crêtes neige beaucoup plus soufflée avec alors des plaques plus identifiables mais aussi plus dures, elles sont moins facilement déclenchables mais  par contre avec des cassures pouvant atteindre 1 m.   Observables: fissure devant les skis, rapide variation d'enfoncement, neige un plus dense dans la couche supérieure, indices du transport par le vent.  Départs spontanés : - Quelques départs de plaques de fond sont à attendre plutôt sous 2300 en toutes orientations dans les pentes habituelles là ou un manteau épais s'est constitué sur un sol nu pendant la tempête de neige de ces derniers jours. Avec le redoux attendu elles se décrochent dans les pentes herbeuses sans nécessairement de signes avant coureur (type fissure de reptation ou gueule de baleine par exemple). Taille 2 en général.",
+      "sections": null,
+      "icon_key": "stability"
+    },
+    "snow_quality": {
+      "text": "Enneigement : Après une semaine perturbé l'enneigement est maintenant correct pour la saison.Limite skiable : dès 1600/1700m on trouve 20 cm sur un fond dur qui permet de chausser.  L'enneigement devient ensuite vite conséquent dès 2000m avec 50 à 70 cm. et plus d'1m dès 2500m.    Qualité de la neige :  La neige va devenir lourde, sous 2000m au moins, en cours de journée avec le redoux attendu. Au dessus la neige va rester froide et toujours profonde dans les secteurs à l'abri du vent, plus dense et mieux portante dans les nombreux secteurs d'altitude qui auront vu le vent pendant les chutes. Les crêtes et haut de pentes exposées ouest sont même souvent assez dégarnis par le vent.",
+      "icon_key": "snow-quality"
+    },
     "snowpack": {
+      "limits_m": {
+        "north": 1300,
+        "south": 1300
+      },
+      "levels_cm": [
+        {
+          "alt_m": 1500,
+          "N": 20,
+          "S": 15
+        },
+        {
+          "alt_m": 2000,
+          "N": 50,
+          "S": 30
+        },
+        {
+          "alt_m": 2500,
+          "N": 100,
+          "S": 80
+        }
+      ],
+      "icon_key": "snowpack",
       "image": {
         "filename": "BRA_11_HAUTE_MAURIENNE_montagne-enneigement.png",
         "content_type": "image/png"

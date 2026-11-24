@@ -1,25 +1,169 @@
 {
   "schema_version": 3,
-  "massif": null,
+  "massif": "Devoluy",
   "bulletin": {
-    "id": null,
-    "issued_at": null,
-    "valid_until": null,
+    "id": 18,
+    "issued_at": "2026-11-23T16:00:00",
+    "valid_until": "2026-11-24T18:00:00",
     "amended": false
   },
   "evalbra": {
-    "risk": null,
+    "risk": {
+      "max_level": 2,
+      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
+      "localization": {
+        "type": "altitude",
+        "threshold_m": 2200,
+        "split_axis": "horizontal",
+        "split_label": "2200m",
+        "zones": [
+          {
+            "id": "zone1",
+            "loc": "<2200",
+            "risk": 1,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2200",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "top"
+          }
+        ]
+      },
+      "pictogram": {
+        "template": "mf_mountain_risk_v1",
+        "split": {
+          "axis": "horizontal",
+          "label": "2200m"
+        },
+        "zones": {
+          "bottom": {
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          }
+        }
+      },
+      "j2": {
+        "max_level": 3,
+        "date": "2026-11-25",
+        "label": "Indice de risque marqué",
+        "comment": "Nouvelles chutes de neige ventées. Indice de danger marqué",
+        "trend": "up"
+      }
+    },
     "dangerous_aspects": {
+      "aspects": {
+        "N": true,
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": true
+      },
+      "icon_key": "rose-aspects",
       "image": {
         "filename": "BRA_18_DEVOLUY_rose-pentes.png",
         "content_type": "image/png"
       }
     },
-    "sat": null,
-    "precip_cumulated": null,
-    "stability": null,
-    "snow_quality": null,
+    "sat": {
+      "primary": 2,
+      "secondary": null,
+      "labels": {
+        "2": "Neige ventée"
+      },
+      "icon_key": "sat-2"
+    },
+    "precip_cumulated": {
+      "reference_altitude_m": 1800,
+      "fresh_snow_24h": [
+        {
+          "date": "2026-11-20",
+          "min_cm": 2,
+          "max_cm": 5,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-21",
+          "min_cm": 5,
+          "max_cm": 10,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-22",
+          "min_cm": 0,
+          "max_cm": 1,
+          "rain_mm": 15.0
+        },
+        {
+          "date": "2026-11-23",
+          "min_cm": 10,
+          "max_cm": 15,
+          "rain_mm": 15.0
+        },
+        {
+          "date": "2026-11-24",
+          "min_cm": 0,
+          "max_cm": 0,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-25",
+          "min_cm": 20,
+          "max_cm": 30,
+          "rain_mm": 0.0
+        }
+      ],
+      "totals": {
+        "last_48h_min_cm": 20,
+        "last_48h_max_cm": 30
+      },
+      "icon_key": "snowfall"
+    },
+    "stability": {
+      "title": "PETITES INSTABILITÉS DANS LA NEIGE RÉCENTE VENTÉE",
+      "text": "PETITES INSTABILITÉS DANS LA NEIGE RÉCENTE VENTÉE\n\nDéclenchements provoqués : nombreuses instabilités, facilement déclenchables par un seul pratiquant. Situées au-dessus de 2200 m, et d'ampleur limitée (taille 1, petite, ou rarement 2, moyenne).  Elles ont été formées sous l'effet du vent fort de nord-ouest lundi. De nouvelles se forment tardivement mardi en fin de journée sous l'effet du transport de neige par le vent de sud à haute altitude. Départs spontanés :  rares petits départs sous l'effet du vent de sud, qui se renforce mardi après-midi.",
+      "sections": null,
+      "icon_key": "stability"
+    },
+    "snow_quality": {
+      "text": "Qualification de l'enneigement : déficitaire pour un mois de novembre, mais en nette augmentation avec les chutes de dimanche.Limite d'enneigement skiable : pratique du ski envisageable avec précaution dans quelques combes au-dessus de 2200/2300 m, ou sur alpages vers 1800 m.État de la neige de surface : neige récente fortement travaillée par le vent, tombée sur un manteau neigeux humide ou détrempé par la pluie jusqu'à 2200/2300 m",
+      "icon_key": "snow-quality"
+    },
     "snowpack": {
+      "limits_m": {
+        "north": 1500,
+        "south": 1500
+      },
+      "levels_cm": [
+        {
+          "alt_m": 1500,
+          "N": 1,
+          "S": 1
+        },
+        {
+          "alt_m": 2000,
+          "N": 20,
+          "S": 20
+        },
+        {
+          "alt_m": 2500,
+          "N": 60,
+          "S": 55
+        }
+      ],
+      "icon_key": "snowpack",
       "image": {
         "filename": "BRA_18_DEVOLUY_montagne-enneigement.png",
         "content_type": "image/png"

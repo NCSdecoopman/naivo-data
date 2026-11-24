@@ -1,25 +1,157 @@
 {
   "schema_version": 3,
-  "massif": null,
+  "massif": "Pays-Basque",
   "bulletin": {
-    "id": null,
-    "issued_at": null,
-    "valid_until": null,
+    "id": 64,
+    "issued_at": "2026-11-23T17:00:00",
+    "valid_until": "2026-11-24T18:00:00",
     "amended": false
   },
   "evalbra": {
-    "risk": null,
+    "risk": {
+      "max_level": 1,
+      "comment": "Indice de risque faible.",
+      "localization": {
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
+        "zones": [
+          {
+            "id": "zone1",
+            "loc": null,
+            "risk": 1,
+            "evolution_to": null,
+            "position": null
+          }
+        ]
+      },
+      "pictogram": {
+        "template": "mf_mountain_risk_v1",
+        "split": {
+          "axis": null,
+          "label": null
+        },
+        "zones": {
+          "center": {
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
+          }
+        }
+      },
+      "j2": {
+        "max_level": 1,
+        "date": "2026-11-25",
+        "label": "Indice de risque faible",
+        "comment": "Pas d'évolution du risque, quantité de neige encore faible.",
+        "trend": "steady"
+      }
+    },
     "dangerous_aspects": {
+      "aspects": {
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
+        "NW": false
+      },
+      "icon_key": "rose-aspects",
       "image": {
         "filename": "BRA_64_PAYS_BASQUE_rose-pentes.png",
         "content_type": "image/png"
       }
     },
-    "sat": null,
-    "precip_cumulated": null,
-    "stability": null,
-    "snow_quality": null,
+    "sat": {
+      "primary": 2,
+      "secondary": null,
+      "labels": {
+        "2": "Neige ventée"
+      },
+      "icon_key": "sat-2"
+    },
+    "precip_cumulated": {
+      "reference_altitude_m": 1800,
+      "fresh_snow_24h": [
+        {
+          "date": "2026-11-20",
+          "min_cm": 0,
+          "max_cm": 0,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-21",
+          "min_cm": 0,
+          "max_cm": 0,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-22",
+          "min_cm": 1,
+          "max_cm": 3,
+          "rain_mm": 5.0
+        },
+        {
+          "date": "2026-11-23",
+          "min_cm": 5,
+          "max_cm": 10,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-24",
+          "min_cm": 0,
+          "max_cm": 0,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-25",
+          "min_cm": 1,
+          "max_cm": 3,
+          "rain_mm": 4.0
+        }
+      ],
+      "totals": {
+        "last_48h_min_cm": 1,
+        "last_48h_max_cm": 3
+      },
+      "icon_key": "snowfall"
+    },
+    "stability": {
+      "title": "STABLE",
+      "text": "STABLE\n\nDéclenchements provoqués : Le petit redoux de ce lundi (qui se poursuit jusqu'à mardi milieu de journée) a humidifié la neige de surface en tout versant. Les récentes plaques de neige ventées sont donc stabilisées.Départs spontanés : Départs ponctuels en neige récente peu probable, ou très localisé dans les pentes raides ensoleillées où se trouvent des zones d'accumulation. Trop peu de neige ailleurs.",
+      "sections": null,
+      "icon_key": "stability"
+    },
+    "snow_quality": {
+      "text": "Petit aspect hivernal, mais la couche de neige reste mince. Quelques traces du vent à partir de 1800/1900 m. Neige humidifiée dans les pentes ensoleillées ce lundi. Poursuite de l'humidification de surface, en tout versant, jusqu'à mardi milieu de journée, à cause du petit redoux. Les massifs reblanchissent en surface mardi après-midi au-dessus de 1800 m.",
+      "icon_key": "snow-quality"
+    },
     "snowpack": {
+      "limits_m": {
+        "north": 1600,
+        "south": 1700
+      },
+      "levels_cm": [
+        {
+          "alt_m": 1000,
+          "N": 0,
+          "S": 0
+        },
+        {
+          "alt_m": 1500,
+          "N": 0,
+          "S": 0
+        },
+        {
+          "alt_m": 2000,
+          "N": 8,
+          "S": 6
+        }
+      ],
+      "icon_key": "snowpack",
       "image": {
         "filename": "BRA_64_PAYS_BASQUE_montagne-enneigement.png",
         "content_type": "image/png"

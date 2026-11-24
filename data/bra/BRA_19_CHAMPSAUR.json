@@ -1,25 +1,170 @@
 {
   "schema_version": 3,
-  "massif": null,
+  "massif": "Champsaur",
   "bulletin": {
-    "id": null,
-    "issued_at": null,
-    "valid_until": null,
+    "id": 19,
+    "issued_at": "2026-11-23T16:00:00",
+    "valid_until": "2026-11-24T18:00:00",
     "amended": false
   },
   "evalbra": {
-    "risk": null,
+    "risk": {
+      "max_level": 3,
+      "comment": "Au-dessus de 2500m indice de risque marqué, plus bas indice limité.",
+      "localization": {
+        "type": "altitude",
+        "threshold_m": 2500,
+        "split_axis": "horizontal",
+        "split_label": "2500m",
+        "zones": [
+          {
+            "id": "zone1",
+            "loc": "<2500",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2500",
+            "risk": 3,
+            "evolution_to": null,
+            "position": "top"
+          }
+        ]
+      },
+      "pictogram": {
+        "template": "mf_mountain_risk_v1",
+        "split": {
+          "axis": "horizontal",
+          "label": "2500m"
+        },
+        "zones": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
+            "text": "3",
+            "risk": 3,
+            "evolution_to": null
+          }
+        }
+      },
+      "j2": {
+        "max_level": 3,
+        "date": "2026-11-25",
+        "label": "Indice de risque marqué",
+        "comment": "Nouvelles chutes de neige ventées. Indice de  danger restant a minima marqué.",
+        "trend": "steady"
+      }
+    },
     "dangerous_aspects": {
+      "aspects": {
+        "N": true,
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": true
+      },
+      "icon_key": "rose-aspects",
       "image": {
         "filename": "BRA_19_CHAMPSAUR_rose-pentes.png",
         "content_type": "image/png"
       }
     },
-    "sat": null,
-    "precip_cumulated": null,
-    "stability": null,
-    "snow_quality": null,
+    "sat": {
+      "primary": 1,
+      "secondary": 2,
+      "labels": {
+        "1": "Neige fraîche",
+        "2": "Neige ventée"
+      },
+      "icon_key": "sat-1"
+    },
+    "precip_cumulated": {
+      "reference_altitude_m": 1800,
+      "fresh_snow_24h": [
+        {
+          "date": "2026-11-20",
+          "min_cm": 5,
+          "max_cm": 10,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-21",
+          "min_cm": 5,
+          "max_cm": 10,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-22",
+          "min_cm": 0,
+          "max_cm": 1,
+          "rain_mm": 15.0
+        },
+        {
+          "date": "2026-11-23",
+          "min_cm": 10,
+          "max_cm": 15,
+          "rain_mm": 15.0
+        },
+        {
+          "date": "2026-11-24",
+          "min_cm": 0,
+          "max_cm": 0,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-25",
+          "min_cm": 20,
+          "max_cm": 40,
+          "rain_mm": 0.0
+        }
+      ],
+      "totals": {
+        "last_48h_min_cm": 20,
+        "last_48h_max_cm": 40
+      },
+      "icon_key": "snowfall"
+    },
+    "stability": {
+      "title": "NOMBREUSES INSTABILITÉS PERSISTANT À HAUTE ALTITUDE",
+      "text": "NOMBREUSES INSTABILITÉS PERSISTANT À HAUTE ALTITUDE \n\nDéclenchements provoqués : de nombreuses instabilités restent en place, facilement déclenchables par un seul pratiquant. Taille 2, moyenne, possible, et taille 3, grande, non exclue. Elles sont plus fréquentes et volumineuses au-dessus de 2500 m, au nord du massif en Valgaudemar, ou à plus haute altitude en cœur de massif. Ces instabilités concernent potentiellement toutes les orientations, y compris les pentes loin des crêtes.Elles ont été formées sous l'effet du fort vent de nord-ouest lundi, soufflant sur un manteau neigeux constitué d'un empilement de couches de neige récente également peu stabilisées. Départs spontanés : peu probables. Le vent qui tombe en soirée de lundi n'est plus assez fort pour favoriser des départs spontanés de plaques à vent. Mardi, la masse d'air se radoucit mais le ciel reste voilé à couvert, ce qui limite l'humidification.",
+      "sections": null,
+      "icon_key": "stability"
+    },
+    "snow_quality": {
+      "text": "Qualification de l'enneigement : avec la succession de perturbations actives, il est excédentaire à très excédentaire pour une fin novembre au-dessus de 2500/2800 m, un peu plus proche des normales en dessous. Données observées, restant indicatives en raison du fort vent récent : 55 cm à Orcières à 2280 m, 89 cm au-dessus de Prapic à 2480 m.Limite de l'enneigement skiable : à partir de 1600/1800 m avec précautions en pentes herbeuses, vers 2200 m ailleurs. État de la neige de surface : neige récente froide au-dessus de 1800/2000 m environ, souvent densifiée par le vent, restée légère dans les secteurs abrités du vent, humide et bien regelée le matin en dessous de 1800/2000 m.",
+      "icon_key": "snow-quality"
+    },
     "snowpack": {
+      "limits_m": {
+        "north": 1600,
+        "south": 1600
+      },
+      "levels_cm": [
+        {
+          "alt_m": 1500,
+          "N": 0,
+          "S": 0
+        },
+        {
+          "alt_m": 2000,
+          "N": 45,
+          "S": 35
+        },
+        {
+          "alt_m": 2500,
+          "N": 110,
+          "S": 90
+        }
+      ],
+      "icon_key": "snowpack",
       "image": {
         "filename": "BRA_19_CHAMPSAUR_montagne-enneigement.png",
         "content_type": "image/png"
