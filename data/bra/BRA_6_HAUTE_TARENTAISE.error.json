@@ -1,6 +1,0 @@
-{
-  "code": "6",
-  "massif": "Haute-Tarentaise",
-  "error": "HTTPSConnectionPool(host='public-api.meteofrance.fr', port=443): Max retries exceeded with url: /public/DPBRA/v1/massif/BRA?id-massif=6&format=xml (Caused by NewConnectionError(\"HTTPSConnection(host='public-api.meteofrance.fr', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
-  "ts_utc": "2026-11-25T01:17:24.083577+00:00"
-}

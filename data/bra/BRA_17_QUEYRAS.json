@@ -149,7 +149,11 @@
           "S": 45
         }
       ],
-      "icon_key": "snowpack"
+      "icon_key": "snowpack",
+      "image": {
+        "filename": "BRA_17_QUEYRAS_montagne-enneigement.png",
+        "content_type": "image/png"
+      }
     }
   }
 }

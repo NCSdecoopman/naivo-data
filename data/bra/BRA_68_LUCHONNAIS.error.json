@@ -1,6 +1,0 @@
-{
-  "code": "68",
-  "massif": "Luchonnais",
-  "error": "HTTPSConnectionPool(host='public-api.meteofrance.fr', port=443): Max retries exceeded with url: /public/DPBRA/v1/massif/BRA?id-massif=68&format=xml (Caused by NewConnectionError(\"HTTPSConnection(host='public-api.meteofrance.fr', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
-  "ts_utc": "2026-11-25T01:18:41.837016+00:00"
-}

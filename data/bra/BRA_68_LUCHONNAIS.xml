@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="68" MASSIF="Luchonnais" DATEBULLETIN="2026-11-23T17:00:00" DATEECHEANCE="2026-11-24T18:00:00" DATEVALIDITE="2026-11-24T18:00:00" DATEDIFFUSION="2026-11-23T16:36:00" AMENDEMENT="false">
-  <DateValidite>2026-11-24T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="68" MASSIF="Luchonnais" DATEBULLETIN="2026-11-24T16:00:00" DATEECHEANCE="2026-11-25T18:00:00" DATEVALIDITE="2026-11-25T18:00:00" DATEDIFFUSION="2026-11-24T16:04:00" AMENDEMENT="false">
+  <DateValidite>2026-11-25T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="1" COMMENTAIRE="Indice de risque faible." RISQUEMAXIJ2="1" DATE_RISQUE_J2="2026-11-25T00:00:00"/>
+    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="1" COMMENTAIRE="Indice de risque faible." RISQUEMAXIJ2="1" DATE_RISQUE_J2="2026-11-26T00:00:00"/>
     <PENTE NE="false" E="false" SE="false" S="false" SW="false" W="false" NW="false" N="false" COMMENTAIRE=""/>
-    <ACCIDENTEL><![CDATA[Très peu probable]]></ACCIDENTEL>
-    <NATUREL><![CDATA[Très localement]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : Très localement
-Déclenchements skieurs : Très peu probable]]></RESUME>
+    <ACCIDENTEL><![CDATA[structures de plaques faciles à déclencher.]]></ACCIDENTEL>
+    <NATUREL><![CDATA[en neige récente pendant les chutes.]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : en neige récente pendant les chutes.
+Déclenchements skieurs : structures de plaques faciles à déclencher.]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque faible]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Pas d'évolution du risque]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Chutes de neige faibles se poursuivant jeudi, risque généralisé à l'ensemble du massif, mais restant faible.]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_68.png</ImageRisque>
@@ -18,44 +18,50 @@ Déclenchements skieurs : Très peu probable]]></RESUME>
   </CARTOUCHERISQUE>
   <STABILITE>
     <SitAvalTyp SAT1="2" SAT2=""/>
-    <TITRE><![CDATA[GLOBALEMENT STABLE]]></TITRE>
-    <TEXTESANSTITRE><![CDATA[Déclenchements provoqués : Le petit redoux de ce lundi (qui se poursuit jusqu'à mardi milieu de journée) a humidifié la neige de surface en tout versant. Les récentes plaques de neige ventées sont donc stabilisées. Les rares secteurs ombragés (pentes nord, nord-est) d'altitudes (>2500 m) où le redoux n'aurait pas fait effet, les plaques sont fines et restent dures et difficiles à déclencher.Départs spontanés : Rares départs ponctuels en neige récente, très localisé dans les pentes raides ensoleillées de ce lundi, et où se trouvent des zones d'accumulation.]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[GLOBALEMENT STABLE
+    <TITRE><![CDATA[PLAQUES INSTABLES AU-DESSUS DE 1700/1800M.]]></TITRE>
+    <TEXTESANSTITRE><![CDATA[Déclenchements provoqués : les chutes de neige attendues pour cette journée de mercredi sont accompagnées de vent d'Ouest à Nord-Ouest turbulent. Formation de plaques instables faciles à déclencher dans les versants Nord, Est et Sud, peu épaisses et peu nombreuses en matinée, à peine plus épaisses mais plus étendues dans l'après-midi, engendrant quelques avalanches de taille 1.
 
-Déclenchements provoqués : Le petit redoux de ce lundi (qui se poursuit jusqu'à mardi milieu de journée) a humidifié la neige de surface en tout versant. Les récentes plaques de neige ventées sont donc stabilisées. Les rares secteurs ombragés (pentes nord, nord-est) d'altitudes (>2500 m) où le redoux n'aurait pas fait effet, les plaques sont fines et restent dures et difficiles à déclencher.Départs spontanés : Rares départs ponctuels en neige récente, très localisé dans les pentes raides ensoleillées de ce lundi, et où se trouvent des zones d'accumulation.]]></TEXTE>
+Départs spontanés : tout au long des chutes de neige de la journée, coulées/petites avalanches de neige récente en secteurs raides, prenant peu à peu de l'ampleur au cours de l'après-midi : taille 1 à très localement taille 2 attendue en partant d'une accumulation d'altitude faite à l'abri du vent. Neige devenant vite pulvérulente et dépôt fin.
+
+Autres : sensation de froid accentuée par le vent, très mauvaises visibilités sous les averses.]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[PLAQUES INSTABLES AU-DESSUS DE 1700/1800M.
+
+Déclenchements provoqués : les chutes de neige attendues pour cette journée de mercredi sont accompagnées de vent d'Ouest à Nord-Ouest turbulent. Formation de plaques instables faciles à déclencher dans les versants Nord, Est et Sud, peu épaisses et peu nombreuses en matinée, à peine plus épaisses mais plus étendues dans l'après-midi, engendrant quelques avalanches de taille 1.
+
+Départs spontanés : tout au long des chutes de neige de la journée, coulées/petites avalanches de neige récente en secteurs raides, prenant peu à peu de l'ampleur au cours de l'après-midi : taille 1 à très localement taille 2 attendue en partant d'une accumulation d'altitude faite à l'abri du vent. Neige devenant vite pulvérulente et dépôt fin.
+
+Autres : sensation de froid accentuée par le vent, très mauvaises visibilités sous les averses.]]></TEXTE>
   </STABILITE>
   <QUALITE>
-    <TEXTE><![CDATA[Petit aspect hivernal, mais la couche de neige reste mince. Quelques traces du vent à partir de 1800/1900 m. Neige humidifiée dans les pentes ensoleillées ce lundi. Poursuite de l'humidification de surface, en tout versant, jusqu'à mardi milieu de journée, à cause du petit redoux. Mardi matin au-dessus de 2000 m, la neige peut être légèrement regelé  à la surface. Les massifs reblanchissent en surface mardi après-midi au-dessus de 1800 m. ]]></TEXTE>
+    <TEXTE><![CDATA[Enneigement : aspect hivernal progressivement de retour au cours de cette journée de mercredi, mais enneigement restant déficitaire. Neige tenant au sol à partir de 1400m, couche de neige s'épaississant durant la journée, mais pas de sous-couche sous 2000/2100m en Nord, pas de sous-couche en sud.
+
+Qualité de la neige : neige fraîche mais plus ou moins travaillée par le vent turbulent. Souvent cartonnée dans les versants ouest et nord-ouest, crêtes et sommets pelés et en neige très dure, accumulations un peu plus meubles dans les autres secteurs]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-11-23T00:00:00" LimiteSud="1700" LimiteNord="1600">
+  <ENNEIGEMENT DATE="2026-11-24T00:00:00" LimiteSud="2500" LimiteNord="2100">
     <NIVEAU ALTI="1500" N="0" S="0"/>
-    <NIVEAU ALTI="2000" N="8" S="6"/>
-    <NIVEAU ALTI="2500" N="10" S="8"/>
+    <NIVEAU ALTI="2000" N="0" S="0"/>
+    <NIVEAU ALTI="2500" N="7" S="5"/>
     <ImageEnneigement>montagne_enneigement_68.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-11-20T00:00:00" SS24Min="0" SS24Max="0" RR24="0"/>
     <NEIGE24H DATE="2026-11-21T00:00:00" SS24Min="0" SS24Max="0" RR24="0"/>
     <NEIGE24H DATE="2026-11-22T00:00:00" SS24Min="1" SS24Max="3" RR24="2"/>
     <NEIGE24H DATE="2026-11-23T00:00:00" SS24Min="2" SS24Max="5" RR24="0"/>
     <NEIGE24H DATE="2026-11-24T00:00:00" SS24Min="0" SS24Max="0" RR24="0"/>
-    <NEIGE24H DATE="2026-11-25T00:00:00" SS24Min="0" SS24Max="1" RR24="3"/>
+    <NEIGE24H DATE="2026-11-25T00:00:00" SS24Min="1" SS24Max="3" RR24="0"/>
+    <NEIGE24H DATE="2026-11-26T00:00:00" SS24Min="10" SS24Max="20" RR24="0"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_68.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="2000" ALTITUDEVENT2="3000">
-    <COMMENTAIRE>Ciel voilé épais le matin. Arrivée des premières précipitations en milieu de journée. 2 à 4 cm à 2000 m sont attendu d'ici mercredi matin. </COMMENTAIRE>
-    <ECHEANCE DATE="2026-11-24T06:00:00" FF1="20" DD1="SO" FF2="50" DD2="S" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="6" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-11-24T12:00:00" FF1="70" DD1="SO" FF2="95" DD2="SO" ISO0="2500" PLUIENEIGE="-1" TEMPSSENSIBLE="4" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-11-24T18:00:00" FF1="95" DD1="S" FF2="110" DD2="S" ISO0="2300" PLUIENEIGE="1800" TEMPSSENSIBLE="58" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-11-25T00:00:00" FF1="30" DD1="SO" FF2="50" DD2="SO" ISO0="2000" PLUIENEIGE="1700" TEMPSSENSIBLE="61" MERNUAGES="-1"/>
+    <COMMENTAIRE>Maussade avec averses fréquentes, plutôt faibles le matin, un peu plus marquées l'après-midi. Vent d'ouest à nord-ouest soutenu et turbulent.</COMMENTAIRE>
+    <ECHEANCE DATE="2026-11-25T06:00:00" FF1="15" DD1="Vrb" FF2="55" DD2="O" ISO0="1800" PLUIENEIGE="1500" TEMPSSENSIBLE="81" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-11-25T12:00:00" FF1="30" DD1="SO" FF2="85" DD2="O" ISO0="1600" PLUIENEIGE="1200" TEMPSSENSIBLE="81" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-11-25T18:00:00" FF1="40" DD1="N" FF2="80" DD2="NO" ISO0="1500" PLUIENEIGE="1100" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-11-26T00:00:00" FF1="30" DD1="N" FF2="60" DD2="NO" ISO0="1700" PLUIENEIGE="1300" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_68.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-11-17T06:00:00" FF1="70" DD1="O" FF2="100" DD2="O" ISO0="3700" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
-      <ECHEANCE DATE="2026-11-17T12:00:00" FF1="50" DD1="S" FF2="100" DD2="O" ISO0="3600" PLUIENEIGE="3300" TEMPSSENSIBLE="51"/>
-      <ECHEANCE DATE="2026-11-17T18:00:00" FF1="60" DD1="S" FF2="105" DD2="O" ISO0="3100" PLUIENEIGE="2700" TEMPSSENSIBLE="71"/>
-      <ECHEANCE DATE="2026-11-18T00:00:00" FF1="40" DD1="SO" FF2="95" DD2="O" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
       <ECHEANCE DATE="2026-11-18T06:00:00" FF1="40" DD1="SO" FF2="105" DD2="O" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
       <ECHEANCE DATE="2026-11-18T12:00:00" FF1="35" DD1="SE" FF2="90" DD2="O" ISO0="3000" PLUIENEIGE="2700" TEMPSSENSIBLE="51"/>
       <ECHEANCE DATE="2026-11-18T18:00:00" FF1="55" DD1="SO" FF2="100" DD2="O" ISO0="3000" PLUIENEIGE="2700" TEMPSSENSIBLE="71"/>
@@ -77,16 +83,15 @@ Déclenchements provoqués : Le petit redoux de ce lundi (qui se poursuit jusqu'
       <ECHEANCE DATE="2026-11-22T18:00:00" FF1="35" DD1="NO" FF2="90" DD2="NO" ISO0="1700" PLUIENEIGE="1500" TEMPSSENSIBLE="80"/>
       <ECHEANCE DATE="2026-11-23T00:00:00" FF1="25" DD1="NO" FF2="70" DD2="NO" ISO0="1800" PLUIENEIGE="1600" TEMPSSENSIBLE="81"/>
       <ECHEANCE DATE="2026-11-23T06:00:00" FF1="15" DD1="N" FF2="55" DD2="N" ISO0="1800" PLUIENEIGE="1600" TEMPSSENSIBLE="81"/>
-      <ECHEANCE DATE="2026-11-23T12:00:00" FF1="10" DD1="Vrb" FF2="45" DD2="NO" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
-      <ECHEANCE DATE="2026-11-23T18:00:00" FF1="10" DD1="SO" FF2="30" DD2="O" ISO0="2800" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-11-23T12:00:00" FF1="10" DD1="Vrb" FF2="50" DD2="NO" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
+      <ECHEANCE DATE="2026-11-23T18:00:00" FF1="10" DD1="SO" FF2="45" DD2="O" ISO0="2800" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
       <ECHEANCE DATE="2026-11-24T00:00:00" FF1="15" DD1="S" FF2="35" DD2="O" ISO0="3100" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-11-24T06:00:00" FF1="20" DD1="SO" FF2="55" DD2="SO" ISO0="3000" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2026-11-24T12:00:00" FF1="70" DD1="SO" FF2="90" DD2="SO" ISO0="2500" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
+      <ECHEANCE DATE="2026-11-24T18:00:00" FF1="70" DD1="S" FF2="110" DD2="SO" ISO0="2000" PLUIENEIGE="1700" TEMPSSENSIBLE="81"/>
+      <ECHEANCE DATE="2026-11-25T00:00:00" FF1="25" DD1="SO" FF2="60" DD2="SO" ISO0="1800" PLUIENEIGE="1500" TEMPSSENSIBLE="81"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-11-17T00:00:00" LimiteSud="2800" LimiteNord="2500">
-        <NIVEAU ALTI="1500" N="0" S="0"/>
-        <NIVEAU ALTI="2000" N="0" S="0"/>
-        <NIVEAU ALTI="2500" N="2" S="0"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-11-18T00:00:00" LimiteSud="2800" LimiteNord="2500">
         <NIVEAU ALTI="1500" N="0" S="0"/>
         <NIVEAU ALTI="2000" N="0" S="0"/>
@@ -117,23 +122,28 @@ Déclenchements provoqués : Le petit redoux de ce lundi (qui se poursuit jusqu'
         <NIVEAU ALTI="2000" N="8" S="6"/>
         <NIVEAU ALTI="2500" N="10" S="8"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-11-24T00:00:00" LimiteSud="2500" LimiteNord="2100">
+        <NIVEAU ALTI="1500" N="0" S="0"/>
+        <NIVEAU ALTI="2000" N="0" S="0"/>
+        <NIVEAU ALTI="2500" N="7" S="5"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-11-18T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-11-19T00:00:00" SS24Min="1" SS24Max="3"/>
       <NEIGE24H DATE="2026-11-20T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-11-21T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-11-22T00:00:00" SS24Min="1" SS24Max="3"/>
       <NEIGE24H DATE="2026-11-23T00:00:00" SS24Min="2" SS24Max="5"/>
+      <NEIGE24H DATE="2026-11-24T00:00:00" SS24Min="0" SS24Max="0"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-11-17T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-11-18T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-11-19T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-11-20T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-11-21T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-11-22T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-11-23T00:00:00" RISQUEMAXI="1"/>
+      <RISQUE DATE="2026-11-24T00:00:00" RISQUEMAXI="1"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_68.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_68.png</Image7derniersjours_portrait>

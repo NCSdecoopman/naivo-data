@@ -3,8 +3,8 @@
   "massif": "Luchonnais",
   "bulletin": {
     "id": 68,
-    "issued_at": "2026-11-23T17:00:00",
-    "valid_until": "2026-11-24T18:00:00",
+    "issued_at": "2026-11-24T16:00:00",
+    "valid_until": "2026-11-25T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-11-25",
+        "date": "2026-11-26",
         "label": "Indice de risque faible",
-        "comment": "Pas d'évolution du risque",
+        "comment": "Chutes de neige faibles se poursuivant jeudi, risque généralisé à l'ensemble du massif, mais restant faible.",
         "trend": "steady"
       }
     },
@@ -77,12 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-11-20",
-          "min_cm": 0,
-          "max_cm": 0,
-          "rain_mm": 0.0
-        },
-        {
           "date": "2026-11-21",
           "min_cm": 0,
           "max_cm": 0,
@@ -108,31 +102,37 @@
         },
         {
           "date": "2026-11-25",
-          "min_cm": 0,
-          "max_cm": 1,
-          "rain_mm": 3.0
+          "min_cm": 1,
+          "max_cm": 3,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-26",
+          "min_cm": 10,
+          "max_cm": 20,
+          "rain_mm": 0.0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 0,
-        "last_48h_max_cm": 1
+        "last_48h_min_cm": 11,
+        "last_48h_max_cm": 23
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "GLOBALEMENT STABLE",
-      "text": "GLOBALEMENT STABLE\n\nDéclenchements provoqués : Le petit redoux de ce lundi (qui se poursuit jusqu'à mardi milieu de journée) a humidifié la neige de surface en tout versant. Les récentes plaques de neige ventées sont donc stabilisées. Les rares secteurs ombragés (pentes nord, nord-est) d'altitudes (>2500 m) où le redoux n'aurait pas fait effet, les plaques sont fines et restent dures et difficiles à déclencher.Départs spontanés : Rares départs ponctuels en neige récente, très localisé dans les pentes raides ensoleillées de ce lundi, et où se trouvent des zones d'accumulation.",
+      "title": "PLAQUES INSTABLES AU-DESSUS DE 1700/1800M.",
+      "text": "PLAQUES INSTABLES AU-DESSUS DE 1700/1800M.\n\nDéclenchements provoqués : les chutes de neige attendues pour cette journée de mercredi sont accompagnées de vent d'Ouest à Nord-Ouest turbulent. Formation de plaques instables faciles à déclencher dans les versants Nord, Est et Sud, peu épaisses et peu nombreuses en matinée, à peine plus épaisses mais plus étendues dans l'après-midi, engendrant quelques avalanches de taille 1.\n\nDéparts spontanés : tout au long des chutes de neige de la journée, coulées/petites avalanches de neige récente en secteurs raides, prenant peu à peu de l'ampleur au cours de l'après-midi : taille 1 à très localement taille 2 attendue en partant d'une accumulation d'altitude faite à l'abri du vent. Neige devenant vite pulvérulente et dépôt fin.\n\nAutres : sensation de froid accentuée par le vent, très mauvaises visibilités sous les averses.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Petit aspect hivernal, mais la couche de neige reste mince. Quelques traces du vent à partir de 1800/1900 m. Neige humidifiée dans les pentes ensoleillées ce lundi. Poursuite de l'humidification de surface, en tout versant, jusqu'à mardi milieu de journée, à cause du petit redoux. Mardi matin au-dessus de 2000 m, la neige peut être légèrement regelé  à la surface. Les massifs reblanchissent en surface mardi après-midi au-dessus de 1800 m.",
+      "text": "Enneigement : aspect hivernal progressivement de retour au cours de cette journée de mercredi, mais enneigement restant déficitaire. Neige tenant au sol à partir de 1400m, couche de neige s'épaississant durant la journée, mais pas de sous-couche sous 2000/2100m en Nord, pas de sous-couche en sud.\n\nQualité de la neige : neige fraîche mais plus ou moins travaillée par le vent turbulent. Souvent cartonnée dans les versants ouest et nord-ouest, crêtes et sommets pelés et en neige très dure, accumulations un peu plus meubles dans les autres secteurs",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1600,
-        "south": 1700
+        "north": 2100,
+        "south": 2500
       },
       "levels_cm": [
         {
@@ -142,13 +142,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 8,
-          "S": 6
+          "N": 0,
+          "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 10,
-          "S": 8
+          "N": 7,
+          "S": 5
         }
       ],
       "icon_key": "snowpack",

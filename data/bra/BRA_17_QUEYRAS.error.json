@@ -1,6 +1,0 @@
-{
-  "code": "17",
-  "massif": "Queyras",
-  "error": "500 Server Error: Internal Server Error for url: https://public-api.meteofrance.fr/public/DPBRA/v1/massif/BRA?id-massif=17&format=xml",
-  "ts_utc": "2026-03-12T09:43:31.326996+00:00"
-}

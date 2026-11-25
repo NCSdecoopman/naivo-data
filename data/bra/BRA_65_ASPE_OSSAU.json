@@ -3,58 +3,70 @@
   "massif": "Aspe Ossau",
   "bulletin": {
     "id": 65,
-    "issued_at": "2026-11-23T17:00:00",
-    "valid_until": "2026-11-24T18:00:00",
+    "issued_at": "2026-11-24T16:00:00",
+    "valid_until": "2026-11-25T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 1,
-      "comment": "Indice de risque faible.",
+      "max_level": 2,
+      "comment": "Au-dessus de 1700m indice de risque faible évoluant en limité, plus bas indice faible.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1700,
+        "split_axis": "horizontal",
+        "split_label": "1700m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1700",
             "risk": 1,
             "evolution_to": null,
-            "position": null
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1700",
+            "risk": 1,
+            "evolution_to": 2,
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1700m"
         },
         "zones": {
-          "center": {
+          "bottom": {
             "text": "1",
             "risk": 1,
             "evolution_to": null
+          },
+          "top": {
+            "text": "1→2",
+            "risk": 1,
+            "evolution_to": 2
           }
         }
       },
       "j2": {
-        "max_level": 1,
-        "date": "2026-11-25",
-        "label": "Indice de risque faible",
-        "comment": "Pas d'évolution du risque",
+        "max_level": 2,
+        "date": "2026-11-26",
+        "label": "Indice de risque limité",
+        "comment": "Chutes de neige se poursuivant jeudi, risque restant limité mais généralisé à l'ensemble du massif.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": false,
-        "NE": false,
-        "E": false,
-        "SE": false,
-        "S": false,
+        "N": true,
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": true,
         "SW": false,
         "W": false,
         "NW": false
@@ -77,12 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-11-20",
-          "min_cm": 0,
-          "max_cm": 1,
-          "rain_mm": 0.0
-        },
-        {
           "date": "2026-11-21",
           "min_cm": 0,
           "max_cm": 0,
@@ -103,35 +109,42 @@
         {
           "date": "2026-11-24",
           "min_cm": 0,
-          "max_cm": 0
+          "max_cm": 0,
+          "rain_mm": 0.0
         },
         {
           "date": "2026-11-25",
           "min_cm": 1,
-          "max_cm": 3,
-          "rain_mm": 4.0
+          "max_cm": 5,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-26",
+          "min_cm": 20,
+          "max_cm": 35,
+          "rain_mm": 0.0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 3
+        "last_48h_min_cm": 21,
+        "last_48h_max_cm": 40
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "GLOBALEMENT STABLE",
-      "text": "GLOBALEMENT STABLE\n\nDéclenchements provoqués : Le petit redoux de ce lundi (qui se poursuit jusqu'à mardi milieu de journée) a humidifié la neige de surface en tout versant. Les récentes plaques de neige ventées sont donc stabilisées. Les rares secteurs ombragés (pentes nord, nord-est) d'altitudes (>2500 m) où le redoux n'aurait pas fait effet, les plaques sont fines et restent dures et difficiles à déclencher.Départs spontanés : Rares départs ponctuels en neige récente, très localisé dans les pentes raides ensoleillées de ce lundi, et où se trouvent des zones d'accumulation.",
+      "title": "PLAQUES INSTABLES AU-DESSUS DE 1700M.",
+      "text": "PLAQUES INSTABLES AU-DESSUS DE 1700M.\n\nDéclenchements provoqués : les chutes de neige attendues pour cette journée de mercredi sont accompagnées de vent d'Ouest à Nord-Ouest turbulent. Formation de plaques instables faciles à déclencher dans les versants Nord, Est et Sud, peu épaisses et peu nombreuses en matinée engendrant des avalanches de taille 1, plus épaisses et plus étendues dans l'après-midi et pouvant donner lieu à quelques avalanches de taille 2.\n\nDéparts spontanés : tout au long des chutes de neige de la journée, coulées/petites avalanches de neige récente en secteurs raides, prenant peu à peu de l'ampleur au cours de l'après-midi : taille 2 localement attendue en partant d'une accumulation d'altitude faite à l'abri du vent.\n\nAutres : sensation de froid accentuée par le vent, très mauvaises visibilités sous les averses.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Petit aspect hivernal, mais la couche de neige reste mince. Quelques traces du vent à partir de 1800/1900 m. Neige humidifiée dans les pentes ensoleillées ce lundi. Poursuite de l'humidification de surface, en tout versant, jusqu'à mardi milieu de journée, à cause du petit redoux. Mardi matin au-dessus de 2000 m, la neige peut être légèrement regelé  à la surface. Les massifs reblanchissent en surface mardi après-midi au-dessus de 1800 m.",
+      "text": "Enneigement : aspect hivernal progressivement de retour au cours de cette journée de mercredi, mais enneigement restant déficitaire. Neige tenant au sol à partir de 1200m, couche de neige s'épaississant durant la journée, mais pas de sous-couche sous 1800m en Nord, pas de sous-couche en sud.\n\nQualité de la neige : neige fraîche mais plus ou moins travaillée par le vent turbulent. Souvent cartonnée dans les versants ouest et nord-ouest, crêtes et sommets pelés et en neige très dure, accumulations un peu plus meubles dans les autres secteurs",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1600,
-        "south": 1700
+        "north": 1700,
+        "south": 2100
       },
       "levels_cm": [
         {
@@ -141,13 +154,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 10,
-          "S": 8
+          "N": 7,
+          "S": 0
         },
         {
           "alt_m": 2500,
-          "N": 15,
-          "S": 12
+          "N": 10,
+          "S": 5
         }
       ],
       "icon_key": "snowpack",

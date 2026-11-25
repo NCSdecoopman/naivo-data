@@ -3,14 +3,14 @@
   "massif": "Embrunais Parpaillon",
   "bulletin": {
     "id": 20,
-    "issued_at": "2026-11-23T16:00:00",
-    "valid_until": "2026-11-24T18:00:00",
+    "issued_at": "2026-11-24T16:00:00",
+    "valid_until": "2026-11-25T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 2200m indice de risque limité, plus bas indice faible.",
+      "max_level": 3,
+      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
         "threshold_m": 2200,
@@ -20,14 +20,14 @@
           {
             "id": "zone1",
             "loc": "<2200",
-            "risk": 1,
+            "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
             "loc": ">2200",
-            "risk": 2,
+            "risk": 3,
             "evolution_to": null,
             "position": "top"
           }
@@ -41,23 +41,23 @@
         },
         "zones": {
           "bottom": {
-            "text": "1",
-            "risk": 1,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           },
           "top": {
-            "text": "2",
-            "risk": 2,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-11-25",
+        "date": "2026-11-26",
         "label": "Indice de risque marqué",
-        "comment": "Nouvelles chutes de neige ventées. Indice de danger marqué",
-        "trend": "up"
+        "comment": "Retour au calme météo, mais de nombreuses instabilités restent en place en altitude. Indice de danger marqué.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -78,22 +78,16 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 1,
       "secondary": null,
       "labels": {
-        "2": "Neige ventée"
+        "1": "Neige fraîche"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-11-20",
-          "min_cm": 5,
-          "max_cm": 10,
-          "rain_mm": 0.0
-        },
         {
           "date": "2026-11-21",
           "min_cm": 5,
@@ -120,31 +114,35 @@
         },
         {
           "date": "2026-11-25",
+          "min_cm": 10,
+          "max_cm": 20
+        },
+        {
+          "date": "2026-11-26",
           "min_cm": 15,
-          "max_cm": 25,
-          "rain_mm": 0.0
+          "max_cm": 35
         }
       ],
       "totals": {
-        "last_48h_min_cm": 15,
-        "last_48h_max_cm": 25
+        "last_48h_min_cm": 25,
+        "last_48h_max_cm": 55
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PETITES INSTABILITÉS DANS LA NEIGE RÉCENTE VENTÉE",
-      "text": "PETITES INSTABILITÉS DANS LA NEIGE RÉCENTE VENTÉE\n\nDéclenchements provoqués : de nombreuses instabilités restent en place, facilement déclenchables par un seul pratiquant. Elles sont peu volumineuses (taille 1, petite, rarement 2, moyenne). Situées au-dessus de 2200 m, et d'ampleur limitée (taille 1, petite, ou rarement 2, moyenne), elles se sont formées sous l'effet du fort vent de nord-ouest lundi, après les chutes de neige de dimanche. Départs spontanés : peu probables. Le vent qui tombe en soirée de lundi puis reste faible mardi en journée n'est plus assez fort pour favoriser des départs spontanés de plaques à vent. Mardi, la masse d'air se radoucit mais le ciel reste voilé à couvert, ce qui limite l'humidification.",
+      "title": "NOMBREUSES NOUVELLES INSTABILITÉS EN ALTITUDE",
+      "text": "NOMBREUSES NOUVELLES INSTABILITÉS EN ALTITUDE\n\nDéclenchements provoqués :  instabilités en formation dans de nombreuses pentes de toute orientation pendant la chute de neige ventée la nuit de mardi à mercredi. Facilement déclenchables par un seul pratiquant, elles mobilisent de plus importants volumes de neige au-dessus de 2200 m environ (taille 2, moyenne, rarement 3, grande). Le vent modéré après la chute les rend parfois plus identifiables en surface du manteau neigeux. Des instabilités plus enfouies, formées entre dimanche et lundi, peuvent également rarement persister. \nSous 2200 m, ces instabilités sont moins nombreuses et volumineuses. Taille 1 (petite), rarement 2 (moyenne).\n\nDéparts spontanés : de plus en plus nombreux au fil des chutes jusqu'à mercredi matin, taille 1 à 2, rarement 3. Plus rares ensuite, mais encore possibles dans les secteurs d'accumulation par le vent.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l'enneigement : encore déficitaire pour un mois de novembre, mais en nette augmentation avec les chutes de dimanche. Données observées, restant indicatives en raison du fort vent récent : 31 cm à la nivôse du Parpaillon à 2550 m.Limite d'enneigement skiable : pratique du ski envisageable avec précaution au-dessus de 2200/2300 m, ou sur alpages vers 1800 m.État de la neige de surface : neige récente fortement travaillée par le vent, tombée sur un manteau neigeux humide ou détrempé par la pluie jusqu'à 2200/2300 m",
+      "text": "Qualification de l'enneigement : auparavant déficitaire pour un mois de novembre, il devient excédentaire en altitude avec la chute de mercredi. Données observées, restant indicatives en raison du fort vent récent : 34 cm à la nivôse du Parpaillon à 2550 m.\n\nLimite d'enneigement skiable : 1800 m environ en ubacs herbeux favorables\n\nÉtat de la neige de surface :  neige fraîche plus ou moins ventée au-dessus de 2000/2200 m, plus humide en dessous. La petite chute de neige de mercredi soir est très peu ventée.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1600,
-        "south": 1600
+        "south": 1700
       },
       "levels_cm": [
         {
@@ -155,12 +153,12 @@
         {
           "alt_m": 2000,
           "N": 30,
-          "S": 25
+          "S": 20
         },
         {
           "alt_m": 2500,
           "N": 80,
-          "S": 60
+          "S": 55
         }
       ],
       "icon_key": "snowpack",
