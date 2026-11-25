@@ -3,14 +3,14 @@
   "massif": "Vercors",
   "bulletin": {
     "id": 14,
-    "issued_at": "2026-11-23T16:00:00",
-    "valid_until": "2026-11-24T18:00:00",
+    "issued_at": "2026-11-24T16:00:00",
+    "valid_until": "2026-11-25T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 2,
-      "comment": "Au-dessus de 1800m indice de risque limité, plus bas indice faible.",
+      "max_level": 3,
+      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
         "threshold_m": 1800,
@@ -20,14 +20,14 @@
           {
             "id": "zone1",
             "loc": "<1800",
-            "risk": 1,
+            "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
             "loc": ">1800",
-            "risk": 2,
+            "risk": 3,
             "evolution_to": null,
             "position": "top"
           }
@@ -41,22 +41,22 @@
         },
         "zones": {
           "bottom": {
-            "text": "1",
-            "risk": 1,
+            "text": "2",
+            "risk": 2,
             "evolution_to": null
           },
           "top": {
-            "text": "2",
-            "risk": 2,
+            "text": "3",
+            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-11-25",
-        "label": "Indice de risque limité",
-        "comment": "Mercredi, hausse relative du risque, avec de nouvelles instabilités attendues vers les sommets du massif, sous les nouvelles chutes de neige d'abord chahutées par un fort vent de Sud, puis beaucoup moins ventées et plus légères.",
+        "max_level": 3,
+        "date": "2026-11-26",
+        "label": "Indice de risque marqué",
+        "comment": "Jeudi, risque stationnaire, avec encore un peu de neige attendue le matin, dans une masse d'air fraîche. Quelques nouvelles instabilités se forment sous le vent de Nord parfois sensible.",
         "trend": "steady"
       }
     },
@@ -67,34 +67,24 @@
         "E": true,
         "SE": true,
         "S": true,
-        "SW": false,
-        "W": false,
+        "SW": true,
+        "W": true,
         "NW": true
       },
-      "icon_key": "rose-aspects",
-      "image": {
-        "filename": "BRA_14_VERCORS_rose-pentes.png",
-        "content_type": "image/png"
-      }
+      "icon_key": "rose-aspects"
     },
     "sat": {
       "primary": 1,
-      "secondary": 5,
+      "secondary": 2,
       "labels": {
         "1": "Neige fraîche",
-        "5": "Avalanche de fond"
+        "2": "Neige ventée"
       },
       "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-11-20",
-          "min_cm": 5,
-          "max_cm": 10,
-          "rain_mm": 5.0
-        },
         {
           "date": "2026-11-21",
           "min_cm": 3,
@@ -121,25 +111,31 @@
         },
         {
           "date": "2026-11-25",
-          "min_cm": 7,
-          "max_cm": 15,
-          "rain_mm": 5.0
+          "min_cm": 2,
+          "max_cm": 7,
+          "rain_mm": 10.0
+        },
+        {
+          "date": "2026-11-26",
+          "min_cm": 20,
+          "max_cm": 40,
+          "rain_mm": 10.0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 8,
-        "last_48h_max_cm": 17
+        "last_48h_min_cm": 22,
+        "last_48h_max_cm": 47
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PEU DE NEIGE, ASSEZ STABLE. RARES INSTABILITÉS PEU ÉPAISSES VERS LES SOMMETS.",
-      "text": "PEU DE NEIGE, ASSEZ STABLE. RARES INSTABILITÉS PEU ÉPAISSES VERS LES SOMMETS.\n\nDéclenchements provoqués : De rares instabilités peu épaisses ne sont pas exclues dans les accumulations de neige récente au-dessus de 1800m, vers les sommets du massif. Elles sont le plus souvent difficiles à déclencher, la neige étant souvent densifiée, toutefois on ne peut exclure très localement un déclenchement plus facile.Départs spontanés : Peu probables, ou un rare départ au terrain en pente raide herbeuse (avalanche de glissement de taille limitée).Autres : Vers les sommets du massif, présence de petites corniches pouvant être fragiles.",
+      "title": "SITUATION A FORTES INCERTITUDES. CHUTES DE NEIGE EN ALTITUDE, DÉPARTS SPONTANÉS DANS LA NEIGE FRAÎCHE, ET QUELQUES INSTABILITÉS RÉACTIVES.",
+      "text": "SITUATION A FORTES INCERTITUDES. CHUTES DE NEIGE EN ALTITUDE, DÉPARTS SPONTANÉS DANS LA NEIGE FRAÎCHE, ET QUELQUES INSTABILITÉS RÉACTIVES.\n\nDéparts spontanés : Au fil des chutes de neige attendues jusqu’en soirée de mercredi, des avalanches de taille 1 (petite), puis progressivement quelques avalanches de taille 2 (moyenne), deviennent possibles au-dessus de 1700m environ dans les pentes et couloirs raides près des sommets du massif. A noter que temporairement en nuit de mardi à mercredi, la pluie peut remonter jusqu'à 1800 (voire 2000m?), limitant d'autant plus les départs dans un premier temps, avant que la neige ne se cumule à nouveau dans la journée de mercredi. 15/30 cm sont possibles sur les sommets du massif, mais des incertitudes importantes subsistent sur la prévision.\n\nDéclenchements provoqués : Quelques instabilités vont se former vers les crêtes en journée de mercredi dans la neige fraîche, principalement au-dessus de 1700m où la neige pourra devenir plus légère au fil de l'abaissement de la limite pluie-neige. Situées dans les zones d'accumulations, ces plaques, qui deviennent un peu plus conséquentes en deuxième partie de journée, pourraient être faciles à déclencher par un skieur, prenant parfois un aspect poudreux peu identifiable. A noter que de fortes incertitudes subsistent encore sur la rapidité du rafraîchissement, et sur le maintien d'un vent de Sud suffisamment soutenu pour transporter cette neige plus légère.  \n\nAutres : Vers les sommets du massif, présence de petites corniches pouvant être fragiles.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l'enneigement : L'enneigement est encore faible sur le massif, ne permettant le plus souvent pas une bonne skiabilité, hormis vers les pentes sommitales ou les pentes herbeuses qui n'ont pas été trop érodées par le vent.Qualité de la neige : Neige souvent dense, parfois humide, pouvant croûter un peu en nuit de lundi à mardi si le ciel se dégage rapidement. Le soir, une nouvelle couche de neige fraîche commence à se déposer, associée à un vent de Sud qui devient fort...",
+      "text": "Qualification de l'enneigement : L'enneigement est encore faible sur le massif, ne permettant le plus souvent pas une bonne skiabilité, hormis vers les pentes sommitales ou les pentes herbeuses qui n'ont pas été trop érodées par le vent.\n\nQualité de la neige : Neige humide en début de journée de mercredi, la pluie ayant pu remonter jusqu'aux sommets du massif. Puis une couche de neige fraîche plus légère va commencer à de déposer au fil de la baisse de la limite pluie-neige, encore un peu travaillée dans un premier temps par le vent de Sud près des crêtes, et plus poudreuse en secteurs abrités. 10/20 cm sont possibles d'ici la soirée vers le haut du massif, à condition que la limite pluie-neige ne s'abaisse pas trop lentement (incertitudes).",
       "icon_key": "snow-quality"
     },
     "snowpack": {

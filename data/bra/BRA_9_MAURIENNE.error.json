@@ -1,0 +1,6 @@
+{
+  "code": "9",
+  "massif": "Maurienne",
+  "error": "HTTPSConnectionPool(host='public-api.meteofrance.fr', port=443): Max retries exceeded with url: /public/DPBRA/v1/massif/BRA?id-massif=9&format=xml (Caused by NewConnectionError(\"HTTPSConnection(host='public-api.meteofrance.fr', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "ts_utc": "2026-11-25T01:17:31.925253+00:00"
+}

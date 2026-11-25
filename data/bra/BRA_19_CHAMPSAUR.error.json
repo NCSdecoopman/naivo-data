@@ -1,6 +1,6 @@
 {
   "code": "19",
   "massif": "Champsaur",
-  "error": "OAuth2 MF échec 500: {\"code\":\"101508\",\"type\":\"Status report\",\"message\":\"Runtime Error\",\"description\":\"Error in Sender\"}",
-  "ts_utc": "2026-03-11T17:50:42.308066+00:00"
+  "error": "HTTPSConnectionPool(host='public-api.meteofrance.fr', port=443): Max retries exceeded with url: /public/DPBRA/v1/massif/BRA?id-massif=19&format=xml (Caused by NewConnectionError(\"HTTPSConnection(host='public-api.meteofrance.fr', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "ts_utc": "2026-11-25T01:18:14.554255+00:00"
 }
