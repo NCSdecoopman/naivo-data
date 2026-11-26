@@ -3,8 +3,8 @@
   "massif": "Aure Louron",
   "bulletin": {
     "id": 67,
-    "issued_at": "2026-11-24T16:00:00",
-    "valid_until": "2026-11-25T18:00:00",
+    "issued_at": "2026-11-25T17:00:00",
+    "valid_until": "2026-11-26T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-11-26",
+        "date": "2026-11-27",
         "label": "Indice de risque faible",
-        "comment": "Chutes de neige faibles se poursuivant jeudi, risque généralisé à l'ensemble du massif, mais restant faible.",
+        "comment": "Pas d'évolution du risque, départs spontanés possibles, redoux avec du soleil.",
         "trend": "steady"
       }
     },
@@ -77,12 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-11-21",
-          "min_cm": 0,
-          "max_cm": 0,
-          "rain_mm": 0.0
-        },
-        {
           "date": "2026-11-22",
           "min_cm": 0,
           "max_cm": 2,
@@ -108,47 +102,53 @@
         },
         {
           "date": "2026-11-26",
-          "min_cm": 7,
+          "min_cm": 5,
           "max_cm": 15,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-27",
+          "min_cm": 5,
+          "max_cm": 10,
           "rain_mm": 0.0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 8,
-        "last_48h_max_cm": 18
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 25
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PLAQUES INSTABLES AU-DESSUS DE 1700/1800M.",
-      "text": "PLAQUES INSTABLES AU-DESSUS DE 1700/1800M.\n\nDéclenchements provoqués : les chutes de neige attendues pour cette journée de mercredi sont accompagnées de vent d'Ouest à Nord-Ouest turbulent. Formation de plaques instables faciles à déclencher dans les versants Nord, Est et Sud, peu épaisses et peu nombreuses en matinée, à peine plus épaisses mais plus étendues dans l'après-midi, engendrant quelques avalanches de taille 1.\n\nDéparts spontanés : tout au long des chutes de neige de la journée, coulées/petites avalanches de neige récente en secteurs raides, prenant peu à peu de l'ampleur au cours de l'après-midi : taille 1 à très localement taille 2 attendue en partant d'une accumulation d'altitude faite à l'abri du vent. Neige devenant vite pulvérulente et dépôt fin.\n\nAutres : sensation de froid accentuée par le vent, très mauvaises visibilités sous les averses.",
+      "title": "PLAQUES A VENT, AVALANCHES SPONTANES EN NEIGE RECENTE",
+      "text": "PLAQUES A VENT, AVALANCHES SPONTANES EN NEIGE RECENTE\n\nDéclenchements provoqués : Formation de fines plaques à vent instables, assez faciles à déclencher au-dessus de 2000 m, même loin des crêtes, dans les versants Nord, Est et Sud. Elles restent peu épaisses, et peuvent donner lieu à de rares avalanches de taille 1. Sous 2000 m, la neige est un peu moins travaillé par le vent, mais de rares plaques peuvent être présentes, surtout près des crêtes. Elles sont plus difficilement déclenchable du fait de la faible quantitée de neige. \n\nDéparts spontanés : Par addition des chutes de neige, des coulées/petites avalanches de neige récente sont possibles, dans les pentes raides,  principalement dans les pentes Nord, Est et Sud où la neige s'est accumulé par le vent. \n\nAutres : sensation de froid accentuée par le vent, très mauvaises visibilités sous les averses.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : aspect hivernal progressivement de retour au cours de cette journée de mercredi, mais enneigement restant déficitaire. Neige tenant au sol à partir de 1400m, couche de neige s'épaississant durant la journée, mais pas de sous-couche sous 2000/2100m en Nord, pas de sous-couche en sud.\n\nQualité de la neige : neige fraîche mais plus ou moins travaillée par le vent turbulent. Souvent cartonnée dans les versants ouest et nord-ouest, crêtes et sommets pelés et en neige très dure, accumulations un peu plus meubles dans les autres secteurs",
+      "text": "Enneigement : Aspect hivernal de retour ce jeudi, avec une neige tenant au sol à partir de 1300 m, mais enneigement restant déficitaire. Pas de sous-couche sous 2000/2100 m en Nord, pas de sous-couche en sud.\n\nQualité de la neige : Neige fraîche plus ou moins travaillée par le vent de sud-ouest, puis nord-ouest. Neige parfois dur face au vent, Accumulations plus meubles sous le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 2000,
-        "south": 2400
+        "north": 1500,
+        "south": 1500
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 0,
-          "S": 0
+          "N": 1,
+          "S": 1
         },
         {
           "alt_m": 2000,
-          "N": 2,
-          "S": 0
+          "N": 10,
+          "S": 8
         },
         {
           "alt_m": 2500,
-          "N": 7,
-          "S": 5
+          "N": 15,
+          "S": 12
         }
       ],
       "icon_key": "snowpack",

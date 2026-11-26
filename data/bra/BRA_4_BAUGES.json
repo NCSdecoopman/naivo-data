@@ -3,61 +3,49 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-11-24T16:00:00",
-    "valid_until": "2026-11-25T18:00:00",
+    "issued_at": "2026-11-25T16:00:00",
+    "valid_until": "2026-11-26T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 1700m indice de risque marqué, plus bas indice limité.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 1700,
-        "split_axis": "horizontal",
-        "split_label": "1700m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1700",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">1700",
-            "risk": 3,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "1700m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "2",
             "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "3",
-            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-11-26",
+        "date": "2026-11-27",
         "label": "Indice de risque limité",
-        "comment": "Le manteau débute sa stabilisation, des instabilités persistent.",
-        "trend": "down"
+        "comment": "Risque stationnaire, le vent bascule en nord et des plaques à vent continuent de se former en altitude.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -78,23 +66,17 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": 5,
       "labels": {
-        "1": "Neige fraîche",
+        "2": "Neige ventée",
         "5": "Avalanche de fond"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-11-21",
-          "min_cm": 10,
-          "max_cm": 15,
-          "rain_mm": 10.0
-        },
         {
           "date": "2026-11-22",
           "min_cm": 0,
@@ -121,24 +103,29 @@
         },
         {
           "date": "2026-11-26",
-          "min_cm": 15,
-          "max_cm": 25
+          "min_cm": 10,
+          "max_cm": 30
+        },
+        {
+          "date": "2026-11-27",
+          "min_cm": 1,
+          "max_cm": 5
         }
       ],
       "totals": {
-        "last_48h_min_cm": 15,
-        "last_48h_max_cm": 30
+        "last_48h_min_cm": 11,
+        "last_48h_max_cm": 35
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Nouvelle perturbation amenant de forts cumuls de neige en montagne",
-      "text": "Nouvelle perturbation amenant de forts cumuls de neige en montagne\n\n* Départs spontanés :\n* Au-dessus de 1700 m, avalanches dans la neige fraiche. Elle sont de plus en plus nombreuses et épaisses au fil des chutes de neige. Une remontée temporaire de la limite pluie-neige en fin matinée augmente temporairement la probabilité d'avalanche (incertitude sur la remontée de la limite pluie-neige). Elles sont majoritairement de taille moyenne (taille 2).\n* En dessous de 1700 m, avalanches dans la neige fraiche. Elles sont aussi plus nombreuses au fil des chutes, taille petite à moyenne. \n* Plaque de fond, elle peuvent partir à toute heure de la journée et de la nuit, dans les pentes lisses (dalles rocheuses, pentes herbeuses). Taille 1. \n\n* Déclenchements provoqués :\n* Dans la neige fraîche, quelques plaques friables. Ces plaques sont principalement vers les hauts sommets. Ces plaques sont la plupart du temps invisibles en surface, d'aspect poudreux. Taille 1 à 2 (petite à moyenne).",
+      "title": "Quelques instabilités avec la bascule en vent de Nord-Est en altitude",
+      "text": "Quelques instabilités avec la bascule en vent de Nord-Est en altitude \n\nDéclenchements provoqués :\n*quelques plaques à vent dans la neige fraiche tombée mercredi. Formées sous le vent du SO de mardi à mercredi. De nouvelles plaques se forment avec la bascule du vent en NE dans la nuit de mercredi à jeudi et qui se renforce jeudi pour la journée. Elles sont surtout présentes au-dessus de 1800 m, une plaque n'est pas exclu en dessous. Taille 1, rarement 2 (petite, rarement moyenne).\n\nDéparts spontanés :\n* rares plaques à vent dans la neige fraiche, surtout sous les sommets vers 1800/2000 m. Taille 1, rarement 2.\n* quelques plaques de fond, elles partent dans les dalles rocheuses et pentes herbeuses, de jour, comme de nuit. Taille 1 et rare taille 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est excédentaire à toutes altitudes. On peut chausser les skis au-dessus de 1300 m sur l'herbe. \nPrésence de grosses corniches et de grosses congères. \n\nQualité de la neige ce mercredi matin :\n* couche de neige récente alourdie sous 1600 m, plus froide au-dessus mais travaillée par le vent. \n* Crète et neige ventée",
+      "text": "Enneigement : \nPour la saison, l’enneigement est excédentaire à toutes altitudes. On peut chausser les skis au-dessus de 1300 m.\n\nQualité de la neige ce jeudi matin :\n* Sous 1800 m : neige dense, un peu alourdie en surface\n* Au-dessus de 1800 m : neige froide, assez dense. Elle est tantôt travaillée par le vent, tantôt poudreuse.\nSur les sommets, les crêtes peuvent être décapées avec le fort vent des derniers épisodes.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -159,8 +146,8 @@
         },
         {
           "alt_m": 2000,
-          "N": 65,
-          "S": 65
+          "N": 70,
+          "S": 70
         }
       ],
       "icon_key": "snowpack",

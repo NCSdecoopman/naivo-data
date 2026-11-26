@@ -3,8 +3,8 @@
   "massif": "Queyras",
   "bulletin": {
     "id": 17,
-    "issued_at": "2026-11-24T16:00:00",
-    "valid_until": "2026-11-25T18:00:00",
+    "issued_at": "2026-11-25T16:00:00",
+    "valid_until": "2026-11-26T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-11-26",
+        "date": "2026-11-27",
         "label": "Indice de risque marqué",
-        "comment": "Retour au calme météo, mais de nombreuses instabilités restent en place en altitude. Indice de danger marqué.",
+        "comment": "Temps calme et sec mais des instabilités restent en place en altitude. Indice de danger marqué.",
         "trend": "steady"
       }
     },
@@ -66,22 +66,16 @@
       }
     },
     "sat": {
-      "primary": 1,
+      "primary": 2,
       "secondary": null,
       "labels": {
-        "1": "Neige fraîche"
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-11-21",
-          "min_cm": 5,
-          "max_cm": 10,
-          "rain_mm": 0.0
-        },
         {
           "date": "2026-11-22",
           "min_cm": 5,
@@ -102,51 +96,59 @@
         },
         {
           "date": "2026-11-25",
-          "min_cm": 5,
-          "max_cm": 20
+          "min_cm": 10,
+          "max_cm": 20,
+          "rain_mm": 0.0
         },
         {
           "date": "2026-11-26",
-          "min_cm": 10,
-          "max_cm": 25
+          "min_cm": 5,
+          "max_cm": 10,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-27",
+          "min_cm": 0,
+          "max_cm": 0,
+          "rain_mm": 0.0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 15,
-        "last_48h_max_cm": 45
+        "last_48h_min_cm": 5,
+        "last_48h_max_cm": 10
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES NOUVELLES INSTABILITÉS DANS LA NEIGE FRAÎCHE",
-      "text": "NOMBREUSES NOUVELLES INSTABILITÉS DANS LA NEIGE FRAÎCHE\n\nDéclenchements provoqués :  instabilités en formation dans de nombreuses pentes de toute orientation pendant la chute de neige ventée la nuit de mardi à mercredi. Facilement déclenchables par un seul pratiquant à toute altitude, elles mobilisent de plus importants volumes de neige au-dessus de 2200 m environ (taille 2, moyenne, et parfois 3, grande, à l'ouest du massif). Le vent modéré après la chute les rend parfois plus identifiables en surface du manteau neigeux. Des instabilités plus enfouies, formées entre dimanche et lundi, peuvent également rarement persister. \n\nDéparts spontanés : de plus en plus nombreux au fil des chutes jusqu'à mercredi matin, taille 1 à 2, rarement 3. Plus rares ensuite, mais encore possibles dans les secteurs d'accumulation par le vent.",
+      "title": "NOMBREUSES INSTABILITÉS EN ALTITUDE DANS LA NEIGE RÉCENTE",
+      "text": "NOMBREUSES INSTABILITÉS EN ALTITUDE DANS LA NEIGE RÉCENTE\n\nDéclenchements provoqués :  instabilités en formation dans de nombreuses pentes de toute orientation pendant la chute de neige ventée la nuit de mardi à mercredi. Facilement déclenchables par un seul pratiquant à toute altitude, elles mobilisent de plus importants volumes de neige au-dessus de 2000 m environ (taille 2, moyenne, et parfois 3, grande, à l'ouest du massif).  Le vent de nord modéré de ce jour qui transporte la neige restée légère, entretient ces plaques.\n\nDéparts spontanés : encore possibles sous les dernières averses de la nuit puis en journée, quelques départs au gré des éclaircies qui viennent déstabiliser la neige récente. Avalanches de taille 2 dans les secteurs d'accumulation par le vent.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l'enneigement : il devient proche des normales voire excédentaire en altitude avec la chute de mercredi sur l'ouest des massifs. Plus proche des normales ailleurs, et encore déficitaire à proximité de l'Italie.\nDonnées observées, restant indicatives en raison du fort vent récent :  59 cm en versant nord du col Izoard à 2300 m, 38 cm au-dessus de St Véran à 2700 m.\n\nLimite de l'enneigement skiable : 1800 m environ en ubacs herbeux favorables\n\nÉtat de la neige de surface : neige fraîche plus ou moins ventée, s'humidifiant légèrement en journée sous 1800 m. La petite chute de neige de mercredi soir est très peu ventée.",
+      "text": "Qualification de l'enneigement : il devient proche des normales voire excédentaire en altitude avec la chute de mercredi sur l'ouest des massifs. Plus proche des normales ailleurs, et encore déficitaire à proximité de l'Italie.\nDonnées observées, restant indicatives en raison du fort vent récent :  84 cm en versant nord du col Izoard à 2300 m, 44 cm au-dessus de St Véran à 2700 m.\n\nLimite de l'enneigement skiable : 1500 m environ en ubacs herbeux favorables\n\nÉtat de la neige de surface : 20/30cm de neige fraîche sur l'ouest du massif, plus ou moins ventée, s'humidifiant légèrement en journée sous 1500 m.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1400,
-        "south": 1600
+        "north": 1200,
+        "south": 1200
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 10,
-          "S": 0
+          "N": 30,
+          "S": 20
         },
         {
           "alt_m": 2000,
-          "N": 30,
-          "S": 15
+          "N": 50,
+          "S": 35
         },
         {
           "alt_m": 2500,
-          "N": 60,
-          "S": 45
+          "N": 80,
+          "S": 60
         }
       ],
       "icon_key": "snowpack",

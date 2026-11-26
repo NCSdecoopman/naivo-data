@@ -3,8 +3,8 @@
   "massif": "Devoluy",
   "bulletin": {
     "id": 18,
-    "issued_at": "2026-11-24T16:00:00",
-    "valid_until": "2026-11-25T18:00:00",
+    "issued_at": "2026-11-25T16:00:00",
+    "valid_until": "2026-11-26T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-11-26",
+        "date": "2026-11-27",
         "label": "Indice de risque marqué",
-        "comment": "Retour au calme météo, mais de nombreuses instabilités restent en place en altitude. Indice de danger marqué.",
+        "comment": "Temps calme et sec mais des instabilités restent en place en altitude. Indice de danger marqué.",
         "trend": "steady"
       }
     },
@@ -78,23 +78,16 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": null,
       "labels": {
-        "1": "Neige fraîche",
         "2": "Neige ventée"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-11-21",
-          "min_cm": 5,
-          "max_cm": 10,
-          "rain_mm": 0.0
-        },
         {
           "date": "2026-11-22",
           "min_cm": 0,
@@ -116,50 +109,58 @@
         {
           "date": "2026-11-25",
           "min_cm": 10,
-          "max_cm": 20
+          "max_cm": 20,
+          "rain_mm": 0.0
         },
         {
           "date": "2026-11-26",
-          "min_cm": 15,
-          "max_cm": 30
+          "min_cm": 10,
+          "max_cm": 15,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-27",
+          "min_cm": 0,
+          "max_cm": 0,
+          "rain_mm": 0.0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 25,
-        "last_48h_max_cm": 50
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 15
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "NOMBREUSES NOUVELLES INSTABILITÉS EN ALTITUDE",
-      "text": "NOMBREUSES NOUVELLES INSTABILITÉS EN ALTITUDE\n\nDéclenchements provoqués :  instabilités en formation dans de nombreuses pentes de toute orientation pendant la chute de neige fortement ventée la nuit de mardi à mercredi. Facilement déclenchables par un seul pratiquant, elles mobilisent de plus importants volumes de neige au-dessus de 2200 m environ (taille 2, moyenne, exceptionnellement 3, grande). Le vent fort après la chute les rendent nettement plus identifiables en surface du manteau neigeux. Des instabilités plus enfouies, formées entre dimanche et lundi, peuvent également rarement persister. \nSous 2200 m, ces instabilités sont moins nombreuses et volumineuses. Taille 1 (petite).\n\nDéparts spontanés : de plus en plus nombreux au fil des chutes mercredi matin, taille 1, rarement 2. En journée, ils sont pilotés par le transport de neige par le vent. Plus rares, mais une avalanche de grande taille n'est pas exclue dans les pentes les plus chargées par le vent.",
+      "title": "NOMBREUSES INSTABILITÉS EN ALTITUDE DANS LA NEIGE RÉCENTE",
+      "text": "NOMBREUSES INSTABILITÉS EN ALTITUDE DANS LA NEIGE RÉCENTE\n\nDéclenchements provoqués :  structures de plaques en place dans de nombreuses pentes de toute orientation, formées pendant les chutes ventées de mercredi. Facilement déclenchables par un seul pratiquant à toute altitude, elles mobilisent de plus importants volumes de neige au-dessus de 2200 m environ (taille 2, moyenne, et parfois 3, grande). Le vent de nord modéré de ce jour qui transporte la neige restée légère, entretient ces plaques.\nSous 2200 m, l'instabilité est plus temporaire et les volumes de neige un peu moindres (taille 2 possible néanmoins).\n\nDéparts spontanés : encore possibles sous les dernières averses de la nuit puis en journée, quelques départs au gré des éclaircies qui viennent déstabiliser la neige récente. Avalanches de taille 2 dans les secteurs d'accumulation par le vent.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l'enneigement : auparavant déficitaire pour un mois de novembre, il devient excédentaire en altitude avec la chute de mercredi.\n\nLimite d'enneigement skiable : 1800 m environ en ubacs herbeux favorables.\n\nÉtat de la neige de surface :  neige fraîche fortement ventée au-dessus de 2000/2200 m, plus humide en dessous. La chute de neige de mercredi soir est nettement moins ventée.",
+      "text": "Qualification de l'enneigement : auparavant déficitaire pour un mois de novembre, il devient excédentaire en altitude avec la chute de mercredi.\n\nLimite d'enneigement skiable : 1800 m environ en ubacs herbeux favorables.\n\nÉtat de la neige de surface :  20/30 cm de neige fraîche fortement ventée au-dessus de 2000/2200 m, plus humide en dessous.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1500,
-        "south": 1600
+        "north": 1300,
+        "south": 1300
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 1,
-          "S": 0
+          "N": 5,
+          "S": 5
         },
         {
           "alt_m": 2000,
-          "N": 20,
-          "S": 15
+          "N": 50,
+          "S": 35
         },
         {
           "alt_m": 2500,
-          "N": 60,
-          "S": 50
+          "N": 80,
+          "S": 70
         }
       ],
       "icon_key": "snowpack",

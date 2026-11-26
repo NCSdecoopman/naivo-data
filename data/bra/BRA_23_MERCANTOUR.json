@@ -3,30 +3,30 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-11-24T16:00:00",
-    "valid_until": "2026-11-25T18:00:00",
+    "issued_at": "2026-11-25T16:00:00",
+    "valid_until": "2026-11-26T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2400m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 2300m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2400,
+        "threshold_m": 2300,
         "split_axis": "horizontal",
-        "split_label": "2400m",
+        "split_label": "2300m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2400",
+            "loc": "<2300",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2400",
+            "loc": ">2300",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2400m"
+          "label": "2300m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-11-26",
+        "date": "2026-11-27",
         "label": "Indice de risque marqué",
-        "comment": "Les plaques formées mercredi se stabilisent progressivement, mais le transport par le vent de nord-ouest en début de journée maintient encore une instabilité marquée.",
+        "comment": "Les plaques dans la neige récente poursuivent leur stabilisation avec le temps calme et peu venté, mais certaines restent probablement encore faciles à déclencher en altitude.",
         "trend": "steady"
       }
     },
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
         "W": true,
         "NW": true
       },
@@ -89,12 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-11-21",
-          "min_cm": 0,
-          "max_cm": 0,
-          "rain_mm": 0.0
-        },
-        {
           "date": "2026-11-22",
           "min_cm": 1,
           "max_cm": 5,
@@ -114,53 +108,59 @@
         },
         {
           "date": "2026-11-25",
-          "min_cm": 7,
-          "max_cm": 10,
+          "min_cm": 15,
+          "max_cm": 20,
           "rain_mm": 0.0
         },
         {
           "date": "2026-11-26",
-          "min_cm": 10,
-          "max_cm": 15,
+          "min_cm": 15,
+          "max_cm": 20,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-27",
+          "min_cm": 0,
+          "max_cm": 0,
           "rain_mm": 0.0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 17,
-        "last_48h_max_cm": 25
+        "last_48h_min_cm": 15,
+        "last_48h_max_cm": 20
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "FRÉQUENTES INSTABILITÉS DANS LES UBACS DE HAUTE ALTITUDE - ABONDANTES CHUTES DE NEIGE VENTÉES",
-      "text": "FRÉQUENTES INSTABILITÉS DANS LES UBACS DE HAUTE ALTITUDE - ABONDANTES CHUTES DE NEIGE VENTÉES \n\nDéclenchements provoqués : dans les pentes ouest, nord à est à partir de 2400 m environ, des plaques faciles à déclencher se forment, suite aux abondantes chutes de neige attendues jusqu'à mercredi soir. Ces plaques dans la neige fraîche sont difficilement identifiables et provoquent fréquemment des avalanches moyennes (taille 2). Le déclenchement de ces instabilités est parfois facilité par la présence de grains à faible cohésion qui se sont formés ces derniers jours près de la surface actuelle du manteau neigeux.\nSous 2400 m, quelques instabilités se forment également surtout dans les ubacs, mais elles n'engendrent en général que de petites avalanches (taille 1), rarement moyennes (taille 2).\n\nDéparts spontanés : quelques départs de neige fraîche en poire sont attendus dans les pentes raides, essentiellement en fin de nuit / début de matinée de mercredi, puis mercredi soir. Par ailleurs, quelques ruptures spontanées de plaques sont possibles sur toute la période, dans les ubacs d'altitude chargés par le vent météo de secteur sud à sud-est. Avalanches petites à moyenne (taille 1 à 2).",
+      "title": "INSTABILITÉS EN ALTITUDE, SUITE AUX RÉCENTES CHUTES DE NEIGE",
+      "text": "INSTABILITÉS EN ALTITUDE, SUITE AUX RÉCENTES CHUTES DE NEIGE\n\nDéclenchements provoqués : à partir de 2300 m environ, des plaques faciles à déclencher sont en place dans la neige fraîche. Elles sont parfois identifiables, là où le vent a travaillé la neige et chargé les pentes, mais elles peuvent être également difficiles à détecter car d'aspect poudreux. On peut les trouver dans toutes les orientations, mais elles sont plus nombreuses dans les pentes ouest, nord à est. Leur déclenchement est parfois facilité par la présence d'une couche fragile formée juste avant les dernières chutes. Les avalanches atteignent en général la taille moyenne (taille 2).\nSous 2300 m, quelques plaques faciles à déclencher, mais moins fréquentes et de plus petites dimensions en général. Petites avalanches (taille 1), rarement moyennes (taille 2).\n\nDéparts spontanés : quelques départs de neige fraîche en poire sont attendus dans les pentes raides pendant les chutes en soirée de mercredi, puis au gré des éclaircies jeudi. Par ailleurs, de rares ruptures spontanées de plaques sont possibles près des crêtes jusqu'en milieu de journée de jeudi, suite au transport par le vent. Avalanches petites à moyenne (taille 1 à 2).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l'enneigement : encore très déficitaire sur la majeure partie du massif, mais en nette amélioration mercredi avec les abondantes chutes de neige attendues en altitude.\nMesures de neige : 2 cm à Isola 2000, 6 cm à la station Nivose de Millefonts à 2430 m.\n\nLimites de l'enneigement skiable : mercredi matin, la pratique du ski sera possible vers 1800/2000 m, uniquement sur les rares pentes herbeuses très favorables. Très peu de sous-couche jusqu'à plus de 2200/2500 m.\n\nÉtat de la neige de surface : neige fraîche humide sous 1800/2000 m, sèche et abondante au-delà de 2000 m, avec de bonnes accumulations suite au transport par le vent de secteur sud à sud-est.",
+      "text": "Qualification de l'enneigement : l'enneigement continue de s'améliorer, mais il reste encore globalement déficitaire pour une fin novembre.\nMesures de neige : 25 cm à Isola 2000, 23 cm à la station Nivose de Millefonts à 2430 m.\n\nLimites de l'enneigement skiable : vers 1500/1600 m sur pentes herbeuses favorables, mais très peu de sous-couche jusqu'à plus de 2200/2500 m selon les orientations.\n\nÉtat de la neige de surface : jeudi matin, neige fraîche entre 30 et 40 cm vers 2000 m, plus ou moins travaillée par le vent en altitude, mais restant légère dans les zones abritées. Elles s'alourdit progressivement dans les adrets au gré des éclaircies.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1700,
-        "south": 2100
+        "north": 1400,
+        "south": 1400
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 0,
-          "S": 0
+          "N": 10,
+          "S": 10
         },
         {
           "alt_m": 2000,
-          "N": 5,
-          "S": 0
+          "N": 25,
+          "S": 20
         },
         {
           "alt_m": 2500,
-          "N": 20,
-          "S": 15
+          "N": 50,
+          "S": 40
         }
       ],
       "icon_key": "snowpack",

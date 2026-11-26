@@ -3,37 +3,49 @@
   "massif": "Belledonne",
   "bulletin": {
     "id": 8,
-    "issued_at": "2026-11-24T16:00:00",
-    "valid_until": "2026-11-25T18:00:00",
+    "issued_at": "2026-11-25T16:00:00",
+    "valid_until": "2026-11-26T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Indice de risque marqué.",
+      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
+            "risk": 2,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
             "risk": 3,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "2",
+            "risk": 2,
+            "evolution_to": null
+          },
+          "top": {
             "text": "3",
             "risk": 3,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-11-26",
+        "date": "2026-11-27",
         "label": "Indice de risque marqué",
-        "comment": "Jeudi, risque stationnaire, avec encore un peu de neige attendue le matin, dans une masse d'air fraîche. De nouvelles instabilités se forment en altitude sous le vent de Nord parfois sensible.",
+        "comment": "Vendredi, retour de conditions calmes, ensoleillées. Le manteau se stabilise, avec un risque accidentel en baisse. Un redoux s'installe, surtout sensible au soleil où le manteau s'humidifie, avec quelques départs spontanés possibles sous les rochers.",
         "trend": "steady"
       }
     },
@@ -59,11 +71,7 @@
         "W": true,
         "NW": true
       },
-      "icon_key": "rose-aspects",
-      "image": {
-        "filename": "BRA_8_BELLEDONNE_rose-pentes.png",
-        "content_type": "image/png"
-      }
+      "icon_key": "rose-aspects"
     },
     "sat": {
       "primary": 1,
@@ -77,12 +85,6 @@
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-11-21",
-          "min_cm": 10,
-          "max_cm": 20,
-          "rain_mm": 0.0
-        },
         {
           "date": "2026-11-22",
           "min_cm": 0,
@@ -103,31 +105,37 @@
         },
         {
           "date": "2026-11-25",
-          "min_cm": 2,
-          "max_cm": 7,
+          "min_cm": 10,
+          "max_cm": 20,
           "rain_mm": 5.0
         },
         {
           "date": "2026-11-26",
           "min_cm": 15,
           "max_cm": 30,
-          "rain_mm": 5.0
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-27",
+          "min_cm": 2,
+          "max_cm": 5,
+          "rain_mm": 0.0
         }
       ],
       "totals": {
         "last_48h_min_cm": 17,
-        "last_48h_max_cm": 37
+        "last_48h_max_cm": 35
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "SITUATION A FORTES INCERTITUDES. CHUTES DE NEIGE VENTÉES EN ALTITUDE, NOMBREUSES AVALANCHES POSSIBLES.",
-      "text": "SITUATION A FORTES INCERTITUDES. CHUTES DE NEIGE VENTÉES EN ALTITUDE, NOMBREUSES AVALANCHES POSSIBLES.\n\nDéparts spontanés : Au fil des chutes de neige attendues jusqu’en soirée de mercredi (20/40 cm possibles, avec des incertitudes importantes sur la prévision), de nombreuses avalanches petites à moyennes, mais aussi quelques grandes avalanches, peuvent se produire dans les pentes raides en altitude. Le risque est d'autant plus marqué au-dessus de 2300/2500m environ, où la neige est restée froide et où les quantités mobilisables sont plus importantes. Par ailleurs, le vent de Sud qui souffle fort jusqu'en journée de mercredi, crée des accumulations assez importantes, y compris assez loin en contrebas des crêtes. Quelques unes d'entre-elles pourraient spontanément céder sous leur propre poids, avec des cassures atteignant 50 cm à 1m.\nPlus bas, les volumes sont moins importants, mais de nombreuses avalanches petites à moyennes restent probables jusque vers 1800/2000m. Encore plus bas, la neige est plus humide dans un premier temps, les cumuls de fraîche moins importants, et le risque y apparaît un peu plus limité.\n\nDéclenchements provoqués : Les chutes de neige associées au vent de Sud permettent la formation de nombreuses instabilités souvent réactives, et pouvant être localement épaisses à haute altitude avec des cassures atteignant 50 cm à 1m. Situées dans les zones d'accumulations, y compris assez loin en contrebas des crêtes, elles peuvent parfois présenter un aspect poudreux moins identifiable, notamment au fil de la journée de mercredi quand le vent commence à faiblir et permet plus facilement le dépôt de neige poudreuse.\n\nAutres : Au-dessus de 1900/2000m, présence de corniches pouvant être fragiles.",
+      "title": "MONTAGNE HIVERNALE, NOMBREUSES INSTABILITES DANS LA COUCHE DE NEIGE FRAICHE. PETIT EPISODE DE VENT DE NORD JEUDI",
+      "text": "MONTAGNE HIVERNALE, NOMBREUSES INSTABILITES DANS LA COUCHE DE NEIGE FRAICHE. PETIT EPISODE DE VENT DE NORD JEUDI\n\n20 à 30cm de neige fraîche tombées mercredi matin, 15 à 30cm supplémentaires attendues mercredi soir ... \n\nDéclenchements provoqués : \nAu-dessus de 2000m, la neige fraîche tombée depuis mercredi matin héberge de nombreuses instabilités.  Elles peuvent parfois être déclenchées au passage d'un seul skieur, avec des volumes mobilisables importants. Les cassures peuvent atteindre 60 à 80cm, voire dépasser 1m dans les accumulations. Ces plaques sont souvent difficiles à déceler, d'aspect poudreuses, d'autant plus qu'elles sont recouvertes par une fine couche de neige moins ventée. \nJeudi matin le vent de Nord / Nord-Est se renforce et va venir former de nouvelles plaques qui pourront être temporairement très réactives. Plus facilement identifiables, avec des signes de transport en cours. \n\nDéparts spontanés : \n* Mercredi soir sous les chutes de neige quelques avalanches de tailles moyennes peuvent partir spontanément, préférentiellement au-dessus de 2000 / 2200m. En altitude où les volumes sont conséquents, une grande avalanche ne peut être exclue. Le risque faiblit nettement avec l'affaiblissement des précipitations en seconde partie de nuit. \n* Jeudi matin, quelques départs spontanés seront à nouveau possibles avec le renforcement du vent de Nord, principalement dans les versants sous le vent, au-dessus de 2400/2500m. \n*  En pente raide herbeuse, plutôt sous 2400m, une rare avalanche de glissement pourrait partir au terrain, de taille petite à moyenne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l'enneigement : L'enneigement continue à s'améliorer. Il est bon pour la saison dès 2000m, et très bon en haute montagne. Enneigement assez irrégulier en altitude, avec alternance de zones érodées et d'accumulations parfois conséquentes, ainsi que des corniches...\nLimites skiables : Vers 1600/1800m environ.\n\nQualité de la neige : Neige fraîche se déposant en nuit de mardi à mercredi puis mercredi en journée, avec des cumuls de l'ordre de 20 à 40 cm possibles, mais il reste beaucoup d’incertitudes). Avec le vent de Sud d’abord fort en altitude jusqu’en première partie de journée de mercredi, elle peut donc être travaillée, voire très soufflée à proximité des crêtes, avec alternance de zones érodées et de fortes accumulations. Elle est davantage poudreuse dans les secteurs les moins ventés. Sous 1800/2000m environ, neige parfois humide en début de journée de mercredi, la pluie ayant pu remonter jusqu'à ces altitudes, qui va se faire recouvrir par une couche de neige fraîche plus légère au fil de la baisse de la limite pluie-neige (chronologie tout aussi incertaine).",
+      "text": "Qualification de l'enneigement : L'enneigement continue à s'améliorer. Il est bon pour la saison dès 2000m, et très bon en haute montagne. Enneigement assez irrégulier en altitude, avec alternance de zones érodées et d'accumulations parfois conséquentes, ainsi que des corniches...\nLimites skiables : Dés l'orée des forêts ou dés 1400 / 1500m dans les clairières. Pas assez de sous-couche pour skier en forêt... \n\nQualité de la neige : Quelques cm de neige fraîche humide entre 1200 et 1500m. Au-dessus de 1500m, 15-30cm de neige fraîche plus légère. L'épaisseur de neige fraîche augmente sensiblement avec l'altitude, avec 30-40cm dés 2000m, et plus de 50cm en haute montagne. Sur le haut du massif, neige plus dense dans les secteurs exposés au vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -138,18 +146,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 10,
-          "S": 10
+          "N": 20,
+          "S": 20
         },
         {
           "alt_m": 2000,
-          "N": 50,
-          "S": 45
+          "N": 70,
+          "S": 60
         },
         {
           "alt_m": 2500,
-          "N": 155,
-          "S": 135
+          "N": 175,
+          "S": 155
         }
       ],
       "icon_key": "snowpack",

@@ -3,61 +3,49 @@
   "massif": "Chablais",
   "bulletin": {
     "id": 1,
-    "issued_at": "2026-11-24T16:00:00",
-    "valid_until": "2026-11-25T18:00:00",
+    "issued_at": "2026-11-25T16:00:00",
+    "valid_until": "2026-11-26T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
-      "max_level": 3,
-      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
+      "max_level": 2,
+      "comment": "Indice de risque limité.",
       "localization": {
-        "type": "altitude",
-        "threshold_m": 1800,
-        "split_axis": "horizontal",
-        "split_label": "1800m",
+        "type": "none",
+        "threshold_m": null,
+        "split_axis": null,
+        "split_label": null,
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1800",
+            "loc": null,
             "risk": 2,
             "evolution_to": null,
-            "position": "bottom"
-          },
-          {
-            "id": "zone2",
-            "loc": ">1800",
-            "risk": 3,
-            "evolution_to": null,
-            "position": "top"
+            "position": null
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": "horizontal",
-          "label": "1800m"
+          "axis": null,
+          "label": null
         },
         "zones": {
-          "bottom": {
+          "center": {
             "text": "2",
             "risk": 2,
-            "evolution_to": null
-          },
-          "top": {
-            "text": "3",
-            "risk": 3,
             "evolution_to": null
           }
         }
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-11-26",
+        "date": "2026-11-27",
         "label": "Indice de risque limité",
-        "comment": "Le manteau débute sa stabilisation, des instabilités persistent.",
-        "trend": "down"
+        "comment": "Risque stationnaire, le vent bascule en nord et des plaques à vent continuent de se former en altitude.",
+        "trend": "steady"
       }
     },
     "dangerous_aspects": {
@@ -90,12 +78,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-11-21",
-          "min_cm": 15,
-          "max_cm": 25,
-          "rain_mm": 20.0
-        },
-        {
           "date": "2026-11-22",
           "min_cm": 2,
           "max_cm": 5,
@@ -122,23 +104,28 @@
         {
           "date": "2026-11-26",
           "min_cm": 1,
-          "max_cm": 15
+          "max_cm": 10
+        },
+        {
+          "date": "2026-11-27",
+          "min_cm": 1,
+          "max_cm": 4
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 18
+        "last_48h_min_cm": 2,
+        "last_48h_max_cm": 14
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Fort vent en montagne, formation de nouvelles plaques à vent",
-      "text": "Fort vent en montagne, formation de nouvelles plaques à vent \n\n* Départs spontanés :\nIncertitudes sur le scénario météorologique. Le plus probable : si le massif est foehné et que les précipitations n'arrivent pas à entrer sur le massif. \n* au-dessus de 1800 m, quelques départs d'avalanche de plaques friables, les plaques sont dures en altitude. Elles se sont formées lors des précédents épisodes neigeux et continuent de se former en journée avec le vent de sud-ouest. Elles sont plus nombreuses au fil de la journée. Les quantités de neige mobilisables sont importantes, les avalanches peuvent être de taille moyenne (taille 2), rarement grande (taille 3). Observables : zone d'érosion et d'accumulation par le vent, hétérogénéité du manteau neigeux.\n* en dessous de 1800 m, \n- nombreuses plaques de fond qui partent dans les pentes herbeuses/dalles rocheuses à toute heure du jour et de la nuit. Observables : reptations / gueules de baleine\n- les départs dus au vent sont moins probables mais pas exclus. \nScénario alternatif : si les précipitations entrent sur le massif : \nLes avalanches de neige fraiche se forment au fil de la journée. Des départs spontanés dans la neige fraiche avec des cassures de 10/15 cm sont possibles au dessus de 1800 m. Taille 1 à 2. \n\n* Départs provoqués :\n* plaques friables dans la neige récente voire dures. Ces plaques se retrouvent parfois éloignés des crêtes et sont plus nombreuses en journée. Elles se sont formées durant les chutes de neige de ces derniers jours. Taille 1 à 2 (petite à moyenne) majoritairement, et localement au-dessus de 2000m, une taille 3 est possible (grande).",
+      "title": "Quelques instabilités avec la bascule en vent de Nord-Est en altitude",
+      "text": "Quelques instabilités avec la bascule en vent de Nord-Est en altitude \n\nDéclenchements provoqués :\n*quelques plaques à vent dans la neige froide. Formées sous le vent du SO de mardi à mercredi. De nouvelles plaques se forment avec la bascule du vent en NE dans la nuit de mercredi à jeudi et qui se renforce jeudi pour la journée. Ces plaques sont plus épaisses et plus présentes en altitude. Taille 1 à 2 (petite à moyenne).\n\nDéparts spontanés :\n* plaques à vent dans la neige récente, surtout au-dessus de 1800/2000 m, là où le transport est plus efficace. Taille 1 à 2.\n* quelques plaques de fond sous 1800/2000 m, elles partent dans les dalles rocheuses et pentes herbeuses, de jour, comme de nuit. Taille 1 et rarement taille 2.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est excédentaire à toutes altitudes. On peut chausser les skis au-dessus de 1300 m. \nPrésence de grosses corniches et congères. \n\nQualité de la neige ce mercredi matin :\n* Sous 1600 m : Le manteau neigeux est entièrement humide, en toutes orientations.\n* Entre  1600 et 2000 m : manteau neigeux épais reposant sur un fond humide. Au fil de la journée, il continue de s'humidifier en surface. \n* Au-delà de 2000 m : Le manteau neigeux est froid sur toute son épaisseur, travaillée par le vent.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est excédentaire à toutes altitudes. On peut chausser les skis au-dessus de 1300 m. \nPrésence de corniches et congères. \n\nQualité de la neige ce jeudi matin :\n* Sous 1800 m : neige dense, un peu alourdie en surface\n* Au-dessus de 1800 m : neige froide, assez dense. Elle est tantôt travaillée par le vent, tantôt poudreuse.\nSur les sommets, les crêtes peuvent être décapées avec le fort vent des derniers épisodes.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -154,8 +141,8 @@
         },
         {
           "alt_m": 1500,
-          "N": 50,
-          "S": 50
+          "N": 40,
+          "S": 40
         },
         {
           "alt_m": 2000,
