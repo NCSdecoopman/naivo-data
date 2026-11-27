@@ -3,8 +3,8 @@
   "massif": "Pays-Basque",
   "bulletin": {
     "id": 64,
-    "issued_at": "2026-11-25T17:00:00",
-    "valid_until": "2026-11-26T18:00:00",
+    "issued_at": "2026-11-26T16:00:00",
+    "valid_until": "2026-11-27T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-11-27",
+        "date": "2026-11-28",
         "label": "Indice de risque limité",
-        "comment": "Pas d'évolution du risque, départs spontanés attendu, redoux avec du soleil.",
+        "comment": "Stabilisation des plaques par tassement, assez lent en haut du massif",
         "trend": "steady"
       }
     },
@@ -55,7 +55,7 @@
         "E": true,
         "SE": true,
         "S": true,
-        "SW": false,
+        "SW": true,
         "W": false,
         "NW": false
       },
@@ -67,22 +67,16 @@
     },
     "sat": {
       "primary": 1,
-      "secondary": 2,
+      "secondary": 4,
       "labels": {
         "1": "Neige fraîche",
-        "2": "Neige ventée"
+        "4": "Neige humide"
       },
       "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-11-22",
-          "min_cm": 1,
-          "max_cm": 3,
-          "rain_mm": 5.0
-        },
         {
           "date": "2026-11-23",
           "min_cm": 5,
@@ -97,43 +91,45 @@
         },
         {
           "date": "2026-11-25",
-          "min_cm": 3,
-          "max_cm": 6,
-          "rain_mm": 0.0
+          "min_cm": 1,
+          "max_cm": 1
         },
         {
           "date": "2026-11-26",
-          "min_cm": 30,
-          "max_cm": 40,
-          "rain_mm": 0.0
+          "min_cm": 25,
+          "max_cm": 35
         },
         {
           "date": "2026-11-27",
           "min_cm": 10,
-          "max_cm": 15,
-          "rain_mm": 0.0
+          "max_cm": 15
+        },
+        {
+          "date": "2026-11-28",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 40,
-        "last_48h_max_cm": 55
+        "last_48h_min_cm": 10,
+        "last_48h_max_cm": 15
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "PLAQUES A VENT, AVALANCHES SPONTANES EN NEIGE RECENTE",
-      "text": "PLAQUES A VENT, AVALANCHES SPONTANES EN NEIGE RECENTE\n\nDéclenchements provoqués : Formation de plaques à vent instables, faciles à déclencher, souvent proche des crêtes et sommets. On les trouve principalement sous le vent, dans les versants Nord, Est et Sud. Elles s'épaississent au file des chûtes de neige, et peuvent donner lieu à quelques avalanches de taille 2.\n\nDéparts spontanés : Tout au long des chutes de neige de la journée, des coulées/petites avalanches de neige récente peuvent se produire dans les pentes raides de tout secteurs. Quelques taille 2 sont attendu dans les zones d'accumulation, principalement dans les pentes Nord, Est et Sud. \n\nAutres : sensation de froid accentuée par le vent, très mauvaises visibilités sous les averses.",
+      "title": "PLAQUES A VENT, DEPARTS SPONTANES EN NEIGE HUMIDE",
+      "text": "PLAQUES A VENT, DEPARTS SPONTANES EN NEIGE HUMIDE\n\nDéclenchements provoqués : Dans les versants Nord, Est et Sud, des plaques sont en place, encore facilement déclenchables, plutôt au-dessus de 1800m, à proximité des crêtes. Elles se stabilisent par tassement au soleil, mais persistent à l'ombre. Elles peuvent donner lieu à des avalanches de taille moyenne, et leur identification peut être rendue difficile par le faible travail du vent. L'épaisseur d'accumulation peut être un indicateur de leur présence.\n\nDéparts spontanés : Des départs sont attendus, à proximité des rochers au fil de l'ensoleillement, en général de petite taille. Des plaques de fond, plutôt de taille moyenne, sont possibles dans les pentes herbeuses.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Aspect hivernal de retour avec une neige tenant au sol à partir de 1200 m. Couche de neige s'épaississant durant la journée, et l'on devrait pouvoir chausser les skis au-dessus de 1800 m. Pas de sous-couche sous 1800m en Nord, pas de sous-couche en sud.\n\nQualité de la neige : Neige fraîche plus ou moins travaillée par le vent de sud-ouest, puis nord-ouest. Neige parfois dur face au vent, Accumulations plus meubles sous le vent.",
+      "text": "Enneigement : Aspect hivernal avec de la neige au sol à partir de 1300 m. On devrait pouvoir chausser les skis au-dessus de 1500 m. Pas de sous-couche sous 1700m en Nord, pas de sous-couche en sud.\n\nQualité de la neige : Neige fraîche peu travaillée par le vent. Probablement croûtée sous 1600m, s'humidifiant au fil de l'ensoleillement, n'évoluant pas en nord.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1400,
-        "south": 1400
+        "north": 1300,
+        "south": 1300
       },
       "levels_cm": [
         {
@@ -143,13 +139,13 @@
         },
         {
           "alt_m": 1500,
-          "N": 5,
-          "S": 5
+          "N": 15,
+          "S": 15
         },
         {
           "alt_m": 2000,
-          "N": 18,
-          "S": 12
+          "N": 40,
+          "S": 40
         }
       ],
       "icon_key": "snowpack",

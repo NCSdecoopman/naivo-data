@@ -3,8 +3,8 @@
   "massif": "Cerdagne Canigou",
   "bulletin": {
     "id": 74,
-    "issued_at": "2026-11-25T16:00:00",
-    "valid_until": "2026-11-26T18:00:00",
+    "issued_at": "2026-11-26T16:00:00",
+    "valid_until": "2026-11-27T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,7 +42,7 @@
       },
       "j2": {
         "max_level": 1,
-        "date": "2026-11-27",
+        "date": "2026-11-28",
         "label": "Indice de risque faible",
         "comment": "RAS",
         "trend": "steady"
@@ -77,12 +77,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-11-22",
-          "min_cm": 0,
-          "max_cm": 0,
-          "rain_mm": 0.0
-        },
-        {
           "date": "2026-11-23",
           "min_cm": 0,
           "max_cm": 0,
@@ -103,34 +97,39 @@
         {
           "date": "2026-11-26",
           "min_cm": 3,
-          "max_cm": 5
+          "max_cm": 4
         },
         {
           "date": "2026-11-27",
           "min_cm": 0,
           "max_cm": 3
+        },
+        {
+          "date": "2026-11-28",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 8
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 3
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "Un peu de neige en moyenne montagne.",
-      "text": "Un peu de neige en moyenne montagne.\n\nDéparts spontanés :\n De rares avalanches de neige fraîche peuvent se produire dans les pentes suffisamment raides et ensoleillées jeudi matin mais il s'agit essentiellement de petite coulées de taille 1. \nDéclenchements provoqués :\n Peu probable.",
+      "text": "Un peu de neige en moyenne montagne.\n\nDéparts spontanés :\n De rares avalanches de neige fraîche peuvent se produire dans les pentes suffisamment raides et ensoleillées vendredi matin mais il s'agit essentiellement de petite coulées de taille 1. \nDéclenchements provoqués :\n Peu probable.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "La montagne prend des couleurs un peu plus hivernales avec ce petit épisode neigeux.\nOn retrouve jeudi matin des premières traces dès 1500 à 1600 m d'altitude puis quelques centimètres de neige vers 1800 à 2000m.\nCette couche de neige poudreuse reposent généralement à même le sol, elle atteint rarement plus de  10 cm d'ici jeudi soir à 2000m d'altitude.\n\nLe vent modéré d'Ouest commence déjà à créer de grandes disparités avec des crêtes et sommets qui restent souvent dégarnis ou recouvert de glace ou de givre.",
+      "text": "La montagne prend des couleurs un peu plus hivernales avec ce petit épisode neigeux.\nOn retrouve vendredi matin des premières traces dès 1500 à 1600 m d'altitude puis quelques centimètres de neige vers 1800 à 2000m.\nCette couche de neige poudreuse reposent généralement à même le sol, elle atteint rarement plus de  5 à 10 cm à 2000m d'altitude, généralement insuffisant pour sortir les skis.\n\nLe vent modéré d'Ouest commence déjà à créer de grandes disparités avec des crêtes et sommets qui restent souvent dégarnis ou recouvert de glace ou de givre.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 2100,
-        "south": 2200
+        "north": 2000,
+        "south": 2000
       },
       "levels_cm": [
         {
@@ -140,13 +139,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 0,
-          "S": 0
+          "N": 2,
+          "S": 2
         },
         {
           "alt_m": 2500,
-          "N": 2,
-          "S": 2
+          "N": 5,
+          "S": 5
         }
       ],
       "icon_key": "snowpack",

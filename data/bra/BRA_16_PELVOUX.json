@@ -3,8 +3,8 @@
   "massif": "Pelvoux",
   "bulletin": {
     "id": 16,
-    "issued_at": "2026-11-25T16:00:00",
-    "valid_until": "2026-11-26T18:00:00",
+    "issued_at": "2026-11-26T16:00:00",
+    "valid_until": "2026-11-27T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -42,9 +42,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-11-27",
+        "date": "2026-11-28",
         "label": "Indice de risque marqué",
-        "comment": "Temps calme et sec mais des instabilités restent en place en altitude. Indice de danger marqué.",
+        "comment": "Conditions calmes et ensoleillées. Le manteau neigeux se stabilise avec un risque accidentel en baisse mais restant marqué en altitude.",
         "trend": "steady"
       }
     },
@@ -66,22 +66,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": null,
+      "primary": 1,
+      "secondary": 2,
       "labels": {
+        "1": "Neige fraîche",
         "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-1"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-11-22",
-          "min_cm": 10,
-          "max_cm": 15,
-          "rain_mm": 0.0
-        },
         {
           "date": "2026-11-23",
           "min_cm": 10,
@@ -97,13 +92,13 @@
         {
           "date": "2026-11-25",
           "min_cm": 20,
-          "max_cm": 30,
+          "max_cm": 35,
           "rain_mm": 0.0
         },
         {
           "date": "2026-11-26",
-          "min_cm": 5,
-          "max_cm": 10,
+          "min_cm": 10,
+          "max_cm": 15,
           "rain_mm": 0.0
         },
         {
@@ -111,22 +106,28 @@
           "min_cm": 0,
           "max_cm": 0,
           "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-28",
+          "min_cm": 0,
+          "max_cm": 0,
+          "rain_mm": 0.0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 10
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "NOMBREUSES INSTABILITÉS EN ALTITUDE DANS LA NEIGE RÉCENTE",
-      "text": "NOMBREUSES INSTABILITÉS EN ALTITUDE DANS LA NEIGE RÉCENTE\n\nDéclenchements provoqués :  structures de plaques en place dans de nombreuses pentes de toute orientation, formées pendant les chutes ventées de mercredi. Facilement déclenchables par un seul pratiquant à toute altitude, elles mobilisent de plus importants volumes de neige au-dessus de 2000 m environ (taille 2, moyenne, et parfois 3, grande). Le vent de nord modéré de ce jour qui transporte la neige restée légère, entretient ces plaques.\n\nDéparts spontanés : encore possibles sous les dernières averses de la nuit puis en journée, quelques départs au gré des éclaircies qui viennent déstabiliser la neige récente. Avalanches de taille 2, rarement 3 dans les secteurs d'accumulation par le vent.",
+      "text": "NOMBREUSES INSTABILITÉS EN ALTITUDE DANS LA NEIGE RÉCENTE\n\nDéclenchements provoqués :  structures de plaques en place dans de nombreuses pentes, formées pendant les chutes ventées de mercredi et entretenues par un petit vent de nord. Encore facilement déclenchables par un seul pratiquant à toute altitude, elles mobilisent de plus importants volumes de neige au-dessus de 2200 m environ (taille 2, moyenne, et parfois 3, grande). En sud, le soleil tend à neutraliser ces plaques dans la journée sous 2200 m.\n\nDéparts spontanés : quelques départs attendus avec le soleil qui vient déstabiliser la neige récente. Avalanches de taille 2, rarement 3 en cas de topographie favorable.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l'enneigement : de plus en plus excédentaire avec la succession de perturbations actives, notamment au-dessus de 2500/2800 m. \nDonnées observées, restant indicatives en raison du fort vent récent :  109 cm au Pré de Mme Carle à 1900 m, 223 cm à la nivôse des Écrins à 2970 m.\n\nLimite de l'enneigement skiable : à partir de 1500 m en pentes herbeuses\n\nÉtat de la neige de surface : 20/30 cm de neige récente froide en altitude, souvent densifiée par le vent, restée légère en rares secteurs abrités du vent, humide et bien regelée le matin sous 1500 m.",
+      "text": "Qualification de l'enneigement : de plus en plus excédentaire avec la succession de perturbations actives, notamment au-dessus de 2500/2800 m. \nDonnées observées, restant indicatives en raison du fort vent récent :  113 cm au Pré de Mme Carle à 1900 m, 231 cm à la nivôse des Écrins à 2970 m.\n\nLimite de l'enneigement skiable : à partir de 1500 m en pentes herbeuses.\n\nÉtat de la neige de surface : 30/40 cm de neige récente voire 50 cm au dessus de 2000/2200 m, souvent densifiée par le vent, restée légère en rares secteurs abrités du vent. Elle repose sur un fond dur jusqu'à 2000 m en général, voire 2200/2300 m en sud.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

@@ -3,30 +3,30 @@
   "massif": "Grandes-Rousses",
   "bulletin": {
     "id": 12,
-    "issued_at": "2026-11-25T16:00:00",
-    "valid_until": "2026-11-26T18:00:00",
+    "issued_at": "2026-11-26T17:00:00",
+    "valid_until": "2026-11-27T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 1800,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<1800",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
+            "loc": ">1800",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "1800m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-11-27",
+        "date": "2026-11-28",
         "label": "Indice de risque marqué",
-        "comment": "Vendredi, retour de conditions calmes, ensoleillées. Le manteau se stabilise, avec un risque accidentel en baisse. Un redoux s'installe, surtout sensible au soleil où le manteau s'humidifie, avec quelques départs spontanés possibles sous les rochers.",
+        "comment": "Manteau qui va progressivement se stabiliser à la faveur d'un temps sec et ensoleillé.",
         "trend": "steady"
       }
     },
@@ -90,12 +90,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-11-22",
-          "min_cm": 0,
-          "max_cm": 0,
-          "rain_mm": 10.0
-        },
-        {
           "date": "2026-11-23",
           "min_cm": 20,
           "max_cm": 40,
@@ -109,37 +103,40 @@
         },
         {
           "date": "2026-11-25",
-          "min_cm": 10,
-          "max_cm": 20,
+          "min_cm": 2,
+          "max_cm": 7,
           "rain_mm": 5.0
         },
         {
           "date": "2026-11-26",
-          "min_cm": 15,
-          "max_cm": 30,
-          "rain_mm": 0.0
+          "min_cm": 30,
+          "max_cm": 40
         },
         {
           "date": "2026-11-27",
-          "min_cm": 2,
-          "max_cm": 5,
-          "rain_mm": 0.0
+          "min_cm": 3,
+          "max_cm": 5
+        },
+        {
+          "date": "2026-11-28",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 17,
-        "last_48h_max_cm": 35
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MONTAGNE HIVERNALE, NOMBREUSES INSTABILITES DANS LA COUCHE DE NEIGE FRAICHE. PETIT EPISODE DE VENT DE NORD JEUDI",
-      "text": "MONTAGNE HIVERNALE, NOMBREUSES INSTABILITES DANS LA COUCHE DE NEIGE FRAICHE. PETIT EPISODE DE VENT DE NORD JEUDI\n\n20 à 30cm de neige fraîche tombées mercredi matin, 15 à 30cm supplémentaires attendues mercredi soir ... \n\nDéclenchements provoqués : \nAu-dessus de 2000m, la neige fraîche tombée depuis mercredi matin héberge de nombreuses instabilités.  Elles peuvent parfois être déclenchées au passage d'un seul skieur, avec des volumes mobilisables importants. Les cassures peuvent atteindre 60 à 80cm, voire dépasser 1m dans les accumulations. Ces plaques sont souvent difficiles à déceler, d'aspect poudreuses, d'autant plus qu'elles sont recouvertes par une fine couche de neige moins ventée. \nJeudi matin le vent de Nord / Nord-Est se renforce et va venir former de nouvelles plaques qui pourront être temporairement très réactives. Plus facilement identifiables, avec des signes de transport en cours. \n\nDéparts spontanés : \n* Mercredi soir sous les chutes de neige quelques avalanches de tailles moyennes peuvent partir spontanément, préférentiellement au-dessus de 2000 / 2200m. En altitude où les volumes sont conséquents, une grande avalanche ne peut être exclue. Le risque faiblit nettement avec l'affaiblissement des précipitations en seconde partie de nuit. \n* Jeudi matin, quelques départs spontanés seront à nouveau possibles avec le renforcement du vent de Nord, principalement dans les versants sous le vent. Avalanches généralement de tailles moyennes, même si une rare grande ne peut être exclue.\n*  En pente raide herbeuse, plutôt sous 2400m, une rare avalanche de glissement pourrait partir au terrain, de taille petite à moyenne.",
+      "title": "INSTABILITES DANS LA NEIGE FRAICHE VENTEE DE CES DERNIERS JOURS EN ALTITUDE",
+      "text": "INSTABILITES DANS LA NEIGE FRAICHE VENTEE DE CES DERNIERS JOURS EN ALTITUDE\n\n20/30cm, localement 40cm sur le massif. Cumuls au-dessus de 1600/1800m.\n\nDéclenchements provoqués : \nAu-dessus de 1600/1800m, la neige fraîche tombée depuis 2 jours comportent de nombreuses instabilités.  Elles peuvent parfois être déclenchées au passage d'un seul skieur, avec des volumes mobilisables importants. Les cassures peuvent atteindre 60 à 80cm, voire dépasser 1m dans les accumulations des secteurs exposés au vent. Ces plaques sont souvent difficiles à déceler, d'aspect poudreuses, d'autant plus qu'elles sont recouvertes par une fine couche de neige moins ventée. \nLe vent de Nord / Nord-Est était fort ces derniers jours et perdure encore, il va venir former de nouvelles plaques qui pourront être temporairement très réactives. Plus facilement identifiables, avec des signes de transport en cours. \n\nDéparts spontanés : \nVendredi en journée, quelques départs spontanés seront à nouveau possibles avec le vent de Nord encore présent et la neige récente avec d'importantes accumulations par endroits, principalement dans les versants sous le vent, au-dessus de 2200/2400m. \nL'après-midi, à la faveur de quelques éclaircies, quelques avalanches en versants ensoleillés peuvent se produire spontanément, elles sont la plupart du temps de taille petite à moyenne.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l'enneigement : L'enneigement continue à s'améliorer. Il est bon pour la saison dès 2000m, et très bon en haute montagne où il est proche des records pour une fin novembre. Enneigement assez irrégulier en altitude, avec alternance de zones érodées et d'accumulations parfois conséquentes, ainsi que des corniches...\nLimites skiables : Dés l'orée des forêts ou dés 1400 / 1500m dans les clairières. Pas assez de sous-couche pour skier en forêt... \n\nQualité de la neige : Quelques cm de neige fraîche humide entre 1200 et 1500m. Au-dessus de 1500m, 15-30cm de neige fraîche plus légère. L'épaisseur de neige fraîche augmente sensiblement avec l'altitude, avec 30-40cm dés 2000m, et plus de 50cm en haute montagne. Sur le haut du massif, neige plus dense dans les secteurs exposés au vent.",
+      "text": "Qualification de l'enneigement : L'enneigement continue à s'améliorer. Il est bon pour la saison dès 1600/1800m, et très bon en haute montagne. Enneigement assez irrégulier en altitude, avec alternance de zones érodées et d'accumulations parfois conséquentes, ainsi que des corniches du aux épisodes de vent successif.\nLimites skiables : Dés 1400 / 1500m dans les clairières. Pas assez de sous-couche pour skier en forêt... \n\nQualité de la neige : Quelques cm de neige fraîche humide entre 1200 et 1500m. Au-dessus de 1500m, 20-30cm de neige fraîche plus légère. L'épaisseur de neige fraîche augmente sensiblement avec l'altitude, avec 30-40cm dés 2000m, et plus de 50cm en haute montagne. Sur le haut du massif, neige plus dense dans les secteurs exposés au vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -155,13 +152,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 80,
-          "S": 75
+          "N": 110,
+          "S": 105
         },
         {
           "alt_m": 2500,
-          "N": 185,
-          "S": 165
+          "N": 205,
+          "S": 185
         }
       ],
       "icon_key": "snowpack",

@@ -3,8 +3,8 @@
   "massif": "Mercantour",
   "bulletin": {
     "id": 23,
-    "issued_at": "2026-11-25T16:00:00",
-    "valid_until": "2026-11-26T18:00:00",
+    "issued_at": "2026-11-26T16:00:00",
+    "valid_until": "2026-11-27T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-11-27",
-        "label": "Indice de risque marqué",
-        "comment": "Les plaques dans la neige récente poursuivent leur stabilisation avec le temps calme et peu venté, mais certaines restent probablement encore faciles à déclencher en altitude.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-11-28",
+        "label": "Indice de risque limité",
+        "comment": "Risque en baisse. Les plaques dans la neige récente poursuivent leur stabilisation.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -89,12 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-11-22",
-          "min_cm": 1,
-          "max_cm": 5,
-          "rain_mm": 0.0
-        },
-        {
           "date": "2026-11-23",
           "min_cm": 0,
           "max_cm": 2,
@@ -114,7 +108,7 @@
         },
         {
           "date": "2026-11-26",
-          "min_cm": 15,
+          "min_cm": 5,
           "max_cm": 20,
           "rain_mm": 0.0
         },
@@ -123,44 +117,50 @@
           "min_cm": 0,
           "max_cm": 0,
           "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-28",
+          "min_cm": 0,
+          "max_cm": 0,
+          "rain_mm": 0.0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 15,
-        "last_48h_max_cm": 20
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
       "title": "INSTABILITÉS EN ALTITUDE, SUITE AUX RÉCENTES CHUTES DE NEIGE",
-      "text": "INSTABILITÉS EN ALTITUDE, SUITE AUX RÉCENTES CHUTES DE NEIGE\n\nDéclenchements provoqués : à partir de 2300 m environ, des plaques faciles à déclencher sont en place dans la neige fraîche. Elles sont parfois identifiables, là où le vent a travaillé la neige et chargé les pentes, mais elles peuvent être également difficiles à détecter car d'aspect poudreux. On peut les trouver dans toutes les orientations, mais elles sont plus nombreuses dans les pentes ouest, nord à est. Leur déclenchement est parfois facilité par la présence d'une couche fragile formée juste avant les dernières chutes. Les avalanches atteignent en général la taille moyenne (taille 2).\nSous 2300 m, quelques plaques faciles à déclencher, mais moins fréquentes et de plus petites dimensions en général. Petites avalanches (taille 1), rarement moyennes (taille 2).\n\nDéparts spontanés : quelques départs de neige fraîche en poire sont attendus dans les pentes raides pendant les chutes en soirée de mercredi, puis au gré des éclaircies jeudi. Par ailleurs, de rares ruptures spontanées de plaques sont possibles près des crêtes jusqu'en milieu de journée de jeudi, suite au transport par le vent. Avalanches petites à moyenne (taille 1 à 2).",
+      "text": "INSTABILITÉS EN ALTITUDE, SUITE AUX RÉCENTES CHUTES DE NEIGE\n\nDéclenchements provoqués : au-dessus de 2300/2400 m, structures de plaque en place dans la neige fraîche ventée encore faciles à déclencher. Instabilités possiblement en toute orientation, parfois d’aspect poudreux. Taille moyenne, plus rarement grande. Facteur aggravant : localement présence d’une couche fragile persistance enfouie.\nSous 2300/2400 m, instabilités résiduelles, généralement de petite taille.\n\nDéparts spontanés : pas grand-chose à attendre. Quelques départs superficiels au soleil, en pente raide, près des rochers. Taille petite.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l'enneigement : l'enneigement continue de s'améliorer, mais il reste encore globalement déficitaire pour une fin novembre.\nMesures de neige : 25 cm à Isola 2000, 23 cm à la station Nivose de Millefonts à 2430 m.\n\nLimites de l'enneigement skiable : vers 1500/1600 m sur pentes herbeuses favorables, mais très peu de sous-couche jusqu'à plus de 2200/2500 m selon les orientations.\n\nÉtat de la neige de surface : jeudi matin, neige fraîche entre 30 et 40 cm vers 2000 m, plus ou moins travaillée par le vent en altitude, mais restant légère dans les zones abritées. Elles s'alourdit progressivement dans les adrets au gré des éclaircies.",
+      "text": "Qualification de l'enneigement : correct en Haute Tinée, globalement déficitaire sur le reste du massif.\nMesures de neige : 28 cm à Isola 2000, 30 cm à la station Nivose de Millefonts à 2430 m.\n\nLimites de l'enneigement skiable : vers 1500/1600 m sur pentes herbeuses favorables, mais très peu de sous-couche jusqu'à plus de 2200/2500 m selon les orientations.\n\nÉtat de la neige de surface : neige récente en quantité, plus ou moins travaillée par le vent en altitude, mais restant légère dans les zones abritées. Elle s'alourdit progressivement dans les adrets au soleil.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1400,
-        "south": 1400
+        "north": 1200,
+        "south": 1200
       },
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 10,
-          "S": 10
+          "N": 15,
+          "S": 15
         },
         {
           "alt_m": 2000,
-          "N": 25,
-          "S": 20
+          "N": 35,
+          "S": 30
         },
         {
           "alt_m": 2500,
-          "N": 50,
-          "S": 40
+          "N": 55,
+          "S": 45
         }
       ],
       "icon_key": "snowpack",

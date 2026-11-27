@@ -1,73 +1,69 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="69" MASSIF="Couserans" DATEBULLETIN="2026-11-25T16:00:00" DATEECHEANCE="2026-11-26T18:00:00" DATEVALIDITE="2026-11-26T18:00:00" DATEDIFFUSION="2026-11-25T16:03:00" AMENDEMENT="false">
-  <DateValidite>2026-11-26T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="69" MASSIF="Couserans" DATEBULLETIN="2026-11-26T16:00:00" DATEECHEANCE="2026-11-27T18:00:00" DATEVALIDITE="2026-11-27T18:00:00" DATEDIFFUSION="2026-11-26T16:25:00" AMENDEMENT="false">
+  <DateValidite>2026-11-27T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="1" EVOLURISQUE1="" LOC1="&lt;2300" ALTITUDE="2300" RISQUE2="1" EVOLURISQUE2="2" LOC2="&gt;2300" RISQUEMAXI="2" COMMENTAIRE="Au-dessus de 2300m indice de risque faible évoluant en limité, plus bas indice faible." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-11-27T00:00:00"/>
+    <RISQUE RISQUE1="2" EVOLURISQUE1="" LOC1="" ALTITUDE="" RISQUE2="" EVOLURISQUE2="" LOC2="" RISQUEMAXI="2" COMMENTAIRE="Indice de risque limité." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-11-28T00:00:00"/>
     <PENTE NE="true" E="true" SE="true" S="true" SW="true" W="true" NW="true" N="true" COMMENTAIRE=""/>
-    <ACCIDENTEL><![CDATA[Peu probable]]></ACCIDENTEL>
-    <NATUREL><![CDATA[Quelques avalanches de neige fraîche au fil des chutes]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : Quelques avalanches de neige fraîche au fil des chutes
-Déclenchements skieurs : Peu probable]]></RESUME>
+    <ACCIDENTEL><![CDATA[Structures de plaques en altitude]]></ACCIDENTEL>
+    <NATUREL><![CDATA[Quelques avalanches de neige fraîche au soleil]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : Quelques avalanches de neige fraîche au soleil
+Déclenchements skieurs : Structures de plaques en altitude]]></RESUME>
     <RisqueJ2><![CDATA[Indice de risque limité]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Maintient d'un risque limité.]]></CommentaireRisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Baisse progressive du risque.]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_69.png</ImageRisque>
     <ImagePente>rose_pentes_69.png</ImagePente>
   </CARTOUCHERISQUE>
   <STABILITE>
-    <SitAvalTyp SAT1="1" SAT2="2"/>
+    <SitAvalTyp SAT1="4" SAT2="1"/>
     <TITRE><![CDATA[Première couche significative]]></TITRE>
     <TEXTESANSTITRE><![CDATA[Départs spontanés :
- De rares avalanches de neige fraîche peuvent se produire dans les pentes suffisamment raides dès jeudi matin en toute orientation mais il s'agit essentiellement de petite coulées de taille 1. Au fil des chutes de neige de jeudi, les cumuls à haute altitude ( au dessus de 2300m environ) peuvent devenir significatifs et dépasser localement les 30 cm. Les départs spontanés deviennent alors plus nombreux et parfois plus volumineux.
+ Avec le retour du soleil de nombreux départs ponctuels sont attendus dans les pentes suffisamment raides dès vendredi matin dans les pentes Est puis Sud au fil des heures. Il s'agit essentiellement de petite coulées de taille 1. A haute altitude, à partir de 2500m environ, des départs spontanés deviennent alors parfois plus volumineux, une avalanche de taille 2 n'est pas exclue.
 Déclenchements provoqués : 
-Un randonneur pourra provoquer à haute altitude la rupture d'une plaque friable formée par le vent récent et pouvant reposer sur une couche fragile composée de neige fraîche de moindre cohésion. Les pentes sur un vaste secteur Est semblent les plus exposées. 
-Autres : Les conditions météorologique restent hivernales toute la journée de jeudi avec très peu de visibilité.]]></TEXTESANSTITRE>
+Un randonneur pourra provoquer à haute altitude la rupture d'une plaque friable formée par le vent récent et pouvant reposer sur une couche fragile composée de neige fraîche de moindre cohésion ou dans de plus rares cas de grains anguleux (couche fragile persistante) dans les pentes sommitales ne voyant pas ou peu le soleil (>2500m). 
+Autres : Les éclaircies nocturnes favorisent la chute des températures et la présence de glace sur les sentiers le matin à toutes altitudes.]]></TEXTESANSTITRE>
     <TEXTE><![CDATA[Première couche significative
 
 Départs spontanés :
- De rares avalanches de neige fraîche peuvent se produire dans les pentes suffisamment raides dès jeudi matin en toute orientation mais il s'agit essentiellement de petite coulées de taille 1. Au fil des chutes de neige de jeudi, les cumuls à haute altitude ( au dessus de 2300m environ) peuvent devenir significatifs et dépasser localement les 30 cm. Les départs spontanés deviennent alors plus nombreux et parfois plus volumineux.
+ Avec le retour du soleil de nombreux départs ponctuels sont attendus dans les pentes suffisamment raides dès vendredi matin dans les pentes Est puis Sud au fil des heures. Il s'agit essentiellement de petite coulées de taille 1. A haute altitude, à partir de 2500m environ, des départs spontanés deviennent alors parfois plus volumineux, une avalanche de taille 2 n'est pas exclue.
 Déclenchements provoqués : 
-Un randonneur pourra provoquer à haute altitude la rupture d'une plaque friable formée par le vent récent et pouvant reposer sur une couche fragile composée de neige fraîche de moindre cohésion. Les pentes sur un vaste secteur Est semblent les plus exposées. 
-Autres : Les conditions météorologique restent hivernales toute la journée de jeudi avec très peu de visibilité.]]></TEXTE>
+Un randonneur pourra provoquer à haute altitude la rupture d'une plaque friable formée par le vent récent et pouvant reposer sur une couche fragile composée de neige fraîche de moindre cohésion ou dans de plus rares cas de grains anguleux (couche fragile persistante) dans les pentes sommitales ne voyant pas ou peu le soleil (>2500m). 
+Autres : Les éclaircies nocturnes favorisent la chute des températures et la présence de glace sur les sentiers le matin à toutes altitudes.]]></TEXTE>
   </STABILITE>
   <QUALITE>
     <TEXTE><![CDATA[La montagne prend des couleurs hivernales avec ce premier épisode neigeux un peu plus significatif.
-On retrouve jeudi matin des premières traces dès 1100 à 1300m d'altitude puis un sol enneigé vers 1500 à 1600m.
-Il faut atteindre 2000 à 2200m pour que ces 10 à 20 cm de neige fraîche poudreuse reposent sur une petites sous-couche dans les versants nord.
-Seules les pentes herbeuses semblent pour le moment skiables ainsi que quelques couloirs ombragés à haute altitude.
+On retrouve vendredi matin des premières traces dès 1100 à 1300m d'altitude puis un sol enneigé vers 1500 à 1600m avec 10 à 20 cm de neige récente reposant à même le sol.
+Il faut atteindre 2000 à 2200m pour que cette neige fraîche poudreuse repose sur une petite sous-couche dans les versants nord.
+Seules les pentes herbeuses semblent pour le moment sereinement skiables ainsi que quelques couloirs ombragés à haute altitude.
 Le vent modéré d'Ouest commence déjà à créer de grandes disparités avec des crêtes et sommets qui restent souvent dégarnis.]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-11-25T00:00:00" LimiteSud="2200" LimiteNord="2000">
-    <NIVEAU ALTI="1500" N="0" S="0"/>
-    <NIVEAU ALTI="2000" N="0" S="0"/>
-    <NIVEAU ALTI="2500" N="5" S="5"/>
+  <ENNEIGEMENT DATE="2026-11-26T00:00:00" LimiteSud="1300" LimiteNord="1300">
+    <NIVEAU ALTI="1500" N="10" S="10"/>
+    <NIVEAU ALTI="2000" N="20" S="20"/>
+    <NIVEAU ALTI="2500" N="30" S="30"/>
     <ImageEnneigement>montagne_enneigement_69.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-11-22T00:00:00" SS24Min="0" SS24Max="0" RR24="1"/>
     <NEIGE24H DATE="2026-11-23T00:00:00" SS24Min="0" SS24Max="2" RR24="0"/>
     <NEIGE24H DATE="2026-11-24T00:00:00" SS24Min="0" SS24Max="0" RR24="0"/>
     <NEIGE24H DATE="2026-11-25T00:00:00" SS24Min="0" SS24Max="0" RR24="0"/>
     <NEIGE24H DATE="2026-11-26T00:00:00" SS24Min="10" SS24Max="15" RR24=""/>
-    <NEIGE24H DATE="2026-11-27T00:00:00" SS24Min="10" SS24Max="20" RR24=""/>
+    <NEIGE24H DATE="2026-11-27T00:00:00" SS24Min="15" SS24Max="20" RR24=""/>
+    <NEIGE24H DATE="2026-11-28T00:00:00" SS24Min="0" SS24Max="0" RR24=""/>
     <ImageNeigeFraiche>graphe_neige_fraiche_69.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="2000" ALTITUDEVENT2="3000">
-    <COMMENTAIRE>Première offensive hivernale</COMMENTAIRE>
-    <ECHEANCE DATE="2026-11-26T06:00:00" FF1="30" DD1="O" FF2="40" DD2="NO" ISO0="1700" PLUIENEIGE="1300" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-11-26T12:00:00" FF1="30" DD1="O" FF2="35" DD2="N" ISO0="1600" PLUIENEIGE="1300" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-11-26T18:00:00" FF1="35" DD1="O" FF2="40" DD2="N" ISO0="1600" PLUIENEIGE="1300" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-11-27T00:00:00" FF1="25" DD1="NO" FF2="40" DD2="N" ISO0="1600" PLUIENEIGE="1300" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
+    <COMMENTAIRE>retour du soleil, nuits froides</COMMENTAIRE>
+    <ECHEANCE DATE="2026-11-27T06:00:00" FF1="20" DD1="O" FF2="45" DD2="Vrb" ISO0="1600" PLUIENEIGE="1200" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-11-27T12:00:00" FF1="15" DD1="O" FF2="25" DD2="N" ISO0="2100" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-11-27T18:00:00" FF1="15" DD1="O" FF2="25" DD2="N" ISO0="2300" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-11-28T00:00:00" FF1="10" DD1="SO" FF2="25" DD2="N" ISO0="2700" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_69.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-11-19T06:00:00" FF1="55" DD1="SO" FF2="85" DD2="S" ISO0="2600" PLUIENEIGE="2200" TEMPSSENSIBLE="70"/>
-      <ECHEANCE DATE="2026-11-19T12:00:00" FF1="30" DD1="O" FF2="60" DD2="NO" ISO0="2200" PLUIENEIGE="1800" TEMPSSENSIBLE="81"/>
-      <ECHEANCE DATE="2026-11-19T18:00:00" FF1="25" DD1="O" FF2="45" DD2="NO" ISO0="2100" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
-      <ECHEANCE DATE="2026-11-20T00:00:00" FF1="25" DD1="O" FF2="40" DD2="NO" ISO0="2000" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
       <ECHEANCE DATE="2026-11-20T06:00:00" FF1="25" DD1="O" FF2="40" DD2="NO" ISO0="2100" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
       <ECHEANCE DATE="2026-11-20T12:00:00" FF1="25" DD1="O" FF2="40" DD2="N" ISO0="2200" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
       <ECHEANCE DATE="2026-11-20T18:00:00" FF1="25" DD1="O" FF2="35" DD2="N" ISO0="2300" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
@@ -91,14 +87,13 @@ Le vent modéré d'Ouest commence déjà à créer de grandes disparités avec d
       <ECHEANCE DATE="2026-11-25T06:00:00" FF1="30" DD1="SO" FF2="50" DD2="S" ISO0="2400" PLUIENEIGE="1900" TEMPSSENSIBLE="71"/>
       <ECHEANCE DATE="2026-11-25T12:00:00" FF1="25" DD1="SO" FF2="40" DD2="SO" ISO0="1900" PLUIENEIGE="1400" TEMPSSENSIBLE="80"/>
       <ECHEANCE DATE="2026-11-25T18:00:00" FF1="35" DD1="O" FF2="50" DD2="O" ISO0="1800" PLUIENEIGE="1400" TEMPSSENSIBLE="80"/>
-      <ECHEANCE DATE="2026-11-26T00:00:00" FF1="40" DD1="O" FF2="55" DD2="N" ISO0="1800" PLUIENEIGE="1400" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2026-11-26T00:00:00" FF1="35" DD1="O" FF2="50" DD2="N" ISO0="1800" PLUIENEIGE="1400" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2026-11-26T06:00:00" FF1="30" DD1="O" FF2="40" DD2="NO" ISO0="1700" PLUIENEIGE="1300" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2026-11-26T12:00:00" FF1="30" DD1="O" FF2="35" DD2="N" ISO0="1600" PLUIENEIGE="1300" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2026-11-26T18:00:00" FF1="35" DD1="O" FF2="40" DD2="N" ISO0="1600" PLUIENEIGE="1300" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2026-11-27T00:00:00" FF1="20" DD1="NO" FF2="40" DD2="N" ISO0="1600" PLUIENEIGE="1300" TEMPSSENSIBLE="80"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-11-19T00:00:00" LimiteSud="2000" LimiteNord="2000">
-        <NIVEAU ALTI="1500" N="0" S="0"/>
-        <NIVEAU ALTI="2000" N="1" S="1"/>
-        <NIVEAU ALTI="2500" N="5" S="5"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-11-20T00:00:00" LimiteSud="2000" LimiteNord="2000">
         <NIVEAU ALTI="1500" N="0" S="0"/>
         <NIVEAU ALTI="2000" N="1" S="0"/>
@@ -129,23 +124,28 @@ Le vent modéré d'Ouest commence déjà à créer de grandes disparités avec d
         <NIVEAU ALTI="2000" N="0" S="0"/>
         <NIVEAU ALTI="2500" N="5" S="5"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-11-26T00:00:00" LimiteSud="1300" LimiteNord="1300">
+        <NIVEAU ALTI="1500" N="10" S="10"/>
+        <NIVEAU ALTI="2000" N="20" S="20"/>
+        <NIVEAU ALTI="2500" N="30" S="30"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-11-20T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-11-21T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-11-22T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-11-23T00:00:00" SS24Min="0" SS24Max="2"/>
       <NEIGE24H DATE="2026-11-24T00:00:00" SS24Min="0" SS24Max="0"/>
       <NEIGE24H DATE="2026-11-25T00:00:00" SS24Min="0" SS24Max="0"/>
+      <NEIGE24H DATE="2026-11-26T00:00:00" SS24Min="10" SS24Max="15"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-11-19T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-11-20T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-11-21T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-11-22T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-11-23T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-11-24T00:00:00" RISQUEMAXI="1"/>
       <RISQUE DATE="2026-11-25T00:00:00" RISQUEMAXI="1"/>
+      <RISQUE DATE="2026-11-26T00:00:00" RISQUEMAXI="2"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_69.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_69.png</Image7derniersjours_portrait>

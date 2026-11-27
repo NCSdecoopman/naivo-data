@@ -3,30 +3,30 @@
   "massif": "Ubaye",
   "bulletin": {
     "id": 21,
-    "issued_at": "2026-11-25T16:00:00",
-    "valid_until": "2026-11-26T18:00:00",
+    "issued_at": "2026-11-26T16:00:00",
+    "valid_until": "2026-11-27T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2000m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 2200m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2000,
+        "threshold_m": 2200,
         "split_axis": "horizontal",
-        "split_label": "2000m",
+        "split_label": "2200m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2000",
+            "loc": "<2200",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2000",
+            "loc": ">2200",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2000m"
+          "label": "2200m"
         },
         "zones": {
           "bottom": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-11-27",
-        "label": "Indice de risque marqué",
-        "comment": "Les plaques dans la neige récente poursuivent leur stabilisation avec le temps calme et peu venté, mais certaines restent probablement encore faciles à déclencher en altitude.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-11-28",
+        "label": "Indice de risque limité",
+        "comment": "Risque en baisse. Les plaques dans la neige récente poursuivent leur stabilisation.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -89,12 +89,6 @@
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
         {
-          "date": "2026-11-22",
-          "min_cm": 3,
-          "max_cm": 5,
-          "rain_mm": 0.0
-        },
-        {
           "date": "2026-11-23",
           "min_cm": 1,
           "max_cm": 5,
@@ -114,8 +108,8 @@
         },
         {
           "date": "2026-11-26",
-          "min_cm": 15,
-          "max_cm": 20,
+          "min_cm": 2,
+          "max_cm": 7,
           "rain_mm": 0.0
         },
         {
@@ -123,22 +117,28 @@
           "min_cm": 0,
           "max_cm": 0,
           "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-28",
+          "min_cm": 0,
+          "max_cm": 0,
+          "rain_mm": 0.0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 15,
-        "last_48h_max_cm": 20
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "MANTEAU NEIGEUX INSTABLE EN ALTITUDE SUITE AUX ABONDANTES CHUTES DE NEIGE",
-      "text": "MANTEAU NEIGEUX INSTABLE EN ALTITUDE SUITE AUX ABONDANTES CHUTES DE NEIGE\n\nDéclenchements provoqués : à partir de 2000/2200 m, des plaques faciles à déclencher sont en place dans la neige fraîche. Elles sont parfois identifiables, là où le vent a travaillé la neige et chargé les pentes, mais elles peuvent être aussi difficiles à détecter car d'aspect poudreux. On peut les trouver dans toutes les orientations et leur déclenchement est parfois facilité par la présence d'une couche fragile formée juste avant les dernières chutes. Les avalanches atteignent la taille moyenne (taille 2), mais quelques avalanches approchant la grande taille (taille 3) sont envisageables dans les grandes pentes les plus chargées.\nSous 2000/2200 m, les instabilités sont moins fréquentes et de petites dimensions en général (taille 1).\n\nDéparts spontanés : quelques départs de neige fraîche en poire sont attendus dans les pentes raides pendant les chutes en soirée de mercredi, puis au gré des éclaircies jeudi. Par ailleurs, de rares ruptures spontanées de plaques sont possibles près des crêtes jusqu'en milieu de journée de jeudi, suite au transport par le vent. Avalanches petites à moyenne (taille 1 à 2), éventuellement une rare grande avalanche en cas de topographie favorable (taille 3).",
+      "title": "MANTEAU NEIGEUX ENCORE INSTABLE EN ALTITUDE",
+      "text": "MANTEAU NEIGEUX ENCORE INSTABLE EN ALTITUDE\n\nDéclenchements provoqués : au-dessus de 2200/2400 m, structures de plaque en place dans la neige fraîche ventée encore faciles à déclencher. Instabilités possiblement en toute orientation, parfois d’aspect poudreux. Taille moyenne, plus rarement grande. Facteur aggravant : localement présence d’une couche fragile persistance enfouie.\nSous 2200/2400 m, instabilités résiduelles, généralement de petite taille.\n\nDéparts spontanés : pas grand-chose à attendre. Quelques départs superficiels au soleil, en pente raide, près des rochers. Taille petite.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l'enneigement : bon pour une fin novembre, suite aux chutes de neige abondantes du mercredi 25 novembre.\nMesures de neige : 60 cm à la Nivose de Restefond à 2550 m, 40 cm au-dessus de Larche vers 2270 m.\n\nLimites de l'enneigement skiable : vers 1500 m sur pentes herbeuses favorables, mais sans sous-couche sous 1800 m en ubacs, 2000 m en adrets. La pratique du ski deviendra plus confortable au-delà de 2000 m en ubacs.\n\nÉtat de la neige de surface : jeudi matin, neige fraîche abondante, entre 40 et 60 cm vers 2000 m, plus ou moins travaillée par le vent en altitude, mais restant légère dans les zones abritées. Elles s'alourdit progressivement dans les adrets au gré des éclaircies.",
+      "text": "Qualification de l'enneigement : bon pour une fin novembre, suite aux chutes de neige abondantes du mercredi 25 novembre.\nMesures de neige : 64 cm à la Nivose de Restefond à 2550 m, 38 cm au-dessus de Larche vers 2270 m.\n\nLimites de l'enneigement skiable : vers 1500 m sur pentes herbeuses favorables, mais sans sous-couche sous 1800 m en ubacs, 2000 m en adrets. La pratique du ski devient plus confortable au-delà de 2000 m en ubacs.\n\nÉtat de la neige de surface : neige récente en quantité, plus ou moins travaillée par le vent en altitude, mais restant légère dans les zones abritées. Elle s'alourdit progressivement dans les adrets au soleil.",
       "icon_key": "snow-quality"
     },
     "snowpack": {

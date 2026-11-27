@@ -3,37 +3,49 @@
   "massif": "Bauges",
   "bulletin": {
     "id": 4,
-    "issued_at": "2026-11-25T16:00:00",
-    "valid_until": "2026-11-26T18:00:00",
+    "issued_at": "2026-11-26T16:00:00",
+    "valid_until": "2026-11-27T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Au-dessus de 1800m indice de risque limité, plus bas indice faible.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 1800,
+        "split_axis": "horizontal",
+        "split_label": "1800m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<1800",
+            "risk": 1,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">1800",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "1800m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
+          },
+          "top": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -42,9 +54,9 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-11-27",
+        "date": "2026-11-28",
         "label": "Indice de risque limité",
-        "comment": "Risque stationnaire, le vent bascule en nord et des plaques à vent continuent de se former en altitude.",
+        "comment": "Le vent continue de souffler près des crêtes, venant entretenir les instabilités temporaires. Le risque est stationnaire.",
         "trend": "steady"
       }
     },
@@ -53,10 +65,10 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
-        "W": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
         "NW": true
       },
       "icon_key": "rose-aspects",
@@ -66,23 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 5,
+      "primary": 5,
+      "secondary": 2,
       "labels": {
-        "2": "Neige ventée",
-        "5": "Avalanche de fond"
+        "5": "Avalanche de fond",
+        "2": "Neige ventée"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-5"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-11-22",
-          "min_cm": 0,
-          "max_cm": 0,
-          "rain_mm": 7.0
-        },
         {
           "date": "2026-11-23",
           "min_cm": 20,
@@ -103,35 +109,43 @@
         },
         {
           "date": "2026-11-26",
-          "min_cm": 10,
-          "max_cm": 30
+          "min_cm": 19,
+          "max_cm": 23,
+          "rain_mm": 0.0
         },
         {
           "date": "2026-11-27",
-          "min_cm": 1,
-          "max_cm": 5
+          "min_cm": 3,
+          "max_cm": 5,
+          "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-28",
+          "min_cm": 0,
+          "max_cm": 0,
+          "rain_mm": 0.0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 11,
-        "last_48h_max_cm": 35
+        "last_48h_min_cm": 3,
+        "last_48h_max_cm": 5
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Quelques instabilités avec la bascule en vent de Nord-Est en altitude",
-      "text": "Quelques instabilités avec la bascule en vent de Nord-Est en altitude \n\nDéclenchements provoqués :\n*quelques plaques à vent dans la neige fraiche tombée mercredi. Formées sous le vent du SO de mardi à mercredi. De nouvelles plaques se forment avec la bascule du vent en NE dans la nuit de mercredi à jeudi et qui se renforce jeudi pour la journée. Elles sont surtout présentes au-dessus de 1800 m, une plaque n'est pas exclu en dessous. Taille 1, rarement 2 (petite, rarement moyenne).\n\nDéparts spontanés :\n* rares plaques à vent dans la neige fraiche, surtout sous les sommets vers 1800/2000 m. Taille 1, rarement 2.\n* quelques plaques de fond, elles partent dans les dalles rocheuses et pentes herbeuses, de jour, comme de nuit. Taille 1 et rare taille 2.",
+      "title": "Rares instabilités en ubacs d'altitude dans la neige ventée.",
+      "text": "Rares instabilités en ubacs d'altitude dans la neige ventée.\n\nDéparts spontanés :\n* Des avalanches de glissement sont possibles à toutes heures du jour et de la nuit. Elles sont possibles sur les terrains lisses, comme les dalles rocheuses, les vires ou les pentes herbeuses. Taille 1 à 2 (petite à moyenne).\n\nDéclenchements provoqués :\n* Près des plus hauts sommets (au-delà de 1800m), de rares plaques à vent se forment sous le vent de Nord, notamment dans les ubacs d'altitude. Taille 2 (moyenne). Ces plaques sont présentes dans la neige encore restée froide et se retrouve principalement près des crêtes.\n* Observables : Fissures sous les skis, zone d'accumulations, ...",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est excédentaire à toutes altitudes. On peut chausser les skis au-dessus de 1300 m.\n\nQualité de la neige ce jeudi matin :\n* Sous 1800 m : neige dense, un peu alourdie en surface\n* Au-dessus de 1800 m : neige froide, assez dense. Elle est tantôt travaillée par le vent, tantôt poudreuse.\nSur les sommets, les crêtes peuvent être décapées avec le fort vent des derniers épisodes.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est excédentaire à toutes altitudes. On peut chausser les skis au-dessus de 1300 m. \nPrésence de grosses corniches et congères. \n\nQualité de la neige ce jeudi matin :\n* Sous 1800 m : neige dense, un peu alourdie en surface. Cette neige est croutée en surface mais s'humidifie très rapidement avec le soleil.\n* Au-delà de 1800 m : neige froide, assez dense, parfois travaillée par le vent. La neige est parfois décapée sur les sommets.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1100,
-        "south": 1100
+        "north": 1300,
+        "south": 1300
       },
       "levels_cm": [
         {
