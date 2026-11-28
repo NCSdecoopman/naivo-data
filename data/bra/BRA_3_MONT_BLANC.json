@@ -3,30 +3,30 @@
   "massif": "Mont-Blanc",
   "bulletin": {
     "id": 3,
-    "issued_at": "2026-11-26T16:00:00",
-    "valid_until": "2026-11-27T18:00:00",
+    "issued_at": "2026-11-27T16:00:00",
+    "valid_until": "2026-11-28T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 2700m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 3000m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 2700,
+        "threshold_m": 3000,
         "split_axis": "horizontal",
-        "split_label": "2700m",
+        "split_label": "3000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<2700",
+            "loc": "<3000",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">2700",
+            "loc": ">3000",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "2700m"
+          "label": "3000m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-11-28",
+        "date": "2026-11-29",
         "label": "Indice de risque marqué",
-        "comment": "Le vent continue de souffler en matinée. De nouvelles plaques continuent de se former, laissant ainsi un risque marqué tout au long de la journée.",
+        "comment": "Les plaques à vent restent sollicitables en altitude. En moyenne montagne, l'humidification continue sa progression en profondeur dans le manteau neigeux. \nJournée anticyclonique et ensoleillée.",
         "trend": "steady"
       }
     },
@@ -79,22 +79,16 @@
     },
     "sat": {
       "primary": 2,
-      "secondary": 5,
+      "secondary": 4,
       "labels": {
         "2": "Neige ventée",
-        "5": "Avalanche de fond"
+        "4": "Neige humide"
       },
       "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-11-23",
-          "min_cm": 50,
-          "max_cm": 80,
-          "rain_mm": 0.0
-        },
         {
           "date": "2026-11-24",
           "min_cm": 5,
@@ -116,7 +110,7 @@
         {
           "date": "2026-11-27",
           "min_cm": 1,
-          "max_cm": 3,
+          "max_cm": 5,
           "rain_mm": 0.0
         },
         {
@@ -124,28 +118,34 @@
           "min_cm": 0,
           "max_cm": 0,
           "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-29",
+          "min_cm": 0,
+          "max_cm": 0,
+          "rain_mm": 0.0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 3
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Instabilités en altitude dans la neige ventée.",
-      "text": "Instabilités en altitude dans la neige ventée.\n\nDéclenchements provoqués :\n* En haute-montagne, au-dessus de 2700m, des plaques à vent se forment tout au long de la journée sous le vent de Nord. Ces plaques sont présentes dans la neige récente et plus on monte en altitude, plus elles sont nombreuses. Taille 2, parfois 3 (moyenne à grande).\n* Facteur aggravant : Dans les rares secteurs où une couche fragile est enfouie dans le manteau neigeux,  celle-ci pourrait être sollicité dans le cas d'une avalanche en cascade et engendrer une plus grande avalanche.\n* Observables : Fissures sous les skis, zone d'accumulations, ...\n* Sous 2700m, on peut retrouver quelques plaques à vent mais celles-ci sont principalement cantonnées près des crêtes. Les avalanches concernées sont plutôt de taille 2 (moyenne).\n\nDéparts spontanés :\n* Sous 2500m, des avalanches de glissement sont possibles à toutes heures du jour et de la nuit. Elles sont possibles sur les terrains lisses, comme les dalles rocheuses, les vires ou les pentes herbeuses. Taille 1 à 2 (petite à moyenne).\n* En haute-montagne, une plaque à vent pourrait céder naturellement sous la surcharge liée au transport par le vent. Taille 1 à 2 (petite à moyenne).",
+      "title": "Instabilités en altitude dans la neige restée froide et légère. Humidification du manteau neigeux en moyenne montagne.",
+      "text": "Instabilités en altitude dans la neige restée froide et légère. Humidification du manteau neigeux en moyenne montagne. \n\nDéclenchements provoqués :\n* Au-dessus de 3000 m : plaques à vent. Elles se forment sous le fort vent de Nord-Ouest à Nord en journée de samedi, dans la neige restée légère. Plus nombreuses à proximité des crêtes et des arêtes. Taille 2 (moyenne), parfois 3 (grande). \nObservables : transport de neige par le vent, fissures sous les skis, irrégularités du manteau neigeux (accumulations/ablations)... \nFacteur aggravant : une couche fragile persistante est enfouie localement. Elle peut être sollicitée dans le cas d'une avalanche en cascade et engendrer une plus grande avalanche. \n* En dessous de 3000 m : une plaque à vent n'est pas exclue mais elles sont plus rares. Principalement dans les pentes qui restent à l'ombre. Taille 1 (petite) à 2 (moyenne).\n* En dessous de 2700 m : de la neige humide peut couler sous les skis avec le réchauffement diurne. De plus en plus nombreux au fil de la journée et principalement en larges versants Sud dans les pentes raides. Taille 1 (petite) à 2 (moyenne). \n\nDéparts spontanés :\n* En dessous de 2700 m : départs en neige humide, notamment dans les pentes raides exposées au soleil et vers les rochers. Plus nombreux au fil du réchauffement diurne. Taille 1 (petite) à 2 (moyenne). \n* En dessous de 2500 m : plaques de fond. Possibles dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit, mais plus nombreuses au fil de la journée.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est excédentaire à toutes altitudes. On peut chausser les skis au-dessus de 1300 m. \nPrésence de grosses corniches et congères. \n\nQualité de la neige ce jeudi matin :\n* Sous 1800 m : neige dense, un peu alourdie en surface. Cette neige est croutée en surface mais s'humidifie très rapidement avec le soleil.\n* Entre 1800 et 3000 m : neige froide, assez dense, parfois travaillée par le vent. Toutefois, cette neige reste d'aspect poudreux.\n* Au-dessus de 3000 m : La neige est froide et légère. Cependant, le travail du vent se fait sentir et on retrouve une alternance de neige légère et dure.\nSur les sommets, les crêtes peuvent être décapées avec le fort vent des derniers épisodes.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est excédentaire à toutes altitudes. On peut chausser les skis au-dessus de 1400 m. Peu de neige à cette altitude mais l'épaisseur augmente vite en montant en altitude. \nLes crêtes peuvent être décapées avec le fort vent des derniers épisodes. \nPrésence de grosses corniches et congères. \n\nQualité de la neige ce samedi :\n* Sous 1900 m en nord et 2100 m en sud : La neige est alourdie en surface mais reste fraîche en dessous, ce qui donne un aspect assez dense. Croute de regel non portante le matin, puis la croute se ramolli rapidement avec l'arrivée du soleil. \n* Entre 1900 m et 2700 m : la neige est encore froide, poudreuse mais au fil de la journée, elle va s'alourdir en surface sous l'effet du redoux. Le manteau neigeux se tasse.\n* Au-dessus de 2700 m : La neige est encore froide. Elle reste très légère dans la plupart des pentes. Toutefois, vers les crêtes/arêtes et au-dessus de 3000 m, la neige est parfois plus dure, travaillée par le vent.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1300,
-        "south": 1300
+        "north": 1400,
+        "south": 1400
       },
       "levels_cm": [
         {

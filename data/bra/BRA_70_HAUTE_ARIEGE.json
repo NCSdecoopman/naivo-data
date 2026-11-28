@@ -3,37 +3,49 @@
   "massif": "Haute-Ariege",
   "bulletin": {
     "id": 70,
-    "issued_at": "2026-11-26T16:00:00",
-    "valid_until": "2026-11-27T18:00:00",
+    "issued_at": "2026-11-27T16:00:00",
+    "valid_until": "2026-11-28T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Indice de risque limité.",
+      "comment": "Au-dessus de 2000m indice de risque limité, plus bas indice faible.",
       "localization": {
-        "type": "none",
-        "threshold_m": null,
-        "split_axis": null,
-        "split_label": null,
+        "type": "altitude",
+        "threshold_m": 2000,
+        "split_axis": "horizontal",
+        "split_label": "2000m",
         "zones": [
           {
             "id": "zone1",
-            "loc": null,
+            "loc": "<2000",
+            "risk": 1,
+            "evolution_to": null,
+            "position": "bottom"
+          },
+          {
+            "id": "zone2",
+            "loc": ">2000",
             "risk": 2,
             "evolution_to": null,
-            "position": null
+            "position": "top"
           }
         ]
       },
       "pictogram": {
         "template": "mf_mountain_risk_v1",
         "split": {
-          "axis": null,
-          "label": null
+          "axis": "horizontal",
+          "label": "2000m"
         },
         "zones": {
-          "center": {
+          "bottom": {
+            "text": "1",
+            "risk": 1,
+            "evolution_to": null
+          },
+          "top": {
             "text": "2",
             "risk": 2,
             "evolution_to": null
@@ -41,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 2,
-        "date": "2026-11-28",
-        "label": "Indice de risque limité",
-        "comment": "Baisse progressive du risque.",
-        "trend": "steady"
+        "max_level": 1,
+        "date": "2026-11-29",
+        "label": "Indice de risque faible",
+        "comment": "Stabilisation qui se poursuit.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -56,8 +68,8 @@
         "SE": true,
         "S": true,
         "SW": true,
-        "W": true,
-        "NW": true
+        "W": false,
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -67,22 +79,16 @@
     },
     "sat": {
       "primary": 4,
-      "secondary": 1,
+      "secondary": 2,
       "labels": {
         "4": "Neige humide",
-        "1": "Neige fraîche"
+        "2": "Neige ventée"
       },
       "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-11-23",
-          "min_cm": 0,
-          "max_cm": 3,
-          "rain_mm": 0.0
-        },
         {
           "date": "2026-11-24",
           "min_cm": 0,
@@ -97,33 +103,38 @@
         {
           "date": "2026-11-26",
           "min_cm": 5,
-          "max_cm": 15
+          "max_cm": 10
         },
         {
           "date": "2026-11-27",
-          "min_cm": 5,
-          "max_cm": 15
+          "min_cm": 6,
+          "max_cm": 12
         },
         {
           "date": "2026-11-28",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-11-29",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 5,
-        "last_48h_max_cm": 15
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Première couche significative",
-      "text": "Première couche significative\n\nDéparts spontanés :\n Avec le retour du soleil de nombreux départs ponctuels sont attendus dans les pentes suffisamment raides dès vendredi matin dans les pentes Est puis Sud au fil des heures. Il s'agit essentiellement de petite coulées de taille 1. A haute altitude, à partir de 2500m environ, des départs spontanés deviennent alors parfois plus volumineux, une avalanche de taille 2 n'est pas exclue.\nDéclenchements provoqués : \nUn randonneur pourra provoquer à haute altitude la rupture d'une plaque friable formée par le vent récent et pouvant reposer sur une couche fragile composée de neige fraîche de moindre cohésion ou dans de plus rares cas de grains anguleux (couche fragile persistante) dans les pentes sommitales ne voyant pas ou peu le soleil (>2500m). \nAutres : Les éclaircies nocturnes favorisent la chute des températures et la présence de glace sur les sentiers le matin à toutes altitudes.",
+      "title": "Instabilités en cours de stabilisation en altitude et des coulées au soleil",
+      "text": "Instabilités en cours de stabilisation en altitude et des coulées au soleil\n\nDéparts spontanés :\nDès samedi matin, des départs ponctuels sont possibles dans les pentes suffisamment raides d'altitude avec l'humidification de la neige récente. L'humidification va gagner toutes les altitudes, jusqu'au sommet des massifs en journée. L'humidification commence avec le soleil dans les pentes Est, puis Sud au fil des heures. Il s'agit essentiellement de petite coulées de taille 1 pouvant surtout déséquilibrer. Une rare avalanche de taille moyenne n'est pas exclue plus en altitude dans des pentes raides ayant pris plus de neige.\n\nDéclenchements provoqués : \nMême si la stabilisation est en cours, un randonneur pourra encore provoquer un départ des récentes plaques. Elles se stabilisent plus rapidement par tassement au soleil, mais peuvent persister à l'ombre et en altitude sur une couche fragile composée de neige de moindre cohésion. L'état de la neige en surface avec les indices de transport de neige par le vent devrait faciliter l'identification de ces plaques.\n\nAutres : Avec le ciel clair le nuit prochaine, le regel va être bien efficace avec de la glace sur les sentiers.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "La montagne prend des couleurs hivernales avec ce premier épisode neigeux un peu plus significatif.\nOn retrouve vendredi matin des premières traces dès 1100 à 1300m d'altitude puis un sol enneigé vers 1500 à 1600m avec 10 à 20 cm de neige récente reposant à même le sol.\nIl faut atteindre 2000 à 2200m pour que cette neige fraîche poudreuse repose sur une petite sous-couche dans les versants nord.\nSeules les pentes herbeuses semblent pour le moment sereinement skiables ainsi que quelques couloirs ombragés à haute altitude.\nLe vent modéré d'Ouest commence déjà à créer de grandes disparités avec des crêtes et sommets qui restent souvent dégarnis.",
+      "text": "Enneigement : La montagne garde un peu de son aspect hivernal même si le soleil de vendredi a déjà fait fondre les récentes chutes de neige des versants sud et ouest peu garnis. Les épaisseurs sont encore maigres et ne masquent pas encore bien les rochers : la neige récente repose sur une sous-couche à partir de 2000/2200 m en versants nord. Seules des pentes herbeuses et quelques couloirs ombragés peuvent être pour le moment skiable. \n \nQualité de la neige : Samedi matin, on retrouve une croute de regel jusqu’à 2000 voire 2300 m dans les versants ayant pris le soleil vendredi. Ailleurs, la neige peut rester sèche voir même poudreuse dans les combes abritées. Plus en altitude et proche des crêtes et sommet, elle est souvent compacte car travaillée par le vent qui a accompagné les chutes de neige. Le vent modéré d'Ouest à déjà créé des disparités avec les versants ouest et les crêtes et sommets qui restent souvent dégarnis. \nEn journée, on attend une nouvelle humidification de la neige récente, jusqu’au sommet des massifs dans les versants prenant le soleil (versants Est à Sud puis Ouest).",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -134,18 +145,18 @@
       "levels_cm": [
         {
           "alt_m": 1500,
-          "N": 5,
-          "S": 5
-        },
-        {
-          "alt_m": 2000,
           "N": 10,
           "S": 10
         },
         {
-          "alt_m": 2500,
+          "alt_m": 2000,
           "N": 20,
           "S": 20
+        },
+        {
+          "alt_m": 2500,
+          "N": 25,
+          "S": 25
         }
       ],
       "icon_key": "snowpack",

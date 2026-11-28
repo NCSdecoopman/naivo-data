@@ -3,8 +3,8 @@
   "massif": "Haute-Maurienne",
   "bulletin": {
     "id": 11,
-    "issued_at": "2026-11-26T17:00:00",
-    "valid_until": "2026-11-27T18:00:00",
+    "issued_at": "2026-11-27T16:00:00",
+    "valid_until": "2026-11-28T18:00:00",
     "amended": false
   },
   "evalbra": {
@@ -53,11 +53,11 @@
         }
       },
       "j2": {
-        "max_level": 3,
-        "date": "2026-11-28",
-        "label": "Indice de risque marqué",
-        "comment": "Risque stationnaire.",
-        "trend": "steady"
+        "max_level": 2,
+        "date": "2026-11-29",
+        "label": "Indice de risque limité",
+        "comment": "Poursuite de la stabilisation de la neige récente. Plus de transport par le vent. Pas plus chaud voir moins que la veille. Les risques seront en baisse.",
+        "trend": "down"
       }
     },
     "dangerous_aspects": {
@@ -65,9 +65,9 @@
         "N": true,
         "NE": true,
         "E": true,
-        "SE": true,
-        "S": true,
-        "SW": true,
+        "SE": false,
+        "S": false,
+        "SW": false,
         "W": true,
         "NW": true
       },
@@ -78,23 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
-      "secondary": 3,
+      "primary": 3,
+      "secondary": 4,
       "labels": {
-        "2": "Neige ventée",
-        "3": "Couche fragile persistante"
+        "3": "Couche fragile persistante",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-3"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-11-23",
-          "min_cm": 10,
-          "max_cm": 20,
-          "rain_mm": 0.0
-        },
         {
           "date": "2026-11-24",
           "min_cm": 0,
@@ -124,6 +118,12 @@
           "min_cm": 0,
           "max_cm": 0,
           "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-29",
+          "min_cm": 0,
+          "max_cm": 0,
+          "rain_mm": 0.0
         }
       ],
       "totals": {
@@ -133,19 +133,19 @@
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Plaques ventées en surface. Quelques couches fragiles persistantes enfouies à la base du manteau.",
-      "text": "Plaques ventées en surface. Quelques couches fragiles persistantes enfouies à la base du manteau. \n\nDéclenchements provoqués : quelques instabilités en neige récentes ventées. Assez réactives mais relativement peu épaisses en moyenne montagne, les volumes mobilisables augmentent avec l'altitude (>2500m). Ces structures de plaques en neige densifiées à dures engendrent des avalanches de taille 1 (petite) à 2 (moyenne). Au-delà de 2700 m dans les grandes pentes d'altitude, on ne peut exclure un déclenchement en cascade qui déclenche une grande avalanche par sollicitation d'une couche fragile persistante à la base du manteau neigeux.\n\nObservables: transport de la neige par le vent de Nord en cours. \n\nDéparts spontanés :  - quelques départs de plaques de fond sont à attendre plutôt sous 2400 en toutes orientations dans les pentes habituelles, là où un manteau épais s'est constitué sans sous-couche. Elles se décrochent dans les pentes herbeuses sans nécessairement de signes avant coureur (type fissure de reptation ou gueule de baleine par exemple). Taille 2 en général.  \n- à très haute altitude, le vent continue de transporter la neige, rare départ près des crêtes, à nouveau, dans une configuration de déclenchement en cascade, une grande avalanche (taille 3) demeure possible.",
+      "title": "Vent et couche fragile persistante maintiennent un risque marqué en altitude",
+      "text": "Vent et couche fragile persistante maintiennent un risque marqué en altitude\n\nDéclenchements provoqués : - Au dessus de 2500m en large versant Nord quelques plaques sur couche fragile persistante sont encore déclenchables au passage d'un ou plusieurs skieurs , taille 2 à 3, surtout dans les secteurs moins enneigés car souvent ventés avec alors cette couche fragile à la base du manteau qui n'est pas  trop profondément enfouie.. Ces plaques peuvent se propager sur de grandes largeurs \n- Par ailleurs de rares  instabilités persistent au dessus de 2000m dans l'épaisse couche de neige fraîche, ces plaques de surface sont en cours de stabilisation, certaines seront toutefois encore sensible au passage d'un skieur donnant de petites plaques de taille 1 en général  , taille 2 en grande pente,  cassure 30 cm . On les trouvent le plus souvent aux niveaux des ruptures de pentes au dessus de la foret et souvent bien  loin des crêtes. \nObservables : accumulations, fissure devant les skis, neige soudainement plus dense ou dure, traces de transport par le vent.\n\nDéparts spontanés : -  Sous 2200  plaque de fond possible toutes heures et orientations en terrains habituellement propices : avec souvent avec ouverture de  gueules de baleines au préalable . Donnant de petites à moyennes avalanches (taille 1 à 2)\n- Dans l'après-midi le réchauffement marqué de ce samedi va engendrer quelques  avalanches humides dans les pentes sud raides et rocheuses qui sont encore bien chargées.  Là aussi la plupart en taille 1 quelques 2 .",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : Après une semaine perturbé l'enneigement est maintenant correct pour la saison.\n\nLimite skiable : dès 1600/1700m on trouve 20 cm sur un fond dur qui permet de chausser.  L'enneigement devient ensuite vite conséquent dès 2000m avec 50 à 70 cm. et plus d'1m dès 2500m.   \n \nQualité de la neige :  neige croutée, sous 2000m au moins, là où le redoux de la veille avait humidifié la neige. Au dessus la neige va rester froide et toujours profonde dans les secteurs à l'abri du vent, plus dense et mieux portante dans les nombreux secteurs d'altitude qui ont été exposés au vent. Les crêtes et haut de pentes exposées ouest sont même souvent assez dégarnies par le vent.",
+      "text": "Enneigement : Après une semaine perturbé l'enneigement est maintenant correct pour la saison.\n\nLimite skiable :  dès 1500/1600m pour trouver un enneigement faible mais continu. 1800m pour trouver une épaisseur conséquente . \n \nQualité de la neige :  neige croutée, sous 1700m au moins, là où le redoux de la veille avait humidifié la neige. Au dessus la neige va rester froide et toujours profonde dans les secteurs à l'abri du vent, plus dense et mieux portante dans les nombreux secteurs d'altitude qui ont été exposés au vent. Les crêtes et haut de pentes  sont même souvent assez dégarnies par le vent.\nLes versants sud raides vont s'alourdir voir s'humidifier en cours d'après midi.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
         "north": 1300,
-        "south": 1300
+        "south": 1400
       },
       "levels_cm": [
         {

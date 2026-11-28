@@ -1,78 +1,78 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
-<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="6" MASSIF="Haute-Tarentaise" DATEBULLETIN="2026-11-26T17:00:00" DATEECHEANCE="2026-11-27T18:00:00" DATEVALIDITE="2026-11-27T18:00:00" DATEDIFFUSION="2026-11-26T16:31:00" AMENDEMENT="false">
-  <DateValidite>2026-11-27T18:00:00</DateValidite>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="6" MASSIF="Haute-Tarentaise" DATEBULLETIN="2026-11-27T16:00:00" DATEECHEANCE="2026-11-28T18:00:00" DATEVALIDITE="2026-11-28T18:00:00" DATEDIFFUSION="2026-11-27T16:04:00" AMENDEMENT="false">
+  <DateValidite>2026-11-28T18:00:00</DateValidite>
   <CARTOUCHERISQUE>
-    <RISQUE RISQUE1="2" EVOLURISQUE1="" LOC1="&lt;2500" ALTITUDE="2500" RISQUE2="3" EVOLURISQUE2="" LOC2="&gt;2500" RISQUEMAXI="3" COMMENTAIRE="Au-dessus de 2500m indice de risque marqué, plus bas indice limité." RISQUEMAXIJ2="3" DATE_RISQUE_J2="2026-11-28T00:00:00"/>
+    <RISQUE RISQUE1="2" EVOLURISQUE1="" LOC1="&lt;2000" ALTITUDE="2000" RISQUE2="3" EVOLURISQUE2="" LOC2="&gt;2000" RISQUEMAXI="3" COMMENTAIRE="Au-dessus de 2000m indice de risque marqué, plus bas indice limité." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2026-11-29T00:00:00"/>
     <PENTE NE="true" E="true" SE="true" S="true" SW="true" W="true" NW="true" N="true" COMMENTAIRE=""/>
-    <ACCIDENTEL><![CDATA[quelques instabilités en neige récente ventée.]]></ACCIDENTEL>
-    <NATUREL><![CDATA[quelques départs de plaques de fond, quelques plaques sous le vent de Nord en altitude. ]]></NATUREL>
-    <RESUME><![CDATA[Départs spontanés : quelques départs de plaques de fond, quelques plaques sous le vent de Nord en altitude. 
-Déclenchements skieurs : quelques instabilités en neige récente ventée.]]></RESUME>
-    <RisqueJ2><![CDATA[Indice de risque marqué]]></RisqueJ2>
-    <CommentaireRisqueJ2><![CDATA[Risque stationnaire.]]></CommentaireRisqueJ2>
+    <ACCIDENTEL><![CDATA[- Encore quelques Instabilité dans la neige fraiche au dessus de 2000m, rare mais plus grosse plaque possible au dessus de 2800m en large Nord ]]></ACCIDENTEL>
+    <NATUREL><![CDATA[- Plaque de fond sous 2400m et avalanche humide en sud raide l'après midi. ]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : - Plaque de fond sous 2400m et avalanche humide en sud raide l'après midi. 
+Déclenchements skieurs : - Encore quelques Instabilité dans la neige fraiche au dessus de 2000m, rare mais plus grosse plaque possible au dessus de 2800m en large Nord ]]></RESUME>
+    <RisqueJ2><![CDATA[Indice de risque limité]]></RisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Poursuite de la stabilisation de la neige récente. Plus de transport par le vent. Pas plus chaud voir moins que la veille. Les risques seront en baisse. ]]></CommentaireRisqueJ2>
     <AVIS/>
     <VIGILANCE/>
     <ImageRisque>montagne_risques_6.png</ImageRisque>
     <ImagePente>rose_pentes_6.png</ImagePente>
   </CARTOUCHERISQUE>
   <STABILITE>
-    <SitAvalTyp SAT1="2" SAT2="3"/>
-    <TITRE><![CDATA[Plaques ventées en surface. Quelques couches fragiles persistantes enfouies à la base du manteau. ]]></TITRE>
-    <TEXTESANSTITRE><![CDATA[Déclenchements provoqués : quelques instabilités en neige récentes ventées. Assez réactives mais relativement peu épaisses en moyenne montagne, les volumes mobilisables augmentent avec l'altitude (>2500m). Ces structures de plaques en neige densifiées à dures engendrent des avalanches de taille 1 (petite) à 2 (moyenne). Au-delà de 2700 m dans les grandes pentes d'altitude, on ne peut exclure un déclenchement en cascade qui déclenche une grande avalanche par sollicitation d'une couche fragile persistante à la base du manteau neigeux.  
-Secteurs frontaliers avec le Beaufortain, dès 2000 m au dessus de la forêt, et la fréquence et les volumes mobilisables des plaques augmentent car le vent et les chutes de neige ont été plus forts. 
+    <SitAvalTyp SAT1="1" SAT2="4"/>
+    <TITRE><![CDATA[Lente stabilisation des fortes chutes de ces derniers jours. ]]></TITRE>
+    <TEXTESANSTITRE><![CDATA[Déclenchements provoqués 
+- Quelques instabilités persistent au dessus de 2000m dans l'épaisse couche de neige fraîche, ces plaques de surface sont en cours de stabilisation, certaines seront toutefois encore sensible au passage d'un skieur donnant des plaques de taille 1 à 2 voir un peu plus en grande pente,  cassure 30/40 cm . On les trouvent le plus souvent aux niveaux des ruptures de pentes au dessus de la foret et souvent bien loin des crêtes. 
+: - Au dessus de 2800m en large versant Nord rares plaques sur couche fragile persistante encore déclenchables au passage d'un ou plusieurs skieurs , taille 2 à 3. Elles sont plus sensibles dans les secteurs ventés  moins enneigés  avec alors cette couche fragile à la base du manteau qui est moins profondément enfouie. Ces plaques peuvent se propager sur de grandes largeurs 
+Observables : accumulations, fissure devant les skis, neige soudainement plus dense ou dure, traces de transport par le vent.
 
-Observables: transport de la neige par le vent de Nord en cours. 
+Départs spontanés : -  Sous 2200m rare plaque de fond possible toutes heures et orientations en terrains habituellement propices : avec souvent avec ouverture de  gueules de baleines au préalable . Donnant de petites à moyennes avalanches (taille 1 à 2)
+- Dans l'après-midi le réchauffement marqué de ce samedi va engendrer quelques  avalanches humides dans les pentes sud raides et rocheuses qui sont encore bien chargées.  Là aussi la plupart en taille 1 quelques 2 . 
 
-Départs spontanés :  - quelques départs de plaques de fond sont à attendre plutôt sous 2400 en toutes orientations dans les pentes habituelles, là où un manteau épais s'est constitué sans sous-couche. Elles se décrochent dans les pentes herbeuses sans nécessairement de signes avant coureur (type fissure de reptation ou gueule de baleine par exemple). Taille 2 en général.  
-- à très haute altitude, le vent continue de transporter la neige, rare départ près des crêtes, à nouveau, dans une configuration de déclenchement en cascade, une grande avalanche (taille 3) demeure possible. ]]></TEXTESANSTITRE>
-    <TEXTE><![CDATA[Plaques ventées en surface. Quelques couches fragiles persistantes enfouies à la base du manteau. 
+Autres :  Attention aux corniches toutes récentes et par endroit déjà assez imposantes qui pourraient céder à votre passage]]></TEXTESANSTITRE>
+    <TEXTE><![CDATA[Lente stabilisation des fortes chutes de ces derniers jours. 
 
-Déclenchements provoqués : quelques instabilités en neige récentes ventées. Assez réactives mais relativement peu épaisses en moyenne montagne, les volumes mobilisables augmentent avec l'altitude (>2500m). Ces structures de plaques en neige densifiées à dures engendrent des avalanches de taille 1 (petite) à 2 (moyenne). Au-delà de 2700 m dans les grandes pentes d'altitude, on ne peut exclure un déclenchement en cascade qui déclenche une grande avalanche par sollicitation d'une couche fragile persistante à la base du manteau neigeux.  
-Secteurs frontaliers avec le Beaufortain, dès 2000 m au dessus de la forêt, et la fréquence et les volumes mobilisables des plaques augmentent car le vent et les chutes de neige ont été plus forts. 
+Déclenchements provoqués 
+- Quelques instabilités persistent au dessus de 2000m dans l'épaisse couche de neige fraîche, ces plaques de surface sont en cours de stabilisation, certaines seront toutefois encore sensible au passage d'un skieur donnant des plaques de taille 1 à 2 voir un peu plus en grande pente,  cassure 30/40 cm . On les trouvent le plus souvent aux niveaux des ruptures de pentes au dessus de la foret et souvent bien loin des crêtes. 
+: - Au dessus de 2800m en large versant Nord rares plaques sur couche fragile persistante encore déclenchables au passage d'un ou plusieurs skieurs , taille 2 à 3. Elles sont plus sensibles dans les secteurs ventés  moins enneigés  avec alors cette couche fragile à la base du manteau qui est moins profondément enfouie. Ces plaques peuvent se propager sur de grandes largeurs 
+Observables : accumulations, fissure devant les skis, neige soudainement plus dense ou dure, traces de transport par le vent.
 
-Observables: transport de la neige par le vent de Nord en cours. 
+Départs spontanés : -  Sous 2200m rare plaque de fond possible toutes heures et orientations en terrains habituellement propices : avec souvent avec ouverture de  gueules de baleines au préalable . Donnant de petites à moyennes avalanches (taille 1 à 2)
+- Dans l'après-midi le réchauffement marqué de ce samedi va engendrer quelques  avalanches humides dans les pentes sud raides et rocheuses qui sont encore bien chargées.  Là aussi la plupart en taille 1 quelques 2 . 
 
-Départs spontanés :  - quelques départs de plaques de fond sont à attendre plutôt sous 2400 en toutes orientations dans les pentes habituelles, là où un manteau épais s'est constitué sans sous-couche. Elles se décrochent dans les pentes herbeuses sans nécessairement de signes avant coureur (type fissure de reptation ou gueule de baleine par exemple). Taille 2 en général.  
-- à très haute altitude, le vent continue de transporter la neige, rare départ près des crêtes, à nouveau, dans une configuration de déclenchement en cascade, une grande avalanche (taille 3) demeure possible. ]]></TEXTE>
+Autres :  Attention aux corniches toutes récentes et par endroit déjà assez imposantes qui pourraient céder à votre passage]]></TEXTE>
   </STABILITE>
   <QUALITE>
-    <TEXTE><![CDATA[Enneigement : après une semaine exceptionnellement perturbé ( 1m50 de cumul de neige  à 2000m)  l'enneigement est maintenant excellent et excédentaire pour la saison. La station de la Rosière passe 1m de neige : record de l'an dernier égalé pour un mois de novembre.  
+    <TEXTE><![CDATA[Enneigement : Après une semaine perturbé l'enneigement est maintenant correct pour la saison.
 
-Limite skiable : dès 1300/1400m en terrain herbeux. L'enneigement devient ensuite vite conséquent dès 1600m avec 50 cm. et plus d'1m dès 2000m.  L'enneigement est encore un plus important au Nord du massif (secteur Miravidi/la Rosière) qu'au sud (Tignes/Val d'Isere)    
+Limite skiable :  dès 1500/1600m pour trouver un enneigement faible mais continu. 1800m pour trouver une épaisseur conséquente . 
  
-Qualité de la neige : neige plutôt froide et dense dès la sortie de la forêt. Le vent a travaillé le manteau neigeux mais la skiabilité reste généralement bonne. La neige demeure excellente dans les combes qui ont été épargnées par le vent. Les forts coups de vent ont dégarni les crêtes et formé précocement de grosses corniches.
-  ]]></TEXTE>
+Qualité de la neige :  neige croutée, sous 1800m au moins, là où le redoux de la veille avait humidifié la neige. Au dessus la neige va rester froide et toujours profonde dans les secteurs à l'abri du vent, plus dense et mieux portante dans les nombreux secteurs d'altitude qui ont été exposés au vent. Les crêtes et haut de pentes  sont même souvent assez dégarnies par le vent.
+Les versants sud raides vont s'alourdir voir s'humidifier en cours d'après midi.  ]]></TEXTE>
   </QUALITE>
-  <ENNEIGEMENT DATE="2026-11-26T00:00:00" LimiteSud="1400" LimiteNord="1300">
+  <ENNEIGEMENT DATE="2026-11-27T00:00:00" LimiteSud="1400" LimiteNord="1300">
     <NIVEAU ALTI="1500" N="20" S="15"/>
     <NIVEAU ALTI="2000" N="115" S="95"/>
     <NIVEAU ALTI="2500" N="125" S="105"/>
     <ImageEnneigement>montagne_enneigement_6.png</ImageEnneigement>
   </ENNEIGEMENT>
   <NEIGEFRAICHE ALTITUDESS="1800">
-    <NEIGE24H DATE="2026-11-23T00:00:00" SS24Min="30" SS24Max="50" RR24="10"/>
     <NEIGE24H DATE="2026-11-24T00:00:00" SS24Min="3" SS24Max="10" RR24="0"/>
     <NEIGE24H DATE="2026-11-25T00:00:00" SS24Min="3" SS24Max="3" RR24="0"/>
     <NEIGE24H DATE="2026-11-26T00:00:00" SS24Min="3" SS24Max="3" RR24="0"/>
-    <NEIGE24H DATE="2026-11-27T00:00:00" SS24Min="1" SS24Max="1" RR24="0"/>
+    <NEIGE24H DATE="2026-11-27T00:00:00" SS24Min="1" SS24Max="3" RR24="0"/>
     <NEIGE24H DATE="2026-11-28T00:00:00" SS24Min="0" SS24Max="0" RR24="0"/>
+    <NEIGE24H DATE="2026-11-29T00:00:00" SS24Min="0" SS24Max="0" RR24="0"/>
     <ImageNeigeFraiche>graphe_neige_fraiche_6.png</ImageNeigeFraiche>
   </NEIGEFRAICHE>
   <METEO ALTITUDEVENT1="2500" ALTITUDEVENT2="3500">
-    <COMMENTAIRE>Mer de nuage en entrée de vallée sous 1500 m, grand beau temps au dessus et fortes gelées le matin</COMMENTAIRE>
-    <ECHEANCE DATE="2026-11-27T06:00:00" FF1="10" DD1="SE" FF2="30" DD2="NO" ISO0="1800" PLUIENEIGE="-1" TEMPSSENSIBLE="1" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-11-27T12:00:00" FF1="15" DD1="O" FF2="25" DD2="NO" ISO0="1800" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-11-27T18:00:00" FF1="15" DD1="NO" FF2="40" DD2="NO" ISO0="1900" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
-    <ECHEANCE DATE="2026-11-28T00:00:00" FF1="15" DD1="NO" FF2="50" DD2="N" ISO0="1700" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
+    <COMMENTAIRE>Du vent transportant la neige nuit de vendredi à samedi sur hauts sommets , plus calme ensuite sous le soleil. Redoux marqué en sud l'après-midi.    </COMMENTAIRE>
+    <ECHEANCE DATE="2026-11-28T06:00:00" FF1="15" DD1="O" FF2="55" DD2="NO" ISO0="1700" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-11-28T12:00:00" FF1="10" DD1="NE" FF2="30" DD2="NE" ISO0="2600" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-11-28T18:00:00" FF1="5" DD1="NO" FF2="20" DD2="N" ISO0="2800" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2026-11-29T00:00:00" FF1="5" DD1="NE" FF2="15" DD2="N" ISO0="3100" PLUIENEIGE="-1" TEMPSSENSIBLE="0" MERNUAGES="-1"/>
     <ImageMeteo>apercu_meteo_6.png</ImageMeteo>
   </METEO>
   <BSH>
     <METEO>
-      <ECHEANCE DATE="2026-11-20T06:00:00" FF1="40" DD1="O" FF2="60" DD2="O" ISO0="1800" PLUIENEIGE="1500" TEMPSSENSIBLE="63"/>
-      <ECHEANCE DATE="2026-11-20T12:00:00" FF1="30" DD1="O" FF2="50" DD2="O" ISO0="1800" PLUIENEIGE="1500" TEMPSSENSIBLE="63"/>
-      <ECHEANCE DATE="2026-11-20T18:00:00" FF1="40" DD1="O" FF2="60" DD2="O" ISO0="1800" PLUIENEIGE="1500" TEMPSSENSIBLE="63"/>
-      <ECHEANCE DATE="2026-11-21T00:00:00" FF1="60" DD1="O" FF2="80" DD2="O" ISO0="1800" PLUIENEIGE="1500" TEMPSSENSIBLE="63"/>
       <ECHEANCE DATE="2026-11-21T06:00:00" FF1="55" DD1="O" FF2="80" DD2="O" ISO0="1800" PLUIENEIGE="1500" TEMPSSENSIBLE="61"/>
       <ECHEANCE DATE="2026-11-21T12:00:00" FF1="25" DD1="O" FF2="40" DD2="O" ISO0="1800" PLUIENEIGE="1400" TEMPSSENSIBLE="81"/>
       <ECHEANCE DATE="2026-11-21T18:00:00" FF1="20" DD1="O" FF2="40" DD2="O" ISO0="2400" PLUIENEIGE="-1" TEMPSSENSIBLE="1"/>
@@ -93,17 +93,16 @@ Qualité de la neige : neige plutôt froide et dense dès la sortie de la forêt
       <ECHEANCE DATE="2026-11-25T12:00:00" FF1="45" DD1="E" FF2="50" DD2="S" ISO0="2000" PLUIENEIGE="1500" TEMPSSENSIBLE="80"/>
       <ECHEANCE DATE="2026-11-25T18:00:00" FF1="45" DD1="E" FF2="50" DD2="SE" ISO0="1900" PLUIENEIGE="1500" TEMPSSENSIBLE="80"/>
       <ECHEANCE DATE="2026-11-26T00:00:00" FF1="15" DD1="O" FF2="25" DD2="NO" ISO0="1600" PLUIENEIGE="1300" TEMPSSENSIBLE="61"/>
-      <ECHEANCE DATE="2026-11-26T06:00:00" FF1="20" DD1="NE" FF2="30" DD2="SE" ISO0="1900" PLUIENEIGE="1500" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2026-11-26T06:00:00" FF1="20" DD1="NE" FF2="30" DD2="SE" ISO0="1900" PLUIENEIGE="1500" TEMPSSENSIBLE="61"/>
       <ECHEANCE DATE="2026-11-26T12:00:00" FF1="15" DD1="NO" FF2="40" DD2="NE" ISO0="1600" PLUIENEIGE="1300" TEMPSSENSIBLE="61"/>
-      <ECHEANCE DATE="2026-11-26T18:00:00" FF1="15" DD1="O" FF2="40" DD2="NE" ISO0="1700" PLUIENEIGE="1300" TEMPSSENSIBLE="80"/>
-      <ECHEANCE DATE="2026-11-27T00:00:00" FF1="5" DD1="N" FF2="40" DD2="NE" ISO0="1900" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
+      <ECHEANCE DATE="2026-11-26T18:00:00" FF1="15" DD1="O" FF2="40" DD2="NE" ISO0="1700" PLUIENEIGE="1300" TEMPSSENSIBLE="61"/>
+      <ECHEANCE DATE="2026-11-27T00:00:00" FF1="5" DD1="N" FF2="40" DD2="NE" ISO0="1900" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
+      <ECHEANCE DATE="2026-11-27T06:00:00" FF1="10" DD1="SE" FF2="30" DD2="NO" ISO0="1800" PLUIENEIGE="-1" TEMPSSENSIBLE="7"/>
+      <ECHEANCE DATE="2026-11-27T12:00:00" FF1="15" DD1="O" FF2="25" DD2="NO" ISO0="1800" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
+      <ECHEANCE DATE="2026-11-27T18:00:00" FF1="15" DD1="NO" FF2="40" DD2="NO" ISO0="1900" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
+      <ECHEANCE DATE="2026-11-28T00:00:00" FF1="15" DD1="NO" FF2="50" DD2="N" ISO0="1700" PLUIENEIGE="-1" TEMPSSENSIBLE="0"/>
     </METEO>
     <ENNEIGEMENTS>
-      <ENNEIGEMENT DATE="2026-11-20T00:00:00" LimiteSud="1300" LimiteNord="1300">
-        <NIVEAU ALTI="1500" N="8" S="8"/>
-        <NIVEAU ALTI="2000" N="60" S="40"/>
-        <NIVEAU ALTI="2500" N="90" S="70"/>
-      </ENNEIGEMENT>
       <ENNEIGEMENT DATE="2026-11-21T00:00:00" LimiteSud="1400" LimiteNord="1400">
         <NIVEAU ALTI="1500" N="8" S="8"/>
         <NIVEAU ALTI="2000" N="80" S="60"/>
@@ -134,23 +133,28 @@ Qualité de la neige : neige plutôt froide et dense dès la sortie de la forêt
         <NIVEAU ALTI="2000" N="115" S="95"/>
         <NIVEAU ALTI="2500" N="125" S="105"/>
       </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2026-11-27T00:00:00" LimiteSud="1400" LimiteNord="1300">
+        <NIVEAU ALTI="1500" N="20" S="15"/>
+        <NIVEAU ALTI="2000" N="115" S="95"/>
+        <NIVEAU ALTI="2500" N="125" S="105"/>
+      </ENNEIGEMENT>
     </ENNEIGEMENTS>
     <NEIGEFRAICHE ALTITUDESS="1800">
-      <NEIGE24H DATE="2026-11-21T00:00:00" SS24Min="20" SS24Max="30"/>
       <NEIGE24H DATE="2026-11-22T00:00:00" SS24Min="1" SS24Max="5"/>
       <NEIGE24H DATE="2026-11-23T00:00:00" SS24Min="30" SS24Max="50"/>
       <NEIGE24H DATE="2026-11-24T00:00:00" SS24Min="3" SS24Max="10"/>
       <NEIGE24H DATE="2026-11-25T00:00:00" SS24Min="3" SS24Max="3"/>
       <NEIGE24H DATE="2026-11-26T00:00:00" SS24Min="3" SS24Max="3"/>
+      <NEIGE24H DATE="2026-11-27T00:00:00" SS24Min="1" SS24Max="3"/>
     </NEIGEFRAICHE>
     <RISQUES>
-      <RISQUE DATE="2026-11-20T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-11-21T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-11-22T00:00:00" RISQUEMAXI="4"/>
       <RISQUE DATE="2026-11-23T00:00:00" RISQUEMAXI="4"/>
       <RISQUE DATE="2026-11-24T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-11-25T00:00:00" RISQUEMAXI="3"/>
       <RISQUE DATE="2026-11-26T00:00:00" RISQUEMAXI="3"/>
+      <RISQUE DATE="2026-11-27T00:00:00" RISQUEMAXI="3"/>
     </RISQUES>
     <Image7derniersjours>sept_derniers_jours_6.png</Image7derniersjours>
     <Image7derniersjours_portrait>sept_derniers_jours_portrait_6.png</Image7derniersjours_portrait>

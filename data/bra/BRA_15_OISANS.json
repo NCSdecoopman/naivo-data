@@ -3,30 +3,30 @@
   "massif": "Oisans",
   "bulletin": {
     "id": 15,
-    "issued_at": "2026-11-26T17:00:00",
-    "valid_until": "2026-11-27T18:00:00",
+    "issued_at": "2026-11-27T16:00:00",
+    "valid_until": "2026-11-28T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 3,
-      "comment": "Au-dessus de 1800m indice de risque marqué, plus bas indice limité.",
+      "comment": "Au-dessus de 2400m indice de risque marqué, plus bas indice limité.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 1800,
+        "threshold_m": 2400,
         "split_axis": "horizontal",
-        "split_label": "1800m",
+        "split_label": "2400m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1800",
+            "loc": "<2400",
             "risk": 2,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">1800",
+            "loc": ">2400",
             "risk": 3,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "1800m"
+          "label": "2400m"
         },
         "zones": {
           "bottom": {
@@ -54,9 +54,9 @@
       },
       "j2": {
         "max_level": 3,
-        "date": "2026-11-28",
+        "date": "2026-11-29",
         "label": "Indice de risque marqué",
-        "comment": "Manteau qui va progressivement se stabiliser à la faveur d'un temps sec et ensoleillé.",
+        "comment": "Dimanche, ciel de plus en plus voilé au fil des heures, dans une atmosphère toujours douce. Le manteau neigeux se tasse et se stabilise progressivement, mais le risque accidentel reste localement marqué, surtout dans les versants froids d'altitude.",
         "trend": "steady"
       }
     },
@@ -78,23 +78,17 @@
       }
     },
     "sat": {
-      "primary": 1,
-      "secondary": 2,
+      "primary": 2,
+      "secondary": 4,
       "labels": {
-        "1": "Neige fraîche",
-        "2": "Neige ventée"
+        "2": "Neige ventée",
+        "4": "Neige humide"
       },
-      "icon_key": "sat-1"
+      "icon_key": "sat-2"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-11-23",
-          "min_cm": 20,
-          "max_cm": 40,
-          "rain_mm": 30.0
-        },
         {
           "date": "2026-11-24",
           "min_cm": 0,
@@ -109,34 +103,39 @@
         },
         {
           "date": "2026-11-26",
-          "min_cm": 30,
-          "max_cm": 40
+          "min_cm": 6,
+          "max_cm": 9
         },
         {
           "date": "2026-11-27",
-          "min_cm": 3,
-          "max_cm": 5
+          "min_cm": 1,
+          "max_cm": 1
         },
         {
           "date": "2026-11-28",
           "min_cm": 0,
           "max_cm": 0
+        },
+        {
+          "date": "2026-11-29",
+          "min_cm": 0,
+          "max_cm": 0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 3,
-        "last_48h_max_cm": 5
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "INSTABILITES DANS LA NEIGE FRAICHE VENTEE DE CES DERNIERS JOURS EN ALTITUDE",
-      "text": "INSTABILITES DANS LA NEIGE FRAICHE VENTEE DE CES DERNIERS JOURS EN ALTITUDE\n\n20/30cm, localement 40cm sur le massif. Cumuls au-dessus de 1600/1800m.\n\nDéclenchements provoqués : \nAu-dessus de 1600/1800m, la neige fraîche tombée depuis 2 jours comportent de nombreuses instabilités.  Elles peuvent parfois être déclenchées au passage d'un seul skieur, avec des volumes mobilisables importants. Les cassures peuvent atteindre 60 à 80cm, voire dépasser 1m dans les accumulations des secteurs exposés au vent. Ces plaques sont souvent difficiles à déceler, d'aspect poudreuses, d'autant plus qu'elles sont recouvertes par une fine couche de neige moins ventée. \nLe vent de Nord / Nord-Est était fort ces derniers jours et perdure encore, il va venir former de nouvelles plaques qui pourront être temporairement très réactives. Plus facilement identifiables, avec des signes de transport en cours. \n\nDéparts spontanés : \nVendredi en journée, quelques départs spontanés seront à nouveau possibles avec le vent de Nord encore présent et la neige récente avec d'importantes accumulations par endroits, principalement dans les versants sous le vent, au-dessus de 2200/2400m. \nL'après-midi, à la faveur de quelques éclaircies, quelques avalanches en versants ensoleillés peuvent se produire spontanément, elles sont la plupart du temps de taille petite à moyenne.",
+      "title": "NOUVELLES PLAQUES EN ALTITUDE, SENSIBLES AU PASSAGE D'UN SKIEUR",
+      "text": "NOUVELLES PLAQUES EN ALTITUDE, SENSIBLES AU PASSAGE D'UN SKIEUR\n\nDéclenchements provoqués : \nDans la nuit de vendredi à samedi, de nouvelles plaques se forment en altitude sous l'effet du vent de Nord. Elles seront surtout présentes au-dessus de 2400m, et pourront être bien réactives dans un large secteur Nord (là où la neige est restée froide et légère en surface avant l'épisode de vent). En versants Sud les plaques seront moins réactives mais les instabilités seront malgré tout présentes, et les cassures pourraient y être plus épaisses, avec des accumulations plus importantes sous l'effet du vent de Nord. \nObservables : Neige ventée en surface et plus légère en profondeur (test du bâton), fissures sous les skis. \nD'anciennes plaques de neige ventée plus épaisses sont encore présentes en tout versants, elles sont en cours de stabilisation mais peuvent rester localement réactives au passage d'un skieur. Plus difficiles à déceler car parfois recouvertes de neige légère / peu ventée. \n\nDéparts spontanés :\n* Dans la nuit de vendredi à samedi, de nouvelles accumulations se forment sous l'effet du vent de Nord. Dans quelques cas des plaques pourraient céder sous leurs propres poids, générant des avalanches de tailles moyenne. Risque en baisse samedi en journée avec l'affaiblissement rapide du vent. \n* En journée de samedi, la neige s'humidifie rapidement dans les versants Sud de moyenne montagne sous l'effet du soleil et du redoux. Quelques avalanches de neige humide pourraient partir spontanément, préférentiellement dans les pentes raides, sous les rochers. Les avalanches pourront être de tailles moyenne, avec des volumes de neige récente parfois importants dés 2000m. \n* En Sud sous 2400m, quelques départs au terrain restent possibles en pente raide herbeuse. Ces avalanches de glissement ne sont pas toujours précédés de signes avant coureurs tels que l'ouverture de gueules de baleines.",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Qualification de l'enneigement : L'enneigement continue à s'améliorer. Il est bon pour la saison dès 1600/1800m, et très bon en haute montagne. Enneigement assez irrégulier en altitude, avec alternance de zones érodées et d'accumulations parfois conséquentes, ainsi que des corniches du aux épisodes de vent successif.\nLimites skiables : Dés 1400 / 1500m dans les clairières. Pas assez de sous-couche pour skier en forêt... \n\nQualité de la neige : Quelques cm de neige fraîche humide entre 1200 et 1500m. Au-dessus de 1500m, 20-30cm de neige fraîche plus légère. L'épaisseur de neige fraîche augmente sensiblement avec l'altitude, avec 30-40cm dés 2000m, et plus de 50cm en haute montagne. Sur le haut du massif, neige plus dense dans les secteurs exposés au vent.",
+      "text": "Qualification de l'enneigement : L'enneigement est bon pour la saison dès 1600/1800m, et très bon en haute montagne. \nLimites skiables : Dés 1400 / 1500m dans les clairières. Pas assez de neige pour skier en forêt... \n\nQualité de la neige : Samedi matin, neige poudreuse légère dans la plupart des versants sous 2400m. Plus haut, qualité de neige variable, avec une poudreuse parfois dense voire une neige dure là où elle a été exposée au vent. En journée, la neige reste froide et agréable à skier en versants Nord et Est, mais va s'humidifier en secteurs Sud en journée, surtout sous 2800m. Plus haut, elle pourra s'alourdir mais devrait rester sèche.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
@@ -152,13 +151,13 @@
         },
         {
           "alt_m": 2000,
-          "N": 95,
-          "S": 90
+          "N": 90,
+          "S": 85
         },
         {
           "alt_m": 2500,
-          "N": 200,
-          "S": 180
+          "N": 195,
+          "S": 175
         }
       ],
       "icon_key": "snowpack",

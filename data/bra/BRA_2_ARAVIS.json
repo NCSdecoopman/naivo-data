@@ -3,30 +3,30 @@
   "massif": "Aravis",
   "bulletin": {
     "id": 2,
-    "issued_at": "2026-11-26T16:00:00",
-    "valid_until": "2026-11-27T18:00:00",
+    "issued_at": "2026-11-27T16:00:00",
+    "valid_until": "2026-11-28T18:00:00",
     "amended": false
   },
   "evalbra": {
     "risk": {
       "max_level": 2,
-      "comment": "Au-dessus de 1800m indice de risque limité, plus bas indice faible.",
+      "comment": "Au-dessus de 1700m indice de risque limité, plus bas indice faible.",
       "localization": {
         "type": "altitude",
-        "threshold_m": 1800,
+        "threshold_m": 1700,
         "split_axis": "horizontal",
-        "split_label": "1800m",
+        "split_label": "1700m",
         "zones": [
           {
             "id": "zone1",
-            "loc": "<1800",
+            "loc": "<1700",
             "risk": 1,
             "evolution_to": null,
             "position": "bottom"
           },
           {
             "id": "zone2",
-            "loc": ">1800",
+            "loc": ">1700",
             "risk": 2,
             "evolution_to": null,
             "position": "top"
@@ -37,7 +37,7 @@
         "template": "mf_mountain_risk_v1",
         "split": {
           "axis": "horizontal",
-          "label": "1800m"
+          "label": "1700m"
         },
         "zones": {
           "bottom": {
@@ -54,22 +54,22 @@
       },
       "j2": {
         "max_level": 2,
-        "date": "2026-11-28",
+        "date": "2026-11-29",
         "label": "Indice de risque limité",
-        "comment": "Le vent continue de souffler près des crêtes, venant entretenir les instabilités temporaires. Le risque est stationnaire.",
+        "comment": "Journée anticyclonique, ensoleillée. \nL'humidification continue sa progression en profondeur dans le manteau neigeux.",
         "trend": "steady"
       }
     },
     "dangerous_aspects": {
       "aspects": {
-        "N": true,
-        "NE": true,
-        "E": true,
-        "SE": false,
-        "S": false,
-        "SW": false,
-        "W": false,
-        "NW": true
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": false
       },
       "icon_key": "rose-aspects",
       "image": {
@@ -78,23 +78,17 @@
       }
     },
     "sat": {
-      "primary": 2,
+      "primary": 4,
       "secondary": 5,
       "labels": {
-        "2": "Neige ventée",
+        "4": "Neige humide",
         "5": "Avalanche de fond"
       },
-      "icon_key": "sat-2"
+      "icon_key": "sat-4"
     },
     "precip_cumulated": {
       "reference_altitude_m": 1800,
       "fresh_snow_24h": [
-        {
-          "date": "2026-11-23",
-          "min_cm": 30,
-          "max_cm": 40,
-          "rain_mm": 20.0
-        },
         {
           "date": "2026-11-24",
           "min_cm": 3,
@@ -115,8 +109,8 @@
         },
         {
           "date": "2026-11-27",
-          "min_cm": 1,
-          "max_cm": 3,
+          "min_cm": 0,
+          "max_cm": 2,
           "rain_mm": 0.0
         },
         {
@@ -124,28 +118,34 @@
           "min_cm": 0,
           "max_cm": 0,
           "rain_mm": 0.0
+        },
+        {
+          "date": "2026-11-29",
+          "min_cm": 0,
+          "max_cm": 0,
+          "rain_mm": 0.0
         }
       ],
       "totals": {
-        "last_48h_min_cm": 1,
-        "last_48h_max_cm": 3
+        "last_48h_min_cm": 0,
+        "last_48h_max_cm": 0
       },
       "icon_key": "snowfall"
     },
     "stability": {
-      "title": "Instabilités en altitude dans la neige ventée.",
-      "text": "Instabilités en altitude dans la neige ventée.\n\nDéclenchements provoqués :\n* Sur le haut des combes de la crête principale des Aravis, des plaques à vent se forment tout au long de la journée sous le vent de Nord. Ces plaques sont présentes dans la neige récente et plus on monte en altitude, plus elles sont nombreuses. Taille 2, parfois 3 (moyenne à grande).\n* Observables : Fissures sous les skis, zone d'accumulations, ...\n* Ailleurs, on peut retrouver quelques plaques à vent mais celles-ci sont principalement cantonnées près des crêtes/sommets. Les avalanches concernées sont plutôt de taille 2 (moyenne).\n\nDéparts spontanés :\n* Des avalanches de glissement sont possibles à toutes heures du jour et de la nuit. Elles sont possibles sur les terrains lisses, comme les dalles rocheuses, les vires ou les pentes herbeuses. Taille 1 à 2 (petite à moyenne).\n* En altitude (là où la neige est restée froide), une plaque à vent pourrait céder naturellement sous la surcharge liée au transport par le vent. Taille 1 à 2 (petite à moyenne).",
+      "title": "Le manteau neigeux s'humidifie en surface sous le réchauffement diurne.",
+      "text": "Le manteau neigeux s'humidifie en surface sous le réchauffement diurne. \n\nDéparts spontanés :\n* Départs en neige humide, notamment dans les pentes raides exposées au soleil et vers les rochers. Plus nombreux au fil du réchauffement diurne. Possibles à toute altitude, mais plus nombreux au-dessus de 1700 m. Taille 1 (petite) à 2 (moyenne). \n* Plaques de fond. Départs possibles dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit, mais plus nombreuses au fil de la journée.\n\nDéclenchements provoqués :\n* De la neige humide peut couler sous les skis avec le réchauffement diurne. Possible à toute altitude, mais plus grosses au-dessus de 1700 m. De plus en plus nombreuses au fil de la journée et principalement en larges versants Sud, dans les pentes raides. Taille 1 (petite) à 2 (moyenne). \n* Au-dessus de 1900/2100 m : une plaque à vent n'est pas exclue mais elles sont plus rares. Principalement présentes dans les pentes qui sont restées à l'ombre. Taille 1 (petite), voire 2 (moyenne).",
       "sections": null,
       "icon_key": "stability"
     },
     "snow_quality": {
-      "text": "Enneigement : \nPour la saison, l’enneigement est excédentaire à toutes altitudes. On peut chausser les skis au-dessus de 1300 m. \nPrésence de grosses corniches et congères. \n\nQualité de la neige ce jeudi matin :\n* Sous 1800 m : neige dense, un peu alourdie en surface. Cette neige est croutée en surface mais s'humidifie très rapidement avec le soleil.\n* Au-delà de 1800 m : neige froide, assez dense, parfois travaillée par le vent. Toutefois, cette neige reste principalement poudreuse, sauf près des crêtes et des sommets où le fort vent a pu les décaper.",
+      "text": "Enneigement : \nPour la saison, l’enneigement est excédentaire à toutes altitudes. On peut chausser les skis au-dessus de 1300 m. Peu de neige à cette altitude mais l'épaisseur augmente vite en montant en altitude. \n\nQualité de la neige ce samedi :\n* Sous 1900 m en nord et 2100 m en sud : La neige est alourdie en surface mais reste fraîche en dessous, ce qui donne un aspect assez dense. Croute de regel non portante le matin, puis la croute se ramolli rapidement avec l'arrivée du soleil. \n* Au-dessus de 1900/2100 m : la neige est encore froide/poudreuse, surtout dans les pentes à l'ombre, mais au fil de la journée, la neige va s'alourdir en surface sous l'effet du redoux. Le manteau neigeux se tasse.",
       "icon_key": "snow-quality"
     },
     "snowpack": {
       "limits_m": {
-        "north": 1200,
-        "south": 1200
+        "north": 1300,
+        "south": 1300
       },
       "levels_cm": [
         {
